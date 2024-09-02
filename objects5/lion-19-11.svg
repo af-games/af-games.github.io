@@ -1,0 +1,19 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Perimeter -->
+  <rect x="100" y="100" width="600" height="400" stroke="black" fill="none"/>
+
+  <!-- Clue 1: The main suspect's path -->
+  <path d="M250,175 Q350,200 450,175" stroke="red" stroke-width="5"/>
+
+  <!-- Clue 2: The victim's path -->
+  <path d="M600,275 Q400,350 250,275" stroke="blue" stroke-width="5"/>
+
+  <!-- Clue 3: The motive (diamond) -->
+  <polygon points="450,125 550,125 550,225 450,225" fill="yellow" stroke="black"/>
+  <text x="475" y="160" font-family="Verdana" font-size="30">Diamond</text>
+
+  <!-- Clue 4: The intersection of paths -->
+  <circle cx="350" cy="200" r="20" fill="green"/>
+
+</svg>

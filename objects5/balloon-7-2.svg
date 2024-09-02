@@ -1,0 +1,20 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#fff"/>
+  <defs>
+    <radialGradient id="balloonGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ffd700; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fff; stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Balloon Body -->
+  <path d="M50,20 Q60,40 70,30 Q80,40 90,20 Q95,15 100,20 Q95,25 90,20 Q80,40 70,30 Z"
+        fill="url(#balloonGradient)" stroke="#ffcc00" stroke-width="2"/>
+
+  <!-- Balloon String -->
+  <path d="M100,20 L100,50" stroke="#333" stroke-width="3"/>
+
+  <!-- Balloon Shadow (for depth) -->
+  <rect x="97" y="45" width="6%" height="15%" fill="#888"/>
+</svg>

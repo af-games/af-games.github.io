@@ -1,0 +1,27 @@
+<svg width="30cm" height="40cm" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bodice Front -->
+  <rect x="5cm" y="7.5cm" width="15cm" height="20cm"
+    style="fill: url(#gradient1); stroke: none;" id="bodiceFront"/>
+
+  <!-- Bodice Back -->
+  <use href="#bodiceFront" x="5cm" y="30cm"/>
+
+  <!-- Sleeves -->
+  <circle cx="4.5cm" cy="12.5cm" r="3.75cm"
+    style="fill: url(#gradient1); stroke: none;" id="sleeve"/>
+  <use href="#sleeve" x="8cm" y="12.5cm"/>
+  <use href="#sleeve" x="4.5cm" y="30cm"/>
+  <use href="#sleeve" x="8cm" y="30cm"/>
+
+  <!-- Jellyfish Bell -->
+  <circle cx="7.5cm" cy="42.5cm" r="15cm"
+    style="fill: url(#gradient2); stroke: none;"/>
+
+  <!-- Tentacles -->
+  <ellipse cx="6cm" cy="40cm" rx="2.5cm" ry="5cm"
+    style="fill: #FFFFFF;" id="tentacle"/>
+  <use href="#tentacle" x="9cm" y="37.5cm"/>
+  <!-- Repeat for remaining tentacles... -->
+
+</svg>

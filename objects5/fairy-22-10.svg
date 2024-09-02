@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" preserveAspectRatio="xMidYMid meet">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="600" fill="#FFF4E0"/>
+
+  <!-- Fairy's body (main pane) -->
+  <polygon points="250,100 375,200 125,200" style="fill:linear-gradient(90deg, #FFC3A0, #FFA07A);"/>
+
+  <!-- Fairy's hair (organic pattern) -->
+  <path d="M250,80 Q160,140 250,200 Q340,140 250,80" style="fill:linear-gradient(90deg, #FFB6C1, #FF69B4)"/>
+
+  <!-- Fairy's eyes -->
+  <circle cx="275" cy="175" r="25" fill="#FFF"/>
+  <circle cx="225" cy="175" r="25" fill="#FFF"/>
+
+  <!-- Fairy's mouth and smile -->
+  <path d="M200,225 Q250,300 300,225" style="fill:transparent; stroke:#FF69B4; stroke-width:10"/>
+
+  <!-- Borders (geometric patterns) -->
+
+  <!-- Border for body -->
+  <polygon points="248,100 373,200 123,200" style="fill:transparent; stroke:#FF69B4; stroke-width:5"/>
+
+  <!-- Border for hair -->
+  <path d="M250,80 Q160,140 250,200 Q340,140 250,80" style="fill:transparent; stroke:#FF69B4; stroke-width:5"/>
+
+</svg>

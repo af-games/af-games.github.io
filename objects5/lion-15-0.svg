@@ -1,0 +1,36 @@
+<svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="180" cy="170" rx="110" ry="80" fill="#FFD700"/>
+  <ellipse cx="90" cy="240" rx="35" ry="60" fill="#8B4513"/>
+  <ellipse cx="190" cy="240" rx="35" ry="60" fill="#8B4513"/>
+
+  <!-- Legs -->
+  <ellipse cx="50" cy="180" rx="30" ry="50" fill="#8B4513"/>
+  <ellipse cx="200" cy="180" rx="30" ry="50" fill="#8B4513"/>
+  <ellipse cx="90" cy="230" rx="30" ry="50" fill="#8B4513"/>
+  <ellipse cx="170" cy="230" rx="30" ry="50" fill="#8B4513"/>
+
+  <!-- Head -->
+  <ellipse cx="180" cy="90" rx="75" ry="75" fill="#FFD700"/>
+
+  <!-- Eyes -->
+  <circle cx="130" cy="70" r="20" fill="#000"/>
+  <circle cx="210" cy="70" r="20" fill="#000"/>
+
+  <!-- Mouth -->
+  <path d="M140,90 Q150,80 160,90 Q170,80 180,90" stroke="white" fill="transparent"/>
+
+  <!-- Mane -->
+  <polygon points="120,30 140,35 160,30" fill="#FFA500"/>
+  <polygon points="100,40 120,50 140,40" fill="#FFA500"/>
+  <!-- More mane polygons and semicircles omitted for brevity -->
+
+  <!-- Ears -->
+  <rect x="70" y="30" width="20" height="30" fill="#8B4513"/>
+  <rect x="180" y="30" width="20" height="30" fill="#8B4513"/>
+
+  <!-- Tail -->
+  <path d="M270,180 Q290,160 300,140" stroke="#FFA500" fill="transparent"/>
+
+</svg>

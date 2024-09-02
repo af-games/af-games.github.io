@@ -1,0 +1,24 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Body -->
+  <circle cx="100" cy="50" r="40"
+    fill="url(#balloonGradient)" stroke="black" stroke-width="2"/>
+
+  <!-- Balloon Tail (Triangles) -->
+  <polygon points="60,190 140,190 100,280"
+    fill="lightblue" />
+
+  <!-- String -->
+  <path d="M50,20 L50,70 150,70 Z"
+    stroke="black" stroke-width="3"/>
+
+  <!-- Gradient for Balloon Body -->
+  <defs>
+    <linearGradient id="balloonGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:lightgrey;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:lightgrey;stop-opacity:.7" />
+      <stop offset="100%" style="stop-color:white;stop-opacity:.3" />
+    </linearGradient>
+  </defs>
+
+</svg>

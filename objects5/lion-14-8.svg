@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Savannah -->
+  <rect x="100" y="400" width="600" height="200"
+        fill="#E5DE9C" stroke="none" />
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="400"
+        fill="#AEDFF7" stroke="none" />
+
+  <!-- Sun -->
+  <circle cx="750" cy="100" r="30"
+          fill="#FFF600" stroke="none" opacity="0.9" />
+
+  <!-- Lion's Body (Complex path for the lion) -->
+  <path d="M400,200 Q450,180 500,200 Q450,220 400,240 Q350,220 250,200"
+        fill="#FFB973" stroke="black" stroke-width="2" opacity="0.8"/>
+
+  <!-- Lion's Mane -->
+  <path d="M350,160 A150,150 0 1,0 450,160 A150,150 0 1,0 350,160"
+        fill="#FFD700" stroke="none"/>
+
+  <!-- Lion's Eyes -->
+  <circle cx="375" cy="180" r="10" fill="#FFFFFF"/>
+  <circle cx="425" cy="180" r="10" fill="#FFFFFF"/>
+
+</svg>

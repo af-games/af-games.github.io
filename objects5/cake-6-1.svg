@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Base -->
+  <path d="M100,50 Q90,80 70,100 Q50,80 40,50 L60,50 Z" fill="#F5DEB3"/>
+
+  <!-- Cake Top -->
+  <polygon points="20,100 40,150 60,100" fill="#FFD700"/>
+
+  <!-- Candle (first candle) -->
+  <circle cx="90" cy="140" r="8" fill="#F39C12"/>
+  <circle cx="90" cy="135" r="6" fill="#FFF"/>
+
+  <!-- Candle (second candle) -->
+  <circle cx="110" cy="140" r="8" fill="#F39C12"/>
+  <circle cx="110" cy="135" r="6" fill="#FFF"/>
+</svg>

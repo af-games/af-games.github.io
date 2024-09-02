@@ -1,0 +1,22 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Wall -->
+  <rect x="80" y="170" width="240" height="180" fill="#9F8A7D"/>
+
+  <!-- Left Tower -->
+  <polygon points="50,50 220,50 130,160" fill="#9F8A7D"/>
+  <circle cx="130" cy="40" r="40" fill="#9F8A7D"/>
+
+  <!-- Right Tower -->
+  <polygon points="270,50 50,50 160,160" fill="#9F8A7D"/>
+  <circle cx="270" cy="40" r="40" fill="#9F8A7D"/>
+
+  <!-- Gate -->
+  <rect x="135" y="170" width="70" height="180" fill="#9F8A7D"/>
+  <path d="M165,250 Q185,240 205,250" stroke="#9F8A7D"/>
+
+  <!-- Roofs -->
+  <polygon points="30,50 320,50 220,10" fill="#6B5347"/>
+  <polygon points="50,170 250,170 150,220" fill="#6B5347"/>
+
+</svg>

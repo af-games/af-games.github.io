@@ -1,0 +1,33 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dolphin outline -->
+  <path id="dolphin-outline" d="M10 80 Q20 10, 50 40 Q70 60, 90 30 Q120 50, 150 70 Q180 90, 200 60 Z"/>
+
+  <!-- Dolphin eye -->
+  <path id="dolphin-eye" d="M130 45 a5 5 0 1 0 -10 0 a5 5 0 1 0 10 0"/>
+
+  <!-- Hidden message -->
+  <path id="message" d="M90 65 T120 75 M95 55 T115 45"/>
+
+  <!-- SVG mask to reveal dolphin outline and eye -->
+  <mask id="dolphin-mask">
+    <rect width="300" height="200" fill="white"/>
+    <path d="M10 80 Q20 10, 50 40 Q70 60, 90 30 Q120 50, 150 70 Q180 90, 200 60 Z"/>
+    <path d="M130 45 a5 5 0 1 0 -10 0 a5 5 0 1 0 10 0"/>
+  </mask>
+
+  <!-- Apply mask to reveal dolphin outline and eye -->
+  <g mask="url(#dolphin-mask)">
+    <path id="dolphin-outline" fill="#0099ff"/>
+
+    <!-- SVG mask to reveal message -->
+    <mask id="message-mask">
+      <rect width="300" height="200" fill="black"/>
+      <path d="M90 65 T120 75 M95 55 T115 45"/>
+    </mask>
+
+    <!-- Apply message mask to reveal hidden message -->
+    <g mask="url(#message-mask)">
+      <text x="95" y="80">SOLVED</text>
+    </g>
+  </g>
+</svg>

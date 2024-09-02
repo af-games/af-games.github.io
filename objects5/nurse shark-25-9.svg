@@ -1,0 +1,27 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Grid -->
+<rect x="0" y="0" width="500" height="500" fill="none" stroke="gray"/>
+<line x1="0" y1="0" x2="500" y2="0" stroke="gray"/>
+<line x1="0" y1="0" x2="0" y2="500" stroke="gray"/>
+<line x1="50" y1="50" x2="450" y2="450" stroke="gray" stroke-dasharray="5,5"/>
+<line x1="100" y1="100" x2="400" y2="400" stroke="gray" stroke-dasharray="5,5"/>
+
+<!-- Clues (small shapes) -->
+<circle cx="75" cy="75" r="10" fill="#ff3399"/>
+<circle cx="225" cy="225" r="10" fill="#ff66cc"/>
+<circle cx="450" cy="150" r="10" fill="#ff99ff"/>
+
+<!-- Suspects (medium shapes) -->
+<rect x="50" y="200" width="80" height="60" fill="#33b5e5"/>
+<circle cx="250" cy="200" r="40" fill="#99ccff"/>
+
+<!-- Culprits (large shapes) -->
+<polygon points="375,100 425,150 375,200" fill="#0066cc"/>
+<path d="M50,350 Q75,325 100,350 Q125,375 150,350" stroke-width="5" fill="#3399ff"/>
+
+<!-- Alibis -->
+<text x="50" y="450" font-size="24">Suspects' alibis checked out</text>
+<text x="200" y="450" font-size="24">Culprits found at scene of the crime</text>
+
+</svg>

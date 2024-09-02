@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Body -->
+  <path d="M100,200 Q200,100 300,200 T400,200" fill="lightblue"/>
+  <!-- Tail -->
+  <path d="M400,200 Q350,300 300,250 T250,300 L100,200 Z" fill="lightblue"/>
+  <!-- Head -->
+  <circle cx="75" cy="150" r="50" fill="lightpink"/>
+  <!-- Hair -->
+  <path d="M60,80 Q40,30 100,20 Q160,30 120,80 Z" stroke="black" fill="transparent"/>
+  <!-- Eyes -->
+  <circle cx="75" cy="90" r="10" fill="white">
+    <circle cx="75" cy="90" r="5" fill="black"/>
+  </circle>
+  <circle cx="125" cy="90" r="10" fill="white">
+    <circle cx="125" cy="90" r="5" fill="black"/>
+  </circle>
+</svg>

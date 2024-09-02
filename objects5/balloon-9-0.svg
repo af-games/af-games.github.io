@@ -1,0 +1,16 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon -->
+  <ellipse cx="100" cy="80" rx="90" ry="50"
+           fill="#FFFF00"/>
+  <path d="M100,80 Q50,5 L100,20 Z"/>
+
+  <!-- String -->
+  <polyline points="100,20 100,40 100,60 100,80"
+            stroke="#FF0000" fill="transparent"/>
+
+  <!-- Tassel -->
+  <circle cx="100" cy="75" r="3"
+          stroke="#FF0000" fill="#FF0000"/>
+
+</svg>

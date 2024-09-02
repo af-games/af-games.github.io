@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+<!-- Background gradient -->
+<defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:lightblue;stop-opacity:1"/>
+        <stop offset="100%" style="stop-color:white;stop-opacity:1"/>
+    </linearGradient>
+</defs>
+
+<rect width="500" height="400" fill="url(#grad1)"/>
+
+<!-- Penguin body -->
+<ellipse cx="250" cy="300" rx="90" ry="150" fill="#76b2c9">
+    <animate attributeName="opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite"/>
+</ellipse>
+
+<!-- Penguin belly -->
+<circle cx="250" cy="300" r="80" fill="#f6e6af"/>
+
+<!-- Penguin head -->
+<ellipse cx="250" cy="220" rx="40" ry="80" fill="#76b2c9">
+    <animate attributeName="opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite"/>
+</ellipse>
+
+<!-- Penguin eye -->
+<circle cx="230" cy="215" r="8" fill="black"/>
+
+<!-- Penguin beak -->
+<path d="M240 210 Q260 200, 270 210" stroke="#ffdead" fill="transparent" stroke-width="5"/>
+
+<!-- Penguin flippers -->
+<g>
+    <path d="M230 290 Q200 340, 180 300" stroke="#76b2c9" fill="transparent" stroke-width="10"/>
+    <path d="M270 290 Q300 340, 320 300" stroke="#76b2c9" fill="transparent" stroke-width="10"/>
+</g>
+
+<!-- Penguin feet -->
+<rect x="220" y="350" width="60" height="50" rx="10" fill="#76b2c9"/>
+
+</svg>

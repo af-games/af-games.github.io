@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Ground -->
+<rect x="0" y="50" width="800" height="50" fill="#4d2b1a"/>
+
+<!-- Balloon Envelope -->
+<ellipse cx="400" cy="150" rx="100" ry="150" fill="#ffc300"/>
+<path d="M400 60 Q400 175, 200 300, 600 300" stroke="#ffc300" fill="transparent"/>
+
+<!-- Basket Rope -->
+<line x1="400" y1="60" x2="400" y2="150" stroke="#703814" stroke-width="10"/>
+
+<!-- Burner Flame -->
+<rect x="380" y="420" width="40" height="15" fill="#ffa500"/>
+
+<!-- Tether Rope -->
+<line x1="200" y1="550" x2="400" y2="60" stroke="#703814" stroke-width="5"/>
+
+<!-- Basket -->
+<circle cx="400" cy="60" r="30" fill="#703814"/>
+<path d="M370 60 Q350 90, 400 120, 430 90, 470 60 H370 Z" fill="#703814"/>
+
+<!-- Sky -->
+<rect x="0" y="0" width="800" height="300" fill="#b3e5fc"/>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 150">
+
+  <!-- Owl Body -->
+  <circle cx="50" cy="75" r="40" fill="#3A2619"/>
+
+  <!-- Left Eye -->
+  <circle cx="30" cy="60" r="8" fill="#FFFFFF"/>
+  <circle cx="30" cy="60" r="4" fill="#000000"/>
+
+  <!-- Right Eye -->
+  <circle cx="70" cy="60" r="8" fill="#FFFFFF"/>
+  <circle cx="70" cy="60" r="4" fill="#000000"/>
+
+  <!-- Beak -->
+  <polygon points="65,90 55,85 45,85" fill="#F39C12"/>
+
+  <!-- Top Feathers -->
+  <polygon points="30,65 35,70 40,65" fill="#C19A6B"/>
+  <polygon points="60,65 65,70 70,65" fill="#C19A6B"/>
+
+</svg>

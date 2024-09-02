@@ -1,0 +1,14 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <g id="mermaid-body">
+    <!-- main body path -->
+    <path d="M10 80 C25 60 75 40 100 80 Q120 160 140 200 L140 200" fill="none" stroke="black"/>
+
+    <!-- tail paths -->
+    <path d="M130 200 C150 220 170 240 190 260 L..." fill="blue"/>
+    ...
+
+    <!-- facial features -->
+    <circle cx="135" cy="150" r="15" fill="black"/>
+    ...
+  </g>
+</svg>

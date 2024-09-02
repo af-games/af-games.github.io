@@ -1,0 +1,40 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <ellipse cx="250" cy="150" rx="75" ry="60"
+           fill="#D2B48C" stroke="black"/>
+
+  <!-- Mane -->
+  <path d="M230,140 Q240,120 250,140 A40,40 0 0 1 260,140 Q270,120 280,140"
+        fill="#D2B48C" stroke="black"/>
+
+  <!-- Body -->
+  <ellipse cx="250" cy="225" rx="100" ry="70"
+           fill="#C69366" stroke="black"/>
+
+  <!-- Legs -->
+  <rect x="220" y="240" width="40" height="80" rx="10" ry="10"
+        fill="#C69366" stroke="black"/>
+  <rect x="270" y="240" width="40" height="80" rx="10" ry="10"
+        fill="#C69366" stroke="black"/>
+  <!-- Repeat for other two legs -->
+
+  <!-- Tail -->
+  <ellipse cx="250" cy="320" rx="25" ry="40"
+           fill="#C69366" stroke="black"/>
+  <path d="M250,340 Q270,380 250,420" fill="#C69366" stroke="black"/>
+
+  <!-- Feet -->
+  <ellipse cx="220" cy="320" rx="15" ry="15"
+           fill="#C69366" stroke="black"/>
+  <!-- Repeat for other three feet -->
+
+  <!-- Eyes -->
+  <circle cx="230" cy="140" r="10" fill="black"/>
+  <circle cx="270" cy="140" r="10" fill="black"/>
+
+  <!-- Nose -->
+  <path d="M250,160 Q260,180 250,200 Q240,180 250,160"
+        fill="#C69366" stroke="black"/>
+
+</svg>

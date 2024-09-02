@@ -1,0 +1,16 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <circle cx="100" cy="50" r="40" fill="orange"/>
+  <ellipse cx="90" cy="70" rx="10" ry="20" fill="black"/>
+  <ellipse cx="110" cy="70" rx="10" ry="20" fill="black"/>
+
+  <!-- Body -->
+  <rect x="80" y="90" width="40" height="120" fill="orange"/>
+  <line x1="80" y1="210" x2="80" y2="300" stroke="black"/>
+
+  <!-- Tail -->
+  <polygon points="150,260 190,260 170,300" fill="orange"/>
+
+  <!-- Legs -->
+  <rect x="80" y="240" width="40" height="60" fill="orange"/>
+</svg>

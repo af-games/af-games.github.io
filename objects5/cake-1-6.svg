@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="500"
+     height="500"
+     viewBox="0 0 500 500"
+     version="1.1">
+```
+
+In this example:
+
+- `xmlns` attribute specifies the XML namespace for SVG elements.
+- `width` and `height` attributes define the viewport of the SVG canvas.
+- `viewBox` attribute defines the aspect ratio and coordinate system of the SVG graphics.
+- `version` attribute specifies the version of SVG being used.</svg>

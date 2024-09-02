@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Body -->
+  <g id="body">
+    <rect x="-70" y="-90" width="140" height="120" fill="#8B7D6B"/>
+    <path d="M-70,-90 Q-50,-60 -30,-45 Q-10,-60 20,-90 H70 V-70 H-70 Z" fill="#6C5F45"/>
+  </g>
+
+  <!-- Tail -->
+  <g id="tail">
+    <path d="M20,-45 L70,-10 A30,30 0 0 0 -30,-85" stroke="#8B7D6B" fill="transparent"/>
+  </g>
+
+  <!-- Head -->
+  <g id="head" transform="translate(0,-120) scale(1.2)">
+    <ellipse cx="0" cy="-45" rx="60" ry="50" fill="#8B7D6B"/>
+    <circle cx="0" cy="-90" r="30" fill="#6C5F45"/>
+  </g>
+
+  <!-- Legs -->
+  <g id="legs">
+    <path d="M-100,-90 L-120,-70 A20,20 0 0 0 -80,-30 Z" fill="#8B7D6B"/>
+    <path d="M100,-90 L120,-70 A20,20 0 0 1 80,-30 Z" fill="#8B7D6B"/>
+    <path d="M-50,-140 L-70,-120 A20,20 0 0 0 -30,-90 Z" fill="#8B7D6B"/>
+    <path d="M50,-140 L70,-120 A20,20 0 0 1 30,-90 Z" fill="#8B7D6B"/>
+  </g>
+</svg>

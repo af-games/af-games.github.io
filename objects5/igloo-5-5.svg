@@ -1,0 +1,32 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dome -->
+  <path id="dome" fill="#fff" d="M100,50 Q150,75 200,50 Q150,25 100,50 Z"/>
+
+  <!-- Entrance -->
+  <rect id="entrance" fill="#fff" width="60" height="80" x="140" y="130"/>
+
+  <!-- Smoke -->
+  <path id="smoke" fill="#fff" d="M175,120 Q200,90 225,120 Q190,150 175,130"/>
+
+  <!-- Animation buttons -->
+  <button onclick="animate('dome', 'rotate', 180)">Rotate Dome</button>
+  <button onclick="animate('entrance', 'translate', [50, -50])">Move Entrance</button>
+  <button onclick="animate('smoke', 'scale', 2)">Scale Smoke</button>
+
+  <!-- Script for animation -->
+  <script>
+    function animate(id, type, value) {
+      const elem = document.getElementById(id);
+      if (type === 'rotate') {
+        elem.setAttribute('transform', `rotate(${value}, 150, 75)`);
+      } else if (type === 'translate') {
+        const [x, y] = value;
+        elem.setAttribute('transform', `translate(${x}, ${y})`);
+      } else if (type === 'scale') {
+        elem.setAttribute('transform', `scale(${value})`);
+      }
+    }
+  </script>
+
+</svg>

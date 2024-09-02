@@ -1,0 +1,19 @@
+<svg width="300" height="400" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Tiers -->
+  <circle cx="150" cy="75" r="75" fill="#FDD7E4"/>
+  <circle cx="150" cy="225" r="90" fill="#FFC681"/>
+  <circle cx="150" cy="375" r="105" fill="#FFF59D"/>
+
+  <!-- Cake Sides -->
+  <rect x="40" y="0" width="220" height="40" fill="#A26980"/>
+  <rect x="40" y="360" width="220" height="40" fill="#A26980"/>
+  <polygon points="40,75 280,75 310,95 10,95" fill="#A26980"/>
+
+  <!-- Cake Decorations -->
+  <circle cx="150" cy="25" r="20" fill="#D26942"/>
+  <circle cx="150" cy="375" r="25" fill="#D26942"/>
+  <path d="M120,180 Q150,220 180,180" stroke="#D26942" fill="transparent"/>
+
+  <!-- Cake Text -->
+  <text x="50%" y="30" text-anchor="middle" font-family="Verdana" font-size="36">Happy Birthday!</text>
+</svg>

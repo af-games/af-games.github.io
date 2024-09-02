@@ -1,0 +1,46 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(50,50,50);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(30,30,30);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Jellyfish 1 -->
+  <g id="jellyfish1" transform="translate(50,200) rotate(-45)">
+    <circle cx="50" cy="50" r="50" fill="url(#gradient)" />
+    <path d="M75 30 Q90 60, 75 90 Q60 120, 75 150 Q90 180, 75 210 Q60 240, 75 270 Q90 300, 75 330 Q60 360, 75 390 Z" fill="url(#gradient)" />
+    <path d="M75 380 V410 H65 Z" fill="black" />
+    <circle cx="75" cy="425" r="5" fill="white" />
+  </g>
+
+  <!-- Jellyfish 2 -->
+  <g id="jellyfish2" transform="translate(300,150) rotate(45)">
+    <ellipse cx="60" cy="80" rx="50" ry="70" fill="url(#gradient)" />
+    <path d="M90 50 Q100 120, 90 190 Q60 260, 90 330 Q100 400, 90 470 Q60 540, 90 610 Z" fill="url(#gradient)" />
+    <path d="M85 630 V660 H75 Z" fill="black" />
+    <circle cx="90" cy="675" r="5" fill="white" />
+  </g>
+
+  <!-- Animation -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 250 200"
+    to="360 250 200"
+    begin="0s"
+    dur="4s"
+    repeatCount="indefinite"
+    id="animation1"
+  />
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 350 175"
+    to="-360 350 175"
+    begin="0s"
+    dur="8s"
+    repeatCount="indefinite"
+    id="animation2"
+  />
+</svg>

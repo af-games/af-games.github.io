@@ -1,0 +1,37 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle outline -->
+  <path id="castle" d="M100,100 Q150,75 200,100 Q250,125 300,100 Q350,75 400,100 L450,200 Q500,250 550,200 L600,100 Z"/>
+
+  <!-- Windows & Doors -->
+  <g id="doors-windows" display="none">
+    <path d="M150,150 h50 v50 h-50 Z"/>
+    <!-- Add more windows and doors paths here... -->
+  </g>
+
+  <!-- Towers -->
+  <rect id="tower-left" x="75" y="25" width="50" height="150" display="none"/>
+  <rect id="tower-right" x="475" y="25" width="50" height="150" display="none"/>
+
+  <!-- Moat -->
+  <rect id="moat" x="50" y="300" width="500" height="100" fill="#888" mask="url(#moat-mask)"/>
+  <mask id="moat-mask">
+    <path d="M100,350 Q150,400 200,350 Q250,400 300,350 Q350,400 400,350"/>
+  </mask>
+
+  <!-- Bridge -->
+  <path id="bridge" d="M150,350 Q200,400 250,350"/>
+
+  <!-- Interactive SVG: Show doors/windows when mouse is over castle -->
+  <script>
+    const castle = document.getElementById('castle');
+    const doorsWindows = document.getElementById('doors-windows');
+
+    castle.addEventListener('mouseover', () => {
+      doorsWindows.setAttribute('display', 'block');
+    });
+
+    castle.addEventListener('mouseout', () => {
+      doorsWindows.setAttribute('display', 'none');
+    });
+  </script>
+</svg>

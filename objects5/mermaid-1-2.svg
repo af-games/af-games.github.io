@@ -1,0 +1,17 @@
+<svg viewBox="0 0 260 280" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path id="mermaid-body" d="M20 180 Q90 30, 170 180 H50 V200 Z" fill="#8BC34A"/>
+
+  <!-- Head and neck -->
+  <circle id="mermaid-head" cx="170" cy="160" r="30" fill="#FFF"/>
+  <path id="mermaid-neck" d="M170 160 Q200 140, 190 180" stroke="#000"/>
+
+  <!-- Hair -->
+  <polygon id="mermaid-hair" points="160,120 175,130 185,120" fill="#000"/>
+
+  <!-- Arms -->
+  <path id="mermaid-arm-left" d="M160 140 Q190 130, 185 170" stroke="#000"/>
+
+  <!-- Tail fin -->
+  <polygon id="mermaid-tail-fin-bottom" points="200,200 230,240 260,200" fill="#8BC34A"/>
+</svg>

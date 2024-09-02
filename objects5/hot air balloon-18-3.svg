@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
+
+  <!-- Ground -->
+  <rect id="ground" x="-500" y="-50" width="1000" height="100" fill="#8B4513"/>
+
+  <!-- Balloon basket -->
+  <circle cx="0" cy="-60" r="40" stroke="#C79F7E" fill="#FFF5E6"/>
+  <line x1="-25" y1="-60" x2="25" y2="-60" stroke="#C79F7E"/>
+
+  <!-- Balloon envelope -->
+  <ellipse cx="0" cy="30" rx="80" ry="40" fill="#FFD700"/>
+  <path id="envelope-opening" d="M-120,30 Q-60,60 0,90 Q60,60 120,30"/>
+
+  <!-- Burner -->
+  <rect x="-45" y="-80" width="90" height="20" fill="#FFCC00"/>
+  <line x1="-45" y1="-80" x2="45" y2="-80" stroke="#FFCC00"/>
+
+  <!-- Rope and gondola connections -->
+  <path d="M-30,-60 Q-70,-40 -70,-10" stroke="#C79F7E"/>
+  <path d="M30,-60 Q70,-40 70,-10" stroke="#C79F7E"/>
+
+</svg>

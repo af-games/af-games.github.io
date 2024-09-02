@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 150 150">
+  <!-- Skin -->
+  <path d="M...Z" fill="#FFF1E6" stroke="#A07359" stroke-width="2"/>
+
+  <!-- Hair -->
+  <path d="M...Z" fill="#3D2B1F" gradientUnits="userSpaceOnUse" gradientTransform="rotate(45)" gradientId="hairGradient"/>
+  <defs>
+    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6B4E3C"/>
+      <stop offset="100%" stop-color="#3D2B1F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Tail, waves, seashell, and eyes -->
+  <!-- ... repeat path elements with appropriate fill colors, gradients, strokes, etc. -->
+
+</svg>

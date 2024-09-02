@@ -1,0 +1,35 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(240,240,240);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad1)" />
+
+  <!-- Horizontal threads (body) -->
+  <g stroke="#325378" stroke-width="2">
+    <line x1="60" y1="120" x2="340" y2="120"/>
+    <line x1="60" y1="140" x2="340" y2="140"/>
+    <!-- Add more lines for denser pattern -->
+  </g>
+
+  <!-- Vertical threads (head & wings) -->
+  <g stroke="#325378" stroke-width="2">
+    <line x1="160" y1="90" x2="160" y2="250"/>
+    <line x1="240" y1="90" x2="240" y2="250"/>
+    <!-- Add more lines for denser pattern -->
+  </g>
+
+  <!-- Diagonal threads (feet & beak) -->
+  <g stroke="#325378" stroke-width="2">
+    <line x1="60" y1="240" x2="160" y2="190"/>
+    <line x1="340" y1="240" x2="240" y2="190"/>
+    <!-- Add more lines for denser pattern -->
+  </g>
+
+  <!-- Orange belly (for a touch of color) -->
+  <rect x="60" y="145" width="280" height="70" fill="#F39C15"/>
+
+</svg>

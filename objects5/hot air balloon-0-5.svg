@@ -1,0 +1,23 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon -->
+  <circle id="balloon" cx="150" cy="75" r="75" fill="#FFC300"/>
+
+  <!-- Basket -->
+  <rect id="basket" x="90" y="150" width="220" height="60" fill="#8B4513"/>
+
+  <!-- Left Fin -->
+  <polygon id="fin-left" points="70,30 140,50 70,90" fill="#FFC300"/>
+
+  <!-- Right Fin -->
+  <polygon id="fin-right" points="230,30 160,50 230,90" fill="#FFC300"/>
+
+  <!-- Animation: Rotate Balloon and Fins -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 150 75"
+    to="360 150 75"
+    dur="4s"
+    repeatCount="indefinite"
+  />
+</svg>

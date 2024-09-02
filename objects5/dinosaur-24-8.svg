@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Body -->
+  <rect x="100" y="80" width="300" height="250" fill="#777"/>
+  <path d="M100,230 Q150,250 200,230" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="80" r="40" fill="#999"/>
+  <ellipse cx="200" cy="60" rx="15" ry="30" fill="#999"/>
+
+  <!-- Tail -->
+  <polygon points="300,230 370,280 370,180" fill="#777"/>
+  <path d="M370,230 Q400,250 430,230" stroke="black"/>
+
+  <!-- Limbs -->
+  <rect x="110" y="250" width="30" height="80" fill="#777"/>
+  <rect x="260" y="250" width="30" height="80" fill="#777"/>
+  <circle cx="140" cy="290" r="20" fill="#777"/>
+  <circle cx="270" cy="290" r="20" fill="#777"/>
+
+</svg>

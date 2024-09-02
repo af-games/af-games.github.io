@@ -1,0 +1,25 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base tier -->
+  <circle cx="150" cy="370" r="80" fill="#FDD9B5"/>
+  <path d="M150 370 Q140 390, 150 410 Q160 390, 150 430 Z"
+        fill="#FDD9B5"/>
+
+  <!-- Middle tier -->
+  <circle cx="150" cy="280" r="60" fill="#EAAB9C"/>
+  <path d="M150 280 Q140 300, 150 320 Q160 300, 150 340 Z"
+        fill="#EAAB9C"/>
+
+  <!-- Top tier -->
+  <circle cx="150" cy="200" r="40" fill="#E7875D"/>
+  <path d="M150 200 Q140 220, 150 240 Q160 220, 150 260 Z"
+        fill="#E7875D"/>
+
+  <!-- Frosting details -->
+  <path d="M130 410 Q120 430, 130 450 Q140 430, 130 470 Z"
+        fill="#FFFFFF" stroke="#9B6D3E"/>
+  <path d="M170 410 Q180 430, 170 450 Q160 430, 170 470 Z"
+        fill="#FFFFFF" stroke="#9B6D3E"/>
+
+  <!-- Cake stand -->
+  <rect x="120" y="480" width="60" height="20" fill="#A58A68"/>
+</svg>

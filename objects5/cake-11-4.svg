@@ -1,0 +1,26 @@
+<svg>` tag:
+
+```xml
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer circle (cake body) -->
+  <circle cx="100" cy="100" r="80"
+          fill="#FDD79A" stroke="#FDB927" stroke-width="5"/>
+
+  <!-- Inner circle (cake inner part) -->
+  <circle cx="100" cy="100" r="60"
+          fill="#E9B34A"/>
+
+  <!-- Cake top: triangle with three layers of repetition -->
+  <polygon points="100,20 150,70 50,70"
+            fill="#FDB927"/>
+  <polygon points="100,60 130,110 70,110" fill="#E9B34A"/>
+  <polygon points="100,100 115,150 85,150" fill="#FDB927"/>
+
+  <!-- Cake bottom: two layers of repetition -->
+  <circle cx="100" cy="180" r="60"
+          stroke="#A34C0D" stroke-width="5"/>
+  <circle cx="100" cy="180" r="50"
+          fill="#A34C0D"/>
+
+</svg>

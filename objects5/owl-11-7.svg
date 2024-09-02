@@ -1,0 +1,26 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Owl Face -->
+  <g id="owlFace" transform="translate(50,50)">
+    <!-- Eyes -->
+    <circle cx="50" cy="75" r="40" fill="#FFD700"/>
+    <circle cx="80" cy="75" r="15" fill="#FFFFFF"/>
+    <circle cx="20" cy="75" r="15" fill="#FFFFFF"/>
+    <!-- Beak -->
+    <polygon points="35,90 50,100 65,90" fill="#FFD700"/>
+    <!-- Feathers -->
+    <path d="M40,80 Q50,70 60,80" stroke="#000000" fill="transparent"/>
+    ...
+  </g>
+
+  <!-- Night Sky -->
+  <defs>
+    <linearGradient id="nightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(30,30,80);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,40);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="250" y="0" width="350" height="700" fill="url(#nightSky)"/>
+
+  <!-- Ancient Script -->
+  ...
+</svg>

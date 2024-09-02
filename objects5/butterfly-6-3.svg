@@ -1,0 +1,28 @@
+<svg width="100" height="80" viewBox="0 0 100 80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="50" cy="40" r="20" fill="url(#butterfly-body-gradient)" stroke="black"/>
+
+  <!-- Left Wing -->
+  <path d="M30,10 Q50,30 70,10 Q60,20 90,30 Q70,40 50,60 Q30,40 10,30"
+        fill="url(#butterfly-wing-gradient)"/>
+
+  <!-- Right Wing -->
+  <path d="M70,10 Q50,30 30,10 Q20,20 10,30 Q20,40 50,60 Q70,40 90,30"
+        fill="url(#butterfly-wing-gradient)"/>
+
+  <!-- Antennae -->
+  <polygon points="60,5 68,5 70,15" fill="black"/>
+  <polygon points="40,5 32,5 30,15" fill="black"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="butterfly-body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(219,186,143);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="butterfly-wing-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,247,236);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(219,186,143);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

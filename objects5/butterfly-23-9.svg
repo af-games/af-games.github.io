@@ -1,0 +1,32 @@
+<svg>` tag and uses precise coordinates to define various parts of the butterfly.
+
+```svg
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="75" rx="60" ry="40" fill="#FFD983">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 100 75"
+      to="360 100 75"
+      dur="2s"
+      repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Wings -->
+  <path d="M80 50 Q90 30 110 50 H140 Q150 60 140 70 V90 H110 Z" fill="#FFD983"/>
+  <path d="M120 50 Q130 30 140 50 L140 70 120 70 Z" fill="#FFD983"/>
+
+  <!-- Antennae -->
+  <line x1="60" y1="40" x2="50" y2="30" stroke="#000"/>
+  <line x1="60" y1="40" x2="70" y2="30" stroke="#000"/>
+
+  <!-- Head -->
+  <circle cx="80" cy="40" r="5" fill="#FFD983"/>
+
+  <!-- Eyes -->
+  <circle cx="75" cy="35" r="1.5" fill="#000"/>
+  <circle cx="85" cy="35" r="1.5" fill="#000"/>
+
+</svg>

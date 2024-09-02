@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <!-- Fairy body -->
+  <polygon points="300,50 100,450 500,450" fill="#FF6347" stroke="#FFFFFF" stroke-width="10"/>
+
+  <!-- Fairy head (circle with orange details) -->
+  <circle cx="300" cy="200" r="80" fill="#FF6347"/>
+  <circle cx="350" cy="150" r="20" fill="#FFA500"/>
+  <circle cx="250" cy="150" r="20" fill="#FFA500"/>
+
+  <!-- Fairy hair (geometric pattern) -->
+  <rect x="240" y="70" width="120" height="30" fill="#FF6347"/>
+  <polygon points="360,100 380,120 360,140" fill="#FFA500"/>
+
+  <!-- Fairy wings (organic pattern with gradient) -->
+  <defs>
+    <linearGradient id="wingsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#191970;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path d="M400,250 Q450,300 500,250 Q450,200 400,150 Q350,200 300,150 Q350,200 400,250 Z" fill="url(#wingsGradient)"/>
+
+  <!-- Fairy dress (geometric pattern with white borders) -->
+  <polygon points="300,450 150,600 450,600" fill="#FF6347" stroke="#FFFFFF" stroke-width="10"/>
+</svg>

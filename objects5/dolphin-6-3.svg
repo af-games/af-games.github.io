@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+
+<!-- Body -->
+<rect x="100" y="50" width="400" height="300"
+      style="fill:linear-gradient(90deg, blue, lightblue); stroke:black; stroke-width:2"/>
+
+<!-- Tail -->
+<polygon points="500,50 600,150 500,250"
+          style="fill:linear-gradient(90deg, blue, lightblue); stroke:black; stroke-width:2"/>
+
+<!-- Head -->
+<circle cx="200" cy="75" r="75"
+        style="fill:linear-gradient(90deg, blue, lightblue); stroke:black; stroke-width:2"/>
+
+<!-- Fin (Left) -->
+<path d="M130,150 Q100,200 130,250"
+      style="fill:transparent; stroke:black; stroke-width:2"/>
+
+<!-- Fin (Right) -->
+<path d="M470,150 Q500,200 470,250"
+      style="fill:transparent; stroke:black; stroke-width:2"/>
+
+<!-- Buildings and Roads as part of the dolphin shape -->
+
+<!-- Building (Head) -->
+<rect x="160" y="30" width="80" height="150"
+      style="fill:gray; stroke:black; stroke-width:1"/>
+
+<!-- Road (Head to Body) -->
+<path d="M240,30 Q300,75 240,120"
+      style="stroke:black; stroke-width:2"/>
+
+<!-- Building (Body) -->
+<rect x="280" y="100" width="60" height="100"
+      style="fill:gray; stroke:black; stroke-width:1"/>
+
+<!-- Road (Body to Tail) -->
+<path d="M340,200 Q450,225 340,275"
+      style="stroke:black; stroke-width:2"/>
+
+<!-- Building (Tail) -->
+<rect x="480" y="175" width="60" height="75"
+      style="fill:gray; stroke:black; stroke-width:1"/>
+
+</svg>

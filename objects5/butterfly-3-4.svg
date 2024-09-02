@@ -1,0 +1,30 @@
+<svg>` tag as a starting point. This example uses paths for the wings, circles for the body, and applies colors and gradients for aesthetic appeal.
+
+```xml
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="100" cy="75" r="40"
+          fill="url(#butterflyGradient)" stroke="black" stroke-width="2"/>
+
+  <!-- Left Wing -->
+  <path d="M90 60 Q80 40, 60 60 T60 100 Q80 120, 90 100"
+        fill="url(#wingGradient)" stroke="black" stroke-width="1"/>
+
+  <!-- Right Wing -->
+  <path d="M110 60 Q120 40, 130 60 T130 100 Q120 120, 110 100"
+        fill="url(#wingGradient)" stroke="black" stroke-width="1"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="butterflyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:orange; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:red; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:yellow; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:brown; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

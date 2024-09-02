@@ -1,0 +1,25 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Igloo -->
+  <path d="M150,20 Q170,0 250,20 Q280,60 310,20 Q340,0 420,20 Q450,60 530,20 Q560,0 640,20" fill="lightblue" stroke="darkblue"/>
+  <polygon points="670,120 690,140 670,160" fill="darkblue"/>
+
+  <!-- Snow -->
+  <circle cx="350" cy="80" r="20" fill="white"/>
+  <circle cx="400" cy="60" r="15" fill="white"/>
+  <circle cx="450" cy="90" r="10" fill="white"/>
+
+  <!-- Tableware -->
+  <rect x="10" y="320" width="780" height="80" fill="#FFD700"/>
+  <path d="M10,400 Q50,350 100,400 Q150,450 200,400" stroke="brown" fill="transparent"/>
+
+  <!-- Garnishes -->
+  <circle cx="60" cy="180" r="15" fill="green"/>
+  <path d="M70,190 Q80,200 90,190" stroke="darkgreen" fill="transparent"/>
+  <rect x="430" y="210" width="100" height="60" rx="30" fill="#FFA500"/>
+
+  <!-- Utensils -->
+  <path d="M550,380 Q570,390 590,380 Q610,390 630,380" stroke="brown" fill="transparent"/>
+  <circle cx="570" cy="420" r="20" fill="#FFD700"/>
+
+</svg>

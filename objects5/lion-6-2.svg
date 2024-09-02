@@ -1,0 +1,30 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M80 160 Q140 120, 180 160 Q140 200, 80 160" stroke="black" fill="goldenrod"/>
+  <circle cx="130" cy="190" r="30" stroke="black" fill="goldenrod"/>
+
+  <!-- Head -->
+  <path d="M100 120 Q140 80, 160 120 Q140 160, 100 120" stroke="black" fill="goldenrod"/>
+  <circle cx="130" cy="95" r="25" stroke="black" fill="white"/>
+
+  <!-- Face details -->
+  <circle cx="130" cy="75" r="5" stroke="black" fill="black"/>
+  <path d="M115 60 Q125 45, 135 60" stroke="black" fill="transparent"/>
+
+  <!-- Mane -->
+  <g stroke="black">
+    <path d="M80 150 Q120 170, 160 150"/>
+    <path d="M90 140 Q130 160, 150 140"/>
+    <path d="M100 130 Q140 150, 160 130"/>
+  </g>
+
+  <!-- Legs -->
+  <g stroke="black">
+    <rect x="70" y="200" width="20" height="80" fill="transparent"/>
+    <rect x="90" y="200" width="20" height="80" fill="transparent"/>
+    <rect x="150" y="200" width="20" height="80" fill="transparent"/>
+    <rect x="170" y="200" width="20" height="80" fill="transparent"/>
+  </g>
+
+</svg>

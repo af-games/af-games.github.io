@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 80">
+  <!-- Define Colors -->
+  <defs>
+    <linearGradient id="fairySkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,230,186);"/>
+      <stop offset="100%" style="stop-color:rgb(247,218,165);"/>
+    </linearGradient>
+    <linearGradient id="fairyWings" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(247,237,216);"/>
+      <stop offset="100%" style="stop-color:rgb(219,208,183);"/>
+    </linearGradient>
+    <radialGradient id="fairyHair" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(236,194,138);"/>
+      <stop offset="100%" style="stop-color:rgb(175,130,72); stop-opacity:0.8;"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Fairy Body -->
+  <ellipse cx="25" cy="60" rx="20" ry="40" fill="url(#fairySkin)"/>
+
+  <!-- Fairy Wings -->
+  <path d="M10,30 Q30,10 50,30 T70,50 Z" fill="url(#fairyWings)" stroke="black" stroke-width="2"/>
+
+  <!-- Fairy Hair -->
+  <polygon points="20,10 40,10 30,20" fill="url(#fairyHair)"/>
+
+  <!-- Fairy Dress -->
+  <rect x="15" y="50" width="20" height="30" fill="#FFC0CB"/>
+</svg>

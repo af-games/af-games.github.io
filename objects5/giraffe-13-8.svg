@@ -1,0 +1,41 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#fff5d8"/>
+
+  <!-- Plate -->
+  <circle cx="300" cy="200" r="170" fill="#ffe89c"/>
+
+  <!-- Giraffe -->
+  <g transform="translate(230,140)">
+    <!-- Body -->
+    <path d="M 50,-50 Q 50,-10 0,-10 Q -50,-10 -50,-50 Q -50,-80 -70,-80 Q -90,-60 -90,0 Q -90,40 -70,40 Q -50,20 0,20 Q 50,20 50,0" fill="#e3ab3c"/>
+    <!-- Neck -->
+    <path d="M 0,-10 L 0,-80 L 90,-80 Z" stroke="#6b4a20" fill="transparent"/>
+    <!-- Head -->
+    <circle cx="0" cy="-100" r="30" fill="#e3ab3c"/>
+    <!-- Horns -->
+    <path d="M -25,-90 L 0,-80 L 25,-90 Z" stroke="#6b4a20" fill="transparent"/>
+    <!-- Eyes -->
+    <circle cx="-15" cy="-95" r="5" fill="#fff"/>
+    <circle cx="15" cy="-95" r="5" fill="#fff"/>
+  </g>
+
+  <!-- Acacia leaves -->
+  <g transform="translate(370,180)">
+    <path d="M 20,-20 Q 40,-10 60,-20 Q 80,-10 100,-20" stroke="#6b4a20" fill="transparent"/>
+    <!-- Repeat similar paths with different curves to create more leaves -->
+  </g>
+
+  <!-- Fruits (colorful and appetizing) -->
+  <circle cx="130" cy="270" r="25" fill="#ff6f61"/>
+  <circle cx="180" cy="240" r="20" fill="#ffd561"/>
+  <circle cx="240" cy="290" r="22" fill="#9cff75"/>
+
+  <!-- Utensils -->
+  <!-- Knife -->
+  <path d="M 370,300 L 420,350 L 470,300 Z" stroke="#6b4a20" fill="transparent"/>
+  <!-- Fork -->
+  <path d="M 390,320 L 410,340 L 390,360 Z" stroke="#6b4a20" fill="transparent"/>
+
+</svg>

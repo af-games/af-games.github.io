@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Bell -->
+  <circle cx="0" cy="0" r="40" fill="url(#Gradient)" stroke="#08456e" stroke-width="3" />
+
+  <!-- Tentacles -->
+  <?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+  <defs>
+    <linearGradient id="Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(94,206,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(38,139,210);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Tentacles -->
+  <?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+  <path d="M0,-40 Q-20,-20 -30,0" stroke="#08456e" fill="transparent"/>
+  <path d="M0,-40 Q20,-20 30,0" stroke="#08456e" fill="transparent"/>
+  <!-- Repeat above paths for remaining six tentacles with appropriate rotations -->
+
+  <!-- Mouth -->
+  <ellipse cx="0" cy="-15" rx="15" ry="10" fill="#fff" />
+
+  <!-- Eyes (optional) -->
+  <circle cx="-10" cy="-25" r="3" fill="#000"/>
+  <circle cx="10" cy="-25" r="3" fill="#000"/>
+</svg>

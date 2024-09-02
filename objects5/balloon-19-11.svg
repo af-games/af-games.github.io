@@ -1,0 +1,44 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Soil (canvas) -->
+  <rect x="0" y="0" width="600" height="400" fill="#8B7D6B"/>
+
+  <!-- Planting seeds (basic shapes) -->
+
+  <!-- Greenhouse glass -->
+  <polygon points="50,10 50,390 550,390 550,10" style="fill:lightgray;stroke:#000;stroke-width:2"/>
+
+  <!-- Soil -->
+  <rect x="50" y="370" width="500" height="30" fill="#8B7D6B"/>
+
+  <!-- Balloon (growing over time) -->
+  <circle cx="150" cy="200" r="5">
+    <animate
+      attributeName="r"
+      from="5" to="100"
+      dur="3s"
+      repeatCount="indefinite"/>
+    <animate
+      attributeName="cy"
+      from="200" to="70"
+      dur="3s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Balloon string -->
+  <line x1="150" y1="70" x2="150" y2="50">
+    <animate
+      attributeName="y2"
+      from="50" to="30"
+      dur="3s"
+      repeatCount="indefinite"/>
+  </line>
+
+  <!-- Balloon color -->
+  <circle cx="150" cy="200" r="95">
+    <animate
+      attributeName="fill"
+      values="red;blue;green;yellow"
+      dur="3s"
+      repeatCount="indefinite"/>
+  </circle>
+</svg>

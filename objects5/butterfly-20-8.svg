@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Butterfly Body -->
+  <circle cx="250" cy="150" r="80" fill="#ff69b4" stroke="#fff" stroke-width="2">
+    <animate
+      attributeName="cy"
+      values="150;200;150"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Butterfly Wings -->
+  <path d="M350 75 Q400 150, 350 225" fill="#ff69b4" stroke="#fff" stroke-width="2">
+    <animateTransform
+      attributeName="d"
+      type="scale"
+      values="1;-1"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </path>
+  <path d="M350 75 Q200 150, 350 225" fill="#ff69b4" stroke="#fff" stroke-width="2">
+    <animateTransform
+      attributeName="d"
+      type="scale"
+      values="-1;1"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </path>
+
+  <!-- Butterfly Antennae -->
+  <line x1="300" y1="75" x2="350" y2="40" stroke="#fff" stroke-width="2">
+    <animate
+      attributeName="x2"
+      values="350;380;350"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </line>
+  <line x1="300" y1="75" x2="250" y2="40" stroke="#fff" stroke-width="2">
+    <animate
+      attributeName="x2"
+      values="250;220;250"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </line>
+</svg>

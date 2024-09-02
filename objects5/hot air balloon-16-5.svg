@@ -1,0 +1,27 @@
+<svg width="500" height="500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon envelope -->
+  <g id="balloon" transform="translate(100, 150)">
+    <path d="M0,-70 A70,70 0 1,1 0,70 A70,70 0 1,1 0,-70"
+          fill="black"/>
+    <animateTransform attributeName="transform" type="rotate"
+                      from="0 0" to="360 0" dur="5s"
+                      repeatCount="indefinite"/>
+  </g>
+
+  <!-- Basket -->
+  <rect id="basket" x="80" y="70" width="30" height="30"
+        fill="black">
+    <animateTransform attributeName="transform" type="translate"
+                      from="0,0" to="5,0" dur="1s"
+                      repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Burner -->
+  <circle id="burner" cx="70" cy="-40" r="20"
+          fill="black">
+    <animate attributeName="r" from="20" to="30" dur="1s"
+             repeatCount="indefinite"/>
+  </circle>
+
+</svg>

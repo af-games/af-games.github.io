@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Pathways -->
+  <rect x="100" y="100" width="300" height="300" fill="#8B7D6D" stroke="#4A3C29"/>
+
+  <!-- Lion statues (centers) -->
+  <circle cx="150" cy="250" r="50" fill="#FFCC00"/>
+  <circle cx="300" cy="200" r="50" fill="#FFCC00"/>
+  <circle cx="400" cy="300" r="50" fill="#FFCC00"/>
+
+  <!-- Lion mane paths -->
+  <path d="M170,180 Q220,90 330,160 T360,240 Q380,320 330,350 Q260,410 170,350 Q110,320 140,240 Z" fill="none" stroke="#FFCC00"/>
+
+  <!-- Plants (circles) -->
+  <circle cx="80" cy="180" r="20" fill="#009900"/>
+  <circle cx="230" cy="270" r="25" fill="#009900"/>
+  <circle cx="360" cy="140" r="20" fill="#009900"/>
+
+  <!-- Shade (light blue) -->
+  <rect x="180" y="170" width="150" height="100" fill="#ADD8E6" opacity="0.3"/>
+</svg>

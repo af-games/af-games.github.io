@@ -1,0 +1,79 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle -->
+  <rect id="castle" x="150" y="100" width="400" height="400"
+    style="fill:url(#castleGradient); stroke:black; stroke-width:2"/>
+
+  <!-- Tower -->
+  <polygon points="350,200 450,200 450,350 350,350" fill="#6c7a89"
+    style="fill:url(#towerGradient); stroke:black; stroke-width:1"/>
+
+  <!-- Main Stage -->
+  <rect id="mainStage" x="200" y="400" width="300" height="150"
+    style="fill:url(#stageGradient); stroke:gold; stroke-width:5"/>
+
+  <!-- Throne -->
+  <circle cx="300" cy="550" r="80" fill="#c9976f"
+    style="fill:url(#throneGradient); stroke:black; stroke-width:2"/>
+
+  <!-- Props -->
+
+  <!-- Chandelier -->
+  <circle cx="350" cy="250" r="50" fill="url(#chandelierGradient)" />
+
+  <!-- Magic Wand -->
+  <line x1="400" y1="500" x2="420" y2="570" stroke="#ffd700" stroke-width="8"/>
+  <circle cx="420" cy="570" r="20" fill="#fff380"/>
+
+  <!-- Coach -->
+  <rect x="100" y="500" width="60" height="100" fill="#d3a984"
+    style="fill:url(#coachGradient); stroke:black; stroke-width:2"/>
+  <circle cx="130" cy="570" r="30" fill="#fff"/>
+
+  <!-- Gradient Definitions -->
+
+  <!-- Castle gradient -->
+  <defs>
+    <linearGradient id="castleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d3a984; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#b38e70; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6c7a89; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Throne gradient -->
+  <linearGradient id="throneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#c9976f; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#9b785e; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#724d34; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Stage gradient -->
+  <linearGradient id="stageGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#fff; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#ffd700; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#c9a06f; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Tower gradient -->
+  <linearGradient id="towerGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#6c7a89; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#4b535f; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#2c3e50; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Chandelier gradient -->
+  <linearGradient id="chandelierGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#ffd700; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#ffe68f; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#fff380; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Coach gradient -->
+  <linearGradient id="coachGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#d3a984; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#b38e70; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#6c7a89; stop-opacity:1"/>
+  </linearGradient>
+
+</svg>

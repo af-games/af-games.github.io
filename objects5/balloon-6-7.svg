@@ -1,0 +1,17 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="100" y="80" width="200" height="400" fill="#FFF" stroke="#000"/>
+
+  <!-- Balloon Sleeves -->
+  <path d="M75,60 Q150,30 225,60" fill="#FFC" stroke="#000"/>
+  <path d="M325,60 Q250,30 200,60" fill="#FFC" stroke="#000"/>
+
+  <!-- Beads (small circles) -->
+  <circle cx="180" cy="90" r="4" fill="#000"/>
+  <circle cx="195" cy="95" r="4" fill="#000"/>
+  <circle cx="210" cy="85" r="4" fill="#000"/>
+
+  <!-- Seam lines -->
+  <line x1="75" y1="60" x2="325" y2="60" stroke="#000" stroke-width="2"/>
+  <line x1="100" y1="80" x2="300" y2="580" stroke="#000" stroke-width="2"/>
+</svg>

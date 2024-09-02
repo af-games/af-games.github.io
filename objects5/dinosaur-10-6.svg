@@ -1,0 +1,56 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Mix your ingredients together:**
+
+- Eyes:
+
+```svg
+  <circle cx="150" cy="75" r="20"/>
+  <circle cx="165" cy="75" r="20"/>
+```
+
+- Body and tail:
+
+```svg
+  <rect x="90" y="120" width="120" height="180" rx="30"/>
+  <rect x="210" y="120" width="60" height="240" ry="30"/>
+```
+
+- Arm and leg:
+
+```svg
+  <rect x="90" y="75" width="45" height="60"/>
+  <rect x="210" y="280" width="30" height="90"/>
+```
+
+- Head spikes (paths):
+
+```svg
+  <path d="M120,50 Q150,75 180,50"/>
+  <path d="M150,25 Q160,40 170,25"/>
+  <path d="M130,25 Q140,40 150,25"/>
+```
+
+- Mouth (path):
+
+```svg
+  <path d="M90,200 Q120,250 150,200 Q180,250 210,200" stroke="black" fill="transparent"/>
+```
+
+3. **Add decorations (extra shapes or strokes) and flavors (colors):**
+
+```svg
+  <rect x="90" y="75" width="45" height="60" style="fill: green; stroke: black; stroke-width: 2px"/>
+  <rect x="210" y="280" width="30" height="90" style="fill: green; stroke: black; stroke-width: 2px"/>
+
+  <circle cx="150" cy="75" r="20" style="fill: white; stroke: black; stroke-width: 2px"/>
+  <circle cx="165" cy="75" r="20" style="fill: white; stroke: black; stroke-width: 2px"/>
+
+  <path d="M90,200 Q120,250 150,200 Q180,250 210,200" style="stroke: red; fill: transparent; stroke-width: 3px"/>
+```
+
+4. **Bake according to the recipe's instructions (output your SVG code):**
+
+```svg
+</svg>

@@ -1,0 +1,77 @@
+<svg width="800" height="600" style="background-color: lightgreen;" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Plant seeds - initial shapes:**
+
+Let's start with a simple circle for the body, two ellipses for the eyes, and rectangles for the limbs.
+
+```svg
+<circle cx="400" cy="350" r="150" stroke="black" fill="orange"/>
+<ellipse cx="350" cy="280" rx="30" ry="40" stroke="black" fill="white"/>
+<ellipse cx="450" cy="280" rx="30" ry="40" stroke="black" fill="white"/>
+<rect x="370" y="390" width="50" height="100" stroke="black" fill="orange"/>
+<rect x="420" y="390" width="50" height="100" stroke="black" fill="orange"/>
+```
+
+3. **Water and nurture - apply transforms:**
+
+```svg
+<!-- Body -->
+<g transform="rotate(10 400 400)">
+  <circle cx="400" cy="350" r="150" stroke="black" fill="orange"/>
+</g>
+
+<!-- Left arm -->
+<g transform="translate(370, 490) rotate(-20)">
+  <rect width="50" height="100" stroke="black" fill="orange"/>
+</g>
+
+<!-- Right arm -->
+<g transform="translate(420, 490) rotate(20)">
+  <rect width="50" height="100" stroke="black" fill="orange"/>
+</g>
+
+<!-- Left leg -->
+<g transform="translate(370, 590) rotate(-20)">
+  <rect x="0" y="0" width="50" height="100" stroke="black" fill="orange"/>
+</g>
+
+<!-- Right leg -->
+<g transform="translate(420, 590) rotate(20)">
+  <rect x="0" y="0" width="50" height="100" stroke="black" fill="orange"/>
+</g>
+```
+
+4. **Prune - remove unnecessary elements/attributes:**
+
+Since we've already applied the transforms directly to the shapes, there's no need for additional groups (`<g>`) or transform attributes.
+
+```svg
+<!-- Eyes -->
+<ellipse cx="350" cy="280" rx="30" ry="40"/>
+<ellipse cx="450" cy="280" rx="30" ry="40"/>
+
+<!-- Limbs -->
+<rect x="370" y="390" width="50" height="100"/>
+<rect x="420" y="390" width="50" height="100"/>
+<rect x="370" y="590" width="50" height="100"/>
+<rect x="420" y="590" width="50" height="100"/>
+```
+
+5. **Write out the SVG code:**
+
+```svg
+<svg width="800" height="600" style="background-color: lightgreen;" xmlns="http://www.w3.org/2000/svg">
+  <!-- Eyes -->
+  <ellipse cx="350" cy="280" rx="30" ry="40"/>
+  <ellipse cx="450" cy="280" rx="30" ry="40"/>
+
+  <!-- Body -->
+  <circle cx="400" cy="350" r="150" stroke="black" fill="orange"/>
+
+  <!-- Limbs -->
+  <rect x="370" y="390" width="50" height="100"/>
+  <rect x="420" y="390" width="50" height="100"/>
+  <rect x="370" y="590" width="50" height="100"/>
+  <rect x="420" y="590" width="50" height="100"/>
+</svg>

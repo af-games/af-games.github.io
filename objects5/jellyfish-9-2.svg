@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150">
+
+  <!-- Bell (Body) -->
+  <ellipse cx="150" cy="75" rx="100" ry="75"
+           style="fill:#ADD8E6; stroke:none;" />
+
+  <!-- Shadow on Bell -->
+  <rect x="40" y="30" width="220" height="90"
+        style="fill:#A9A9A9; opacity:0.5;" />
+
+  <!-- Tentacles -->
+  <g transform="rotate(45)" stroke="#ADD8E6" stroke-width="15">
+    <path d="M75,150 Q75,50 150,50" />
+    <path d="M225,150 Q225,50 150,50" />
+    <path d="M150,150 Q30,50 150,50" />
+    <path d="M270,150 Q300,50 150,50" />
+    <path d="M75,125 Q75,25 150,25" />
+    <path d="M225,125 Q225,25 150,25" />
+    <path d="M150,125 Q30,25 150,25" />
+    <path d="M270,125 Q300,25 150,25" />
+  </g>
+
+</svg>

@@ -1,0 +1,55 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect id="background" x="0" y="0" width="600" height="400" fill="#f5deb3"/>
+```
+
+2. **Kangaroo**
+- Initial position: (100, 200)
+- Movement:
+  - Jump animation: vertical movement between (100, 170) and (100, 250)
+  - Horizontal movement: moves right by 20 pixels for each jump
+
+```svg
+<g id="kangaroo" transform="translate(100, 200)">
+  <path d="M...Z" fill="#f38181"/> <!-- Kangaroo's body -->
+  <circle cx="..." cy="..." r="15" fill="#fff"/> <!-- Kangaroo's pouch -->
+</g>
+```
+
+3. **Shapes**
+- Red square: (200, 150), moves down by 10 pixels for each kangaroo jump
+- Blue circle: (400, 250), bounces left and right between (380, 250) and (420, 250)
+
+```svg
+<rect id="redSquare" x="200" y="150" width="50" height="50" fill="#ff6f6f"/>
+<circle id="blueCircle" cx="400" cy="250" r="30" fill="#8ed6ff"/>
+```
+
+4. **Interactions**
+- Kangaroo jumps over the red square
+- Kangaroo kicks the blue circle during its jump
+
+```svg
+<!-- Kick animation: blueCircle moves up by 10 pixels and back down -->
+<animateMotion id="kickAnimation" begin="click" dur="0.5s">
+  <mpath href="#blueCirclePath"/>
+</animateMotion>
+```
+
+5. **SVG Script**
+- Use `<animate>` tags for movement animations
+- Use `<set>` tags to trigger actions based on kangaroo's position
+
+```svg
+<!-- Kangaroo jumping animation -->
+<animate id="jumpAnimation" attributeName="transform" dur="1s"
+  values="translate(0, 170) translate(0, 250)" repeatCount="indefinite"/>
+
+<!-- Red square falling animation -->
+<animate attributeName="y" from="150" to="200" dur="1s" repeatCount="indefinite"/>
+```
+
+6. **Finalizing the SVG**
+```svg
+</g>
+</rect>
+</svg>

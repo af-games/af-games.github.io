@@ -1,0 +1,34 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path id="body" d="M100,270 Q90,260 100,250 Q110,260 100,270"
+        style="fill:lightgrey; stroke:black; stroke-width:2"/>
+
+  <!-- Head -->
+  <path id="head" d="M100,180 Q90,160 100,150 Q110,160 100,180"
+        style="fill:lightgrey; stroke:black; stroke-width:2"/>
+
+  <!-- Face -->
+  <circle id="face" cx="100" cy="140" r="30"
+          style="fill:white; stroke:black; stroke-width:2"/>
+
+  <!-- Wings (left) -->
+  <path id="wing-left" d="M80,250 Q70,230 80,210 Q90,230 80,250"
+        style="fill:lightgrey; stroke:black; stroke-width:2"/>
+
+  <!-- Wings (right) -->
+  <path id="wing-right" d="M120,250 Q110,230 120,210 Q130,230 120,250"
+        style="fill:lightgrey; stroke:black; stroke-width:2"/>
+
+  <!-- Eyes (left) -->
+  <circle id="eye-left" cx="90" cy="140" r="5"
+          style="fill:black"/>
+
+  <!-- Eyes (right) -->
+  <circle id="eye-right" cx="110" cy="140" r="5"
+          style="fill:black"/>
+
+  <!-- Beak -->
+  <path id="beak" d="M100,120 Q90,100 100,80 Q110,100 100,120"
+        style="fill:orange; stroke:black; stroke-width:2"/>
+
+</svg>

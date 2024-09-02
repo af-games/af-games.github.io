@@ -1,0 +1,28 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ancient Era -->
+  <rect x="50" y="100" width="150" height="50" fill="#8B4513" stroke="black"/>
+  <text x="75" y="130" font-size="20">Ancient Ruins</text>
+
+  <!-- Medieval Era -->
+  <polygon points="250,100 350,50 450,100" fill="#8B7D6B" stroke="black"/>
+  <text x="300" y="130" font-size="20">Medieval Castles</text>
+
+  <!-- Renaissance Era -->
+  <rect x="550" y="50" width="150" height="150" fill="#FFD700" stroke="black"/>
+  <path d="M600,50 Q700,200 800,50" stroke="black" fill="transparent"/>
+  <text x="630" y="120" font-size="20">Renaissance Structures</text>
+
+  <!-- Modern Era -->
+  <path d="M50,250 Q150,350 250,250" stroke="black" fill="transparent"/>
+  <rect x="350" y="200" width="150" height="100" fill="#ADD8E6" stroke="black"/>
+  <text x="400" y="270" font-size="20">Modern Skyscrapers</text>
+
+  <!-- Futuristic Era -->
+  <path d="M50,350 Q150,450 250,350" stroke="black" fill="transparent"/>
+  <polygon points="350,300 450,350 550,300" fill="#4B0082" stroke="black"/>
+  <text x="400" y="325" font-size="20">Futuristic Structures</text>
+
+  <!-- Timeline Axis -->
+  <line x1="50" y1="375" x2="750" y2="375" stroke="black"/>
+  <text x="80" y="400" font-size="20">Time (Years)</text>
+</svg>

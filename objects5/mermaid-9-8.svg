@@ -1,0 +1,35 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="600" fill="#05386B"/>
+
+  <!-- Body & Tail -->
+  <polygon points="10,490 90,420 490,420 490,590" fill="#F1E7D2"/>
+  <polygon points="490,590 380,650 120,650" fill="#FFEB9C"/>
+
+  <!-- Scales -->
+  <g transform="translate(120,420) rotate(-45)">
+    <rect width="20" height="25" fill="#ADE8C7"/>
+    <use xlink:href="#scale" fill="#66B492"></use>
+    <use xlink:href="#scale" fill="#8EC0AC"></use>
+  </g>
+
+  <!-- Hair -->
+  <polygon points="10,150 30,170 50,150 100,150" fill="#ADE8C7"/>
+  <circle cx="60" cy="120" r="15" fill="#8EC0AC"/>
+
+  <!-- Eyes -->
+  <circle cx="230" cy="190" r="30" fill="#3366CC">
+    <circle cx="230" cy="190" r="20" fill="white"/>
+  </circle>
+
+  <!-- Eye details -->
+  <circle cx="250" cy="185" r="5" fill="#3366CC"/>
+  <circle cx="210" cy="185" r="5" fill="#3366CC"/>
+
+  <!-- Define scale pattern for reuse -->
+  <defs>
+    <pattern id="scale" patternUnits="userSpaceOnUse">
+      <path d="M0,0 L20,0 L20,25 L0,25 Z"/>
+    </pattern>
+  </defs>
+</svg>

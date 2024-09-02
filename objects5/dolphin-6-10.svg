@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Filter definitions -->
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+      <feOffset dx="2" dy="2" result="offsetblur" />
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="ripple">
+      <feTurbulence baseFrequency="0.05 0" numOctaves="2" result="turbulence" />
+      <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="10" xChannelSelector="R" yChannelSelector="G" />
+    </filter>
+  </defs>
+
+  <!-- Landmarks -->
+
+  <!-- Start point: Beach -->
+  <path d="M50,450 Q70,400 150,350 Q250,300 300,350 Q350,400 400,450" fill="gold" filter="url(#shadow)"/>
+  <text x="60" y="480" font-family="Verdana" font-size="20">Beach</text>
+
+  <!-- Dolphin Jump -->
+  <path d="M350,150 Q400,200 450,150 Q500,200 550,150" fill="lightblue" filter="url(#ripple)"/>
+  <circle cx="450" cy="170" r="30" fill="darkblue"/>
+  <text x="380" y="120" font-family="Verdana" font-size="20">Dolphin Jump</text>
+
+  <!-- Coral Reef -->
+  <rect x="500" y="400" width="150" height="100" fill="darkorange"/>
+  <text x="570" y="500" font-family="Verdana" font-size="20">Coral Reef</text>
+
+  <!-- Underwater Cave -->
+  <path d="M600,400 Q650,350 700,400" stroke="black" fill="lightblue"/>
+  <circle cx="650" cy="380" r="20" fill="darkblue"/>
+  <text x="630" y="430" font-family="Verdana" font-size="20">Underwater Cave</text>
+
+  <!-- Route -->
+  <path d="M50,450 Q70,400 150,350 L350,150 Q400,200 450,150 L550,150" stroke="blue" fill="transparent"/>
+
+</svg>

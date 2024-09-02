@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+
+<!-- Basket -->
+<rect x="60" y="370" width="120" height="60" fill="#7D6650"/>
+<polygon points="60,370 180,370 120,340" fill="#7D6650"/>
+
+<!-- Basket handle -->
+<rect x="90" y="340" width="20" height="30" fill="#7D6650"/>
+<rect x="210" y="340" width="20" height="30" fill="#7D6650"/>
+
+<!-- Balloon envelope -->
+<defs>
+  <linearGradient id="balloonGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#FF9933"/>
+    <stop offset="100%" style="stop-color:#FFFFFF"/>
+  </linearGradient>
+</defs>
+<ellipse cx="150" cy="200" rx="80" ry="400">
+  <clipPath id="balloonClip">
+    <circle cx="150" cy="200" r="80"/>
+  </clipPath>
+</ellipse>
+<path d="M150,370 Q90,290 150,240 Q210,290 150,370" fill="url(#balloonGradient)"/>
+
+<!-- Rim -->
+<circle cx="150" cy="200" r="150"/>
+<circle cx="150" cy="200" r="110" stroke="#F4D03F" stroke-width="5" fill="transparent"/>
+
+</svg>

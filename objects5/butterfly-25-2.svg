@@ -1,0 +1,8 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,50 A40,40 0 1,0 60,90 Q70,80 100,50 T130,50" fill="black"/>
+  <!-- Left Wing -->
+  <path d="M80,20 Q50,50 80,90 H100 V60 Z" fill="red"/>
+  <!-- Right Wing -->
+  <path d="M120,20 Q150,50 120,90 H110 V60 Z" fill="red"/>
+</svg>

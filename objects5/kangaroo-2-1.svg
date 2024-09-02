@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 60">
+  <!-- Body -->
+  <path d="M10 20 Q40 20, 40 50 Q10 80, 10 50 Z"
+        fill="#F9A73D" stroke="#333" stroke-width="2"/>
+
+  <!-- Head -->
+  <circle cx="25" cy="10" r="10" fill="#F9A73D"/>
+  <ellipse cx="25" cy="8" rx="4" ry="6" fill="#FFF"/>
+  <path d="M20 5 L30 5 Z" stroke="#333"/>
+
+  <!-- Arms -->
+  <rect x="15" y="35" width="10" height="20" fill="#F9A73D" transform="rotate(-45 35 35)"/>
+  <rect x="35" y="35" width="10" height="20" fill="#F9A73D" transform="rotate(45 45 35)"/>
+
+  <!-- Legs -->
+  <path d="M10 50 Q20 80, 35 60 Z"
+        fill="#F9A73D"/>
+  <path d="M40 50 Q30 80, 25 60 Z"
+        fill="#F9A73D"/>
+
+  <!-- Tail -->
+  <polygon points="15,50 25,60 35,50" fill="#F9A73D"/>
+</svg>

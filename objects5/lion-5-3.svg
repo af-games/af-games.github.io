@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Outline the lion's body with a simple rectangle -->
+  <rect x="-40" y="-40" width="80" height="80" style="fill:gold; stroke-width:2;" />
+
+  <!-- Add complex elements using paths for the mane and facial features -->
+
+  <!-- Mane -->
+  <path d="M-40 -35 Q-35 -35, -40 -25 Q-45 -35, -40 -35" style="fill:orange; stroke-width:1;" />
+  <path d="M-40 -25 Q-30 -15, -40 -5 Q-50 -15, -40 -5 Q-30 -15, -40 -25" style="fill:orange; stroke-width:1;" />
+
+  <!-- Eyes -->
+  <circle cx="-20" cy="-20" r="5" style="fill:black;" />
+  <circle cx="-30" cy="-20" r="5" style="fill:black;" />
+
+  <!-- Nose -->
+  <path d="M-30 -10 Q-25 -5, -30 0 Q-35 -5, -30 -10" style="fill:black;" />
+
+  <!-- Label points using coordinates -->
+  <text x="-45" y="-45">(-40,-40)</text>
+  <text x="-25" y="-25">(-20,-20)</text>
+  <text x="-35" y="-15">(-30,-15)</text>
+
+</svg>

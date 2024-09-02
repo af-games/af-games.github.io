@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <g id="body">
+    <rect x="150" y="150" width="400" height="300" fill="#8B7D6B"/>
+    <path d="M190,280 Q210,320 250,300 Q300,340 340,300 Q380,340 420,300" fill="none" stroke="#000"/>
+  </g>
+
+  <!-- Head -->
+  <g id="head">
+    <path d="M350,170 Q390,130 440,160 Q480,190 420,220" fill="#8B7D6B"/>
+    <circle cx="450" cy="230" r="40" fill="#FFD700"/>
+  </g>
+
+  <!-- Arms -->
+  <g id="arms">
+    <rect x="190" y="220" width="80" height="60" fill="#8B7D6B" transform="rotate(-30, 225, 240)"/>
+    <rect x="460" y="220" width="80" height="60" fill="#8B7D6B" transform="rotate(30, 495, 240)"/>
+  </g>
+
+  <!-- Legs -->
+  <g id="legs">
+    <rect x="170" y="400" width="100" height="120" fill="#8B7D6B" transform="rotate(-15, 230, 480)"/>
+    <rect x="400" y="400" width="100" height="120" fill="#8B7D6B" transform="rotate(15, 460, 480)"/>
+  </g>
+
+</svg>

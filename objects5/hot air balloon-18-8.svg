@@ -1,0 +1,39 @@
+<svg width="600" height="450" xmlns="http://www.w3.org/2000/svg" style="fill:white; stroke:black; stroke-width:1px">
+  <!-- Hot Air Balloon -->
+  <g id="hot-air-balloon">
+    <circle cx="150" cy="70" r="60" fill="#FFB94A"/>
+    <path d="M120,130 Q140,180 160,130 Q140,80 120,130 Z" fill="#FF7509"/>
+    <rect x="145" y="5" width="10" height="110" fill="#FF7509"/>
+    <path d="M155,6 Q165,22 155,38 L145,38 Z" fill="#FF7509"/>
+  </g>
+
+  <!-- Croissant -->
+  <path id="croissant" d="M250,150 Q260,120 270,150 Q280,180 290,150 Q300,120 310,150 Z"
+        fill="#FFF4C1" stroke-width="2"/>
+
+  <!-- Fruits -->
+  <circle cx="350" cy="160" r="30" fill="#FF9F7F"/>
+  <path id="apple-core" d="M380,155 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0"
+        fill="#FFFFFF"/>
+
+  <!-- Coffee Cup -->
+  <g id="coffee-cup">
+    <path d="M450,220 Q460,200 470,220 Q480,240 490,220 Q500,200 510,220 Z"
+          fill="#FFF4C1"/>
+    <path d="M470,230 Q460,240 470,250 Q480,240 490,230 Z" fill="#FFD700"/>
+    <rect x="465" y="180" width="30" height="40" fill="#B05C22"/>
+    <circle cx="500" cy="200" r="15" fill="#E5D99F"/>
+  </g>
+
+  <!-- Tableware & Garnishes -->
+  <rect x="5" y="375" width="60" height="25" fill="#FF4A4A"/>
+  <circle cx="25" cy="385" r="12.5" fill="#FFFFFF"/>
+  <path d="M40,390 Q50,400 60,390 Z" stroke-width="2"/>
+
+  <circle cx="570" cy="385" r="12.5" fill="#FFFFFF"/>
+  <path d="M550,390 Q560,400 570,390 Z" stroke-width="2"/>
+
+  <!-- Text -->
+  <text x="10%" y="10%" text-anchor="middle" dominant-baseline="middle" font-size="2em">Bon appétit!</text>
+
+</svg>

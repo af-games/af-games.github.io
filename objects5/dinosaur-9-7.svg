@@ -1,0 +1,42 @@
+<svg width="800" height="600" style="background-color: lightgreen;">
+```
+
+2. **Plant your seeds (Initial shapes)**
+
+Let's start with a basic T-Rex structure using rectangles for the body and circles for the head, arms, legs, and hips.
+
+```svg
+  <rect id="body" x="100" y="350" width="400" height="200"/>
+  <circle id="head" cx="180" cy="270" r="60"/>
+  <circle id="arm1" cx="100" cy="350" r="30"/>
+  <circle id="arm2" cx="270" cy="350" r="30"/>
+  <circle id="leg1" cx="80" cy="450" r="30"/>
+  <circle id="leg2" cx="220" cy="450" r="30"/>
+```
+
+3. **Water and nurture the seeds (Apply transforms)**
+
+Now, let's use transformations to grow our T-Rex.
+
+```svg
+  <!-- Body -->
+  <use xlink:href="#body" transform="translate(100, 350) rotate(-2)" fill="brown"/>
+
+  <!-- Head -->
+  <use xlink:href="#head" transform="translate(180, 270) scale(1.2)" fill="tan"/>
+
+  <!-- Arms -->
+  <use xlink:href="#arm1" transform="translate(100, 350) rotate(-45)" fill="brown"/>
+  <use xlink:href="#arm2" transform="translate(270, 350) rotate(45)" fill="brown"/>
+
+  <!-- Legs -->
+  <use xlink:href="#leg1" transform="translate(80, 450) rotate(-10)" fill="brown"/>
+  <use xlink:href="#leg2" transform="translate(220, 450) rotate(10)" fill="brown"/>
+```
+
+4. **Prune (Remove unnecessary elements/attributes)**
+
+Since we're using `use` to replicate shapes, we can remove the original circles and rectangles.
+
+```svg
+</svg>

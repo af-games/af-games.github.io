@@ -1,0 +1,36 @@
+<svg width="800" height="600" style="background-color: #f0f0f0;" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Plant seeds - Initial shapes**
+
+Let's start with a rectangle for the ground, two circles for the eyes, and a path for the basic shape of the T-Rex.
+
+```svg
+  <rect id="ground" x="50" y="400" width="700" height="200" fill="#8b7d6c"/>
+  <circle id="eye1" cx="300" cy="200" r="30"/>
+  <circle id="eye2" cx="500" cy="200" r="30"/>
+  <path id="t-rex-shape" d="M400,100 Q350,0 400,100 Z"/>
+```
+
+3. **Water and nurture the seeds (Transformations)**
+
+Now let's transform these shapes to grow them into dinosaur features.
+
+```svg
+  <!-- Ground -->
+  <use xlink:href="#ground" transform="translate(0, -20)"/>
+
+  <!-- Eyes -->
+  <use xlink:href="#eye1" transform="scale(1.5), translate(-300, -50)"/>
+  <use xlink:href="#eye2" transform="scale(1.5), translate(200, -50)"/>
+
+  <!-- T-Rex Body -->
+  <use xlink:href="#t-rex-shape" transform="translate(400, 300), scale(2, 3)"/>
+```
+
+4. **Prune unnecessary elements (Remove unused shapes)**
+
+Since we've used the `use` element to replicate our initial shapes, we can remove them from the SVG code.
+
+```svg
+</svg>

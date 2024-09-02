@@ -1,0 +1,20 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="100" cy="150" r="50" fill="lightpink"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="75" rx="30" ry="40" fill="pink"/>
+
+  <!-- Wings -->
+  <polygon points="60,120 90,150 140,200 90,230" fill="lightblue"/>
+  <polygon points="70,200 120,230 130,200 80,170" fill="lightblue"/>
+
+  <!-- Hair -->
+  <path d="M90,75 Q95,60 110,50 Q105,60 110,75" stroke="brown" fill="transparent"/>
+
+  <!-- Clothing -->
+  <rect x="80" y="150" width="40" height="50" fill="lightgreen"/>
+  <rect x="70" y="200" width="60" height="100" fill="lightgreen"/>
+
+</svg>

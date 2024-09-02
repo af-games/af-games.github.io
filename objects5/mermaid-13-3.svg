@@ -1,0 +1,12 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mermaid-body" ... />
+  </defs>
+  <rect width="100%" height="100%" style="fill:transparent;"/>
+  <!-- Body -->
+  <path d="..." fill="url(#mermaid-body)" stroke="#CD7F32"/>
+  <!-- Tentacles and Hair -->
+  <path d="..." fill="#4CAF50" stroke="#CD7F32" stroke-width="3"/>
+  <!-- Features (eyes, gems) -->
+  <circle cx="..." cy="..." r="10" fill="#CD7F32"/>
+</svg>

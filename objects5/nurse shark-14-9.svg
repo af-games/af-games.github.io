@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Grid -->
+  <rect x="50" y="50" width="700" height="400" fill="lightgrey"/>
+  <line x1="50" y1="50" x2="750" y2="50" stroke="black"/>
+  <line x1="50" y1="550" x2="750" y2="550" stroke="black"/>
+  <line x1="50" y1="50" x2="50" y2="550" stroke="black"/>
+  <line x1="750" y1="50" x2="750" y2="550" stroke="black"/>
+
+  <!-- Clues -->
+  <circle cx="100" cy="150" r="5" fill="blue" title="Bloodstain"/>
+  <circle cx="300" cy="250" r="5" fill="green" title="Bite mark"/>
+  <circle cx="600" cy="350" r="5" fill="red" title="Fin print"/>
+
+  <!-- Suspects -->
+  <rect x="150" y="100" width="80" height="40" fill="#FF9999" title="Barracuda"/>
+  <rect x="250" y="200" width="80" height="40" fill="#99CC33" title="Grouper"/>
+  <rect x="400" y="300" width="80" height="40" fill="#9966FF" title="Tuna"/>
+
+  <!-- Culprits -->
+  <path d="M50,200 Q150,50 350,200 T700,200" stroke="black" fill="#66CCFF" title="Nurse Shark"/>
+
+</svg>

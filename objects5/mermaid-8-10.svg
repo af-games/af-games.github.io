@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Defining patterns -->
+  <defs>
+    <pattern id="scales" patternUnits="userSpaceOnUse" width="50" height="50">
+      <path d="M0,0 L50,25 Z M25,0 L50,25 Z" fill="#008C7D"/>
+    </pattern>
+    <pattern id="waves" patternUnits="userSpaceOnUse" width="100" height="100">
+      <path d="M0,0 Q50,50 100,0" stroke="#B3E0FF" stroke-width="20"/>
+      <path d="M0,0 Q50,-50 100,0" stroke="#212F3E" stroke-width="20"/>
+    </pattern>
+    <pattern id="texture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <circle cx="2" cy="2" r="2" fill="#FFF5EE"/>
+    </pattern>
+  </defs>
+
+  <!-- Mermaid's tail -->
+  <rect x="0" y="300" width="800" height="300" fill="url(#scales)"/>
+
+  <!-- Water -->
+  <rect x="100" y="450" width="600" height="250" fill="url(#waves)">
+
+    <!-- Mermaid's upper body -->
+    <path d="M300,150 Q350,75 400,150 Q350,225 300,150" fill="#FFF5EE">
+      <!-- Skin texture -->
+      <use xlink:href="#texture"/>
+    </path>
+
+    <!-- Mermaid's crown and necklace -->
+    <circle cx="350" cy="75" r="50" fill="none" stroke="#CD7F32" stroke-width="10">
+      <circle cx="350" cy="75" r="45"/>
+    </circle>
+
+  </rect>
+</svg>

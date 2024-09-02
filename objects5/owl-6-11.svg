@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#224336"/>
+
+  <!-- Owl's Body -->
+  <path d="M30 15 Q50 0, 80 15 L80 60 Q50 100, 30 60 Z" fill="url(#bodyGradient)"/>
+  <defs>
+    <linearGradient id="bodyGradient" gradientTransform="rotate(45)">
+      <stop offset="0%" stop-color="#775542"/>
+      <stop offset="50%" stop-color="#9C8A7F"/>
+      <stop offset="100%" stop-color="#D1CECA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Owl's Eyes -->
+  <circle cx="60" cy="40" r="10" fill="#FFDB58"/>
+  <circle cx="60" cy="40" r="9" stroke="#FFF" stroke-width="2" fill="url(#glow)"/>
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFDB58"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0.3"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Owl's Feathers -->
+  <path d="M80 25 Q90 15, 100 25 L100 50 Q90 60, 80 50 Z" fill="url(#featherGradient)"/>
+  <defs>
+    <radialGradient id="featherGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#624B3F"/>
+      <stop offset="100%" stop-color="#7A6D61"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Owl's Beak & Talons -->
+  <path d="M30 25 Q40 15, 50 25 L60 50 Z" fill="#FF8C58"/>
+  <path d="M80 75 Q90 85, 100 75 L100 90 Q90 105, 80 90 Z" fill="#FF8C58"/>
+
+  <!-- Shadow -->
+  <path d="M0 100 Q20 110, 40 100 L70 100 Q90 90, 100 100" fill="#3A3532" fill-opacity="0.3"/>
+</svg>

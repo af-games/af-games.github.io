@@ -1,0 +1,37 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="60" y="140" width="180" height="150"
+        fill="#FDD79D" stroke="#8B5C25" stroke-width="5"/>
+
+  <!-- Cake Top -->
+  <path d="M60,140 Q140,80 240,140"
+        fill="#EACDC2" stroke="#8B5C25" stroke-width="5"/>
+
+  <!-- Frosting -->
+  <circle cx="150" cy="90" r="60"
+          fill="url(#frostGradient)"/>
+
+  <!-- Cake Top Edge -->
+  <path d="M60,70 Q140,30 240,70"
+        stroke="#FFF" stroke-width="2" />
+
+  <!-- Cherry on Top -->
+  <circle cx="150" cy="35" r="8"
+          fill="#C4003B"/>
+
+  <!-- Text "Happy Birthday!" -->
+  <text x="65%" y="75%" dominant-baseline="middle" text-anchor="middle"
+        font-family="Verdana" font-size="24px"
+        fill="#FFF">Happy Birthday!</text>
+
+  <!-- Defining Gradient for Frosting -->
+  <defs>
+    <linearGradient id="frostGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#FFF"/>
+      <stop offset="50%" stop-color="#DAD4D6"/>
+      <stop offset="100%" stop-color="#FFF"/>
+    </linearGradient>
+  </defs>
+
+</svg>

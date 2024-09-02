@@ -1,0 +1,44 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E5E9F0"/>
+
+  <!-- Rolling Hills -->
+  <path d="M 50,400 Q 300,350 600,400 Q 750,450 800,400" stroke="none" fill="url(#hill-gradient)"/>
+  <defs>
+    <linearGradient id="hill-gradient" gradientTransform="rotate(90)">
+      <stop offset="0%"   stop-color="#CBD1DF"/>
+      <stop offset="100%" stop-color="#9FA8B5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Winding River -->
+  <path d="M 250,470 Q 300,440 450,470 Q 600,410 750,470" stroke="#4B6C98" stroke-width="2" fill="none"/>
+  <path d="M 250,470 Q 300,440 450,470 Q 600,410 750,470" stroke="#E5E9F0" stroke-width="1.5" fill="none"/>
+
+  <!-- Towering Trees -->
+  <circle cx="250" cy="380" r="40" fill="url(#tree-leaves)"/>
+  <circle cx="650" cy="380" r="40" fill="url(#tree-leaves)"/>
+  <defs>
+    <radialGradient id="tree-leaves" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%"   stop-color="#389C47"/>
+      <stop offset="100%" stop-color="#216A30"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Jellyfish -->
+  <g transform="translate(450,450)">
+    <circle cx="0" cy="-50" r="40" fill="url(#jellyfish-gradient)"/>
+    <path d="M -30,-50 A 30,30 0 1,0 30,-50 A 30,30 0 1,0 -30,-50 Z" stroke="#FFF" stroke-width="2" fill="none"/>
+    <circle cx="-10" cy="-60" r="8" fill="#FFF"/>
+    <circle cx="10" cy="-60" r="8" fill="#FFF"/>
+  </g>
+  <defs>
+    <linearGradient id="jellyfish-gradient">
+      <stop offset="0%"   stop-color="#FF9D9A"/>
+      <stop offset="50%"  stop-color="#FFC371"/>
+      <stop offset="100%" stop-color="#FFB64D"/>
+    </linearGradient>
+  </defs>
+
+</svg>

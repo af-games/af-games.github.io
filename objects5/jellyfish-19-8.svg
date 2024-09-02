@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" style="background-color: #fff;">
+  <!-- Plate -->
+  <circle cx="250" cy="350" r="180" fill="#FFF9ED" stroke="#D6A26E" stroke-width="5"/>
+
+  <!-- Jellyfish -->
+  <path d="M250,140 q-70,-40 -130,10 q-60,60 -20,150 Q10,300 80,330 T200,350 t90,-150 Q420,300 370,220 Q330,190 250,140" fill="#C6FFAB" stroke="#66BB6A" stroke-width="3"/>
+
+  <!-- Squid -->
+  <path d="M180,220 q-20,-20 -50,20 T120,270 Q90,300 140,330 t60,-80 Z" fill="#66BB6A" stroke="#D6A26E" stroke-width="3"/>
+
+  <!-- Mussels -->
+  <rect x="150" y="270" width="80" height="30" rx="15" fill="#FFF9ED"/>
+  <path d="M150,270 q-40,-60 -80,0 T150,330 Z" fill="#D6A26E"/>
+
+  <!-- Lemon wedge -->
+  <polygon points="320,250 390,250 365,290" fill="#FFC107"/>
+  <path d="M320,250 q-40,-20 -60,40 t80,-60 Z" fill="#FFF9ED"/>
+
+  <!-- Fresh herbs (parsley) -->
+  <polygon points="430,230 470,230 450,180" fill="#3D9970"/>
+  <path d="M430,230 q-40,-40 -60,0 t40,-40 Z" fill="#FFF9ED"/>
+
+  <!-- Fork and knife -->
+  <path d="M420,350 l10,-80 q0,-20 20,-20 t40,0 T480,330 l-60,-80 Z" stroke="#D6A26E" stroke-width="5"/>
+  <path d="M440,330 l-20,-100 q0,-10 -20,-10 t-20,10 Z" fill="#D6A26E"/>
+
+</svg>

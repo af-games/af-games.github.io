@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="75" r="20" fill="#F8DE7D"/>
+
+  <!-- Head -->
+  <circle cx="90" cy="60" r="10" fill="#FFC300"/>
+
+  <!-- Left Wing -->
+  <path d="M80,40 Q90,50 90,70 Q80,90 70,70 Z"
+        fill="#FFC300"/>
+
+  <!-- Right Wing -->
+  <path d="M120,40 Q110,50 110,70 Q120,90 130,70 Z"
+        fill="#FFC300"/>
+
+  <!-- Tail (optional) -->
+  <circle cx="110" cy="85" r="5" fill="#F8DE7D"/>
+</svg>

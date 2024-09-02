@@ -1,0 +1,27 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Plate -->
+  <rect x="50" y="100" width="500" height="300" fill="#FFFBDD"/>
+
+  <!-- Igloo -->
+  <path d="M150,160 Q175,125 200,160 Q175,195 150,240 Q125,195 100,160" stroke="#FFD700" fill="#FFEBCD"/>
+  <path d="M100,280 L200,280" stroke="#FFD700"/>
+
+  <!-- Snow-capped mountains -->
+  <polygon points="350,160 400,120 450,160" fill="#FFFFFF"/>
+  <rect x="340" y="100" width="110" height="60" fill="#D9FFFF"/>
+
+  <!-- Pine trees -->
+  <polygon points="300,180 320,180 310,250" stroke="#006400" fill="#006400"/>
+  <polygon points="350,180 370,180 360,250" stroke="#006400" fill="#006400"/>
+
+  <!-- Polar bears -->
+  <circle cx="400" cy="200" r="40" fill="#FFFFFF"/>
+  <path d="M390,180 Q405,170 420,180" stroke="#000000" fill="transparent"/>
+  <circle cx="420" cy="200" r="20" fill="#FFFFFF"/>
+
+  <!-- Utensils -->
+  <rect x="30" y="375" width="60" height="15" fill="#C0C0C0"/> <!-- Fork -->
+  <path d="M80,375 L80,400 L20,390 Z" fill="#C0C0C0"/> <!-- Knife -->
+
+</svg>

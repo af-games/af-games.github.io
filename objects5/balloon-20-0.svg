@@ -1,0 +1,7 @@
+<svg width="150" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon Body -->
+  <ellipse cx="75" cy="40" rx="60" ry="80"
+           fill="#A0E6FF" stroke="black"/>
+  <!-- String -->
+  <line x1="75" y1="30" x2="75" y2="10" style="stroke:#4C2800; stroke-width:3" />
+</svg>

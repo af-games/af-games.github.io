@@ -1,0 +1,32 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#1F3A93"/>
+
+  <!-- Body -->
+  <polygon points="250,50 350,100 350,400 250,450" fill="url(#featherGradient)"/>
+  <path d="M275,60 Q300,80 300,120 Q275,160 250,160" stroke="#D5CABD" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="250" cy="140" r="20" fill="#F7DC6F">
+    <animateMotion repeatCount="indefinite" dur="2s">
+      <mpath href="#eyePath"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Beak -->
+  <path d="M250,180 Q240,220 260,230" stroke="#FF7F50" fill="transparent"/>
+
+  <!-- Wings -->
+  <polygon points="300,100 370,150 370,400 300,450" fill="#42290F"/>
+  <path d="M300,100 Q330,130 360,180 Q330,230 300,270" stroke="#D5CABD" fill="transparent"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="featherGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#42290F; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#D5CABD; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

@@ -1,0 +1,13 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo Base -->
+  <ellipse cx="150" cy="200" rx="150" ry="100" fill="#87CEEB"/>
+
+  <!-- Igloo Dome -->
+  <circle cx="150" cy="100" r="100" fill="#FFF"/>
+
+  <!-- Roof Details -->
+  <path d="M250,60 Q350,60 350,160 H150 Z M75,60 Q0,60 0,160 H75 Z"
+        fill="#87CEEB"/>
+
+</svg>

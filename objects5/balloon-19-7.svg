@@ -1,0 +1,15 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100 100 Q200 50, 300 100 H400 V600 H100 Z"
+        fill="#FFF" stroke="#000" stroke-width="5"/>
+
+  <!-- Balloon Hem -->
+  <path d="M100 600 Q200 700, 300 600 T400 700 H500 Z"
+        fill="#FFF" stroke="#000" stroke-width="5"/>
+
+  <!-- Beads -->
+  <circle cx="150" cy="580" r="10"/>
+  <circle cx="250" cy="630" r="10"/>
+  <circle cx="350" cy="580" r="10"/>
+
+</svg>

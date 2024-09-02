@@ -1,0 +1,36 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe Print Pattern -->
+  <defs>
+    <pattern id="giraffePrint" patternUnits="userSpaceOnUse" width="100" height="100">
+      <image href="https://i.imgur.com/BZtEZF7.png" x="0" y="0" width="100" height="100"/>
+    </pattern>
+  </defs>
+
+  <!-- Bodice -->
+  <rect id="bodice" x="50" y="120" width="340" height="260"
+        style="fill: url(#giraffePrint); stroke: black; stroke-width: 3;" />
+
+  <!-- Neckline -->
+  <path id="neckline" d="M70,90 Q100,80 150,90 T290,90 Q320,80 350,90"
+        style="fill: transparent; stroke: black; stroke-width: 3;" />
+
+  <!-- Waistline -->
+  <path id="waistline" d="M70,410 Q100,420 150,410 T290,410 Q320,420 350,410"
+        style="fill: transparent; stroke: black; stroke-width: 3;" />
+
+  <!-- Sleeves -->
+  <circle id="leftSleeve" cx="150" cy="190" r="70"
+          style="fill: url(#giraffePrint); stroke: black; stroke-width: 3;" />
+  <use xlink:href="#leftSleeve" transform="translate(280, 0)"/>
+
+  <!-- Gradient for dynamic effect -->
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(230,230,230);stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Apply gradient to bodice -->
+  <use xlink:href="#bodice" style="fill:url(#grad1)" />
+
+</svg>

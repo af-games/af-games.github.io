@@ -1,0 +1,30 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <g id="body">
+    <rect x="150" y="100" width="200" height="250" fill=" grey" stroke="black"/>
+    <path d="M170,300 Q200,320 230,300" fill="transparent" stroke="black" stroke-width="10"/>
+  </g>
+
+  <!-- Head -->
+  <g id="head">
+    <circle cx="250" cy="150" r="70" fill="grey" stroke="black"/>
+    <rect x="240" y="90" width="20" height="60" fill="transparent" stroke="black"/>
+  </g>
+
+  <!-- Tail -->
+  <g id="tail">
+    <path d="M310,180 C350,220 390,200 420,180" fill="transparent" stroke="black" stroke-width="10"/>
+  </g>
+
+  <!-- Leg1 -->
+  <g id="leg1">
+    <path d="M160,270 Q130,300 150,340" fill="transparent" stroke="black" stroke-width="10"/>
+  </g>
+
+  <!-- Leg2 -->
+  <g id="leg2">
+    <path d="M280,270 Q310,300 290,340" fill="transparent" stroke="black" stroke-width="10"/>
+  </g>
+
+</svg>

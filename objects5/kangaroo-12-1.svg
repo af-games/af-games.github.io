@@ -1,0 +1,23 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <g id="kangaroo">
+    <!-- Head -->
+    <circle cx="100" cy="80" r="40" fill="#FDB927"/>
+    <ellipse cx="105" cy="70" rx="5" ry="10" fill="black"/>
+
+    <!-- Body -->
+    <rect x="80" y="120" width="120" height="60" fill="#FDB927"/>
+    <polygon points="80,180 200,180 150,240" fill="#FDB927"/>
+
+    <!-- Tail -->
+    <rect x="130" y="220" width="60" height="20" rx="10" fill="#FDB927"/>
+    <polygon points="135,240 185,240 160,200" fill="black"/>
+
+    <!-- Legs -->
+    <rect x="80" y="180" width="40" height="60" rx="20" fill="#FDB927"/>
+    <rect x="140" y="180" width="40" height="60" rx="20" fill="#FDB927"/>
+
+    <!-- Feet -->
+    <circle cx="95" cy="240" r="10" fill="black"/>
+    <circle cx="145" cy="240" r="10" fill="black"/>
+  </g>
+</svg>

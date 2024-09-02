@@ -1,0 +1,12 @@
+<svg width="500" height="500" viewBox="-250 -250 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Basket (Rectangle) -->
+  <rect id="basket" x="-100" y="-75" width="200" height="50" fill="#8B4513"/>
+
+  <!-- Burner (Circle) -->
+  <circle id="burner" cx="0" cy="-50" r="35" fill="#FFD700"/>
+
+  <!-- Envelope (Path for the cone shape) -->
+  <path id="envelope" d="M0,-50 Q0,100 200,0 Q400,0 200,-100 Z" fill="#FF6347"/>
+
+</svg>

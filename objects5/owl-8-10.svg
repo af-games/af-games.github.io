@@ -1,0 +1,13 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Brown Owl Body -->
+  <rect x="50" y="40" width="100" height="80" fill="#69472D" stroke-width="2" stroke="#331E0B"/>
+
+  <!-- White Owl Face and Chest -->
+  <rect x="65" y="40" width="70" height="60" fill="#FFFFFF" stroke-width="2" stroke="#CBCBCB"/>
+
+  <!-- Brown Owl Eyes -->
+  <circle cx="80" cy="65" r="15" fill="#69472D"/>
+  <circle cx="120" cy="65" r="15" fill="#69472D"/>
+
+</svg>

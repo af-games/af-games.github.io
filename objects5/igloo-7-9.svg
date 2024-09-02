@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- The Quiet Life -->
+<circle cx="400" cy="300" r="150" fill="#87CEEB"/>
+<text x="30%" y="95%" text-anchor="middle" font-size="16px">Once upon a time, in a quiet snowfield...</text>
+
+<!-- The Big Blizzard -->
+<path d="M200 200 Q400 100 600 200" stroke="#000" fill="transparent"/>
+<circle cx="400" cy="300" r="150">
+    <animateMotion repeatCount="indefinite">
+        <mpath href="#blizzardPath"/>
+    </animateMotion>
+</circle>
+<text x="60%" y="95%" text-anchor="middle">One day, a big blizzard hit the snowfield.</text>
+
+<!-- The Adventure Begins -->
+<path id="slidePath" d="M400 400 Q300 500 200 600" stroke="#000"/>
+<circle cx="400" cy="300" r="150">
+    <animateMotion repeatCount="1" begin="0s; slidePath.end">
+        <mpath href="#slidePath"/>
+    </animateMotion>
+</circle>
+<text x="20%" y="95%" text-anchor="middle">The igloo slid downhill on a snowdrift.</text>
+
+<!-- Meeting the Northern Lights -->
+<path id="aurora" d="M400 100 Q600 300 400 500 Q200 300 400 100" fill="url(#gradient)" stroke="none"/>
+<circle cx="400" cy="300" r="150"/>
+<text x="60%" y="95%" text-anchor="middle">At the bottom of the hill, Igloo met the Northern Lights.</text>
+
+<!-- Igloo as an Iceberg -->
+<rect width="800" height="200" fill="#003D66"/>
+<circle cx="400" cy="550" r="150" fill="#87CEEB">
+    <animateMotion repeatCount="indefinite" begin="slidePath.end">
+        <mpath href="#floatPath"/>
+    </animateMotion>
+</circle>
+<circle cx="200" cy="450" r="100" fill="#424242">
+    <path d="M180 430 Q200 470 220 430" stroke="#FFF" fill="transparent"/>
+</circle>
+<text x="60%" y="95%" text-anchor="middle">Igloo floated on water like an iceberg, meeting a whale.</text>
+
+<!-- Return to the Snowfield -->
+<path id="returnPath" d="M400 600 Q300 500 200 400"/>
+<circle cx="400" cy="300" r="150">
+    <animateMotion repeatCount="1" begin="floatPath.end">
+        <mpath href="#returnPath"/>
+    </animateMotion>
+</circle>
+<text x="80%" y="95%" text-anchor="middle">Finally, Igloo slid back home.</text>
+
+<!-- Celebration Scene -->
+<g id="celebration">
+    <circle cx="400" cy="300" r="150" fill="#87CEEB"/>
+    <defs>
+        <radialGradient id="gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:rgb(139,206,239);stop-opacity:1"/>
+        </radialGradient>
+    </defs>
+</g>
+<use href="#celebration" xlink:href="#igloo"/>
+<text x="40%" y="95%" text-anchor="middle">...and lived happily ever after!</text>
+
+</svg>

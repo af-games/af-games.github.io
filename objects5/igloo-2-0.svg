@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 400">
+
+  <!-- Igloo Base -->
+  <rect x="50" y="200" width="300" height="80" fill="#fff"/>
+
+  <!-- Igloo Dome -->
+  <ellipse cx="175" cy="240" rx="160" ry="180" fill="#fff" stroke="#000"/>
+  <path d="M175,240 A160,180 0 0 1 175,390" stroke="#000"/>
+
+  <!-- Igloo Entrance -->
+  <rect x="125" y="300" width="70" height="80" fill="#fff" stroke="#000"/>
+  <path d="M125,400 Q175,390 225,400 H150 Z"/>
+
+  <!-- Igloo Windows -->
+  <ellipse cx="95" cy="260" rx="20" ry="20"/>
+  <ellipse cx="230" cy="260" rx="20" ry="20"/>
+
+  <!-- Snow Details (Dots) -->
+  <circle cx="140" cy="275" r="5"/>
+  <circle cx="180" cy="290" r="5"/>
+  <circle cx="230" cy="265" r="5"/>
+
+</svg>

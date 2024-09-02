@@ -1,0 +1,20 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bottom Tier -->
+  <rect x="50" y="180" width="200" height="70" fill="#FDD9C6" stroke="black"/>
+
+  <!-- Middle Tier -->
+  <rect x="70" y="110" width="160" height="70" fill="#FFE4B5" stroke="black"/>
+
+  <!-- Top Tier -->
+  <rect x="90" y="30" width="120" height="80" fill="#FFF5E6" stroke="black"/>
+
+  <!-- Candles -->
+  <circle cx="100" cy="40" r="15" fill="yellow"/>
+  <circle cx="120" cy="40" r="13" fill="yellow"/>
+  <circle cx="140" cy="40" r="10" fill="yellow"/>
+
+  <!-- Cake Topping -->
+  <path d="M90,30 Q120,5 Q150,30 Z" stroke="#A87D59" fill="transparent"/>
+
+</svg>

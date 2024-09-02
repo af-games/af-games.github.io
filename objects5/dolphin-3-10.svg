@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <filter id="sepia">
+      <feColorMatrix type="matrix"
+        values="0.393 0.769 0.189 0 0
+                0.349 0.686 0.168 0 0
+                0.272 0.534 0.131 0 0
+                0 0 0 1 0" />
+    </filter>
+    <filter id="shiny">
+      <feSpecularLighting in="SourceAlpha" surfaceScale="6"
+        specularConstant=".75" specularExponent="20"
+        lighting-color="#bbbbbb" result="specOut">
+        <fePointLight x="-10000" y="-10000" z="20000" />
+      </feSpecularLighting>
+      <feComposite in="specOut" in2="SourceAlpha" operator="in" />
+    </filter>
+  </defs>
+
+  <!-- Landmarks (major shapes) -->
+  <circle cx="400" cy="300" r="150" fill="#87ceeb" filter="url(#sepia)" />
+  <path d="M200 150 Q250 75, 350 150 T600 400" stroke="#32cd32" fill="transparent" filter="url(#shiny)"/>
+  <polyline points="400,150 600,250 400,350" stroke="#ffa500" fill="transparent"/>
+
+  <!-- Expedition route (lines connecting shapes) -->
+  <line x1="200" y1="150" x2="400" y2="300" stroke="#008b8b"/>
+  <line x1="400" y1="300" x2="600" y2="400" stroke="#008b8b"/>
+
+  <!-- Dolphins -->
+  <image href="https://www.clker.com/cliparts/d/e/a/d/dea-clipart-dolphin.svg" width="50" height="75" x="150" y="200"/>
+  <image href="https://www.clker.com/cliparts/d/e/a/d/dea-clipart-dolphin.svg" width="50" height="75" x="550" y="300"/>
+
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 40 60">
+  <!-- Bottom tier -->
+  <circle cx="0" cy="0" r="8" fill="#f5deb3"/>
+  <rect x="-9" y="-9" width="18" height="18" rx="5%" stroke="#6d4227" fill="#fff"/>
+
+  <!-- Middle tier -->
+  <circle cx="0" cy="16" r="6" fill="#f5deb3"/>
+  <rect x="-7" y="8" width="14" height="14" rx="5%" stroke="#6d4227" fill="#fff"/>
+
+  <!-- Top tier -->
+  <circle cx="0" cy="32" r="4" fill="#f5deb3"/>
+  <rect x="-5" y="24" width="10" height="10" rx="5%" stroke="#6d4227" fill="#fff"/>
+
+  <!-- Buttercream frosting -->
+  <polygon points="-8,-9 -8,9 8,9 8,-9"
+           style="fill: #f3a583; stroke-width: 1px; stroke:#6d4227"/>
+</svg>

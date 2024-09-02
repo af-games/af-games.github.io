@@ -1,0 +1,27 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="150" cy="170" r="80" fill="#4A4A4A"/>
+  <path d="M150,170 Q90,190 60,230" stroke="#CCC" stroke-width="2"/>
+
+  <!-- Inner lining -->
+  <circle cx="150" cy="170" r="70" fill="#8A8A8A"/>
+  <path d="M150,170 Q90,190 60,230" stroke="#AAA" stroke-width="1"/>
+
+  <!-- Fins -->
+  <!-- Left fin -->
+  <polygon points="60,140 90,80 60,50" fill="#4A4A4A"/>
+  <path d="M60,140 L90,80 Z" stroke="#AAA" stroke-width="2"/>
+
+  <!-- Right fin -->
+  <polygon points="210,140 170,80 210,50" fill="#4A4A4A"/>
+  <path d="M210,140 L170,80 Z" stroke="#AAA" stroke-width="2"/>
+
+  <!-- Tail fin -->
+  <rect x="230" y="230" width="50" height="60" fill="#696969"/>
+  <path d="M230,230 Q280,250 270,280 Z" stroke="#AAA" stroke-width="2"/>
+
+  <!-- Wave pattern -->
+  <path d="M10,40 Q50,100 100,60 Q150,120 200,90 Q250,60 300,100" stroke="#CCC" stroke-width="2"/>
+
+</svg>

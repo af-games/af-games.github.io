@@ -1,0 +1,35 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe Head -->
+  <circle cx="150" cy="120" r="80" fill="lightgoldenrodyellow"/>
+  <ellipse cx="160" cy="90" rx="40" ry="30" fill="saddlebrown"/>
+  <path d="M130,70 A50,50 0 0 0 220,70 L180,90 Z" fill="black"/>
+
+  <!-- Giraffe Body -->
+  <rect x="100" y="200" width="300" height="400" fill="url(#giraffe-grad)"/>
+  <pattern id="giraffe-spots" patternUnits="userSpaceOnUse" width="60" height="60">
+    <circle cx="30" cy="30" r="25" fill="saddlebrown"/>
+    <circle cx="90" cy="30" r="25" fill="lightgoldenrodyellow"/>
+  </pattern>
+  <rect x="100" y="200" width="300" height="400" fill="url(#giraffe-spots)"/>
+
+  <!-- Giraffe Legs -->
+  <path d="M70,500 Q120,600 180,500 L180,600 Z" fill="saddlebrown"/>
+  <path d="M230,500 Q280,600 340,500 L340,600 Z" fill="saddlebrown"/>
+
+  <!-- Giraffe Neck -->
+  <path d="M150,280 Q100,350 70,300 A50,50 0 0 1 150,40 Z" fill="lightgoldenrodyellow"/>
+  <line x1="60" y1="350" x2="190" y2="350" stroke="saddlebrown" stroke-width="10"/>
+
+  <!-- Sleeves -->
+  <circle cx="70" cy="80" r="40" fill="url(#giraffe-grad)"/>
+  <circle cx="330" cy="80" r="40" fill="url(#giraffe-grad)"/>
+
+  <!-- Gradients -->
+  <linearGradient id="giraffe-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:saddlebrown; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:lightgoldenrodyellow; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:saddlebrown; stop-opacity:1"/>
+  </linearGradient>
+
+</svg>

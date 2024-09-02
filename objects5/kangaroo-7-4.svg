@@ -1,0 +1,34 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+```
+
+Now, let's bring in the main body, a circle:
+
+```svg
+<circle cx="300" cy="300" r="150" fill="#8B7D6D"/>
+```
+
+Next, we'll add the ears. Let's make them large ellipses positioned above the head:
+
+```svg
+<ellipse cx="200" cy="220" rx="60" ry="40" fill="#8B7D6D"/>
+<ellipse cx="400" cy="220" rx="60" ry="40" fill="#8B7D6D"/>
+```
+
+Now, let's add the pouch in front of the body. We'll use a triangle:
+
+```svg
+<polygon points="350,350 300,250 450,250" fill="#8B7D6D"/>
+```
+
+Let's animate the eyes and nose moving into place one by one. They're small circles positioned within the body:
+
+```svg
+<circle cx="280" cy="290" r="10" fill="#FFFFFF"/>
+<circle cx="350" cy="290" r="10" fill="#FFFFFF"/>
+<circle cx="320" cy="340" r="10" fill="#FFFFFF"/>
+```
+
+Finally, let's close the stage:
+
+```svg
+</svg>

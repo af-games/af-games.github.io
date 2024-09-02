@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Lion Silhouette -->
+  <path id="lion" d="M50,-40 a40,40 0 0 1 0,80 a40,40 0 0 1 0,-80z"/>
+  <circle cx="50" cy="-30" r="20" fill="#fff"/>
+
+  <!-- Strings -->
+  <path id="stringHead" d="M50,-30 Q50,-10 70,-30 T70,-45"/>
+  <path id="stringBody" d="M50,0 Q50,20 70,0 T70,-10"/>
+  <path id="stringTail" d="M50,40 Q50,60 70,40 T70,30"/>
+
+  <!-- Props: Sun and Tree -->
+  <circle cx="-30" cy="50" r="20" fill="#yellow"/>
+  <path d="M-10,-50 V0 H-30 V-50z" fill="#brown"/>
+
+</svg>

@@ -1,0 +1,30 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="200" fill="#FFF"/>
+
+  <!-- Body (Brown) -->
+  <path d="M100,50 Q90,40 80,60 L70,80 Q90,100 100,90 Q110,100 120,80 Z" fill="#A37D54"/>
+
+  <!-- Fin Gradients -->
+  <linearGradient id="finGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#006699; stop-opacity:1" />
+    <stop offset="50%" style="stop-color:#3399FF; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#006699; stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Dorsal Fin -->
+  <path d="M80,75 Q70,60 60,70 L70,85 Z" fill="url(#finGradient)"/>
+
+  <!-- Pectoral Fins (2) -->
+  <path d="M140,90 Q130,80 120,90 Z" fill="url(#finGradient)" transform="translate(60,0)"/>
+  <path d="M140,110 Q130,120 120,110 Z" fill="url(#finGradient)"/>
+
+  <!-- Caudal Fin -->
+  <path d="M180,95 Q170,85 160,95 L170,105 Z" fill="url(#finGradient)" transform="translate(40,0) rotate(-20)"/>
+
+  <!-- Eyes (Black Circles) -->
+  <circle cx="105" cy="40" r="8" fill="#000"/>
+  <circle cx="95" cy="40" r="8" fill="#000"/>
+
+</svg>

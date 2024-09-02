@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Kangaroos -->
+  <g id="kangaroo1">
+    <ellipse cx="50" cy="400" rx="35" ry="70" fill="url(#kangarooBodyGradient)"/>
+    <polygon points="20,50 80,50 50,10" fill="#696969"/>
+    <rect x="10" y="470" width="30" height="100" fill="url(#kangarooLegsGradient)"/>
+    <circle cx="25" cy="580" r="10" fill="#C0C0C0"/>
+  </g>
+
+  <!-- Repeat 'kangaroo1' group with transformations for more kangaroos -->
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="kangarooBodyGradient" gradientTransform="rotate(90)">
+      <stop offset="0%"  stop-color="#4A2C2A"/>
+      <stop offset="100%" stop-color="#D8BFA9"/>
+    </linearGradient>
+
+    <linearGradient id="kangarooLegsGradient">
+      <stop offset="0%"  stop-color="#696969"/>
+      <stop offset="100%" stop-color="#C0C0C0"/>
+    </linearGradient>
+  </defs>
+</svg>

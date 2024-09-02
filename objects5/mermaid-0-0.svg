@@ -1,0 +1,19 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mermaid's Body -->
+  <ellipse cx="100" cy="250" rx="75" ry="150" fill="#B3E5EC"/>
+
+  <!-- Mermaid's Head & Hair -->
+  <path d="M80 220 Q90 200, 100 220" stroke="#6BB8C2" fill="transparent"/>
+  <polyline points="85 230, 90 240, 95 230, 100 240, 105 230, 110 240, 115 230" stroke="#6BB8C2" fill="transparent"/>
+
+  <!-- Mermaid's Legs/Tail -->
+  <path d="M100 350 Q90 370, 80 380 A50 50 0 0 0 120 380 Q110 370, 100 350" stroke="#B3E5EC" fill="transparent"/>
+
+  <!-- Rock -->
+  <rect x="75" y="375" width="50" height="25" rx="12.5" fill="#A9A9A9"/>
+
+  <!-- Oyster Shell -->
+  <path d="M120 220 Q115 210, 110 210 Q125 200, 130 210 Q125 220, 120 220" stroke="#F8DE74" fill="transparent"/>
+
+</svg>

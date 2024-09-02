@@ -1,0 +1,20 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100 150 Q200 75, 300 150 Q400 225, 500 150" fill="none" stroke="black"/>
+
+  <!-- Tail -->
+  <path d="M500 150 Q550 250, 600 175" fill="none" stroke="black"/>
+  <path d="M500 150 Q450 225, 600 80" fill="none" stroke="black"/>
+
+  <!-- Fins -->
+  <!-- Left fin -->
+  <path d="M150 75 L130 90 L150 105 Z" fill="none" stroke="black"/>
+  <!-- Right fin -->
+  <path d="M450 200 L470 185 L450 170 Z" fill="none" stroke="black"/>
+
+  <!-- Head -->
+  <path d="M100 150 Q50 100, 150 125 A100 100 0 0 1 250 125 Q350 100, 450 150" fill="none" stroke="black"/>
+
+  <!-- Eye -->
+  <circle cx="275" cy="110" r="10" fill="black"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Cake Tier 1 -->
+  <path d="M250,75 Q265,90 285,140 A25,25 0 0 0 300,200 L250,200 Z" fill="#FFD700"/>
+  <path d="M250,200 Q265,180 285,145 A25,25 0 0 0 300,200 L250,200 Z" fill="#FFF5E6"/>
+
+  <!-- Cake Tier 2 -->
+  <path d="M250,325 Q265,340 285,390 A25,25 0 0 0 300,440 L250,440 Z" fill="#FFD700"/>
+  <path d="M250,440 Q265,410 285,395 A25,25 0 0 0 300,440 L250,440 Z" fill="#FFF5E6"/>
+
+  <!-- Cake Tier 3 -->
+  <path d="M250,475 Q265,490 285,540 A15,15 0 0 0 300,570 L250,570 Z" fill="#FFD700"/>
+
+  <!-- Topper -->
+  <circle cx="250" cy="600" r="20" fill="#FFFFFF"/>
+  <path d="M240,610 Q260,630 280,610 L240,610 Z" stroke="#FFD700" fill="transparent"/>
+
+  <!-- Candles -->
+  <rect x="190" y="520" width="70" height="10" rx="5" ry="5" fill="#FFF5E6"/>
+  <circle cx="240" cy="530" r="5" fill="#FFD700"/>
+
+  <!-- Flowers -->
+  <circle cx="150" cy="480" r="15" fill="#FF69B4"/>
+  <circle cx="350" cy="480" r="15" fill="#FF69B4"/>
+
+  <!-- Whipped Cream Swirls -->
+  <path d="M220,400 Q240,370 260,400 Q280,370 300,400 Z" stroke="#FFFFFF" fill="transparent"/>
+  <path d="M250,375 Q270,345 290,375 Q310,345 330,375 Z" stroke="#FFFFFF" fill="transparent"/>
+
+</svg>

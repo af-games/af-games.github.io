@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Scene 1: Sunrise over the village -->
+<path fill="#ADD8E6" d="M0,400 Q200,350 400,400 Q600,450 800,400"/>
+<circle cx="400" cy="150" r="75" fill="#FFD700"/>
+<text x="10" y="50" font-family="Arial">Sunrise over the village</text>
+
+<!-- Scene 2: Balloon maker at work -->
+<rect x="300" y="150" width="100" height="200" fill="#A0522D"/>
+<circle cx="400" cy="300" r="75" fill="#FF69B4"/>
+<path d="M300,250 L350,250 H325 Z" stroke="#000"/>
+<text x="10" y="200">Balloon maker at work</text>
+
+<!-- Scene 3: The grand launch -->
+<circle cx="400" cy="250" r="75" fill="#FFD700"/>
+<path d="M380,220 L390,170 Z" stroke="#000"/>
+<rect x="250" y="300" width="100" height="200" fill="#8B4513" opacity="0.5"/>
+<text x="10" y="275">The grand launch</text>
+
+<!-- Scene 4: Adventure in the sky -->
+<circle cx="400" cy="200" r="75" fill="#FFFF00"/>
+<path d="M380,170 Q400,100 420,170" stroke="#000" opacity="0.5"/>
+<circle cx="350" cy="150" r="15" fill="#FF69B4"/>
+<path d="M450,200 Q480,220 500,200" stroke="#FF7F00"/>
+<text x="10" y="150">Adventure in the sky</text>
+
+<!-- Scene 5: Stormy skies -->
+<path fill="black" d="M300,150 Q380,90 460,150"/>
+<path d="M370,120 L410,160 Z" stroke="#FFF" opacity="0.7"/>
+<circle cx="400" cy="100" r="75" fill="#FFD700"/>
+<text x="10" y="125">Stormy skies</text>
+
+<!-- Scene 6: Landing in a mysterious land -->
+<path fill="#8DC63C" d="M0,400 Q200,450 400,400"/>
+<circle cx="400" cy="150" r="75" fill="#FFD700"/>
+<path d="M350,120 L380,90 Z" stroke="#FF7F27"/>
+<path d="M450,120 Q480,90 500,120" stroke="#4B0082"/>
+<text x="10" y="350">Landing in a mysterious land</text>
+
+<!-- Scene 7: Return to the village -->
+<path fill="#ADD8E6" d="M0,400 Q200,350 400,400"/>
+<circle cx="400" cy="150" r="75" fill="#FFD700"/>
+<rect x="250" y="300" width="100" height="200" fill="#8B4513" opacity="0.5"/>
+<circle cx="350" cy="150" r="15" fill="#FF69B4"/>
+<text x="10" y="275">Return to the village</text>
+
+</svg>

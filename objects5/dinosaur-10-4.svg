@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 410 410">
+  <!-- Body -->
+  <g id="body">
+    <rect x="70" y="80" width="250" height="200" fill="#8B7D6B"/>
+  </g>
+
+  <!-- Head -->
+  <g id="head" transform="translate(130, 40) rotate(-3)">
+    <path d="M90 0 Q120 50, 150 0 H200 V80 H150 Z" fill="#8B7D6B"/>
+  </g>
+
+  <!-- Legs -->
+  <g id="legs">
+    <rect x="40" y="320" width="30" height="90" transform="rotate(-5)" fill="#8B7D6B"/>
+    <rect x="310" y="320" width="30" height="90" transform="rotate(5)" fill="#8B7D6B"/>
+  </g>
+
+  <!-- Tail -->
+  <g id="tail">
+    <path d="M340 200 Q320 150, 300 200 H390 Z" transform="rotate(5)" fill="#8B7D6B"/>
+  </g>
+</svg>

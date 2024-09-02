@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Body -->
+  <path d="M0,-40 A40,40 0 1,0 0,60 A40,40 0 1,0 0,-40" fill="#8B4513" stroke="#693D17"/>
+
+  <!-- Pouch -->
+  <path d="M-20,-30 Q0,-35 20,-30 T0,-20" fill="#ADD8E6" stroke="#6495ED"/>
+
+  <!-- Limbs and Tail -->
+  <g stroke-width="3">
+    <line x1="-15" y1="-35" x2="15" y2="-35"/>
+    <line x1="0" y1="-35" x2="0" y2="35"/>
+    <path d="M-25,-20 Q-40,-15 -25,-30" stroke="#FF7F50"/>
+  </g>
+
+  <!-- Highlights -->
+  <circle cx="-5" cy="-38" r="6" fill="#FF7F50"/>
+  <circle cx="5" cy="-38" r="6" fill="#FF7F50"/>
+</svg>

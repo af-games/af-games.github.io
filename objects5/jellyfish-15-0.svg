@@ -1,0 +1,35 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="seaGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:darkblue; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rectangle -->
+  <rect width="200" height="200" fill="url(#seaGradient)" />
+
+  <!-- Bell (body) -->
+  <circle cx="100" cy="100" r="90" stroke="white" stroke-width="2" fill="lightblue" opacity="0.5"/>
+
+  <!-- Mouth -->
+  <ellipse cx="100" cy="70" rx="30" ry="40" fill="white" />
+
+  <!-- Rhopalia lines -->
+  <g stroke="white">
+    <line x1="90" y1="60" x2="80" y2="50"/>
+    <line x1="110" y1="60" x2="120" y2="50"/>
+    <line x1="90" y1="70" x2="80" y2="60"/>
+    <line x1="110" y1="70" x2="120" y2="60"/>
+  </g>
+
+  <!-- Tentacles -->
+  <g stroke="white">
+    <path d="M90,80 Q100,50 90,30" />
+    <path d="M110,80 Q120,50 110,30"/>
+    <!-- Repeat similar paths for the other six tentacles -->
+  </g>
+
+</svg>

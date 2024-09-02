@@ -1,0 +1,72 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Define reusable gradients -->
+  <defs>
+    <linearGradient id="castleWallGradient" gradientTransform="rotate(90)">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(128,128,128);stop-opacity:1"/>
+    </linearGradient>
+
+    <!-- Add other reusable elements like filters here -->
+  </defs>
+
+  <!-- Starting point (Entrance) -->
+  <rect x="50" y="400" width="30" height="60" style="fill:rgb(255,0,0);filter:url(#glow)" />
+  <text x="70" y="430" font-size="16" text-anchor="middle">Entrance</text>
+
+  <!-- Draw the route with lines -->
+  <line x1="80" y1="450" x2="150" y2="450" style="stroke:black;stroke-width:2"/>
+
+  <!-- Landmark 1 (Moat) -->
+  <rect x="130" y="470" width="60" height="30" style="fill:url(#castleWallGradient);filter:url(#ripple)" />
+  <text x="180" y="500" font-size="16" text-anchor="middle">Moat</text>
+
+  <!-- Draw the route with lines -->
+  <line x1="200" y1="470" x2="270" y2="470" style="stroke:black;stroke-width:2"/>
+
+  <!-- Landmark 2 (Castle Wall) -->
+  <rect x="150" y="360" width="120" height="100" style="fill:url(#castleWallGradient);filter:url(#roughen)" />
+  <text x="240" y="470" font-size="16" text-anchor="middle">Castle Wall</text>
+
+  <!-- Draw the route with lines -->
+  <line x1="300" y1="390" x2="370" y2="390" style="stroke:black;stroke-width:2"/>
+
+  <!-- Landmark 3 (Tower) -->
+  <polygon points="350,340 450,340 400,260" style="fill:url(#castleWallGradient);filter:url(#emboss)" />
+  <text x="400" y="300" font-size="16" text-anchor="middle">Tower</text>
+
+  <!-- Draw the route with lines -->
+  <line x1="500" y1="370" x2="580" y2="370" style="stroke:black;stroke-width:2"/>
+
+  <!-- Landmark 4 (Finish) -->
+  <circle cx="600" cy="400" r="30" style="fill:rgb(0,255,0);filter:url(#glow)" />
+  <text x="610" y="405" font-size="16" text-anchor="middle">Finish</text>
+
+  <!-- Define filters -->
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+    <feMerge>
+      <feMergeNode in="coloredBlur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <filter id="ripple">
+    <feTurbulence type="fractalNoise" baseFrequency="0.1" numOctaves="2" result="turbulence"/>
+    <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+
+  <filter id="roughen">
+    <feTurbulence type="fractalNoise" baseFrequency="0.1" numOctaves="1" result="turbulence"/>
+    <feComposite in="turbulence" in2="SourceGraphic" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" result="roughen"/>
+  </filter>
+
+  <filter id="emboss">
+    <feSpecularLighting surfaceScale="5" specularConstant=".75" specularExponent="20" lighting-color="#bbbbbb" result="specOut">
+      <fePointLight x="-5000" y="-10000" z="20000"/>
+    </feSpecularLighting>
+    <feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut"/>
+    <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"/>
+  </filter>
+
+</svg>

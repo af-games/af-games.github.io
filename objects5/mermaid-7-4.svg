@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Mermaid tail -->
+  <path d="M250,560 Q170,480 250,400 Q330,480 250,560" fill="#6FAFDE"/>
+
+  <!-- Mermaid body -->
+  <rect x="125" y="100" width="250" height="200" rx="50" fill="#FF7E93"/>
+  <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#FF7E93; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#E85A9B; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Mermaid hair -->
+  <path d="M250,60 Q170,40 250,10 Q330,40 250,60" fill="#FFD89A"/>
+
+  <!-- Mermaid eyes -->
+  <circle cx="150" cy="170" r="10" fill="#FFFFFF"/>
+  <circle cx="350" cy="170" r="10" fill="#FFFFFF"/>
+
+  <!-- Mermaid mouth -->
+  <path d="M250,260 Q170,280 250,300 Q330,280 250,260" stroke="#FFD89A" stroke-width="4"/>
+
+  <!-- Mermaid scales (optional) -->
+  <!-- Implement paths for scale shapes here -->
+
+</svg>

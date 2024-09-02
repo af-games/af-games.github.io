@@ -1,0 +1,28 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path id="sharkBody"
+        d="M100 75 Q200 50, 300 75 Q400 100, 500 75"
+        stroke="#0066cc" fill="#0088ff" stroke-width="5"/>
+
+  <!-- Fin (left) -->
+  <path d="M120 90 Q100 120, 120 150"
+        stroke="#0066cc" fill="transparent" stroke-width="3"/>
+
+  <!-- Fin (right) -->
+  <path d="M480 90 Q470 120, 490 150"
+        stroke="#0066cc" fill="transparent" stroke-width="3"/>
+
+  <!-- Tail -->
+  <path d="M500 75 Q550 100, 525 150"
+        stroke="#0066cc" fill="transparent" stroke-width="3"/>
+
+  <!-- Eye (left) -->
+  <circle cx="180" cy="65" r="15"
+          stroke="#000" fill="#fff" stroke-width="2"/>
+
+  <!-- Eye (right) -->
+  <circle cx="370" cy="65" r="15"
+          stroke="#000" fill="#fff" stroke-width="2"/>
+
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/20丨000/svg" viewBox="0 0 500 600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ADD8E6"/>
+
+  <!-- Body -->
+  <ellipse cx="250" cy="300" rx="150" ry="200" fill="#007B9A"/>
+  <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#007B9A; stop-opacity:1" />
+    <stop offset="50%" style="stop-color:#4682B4; stop-opacity:1" />
+  </linearGradient>
+  <ellipse cx="250" cy="300" rx="150" ry="200" fill="url(#bodyGradient)"/>
+
+  <!-- Head -->
+  <ellipse cx="225" cy="225" rx="75" ry="90" fill="#FFFFFF"/>
+  <path d="M200,200 Q250,150 300,200" stroke="#0064BD" stroke-width="10"/>
+
+  <!-- Eye -->
+  <circle cx="225" cy="175" r="25" fill="#000000"/>
+  <circle cx="225" cy="175" r="15" fill="#FFFFFF"/>
+
+  <!-- Beak -->
+  <path d="M230,240 Q260,280 290,240 Q320,280 350,240" stroke="#FFA07A" stroke-width="15"/>
+
+  <!-- Feet -->
+  <path d="M175,350 Q200,400 225,350 Q250,400 275,350 Q300,400 325,350" stroke="#A9A9A9" stroke-width="15"/>
+
+  <!-- Feathers -->
+  <path d="M180,260 Q190,280 200,260 Z M210,260 Q220,280 230,260 Z..." fill="#A9A9A9"/>
+
+</svg>

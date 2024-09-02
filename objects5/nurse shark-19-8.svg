@@ -1,0 +1,15 @@
+<svg width="300" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- T-shirt -->
+  <path d="M10,40 Q20,60 40,80 L170,80 Q190,60 200,40 V50 H10 Z" fill="#D3D3D3"/>
+  <path d="M10,50 Q20,70 40,90 L170,90 Q190,70 200,50 V60 H10 Z" stroke="#FFA500" stroke-width="3"/>
+
+  <!-- Pants -->
+  <rect x="30" y="150" width="140" height="250" fill="#4A4A4A"/>
+  <path d="M30,170 H170 V390 H30 Z" stroke="#FFFFFF" stroke-width="3"/>
+
+  <!-- Cap -->
+  <path d="M100,10 Q80,60 50,80 L20,80 Q40,60 100,10 Z" fill="#FFFFFF"/>
+  <text x="70" y="30" font-size="20" fill="#FFA500">NURSE SHARK</text>
+
+</svg>

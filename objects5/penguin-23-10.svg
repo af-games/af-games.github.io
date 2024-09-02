@@ -1,0 +1,43 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect id="bg" x="0" y="0" width="500" height="400" fill="url(#grad1)" />
+
+  <!-- Body (Blue) -->
+  <path d="M80,200 Q150,100 220,200 Q150,300 80,200 Z" fill="url(#grad2)" />
+
+  <!-- Belly (White) -->
+  <rect x="100" y="240" width="120" height="60" fill="white" stroke="#7f7f7f" />
+
+  <!-- Head (Black) -->
+  <circle cx="150" cy="160" r="40" fill="black" />
+  <path d="M130,120 Q180,90 230,120 Q180,150 130,120 Z" fill="url(#grad3)" />
+
+  <!-- Eye (Yellow) -->
+  <circle cx="140" cy="130" r="10" fill="#ffff66" />
+  <circle cx="160" cy="130" r="10" fill="#ffff66" />
+
+  <!-- Beak (Orange) -->
+  <path d="M150,170 Q140,200 160,200 Z" fill="orange" stroke="#ffa500" stroke-width="2" />
+
+  <!-- Feet (Black) -->
+  <polygon points="80,320 160,320 120,360" fill="black" />
+  <polygon points="240,320 320,320 280,360" fill="black" />
+
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue; stop-opacity:.8"/>
+      <stop offset="100%" style="stop-color:paleturquoise; stop-opacity:.5"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:dodgerblue; stop-opacity:.8"/>
+      <stop offset="100%" style="stop-color:deepskyblue; stop-opacity:.5"/>
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:black; stop-opacity:.8"/>
+      <stop offset="100%" style="stop-color:#3d3d3d; stop-opacity:.5"/>
+    </linearGradient>
+  </defs>
+
+</svg>

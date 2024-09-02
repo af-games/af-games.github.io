@@ -1,0 +1,42 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle backdrop -->
+  <rect x="15%" y="5%" width="70%" height="90%" fill="#4C4C4C"
+    style="fill: url(#castleGradient);"/>
+
+  <!-- Stage floor -->
+  <rect x="20%" y="85%" width="60%" height="15%" fill="#2D2D2D" stroke="#5F5F5F"
+    stroke-width="3"/>
+
+  <!-- Main action area (throne) -->
+  <circle cx="70%" cy="70%" r="50" fill="url(#throneGradient)">
+    <animateMotion dur="5s" repeatCount="indefinite">
+      <mpath href="#thronePath"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Throne path for animation -->
+  <path id="thronePath" d="M300,280 A150,150 0 1,0 600,380 A150,150 0 1,0 300,480"/>
+
+  <!-- Props (chandeliers) -->
+  <circle cx="30%" cy="20%" r="20" fill="#CACACA">
+    <animateTransform attributeName="cx" type="translate" from="30%" to="70%" dur="10s"
+      repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50%" cy="40%" r="20" fill="#CACACA">
+    <animateTransform attributeName="cx" type="translate" from="50%" to="70%" dur="10s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Gradients -->
+  <linearGradient id="castleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#9B765C;stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#4C4C4C;stop-opacity:1"/>
+  </linearGradient>
+
+  <radialGradient id="throneGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" style="stop-color:#E9E9E9;stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#7A421B;stop-opacity:1"/>
+  </radialGradient>
+
+</svg>

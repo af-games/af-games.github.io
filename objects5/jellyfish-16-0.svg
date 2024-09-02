@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bell -->
+  <circle cx="100" cy="100" r="80" fill="#ADD8E6"/>
+  <circle cx="100" cy="100" r="70" fill="#ADD8E6"/>
+
+  <!-- Tentacles -->
+  <g stroke="#ADD8E6" stroke-width="5">
+    <polyline points="100,20 90,40 85,60 80,80"/>
+    <polyline points="100,20 110,40 115,60 120,80"/>
+    <!-- Repeat for other tentacles -->
+  </g>
+
+  <!-- Animation (using SMIL for simplicity) -->
+  <animate attributeName="r" values="80;90;80" dur="1s" repeatCount="indefinite" begin="0s" />
+  <animate attributeName="points"
+           values="100,20 90,40 85,60 80,80;100,30 90,50 85,70 80,90;100,20 90,40 85,60 80,80"
+           dur="1s" repeatCount="indefinite" begin="0s" />
+</svg>

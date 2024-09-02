@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <!-- Lion's body -->
+  <path d="M10,40 A30,30 0 1,1 40,70 A30,30 0 1,1 10,40" fill="brown"/>
+
+  <!-- Lion's head -->
+  <circle cx="25" cy="20" r="15" fill="gold"/>
+
+  <!-- Lion's mane -->
+  <path d="M20,10 Q30,20 40,10" stroke="brown" fill="transparent"/>
+
+  <!-- Lion's eyes -->
+  <circle cx="22" cy="17" r="1" fill="black"/>
+  <circle cx="28" cy="17" r="1" fill="black"/>
+
+  <!-- Lion's mouth -->
+  <path d="M20,30 Q25,35 30,30" stroke="brown" fill="transparent"/>
+</svg>

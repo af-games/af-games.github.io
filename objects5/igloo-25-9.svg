@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 700">
+  <!-- Scene 1: Igloo's Lonesome Winter -->
+  <rect id="igloo" x="50" y="50" width="200" height="300" fill="#D6EAF5" stroke="#8CA7B9"/>
+  <circle id="snowflake" cx="150" cy="20" r="5" fill="#FFF" stroke="#FFF"/>
+  <text id="annotation1" x="30" y="450" font-size="20" fill="#333">In the heart of a cold, quiet winter, there lived an igloo.</text>
+
+  <!-- Scene 2: Igloo's Dream -->
+  <circle id="sun" cx="150" cy="400" r="30" fill="#FFF" stroke="#FFF"/>
+  <text id="annotation2" x="50" y="600" font-size="20" fill="#333">One night, under the Northern Lights, igloo dreamt of summer.</text>
+
+  <!-- Scene 3: Summer Visitors -->
+  <circle id="bird1" cx="50" cy="400" r="5" fill="#007FFF"/>
+  <circle id="bird2" cx="250" cy="450" r="5" fill="#007FFF"/>
+  <circle id="flower1" cx="100" cy="430" r="5" fill="#FF6347"/>
+  <circle id="flower2" cx="200" cy="480" r="5" fill="#FF6347"/>
+  <text id="annotation3" x="100" y="650" font-size="20" fill="#333">When summer arrived, birds and flowers visited igloo.</text>
+
+  <!-- Scene 4: The Melt -->
+  <path id="igloo-melting" d="M50 300 Q100 400, 200 300 T350 300"/>
+  <circle id="teardrop" cx="175" cy="350" r="5" fill="#000"/>
+  <text id="annotation4" x="120" y="650" font-size="20" fill="#333">But as summer warmed igloo, it began to melt.</text>
+
+  <!-- Scene 5: Igloo's New Purpose -->
+  <path id="igloo-pool" d="M50 300 Q100 400, 200 300 T350 300"/>
+  <rect id="plant1" x="75" y="450" width="25" height="25" fill="#0F9D58"/>
+  <rect id="plant2" x="175" y="500" width="25" height="25" fill="#0F9D58"/>
+  <text id="annotation5" x="100" y="650" font-size="20" fill="#333">But igloo found joy in giving life to new plants.</text>
+</svg>

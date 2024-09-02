@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fairy body -->
+  <path d="M256 80C136.7 80 48 192 48 304h416c0-112-64-224-144-288z" fill="#FFD700"/>
+  <!-- Fairy hair -->
+  <path d="M256 144v64l96 48H160z" fill="#FFD700" opacity=".7"/>
+  <!-- Fairy dress -->
+  <path d="M256 304v96l-48 24L128 400h128z" fill="#FFD700"/>
+  <!-- Fairy wings -->
+  <path d="M192 256h64V192H192z" fill="#FFD700"/>
+  <path d="M256 192v64h64v-64z" fill="#FFD700"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Land -->
+  <rect x="100" y="100" width="300" height="300" fill="#8B4513"/>
+
+  <!-- Landmark 1 (Mountain or Island) -->
+  <circle cx="200" cy="250" r="70" stroke="#000" stroke-width="2" fill="#C0C0C0"/>
+  <text x="190" y="230" font-family="Arial" text-anchor="middle">Landmark 1</text>
+
+  <!-- Landmark 2 -->
+  <circle cx="350" cy="280" r="40" stroke="#000" stroke-width="2" fill="#C0C0C0"/>
+  <text x="345" y="265" font-family="Arial" text-anchor="middle">Landmark 2</text>
+
+  <!-- River -->
+  <path d="M100,350 Q175,425 250,350 Q325,400 400,350" stroke="#000" fill="transparent"/>
+
+</svg>

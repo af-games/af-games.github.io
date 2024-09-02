@@ -1,0 +1,44 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="300" fill="#F5F5F5"/>
+
+  <!-- Body -->
+  <g id="penguin-body">
+    <rect x="60" y="120" width="80" height="100" fill="url(#body-gradient)"/>
+    <clipPath id="tummy-clip" clip-pathUnits="userSpaceOnUse">
+      <polygon points="60,150 140,150 77.5,200"/>
+    </clipPath>
+    <rect x="60" y="120" width="80" height="100" fill="#FFFFFF" clip-path="url(#tummy-clip)"/>
+  </g>
+
+  <!-- Head -->
+  <circle cx="95" cy="70" r="35" fill="url(#head-gradient)"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="65" r="5" fill="#FFFFFF"/>
+  <circle cx="105" cy="65" r="5" fill="#FFFFFF"/>
+
+  <!-- Beak -->
+  <path d="M90,70 Q95,65 100,70" stroke="#FFD700" fill="transparent" stroke-width="3"/>
+
+  <!-- Feet -->
+  <circle cx="80" cy="240" r="10" fill="#A9A9A9"/>
+  <circle cx="120" cy="240" r="10" fill="#A9A9A9"/>
+
+  <!-- Wings -->
+  <path d="M65,170 Q80,130 95,170 Q110,130 125,170" stroke="#A9A9A9" fill="transparent" stroke-width="3"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="body-gradient" x1="60%" y1="0%" x2="60%" y2="100%">
+      <stop offset="0%" style="stop-color:#A9A9A9; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#8B8B8B; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#737373; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="head-gradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#E3E3E3; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#CACFD2; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

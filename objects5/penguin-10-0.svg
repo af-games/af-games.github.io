@@ -1,0 +1,25 @@
+<svg width="500" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="0" cy="75" rx="250" ry="150" fill="black"/>
+
+  <!-- Head -->
+  <ellipse cx="-30" cy="-75" rx="150" ry="100" fill="white"/>
+
+  <!-- Eye -->
+  <circle cx="-25" cy="-60" r="10" fill="black"/>
+
+  <!-- Beak -->
+  <path d="M-75,-30 Q-75,75 75,75 Q75,-30 -75,-30" stroke="orange" fill="transparent"/>
+
+  <!-- Feet -->
+  <rect x="-120" y="75" width="40" height="80" fill="orange"/>
+  <rect x="120" y="75" width="40" height="80" fill="orange"/>
+
+  <!-- Left Wing -->
+  <path d="M-180,-30 Q-160,50 -40,75 Q-180,-30 -75,-30" stroke="black" fill="transparent"/>
+
+  <!-- Right Wing -->
+  <path d="M180,-30 Q160,50 40,75 Q180,-30 75,-30" stroke="black" fill="transparent"/>
+
+</svg>

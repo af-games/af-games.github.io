@@ -1,0 +1,24 @@
+<svg>` tag and building up from there using various SVG elements like `<circle>`, `<path>`, and `<polygon>` for different parts of the butterfly such as the body, wings, antennas, and eyes.
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 40 40" xml:space="preserve">
+  <!-- Body -->
+  <circle cx="10" cy="10" r="8" fill="#F9D71C" />
+
+  <!-- Left Wing -->
+  <path d="M23,20 Q26,-5 34,15 Q40,30 35,38 Q20,45 15,35 Q-5,-5 5,20 Z"
+        fill="#FFD700" stroke="black" stroke-width="1"/>
+
+  <!-- Right Wing -->
+  <path d="M17,20 Q14,-5 24,15 Q10,30 15,38 Q-5,45 5,20 Z"
+        fill="#FFD700" stroke="black" stroke-width="1"/>
+
+  <!-- Antennae -->
+  <polygon points="5,-10 -5,-10 -10,-5 5,-5" fill="#000"/>
+  <polygon points="35,-10 45,-10 30,-5 35,-5" fill="#000"/>
+
+  <!-- Eyes -->
+  <circle cx="28" cy="17" r="2.5" fill="#000"/>
+  <circle cx="12" cy="17" r="2.5" fill="#000"/>
+
+</svg>

@@ -1,0 +1,24 @@
+<svg width="800px" height="600px" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base pan -->
+  <rect x="0" y="0" width="800" height="600" fill="#FFF5E6"/>
+
+  <!-- Castle walls -->
+  <rect x="100" y="150" width="200" height="450" fill="#FF6347"/>
+  <rect x="300" y="200" width="250" height="400" fill="#8B4513"/>
+  <rect x="500" y="250" width="200" height="350" fill="#FF6347"/>
+
+  <!-- Castle towers -->
+  <polygon points="100,50 250,150 400,50" fill="#FF6347"/>
+  <polygon points="600,50 750,150 900,50" fill="#8B4513"/>
+
+  <!-- Turret roofs -->
+  <circle cx="125" cy="125" r="50" fill="#8B4513"/>
+  <circle cx="675" cy="125" r="50" fill="#FF6347"/>
+
+  <!-- Windows and doorways (add more as desired) -->
+  <rect x="150" y="250" width="50" height="100" fill="#FFFFFF"/>
+  <circle cx="200" cy="350" r="25" fill="#FFFFFF"/>
+  <path d="M700,400 Q750,350 800,400 H750 Z" fill="#FFFFFF"/>
+
+</svg>

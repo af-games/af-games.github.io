@@ -1,0 +1,34 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hot Air Balloon -->
+  <g id="balloon" transform="translate(400,500)">
+    <circle cx="0" cy="0" r="100" fill="orange" stroke="black"/>
+    <polygon points="-80,-20, -30,-80, 30,-80, 80,-20" fill="red"/>
+    <rect x="-45" y="-150" width="90" height="60" fill="white"/>
+    <path d="M-80,-20 Q0,-50 80,-20" stroke="black"/>
+  </g>
+
+  <!-- Rolling Hills -->
+  <path id="hillPath" d="M10,470 Q100,430 200,470 Q300,510 400,470 Q500,430 600,470 Q700,510 800,470" fill="green"/>
+  <text x="85%" y="55%" font-size="2em">Rolling Hills</text>
+
+  <!-- Winding River -->
+  <path id="riverPath" d="M10,530 Q50,560 100,530 Q150,570 200,540 Q300,580 400,550 Q500,590 600,560" stroke="blue" fill="transparent"/>
+  <text x="2%" y="55%" font-size="2em">Winding River</text>
+
+  <!-- Towering Trees -->
+  <g id="treeGroup">
+    <circle cx="350" cy="480" r="10" fill="#783f04"/>
+    <rect x="340" y="460" width="20" height="40" fill="#3b5309"/>
+  </g>
+
+  <!-- Gradient for the sky -->
+  <defs>
+    <linearGradient id="skyGradient" gradientTransform="rotate(180)">
+      <stop offset="0%" stop-color="#67B0FF"/>
+      <stop offset="100%" stop-color="#FFF"/>
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="800" height="200" fill="url(#skyGradient)"/>
+
+</svg>

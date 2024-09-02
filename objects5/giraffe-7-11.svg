@@ -1,0 +1,26 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="180" rx="90" ry="70" fill="#CD7F32"/>
+
+  <!-- Legs -->
+  <rect x="50" y="250" width="20" height="150" fill="#3B1C0A"/>
+  <rect x="150" y="250" width="20" height="150" fill="#3B1C0A"/>
+  <rect x="70" y="300" width="60" height="20" fill="#3B1C0A"/>
+  <rect x="130" y="300" width="60" height="20" fill="#3B1C0A"/>
+
+  <!-- Spots -->
+  <circle cx="75" cy="180" r="15" fill="#CD7F32"/>
+  <circle cx="125" cy="180" r="15" fill="#2D4659"/>
+  <circle cx="75" cy="200" r="15" fill="#2D4659"/>
+  <circle cx="125" cy="200" r="15" fill="#CD7F32"/>
+
+  <!-- Neck & Head -->
+  <polygon points="100,80 120,60 80,60" fill="#CD7F32"/>
+  <circle cx="100" cy="50" r="20" fill="#2D4659">
+    <!-- Eyes -->
+    <circle cx="90" cy="45" r="5" fill="white"/>
+    <circle cx="110" cy="45" r="5" fill="white"/>
+  </circle>
+
+</svg>

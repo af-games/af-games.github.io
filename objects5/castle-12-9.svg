@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define castle pattern -->
+  <defs>
+    <pattern id="castlePattern" x="0" y="0" width="150" height="150"
+             patternUnits="userSpaceOnUse">
+      <rect width="150" height="150" fill="none"/>
+      <path d="M75,25 L150,25 150,125 75,125 Z"/>
+      <circle cx="75" cy="75" r="50" stroke="#333" stroke-width="4"/>
+    </pattern>
+  </defs>
+
+  <!-- Castle 1 -->
+  <g transform="translate(50,50)">
+    <use href="#castlePattern" fill="lightgrey"/>
+    <text x="75" y="80" text-anchor="middle" font-size="24">Castle 1</text>
+  </g>
+
+  <!-- Castle 2 -->
+  <g transform="translate(250,300)">
+    <use href="#castlePattern"/>
+    <text x="75" y="80" text-anchor="middle" font-size="24">Castle 2</text>
+  </g>
+
+  <!-- Castle 3 -->
+  <g transform="translate(550,150)">
+    <use href="#castlePattern"/>
+    <text x="75" y="80" text-anchor="middle" font-size="24">Castle 3</text>
+  </g>
+
+  <!-- Path between Castle 1 and Castle 2 -->
+  <path d="M100,75 Q200,200 300,75" stroke="#333" fill="transparent"/>
+
+  <!-- Path between Castle 2 and Castle 3 -->
+  <path d="M350,325 Q450,400 550,325" stroke="#333" fill="transparent"/>
+</svg>

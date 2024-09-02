@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 200">
+  <!-- Fairy's body -->
+  <rect id="fairyBody" width="20" height="60" fill="lightblue" rx="5" y="70"/>
+  <circle cx="10" cy="90" r="5" fill="black"/> <!-- head -->
+
+  <!-- Fairy's dress -->
+  <polygon id="dress" points="10,130 20,160 0,160" fill="lightblue"/>
+
+  <!-- Fairy's wand and hand -->
+  <line id="wand" x1="15" y1="95" x2="25" y2="110" stroke="black"/>
+  <polygon id="hand" points="20,85 25,90 20,95" fill="lightblue"/>
+
+  <!-- Fairy's legs -->
+  <rect id="legLeft" width="3" height="40" fill="lightblue" x="10" y="110"/>
+  <rect id="legRight" width="3" height="40" fill="lightblue" x="15" y="110"/>
+
+  <!-- Animation -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 10 90"
+    to="20 10 90"
+    begin="0s"
+    dur="1s"
+    id="waveWand"
+    repeatCount="indefinite"/>
+  <animate
+    attributeName="points"
+    values="10,130 20,160 0,160; 10,140 20,150 0,150"
+    begin="waveWand.begin"
+    dur="1s"
+    id="flowDress"
+    repeatCount="indefinite"/>
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0 0"
+    to="10 0"
+    begin="waveWand.begin+2s"
+    dur="1s"
+    id="stepLeft"
+    repeatCount="indefinite"/>
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 55 90"
+    to="-15 55 90"
+    begin="waveWand.begin+3s"
+    dur="1s"
+    id="turnHead"
+    repeatCount="indefinite"/>
+</svg>

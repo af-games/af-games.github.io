@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Plate -->
+  <rect x="100" y="75" width="300" height="300" fill="#FFFDD0" stroke="#B98A3F" stroke-width="2"/>
+
+  <!-- Jellyfish -->
+  <circle cx="200" cy="150" r="60" fill="#FFE7BA">
+    <!-- Tentacles -->
+    <g stroke="#5D4027" stroke-width="2">
+      <path d="M90,150 Q80,80 130,80" />
+      <path d="M90,150 Q80,220 130,220" />
+      <path d="M270,150 Q280,80 240,80" />
+      <path d="M270,150 Q280,220 240,220" />
+    </g>
+  </circle>
+
+  <!-- Seaweed garnish -->
+  <polygon points="350,50 450,50 400,100" fill="#3D9970"/>
+
+  <!-- Lemon wedge garnish -->
+  <path d="M280,50 Q260,60 280,70 Q300,60 320,50" fill="#FFC107"/>
+
+  <!-- Fork and knife -->
+  <g stroke="#5D4027" stroke-width="2">
+    <!-- Fork -->
+    <path d="M380,120 v-60 q-10,-10 -20,-10 l-30,30 z"/>
+    <!-- Knife -->
+    <rect x="350" y="90" width="40" height="70" rx="20"/>
+  </g>
+
+</svg>

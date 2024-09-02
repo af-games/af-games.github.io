@@ -1,0 +1,50 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#f5deb3"/>
+
+<!-- Giraffe Lands (Central Plain) -->
+<path d="M140 300 Q250 200, 400 300 T600 300" stroke="#8b572a" stroke-width="2" fill="url(#giraffe-lands)"/>
+<defs>
+    <radialGradient id="giraffe-lands" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" style="stop-color:#ffb67a; stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#ffd892; stop-opacity:1" />
+    </radialGradient>
+</defs>
+
+<!-- Mountains (North & South) -->
+<path d="M50 100 Q150 50, 300 100 T700 100 Q600 200, 450 100" stroke="#696969" stroke-width="2" fill="none"/>
+<path d="M800 100 Q650 200, 500 100 T100 100 Q150 200, 50 100" stroke="#696969" stroke-width="2" fill="none"/>
+
+<!-- Rivers -->
+<path d="M700 400 Q550 300, 400 400 T100 400" stroke="#38bccd" stroke-width="2" fill="none"/>
+<path d="M700 200 Q550 300, 400 200 T100 200" stroke="#38bccd" stroke-width="2" fill="none"/>
+
+<!-- Forests -->
+<rect x="100" y="450" width="600" height="150" fill="#3d9970"/>
+<rect x="100" y="300" width="200" height="150" fill="#3d9970"/>
+
+<!-- Cities -->
+<circle cx="400" cy="550" r="80" stroke="#696969" stroke-width="2" fill="#ffc857"/>
+<circle cx="200" cy="250" r="50" stroke="#696969" stroke-width="2" fill="#ffc857"/>
+
+<!-- Labels -->
+<text x="30" y="15" font-family="Verdana" font-size="14">Giraffe Lands</text>
+<text x="70" y="50" font-family="Verdana" font-size="12">Northern Peaks</text>
+<text x="680" y="50" font-family="Verdana" font-size="12">Southern Highlands</text>
+<text x="350" y="450" font-family="Verdana" font-size="14">Giraffe Forest</text>
+<text x="680" y="450" font-family="Verdana" font-size="12">Eastern Jungle</text>
+<text x="430" y="575" font-family="Verdana" font-size="14">Giraffeopolis</text>
+<text x="230" y="260" font-family="Verdana" font-size="12">Antelope City</text>
+
+<!-- Legend -->
+<rect x="750" y="500" width="50" height="50" fill="#ffb67a"/>
+<text x="810" y="530" font-family="Verdana" font-size="12">Giraffe Lands</text>
+<rect x="750" y="450" width="50" height="50" fill="#3d9970"/>
+<text x="810" y="480" font-family="Verdana" font-size="12">Forests</text>
+<rect x="750" y="400" width="50" height="50" fill="#38bccd"/>
+<text x="810" y="430" font-family="Verdana" font-size="12">Rivers</text>
+<rect x="750" y="350" width="50" height="50" fill="#ffc857"/>
+<text x="810" y="380" font-family="Verdana" font-size="12">Cities</text>
+
+</svg>

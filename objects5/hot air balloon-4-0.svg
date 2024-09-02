@@ -1,0 +1,22 @@
+<svg width="100" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon Envelope -->
+  <ellipse cx="50" cy="50" rx="80" ry="40"
+           fill="#B3D9FF"/>
+
+  <!-- Basket -->
+  <rect x="45" y="100" width="60" height="20"
+        fill="#A08760"/>
+
+  <!-- Rope -->
+  <line x1="50" y1="50" x2="50" y2="90"
+        stroke="#4A2C1B" fill="transparent"/>
+
+  <!-- Fin -->
+  <rect x="60" y="85" width="30" height="10"
+        rx="5" ry="5"
+        fill="#B3D9FF"/>
+
+  <!-- Burner Flame -->
+  <polygon points="47,95 50,100 53,95"
+           fill="#FF7F27"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Center circle -->
+  <circle cx="150" cy="150" r="100" stroke="black" fill="none"/>
+
+  <!-- Body walls -->
+  <ellipse cx="150" cy="75" rx="120" ry="80" stroke="black" fill="none"/>
+  <ellipse cx="150" cy="125" rx="60" ry="90" stroke="black" fill="none"/>
+
+  <!-- Arms and tail -->
+  <path d="M150,225 Q200,250 150,275" stroke="black" fill="none"/>
+
+  <!-- Head and hair -->
+  <circle cx="150" cy="50" r="30" stroke="black" fill="none"/>
+  <path d="M120,25 Q140,75 160,25" stroke="black" fill="none"/>
+
+  <!-- Fin -->
+  <path d="M180,275 Q220,325 180,375" stroke="black" fill="none"/>
+</svg>

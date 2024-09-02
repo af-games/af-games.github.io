@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Body -->
+  <rect x="75" y="25" width="350" height="325" fill="#FF69B4" />
+
+  <!-- Tail -->
+  <path d="M400,375 Q450,450 600,500 Q450,550 400,575 Q350,550 250,500 Z" fill="url(#tailGradient)"/>
+
+  <!-- Head & Face -->
+  <ellipse cx="250" cy="150" rx="80" ry="90" fill="#FFF"/>
+  <circle cx="210" cy="120" r="15" fill="#000"/>
+  <circle cx="290" cy="120" r="15" fill="#000"/>
+
+  <!-- Hair -->
+  <path d="M250,75 Q300,125 250,175 Q200,125 250,75 Z" stroke="#000" fill="transparent"/>
+  <!-- Repeat similar path commands for more hair strands -->
+
+  <!-- Eyes & Mouth -->
+  <path d="M230,140 Q245,160 260,140" stroke="#000" fill="transparent"/>
+
+  <!-- Jewelry & Seashells -->
+  <circle cx="220" cy="300" r="10" fill="#FFD700"/>
+  <!-- Repeat similar circle commands for more jewelry and seashells -->
+
+  <!-- Tail gradient -->
+  <defs>
+    <linearGradient id="tailGradient" x1="400" y1="375" x2="600" y2="500">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="100%" stop-color="#B8E9FF"/>
+    </linearGradient>
+  </defs>
+
+</svg>

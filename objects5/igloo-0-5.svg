@@ -1,0 +1,43 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Igloo base (circle) -->
+  <circle id="iglooBase" cx="100" cy="400" r="80" fill="#fff"/>
+
+  <!-- Igloo dome (ellipse) -->
+  <ellipse id="iglooDome" cx="230" cy="250" rx="80" ry="120" fill="#fff"/>
+
+  <!-- Doorway (rectangle) -->
+  <rect id="doorway" x="60" y="340" width="80" height="90" fill="#fff"/>
+
+  <!-- Snowman (three circles for body and one for head) -->
+  <circle id="snowmanBody1" cx="320" cy="350" r="40" fill="#fff"/>
+  <circle id="snowmanBody2" cx="320" cy="290" r="60" fill="#fff"/>
+  <circle id="snowmanHead" cx="320" cy="210" r="20" fill="#fff"/>
+  <circle id="snowmanButton" cx="325" cy="380" r="10" fill="#fff"/>
+
+  <!-- Animation: igloo rotates -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 100 400"
+    to="360 100 400"
+    begin="click"
+    dur="5s"
+    repeatCount="indefinite"/>
+
+  <!-- Animation: snowman moves and waves -->
+  <animate
+    attributeName="cy"
+    values="350;250;350"
+    begin="click"
+    dur="1.5s"
+    repeatCount="indefinite"/>
+  <animate
+    attributeName="transform"
+    type="translate"
+    from="0 0"
+    to="20 0"
+    by="20 0"
+    begin="click"
+    dur="1s"
+    repeatCount="indefinite"/>
+</svg>

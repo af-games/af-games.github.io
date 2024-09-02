@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+
+  <!-- Balloon envelope -->
+  <circle cx="200" cy="150" r="150"
+          fill="url(#envelopeGradient)" stroke="#FFD700" stroke-width="5"/>
+
+  <!-- Basket -->
+  <rect x="130" y="400" width="140" height="60"
+        fill="#C28C5B" stroke="#A57C4D" stroke-width="3"/>
+
+  <!-- Burner -->
+  <rect x="155" y="350" width="80" height="50"
+        fill="#E9B129" stroke="#FFD700" stroke-width="3"/>
+  <circle cx="180" cy="325" r="25" fill="#FF4500"/>
+
+  <!-- Gondola (woven) -->
+  <path d="M160,400 H240 V460 H160 Z"
+        fill="url(#gondolaPattern)" stroke="none"/>
+
+  <!-- Rigging -->
+  <line x1="135" y1="370" x2="225" y2="370" stroke="#A57C4D" stroke-width="3"/>
+  <line x1="160" y1="420" x2="240" y2="420" stroke="#A57C4D" stroke-width="3"/>
+
+  <!-- Lighting effect -->
+  <filter id="light">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
+    <feOffset dx="2" dy="2" result="offsetBlur"/>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="envelopeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB973; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFA500; stop-opacity:1"/>
+    </linearGradient>
+    <pattern id="gondolaPattern" patternUnits="userSpaceOnUse" width="40" height="40">
+      <image href="https://i.imgur.com/7nT8NXM.png" x="0" y="0" width="40" height="40"/>
+    </pattern>
+  </defs>
+
+</svg>

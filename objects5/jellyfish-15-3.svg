@@ -1,0 +1,11 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bell (Body) -->
+  <circle cx="150" cy="150" r="80" fill="pink" stroke="black"/>
+
+  <!-- Tentacles -->
+  <path d="M150,60 Q70,130 140,200 Q190,130 220,60" stroke="black" fill="transparent"/>
+  <path d="M150,80 Q110,150 170,220 Q220,150 240,80" stroke="black" fill="transparent"/>
+  <!-- Repeat similar path commands for the other six tentacles -->
+
+</svg>

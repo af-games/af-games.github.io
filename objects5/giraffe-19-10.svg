@@ -1,0 +1,41 @@
+<svg width="800" height="400" viewBox="-400 -200 800 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes morph {
+      to { d: path("M-350,-150 Q-200,-150 -150,-75"); }
+    }
+
+    .beat { fill: url(#noteGradient); animation: morph 8s infinite; }
+    .transition { stroke: black; stroke-width: 5px; }
+  </style>
+
+  <!-- Bar 1 -->
+  <rect class="beat" x="-350" y="-150" width="200" height="300"/>
+  <path class="transition" d="M-150,-75 Q-50,-75 -50,15"/>
+
+  <!-- Bar 2 -->
+  <rect class="beat" x="-150" y="-150" width="200" height="300"/>
+  <path class="transition" d="M-50,15 Q50,15 50,-75"/>
+
+  <!-- Bar 3 -->
+  <rect class="beat" x="50" y="-150" width="200" height="300"/>
+  <path class="transition" d="M50,-75 Q150,-75 150,15"/>
+
+  <!-- Bar 4 -->
+  <rect class="beat" x="150" y="-150" width="200" height="300"/>
+  <path class="transition" d="M150,15 Q250,15 250,-75"/>
+
+  <!-- Bar 5 -->
+  <rect class="beat" x="250" y="-150" width="200" height="300"/>
+  <path class="transition" d="M250,-75 Q350,-75 350,15"/>
+
+  <!-- Bar 6 -->
+  <rect class="beat" x="350" y="-150" width="200" height="300"/>
+  <path class="transition" d="M350,15 Q450,15 450,-75"/>
+
+  <!-- Bar 7 -->
+  <rect class="beat" x="450" y="-150" width="200" height="300"/>
+  <path class="transition" d="M450,-75 Q550,-75 550,15"/>
+
+  <!-- Bar 8 -->
+  <rect class="beat" x="550" y="-150" width="200" height="300"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="240" height="180" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <rect x="75" y="20" width="70" height="50" fill="#937054"/>
+  <circle cx="90" cy="40" r="15" fill="#FFFFFF"/>
+  <circle cx="60" cy="40" r="15" fill="#FFFFFF"/>
+  <path d="M80,60 Q90,70 100,60" stroke="#FF0000" fill="transparent"/>
+
+  <!-- Neck -->
+  <polygon points="75,20 90,35 105,20 120,35 135,20 150,35 165,20 180,35" fill="#937054"/>
+
+  <!-- Body -->
+  <rect x="60" y="70" width="120" height="90" fill="#937054"/>
+  <rect x="30" y="70" width="50" height="70" fill="#937054"/>
+  <rect x="60" y="70" width="50" height="70" fill="#937054"/>
+  <rect x="30" y="140" width="40" height="70" fill="#937054"/>
+  <rect x="60" y="140" width="40" height="70" fill="#937054"/>
+
+  <!-- Tail -->
+  <rect x="200" y="110" width="80" height="60" fill="#937054"/>
+  <rect x="200" y="130" width="60" height="40" fill="#937054"/>
+  <rect x="200" y="150" width="40" height="20" fill="#937054"/>
+
+</svg>

@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kangaroo Body -->
+  <circle id="body" cx="250" cy="400" r="100" fill="brown"/>
+
+  <!-- Ear 1 -->
+  <ellipse id="ear1" cx="210" cy="370" rx="50" ry="25" fill="tan"/>
+  <!-- Ear 2 -->
+  <ellipse id="ear2" cx="290" cy="370" rx="50" ry="25" fill="tan"/>
+
+  <!-- Pouch -->
+  <polygon id="pouch" points="180,400 220,400 250,370" fill="tan"/>
+
+  <!-- Bounding Box -->
+  <path id="boundingBox" d="M160,370 L280,370 L280,400 L160,400 Z" stroke="black"/>
+</svg>

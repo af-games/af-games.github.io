@@ -1,0 +1,11 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bell -->
+  <ellipse cx="0" cy="0" rx="150" ry="75" fill="lightblue"/>
+
+  <!-- Tentacles -->
+  <path d="M -120 60 Q 180 90 120 240" stroke="black" fill="transparent"/>
+  <path d="M 120 60 Q -180 90 -120 240" stroke="black" fill="transparent"/>
+  <!-- Repeat the above path elements eight times, rotating them by 45 degrees each time -->
+
+</svg>

@@ -1,0 +1,31 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<circle cx="50" cy="75" r="30" fill="#A98467"/>
+<circle cx="65" cy="60" r="15" fill="#A98467"/>
+<circle cx="40" cy="90" r="20" fill="#A98467"/>
+
+<!-- Wings -->
+<polygon points="80,75 100,75 90,60" fill="#A98467"/>
+<polygon points="60,75 40,75 45,60" fill="#A98467"/>
+
+<!-- Feet -->
+<rect x="38" y="120" width="8" height="10" fill="#A98467"/>
+<rect x="82" y="120" width="8" height="10" fill="#A98467"/>
+
+<!-- Tail -->
+<polygon points="60,90 70,90 65,100" fill="#A98467"/>
+
+<!-- Branch -->
+<rect x="35" y="120" width="85" height="10" fill="#7C6E5F"/>
+
+<!-- Eyes -->
+<circle cx="62" cy="55" r="4" fill="#FFFFFF"/>
+<circle cx="78" cy="55" r="4" fill="#FFFFFF"/>
+<circle cx="62" cy="53" r="1" fill="#000000"/>
+<circle cx="78" cy="53" r="1" fill="#000000"/>
+
+<!-- Beak -->
+<polygon points="65,40 75,40 70,50" fill="#FFCBA2"/>
+
+</svg>

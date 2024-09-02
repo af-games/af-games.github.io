@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+
+<!-- Background -->
+<rect x="0" y="0" width="600" height="450" fill="#212F3C"/>
+
+<!-- Body -->
+<path d="M50,75 Q150,50 250,75 Q350,50 450,75 Q350,100 250,125 Q150,100 50,125" fill="#C5C6C7">
+  <animate attributeName="fill-opacity" values=".8;.9;.8" dur="5s" repeatCount="indefinite"/>
+</path>
+<circle cx="300" cy="150" r="75" fill="#4A4A4A">
+  <animate attributeName="r" values="75;60;75" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Wings -->
+<path d="M25,30 Q125,150 275,30 Q425,150 575,30 Q475,0 275,0" fill="#9C7258">
+  <animate attributeName="fill-opacity" values=".6;.7;.6" dur="5s" repeatCount="indefinite"/>
+</path>
+<path d="M175,30 Q275,125 425,30 Q525,125 575,30" fill="#D3B5A6">
+  <animate attributeName="fill-opacity" values=".6;.7;.6" dur="5s" repeatCount="indefinite"/>
+</path>
+
+<!-- Face -->
+<circle cx="300" cy="125" r="75" fill="#FFFDD0">
+  <animate attributeName="r" values="75;80;75" dur="5s" repeatCount="indefinite"/>
+</circle>
+<path d="M260,90 Q340,90 420,90" fill="#F5DEB3">
+  <animate attributeName="fill-opacity" values=".8;.9;.8" dur="5s" repeatCount="indefinite"/>
+</path>
+
+<!-- Eyes -->
+<circle cx="275" cy="110" r="20" fill="#F39C12">
+  <animate attributeName="r" values="20;15;20" dur="5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="325" cy="110" r="20" fill="#FF8C00">
+  <animate attributeName="r" values="20;15;20" dur="5s" repeatCount="indefinite"/>
+</circle>
+<circle cx="300" cy="95" r="10" fill="#FFFF66">
+  <animate attributeName="r" values="10;8;10" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+</svg>

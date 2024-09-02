@@ -1,0 +1,27 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100,50 Q120,30 140,50 Q160,70 180,50" fill="#FAE5D3" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="120" cy="80" r="40" fill="#FAE5D3"/>
+  <path d="M90,60 Q120,50 150,60" fill="black"/>
+
+  <!-- Eyes -->
+  <circle cx="105" cy="70" r="5" fill="white"/>
+  <circle cx="135" cy="70" r="5" fill="white"/>
+  <circle cx="105" cy="70" r="2.5" fill="black"/>
+  <circle cx="135" cy="70" r="2.5" fill="black"/>
+
+  <!-- Mane -->
+  <g stroke="orange" stroke-width="2">
+    <path d="M90,40 Q80,30 90,20"/>
+    <path d="M150,40 Q160,30 150,20"/>
+    <path d="M120,50 A70,70 0 1,0 180,70 A70,70 0 1,0 120,90"/>
+  </g>
+
+  <!-- Legs -->
+  <rect x="90" y="140" width="10" height="60" fill="#FAE5D3"/>
+  <rect x="180" y="140" width="10" height="60" fill="#FAE5D3"/>
+
+</svg>

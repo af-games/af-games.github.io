@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Body -->
+  <circle cx="250" cy="250" r="180" fill="#98FB98"/>
+  <circle cx="250" cy="250" r="160" stroke="#98FB98" stroke-width="3"/>
+
+  <!-- Tentacles -->
+  <path d="M250,70 L340,150 L290,220 Z" fill="#FFDF00"/>
+  <path d="M250,110 L160,150 L210,220 Z" fill="#FFDF00"/>
+  <path d="M250,150 L340,200 L160,220 Z" fill="#FFDF00"/>
+  <!-- Repeat the above path for other tentacles -->
+
+  <!-- Central Hole -->
+  <circle cx="250" cy="250" r="90" stroke="#98FB98" stroke-width="3"/>
+
+</svg>

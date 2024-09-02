@@ -1,0 +1,20 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <circle cx="250" cy="150" r="75" fill="lightblue" />
+
+  <!-- Body -->
+  <rect x="125" y="150" width="250" height="240" fill="pink" />
+
+  <!-- Hair -->
+  <polygon points="125,390 375,390 250,500" fill="brown" />
+  <polygon points="125,390 75,480 125,570" fill="brown" />
+
+  <!-- Tail -->
+  <ellipse cx="250" cy="600" rx="200" ry="180" fill="lightblue" />
+
+  <!-- Jewels -->
+  <circle cx="230" cy="120" r="10" fill="gold" />
+  <circle cx="270" cy="120" r="10" fill="gold" />
+
+</svg>

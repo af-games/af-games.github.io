@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -50 800 400" preserveAspectRatio="xMidYMid meet">
+
+  <!-- Giraffe shape -->
+  <path id="giraffe" d="M...Z" fill="#fdb927" stroke="#6d3a0c"/>
+
+  <!-- Bars and beats (circles) -->
+  <circle cx="-50" cy="150" r="20" fill="#8dc63f"/>
+  <circle cx="150" cy="150" r="20" fill="#74b33a"/>
+  <circle cx="350" cy="150" r="20" fill="#64a934"/>
+  <circle cx="550" cy="150" r="20" fill="#559e30"/>
+
+  <!-- Paths connecting beats -->
+  <path d="M-50,150 C...550,150" stroke="#468227" fill="transparent"/>
+
+  <!-- Animations -->
+  <animateTransform
+    attributeName="transform"
+    type="scale"
+    from="1 1"
+    to="1.2 1.2"
+    begin="0s"
+    dur="3s"
+    repeatCount="indefinite"
+    id="giraffeScale"/>
+  <animateMotion
+    path="M-50,150 C...550,150"
+    attributeName="d"
+    from="M0,-40 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0"
+    dur="3s"
+    repeatCount="indefinite"
+    id="giraffeWobble"/>
+
+</svg>

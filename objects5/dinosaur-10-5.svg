@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Introduction: Circles representing dinosaur footsteps -->
+  <circle cx="-40" cy="0" r="10" fill="brown" />
+  <animate attributeName="cy" values="0;20;0;" dur="500ms" repeatCount="indefinite" begin="0s" />
+
+  <!-- Main melody: Rectangles representing dinosaurs -->
+  <rect x="-30" y="-15" width="60" height="30" fill="green">
+    <animate attributeName="y" values="-15;-25;" dur="500ms" repeatCount="indefinite" begin="1s" />
+  </rect>
+  <rect x="10" y="-25" width="40" height="35" fill="green">
+    <animate attributeName="y" values="-25;-35;" dur="500ms" repeatCount="indefinite" begin="1.5s" />
+  </rect>
+
+  <!-- Harmony: Path representing prehistoric landscape -->
+  <path d="M-40,-30 Q-20,0 0,-30 Q20,0 40,-30" stroke="grey" fill="transparent">
+    <animate attributeName="stroke-width" values="1;5;1;" dur="500ms" repeatCount="indefinite" begin="2s" />
+  </path>
+
+  <!-- Clash: Changing sizes and positions -->
+  <rect x="-30" y="-15" width="60" height="30" fill="green">
+    <animate attributeName="width" values="60;80;60;" dur="500ms" repeatCount="indefinite" begin="4s" />
+  </rect>
+</svg>

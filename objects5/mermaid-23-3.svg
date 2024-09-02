@@ -1,0 +1,18 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define the overall boundary -->
+  <path id="boundary" d="M400,100 A300,300 0 1 1 400,700 A350,350 0 1 1 200,600 Z"/>
+
+  <!-- Water -->
+  <path fill="#03254C" d="M0,800 l800,0 v-800 H0 z"/>
+  <path fill="#B3E5FC" d="M0,750 l800,50 v-700 H0 z"/>
+
+  <!-- Land -->
+  <path fill="#66BB6A" d="M400,100 a300,300 0 0 1 200,300 a150,150 0 0 1 -200,300"/>
+  <path fill="#937051" d="M400,650 a150,150 0 0 1 0,-300"/>
+
+  <!-- Mermaid-related features -->
+  <circle cx="550" cy="250" r="50" fill="#FF69B4"/>
+  <polygon points="400,450 350,400 450,400" fill="#FF69B4"/>
+
+</svg>

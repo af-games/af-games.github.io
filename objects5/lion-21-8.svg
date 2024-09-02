@@ -1,0 +1,34 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background: Savanna -->
+  <rect x="0" y="0" width="800" height="600" fill="#F5DEB3" />
+
+  <!-- Sun -->
+  <circle cx="70" cy="100" r="50" fill="#FFFF99">
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Lion -->
+  <path d="M350,150 Q400,50 500,150 Q450,350 350,350 Q250,350 300,150" fill="#FF6347">
+    <animate attributeName="opacity" values="1;0.8;1" dur="1s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Lion's Mane -->
+  <circle cx="350" cy="220" r="50" fill="#FF6347">
+    <animate attributeName="opacity" values="1;0.8;1" dur="1s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Grass -->
+  <rect x="0" y="400" width="800" height="200" fill="#66BB6A" opacity="0.7">
+
+  <!-- Acacia Tree (left) -->
+  <path d="M150,350 Q100,450 150,550 Q200,450 150,350" fill="#8B4513">
+    <animate attributeName="opacity" values="1;0.8;1" dur="1s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Acacia Tree (right) -->
+  <path d="M650,350 Q600,450 650,550 Q700,450 650,350" fill="#8B4513">
+    <animate attributeName="opacity" values="1;0.8;1" dur="1s" repeatCount="indefinite" />
+  </path>
+
+</svg>

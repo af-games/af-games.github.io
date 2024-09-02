@@ -1,0 +1,26 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1920" height="1080" fill="#003D66"/>
+
+  <!-- Coral Reef -->
+  <polygon points="400,50 1200,70 1600,150 1400,300 800,250 400,150" fill="#8BC34A"/>
+  <polygon points="600,200 1400,250 1700,400 900,350 500,250" fill="#AED581"/>
+
+  <!-- Nurse Shark -->
+  <path d="M1000,600 Q900,550 900,500 Q1100,450 1200,500 Q1100,550 1000,600" stroke="#32CD32" fill="none" stroke-width="8"/>
+
+  <!-- School of Snapper Fish -->
+  <circle cx="900" cy="400" r="15" fill="#FFFF00"/>
+  <circle cx="1050" cy="450" r="15" fill="#FFFF00"/>
+  <circle cx="850" cy="350" r="15" fill="#FFFF00"/>
+
+  <!-- Sea Turtle -->
+  <polygon points="700,650 900,700 800,750" fill="#8B4513"/>
+  <circle cx="800" cy="625" r="50" fill="#3D9970"/>
+
+  <!-- Anemone -->
+  <polygon points="1350,450 1450,400 1550,450" fill="#FFC0CB"/>
+  <polyline points="1375,425 1400,450 1425,425" stroke="#FFFFFF" fill="none" stroke-width="3"/>
+
+</svg>

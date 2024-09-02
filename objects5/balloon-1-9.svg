@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Instruments: Circles (balloons), Colors: #FF9933 (orange) -->
+  <circle id="b1" cx="400" cy="50" r="40" fill="#FF9933"/>
+  <circle id="b2" cx="600" cy="150" r="30" fill="#FF9933" opacity="0"/>
+  <circle id="b3" cx="200" cy="250" r="50" fill="#FF9933" opacity="0"/>
+
+  <!-- Measures -->
+
+  <!-- Measure 1: Introduction -->
+  <animate attributeName="opacity" values="0;1" from="0" to="1" begin="0s" dur="2s" id="a1" repeatCount="1" fill="freeze"/>
+  <set attributeName="visibility" values="visible;hidden" to="hidden" begin="a1.end"/>
+  <text x="50%" y="95%" text-anchor="middle" font-size="48" fill="#333">Balloon</text>
+
+  <!-- Measure 2: Ascension -->
+  <animate attributeName="cy" values="50;300" from="50" to="300" begin="a1.end" dur="6s" id="a2"/>
+  <animate attributeName="r" values="40;80" from="40" to="80" begin="a1.end" dur="6s" fill="freeze"/>
+
+  <!-- Measure 3: Climax -->
+  <circle cx="400" cy="350" r="70" fill="#FF9933" opacity="0">
+    <animate attributeName="opacity" values="0;1" from="0" to="1" begin="a2.begin" dur="2s"/>
+  </circle>
+
+  <!-- Measure 4: Resolution -->
+  <animate attributeName="cy" values="300;50" from="300" to="50" begin="a2.end" dur="6s" id="a3"/>
+  <animate attributeName="r" values="80;40" from="80" to="40" begin="a2.end" dur="6s"/>
+
+</svg>

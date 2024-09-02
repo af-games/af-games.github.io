@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Body -->
+  <path d="M10,60 Q70,30 150,60 Q70,90 10,60 Z" fill="#CD7F32" />
+  <!-- Neck -->
+  <path d="M140,60 Q180,40 220,60" stroke="#8B4513" stroke-width="5" fill="transparent" />
+  <!-- Head -->
+  <path d="M210,50 Q230,30 250,50 Q230,70 210,50 Z" fill="#8B4513" />
+  <!-- Legs -->
+  <rect x="90" y="160" width="30" height="80" rx="15" fill="#8B4513" />
+  <rect x="270" y="160" width="30" height="80" rx="15" fill="#8B4513" />
+  <!-- Tail -->
+  <polyline points="10,90 20,100 40,90" stroke="#8B4513" stroke-width="5" fill="transparent" />
+  <!-- Patterns (Turquoise) -->
+  <polygon points="30,70 60,40 90,70" fill="#40E0D0" />
+  <polygon points="120,70 150,40 180,70" fill="#40E0D0" />
+  <!-- Patterns (Lapis Lazuli) -->
+  <rect x="35" y="10" width="20" height="20" fill="#00008B" />
+  <rect x="65" y="10" width="20" height="20" fill="#00008B" />
+</svg>

@@ -1,0 +1,25 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bell (Body) -->
+  <ellipse cx="200" cy="150" rx="75" ry="150" fill="#ADD8E6"/>
+
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <mask id="tentacle-mask" x="0" y="0" width="400" height="400">
+      <rect x="0" y="0" width="400" height="400" fill="white"/>
+      <circle cx="200" cy="150" r="75" fill="black"/>
+    </mask>
+    <?php for ($i = 0; $i < 8; $i++) { ?>
+      <path d="M200,150 C160,90 <?= $i * 45 + 30 ?>,75 <?= $i * 45 - 30 ?>,75 <?= $i * 45 + 30 ?>,90 Z" fill="url(#tentacle-gradient)" mask="url(#tentacle-mask)"/>
+    <?php } ?>
+  </g>
+
+  <!-- Radial Gradient for Tentacles -->
+  <defs>
+    <radialGradient id="tentacle-gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#ADD8E6; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#003D66; stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+
+</svg>

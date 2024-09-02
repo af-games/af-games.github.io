@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0D47A1"/>
+
+  <!-- Sun -->
+  <circle cx="50" cy="50" r="50" fill="url(#sunGradient)"/>
+  <defs>
+    <radialGradient id="sunGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFD700; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500; stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Nurse Shark -->
+  <path d="M200,550 Q300,600 400,550 Q300,500 200,550 Z" fill="#8B7D6B"/>
+
+  <!-- Coral Reef -->
+  <polygon points="100,500 150,550 200,450 250,550 300,500" fill="#8B4513"/>
+
+  <!-- Schooling Fish -->
+  <circle cx="220" cy="470" r="5" fill="#FFFFFF"/>
+  <circle cx="250" cy="490" r="5" fill="#FFFFFF"/>
+  <!-- Add more fish randomly within the reef -->
+
+  <!-- Bubbles -->
+  <circle cx="180" cy="380" r="3" fill="#FFFFFF"/>
+  <circle cx="280" cy="420" r="3" fill="#FFFFFF"/>
+  <!-- Add more bubbles randomly throughout the scene -->
+
+</svg>

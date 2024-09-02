@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define colors for musical notes -->
+  <defs>
+    <linearGradient id="noteColors" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(153,0,0);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,153,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Bar 1 -->
+  <path id="bar1" d="M10,10 H890 V490 H10 Z" fill="none"/>
+  <circle cx="100" cy="250" r="40" fill="url(#noteColors)" transform="rotate(45, 100, 250)">
+    <animate attributeName="r" from="40" to="60" dur="3s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Bar 2 -->
+  <path id="bar2" d="M900,10 H1790 V490 H900 Z" fill="none"/>
+  <circle cx="1050" cy="250" r="40" fill="url(#noteColors)" transform="rotate(45, 1050, 250)">
+    <animate attributeName="r" from="40" to="60" dur="3s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ... continue for more bars -->
+
+</svg>

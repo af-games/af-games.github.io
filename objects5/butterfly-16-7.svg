@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Landmass -->
+  <path fill="#D4A672" d="M100 250 Q200 150 350 250 Q500 350 650 250 Q800 100 950 250 Q1100 400 1250 250 Q1400 100 1500 250 Q1650 350 1800 250 Q1950 150 2100 250 V600 H-100 Z" />
+  <!-- Mountains -->
+  <polygon fill="#8B4726" points="150,50 300,100 450,50 600,150 750,50 900,100" />
+  <!-- Rivers -->
+  <path stroke="#000" fill="none" d="M250 350 Q350 450 450 350 Q550 400 650 350 Q750 450 850 350" />
+  <!-- Butterfly Landmark -->
+  <circle cx="400" cy="200" r="100" fill="#FFC300">
+    <animate attributeName="r" values="100;120;100" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Butterfly Landmark Outline -->
+  <circle cx="400" cy="200" r="105" stroke="#000" fill="none"/>
+
+</svg>

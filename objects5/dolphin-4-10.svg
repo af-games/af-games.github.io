@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Start point -->
+  <circle cx="50" cy="150" r="10" fill="#ff7f50"/>
+
+  <!-- Route lines and landmarks -->
+  <line x1="50" y1="150" x2="100" y2="200" stroke="black"/>
+  <circle cx="100" cy="200" r="30" fill="#ff7f50">
+    <title>Landmark: Dolphin's Head</title>
+    <filter id="sparkle">
+      <feTurbulence baseFrequency="0.02"/>
+      <feDisplacementMap in="SourceGraphic" scale="10" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </circle>
+
+  <line x1="100" y1="200" x2="150" y2="300" stroke="black"/>
+  <polygon points="150,300 200,350 150,400" fill="#87cefa">
+    <title>Landmark: Dolphin's Tail</title>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5"/>
+      <feMerge>
+        <feMergeNode in="SourceAlpha"/>
+        <feMergeNode in="BackgroundImage"/>
+      </feMerge>
+    </filter>
+  </polygon>
+
+  <!-- End point -->
+  <circle cx="750" cy="450" r="10" fill="#ff7f50"/>
+
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 100 100">
+
+  <!-- Owl's Body -->
+  <path id="body" d="M40,80 A60,60 0 0,1 60,20 Q70,30 90,50 Q70,70 60,80 Z"/>
+  <rect x="40" y="80" width="60" height="60" style="fill:deepskyblue; stroke:none;" />
+
+  <!-- Eyes -->
+  <circle cx="55" cy="65" r="10" fill="yellowgreen" />
+  <circle cx="55" cy="65" r="3" fill="black" />
+
+  <!-- Feathers -->
+  <path id="feather-left" d="M20,70 Q40,80 60,90"/>
+  <rect x="20" y="70" width="40" height="20" style="fill:whitesmoke; stroke:none;" />
+  <path id="feather-right" d="M60,70 Q80,80 100,90"/>
+  <rect x="60" y="70" width="40" height="20" style="fill:slategrey; stroke:none;" />
+
+  <!-- Wings & Branch -->
+  <path id="wing-left" d="M30,80 Q10,90 20,95"/>
+  <rect x="30" y="80" width="40" height="5" style="fill:black; stroke:none;" />
+  <path id="wing-right" d="M70,80 Q90,90 100,95"/>
+  <rect x="70" y="80" width="40" height="5" style="fill:black; stroke:none;" />
+
+  <!-- Chain & Bail -->
+  <path id="chain" d="M20,10 Q30,15 60,15 Q90,15 100,10"/>
+  <rect x="20" y="10" width="80" height="5" style="fill:lightgray; stroke:none;" />
+
+</svg>

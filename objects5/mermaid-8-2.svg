@@ -1,0 +1,9 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="700" style="fill:lightblue; stroke:black;" id="mermaid"/>
+
+  <path d="M100 50 Q200 75, 350 100 A200 200 0 0 1 450 250 Q400 350, 200 500" style="fill:lightblue; stroke:black;" id="body"/>
+
+  <circle cx="250" cy="150" r="75" style="fill:lightblue; stroke:black;" id="head"/>
+
+  <polyline points="375 600, 425 650, 325 650" style="fill:lightblue; stroke:black;" id="tailfin"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg width="300px" height="300px" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bell -->
+  <circle cx="150" cy="75" r="60" fill="#87CEEB"/>
+
+  <!-- Tentacles -->
+  <g stroke="#483D8B" stroke-width="10">
+    <line x1="150" y1="90" x2="130" y2="150"/>
+    <line x1="150" y1="90" x2="170" y2="150"/>
+    <!-- Repeat for remaining tentacles -->
+  </g>
+
+  <!-- Oral Arms -->
+  <g fill="#FFFF00">
+    <circle cx="148" cy="63" r="3"/>
+    <circle cx="152" cy="63" r="3"/>
+    <!-- Repeat for remaining oral arms -->
+  </g>
+
+  <!-- Annotations -->
+  <text x="50" y="20" font-family="Verdana" font-size="14">Ancient Jellyfish Artifact</text>
+  <text x="50" y="40" font-family="Verdana" font-size="12">Discovered in [Location] by X, SVG Explorer.</text>
+  <text x="50" y="60" font-family="Verdana" font-size="12">Purpose: Decorative or Religious Symbol</text>
+
+</svg>

@@ -1,0 +1,23 @@
+<svg width="500" height="500" viewBox="-250 -250 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo shape -->
+  <circle cx="0" cy="0" r="200"
+          fill="url(#snowGradient)"
+          stroke="black"/>
+
+  <!-- Roof details -->
+  <g stroke="white" fill="transparent">
+    <circle cx="-150" cy="-180" r="20"/>
+    <ellipse cx="0" cy="-200" rx="30" ry="15"/>
+    <circle cx="150" cy="-180" r="20"/>
+  </g>
+
+  <!-- Windows -->
+  <rect x="-70" y="-140" width="40" height="60"
+        fill="white" stroke="black"/>
+
+  <!-- Door -->
+  <path d="M -90, -140 Q -50, -200 -90, -260 H 90 Q 50, -200 90, -140 Z"
+        fill="white" stroke="black"/>
+
+</svg>

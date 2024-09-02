@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-400 -400 800 800">
+  <!-- Central Igloo Dome -->
+  <circle cx="0" cy="0" r="200" fill="#fff" stroke="#000"/>
+
+  <!-- Surrounding Walls -->
+  <rect x="-150" y="-150" width="300" height="300" transform="rotate(90 0 0)" fill="#ddd"/>
+  <rect x="150" y="-150" width="300" height="300" transform="rotate(-90 0 0)" fill="#ddd"/>
+  <rect x="-300" y="-200" width="200" height="400" fill="#ddd"/>
+  <rect x="150" y="-200" width="200" height="400" fill="#ddd"/>
+
+  <!-- Entryway Tower -->
+  <circle cx="-150" cy="0" r="75" fill="#ddd"/>
+
+  <!-- Smoke Hole -->
+  <circle cx="0" cy="200" r="25" fill="#ccc"/>
+
+  <!-- Accessory Buildings -->
+  <rect x="-230" y="-60" width="80" height="60" fill="#ddd"/>
+  <rect x="150" y="-60" width="80" height="60" fill="#ddd"/>
+
+</svg>

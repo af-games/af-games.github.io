@@ -1,0 +1,22 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="150" cy="200" r="80" fill="orange" id="body"/>
+
+  <!-- Head -->
+  <circle cx="170" cy="140" r="60" fill="gold" id="head"/>
+  <path d="M170,135 Q180,120 190,135 T200,145" stroke="black" fill="transparent" id="head-string"/>
+
+  <!-- Arms -->
+  <circle cx="130" cy="220" r="20" fill="orange" id="left-arm"/>
+  <path d="M170,200 Q150,220 130,220" stroke="black" fill="transparent" id="left-arm-string"/>
+  <circle cx="190" cy="220" r="20" fill="orange" id="right-arm"/>
+  <path d="M170,200 Q190,220 210,220" stroke="black" fill="transparent" id="right-arm-string"/>
+
+  <!-- Legs -->
+  <circle cx="130" cy="280" r="20" fill="orange" id="left-leg"/>
+  <path d="M150,260 Q130,280 110,280" stroke="black" fill="transparent" id="left-leg-string"/>
+  <circle cx="190" cy="280" r="20" fill="orange" id="right-leg"/>
+  <path d="M170,260 Q190,280 210,280" stroke="black" fill="transparent" id="right-leg-string"/>
+
+</svg>

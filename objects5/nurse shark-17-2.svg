@@ -1,0 +1,29 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="180" cy="200" r="90" fill="#3d7e9b">
+    <animateMotion dur="4s" repeatCount="indefinite">
+      <mpath href="#motionPath"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Fin (Top) -->
+  <path d="M150,80 Q120,30 180,80 Q210,30 240,80" fill="none" stroke="#fff" stroke-width="5"/>
+  <path d="M150,70 Q120,40 180,70 Q210,40 240,70" fill="none" stroke="#3d7e9b" stroke-width="3"/>
+
+  <!-- Fin (Bottom) -->
+  <path d="M150,320 Q120,350 180,320 Q210,350 240,320" fill="none" stroke="#fff" stroke-width="5"/>
+  <path d="M150,330 Q120,360 180,330 Q210,360 240,330" fill="none" stroke="#3d7e9b" stroke-width="3"/>
+
+  <!-- Eye -->
+  <rect x="175" y="150" width="20" height="20" fill="#fff">
+    <circle cx="186" cy="165" r="3" fill="#000"/>
+  </rect>
+
+  <!-- Mouth -->
+  <path d="M170,240 Q160,260 180,240 Q190,260 200,240" fill="none" stroke="#fff" stroke-width="5"/>
+
+  <!-- Motion Path for Body Animation -->
+  <path id="motionPath" d="M180,120 A70,70 0 1 0 180,300 A70,70 0 1 0 180,120 z"/>
+
+</svg>

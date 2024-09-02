@@ -1,0 +1,24 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100,150 Q150,120 200,150 Q250,180 300,150 Q350,120 400,150" fill="#696969" stroke="black"/>
+
+  <!-- Belly -->
+  <path d="M150,180 Q200,200 250,180 Q300,200 350,180" fill="#CFCFCF" stroke="black"/>
+
+  <!-- Dorsal fin -->
+  <polygon points="270,60,310,20,310,40,270,80" fill="black" stroke="black"/>
+
+  <!-- Pectoral fins (left) -->
+  <path d="M150,90 Q120,120 150,160 Q180,120 150,90" fill="black" stroke="black"/>
+
+  <!-- Pectoral fins (right) -->
+  <path d="M300,90 Q330,120 300,160 Q270,120 300,90" fill="black" stroke="black"/>
+
+  <!-- Tail and flukes -->
+  <path d="M400,150 Q420,180 450,180 Q470,150 450,130 Q420,90 400,90" fill="black" stroke="black"/>
+
+  <!-- Eye patch -->
+  <path d="M190,60 Q210,40 250,60 Q230,80 210,100 Q190,80 Z" fill="white" stroke="black"/>
+
+</svg>

@@ -1,0 +1,25 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky -->
+  <rect id="sky" width="100%" height="50%" fill="#87CEEB"/>
+
+  <!-- Hills -->
+  <path d="M0,450 Q200,600 400,550 Q800,650 1200,500 Q1600,600 2000,450" fill="#B0E0E6"/>
+  <path d="M2000,450 Q1600,300 1200,400 Q800,350 400,450" fill="#B0E0E6"/>
+
+  <!-- Igloo -->
+  <circle cx="600" cy="500" r="200" fill="white"/>
+  <path d="M600,300 A200,200 0 1 0 600,700 A200,200 0 1 0 600,300" stroke="#98FB98" fill="none"/>
+
+  <!-- River -->
+  <path d="M400,550 Q600,650 1000,550 Q1200,650 1600,550" stroke="#7DF9FF" fill="none"/>
+
+  <!-- Trees (Evergreen) -->
+  <circle cx="300" cy="480" r="40" fill="#006400"/>
+  <circle cx="1100" cy="420" r="50" fill="#006400"/>
+
+  <!-- Trees (Deciduous) -->
+  <circle cx="700" cy="430" r="45" fill="#FFD700"/>
+  <circle cx="1500" cy="480" r="55" fill="#FFD700"/>
+
+</svg>

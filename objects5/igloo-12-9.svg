@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Scene 1: igloo's Cozy Home -->
+<circle id="igloo" cx="50" cy="150" r="40" fill="#F9D71C"/>
+<path id="smoke" d="M50,30 Q80,60 120,30 T120,0" stroke="#AFAFAF" fill="transparent"/>
+
+<!-- Scene 2: The Long Journey Begins -->
+<use xlink:href="#igloo" cx="250" cy="150"/>
+<path id="journey-path" d="M250,150 Q400,75 500,150 T500,300"/>
+
+<!-- Scene 3: Encounter with Snowy -->
+<circle id="snowy" cx="600" cy="180" r="30" fill="#FFFFFF"/>
+<use xlink:href="#igloo" cx="620" cy="170"/>
+<text x="605" y="190" font-family="Verdana" font-size="12">Igloo meets Snowy</text>
+
+<!-- Scene 4: The Crystal Cavern -->
+<use xlink:href="#igloo" cx="380" cy="270"/>
+<rect id="cavern" x="350" y="230" width="100" height="150" fill="#3D3C64"/>
+<text x="390" y="320" font-family="Verdana" font-size="12">Dark Crystal Cavern</text>
+
+<!-- Scene 5: The Legendary Frost Crystal -->
+<use xlink:href="#igloo" cx="500" cy="320"/>
+<circle id="crystal" cx="475" cy="320" r="15" fill="#C9FFED"/>
+<text x="460" y="350" font-family="Verdana" font-size="12">Legendary Frost Crystal</text>
+
+<!-- Scene 6: Homecoming -->
+<use xlink:href="#igloo" cx="700" cy="400"/>
+<circle id="crystal-home" cx="730" cy="400" r="15" fill="#C9FFED"/>
+<path id="home-return-path" d="M680,400 Q400,200 200,400 T200,550"/>
+
+<!-- Text Elements -->
+<text x="720" y="390" font-family="Verdana" font-size="12">Igloo brings warmth home</text>
+
+</svg>

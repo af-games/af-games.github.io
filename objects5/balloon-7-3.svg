@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 618 347" preserveAspectRatio="xMidYMid meet">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f0e68c"/>
+  <path d="M0,347h618V0H0z" stroke="#ddd"/>
+
+  <!-- Mountains (golden ratio-based placement) -->
+  <circle cx="250" cy="173.5" r="70" fill="#fff" stroke="#aaa"/>
+  <circle cx="397" cy="244.5" r="60" fill="#fff" stroke="#aaa"/>
+
+  <!-- Rivers (paths) -->
+  <path id="riverPath" d="M80,170 Q250,20 Q420,170"/>
+  <use href="#riverPath" stroke="#3d9970" fill="none"/>
+  <animate
+    attributeName="d"
+    dur="6s"
+    repeatCount="indefinite"
+    from="M80,170 Q250,20 Q420,170"
+    to="M80,170 Q250,30 Q420,170"
+  />
+
+  <!-- Trees (polygons) -->
+  <polygon points="290,160 330,120 300,140" fill="#3d8b2f"/>
+  <polygon points="410,205 450,175 420,195" fill="#3d8b2f"/>
+
+  <!-- Animation for trees swaying -->
+  <animateTransform
+    attributeName="points"
+    type="rotate"
+    from="0 300,160"
+    to="30 300,160"
+    dur="1s"
+    repeatCount="indefinite"
+  />
+</svg>

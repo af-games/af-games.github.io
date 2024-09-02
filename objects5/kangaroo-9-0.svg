@@ -1,0 +1,32 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="150" cy="200" rx="120" ry="180"
+    style="fill: url(#bodyGradient); stroke: brown; stroke-width: 2"/>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="140" rx="60" ry="80"
+    style="fill: url(#headGradient); stroke: darkbrown; stroke-width: 2"/>
+
+  <!-- Ears -->
+  <polygon points="130,90 170,90 150,110" fill="darkbrown"/>
+  <polygon points="160,80 180,80 170,100" fill="darkbrown"/>
+
+  <!-- Arms -->
+  <ellipse cx="130" cy="190" rx="20" ry="30" fill="brown"/>
+  <ellipse cx="170" cy="190" rx="20" ry="30" fill="brown"/>
+
+  <!-- Legs -->
+  <ellipse cx="140" cy="300" rx="30" ry="40" fill="brown"/>
+  <ellipse cx="160" cy="300" rx="30" ry="40" fill="brown"/>
+
+  <!-- Tail -->
+  <rect x="125" y="270" width="50" height="80"
+    style="fill: url(#tailGradient); stroke: darkbrown; stroke-width: 2"/>
+
+  <!-- Details (eyes, mouth) -->
+  <circle cx="145" cy="135" r="5" fill="white"/>
+  <circle cx="155" cy="135" r="5" fill="white"/>
+  <path d="M140,160 Q150,170 160,160" stroke="black" fill="transparent"/>
+
+</svg>

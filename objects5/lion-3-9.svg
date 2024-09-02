@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 480 560">
+  <!-- Rhythm (Circles) -->
+  <circle cx="50" cy="200" r="10"/>
+  <circle cx="150" cy="200" r="10"/>
+  <circle cx="250" cy="200" r="10"/>
+
+  <!-- Beat (Rectangles) -->
+  <rect x="370" y="190" width="40" height="80" fill="lightgrey"/>
+
+  <!-- Lion's Mane (Melody) -->
+  <path d="M60,200 Q150,100 250,200 Q370,350 460,200" stroke="black" fill="transparent"/>
+
+  <!-- Harmonies (Paths) -->
+
+  <!-- Violins -->
+  <path d="M80,150 Q120,90 160,150" stroke="brown" fill="transparent"/>
+  <path d="M140,170 Q180,130 220,170" stroke="brown" fill="transparent"/>
+
+  <!-- Cellos -->
+  <path d="M260,190 Q300,150 340,190" stroke="darkgreen" fill="transparent"/>
+  <path d="M300,230 Q340,210 380,230" stroke="darkgreen" fill="transparent"/>
+
+  <!-- Drums (Rythm) -->
+  <circle cx="375" cy="200" r="10"/>
+  <rect x="420" y="190" width="40" height="80" fill="lightgrey"/>
+
+</svg>

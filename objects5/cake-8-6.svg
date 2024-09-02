@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="800px" height="600px" viewBox="0 0 800 600">
+```
+
+Now, let's create a cake-shaped background using a rectangle with some rounded corners to give it that sweet look.
+
+```xml
+<rect x="50%" y="30%" width="50%" height="40%"
+      style="fill: lightgrey; stroke-width: 2px; stroke: darkslategrey;" rx="15%" ry="15%" />
+```
+
+Next, let's add some layers of frosting with varying colors and opacity to give our cake depth.
+
+```xml
+<rect x="50%" y="32%" width="48%" height="36%"
+      style="fill: white; opacity: 0.7;" rx="14%" ry="14%"/>
+<rect x="50%" y="34%" width="46%" height="32%"
+      style="fill: lightpink; opacity: 0.8;" rx="12%" ry="12%"/>
+```
+
+Now, let's add some decorations like candles and a happy birthday message.
+
+```xml
+<!-- Candles -->
+<circle cx="75%" cy="65%" r="30" style="fill: orange;" />
+<path d="M75%, 95% Q80%, 100% 75%, 105% Q70%, 100% 75%, 95%"
+      style="stroke-width: 4px; stroke: darkslategrey;" />
+
+<!-- Happy Birthday Message -->
+<text x="20%" y="85%" font-family="Verdana" font-size="60"
+      text-anchor="start" fill="black">Happy Birthday!</text>
+```
+
+Finally, let's close our `svg` tag to complete our cake-themed SVG masterpiece.
+
+```xml
+</svg>

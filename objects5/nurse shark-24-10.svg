@@ -1,0 +1,27 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background grass -->
+<rect x="0" y="300" width="500" height="200" fill="#8DC63C"/>
+
+<!-- Sunlight and shade areas -->
+<rect x="100" y="100" width="300" height="200" fill="#FDD83A"/>
+<rect x="400" y="350" width="100" height="150" fill="#7ECB9E"/>
+
+<!-- Roses (circles) -->
+<circle cx="50" cy="150" r="20" fill="#FFC0CB"/>
+<circle cx="200" cy="280" r="30" fill="#FFC0CB"/>
+<circle cx="420" cy="420" r="15" fill="#FFC0CB"/>
+
+<!-- Daisies (ellipses) -->
+<ellipse cx="150" cy="75" rx="30" ry="45" fill="#FFFACD"/>
+<ellipse cx="280" cy="220" rx="25" ry="35" fill="#FFFACD"/>
+
+<!-- Tulips (paths) -->
+<path d="M180 20 Q160 70, 200 140 Q240 70, 220 20" stroke=" purple" fill="transparent"/>
+<path d="M350 380 Q330 430, 390 460 Q430 430, 410 380" stroke=" purple" fill="transparent"/>
+
+<!-- Depth layering -->
+<text x="250" y="120" font-family="Verdana" font-size="40" fill="#FFFFFF">Nurse Shark</text>
+<image href="https://i.imgur.com/38XQsRl.png" x="170" y="350" width="160" height="120"/>
+
+</svg>

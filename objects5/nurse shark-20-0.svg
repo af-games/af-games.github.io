@@ -1,0 +1,20 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <ellipse cx="0" cy="75" rx="250" ry="150" fill="#8B7D6B"/>
+
+  <!-- Body outline -->
+  <path d="M250 75 Q375 0, 450 75 A150 150 0 0 0 250 225" stroke="#4F594A" fill="transparent"/>
+
+  <!-- Dorsal fins -->
+  <ellipse cx="50" cy="150" rx="30" ry="60" fill="#8B7D6B"/>
+  <ellipse cx="150" cy="200" rx="45" ry="90" fill="#8B7D6B"/>
+  <ellipse cx="250" cy="250" rx="60" ry="120" fill="#8B7D6B"/>
+
+  <!-- Pectoral fins -->
+  <polygon points="-100,-100, 100,-100, -30,-200" stroke="#4F594A" fill="transparent"/>
+  <polygon points="100,-100, -100,-100, 30,-200" stroke="#4F594A" fill="transparent"/>
+
+  <!-- Tail fin -->
+  <path d="M450 75 Q550 200, 600 75 A150 150 0 0 0 450 225" stroke="#4F594A" fill="transparent"/>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg width="500" height="500" viewBox="0 0 500 500" style="border:1px solid black;" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<circle cx="250" cy="300" r="80" fill="#7C9A4D"/>
+
+<!-- Head -->
+<circle cx="250" cy="200" r="60" fill="#7C9A4D"/>
+<ellipse cx="230" cy="180" rx="10" ry="20" fill="#7C9A4D"/>
+
+<!-- Limbs -->
+<!-- Left Arm -->
+<rect x="200" y="300" width="50" height="100" rx="25" transform="rotate(-45 200 300)" fill="#7C9A4D"/>
+<!-- Right Arm -->
+<rect x="300" y="300" width="50" height="100" rx="25" transform="rotate(45 300 300)" fill="#7C9A4D"/>
+<!-- Left Leg -->
+<rect x="200" y="400" width="50" height="100" rx="25" transform="rotate(-45 200 400)" fill="#7C9A4D"/>
+<!-- Right Leg -->
+<rect x="300" y="400" width="50" height="100" rx="25" transform="rotate(45 300 400)" fill="#7C9A4D"/>
+
+<!-- Tail -->
+<path d="M250,400 Q300,350 300,450 Q200,350 200,400" stroke="#7C9A4D" fill="transparent"/>
+<circle cx="300" cy="450" r="10" fill="#7C9A4D"/>
+
+<!-- Eyes -->
+<circle cx="230" cy="210" r="10" fill="#FFFFFF"/>
+<circle cx="270" cy="210" r="10" fill="#FFFFFF"/>
+
+<!-- Mouth -->
+<path d="M220,240 Q250,280 280,240" stroke="#FFFFFF" fill="transparent" stroke-width="3"/>
+
+</svg>

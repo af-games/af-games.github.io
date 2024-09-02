@@ -1,0 +1,38 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="350" fill="#FFF"/>
+
+  <!-- Cake Stand -->
+  <circle cx="250" cy="300" r="175" stroke="#CCA" stroke-width="4" fill="none"/>
+  <rect x="125" y="300" width="250" height="25" fill="#FFD6BA"/>
+
+  <!-- Tier 1 -->
+  <circle cx="250" cy="215" r="175" stroke="#FDD" stroke-width="4" fill="#FFF"/>
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFD6BA; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#FFF; stop-opacity:1"/>
+  </linearGradient>
+  <circle cx="250" cy="215" r="175" fill="url(#grad1)"/>
+
+  <!-- Tier 2 -->
+  <circle cx="250" cy="135" r="140" stroke="#FDD" stroke-width="4" fill="#FFF"/>
+  <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFD6BA; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#FFF; stop-opacity:1"/>
+  </linearGradient>
+  <circle cx="250" cy="135" r="140" fill="url(#grad2)"/>
+
+  <!-- Tier 3 -->
+  <circle cx="250" cy="60" r="105" stroke="#FDD" stroke-width="4" fill="#FFF"/>
+  <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFD6BA; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#FFF; stop-opacity:1"/>
+  </linearGradient>
+  <circle cx="250" cy="60" r="105" fill="url(#grad3)"/>
+
+  <!-- Candles -->
+  <path d="M470,100 L500,80 Z" fill="#FDD" stroke="#FFF"/>
+  <path d="M230,100 L260,80 Z" fill="#FDD" stroke="#FFF"/>
+
+</svg>

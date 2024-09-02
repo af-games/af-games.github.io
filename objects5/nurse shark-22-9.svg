@@ -1,0 +1,29 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Coordinate Grid -->
+  <rect x="10" y="10" width="580" height="380" fill="none" stroke="#ddd"/>
+  <line x1="60" y1="40" x2="560" y2="40" stroke="#ddd"/>
+  <line x1="60" y1="40" x2="60" y2="380" stroke="#ddd"/>
+
+  <!-- Clues -->
+  <circle cx="120" cy="90" r="5" fill="blue" />
+  <circle cx="240" cy="140" r="5" fill="orange"/>
+  <circle cx="420" cy="180" r="5" fill="green"/>
+
+  <!-- Suspects -->
+  <rect x="90" y="230" width="40" height="60" fill="#ffa500" stroke="#ddd"/>
+  <text x="120" y="280" text-anchor="middle">Sharky McBiteface</text>
+  <rect x="270" y="230" width="40" height="60" fill="#add8e6" stroke="#ddd"/>
+  <text x="300" y="280" text-anchor="middle">Tina fin-der</text>
+  <rect x="450" y="230" width="40" height="60" fill="#800080" stroke="#ddd"/>
+  <text x="480" y="280" text-anchor="middle">Dracula Squalo</text>
+
+  <!-- Culprits -->
+  <polygon points="150,320 250,360 350,320" fill="#ff0000" stroke="#ddd"/>
+  <text x="250" y="390" text-anchor="middle">Big Bad Shark</text>
+
+  <!-- Labels -->
+  <text x="10" y="40" text-anchor="start">X</text>
+  <text x="60" y="10" text-anchor="end">Y</text>
+
+</svg>

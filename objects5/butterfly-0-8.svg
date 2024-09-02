@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 0 100 100" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <linearGradient id="butterflyGradient" gradientTransform="rotate(45)">
+      <stop offset="0%" stop-color="#ffcc00"/>
+      <stop offset="100%" stop-color="#ff6699"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <path id="body" fill="url(#butterflyGradient)" d="M-25,-3 A30,30 0 1,0 25,-3 A30,30 0 1,0 -25,-3">
+    <animateTransform attributeName="transform"
+                     type="rotate" from="0" to="360"
+                     begin="0s" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Wing 1 -->
+  <use href="#wing-template" fill="#ffcc00">
+    <animateTransform attributeName="transform"
+                     type="translate" from="-5,-20" to="5,20"
+                     begin="0s" dur="4s" repeatCount="indefinite"/>
+  </use>
+
+  <!-- Wing 2 -->
+  <use href="#wing-template" fill="#ff6699">
+    <animateTransform attributeName="transform"
+                     type="translate" from="5,20" to="-5,-20"
+                     begin="0s" dur="4s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform"
+                     type="rotate" from="180" to="360"
+                     begin="0s" dur="4s" repeatCount="indefinite"/>
+  </use>
+
+  <!-- Wing Template -->
+  <path id="wing-template" d="M-25,-3 A30,30 0 0,1 25,-3 A30,30 0 0,1 -25,-3"/>
+
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Gold Body -->
+  <ellipse cx="200" cy="175" rx="150" ry="200" fill="#FFD700"/>
+
+  <!-- Obsidian Spots -->
+  <circle cx="80" cy="130" r="40" fill="#231F20"/>
+  <circle cx="160" cy="190" r="30" fill="#231F20"/>
+  <circle cx="250" cy="150" r="35" fill="#231F20"/>
+
+  <!-- Polished Bone Eyes -->
+  <circle cx="80" cy="110" r="15" fill="#FFF5E6"/>
+  <circle cx="270" cy="120" r="15" fill="#FFF5E6"/>
+
+  <!-- Neck and Legs (Paths) -->
+  <path d="M80,90 Q120,40 160,90 Q200,140 240,90 Q280,40 320,90" stroke="#FFD700" fill="transparent"/>
+
+  <!-- Legs -->
+  <path d="M80,175 Q120,230 160,270 Q200,310 240,270 Q280,230 320,175" stroke="#FFD700" fill="transparent"/>
+
+</svg>

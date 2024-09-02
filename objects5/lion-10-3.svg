@@ -1,0 +1,18 @@
+<svg width="100%" height="100%" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Main features -->
+<circle cx="250" cy="200" r="40" fill="#ffcc66" stroke="#fff" stroke-width="2"/> <!-- Right eye -->
+<circle cx="300" cy="200" r="40" fill="#ffcc66" stroke="#fff" stroke-width="2"/> <!-- Left eye -->
+<rect x="175" y="280" width="150" height="40" fill="#ffe9d3" stroke="#fff" stroke-width="2"/> <!-- Mouth -->
+
+<!-- Complex elements -->
+<path d="M100 200 Q150 150, 250 200 Q300 150, 350 200 Q400 150, 450 200" fill="#ffcc66" stroke="#fff" stroke-width="2"/> <!-- Mane -->
+<path d="M175 280 Q225 350, 275 400 Q325 350, 375 400 Q425 350, 475 400" fill="#ffe9d3" stroke="#fff" stroke-width="2"/> <!-- Body -->
+<path d="M175 320 Q225 380, 275 430 Q325 380, 375 430 Q425 380, 475 430" fill="#ffe9d3" stroke="#fff" stroke-width="2"/> <!-- Legs -->
+
+<!-- Labels -->
+<text x="120" y="160" font-family="Verdana" font-size="12">(100, 150)</text>
+<text x="380" y="160" font-family="Verdana" font-size="12">(400, 150)</text>
+<text x="270" y="290" font-family="Verdana" font-size="12">(275, 350)</text>
+
+</svg>

@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Owl's Realm Boundary -->
+  <path d="M100 50 Q150 0, 250 50 Q400 0, 500 50 Q550 150, 600 50 Q650 0, 750 50" stroke="black" fill="transparent"/>
+
+  <!-- Major Landmarks -->
+  <circle cx="200" cy="100" r="30" fill="darkgreen" /> <!-- Owl's Tree -->
+  <circle cx="450" cy="100" r="25" fill="gold" /> <!-- Golden Temple -->
+
+  <!-- Rivers -->
+  <path d="M70 200 Q150 300, 280 200" stroke="blue" fill="transparent"/>
+  <path d="M450 200 Q550 300, 680 200" stroke="blue" fill="transparent"/>
+
+  <!-- Roads -->
+  <path d="M100 350 Q200 450, 300 350" stroke="grey" fill="transparent"/>
+  <path d="M600 350 Q500 450, 400 350" stroke="grey" fill="transparent"/>
+
+  <!-- Points of Interest -->
+  <circle cx="150" cy="280" r="15" fill="red" /> <!-- Red Cavern -->
+  <rect x="350" y="250" width="50" height="50" fill="purple" /> <!-- Purple Palace -->
+
+</svg>

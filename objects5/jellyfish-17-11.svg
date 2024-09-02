@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Main body (bell) -->
+  <circle cx="50" cy="50" r="40" fill="#8DC5A3"/>
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <% for(let i = 0; i < 24; i++) { %>
+      <path d="M50 <%= (i * 1.6) + 20 %> a10,10 0 0 <%= (i % 2 === 0 ? '1' : '-1') %>,1 0 <%= (i % 2 === 0 ? '1' : '-1') %><>l-5,-5" fill="<%= i % 2 === 0 ? '#FFD700' : '#E6E6FA' %>"/>
+    <% } %>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Scene 1: Old Man Albert working in his workshop -->
+  <g id="scene1">
+    <circle cx="50" cy="100" r="40" fill="#8B7D6B"/>
+    <text x="40" y="80" font-size="12">Old Man Albert tirelessly works on his hot air balloon.</text>
+  </g>
+
+  <!-- Scene 2: Albert's first flight -->
+  <g id="scene2">
+    <circle cx="150" cy="150" r="40"/>
+    <rect x="130" y="120" width="30" height="30" rx="5" fill="#D9966A"/>
+    <path d="M150,120 Q170,130 180,120 H200 Z" fill="#F39C12"/>
+    <text x="140" y="110" font-size="12">On his first flight, Albert soars high above the village.</text>
+  </g>
+
+  <!-- Scene 3: Albert helping villagers -->
+  <g id="scene3">
+    <circle cx="280" cy="250" r="40"/>
+    <rect x="260" y="220" width="30" height="30" rx="5" fill="#D9966A"/>
+    <path d="M280,220 Q310,230 320,220 H340 Z" fill="#F39C12"/>
+    <rect x="370" y="220" width="20" height="30" fill="#8B7D6B"/>
+    <text x="270" y="230" font-size="12">Albert shares his balloons, bringing joy to the villagers.</text>
+  </g>
+
+  <!-- Scene 4: Albert's grand finale -->
+  <g id="scene4">
+    <circle cx="450" cy="200" r="40"/>
+    <rect x="430" y="170" width="30" height="30" rx="5" fill="#D9966A"/>
+    <path d="M450,170 Q480,180 500,170 H520 Z" fill="#F39C12"/>
+    <circle cx="400" cy="250" r="10" fill="#FF0000"/>
+    <text x="390" y="260" font-size="12">In his grand finale, Albert sets off fireworks from his balloon!</text>
+  </g>
+
+</svg>

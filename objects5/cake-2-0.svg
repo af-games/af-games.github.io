@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Cake stand -->
+  <rect x="50" y="300" width="500" height="100"
+       fill="#D2B48C"/>
+
+  <!-- Cake layers -->
+  <circle cx="300" cy="250" r="125"
+         fill="#FFFACD"/>
+  <path d="M300,250 A125,125 0 0 1 300,125"
+        fill="#E8F5E9"/>
+  <path d="M300,175 A100,100 0 0 1 300,75"
+        fill="#FFFACD"/>
+
+  <!-- Frosting -->
+  <circle cx="280" cy="100" r="40"
+         fill="#FFFFFF"/>
+  <circle cx="320" cy="100" r="40"
+         fill="#FFFFFF"/>
+
+  <!-- Candles -->
+  <rect x="275" y="75" width="50" height="75"
+        rx="25" ry="25"
+        fill="#FDD83A"/>
+  <rect x="325" y="75" width="50" height="75"
+        rx="25" ry="25"
+        fill="#FDD83A"/>
+
+  <!-- Flowers -->
+  <circle cx="240" cy="90" r="15"
+         fill="#FF69B4"/>
+  <circle cx="360" cy="90" r="15"
+         fill="#FF69B4"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Filters -->
+  <defs>
+    <filter id="turbulence-clouds">
+      <feTurbulence baseFrequency="0.1" numOctaves="2"/>
+      <feDisplacementMap in2="clouds" scale="50"/>
+    </filter>
+
+    <filter id="rusty-metal">
+      <feColorMatrix type="matrix"
+        values="0 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                -2 0 0 1 0"/>
+    </filter>
+  </defs>
+
+  <!-- Castle Tower -->
+  <polygon points="40,350 80,300 400,150"
+           fill="#8B7D6B" stroke="#333" filter="url(#rusty-metal)"/>
+
+  <!-- Draw lines to connect shapes -->
+  <line x1="80" y1="300" x2="400" y2="150" stroke="#333"/>
+
+  <!-- Castle Gate -->
+  <rect x="100" y="370" width="200" height="160"
+        fill="#8B7D6B" filter="url(#rusty-metal)"/>
+
+  <!-- Draw lines to connect shapes -->
+  <line x1="400" y1="150" x2="200" y2="370"/>
+  <line x1="200" y1="370" x2="100" y2="370"/>
+
+  <!-- Draw landmarks -->
+  <circle cx="600" cy="300" r="80"
+          fill="#D2B48C" stroke="#333" filter="url(#turbulence-clouds)"/>
+  <text x="650" y="330">Cloudy Spire</text>
+
+</svg>

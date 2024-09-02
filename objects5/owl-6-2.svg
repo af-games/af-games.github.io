@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Owl body -->
+  <path fill="#774214"
+        d="M-20,-30 Q-20,-10 0,5 Q20,-10 20,-30 Z"/>
+
+  <!-- Wings -->
+  <path fill="#774214"
+        d="M-40,-20 Q-60,-40 -40,-60 H0 V-40 H40 Z"/>
+
+  <!-- Head and beak -->
+  <path fill="#F9F9F9" stroke="#333" stroke-width="1.5"
+        d="M0,5 Q15,-15 30,5 L30,10 L27,15 L20,10 Z"/>
+
+  <!-- Eyes -->
+  <circle cx="-5" cy="5" r="3" fill="#333"/>
+  <circle cx="5" cy="5" r="3" fill="#333"/>
+
+  <!-- Talons -->
+  <path fill="#774214"
+        d="M-20,-60 Q-25,-55 -20,-50 Z"/>
+  <path fill="#774214"
+        d="M20,-60 Q25,-55 20,-50 Z"/>
+
+  <!-- Feathers and shading -->
+  <defs>
+    <linearGradient id="featherGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#D3975A"/>
+      <stop offset="100%" stop-color="#C4864F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Apply gradient to body and wings -->
+  <path fill="url(#featherGradient)"
+        d="M-20,-30 Q-20,-10 0,5 Q20,-10 20,-30 Z"/>
+  <path fill="url(#featherGradient)"
+        d="M-40,-20 Q-60,-40 -40,-60 H0 V-40 H40 Z"/>
+
+</svg>

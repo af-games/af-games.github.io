@@ -1,0 +1,49 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="url(#backgroundGradient)"/>
+  <defs>
+    <linearGradient id="backgroundGradient" gradientTransform="rotate(90)">
+      <stop offset="0%" stop-color="#357A9D" />
+      <stop offset="100%" stop-color="#0E2F48" />
+    </linearGradient>
+  </defs>
+
+  <!-- Ocean Floor -->
+  <rect x="100" y="400" width="600" height="200" fill="url(#oceanFloorGradient)"/>
+  <defs>
+    <linearGradient id="oceanFloorGradient">
+      <stop offset="0%" stop-color="#3895B1" />
+      <stop offset="100%" stop-color="#2E7D96" />
+    </linearGradient>
+  </defs>
+
+  <!-- Main Action Area: Ocean Center -->
+  <circle cx="400" cy="500" r="200" fill="url(#oceanCenterGradient)" stroke="white" stroke-width="3"/>
+  <defs>
+    <radialGradient id="oceanCenterGradient">
+      <stop offset="0%" stop-color="#6ABFB1" />
+      <stop offset="50%" stop-color="#498B7F" />
+      <stop offset="100%" stop-color="#3D726E" />
+    </radialGradient>
+  </defs>
+
+  <!-- Props: Coral Reef -->
+  <polygon points="150,550 200,500 250,550" fill="url(#coralReefGradient)" stroke="black" stroke-width="1"/>
+  <defs>
+    <linearGradient id="coralReefGradient">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="50%" stop-color="#F39C12" />
+      <stop offset="100%" stop-color="#E68A00" />
+    </linearGradient>
+  </defs>
+
+  <!-- Props: Seashells -->
+  <circle cx="550" cy="570" r="30" fill="url(#seashellGradient)" stroke="black" stroke-width="1"/>
+  <circle cx="620" cy="540" r="25" fill="url(#seashellGradient)"/>
+
+  <!-- Props: Sunken Ship Mast -->
+  <rect x="370" y="550" width="50" height="50" fill="black"/>
+  <line x1="390" y1="600" x2="410" y2="600" stroke="white" stroke-width="3"/>
+
+</svg>

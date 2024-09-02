@@ -1,0 +1,52 @@
+<svg width="800" height="600" style="background-color: lightgreen;" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Plant the seeds:**
+
+Let's start with some basic shapes for the T-Rex's head, body, and legs.
+
+```svg
+  <circle cx="400" cy="150" r="100" fill="brown"/>
+  <rect x="350" y="200" width="100" height="300" fill="grey"/>
+  <polygon points="450,300 400,400 350,300" fill="brown"/>
+```
+
+3. **Water and nurture the seeds:**
+
+Now, let's apply some transformations to grow our dinosaur.
+
+```svg
+  <!-- Head -->
+  <circle cx="400" cy="150" r="100" fill="brown"
+          transform="translate(-200,-75) rotate(30)" />
+
+  <!-- Body -->
+  <rect x="350" y="200" width="100" height="300" fill="grey"
+        transform="translate(-150,-100) scale(1.5)" />
+
+  <!-- Left Leg -->
+  <polygon points="450,300 400,400 350,300" fill="brown"
+           transform="translate(-200,-75) rotate(45) translate(50,150)" />
+
+  <!-- Right Leg -->
+  <polygon points="450,300 400,400 350,300" fill="brown"
+           transform="translate(-200,-75) rotate(-45) translate(50,150)" />
+```
+
+4. **Prune unnecessary elements:**
+
+In this case, we don't have any unnecessary elements or attributes to remove.
+
+5. **Write out the SVG code:**
+
+```svg
+<svg width="800" height="600" style="background-color: lightgreen;" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="400" cy="150" r="100" fill="brown"
+          transform="translate(-200,-75) rotate(30)" />
+  <rect x="350" y="200" width="100" height="300" fill="grey"
+        transform="translate(-150,-100) scale(1.5)" />
+  <polygon points="450,300 400,400 350,300" fill="brown"
+           transform="translate(-200,-75) rotate(45) translate(50,150)" />
+  <polygon points="450,300 400,400 350,300" fill="brown"
+           transform="translate(-200,-75) rotate(-45) translate(50,150)" />
+</svg>

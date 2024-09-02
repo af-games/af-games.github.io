@@ -1,0 +1,25 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Drums (circles) -->
+  <circle cx="400" cy="150" r="50" fill="#ff6666"/>
+  <circle cx="400" cy="250" r="40" fill="#ff9999"/>
+  <circle cx="400" cy="350" r="30" fill="#ffcccc"/>
+
+  <!-- Violins (rectangles) -->
+  <rect x="150" y="400" width="200" height="80" fill="#66b3ff"/>
+  <rect x="550" y="400" width="200" height="80" fill="#99ccff"/>
+
+  <!-- Guitars (paths) -->
+  <path d="M75,50 Q150,100 225,50 T400,50 T575,50 Q750,100 925,50" stroke="#ff66b3" fill="transparent"/>
+
+  <!-- Dynamics (color gradient) -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6666; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#ffffff; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#cccccc; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Apply gradient to drums for dynamics -->
+  <circle cx="400" cy="150" r="50" fill="url(#grad1)"/>
+</svg>

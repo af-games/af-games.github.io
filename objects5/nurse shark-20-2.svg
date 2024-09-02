@@ -1,0 +1,41 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Body -->
+  <path fill="#8B7D6B" stroke="#322E2A" stroke-width="2" d="
+    M 150,200
+    Q 200,250 250,200
+    Q 300,250 350,200
+    Q 400,250 450,200
+    Q 450,150 400,100
+    L 350,75
+    Q 300,150 250,75
+    L 200,125
+    Q 150,150 100,75
+    Z"
+    id="body" />
+  <circle fill="#8B7D6B" cx="350" cy="175" r="15">
+    <!-- Fin -->
+  </circle>
+
+  <!-- Tail -->
+  <path fill="#A99F8C" stroke="#423830" stroke-width="2" d="
+    M 450,200
+    Q 460,175 470,150
+    Q 480,125 490,100
+    Z"
+    id="tail" />
+
+  <!-- Head -->
+  <circle fill="#A99F8C" stroke="#322E2A" stroke-width="2" cx="100" cy="175" r="60">
+    <!-- Eye -->
+    <circle fill="#FFFFFF" cx="110" cy="165" r="10" />
+  </circle>
+
+  <!-- Dorsal Fin -->
+  <path fill="#8B7D6B" stroke="#322E2A" stroke-width="2" d="
+    M 250,125
+    Q 275,150 290,125
+    Z"
+    id="dorsal-fin" />
+
+</svg>

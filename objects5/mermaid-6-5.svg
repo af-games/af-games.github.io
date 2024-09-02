@@ -1,0 +1,18 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="300" height="300" fill="#000000"/>
+
+  <!-- Mermaid body with glow -->
+  <path d="M150 40 Q180 70, 210 100 C210 120, 180 150, 150 160 Q90 130, 60 100" fill="none" stroke="hsl(192, 75%, 60%)" stroke-width="10"/>
+
+  <!-- Tail with glow -->
+  <path d="M60 100 Q40 80, 30 60 Q30 40, 20 20" fill="none" stroke="hsl(192, 75%, 60%)" stroke-width="10"/>
+
+  <!-- Head with glow and hair -->
+  <ellipse cx="150" cy="80" rx="30" ry="40" fill="none" stroke="hsl(192, 75%, 60%)" stroke-width="10"/>
+  <path d="M150 80 Q160 60, 170 70 Q180 60, 190 70" fill="#000000"/>
+
+  <!-- Glow effect -->
+  <path d="M140 40 A60 60 0 0 0 160 100 A60 60 0 0 0 140 160" fill="none" stroke="hsl(45, 50%, 50%)" stroke-width="5"/>
+
+</svg>

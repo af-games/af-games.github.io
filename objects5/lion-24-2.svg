@@ -1,0 +1,26 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="60" y="80" width="80" height="100" fill="#F5974F"/>
+  <circle cx="120" cy="150" r="30" fill="#F5974F"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="60" rx="50" ry="40" fill="#F5974F"/>
+  <circle cx="100" cy="50" r="20" fill="black"/>
+
+  <!-- Mane -->
+  <g stroke-width="1" stroke="#FFD38C">
+    <path d="M60,40 Q80,20 120,40"/>
+    <path d="M60,50 Q70,30 120,50 Q150,70 90,50"/>
+    <path d="M60,60 Q70,50 120,60 Q150,80 90,60"/>
+  </g>
+
+  <!-- Legs -->
+  <rect x="70" y="180" width="10" height="40" fill="#F5974F"/>
+  <rect x="120" y="180" width="10" height="40" fill="#F5974F"/>
+
+  <!-- Tail -->
+  <polyline points="160,130 150,140 140,130" stroke-width="2" stroke="#F5974F" fill="transparent"/>
+  <circle cx="140" cy="130" r="10" fill="#F5974F"/>
+
+</svg>

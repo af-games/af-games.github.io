@@ -1,0 +1,28 @@
+<svg>` tag and define some initial settings like width, height, and viewBox:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     version="1.1"
+     id="Layer_1"
+     x="0px"
+     y="0px"
+     viewBox="0 0 500 600"
+     style="enable-background:new 0 0 500 600;"
+     xml:space="preserve">
+```
+
+In this SVG, we've set the width and height to 500x600 pixels respectively, which will be our canvas for the butterfly masterpiece. The `viewBox` attribute defines a virtual coordinate system where the actual content can be drawn, in this case from (0,0) to (500,600).
+
+Now, let's create our first 'note' by adding a circle that will represent the body of our butterfly:
+
+```xml
+<circle cx="250" cy="300" r="100"
+         fill="orange"
+         stroke="black"
+         stroke-width="4"/>
+```
+
+This circle has its center at (250, 300), a radius of 100 pixels, and is filled with orange color. The stroke is black with a width of 4 pixels.
+
+We've now created the body of our butterfly. In the next 'notes', we'll add wings, antennae, and perhaps some patterns to make it even more beautiful. Let's continue building this SVG symphony together!</svg>

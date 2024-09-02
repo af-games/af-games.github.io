@@ -1,0 +1,31 @@
+<svg width="300" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Patterns -->
+  <defs>
+    ...
+  </defs>
+
+  <!-- Front Bodice -->
+  <g transform="translate(150,80)">
+    <use xlink:href="#front-bodice"/>
+  </g>
+
+  <!-- Back Bodice -->
+  <g transform="translate(30,80) rotate(-2.5)">
+    <use xlink:href="#back-bodice"/>
+  </g>
+
+  <!-- Sleeves -->
+  <g transform="translate(75,10) rotate(-90)">
+    <use xlink:href="#sleeve"/>
+  </g>
+  <g transform="translate(225,10) rotate(90)">
+    <use xlink:href="#sleeve"/>
+  </g>
+
+  <!-- Bottom Hem -->
+  <path id="bottom-hem" d="M10,240 Q30,250 50,240 A50,50 0 0 0 100,290 Q70,300 90,290 Z" fill="url(#giraffe-spots)" transform="translate(150,240)"/>
+
+  <!-- Neckline Facing -->
+  <rect x="75" y="80" width="150" height="60" fill="#FFFFFF"/>
+
+</svg>

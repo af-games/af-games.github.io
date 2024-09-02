@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 0 700 400">
+  <!-- Stage -->
+  <rect id="stage" x="-150" y="0" width="600" height="300"
+        style="fill: url(#stageGradient); stroke: black; stroke-width: 2"/>
+
+  <!-- Ocean Background -->
+  <defs>
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#679dfa; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#3b589f; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="200" fill="url(#oceanGradient)"/>
+
+  <!-- Main Action Area (Largest Shapes): Ocean Theater -->
+  <circle cx="0" cy="150" r="100"
+          style="fill: url(#waterGradient); stroke: black; stroke-width: 2"/>
+  <circle cx="-80" cy="130" r="70"
+          style="fill: #fff; stroke: #ddd; stroke-width: 2"/>
+
+  <!-- Props (Smaller Shapes): Dolphins -->
+  <g id="dolphins">
+    <circle cx="50" cy="140" r="30"/>
+    <circle cx="-50" cy="160" r="30"/>
+    <circle cx="80" cy="120" r="30"/>
+  </g>
+  <style>
+    #dolphins circle:nth-child(1) { fill: url(#dolphinGradient1); }
+    #dolphins circle:nth-child(2) { fill: url(#dolphinGradient2); }
+    #dolphins circle:nth-child(3) { fill: url(#dolphinGradient3); }
+  </style>
+
+  <!-- Dynamic Lighting Effects -->
+  <defs>
+    <radialGradient id="waterGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#679dfa; stop-opacity:1"/>
+      <stop offset="80%" style="stop-color:#3b589f; stop-opacity:.2"/>
+    </radialGradient>
+
+    <!-- Dolphin Gradients -->
+    <linearGradient id="dolphinGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fff; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#ddd; stop-opacity:.6"/>
+    </linearGradient>
+    <!-- Add similar gradients for dolphinGradient2 and dolphinGradient3 -->
+
+    <!-- Stage Gradient -->
+    <linearGradient id="stageGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b589f; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1c3764; stop-opacity:.7"/>
+    </linearGradient>
+
+    <!-- Filter for dynamic lighting -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Apply glow filter to main shapes -->
+  <use xlink:href="#stage" style="fill: #1c3764; filter:url(#glow)"/>
+  <use xlink:href="#dolphins" style="filter:url(#glow)"/>
+
+</svg>

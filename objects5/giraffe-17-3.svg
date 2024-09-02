@@ -1,0 +1,25 @@
+<svg width="100%" height="80%" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe Tower -->
+  <circle cx="500" cy="400" r="300" fill="yellow" />
+  <rect x="400" y="200" width="200" height="600" fill="#ffcc00" />
+
+  <!-- Animal Enclosure -->
+  <rect x="150" y="650" width="700" height="350" fill="#90ee90" />
+
+  <!-- Visitor Center -->
+  <rect x="180" y="200" width="400" height="300" fill="#ffffff" stroke="black" />
+
+  <!-- Gift Shop -->
+  <rect x="740" y="500" width="180" height="250" fill="#ffffff" stroke="black" />
+
+  <!-- Trees -->
+  <circle cx="350" cy="600" r="40" fill="green" />
+  <circle cx="650" cy="700" r="40" fill="green" />
+  <circle cx="250" cy="400" r="40" fill="green" />
+
+  <!-- Paths -->
+  <polyline points="250,700 400,650 350,500" fill="transparent" stroke="black" />
+  <polyline points="300,200 500,200 600,300 700,400 800,500" fill="transparent" stroke="black" />
+
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400">
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="75" ry="100" fill="#F8D96C"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="70" rx="40" ry="45" fill="#F8D96C"/>
+  <!-- Ears -->
+  <polygon points="50,20 80,20 65,40" fill="#F8D96C"/>
+  <polygon points="130,20 160,20 145,40" fill="#F8D96C"/>
+  <!-- Legs -->
+  <rect x="20" y="170" width="30" height="60" fill="#F8D96C"/>
+  <rect x="90" y="170" width="30" height="60" fill="#F8D96C"/>
+  <rect x="30" y="250" width="40" height="100" fill="#F8D96C"/>
+  <rect x="80" y="250" width="40" height="100" fill="#F8D96C"/>
+  <!-- Tail -->
+  <rect x="75" y="300" width="60" height="150" fill="#F8D96C"/>
+  <!-- Fur Patterns (for simplicity, I've used a single path element for both body and head) -->
+  <path d="M100,150 Q90,170 100,200 Q110,170 100,200" stroke="#6B480D" fill="transparent"/>
+</svg>

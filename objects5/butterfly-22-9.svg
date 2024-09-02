@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+  <!-- Body -->
+  <path d="M10,20 H40 Q47,25 40,30 V35 Q23,40 10,35 Z"
+        fill="#FFD700" stroke="#000"/>
+
+  <!-- Wings -->
+  <path d="M5,5 L95,5 Q90,10 85,5 L5,5 Z"
+        fill="#FFFACD" stroke="#000"/>
+  <path d="M5,35 L95,35 Q90,40 85,35 L5,35 Z"
+        fill="#FFFACD" stroke="#000"/>
+
+  <!-- Antennae -->
+  <line x1="20" y1="10" x2="30" y2="5" style="stroke:#000; stroke-width:3"/>
+  <line x1="30" y1="5" x2="40" y2="10" style="stroke:#000; stroke-width:3"/>
+
+  <!-- Eyes -->
+  <circle cx="15" cy="15" r="3" fill="#000"/>
+  <circle cx="35" cy="15" r="3" fill="#000"/>
+</svg>

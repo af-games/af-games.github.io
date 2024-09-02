@@ -1,0 +1,26 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="200" fill="#E8F5E9"/>
+
+  <!-- Body -->
+  <circle cx="100" cy="140" r="70" fill="#212F3D">
+    <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Eyes -->
+  <rect x="80" y="90" width="40" height="40" fill="#000">
+    <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="130" y="90" width="40" height="40" fill="#000">
+    <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Fins -->
+  <circle cx="70" cy="190" r="35" stroke="#8B9AA6" stroke-width="4"/>
+  <circle cx="130" cy="190" r="35" stroke="#8B9AA6" stroke-width="4"/>
+
+  <!-- Tail -->
+  <path d="M170,200 Q190,180 170,160" stroke="#8B9AA6" stroke-width="4" fill="transparent"/>
+
+</svg>

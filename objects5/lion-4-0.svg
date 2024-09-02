@@ -1,0 +1,21 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lion body -->
+  <path d="M100,40 A60,60 0 1,0 140,100 60,60 0 1,0 100,40 z" fill="orange" stroke="black"/>
+
+  <!-- Lion mane -->
+  <polygon points="75,30 225,30 180,100 120,100" fill="gold"/>
+  <path d="M75,30 Q100,20 120,30 T180,30 Q160,20 140,30" stroke="black"/>
+
+  <!-- Lion face -->
+  <circle cx="100" cy="70" r="50" fill="white"/>
+  <path d="M90,60 A10,10 0 0,1 110,60 A10,10 0 0,1 90,60 z" stroke="black"/>
+  <circle cx="105" cy="80" r="7.5" fill="black"/>
+
+  <!-- Lion eyes -->
+  <circle cx="95" cy="75" r="5" fill="white"/>
+  <path d="M95,75 A5,5 0 0,1 100,80 A5,5 0 0,1 95,75 z" stroke="black"/>
+  <circle cx="105" cy="75" r="5" fill="white"/>
+
+  <!-- Lion nose -->
+  <path d="M100,90 Q102.5,92.5 105,90 Q107.5,92.5 110,90 z" stroke="black"/>
+</svg>

@@ -1,0 +1,47 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="100%" height="100%" fill="#f5deb3"/>
+
+<!-- Boundaries and Major Landmarks -->
+
+<!-- Owl's Peak -->
+<path d="M40,60 Q90,20 180,60 Q270,100 360,60 Q450,20 540,60" stroke="#9d4f40" fill="transparent" stroke-width="5"/>
+
+<!-- Whispering Woods -->
+<path d="M180,120 Q270,140 360,120" stroke="#588c7e" fill="transparent" stroke-width="5"/>
+
+<!-- Moonlit Lake -->
+<path d="M480,280 a200 200 0 0 1 -200,-200 a200 200 0 0 1 200,-200 a200 200 0 0 1 200,200" stroke="#74b9ff" fill="url(#lakeGradient)" stroke-width="5"/>
+
+<!-- Mystic Falls -->
+<path d="M680,380 Q750,450 820,380" stroke="#8e44ad" fill="transparent" stroke-width="5"/>
+<text x="750" y="410" font-family="Verdana" font-size="16">Mystic Falls</text>
+
+<!-- Roads -->
+<path d="M20,380 Q90,420 180,380" stroke="#d2b48c" fill="transparent" stroke-width="3"/>
+<path d="M40,520 Q160,560 320,520" stroke="#d2b48c" fill="transparent" stroke-width="3"/>
+
+<!-- Rivers -->
+<path d="M200,400 Q280,450 360,400 Q440,450 520,400" stroke="#7bc9ff" fill="transparent" stroke-width="3"/>
+<path d="M600,400 Q680,450 760,400" stroke="#7bc9ff" fill="transparent" stroke-width="3"/>
+
+<!-- Points of Interest -->
+
+<!-- Owl's Nest -->
+<circle cx="120" cy="90" r="30" stroke="#9d4f40" fill="#eecfa1" stroke-width="5"/>
+<text x="80" y="105" font-family="Verdana" font-size="16">Owl's Nest</text>
+
+<!-- Ancient Ruins -->
+<rect x="320" y="530" width="40" height="40" stroke="#9d4f40" fill="#eecfa1" stroke-width="5"/>
+<text x="345" y="560" font-family="Verdana" font-size="16">Ancient Ruins</text>
+
+<!-- Moonlit Lake - Gradient -->
+<defs>
+  <linearGradient id="lakeGradient" gradientTransform="rotate(90)">
+    <stop offset="0%" stop-color="#74b9ff"/>
+    <stop offset="100%" stop-color="#3d85c6"/>
+  </linearGradient>
+</defs>
+
+</svg>

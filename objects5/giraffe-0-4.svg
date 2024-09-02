@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Hills -->
+  <path d="M10,50 Q70,90 140,50 Q210,110 280,50 Q350,80 420,50 Q490,120 560,50 Q630,70 700,50" fill="url(#hillGradient)" />
+
+  <!-- River -->
+  <path d="M10,500 A30,30 0 0 1 490,480 A30,30 0 0 1 870,520" fill="url(#riverGradient)" />
+
+  <!-- Trees -->
+  <rect x="650" y="300" width="50" height="150" rx="25" fill="#3D9970" />
+  <circle cx="675" cy="450" r="80" fill="url(#treeCanopyGradient)" />
+
+  <!-- Giraffe -->
+  <polygon points="450,300 500,250 550,300 600,150 650,300 700,250" fill="#FFFACD" stroke="#2F4F4F" />
+  <polygon points="470,280 510,240 540,280" fill="#8B4513" stroke="#2F4F4F" />
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="hillGradient" gradientTransform="rotate(90)">
+      <stop offset="0%" style="stop-color:#8B4513; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C97F50; stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="riverGradient">
+      <stop offset="0%" style="stop-color:#212F3D; stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B3CCDC; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#212F3D; stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="treeCanopyGradient">
+      <stop offset="0%" style="stop-color:#A3E4D8; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3D9970; stop-opacity:1" />
+    </radialGradient>
+  </defs>
+</svg>

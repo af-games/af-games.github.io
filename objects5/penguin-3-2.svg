@@ -1,0 +1,42 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="200" fill="#FFFFFF"/>
+
+  <!-- Body -->
+  <circle cx="100" cy="150" r="70" fill="url(#bodyGradient)"/>
+  <path d="M80,140 Q60,120 80,100" stroke="black" fill="#D3D3D3"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="75" r="50" fill="url(#headGradient)"/>
+  <path d="M95,75 Q80,60 95,45" stroke="black" fill="#FFFFFF"/>
+
+  <!-- Beak -->
+  <path d="M105,70 Q120,35 115,45" stroke="orange" fill="orange"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="60" r="5" fill="#FFFFFF"/>
+  <circle cx="115" cy="60" r="5" fill="#FFFFFF"/>
+  <circle cx="85" cy="60" r="3" fill="#000000"/>
+  <circle cx="115" cy="60" r="3" fill="#000000"/>
+
+  <!-- Flippers -->
+  <rect x="70" y="120" width="40" height="80" rx="20" fill="#AAA"/>
+  <rect x="130" y="120" width="40" height="80" rx="20" fill="#AAA"/>
+
+  <!-- Feet -->
+  <rect x="75" y="200" width="50" height="30" rx="15" fill="#AAA"/>
+  <rect x="90" y="200" width="20" height="30" rx="10" fill="#AAA"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(51,0,102);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(0,0,51);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(204,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(153,255,204);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

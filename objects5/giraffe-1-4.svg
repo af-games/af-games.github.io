@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#F5DEB3"/>
+
+  <!-- Rolling Hills -->
+  <path d="M40,60 Q80,90 120,70 Q160,110 200,90 Q240,70 280,90 Q320,110 360,90 Q400,70 440,90 Q480,110 520,90 Q560,70 600,90" fill="#C2B280"/>
+
+  <!-- Winding River -->
+  <path d="M30,50 C90,70 150,30 210,50 C270,70 330,30 390,50 C450,70 510,30 570,50" stroke="#2D4685" fill="transparent" stroke-width="2"/>
+
+  <!-- Towering Trees -->
+  <g transform="translate(650, 20)">
+    <circle cx="0" cy="-50" r="15" fill="#3D9970"/>
+    <rect x="-4" y="-80" width="8" height="60" fill="#3D9970"/>
+    <circle cx="0" cy="20" r="10" fill="#8B7C6F"/>
+  </g>
+  <use href="#tree" transform="translate(550, 40) rotate(-45)" />
+  <use href="#tree" transform="translate(500, 30) rotate(45)" />
+  <use href="#tree" transform="translate(600, 50)" />
+
+  <!-- Giraffe -->
+  <g id="giraffe">
+    <!-- Body -->
+    <ellipse cx="400" cy="200" rx="120" ry="80" fill="#F39200"/>
+    <!-- Neck -->
+    <rect x="360" y="120" width="80" height="80" fill="#F39200"/>
+    <!-- Head -->
+    <circle cx="400" cy="150" r="40" fill="#F39200"/>
+    <!-- Legs -->
+    <rect x="360" y="200" width="80" height="30" fill="#F39200"/>
+    <use href="#leg" transform="translate(50, 20)" />
+    <use href="#leg" transform="rotate(180) translate(-50, -20)" />
+    <!-- Spots -->
+    <circle cx="400" cy="230" r="15" fill="#6C4E3A"/>
+    <circle cx="440" cy="190" r="10" fill="#6C4E3A"/>
+    <circle cx="360" cy="180" r="8" fill="#6C4E3A"/>
+  </g>
+
+</svg>

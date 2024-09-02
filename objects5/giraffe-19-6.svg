@@ -1,0 +1,24 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe Spots Pattern -->
+  <defs>
+    <pattern id="giraffeSpots" patternUnits="userSpaceOnUse" width="40" height="40">
+      <circle cx="10" cy="10" r="5" fill="#D79B3A"/>
+      <circle cx="20" cy="30" r="5" fill="#D79B3A"/>
+      <circle cx="30" cy="10" r="5" fill="#D79B3A"/>
+    </pattern>
+  </defs>
+
+  <!-- Neck Opening -->
+  <circle cx="200" cy="50" r="40" fill="none" stroke="#000"/>
+
+  <!-- Bodice -->
+  <rect x="100" y="80" width="300" height="340" fill="url(#giraffeSpots)" stroke="#000"/>
+
+  <!-- Hem (Bottom Semicircles) -->
+  <path d="M100,420 Q250,550 350,420 Q400,550 550,420" fill="url(#giraffeSpots)" stroke="#000"/>
+
+  <!-- Cowl Neck Collar -->
+  <path d="M100,80 Q250,30 350,80 Q450,130 550,80" fill="#F5F5DC" stroke="#000"/>
+
+</svg>

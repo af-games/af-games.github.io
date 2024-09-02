@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="600"
+    style="fill: url(#grad1); stroke-width: 0;" />
+
+  <!-- Body -->
+  <path id="body" d="M240,300 Q270,350 280,400 H220 Q210,350 190,300"
+    fill="url(#grad2)" />
+
+  <!-- Head -->
+  <circle cx="260" cy="250" r="30" fill="url(#grad3)"/>
+  <path id="head-outline" d="M260,220 Q280,190 260,170 Q240,190 260,220"
+    fill="none" stroke-width="2" stroke="#000"/>
+
+  <!-- Beak -->
+  <path d="M250,230 L280,210 L260,200 Z"
+    fill="#ffd700" stroke="#9c7f2e" stroke-width="2"/>
+
+  <!-- Eyes -->
+  <circle cx="245" cy="210" r="5" fill="#fff"/>
+  <circle cx="275" cy="210" r="5" fill="#fff"/>
+  <circle cx="245" cy="210" r="3.5" fill="#000"/>
+  <circle cx="275" cy="210" r="3.5" fill="#000"/>
+
+  <!-- Feet -->
+  <path id="foot1" d="M190,480 Q160,520 180,550 Q200,520 190,480"
+    fill="#3d7e3c"/>
+  <path id="foot2" d="M290,480 Q300,520 280,550 Q260,520 290,480"
+    fill="#3d7e3c"/>
+
+  <!-- Wings -->
+  <path id="wing1" d="M180,370 Q140,420 160,450 Q190,420 180,370"
+    fill="#fff"/>
+  <path id="wing2" d="M280,370 Q290,420 270,450 Q250,420 280,370"
+    fill="#fff"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(51,74,136);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(97,118,192);stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="grad2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#fddb35;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ffad27;stop-opacity:1"/>
+    </radialGradient>
+    <linearGradient id="grad3" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(248,203,96);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(253,177,17);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

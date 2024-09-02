@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -40 30 80">
+  <!-- Cake Board -->
+  <rect x="-15" y="-40" width="30" height="5" fill="#FDD79A" stroke="#9C6B06" stroke-width="2"/>
+
+  <!-- Tier 1 -->
+  <circle cx="0" cy="-20" r="15" fill="#E5D8CC">
+    <animateMotion begin="0s" dur="4s" repeatCount="indefinite">
+      <mpath href="#path-tier-1"/>
+    </animateMotion>
+  </circle>
+  <path id="path-tier-1" d="M 0,-20 A 15,15 0 1 0 0,-70 z"/>
+
+  <!-- Tier 2 -->
+  <circle cx="0" cy="-35" r="10.5" fill="#E5D8CC">
+    <animateMotion begin="0s" dur="4s" repeatCount="indefinite">
+      <mpath href="#path-tier-2"/>
+    </animateMotion>
+  </circle>
+  <path id="path-tier-2" d="M 0,-35 A 10.5,10.5 0 1 0 0,-65 z"/>
+
+  <!-- Tier 3 -->
+  <circle cx="0" cy="-50" r="7" fill="#E5D8CC">
+    <animateMotion begin="0s" dur="4s" repeatCount="indefinite">
+      <mpath href="#path-tier-3"/>
+    </animateMotion>
+  </circle>
+  <path id="path-tier-3" d="M 0,-50 A 7,7 0 1 0 0,-80 z"/>
+
+  <!-- Ruffles -->
+  <path d="M -15,-40 Q -20,-25 -15,-20 T 15,-20 Q 20,-25 15,-40" fill="#FDD79A" stroke="#9C6B06" stroke-width="2"/>
+  <path d="M -15,-35 Q -20,-15 -15,-10 T 15,-10 Q 20,-15 15,-35"/>
+
+  <!-- Piped Border -->
+  <path d="M -15,-45 A 15,15 0 0 0 15,-45 L 15,-40 A 5,5 0 0 0 10,-40 Z" fill="#9C6B06"/>
+</svg>

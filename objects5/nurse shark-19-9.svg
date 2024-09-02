@@ -1,0 +1,32 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background grid -->
+<rect x="50" y="50" width="500" height="300" fill="none" stroke="black"/>
+
+<!-- Clues (small shapes) -->
+<circle cx="150" cy="150" r="8" fill="#FF7F50"/>
+<circle cx="250" cy="200" r="6" fill="#8B4513"/>
+<circle cx="350" cy="100" r="7" fill="#DAA520"/>
+
+<!-- Suspects (medium shapes) -->
+<ellipse cx="120" cy="200" rx="30" ry="20" fill="#FF69B4"/>
+<rect x="280" y="180" width="40" height="50" fill="#32CD32"/>
+
+<!-- Culprits (large shapes) -->
+<polygon points="350,50 400,100 350,150 300,100" fill="#FFD700"/>
+<path d="M200,100 Q250,50 300,100" stroke-width="6" fill="none" stroke="#8B4513"/>
+
+<!-- Evidence labels -->
+<text x="145" y="160" font-family="Verdana" font-size="12">Bloodstain</text>
+<text x="245" y="210" font-family="Verdana" font-size="12">Shark tooth</text>
+<text x="345" y="110" font-family="Verdana" font-size="12">Fin</text>
+
+<!-- Suspect labels -->
+<text x="95" y="210" font-family="Verdana" font-size="14">Tiger Shark (Alibi: Seen near the scene)</text>
+<text x="315" y="230" font-family="Verdana" font-size="14">Hammerhead Shark (Motive: Territory dispute)</text>
+
+<!-- Culprit labels -->
+<text x="370" y="80" font-family="Verdana" font-size="16">Great White Shark (Motive: Hunger)</text>
+<text x="250" y="140" font-family="Verdana" font-size="14">Bull Shark (Motive: Self-defense)</text>
+
+</svg>

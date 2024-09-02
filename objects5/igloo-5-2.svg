@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Outer dome -->
+  <path d="M0,-50 A50,50 0 0 1 0,50 Z"
+        fill="#FFFFFF"
+        stroke="#888888"
+        opacity="0.9"
+        stroke-width="2" />
+
+  <!-- Inner dome (shadow) -->
+  <path d="M0,-45 A45,45 0 0 1 0,45 Z"
+        fill="#DDDDDD"
+        opacity="0.6"
+        stroke-width="0" />
+
+  <!-- Entrance -->
+  <rect x="-20" y="-30" width="40" height="30"
+        fill="#CCCCCC"
+        opacity="0.7"
+        stroke="#AAAAAA"
+        stroke-width="1" />
+
+  <!-- Roof -->
+  <path d="M-50,-10 Q-25,-40 -50,-60 Z"
+        fill="#FFFFFF"
+        opacity="0.8"
+        stroke="#BBBBBB"
+        stroke-width="1" />
+
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Walls -->
+  <rect x="100" y="250" width="300" height="250" fill="gray" stroke="black"/>
+
+  <!-- Towers -->
+  <polygon points="75,300 100,400 250,400 275,300" fill="gray"/>
+  <polygon points="325,300 350,400 475,400 400,300" fill="gray"/>
+
+  <!-- Gate -->
+  <rect x="150" y="300" width="100" height="150" fill="gray"/>
+  <path d="M200,300 Q225,250 250,300 Q225,350 200,400" stroke="black"/>
+
+  <!-- Roof -->
+  <polygon points="100,500 350,500 225,575" fill="brown"/>
+</svg>

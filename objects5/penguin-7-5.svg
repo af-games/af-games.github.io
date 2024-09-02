@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="600" fill="#F5F5DC"/>
+
+  <!-- Penguin body -->
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B3937"/>
+      <stop offset="50%" stop-color="#6D6C69"/>
+      <stop offset="100%" stop-color="#A9A8A4"/>
+    </linearGradient>
+  </defs>
+  <g stroke-width="0">
+    <!-- Penguin body tiles -->
+    <rect x="50" y="75" width="5" height="30" fill="url(#penguinGradient)" repeat="no-repeat"/>
+    <repeat pattern="12,8" fill="url(#penguinGradient)">
+      <rect x="50" y="75" width="5" height="30"/>
+    </repeat>
+  </g>
+
+  <!-- Penguin belly -->
+  <defs>
+    <linearGradient id="bellyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF8E4"/>
+      <stop offset="50%" stop-color="#F9EBDB"/>
+      <stop offset="100%" stop-color="#F7E3C3"/>
+    </linearGradient>
+  </defs>
+  <g stroke-width="0">
+    <!-- Penguin belly tiles -->
+    <rect x="50" y="240" width="5" height="150" fill="url(#bellyGradient)" repeat="no-repeat"/>
+    <repeat pattern="12,8" fill="url(#bellyGradient)">
+      <rect x="50" y="240" width="5" height="150"/>
+    </repeat>
+  </g>
+
+  <!-- Penguin eyes -->
+  <circle cx="90" cy="130" r="7" fill="#000"/>
+  <circle cx="180" cy="130" r="7" fill="#000"/>
+
+  <!-- Penguin beak -->
+  <defs>
+    <linearGradient id="beakGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFC475"/>
+      <stop offset="100%" stop-color="#F9A863"/>
+    </linearGradient>
+  </defs>
+  <path d="M120,180 Q140,160 160,180" stroke-width="0" fill="url(#beakGradient)"/>
+
+</svg>

@@ -1,0 +1,33 @@
+<svg>` canvas.
+
+*Gathered resources:*
+- A rectangle for the body (`width: 200px`, `height: 300px`)
+- Two circles for the eyes (`radius: 5`)
+- An ellipse for the pouch (`width: 80px`, `height: 60px`)
+- A polygon for the face outline (4 points)
+- Two paths for the arms and legs
+
+**Day 2:**
+
+Started marking my path with SVG code:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Body -->
+  <rect x="150" y="50" width="200" height="300" style="fill:tan"/>
+
+  <!-- Eyes -->
+  <circle cx="175" cy="100" r="5" fill="black"/>
+  <circle cx="225" cy="100" r="5" fill="black"/>
+
+  <!-- Pouch -->
+  <ellipse cx="200" cy="300" rx="40" ry="30" fill="tan"/>
+
+  <!-- Face outline -->
+  <polygon points="150,50 250,50 275,100 175,100" style="fill:tan; stroke:black"/>
+
+  <!-- Arms and legs -->
+  <path d="M160,130 Q190,180 220,130" stroke="black"/>
+  <path d="M160,250 Q190,270 220,250" stroke="black"/>
+
+</svg>

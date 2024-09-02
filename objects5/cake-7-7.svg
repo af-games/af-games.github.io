@@ -1,0 +1,15 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Uncharted Territory 1 -->
+  <rect x="50" y="50" width="150" height="100" fill="#A9E6F1"/>
+  <circle cx="80" cy="100" r="20" fill="#FF7F27"/>
+
+  <!-- Uncharted Territory 2 -->
+  <rect x="250" y="100" width="200" height="200" fill="#A9E6F1"/>
+  <circle cx="350" cy="250" r="30" fill="#FF7F27"/>
+
+  <!-- Uncharted Territory 3 -->
+  <rect x="480" y="150" width="100" height="200" fill="#A9E6F1"/>
+  <circle cx="550" cy="300" r="25" fill="#FF7F27"/>
+
+</svg>

@@ -1,0 +1,42 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="600" fill="url(#bg-gradient)"/>
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:rgb(147,163,218)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <g id="body">
+    <rect x="50" y="100" width="350" height="200" fill="url(#penguin-body-gradient)" rx="40"/>
+    <circle cx="375" cy="180" r="40" fill="url(#penguin-body-gradient)"/>
+
+    <defs>
+      <linearGradient id="penguin-body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1"/>
+        <stop offset="50%" style="stop-color:rgb(69,87,143)"/>
+        <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:0.5"/>
+      </linearGradient>
+    </defs>
+  </g>
+
+  <!-- Head -->
+  <circle cx="250" cy="70" r="70" fill="url(#penguin-head-gradient)"/>
+
+  <!-- Eyes -->
+  <circle cx="230" cy="60" r="10"/>
+  <circle cx="270" cy="60" r="10" fill="#fff"/>
+  <defs>
+    <linearGradient id="penguin-head-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:rgb(69,87,143)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Beak -->
+  <polygon points="250,80,270,110,230,110" fill="#ffd700"/>
+
+</svg>

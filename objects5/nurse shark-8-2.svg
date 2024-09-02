@@ -1,0 +1,21 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#D3D3D3" />
+
+  <!-- Body (main part) -->
+  <path d="M100,200 Q150,75 250,75 Q350,75 400,200 Q350,325 250,325 Q150,325 100,200" fill="#8B8989" stroke="#000" stroke-width="3"/>
+
+  <!-- Dorsal fin -->
+  <polygon points="400,75 425,100 400,125" fill="#8B8989" stroke="#000" stroke-width="3"/>
+
+  <!-- Pectoral fins -->
+  <g transform="translate(100,250) rotate(-6)">
+    <polygon points="0,-50 75,0 0,50" fill="#8B8989" stroke="#000" stroke-width="3"/>
+    <polygon points="225,-50 300,0 225,50" fill="#8B8989" stroke="#000" stroke-width="3"/>
+  </g>
+
+  <!-- Tail fin -->
+  <path d="M100,375 Q50,425 100,475 Q150,425 100,375" fill="#8B8989" stroke="#000" stroke-width="3"/>
+
+</svg>

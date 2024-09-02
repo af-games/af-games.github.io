@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Body -->
+  <rect id="body" width="80" height="120" fill="#000"
+        transform="translate(0, 60) rotate(-2)" />
+
+  <!-- Neck -->
+  <path id="neck" d="M-5,-40 Q-5,-30 10,-30 L10,-40" fill="none" stroke="#000"
+        transform="translate(0, -60) rotate(-2)" />
+
+  <!-- Head -->
+  <circle id="head" cx="0" cy="-80" r="35" fill="#000"
+         transform="translate(0, -90) rotate(-2)" />
+
+  <!-- Legs -->
+  <g id="legs">
+    <!-- Front legs -->
+    <rect x="-15" y="40" width="30" height="60" rx="5" fill="#000"
+          transform="rotate(2)" />
+    <rect x="15" y="40" width="30" height="60" rx="5" fill="#000"
+          transform="translate(30, 0) rotate(2)" />
+
+    <!-- Back legs -->
+    <rect x="-15" y="80" width="30" height="60" rx="5" fill="#000"
+          transform="rotate(-2)" />
+    <rect x="15" y="80" width="30" height="60" rx="5" fill="#000"
+          transform="translate(30, 0) rotate(-2)" />
+  </g>
+
+  <!-- Spots -->
+  <g id="spots">
+    <circle cx="-15" cy="50" r="8" fill="#fff"/>
+    <circle cx="15" cy="50" r="8" fill="#fff"/>
+    <circle cx="-15" cy="90" r="8" fill="#fff"/>
+    <circle cx="15" cy="90" r="8" fill="#fff"/>
+  </g>
+</svg>

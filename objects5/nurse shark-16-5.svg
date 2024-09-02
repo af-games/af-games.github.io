@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#d1e5ee"/>
+
+  <!-- Nurse Sharks (Main Characters) -->
+  <path d="M20,490 Q50,530 120,490 Q150,570 200,490" stroke="#8b7d6b" fill="none"/>
+  <path d="M780,490 Q650,530 530,490 Q450,570 380,490" stroke="#8b7d6b" fill="none"/>
+
+  <!-- Brain Coral (Supporting Role) -->
+  <path d="M400,210 Q350,300 450,300 Q550,300 400,210" stroke="#ff9933" fill="#ffcc66"/>
+
+  <!-- Schools of Fish (Supporting Role) -->
+  <circle cx="180" cy="320" r="10" fill="#ffd700"/>
+  <circle cx="450" cy="380" r="10" fill="#ffd700"/>
+  <circle cx="600" cy="250" r="10" fill="#ffd700"/>
+
+  <!-- Seastar (Supporting Role) -->
+  <polygon points="400,100 360,180 440,180" stroke="#ff9933" fill="#ffcc66"/>
+</svg>

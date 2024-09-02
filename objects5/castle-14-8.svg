@@ -1,0 +1,41 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <rect x="150" y="50" width="100" height="200" fill="#D3D3D3">
+    <animate attributeName="fill-opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <polygon points="150,50 250,50 200,20" fill="#4A4A4A">
+    <animate attributeName="fill-opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Gatehouse -->
+  <path d="M300,50 Q350,100 400,50 T450,50" stroke="#8B4513" fill="#D3D3D3">
+    <animate attributeName="stroke-opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Walls -->
+  <rect x="150" y="250" width="200" height="30" fill="#4A4A4A">
+    <animate attributeName="fill-opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Battlements -->
+  <g transform="translate(150, 280)">
+    <rect width="30" height="10" x="0" y="0" fill="#4A4A4A">
+      <animate attributeName="fill-opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <use xlink:href="#battlement" x="30"></use>
+    <use xlink:href="#battlement" x="60"></use>
+    <!-- Repeat battlements along the wall -->
+  </g>
+
+  <!-- Moats -->
+  <path d="M150,280 Q200,290 250,280 T400,280 Q350,290 450,280" stroke="#006633" fill="none">
+    <animate attributeName="stroke-opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Landscape -->
+  <rect x="50" y="300" width="500" height="100" fill="#3D9970">
+    <animate attributeName="fill-opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>

@@ -1,0 +1,22 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background grid -->
+  <rect x="50" y="50" width="400" height="400" fill="white"/>
+  <line stroke-dasharray="5,5" x1="50" y1="50" x2="500" y2="50"/>
+  <line stroke-dasharray="5,5" x1="50" y1="550" x2="500" y2="550"/>
+  <line stroke-dasharray="5,5" x1="50" y1="50" x2="50" y2="550"/>
+  <line stroke-dasharray="5,5" x1="550" y1="50" x2="550" y2="550"/>
+
+  <!-- Clues (small shapes) -->
+  <circle cx="120" cy="180" r="10" fill="#FFC300" title="Shark fin"/>
+  <circle cx="240" cy="360" r="10" fill="#FFC300" title="Shark tooth"/>
+  <circle cx="360" cy="120" r="10" fill="#FFC300" title="Tropical fish skeleton"/>
+
+  <!-- Suspects (medium shapes) -->
+  <rect x="90" y="240" width="80" height="60" fill="#FFA500" stroke="#FFA500" stroke-width="2" rx="10" ry="10" title="Tiger Shark"/>
+  <circle cx="300" cy="300" r="40" fill="#FF7F27" stroke="#FF7F27" stroke-width="2" title="Hammerhead Shark"/>
+
+  <!-- Culprits (large shapes) -->
+  <path d="M150,400 Q200,350 250,400 Q300,450 350,400 Q400,350 450,400" fill="#FF5733" stroke="#FF5733" stroke-width="2" title="Nurse Shark"/>
+
+</svg>

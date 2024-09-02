@@ -1,0 +1,34 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700">
+
+  <!-- Bodice -->
+  <rect id="bodice" x="40" y="80" width="420" height="560" fill="url(#gradient-bodice)" />
+
+  <!-- Left Sleeve -->
+  <circle id="left-sleeve" cx="175" cy="340" r="120" fill="url(#jellyfish-pattern)"/>
+
+  <!-- Right Sleeve -->
+  <use id="right-sleeve" xlink:href="#left-sleeve" transform="translate(300, 0) rotate(180)" />
+
+  <!-- Neckline -->
+  <path id="neckline" d="M200,60 Q350,40 470,90 T470,240 Z" fill="url(#gradient-neckline)"/>
+
+  <!-- Gradient for Bodice -->
+  <defs>
+    <linearGradient id="gradient-bodice" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(65,184,131);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(97,220,211);stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Gradient for Neckline -->
+    <linearGradient id="gradient-neckline" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(97,220,211);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(65,184,131);stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Jellyfish Pattern -->
+    <pattern id="jellyfish-pattern" patternUnits="userSpaceOnUse" width="200" height="200">
+      <image href="https://i.imgur.com/5tM94jH.png" x="0" y="0" width="200" height="200" />
+    </pattern>
+  </defs>
+
+</svg>

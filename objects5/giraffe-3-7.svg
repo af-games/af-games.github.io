@@ -1,0 +1,49 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E5FFCC"/>
+
+  <!-- Giraffe Valley -->
+  <path id="giraffe-valley" d="M100,100 Q200,75 300,100 Q400,125 500,100" fill="#FFF3E0"/>
+  <text x="30%" y="85%" font-size="2em">Giraffe Valley</text>
+  <image href="https://example.com/giraffe.png" x="60%" y="70%" width="20%"/>
+
+  <!-- Crystal Mountains -->
+  <polygon id="crystal-mountains" points="350,150,450,100,550,150" fill="#8BC6FF"/>
+  <text x="45%" y="7.5%" font-size="2em">Crystal Mountains</text>
+
+  <!-- Whispering Woods -->
+  <polygon id="whispering-woods" points="100,300,200,250,300,300" fill="#90EE90"/>
+  <text x="15%" y="70%" font-size="2em">Whispering Woods</text>
+
+  <!-- Serpentine River -->
+  <path id="serpentine-river" d="M600,400 Q700,350 800,400 Q900,450 1000,400" stroke="#000" fill="transparent"/>
+  <text x="75%" y="90%" font-size="2em">Serpentine River</text>
+
+  <!-- Jewel City -->
+  <circle id="jewel-city" cx="600" cy="200" r="80" fill="#FFD700"/>
+  <text x="58%" y="19%" font-size="2em">Jewel City</text>
+
+  <!-- Legend -->
+  <g transform="translate(10,560)">
+    <rect width="30" height="30" fill="#FFF3E0"/>
+    <text x="40" y="15">Giraffe Valley</text>
+  </g>
+  <g transform="translate(70,560)">
+    <polygon points="0,0 30,0 0,30" fill="#8BC6FF"/>
+    <text x="40" y="15">Crystal Mountains</text>
+  </g>
+  <g transform="translate(150,560)">
+    <polygon points="0,0 30,0 0,30" fill="#90EE90"/>
+    <text x="40" y="15">Whispering Woods</text>
+  </g>
+  <g transform="translate(230,560)">
+    <line stroke="#000" x1="0" y1="0" x2="30" y2="0"/>
+    <text x="40" y="15">Serpentine River</text>
+  </g>
+  <g transform="translate(310,560)">
+    <circle cx="0" cy="0" r="80" fill="#FFD700"/>
+    <text x="40" y="15">Jewel City</text>
+  </g>
+
+</svg>

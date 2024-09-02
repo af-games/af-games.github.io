@@ -1,0 +1,21 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion's Head (Circle) -->
+  <circle cx="100" cy="80" r="50" fill="#FFD700" stroke="#3B2F2F" stroke-width="2"/>
+
+  <!-- Lion's Mane (Path) -->
+  <path d="M60 40 Q90 10, 130 40 Q160 100, 130 180 Q90 150, 60 180" fill="#FFD700" stroke="#3B2F2F" stroke-width="2"/>
+
+  <!-- Lion's Eye (Circle) -->
+  <circle cx="100" cy="60" r="10" fill="#FFFFFF"/>
+  <circle cx="90" cy="60" r="5" fill="#000000"/>
+  <circle cx="110" cy="60" r="5" fill="#000000"/>
+
+  <!-- Lion's Nose (Triangle) -->
+  <polygon points="80,70 120,70 100,40" fill="#FFD700" stroke="#3B2F2F" stroke-width="2"/>
+
+  <!-- Gemstone Setting (Rectangles) -->
+  <rect x="65" y="95" width="20" height="15" fill="#8B4513" stroke="#3B2F2F" stroke-width="1"/>
+  <rect x="115" y="95" width="20" height="15" fill="#8B4513" stroke="#3B2F2F" stroke-width="1"/>
+
+</svg>

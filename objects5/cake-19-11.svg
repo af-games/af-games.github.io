@@ -1,0 +1,19 @@
+<svg>` tag:
+
+```xml
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Base -->
+  <rect x="50" y="100" width="100" height="100" fill="#C4963E"/>
+
+  <!-- Cake Top -->
+  <path d="M100,75 Q120,50 150,75 T200,75" fill="#D4A36F" stroke-width="1" stroke="#8B5C25"/>
+
+  <!-- Candle -->
+  <rect x="90" y="30" width="20" height="50" fill="#FFBD56"/>
+  <circle cx="100" cy="45" r="5" fill="#FBB034"/>
+
+  <!-- Icing Swirls -->
+  <path d="M70,85 A30,30 0 1,0 130,85 A30,30 0 1,0 70,125 Z" fill="#F2E6D8"/>
+  <path d="M90,90 A40,40 0 1,0 110,120 A40,40 0 1,0 90,130 Z" fill="#CACFD2"/>
+
+</svg>

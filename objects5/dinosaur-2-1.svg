@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <!-- Body -->
+  <path d="M10,30 Q25,40 40,30 Q25,20 10,30 Z" fill="green" />
+
+  <!-- Tail -->
+  <path d="M10,35 L20,40 L10,45" stroke="brown" fill="transparent" />
+
+  <!-- Head -->
+  <circle cx="25" cy="25" r="15" fill="green" />
+
+  <!-- Eyes -->
+  <circle cx="22" cy="22" r="3" fill="black" />
+  <circle cx="28" cy="22" r="3" fill="black" />
+
+  <!-- Legs -->
+  <path d="M15,40 H25 L20,60 Z" stroke="brown" fill="transparent" />
+  <path d="M30,40 H35 L30,60 Z" stroke="brown" fill="transparent" />
+
+  <!-- Arms -->
+  <path d="M20,35 L15,50 Z" stroke="brown" fill="transparent" />
+  <path d="M30,35 L35,50 Z" stroke="brown" fill="transparent" />
+</svg>

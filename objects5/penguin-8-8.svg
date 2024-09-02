@@ -1,0 +1,39 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Defining gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(64,87,109);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(153,180,209);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(247,168,43);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,204,98);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <g clip-path="url(#bodyClip)">
+    <rect x="30" y="50" width="140" height="120" fill="url(#bodyGradient)" />
+  </g>
+
+  <!-- Clip paths for body and feet -->
+  <clipPath id="bodyClip">
+    <path d="M80,90 Q100,70 120,90 Q140,130 160,90 Q180,50 200,90 H250 V220 Q230,240 210,250 Q190,260 170,250 Q150,260 130,250 Q110,240 90,220 H50 Z" />
+  </clipPath>
+
+  <!-- Feet -->
+  <g clip-path="url(#feetClip)">
+    <path d="M80,170 Q100,190 120,170 Q140,150 160,170" fill="black" />
+  </g>
+  <clipPath id="feetClip">
+    <path d="M80,170 Q100,190 120,170 Q140,150 160,170" />
+  </clipPath>
+
+  <!-- Beak -->
+  <polygon points="130,90 150,80 170,90" fill="url(#orangeGradient)" />
+
+  <!-- Eyes -->
+  <circle cx="125" cy="70" r="5" fill="black" />
+  <circle cx="165" cy="70" r="5" fill="black" />
+
+</svg>

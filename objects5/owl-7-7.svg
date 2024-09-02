@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <!-- Background -->
+  <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(1,4,53);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(8,26,141);stop-opacity:1"/>
+  </linearGradient>
+  <rect width="400" height="600" fill="url(#gradient)"/>
+
+  <!-- Main Owl -->
+  <path d="M...Z" fill="#8b4513" stroke="#793f1a" stroke-width="2"/>
+
+  <!-- Wisdom Motifs -->
+  <polygon points="100,200 150,200 125,225" fill="#ffd700"/>
+  <path d="M80,225 A90,90 0 1,0 320,225" stroke="#cda86d" stroke-width="2"/>
+
+  <!-- Nocturnal Habits -->
+  <circle cx="300" cy="400" r="50" fill="none" stroke="#ffffff" stroke-width="2"/>
+  <path d="M270,390 Q285,360 300,370 T315,360 Q325,390 300,400" stroke="#ffa500" stroke-width="2"/>
+
+  <!-- Connection to Nature -->
+  <path d="M...Z" stroke="#8b4513" stroke-width="2"/>
+  <polygon points="360,500 375,490 350,490" fill="#ffd700"/>
+
+  <!-- Line Work -->
+  <path d="M...Z" stroke="#793f1a" stroke-width="1"/>
+</svg>

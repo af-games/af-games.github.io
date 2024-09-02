@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -100 400 600">
+  <!-- Balloon Basket -->
+  <rect x="-25" y="-70" width="50" height="80"
+        fill="#9C661F" stroke="#634323" stroke-width="2"/>
+
+  <!-- Balloon Envelope (upper part) -->
+  <path d="M-50,-50 Q0,30 50,-50"
+        fill="#FFC107" stroke="#CCA932" stroke-width="4"
+        opacity="0.8"/>
+
+  <!-- Balloon Envelope (lower part with shadow) -->
+  <path d="M-50,-70 Q0,10 50,-70"
+        fill="black" stroke="none"
+        opacity="0.2" transform="translate(0, -4)"/>
+
+  <!-- Balloon Netting -->
+  <rect x="-55" y="-80" width="60" height="90"
+        fill="none" stroke="#CCA932" stroke-width="1"/>
+  <line x1="-55" y1="-70" x2="55" y2="-70" stroke="#CCA932" stroke-width="1"/>
+
+  <!-- Balloon Rope -->
+  <path d="M-40,-85 Q0,-95 40,-85"
+        fill="none" stroke="#634323" stroke-width="2"/>
+
+  <!-- Balloon Flame -->
+  <polygon points="-50,-75 -40,-80 -10,-75 50,-80"
+           fill="#FFC107" opacity="0.9"/>
+
+</svg>

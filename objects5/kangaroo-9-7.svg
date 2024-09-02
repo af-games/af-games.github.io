@@ -1,0 +1,31 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<rect x="50" y="50" width="200" height="300" fill="#8B4513"/>
+
+<!-- Eyes -->
+<circle cx="90" cy="100" r="20" fill="#FFFFFF"/>
+<circle cx="160" cy="100" r="20" fill="#FFFFFF"/>
+
+<!-- Pouch -->
+<ellipse cx="150" cy="250" rx="80" ry="60" fill="#F39C11"/>
+
+<!-- Ears -->
+<ellipse cx="70" cy="120" rx="50" ry="30" fill="#8B4513"/>
+<ellipse cx="240" cy="120" rx="50" ry="30" fill="#8B4513"/>
+
+<!-- Arms -->
+<rect x="50" y="120" width="70" height="140" fill="#8B4513"/>
+<rect x="200" y="120" width="70" height="140" fill="#8B4513"/>
+
+<!-- Tail -->
+<path d="M190 350 Q220 380 200 420 Q180 380 160 350" stroke="#8B4513" fill="transparent"/>
+
+<!-- Legs -->
+<path d="M60 370 L140 450 L20 450 Z" stroke="#8B4513" fill="transparent"/>
+<path d="M190 370 L260 450 L200 450 Z" stroke="#8B4513" fill="transparent"/>
+
+<!-- Mouth -->
+<rect x="110" y="280" width="50" height="20" fill="#FFFFFF"/>
+
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Jellyfish body -->
+  <circle id="jellyfish-body" cx="0" cy="0" r="40">
+    <animateMotion repeatCount="indefinite">
+      <mpath href="#body-path"/>
+    </animateMotion>
+    <animate attributeName="r" values="35;40;35" dur="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Tentacle A -->
+  <circle cx="-20" cy="0" r="5">
+    <animateMotion begin="0s" dur="1s" repeatCount="indefinite">
+      <mpath href="#tentacle-a-path"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Tentacle B -->
+  <circle cx="20" cy="0" r="5">
+    <animateMotion begin="0.5s" dur="1s" repeatCount="indefinite">
+      <mpath href="#tentacle-b-path"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Tentacle C -->
+  <circle cx="0" cy="30" r="5">
+    <animateMotion begin="1s" dur="1s" repeatCount="indefinite">
+      <mpath href="#tentacle-c-path"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Paths for animations -->
+  <path id="body-path" d="M-40,0 Q0,-40 40,0 Q0,40 -40,0" fill="none"/>
+  <path id="tentacle-a-path" d="M-25,-10 C0,-30 0,30 -25,10"/>
+  <path id="tentacle-b-path" d="M25,-10 C0,-30 0,30 25,10"/>
+  <path id="tentacle-c-path" d="M0,35 C-20,40 -20,-40 0,-35"/>
+
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Body -->
+  <circle cx="50" cy="50" r="40" fill="#9DC8F9"/>
+
+  <!-- Tentacles -->
+  <g stroke-width="3" stroke="#FFFFFF" fill="transparent">
+    <?for ($i = 0; $i < 8; $i++):?>
+      <?$angle = $i * 45;?>
+      <path d="M50,10 a40,40 0 0 <?=($i % 2 == 0) ? '1' : '0'?> <?=($i % 2 == 0) ? '45,' : '-45,'?> 40,40 0 0 <?=($i % 2 == 0) ? '1' : '0'?> 50,90" />
+    <?endfor;?>
+  </g>
+
+  <!-- Mouth -->
+  <circle cx="50" cy="65" r="5" fill="#FFFFFF"/>
+</svg>

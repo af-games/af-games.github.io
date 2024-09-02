@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+
+  <!-- Hills -->
+  <ellipse cx="0" cy="-70" rx="120" ry="80" fill="#E5F5E0"/>
+  <ellipse cx="60" cy="30" rx="90" ry="60" fill="#D1E8CD"/>
+  <ellipse cx="-60" cy="30" rx="90" ry="60" fill="#C3D69B"/>
+
+  <!-- Igloo -->
+  <circle cx="0" cy="-70" r="45" fill="#A3E4F6">
+    <animate attributeName="r" values="45;0;45" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M -45,-70 A 45,45 0 1 0 45,-70" stroke="#3C91E6" fill="transparent"/>
+
+  <!-- River -->
+  <path d="M -80,-20 Q -40,0 0,-20 Q 40,40 80,-20" stroke="#3D9970" fill="transparent" stroke-width="15">
+    <animate attributeName="stroke-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Trees -->
+  <g transform="translate(-80,-140)">
+    <circle cx="0" cy="0" r="20" fill="#3D9970">
+      <animate attributeName="r" values="20;15;20" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <path d="M 0,-40 L -15,-80 H 15 Z" stroke="#3D9970" fill="transparent"/>
+  </g>
+
+  <!-- Green hills -->
+  <ellipse cx="-60" cy="50" rx="30" ry="20" fill="#C3D69B"/>
+  <ellipse cx="60" cy="50" rx="30" ry="20" fill="#C3D69B"/>
+
+</svg>

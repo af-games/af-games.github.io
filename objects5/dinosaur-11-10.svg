@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -500 1000 1000">
+```
+
+**Venturing deeper with tentative lines and shapes:**
+
+Let's start with a simple dinosaur body shape. We'll use `<path>` elements for the body, neck, and tail.
+
+```svg
+<path id="body" d="M-300 -200 Q-150 100 0 200 Q150 300 300 200 Q450 100 600 200 L700 300" fill="lightblue"/>
+<path id="neck" d="M-150 100 Q-75 200 -150 300" stroke="black" fill="transparent"/>
+<path id="tail" d="M600 200 Q525 275 450 350" stroke="black" fill="transparent"/>
+```
+
+**Discovering new features:**
+
+Let's add some legs. We'll use `<rect>` elements for the simple shapes of the legs.
+
+```svg
+<g id="legs">
+  <rect x="-180" y="200" width="50" height="100" fill="lightblue"/>
+  <rect x="130" y="200" width="50" height="100" fill="lightblue"/>
+</g>
+```
+
+**Documenting the journey:**
+
+Each discovery has its own attribute values. For instance, the body's path (`M-300 -200 Q-150 100 0 200 Q150 300 300 200 Q450 100 600 200 L700 300`) describes the starting points (`M`), control points (`Q`), and ending points (`L`) of the curve. The legs' `<rect>` elements have `x` and `y` attributes for their positions, and `width` and `height` for their sizes.
+
+**Writing out the final draft:**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -500 1000 1000">
+  <path id="body" d="M-300 -200 Q-150 100 0 200 Q150 300 300 200 Q450 100 600 200 L700 300" fill="lightblue"/>
+  <path id="neck" d="M-150 100 Q-75 200 -150 300" stroke="black" fill="transparent"/>
+  <path id="tail" d="M600 200 Q525 275 450 350" stroke="black" fill="transparent"/>
+  <g id="legs">
+    <rect x="-180" y="200" width="50" height="100" fill="lightblue"/>
+    <rect x="130" y="200" width="50" height="100" fill="lightblue"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg viewBox="0 0 200 350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="100" cy="200" r="80" fill="#964B00"/>
+  <rect x="70" y="220" width="60" height="80" rx="30" fill="#964B00"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="150" r="50" fill="#964B00"/>
+  <path d="M120,70 Q140,90 140,130 A40,40 0 0 0 120,170 Z" fill="#964B00"/>
+
+  <!-- Legs -->
+  <rect x="85" y="220" width="20" height="80" rx="10" fill="#964B00"/>
+  <rect x="175" y="220" width="20" height="80" rx="10" fill="#964B00"/>
+
+  <!-- Tail -->
+  <polygon points="130,250 150,250 150,280" fill="#964B00"/>
+  <circle cx="145" cy="265" r="15" fill="#964B00"/>
+
+  <!-- Details (eyes) -->
+  <circle cx="85" cy="135" r="5" fill="white"/>
+  <circle cx="115" cy="135" r="5" fill="white"/>
+
+</svg>

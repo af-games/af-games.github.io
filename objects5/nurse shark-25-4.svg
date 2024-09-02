@@ -1,0 +1,19 @@
+<svg width="1000" height="800" viewBox="-500 -400 1000 800">
+  <!-- Nurse Shark Reef -->
+  <path id="nurseSharkReef" d="M-200,-300 Q0,-200 200,-300 Q0,-400 -200,-300" fill="#FFA500" stroke="#FF7F27"/>
+
+  <!-- Coral Mountain Range -->
+  <polygon id="coralMountains" points="-150,200 0,400 150,200" fill="#8B4513" stroke="#693D1A"/>
+  <polygon id="coralMountains2" points="0,200 75,-50 200,200" fill="#8B4513" stroke="#693D1A"/>
+
+  <!-- Mangrove Forest -->
+  <ellipse id="mangroveTree1" cx="-250" cy="200" rx="50" ry="70" fill="#32CD32"/>
+  <ellipse id="mangroveTree2" cx="-150" cy="250" rx="60" ry="80" fill="#32CD32"/>
+  <ellipse id="mangroveTree3" cx="-50" cy="275" rx="45" ry="65" fill="#32CD32"/>
+
+  <!-- Gulliver's River -->
+  <path id="gulliversRiver" d="M-500,0 Q-300,100 -200,-150 Q-100,-50 0,100 Q100,-50 200,-150 Q300,-100 400,0 Q500,100 600,-150" stroke="#00BFFF"/>
+
+  <!-- Sunken Treasure Cove -->
+  <polygon id="sunkenTreasureChest" points="-200,-300 -100,-200 0,-100 100,-200 200,-300" fill="#C0C0C0"/>
+</svg>

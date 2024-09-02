@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -10 100 80">
+  <!-- Black velvet background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#140A0D" />
+
+  <!-- Mermaid outline -->
+  <path d="
+    M25,75 Q30,80 35,90 Q40,80 45,75
+    Q60,80 65,90 Q70,80 75,75
+    Q85,80 90,90 Q100,80 105,75
+    Z
+    M25,35 Q40,40 60,45 Q70,40 90,35
+    Q100,40 120,45 V65 H0 V35 Z
+  " stroke="#FFF" fill="none"/>
+</svg>

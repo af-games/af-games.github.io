@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Pathways -->
+  <rect x="10%" y="95%" width="80%" height="5%" fill="#bebebe" />
+  <path d="M40% 95%, Q70% 60%, 100% 95%" stroke="#bebebe" fill="transparent" />
+
+  <!-- Beds -->
+  <rect x="30%" y="80%" width="40%" height="20%" fill="#d7e6bf" />
+  <rect x="70%" y="10%" width="20%" height="70%" fill="#b3ceac" />
+
+  <!-- Lion plants -->
+  <g transform="translate(50%, 85%) scale(0.4)">
+    <!-- Lion with bright green (more light) -->
+    <path d="M60 10 A50 50 0 1 0 10 70 A50 50 0 0 0 60 30 Z" fill="#90c28e"/>
+    <polygon points="40 10, 60 20, 60 50, 40 60, 20 50, 20 20" fill="#90c28e"/>
+  </g>
+
+  <g transform="translate(70%, 60%) scale(0.3)">
+    <!-- Lion with medium green (medium light) -->
+    <path d="M60 10 A50 50 0 1 0 10 70 A50 50 0 0 0 60 30 Z" fill="#799e6d"/>
+    <polygon points="40 10, 60 20, 60 50, 40 60, 20 50, 20 20" fill="#799e6d"/>
+  </g>
+
+  <g transform="translate(30%, 30%) scale(0.2)">
+    <!-- Lion with dark green (less light) -->
+    <path d="M60 10 A50 50 0 1 0 10 70 A50 50 0 0 0 60 30 Z" fill="#62824e"/>
+    <polygon points="40 10, 60 20, 60 50, 40 60, 20 50, 20 20" fill="#62824e"/>
+  </g>
+
+</svg>

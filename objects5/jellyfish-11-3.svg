@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
+  <!-- Body -->
+  <circle cx="0" cy="0" r="50" fill="#87CEEB"/>
+
+  <!-- Bell -->
+  <circle cx="0" cy="0" r="55" stroke="#003366" stroke-width="2" fill="none"/>
+
+  <!-- Tentacles -->
+  <path d="M -25,-43.3 A 18,18 0 0,0 -7.66,-50 ... " stroke="#0099FF" fill="none"/>
+  <!-- Repeat the path data for all eight tentacles -->
+
+  <!-- Mouth -->
+  <circle cx="0" cy="10" r="8" fill="#FFFFFF"/>
+
+</svg>

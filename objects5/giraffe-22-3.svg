@@ -1,0 +1,21 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Central Plaza -->
+  <rect x="100" y="100" width="400" height="300" fill="#8DC63C"/>
+
+  <!-- Tall Buildings -->
+  <rect x="600" y="50" width="200" height="800" fill="#A9A9A9"/>
+  <rect x="800" y="200" width="200" height="700" fill="#A9A9A9"/>
+
+  <!-- Short Buildings -->
+  <rect x="300" y="400" width="200" height="200" fill="#A9A9A9"/>
+  <rect x="500" y="600" width="200" height="150" fill="#A9A9A9"/>
+
+  <!-- Water Tower -->
+  <rect x="900" y="100" width="100" height="900" fill="#C1D8F6"/>
+
+  <!-- Paths -->
+  <path d="M100,400 h800 v50 H100 Z" stroke="#32CD32"/>
+  <path d="M300,100 h600 v50 H300 Z" stroke="#32CD32"/>
+
+</svg>

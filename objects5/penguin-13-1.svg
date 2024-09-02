@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="80" ry="100" fill="black"/>
+  <rect x="90" y="140" width="20" height="30" fill="white"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="70" r="50" fill="white"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="60" r="5" fill="black"/>
+  <circle cx="115" cy="60" r="5" fill="black"/>
+
+  <!-- Beak -->
+  <path d="M100,70 Q90,80 100,90 Q110,80 100,70" stroke="orange" fill="transparent"/>
+
+  <!-- Flippers -->
+  <polygon points="50,140 30,160 130,160 110,140" fill="black"/>
+</svg>

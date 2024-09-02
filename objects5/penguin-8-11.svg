@@ -1,0 +1,31 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="300" height="400" fill="#F5DEB3"/>
+
+  <!-- Body -->
+  <ellipse cx="150" cy="280" rx="60" ry="90" fill="url(#penguinGradient)"/>
+  <path d="M70,280 Q150,320 230,280 H250 V400 H50 Z" fill="#A98151"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="160" r="50" fill="url(#penguinGradient)"/>
+  <path d="M150,120 Q130,140 170,140 Q200,120 150,90 Z" fill="#A98151"/>
+
+  <!-- Beak -->
+  <path d="M140,160 L160,160 A30,30 0 0 1 175,185" stroke="#FFD700" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="135" cy="140" r="5" fill="black"/>
+  <circle cx="165" cy="140" r="5" fill="black"/>
+
+  <!-- Legs -->
+  <path d="M80,280 H100 V370 L130,320 Z" fill="#A98151"/>
+  <path d="M220,280 H240 V370 L270,320 Z" fill="#A98151"/>
+
+  <!-- Gradient for penguin colors -->
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(64,59,53);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(169,129,81);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

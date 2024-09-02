@@ -1,0 +1,22 @@
+<svg width="500" height="400" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Dolphin's body -->
+<path d="M10,60 Q70,30 180,90 Q350,150 450,90 Q370,30 480,60" fill="#D3D3D3"/>
+
+<!-- Fin outlines -->
+<path d="M20,50 L70,30 Z" fill="none" stroke="#4A4A4A"/>
+<path d="M150,90 Q180,110 210,90" fill="none" stroke="#4A4A4A"/>
+<path d="M420,60 Q430,70 450,60 Z" fill="none" stroke="#4A4A4A"/>
+
+<!-- Internal fin structures and shading -->
+<rect x="18" y="55" width="50" height="45" fill="#CFCFCF"/>
+<path d="M230,90 Q260,110 290,90" stroke="#A9A9A9" stroke-width="10"/>
+
+<!-- Eye -->
+<circle cx="350" cy="80" r="20" fill="#000000"/>
+<circle cx="345" cy="75" r="5" fill="#FFFFFF"/>
+
+<!-- Water outline and surrounding area -->
+<path d="M0,400 Q10,390 500,400 H520 V0 H0 Z" fill="#ADD8E6"/>
+
+</svg>

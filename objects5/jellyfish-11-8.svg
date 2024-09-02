@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+
+<!-- Plate -->
+<ellipse cx="300" cy="225" rx="275" ry="180" fill="#FFF7E6"/>
+<path d="M290,210 Q260,190 240,180 Q260,170 290,160 Q320,170 340,180 Q320,190 290,210 z" fill="#FDB515"/>
+
+<!-- Jellyfish -->
+<path d="M300,80 A200,200 0 0 1 300,400 L260,430 340,430 Z" fill="#B3FFA9"/>
+<circle cx="300" cy="450" r="30" fill="#FFF"/>
+<path d="M300,80 A180,180 0 0 1 300,260 L270,230 330,230 Z" stroke="#B3FFA9" stroke-width="5"/>
+
+<!-- Lemon wedge garnish -->
+<path d="M480,120 Q450,140 420,160 Q390,140 370,120 L400,80 Z" fill="#FFD500"/>
+
+<!-- Olive garnish -->
+<circle cx="450" cy="180" r="40" fill="#5F5E62"/>
+<path d="M450,170 Q435,160 420,150 L470,150 Z" stroke="#FFF" stroke-width="5"/>
+
+<!-- Fork -->
+<path d="M520,280 V320 H540 Q555,325 560,335 Q565,345 570,355 L570,410 Z" fill="#CBCACA"/>
+
+<!-- Napkin -->
+<path d="M520,410 V450 H580 V410 H520 Z" stroke="#FFF" stroke-width="10"/>
+<rect x="530" y="420" width="20" height="30" fill="#FFF"/>
+
+</svg>

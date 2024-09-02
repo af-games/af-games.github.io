@@ -1,0 +1,40 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define giraffe shapes -->
+  <defs>
+    <path id="giraffe1" d="M...Z" />
+    <path id="giraffe2" d="M...Z" />
+    <!-- Add more giraffe poses as needed -->
+  </defs>
+
+  <!-- Bars 1-8: Slow, melodic rhythm with deep teal bass notes -->
+  <circle cx="40" cy="300" r="20" fill="#3D9970">
+    <animateTransform
+      attributeName="transform"
+      type="scale"
+      from="1 1"
+      to="1.5 1.5"
+      begin="0s"
+      dur="4s"
+      repeatCount="indefinite"/>
+    <animate
+      attributeName="cy"
+      values="300;280;300"
+      begin="0s"
+      dur="4s"
+      repeatCount="indefinite"/>
+  </circle>
+  <!-- Add more circles and animations for bars 2-8 -->
+
+  <!-- Giraffe animations -->
+  <use xlink:href="#giraffe1" x="150" y="150">
+    <animate
+      attributeName="d"
+      from="M...Z"
+      to="M...Z"
+      begin="0s"
+      dur="8s"
+      repeatCount="indefinite"/>
+  </use>
+  <!-- Add more giraffe poses and animations as needed -->
+
+</svg>

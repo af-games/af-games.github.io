@@ -1,0 +1,41 @@
+<svg>` canvas.
+
+*Resource Gathering:*
+- Collected a variety of `<circle>` shapes for body parts like head and legs.
+- Found `<rect>` shapes perfect for the pouch and tail.
+- Discovered `<path>` shapes ideal for the ears, nose, and mouth.
+- Gathered colors: `#8B4513` (brown) for the kangaroo's body, `#FFFFFF` (white) for highlights and eyes.
+
+**Day 2:**
+Marked my path back home with SVG code:
+
+```svg
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="150" cy="200" r="120" fill="#8B4513"/>
+
+  <!-- Head -->
+  <circle cx="160" cy="70" r="70" fill="#8B4513"/>
+  <circle cx="160" cy="60" r="10" fill="#FFFFFF"/>
+
+  <!-- Eyes -->
+  <circle cx="120" cy="50" r="5" fill="#FFFFFF"/>
+  <circle cx="200" cy="50" r="5" fill="#FFFFFF"/>
+
+  <!-- Nose -->
+  <path d="M160,70 Q145,90 160,110 Q175,90 160,70" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Mouth -->
+  <path d="M150,120 Q130,130 150,140 Q170,130 150,120" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Pouch -->
+  <rect x="130" y="160" width="50" height="90" rx="20" fill="#FFFFFF"/>
+  <path d="M130,250 Q180,250 180,170" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Tail -->
+  <rect x="240" y="160" width="40" height="90" rx="20" fill="#8B4513"/>
+
+  <!-- Legs -->
+  <circle cx="70" cy="270" r="30" fill="#8B4513"/>
+  <circle cx="230" cy="270" r="30" fill="#8B4513"/>
+</svg>

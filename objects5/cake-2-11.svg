@@ -1,0 +1,24 @@
+<svg>` tag:
+
+```xml
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake base -->
+  <circle cx="100" cy="150" r="70" fill="#E6C982"/>
+
+  <!-- Top of the cake (rounded rectangle) -->
+  <rect x="40" y="60" width="120" height="30" rx="15" ry="15" fill="#D6A13F"/>
+
+  <!-- Golden glitter effect on top -->
+  <path d="M80,50 Q90,40 100,50 T120,50" stroke="#DAAA75" stroke-width="3" fill="transparent"/>
+
+  <!-- Candles (yellow circles with brown lines) -->
+  <g transform="translate(60, 80)">
+    <circle cx="-10" cy="-10" r="5" fill="#FFCC00"/>
+    <rect x="-12" y="-30" width="4" height="40" fill="#593D2E"/>
+  </g>
+  <use href="#candle" x="20"/>
+
+  <!-- Cake stand -->
+  <rect x="60" y="180" width="80" height="20" fill="#C3A174"/>
+
+</svg>

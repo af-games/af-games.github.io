@@ -1,0 +1,26 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M10,40 Q25,60 50,70 Q75,80 100,70 Q125,60 140,40" stroke="black" fill="darkgrey"/>
+
+  <!-- Head -->
+  <circle cx="10" cy="35" r="15" stroke="black" fill="white"/>
+  <path d="M10,20 Q20,15 30,20" stroke="black" fill="transparent"/>
+
+  <!-- Tail Fin -->
+  <polygon points="140,40 160,80 170,40" stroke="black" fill="lightgrey"/>
+  <path d="M140,40 Q150,35 160,40" stroke="black" fill="transparent"/>
+
+  <!-- Dorsal Fin -->
+  <polygon points="85,75 95,85 75,75" stroke="black" fill="lightgrey"/>
+  <path d="M85,75 Q90,80 95,75" stroke="black" fill="transparent"/>
+
+  <!-- Pectoral Fins (Left) -->
+  <polygon points="25,65 15,75 35,65" stroke="black" fill="white"/>
+  <path d="M25,65 Q15,70 15,75" stroke="black" fill="transparent"/>
+
+  <!-- Pectoral Fins (Right) -->
+  <polygon points="125,65 135,75 115,65" stroke="black" fill="white"/>
+  <path d="M125,65 Q135,70 135,75" stroke="black" fill="transparent"/>
+
+</svg>

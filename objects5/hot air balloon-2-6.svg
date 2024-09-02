@@ -1,0 +1,37 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 280 600">
+  <!-- Bodice -->
+  <rect id="Bodice" x="-70" y="0" width="140" height="300" fill="url(#GradientBody)" />
+  <use href="#Bodice" transform="translate(210, 0)"/>
+
+  <!-- Sleeves -->
+  <circle id="Sleeve" cx="-50" cy="150" r="75" fill="url(#GradientSleeve)" />
+  <use href="#Sleeve" transform="translate(230, 150)"/>
+
+  <!-- Balloon Panel -->
+  <ellipse id="BalloonPanel" cx="0" cy="-60" rx="140" ry="70" fill="url(#GradientBalloon)" />
+  <use href="#BalloonPanel" transform="translate(140, -60)"/>
+
+  <!-- Basket Panel -->
+  <rect id="BasketPanel" x="-35" y="240" width="70" height="80" fill="url(#GradientBasket)" />
+  <use href="#BasketPanel" transform="translate(215, 240)"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="GradientBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(239,228,176);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(254,235,200);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="GradientSleeve" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(254,235,200);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(239,228,176);stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="GradientBalloon" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(247,148,31);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,69,0);stop-opacity:1" />
+    </radialGradient>
+    <linearGradient id="GradientBasket" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(58,34,9);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(107,66,22);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

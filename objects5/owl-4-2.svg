@@ -1,0 +1,45 @@
+<svg width="200" height="240" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Basic shapes -->
+<circle cx="50" cy="100" r="80" fill="#776e79" />
+<circle cx="60" cy="70" r="20" fill="#3e3c42" />
+<circle cx="90" cy="70" r="15" fill="#3e3c42" />
+<circle cx="30" cy="70" r="40" fill="#3e3c42" />
+
+<!-- Wings -->
+<path d="M50 100 Q30 80 30 140 Q50 120 70 140" fill="#776e79" />
+<path d="M90 100 Q110 80 110 140 Q90 120 70 140" fill="#776e79" />
+
+<!-- Tail -->
+<polygon points="55,160 65,160 60,170" fill="#3e3c42" />
+
+<!-- Feet -->
+<rect x="38" y="180" width="10" height="20" fill="#3e3c42" />
+<rect x="78" y="180" width="10" height="20" fill="#3e3c42" />
+
+<!-- Beak -->
+<polygon points="65,70 75,90 60,90" fill="#ffcc00" stroke="#3e3c42" stroke-width="2"/>
+
+<!-- Eye outline -->
+<circle cx="60" cy="60" r="15" stroke="#3e3c42" stroke-width="2"/>
+
+<!-- Feathers on body -->
+<path d="M40 120 Q45 110 55 115 Q65 105 75 110" stroke="#3e3c42" stroke-width="2"/>
+<path d="M80 120 Q75 110 65 115 Q55 105 45 110" stroke="#3e3c42" stroke-width="2"/>
+
+<!-- Wing feathers -->
+<path d="M30 140 Q25 130 35 125 Q45 115 55 120" stroke="#3e3c42" stroke-width="2"/>
+<path d="M110 140 Q115 130 105 125 Q95 115 85 120" stroke="#3e3c42" stroke-width="2"/>
+
+<!-- Eye details -->
+<circle cx="60" cy="50" r="5" fill="#ffcc00"/>
+<path d="M55 60 Q65 65 75 60" stroke="#3e3c42" stroke-width="2"/>
+
+<!-- Talons -->
+<polygon points="38,190 43,200 35,200" fill="#3e3c42"/>
+<polygon points="78,190 83,200 85,200" fill="#3e3c42"/>
+
+<!-- Iris (eyes) -->
+<circle cx="60" cy="55" r="2.5" fill="#ffcc00"/>
+
+</svg>

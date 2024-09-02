@@ -1,0 +1,25 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#E0F8E2"/>
+
+  <!-- Pathways (light brown) -->
+  <path d="M100,50 H700 V550 H100 Z" stroke="#C9BB8A" stroke-width="10" fill="none"/>
+  <path d="M300,250 Q500,100 700,250 T300,450" stroke="#C9BB8A" stroke-width="10" fill="none"/>
+
+  <!-- Beds (dark green) -->
+  <path d="M200,150 Q400,50 600,150 Q400,250 200,200 Q100,300 200,350 Z" fill="#3D9970"/>
+  <path d="M350,350 Q550,400 700,350 Q550,450 350,500 Z" fill="#3D9970"/>
+
+  <!-- Structures (lions) -->
+  <circle cx="150" cy="200" r="80" fill="#FFC65B"/>
+  <path d="M140,210 Q120,250 130,290 Q150,330 170,310 Z" fill="black"/>
+  <circle cx="650" cy="300" r="80" fill="#FFC65B"/>
+  <path d="M640,310 Q620,350 630,390 Q650,430 670,410 Z" fill="black"/>
+
+  <!-- Plants and textures (organic paths) -->
+  <path d="M300,200 A100,100 0 0 1 400,300 A80,80 0 0 1 320,400 Z" fill="#66BB6A"/>
+  <path d="M500,250 Q600,350 500,450 Q400,350 500,250" stroke="#3D9970" stroke-width="15" fill="none"/>
+  <path d="M300,350 Q400,450 300,550 Q200,450 300,350" stroke="#3D9970" stroke-width="15" fill="none"/>
+
+</svg>

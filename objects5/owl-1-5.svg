@@ -1,0 +1,35 @@
+<svg width="30" height="40" viewBox="0 0 30 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="30" height="40" fill="#1c1c1c" />
+
+  <!-- Body and Wings (Labradorite) -->
+  <polygon points="5,5 15,5 20,15 15,25 5,25" fill="url(#labradorescence)" />
+  <path d="M5,15 L10,20 L15,15 Z" fill="url(#labradorescence)" />
+
+  <!-- Eyes (Spessartite Garnet) -->
+  <circle cx="8" cy="10" r="1.5" fill="#ff4500" />
+  <circle cx="22" cy="10" r="1.5" fill="#ff4500" />
+
+  <!-- Feathers (Blue Topaz) -->
+  <path d="M7,13 C9,16 12,18 15,18 C18,18 21,16 23,13" stroke="#0077ff" stroke-width="0.5" fill="transparent">
+    <animate attributeName="stroke-opacity" dur="0.5s" repeatCount="indefinite"
+      values="1;0" />
+  </path>
+  <path d="M7,23 C9,20 12,18 15,18 C18,18 21,20 23,23" stroke="#0077ff" stroke-width="0.5" fill="transparent">
+    <animate attributeName="stroke-opacity" dur="0.5s" repeatCount="indefinite"
+      values="1;0" />
+  </path>
+
+  <!-- Outline (Black Onyx) -->
+  <rect x="4.5" y="4.5" width="21" height="31" fill="#000000" rx="2" ry="2" />
+
+  <!-- Labradorite gradient (for labradorescence effect) -->
+  <defs>
+    <linearGradient id="labradorescence" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#38428f; stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7b9cb6; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5deb3; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+</svg>

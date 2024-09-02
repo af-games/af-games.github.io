@@ -1,0 +1,16 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="200" fill="#b3d8ef"/>
+
+  <!-- Igloo Body -->
+  <path d="M100,40 Q150,75 160,90 A80,80 0 0 1 40,90 Q100,75 60,40" fill="#fff"/>
+  <path d="M100,30 Q120,60 140,80 A60,60 0 0 1 60,80 Q100,60 80,30" fill="#fff"/>
+
+  <!-- Entrance -->
+  <path d="M70,40 Q90,50 120,40" fill="#fff" stroke="#b3d8ef" stroke-width="5"/>
+
+  <!-- Dome -->
+  <circle cx="100" cy="60" r="20" fill="#fff"/>
+
+</svg>

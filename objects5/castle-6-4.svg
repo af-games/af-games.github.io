@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle -->
+  <g id="castle">
+    ...
+  </g>
+
+  <!-- Flag -->
+  <rect id="flag" x="490" y="100" width="10" height="80" style="fill: blue;" />
+
+  <!-- Animation -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 250 300"
+    to="720 250 300"
+    dur="2s"
+    repeatCount="indefinite"
+    begin="0.1s" />
+</svg>

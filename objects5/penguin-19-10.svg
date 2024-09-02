@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="600" fill="#FFF" />
+
+  <!-- Body -->
+  <g id="body">
+    <circle cx="250" cy="400" r="150" fill="url(#GradientBody)" />
+    <rect x="170" y="300" width="200" height="100" fill="url(#GradientBody)" rx="50" />
+  </g>
+
+  <!-- Head -->
+  <circle cx="250" cy="250" r="80" fill="url(#GradientHead)" />
+
+  <!-- Eyes -->
+  <circle cx="225" cy="210" r="20" fill="#FFF" />
+  <circle cx="275" cy="210" r="20" fill="#FFF" />
+  <circle cx="225" cy="210" r="10" fill="#000" />
+  <circle cx="275" cy="210" r="10" fill="#000" />
+
+  <!-- Beak -->
+  <polygon points="250,160 260,180 240,180" fill="#FFD700" />
+  <path d="M250,160 Q230,140 250,120 Q270,140 250,160" stroke="#FFD700" fill="transparent" />
+
+  <!-- Feet -->
+  <polygon points="180,500 250,580 320,500" fill="#A9A9A9" />
+  <polygon points="180,540 250,620 320,540" fill="#A9A9A9" />
+
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="GradientBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(45,87,163); stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(91,162,215); stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="GradientHead" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(73,159,214); stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(161,228,255); stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

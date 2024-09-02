@@ -1,0 +1,26 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main Igloo Structure -->
+  <circle cx="50" cy="50" r="200"
+          stroke="black" stroke-width="10"
+          fill="white"/>
+
+  <!-- Entrance -->
+  <rect x="30" y="470" width="60" height="80"
+        stroke="black" stroke-width="5"
+        fill="lightgrey"/>
+
+  <!-- Window Details -->
+  <circle cx="40" cy="280" r="10" fill="black"/>
+  <circle cx="90" cy="280" r="10" fill="black"/>
+
+  <!-- Door Detail -->
+  <rect x="35" y="520" width="50" height="40"
+        stroke="black" stroke-width="3"
+        fill="lightgrey"/>
+
+  <!-- Outline -->
+  <path d="M 50,50 A 200,200 0 1,1 50,70 M 30,470 H 90 V 650 Z"
+        stroke="black" stroke-width="10"/>
+
+</svg>

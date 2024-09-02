@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+
+<!-- Background -->
+<rect x="10" y="10" width="580" height="380" fill="#FFFFFF"/>
+
+<!-- Patches and stitches -->
+
+<!-- Row 1 to Row 7 -->
+<g id="row-1">
+  <pattern id="patch1" patternUnits="userSpaceOnUse" width="80" height="80">
+    <rect x="0" y="0" width="80" height="80" fill="#FFDBE5"/>
+    <polygon points="40,0 80,80 0,80" stroke="#7C3649" stroke-width="2" fill="transparent"/>
+  </pattern>
+</g>
+
+<!-- Repeat pattern for other rows with alternating colors -->
+
+<rect x="10" y="10" width="80" height="80" fill="url(#patch1)"/>
+<!-- Add more rectangles for the remaining patches in Row 1, adjusting coordinates accordingly -->
+
+<!-- Stitches -->
+<g id="stitches">
+  <!-- Create stitches using polygons with varying heights and rotations -->
+  <polygon points="45,-2 70,82 5,-2" transform="rotate(45)" stroke="#7C3649" stroke-width="2" fill="transparent"/>
+</g>
+
+<!-- Place stitches group at the bottom of the quilt -->
+<use xlink:href="#stitches" y="310"/>
+
+</svg>

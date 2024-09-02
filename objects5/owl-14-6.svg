@@ -1,0 +1,17 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M50 200 Q100 100, 150 200"/>
+
+  <!-- Head and Beak -->
+  <path d="M180 170 Q220 130, 250 170" stroke-linejoin="round"/>
+  <path d="M260 170 Q280 200, 290 170" stroke-linejoin="round"/>
+
+  <!-- Eyes -->
+  <path d="M210 140 Q225 125, 210 110" stroke-linejoin="round"/>
+  <path d="M230 140 Q245 125, 230 110" stroke-linejoin="round"/>
+
+  <!-- Wings -->
+  <path d="M80 220 Q130 270, 80 320" stroke-linejoin="round"/>
+  <path d="M320 220 Q270 270, 320 320" stroke-linejoin="round"/>
+
+</svg>

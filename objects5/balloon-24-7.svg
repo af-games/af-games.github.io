@@ -1,0 +1,10 @@
+<svg width="300" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M150,20 Q100,80 75,200 L100,400 L200,400 L150,300 Z"
+        fill="#F8D9C6" stroke="#4A4A4A" stroke-width="5"/>
+  <!-- Waist Beads -->
+  <circle cx="75" cy="210" r="10" fill="#FFDBE5"/>
+  <circle cx="225" cy="210" r="10" fill="#FFDBE5"/>
+  <!-- Seam Details -->
+  <rect x="65" y="80" width="230" height="5" fill="none" stroke="#4A4A4A" stroke-width="5"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200">
+  <!-- Body -->
+  <path d="M75,100 Q85,90 85,60 A70,40 0 1 1 75,100" fill="brown" stroke="black"/>
+
+  <!-- Wings -->
+  <polygon points="30,20 80,20 80,110 30,110" fill="brown"/>
+  <polygon points="40,95 70,95 70,105 40,105" fill="darkbrown"/>
+
+  <!-- Tail -->
+  <path d="M80,120 Q95,130 100,140 L80,160 Z" fill="brown"/>
+
+  <!-- Head -->
+  <ellipse cx="75" cy="60" rx="30" ry="40" fill="lightgrey"/>
+  <line x1="60" y1="55" x2="90" y2="55" stroke="black"/>
+  <circle cx="65" cy="50" r="5" fill="black"/>
+  <circle cx="85" cy="50" r="5" fill="black"/>
+
+  <!-- Details (feathers) -->
+  <path d="M35,25 L45,15 L55,25 Z" fill="brown"/>
+  <!-- Add more details as needed -->
+
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+  <path d="M 100 50 Q 200 0 300 50" stroke="black"/>
+  <polyline points="300,50 400,100 450,75" stroke="black"/>
+  <!-- Legs and arms omitted for brevity -->
+
+  <path d="M 100 50 Q 150 75 200 50 Q 250 25 300 50" stroke="black"/>
+
+  <g fill="blue"> <!-- Hair -->
+    <line x1="100" y1="60" x2="90" y2="70"/>
+    <!-- Add more lines for hair -->
+  </g>
+
+  <circle cx="230" cy="40" r="5" fill="black"/> <!-- Eye -->
+</svg>

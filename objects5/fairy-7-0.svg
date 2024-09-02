@@ -1,0 +1,24 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#ADD8E6"/>
+
+  <!-- Fairy Body -->
+  <ellipse cx="60" cy="90" rx="75" ry="50" fill="#FFC3E6"/>
+  <ellipse cx="68" cy="65" rx="40" ry="30" fill="#FFC3E6"/>
+
+  <!-- Fairy Wings -->
+  <path d="M35,85 Q20,100 35,115 Q50,130 70,115 Q90,100 90,85" fill="#ADD8E6"/>
+  <path d="M90,85 Q110,100 90,115 Q70,130 50,115 Q30,100 35,85" fill="#ADD8E6"/>
+
+  <!-- Fairy Hair -->
+  <path d="M65,45 C60,35 75,35 80,45 Z" fill="#FFC3E6"/>
+  <path d="M60,120 Q55,135 70,135 Q75,120 80,120" fill="#FFC3E6"/>
+
+  <!-- Fairy Arms -->
+  <path d="M50,110 Q40,120 50,130 Q60,120 70,110" fill="#FFC3E6"/>
+  <path d="M80,110 Q90,120 80,130 Q70,120 70,110" fill="#FFC3E6"/>
+
+  <!-- Fairy Legs -->
+  <path d="M50,130 Q45,140 50,150 Q55,140 60,130" fill="#FFC3E6"/>
+  <path d="M80,130 Q95,140 80,150 Q75,140 70,130" fill="#FFC3E6"/>
+</svg>

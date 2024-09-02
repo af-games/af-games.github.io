@@ -1,0 +1,26 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Shark Body -->
+  <ellipse cx="200" cy="200" rx="200" ry="150" fill="#3D3C3A"/>
+
+  <!-- Pectoral Fins -->
+  <path d="M100,250 h200 v-100 h-200 z" fill="#A9A9A9"/>
+
+  <!-- Dorsal Fin -->
+  <polygon points="170,80 230,80 200,150" fill="#A9A9A9"/>
+
+  <!-- Tail Fin -->
+  <path d="M400,250 c50,100 -50,100 -100,0 z" fill="#A9A9A9"/>
+
+  <!-- Eyes -->
+  <circle cx="140" cy="160" r="10" fill="#000000"/>
+  <circle cx="260" cy="160" r="10" fill="#000000"/>
+
+  <!-- Gills -->
+  <rect x="80" y="150" width="30" height="5" rx="2.5" fill="#3D3C3A"/>
+  <rect x="140" y="160" width="30" height="5" rx="2.5" fill="#3D3C3A"/>
+  <rect x="200" y="150" width="30" height="5" rx="2.5" fill="#3D3C3A"/>
+  <rect x="260" y="160" width="30" height="5" rx="2.5" fill="#3D3C3A"/>
+  <rect x="320" y="150" width="30" height="5" rx="2.5" fill="#3D3C3A"/>
+
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet">
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#E5E5FF"/>
+
+<!-- Serpentine Sea -->
+<path d="M0,300 Q200,200 400,300 Q600,400 800,300" stroke="#2D719B" fill="url(#seaGradient)" />
+<defs>
+  <linearGradient id="seaGradient" gradientTransform="rotate(45)">
+    <stop offset="0%"   stop-color="#6CABF2"/>
+    <stop offset="100%" stop-color="#2D719B"/>
+  </linearGradient>
+</defs>
+
+<!-- Crystal Peaks -->
+<polyline points="350,200 400,100 450,200" stroke="#FFFFFF" fill="#DDEBF6" stroke-width="2"/>
+<text x="400" y="80" font-family="Arial" font-size="16">Crystal Peaks</text>
+
+<!-- Verdant Vale -->
+<rect x="100" y="350" width="200" height="250" fill="#9DC78F"/>
+<text x="150" y="450" font-family="Arial" font-size="16">Verdant Vale</text>
+
+<!-- Whispering Woods -->
+<polygon points="300,400 400,350 500,400" fill="#77D89C"/>
+<text x="350" y="420" font-family="Arial" font-size="16">Whispering Woods</text>
+
+<!-- Skyward City -->
+<circle cx="650" cy="450" r="100" fill="#FFD700"/>
+<text x="630" y="480" font-family="Arial" font-size="16">Skyward City</text>
+
+<!-- Hot Air Balloons -->
+<circle cx="250" cy="350" r="30" fill="#FFC107"/>
+<circle cx="350" cy="300" r="30" fill="#FFC107"/>
+<circle cx="450" cy="380" r="30" fill="#FFC107"/>
+
+<!-- Rivers -->
+<path d="M200,450 Q250,500 300,450" stroke="#A9CCE3" fill="transparent" stroke-width="3"/>
+<path d="M500,450 Q550,500 600,450" stroke="#A9CCE3" fill="transparent" stroke-width="3"/>
+
+<!-- Labels -->
+<text x="10" y="570" font-family="Arial" font-size="24">Aerium</text>
+
+</svg>

@@ -1,0 +1,27 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="350" fill="#f7f7f7"/>
+
+  <!-- Plate -->
+  <rect x="50" y="100" width="300" height="200" rx="20" fill="#fff"/>
+  <circle cx="200" cy="225" r="150" stroke="#ccc" stroke-width="4"/>
+
+  <!-- Tableware -->
+  <path d="M80 275 l60 0 M320 275 l-60 0" stroke="#ccc" fill="transparent"/>
+  <circle cx="150" cy="250" r="5" fill="#ccc"/>
+
+  <!-- Jellyfish -->
+  <g id="jellyfish">
+    <circle cx="180" cy="175" r="40" fill="#9acd32"/>
+    <path d="M160 175 Q140 210 180 250 Q220 210 200 175" stroke="#fff" fill="transparent"/>
+    <polygon points="180,135 190,160 170,160" fill="#fff"/>
+  </g>
+  <use href="#jellyfish" x="240" y="140"/>
+
+  <!-- Garnishes -->
+  <circle cx="120" cy="280" r="5" fill="#009933"/>
+  <polygon points="125,275 135,285 125,295" fill="#009933"/>
+  <circle cx="260" cy="270" r="3" fill="#ffa500"/>
+
+</svg>

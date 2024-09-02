@@ -1,0 +1,8 @@
+<svg viewBox="-1000 -1000 2000 2000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mermaid City -->
+  <circle cx="0" cy="0" r="500" stroke="black" fill="#8B7D6B"/>
+  <!-- Ocean -->
+  <circle cx="0" cy="0" r="1000" stroke="black" fill="#2196F3"/>
+  <!-- Coral Reefs & Sea Mountains/Trenchs -->
+  ...
+</svg>

@@ -1,0 +1,15 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bell -->
+  <ellipse cx="100" cy="75" rx="80" ry="40" fill="#FF6347"/>
+  <circle cx="100" cy="40" r="30" fill="#FFF5EE"/>
+
+  <!-- Tentacles -->
+  <g stroke="#000000" stroke-width="2">
+    <path d="M80,90 A70,70 0 0,1 120,90" fill="none"/>
+    <path d="M80,110 A70,70 0 0,1 120,110" fill="none"/>
+    <!-- Repeat for all eight tentacles -->
+  </g>
+
+  <!-- Outline and details -->
+  <circle cx="100" cy="95" r="85" stroke="#000000" stroke-width="2" fill="none"/>
+</svg>

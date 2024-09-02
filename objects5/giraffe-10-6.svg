@@ -1,0 +1,35 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Bodice -->
+<rect id="bodice" x="100" y="80" width="300" height="400" fill="#fff" stroke="#000"/>
+<path id="neck-applique" d="M175,260 Q225,280 225,320 Q175,360 125,320 Q175,280 Z" fill="#fcd910"/>
+<path id="head-applique" d="M150,240 Q175,230 200,240 Q175,250 150,240 Z" fill="#ffd500"/>
+
+<!-- Sleeves -->
+<circle id="sleeve-left" cx="150" cy="80" r="60" fill="#fff"/>
+<circle id="sleeve-right" cx="350" cy="80" r="60" fill="#fff"/>
+
+<!-- Gradient for dynamic effect -->
+<defs>
+  <linearGradient id="giraffe-print" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#ffe375; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#ffd64f; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#ffe375; stop-opacity:1"/>
+  </linearGradient>
+</defs>
+
+<!-- Apply giraffe print to bodice -->
+<use xlink:href="#bodice" fill="url(#giraffe-print)"/>
+
+<!-- Move clothing with body - sleeves' gradient -->
+<circle id="sleeve-left-grad" cx="150" cy="80" r="60" fill="url(#sleeve-gradient)"/>
+<linearGradient id="sleeve-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" style="stop-color:#fff; stop-opacity:1"/>
+  <stop offset="50%" style="stop-color:#f8e6a9; stop-opacity:1"/>
+  <stop offset="100%" style="stop-color:#fff; stop-opacity:1"/>
+</linearGradient>
+
+<!-- Cutting lines -->
+<path stroke="#000" stroke-width="2" d="M150,40 H350 V580 H100 Z"/>
+
+</svg>

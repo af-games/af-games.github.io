@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Bell -->
+  <ellipse cx="0" cy="0" rx="50" ry="37.5" fill="#ffffff">
+    <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite"/>
+    <linearGradient id="bellGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff; stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d3ecc9; stop-opacity:1" />
+    </linearGradient>
+  </ellipse>
+
+  <!-- Rim -->
+  <circle cx="0" cy="0" r="40" stroke="#000000" fill="none"/>
+
+  <!-- Tentacles -->
+  <g opacity="0.7">
+    <mask id="tentacleMask">
+      <circle cx="0" cy="-37.5" r="40"/>
+    </mask>
+    <?php for($i = 0; $i < 16; $i++): ?>
+      <circle cx="<?php echo cos(deg2rad($i * 22.5)) * 40 ?>" cy="<?php echo sin(deg2rad($i * 22.5)) * 40 - 37.5 ?>" r="8" fill="#88d6c9"/>
+    <?php endfor; ?>
+  </g>
+
+</svg>

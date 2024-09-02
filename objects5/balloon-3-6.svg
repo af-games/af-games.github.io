@@ -1,0 +1,25 @@
+<svg width="40" height="50" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="pattern" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:rgb(237,68,59); stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(184,36,35); stop-opacity:1"/>
+    </radialGradient>
+    <filter id="dropshadow" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.5"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <path d="M20 40Q15 45, 8 45L3 37H9Z" stroke="gold"/>
+  <circle cx="3" cy="36" r="1.5" fill="gold"/>
+  <circle cx="8" cy="36" r="1.5" fill="gold"/>
+
+  <path d="M20 2C20 8, 14 15, 6 17L6 37H18Z" fill="url(#pattern)" filter="url(#dropshadow)"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="50" cy="50" r="50"/>
+
+  <!-- Pouch -->
+  <ellipse cx="50" cy="100" rx="30" ry="40"/>
+
+  <!-- Ears -->
+  <polygon points="80,20 100,0 60,0"/>
+  <polygon points="80,20 70,0 90,0"/>
+</svg>

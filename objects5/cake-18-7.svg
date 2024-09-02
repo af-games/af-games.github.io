@@ -1,0 +1,17 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Landmarks (Cities) -->
+  <circle cx="100" cy="100" r="30" fill="#ff8c00" />
+  <text x="90" y="115" font-family="Verdana" font-size="12">City A</text>
+
+  <circle cx="250" cy="250" r="20" fill="#00bfff" />
+  <text x="240" y="260" font-family="Verdana" font-size="12">City B</text>
+
+  <circle cx="400" cy="400" r="35" fill="#800080" />
+  <text x="390" y="415" font-family="Verdana" font-size="12">City C</text>
+
+  <!-- Uncharted Territories -->
+  <rect x="0" y="0" width="500" height="500" fill="#fff"/>
+  <path d="M0,0 H500 V500 H0 Z" stroke="black"/>
+
+</svg>

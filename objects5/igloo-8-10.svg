@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 80 60">
+  <defs>
+    <style type="text/css">
+      @keyframes glow {
+        0%, 100% { opacity: 0.5; }
+        50% { opacity: 1; }
+      }
+      circle, line { animation: glow 4s infinite; }
+    </style>
+  </defs>
+
+  <!-- Beats (circles) -->
+  <circle cx="0" cy="20" r="8" fill="#ADD8E6">
+    <animate attributeName="cx" values="-30;-15;0;15;30" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="30" cy="20" r="8" fill="#0D47A1">
+    <animate attributeName="cx" values="-15;0;15;30;45" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="60" cy="20" r="8" fill="#FFFFFF">
+    <animate attributeName="cx" values="15;30;45;60;75" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="90" cy="20" r="8" fill="#A9A9A9">
+    <animate attributeName="cx" values="30;45;60;75;90" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Transition (line) -->
+  <line x1="-30" y1="20" x2="90" y2="20" stroke="#ADD8E6">
+    <animate attributeName="stroke-width" values="2;5;2" dur="4s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Igloo -->
+  <path d="M10,30 Q15,35 25,30 Q35,35 40,30 Q35,25 25,20 Q15,25 10,20" fill="#FFFFFF"/>
+</svg>

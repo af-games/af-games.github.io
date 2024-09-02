@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -45 70 90" width="600px" height="auto">
+
+<!-- Sleeves (circles) -->
+<circle cx="10" cy="-35" r="15" fill="url(#northern-lights)" />
+<circle cx="50" cy="-35" r="15" fill="url(#northern-lights)" />
+
+<!-- Hood (semicircles) -->
+<path d="M20,-20 A 20,20 0 0 1 40,-20 A 20,20 0 0 1 20,-35 Z" fill="url(#igloo-gradient)" />
+
+<!-- Bodice (rectangle) -->
+<rect x="10" y="-40" width="50" height="35" fill="none" stroke="#000"/>
+
+<!-- Skirt (rectangle) -->
+<rect x="10" y="-20" width="50" height="60" fill="url(#northern-lights)" />
+
+<!-- Sewing lines (for assembly) -->
+<line x1="10" y1="-35" x2="50" y2="-35" stroke="#000"/>
+<line x1="35" y1="-40" x2="35" y2="-80" stroke="#000"/>
+
+<!-- Gradients and patterns -->
+<defs>
+  <linearGradient id="igloo-gradient" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(239,167,84);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+  </linearGradient>
+  <pattern id="northern-lights" patternUnits="userSpaceOnUse" width="30" height="30">
+    <image href="https://i.imgur.com/9v5VYXM.png" x="0" y="0" width="30" height="30"/>
+  </pattern>
+</defs>
+
+</svg>

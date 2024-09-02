@@ -1,0 +1,20 @@
+<svg width="100%" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 700 400">
+  <!-- Igloo -->
+  <path id="igloo" d="M 200,100 A 100,100 0 0 0 300,100 A 100,100 0 0 0 200,200 Z"/>
+  <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="8s" repeatCount="indefinite"/>
+
+  <!-- Bars and beats -->
+  <g id="bar1">
+    <circle cx="50" cy="150" r="20" fill="#FF7F50"/>
+    <animate attributeName="cy" values="150;200;150" dur="2s" repeatCount="indefinite"/>
+  </g>
+  <g id="bar2">
+    <circle cx="150" cy="150" r="20" fill="#FFFF00"/>
+    <animate attributeName="cy" values="150;200;150" dur="2s" begin="bar1.end" repeatCount="indefinite"/>
+  </g>
+  <!-- Repeat bar2 for bars 3 to 8 -->
+
+  <!-- Path transitions -->
+  <path id="transition1" d="M 50,150 Q 100,200 150,150" stroke="#00BFFF" fill="transparent"/>
+  <animate attributeName="d" values="M 50,150 Q 100,200 150,150; M 150,150 Q 200,200 250,150" dur="8s" repeatCount="indefinite"/>
+</svg>

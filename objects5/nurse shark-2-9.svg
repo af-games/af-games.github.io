@@ -1,0 +1,27 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Grid -->
+<rect width="600" height="400" fill="#E8E8E8"/>
+<path d="M10,10 H590 V390" stroke="#CCC"/>
+
+<!-- Clues (small shapes) -->
+<circle cx="200" cy="150" r="5" fill="#FF6347"/>
+<rect x="150" y="280" width="50" height="20" fill="#FF6347"/>
+
+<!-- Suspects (medium shapes) -->
+<ellipse cx="300" cy="200" rx="30" ry="20" fill="#32CD32"/>
+<polygon points="380,10 450,10 450,80" fill="#32CD32"/>
+
+<!-- Culprits (large shapes) -->
+<circle cx="450" cy="250" r="50" fill="#FFD700"/>
+<polygon points="320,320 400,320 360,390" fill="#FFD700"/>
+
+<!-- Labels -->
+<text x="185" y="160" font-family="Verdana" font-size="12">Clue 1</text>
+<text x="165" y="300" font-family="Verdana" font-size="12">Clue 2</text>
+<text x="285" y="210" font-family="Verdana" font-size="12">Suspect 1</text>
+<text x="410" y="60" font-family="Verdana" font-size="12">Suspect 2</text>
+<text x="435" y="260" font-family="Verdana" font-size="12">Culprit 1</text>
+<text x="305" y="370" font-family="Verdana" font-size="12">Culprit 2</text>
+
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Igloo body -->
+  <circle cx="0" cy="60" r="90" fill="white" stroke="black"/>
+
+  <!-- Roof -->
+  <path d="M0,60 A90,90 0 0 1 0,-60" fill="white" stroke="black"/>
+
+  <!-- Entrance -->
+  <polygon points="-45,-60 45,-60 -22.5,-82.5" fill="white" stroke="black"/>
+
+  <!-- Windows (4 circles) -->
+  <circle cx="-37.5" cy="15" r="10"/>
+  <circle cx="37.5" cy="15" r="10"/>
+  <circle cx="-37.5" cy="45" r="10"/>
+  <circle cx="37.5" cy="45" r="10"/>
+
+  <!-- Interior lines (2 rectangles) -->
+  <rect x="-90" y="60" width="180" height="15" fill="black"/>
+  <rect x="-90" y="90" width="180" height="15" fill="black"/>
+
+  <!-- Chimney (triangle) -->
+  <polygon points="-45,30 -22.5,-82.5 67.5,-82.5" fill="white" stroke="black"/>
+</svg>

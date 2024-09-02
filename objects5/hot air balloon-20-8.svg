@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Hot Air Balloon -->
+<path d="M400 100 Q500 150, 600 100 Q500 50, 400 100" stroke="orange" fill="transparent" stroke-width="5"/>
+<circle cx="400" cy="70" r="30" fill="#FFC107"/>
+<path d="M380 65 Q420 90, 460 65" stroke="black" fill="transparent"/>
+
+<!-- Fruits Basket -->
+<rect x="150" y="250" width="200" height="150" rx="10" ry="10" fill="#FFD700"/>
+<circle cx="200" cy="350" r="40" fill="#FF6B81"/>
+<circle cx="250" cy="300" r="30" fill="#FF8C00"/>
+<circle cx="180" cy="320" r="35" fill="#D1CD1A"/>
+
+<!-- Champagne Bottle -->
+<path d="M70 400 Q100 450, 150 400 Q200 350, 250 400 Q300 450, 350 400" stroke="#CBCDCB" fill="transparent" stroke-width="5"/>
+<circle cx="280" cy="360" r="15" fill="#CBCDCB"/>
+
+<!-- Tableware -->
+<rect x="50" y="450" width="70" height="30" rx="5" ry="5" fill="#FF6F91"/>
+<path d="M120 450 Q180 550, 240 450" stroke="#FF6F91" fill="transparent"/>
+
+<!-- Garnishes -->
+<circle cx="650" cy="300" r="20" fill="#FFD700"/>
+<path d="M620 320 Q680 380, 740 320" stroke="#FF6B81" fill="transparent" stroke-width="5"/>
+
+<!-- Text -->
+<text x="10%" y="95%" text-anchor="start" font-family="Verdana" font-size="30px" fill="black">Bon appétit!</text>
+
+</svg>

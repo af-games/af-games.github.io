@@ -1,0 +1,26 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo Dome -->
+  <path id="igloo_dome" d="M100,20 A80,80 0 1 1 300,20 80,80 0 1 1 100,200" fill="#FFFFFF" stroke="#000000"/>
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 250 100"
+    to="360 250 100"
+    dur="5s"
+    repeatCount="indefinite" />
+
+  <!-- Igloo Base -->
+  <rect id="igloo_base" x="70" y="180" width="360" height="20" fill="#FFFFFF" stroke="#000000"/>
+
+  <!-- Igloo Door -->
+  <path id="igloo_door" d="M150,200 V140 H250 V200 H350 V360 H150 Z" fill="#FFFFFF" stroke="#000000"/>
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0 0"
+    to="200 0"
+    dur="2s"
+    repeatCount="alternate"/>
+
+</svg>

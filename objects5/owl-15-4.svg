@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<!-- Major Landmarks and Boundaries -->
+<path d="M10,10 H790 L790,590 Q400,620 10,590 Z" fill="#C0C0C0"/>
+
+<!-- Owl's Nest -->
+<circle cx="200" cy="300" r="80" fill="#FFD700"/>
+<text x="205" y="320" font-family="Verdana" text-anchor="middle" font-size="14">Owl's Nest</text>
+
+<!-- Forest of Whispers -->
+<path d="M350,250 Q380,180 600,250 Q350,320 300,320 Z" fill="#009900"/>
+<text x="475" y="270" font-family="Verdana" text-anchor="middle" font-size="14">Forest of Whispers</text>
+
+<!-- Crystal Caverns -->
+<path d="M600,350 Q580,420 620,420 Q600,460 580,460 Z" fill="#ADD8E6"/>
+<text x="610" y="400" font-family="Verdana" text-anchor="middle" font-size="14">Crystal Caverns</text>
+
+<!-- Roads -->
+<path d="M50,200 Q100,300 200,200" stroke="#FF69B4" fill="transparent"/>
+<path d="M700,200 Q600,300 500,200" stroke="#FF69B4" fill="transparent"/>
+
+<!-- Rivers -->
+<path d="M100,400 Q200,350 300,400 Q400,450 500,400" stroke="#0000FF" fill="transparent"/>
+
+<!-- Points of Interest -->
+<circle cx="150" cy="450" r="20" fill="#FFFF00"/>
+<text x="160" y="470" font-family="Verdana" text-anchor="middle" font-size="12">Golden Falls</text>
+
+<!-- Legend -->
+<rect width="80" height="50" x="10" y="540" fill="#C0C0C0"/>
+<text x="30" y="570" font-family="Verdana" text-anchor="start">Land</text>
+<circle cx="60" cy="570" r="5" fill="#FFD700"/>
+<text x="70" y="570" font-family="Verdana" text-anchor="start">Owl's Nest</text>
+
+</svg>

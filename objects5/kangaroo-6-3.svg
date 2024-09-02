@@ -1,0 +1,10 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="250" cy="200" rx="150" ry="200"/>
+
+  <!-- Head -->
+  <circle cx="170" cy="100" r="40"/>
+
+  <!-- Pouch -->
+  <path d="M360,280 Q420,220 460,280 H490 V350 H460 Z"/>
+</svg>

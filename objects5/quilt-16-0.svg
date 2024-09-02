@@ -1,0 +1,25 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#F5DEB3"/>
+
+  <!-- Dark blue squares -->
+  <rect x="100" y="100" width="100" height="100" fill="#191970"/>
+  <rect x="200" y="200" width="100" height="100" fill="#191970"/>
+  <rect x="300" y="300" width="100" height="100" fill="#191970"/>
+
+  <!-- White squares -->
+  <rect x="200" y="100" width="100" height="100" fill="#FFFFFF"/>
+  <rect x="300" y="200" width="100" height="100" fill="#FFFFFF"/>
+
+  <!-- Stitching -->
+  <line x1="95" y1="100" x2="405" y2="100" stroke="#000000"/>
+  <line x1="100" y1="95" x2="100" y2="405" stroke="#000000"/>
+  <!-- Repeat similar lines for other square edges -->
+
+  <!-- Cross-stitch motif -->
+  <circle cx="300" cy="250" r="5" fill="#191970"/>
+  <line x1="280" y1="260" x2="320" y2="260" stroke="#191970"/>
+  <line x1="300" y1="240" x2="300" y2="280" stroke="#191970"/>
+
+</svg>

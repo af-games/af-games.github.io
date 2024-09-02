@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Sand -->
+  <rect id="sand" x="0" y="400" width="500" height="100" fill="#FFD700"/>
+  <defs>
+    <pattern id="sandTexture" patternUnits="userSpaceOnUse">
+      <image href="https://i.imgur.com/Gm6Yk5j.png" x="0" y="0" width="20" height="20"></image>
+    </pattern>
+  </defs>
+  <rect x="0" y="400" width="500" height="100" fill="url(#sandTexture)"/>
+
+  <!-- Ocean floor -->
+  <rect id="oceanFloor" x="0" y="300" width="500" height="100" fill="#F8F9FA"/>
+  <defs>
+    <pattern id="pebbles" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="5" fill="#777"></circle>
+      <translate transform="translate(20, 0)"></translate>
+      <circle cx="10" cy="10" r="5" fill="#777"></circle>
+    </pattern>
+  </defs>
+  <rect x="0" y="300" width="500" height="100" fill="url(#pebbles)"/>
+
+  <!-- Mermaid's tail -->
+  <polygon id="mermaidTail" points="250,400 400,200 100,200" fill="#70DB93"/>
+  <defs>
+    <pattern id="waves" patternUnits="userSpaceOnUse">
+      <image href="https://i.imgur.com/9yVrTZS.png" x="0" y="0" width="10" height="15"></image>
+    </pattern>
+  </defs>
+  <polygon id="mermaidTailPattern" points="250,400 400,200 100,200" fill="url(#waves)"/>
+  <rect x="375" y="200" width="125" height="200" fill="#2E4053"/>
+
+  <!-- Mermaid's upper body and hair -->
+  <ellipse cx="250" cy="150" rx="100" ry="150" fill="#FFFFFF"/>
+  <circle cx="275" cy="75" r="25"></circle>
+  <circle cx="325" cy="75" r="25"></circle>
+
+  <!-- Bubbles -->
+  <circle cx="150" cy="400" r="10"></circle>
+  <circle cx="200" cy="350" r="8"></circle>
+  <circle cx="250" cy="450" r="12"></circle>
+
+</svg>

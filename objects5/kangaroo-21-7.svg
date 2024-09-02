@@ -1,0 +1,39 @@
+<svg>` land. I've drawn a rectangle as my tent with `width="980"` and `height="640"`.
+
+```html
+<svg width="980" height="640">
+```
+
+**Day 2:**
+
+Gathered resources:
+- A circle for the head (`r="100"`)
+- Two rectangles for the ears (`width="50", height="70"` each)
+- An ellipse for the body (`rx="300", ry="200"`)
+- A rectangle for the pouch (`width="150", height="120"`)
+- Two rectangles for the legs (`width="40", height="200"` each)
+
+**Day 3:**
+
+Collected colors from the local flora:
+- Brown: `#8B4513`
+- Grey: `#A9A9A9`
+
+Marked paths with SVG code:
+
+```html
+<circle cx="400" cy="250" r="100" fill="#A9A9A9"/>
+<rect x="350" y="180" width="50" height="70" fill="#A9A9A9"/>
+<rect x="450" y="180" width="50" height="70" fill="#A9A9A9"/>
+<ellipse cx="400" cy="350" rx="300" ry="200" fill="#8B4513"/>
+<rect x="375" y="450" width="150" height="120" fill="#A9A9A9"/>
+<rect x="350" y="550" width="40" height="200" fill="#8B4513"/>
+<rect x="450" y="550" width="40" height="200" fill="#8B4513"/>
+```
+
+**Day 4:**
+
+Completed the path marking and prepared to head back home.
+
+```html
+</svg>

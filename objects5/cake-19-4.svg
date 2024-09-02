@@ -1,0 +1,21 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="50" y="100" width="100" height="50" fill="#f4a460"/>
+
+  <!-- Cake Top -->
+  <circle cx="100" cy="75" r="50" fill="#fff"/>
+  <circle cx="100" cy="75" r="45" stroke="#ddd" stroke-width="3" fill="transparent"/>
+
+  <!-- Frosting Layers -->
+  <circle cx="90" cy="65" r="35" fill="#f8eaea"/>
+  <circle cx="110" cy="65" r="35" fill="#f8eaea"/>
+
+  <!-- Cherry on Top -->
+  <circle cx="100" cy="40" r="7" fill="#ff0000"/>
+
+  <!-- Icing Patterns (Symmetrical Repeat) -->
+  <path d="M60,90 A25,25 0 1,0 80,90 A25,25 0 1,0 60,90" stroke="#ddd" fill="transparent"/>
+  <path d="M75,90 A25,25 0 1,0 95,90 A25,25 0 1,0 75,90" stroke="#ddd" fill="transparent"/>
+
+</svg>

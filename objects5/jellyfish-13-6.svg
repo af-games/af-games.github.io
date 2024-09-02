@@ -1,0 +1,33 @@
+<svg width="1400" height="2100" xmlns="http://www.w3.org/2000/svg" style="fill:white;stroke:black;stroke-width:1">
+
+  <!-- Jellyfish Tunic -->
+
+  <!-- Bodice (Front) -->
+  <rect id="bodice-front" x="500" y="200" width="400" height="800"
+    style="fill:linear-gradient(#9CBBDA, #61A0B7); stroke-width:3;"/>
+
+  <!-- Bodice (Back) -->
+  <rect id="bodice-back" x="500" y="200" width="400" height="800"
+    style="fill:linear-gradient(#9CBBDA, #61A0B7); stroke-width:3;"/>
+
+  <!-- Sleeve (Left) -->
+  <circle id="sleeve-left" cx="250" cy="400" r="300"
+    style="fill:url(#pattern-jellyfish); stroke-width:3;"/>
+
+  <!-- Sleeve (Right) -->
+  <circle id="sleeve-right" cx="850" cy="400" r="300"
+    style="fill:url(#pattern-jellyfish); stroke-width:3;"/>
+
+  <!-- Pattern Definition -->
+  <defs>
+    <linearGradient id="gradient-belly" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9CBBDA"/>
+      <stop offset="100%" style="stop-color:#61A0B7"/>
+    </linearGradient>
+
+    <pattern id="pattern-jellyfish" patternUnits="userSpaceOnUse" width="100" height="100">
+      <image href="https://i.imgur.com/2KLkFJj.png" x="0" y="0" width="100" height="100"/>
+    </pattern>
+  </defs>
+
+</svg>

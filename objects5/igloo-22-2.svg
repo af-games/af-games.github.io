@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Outer dome -->
+  <path d="M0,-50 A50,50 0 0 1 0,50" stroke="black" fill="none"/>
+  <path d="M0,-50 A50,50 0 0 1 0,50" stroke="#fff" fill="none" opacity="0.3"/>
+
+  <!-- Inner dome -->
+  <path d="M0,-40 A40,40 0 0 1 0,40" stroke="black" fill="white"/>
+  <path d="M0,-40 A40,40 0 0 1 0,40" stroke="#fff" fill="none" opacity="0.7"/>
+
+  <!-- Door -->
+  <rect x="-25" y="-35" width="50" height="10" rx="5" fill="black"/>
+  <path d="M-18,-30 L0,-40 L18,-30 Z" stroke="white" fill="none"/>
+
+</svg>

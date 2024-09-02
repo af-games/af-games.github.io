@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Igloo -->
+  <path id="igloo" fill="url(#iglooGradient)" d="M400,150 A150,150 0 1 1 400,300 A150,150 0 1 1 400,150 Z"/>
+  <defs>
+    <linearGradient id="iglooGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(239,248,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(170,216,236);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hills -->
+  <path fill="url(#hillPattern)" d="M50,400 Q100,350 150,300 Q250,350 300,400 Q350,350 400,300 Q450,350 500,400 Q550,350 600,300 Q650,350 700,400"/>
+
+  <!-- Trees -->
+  <g stroke="black" fill="green">
+    <circle cx="200" cy="250" r="50"/>
+    <circle cx="300" cy="350" r="60"/>
+    <circle cx="550" cy="280" r="70"/>
+    <circle cx="650" cy="320" r="60"/>
+  </g>
+
+  <!-- River -->
+  <path fill="url(#riverGradient)" d="M10,100 Q50,200 150,250 Q250,200 350,150 Q450,200 550,250 Q650,200 700,100"/>
+  <defs>
+    <linearGradient id="riverGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(86,193,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(142,222,255);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hill pattern -->
+  <pattern id="hillPattern" x="0" y="0" width="20" height="20">
+    <rect width="20" height="20" fill="#9dd7e5"/>
+    <circle cx="10" cy="10" r="6" fill="#8db1ac"/>
+  </pattern>
+
+</svg>

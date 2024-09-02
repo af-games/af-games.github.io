@@ -1,0 +1,32 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kangaroo body -->
+  <circle id="kangarooBody" cx="250" cy="180" r="100" fill="brown"/>
+  <animateTransform attributeName="cx"
+                    type="translate"
+                    values="240;260;240"
+                    dur="1s"
+                    repeatCount="indefinite" />
+
+  <!-- Kangaroo head -->
+  <circle id="kangarooHead" cx="250" cy="130" r="40" fill="brown"/>
+  <animateTransform attributeName="cx"
+                    type="translate"
+                    values="245;255;245"
+                    dur="1s"
+                    repeatCount="indefinite" />
+
+  <!-- Kangaroo pouch -->
+  <circle id="kangarooPouch" cx="260" cy="230" r="30" fill="white"/>
+  <animate attributeName="cy"
+            values="230;240;230"
+            dur="1s"
+            repeatCount="indefinite" />
+
+  <!-- Interaction: A joey hopping into the pouch -->
+  <circle id="joey" cx="350" cy="300" r="15" fill="tan"/>
+  <animate attributeName="cx"
+            values="350;260;350"
+            dur="2s"
+            repeatCount="indefinite" />
+  <set attributeName="cy" to="230" begin="joey.end"/>
+</svg>

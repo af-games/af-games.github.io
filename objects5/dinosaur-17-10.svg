@@ -1,0 +1,54 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+```
+
+**Step 2: Begin drawing tentative lines and shapes using `<path>` elements**
+
+Let's start by sketching a simple dinosaur shape. We'll use cubic Bézier curves for the body and linear gradients for color fills.
+
+```svg
+<path id="dinosaur-body" d="M100,50 Q150,75 200,100 C300,200 400,150 500,100 Q600,75 700,50 Z"
+      fill="url(#dinosaur-body-gradient)" />
+```
+
+**Step 3: Add more features with circles and rectangles**
+
+Now let's add some eyes and a spike on the dinosaur's tail using `<circle>` and `<rect>` elements.
+
+```svg
+<circle id="eye-left" cx="120" cy="80" r="5" fill="black"/>
+<circle id="eye-right" cx="680" cy="80" r="5" fill="black"/>
+<rect id="spike" x="720" y="40" width="30" height="100" fill="brown"/>
+```
+
+**Step 4: Define gradients and other attributes**
+
+Let's define a linear gradient for the dinosaur body and set some IDs for easier reference.
+
+```svg
+<defs>
+  <linearGradient id="dinosaur-body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(63,94,139);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(139,178,216);stop-opacity:1" />
+  </linearGradient>
+</defs>
+```
+
+**Step 5: Write out the final draft**
+
+Here's our dinosaur SVG map:
+
+```svg
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <path id="dinosaur-body" d="M100,50 Q150,75 200,100 C300,200 400,150 500,100 Q600,75 700,50 Z"
+        fill="url(#dinosaur-body-gradient)" />
+  <circle id="eye-left" cx="120" cy="80" r="5" fill="black"/>
+  <circle id="eye-right" cx="680" cy="80" r="5" fill="black"/>
+  <rect id="spike" x="720" y="40" width="30" height="100" fill="brown"/>
+
+  <defs>
+    <linearGradient id="dinosaur-body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(63,94,139);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(139,178,216);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

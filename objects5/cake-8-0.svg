@@ -1,0 +1,30 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Base -->
+  <circle cx="150" cy="260" r="90" fill="#FDD7AA" />
+
+  <!-- Top Layer -->
+  <circle cx="145" cy="235" r="80" fill="#F5BFAA" />
+
+  <!-- Frosting -->
+  <circle cx="150" cy="225" r="95" fill="url(#frosting)" />
+  <defs>
+    <radialGradient id="frosting" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E4D2C3;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Cake Topping -->
+  <polygon points="150,175 180,195 210,175 180,155" fill="#FDD7AA" />
+
+  <!-- Icing Details -->
+  <circle cx="140" cy="205" r="5" fill="#FFFFFF" />
+  <circle cx="160" cy="195" r="5" fill="#FFFFFF" />
+  <circle cx="180" cy="210" r="5" fill="#FFFFFF" />
+
+  <!-- Fruit toppings -->
+  <circle cx="135" cy="185" r="4" fill="#FF6B9C" />
+  <circle cx="155" cy="170" r="4" fill="#FF6B9C" />
+  <circle cx="175" cy="188" r="4" fill="#FF6B9C" />
+
+</svg>

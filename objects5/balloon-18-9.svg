@@ -1,0 +1,55 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+```
+
+Now, let's start with the first measure. We'll draw the ground (a rectangle) and the basket (another rectangle):
+
+```svg
+<rect x="100" y="500" width="600" height="50" style="fill:rgb(87, 149, 238); stroke:black;" />
+<rect x="200" y="450" width="400" height="50" style="fill:rgb(165, 42, 42); stroke:black;" />
+```
+
+Next, we'll add the first balloon:
+
+```svg
+<circle cx="350" cy="200" r="50" style="fill:rgb(255,215,0); stroke:black;">
+  <animate attributeName="cy" values="200;400;200" dur="2s" repeatCount="indefinite" />
+</circle>
+```
+
+Now, let's add the second balloon with a slight delay and a different color:
+
+```svg
+<circle cx="550" cy="150" r="60" style="fill:rgb(255,73,94); stroke:black;">
+  <animate attributeName="cy" values="150;450;150" dur="2s" repeatCount="indefinite" begin="2s" />
+</circle>
+```
+
+We'll add strings between the balloons and the basket:
+
+```svg
+<line x1="350" y1="450" x2="350" y2="250">
+  <animate attributeName="y2" values="250;450;250" dur="2s" repeatCount="indefinite" />
+</line>
+<line x1="550" y1="450" x2="550" y2="300">
+  <animate attributeName="y2" values="300;450;300" dur="2s" repeatCount="indefinite" begin="2s" />
+</line>
+```
+
+For the climax, we'll add a third balloon that grows in size:
+
+```svg
+<circle cx="450" cy="100" r="40">
+  <animate attributeName="r" values="40;80;40" dur="2s" repeatCount="indefinite" begin="4s" />
+</circle>
+```
+
+Finally, for the resolution, we'll make all balloons slowly descend out of sight:
+
+```svg
+<animate attributeName="cy" values="400;600" dur="3s" repeatCount="1" begin="6s" />
+```
+
+Now, let's close the SVG tag:
+
+```svg
+</svg>

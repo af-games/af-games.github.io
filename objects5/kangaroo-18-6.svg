@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Head -->
+  <circle cx="150" cy="100" r="60" fill="#228B22" stroke="#000" stroke-width="3"/>
+
+  <!-- Body -->
+  <ellipse cx="150" cy="200" rx="90" ry="70" fill="#66BB6A" stroke="#000" stroke-width="3">
+
+    <!-- Pouch -->
+    <circle cx="140" cy="180" r="40" fill="#98FB98"/>
+  </ellipse>
+
+  <!-- Legs and Tail (Rhythmic Lines) -->
+  <g stroke="#000" stroke-width="3">
+    <path d="M50,270 Q60,310 120,310 Q140,280 190,310"/>
+    <path d="M350,270 Q340,310 280,310 Q240,280 210,310"/>
+    <path d="M160,360 Q190,400 190,450"/>
+  </g>
+</svg>

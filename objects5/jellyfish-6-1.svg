@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <!-- Body -->
+  <circle cx="25" cy="25" r="20" fill="#F4D03C"/>
+
+  <!-- Tentacles (8 identical tentacles) -->
+  <g id="tentacle" transform="rotate(45)">
+    <path d="M25,15 Q30,20 35,15" stroke="#FFF" fill="transparent"/>
+    <use xlink:href="#tentacle" transform="rotate(90)"/>
+    <use xlink:href="#tentacle" transform="rotate(180)"/>
+    <use xlink:href="#tentacle" transform="rotate(270)"/>
+    <use xlink:href="#tentacle" transform="rotate(360)"/>
+  </g>
+
+  <!-- Oral arms (4 identical oral arms) -->
+  <g id="oral-arm" transform="rotate(90)">
+    <path d="M25,10 Q20,5 25,0" stroke="#FFF" fill="transparent"/>
+    <use xlink:href="#oral-arm" transform="rotate(-90)"/>
+    <use xlink:href="#oral-arm" transform="rotate(180)"/>
+    <use xlink:href="#oral-arm" transform="rotate(-180)"/>
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="22" cy="18" r="1.5" fill="#FFF"/>
+  <circle cx="28" cy="18" r="1.5" fill="#FFF"/>
+
+</svg>

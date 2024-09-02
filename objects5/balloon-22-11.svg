@@ -1,0 +1,24 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define a gradient for the balloons -->
+  <defs>
+    <linearGradient id="balloonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Create some balloons -->
+  <circle cx="50" cy="50" r="40" fill="url(#balloonGradient)" stroke-width="3" stroke="black">
+    <animateMotion begin="0s" dur="2s" repeatCount="indefinite">
+      <mpath href="#path1" />
+    </animateMotion>
+  </circle>
+
+  <!-- Create a path for the stem and leaves -->
+  <path id="path1" d="M50,90 Q80,40 130,90" stroke="green" stroke-width="5">
+
+    <!-- Add some leaves -->
+    <polygon points="120,90 150,70 120,50" fill="green"/>
+
+  </path>
+</svg>

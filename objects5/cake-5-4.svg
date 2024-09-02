@@ -1,0 +1,23 @@
+<svg>` tag. I've used circles for the cake layers, rectangles for the board, and paths for the frosting details. The design has some symmetry and repetition to create balance.
+
+```xml
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Layers -->
+  <circle cx="100" cy="75" r="60" fill="#FFF"/>
+  <circle cx="100" cy="145" r="60" fill="#FFF"/>
+  <circle cx="100" cy="215" r="60" fill="#FFF"/>
+
+  <!-- Frosting -->
+  <path d="M80 75 Q90 60, 100 75" stroke="#CCC" stroke-width="10"/>
+  <path d="M120 75 Q130 60, 140 75" stroke="#CCC" stroke-width="10"/>
+
+  <!-- Cake Board -->
+  <rect x="80" y="245" width="40" height="20" fill="#B2A799"/>
+  <rect x="140" y="245" width="40" height="20" fill="#B2A799"/>
+
+  <!-- Candles -->
+  <rect x="85" y="35" width="10" height="60" fill="#FDD700"/>
+  <rect x="135" y="35" width="10" height="60" fill="#FDD700"/>
+
+</svg>

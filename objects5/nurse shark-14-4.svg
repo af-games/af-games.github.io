@@ -1,0 +1,16 @@
+<svg width="500" height="500" viewBox="0 0 100 100">
+
+  <!-- Mountains -->
+  <polygon points="20,0 80,0 60,40" fill="#2c3e50" opacity="0.7"/>
+
+  <!-- Forests -->
+  <ellipse cx="40" cy="30" rx="15" ry="20" fill="#384f34"/>
+  <ellipse cx="60" cy="50" rx="15" ry="20" fill="#384f34"/>
+
+  <!-- Rivers -->
+  <path d="M90,20 Q70,30 50,40 Q30,30 10,20" stroke="#b2ebf2" fill="transparent"/>
+
+  <!-- Nurse Shark's starting point -->
+  <circle cx="10" cy="80" r="5" fill="#ff7a00"/>
+
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Styles -->
+  <style>
+    .sunnymood { fill: yellow; }
+    .grassmood { fill: green; }
+    .skymood { fill: lightblue; }
+    .animals { stroke-width: 5px; stroke: black; }
+    .speech { fill: white; stroke: black; }
+  </style>
+
+  <!-- Background -->
+  <rect class="sunnymood" width="1200" height="800"/>
+
+  <!-- Scenes -->
+
+  <!-- Introduction -->
+  <circle cx="400" cy="300" r="150" class="animals"/>
+  <text x="370" y="380">Once upon a time in the African savannah, there lived a curious giraffe named吉拉 (Jila).</text>
+
+  <!-- Discovering the Hidden Well -->
+  <circle cx="600" cy="250" r="150" class="animals"/>
+  <path d="M450,370 Q500,300 600,250" stroke="black" class="animals"/>
+  <text x="570" y="290">What's that?</text>
+
+  <!-- Mystery of the Hidden Well -->
+  <rect x="400" y="150" width="400" height="300" fill="brown" class="animals"/>
+  <text x="600" y="200">Why is it dry?</text>
+
+  <!-- Giraffe's Quest -->
+  <circle cx="800" cy="350" r="150" class="animals"/>
+  <path d="M400,450 Q600,400 800,450" stroke="black" class="animals"/>
+  <text x="770" y="390">I'll find out why!</text>
+
+  <!-- Meeting the Wise Elephant -->
+  <circle cx="1000" cy="550" r="200" fill="gray" class="animals"/>
+  <circle cx="800" cy="400" r="150" class="animals"/>
+  <path d="M800,370 Q900,450 1000,550" stroke="black" class="animals"/>
+  <text x="950" y="520">Elephant says, "The rains haven't come in years."</text>
+
+  <!-- Giraffe's Plan -->
+  <circle cx="400" cy="600" r="150" class="animals"/>
+  <path d="M400,570 Q500,650 400,720" stroke="black" class="animals"/>
+  <text x="370" y="670">I'll ask the clouds!</text>
+
+  <!-- Calling the Clouds -->
+  <circle cx="600" cy="400" r="150" class="animals"/>
+  <path d="M600,370 Q700,250 800,350" stroke="black" class="animals"/>
+  <circle cx="800" cy="300" r="50" fill="white"/>
+  <text x="770" y="420">Clouds, please come and fill our well!</text>
+
+  <!-- The Well is Full Again -->
+  <rect x="400" y="150" width="400" height="300" fill="blue" class="animals"/>
+  <path d="M600,280 Q700,350 800,420" stroke="black" class="animals"/>
+  <text x="770" y="490">Everyone thanked Jila for bringing back the rain and filling the well again.</text>
+
+</svg>

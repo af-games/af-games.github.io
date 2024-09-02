@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Balloon envelope -->
+  <circle cx="175" cy="80" r="90" fill="#FFCC99"/>
+  <path d="M175,80 Q235,40 235,150" stroke="none" fill="#FFCC99"/>
+
+  <!-- Balloon basket -->
+  <rect x="160" y="150" width="25" height="120" fill="#775B3D"/>
+  <rect x="185" y="150" width="25" height="120" fill="#775B3D"/>
+
+  <!-- Balloon ropes -->
+  <path d="M160,370 Q190,450 230,450" stroke="#5F412E" fill="transparent"/>
+  <path d="M280,370 Q230,450 210,450" stroke="#5F412E" fill="transparent"/>
+
+  <!-- Balloon burner flames -->
+  <circle cx="200" cy="390" r="15" fill="#FF6600"/>
+  <path d="M185,375 Q200,390 215,375" stroke="none" fill="#FF6600"/>
+
+</svg>

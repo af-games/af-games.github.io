@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300" preserveAspectRatio="xMidYMid meet">
+
+<!-- Define colors for musical notes -->
+<defs>
+    <linearGradient id="noteC" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:rgb(255,204,102);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="noteD" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:rgb(196,143,255);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </linearGradient>
+</defs>
+
+<!-- Igloo -->
+<circle cx="-75" cy="75" r="75" fill="#ffffff">
+    <animateMotion begin="0s" dur="4s" repeatCount="indefinite">
+        <mpath href="#iglooPath"/>
+    </animateMotion>
+</circle>
+
+<!-- Bars and beats -->
+<path id="bar1" d="M-200 50 Q-175 60, -150 50 T -125 50 Q-100 60, -75 50 Z">
+    <animate attributeName="d" begin="0s" dur="4s" repeatCount="indefinite">
+        <mpath href="#beatPath"/>
+    </animate>
+</path>
+<path id="bar2" d="M-125 50 Q-100 60, -75 50 T -50 50 Q-25 60, 0 50 Z">
+    <animate attributeName="d" begin="1s" dur="4s" repeatCount="indefinite">
+        <mpath href="#beatPath"/>
+    </animate>
+</path>
+
+<!-- Beat pattern -->
+<path id="beatPath" d="M-200 75 Q-180 80, -160 75 T -140 75 Q-120 80, -100 75 Z">
+    <animate attributeName="fill" begin="0s" dur="4s" repeatCount="indefinite">
+        <animateMotion>
+            <mpath href="#notePath"/>
+        </animateMotion>
+    </animate>
+</path>
+
+<!-- Note transitions -->
+<path id="notePath" d="M-200 75 Q-180 80, -160 75 T -140 75 Q-120 80, -100 75 Z M-100 75 Q-80 80, -60 75 T -40 75 Q-20 80, 0 75">
+    <animate attributeName="stroke" begin="0s" dur="4s" repeatCount="indefinite">
+        <mpath href="#noteCPath"/>
+        <mpath href="#noteDPath"/>
+    </animate>
+</path>
+
+<!-- Note colors -->
+<path id="noteCPath" d="M-200 75 Q-180 80, -160 75 Z">
+    <animate attributeName="fill" begin="0s" dur="2s" repeatCount="indefinite">
+        <stop offset="0%" style="stop-color:rgb(255,204,102);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </animate>
+</path>
+<path id="noteDPath" d="M-60 75 Q-80 80, -40 75 Z">
+    <animate attributeName="fill" begin="2s" dur="2s" repeatCount="indefinite">
+        <stop offset="0%" style="stop-color:rgb(196,143,255);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </animate>
+</path>
+
+<!-- Igloo path -->
+<path id="iglooPath" d="M-75 150 A75 75,0,0,1,-75 -75 V0 H75 Z"/>
+</svg>

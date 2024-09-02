@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Velvet texture pattern -->
+  <defs>
+    <pattern id="velvet" width="5" height="5" patternUnits="userSpaceOnUse">
+      <circle cx="2.5" cy="2.5" r="1.5" fill="#C0C0C0" />
+    </pattern>
+  </defs>
+
+  <!-- Black velvet background -->
+  <rect width="200" height="200" fill="#000000" />
+
+  <!-- Mermaid body and tail -->
+  <path d="M100 50 C120 30, ... Z" fill="url(#mermaidGradient)" stroke="#C0C0C0" stroke-width="2" />
+
+  <!-- Mermaid hair -->
+  <path d="M90 20 Q110 10, ... Z" fill="url(#hairGradient)" stroke="#C0C0C0" stroke-width="1" />
+
+  <!-- Mermaid outline -->
+  <path d="M100 50 C120 30, ... Z" fill="none" stroke="#C0C0C0" stroke-width="2" />
+</svg>

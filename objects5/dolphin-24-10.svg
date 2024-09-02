@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Define reusable shapes -->
+  <defs>
+    <path id="dolphin-head" d="M100,50 Q150,75 200,50..." />
+    <path id="dolphin-body" d="M200,50 Q350,150 400,50..." />
+    <circle id="eye" cx="80" cy="65" r="10" />
+    <rect id="fin" width="30" height="40" x="270" y="60" rx="5" />
+
+    <!-- SVG Filters -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="water-ripple">
+      <feTurbulence baseFrequency="0.02" numOctaves="1" result="turbulence"/>
+      <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="50"/>
+    </filter>
+  </defs>
+
+  <!-- Expedition route and landmarks -->
+  <path d="M100,50 ... L700,300" stroke="#0080FF" fill="transparent">
+    <animate attributeName="stroke-opacity" dur="2s" values="0;1;0;" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Landmarks -->
+  <use href="#dolphin-head" x="100" y="50" filter="url(#glow)"/>
+  <use href="#dolphin-body" x="200" y="50"/>
+  <circle cx="380" cy="150" r="75" fill="lightblue" filter="url(#water-ripple)"/>
+  <use href="#fin" x="400" y="60"/>
+
+</svg>

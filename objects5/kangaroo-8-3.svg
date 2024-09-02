@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <path d="M150 80 A30 30 0 0 1 200 80" fill="white" stroke="black"/>
+  <path d="M150 160 H200 V250 Q180 220 150 220 T175 190 Z" fill="darkbrown" stroke="black"/>
+  <path d="M140 250 Q160 300 180 350" fill="none" stroke="black"/>
+  <path d="M220 250 Q240 300 260 350" fill="none" stroke="black"/>
+
+  <!-- Ears -->
+  <path d="M180 120 A20 10 0 0 1 200 130 L200 90 Z"/>
+  <path d="M150 120 A20 10 0 0 1 160 130 L160 90 Z"/>
+
+</svg>

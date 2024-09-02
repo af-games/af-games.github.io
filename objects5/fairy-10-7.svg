@@ -1,0 +1,25 @@
+<svg width="500" height="500" viewBox="-10 -10 600 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Fairy silhouette -->
+    <path id="fairy" d="M10 40 Q50 10, 90 40 H80 V70 H90 Q60 90, 50 100 Z"/>
+
+    <!-- Hand wave path -->
+    <path id="wavePath" d="M300 150 Q280 180, 300 210"/>
+  </defs>
+
+  <!-- Fairy initial position -->
+  <use xlink:href="#fairy" transform="translate(200, 200) rotate(0)"/>
+
+  <!-- Hand wave animation (from t=0 to t=1s) -->
+  <animateMotion begin="0s" dur="1s" repeatCount="1">
+    <mpath href="#wavePath"/>
+  </animateMotion>
+
+  <!-- Twirling animation (from t=1s to t=2s) -->
+  <animateTransform attributeName="transform" type="rotate" from="0 300 300" to="360 300 300" begin="1s" dur="1s" repeatCount="1"/>
+
+  <!-- Flying animation (from t=2s to t=3s) -->
+  <animate attributeName="y" from="200" to="150" begin="2s" dur="1s" fill="freeze"/>
+  <animate attributeName="y" from="150" to="200" begin="3s" dur="1s"/>
+
+</svg>

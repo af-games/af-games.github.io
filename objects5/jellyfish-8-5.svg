@@ -1,0 +1,57 @@
+<svg width="500" height="400" xmlns="http://www.w-w3.org/1999/xhtml">
+  <!-- Jellyfish 1 -->
+  <g id="jellyfish1" transform="translate(100,200)">
+    <!-- Bell -->
+    <circle cx="50" cy="0" r="40" stroke="black" fill="transparent"/>
+    <!-- Tentacles -->
+    <g id="tentacles1">
+      <path d="M60,-30 Q90,-70 60,-100" stroke="black" fill="transparent"/>
+      <path d="M40,-30 Q20,-70 40,-100" stroke="black" fill="transparent"/>
+    </g>
+  </g>
+
+  <!-- Jellyfish 2 -->
+  <g id="jellyfish2" transform="translate(350,180)">
+    <!-- Bell -->
+    <circle cx="50" cy="0" r="35" stroke="black" fill="transparent"/>
+    <!-- Tentacles -->
+    <g id="tentacles2">
+      <path d="M60,-25 Q90,-65 60,-105" stroke="black" fill="transparent"/>
+      <path d="M40,-25 Q20,-65 40,-105" stroke="black" fill="transparent"/>
+    </g>
+  </g>
+
+  <!-- Animation: Move jellyfish across the screen -->
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="100,200"
+    to="400,200"
+    begin="0s" dur="5s"
+    repeatCount="indefinite"
+    id="animation1"/>
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="350,180"
+    to="700,180"
+    begin="0s" dur="5s"
+    repeatCount="indefinite"
+    id="animation2"/>
+
+  <!-- Animation: Wobble tentacles -->
+  <animate
+    attributeName="d"
+    from="M60,-30 Q90,-70 60,-100"
+    to="M60,-40 Q85,-80 60,-110"
+    begin="0s" dur="2s"
+    repeatCount="indefinite"
+    id="tentaclesAnimation1"/>
+  <animate
+    attributeName="d"
+    from="M40,-30 Q20,-70 40,-100"
+    to="M40,-40 Q15,-80 40,-110"
+    begin="0s" dur="2s"
+    repeatCount="indefinite"
+    id="tentaclesAnimation2"/>
+</svg>

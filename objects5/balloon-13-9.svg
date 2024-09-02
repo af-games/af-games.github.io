@@ -1,0 +1,47 @@
+<svg width="400" height="300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tempo -->
+  <rect width="400" height="300" fill="white"/>
+
+  <!-- Measures -->
+
+  <!-- Measure 1: Introduction -->
+  <circle cx="50%" cy="80%" r="60" fill="#ffa502" stroke="black">
+    <animate attributeName="cy"
+             begin="0s"
+             dur="2s"
+             from="80%"
+             to="70%"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Measure 2: Development -->
+  <circle cx="35%" cy="60%" r="40" fill="#ffd65b">
+    <animate attributeName="cy"
+             begin="2s"
+             dur="1.5s"
+             from="60%"
+             to="75%"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Measure 3: Climax -->
+  <circle cx="65%" cy="45%" r="80" fill="#ffff00">
+    <animate attributeName="cy"
+             begin="4s"
+             dur="1.2s"
+             from="45%"
+             to="60%"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Measure 4: Resolution -->
+  <circle cx="50%" cy="30%" r="100" fill="#d1fae5">
+    <animate attributeName="cy"
+             begin="5s"
+             dur="2s"
+             from="30%"
+             to="80%"
+             repeatCount="indefinite"/>
+  </circle>
+
+</svg>

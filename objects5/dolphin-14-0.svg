@@ -1,0 +1,25 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:steelblue; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:navy; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <path d="M100,50 Q90,30 80,40 Q70,60 80,80 Q90,120 100,130 Q110,120 120,80 Q130,60 140,40 Q150,30 140,50" fill="url(#grad1)" stroke="black"/>
+
+  <!-- Tail -->
+  <path d="M140,50 Q150,70 160,80 Q170,90 180,70 Q190,50 180,30" fill="url(#grad1)" stroke="black"/>
+
+  <!-- Left Fin -->
+  <path d="M80,40 Q70,20 60,40" fill="url(#grad1)" stroke="black"/>
+
+  <!-- Right Fin -->
+  <path d="M120,40 Q130,20 140,40" fill="url(#grad1)" stroke="black"/>
+
+  <!-- Eyes -->
+  <circle cx="95" cy="70" r="5" fill="white"/>
+  <circle cx="105" cy="70" r="5" fill="white"/>
+
+</svg>

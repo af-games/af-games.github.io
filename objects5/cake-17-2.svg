@@ -1,0 +1,21 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake -->
+  <rect x="150" y="50" width="200" height="250" rx="50" fill="#f3d8ba"/>
+  <path d="M170,100 Q200,50 230,100 T350,100 H400 V250 Q350,275 230,300 Q170,275 150,300 Z" fill="#eab688"/>
+
+  <!-- Cake Topper -->
+  <circle cx="225" cy="125" r="50" fill="#fff"/>
+  <text x="225" y="130" font-family="Verdana" font-size="40" text-anchor="middle">Happy Birthday!</text>
+
+  <!-- Candles -->
+  <g stroke-width="5">
+    <line x1="180" y1="270" x2="180" y2="320"/>
+    <line x1="220" y1="290" x2="220" y2="340"/>
+    <line x1="260" y1="310" x2="260" y2="360"/>
+  </g>
+
+  <!-- Icing Details -->
+  <path d="M175,250 Q200,275 225,250 Z" fill="#fff"/>
+  <path d="M225,250 Q200,275 175,250 Z" fill="#fff"/>
+
+</svg>

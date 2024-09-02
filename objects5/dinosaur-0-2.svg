@@ -1,0 +1,31 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="60" y="100" width="80" height="120"
+        style="fill:green; stroke-width:1; stroke:black"/>
+
+  <!-- Head -->
+  <ellipse cx="110" cy="75" rx="40" ry="50"
+           style="fill:green; stroke-width:1; stroke:black"/>
+
+  <!-- Left Leg -->
+  <rect x="60" y="200" width="30" height="80"
+        transform="rotate(20,70,240)" style="fill:green; stroke-width:1; stroke:black"/>
+
+  <!-- Right Leg -->
+  <rect x="130" y="200" width="30" height="80"
+        transform="rotate(-20,140,240)" style="fill:green; stroke-width:1; stroke:black"/>
+
+  <!-- Tail -->
+  <path d="M90,150 Q70,160 70,180" fill="green"
+        stroke-width="1" stroke="black"/>
+
+  <!-- Left Arm -->
+  <path d="M80,120 C100,130 120,90 140,120" fill="green"
+        stroke-width="1" stroke="black"/>
+
+  <!-- Right Arm -->
+  <path d="M120,120 C100,90 140,90 160,120" fill="green"
+        stroke-width="1" stroke="black"/>
+
+</svg>

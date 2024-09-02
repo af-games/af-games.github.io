@@ -1,0 +1,35 @@
+<svg width="100%" height="56.25%" viewBox="0 0 832 479" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="832" height="479" fill="#87CEEB"/>
+
+  <!-- Sun -->
+  <circle cx="165.5" cy="75" r="70" fill="yellow">
+    <animate attributeName="cx" from="165.5" to="665.5"
+            dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Clouds -->
+  <ellipse cx="250" cy="70" rx="40" ry="80">
+    <animate attributeName="cx" from="250" to="630"
+            dur="15s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="350" cy="90" rx="50" ry="70">
+    <animate attributeName="cx" from="350" to="730"
+            dur="18s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Mountains -->
+  <circle cx="400" cy="200" r="60" fill="#C0C0C0"/>
+  <circle cx="550" cy="230" r="80" fill="#C0C0C0"/>
+  <circle cx="700" cy="180" r="90" fill="#C0C0C0"/>
+
+  <!-- Rivers -->
+  <path d="M40,350 Q120,280 250,330 Q380,380 550,330 Q700,280 830,350"
+        stroke="#696969" fill="transparent"/>
+
+  <!-- Trees -->
+  <polygon points="140,390 180,410 120,410" fill="#006400"/>
+  <polygon points="250,370 290,390 230,390" fill="#006400"/>
+  <polygon points="380,350 420,370 360,370" fill="#006400"/>
+
+</svg>

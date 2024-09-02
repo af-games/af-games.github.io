@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -500 1000 1000">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#D9E6F4"/>
+
+  <!-- Mountains -->
+  <path d="M-200,-300 Q-100,50 -200,200 Q-300,-50 -200,-300" stroke="#778CA3" fill="none"/>
+  <polygon points="-350,-350, -150,-250, -250,-350" stroke="#778CA3" fill="#AEC6CD"/>
+
+  <!-- Rivers -->
+  <path d="M-400,-200 Q-200,-100 -400,-50" stroke="#6FB9D6" fill="none"/>
+  <path d="M200,-200 Q-200,100 200,-50" stroke="#6FB9D6" fill="none"/>
+
+  <!-- Forest -->
+  <polygon points="-400,-300 -200,-250 0,-300" fill="#8DC63C"/>
+  <text x="-300" y="-275" font-size="14">Crystal Forest</text>
+
+  <!-- Cities -->
+  <polygon points="-400,0 -250,100 -150,-50" fill="#F8E71C"/>
+  <text x="-325" y="60" font-size="14">Iceberg City</text>
+  <circle cx="200" cy="50" r="50" fill="#FFD65B"/>
+  <text x="190" y="70" font-size="14">Sunshine Glacier</text>
+
+  <!-- Igloo -->
+  <path d="M-300,-25 A200,200 0 0 1 -100,100 A200,200 0 0 1 -300,25 Z" fill="#FFFFFF"/>
+  <text x="-275" y="-40" font-size="18">Magical Igloo</text>
+
+  <!-- Labels -->
+  <text x="-475" y="-350" font-size="14">Frozen Peaks</text>
+  <text x="-475" y="-250" font-size="14">Whispering Winds River</text>
+  <text x="225" y="-250" font-size="14">Melting Heart River</text>
+
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <style>
+    .butterfly {
+      fill: yellow;
+      stroke: black;
+      stroke-width: 1px;
+    }
+  </style>
+
+  <!-- Body -->
+  <path class="butterfly" d="M250,50 Q300,75 350,50 Q300,25 250,50 Z">
+    <animate attributeName="d"
+             dur="1s"
+             repeatCount="indefinite"
+             from="M250,50 Q300,75 350,50 Q300,25 250,50 Z"
+             to="M250,75 Q300,100 350,75 Q300,50 250,75 Z"/>
+  </path>
+
+  <!-- Wing 1 -->
+  <path class="butterfly" d="M175,25 Q250,100 325,25">
+    <animate attributeName="d"
+             dur="1s"
+             repeatCount="indefinite"
+             from="M175,25 Q250,100 325,25"
+             to="M175,12.5 Q250,62.5 325,12.5"/>
+  </path>
+
+  <!-- Wing 2 -->
+  <path class="butterfly" d="M325,25 Q250,100 175,25">
+    <animate attributeName="d"
+             dur="1s"
+             repeatCount="indefinite"
+             from="M325,25 Q250,100 175,25"
+             to="M325,12.5 Q250,62.5 175,12.5"/>
+  </path>
+</svg>

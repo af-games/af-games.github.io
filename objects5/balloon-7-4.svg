@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+
+  <!-- Basket -->
+  <rect id="basket" x="120" y="540" width="60" height="60" fill="#8B4513"/>
+  <path id="basket-handle" d="M120,540 Q90,570 60,540 L180,540 Q210,570 150,540 Z" fill="#8B4513"/>
+
+  <!-- Envelope -->
+  <path id="envelope-top" d="M200,100 Q100,200 200,300 Q300,200 200,400" fill="#FF9933"/>
+  <path id="envelope-bottom" d="M200,540 Q150,680 200,720 Q250,680 200,540" fill="#FFCC66"/>
+
+  <!-- Netting -->
+  <rect id="netting" x="90" y="340" width="220" height="160" fill="url(#nettingGradient)"/>
+  <defs>
+    <linearGradient id="nettingGradient" gradientTransform="rotate(45)">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CCCCCC"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Gondola -->
+  <rect x="130" y="560" width="30" height="40" fill="#8B7D6B"/>
+  <path d="M130,600 Q90,620 160,600 Q230,620 160,600 Z" fill="#8B7D6B"/>
+
+  <!-- Burner -->
+  <circle cx="200" cy="50" r="40" fill="#9E4800"/>
+  <path d="M200,30 A40,40 0 1,0 200,-60 A40,40 0 1,0 200,30 Z" fill="#FFCC66"/>
+
+</svg>

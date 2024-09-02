@@ -1,0 +1,19 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ground -->
+  <rect x="0" y="450" width="800" height="150" fill="#78C0A7"/>
+
+  <!-- Preparation area -->
+  <rect x="100" y="200" width="600" height="250" fill="#E39DA6"/>
+
+  <!-- Basket area -->
+  <circle cx="350" cy="450" r="150" stroke="#F5D76E" stroke-width="8" fill="none"/>
+
+  <!-- Spectator towers -->
+  <polygon points="75,300 200,450 75,500" fill="#FFC293"/>
+  <polygon points="600,500 400,450 600,300" fill="#FFC293"/>
+
+  <!-- Path -->
+  <path d="M100,200 Q200,150 350,250 T600,400" stroke="#F5D76E" stroke-width="8" fill="none"/>
+
+</svg>

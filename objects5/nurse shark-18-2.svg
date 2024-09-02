@@ -1,0 +1,25 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#f1f1f1" />
+
+  <!-- Body (main part of the shark) -->
+  <path d="M100 300 Q250 200, 350 300 Q250 400, 100 300" fill="#7f9db9" stroke="black"/>
+
+  <!-- Fin on the left side of the body -->
+  <polygon points="120,280 160,220 80,250" fill="#7f9db9"/>
+
+  <!-- Fin on the right side of the body -->
+  <polygon points="380,280 420,220 320,250" fill="#7f9db9"/>
+
+  <!-- Tail fin -->
+  <path d="M400,360 Q440,300, 480,360" fill="#7f9db9"/>
+
+  <!-- Dorsal fin -->
+  <polygon points="250,180 280,130 220,150" fill="#7f9db9"/>
+
+  <!-- Pectoral fins (4 pieces) -->
+  <polygon points="160,330 200,370 120,350" fill="#7f9db9"/>
+  <polygon points="340,330 380,370 280,350" fill="#7f9db9"/>
+
+</svg>

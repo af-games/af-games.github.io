@@ -1,0 +1,41 @@
+<svg width="500" height="800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 800">
+  <!-- Body -->
+  <ellipse cx="250" cy="400" rx="180" ry="360" fill="#f5f5f5"/>
+  <path d="M250,760 Q180,640 250,520" stroke="#999" fill="transparent"/>
+
+  <!-- Tentacles (background) -->
+  <rect x="30" y="600" width="440" height="200" fill="url(#tentacleGradient)" rx="10">
+    <animate attributeName="y" values="600;580;600" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Tentacles (lines) -->
+  <g id="tentacles">
+    <path d="M30,740 Q100,680 250,600 Q400,720 470,740" stroke="#999"/>
+    <path d="M470,740 Q380,680 250,600 Q100,720 30,740" stroke="#999"/>
+
+    <!-- Repeat paths for more tentacles -->
+  </g>
+
+  <!-- Sleeves (background) -->
+  <circle cx="250" cy="300" r="80" fill="url(#sleeveGradient)">
+    <animate attributeName="r" values="80;100;80" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Sleeves (lines) -->
+  <path d="M350,300 Q450,200 500,300" stroke="#999"/>
+  <path d="M150,300 Q50,200 0,300" stroke="#999"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="tentacleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#f8f9fa; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ddd; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="sleeveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fff; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#f8f9fa; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ddd; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

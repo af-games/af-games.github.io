@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Starting Line -->
+  <circle cx="50" cy="150" r="40" fill="green" />
+  <rect x="50" y="250" width="80" height="120" fill="orange" />
+  <polygon points="750,50 750,300 600,150" fill="yellow" stroke="black"/>
+
+  <!-- Dialogue Bubbles -->
+  <text x="50" y="190" font-family="Arial" font-size="24">Triceratops: Ready?</text>
+  <text x="50" y="360" font-family="Arial" font-size="24">T-Rex: I'll eat you up!</text>
+
+  <!-- River Obstacle -->
+  <path d="M170,300 Q250,200 380,300" stroke="blue" fill="transparent"/>
+
+  <!-- Pterodactyl Helper -->
+  <polygon points="450,50 550,50 500,150" fill="purple"/>
+  <text x="470" y="90" font-family="Arial" font-size="24">Pterodactyl: Here!</text>
+
+  <!-- The Chase -->
+  <rect x="600" y="300" width="80" height="120" fill="orange"/>
+  <text x="650" y="400" font-family="Arial" font-size="24">T-Rex: Faster!</text>
+
+  <!-- Finish Line Pose -->
+  <circle cx="700" cy="150" r="40" fill="green"/>
+  <polygon points="700,50 780,50 740,150" fill="purple"/>
+  <rect x="700" y="250" width="80" height="120" fill="orange"/>
+
+</svg>

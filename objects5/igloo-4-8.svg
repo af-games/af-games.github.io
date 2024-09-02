@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Igloo -->
+  <path fill="#6dd5fa" d="
+    M175,375 A100,100 0 0 1 275,475
+    A100,100 0 0 1 175,575
+    A100,100 0 0 1 75,475
+    Z"
+    stroke="#3d948b" stroke-width="2"/>
+  <path fill="#fff" d="
+    M175,375 A100,100 0 0 1 275,475
+    A100,100 0 0 1 175,575"/>
+
+  <!-- Snow -->
+  <circle cx="200" cy="200" r="30" fill="#fff"/>
+  <circle cx="250" cy="220" r="15" fill="#fff"/>
+  <circle cx="180" cy="240" r="10" fill="#fff"/>
+
+  <!-- Gingerbread house -->
+  <polygon points="375,50 475,50 475,150 375,150" fill="#dd6a43"/>
+  <path d="M375,150 Q412.5,225 475,150" stroke="#8b4513" stroke-width="2"/>
+
+  <!-- Candy cane -->
+  <path d="M400,250 C400,225 375,200 400,175 S425,200 400,225" fill="#ff69b4"
+        stroke="#fff" stroke-width="2"/>
+
+  <!-- Hot cocoa -->
+  <circle cx="250" cy="375" r="100" fill="#c77d5a"/>
+  <path d="M250,375 Q200,425 250,475" stroke="#fff" stroke-width="2"/>
+
+  <!-- Utensils -->
+  <rect x="10" y="450" width="80" height="50" fill="#ccc" rx="10"/>
+  <path d="M30,460 Q50,490 70,460" stroke="#333" stroke-width="2"/>
+
+  <!-- Garnish: Mint leaf -->
+  <polygon points="480,475 490,485 490,495 480,505" fill="#0f9d58"/>
+</svg>

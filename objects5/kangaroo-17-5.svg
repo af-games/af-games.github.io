@@ -1,0 +1,17 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#8DC63C"/>
+
+  <!-- Kangaroo Families -->
+
+  <!-- Family 1 -->
+  <g transform="translate(50, 200)">
+    <circle cx="0" cy="0" r="30" fill="#C79F5E"/>
+    <polygon points="0,-30 20,-40 40,-30" fill="#8B6A3A"/>
+    <path d="M-10,10 C-20,-10 -20,30 -10,50 Z" fill="#C79F5E"/>
+  </g>
+
+  <!-- More families can be added similarly... -->
+
+</svg>

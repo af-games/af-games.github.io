@@ -1,0 +1,15 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E0F8E2"/>
+
+  <!-- Fairy -->
+  <path d="M50,150 Q70,120 90,130 Q70,140 50,150" stroke="black" fill="yellow" stroke-width="2"/>
+  <circle cx="85" cy="125" r="5" fill="black"/>
+
+  <!-- Flowers -->
+  <circle cx="120" cy="200" r="30" fill="#FFD700"/>
+  <circle cx="160" cy="210" r="25" fill="#FF4500"/>
+  <circle cx="200" cy="190" r="20" fill="#DA70D6"/>
+
+</svg>

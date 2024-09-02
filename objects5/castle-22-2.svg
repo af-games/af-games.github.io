@@ -1,0 +1,21 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Walls -->
+  <path fill="#C0B282" stroke="#694E2A" stroke-width="2"
+    d="M10,75 Q50,25 150,75 Q250,125 350,75 Q450,25 550,75 H600 V250 H550 Z"/>
+
+  <!-- Towers -->
+  <path fill="#C0B282" stroke="#694E2A" stroke-width="2"
+    d="M150,75 Q200,125 250,75 T350,75 Q300,125 250,175 Z"/>
+  <path fill="#C0B282" stroke="#694E2A" stroke-width="2"
+    d="M450,75 Q500,125 550,75 T650,75 Q600,125 550,175 Z"/>
+
+  <!-- Gates -->
+  <path fill="#694E2A" stroke="#3F2B18" stroke-width="2"
+    d="M250,250 Q280,280 320,250 H380 Q420,280 450,250 V75 H380 Z"/>
+
+  <!-- Roof -->
+  <path fill="#96714C" stroke="#694E2A" stroke-width="2"
+    d="M10,250 Q50,300 150,250 Q250,300 350,250 Q450,300 550,250 H600 V350 H550 Z"/>
+
+</svg>

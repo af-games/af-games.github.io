@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Body -->
+  <circle id="balloonBody" cx="400" cy="150" r="150"
+          fill="none" stroke-width="5" stroke="#333"/>
+
+  <!-- Balloon Burner -->
+  <circle id="balloonBurner" cx="400" cy="250" r="60"
+          fill="none" stroke-width="5" stroke="#fbbc37"/>
+
+  <!-- Basket -->
+  <ellipse id="basket" cx="400" cy="400" rx="80" ry="120"
+           fill="none" stroke-width="5" stroke="#333"/>
+
+  <!-- Animation: Move and grow Balloon -->
+  <animateMotion id="balloonAnimation" begin="0s" dur="5s"
+                 repeatCount="indefinite">
+    <mpath href="#flightPath"/>
+  </animateMotion>
+
+  <!-- Flight Path for animation -->
+  <path id="flightPath" d="M400,100 Q500,200 600,300 Q400,400 300,300"/>
+
+</svg>

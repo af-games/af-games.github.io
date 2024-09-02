@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Walls -->
+  <rect x="100" y="150" width="300" height="200" fill="none" stroke="black"/>
+  <path d="M150,150 Q200,100 250,150" fill="none" stroke="black"/>
+
+  <!-- Castle Tower -->
+  <polygon points="175,75 225,75 225,200 175,200" fill="none" stroke="black"/>
+  <path d="M175,200 Q130,250 175,300" fill="none" stroke="black"/>
+
+  <!-- Gatehouse -->
+  <rect x="100" y="100" width="50" height="50" fill="none" stroke="black"/>
+  <polygon points="125,100 175,100 175,75" fill="none" stroke="black"/>
+
+  <!-- Roads -->
+  <path d="M50,300 Q80,250 130,250" fill="none" stroke="darkgrey"/>
+  <path d="M270,300 Q220,250 170,250" fill="none" stroke="darkgrey"/>
+
+</svg>

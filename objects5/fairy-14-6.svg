@@ -1,0 +1,55 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Skin -->
+<g id="skin">
+  <rect x="0" y="0" width="5" height="5" fill="#F1E2C6"/>
+  <!-- Repeat the skin tile to create a circular face -->
+</g>
+
+<!-- Hair -->
+<g id="hair">
+  <polygon points="0,5 5,0 5,5" fill="#301934"/>
+  <!-- Repeat and vary hair tiles for strands -->
+</g>
+
+<!-- Eyes -->
+<g id="eyes">
+  <circle cx="2.5" cy="2.5" r="2.5" fill="#BDB76B"/>
+  <polygon points="1,3 4,3 2.5,0.5" fill="#FFD700"/>
+</g>
+
+<!-- Dress -->
+<g id="dress">
+  <rect x="0" y="0" width="5" height="5" fill="#BDB76B"/>
+  <!-- Repeat and vary dress tiles for vertical stripes -->
+</g>
+
+<!-- Sparkles -->
+<g id="sparkles">
+  <circle cx="2.5" cy="2.5" r="1" fill="#FFFFFF"/>
+  <!-- Scatter tiny white circles across the face -->
+</g>
+
+<!-- Fairy composition -->
+<g transform="translate(40, 30)">
+  <!-- Skin -->
+  <use xlink:href="#skin" width="80%" height="80%"/>
+
+  <!-- Hair -->
+  <use xlink:href="#hair" x="15" y="0"/>
+  <!-- More hair tiles... -->
+
+  <!-- Eyes -->
+  <use xlink:href="#eyes" x="27.5" y="22.5"/>
+  <!-- Repeat the eye tile for the other eye... -->
+
+  <!-- Dress -->
+  <use xlink:href="#dress" width="80%" height="140%" y="60%"/>
+  <!-- More dress tiles to create vertical stripes... -->
+
+  <!-- Sparkles -->
+  <use xlink:href="#sparkles" x="27.5" y="30"/>
+  <!-- More sparkle tiles... -->
+</g>
+
+</svg>

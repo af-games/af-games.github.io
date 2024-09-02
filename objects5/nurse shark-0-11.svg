@@ -1,0 +1,23 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ancient Era -->
+  <rect id="ancientRuins" x="50" y="250" width="100" height="100"
+        style="fill:rgb(245, 245, 230); stroke:rgb(192,192,192); stroke-width:2"/>
+
+  <!-- Medieval Era -->
+  <polygon id="medievalCastle" points="300,50 400,50 450,200 350,250"
+           style="fill:rgb(169,169,187); stroke:rgb(96,96,96); stroke-width:2"/>
+
+  <!-- Renaissance Era -->
+  <path id="renaissanceStructure" d="M500,50 Q550,150 600,50"
+        style="fill:transparent; stroke:rgb(255,0,0); stroke-width:8"/>
+
+  <!-- Industrial Era -->
+  <rect id="industrialBuilding" x="650" y="75" width="100" height="150"
+        style="fill:rgb(143,143,143); stroke:rgb(96,96,96); stroke-width:2"/>
+
+  <!-- Futuristic Era -->
+  <path id="futuristicStructure" d="M750,50 Q800,250 850,50"
+        style="fill:transparent; stroke:rgb(0,255,255); stroke-width:8"/>
+
+</svg>

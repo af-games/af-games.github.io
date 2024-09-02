@@ -1,0 +1,27 @@
+<svg width="100%" height="100%" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <rect id="tower" x="200" y="50" width="100" height="200" fill="#A9A9A9"/>
+  <polygon points="300,50 400,50 350,250" fill="#A9A9A9"/>
+
+  <!-- Gatehouse -->
+  <rect id="gatehouse-door" x="180" y="300" width="140" height="100" fill="#5D4037"/>
+  <rect id="gatehouse-stone" x="160" y="280" width="160" height="120" fill="#E5D8BA"/>
+  <circle cx="220" cy="350" r="20" fill="#A9A9A9"/>
+  <circle cx="340" cy="350" r="20" fill="#A9A9A9"/>
+
+  <!-- Walls -->
+  <rect id="wall-left" x="100" y="50" width="50" height="300" fill="#A9A9A9"/>
+  <rect id="wall-right" x="400" y="50" width="50" height="300" fill="#A9A9A9"/>
+
+  <!-- Moat -->
+  <path d="M100,475 Q200,525 400,475 T500,475 Z" stroke="#006633" fill="transparent"/>
+
+  <!-- Lines connecting shapes -->
+  <line x1="200" y1="50" x2="100" y2="50" stroke="#A9A9A9"/>
+  <line x1="400" y1="50" x2="300" y2="50" stroke="#A9A9A9"/>
+  <line x1="180" y1="300" x2="100" y2="300" stroke="#A9A9A9"/>
+  <line x1="420" y1="300" x2="400" y2="300" stroke="#A9A9A9"/>
+  <polyline points="100,475 200,475 300,475 400,475" stroke="#006633"/>
+
+</svg>

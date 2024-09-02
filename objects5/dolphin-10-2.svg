@@ -1,0 +1,43 @@
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path id="dolphinBody" d="M100,270 Q140,250 200,220 Q260,250 320,220 Q380,250 420,270"
+        fill="url(#dolphinGradient)" stroke="none" />
+
+  <!-- Fin -->
+  <path d="M180,220 Q160,210 200,200 Q180,190 220,200 Q200,210 180,220"
+        fill="url(#finGradient)" stroke="none" />
+
+  <!-- Tail -->
+  <path d="M360,220 Q370,210 410,220 Q400,230 390,240 Q380,230 360,220"
+        fill="url(#tailGradient)" stroke="none" />
+
+  <!-- Head -->
+  <path d="M50,170 Q90,150 140,170 Q190,150 230,170 Q280,150 320,170"
+        fill="url(#headGradient)" stroke="none" />
+
+  <!-- Eye -->
+  <circle cx="270" cy="160" r="5" fill="black" />
+  <circle cx="270" cy="160" r="3" fill="white" />
+
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="dolphinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(127,127,255);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="finGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,127);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(127,127,184);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="tailGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,63,127);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(127,184,255);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,63);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(127,184,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+</svg>

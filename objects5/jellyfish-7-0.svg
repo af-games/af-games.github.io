@@ -1,0 +1,29 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Jellyfish Body -->
+<ellipse cx="150" cy="150" rx="80" ry="60"
+         fill="url(#gradBody)" stroke-width="0"/>
+
+<!-- Tentacles -->
+<path d="M150,130 A70,70 0 1 0 220,130 70,70 0 1 0 150,60" fill="url(#gradTentacle)"/>
+<!-- Repeat path for other tentacles -->
+
+<!-- Mouth -->
+<circle cx="150" cy="160" r="5" fill="#000"/>
+
+<!-- Eyes -->
+<circle cx="130" cy="120" r="3" fill="#FFF"/>
+<!-- Repeat circle for other eyes -->
+
+<!-- Gradients -->
+<defs>
+  <radialGradient id="gradBody" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%"   style="stop-color:rgb(217,243,255);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(0,123,154);stop-opacity:1"/>
+  </radialGradient>
+  <radialGradient id="gradTentacle" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <!-- Same gradient as body -->
+  </radialGradient>
+</defs>
+
+</svg>

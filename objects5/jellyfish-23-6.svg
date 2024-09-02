@@ -1,0 +1,28 @@
+<svg width="500" height="800" xmlns="http://www.w3.org/2000/svg" style="fill:white; stroke-width:1; stroke:black;">
+  <!-- Mannequin outline -->
+  <rect x="50" y="50" width="400" height="700" rx="80" ry="80" stroke="black"/>
+
+  <!-- Bodice - circle shape -->
+  <circle cx="225" cy="300" r="150" style="fill:hsla(220, 60%, 50%, 0.9);"/>
+  <path d="M225,150 Q475,75 425,300 Q50,525 225,700" style="fill:hsla(220, 60%, 50%, 0.8);"/>
+
+  <!-- Sleeves - circle shapes -->
+  <circle cx="100" cy="200" r="50" style="fill:hsla(190, 70%, 60%, 0.9);"/>
+  <circle cx="350" cy="200" r="50" style="fill:hsla(190, 70%, 60%, 0.9);"/>
+
+  <!-- Jellyfish tentacles - repeated pattern -->
+  <defs>
+    <pattern id="tentacles" x="0%" y="0%" width="20%" height="100%" patternUnits="objectBoundingBox">
+      <path d="M0,5 C5,7.5 10,5 15,7.5 S30,2.5 35,5" stroke="hsla(190, 80%, 60%, 0.8)" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect x="100" y="150" width="250" height="550" style="fill:url(#tentacles);"/>
+
+  <!-- Jellyfish bells - gradient pattern -->
+  <circle cx="225" cy="375" r="75">
+    <animate attributeName="r" values="75;100;75" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="style" values="fill:hsla(190, 80%, 60%, 0.9); fill:hsla(190, 80%, 60%, 0.7)" dur="2s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 225 375" to="360 225 375" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+</svg>

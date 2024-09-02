@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Body -->
+  <path d="M12,2C6.5,2,2,6.5,2,12s4.5,10,10,10,10-4.5,10-10S17.5,2,12,2z"/>
+
+  <!-- Eyes -->
+  <circle cx="16" cy="8" r="3"/>
+  <circle cx="8" cy="8" r="3"/>
+
+  <!-- Beak -->
+  <path d="M9,14h6c0-2.76,-2.24-5,-5-5S4,11.24,4,14z"/>
+
+  <!-- Feathers (optional) -->
+  <path fill="none" stroke="#000" d="M12,16l4,3h2l-7,6z"/>
+</svg>

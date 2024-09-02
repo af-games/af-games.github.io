@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Balloon Envelope -->
+  <path id="envelope" d="M175,50 Q225,50 250,150 Q275,50 300,150 Q275,250 225,250 Q175,250 150,150 Q175,50 Z" fill="rgb(255,165,0)" opacity="0.8"/>
+  <linearGradient id="envelopeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,235,75); stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(255,165,0); stop-opacity:1"/>
+  </linearGradient>
+  <use href="#envelope" fill="url(#envelopeGrad)"/>
+
+  <!-- Basket -->
+  <rect x="140" y="350" width="120" height="60" rx="10" ry="10" fill="rgb(128,64,0)" opacity="0.9"/>
+  <linearGradient id="basketGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(150,80,0); stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(128,64,0); stop-opacity:1"/>
+  </linearGradient>
+  <use href="#basket" fill="url(#basketGrad)"/>
+
+  <!-- Burner -->
+  <circle cx="250" cy="375" r="30" fill="rgb(218,165,32)" opacity="0.9"/>
+  <path d="M240,375 L260,375" stroke="rgb(218,165,32)" stroke-width="10"/>
+
+  <!-- Rigging -->
+  <line x1="160" y1="40" x2="340" y2="40" stroke="black"/>
+  <line x1="170" y1="60" x2="330" y2="60" stroke="black"/>
+
+  <!-- Shadows -->
+  <rect x="0" y="580" width="500" height="20" fill="black" opacity="0.1"/>
+  <use href="#envelope" fill="none" stroke="black" stroke-width="3" opacity="0.2"/>
+
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Castle Wall -->
+  <rect id="castle_wall" x="-40" y="-40" width="80" height="80" fill="#776e53" />
+
+  <!-- Tower Arches -->
+  <path id="tower_arches" d="M-40,-40 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0 z"/>
+  <path id="tower_arches" d="M40,-40 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0 z"/>
+
+  <!-- Moat -->
+  <circle id="moat" cx="0" cy="0" r="50" fill="#a39d8c" />
+
+  <!-- Bridge -->
+  <path id="bridge" d="M-60,-20 l120,0 l-60,40 z"/>
+
+  <!-- Mainland -->
+  <rect x="-70" y="-20" width="140" height="40" fill="#8c9a53" opacity=".7"/>
+
+  <!-- Mask for Revealing Castle -->
+  <mask id="castle_mask">
+    <circle cx="0" cy="0" r="60"/>
+  </mask>
+
+  <!-- Applying mask to castle wall and towers -->
+  <g mask="url(#castle_mask)">
+    <use xlink:href="#castle_wall"/>
+    <use xlink:href="#tower_arches"/>
+  </g>
+</svg>

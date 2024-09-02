@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphin Tail -->
+  <path id="dolphinTail" d="M100,500 Q150,450 200,500" stroke="black" fill="transparent">
+    <animate attributeName="stroke-opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Dolphin Body -->
+  <ellipse cx="300" cy="450" rx="70" ry="100" stroke="black" fill="transparent">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Dolphin Head -->
+  <circle cx="450" cy="375" r="50" stroke="black" fill="transparent">
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+      <feMerge>
+        <feMergeNode in="SourceGraphic"/>
+        <feMergeNode in="BackgroundImage"/>
+      </feMerge>
+    </filter>
+    <style>fill: url(#glow);</style>
+  </circle>
+
+  <!-- Water Surface -->
+  <rect x="0" y="520" width="800" height="80" stroke="black" fill="#7cb9e8">
+    <animate attributeName="height" values="80;100;80" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Route Lines -->
+  <line x1="50" y1="400" x2="750" y2="400" stroke="blue" stroke-width="3"/>
+
+  <!-- Landmarks (Text) -->
+  <text x="150" y="60" font-size="18">Dolphin Tail</text>
+  <text x="350" y="550" font-size="18">Dolphin Body</text>
+  <text x="475" y="275" font-size="18">Dolphin Head</text>
+  <text x="300" y="600" font-size="18">Water Surface</text>
+
+</svg>

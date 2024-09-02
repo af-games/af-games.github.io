@@ -1,0 +1,24 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="100" ry="90" fill="#8B4513"/>
+
+  <!-- Head -->
+  <ellipse cx="70" cy="60" rx="25" ry="30" fill="#FFFDD0"/>
+
+  <!-- Ears -->
+  <polygon points="60,10 80,10 70,40" fill="#FFFDD0"/>
+  <polygon points="90,10 110,10 100,40" fill="#FFFDD0"/>
+
+  <!-- Tail -->
+  <polyline points="120,150 130,160 180,170 170,160" fill="none"
+            stroke="#2F2C29" stroke-width="5"/>
+
+  <!-- Legs -->
+  <rect x="40" y="160" width="30" height="80" fill="none" stroke="#8B4513"/>
+  <rect x="130" y="160" width="30" height="80" fill="none" stroke="#8B4513"/>
+
+  <!-- Pouch -->
+  <ellipse cx="90" cy="175" rx="20" ry="15" fill="#FFFDD0"/>
+
+</svg>

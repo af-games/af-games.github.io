@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Fairy Outline -->
+  <path id="fairyOutline" d="M175,30 Q185,70 245,70 Q305,70 315,170 Q310,330 265,390 Q225,390 220,320 Q170,320 165,260 Z"/>
+
+  <!-- Skin Color -->
+  <use href="#fairyOutline" fill="#FFF8DC"/>
+
+  <!-- Hair (Dark Brown) -->
+  <path d="M120,290 C140,310 220,370 250,360 Z" fill="#4A2E1C"/>
+  <!-- Add more hair paths here... -->
+
+  <!-- Hair (Light Brown) -->
+  <path d="M180,320 C200,340 260,410 290,400 Z" fill="#C79F60"/>
+  <!-- Add more hair paths here... -->
+
+  <!-- Wings Gradient -->
+  <defs>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#FFFAF0"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Wing -->
+  <path d="M340,270 Q360,250 380,290 Z" fill="url(#wingGradient)"/>
+  <!-- Right Wing -->
+  <path d="M160,270 Q140,250 120,290 Z" fill="url(#wingGradient)"/>
+
+  <!-- Dress (Dark Green) -->
+  <path d="M180,390 Q220,430 260,430 Q300,430 320,390 Z" fill="#D1FFBD"/>
+  <!-- Dress Highlights (Light Green) -->
+  <path d="M200,420 Q250,470 300,460 Q330,420 340,380 Z" fill="#E6FFDC"/>
+
+  <!-- Details (Black) -->
+  <path d="M210,230 Q220,250 230,270 Z" fill="#000000"/> <!-- Eyebrows -->
+  <path d="M210,240 Q220,260 230,280 Z" fill="#000000"/> <!-- Eyelashes -->
+  <path d="M215,270 Q225,300 235,310 Z" fill="#000000"/> <!-- Mouth -->
+
+</svg>

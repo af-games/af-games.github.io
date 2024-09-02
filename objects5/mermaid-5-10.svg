@@ -1,0 +1,26 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D2C89; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#456790; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#gradient)"/>
+
+  <!-- Mermaid's body -->
+  <circle cx="250" cy="300" r="180" stroke="#F5DEB3" stroke-width="20">
+    <animateMotion repeatCount="indefinite" duration="5s">
+      <mpath href="#bodyPath"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Tail -->
+  <path id="tailPath" d="M160,380 Q240,220 320,380" fill="none" stroke-width="20">
+    <animateMotion repeatCount="indefinite" duration="5s">
+      <mpath href="#tailPath"/>
+    </animateMotion>
+  </path>
+
+</svg>

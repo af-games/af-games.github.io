@@ -1,0 +1,17 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="600" fill="#FF7F50"/>
+
+  <!-- Sun -->
+  <circle cx="750" cy="150" r="80" fill="#FFDF00"/>
+
+  <!-- Hill -->
+  <path d="M200,50 Q400,300 600,50 T800,600" fill="#8B7D6B" stroke="#9C7E61"/>
+
+  <!-- Lion -->
+  <circle cx="300" cy="400" r="80" fill="#FFA500"/>
+  <path d="M260,440 Q320,420 380,440" stroke="#FFA500" fill="transparent"/>
+  <path d="M290,410 Q305,370 315,410" stroke="#FFA500" fill="transparent"/>
+
+</svg>

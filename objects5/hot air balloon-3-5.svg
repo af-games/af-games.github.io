@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Balloon body -->
+  <circle id="balloon-body" cx="0" cy="0" r="40"
+          style="fill:rgb(255,255,255);stroke-width:0;transform-origin:center" />
+
+  <!-- Burner -->
+  <circle id="burner" cx="0" cy="-18" r="10"
+          style="fill:rgb(255,255,255);stroke-width:0;" />
+
+  <!-- Basket -->
+  <ellipse id="basket" cx="0" cy="16" rx="15" ry="24"
+           style="fill:rgb(255,255,255);stroke-width:0;" />
+
+  <!-- Animation: Move balloon upwards and increase size -->
+  <animateTransform attributeName="transform"
+                    type="translate"
+                    values="0,-20;0,-30"
+                    dur="4s"
+                    repeatCount="indefinite" />
+  <animate attributeName="r"
+           values="40;50"
+           dur="4s"
+           repeatCount="indefinite"
+           target="#balloon-body" />
+
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <!-- Lion face -->
+  <circle cx="75" cy="75" r="65" fill="#F8D7AA" stroke="#9C7E4B" stroke-width="3"/>
+
+  <!-- Eyes -->
+  <circle cx="65" cy="55" r="10" fill="#FFFFFF"/>
+  <circle cx="85" cy="55" r="10" fill="#FFFFFF"/>
+  <path d="M65 45 Q70 35, 85 45 T85 55" stroke="#000000" stroke-width="2"/>
+
+  <!-- Mane -->
+  <path d="M50 45 C55 35, 70 20, 85 35 S100 60, 105 70" fill="none" stroke="#FFD700" stroke-width="5"/>
+
+  <!-- Gemstones -->
+  <circle cx="40" cy="90" r="15" fill="#FF007F"/>
+  <circle cx="110" cy="90" r="15" fill="#32CD32"/>
+  <circle cx="80" cy="60" r="10" fill="#4B0082"/>
+
+  <!-- Setting -->
+  <rect x="10" y="75" width="130" height="75" fill="none" stroke="#9C7E4B" stroke-width="3"/>
+</svg>

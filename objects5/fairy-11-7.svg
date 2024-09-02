@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600">
+  <!-- Fairy image -->
+  <image id="fairy" xlink:href="fairy.png" width="50" height="75"></image>
+
+  <!-- Animation begins here -->
+
+  <!-- Move fairy from bottom right to top left -->
+  <animate MotionBegin="1s"
+           dur="2s"
+           repeatCount="indefinite"
+           id="anim1"
+           attributeName="transform"
+           type="rotate(90,750,300) translate(-750,-300)" />
+
+  <!-- Pause at top left -->
+  <animateMotion begin="anim1.end" dur="1s">
+    <mpath d="M750,25 M750,450"/>
+  </animateMotion>
+
+  <!-- Fly downwards in an arc towards center -->
+  <animateMotion begin="anim2.end" dur="2s">
+    <mpath d="M750,450 Q375,600 150,450"/>
+  </animateMotion>
+
+  <!-- Land and disappear -->
+  <animate MotionBegin="anim3.end"
+           dur="1s"
+           attributeName="opacity"
+           from="1" to="0"/>
+
+</svg>

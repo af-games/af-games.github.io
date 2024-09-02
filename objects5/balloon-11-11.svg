@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+```
+
+Now, let's plant some basic shapes. For simplicity, we'll use a circle for the balloon and a rectangle for the stand.
+
+```svg
+  <circle cx="400" cy="150" r="75" fill="lightblue"/>
+  <rect x="325" y="300" width="150" height="30" fill="brown"/>
+```
+
+Next, we'll add some colors and strokes. Let's make the balloon a darker blue and give it a stroke for outline.
+
+```svg
+  <circle cx="400" cy="150" r="75" fill="darkblue" stroke="black" stroke-width="2"/>
+  <rect x="325" y="300" width="150" height="30" fill="brown"/>
+```
+
+Let's animate the balloon to make it seem like it's floating. We'll use keyframes and animation properties for this.
+
+```svg
+<animate attributeName="cy"
+         values="150;200;150"
+         dur="2s"
+         repeatCount="indefinite" />
+```
+
+Finally, we close off the SVG tag:
+
+```svg
+</svg>

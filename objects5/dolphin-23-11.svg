@@ -1,0 +1,28 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sand particles -->
+  <g id="sand" fill="#f4a460">
+    <!-- Repeat circle elements to create sand particles -->
+    <circle cx="10" cy="10" r="1"/>
+    ...
+  </g>
+
+  <!-- Dolphin outline with gradient mask -->
+  <defs>
+    <linearGradient id="mask-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:white; stop-opacity:0"/>
+      <stop offset="50%" style="stop-color:white; stop-opacity:.5"/>
+      <stop offset="100%" style="stop-color:black; stop-opacity:1"/>
+    </linearGradient>
+    <mask id="dolphin-mask">
+      <rect x="0" y="0" width="100%" height="100%" fill="url(#mask-gradient)"/>
+    </mask>
+  </defs>
+  <path d="M20,5 Q40,0 60,5 Q70,30 80,5 Z" mask="url(#dolphin-mask)" fill="#81b3de"/>
+
+  <!-- Hidden message -->
+  <text x="50%" y="90%" dy=".3em" fill="white">
+    SOLVE THE MYSTERY
+    <animate attributeName="fill-opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </text>
+
+</svg>

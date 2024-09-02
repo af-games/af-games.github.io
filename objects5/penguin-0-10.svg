@@ -1,0 +1,47 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="50" y="75" width="150" height="180" fill="url(#penguin-body)"/>
+  <!-- Head -->
+  <path d="M100,45 Q130,20 160,45 Q130,70 100,45" fill="url(#penguin-head)" />
+  <!-- Beak -->
+  <polygon points="125,45 145,55 125,65" fill="url(#penguin-beak)" />
+  <!-- Eye left -->
+  <circle cx="110" cy="35" r="7" fill="black"/>
+  <!-- Eye right -->
+  <circle cx="130" cy="35" r="7" fill="black"/>
+
+  <!-- Wing left -->
+  <path d="M60,90 Q80,120 100,140 Q80,160 60,180" fill="url(#penguin-wing)"/>
+  <!-- Wing right -->
+  <path d="M170,90 Q150,120 130,140 Q150,160 170,180" fill="url(#penguin-wing)"/>
+
+  <!-- Leg left -->
+  <rect x="70" y="210" width="20" height="90" fill="url(#penguin-leg)"/>
+  <!-- Leg right -->
+  <rect x="130" y="210" width="20" height="90" fill="url(#penguin-leg)"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="penguin-body" gradientTransform="rotate(45)">
+      <stop offset="0%"   stop-color="#FF6F61"/>
+      <stop offset="100%" stop-color="#FFB38A"/>
+    </linearGradient>
+    <linearGradient id="penguin-head">
+      <stop offset="0%"   stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E7D3AA"/>
+    </linearGradient>
+    <linearGradient id="penguin-beak" gradientTransform="rotate(45)">
+      <stop offset="0%"   stop-color="#FFBD69"/>
+      <stop offset="100%" stop-color="#FF6F61"/>
+    </linearGradient>
+    <linearGradient id="penguin-wing">
+      <stop offset="0%"   stop-color="#E7D3AA"/>
+      <stop offset="50%"  stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#B2C6EE"/>
+    </linearGradient>
+    <linearGradient id="penguin-leg">
+      <stop offset="0%"   stop-color="#8794A3"/>
+      <stop offset="100%" stop-color="#5F7180"/>
+    </linearGradient>
+  </defs>
+</svg>

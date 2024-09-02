@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <style>
+    .fill-brown { fill: #8B4513; }
+    .fill-white { fill: #FFF; }
+  </style>
+
+  <!-- Lion's body -->
+  <path class="fill-brown" d="M200,200 A100,100 0 1,0 400,200 A100,100 0 1,0 200,300 Q150,350 200,400 Z"/>
+
+  <!-- Lion's head -->
+  <path class="fill-brown" d="M200,100 Q150,50 200,0 Q250,50 200,100"/>
+
+  <!-- Lion's mane -->
+  <path class="fill-brown" d="M180,80 A60,40 0 0,0 220,80 A60,30 0 0,1 220,50 Q270,90 250,120"/>
+
+  <!-- Lion's eyes -->
+  <circle class="fill-white" cx="190" cy="40" r="10"/>
+  <circle class="fill-white" cx="210" cy="40" r="10"/>
+
+</svg>

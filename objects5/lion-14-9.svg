@@ -1,0 +1,19 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Percussion: Lion's Roar -->
+  <rect x="50" y="100" width="70" height="30" fill="orange" />
+  <path d="M60,130 Q90,80 140,130" stroke="black" fill="transparent" />
+
+  <!-- Strings: Mane -->
+  <circle cx="250" cy="200" r="50" fill="goldenrod" />
+  <path d="M260,230 Q280,170 300,230" stroke="black" fill="transparent" />
+
+  <!-- Wind: Breath -->
+  <circle cx="450" cy="250" r="40" fill="lightblue" />
+  <path d="M460,280 Q510,190 560,280" stroke="black" fill="transparent" />
+
+  <!-- Vocals: Roar -->
+  <circle cx="650" cy="300" r="60" fill="red" />
+  <path d="M670,340 Q710,240 750,340" stroke="black" fill="transparent" />
+
+</svg>

@@ -1,0 +1,28 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="balloonGradient" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#ff6f61"/>
+      <stop offset="100%" stop-color="#d74b9a"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Balloons -->
+  <circle cx="50" cy="200" r="30">
+    <animateMotion dur="2s" repeatCount="indefinite">
+      <mpath href="#balloonPath1"/>
+    </animateMotion>
+    <animate attributeName="fill-opacity" values="1;0.7;1" dur="1s" repeatCount="indefinite" begin="-0.5s"/>
+  </circle>
+
+  <circle cx="200" cy="300" r="40">
+    <animateMotion dur="3s" repeatCount="indefinite">
+      <mpath href="#balloonPath2"/>
+    </animateMotion>
+    <animate attributeName="fill-opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite" begin="-0.75s"/>
+  </circle>
+
+  <!-- Paths for balloon animations -->
+  <path id="balloonPath1" d="M50,200 Q200,50 350,200 T500,400 T50,200" fill="url(#balloonGradient)"/>
+  <path id="balloonPath2" d="M200,300 Q100,500 300,400 T500,600 T200,300" fill="url(#balloonGradient)"/>
+
+</svg>

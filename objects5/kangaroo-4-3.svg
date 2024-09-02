@@ -1,0 +1,18 @@
+<svg width="200" height="200">
+  <!-- Body -->
+  <circle cx="100" cy="150" r="80" fill="blue"/>
+
+  <!-- Head -->
+  <circle cx="90" cy="80" r="30" fill="blue"/>
+
+  <!-- Ears -->
+  <polygon points="70,60 90,40 110,60" fill="blue"/>
+  <polygon points="120,60 140,40 160,60" fill="blue"/>
+
+  <!-- Arms and Legs -->
+  <rect x="75" y="130" width="50" height="80" rx="15" fill="blue"/>
+  <rect x="125" y="130" width="50" height="80" rx="15" fill="blue"/>
+
+  <!-- Tail -->
+  <path d="M160,140 Q170,160 180,140" stroke="black" fill="none"/>
+</svg>

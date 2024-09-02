@@ -1,0 +1,7 @@
+<svg>` element, defining the viewbox to fit our mermaid nicely.
+
+```svg
+<svg width="500" height="600" viewBox="-10 0 520 610">
+  <rect width="500" height="600" fill="none"/>
+  <!-- Insert all path and circle elements here -->
+</svg>

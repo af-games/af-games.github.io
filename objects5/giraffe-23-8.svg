@@ -1,0 +1,34 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" style="font-family:Arial">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#fff8e1"/>
+
+  <!-- Giraffe (star ingredient) -->
+  <path d="M50,50 Q90,20 170,50 Q300,200 350,150 Q450,200 490,150 Q530,200 570,150 Q590,60 600,110" fill="#fad896"/>
+  <circle cx="600" cy="280" r="100" fill="#ffb266"/>
+
+  <!-- Accompanying ingredients -->
+  <circle cx="150" cy="300" r="40" fill="#ffd700"/>
+  <path d="M110,320 Q90,350 80,380 H160 Q190,350 200,320 Z" fill="#ffb266"/>
+
+  <!-- Vegetables -->
+  <rect x="270" y="340" width="100" height="50" rx="25" fill="#8dc63c"/>
+  <path d="M330,390 Q310,420 350,420 Q390,420 430,390 Z" fill="#8dc63c"/>
+
+  <!-- Fruits -->
+  <circle cx="470" cy="300" r="40" fill="#ff6f91"/>
+  <path d="M510,320 Q520,350 530,380 H470 Q480,350 490,320 Z" fill="#ffb266"/>
+
+  <!-- Utensils -->
+  <path d="M50,350 Q100,400 150,350 Q200,400 250,350 Z" stroke="#8dc63c" fill="transparent"/>
+  <path d="M370,390 Q420,440 470,390 Q520,440 570,390 Z" stroke="#ffb266" fill="transparent"/>
+
+  <!-- Garnishes -->
+  <circle cx="120" cy="80" r="10" fill="#8dc63c"/>
+  <path d="M100,90 Q70,110 50,90 Z" stroke="#8dc63c" fill="transparent"/>
+
+  <!-- Tableware -->
+  <rect x="420" y="0" width="160" height="400" rx="20" stroke="#ffb266" fill="transparent"/>
+  <text x="50%" y="95%" text-anchor="middle" font-size="3em">Giraffe Delight</text>
+
+</svg>

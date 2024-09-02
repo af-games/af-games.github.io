@@ -1,0 +1,20 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="140" rx="60" ry="80" fill="#9BC7C7"/>
+  <ellipse cx="100" cy="140" rx="50" ry="70" fill="#32707A"/>
+
+  <!-- Wings -->
+  <circle cx="80" cy="60" r="30" fill="#9BC7C7"/>
+  <circle cx="120" cy="60" r="30" fill="#9BC7C7"/>
+  <circle cx="50" cy="40" r="15" fill="#32707A"/>
+  <circle cx="150" cy="40" r="15" fill="#32707A"/>
+
+  <!-- Wing details -->
+  <path d="M60,40 Q80,20 100,40" stroke="#FDB813" fill="transparent"/>
+  <path d="M140,40 Q120,20 100,40" stroke="#FDB813" fill="transparent"/>
+
+  <!-- Antennae -->
+  <path d="M95,20 Q115,40 95,60" stroke="#000" fill="transparent"/>
+  <path d="M105,20 Q85,40 105,60" stroke="#000" fill="transparent"/>
+
+</svg>

@@ -1,0 +1,33 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="50%" fill="#87CEEB"/>
+  <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#87CEEB; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#FFFFFF; stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Penguin Body -->
+  <ellipse cx="200" cy="150" rx="90" ry="130" fill="#000000">
+    <animateMotion repeatCount="indefinite" dur="2s">
+      <mpath href="#bodyPath"/>
+    </animateMotion>
+  </ellipse>
+
+  <!-- Penguin Head -->
+  <path d="M180,90 Q160,75 170,90 T180,130" fill="#000000"/>
+
+  <!-- Penguin Feet -->
+  <rect x="170" y="240" width="60" height="50" rx="30" fill="#000000"/>
+  <rect x="220" y="240" width="60" height="50" rx="30" fill="#000000"/>
+
+  <!-- Penguin Details -->
+  <path d="M190,120 Q185,110 195,110 Q205,120 Z" fill="#FFFFFF"/>
+  <circle cx="195" cy="140" r="5" fill="#FFFFFF"/>
+
+  <!-- Penguin Eyes -->
+  <circle cx="175" cy="105" r="5" fill="#FFFFFF"/>
+  <circle cx="205" cy="105" r="5" fill="#FFFFFF"/>
+
+  <!-- Body Animation Path -->
+  <path id="bodyPath" d="M200,150 A90,130 0 1 0 200,160"/>
+</svg>

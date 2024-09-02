@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Body -->
+  <rect x="100" y="100" width="300" height="400" fill="#CD853F"/>
+  <linearGradient id="bodyGrad" gradientUnits="userSpaceOnUse" x1="100" y1="100" x2="400" y2="500">
+    <stop offset="0%" stop-color="#E6B879" />
+    <stop offset="100%" stop-color="#CD853F" />
+  </linearGradient>
+
+  <!-- Neck -->
+  <path d="M200,140 Q250,100 300,140" fill="url(#bodyGrad)" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="250" cy="70" r="60" fill="#F5E6C9"/>
+  <linearGradient id="headGrad" gradientUnits="userSpaceOnUse" x1="200" y1="50" x2="300" y2="150">
+    <stop offset="0%" stop-color="#F5E6C9" />
+    <stop offset="100%" stop-color="#E6B879" />
+  </linearGradient>
+
+  <!-- Legs -->
+  <rect x="100" y="400" width="300" height="200" fill="none"/>
+  <path d="M50,500 h100 a100,100 0 0 1 100,-100 v-100 a100,100 0 0 1 -100,-100 z" fill="#796240"/>
+  <path d="M350,500 h100 a100,100 0 0 1 100,-100 v-100 a100,100 0 0 1 -100,-100 z" fill="#796240"/>
+
+  <!-- Horns -->
+  <path d="M230,50 q10,20 30,20 l-10,-20 10,-20 z" fill="black"/>
+  <path d="M280,50 q-10,20 -30,20 l10,-20 -10,-20 z" fill="black"/>
+
+  <!-- Eyes -->
+  <circle cx="240" cy="60" r="10" fill="white"/>
+  <circle cx="260" cy="60" r="10" fill="white"/>
+  <circle cx="245" cy="63" r="3" fill="black"/>
+
+</svg>

@@ -1,0 +1,24 @@
+<svg>` tag and set up some initial attributes:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="500px" height="500px"
+     viewBox="-250 -250 500 500">
+```
+
+In this initial setup:
+
+- `xmlns` is the XML namespace for SVG, which ensures that SVG elements are correctly identified.
+- `version` is set to "1.1" to specify the version of SVG we're using.
+- `width` and `height` define the viewport dimensions in pixels.
+- `viewBox` defines the aspect ratio and coordinate system of the SVG canvas.
+
+Next, let's introduce a gentle rhythm with some shapes that will form the basic structure for our butterfly masterpiece. We'll start with a simple circle to represent the body:
+
+```xml
+<circle cx="0" cy="0" r="50" fill="#FF69B4" stroke="#E32636"/>
+```
+
+Here, we've created a pink (`#FF69B4`) circle with a red outline (`stroke="#E32636"`), centered at `(cx, cy) = (0, 0)` and having a radius of `50px`. This will serve as the foundation for our butterfly.
+
+Now that we have our initial shape, let's introduce some harmony with colors and positions in the next lines. Stay tuned for more SVG notes in this musical composition!</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:red;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:orange;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:yellow;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <circle cx="0" cy="0" r="30">
+    <animate
+      attributeName="r"
+      values="30;40;30"
+      dur="1s"
+      repeatCount="indefinite"
+    />
+    <animate
+      attributeName="fill-opacity"
+      values="1;0.5;1"
+      dur="1s"
+      repeatCount="indefinite"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 0"
+      to="360 0"
+      dur="4s"
+      repeatCount="indefinite"
+    />
+    <animation id="bodyFill" attributeName="fill" values="red;orange;yellow;red" dur="1s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Right Wing -->
+  <circle cx="20" cy="-20" r="35">
+    <animate
+      attributeName="r"
+      values="35;45;35"
+      dur="1s"
+      repeatCount="indefinite"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="-20deg 0 0"
+      to="20deg 0 0"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+    <animation id="wingFill" attributeName="fill" values="yellow;orange;red;yellow" dur="1s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Left Wing -->
+  <circle cx="-20" cy="-20" r="35">
+    <animate
+      attributeName="r"
+      values="35;45;35"
+      dur="1s"
+      repeatCount="indefinite"
+    />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="20deg 0 0"
+      to="-20deg 0 0"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+    <animation id="wingFill" attributeName="fill" values="yellow;orange;red;yellow" dur="1s" repeatCount="indefinite" />
+  </circle>
+</svg>

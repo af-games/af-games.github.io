@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 950 600">
+  <!-- Bodice -->
+  <rect id="1" x="50" y="80" width="200" height="300"
+    style="fill: url(#bodgeGrad);"/>
+
+  <!-- Sleeves -->
+  <circle id="2" cx="300" cy="150" r="100" fill="#FFFFFF"/>
+  <use xlink:href="#2" x="500"/>
+
+  <!-- Collar -->
+  <rect id="3" x="200" y="50" width="600" height="40"
+    style="fill: url(#collarGrad);"/>
+
+  <!-- Hood -->
+  <polygon id="4" points="200,50 800,50 500,350"
+    style="fill: url(#hoodGrad);"/>
+</svg>

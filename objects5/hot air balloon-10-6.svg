@@ -1,0 +1,37 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bodice -->
+  <rect x="50" y="150" width="200" height="400"
+    style="fill:url(#bodiceGradient); stroke:black; stroke-width:2"/>
+
+  <!-- Sleeves -->
+  <circle cx="75" cy="150" r="80" fill="#F39C12"/>
+  <circle cx="225" cy="150" r="80" fill="#F39C12"/>
+
+  <!-- Balloon Baskets -->
+  <rect x="60" y="240" width="40" height="60" fill="#F39C12"/>
+  <rect x="210" y="240" width="40" height="60" fill="#F39C12"/>
+
+  <!-- Hot Air Balloons -->
+  <circle cx="75" cy="50" r="120" style="fill:url(#balloonGradient); stroke:black; stroke-width:2"/>
+  <circle cx="225" cy="50" r="120" style="fill:url(#balloonGradient); stroke:black; stroke-width:2"/>
+  <circle cx="75" cy="300" r="120" style="fill:url(#balloonGradient); stroke:black; stroke-width:2"/>
+  <circle cx="225" cy="300" r="120" style="fill:url(#balloonGradient); stroke:black; stroke-width:2"/>
+
+  <!-- Ropes & Strings -->
+  <path d="M75,50 Q150,75 225,50 Q300,75 225,50" style="stroke:#4A2800; stroke-width:5"/>
+  <path d="M75,300 Q150,275 225,300 Q300,275 225,300" style="stroke:#4A2800; stroke-width:5"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodiceGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB"/>
+      <stop offset="100%" style="stop-color:#002147"/>
+    </linearGradient>
+    <radialGradient id="balloonGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:yellow"/>
+      <stop offset="100%" style="stop-color:red"/>
+    </radialGradient>
+  </defs>
+
+</svg>

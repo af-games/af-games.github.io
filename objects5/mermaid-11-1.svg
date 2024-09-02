@@ -1,0 +1,21 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100 50 Q120 70, 140 50 Q160 70, 180 50" stroke="black" fill="none"/>
+
+  <!-- Tail -->
+  <polygon points="180,50 200,30 220,50" stroke="black" fill="#89badd"/>
+  <path d="M200,30 Q240,5, 260,30" stroke="black" fill="#89badd"/>
+
+  <!-- Hair -->
+  <circle cx="140" cy="70" r="30" stroke="black" fill="#d2a59e"/>
+  <circle cx="160" cy="80" r="20" stroke="black" fill="#d2a59e"/>
+
+  <!-- Face -->
+  <circle cx="140" cy="120" r="30" stroke="black" fill="#fff"/>
+  <circle cx="135" cy="115" r="5" stroke="black" fill="black"/>
+  <circle cx="145" cy="115" r="5" stroke="black" fill="black"/>
+
+  <!-- Eyes -->
+  <circle cx="130" cy="105" r="5" stroke="black" fill="#fff"/>
+  <circle cx="150" cy="105" r="5" stroke="black" fill="#fff"/>
+</svg>

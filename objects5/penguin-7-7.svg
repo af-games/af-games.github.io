@@ -1,0 +1,41 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <polygon id="body" points="-50,-100 50,-100 50,100 -50,100" fill="url(#gradientBody)"/>
+  <use xlink:href="#body" y="30" transform="rotate(30,60,85)" fill="black"/>
+
+  <!-- Head -->
+  <circle id="head" cx="60" cy="-70" r="40" fill="url(#gradientHead)"/>
+  <use xlink:href="#head" y="100" transform="rotate(20,-60,-50)" fill="black"/>
+
+  <!-- Beak -->
+  <path id="beak" d="M65,-30 Q70,5 Q80,-30 Z" fill="orange"/>
+  <use xlink:href="#beak" y="100" transform="rotate(20,60,-50)"/>
+
+  <!-- Eyes -->
+  <circle cx="45" cy="-60" r="5" fill="white"/>
+  <circle cx="75" cy="-60" r="5" fill="white"/>
+
+  <!-- Legs -->
+  <rect id="leg" width="10" height="30" fill="gray"/>
+  <use xlink:href="#leg" y="50" transform="rotate(20,-45,-70)"/>
+  <use xlink:href="#leg" y="50" transform="rotate(-20,85,-70)"/>
+
+  <!-- Feet -->
+  <path id="foot" d="M-5,10 Q0,20 Q5,10 Z" fill="gray"/>
+  <use xlink:href="#foot" y="90" transform="rotate(45,-35,-80)"/>
+  <use xlink:href="#foot" y="90" transform="rotate(-45,75,-80)"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradientBody" gradientTransform="rotate(120)">
+      <stop offset="0%" stop-color="#3D7AA5"/>
+      <stop offset="100%" stop-color="#264F78"/>
+    </linearGradient>
+    <linearGradient id="gradientHead" gradientTransform="rotate(-90)">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#C0C0C0"/>
+    </linearGradient>
+  </defs>
+
+</svg>

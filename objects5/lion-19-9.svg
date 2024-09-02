@@ -1,0 +1,32 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main melody (lion's roar) -->
+  <path id="roar"
+        d="M150,200 Q200,100 250,200 Q300,300 350,200"
+        fill="none" stroke="#ff6347" stroke-width="8" />
+
+  <!-- Harmonies (lion's mane) -->
+  <g id="mane">
+    <path d="M100,100 Q150,50 200,100"
+          fill="none" stroke="#ffa500" stroke-width="4" />
+    <path d="M100,80 Q175,30 200,80"
+          fill="none" stroke="#ffa500" stroke-width="4" />
+    <path d="M100,60 Q150,10 200,60"
+          fill="none" stroke="#ffa500" stroke-width="4" />
+  </g>
+
+  <!-- Rhythm (lion's body) -->
+  <rect x="380" y="250" width="100" height="100"
+        fill="#cd7f32" rx="50" />
+
+  <!-- Interaction: Overlap of mane and roar -->
+  <use href="#mane" transform="translate(140,10)" opacity="0.5" />
+
+  <!-- Interaction: Complementary texture (lion's spots) -->
+  <g id="spots">
+    <circle cx="275" cy="230" r="10" fill="#fff" />
+    <circle cx="325" cy="250" r="8" fill="#fff" />
+    <circle cx="350" cy="220" r="6" fill="#fff" />
+  </g>
+
+</svg>

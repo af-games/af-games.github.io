@@ -1,0 +1,43 @@
+<svg width="600pt" height="600pt" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="300" cy="300" r="250"
+          style="fill: url(#bodyGradient); stroke: none;" />
+
+  <!-- Dorsal fin -->
+  <rect x="270" y="140" width="30" height="90"
+        style="fill: #a9afbb; stroke: none;">
+    <pattern id="diagonalStripes" patternUnits="userSpaceOnUse" width="15" height="15">
+      <rect x="0" y="0" width="7.5" height="15" fill="#f8f9fa"/>
+      <rect x="7.5" y="0" width="7.5" height="15" fill="#a9afbb"/>
+    </pattern>
+    <style>fill: url(#diagonalStripes)</style>
+  </rect>
+
+  <!-- Pectoral fins (left) -->
+  <rect x="230" y="430" width="70" height="40"
+        style="fill: #a9afbb; stroke: none;">
+    <pattern id="wavePattern" patternUnits="userSpaceOnUse" width="15" height="6">
+      <path d="M 0,0 Q 7.5,3 Q 15,0" fill="#f8f9fa"/>
+      <path d="M 0,6 Q 7.5,3 Q 15,6" fill="#a9afbb"/>
+    </pattern>
+    <style>fill: url(#wavePattern)</style>
+  </rect>
+
+  <!-- Pectoral fins (right) -->
+  <rect x="420" y="430" width="70" height="40"
+        style="fill: #a9afbb; stroke: none;">
+    <use href="#wavePattern"/>
+  </rect>
+
+  <!-- Accents (laces, studs): Path data not included for simplicity -->
+
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(13,44,87);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(189,224,255);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

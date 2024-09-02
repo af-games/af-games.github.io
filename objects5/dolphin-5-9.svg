@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" preserveAspectRatio="xMidYMid meet">
+  <!-- Dolphins -->
+  <circle cx="50" cy="70" r="40" fill="lightblue"/>
+  <circle cx="100" cy="30" r="35" fill="lightblue"/>
+  <circle cx="20" cy="90" r="30" fill="lightblue"/>
+
+  <!-- Trails -->
+  <path d="M50,70 Q40,85 30,90 T20,90" stroke="darkgreen" fill="transparent"/>
+  <path d="M100,30 Q90,45 80,50 T70,50" stroke="darkgreen" fill="transparent"/>
+  <path d="M50,70 Q60,85 70,90 T80,90 L100,70" stroke="darkgreen" fill="transparent"/>
+
+  <!-- Repeat pattern -->
+  <defs>
+    <pattern id="dolphins" patternUnits="userSpaceOnUse" width="150" height="150">
+      <image href="dolphin.svg" x="0" y="0" width="150" height="150"/>
+    </pattern>
+  </defs>
+
+  <!-- Garden background -->
+  <rect width="150" height="150" fill="url(#dolphins)"/>
+
+</svg>

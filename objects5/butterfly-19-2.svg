@@ -1,0 +1,14 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="100" cy="80" r="20" fill="#FF69B4"/>
+
+  <!-- Wing 1 (Left) -->
+  <path d="M75,50 Q95,30 115,50" stroke="#FF69B4" fill="transparent"/>
+  <path d="M75,50 Q95,80 115,50" stroke="#FF69B4" fill="transparent"/>
+
+  <!-- Wing 2 (Right) -->
+  <path d="M125,50 Q105,30 85,50" stroke="#FF69B4" fill="transparent"/>
+  <path d="M125,50 Q105,80 85,50" stroke="#FF69B4" fill="transparent"/>
+
+</svg>

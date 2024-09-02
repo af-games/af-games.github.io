@@ -1,0 +1,26 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <circle cx="50" cy="70" r="30" fill="#F5DEB3"/>
+
+  <!-- Body -->
+  <rect x="20" y="100" width="60" height="40" fill="#F5DEB3"/>
+
+  <!-- Ears -->
+  <polygon points="30,50,70,50,45,90" fill="#8B4513"/>
+  <polygon points="70,50,30,50,55,90" fill="#8B4513"/>
+
+  <!-- Legs -->
+  <rect x="15" y="140" width="20" height="20" fill="#8B4513"/>
+  <rect x="85" y="140" width="20" height="20" fill="#8B4513"/>
+  <rect x="-10" y="160" width="20" height="20" fill="#8B4513"/>
+  <rect x="90" y="160" width="20" height="20" fill="#8B4513"/>
+
+  <!-- Tail -->
+  <rect x="70" y="130" width="20" height="40" fill="#8B4513"/>
+
+  <!-- Eyes -->
+  <circle cx="40" cy="65" r="5" fill="#000"/>
+  <circle cx="60" cy="65" r="5" fill="#000"/>
+
+</svg>

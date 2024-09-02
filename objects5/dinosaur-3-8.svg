@@ -1,0 +1,20 @@
+<svg width="800" height="600">
+  <!-- Rect Body -->
+  <rect x="150" y="200" width="300" height="400" fill="green" />
+
+  <!-- Circle Arms & Legs -->
+  <circle cx="175" cy="250" r="50" fill="brown" />
+  <circle cx="425" cy="250" r="50" fill="brown" />
+  <circle cx="300" cy="450" r="80" fill="green" />
+  <circle cx="300" cy="150" r="80" fill="green" />
+
+  <!-- Polygon Tail Spikes -->
+  <polygon points="600,250 650,300 600,350" fill="grey" />
+
+  <!-- Ellipse Eye Orbits -->
+  <ellipse cx="300" cy="175" rx="40" ry="50" fill="black" />
+  <ellipse cx="350" cy="175" rx="40" ry="50" fill="black" />
+
+  <!-- Path Neck Curve -->
+  <path d="M200,150 Q250,50 300,150" stroke="brown" fill="transparent" />
+</svg>

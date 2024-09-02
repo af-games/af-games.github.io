@@ -1,0 +1,31 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#F1D8C9"/>
+
+  <!-- Cake Base -->
+  <ellipse cx="250" cy="270" rx="230" ry="160" fill="#FFEBCD"/>
+  <path d="M250,330 Q140,380 250,420 Q360,380 250,330" stroke="#FFFFFF" stroke-width="1"/>
+
+  <!-- Cake Top -->
+  <ellipse cx="250" cy="190" rx="170" ry="110" fill="#FFEBCD"/>
+  <path d="M250,140 Q140,90 250,40 Q360,90 250,140" stroke="#FFFFFF" stroke-width="1"/>
+
+  <!-- Cake Middle -->
+  <ellipse cx="250" cy="230" rx="200" ry="130" fill="#FFEBCD"/>
+  <path d="M250,180 Q140,230 250,270 Q360,230 250,180" stroke="#FFFFFF" stroke-width="1"/>
+
+  <!-- Frosting -->
+  <circle cx="190" cy="330" r="10" fill="#FFFFFF"/>
+  <circle cx="280" cy="340" r="10" fill="#FFFFFF"/>
+  <circle cx="370" cy="320" r="10" fill="#FFFFFF"/>
+
+  <!-- Icing Details -->
+  <path d="M250,90 Q160,120 250,140 H340 Q380,120 310,90 Z" stroke="#F5F5DC" stroke-width="5"/>
+  <path d="M240,330 Q170,360 250,390 Q330,360 310,330 Z" stroke="#FFFFFF" stroke-width="1"/>
+
+  <!-- Candle -->
+  <rect x="235" y="40" width="30" height="80" fill="#FADA5E"/>
+  <polygon points="265,40 295,40 265,70" fill="#B19C75"/>
+
+</svg>

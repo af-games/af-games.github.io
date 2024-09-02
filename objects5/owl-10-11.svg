@@ -1,0 +1,22 @@
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="800" fill="#0B4C3F"/>
+
+  <!-- Owl Body -->
+  <path d="M150,200 Q200,100 300,200 Q250,300 300,400 Q250,500 300,600 Q200,700 150,600" fill="#8E6A3B"/>
+
+  <!-- Owl Eyes -->
+  <circle cx="225" cy="225" r="25" fill="#FFC142"/>
+  <circle cx="225" cy="225" r="15" fill="#000000"/>
+
+  <!-- Owl Feathers (simplified, actual design would be much more complex) -->
+  <path d="M300,600 Q325,675 350,600 Q325,525 300,450" stroke="#A9A9A9" stroke-width="5"/>
+
+  <!-- Moon -->
+  <ellipse cx="500" cy="150" rx="80" ry="70" fill="#F5F5F5"/>
+
+  <!-- Shadows (simplified) -->
+  <rect x="200" y="650" width="300" height="150" fill-opacity="0.3" fill="#3D2B1F"/>
+
+</svg>

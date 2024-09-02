@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Starting Line -->
+  <rect x="100" y="450" width="300" height="50" fill="green" stroke="black"/>
+
+  <!-- Hurdles -->
+  <rect x="250" y="400" width="100" height="50" fill="transparent" stroke="black"/>
+  <rect x="450" y="350" width="100" height="50" fill="transparent" stroke="black"/>
+
+  <!-- Finish Line -->
+  <circle cx="650" cy="400" r="40" fill="gold"/>
+
+  <!-- Triceratops -->
+  <circle cx="150" cy="380" r="40" fill="brown"/>
+  <text x="120" y="370" font-family="Verdana" font-size="16">Triceratops</text>
+
+  <!-- Tyrannosaurus Rex -->
+  <polygon points="250,280 350,180 450,280" fill="grey"/>
+  <text x="270" y="300" font-family="Verdana" font-size="16">Tyrannosaurus Rex</text>
+
+  <!-- Pterodactyl -->
+  <polygon points="300,150 350,50 400,150" fill="blue"/>
+  <text x="280" y="170" font-family="Verdana" font-size="16">Pterodactyl</text>
+
+  <!-- Narrative Text Bubbles -->
+  <text x="100" y="340" text-anchor="middle" dominant-baseline="middle" font-family="Verdana" font-size="20">
+    On your marks... Get set...
+  </text>
+  <!-- More text bubbles here... -->
+
+</svg>

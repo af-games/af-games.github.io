@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450">
+  <!-- Cake base -->
+  <rect x="80" y="300" width="240" height="120" fill="#FCD1C7" rx="30"/>
+
+  <!-- Cake top -->
+  <path d="M80,60 Q150,0 280,60 Q350,0 400,60" fill="#E5B99A" stroke-width="3" stroke="#FFF"/>
+
+  <!-- Frosting -->
+  <rect x="70" y="240" width="260" height="60" fill="#F8E0C1"/>
+  <path d="M150,170 Q250,210 350,170" stroke-width="5" stroke="#FFF"/>
+
+  <!-- Cake layers -->
+  <rect x="90" y="320" width="220" height="60" fill="#FFF"/>
+  <path d="M180,340 Q220,370 260,340" stroke-width="3" stroke="#D2B48C"/>
+
+  <!-- Candles -->
+  <circle cx="150" cy="90" r="20" fill="#FFDB7D"/>
+  <circle cx="250" cy="90" r="20" fill="#FFDB7D"/>
+  <rect x="140" y="60" width="30" height="30" fill="#FCD1C7"/>
+
+  <!-- Cherry on top -->
+  <circle cx="350" cy="80" r="20" fill="#C95A2B"/>
+  <circle cx="350" cy="65" r="5" fill="#FFF"/>
+</svg>

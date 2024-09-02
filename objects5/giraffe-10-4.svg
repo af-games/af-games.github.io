@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet">
+
+<!-- Grass -->
+<rect x="0" y="450" width="800" height="150" fill="#8DC63C"/>
+<pattern id="grass" patternUnits="userSpaceOnUse">
+  <image href="https://i.imgur.com/9KjGbVh.png" width="10" height="10"/>
+</pattern>
+<rect x="0" y="450" width="800" height="150" fill="url(#grass)"/>
+
+<!-- Hills -->
+<path d="M 0,350 Q 200,200 400,350 Q 600,500 800,350" stroke="#B2DF8A" stroke-width="2" fill="none"/>
+<path d="M 0,450 Q 250,400 500,450 Q 750,500 800,450" stroke="#C1E1AF" stroke-width="2" fill="none"/>
+
+<!-- River -->
+<path d="M 300,500 C 350,550 450,600 550,570 C 650,540 700,590 800,550" stroke="#2F7DBE" stroke-width="2" fill="none"/>
+<path d="M 300,500 C 350,550 450,600 550,570 C 650,540 700,590 800,550" stroke="#2F7DBE" stroke-width="2" fill="none"/>
+
+<!-- Trees -->
+<g transform="translate(100, 300)">
+  <circle cx="0" cy="0" r="40" stroke="#6D4C29" stroke-width="5" fill="#82725A"/>
+  <rect x="-20" y="-100" width="40" height="100" stroke="#6D4C29" stroke-width="5" fill="#82725A"/>
+
+  <circle cx="30" cy="0" r="30" stroke="#6D4C29" stroke-width="5" fill="#82725A"/>
+  <rect x="10" y="-70" width="20" height="80" stroke="#6D4C29" stroke-width="5" fill="#82725A"/>
+</g>
+
+<!-- Giraffe -->
+<image href="https://i.imgur.com/WZ3FHfS.png" x="400" y="150" width="200"/>
+
+</svg>

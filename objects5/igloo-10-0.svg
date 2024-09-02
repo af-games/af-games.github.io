@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Main igloo structure -->
+  <path d="M-150,0 a150,150 0 0 1 300,0 a150,150 0 0 1 -300,0" fill="white" stroke="black"/>
+
+  <!-- Roof detail -->
+  <circle cx="0" cy="-75" r="20" fill="white" stroke="black"/>
+
+  <!-- Windows -->
+  <g id="windows">
+    <rect x="-90" y="-130" width="40" height="60" fill="lightblue"/>
+    <rect x="-40" y="-130" width="40" height="60" fill="lightblue"/>
+    <rect x="20" y="-130" width="40" height="60" fill="lightblue"/>
+  </g>
+
+  <!-- Door -->
+  <polygon points="-90,-75 -50,-100 0,-75" fill="darkblue" stroke="black"/>
+  <rect x="-80" y="-120" width="60" height="30" fill="lightblue"/>
+
+</svg>

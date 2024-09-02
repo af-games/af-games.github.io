@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue"/>
+      <stop offset="100%" style="stop-color:white"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#grad1)"/>
+
+  <!-- Vertical threads -->
+  <g stroke="black" stroke-width="2">
+    <line x1="5" y1="0" x2="5" y2="400"/>
+    <line x1="10" y1="0" x2="10" y2="400"/>
+    <!-- Add more lines with step of 10 -->
+    <line x1="395" y1="0" x2="395" y2="400"/>
+  </g>
+
+  <!-- Horizontal threads -->
+  <g stroke="black" stroke-width="2">
+    <line x1="0" y1="5" x2="400" y2="5"/>
+    <line x1="0" y1="10" x2="400" y2="10"/>
+    <!-- Add more lines with step of 10 -->
+    <line x1="0" y1="395" x2="400" y2="395"/>
+  </g>
+
+  <!-- Penguin shape -->
+  <path fill="black">
+    <rect x="80" y="60" width="320" height="240" rx="80"/>
+    <circle cx="150" cy="200" r="70"/>
+    <polygon points="390,100 400,150 370,200"/>
+  </path>
+
+</svg>

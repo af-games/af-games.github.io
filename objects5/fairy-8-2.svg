@@ -1,0 +1,35 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outline -->
+  <rect x="0" y="0" width="500" height="500" fill="none"/>
+
+  <!-- Body, Arms, and Hair -->
+  <path d="M125 225 Q... Z" stroke="black" fill="lightbrown"/>
+  <circle cx="200" cy="150" r="75" stroke="black" fill="lightyellow"/>
+
+  <!-- Wings -->
+  <path d="M..." stroke="purple" fill="url(#wingGradient)"/>
+  <defs>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightpurple; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:darkpurple; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Face -->
+  <ellipse cx="200" cy="175" rx="75" ry="100" stroke="black" fill="lightyellow"/>
+  <circle cx="175" cy="162.5" r="8" fill="black"/>
+  <circle cx="225" cy="162.5" r="8" fill="black"/>
+  <path d="M... Z" stroke="black"/>
+
+  <!-- Dress -->
+  <path d="M..." stroke="black" fill="url(#dressGradient)"/>
+  <linearGradient id="dressGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:lightpink; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:darkpink; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Legs -->
+  <rect x="150" y="375" width="250" height="50" stroke="black" fill="lightpink"/>
+
+</svg>

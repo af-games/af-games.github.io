@@ -1,0 +1,39 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <g id="penguin-body">
+    <rect x="50" y="100" width="100" height="150"
+          fill="url(#body-gradient)" rx="20"/>
+
+    <!-- Flipper outlines (left and right) -->
+    <path d="M60 170 Q40 190, 60 210" stroke="#000" fill="transparent"/>
+    <path d="M140 170 Q140 190, 160 210" stroke="#000" fill="transparent"/>
+  </g>
+
+  <!-- Head -->
+  <circle cx="100" cy="50" r="50"
+          fill="url(#head-gradient)"/>
+
+  <!-- Eyes (left and right) -->
+  <circle cx="85" cy="40" r="5" fill="#000"/>
+  <circle cx="115" cy="40" r="5" fill="#000"/>
+
+  <!-- Bill -->
+  <path d="M90 60 Q70 70, 90 80 Q110 70, 90 60"
+        stroke="#000" fill="transparent"/>
+
+  <!-- Feet (left and right) -->
+  <circle cx="50" cy="240" r="20" fill="#A9A9A9"/>
+  <circle cx="150" cy="240" r="20" fill="#A9A9A9"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="body-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(67,99,124);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(85,131,160);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="head-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(187,187,187);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

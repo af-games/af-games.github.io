@@ -1,0 +1,35 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bell (Body) -->
+  <circle id="bell" cx="100" cy="80" r="60"
+    fill="url(#grad1)" stroke="black"/>
+
+  <!-- Radial gradient for the bell -->
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:rgb(238,247,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Oral Arms -->
+  <g id="oralArms">
+    <?for (let i = 0; i < 8; i++) {?>
+      <polygon points="90,70 <?=i*45+90+','+(70-(12-i*3))?>"
+        fill="white" stroke="black"/>
+    <?}?>
+  </g>
+
+  <!-- Nematocysts -->
+  <g id="nematocysts">
+    <?for (let i = 0; i < 50; i++) {?>
+      <circle cx="<?=Math.random()*200+10?>" cy="<?=Math.random()*180+30?>"
+        r="2" fill="black"/>
+    <?}?>
+  </g>
+
+  <!-- Tentacles -->
+  <path id="tentacles" d="M50,160 Q75,90 150,160 Q225,90 250,160"
+    fill="none" stroke="black"/>
+
+</svg>

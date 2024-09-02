@@ -1,0 +1,37 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Castle shape -->
+    <path id="castle" d="M10 20 h80 v60 h-80 Z M20 30 l60 0 M40 50 l40 0"/>
+
+    <!-- Flower pattern -->
+    <pattern id="flowers" patternUnits="userSpaceOnUse" width="50" height="50">
+      <circle cx="25" cy="25" r="20" fill="#ff69b4"/>
+      <path d="M12.5 37.5 Q12.5 20, 25 5 L47.5 5 Q47.5 20, 37.5 37.5 Z" stroke="#ff69b4" fill="transparent"/>
+    </pattern>
+  </defs>
+
+  <!-- Castle 1 -->
+  <g transform="translate(100, 100)">
+    <use xlink:href="#castle"/>
+    <path d="M50 70 h30 v20 h-30 Z" fill="url(#flowers)"/>
+  </g>
+
+  <!-- Path to Castle 2 -->
+  <path d="M150 140 Q200 80, 250 140"/>
+
+  <!-- Castle 2 -->
+  <g transform="translate(300, 120)">
+    <use xlink:href="#castle"/>
+    <path d="M50 70 h30 v20 h-30 Z" fill="url(#flowers)"/>
+  </g>
+
+  <!-- Path to Castle 3 -->
+  <path d="M400 160 Q350 240, 300 300"/>
+
+  <!-- Castle 3 -->
+  <g transform="translate(200, 380)">
+    <use xlink:href="#castle"/>
+    <path d="M50 70 h30 v20 h-30 Z" fill="url(#flowers)"/>
+  </g>
+
+</svg>

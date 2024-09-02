@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Fairy's Body -->
+  <path id="fairy-body" d="M-40,-40 a20,20 0 1,0 80,0 a20,20 0 1,0 -80,0 z" fill="#ffcc99"/>
+  <rect x="-50" y="-30" width="100" height="40" rx="20" fill="#ffff66"/>
+
+  <!-- Fairy's Wand -->
+  <path id="fairy-wand" d="M-45,-48 l10,0 l0,70 l-5,0 z" fill="#9933ff"/>
+  <animateMotion repeatCount="indefinite">
+    <mpath href="#wand-motion"/>
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </animateMotion>
+  <path id="wand-motion" d="M-45,-48 L10,-48"/>
+
+  <!-- Fairy's Hair -->
+  <circle cx="-35" cy="-50" r="6" fill="#ffcc99">
+    <animate attributeName="cy" values="-50;-45;-50" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="35" cy="-50" r="6" fill="#ffcc99">
+    <animate attributeName="cy" values="-50;-45;-50" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Fairy's Legs -->
+  <g id="fairy-legs" transform="rotate(180, -35,-60)">
+    <path d="M-35,-60 l-10,-40 h20 l-10,-40 z"/>
+    <animate attributeName="transform" values="rotate(0, -35,-60); rotate(90, -35,-60)" dur="2s" repeatCount="indefinite"/>
+  </g>
+</svg>

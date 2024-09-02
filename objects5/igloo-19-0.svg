@@ -1,0 +1,21 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo Structure -->
+  <circle cx="200" cy="200" r="150" fill="#FFFFFF" stroke="#CACACA" stroke-width="3"/>
+
+  <!-- Igloo Entrance -->
+  <polygon points="175,200 225,200 200,75" fill="#D4F5FF" stroke="#CACACA" stroke-width="3"/>
+
+  <!-- Window Holes -->
+  <path d="M160,120 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0 fill="#CACACA"/>
+  <path d="M240,120 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0 fill="#CACACA"/>
+  <path d="M160,90 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0 fill="#CACACA"/>
+  <path d="M240,90 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0 fill="#CACACA"/>
+
+  <!-- Snow Lines -->
+  <rect x="50" y="50" width="5" height="50" fill="#FFFFFF" stroke="#888888" stroke-width="1"/>
+  <rect x="345" y="50" width="5" height="50" fill="#FFFFFF" stroke="#888888" stroke-width="1"/>
+  <rect x="50" y="295" width="5" height="50" fill="#FFFFFF" stroke="#888888" stroke-width="1"/>
+  <rect x="345" y="295" width="5" height="50" fill="#FFFFFF" stroke="#888888" stroke-width="1"/>
+
+</svg>

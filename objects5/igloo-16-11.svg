@@ -1,0 +1,19 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#E5F5E0"/>
+
+  <!-- Walls -->
+  <polygon points="100,200 200,100 300,200 200,300" fill="#FFFFFF"/>
+  <polygon points="400,200 500,100 600,200 500,300" fill="#FFFFFF"/>
+
+  <!-- Entrance tunnel -->
+  <path d="M75,200 Q100,225 125,200" stroke="#90CAF9" stroke-width="5"/>
+
+  <!-- Annotations -->
+  <text x="30" y="40" text-anchor="start" font-size="16">1. Walls</text>
+  <text x="30" y="70" text-anchor="start" font-size="12">Interlocking arches for stability and insulation.</text>
+  <text x="30" y="95" text-anchor="start" font-size="16">2. Entrance tunnel</text>
+  <text x="30" y="115" text-anchor="start" font-size="12">Blocks wind from entering directly.</text>
+
+</svg>

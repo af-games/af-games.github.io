@@ -1,0 +1,16 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphin Body -->
+  <path id="body" d="M100,20 Q175,75 250,20 Q325,65 400,20" stroke="darkgray" fill="gray" />
+
+  <!-- Dolphin Fin -->
+  <path id="fin" d="M175,75 A50,50 0 0 0 225,125" stroke="darkgray" fill="gray" />
+
+  <!-- Dolphin Tail -->
+  <path id="tail" d="M375,20 Q425,60 400,80 Q375,100 325,80 Q300,60 375,20" stroke="darkgray" fill="lightgray" />
+
+  <!-- Dolphin Head -->
+  <ellipse cx="100" cy="40" rx="50" ry="30" stroke="darkgray" fill="gray" />
+  <line x1="75" y1="40" x2="125" y2="40" stroke="darkgray" />
+
+</svg>

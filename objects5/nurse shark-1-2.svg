@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+
+  <!-- Body -->
+  <circle cx="-70" cy="50" r="80" fill="#4D4F53" stroke="#fff"/>
+  <circle cx="-70" cy="50" r="70" fill="#2B2E31"/>
+
+  <!-- Back fin -->
+  <rect x="-90" y="30" width="60" height="80" fill="#4D4F53" stroke="#fff"/>
+  <rect x="-90" y="30" width="50" height="70" fill="#2B2E31"/>
+
+  <!-- Dorsal fins -->
+  <rect x="-60" y="60" width="20" height="40" fill="#4D4F53" stroke="#fff"/>
+  <rect x="-60" y="60" width="18" height="38" fill="#2B2E31"/>
+  <rect x="-75" y="90" width="20" height="40" fill="#4D4F53" stroke="#fff"/>
+  <rect x="-75" y="90" width="18" height="38" fill="#2B2E31"/>
+
+  <!-- Pectoral fins -->
+  <path d="M-90,60 Q-80,-40,-90,-90 Q-100,-40,-90,60" fill="#4D4F53"/>
+  <path d="M-90,60 Q-80,-40,-90,-90 Q-100,-40,-90,60" stroke="#fff"/>
+
+  <!-- Tail fin -->
+  <path d="M-70,-100 Q-50,-120 -30,-100" fill="#4D4F53"/>
+  <path d="M-70,-100 Q-50,-120 -30,-100" stroke="#fff"/>
+
+  <!-- Teeth -->
+  <circle cx="-68" cy="-70" r="2" fill="#fff"/>
+  <circle cx="-62" cy="-70" r="2" fill="#fff"/>
+  <circle cx="-56" cy="-70" r="2" fill="#fff"/>
+
+</svg>

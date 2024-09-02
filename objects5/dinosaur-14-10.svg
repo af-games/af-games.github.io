@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -500 1000 1000">
+```
+
+**Venturing into the unknown with tentative lines and shapes:**
+
+Let's start with a simple outline of a dinosaur. We'll use `<path>` elements for the body, head, tail, and legs.
+
+```svg
+<path d="M0,-250 Q-300,-100 -400,100" stroke="black" fill="none" />
+```
+
+**Discovering new features:**
+
+As we explore further, let's add some details like eyes (`circle`), mouth (`rectangle`), and a spine (`polyline`).
+
+```svg
+<circle cx="-350" cy="-100" r="25" fill="black" />
+<circle cx="-250" cy="-100" r="25" fill="black" />
+<rect x="-450" y="-150" width="50" height="50" fill="black" />
+<polyline points="-300,-50 -200,-50 -275,50" stroke="black" fill="none" />
+```
+
+**Documenting the journey:**
+
+We've used several attributes to define our discoveries:
+
+- `d`: Defines the path of the dinosaur's body.
+- `stroke` and `fill`: Define the color of the outline and interior of shapes.
+- `cx`, `cy`, `r`: Define the center coordinates and radius of circles.
+- `x`, `y`, `width`, `height`: Define the position and size of rectangles.
+- `points`: Defines the coordinates for polyline points.
+
+**Writing the final draft:**
+
+Now, let's put it all together:
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -500 1000 1000">
+  <path d="M0,-250 Q-300,-100 -400,100" stroke="black" fill="none" />
+  <circle cx="-350" cy="-100" r="25" fill="black" />
+  <circle cx="-250" cy="-100" r="25" fill="black" />
+  <rect x="-450" y="-150" width="50" height="50" fill="black" />
+  <polyline points="-300,-50 -200,-50 -275,50" stroke="black" fill="none" />
+</svg>

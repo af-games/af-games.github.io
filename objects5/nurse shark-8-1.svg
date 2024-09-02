@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+  <!-- Body -->
+  <path d="M10,20 Q15,5 Q35,5 Q40,20 Q35,35 Q15,35 Q10,20 Z" fill="#98FB98"/>
+
+  <!-- Fins -->
+  <path d="M10,20 L5,10 L5,30 Z" fill="#C0C0C0"/>
+  <path d="M40,20 L35,10 L35,30 Z" fill="#C0C0C0"/>
+
+  <!-- Tail -->
+  <path d="M45,20 Q48,27 Q45,35" stroke="#C0C0C0" stroke-width="2"/>
+
+  <!-- Eyes -->
+  <circle cx="15" cy="15" r="3.5" fill="black"/>
+  <circle cx="30" cy="15" r="3.5" fill="black"/>
+</svg>

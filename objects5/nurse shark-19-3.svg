@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10">
+
+  <!-- Body -->
+  <rect id="body" x="0" y="5" width="20" height="5"
+        fill="url(#bodyGradient)" rx="2"/>
+
+  <!-- Left Fin -->
+  <path id="leftFin" d="M6,7 Q4,9 6,10 Q8,9 6,7"
+        fill="url(#finGradient)"/>
+
+  <!-- Right Fin -->
+  <use xlink:href="#leftFin" transform="translate(12,0)"/>
+
+  <!-- Left Eye -->
+  <circle id="eye" cx="3" cy="3.5" r="1.5" fill="black"/>
+  <circle cx="3" cy="3.5" r="0.5" fill="white"/>
+
+  <!-- Right Eye -->
+  <use xlink:href="#eye" transform="translate(7,0)"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:darkblue; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#483D8B; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="finGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:grey; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#A9A9A9; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

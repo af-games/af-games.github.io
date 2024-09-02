@@ -1,0 +1,31 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="150" cy="170" rx="80" ry="140" fill="#D2691E"/>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="130" rx="60" ry="80" fill="#D2691E"/>
+
+  <!-- Eye left -->
+  <circle cx="120" cy="120" r="15" fill="#352A0F"/>
+  <circle cx="124" cy="117" r="5" fill="#BFBFBF"/>
+
+  <!-- Eye right -->
+  <circle cx="180" cy="120" r="15" fill="#352A0F"/>
+  <circle cx="176" cy="117" r="5" fill="#BFBFBF"/>
+
+  <!-- Beak -->
+  <polygon points="140,90 160,90 150,80" style="fill:#FF7F27; stroke-width:1;" />
+
+  <!-- Feathers (example of a few feathers) -->
+  <rect x="130" y="160" width="10" height="20" fill="#654321"/>
+  <rect x="145" y="175" width="8" height="15" fill="#000000" transform="rotate(30,145,175)" />
+  <rect x="160" y="155" width="12" height="25" fill="#FFFFFF"/>
+
+  <!-- Feet left -->
+  <rect x="90" y="280" width="30" height="30" fill="#3D2B19"/>
+  <rect x="110" y="270" width="30" height="30" fill="#3D2B19"/>
+
+  <!-- Feet right -->
+  <rect x="210" y="280" width="30" height="30" fill="#3D2B19"/>
+  <rect x="190" y="270" width="30" height="30" fill="#3D2B19"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Pathways -->
+<rect x="50" y="100" width="700" height="400" style="fill:lightgreen;stroke-width:2;stroke:black"/>
+
+<!-- Lion Statues (Circles) -->
+<circle cx="150" cy="250" r="80" fill="saddlebrown"/>
+<circle cx="350" cy="170" r="60" fill="saddlebrown"/>
+<circle cx="650" cy="280" r="70" fill="saddlebrown"/>
+
+<!-- Lion Statues (Eyes) -->
+<circle cx="145" cy="230" r="5" fill="white"/>
+<circle cx="155" cy="230" r="5" fill="white"/>
+<circle cx="345" cy="150" r="4" fill="white"/>
+<circle cx="355" cy="150" r="4" fill="white"/>
+<circle cx="645" cy="260" r="5" fill="white"/>
+<circle cx="655" cy="260" r="5" fill="white"/>
+
+<!-- Plants (Paths) -->
+<path d="M30,170 Q90,120 210,170 T420,280 Q540,230 700,280" stroke="green" fill="transparent"/>
+<path d="M60,220 Q120,270 180,220 Q240,290 360,250 Q480,280 600,250 Q720,290 780,220" stroke="green" fill="transparent"/>
+
+<!-- Shady Tree -->
+<path d="M150,50 Q200,100 300,50 T450,150 Q550,250 650,150 Z" stroke="brown" fill="darkgreen" opacity="0.7"/>
+
+<!-- Bright Flower Bed -->
+<path d="M350,380 Q400,430 450,380 T550,320 Q600,370 650,320 Z" stroke="red" fill="yellow"/>
+
+<!-- Light Interaction (Shading) -->
+<linearGradient id="lightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" style="stop-color:white;stop-opacity:1"/>
+  <stop offset="50%" style="stop-color:white;stop-opacity:0.7"/>
+  <stop offset="100%" style="stop-color:black;stop-opacity:0"/>
+</linearGradient>
+<rect x="0" y="0" width="800" height="600" fill="url(#lightGradient)"/>
+
+</svg>

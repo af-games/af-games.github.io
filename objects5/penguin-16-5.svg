@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 200">
+
+<!-- Define gradients -->
+<defs>
+  <linearGradient id="penguin-body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%"   style="stop-color:rgb(0,0,0);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(64,64,64);stop-opacity:1" />
+  </linearGradient>
+  <linearGradient id="penguin-head-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%"   style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(192,192,192);stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+<!-- Body tiles -->
+<rect x="10" y="30" width="5" height="40" fill="url(#penguin-body-gradient)" />
+<rect x="15" y="30" width="5" height="40" fill="url(#penguin-body-gradient)" />
+<rect x="20" y="30" width="5" height="40" fill="url(#penguin-body-gradient)" />
+<rect x="25" y="30" width="5" height="40" fill="url(#penguin-body-gradient)" />
+<rect x="10" y="70" width="5" height="40" fill="url(#penguin-body-gradient)" />
+
+<!-- Head tiles (smaller grid) -->
+<rect x="22.5" y="30" width="2.5" height="20" fill="url(#penguin-head-gradient)" />
+<rect x="27.5" y="30" width="2.5" height="20" fill="url(#penguin-head-gradient)" />
+
+<!-- Eyes -->
+<circle cx="25" cy="40" r="2.5" fill="black"/>
+<circle cx="28" cy="40" r="2.5" fill="black"/>
+
+</svg>

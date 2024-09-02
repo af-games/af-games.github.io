@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+```
+
+**Step 2: Begin drawing tentative lines and shapes with `<path>` elements**
+
+Let's start by drawing a simple outline of a dinosaur. We'll use the `d` attribute to define the points and commands for our path.
+
+```svg
+<path d="M100,350 Q150,250 200,350 T300,350 H400 V250 H500 Z" stroke="black" fill="transparent"/>
+```
+
+In our journey notes:
+
+- `d`: The path data for drawing commands (M=moveto, Q=quadratic Bézier curve, T=tangent at end of previous curve, H=horizontal lineto)
+- `stroke`: Color of the path outline (black in this case)
+- `fill`: Color inside the path (transparent means no fill color)
+
+**Step 3: Discover new features with other SVG elements**
+
+Let's add some circles for the eyes and a rectangle for the body.
+
+```svg
+<circle cx="125" cy="275" r="10" stroke="black" fill="black"/>
+<circle cx="250" cy="275" r="10" stroke="black" fill="black"/>
+<rect x="180" y="300" width="140" height="100" stroke="black" fill="#C0C0C0"/>
+```
+
+In our journey notes:
+
+- `cx` and `cy`: Coordinates of the center of the circle
+- `r`: Radius of the circle
+- `x`, `y`, `width`, `height`: Position and dimensions of the rectangle
+
+**Step 4: Document your journey with detailed notes**
+
+As we continue exploring, we'll add more features to our dinosaur map. We'll document each discovery by adding attributes to our SVG elements.
+
+**Step 5: Write out the final draft using SVG tags**
+
+Here's the complete SVG map of our dinosaur:
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <path d="M100,350 Q150,250 200,350 T300,350 H400 V250 H500 Z" stroke="black" fill="transparent"/>
+  <circle cx="125" cy="275" r="10" stroke="black" fill="black"/>
+  <circle cx="250" cy="275" r="10" stroke="black" fill="black"/>
+  <rect x="180" y="300" width="140" height="100" stroke="black" fill="#C0C0C0"/>
+</svg>

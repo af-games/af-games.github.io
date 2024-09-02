@@ -1,0 +1,27 @@
+<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy body -->
+  <ellipse cx="175" cy="300" rx="75" ry="100" fill="#f3e5f5"/>
+
+  <!-- Fairy head -->
+  <circle cx="140" cy="160" r="30" fill="#fff"/>
+
+  <!-- Fairy hair (lines omitted for brevity) -->
+
+  <!-- Fairy dress -->
+  <rect x="90" y="270" width="180" height="120" fill="#e6bee7"/>
+
+  <!-- Fairy wings -->
+  <polygon points="50,130 80,140 70,170 50,180" fill="#fff"/>
+  <polygon points="330,130 320,140 330,170 340,180" fill="#fff"/>
+
+  <!-- Mushroom cap -->
+  <circle cx="230" cy="350" r="60" fill="#ffd180"/>
+
+  <!-- Mushroom stalk -->
+  <ellipse cx="230" cy="450" rx="20" ry="50" fill="#ffa726"/>
+
+  <!-- Wand -->
+  <line x1="180" y1="330" x2="250" y2="330" stroke="#fbc02d" stroke-width="5"/>
+
+</svg>

@@ -1,0 +1,15 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path id="body" d="M15,20 Q40,70 80,20 Q115,70 150,20" fill="lightblue"/>
+
+  <!-- Tail Fin -->
+  <path d="M190,60 L220,30 L250,60 Z" fill="lightblue"/>
+  <path id="tailfin-line" d="M240,70 Q210,80 190,70" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="30" cy="30" r="25" fill="lightblue"/>
+  <ellipse cx="10" cy="40" rx="10" ry="15" fill="black"/>
+  <path d="M7,60 Q15,80 7,95 Q1,80 7,60 Z" stroke="black"/>
+
+</svg>

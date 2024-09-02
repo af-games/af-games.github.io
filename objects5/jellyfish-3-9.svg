@@ -1,0 +1,34 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Scene 1 -->
+  <circle cx="400" cy="300" r="50" fill="#87CEEB"/>
+  <text x="400" y="400" dominant-baseline="middle" text-anchor="middle" font-size="24" fill="#000000">Scene 1</text>
+
+  <!-- Scene 2 -->
+  <rect x="500" y="350" width="100" height="75" rx="20" fill="#F4A460"/>
+  <circle cx="600" cy="400" r="50" fill="#87CEEB"/>
+
+  <!-- Scene 3 -->
+  <rect x="200" y="100" width="150" height="200" rx="30" fill="#0000FF"/>
+  <circle cx="400" cy="200" r="50" fill="#87CEEB"/>
+
+  <!-- Scene 4 -->
+  <path d="M400,150 Q350,50 450,50" stroke="#000000" fill="transparent"/>
+  <circle cx="450" cy="50" r="50" fill="#87CEEB"/>
+
+  <!-- Scene 5 -->
+  <circle cx="200" cy="150" r="50" fill="#FFFFFF">
+    <circle cx="200" cy="150" r="10" fill="#FFFFFF"/>
+  </circle>
+  <circle cx="300" cy="150" r="50" fill="#87CEEB"/>
+
+  <!-- Scene 6 -->
+  <rect x="400" y="250" width="150" height="200" rx="30" fill="#0000FF"/>
+  <circle cx="500" cy="350" r="50" fill="#87CEEB">
+    <path d="M500,350 L475,375 L525,375 Z" fill="#FFFF00"/>
+  </circle>
+  <circle cx="600" cy="300" r="50" fill="#FFFFFF">
+    <circle cx="600" cy="300" r="10" fill="#FFFFFF"/>
+  </circle>
+
+</svg>

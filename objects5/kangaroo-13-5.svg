@@ -1,0 +1,17 @@
+<svg viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg">
+     <!-- Defs for gradients -->
+     <defs>
+       ...
+     </defs>
+
+     <!-- Kangaroo families/mobs -->
+     <g id="kangarooMobs">
+       <!-- Example adult kangaroo -->
+       <circle cx="50" cy="100" r="40" style="fill:url(#kangarooGradient);stroke:black;stroke-width:2"/>
+
+       <!-- Example habitat (rocky outcrop) -->
+       <rect x="30" y="80" width="70" height="50" style="fill:url(#habitatGradient);stroke:black;stroke-width:2"/>
+     </g>
+
+     ...
+   </svg>

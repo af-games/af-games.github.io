@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 150">
+
+  <!-- Main body of the balloon -->
+  <circle cx="50" cy="75" r="40" fill="#ffcc00"/>
+
+  <!-- Tail of the balloon -->
+  <line x1="60" y1="125" x2="50" y2="135" stroke="#ff4500"/>
+  <line x1="50" y1="135" x2="40" y2="125" stroke="#ff4500"/>
+  <line x1="60" y1="125" x2="40" y2="125" stroke="#ff4500"/>
+
+</svg>

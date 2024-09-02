@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dolphin route -->
+  <path id="dolphinRoute"
+        d="M10,50 Q150,5 L250,100 Q400,75 L550,100 Q600,30 L700,75 Q800,50 Z"
+        stroke-width="4" stroke="#000" fill="none"/>
+  <!-- Landmarks -->
+  <text x="20" y="55">Starting Point</text>
+  <circle cx="150" cy="5" r="3" fill="#f00"><title>Dolphin's Snout</title></circle>
+  <text x="270" y="95">Dolphin's Fin</text>
+  <ellipse cx="400" cy="75" rx="10" ry="8" fill="#0f0"><title>Eye</title></circle>
+  <text x="630" y="105">Tail</text>
+  <!-- Filter effects -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" />
+      <feColorMatrix in="blur" type="matrix"
+                     values="1 0 0 0 0
+                            0 1 0 0 0
+                            0 0 1 0 0
+                            0 0 0 1 0" />
+    </filter>
+    <filter id="specular">
+      <feSpecularLighting in="SourceGraphic"
+                         surfaceScale="5"
+                         specularConstant=".75"
+                         specularExponent="20"
+                         lighting-color="#bbb"
+                         result="specOut">
+        <fePointLight x="-5000" y="-10000" z="20000"/>
+      </feSpecularLighting>
+      <feComposite in="specOut" in2="SourceGraphic" operator="in"/>
+    </filter>
+  </defs>
+  <!-- Apply filters -->
+  <use href="#dolphinRoute" filter="url(#glow)"/>
+  <circle cx="650" cy="75" r="3" fill="#00f"><title>Glowing Tail</title></circle>
+  <ellipse cx="400" cy="75" rx="10" ry="8" fill="#ffa500" filter="url(#specular)"/>
+</svg>

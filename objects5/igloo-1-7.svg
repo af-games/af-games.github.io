@@ -1,0 +1,37 @@
+<svg width="800px" height="600px" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#E5E5E5"/>
+
+<!-- Mountains -->
+<path d="M100 400 Q250 350, 400 400 Q550 450, 700 400" stroke="#696969" fill="none" stroke-width="10"/>
+
+<!-- Rivers -->
+<path d="M100 500 Q200 450, 300 500 Q500 550, 700 500" stroke="#7FC9FF" fill="none" stroke-width="6"/>
+
+<!-- Forests -->
+<rect x="100" y="300" width="200" height="100" fill="#3D9970"/>
+<text x="125" y="375" font-family="Verdana" font-size="16">Whisperwood Forest</text>
+
+<!-- Ice Haven (Igloo-like structures) -->
+<circle cx="400" cy="400" r="80" fill="#FFFFFF"/>
+<path d="M320 400 Q350 375, 400 400 Q450 375, 480 400" stroke="#696969" fill="none" stroke-width="10"/>
+<text x="365" y="425" font-family="Verdana" font-size="16">Ice Haven</text>
+
+<!-- Crystal City -->
+<polygon points="500,200 600,100 700,200" fill="#A0E6FF"/>
+<text x="580" y="130" font-family="Verdana" font-size="16">Crystal City</text>
+
+<!-- labels -->
+<text x="10" y="10" font-family="Verdana" font-size="24">Glacieria Map</text>
+<text x="750" y="580" font-family="Verdana" font-size="16">Created by SVG Cartographer</text>
+
+<!-- Legend -->
+<rect x="700" y="300" width="80" height="20" fill="#3D9970"/>
+<text x="725" y="320" font-family="Verdana" font-size="14">Forest</text>
+<circle cx="700" cy="350" r="6" fill="#A0E6FF"/>
+<text x="725" y="355" font-family="Verdana" font-size="14">City</text>
+<circle cx="700" cy="400" r="6" fill="#FFFFFF"/>
+<text x="725" y="405" font-family="Verdana" font-size="14">Ice Haven</text>
+
+</svg>

@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#ADD8E6"/>
+
+  <!-- Mountains (Igloo region) -->
+  <circle cx="150" cy="250" r="75" fill="#FFFFFF"/>
+  <circle cx="350" cy="200" r="50" fill="#FFFFFF"/>
+  <circle cx="450" cy="280" r="60" fill="#FFFFFF"/>
+
+  <!-- Rivers -->
+  <path d="M75,150 Q200,200 350,150" stroke="#ADD8E6" fill="transparent"/>
+  <path d="M400,100 Q550,250 700,150" stroke="#ADD8E6" fill="transparent"/>
+
+  <!-- Forests -->
+  <rect x="50" y="350" width="150" height="250" fill="#4CAF50"/>
+  <rect x="450" y="300" width="200" height="200" fill="#4CAF50"/>
+
+  <!-- Cities -->
+  <polygon points="600,100 700,50 750,150" fill="#FFD700"/>
+  <polygon points="350,300 250,400 450,400" fill="#FFD700"/>
+
+  <!-- Igloo label -->
+  <text x="160" y="320" font-family="Verdana" font-size="20">Igloo Region</text>
+
+  <!-- River labels -->
+  <text x="150" y="80" font-family="Verdana" font-size="16">Frozen Falls</text>
+  <text x="500" y="80" font-family="Verdana" font-size="16">Glacial Run</text>
+
+  <!-- Forest labels -->
+  <text x="70" y="420" font-family="Verdana" font-size="16">Emerald Woods</text>
+  <text x="530" y="500" font-family="Verdana" font-size="16">Jade Thicket</text>
+
+  <!-- City labels -->
+  <text x="670" y="80" font-family="Verdana" font-size="16">Gilded Peak</text>
+  <text x="325" y="450" font-family="Verdana" font-size="16">Golden Hollow</text>
+
+</svg>

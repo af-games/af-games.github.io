@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+
+<!-- Scene 1: Setup -->
+<rect x="400" y="650" width="1120" height="430" fill="#90EE90" />
+<ellipse cx="960" cy="750" rx="300" ry="400" fill="#FFFF00">
+  <animateMotion dur="2s" repeatCount="indefinite">
+    <mpath href="#firepath"/>
+  </animateMotion>
+</ellipse>
+<path id="firepath" d="M960,750 Q980,800 1000,750 T960,700 Z"/>
+
+<!-- Scene 2: Meeting -->
+<circle cx="1300" cy="400" r="30">
+  <animateTransform attributeName="cy" from="400" to="600" dur="1s"/>
+</circle>
+<path d="M1280,390 Q1250,370 1280,350 L1320,370 Z"/>
+
+<!-- Scene 3: Help -->
+<path d="M1400,650 V600 Q1450,550 1400,500 H1350 Z" fill="#FF9933"/>
+<text x="1550" y="620">The bird notices...</text>
+
+<!-- Scene 4: Lift Off -->
+<animateTransform type="scale" from="1" to="1.2" dur="1s" repeatCount="1">
+  <ellipse cx="960" cy="750" rx="300" ry="400"/>
+</animateTransform>
+<circle cx="1300" cy="600" r="30"/>
+
+<!-- Scene 5: Adventure -->
+<g transform="translate(800,400)">
+  <text>They fly over...</text>
+  <rect x="-200" y="-100" width="400" height="200" fill="#ADD8E6"/>
+  <polygon points="0,-100 200,-300 400,50" fill="#2F4F4F"/>
+  <ellipse cx="-100" cy="0" rx="100" ry="70" fill="#FFFFFF">
+    <animate attributeName="cx" dur="3s" repeatCount="indefinite" from="-100" to="100"/>
+  </ellipse>
+</g>
+
+<!-- Scene 6: Return -->
+<ellipse cx="960" cy="750" rx="300" ry="400" fill="#FFFF00">
+  <animateTransform type="scale" from="1.2" to="1" dur="1s"/>
+</ellipse>
+<circle cx="1300" cy="600" r="30">
+  <animateTransform attributeName="cy" begin="1s" dur="1s" from="600" to="400"/>
+</circle>
+
+</svg>

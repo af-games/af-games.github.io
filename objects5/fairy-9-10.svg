@@ -1,0 +1,27 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#FFFFFF"/>
+
+  <!-- Fairy body (main pane) -->
+  <g id="fairy-body">
+    <polygon points="100,200 300,200 400,100 400,400 100,400" fill="#FF69B4"/>
+    <polygon points="50,150 350,150 350,250 50,250" fill="#FFFACD" stroke="#FF69B4" stroke-width="5"/>
+  </g>
+
+  <!-- Fairy head -->
+  <circle cx="250" cy="75" r="50" fill="#FFD700"/>
+
+  <!-- Fairy hair -->
+  <path d="M180,30 Q250,5 Q320,30" stroke="#FF69B4" stroke-width="5"/>
+
+  <!-- Fairy wings -->
+  <g id="fairy-wings">
+    <polygon points="125,75 275,75 275,175 125,175" fill="#800080"/>
+    <polygon points="135,90 265,90 265,160 135,160" fill="#FFB6C1"/>
+  </g>
+
+  <!-- Fairy dress -->
+  <rect x="50" y="275" width="400" height="225" fill="#FFFACD"/>
+
+</svg>

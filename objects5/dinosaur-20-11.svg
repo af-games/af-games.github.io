@@ -1,0 +1,33 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dino -->
+  <circle id="dino" cx="50" cy="150" r="40"
+          fill="#8B7D6D" stroke="#333" stroke-width="2"/>
+
+  <!-- Fence (barrier) -->
+  <rect x="150" y="70" width="300" height="200"
+        fill="none" stroke="#696969" stroke-width="4"/>
+
+  <!-- Toy (object of interest) -->
+  <circle id="toy" cx="350" cy="150" r="30"
+          fill="#FFD700" stroke="#FF9900" stroke-width="2"/>
+
+  <!-- Dino's thought bubble before touching the toy -->
+  <text x="80" y="140" text-anchor="middle"
+        font-family="Arial" font-size="16">
+    I wish I could reach that shiny toy!
+  </text>
+
+  <!-- Keeper's speech bubble -->
+  <text x="320" y="270" text-anchor="middle"
+        font-family="Arial" font-size="18">
+    Dino, don't touch the fence! It's for your safety.
+  </text>
+
+  <!-- Animation: Move Dino towards the toy -->
+  <animateMotion id="dinoMove" dur="3s" repeatCount="indefinite">
+    <mpath d="M50,150 Q80,140 120,150 T350,150"/>
+    <set attributeName="fill" from="#8B7D6D" to="#FFC300" dur="3s"/>
+  </animateMotion>
+
+</svg>

@@ -1,0 +1,14 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon envelope -->
+  <ellipse cx="100" cy="50" rx="80" ry="40" fill="orange"/>
+  <path d="M60,50 A80,40 0 0 1 140,50" stroke="black" fill="transparent"/>
+
+  <!-- Basket -->
+  <rect x="70" y="90" width="60" height="30" fill="#8B4513"/>
+  <path d="M70,120 Q95,130 105,120 H130 Q115,130 140,120 V90 H70 Z" stroke="black" fill="transparent"/>
+
+  <!-- Balloon string -->
+  <path d="M100,50 L100,30" stroke="black"/>
+
+</svg>

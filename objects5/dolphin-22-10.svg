@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#87CEEB" />
+
+  <!-- Sun -->
+  <circle cx="750" cy="100" r="50" fill="yellow">
+    <animate attributeName="r" values="50;70;50" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Horizon Line -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#4682B4" />
+
+  <!-- Ocean -->
+  <rect x="50" y="350" width="700" height="250" fill="#3D9970">
+    <animate attributeName="height" values="250;270;250" dur="1.5s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Island (Landmark) -->
+  <polygon points="400,300 600,300 500,200" fill="#98FB98">
+    <animateTransform attributeName="points" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Dolphin (Landmark) -->
+  <path d="M300,350 Q350,400 400,375 Q350,350 300,325" fill="#FFDAB9">
+    <animateTransform attributeName="d" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Water Ripple Filter -->
+  <filter id="ripple" x="-50%" y="-50%" width="200%" height="200%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.1" numOctaves="2"/>
+    <feDisplacementMap in="SourceGraphic" scale="40"/>
+  </filter>
+
+  <!-- Apply filter to ocean -->
+  <use href="#ripple" xlink:href="#ripple" x="50" y="350"/>
+
+</svg>

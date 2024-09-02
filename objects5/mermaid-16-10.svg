@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#1B4F76"/>
+
+  <!-- Mermaid Tail -->
+  <path d="M100 500 Q300 200, 500 500 Q700 200, 900 500" fill="#3D9970"/>
+  <path d="M100 550 Q300 450, 500 550 Q700 450, 900 550" fill="#2C6F85"/>
+
+  <!-- Mermaid Body -->
+  <ellipse cx="500" cy="400" rx="150" ry="200" fill="#FFF5E6"/>
+  <circle cx="500" cy="300" r="100" fill="#48CAE4"/>
+
+  <!-- Mermaid Hair/Gills -->
+  <path d="M400 200 Q450 150, 500 200 Q550 150, 600 200" stroke="#CD7F32" fill="transparent"/>
+
+  <!-- Intricate Patterns (These would be much more complex in a full design) -->
+  <path d="M...Z" fill="#CD7F32"/>
+  <path d="M...Z" fill="#FFF5E6"/>
+  <!-- ... Repeat for other patterns ... -->
+
+</svg>

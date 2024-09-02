@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1000 -1000 2000 2000">
+
+  <!-- Mermaid cities -->
+  <circle cx="500" cy="600" r="40" fill="#FFD700"/>
+  <circle cx="-300" cy="-800" r="40" fill="#FFD700"/>
+
+  <!-- Underwater mountains/ruins -->
+  <circle cx="200" cy="200" r="60" fill="#A9A9A9"/>
+  <circle cx="-600" cy="400" r="50" fill="#A9A9A9"/>
+
+  <!-- Rivers/currents -->
+  <path d="M-800 -800 L0 -600 L800 -800" stroke="#0000FF" stroke-width="10" fill="transparent"/>
+  <path d="M0 -200 Q500 -400 -300 -600" stroke="#0000FF" stroke-opacity="0.5" stroke-width="8" fill="transparent"/>
+
+  <!-- Boundaries -->
+  <path d="M-1000 -1000 L1000 -1000 L1000 1000 L-1000 1000 Z" stroke="#000000" stroke-width="5" fill="transparent"/>
+
+</svg>

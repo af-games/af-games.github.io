@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Walls -->
+  <rect x="150" y="200" width="500" height="200" fill="#774f38" stroke="#592e1c"/>
+  <polygon points="200,100 300,100 350,50 450,50 500,100" fill="#774f38" stroke="#592e1c"/>
+
+  <!-- Main Tower -->
+  <rect x="220" y="100" width="160" height="250" rx="40" fill="#d8b6a6" stroke="#592e1c"/>
+  <circle cx="320" cy="270" r="30" fill="#ffffff"/>
+
+  <!-- Turrets -->
+  <polygon points="180,150 220,200 180,250" fill="#d8b6a6" stroke="#592e1c"/>
+  <polygon points="460,150 420,200 460,250" fill="#d8b6a6" stroke="#592e1c"/>
+
+  <!-- Gatehouse -->
+  <rect x="370" y="200" width="100" height="100" rx="20" fill="#d8b6a6" stroke="#592e1c"/>
+  <rect x="400" y="230" width="60" height="40" rx="10" fill="#774f38"/>
+
+  <!-- Buildings outside the castle -->
+  <rect x="100" y="350" width="100" height="200" fill="#d8b6a6"/>
+  <rect x="600" y="350" width="150" height="200" rx="40" fill="#d8b6a6"/>
+
+  <!-- Roads -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#321f17" stroke-width="5"/>
+  <line x1="400" y1="400" x2="400" y2="600" stroke="#321f17" stroke-width="5"/>
+
+</svg>

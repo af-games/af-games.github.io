@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -100 100 200">
+  <!-- Body -->
+  <rect x="0" y="0" width="100" height="50" fill="#F5DEB3"/>
+
+  <!-- Legs -->
+  <g stroke="#C9A07E" stroke-width="4">
+    <rect x="-25" y="0" width="50" height="50"/>
+    <rect x="-25" y="25" width="50" height="50"/>
+    <rect x="25" y="0" width="50" height="50"/>
+    <rect x="25" y="25" width="50" height="50"/>
+  </g>
+
+  <!-- Tail -->
+  <path d="M0,-100 Q20,-80 40,-60 Q-20,-80 -40,-100" stroke="#C9A07E" stroke-width="4"/>
+
+</svg>

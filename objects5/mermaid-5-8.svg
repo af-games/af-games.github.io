@@ -1,0 +1,22 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#007BFF"/>
+
+  <!-- Rock -->
+  <polygon points="10,490 480,490 250,360" fill="#C0C0C0"/>
+  <polygon points="10,360 480,360 250,230" fill="#8B8B8B"/>
+
+  <!-- Mermaid's body -->
+  <rect x="150" y="230" width="200" height="270" fill="#FDD835"/>
+  <rect x="100" y="400" width="300" height="100" fill="#6C59CC"/>
+
+  <!-- Seashell bra -->
+  <polygon points="170,300 230,250 280,300" fill="#BA1E43"/>
+  <polygon points="210,270 250,220 290,270" fill="#9C27B0"/>
+
+  <!-- Hair and tail -->
+  <rect x="160" y="180" width="20" height="120" fill="#007BFF"/>
+  <polygon points="150,340 180,390 210,340" fill="#007BFF"/>
+
+</svg>

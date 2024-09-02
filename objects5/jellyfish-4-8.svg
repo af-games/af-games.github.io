@@ -1,0 +1,25 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Plate -->
+  <rect x="100" y="75" width="300" height="250" fill="#FFF2CC" stroke="#9D8F6A" stroke-width="2"/>
+
+  <!-- Jellyfish bodies (3 pieces) -->
+  <circle cx="140" cy="140" r="30" fill="#FFDBB7"/>
+  <circle cx="210" cy="175" r="35" fill="#FFDBB7"/>
+  <circle cx="280" cy="130" r="30" fill="#FFDBB7"/>
+
+  <!-- Jellyfish tentacles (6 pieces each) -->
+  <ellipse cx="140" cy="90" rx="5" ry="15" transform="rotate(30, 140, 90)" fill="none" stroke="#AFAF8B" stroke-width="2"/>
+  <ellipse cx="210" cy="120" rx="5" ry="20" transform="rotate(-30, 210, 120)" fill="none" stroke="#AFAF8B" stroke-width="2"/>
+  <ellipse cx="280" cy="95" rx="5" ry="15" transform="rotate(60, 280, 95)" fill="none" stroke="#AFAF8B" stroke-width="2"/>
+
+  <!-- Garnish (spring onion) -->
+  <path d="M340 120 Q370 100 400 120 Q370 140 340 160" fill="#FFF2CC" stroke="#AFAF8B" stroke-width="2"/>
+
+  <!-- Fork -->
+  <path d="M90 250 l50 -50 l50 50 z" fill="#CFCFCF"/>
+
+  <!-- Knife -->
+  <path d="M75 230 l100 0 l-50 50 z" fill="#CFCFCF"/>
+
+</svg>

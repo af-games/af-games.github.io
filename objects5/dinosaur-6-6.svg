@@ -1,0 +1,48 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Mix your ingredients together:**
+
+   - Eyes (Circles)
+     ```xml
+     <circle cx="150" cy="75" r="20" fill="black"/>
+     <circle cx="250" cy="75" r="20" fill="black"/>
+     ```
+
+   - Body outline (Ellipse)
+     ```xml
+     <ellipse cx="200" cy="300" rx="150" ry="200" fill="none" stroke="black" stroke-width="4"/>
+     ```
+
+   - Head, neck, and tail (Rectangles)
+     ```xml
+     <rect x="100" y="75" width="200" height="150" rx="30" fill="#8B7D6D"/>
+     <rect x="140" y="225" width="120" height="75" rx="20" fill="#8B7D6D"/>
+     <rect x="260" y="225" width="75" height="150" rx="15" fill="#8B7D6D"/>
+     ```
+
+   - Legs and arms (Paths)
+     ```xml
+     <!-- Left leg -->
+     <path d="M130 325 Q150 400, 190 325" stroke="black" fill="transparent"/>
+     <!-- Right leg -->
+     <path d="M270 325 Q230 400, 210 325" stroke="black" fill="transparent"/>
+     <!-- Left arm -->
+     <path d="M120 180 Q90 220, 120 260" stroke="black" fill="transparent"/>
+     <!-- Right arm -->
+     <path d="M280 180 Q310 220, 280 260" stroke="black" fill="transparent"/>
+     ```
+
+   - Spikes on the back (Paths)
+     ```xml
+     <g transform="translate(150, 275)">
+       <path d="M0 0 Q-10 20, 0 0" stroke="black" fill="transparent"/>
+       <path d="M10 0 Q20 -10, 10 0" stroke="black" fill="transparent"/>
+       <!-- Repeat for more spikes -->
+     </g>
+     ```
+
+3. **Bake according to the recipe's instructions:**
+
+```xml
+</svg>

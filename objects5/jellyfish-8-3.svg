@@ -1,0 +1,19 @@
+<svg width="100%" height="100%" viewBox="-60 -60 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="0" cy="0" rx="50" ry="30" fill="#F8DE7E"/>
+
+  <!-- Umbrella -->
+  <path d="M0 60 a40 40 0 0 1 0 -80 a40 40 0 0 1 0 80 z" fill="#FF6347"/>
+
+  <!-- Tentacles -->
+  <g stroke="#2ECCFA" stroke-width="5">
+    <ellipse cx="55*cos(29.7)" cy="55*sin(29.7)" rx="10" ry="5"/>
+    <ellipse cx="55*cos(74.7)" cy="55*sin(74.7)" rx="10" ry="5"/>
+    <ellipse cx="55*cos(119.7)" cy="55*sin(119.7)" rx="10" ry="5"/>
+    <ellipse cx="55*cos(164.7)" cy="55*sin(164.7)" rx="10" ry="5"/>
+    <ellipse cx="55*cos(209.7)" cy="55*sin(209.7)" rx="10" ry="5"/>
+    <ellipse cx="55*cos(254.7)" cy="55*sin(254.7)" rx="10" ry="5"/>
+    <ellipse cx="55*cos(299.7)" cy="55*sin(299.7)" rx="10" ry="5"/>
+    <ellipse cx="55*cos(344.7)" cy="55*sin(344.7)" rx="10" ry="5"/>
+  </g>
+</svg>

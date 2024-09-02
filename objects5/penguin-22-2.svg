@@ -1,0 +1,56 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="150" r="80" fill="url(#bodyGradient)">
+    <animateTransform
+      attributeName="cx"
+      type="rotate"
+      from="0"
+      to="360"
+      begin="0s"
+      dur="2s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Head -->
+  <circle cx="100" cy="90" r="40" fill="url(#headGradient)">
+    <animateTransform
+      attributeName="cy"
+      type="translate"
+      from="90"
+      to="60"
+      begin="0s"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Wings -->
+  <rect x="50" y="130" width="80" height="70" fill="url(#wingGradient)"/>
+  <rect x="70" y="60" width="80" height="70" fill="url(#wingGradient)"/>
+
+  <!-- Beak -->
+  <path d="M95,120 Q105,140 115,120" stroke="#ffcb3f" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="85" r="5" fill="black"/>
+  <circle cx="110" cy="85" r="5" fill="black"/>
+
+  <!-- Feet -->
+  <path d="M80,160 Q90,200 100,160" stroke="#ffcb3f" fill="transparent"/>
+  <path d="M120,160 Q130,200 140,160" stroke="#ffcb3f" fill="transparent"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(78,94,136);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(107,127,159);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(63,74,98);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(90,105,127);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(163,185,207);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(119,142,164);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

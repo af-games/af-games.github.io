@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tail fin -->
+  <path id="tail-fin" d="M100,500 Q150,450 200,500 Q...Z" fill="url(#tail-gradient)"/>
+
+  <!-- Body and hair -->
+  <use xlink:href="#mermaid-body"/>
+  <use xlink:href="#hair-strand" x="..." y="..."/>
+
+  <!-- Face features -->
+  <circle cx="350" cy="275" r="50" fill="url(#skin-gradient)"/>
+  ...
+
+  <!-- Background elements -->
+  <rect width="800" height="600" fill="url(#water-gradient)"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="tail-gradient" .../>
+    <radialGradient id="skin-gradient" .../>
+    ...
+  </defs>
+</svg>

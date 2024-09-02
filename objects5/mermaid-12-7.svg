@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:white; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:lightblue; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:darkblue; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <path d="M-30,-30 A40,40 0 1,0 30,-30" fill="url(#grad)"/>
+
+  <!-- Tail -->
+  <path d="M0,-30 Q20,-5 40,-30 T60,-30 A30,30 0 1,1 -60,-30" stroke="black" fill="none"/>
+
+  <!-- Scales -->
+  <g stroke="none">
+    <path d="M-20,-40 Q0,-50 20,-40 T40,-40 Q60,-50 80,-40"/>
+    <path d="M-30,-50 Q-10,-60 10,-50 T30,-50 Q50,-60 70,-50"/>
+  </g>
+
+  <!-- Head -->
+  <circle cx="0" cy="-20" r="20" fill="#ffd700"/>
+  <circle cx="8" cy="-18" r="3" fill="black"/>
+  <circle cx="-8" cy="-18" r="3" fill="black"/>
+
+  <!-- Hair -->
+  <path d="M-5,-40 Q-20,-20 -40,0 Q-20,-60 0,-40 Z" stroke="brown" fill="none"/>
+</svg>

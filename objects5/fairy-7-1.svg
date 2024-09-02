@@ -1,0 +1,24 @@
+<svg width="100" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fairy outline -->
+  <path d="M50 10 Q90 30, 70 60 Q30 30, 50 10 Z"
+        fill="none"
+        stroke="black" />
+
+  <!-- Hair -->
+  <polygon points="40,20 80,20 60,40"
+           fill="brown" />
+
+  <!-- Body -->
+  <circle cx="50" cy="70" r="10"
+         fill="white" stroke="black"/>
+
+  <!-- Wings -->
+  <path d="M30 70 Q20 80, 30 90 Q40 80, 30 70 Z"
+        fill="lightblue" />
+  <path d="M65 70 Q80 80, 65 90 Q50 80, 65 70 Z"
+        fill="lightblue"/>
+
+  <!-- Face -->
+  <circle cx="50" cy="55" r="10"
+         fill="pink"/>
+</svg>

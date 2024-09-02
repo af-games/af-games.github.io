@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800">
+
+  <!-- Define colors -->
+  <defs>
+    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#704214"/>
+      <stop offset="100%" style="stop-color:#C98F69"/>
+    </linearGradient>
+
+    <!-- Define more gradients for skin, clothes, etc. -->
+  </defs>
+
+  <!-- Start drawing fairy's hair with broad strokes -->
+  <path d="M200 50 Q350 100, 400 75 A200 200 0 0 0 600 800" stroke="#704214" stroke-width="5"/>
+
+  <!-- Switch to fine lines for fairy's face -->
+  <circle cx="350" cy="250" r="50" fill="none" stroke="#FFCDEA" stroke-width="2"/>
+  <path d="M350 300 Q400 250, 450 300" stroke="#000" stroke-width="1"/>
+
+  <!-- Draw fairy's body with medium strokes -->
+  <rect x="250" y="300" width="500" height="500" fill="none" stroke="#FFA4C8" stroke-width="3"/>
+  <path d="M300 600 Q350 700, 400 650" stroke="#FFA4C8" stroke-width="3"/>
+
+  <!-- Add fairy's wings with delicate lines -->
+  <polygon points="200,400 300,450 250,550" fill="none" stroke="#FFCDEA" stroke-width="1"/>
+  <path d="M200,500 Q150,600, 200,700" stroke="#FFCDEA" stroke-width="1"/>
+
+</svg>

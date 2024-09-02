@@ -1,0 +1,22 @@
+<svg width="500" height="300">
+  <!-- Perimeter -->
+  <rect x="0" y="0" width="500" height="300" stroke="black" fill="transparent"/>
+
+  <!-- Pedestal -->
+  <circle cx="100" cy="75" r="40" stroke="black" fill="transparent"/>
+
+  <!-- Security Camera -->
+  <rect x="200" y="50" width="100" height="20" stroke="black" fill="transparent"/>
+  <polygon points="200,70 250,50 200,30" stroke="black" fill="transparent"/>
+
+  <!-- Footprints -->
+  <circle cx="175" cy="225" r="8" stroke="black" fill="transparent"/>
+  <circle cx="190" cy="230" r="8" stroke="black" fill="transparent"/>
+  <circle cx="205" cy="220" r="8" stroke="black" fill="transparent"/>
+
+  <!-- Van -->
+  <rect x="300" y="175" width="80" height="40" stroke="black" fill="transparent"/>
+
+  <!-- GPS Tracker Path -->
+  <path d="M105,75 L325,75" stroke="black"/>
+</svg>

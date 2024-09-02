@@ -1,0 +1,29 @@
+<svg width="300" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Board -->
+  <rect x="75" y="315" width="150" height="30"
+        style="fill: darkbrown; stroke: black; stroke-width: 2;" />
+
+  <!-- Bottom Tier -->
+  <circle cx="150" cy="285" r="60"
+          style="fill: ivory; stroke: chocolate; stroke-width: 2;" />
+
+  <!-- Middle Tier -->
+  <circle cx="150" cy="230" r="40"
+          style="fill: ivory; stroke: chocolate; stroke-width: 2;" />
+
+  <!-- Top Tier -->
+  <circle cx="150" cy="170" r="25"
+          style="fill: ivory; stroke: chocolate; stroke-width: 2;" />
+
+  <!-- Decorations (Flowers) -->
+  <polygon points="95,160 105,140 115,160 95,180 75,160"
+           style="fill: red; stroke: darkred; stroke-width: 2;" />
+  <polygon points="155,160 165,140 175,160 155,180 135,160"
+           style="fill: red; stroke: darkred; stroke-width: 2;" />
+  <polygon points="95,130 105,110 115,130 95,150 75,130"
+           style="fill: pink; stroke: darkpink; stroke-width: 2;" />
+  <polygon points="155,130 165,110 175,130 155,150 135,130"
+           style="fill: pink; stroke: darkpink; stroke-width: 2;" />
+
+</svg>

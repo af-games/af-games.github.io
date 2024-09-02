@@ -1,0 +1,27 @@
+<svg width="1000" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clue 1: Dolphin outline -->
+  <path id="dolphin" d="M100 25 Q200 75, 350 25 T650 75 V400 H700 Z"/>
+
+  <!-- Clue 2: Sun -->
+  <circle cx="850" cy="200" r="100" fill="#FFA500"/>
+
+  <!-- Clue 3: Water waves -->
+  <path id="waves" d="M0 400 Q250 450, 500 400 Q750 450, 1000 400 Z"/>
+
+  <!-- Clue 4: Text clue -->
+  <text id="clue" x="200" y="80" fill="black">SOLVE THE MYSTERY</text>
+
+  <!-- Mask to hide dolphin and text clue -->
+  <defs>
+    <mask id="hide">
+      <rect width="100%" height="100%" fill="white"/>
+      <circle cx="500" cy="275" r="300" fill="black"/>
+    </mask>
+  </defs>
+
+  <!-- Apply mask to dolphin and text clue -->
+  <g mask="url(#hide)">
+    <use href="#dolphin" fill="none"/>
+    <use href="#clue"/>
+  </g>
+</svg>

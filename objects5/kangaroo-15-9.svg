@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <rect id="outback" width="800" height="600" fill="lightblue"/>
+  <rect id="land" x="0" y="400" width="800" height="200" fill="brown"/>
+  <circle id="sun">
+    <animate attributeName="cx" from="50" to="750" dur="10s" repeatCount="indefinite"/>
+    <circle cx="50" cy="100" r="50" fill="yellow"/>
+  </circle>
+  <g id="kangaroo">
+    <ellipse id="kangaBody">
+      <animate attributeName="cy" from="500" to="400" dur="1s" repeatCount="indefinite"/>
+      <ellipse cx="400" cy="500" rx="80" ry="120" fill="grey"/>
+    </ellipse>
+    <ellipse id="kangaHead">
+      <animate attributeName="transform" from="rotate(0)" to="rotate(-20)" dur="1s" repeatCount="indefinite"/>
+      <ellipse cx="360" cy="380" rx="60" ry="60" fill="grey"/>
+    </ellipse>
+    <path id="kangaEars">
+      <animate attributeName="d" values="M450,370 Q420,340 390,370 Q450,400 450,370 z; M450,380 Q420,350 390,380 Q450,410 450,380" dur="0.5s" repeatCount="indefinite"/>
+      <path d="M450,370 Q420,340 390,370 Q450,400 450,370 z" fill="grey"/>
+    </path>
+    <path id="kangaPouch" d="M380,520 Q420,560 380,600 Q340,560 380,520" fill="grey"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/20丨xmlns.svg" version="1.1">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="white"/>
+
+  <!-- Body -->
+  <ellipse cx="175" cy="250" rx="80" ry="130" fill="black">
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(40,40,40);stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:rgb(30,30,30);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(20,20,20);stop-opacity:1"/>
+    </linearGradient>
+  </ellipse>
+
+  <!-- Head -->
+  <circle cx="175" cy="150" r="60" fill="white">
+    <linearGradient id="headGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(80,80,80);stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:rgb(70,70,70);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(60,60,60);stop-opacity:1"/>
+    </linearGradient>
+  </circle>
+
+  <!-- Beak -->
+  <path d="M140 90 Q175 120, 210 90" stroke="orange" fill="transparent"/>
+
+  <!-- Eye (Left) -->
+  <circle cx="160" cy="80" r="5" fill="black">
+    <linearGradient id="eyeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(40,40,40);stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:rgb(60,60,60);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(80,80,80);stop-opacity:1"/>
+    </linearGradient>
+  </circle>
+
+  <!-- Eye (Right) -->
+  <circle cx="190" cy="80" r="5" fill="black">
+    <linearGradient id="eyeGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(40,40,40);stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:rgb(60,60,60);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(80,80,80);stop-opacity:1"/>
+    </linearGradient>
+  </circle>
+
+</svg>

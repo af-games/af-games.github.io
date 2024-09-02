@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect id="bg" x="0" y="0" width="800" height="600" fill="#006400"/>
+
+  <!-- Moon -->
+  <circle cx="750" cy="150" r="100" fill="#F5DEB3"/>
+  <linearGradient id="moonGlow" x1="750" y1="250" x2="750" y2="50">
+    <stop offset="0%" stop-color="#FFEFD5"/>
+    <stop offset="100%" stop-color="#F5DEB3"/>
+  </linearGradient>
+  <circle cx="750" cy="150" r="100" fill="url(#moonGlow)"/>
+
+  <!-- Owl Body -->
+  <path id="owlBody" d="M200,250 Q250,350 350,250 Q450,350 550,250 Q650,150 750,250 Q850,350 950,250" stroke="black" fill="#A52A2A"/>
+  <linearGradient id="owlGlow" x1="200" y1="250" x2="950" y2="250">
+    <stop offset="0%" stop-color="#6D4F26"/>
+    <stop offset="100%" stop-color="#B98C6F"/>
+  </linearGradient>
+  <path d="M owlBody" fill="url(#owlGlow)"/>
+
+  <!-- Eyes -->
+  <circle cx="350" cy="225" r="25" fill="#CD7F32"/>
+  <circle cx="350" cy="225" r="15" fill="#FFDF00"/>
+
+  <!-- Beak -->
+  <path d="M400,200 Q450,225 500,200" stroke="black" fill="#FFFF00"/>
+
+  <!-- Wings (simplified for readability) -->
+  <!-- ... continue with primary and secondary feathers paths ... -->
+
+</svg>

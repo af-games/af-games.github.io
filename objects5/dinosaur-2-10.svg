@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 500 500">
+```
+
+**2. Begin drawing tentative lines and shapes using <path> elements:**
+
+Let's start by drawing a simple dinosaur body shape.
+
+```svg
+<path id="body" d="M100,400 Q150,380 200,300 Q250,380 300,400" stroke="black" fill="transparent"/>
+```
+
+**Notes:**
+- `d`: Defines the path of the line. Here, it starts at (100,400), goes to (150,380) in a quadratic curve, then to (200,300) and finally to (300,400).
+- `stroke`: Color of the outline.
+- `fill`: Transparent because we'll be adding more elements on top.
+
+**3. Discover new features with circles, rectangles, etc.:**
+
+Let's add a head, hips, legs, and tail using `<circle>` and `<rect>` elements.
+
+```svg
+<!-- Head -->
+<circle id="head" cx="200" cy="340" r="40" stroke="black" fill="yellow"/>
+
+<!-- Hips -->
+<rect id="hips" x="175" y="380" width="50" height="60" rx="10" stroke="black" fill="grey"/>
+
+<!-- Legs -->
+<circle id="leg1" cx="140" cy="420" r="20" stroke="black" fill="brown"/>
+<circle id="leg2" cx="250" cy="420" r="20" stroke="black" fill="brown"/>
+
+<!-- Tail -->
+<path id="tail" d="M340,410 Q380,390 420,410" stroke="black" fill="transparent"/>
+```
+
+**Notes:**
+- `cx`, `cy`: Center coordinates of the circle.
+- `r`: Radius of the circle.
+- `x`, `y`, `width`, `height`: Coordinates and dimensions of the rectangle. `rx` is the corner radius.
+- Other attributes are similar to `<path>`.
+
+**4. Document your journey with detailed notes:**
+
+We've already started documenting our discoveries in the attribute values for each element.
+
+**5. Write out your map's final draft using SVG tags:**
+
+Here's our completed dinosaur SVG map:
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 500 500">
+  <path id="body" d="M100,400 Q150,380 200,300 Q250,380 300,400" stroke="black" fill="transparent"/>
+  <circle id="head" cx="200" cy="340" r="40" stroke="black" fill="yellow"/>
+  <rect id="hips" x="175" y="380" width="50" height="60" rx="10" stroke="black" fill="grey"/>
+  <circle id="leg1" cx="140" cy="420" r="20" stroke="black" fill="brown"/>
+  <circle id="leg2" cx="250" cy="420" r="20" stroke="black" fill="brown"/>
+  <path id="tail" d="M340,410 Q380,390 420,410" stroke="black" fill="transparent"/>
+</svg>

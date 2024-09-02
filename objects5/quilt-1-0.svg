@@ -1,0 +1,29 @@
+<svg width="400" height="400" viewBox="-200 -200 400 400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="-200" y="-200" width="400" height="400" fill="#ADD8E6"/>
+
+  <!-- Grid Structure -->
+  <defs>
+    <pattern id="quiltPattern" patternUnits="userSpaceOnUse" width="50" height="50">
+      <rect x="0" y="0" width="50" height="50" fill="#B0E0E6"/>
+      <rect x="25" y="25" width="25" height="25" fill="#7DC8FF"/>
+    </pattern>
+  </defs>
+
+  <!-- Quilt Grid -->
+  <rect x="-200" y="-200" width="400" height="400" fill="url(#quiltPattern)"/>
+
+  <!-- Border -->
+  <rect x="-210" y="-210" width="420" height="420" stroke="#003D66" stroke-width="10"/>
+
+  <!-- Quilt Detail (Crosses) -->
+  <g id="detail">
+    <path d="M-190 -190 L-170 -170 M-190 -170 L-170 -190" stroke="white" stroke-width="2"/>
+    <!-- Repeat for each square -->
+  </g>
+
+  <!-- Stitching/Dots (Optional) -->
+  <circle cx="-185" cy="-185" r="1" fill="white"/>
+
+</svg>

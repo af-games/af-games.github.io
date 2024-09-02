@@ -1,0 +1,29 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Main melody -->
+<circle cx="50" cy="150" r="40" fill="#FFD700" />
+<rect x="100" y="180" width="60" height="40" fill="#FFD700"/>
+<path d="M200 150 Q300 50, 400 150 T500 250" stroke="#FFD700" stroke-width="10"/>
+
+<!-- Harmony -->
+<g fill="#FFA500">
+  <!-- Mane patterns (strings) -->
+  <path d="M600 80 Q700 150, 750 200 T800 250" stroke-width="5"/>
+  <path d="M600 140 Q700 230, 750 290 T800 340" stroke-width="5"/>
+
+  <!-- Overlapping patterns (brass) -->
+  <rect x="620" y="320" width="60" height="40"/>
+  <path d="M680 360 V440 H740 V360 Z" stroke-width="5"/>
+
+  <!-- Rhythm (percussion) -->
+  <circle cx="650" cy="420" r="15" fill="#FFD700"/>
+  <circle cx="700" cy="420" r="15" fill="#FFD700"/>
+
+  <!-- Contrasting patterns (woodwind) -->
+  <path d="M630 480 Q690 550, 750 620 T810 690" stroke-width="5"/>
+</g>
+
+<!-- Lion outline -->
+<rect x="50" y="50" width="700" height="500" fill="none" stroke="#333" stroke-width="5"/>
+
+</svg>

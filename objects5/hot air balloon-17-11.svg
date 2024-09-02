@@ -1,0 +1,13 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Envelope -->
+  <circle cx="150" cy="80" r="120" fill="#FFD700"/>
+
+  <!-- Attachment Points (Gondola to Envelope) -->
+  <circle cx="150" cy="200" r="5" fill="#FFFFFF"/>
+  <circle cx="130" cy="200" r="5" fill="#FFFFFF"/>
+
+  <!-- Gondola (Passenger Basket) -->
+  <rect x="110" y="220" width="80" height="60" fill="#696969"/>
+
+</svg>

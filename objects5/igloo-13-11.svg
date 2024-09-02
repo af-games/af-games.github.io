@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Igloo Dome -->
+  <g id="igloo-dome">
+    <path d="M0,50 a50,50 0 0 0 0,-100 a50,50 0 0 0 0,100" fill="#FFFFFF"/>
+    <!-- Repeat path for 36 arcs to create the dome -->
+    <use xlink:href="#igloo-dome" y="10" transform="rotate(10)"/>
+  </g>
+
+  <!-- Entrance -->
+  <rect id="entrance" x="-25" y="-45" width="20" height="40" fill="#FFFFFF" stroke="#696969" stroke-width="1"/>
+
+  <!-- Interior Walls (3 walls for demonstration) -->
+  <g id="interior-walls">
+    <rect x="-18.75" y="-40" width="15" height="35" fill="#ADD8E6"/>
+    <use xlink:href="#interior-wall" transform="rotate(60, -25,-40)"/>
+    <use xlink:href="#interior-wall" transform="rotate(-60, -25,-40)"/>
+  </g>
+</svg>

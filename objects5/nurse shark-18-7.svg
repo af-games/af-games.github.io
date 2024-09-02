@@ -1,0 +1,35 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="300" fill="#E5F5E0"/>
+
+  <!-- Body -->
+  <path d="M100,150 Q150,75 250,150 Q350,225 450,150"
+        stroke="#8BC34A" fill="url(#sharkGradient)" stroke-width="5"/>
+
+  <!-- Fin (left) -->
+  <path d="M50,75 Q100,100 50,125" fill="none" stroke="#6D9F40" stroke-width="3"/>
+
+  <!-- Fin (right) -->
+  <path d="M450,75 Q400,100 450,125" fill="none" stroke="#6D9F40" stroke-width="3"/>
+
+  <!-- Tail -->
+  <path d="M450,150 Q500,225 450,275" fill="none" stroke="#6D9F40" stroke-width="3"/>
+
+  <!-- Eye (left) -->
+  <circle cx="80" cy="120" r="10" fill="#FFF"/>
+  <circle cx="80" cy="120" r="5" fill="#000"/>
+
+  <!-- Eye (right) -->
+  <circle cx="420" cy="120" r="10" fill="#FFF"/>
+  <circle cx="420" cy="120" r="5" fill="#000"/>
+
+  <!-- Gradient for shark body -->
+  <defs>
+    <linearGradient id="sharkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6D9F40;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#38761D;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

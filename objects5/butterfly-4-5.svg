@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+  <!-- Body -->
+  <ellipse cx="25" cy="20" rx="18" ry="7.5"
+           style="fill: #FF69B4; stroke: #FFA53C; stroke-width: 2"/>
+
+  <!-- Wings -->
+  <path d="M5,5 Q20,15 35,5 T65,50 Z"
+        style="fill: #FFF8DC; stroke: #FFD700; stroke-width: 2"/>
+
+  <!-- Head and antennae -->
+  <circle cx="25" cy="12.5" r="7.5"
+          style="fill: #FF69B4"/>
+  <path d="M25,8 L32,0 L18,0 Z"
+        style="fill: #FF69B4"/>
+
+  <!-- Eyes -->
+  <circle cx="23" cy="9" r="1.5"
+          style="fill: #FFF8DC"/>
+  <circle cx="27" cy="9" r="1.5"
+          style="fill: #FFF8DC"/>
+</svg>

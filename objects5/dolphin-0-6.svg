@@ -1,0 +1,55 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ocean Background -->
+  <rect x="0" y="300" width="500" height="200"
+    fill="url(#oceanGradient)"/>
+  <defs>
+    <linearGradient id="oceanGradient" gradientTransform="rotate(90)">
+      <stop offset="0%" style="stop-color:#ADD8E6"/>
+      <stop offset="100%" style="stop-color:#00008B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dolphin Body -->
+  <path d="M250,300 Q400,250 450,300 Q300,350 250,300"
+    fill="#4D90D8"/>
+
+  <!-- Left Fin -->
+  <path d="M175,300 Q200,275 250,300"
+    fill="#27539A"/>
+
+  <!-- Tail Fin -->
+  <path d="M425,300 Q450,325 400,350"
+    fill="#27539A"/>
+
+  <!-- Right Fin -->
+  <path d="M275,300 Q300,325 325,300"
+    fill="#71C5EC"/>
+
+  <!-- Eye -->
+  <circle cx="225" cy="275" r="15" fill="#FFFFFF"/>
+  <circle cx="225" cy="275" r="5" fill="#000000"/>
+
+  <!-- Mouth -->
+  <polygon points="180,325 250,350 320,325"
+    fill="#F2F2F2"/>
+
+  <!-- Wave Crest 1 -->
+  <polygon points="160,340 200,370 240,340"
+    fill="#BFE4FF"/>
+
+  <!-- Wave Crest 2 -->
+  <polygon points="280,350 320,380 360,350"
+    fill="#6DBCFF"/>
+
+  <!-- Sky Background -->
+  <rect x="0" y="0" width="500" height="300"
+    fill="url(#skyGradient)"/>
+  <defs>
+    <linearGradient id="skyGradient">
+      <stop offset="0%" style="stop-color:#D3D3D3"/>
+      <stop offset="100%" style="stop-color:#FFFFFF"/>
+    </linearGradient>
+  </defs>
+
+</svg>

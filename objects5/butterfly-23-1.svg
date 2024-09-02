@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+    <!-- Body -->
+    <path d="M16,48 C7,48 0,39 0,29.5 C0,19.5 7,10 16,10 C25,10 32,19.5 32,29.5 C32,39 25,48 16,48 Z" fill="#FFC0CB"/>
+    <!-- Wings -->
+    <path d="M7,10 Q20,0 32,10 Q20,20 7,10 Z" fill="#FFC0CB"/>
+    <!-- Antennae -->
+    <path d="M8,4 L6,2 8,0 L10,2 Z" fill="#000"/>
+    <path d="M38,4 L40,2 38,0 L36,2 Z" fill="#000"/>
+</svg>

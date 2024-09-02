@@ -1,0 +1,18 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="170" rx="80" ry="90" fill="#C0C0C0"/>
+
+  <!-- Tail -->
+  <path d="M95 170 Q60 200, 30 170" stroke="none" fill="#C0C0C0"/>
+
+  <!-- Fins -->
+  <circle cx="80" cy="140" r="15" fill="#696969"/>
+  <circle cx="120" cy="135" r="10" fill="#696969"/>
+
+  <!-- Mouth & Eye Details -->
+  <path d="M85 150 Q70 140, 85 130" stroke="none" fill="#696969"/>
+  <circle cx="95" cy="140" r="2.5" fill="#696969"/>
+
+  <!-- Dorsal Fin -->
+  <path d="M75 110 Q85 95, 95 110" stroke="none" fill="#C0C0C0"/>
+</svg>

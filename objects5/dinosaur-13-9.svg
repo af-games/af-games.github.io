@@ -1,0 +1,38 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="600" fill="#FFFFFF"/>
+
+  <!-- Dinosaur Body -->
+  <path d="M100,400 Q150,350 200,350 Q250,350 300,400 Q350,450 400,400" stroke="#8DC63C" fill="none" stroke-width="10"/>
+  <circle cx="350" cy="400" r="20" stroke="#8DC63C" fill="#F5DEB3" stroke-width="5"/>
+
+  <!-- Dinosaur Head -->
+  <path d="M200,300 Q175,275 200,250 Q225,275 200,300" stroke="#8DC63C" fill="none" stroke-width="10"/>
+  <circle cx="200" cy="250" r="40" stroke="#8DC63C" fill="#F5DEB3" stroke-width="5"/>
+
+  <!-- Dinosaur Tail -->
+  <path d="M400,400 Q450,450 500,400" stroke="#8DC63C" fill="none" stroke-width="10"/>
+  <circle cx="500" cy="400" r="20" stroke="#8DC63C" fill="#F5DEB3" stroke-width="5"/>
+
+  <!-- Dinosaur Legs -->
+  <path d="M75,500 Q125,550 175,500 Q225,550 275,500" stroke="#8DC63C" fill="none" stroke-width="10"/>
+  <path d="M425,500 Q375,550 325,500 Q275,550 225,500" stroke="#8DC63C" fill="none" stroke-width="10"/>
+
+  <!-- Dinosaur Fashion Collection -->
+
+  <!-- Top -->
+  <path d="M100,150 Q150,125 200,150 Q250,175 300,150" stroke="#FF5722" fill="none" stroke-width="5"/>
+  <rect x="100" y="125" width="200" height="50" fill="#F5DEB3"/>
+
+  <!-- Belt -->
+  <path d="M200,450 Q250,500 300,450" stroke="#FF5722" fill="none" stroke-width="5"/>
+  <rect x="200" y="475" width="100" height="25" fill="#F5DEB3"/>
+
+  <!-- Pattern -->
+  <pattern id="pattern" patternUnits="userSpaceOnUse" width="10" height="10">
+    <polygon points="0,0 10,0 5,10" fill="#FF5722"/>
+  </pattern>
+  <rect x="350" y="350" width="100" height="100" fill="url(#pattern)"/>
+
+</svg>

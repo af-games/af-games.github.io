@@ -1,0 +1,24 @@
+<svg viewBox="0 0 300 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Outline -->
+  <rect x="20" y="20" width="300" height="400" fill="#8B7D6B" stroke="#4A3D2C"/>
+
+  <!-- Left Tower -->
+  <rect x="50" y="100" width="100" height="300" fill="#C09F7D"/>
+  <polygon points="50 400, 150 300, 50 300" fill="#8B7D6B"/>
+
+  <!-- Right Tower -->
+  <rect x="200" y="100" width="100" height="300" fill="#C09F7D"/>
+  <polygon points="200 400, 250 300, 200 300" fill="#8B7D6B"/>
+
+  <!-- Gates -->
+  <rect x="150" y="400" width="100" height="150" fill="#C09F7D"/>
+
+  <!-- Windows -->
+  <circle cx="90" cy="250" r="15" fill="#FFFFFF"/>
+  <circle cx="240" cy="250" r="15" fill="#FFFFFF"/>
+
+  <!-- Door -->
+  <rect x="160" y="500" width="20" height="75" fill="#8B7D6B"/>
+
+</svg>

@@ -1,0 +1,37 @@
+<svg width="500" height="500">
+  <!-- Body and Head -->
+  <ellipse cx="200" cy="200" rx="150" ry="180" fill="#8B4513"/>
+  <ellipse cx="180" cy="160" rx="60" ry="70" fill="#8B4513"/>
+
+  <!-- Legs -->
+  <!-- Left Leg -->
+  <path d="M210 320 Q260 400, 310 350" stroke="#8B4513" fill="transparent"/>
+  <circle cx="310" cy="350" r="20" fill="#8B4513"/>
+
+  <!-- Right Leg -->
+  <path d="M190 320 Q140 400, 90 350" stroke="#8B4513" fill="transparent"/>
+  <circle cx="90" cy="350" r="20" fill="#8B4513"/>
+
+  <!-- Tail -->
+  <line x1="150" y1="250" x2="70" y2="350" style="stroke:#8B4513; stroke-width:20"/>
+
+  <!-- Ears -->
+  <!-- Left Ear -->
+  <polygon points="160,140 170,120 160,100" fill="#8B4513"/>
+  <!-- Right Ear -->
+  <polygon points="190,140 200,120 190,100" fill="#8B4513"/>
+
+  <!-- Eyes and Nose -->
+  <!-- Left Eye -->
+  <circle cx="170" cy="150" r="5" fill="black"/>
+  <!-- Right Eye -->
+  <circle cx="200" cy="150" r="5" fill="black"/>
+  <!-- Nose -->
+  <polygon points="185,160 195,160 190,170" fill="black"/>
+
+  <!-- Face Details -->
+  <path d="M180,180 Q170,200 190,200" stroke="black" fill="transparent"/>
+
+  <!-- Belly Line -->
+  <line x1="200" y1="280" x2="200" y2="340" stroke="black"/>
+</svg>

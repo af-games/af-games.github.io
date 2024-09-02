@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background: Savanna -->
+  <rect x="0" y="0" width="800" height="600" fill="#FFB973" />
+
+  <!-- Sun -->
+  <circle cx="50" cy="100" r="50" fill="#FFFF99" stroke="#FFF200" stroke-width="4" />
+
+  <!-- Grass -->
+  <rect x="80" y="250" width="640" height="350" fill="green" opacity="0.7" />
+
+  <!-- Tree -->
+  <path d="M150,300 Q200,200 250,300 T300,200 T250,400 T200,600 H150 Z" fill="#8B7D6B" stroke="black" stroke-width="3" />
+
+  <!-- Lion -->
+  <path d="M350,150 A150,150 0 1,0 450,250 A150,150 0 1,0 350,350 Z" fill="#F8DE7E" stroke="black" stroke-width="3" />
+  <circle cx="400" cy="200" r="100" fill="#FFFACD" stroke="black" stroke-width="3" />
+
+  <!-- Lighting Effect -->
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:0" />
+  </linearGradient>
+  <rect x="370" y="0" width="430" height="600" fill="url(#grad1)" />
+
+</svg>

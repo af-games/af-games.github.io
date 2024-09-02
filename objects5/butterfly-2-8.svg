@@ -1,0 +1,45 @@
+<svg>` tag:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Body -->
+  <path id="body" d="M100,250 Q90,180 170,180 Q260,180 250,250 Q260,320 170,320 Q90,320 100,250" fill="red">
+    <animate attributeName="d"
+             dur="2s"
+             begin="0s"
+             repeatCount="indefinite"
+             values="
+               M100,250 Q90,180 170,180 Q260,180 250,250 Q260,320 170,320 Q90,320 100,250;
+               M100,350 Q90,280 170,280 Q260,280 250,350 Q260,420 170,420 Q90,420 100,350;
+               M100,250 Q90,180 170,180 Q260,180 250,250 Q260,320 170,320 Q90,320 100,250;
+             "/>
+  </path>
+
+  <!-- Wings -->
+  <g id="wings">
+    <!-- Left Wing -->
+    <path d="M280,150 Q300,50 360,170" fill="orange"/>
+    <animate attributeName="d"
+             dur="2s"
+             begin="0s"
+             repeatCount="indefinite"
+             values="
+               M280,150 Q300,50 360,170;
+               M290,140 Q310,60 370,160;
+               M280,150 Q300,50 360,170;
+             "/>
+
+    <!-- Right Wing -->
+    <path transform="translate(-360,0) rotate(180)" d="M280,150 Q300,50 360,170" fill="orange"/>
+    <animate attributeName="d"
+             dur="2s"
+             begin="0s"
+             repeatCount="indefinite"
+             values="
+               M280,150 Q300,50 360,170;
+               M290,140 Q310,60 370,160;
+               M280,150 Q300,50 360,170;
+             "/>
+  </g>
+
+</svg>

@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="80" r="70" fill="#ff6a95"/>
+
+  <!-- Tentacles (8 of them) -->
+  <g stroke="#ff6a95" stroke-width="5">
+    <path d="M80,30 Q60,20 40,30"/>
+    <path d="M120,30 Q140,20 160,30"/>
+
+    <!-- Repeat the above paths with different coordinates to create more tentacles -->
+    ...
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="50" r="5" fill="#fff"/>
+  <circle cx="110" cy="50" r="5" fill="#fff"/>
+
+</svg>

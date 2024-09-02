@@ -1,0 +1,33 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Water -->
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(98,176,213);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="50" y="300" width="400" height="100" fill="url(#waterGradient)" rx="50"/>
+
+  <!-- Vase -->
+  <path d="M200,100 Q275,50 350,100 Q275,150 200,150 Q125,150 50,100" fill="#E0FFDC"/>
+
+  <!-- Balloon Flowers -->
+  <circle cx="60" cy="120" r="40" fill="#FFD700"/>
+  <circle cx="180" cy="90" r="35" fill="#FFFACD"/>
+  <circle cx="260" cy="110" r="45" fill="#FFFF00"/>
+  <circle cx="350" cy="95" r="40" fill="#FFE7BA"/>
+
+  <!-- Leaves -->
+  <polygon points="60,180 75,200 45,200" fill="#009900"/>
+  <polygon points="180,135 195,150 165,150" fill="#009900"/>
+  <polygon points="260,155 275,170 255,170" fill="#009900"/>
+  <polygon points="350,140 365,155 345,155" fill="#009900"/>
+
+  <!-- Stems -->
+  <line x1="60" y1="200" x2="60" y2="280" stroke="#006600"/>
+  <line x1="180" y1="150" x2="180" y2="230" stroke="#006600"/>
+  <line x1="260" y1="170" x2="260" y2="250" stroke="#006600"/>
+  <line x1="350" y1="155" x2="350" y2="240" stroke="#006600"/>
+
+</svg>

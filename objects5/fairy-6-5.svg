@@ -1,0 +1,29 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="100%" height="40%" fill="#87CEEB"/>
+
+  <!-- Grass -->
+  <rect x="0" y="60%" width="100%" height="40%" fill="#3D9970"/>
+
+  <!-- Trees -->
+  <circle cx="50" cy="200" r="30" fill="#8B7D6B"/>
+  <circle cx="150" cy="220" r="25" fill="#8B7D6B"/>
+  <circle cx="280" cy="190" r="35" fill="#8B7D6B"/>
+
+  <!-- River -->
+  <path d="M30,450 Q90,400 180,450 Q330,400 420,450" stroke="#ADD8E6" fill="transparent" stroke-width="10"/>
+
+  <!-- Fairy -->
+  <g id="fairy" transform="translate(150, 350)">
+    <!-- Body -->
+    <ellipse cx="25" cy="25" rx="25" ry="50" fill="#FFFACD"/>
+    <!-- Hair -->
+    <polygon points="5,-30, 25,0, 45,-30" fill="#FFD700"/>
+    <!-- Wings -->
+    <path d="M-25,10 Q0,40 25,10" stroke-width="0" fill="#FFFACD"/>
+    <!-- Dress -->
+    <rect x="-30" y="30" width="60" height="50" fill="#FFC0CB"/>
+  </g>
+
+</svg>

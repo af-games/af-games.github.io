@@ -1,0 +1,37 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+
+<!-- Background -->
+<rect x="0" y="0" width="600" height="800" fill="#0F2D4B"/>
+
+<!-- Bodice (Front) -->
+<path d="M50,180 H550 V350 Q550,400 500,450 Q50,400 50,350 Z" fill="url(#aquaGradient)" id="bodiceFront"/>
+
+<!-- Bodice (Back) -->
+<path d="M50,650 H550 V780 Q550,820 500,870 Q50,820 50,780 Z" fill="url(#aquaGradient)" id="bodiceBack"/>
+
+<!-- Sleeve -->
+<circle cx="150" cy="300" r="90" fill="#FFFFFF"/>
+<path d="M150,450 Q200,400 250,350 A90,90 0 0 0 150,200 Z" fill="#0F2D4B"/>
+
+<!-- Skirt -->
+<path d="M275,850 Q300,800 350,750 Q300,700 275,650 A150,150 0 0 0 275,850 Z" fill="#FFFFFF"/>
+
+<!-- Tentacle Ruffles (Sleeves) -->
+<path d="M50,450 Q100,350 150,400 Q200,450 250,350 Q300,400 350,450 Q400,350 450,400 Z" fill="url(#gradientOrangeWhite)"/>
+
+<!-- Tentacle Ruffles (Skirt) -->
+<path d="M275,650 Q300,700 350,750 Q300,800 275,850 Z" fill="url(#gradientOrangeWhite)"/>
+
+<!-- Gradients -->
+<defs>
+    <linearGradient id="aquaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#69D5E0"/>
+        <stop offset="100%" style="stop-color:#00A3CC"/>
+    </linearGradient>
+    <linearGradient id="gradientOrangeWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#FFBF78"/>
+        <stop offset="100%" style="stop-color:#FFFFFF"/>
+    </linearGradient>
+</defs>
+
+</svg>

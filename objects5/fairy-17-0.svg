@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Background -->
+  <circle cx="150" cy="150" r="150" fill="#ADD8E6"/>
+
+  <!-- Fairy body -->
+  <ellipse cx="120" cy="100" rx="40" ry="60" fill="#98FB98"/>
+  <ellipse cx="120" cy="170" rx="50" ry="80" fill="#FFFACD"/>
+  <ellipse cx="100" cy="140" rx="10" ry="15" fill="#FFB6C1"/>
+  <ellipse cx="140" cy="140" rx="10" ry="15" fill="#FFB6C1"/>
+
+  <!-- Fairy face -->
+  <circle cx="110" cy="95" r="8" fill="#000000"/>
+  <circle cx="130" cy="95" r="8" fill="#000000"/>
+  <path d="M105,120 Q120,140 135,120" stroke="#FFB6C1" fill="transparent"/>
+  <circle cx="120" cy="105" r="4" fill="#FFB6C1"/>
+
+  <!-- Hair & Flowers -->
+  <!-- Add hair paths and small white circles for flowers here -->
+
+  <!-- Wings -->
+  <!-- Add transparent paths with irregular shapes for wings here -->
+
+  <!-- Hat -->
+  <ellipse cx="120" cy="70" rx="20" ry="30" fill="#000000"/>
+  <polygon points="95,60 120,40 145,60" fill="#000000"/>
+  <polygon points="95,75 120,85 145,75" fill="#000000"/>
+
+  <!-- Wand -->
+  <path d="M135,180 l-15,-30 a10,10 0 0 1 30,0 z" stroke="#FFFFFF" fill="transparent"/>
+  <circle cx="120" cy="145" r="5" fill="#FFFFFF"/>
+
+</svg>

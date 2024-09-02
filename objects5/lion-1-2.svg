@@ -1,0 +1,24 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="100" y="80" width="300" height="300" fill="#FFB64D"/>
+
+  <!-- Head (oval) -->
+  <ellipse cx="250" cy="150" rx="100" ry="120" fill="#FFB64D"/>
+
+  <!-- Mane (multiple semicircles) -->
+  <g stroke="none" fill="gold">
+    <path d="M180,70 A100,100 0 1,0 320,70 100,100 0 1,0 180,70 Z"/>
+    <path d="M140,120 A80,80 0 1,0 360,120 80,80 0 1,0 140,120 Z"/>
+    <path d="M150,220 A50,50 0 1,0 350,220 50,50 0 1,0 150,220 Z"/>
+  </g>
+
+  <!-- Face (features) -->
+  <circle cx="250" cy="180" r="60" fill="white"/>
+  <path d="M230,140 Q250,120 270,140" stroke="#black" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="220" cy="140" r="10" fill="#black"/>
+  <circle cx="280" cy="140" r="10" fill="#black"/>
+
+</svg>

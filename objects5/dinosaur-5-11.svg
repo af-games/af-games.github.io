@@ -1,0 +1,41 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- The Sky -->
+  <rect width="100%" height="100%" fill="#87CEEB"/>
+
+  <!-- Dinosaur Dreams of Flying -->
+  <polygon points="100,50 200,100 300,50" fill="#66BB6A"/>
+  <circle cx="150" cy="75" r="5" fill="black"/>
+  <circle cx="250" cy="75" r="5" fill="black"/>
+  <polygon points="300,150 400,150 350,200" fill="#FFD700">
+    <text x="320" y="170">I wish I could fly...</text>
+  </polygon>
+
+  <!-- Meeting the Bird -->
+  <circle cx="180" cy="140" r="30" fill="#FFA500"/>
+  <polygon points="150,120 170,110 190,120" fill="#FFFF00"/>
+  <polygon points="320,180 420,180 370,190" fill="#FFD700">
+    <text x="350" y="165">You can learn, little one!</text>
+  </polygon>
+
+  <!-- Attempting Flight -->
+  <polygon points="120,180 220,230 320,180" fill="#66BB6A"/>
+  <circle cx="170" cy="205" r="5" fill="black"/>
+  <circle cx="270" cy="205" r="5" fill="black"/>
+  <rect x="230" y="190" width="50" height="60" fill="#8B4513"/>
+
+  <!-- Learning from Failure -->
+  <polygon points="120,230 220,280 320,230" fill="#66BB6A"/>
+  <circle cx="170" cy="255" r="5" fill="black"/>
+  <circle cx="270" cy="255" r="5" fill="black"/>
+  <polygon points="180,290 220,310 160,290" fill="#FFA500">
+    <text x="185" y="295">Let's try again...</text>
+  </polygon>
+
+  <!-- The Dinosaur Takes Flight -->
+  <polygon points="120,280 220,330 320,280" fill="#66BB6A"/>
+  <circle cx="170" cy="305" r="5" fill="black"/>
+  <circle cx="270" cy="305" r="5" fill="black"/>
+  <circle cx="190" cy="285" r="30" fill="#FFA500"/>
+
+</svg>

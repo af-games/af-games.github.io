@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-5 -70 90 140">
+
+  <!-- Outer Layer (Snow) -->
+  <circle cx="0" cy="0" r="60" fill="#FFFFFF"/>
+
+  <!-- Inner Layer (Ice) -->
+  <path d="M 0,-60 Q 20,-35 40,-20 Q 20,10 0,35 Q -20,10 -40,-20 Z" fill="#B0E0E6"/>
+
+  <!-- Doorway -->
+  <polygon points="-20,-70 20,-70 0,-50" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+
+  <!-- Annotation: Original Context (Inuit People) -->
+  <text x="-45%" y="80%" text-anchor="middle" font-size="16" fill="#000">Used by Inuit people for shelter and storage</text>
+
+</svg>

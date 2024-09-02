@@ -1,0 +1,30 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <rect x="150" y="20" width="150" height="250" fill="#8B4513" stroke="#696969"/>
+
+  <!-- Turrets -->
+  <polygon points="100,50 200,50 150,100" fill="#C0C0C0"/>
+  <polygon points="350,50 450,50 400,100" fill="#C0C0C0"/>
+
+  <!-- Gatehouse -->
+  <path d="M275,50 Q287.5,62.5 290,75 Q305,62.5 317.5,50" stroke="#696969" fill="#A0522D"/>
+
+  <!-- Walls -->
+  <polyline points="100,250 350,250 450,250 600,250" stroke="#696969" fill="#A0522D"/>
+
+  <!-- Roof Lines -->
+  <line x1="150" y1="250" x2="300" y2="250" stroke="#8B4F39"/>
+  <line x1="300" y1="250" x2="450" y2="250" stroke="#8B4F39"/>
+
+  <!-- Wall Connections -->
+  <line x1="100" y1="250" x2="150" y2="250"/>
+  <line x1="350" y1="250" x2="450" y2="250"/>
+
+  <!-- Moat Bridge -->
+  <path d="M175,325 Q200,350 225,325 Q250,350 275,325" stroke="#696969" fill="none"/>
+
+  <!-- Moat Water -->
+  <rect x="100" y="300" width="500" height="50" fill="#70DBDB"/>
+
+</svg>

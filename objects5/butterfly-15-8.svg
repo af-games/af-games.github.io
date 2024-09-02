@@ -1,0 +1,25 @@
+<svg width="200" height="200" viewBox="0 0 100 150" xmlns="http://www.w3.org/2000/svg">
+  <g id="butterfly">
+    <!-- Body -->
+    <circle cx="50" cy="75" r="40" fill="#FFC300"/>
+
+    <!-- Wings -->
+    <path d="M10,80 A90,90 0 0 1 90,80 Z"
+          fill="#FFDA73"
+          transform="rotate(45, 50, 75)"/>
+    <path d="M90,80 A90,90 0 0 1 10,80 Z"
+          fill="#FFDA73"
+          transform="rotate(-45, 50, 75)"/>
+
+    <!-- Antenna -->
+    <line x1="50" y1="65" x2="50" y2="30" stroke="#99CCFF"/>
+
+    <!-- Animation -->
+    <animateTransform attributeName="transform"
+                     type="rotate"
+                     from="0 50 75"
+                     to="360 50 75"
+                     dur="1s"
+                     repeatCount="indefinite"/>
+  </g>
+</svg>

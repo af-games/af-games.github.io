@@ -1,0 +1,20 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <rect x="75" y="50" width="50" height="50" fill="#696969"/>
+  <circle cx="80" cy="60" r="12.5" fill="#CACACA"/>
+  <circle cx="95" cy="75" r="12.5" fill="#CACACA"/>
+
+  <!-- Eyes -->
+  <ellipse cx="85" cy="60" rx="15" ry="10" fill="white"/>
+  <circle cx="83" cy="59" r="4" fill="black"/>
+  <circle cx="87" cy="61" r="4" fill="black"/>
+
+  <!-- Beak -->
+  <polygon points="120,45 110,55 130,55" fill="#FF7F50"/>
+
+  <!-- Feathers (simplified) -->
+  <rect x="60" y="150" width="40" height="30" fill="#A9A9A9"/>
+  <polygon points="60,120 80,150 75,180" fill="#777777"/>
+
+</svg>

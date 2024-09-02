@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+    <!-- Cake base -->
+    <circle cx="0" cy="0" r="40"
+            fill="url(#cakeGradient)"
+            stroke="#69301E"
+            stroke-width="2" />
+
+    <!-- Cake top -->
+    <path d="M0,-20 Q25,-25 40,0 Q25,25 0,20"
+          fill="#D7895A"
+          stroke="#69301E"
+          stroke-width="2" />
+
+    <!-- Cake center hole -->
+    <circle cx="0" cy="0" r="15"
+            fill="url(#holeGradient)"
+            stroke="#69301E"
+            stroke-width="1.5" />
+
+    <!-- Cake top highlight -->
+    <path d="M40,0 Q27,-20 0,-10 Q-27,-20 -40,0 Q-27,20 0,10 Q27,20 40,0"
+          fill="#FFDAB9"
+          stroke-width="0" />
+
+    <!-- Animations -->
+    <animateTransform attributeName="transform"
+                     type="rotate"
+                     from="0 0 0"
+                     to="360 0 0"
+                     dur="5s"
+                     repeatCount="indefinite" />
+</svg>

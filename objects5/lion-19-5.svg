@@ -1,0 +1,32 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sun Prop -->
+  <circle cx="400" cy="100" r="80" fill="yellow" />
+  <path d="M400 80 Q420 60, 440 80 T400 100 Z" stroke="black" fill="orange" />
+
+  <!-- Lion Silhouette -->
+  <path id="lion" d="M250 50 L350 150 C370 180, 290 180, 310 210 260 240 Q220 270, 200 240 Z" fill="brown" stroke="black" />
+
+  <!-- Strings and Joints -->
+  <path id="stringHead" d="M150 50 L170 80 L250 80" stroke="black" />
+  <circle cx="170" cy="80" r="3" fill="black" />
+
+  <path id="stringNeck" d="M170 80 L210 120 L250 120" stroke="black" />
+  <circle cx="210" cy="120" r="3" fill="black" />
+
+  <path id="stringShoulderL" d="M240 120 L260 140 L290 140" stroke="black" />
+  <circle cx="260" cy="140" r="3" fill="black" />
+
+  <path id="stringShoulderR" d="M280 120 L300 140 L330 140" stroke="black" />
+  <circle cx="300" cy="140" r="3" fill="black" />
+
+  <path id="stringHipL" d="M280 250 L310 270 L330 270" stroke="black" />
+  <circle cx="310" cy="270" r="3" fill="black" />
+
+  <path id="stringKneeL" d="M330 270 L340 300 L350 300" stroke="black" />
+  <circle cx="340" cy="300" r="3" fill="black" />
+
+  <path id="stringTail" d="M360 290 Q370 310, 380 290 Z" stroke="black" />
+  <circle cx="370" cy="310" r="3" fill="black" />
+
+</svg>

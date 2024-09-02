@@ -1,0 +1,37 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- The Calm Morning -->
+  <rect x="50" y="100" width="700" height="400" fill="#E9DAC1"/>
+  <circle cx="400" cy="250" r="80" fill="#FFC300"/>
+  <text x="50%" y="15%" text-anchor="middle" font-size="24">A peaceful morning in the village.</text>
+
+  <!-- Preparation for the Journey -->
+  <circle cx="400" cy="250" r="120" fill="#FFC300"/>
+  <rect x="350" y="350" width="100" height="20" fill="#696969"/>
+  <path d="M400,400 Q450,350 400,300" stroke="#696969" fill="transparent"/>
+  <text x="50%" y="45%" text-anchor="middle" font-size="24">Villagers help prepare the balloon for its journey.</text>
+
+  <!-- Liftoff -->
+  <path d="M400,300 Q500,200 400,100" stroke="#FFC300" fill="transparent"/>
+  <circle cx="400" cy="70" r="60" fill="#FFC300"/>
+  <text x="50%" y="60%" text-anchor="middle" font-size="24">The hot air balloon takes flight!</text>
+
+  <!-- The Storm -->
+  <rect x="100" y="100" width="600" height="300" fill="#778899"/>
+  <path d="M250,150 L300,200 Z" stroke="#FFFFFF" fill="#FFFFFF"/>
+  <text x="50%" y="40%" text-anchor="middle" font-size="24">A sudden storm approaches the balloon.</text>
+
+  <!-- A Bird's Eye View -->
+  <path d="M150,300 Q300,400 450,300" stroke="#FFC300" fill="transparent"/>
+  <polygon points="200,400 400,400 300,500" fill="#78C651"/>
+  <path d="M300,450 Q350,500 400,550" stroke="#696969" fill="transparent"/>
+  <text x="50%" y="75%" text-anchor="middle" font-size="24">The balloon floats over beautiful landscapes.</text>
+
+  <!-- The Balloon's Return -->
+  <circle cx="400" cy="250" r="80" fill="#FFC300"/>
+  <rect x="150" y="300" width="500" height="100" fill="#FF9A01">
+    <animate attributeName="fill-opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <text x="50%" y="85%" text-anchor="middle" font-size="24">At sunset, the balloon returns home.</text>
+
+</svg>

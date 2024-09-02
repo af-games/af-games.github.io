@@ -1,0 +1,25 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 400'>
+
+  <!-- Body -->
+  <rect x='100' y='50' width='300' height='300' fill='#8B7D6B' stroke-width='2' stroke='#333'/>
+
+  <!-- Fin shapes and positions (asymmetric) -->
+  <polygon points='150,50 200,100 150,150' fill='#8B7D6B' />
+  <polygon points='300,50 250,100 300,150' fill='#8B7D6B' />
+
+  <!-- Dorsal fin -->
+  <path d='M250,150 Q275,200 300,150' stroke-width='2' stroke='#333' fill='none'/>
+
+  <!-- Tail -->
+  <polygon points='400,250 450,300 400,350' fill='#8B7D6B' />
+
+  <!-- Eye -->
+  <circle cx='175' cy='75' r='15' fill='#FFFFFF'>
+    <circle cx='175' cy='75' r='10' fill='#000000'/>
+  </circle>
+
+  <!-- Gills (asymmetric) -->
+  <polygon points='200,175 230,190 200,205' fill='#8B7D6B' />
+  <polygon points='280,175 250,190 280,205' fill='#8B7D6B' />
+
+</svg>

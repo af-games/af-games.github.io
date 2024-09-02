@@ -1,0 +1,17 @@
+<svg>` tag:
+
+```xml
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake base -->
+  <rect x="50" y="150" width="100" height="50" fill="#F5DEB3"/>
+
+  <!-- Cake top -->
+  <path d="M100,75 Q150,50 200,75 T350,75 Q250,50 150,75 T50,75" fill="#FFC68F"/>
+
+  <!-- Cake decorations -->
+  <circle cx="100" cy="40" r="30" fill="#CD853F"/>
+  <circle cx="150" cy="120" r="20" fill="#CD853F"/>
+  <rect x="65" y="90" width="70" height="20" fill="#CD853F"/>
+
+</svg>

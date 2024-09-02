@@ -1,0 +1,49 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle Gate -->
+  <polygon id="castle-gate" points="100,50 400,50 400,200" fill="#8B7D6B" stroke="#000" stroke-width="3"/>
+  <text x="250" y="120" font-size="30">Castle Gate</text>
+
+  <!-- Path to Courtyard -->
+  <path d="M400,200 Q500,250 600,200" stroke="#000" stroke-width="3"/>
+
+  <!-- Courtyard -->
+  <rect id="courtyard" x="500" y="150" width="250" height="200" fill="#C8C8A9"/>
+  <text x="650" y="350" font-size="30">Courtyard</text>
+
+  <!-- Apply Sepia filter to Courtyard -->
+  <defs>
+    <filter id="sepia">
+      <feColorMatrix in="SourceGraphic" type="matrix"
+        values="0.393 0.769 0.189 0 0
+                0.349 0.686 0.168 0 0
+                0.272 0.534 0.131 0 0
+                0 0 0 1 0"/>
+    </filter>
+  </defs>
+
+  <!-- Courtyard with Sepia filter -->
+  <use xlink:href="#courtyard" x="500" y="150" fill="none" stroke="#000" stroke-width="3" filter="url(#sepia)"/>
+
+  <!-- Path to Keep -->
+  <path d="M750,250 Q850,300 950,250" stroke="#000" stroke-width="3"/>
+
+  <!-- Keep -->
+  <polygon id="keep" points="950,150 950,400 750,400" fill="#8B7D6B" stroke="#000" stroke-width="3"/>
+  <text x="850" y="270" font-size="30">Keep</text>
+
+  <!-- Apply Drop Shadow filter to Keep -->
+  <defs>
+    <filter id="drop-shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="4" dy="4"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Keep with Drop Shadow filter -->
+  <use xlink:href="#keep" fill="none" stroke="#000" stroke-width="3" filter="url(#drop-shadow)"/>
+
+</svg>

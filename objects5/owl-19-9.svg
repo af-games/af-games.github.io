@@ -1,0 +1,20 @@
+<svg width="500" height="500" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(245,222,179);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(74,38,11);stop-opacity:1"/>
+    </linearGradient>
+    <!-- Add other gradients here (wingGradient, faceGradient, eyeGradient, backgroundGradient) -->
+  </defs>
+
+  <!-- Body -->
+  <rect x="10%" y="20%" width="80%" height="30%" style="fill: url(#bodyGradient);" />
+
+  <!-- Wings (add more polygons for both wings with adjusted positions and rotations) -->
+  <polygon points="10%,90% 50%,20% 90%,90%" style="fill: url(#wingGradient);" transform="rotate(45)" />
+
+  <!-- Face, eyes, and background (add more shapes as described above) -->
+
+</svg>

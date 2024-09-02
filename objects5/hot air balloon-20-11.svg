@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Basket -->
+  <polygon points="100,400 180,400 270,450 270,350 180,300 100,300" fill="#654321"/>
+
+  <!-- Envelope -->
+  <path d="M150,150 Q250,50 350,150 Q250,250 150,250" stroke-width="5" stroke="#9B7C4F" fill-opacity="0.7" fill="#DCDCDC"/>
+
+  <!-- Rope -->
+  <line x1="100" y1="400" x2="150" y2="180" stroke="#9B7C4F"/>
+  <line x1="270" y1="350" x2="150" y2="180" stroke="#9B7C4F"/>
+
+  <!-- Burner base -->
+  <circle cx="200" cy="220" r="30" fill="#8B4513"/>
+
+  <!-- Burner fuel container -->
+  <rect x="160" y="200" width="120" height="40" rx="10" ry="10" fill="#696969"/>
+
+</svg>

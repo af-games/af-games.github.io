@@ -1,0 +1,48 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="200" fill="#ffffff"/>
+
+  <!-- Balloon Body (Circle) -->
+  <circle cx="100" cy="75" r="60"
+          stroke="#f39c12" stroke-width="4"
+          fill="url(#balloonGradient)" />
+
+  <!-- Balloon Gradient -->
+  <defs>
+    <radialGradient id="balloonGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#f39c12; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff630e; stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Balloon String (Line) -->
+  <line x1="100" y1="75" x2="100" y2="20"
+        stroke="#4d4b38" stroke-width="4"/>
+
+  <!-- Balloon Tie (Rectangle) -->
+  <rect x="90" y="18" width="20" height="20"
+        fill="#4d4b38"/>
+
+  <!-- Balloon Shadow (Filter) -->
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="2" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope=".5"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Apply shadow filter to balloon body -->
+  <circle cx="100" cy="75" r="60"
+          stroke="#f39c12" stroke-width="4"
+          fill="url(#balloonGradient)"
+          filter="url(#shadow)"/>
+
+</svg>

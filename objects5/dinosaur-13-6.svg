@@ -1,0 +1,49 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Mix your ingredients together:**
+
+- Eyes:
+```svg
+  <circle cx="50" cy="80" r="10"/>
+  <circle cx="170" cy="80" r="10"/>
+```
+- Body and legs rectangles:
+```svg
+  <rect x="40" y="120" width="220" height="150" rx="20"/>
+  <!-- Legs -->
+  <rect x="60" y="270" width="30" height="90"/>
+  <rect x="180" y="270" width="30" height="90"/>
+```
+- Head outline path:
+```svg
+  <path d="M40,50 Q90,20 160,50 Q210,20 250,50"/>
+```
+- Tail path:
+```svg
+  <path d="M230,180 Q270,200 300,180" stroke-width="10"/>
+```
+
+3. **Bake according to the recipe's instructions (output your SVG code):**
+
+```svg
+  <!-- Eyes -->
+  <circle cx="50" cy="80" r="10" fill="black"/>
+  <circle cx="170" cy="80" r="10" fill="black"/>
+
+  <!-- Body and legs rectangles -->
+  <rect x="40" y="120" width="220" height="150" rx="20" fill="#8B4513"/>
+  <!-- Legs -->
+  <rect x="60" y="270" width="30" height="90" fill="#8B4513"/>
+  <rect x="180" y="270" width="30" height="90" fill="#8B4513"/>
+
+  <!-- Head outline path -->
+  <path d="M40,50 Q90,20 160,50 Q210,20 250,50" stroke="black" stroke-width="10"/>
+
+  <!-- Tail path -->
+  <path d="M230,180 Q270,200 300,180" stroke="black" fill="transparent"/>
+
+  <!-- Text -->
+  <text x="50%" y="40%" text-anchor="middle" font-size="60px">DINOSAUR</text>
+
+</svg>

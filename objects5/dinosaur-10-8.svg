@@ -1,0 +1,23 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body: rect -->
+  <rect id="body" x="100" y="150" width="300" height="400" fill="#8B4513"/>
+
+  <!-- Head: circle -->
+  <circle id="head" cx="200" cy="120" r="100" fill="#696969"/>
+
+  <!-- Eyes: circles -->
+  <circle id="eye-left" cx="170" cy="80" r="20" fill="black"/>
+  <circle id="eye-right" cx="230" cy="80" r="20" fill="black"/>
+
+  <!-- Spine & Tail: polygon -->
+  <polygon id="spine-tail" points="200,150 200,400 300,450 200,500" fill="#8B4513"/>
+
+  <!-- Horns: paths -->
+  <path id="horn-left" d="M160,70 Q130,90 160,110 Z" fill="#696969"/>
+  <path id="horn-right" d="M240,70 Q270,90 240,110 Z" fill="#696969"/>
+
+  <!-- Scales: image (texture) -->
+  <image id="scales" xlink:href="scales-texture.png" x="150" y="180" width="200" height="300"/>
+
+</svg>

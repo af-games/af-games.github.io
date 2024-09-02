@@ -1,0 +1,43 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="600" fill="url(#bg-gradient)"/>
+  <defs>
+    <linearGradient id="bg-gradient" gradientTransform="rotate(90)">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <path d="M250,400 Q300,350 325,250 Q250,150 200,250 Q175,350 225,400" fill="url(#penguin-body)" />
+  <defs>
+    <linearGradient id="penguin-body" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#473D8A"/>
+      <stop offset="50%" stop-color="#9C76C9"/>
+      <stop offset="100%" stop-color="#473D8A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Head -->
+  <circle cx="250" cy="150" r="80" fill="url(#penguin-head)" />
+  <defs>
+    <linearGradient id="penguin-head" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F7D897"/>
+      <stop offset="100%" stop-color="#E3BFA4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Eye -->
+  <circle cx="230" cy="120" r="15" fill="#000"/>
+  <circle cx="270" cy="120" r="15" fill="#000"/>
+
+  <!-- Beak -->
+  <path d="M260,190 Q270,200 280,190 Q270,180 260,170" fill="#FFD700"/>
+
+  <!-- Flipper -->
+  <polygon points="175,375 200,450 225,375" fill="#473D8A"/>
+  <polygon points="275,375 300,450 325,375" fill="#473D8A"/>
+
+</svg>

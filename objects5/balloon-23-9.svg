@@ -1,0 +1,40 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .balloon {
+      fill: #ff7f50;
+    }
+    .string {
+      stroke: #000;
+      stroke-width: 4;
+    }
+    @keyframes float {
+      from { transform: translateY(0); }
+      to { transform: translateY(-20px); }
+    }
+  </style>
+
+  <!-- Introduction -->
+  <circle class="balloon" cx="400" cy="500" r="150">
+    <animate attributeName="cy" values="500;350;500" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <line class="string" x1="400" y1="500" x2="400" y2="480"/>
+
+  <!-- Crescendo -->
+  <circle class="balloon" cx="300" cy="550" r="100">
+    <animate attributeName="cy" values="550;400;550" begin="0.5s" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <line class="string" x1="300" y1="550" x2="300" y2="530"/>
+
+  <!-- Climax -->
+  <circle class="balloon" cx="600" cy="450" r="170">
+    <animate attributeName="cy" values="450;300;450" begin="1s" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="170;250;170" begin="1.5s" dur="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <line class="string" x1="600" y1="450" x2="600" y2="430"/>
+
+  <!-- Resolution -->
+  <circle class="balloon" cx="400" cy="300" r="200">
+    <animate attributeName="cy" values="300;200;300" begin="2s" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="200;150;200" begin="2.5s" dur="1s" repeatCount="indefinite"/>
+  </circle>
+</svg>

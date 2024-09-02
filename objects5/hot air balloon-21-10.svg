@@ -1,0 +1,51 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="50" cy="50" r="40" fill="#FF6F91"> <!-- E -->
+    <animate attributeName="cy" from="50" to="70" dur="2s" repeatCount="indefinite"/>
+  </circle>
+```
+**Bar 2:**
+```
+<path d="M300,50 Q300,150 400,50" stroke="#9C4DFF"> <!-- G -->
+  <animate attributeName="d" from="M300,50 Q300,150 400,50" to="M300,70 Q300,200 400,70" dur="2s" repeatCount="indefinite"/>
+</path>
+```
+**Bar 3:**
+```
+<circle cx="450" cy="150" r="40" fill="#6F91FF"> <!-- B -->
+  <animate attributeName="cy" from="150" to="200" dur="2s" repeatCount="indefinite"/>
+</circle>
+```
+**Bar 4:**
+```
+<path d="M350,250 Q450,250 450,350" stroke="#4DFF9C"> <!-- D -->
+  <animate attributeName="d" from="M350,250 Q450,250 450,350" to="M350,300 Q450,300 450,350" dur="2s" repeatCount="indefinite"/>
+</path>
+```
+**Bar 5:**
+```
+<circle cx="450" cy="400" r="40" fill="#9CFF4D"> <!-- E -->
+  <animate attributeName="cy" from="400" to="370" dur="2s" repeatCount="indefinite"/>
+</circle>
+```
+**Bar 6:**
+```
+<path d="M350,450 Q250,450 250,350" stroke="#FF9C4D"> <!-- C -->
+  <animate attributeName="d" from="M350,450 Q250,450 250,350" to="M350,400 Q250,400 250,350" dur="2s" repeatCount="indefinite"/>
+</path>
+```
+**Bar 7:**
+```
+<circle cx="150" cy="350" r="40" fill="#FF6F91"> <!-- E -->
+  <animate attributeName="cx" from="150" to="200" dur="2s" repeatCount="indefinite"/>
+</circle>
+```
+**Bar 8:**
+```
+<path d="M200,350 Q300,450 400,350" stroke="#9C4DFF"> <!-- G -->
+  <animate attributeName="d" from="M200,350 Q300,450 400,350" to="M200,370 Q300,470 400,370" dur="2s" repeatCount="indefinite"/>
+</path>
+```
+
+Close the SVG file:
+```
+</svg>

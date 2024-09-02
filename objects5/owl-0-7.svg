@@ -1,0 +1,34 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .owl { fill: brown; }
+        .moon { fill: lightblue; }
+        .motif { fill: darkgreen; stroke: black; }
+        .vine { stroke: darkgreen; stroke-width: 5; fill: none; }
+    </style>
+
+    <!-- Owl Head -->
+    <path class="owl" d="M200 50 Q250 75, 300 100 A150 150 0 1 1 50 100 A150 150 0 1 1 200 150 Z"/>
+    <path class="owl" d="M180 90 Q130 110, 150 140 Q170 110, 180 90 Z"/>
+
+    <!-- Owl Wings -->
+    <path class="owl" d="M350 100 Q400 75, 450 100 Q400 125, 350 100 Z"/>
+    <path class="owl" d="M150 100 Q100 75, 50 100 Q100 125, 150 100 Z"/>
+
+    <!-- Owl Feet -->
+    <path class="owl" d="M200 200 Q170 225, 200 250 Q230 225, 200 200 Z"/>
+
+    <!-- Moon Phases -->
+    <circle class="moon" cx="180" cy="70" r="15" fill-opacity="0.3"/>
+    <circle class="moon" cx="220" cy="90" r="15" fill-opacity="0.6"/>
+    <circle class="moon" cx="240" cy="70" r="15" fill-opacity="0.8"/>
+
+    <!-- Owl Motifs -->
+    <g transform="translate(300, 200) rotate(-45)">
+        <path class="motif" d="M0 0 Q10 20, 0 40 Z"/>
+        <path class="motif" d="M-10 -10 Q10 10, -10 30 Z"/>
+    </g>
+
+    <!-- Vines and Branches -->
+    <path class="vine" d="M250 175 Q280 140, 310 175 Q340 200, 370 175"/>
+
+</svg>

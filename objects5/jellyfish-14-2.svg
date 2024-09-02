@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Bell (body) -->
+  <circle cx="250" cy="100" r="80" fill="#CC79A7" opacity="0.8"/>
+  <circle cx="250" cy="100" r="80" stroke="#fff" stroke-width="4"/>
+
+  <!-- Oral arms -->
+  <path d="M230,160 Q250,130 270,160" fill="#CC79A7" opacity="0.6"/>
+  <path d="M230,200 Q250,230 270,200" fill="#CC79A7" opacity="0.6"/>
+
+  <!-- Tentacles -->
+  <g stroke="#3D148B" stroke-width="3">
+    <path d="M230,240 Q350,350 450,240"/>
+    <path d="M270,240 Q150,350 60,240"/>
+    <path d="M270,280 Q350,450 450,280"/>
+    <path d="M270,320 Q150,450 60,320"/>
+  </g>
+
+  <!-- Rim lights -->
+  <circle cx="250" cy="100" r="90" stroke="#fff" stroke-width="2" opacity="0.5"/>
+  <circle cx="250" cy="100" r="70" stroke="#3D148B" stroke-width="2" opacity="0.5"/>
+
+</svg>

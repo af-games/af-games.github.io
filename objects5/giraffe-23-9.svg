@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background-color:#D1FFB6;">
+
+  <!-- Once Upon a Time -->
+  <text x="40" y="50" font-family="Verdana" font-size="24">Once upon a time,</text>
+  <circle cx="150" cy="200" r="80" fill="#FFA07A"/>
+  <circle cx="300" cy="150" r="60" fill="#FFA07A"/>
+  <circle cx="450" cy="250" r="70" fill="#FFA07A"/>
+  <rect x="550" y="180" width="150" height="120" fill="#28B404"/>
+  <text x="620" y="300" font-family="Verdana" font-size="24">lived a giraffe</text>
+  <path d="M70,290 Q150,370 300,290 T450,290" stroke="#8B4513"/>
+
+  <!-- The Gift -->
+  <text x="40" y="400" font-family="Verdana" font-size="24">One night,</text>
+  <path d="M50,450 Q75,425 100,450 Q125,475 150,450 Z" repeatCount="3" stroke="#ADD8E6" fill="transparent"/>
+  <use xlink:href="#tree"/>
+
+  <!-- Discovery -->
+  <text x="40" y="500" font-family="Verdana" font-size="24">The next morning,</text>
+  <circle cx="150" cy="350" r="90" fill="#F8E71C"/>
+  <use xlink:href="#tree"/>
+
+</svg>

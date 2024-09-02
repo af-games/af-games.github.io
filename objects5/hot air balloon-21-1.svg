@@ -1,0 +1,19 @@
+<svg width="100" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Basket -->
+  <rect x="40" y="180" width="20" height="20" fill="#694f27"/>
+
+  <!-- Balloon envelope (body) -->
+  <path d="M50,20 Q60,30 70,20 Q60,10 50,20 Z" fill="#ffa500" stroke="black"/>
+
+  <!-- Balloon neck -->
+  <path d="M50,20 L50,80" stroke="black"/>
+
+  <!-- Balloon opening (crown) -->
+  <circle cx="50" cy="10" r="5" fill="#ffa500"/>
+
+  <!-- Ballast box (optional) -->
+  <rect x="35" y="60" width="20" height="20" fill="#694f27"/>
+
+  <!-- Rigging line -->
+  <line x1="40" y1="80" x2="40" y2="180" stroke="black"/>
+</svg>

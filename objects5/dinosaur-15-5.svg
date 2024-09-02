@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 400 400">
+  <!-- Brontosaurus -->
+  <rect id="brontosaurus" x="-50" y="-50" width="100" height="150" fill="green">
+    <animate attributeName="x" from="0" to="300" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Triceratops Horns -->
+  <circle id="horn1" cx="0" cy="-75" r="50" fill="brown">
+    <animate attributeName="cx" from="0" to="200" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle id="horn2" cx="0" cy="-75" r="50" fill="brown">
+    <animate attributeName="cx" from="0" to="-200" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Pterodactyl Flight -->
+  <path id="pterodactyl" d="M-100,-100 Q100,100 -100,200 T400,-100 Z" fill="orange">
+    <animate attributeName="d" dur="2s" repeatCount="indefinite">
+      <keyframes>
+        <keyframe attributeName="d" values="M-100,-100 Q100,100 -100,200 T400,-100 Z;M-100,-100 Q100,-150 -100,-200 T400,-100 Z"/>
+      </keyframes>
+    </animate>
+  </path>
+</svg>

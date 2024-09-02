@@ -1,0 +1,26 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="-100" y="-100" width="300" height="300"
+        fill="#0D47A1" z-index="1"/>
+
+  <!-- Fish School 1 -->
+  <g id="fishSchool1" transform="translate(-70, 90)">
+    <circle cx="5" cy="5" r="2.5" fill="#FFC107"/>
+    <circle cx="15" cy="5" r="2.5" fill="#FFC107"/>
+    <circle cx="5" cy="15" r="2.5" fill="#FFC107"/>
+  </g>
+  <use href="#fishSchool1" transform="translate(0, 20)"/>
+
+  <!-- Fish School 2 -->
+  <use href="#fishSchool1" transform="translate(30, 90)" transform="scale(-1, 1)"/>
+
+  <!-- Nurse Shark 1 -->
+  <path d="M-50 80 Q-30 90 -50 100 Q-70 90 -50 80"
+        fill="#66BB6A" stroke="#4CAF50" stroke-width="2" z-index="3"/>
+
+  <!-- Nurse Shark 2 -->
+  <path d="M50 80 Q30 90 50 100 Q70 90 50 80"
+        fill="#66BB6A" stroke="#4CAF50" stroke-width="2" z-index="3"/>
+
+</svg>

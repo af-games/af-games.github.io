@@ -1,0 +1,20 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100 50 Q140 75, 160 100 Q180 75, 200 50 Q140 25, 100 50" stroke="black" fill="lightgrey"/>
+
+  <!-- Head -->
+  <circle cx="130" cy="100" r="30" stroke="black" fill="lightgrey"/>
+
+  <!-- Legs -->
+  <rect x="80" y="200" width="40" height="100" rx="20" stroke="black" fill="lightgrey"/>
+  <rect x="160" y="200" width="40" height="100" rx="20" stroke="black" fill="lightgrey"/>
+
+  <!-- Tail -->
+  <polygon points="170,250 200,250 185,280 165,280" stroke="black" fill="lightgrey"/>
+
+  <!-- Arms -->
+  <rect x="90" y="140" width="20" height="60" rx="10" stroke="black" fill="lightgrey"/>
+  <rect x="130" y="140" width="20" height="60" rx="10" stroke="black" fill="lightgrey"/>
+
+</svg>

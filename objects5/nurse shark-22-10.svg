@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background grass -->
+  <rect x="0" y="450" width="800" height="150" fill="#9DC17F"/>
+
+  <!-- Sunlight (yellow) -->
+  <circle cx="400" cy="150" r="200" fill="#FFF6AE"/>
+  <circle cx="300" cy="180" r="80" fill="#FFD700"/>
+  <circle cx="500" cy="180" r="80" fill="#FFD700"/>
+
+  <!-- Shade (blue) -->
+  <rect x="650" y="300" width="150" height="350" fill="#ADD8E6"/>
+  <path d="M60,320 Q90,420 180,470" stroke="#ADD8E6" stroke-width="20"/>
+
+  <!-- Roses (circles) -->
+  <circle cx="250" cy="550" r="50" fill="#FFC0CB"/>
+  <circle cx="350" cy="500" r="40" fill="#FFC0CB"/>
+  <circle cx="600" cy="580" r="35" fill="#FFC0CB"/>
+
+  <!-- Daisies (ellipses) -->
+  <ellipse cx="120" cy="400" rx="40" ry="30" fill="#FFFACD"/>
+  <ellipse cx="450" cy="450" rx="50" ry="35" fill="#FFFACD"/>
+
+  <!-- Tulips (paths) -->
+  <path d="M720,580 Q690,610 620,640 L620,580 Z" stroke="#FFDAB9" stroke-width="10" fill="#FFDAB9"/>
+  <path d="M760,530 Q730,560 660,590 L660,530 Z" stroke="#FFDAB9" stroke-width="10" fill="#FFDAB9"/>
+
+</svg>

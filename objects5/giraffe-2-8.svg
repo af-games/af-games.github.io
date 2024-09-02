@@ -1,0 +1,51 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="fill:white; stroke-width: 1px;">
+
+  <!-- Plate -->
+  <ellipse cx="400" cy="300" rx="350" ry="350" fill="#F8E79C"/>
+
+  <!-- Giraffe (star ingredient) -->
+  <g transform="translate(220,150)">
+    <!-- Body -->
+    <path d="M 0,-100 A 100,100 0 0 1 0,300 A 100,100 0 0 1 -200,100 Z" fill="#EFCD5D"/>
+    <!-- Head -->
+    <circle cx="0" cy="-70" r="60" fill="#EFCD5D"/>
+    <!-- Neck -->
+    <path d="M 0,-30 Q -80,-90 0,-120" stroke="#EFCD5D" fill="transparent"/>
+    <!-- Legs -->
+    <g transform="translate(-40,0)">
+      <rect x="-30" y="60" width="60" height="200" rx="30" fill="#EFCD5D"/>
+      <path d="M -30,-100 Q 0,-80 30,-100" stroke="#EFCD5D" fill="transparent"/>
+    </g>
+    <!-- Legs -->
+    <g transform="translate(40,0)">
+      <rect x="-30" y="60" width="60" height="200" rx="30" fill="#EFCD5D"/>
+      <path d="M -30,-100 Q 0,-80 30,-100" stroke="#EFCD5D" fill="transparent"/>
+    </g>
+    <!-- Tail -->
+    <rect x="-20" y="70" width="40" height="200" rx="20" fill="#EFCD5D"/>
+    <!-- Spots -->
+    <circle cx="-60" cy="-130" r="30" fill="#4C381E"/>
+    <circle cx="60" cy="-130" r="30" fill="#4C381E"/>
+  </g>
+
+  <!-- Ingredients -->
+  <!-- Tomatoes -->
+  <circle cx="550" cy="250" r="50" fill="#FF6347"/>
+  <circle cx="650" cy="200" r="40" fill="#FF6347"/>
+  <!-- Lettuce -->
+  <polygon points="700,150 750,180 750,250 700,280" fill="#7DCE59"/>
+  <!-- Cucumber -->
+  <rect x="600" y="320" width="40" height="100" rx="20" fill="#ADEE6F"/>
+  <!-- Carrots -->
+  <polygon points="800,300 850,280 900,300 875,330" fill="#ED6B1C"/>
+  <polygon points="825,340 875,370 925,340" fill="#ED6B1C"/>
+
+  <!-- Utensils & Garnishes -->
+  <!-- Fork -->
+  <path d="M 150,450 L 120,500 L 180,500 Z" stroke="#A97D3F" fill="#F3A56E"/>
+  <!-- Knife -->
+  <path d="M 130,470 Q 150,510 170,470 H 210 V 520 H 130 Z" stroke="#A97D3F" fill="#F3A56E"/>
+  <!-- Napkin -->
+  <rect x="120" y="490" width="80" height="60" rx="30" fill="#FFFFFF"/>
+
+</svg>

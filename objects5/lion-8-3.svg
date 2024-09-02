@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Main features: Lion -->
+  <path id="lion-body" d="M0,-40a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0z"/>
+  <circle cx="5" cy="-20" r="3" fill="#fff" stroke="#000"/> <!-- Eye -->
+  <path d="M-7,-45 l14,0 l0,6 Z" fill="#000"/> <!-- Mouth -->
+
+  <!-- Complex elements: Fur pattern -->
+  <defs>
+    <pattern id="fur" patternUnits="userSpaceOnUse" width="2" height="2">
+      <path d="M0 0 L2 2 M0 2 L2 0" stroke="#8B4513" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <use xlink:href="#lion-body" fill="url(#fur)"/>
+
+  <!-- Coordinates -->
+  <text x="-70" y="-60">(-70,-60)</text>
+  <text x="0" y="30">(0,30)</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg>` tag and outline our process:
+
+```html
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Define color gradients -->
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD6E5"/>
+      <stop offset="100%" stop-color="#FFEFEF"/>
+    </linearGradient>
+    <!-- Add more gradients for hair, eyes, clothing, accent -->
+  </defs>
+
+  <!-- Fairy body -->
+  <path stroke-linecap="round" stroke-width="2"/>
+
+  <!-- Fairy wings -->
+  <path stroke-linecap="round" stroke-width="1.5"/>
+
+  <!-- Fairy hair -->
+  <path stroke-linecap="round" stroke-width="1"/>
+
+  <!-- Fairy face (eyes, mouth) -->
+  <circle cx="0" cy="0" r="0" fill="#331F2B"/>
+
+</svg>

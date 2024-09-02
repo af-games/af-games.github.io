@@ -1,0 +1,38 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Define color gradients -->
+<defs>
+    <linearGradient id="black-white" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="white-black" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+    </linearGradient>
+</defs>
+
+<!-- Body -->
+<rect x="75" y="80" width="10" height="10" fill="url(#black-white)" />
+<!-- ... Repeat body tiles (total 32x46) -->
+
+<!-- Head -->
+<circle cx="160" cy="120" r="15" fill="black" />
+<rect x="155" y="105" width="10" height="10" fill="url(#white-black)" />
+<!-- ... Repeat head tiles (total 4x3) -->
+
+<!-- Wings -->
+<path d="M90,60 Q100,70 120,60" stroke="black" fill="transparent"/>
+<path d="M280,60 Q310,70 340,60" stroke="black" fill="transparent"/>
+<!-- ... Repeat wing tiles (total 5x9 each) -->
+
+<!-- Flippers -->
+<rect x="85" y="340" width="10" height="20" fill="url(#black-white)" />
+<rect x="275" y="340" width="10" height="20" fill="url(#black-white)" />
+<!-- ... Repeat flipper tiles (total 6x1 each) -->
+
+<!-- Eyes -->
+<circle cx="155" cy="95" r="5" fill="white"/>
+<circle cx="165" cy="95" r="5" fill="white"/>
+
+</svg>

@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dolphins -->
+  <g id="dolphins" stroke-width="1" fill="url(#dolphinGradient)">
+    <path d="M40,50 Q90,20 140,50 Q190,80 240,50" />
+    <path d="M360,50 Q410,20 460,50 Q510,80 560,50" />
+    <path d="M720,50 Q770,20 820,50 Q870,80 920,50" />
+  </g>
+
+  <!-- Waves -->
+  <g id="waves" stroke-width="1">
+    <path d="M0,360 Q140,390 280,360 Q420,330 560,360 Q700,390 840,360" fill="url(#waveGradient)" />
+  </g>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="dolphinGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:darkblue;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:lightseagreen;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:mediumblue;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:navy;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+
+  <!-- Perimeter -->
+  <rect x="50" y="50" width="1100" height="700" fill="none" stroke="#ccc"/>
+
+  <!-- Museum entrance (clue: security camera) -->
+  <circle cx="600" cy="350" r="80" fill="#ddd"/>
+  <path d="M620,320 Q640,370 660,320" stroke="#aaa"/>
+
+  <!-- Empty exhibit case (clue: broken glass) -->
+  <rect x="750" y="150" width="200" height="300" fill="#fff"/>
+  <path d="M800,200 Q840,250 880,200 Z" stroke="#f00"/>
+
+  <!-- Lion paw print (clue: leading out) -->
+  <path d="M900,350 Q920,370 940,350" stroke="#aaa"/>
+
+  <!-- Gold bars (clue: missing treasure) -->
+  <rect x="100" y="550" width="80" height="80" fill="#ffdf00"/>
+  <text x="120" y="620">x3</text>
+
+  <!-- Lion (suspect) -->
+  <path d="M700,400 Q750,450 800,400 Z" fill="#ffa500"/>
+  <circle cx="850" cy="450" r="30" fill="#fff"/>
+
+</svg>

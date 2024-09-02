@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Body -->
+  <circle cx="0" cy="0" r="40" fill="#CD7F32" stroke="#9C6618"/>
+
+  <!-- Head -->
+  <rect x="-20" y="-40" width="40" height="40" rx="5" fill="#D4A617"/>
+
+  <!-- Limbs -->
+  <rect x="-10" y="0" width="10" height="30" rx="5" fill="#CD7F32"/>
+  <rect x="0" y="0" width="10" height="30" rx="5" fill="#CD7F32"/>
+
+  <!-- Tail -->
+  <path d="M0 -30 Q-10,-40 0,-50 Q10,-40 0,-30 Z" stroke="none" fill="#CD7F32"/>
+
+  <!-- Eyes -->
+  <circle cx="-8" cy="-30" r="5" fill="black"/>
+  <circle cx="8" cy="-30" r="5" fill="black"/>
+
+</svg>

@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background: Sky -->
+  <rect x="0" y="0" width="800" height="400" fill="#87CEEB" />
+
+  <!-- Horizon Line -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="#D3D3D3" stroke-width="5"/>
+
+  <!-- Savannah Grass: Darker at the bottom, brighter towards the sky -->
+  <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#3D7D52; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#66BB6A; stop-opacity:1" />
+  </linearGradient>
+  <rect x="0" y="400" width="800" height="200" fill="url(#grassGradient)"/>
+
+  <!-- Sun -->
+  <circle cx="750" cy="50" r="50" fill="#FFD700"/>
+
+  <!-- Lion -->
+  <path d="M350,450 Q370,390 420,450 Q380,510 420,560 Q300,510 350,560 Z"
+        fill="#F4A460" stroke="#FFD700" stroke-width="5"/>
+
+</svg>

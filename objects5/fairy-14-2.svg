@@ -1,0 +1,13 @@
+<svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Face -->
+  <circle cx="80" cy="70" r="40" fill="#FFD6E5"/>
+
+  <!-- Hat -->
+  <polygon points="40,60 80,60 60,100" fill="#9B51E0"/>
+
+  <!-- Wings -->
+  <path d="M70,120 Q90,130 70,140 Q50,130 70,120" stroke="#000" fill="none" stroke-width="3"/>
+
+  <!-- Dress -->
+  <path d="M60,140 Q70,180 70,200" stroke="#000" fill="none" stroke-width="3"/>
+</svg>

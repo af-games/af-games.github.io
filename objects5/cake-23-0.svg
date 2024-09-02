@@ -1,0 +1,20 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base -->
+  <rect x="10" y="250" width="180" height="50" fill="#FDD79A" />
+
+  <!-- Cake -->
+  <circle cx="100" cy="175" r="90" fill="#FFF" stroke="#CCC" stroke-width="3"/>
+
+  <!-- Topping -->
+  <polygon points="10,80, 40,60, 120,60, 160,80" fill="#FFF" />
+
+  <!-- Frosting -->
+  <path d="M10,275 Q30,290 100,275 T190,275" stroke="#CCC" fill="transparent"/>
+
+  <!-- Berries -->
+  <circle cx="40" cy="85" r="5" fill="#FF0000"/>
+  <circle cx="130" cy="85" r="5" fill="#FF0000"/>
+  <circle cx="70" cy="60" r="5" fill="#FF0000"/>
+
+</svg>

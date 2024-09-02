@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Major Landmarks -->
+  <path d="M-20,-20 Q0,-40 20,-20" fill="#FFC72C" stroke="black"/> <!-- The Great Tree -->
+  <circle cx="50" cy="-30" r="15" fill="#696969"/><text x="55" y="-32">Owl's Nest</text> <!-- Owl's Nest -->
+  <rect width="80" height="40" x="-40" y="-60" fill="#A5D6A7" stroke="black"/> <!-- The Glade -->
+
+  <!-- Boundaries -->
+  <path d="M-100,0 Q-90,-30 -100,-60" fill="none" stroke="#8B4513"/>
+  <path d="M100,0 Q90,-30 100,-60" fill="none" stroke="#8B4513"/>
+
+  <!-- Roads -->
+  <path d="M-70,-20 Q-50,-40 -70,-60" fill="none" stroke="#D3D3D3"/>
+  <path d="M-20,-40 Q0,-60 20,-40" fill="none" stroke="#D3D3D3"/>
+
+  <!-- Rivers -->
+  <path d="M-50,-60 Q0,-80 50,-60" fill="none" stroke="#6495ED"/>
+
+  <!-- Points of Interest -->
+  <circle cx="-70" cy="-40" r="5" fill="#FF0000"/><text x="-73" y="-42">Mystery Cave</text>
+  <circle cx="70" cy="-60" r="5" fill="#FF0000"/><text x="73" y="-62">Secret Waterfall</text>
+
+  <!-- Legend -->
+  <rect width="80" height="10" x="-90" y="40" fill="#FFC72C"/>
+  <text x="-75" y="45">The Great Tree</text>
+  <circle cx="-60" cy="30" r="5" fill="#696969"/>
+  <text x="-63" y="32.5">Owl's Nest</text>
+  <rect width="80" height="10" x="-90" y="50" fill="#A5D6A7"/>
+  <text x="-75" y="55">The Glade</text>
+</svg>

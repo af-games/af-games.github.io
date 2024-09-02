@@ -1,0 +1,63 @@
+<svg width="800" height="600" style="background-color: lightgreen;" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Plant your seeds:**
+
+Let's start with some basic shapes for the T-Rex's head, body, and legs.
+
+```svg
+  <circle cx="100" cy="150" r="75" fill="saddlebrown"/> <!-- Head -->
+  <rect x="80" y="200" width="140" height="150" fill="darkgreen"/> <!-- Body -->
+  <rect x="60" y="350" width="20" height="100" fill="darkgreen"/> <!-- Left leg -->
+  <rect x="220" y="350" width="20" height="100" fill="darkgreen"/> <!-- Right leg -->
+```
+
+3. **Water and nurture the seeds (apply transforms):**
+
+```svg
+  <g transform="rotate(20 400 300)">
+    <circle cx="100" cy="150" r="75" fill="saddlebrown"/> <!-- Rotate head -->
+  </g>
+  <g transform="translate(-60, -100) rotate(30 200 400)">
+    <rect x="80" y="200" width="140" height="150" fill="darkgreen"/> <!-- Rotate and translate body -->
+  </g>
+  <g transform="translate(-60, -100) rotate(30 60 350)">
+    <rect x="60" y="350" width="20" height="100" fill="darkgreen"/> <!-- Rotate and translate left leg -->
+  </g>
+  <g transform="translate(-60, -100) rotate(30 240 350)">
+    <rect x="220" y="350" width="20" height="100" fill="darkgreen"/> <!-- Rotate and translate right leg -->
+  </g>
+```
+
+4. **Add some details (plant more seeds):**
+
+```svg
+  <circle cx="90" cy="75" r="25" fill="white"/> <!-- Eye left -->
+  <circle cx="160" cy="75" r="25" fill="white"/> <!-- Eye right -->
+  <path d="M80,45 L120,45 Z" stroke="black" fill="transparent"/> <!-- Mouth -->
+```
+
+5. **Prune unnecessary elements:**
+
+Since we're creating a simple SVG and not using any complex shapes or gradients that require additional elements, there's no need for pruning in this case.
+
+6. **Write out the SVG code:**
+
+```svg
+<svg width="800" height="600" style="background-color: lightgreen;" xmlns="http://www.w3.org/2000/svg">
+  <g transform="rotate(20 400 300)">
+    <circle cx="100" cy="150" r="75" fill="saddlebrown"/>
+    <circle cx="90" cy="75" r="25" fill="white"/>
+    <circle cx="160" cy="75" r="25" fill="white"/>
+    <path d="M80,45 L120,45 Z" stroke="black" fill="transparent"/>
+  </g>
+  <g transform="translate(-60, -100) rotate(30 200 400)">
+    <rect x="80" y="200" width="140" height="150" fill="darkgreen"/>
+  </g>
+  <g transform="translate(-60, -100) rotate(30 60 350)">
+    <rect x="60" y="350" width="20" height="100" fill="darkgreen"/>
+  </g>
+  <g transform="translate(-60, -100) rotate(30 240 350)">
+    <rect x="220" y="350" width="20" height="100" fill="darkgreen"/>
+  </g>
+</svg>

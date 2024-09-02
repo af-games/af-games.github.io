@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 150">
+
+  <!-- Bell -->
+  <ellipse cx="150" cy="75" rx="75" ry="125">
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:darkpurple;stop-opacity:1" />
+    </linearGradient>
+  </ellipse>
+
+  <!-- Tentacles -->
+  <path d="M150,75 Q160,20 180,75" stroke="darkpurple"/>
+  <path d="M150,75 Q140,20 130,75" stroke="darkpurple"/>
+  <!-- Repeat for all eight tentacles -->
+
+  <!-- Mouth -->
+  <circle cx="150" cy="175" r="5" fill="white"/>
+
+</svg>

@@ -1,0 +1,25 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <g transform="translate(100, 150)">
+    <rect x="0" y="0" width="150" height="200" fill="green" />
+    <circle cx="75" cy="100" r="30" fill="brown" /> <!-- Tail start -->
+    <path d="M 0,100 Q 75,50 150,100 L 150,200 Z" stroke="brown" fill="green" />
+  </g>
+
+  <!-- Head -->
+  <g transform="translate(200, 70)">
+    <circle cx="75" cy="75" r="75" fill="green" />
+    <path d="M 150,0 A 75,75 0 1,0 0,150" stroke="brown" fill="none" />
+    <circle cx="75" cy="30" r="10" fill="black" /> <!-- Eye -->
+    <circle cx="125" cy="30" r="10" fill="black" /> <!-- Eye -->
+  </g>
+
+  <!-- Legs -->
+  <g transform="translate(175, 300)">
+    <rect x="0" y="0" width="50" height="100" fill="brown" />
+    <rect x="50" y="0" width="50" height="100" fill="brown" />
+    <rect x="100" y="75" width="50" height="50" fill="brown" /> <!-- Hind leg -->
+  </g>
+
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <style>
+    .lion {
+      fill: #ffa500; /* Orange */
+    }
+    .mane {
+      stroke: #fff;
+      stroke-width: 1;
+    }
+  </style>
+
+  <!-- Body -->
+  <path class="lion" d="M300,200 Q375,150 450,200 Q375,250 300,200 Z"/>
+
+  <!-- Head -->
+  <ellipse class="lion" cx="300" cy="150" rx="50" ry="75"/>
+
+  <!-- Mane -->
+  <path class="mane" d="M260,100 Q280,40 320,100 Q360,140 400,100 Z"/>
+</svg>

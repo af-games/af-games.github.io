@@ -1,0 +1,23 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Vase -->
+  <path d="M50,10 A40,40 0 0 1 190,10 Q180,60 140,140 Q100,60 40,10" fill="#FFEBCD" stroke="black"/>
+
+  <!-- Water -->
+  <linearGradient id="water" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:blue; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:white; stop-opacity:1"/>
+  </linearGradient>
+  <rect width="200" height="70" fill="url(#water)" transform="translate(0,230)"/>
+
+  <!-- Balloon flowers -->
+  <circle cx="60" cy="180" r="20" fill="lightblue"/>
+  <path d="M50,160 Q90,140 130,160" stroke="green" fill="transparent"/>
+
+  <circle cx="110" cy="170" r="15" fill="#FF69B4"/>
+  <path d="M100,150 Q140,160 180,150" stroke="green" fill="transparent"/>
+
+  <circle cx="160" cy="160" r="25" fill="#FFFF00"/>
+  <path d="M150,130 Q190,140 230,130" stroke="green" fill="transparent"/>
+
+</svg>

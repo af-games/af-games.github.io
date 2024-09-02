@@ -1,0 +1,101 @@
+<svg width="800px" height="600px" xmlns="http://www.w3.org/2000/svg">
+```
+
+We'll use circles for balloons, varying in sizes for different notes. We'll use the color gradient from light yellow to red to represent the change from a calm start to a climactic peak.
+
+**Measure 1: Introduction**
+
+```svg
+<g id="measure1" style="animation: grow1 4s ease-in forwards;">
+  <circle cx="50" cy="300" r="20" fill="rgb(255,230,0)"/>
+  <circle cx="150" cy="300" r="30" fill="rgb(255,230,0)"/>
+  <circle cx="250" cy="300" r="40" fill="rgb(255,230,0)"/>
+</g>
+```
+
+**Measure 2: Climax**
+
+```svg
+<g id="measure2" style="animation: grow2 4s ease-in forwards; opacity: 0;">
+  <circle cx="350" cy="300" r="50" fill="rgb(255,192,0)"/>
+  <circle cx="450" cy="300" r="60" fill="rgb(255,128,0)"/>
+  <circle cx="550" cy="300" r="70" fill="rgb(255,64,0)"/>
+</g>
+```
+
+**Measure 3: Resolution**
+
+```svg
+<g id="measure3" style="animation: shrink 4s ease-out forwards; opacity: 0;">
+  <circle cx="650" cy="300" r="80" fill="rgb(255,192,0)"/>
+</g>
+```
+
+Now let's define the animations for each measure:
+
+```svg
+<style>
+@keyframes grow1 {
+  from { transform: scale(0); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes grow2 {
+  from { transform: scale(0); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes shrink {
+  from { transform: scale(1); opacity: 1; }
+  to { transform: scale(0.5); opacity: 0; }
+}
+</style>
+```
+
+Finally, let's make sure the measures appear one after another by setting delays:
+
+```svg
+<animate id="measure1Appear" attributeName="opacity" from="0" to="1" begin="0s" dur="4s"/>
+<animate id="measure2Appear" attributeName="opacity" from="0" to="1" begin="measure1Appear.end+1s" dur="4s"/>
+<animate id="measure3Appear" attributeName="opacity" from="0" to="1" begin="measure2Appear.end+1s" dur="4s"/>
+```
+
+Putting it all together:
+
+```svg
+<svg width="800px" height="600px" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes grow1 {
+  from { transform: scale(0); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes grow2 {
+  from { transform: scale(0); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes shrink {
+  from { transform: scale(1); opacity: 1; }
+  to { transform: scale(0.5); opacity: 0; }
+}
+</style>
+<g id="measure1">
+  <circle cx="50" cy="300" r="20" fill="rgb(255,230,0)"/>
+  <circle cx="150" cy="300" r="30" fill="rgb(255,230,0)"/>
+  <circle cx="250" cy="300" r="40" fill="rgb(255,230,0)"/>
+</g>
+<animate id="measure1Appear" attributeName="opacity" from="0" to="1" begin="0s" dur="4s"/>
+
+<g id="measure2">
+  <circle cx="350" cy="300" r="50" fill="rgb(255,192,0)"/>
+  <circle cx="450" cy="300" r="60" fill="rgb(255,128,0)"/>
+  <circle cx="550" cy="300" r="70" fill="rgb(255,64,0)"/>
+</g>
+<animate id="measure2Appear" attributeName="opacity" from="0" to="1" begin="measure1Appear.end+1s" dur="4s"/>
+
+<g id="measure3">
+  <circle cx="650" cy="300" r="80" fill="rgb(255,192,0)"/>
+</g>
+<animate id="measure3Appear" attributeName="opacity" from="0" to="1" begin="measure2Appear.end+1s" dur="4s"/>
+</svg>

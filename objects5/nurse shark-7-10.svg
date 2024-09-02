@@ -1,0 +1,26 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E8D7B5" />
+
+  <!-- Sunlight (Light Yellow) -->
+  <circle cx="300" cy="150" r="100" fill="#FFF59D" />
+  <circle cx="450" cy="250" r="70" fill="#FFF59D" />
+
+  <!-- Shade (Light Green) -->
+  <path d="M60,300 Q150,250 300,300 T500,300" stroke="#B2DF8A" stroke-width="2" fill="none" />
+  <rect x="400" y="350" width="100%" height="50%" fill="#B2DF8A" />
+
+  <!-- Roses (Circles) -->
+  <circle cx="150" cy="100" r="40" fill="#FF69B4" />
+  <circle cx="350" cy="200" r="30" fill="#FF69B4" />
+
+  <!-- Daisies (Ellipses) -->
+  <ellipse cx="250" cy="180" rx="35" ry="40" fill="#FFFACD" />
+  <ellipse cx="500" cy="320" rx="25" ry="30" fill="#FFFACD" />
+
+  <!-- Tulips (Paths) -->
+  <path d="M180,200 Q200,250 220,200 L200,170 Z" fill="#FFD700" />
+  <path d="M430,350 Q450,380 470,350 L450,320 Z" fill="#FFD700" />
+
+</svg>

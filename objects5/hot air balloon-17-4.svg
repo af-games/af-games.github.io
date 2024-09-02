@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hot Air Balloon -->
+  <circle cx="400" cy="150" r="70" fill="#FFBF00"/>
+  <polygon points="380,150 420,150 400,250" fill="#FFBF00"/>
+  <path d="M400,250 L360,350 L440,350 Z" fill="#FFBF00"/>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="600" fill="#A9E6FF"/>
+  <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#A9E6FF; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#FFFFFF; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Hills -->
+  <path d="M100,450 Q250,350 400,450 Q550,350 700,450" stroke="#6B4F29" fill="url(#hillGrad)"/>
+  <linearGradient id="hillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#7C5D34; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#6B4F29; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Trees -->
+  <path d="M150,480 L160,470 L130,470 Z" fill="#3D9970"/>
+  <path d="M250,480 L260,470 L230,470 Z" fill="#3D9970"/>
+  <path d="M350,480 L360,470 L330,470 Z" fill="#3D9970"/>
+  <path d="M450,480 L460,470 L430,470 Z" fill="#3D9970"/>
+  <path d="M550,480 L560,470 L530,470 Z" fill="#3D9970"/>
+
+  <!-- River -->
+  <path d="M100,400 Q200,350 300,400 Q400,350 500,400 Q600,350 700,400" stroke="#3D9970" fill="none" stroke-width="10"/>
+</svg>

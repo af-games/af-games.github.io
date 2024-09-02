@@ -1,0 +1,27 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <ellipse cx="0" cy="100" rx="200" ry="150" fill="#D3D3D3"/>
+
+  <!-- Body -->
+  <ellipse cx="50" cy="100" rx="400" ry="250" fill="#A9A9A9"/>
+  <path d="M550,275 Q600,225 650,275" stroke="black" fill="transparent"/>
+
+  <!-- Fins -->
+  <polyline points="-50,175 -50,200 50,200 50,175" stroke="#A9A9A9" fill="#A9A9A9"/>
+  <polyline points="300,150 400,175 400,150" stroke="#A9A9A9" fill="#A9A9A9"/>
+
+  <!-- Left Pelvic Fin -->
+  <polyline points="-50,225 -100,275 -50,225" stroke="#A9A9A9" fill="#A9A9A9"/>
+
+  <!-- Right Pelvic Fin -->
+  <polyline points="300,225 400,275 300,225" stroke="#A9A9A9" fill="#A9A9A9"/>
+
+  <!-- Caudal Fin -->
+  <polyline points="350,225 400,275 350,225" stroke="#A9A9A9" fill="#A9A9A9"/>
+
+  <!-- Eye -->
+  <circle cx="-30" cy="80" r="15" fill="#000"/>
+  <circle cx="-25" cy="75" r="5" fill="#FFF"/>
+
+</svg>

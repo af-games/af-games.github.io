@@ -1,0 +1,18 @@
+<svg width="100" height="80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="50%" cy="60%" r="30" fill="brown"/>
+
+  <!-- Ears -->
+  <ellipse cx="-15%" cy="30%" rx="8" ry="20" fill="tan"/>
+  <ellipse cx="15%" cy="30%" rx="8" ry="20" fill="tan"/>
+
+  <!-- Pouch -->
+  <polygon points="-10,-40 10,-40 0,-60" fill="tan"/>
+
+  <!-- Eyes -->
+  <circle cx="-10%" cy="5%" r="3" fill="black"/>
+  <circle cx="10%" cy="5%" r="3" fill="black"/>
+
+  <!-- Nose -->
+  <circle cx="0%" cy="8%" r="2" fill="black"/>
+</svg>

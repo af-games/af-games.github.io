@@ -1,0 +1,37 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle id="body" cx="150" cy="300" r="80" fill="tan"/>
+
+  <!-- Head -->
+  <circle id="head" cx="150" cy="220" r="60" fill="tan"/>
+  <path id="string_head" d="M150,220 Q75,150 150,75"/>
+
+  <!-- Arms -->
+  <circle id="arm_left" cx="80" cy="320" r="40" fill="tan"/>
+  <path id="string_arm_left" d="M80,320 Q100,360 150,320"/>
+  <circle id="arm_right" cx="220" cy="320" r="40" fill="tan"/>
+  <path id="string_arm_right" d="M220,320 Q200,360 150,320"/>
+
+  <!-- Legs -->
+  <circle id="leg_left" cx="80" cy="420" r="40" fill="tan"/>
+  <path id="string_leg_left" d="M80,420 Q75,460 150,420"/>
+  <circle id="leg_right" cx="220" cy="420" r="40" fill="tan"/>
+  <path id="string_leg_right" d="M220,420 Q210,460 150,420"/>
+
+  <!-- Manipulate joints -->
+  <script>
+    const head = document.getElementById('head');
+    const arm_left = document.getElementById('arm_left');
+    const arm_right = document.getElementById('arm_right');
+    const leg_left = document.getElementById('leg_left');
+    const leg_right = document.getElementById('leg_right');
+
+    function moveJoint(joint, x, y) {
+      joint.setAttribute('cx', `${x}`);
+      joint.setAttribute('cy', `${y}`);
+    }
+
+    // Example: Raise the left arm
+    moveJoint(arm_left, 100, 250);
+  </script>
+</svg>

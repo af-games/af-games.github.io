@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+
+  <!-- Quilt Border -->
+  <rect x="10" y="10" width="180" height="180" fill="#704214" stroke="#3f1a06" stroke-width="5"/>
+
+  <!-- Top Left Square -->
+  <rect x="20" y="20" width="90" height="90" fill="#ffcba5"/>
+
+  <!-- Bottom Right Square -->
+  <rect x="110" y="110" width="80" height="80" fill="#e4dcc6"/>
+
+  <!-- Diagonal Stitches -->
+  <path d="M20,20 Q70,90 150,20 Q180,110 110,180" stroke="#3f1a06" fill="transparent" stroke-width="5"/>
+
+</svg>

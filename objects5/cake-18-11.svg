@@ -1,0 +1,19 @@
+<svg>` tag:
+
+```xml
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Body -->
+  <rect x="40" y="20" width="120" height="180" fill="#FFD700" stroke="#CC9900" stroke-width="5"/>
+
+  <!-- Cake Top (Golden Brown) -->
+  <path d="M60,20 Q90,10 130,20 Q90,30 60,30 Z" fill="#CD7F32" stroke="#8B4D13" stroke-width="5"/>
+
+  <!-- Cake Topping (Icing) -->
+  <path d="M65,50 Q85,70 115,70 Q95,90 65,90 Q45,70 15,70 Z" fill="#FFFFFF" stroke="#C3C3C3" stroke-width="2"/>
+
+  <!-- Cake Decoration (Frosting) -->
+  <path d="M70,80 A20,20 0 1 0 90,60 A20,20 0 1 0 70,40 Z" fill="#FFD700" stroke="#CC9900" stroke-width="3"/>
+
+  <!-- Cake Base (Brown) -->
+  <rect x="50" y="200" width="100" height="20" fill="#654321" stroke="#4A2D2A" stroke-width="5"/>
+</svg>

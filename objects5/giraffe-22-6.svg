@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 250">
+  <style>
+    .giraffe-fur { fill: url(#giraffe-fur-grad); }
+  </style>
+
+  <defs>
+    <linearGradient id="giraffe-fur-grad" gradientTransform="rotate(45)">
+      <stop offset="0%"   stop-color="#FDD98E"/>
+      <stop offset="50%"  stop-color="#CFA27D"/>
+      <stop offset="100%" stop-color="#A56B3C"/>
+    </linearGradient>
+  </defs>
+
+  <path class="giraffe-fur" d="M90,5 C80,25 120,25 140,5 H180 V250 H0 V5 Z"/>
+
+</svg>

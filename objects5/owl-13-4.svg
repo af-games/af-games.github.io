@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Boundaries -->
+  <path d="M10 10 Q50 10, 90 10 Q130 40, 170 10 H780 V590 H10 Z" fill="#D6EAF5" stroke="#003049"/>
+
+  <!-- Major Landmarks -->
+  <circle cx="200" cy="120" r="50" fill="#FFC300"/>
+  <text x="185" y="125" font-family="Verdana" font-size="12">Owl's Nest</text>
+
+  <rect width="60" height="80" x="450" y="180" fill="#FFC300"/>
+  <text x="475" y="210" font-family="Verdana" font-size="12">Mystic Cavern</text>
+
+  <!-- Rivers -->
+  <path d="M30 300 Q60 250, 120 300 Q180 350, 240 300 Q300 250, 360 300" stroke="#7BC8F6" fill="transparent"/>
+
+  <!-- Roads -->
+  <path d="M10 450 Q60 400, 120 450 Q180 500, 240 450 Q300 400, 360 450" stroke="#FFF1E6" fill="transparent"/>
+
+  <!-- Points of Interest -->
+  <circle cx="500" cy="250" r="30" fill="#FF8C00"/>
+  <text x="490" y="255" font-family="Verdana" font-size="12">Ancient Ruins</text>
+
+  <!-- Legend -->
+  <g transform="translate(650, 50)">
+    <circle cx="0" cy="0" r="8" fill="#FFC300"/>
+    <text x="15" y="4" font-family="Verdana" font-size="12">Major Landmarks</text>
+  </g>
+
+  <!-- Rivers -->
+  <g transform="translate(650, 30)">
+    <path d="M-8 0 Q0 -8, 8 0" stroke="#7BC8F6"/>
+    <text x="15" y="4" font-family="Verdana" font-size="12">Rivers</text>
+  </g>
+
+  <!-- Roads -->
+  <g transform="translate(650, -30)">
+    <path d="M-8 0 Q0 -8, 8 0" stroke="#FFF1E6"/>
+    <text x="15" y="4" font-family="Verdana" font-size="12">Roads</text>
+  </g>
+
+</svg>

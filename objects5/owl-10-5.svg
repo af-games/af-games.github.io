@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <!-- Owl Body -->
+  <path d="M25,10 a15,15 0 1,0 0,30 a15,15 0 1,0 0,-30" fill="#4D90FF"/>
+  <path d="M25,10 Q27.5,18 30,25 Q22.5,32 25,35 a5,5 0 1,0 0,-10" fill="#4D90FF"/>
+
+  <!-- Owl Eyes -->
+  <circle cx="20" cy="22" r="3" fill="#111"/>
+  <circle cx="30" cy="22" r="3" fill="#111"/>
+
+  <!-- Feathers Accent -->
+  <path d="M5,20 Q15,27.5 25,20 Q15,12.5 5,20" fill="#FFF"/>
+  <path d="M45,20 Q35,27.5 25,20 Q35,12.5 45,20" fill="#FFF"/>
+
+  <!-- Outline and Details -->
+  <path d="M5,20 H45 L35,15 L25,10 Z" stroke="#FFD700" stroke-width="1"/>
+</svg>

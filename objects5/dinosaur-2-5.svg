@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dinosaurs -->
+  <circle cx="100" cy="500" r="40" fill="green" id="dino1" transform="rotate(30, 100, 500)">
+    <animateMotion begin="0s" dur="1s" repeatCount="indefinite">
+      <mpath href="#path1"/>
+    </animateMotion>
+  </circle>
+
+  <circle cx="200" cy="450" r="30" fill="blue" id="dino2" transform="rotate(60, 200, 450)">
+    <animateMotion begin="0s" dur="1s" repeatCount="indefinite">
+      <mpath href="#path2"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Footsteps -->
+  <rect x="0" y="550" width="800" height="50" fill="brown">
+    <animate attributeName="y" from="550" to="600" begin="0s" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Music Notes (Paths) -->
+  <path id="path1" d="M100,400 Q200,300 300,400 T500,500">
+    <animate attributeName="d" begin="0s" dur="1s" repeatCount="indefinite">
+      M100,400 Q200,300 300,400 T500,500
+    </animate>
+  </path>
+
+  <path id="path2" d="M200,350 Q300,250 400,350 T600,450">
+    <animate attributeName="d" begin="0s" dur="1s" repeatCount="indefinite">
+      M200,350 Q300,250 400,350 T600,450
+    </animate>
+  </path>
+
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Body -->
+  <circle id="body" cx="250" cy="300" r="150">
+    <animate attributeName="cx" from="-100" to="250" dur="2s" repeatCount="1"/>
+    <animate attributeName="cy" from="-100" to="300" dur="2s" repeatCount="1"/>
+  </circle>
+
+  <!-- Ear Left -->
+  <ellipse id="earLeft" cx="200" cy="50" rx="40" ry="80">
+    <animate attributeName="cy" from="-150" to="50" dur="2s" repeatCount="1"/>
+    <animate attributeName="cx" from="-100" to="200" dur="2s" repeatCount="1"/>
+  </ellipse>
+
+  <!-- Ear Right -->
+  <ellipse id="earRight" cx="300" cy="50" rx="40" ry="80">
+    <animate attributeName="cy" from="-150" to="50" dur="2s" repeatCount="1"/>
+    <animate attributeName="cx" from="400" to="300" dur="2s" repeatCount="1"/>
+  </ellipse>
+
+  <!-- Paw Left -->
+  <rect id="pawLeft" x="180" y="350" width="50" height="70">
+    <animate attributeName="y" from="400" to="350" dur="2s" repeatCount="1"/>
+    <animate attributeName="x" from="-50" to="180" dur="2s" repeatCount="1"/>
+  </rect>
+
+  <!-- Paw Right -->
+  <rect id="pawRight" x="320" y="350" width="50" height="70">
+    <animate attributeName="y" from="400" to="350" dur="2s" repeatCount="1"/>
+    <animate attributeName="x" from="450" to="320" dur="2s" repeatCount="1"/>
+  </rect>
+
+</svg>

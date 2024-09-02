@@ -1,0 +1,17 @@
+<svg viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Central body -->
+  <circle cx="0" cy="0" r="50" fill="lightblue"/>
+
+  <!-- Tentacles -->
+  <?xml version="1.0" encoding="UTF-8"?>
+  <xsl:stylesheet version="1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">
+
+  <xsl:for-each select="//tentacle">
+    <path d="M0,0 A50,50 0 0 1 {x},{y} Z"
+      transform="rotate({angle}, 0, 0)" fill="none" stroke="black"/>
+  </xsl:for-each>
+
+</svg>

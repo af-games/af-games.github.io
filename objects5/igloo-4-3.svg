@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     viewBox="-400 -400 800 800" preserveAspectRatio="xMidYMid meet">
+
+  <!-- Igloo -->
+  <circle cx="0" cy="0" r="200" fill="white"/>
+
+  <!-- Entrance -->
+  <rect x="-5" y="150" width="10" height="50" fill="lightgrey"/>
+
+  <!-- Snow Chimney -->
+  <circle cx="0" cy="-80" r="60" fill="lightblue"/>
+
+  <!-- Support Towers -->
+  <rect x="-250" y="175" width="30" height="150" fill="white"/>
+  <rect x="250" y="175" width="30" height="150" fill="white"/>
+
+  <!-- Road -->
+  <path d="M-400 -200 Q-200 -300 0 -200 Q200 -300 400 -200"
+        stroke="darkgrey" fill="transparent" stroke-width="10"/>
+
+</svg>

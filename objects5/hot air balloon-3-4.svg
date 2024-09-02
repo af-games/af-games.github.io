@@ -1,0 +1,29 @@
+<svg width="100%" height="100%" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hot Air Balloon -->
+  <g id="hot-air-balloon">
+    <circle cx="400" cy="50" r="150" fill="#FFA500"/>
+    <path d="M400 50 Q375 25, 400 0 Q425 25, 400 50" stroke="#FFB973" fill="transparent"/>
+    <rect x="380" y="175" width="40" height="200" rx="20" fill="#FFA500"/>
+    <path d="M380 400 Q420 380, 440 400 Q460 380, 480 400" stroke="#FFB973" fill="transparent"/>
+    <circle cx="460" cy="525" r="25" fill="#FFA500"/>
+  </g>
+
+  <!-- Rolling Hills -->
+  <path id="hill-1" d="M20,200 Q200,300 Q780,200 Q800,100 Q600,0 Z" fill="#8DC63C"/>
+  <use xlink:href="#hill-1" y="500"/>
+
+  <!-- Winding River -->
+  <path id="river" d="M40,520 Q200,480 Q780,520 Z" fill="#A9E6FF"/>
+  <use xlink:href="#river" transform="translate(0,-10)"/>
+
+  <!-- Towering Trees -->
+  <g id="tree">
+    <circle cx="30" cy="500" r="40" fill="#8DC63C"/>
+    <path d="M30,520 Q70,580 Q30,640 Z" stroke="#8DC63C" fill="transparent"/>
+  </g>
+  <use xlink:href="#tree" transform="translate(100,0)" scale="1.2"/>
+  <use xlink:href="#tree" transform="translate(250,0)"/>
+  <use xlink:href="#tree" transform="translate(450,-30)"/>
+
+</svg>

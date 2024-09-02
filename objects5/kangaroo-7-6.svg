@@ -1,0 +1,17 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#98FB98"/>
+
+  <!-- Kangaroo Body -->
+  <ellipse cx="250" cy="300" rx="150" ry="200" fill="#FFA500"/>
+
+  <!-- Kangaroo Pouch -->
+  <polygon points="240,270 260,270 250,240" fill="#FFFACD"/>
+
+  <!-- Kangaroo Tail -->
+  <path d="M250,350 Q300,400 250,450" stroke="#ADD8E6" fill="transparent"/>
+
+  <!-- Kangaroo Feet -->
+  <circle cx="190" cy="550" r="30" fill="#ADD8E6"/>
+  <circle cx="310" cy="550" r="30" fill="#ADD8E6"/>
+</svg>

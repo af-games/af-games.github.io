@@ -1,0 +1,17 @@
+<svg width="200" height="200">
+  <!-- Body -->
+  <circle cx="100" cy="80" r="70"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="50" r="30"/>
+
+  <!-- Pouch -->
+  <polygon points="80,90 120,90 100,120"/>
+
+  <!-- Limbs -->
+  <rect x="60" y="140" width="30" height="70"/>
+  <rect x="120" y="140" width="30" height="70"/>
+
+  <!-- Tail -->
+  <ellipse cx="150" cy="80" rx="30" ry="15"/>
+</svg>

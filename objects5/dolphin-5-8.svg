@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphins -->
+  <path d="M150,400 Q200,350 250,400 Q300,450 350,400 Q400,350 450,400" stroke="#ADD8E6" fill="#ADD8E6"/>
+  <path d="M150,420 Q200,470 250,420 Q300,470 350,420 Q400,470 450,420" stroke="#ADD8E6" fill="none"/>
+  <path d="M150,380 Q200,330 250,380 Q300,330 350,380 Q400,330 450,380" stroke="#ADD8E6" fill="none"/>
+
+  <!-- Waves -->
+  <path d="M100,520 Q200,570 300,520 Q400,570 500,520 Q600,570 700,520" stroke="#0095B7" fill="none"/>
+  <path d="M100,500 Q200,530 300,500 Q400,530 500,500 Q600,530 700,500" stroke="#3D9970" fill="none"/>
+
+  <!-- Bubbles -->
+  <circle cx="120" cy="480" r="10" stroke="#FFFF99" fill="#FFFF99"/>
+  <circle cx="220" cy="460" r="8" stroke="#FFFF99" fill="#FFFF99"/>
+  <circle cx="350" cy="470" r="12" stroke="#FFFF99" fill="#FFFF99"/>
+
+  <!-- Dolphin movement -->
+  <path d="M150,400 Q200,380 250,400 Q300,420 350,400 Q400,380 450,400" stroke="#ADD8E6" fill="none"/>
+
+  <!-- Water flow -->
+  <path d="M100,520 Q200,540 300,520 Q400,540 500,520 Q600,540 700,520" stroke="#0095B7" fill="none"/>
+
+  <!-- Bubble trails -->
+  <path d="M120,480 Q135,490 150,480" stroke-dasharray="5,2" stroke="#FFFF99"/>
+  <path d="M220,460 Q235,470 250,460" stroke-dasharray="5,2" stroke="#FFFF99"/>
+  <path d="M350,470 Q365,480 380,470" stroke-dasharray="5,2" stroke="#FFFF99"/>
+
+</svg>

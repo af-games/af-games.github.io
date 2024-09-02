@@ -1,0 +1,45 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy body -->
+  <path id="fairy-body"
+        d="M175,25 A150,150 0 1,1 325,160 Q340,270 280,350 Q200,320 175,25"
+        fill="#FFD700" stroke="black"/>
+
+  <!-- Fairy wings -->
+  <path id="fairy-wing-left"
+        d="M60,10 C90,40 180,120 140,190 C100,150 50,70 60,10"
+        fill="#FFB6C1" stroke="black"/>
+  <path id="fairy-wing-right"
+        d="M340,10 C310,40 220,120 260,190 C300,150 350,70 340,10"/>
+
+  <!-- Fairy hair -->
+  <g id="fairy-hair">
+    <path d="M200,75 Q180,50 200,25"/>
+    <path d="M200,90 Q160,60 200,35"/>
+    <path d="M240,75 Q260,50 240,25"/>
+    <path d="M240,90 Q280,60 240,35"/>
+  </g>
+  <rect x="180" y="45" width="80" height="5" fill="#FFD700"/>
+
+  <!-- Fairy face -->
+  <circle cx="200" cy="100" r="30" fill="#FFFACD"/>
+  <circle cx="185" cy="90" r="5" fill="black"/>
+  <circle cx="215" cy="90" r="5" fill="black"/>
+
+  <!-- Fairy dress -->
+  <path id="fairy-dress"
+        d="M175,160 Q180,180 175,200 Q170,180 175,160"
+        fill="#FFFFFF" stroke="black"/>
+  <rect x="140" y="230" width="220" height="80" rx="20" fill="#FFC0CB"/>
+
+  <!-- Gemstones -->
+  <!-- Top: Ruby (#FF0000) -->
+  <circle cx="250" cy="50" r="15" fill="#FF0000"/>
+  <!-- Necklace: Sapphire (#0000FF) -->
+  <circle cx="200" cy="175" r="8" fill="#0000FF"/>
+  <circle cx="230" cy="175" r="8" fill="#0000FF"/>
+  <!-- Belt: Emerald (#008000) -->
+  <circle cx="200" cy="350" r="8" fill="#008000"/>
+  <circle cx="240" cy="350" r="8" fill="#008000"/>
+
+</svg>

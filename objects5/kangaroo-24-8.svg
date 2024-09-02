@@ -1,0 +1,20 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="180" rx="90" ry="75" fill="#FFC300"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="140" rx="45" ry="40" fill="#FFC300"/>
+
+  <!-- Ears (Triangles) -->
+  <polygon points="80,90 120,90 100,70" fill="#FFC300"/>
+  <polygon points="125,90 165,90 145,70" fill="#FFC300"/>
+
+  <!-- Legs -->
+  <rect x="80" y="220" width="40" height="80" rx="20" ry="20" fill="#FFC300"/>
+  <rect x="140" y="220" width="40" height="80" rx="20" ry="20" fill="#FFC300"/>
+
+  <!-- Tail -->
+  <rect x="70" y="250" width="60" height="60" rx="30" ry="30" fill="#FFC300"/>
+
+</svg>

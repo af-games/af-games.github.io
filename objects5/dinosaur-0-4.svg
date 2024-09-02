@@ -1,0 +1,36 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <g id="body">
+    <rect x="150" y="200" width="400" height="300" fill="green" stroke="black"/>
+  </g>
+
+  <!-- Head -->
+  <g id="head" transform="translate(200, 70) rotate(-5)">
+    <path d="M0,-100 A80,80 0 0 0 60,-30 Z" fill="green" stroke="black"/>
+  </g>
+
+  <!-- Arms -->
+  <g id="arms">
+    <rect x="120" y="150" width="30" height="150" fill="green" stroke="black"/>
+    <rect x="350" y="150" width="30" height="150" fill="green" stroke="black"/>
+  </g>
+
+  <!-- Legs -->
+  <g id="legs">
+    <rect x="70" y="400" width="80" height="200" fill="green" stroke="black"/>
+    <rect x="350" y="400" width="80" height="200" fill="green" stroke="black"/>
+  </g>
+
+  <!-- Tail -->
+  <g id="tail">
+    <path d="M650,400 Q700,550 750,400 Q800,350 850,400" fill="green" stroke="black"/>
+  </g>
+
+  <!-- Eyes -->
+  <g id="eyes">
+    <circle cx="180" cy="120" r="30" fill="yellow"/>
+    <circle cx="320" cy="120" r="30" fill="yellow"/>
+  </g>
+
+</svg>

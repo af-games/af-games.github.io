@@ -1,0 +1,32 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mermaid outline -->
+  <path d="M100,5 Q120,70 140,90 Q160,70 180,5 Q160,0 140,20 Q120,0 100,5..." fill="none" stroke="#000"/>
+
+  <!-- Skin shading -->
+  <path d="M100,5 Q120,70 140,90 Q160,70 180,5 Q160,0 140,20 Q120,0 100,5..." fill="url(#skinGradient)"/>
+  <defs>
+    <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D9D9D9; stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#A6A6A6; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#707070; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Hair shading -->
+  <path d="M80,30 Q95,20 110,35 Q125,20 140,30..." fill="url(#hairGradient)"/>
+  <defs>
+    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <!-- Add hair gradient colors here -->
+    </linearGradient>
+  </defs>
+
+  <!-- Tail shading -->
+  <path d="M140,90 Q160,70 180,5..." fill="url(#tailGradient)"/>
+  <defs>
+    <linearGradient id="tailGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <!-- Add tail gradient colors here -->
+    </linearGradient>
+  </defs>
+
+</svg>

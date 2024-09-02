@@ -1,0 +1,20 @@
+<svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="40" y="60" width="180" height="140" fill="#ffcc00" stroke="black"/>
+  <!-- Head -->
+  <polygon points="20,50,70,30,120,50,20,70" fill="#ffcc00" stroke="black"/>
+  <!-- Mane -->
+  <path d="M40,50 Q80,30 130,50 T180,60 T130,70 Q80,90 40,70 Z" fill="orange" stroke="black"/>
+  <!-- Legs -->
+  <rect x="40" y="200" width="20" height="60" fill="#ffcc00" stroke="black"/>
+  <rect x="140" y="200" width="20" height="60" fill="#ffcc00" stroke="black"/>
+  <!-- Tail -->
+  <polyline points="180,70 210,90 230,70" fill="none" stroke="black"/>
+
+  <!-- Eyes -->
+  <circle cx="50" cy="40" r="10" fill="black"/>
+  <circle cx="110" cy="40" r="10" fill="black"/>
+
+  <!-- Nose -->
+  <polygon points="60,70 90,70 75,85" fill="black"/>
+</svg>

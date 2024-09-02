@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Create the cake -->
+  <rect x="100" y="50" width="300" height="300" fill="#FCD78C">
+    <animate attributeName="fill-opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Create the candles -->
+  <circle cx="150" cy="300" r="15" fill="#FFD700">
+    <animate attributeName="cy" values="300;350;300" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="300" r="15" fill="#FFD700">
+    <animate attributeName="cy" values="300;350;300" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="250" cy="300" r="15" fill="#FFD700">
+    <animate attributeName="cy" values="300;350;300" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+</svg>

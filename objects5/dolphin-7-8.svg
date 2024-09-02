@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphins -->
+  <path d="M...Z" fill="url(#dolphinGradient)"/>
+  <line x1="..." y1="..." x2="..." y2="..." stroke-width="3"/>
+
+  <!-- Moon -->
+  <path d="M100 50A75 75 0 1 0 300 50A75 75 0 0 0 100 50Z" fill="orangeyellow"/>
+  <line x1="..." y1="..." x2="..." y2="..." stroke-width="5" opacity="0.8"/>
+
+  <!-- Ocean Waves -->
+  <path d="M...Q...Q...Z" fill="url(#waveGradient)" repeat for each wave />
+
+  <!-- Gradients -->
+  <linearGradient id="dolphinGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#003d66"/>
+    <stop offset="100%" stop-color="#b3e0ff"/>
+  </linearGradient>
+  <linearGradient id="waveGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#001f3f"/>
+    <stop offset="100%" stop-color="#4db5e8"/>
+  </linearGradient>
+
+</svg>

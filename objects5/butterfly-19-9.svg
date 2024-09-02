@@ -1,0 +1,26 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="70" cy="60" rx="45" ry="80" fill="#FFC300">
+    <!-- Coordinates: (70, 60) - Center, (45, 80) - Radii -->
+  </ellipse>
+
+  <!-- Left Wing -->
+  <path d="M20 10 Q50 0, 90 20" fill="#FFD700">
+    <!-- Coordinates: (20, 10), (50, 0), (90, 20) - Control Points -->
+    <animate attributeName="d"
+             values="M20 10 Q50 0, 90 20; M20 30 Q60 40, 80 20"
+             dur="1s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Right Wing -->
+  <use href="#left-wing" transform="scale(-1, 1) translate(-190, 0)" fill="#FFD700"/>
+
+  <!-- Head and Antennae -->
+  <circle cx="65" cy="40" r="10" fill="#FFFFFF"/>
+  <polygon points="55,35 65,25 75,35" fill="#32CD32">
+
+    <!-- Coordinates: (55, 35), (65, 25), (75, 35) -->
+  </polygon>
+
+</svg>

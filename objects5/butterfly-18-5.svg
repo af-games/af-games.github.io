@@ -1,0 +1,49 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="60" rx="50" ry="70" fill="#FFC300">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 100 100"
+      to="360 100 100"
+      begin="0s"
+      dur="5s"
+      repeatCount="indefinite" />
+  </ellipse>
+
+  <!-- Wings -->
+  <path d="M70,20 Q90,40 120,20 Q140,60 160,20 Z" fill="#FFC300">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 100 80"
+      to="180 100 80"
+      begin="0s"
+      dur="5s"
+      repeatCount="indefinite" />
+    <path d="M70,20 Q90,40 120,20 Q140,60 160,20 Z" fill="#FFC300">
+  </animateTransform>
+</path>
+
+<!-- Antennae -->
+<line x1="85" y1="5" x2="95" y2="5" stroke="#3D9970" />
+<line x1="115" y1="5" x2="105" y2="5" stroke="#3D9970" />
+
+<!-- Face -->
+<circle cx="80" cy="40" r="10" fill="#FFF" />
+<path d="M70,60 Q90,60 80,70 Z" stroke="#3D9970" fill="transparent" />
+
+<!-- Legs -->
+<line x1="95" y1="90" x2="95" y2="110" stroke="#3D9970" />
+<line x1="105" y1="90" x2="105" y2="110" stroke="#3D9970" />
+
+<!-- Eyes -->
+<circle cx="85" cy="45" r="5" fill="#3D9970">
+  <animate attributeName="cy" from="45" to="55" begin="0s" dur="2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="95" cy="45" r="5" fill="#3D9970">
+  <animate attributeName="cy" from="45" to="55" begin="1s" dur="2s" repeatCount="indefinite"/>
+</circle>
+
+</svg>

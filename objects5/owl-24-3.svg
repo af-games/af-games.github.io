@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stage -->
+  <rect x="50" y="400" width="700" height="100" fill="#9B7F5C" />
+  <rect x="0" y="0" width="800" height="600" fill="#ADD8E6" />
+
+  <!-- Owl Marionette -->
+  <g id="owl">
+    <!-- Head -->
+    <circle cx="150" cy="200" r="30" fill="white" />
+    <line x1="CP1_x" y1="CP1_y" x2="AP1_x" y2="AP1_y" stroke="black" />
+
+    <!-- Body -->
+    <rect x="120" y="220" width="40" height="60" fill="brown" />
+    <line x1="CP2_x" y1="CP2_y" x2="AP2_x" y2="AP2_y" stroke="black" />
+
+    <!-- Wings -->
+    <polygon points="W1_L_x W1_L_y W2_L_x W2_L_y CP3_L_x CP3_L_y W1_R_x W1_R_y W2_R_x W2_R_y" fill="brown" />
+    <line x1="CP3_L_x" y1="CP3_L_y" x2="AP3_L_x" y2="AP3_L_y" stroke="black" />
+    <!-- Right wing same as left but mirrored -->
+
+    <!-- Legs -->
+    <!-- Front Left Leg -->
+    <rect x="FL_x" y="FL_y" width="20" height="60" fill="brown" />
+    <line x1="CP5_FL_x" y1="CP5_FL_y" x2="AP5_FL_x" y2="AP5_FL_y" stroke="black" />
+    <!-- Other legs follow the same pattern -->
+
+  </g>
+
+  <!-- Strings and Anchor Points coordinates here -->
+</svg>

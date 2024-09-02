@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clue 1: Dolphin outline -->
+  <path id="dolphin-outline" d="M10 90 Q50 30, 120 60 Q80 140, 100 180 L10 170 Z"/>
+
+  <!-- Clue 2: Wave pattern for mask -->
+  <path id="wave" d="M-5 95 Q30 110, 60 90 Q90 110, 120 95"/>
+
+  <!-- Mask definition using wave path -->
+  <mask id="water-mask">
+    <use href="#wave"/>
+  </mask>
+
+  <!-- Clue 3: Dolphin text -->
+  <text id="dolphin-text" x="18%" y="90%" font-size="40" fill="black">Dolphin</text>
+
+  <!-- Reveal dolphin outline using mask -->
+  <use href="#dolphin-outline" style="mask:url(#water-mask)"/>
+</svg>

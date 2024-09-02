@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 180">
+  <!-- Jellyfish Bell -->
+  <circle cx="75" cy="90" r="60" fill="#F5DEB3"/>
+  <circle cx="75" cy="90" r="58" stroke="#FFD700" stroke-width="2"/>
+
+  <!-- Tentacles (12 pieces) -->
+  <g id="tentacles">
+    <g transform="rotate(30, 75, 90)">
+      <path d="M75,100 Q80,140 60,170" fill="transparent" stroke="#FFFFFF"/>
+      <path d="M75,100 Q80,140 60,170" fill="#F5DEB3" stroke="#FFD700" stroke-width="2"/>
+    </g>
+    <!-- Repeat the above group with transform rotate(30) for each tentacle -->
+  </g>
+
+  <text x="50%" y="95%" text-anchor="middle" font-family="Arial" font-size="14" fill="#000">
+    Ancient Jellyfish Artifact
+  </text>
+</svg>

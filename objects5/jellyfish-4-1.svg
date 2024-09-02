@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <!-- Jellyfish body -->
+  <circle cx="25" cy="25" r="15" fill="transparent" stroke="white" stroke-width="2"/>
+
+  <!-- Tentacles (8 of them) -->
+  <g>
+    <path d="M25,10 A15,7 0 0,0 35,22" fill="transparent" stroke="white" stroke-width="2"/>
+    <path d="M25,10 A15,7 0 0,0 15,22" fill="transparent" stroke="white" stroke-width="2"/>
+    <path d="M25,15 A10,3 0 0,0 30,20" fill="transparent" stroke="white" stroke-width="2"/>
+    <path d="M25,15 A10,3 0 0,0 10,20" fill="transparent" stroke="white" stroke-width="2"/>
+    <!-- Repeat the above paths to create 8 tentacles in total -->
+  </g>
+</svg>

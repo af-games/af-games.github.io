@@ -1,0 +1,37 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E5F5E0"/>
+
+  <!-- Jellyfish Habitats (Aequorea) -->
+  <circle cx="400" cy="300" r="80" fill="#C8FACD"/>
+  <circle cx="200" cy="150" r="60" fill="#C8FACD"/>
+  <circle cx="600" cy="450" r="70" fill="#C8FACD"/>
+
+  <!-- Mountains -->
+  <polygon points="300,50 500,120 700,50" fill="#B9E1FF"/>
+  <text x="400" y="60" text-anchor="middle">Mons Medusa</text>
+
+  <!-- Rivers -->
+  <path d="M150 300 Q250 400 350 300 Q450 400 550 300" stroke="#006FAA" fill="transparent"/>
+
+  <!-- Coastlines and Islands -->
+  <path d="M100 500 Q200 450 300 500 Q400 550 500 500 Q600 450 700 500" stroke="#003D66" fill="transparent"/>
+  <circle cx="120" cy="280" r="20" fill="#B9E1FF"/>
+  <text x="120" y="250" text-anchor="middle">Insula Bellona</text>
+
+  <!-- Forests -->
+  <rect x="350" y="450" width="70" height="60" fill="#8DC63C"/>
+  <rect x="150" y="250" width="50" height="70" fill="#8DC63C"/>
+
+  <!-- Cities -->
+  <circle cx="650" cy="550" r="15" fill="yellow"/>
+  <text x="650" y="580" text-anchor="middle">Astraea</text>
+  <polygon points="250,350 350,450 250,550" fill="#FFD700"/>
+  <text x="300" y="480" text-anchor="middle">Luminarya</text>
+
+  <!-- Labels -->
+  <text x="10" y="600" font-family="Verdana">Aequorea: Land of Jellyfish</text>
+  <text x="790" y="600" font-family="Verdana" text-anchor="end">By SVG Cartographer</text>
+
+</svg>

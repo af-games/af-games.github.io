@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fairy Dress -->
+  <g id="dress" fill="blue">
+    <!-- First row of dress tiles -->
+    <rect x="10" y="80" width="5" height="5"/>
+    ...
+  </g>
+
+  <!-- Fairy Wings -->
+  <g id="wings" fill="purple">
+    <!-- First row of wings tiles -->
+    <polygon points="15,20 30,20 22.5,10" transform="rotate(45,22.5,10)"/>
+    ...
+  </g>
+
+  <!-- Fairy Hair -->
+  <g id="hair" fill="pink">
+    <!-- First row of hair tiles -->
+    <circle cx="30" cy="30" r="2.5"/>
+    ...
+  </g>
+</svg>

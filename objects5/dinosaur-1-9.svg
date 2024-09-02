@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Dinosaur's body -->
+  <rect x="-75" y="-80" width="150" height="160" fill="#228B22" stroke="#2F4F4F" stroke-width="3"/>
+
+  <!-- Dinosaur's head -->
+  <circle cx="-30" cy="-20" r="40" fill="#228B22" stroke="#2F4F4F" stroke-width="3"/>
+
+  <!-- Dinosaur's tail -->
+  <path d="M-15,60 Q0,90 -30,120 Q-60,90 -75,60" fill="none" stroke="#2F4F4F" stroke-width="3"/>
+
+  <!-- Dinosaur's eye -->
+  <circle cx="-30" cy="-20" r="10" fill="#FFF" stroke="#2F4F4F" stroke-width="2"/>
+
+  <!-- Dinosaur's fashion collection -->
+
+  <!-- Main Body Armor -->
+  <rect x="-70" y="-85" width="140" height="160" fill="url(#dino-skin)" stroke="#FF4500" stroke-width="3"/>
+  <path d="M-70,-85 Q-60,-95 -70,-105 Q-80,-95 -70,-85" fill="#FF4500"/>
+
+  <!-- Tail Fin -->
+  <polygon points="-75,60 -50,120 -35,120" fill="url(#dino-skin)" stroke="#FF4500" stroke-width="3"/>
+
+  <!-- Head Crest -->
+  <path d="M-30,-20 Q-50,-5 -30,-40 Q-10,-5 -30,-20" fill="#FF4500"/>
+  <polygon points="-35,-30 -25,-30 -30,-20" fill="#FF4500"/>
+
+  <!-- Accessories -->
+
+  <!-- Necklace -->
+  <circle cx="-65" cy="-70" r="15" fill="#F3DE70">
+    <animate attributeName="r" values="15;20;15" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="-45" cy="-70" r="10">
+    <animate attributeName="r" values="10;15;10" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Belt -->
+  <rect x="-80" y="-90" width="20" height="30" fill="#F3DE70"/>
+  <rect x="-60" y="-90" width="20" height="30" fill="#F3DE70"/>
+
+  <!-- Feathery accents (pattern) -->
+  <defs>
+    <linearGradient id="feathers" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#2F4F4F"/>
+    </linearGradient>
+    <pattern id="dino-skin" patternUnits="userSpaceOnUse" width="50" height="50">
+      <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5cyleGAToKCSoqOGCAgIjDAwMDBGMDRkZGRkAAAAMzMzMzRjcHJyAAAAGXRFWHRTb2Z0d2FyZQCPzww8L26ztvPu7e3tAAABHcSURBVDjLnZ1VZzRMфебтцфпнчйуризвквдгнрмсттфхццнгпджйклзювшщзчшэыёя0LQs2qUVFXc5gAAAABJRU5ErkJggg==" x="0" y="0"/>
+    </pattern>
+  </defs>
+</svg>

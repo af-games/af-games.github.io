@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 500 700" style="background-color:black;">
+
+  <!-- Black velvet background -->
+  <rect width="100%" height="100%" fill="black"/>
+
+  <!-- Mermaid's tail -->
+  <path id="tail" d="M250,680 Q350,750 450,700 Q500,600 450,500 Q350,400 250,500 Q150,400 50,300 Z"
+        fill="none" stroke="#8080c0" stroke-width="2"/>
+
+  <!-- Mermaid's body -->
+  <ellipse cx="250" cy="200" rx="100" ry="150" fill="#aafff7" stroke="#8080c0" stroke-width="2"/>
+
+  <!-- Mermaid's hair -->
+  <path id="hair" d="M230,150 Q260,120 290,150 Q320,180 290,210 Q260,240 230,210 Z"
+        fill="#aafff7" stroke="#8080c0" stroke-width="1"/>
+
+  <!-- Fins -->
+  <g id="fins">
+    <polygon points="350,550 400,600 350,650"/>
+    <polygon points="250,550 200,600 250,650"/>
+    <polygon points="150,550 100,600 150,650"/>
+  </g>
+
+  <!-- Glowing effect -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#fff; stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#fff; stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="250" cy="350" r="170" fill="url(#glow)"/>
+
+  <!-- Outline and balance -->
+  <use xlink:href="#tail" fill="none" stroke="#8080c0" stroke-width="4"/>
+  <use xlink:href="#fins" transform="scale(1.2)" stroke="#fff" stroke-width="2"/>
+
+</svg>

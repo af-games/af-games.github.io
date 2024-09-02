@@ -1,0 +1,23 @@
+<svg width="240" height="240" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="60" cy="75" rx="60" ry="80" fill="#C5994E"/>
+
+  <!-- Head -->
+  <ellipse cx="60" cy="45" rx="30" ry="40" fill="#C5994E"/>
+
+  <!-- Eyes -->
+  <circle cx="40" cy="40" r="10" fill="#4D2F00"/>
+  <circle cx="75" cy="40" r="8" fill="#6E3B1C"/>
+
+  <!-- Beak -->
+  <polygon points="90,40 100,30 110,40" fill="#FFDB58"/>
+
+  <!-- Feathers -->
+  <g stroke-width="2">
+    <rect x="70" y="60" width="10" height="15" rx="5" fill="#776E79"/>
+    <rect x="40" y="80" width="10" height="15" rx="5" fill="#A09891"/>
+    <!-- Add more feathers as needed -->
+  </g>
+
+</svg>

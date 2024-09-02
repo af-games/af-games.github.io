@@ -1,0 +1,48 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fairy's body -->
+  <circle cx="100" cy="75" r="50" fill="#fff"/>
+  <!-- Fairy's head -->
+  <circle cx="100" cy="40" r="20" fill="#fff"/>
+
+  <!-- Wand (initial position) -->
+  <line x1="120" y1="60" x2="170" y2="55" stroke="#ccc" stroke-width="3"/>
+  <!-- Wand tip (initial position) -->
+  <polygon points="170,55 180,60 160,60" fill="#ccc"/>
+
+  <!-- Fairy's dress (initial position) -->
+  <path d="M90,120 Q140,130 190,120 T240,120" stroke="#ccc" fill="transparent"/>
+
+  <!-- Animation begin -->
+  <animate
+    attributeName="d"
+    from="M90,120 Q140,130 190,120 T240,120"
+    to="M90,125 Q140,135 190,125 T240,125"
+    dur="1s"
+    repeatCount="indefinite" />
+
+  <!-- Wand animation -->
+  <animate
+    attributeName="x2"
+    from="170"
+    to="220"
+    dur="1s"
+    begin="0.5s"
+    repeatCount="indefinite" />
+  <animate
+    attributeName="points"
+    from="170,55 180,60 160,60"
+    to="180,55 220,50 190,60"
+    dur="1s"
+    begin="0.5s"
+    repeatCount="indefinite" />
+
+  <!-- Fairy turns -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 100 75"
+    to="180 100 75"
+    dur="2s"
+    begin="3s"
+    repeatCount="1" />
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Balloon Shape -->
+  <path id="balloon" d="M150,5 Q190,60 270,5 Q210,180 300,95 Q270,60 310,5 L450,250 A25,25 0 0 0 300,375 L150,375 A25,25 0 0 0 100,250 Z" fill="#ffa79f" stroke="#e86d5c"/>
+
+  <!-- Balloon Shadow -->
+  <use href="#balloon" style="fill:rgb(150,77,63); fill-opacity:0.3; stroke:none" transform="translate(0,2)"/>
+
+  <!-- String -->
+  <path d="M80,40 L80,10 Z" stroke="#6d4f40" stroke-width="5"/>
+
+  <!-- Light Reflection on Balloon -->
+  <circle cx="230" cy="90" r="40" fill="#fff" fill-opacity="0.7"/>
+  <circle cx="350" cy="180" r="30" fill="#fff" fill-opacity="0.6"/>
+
+  <!-- Light Source -->
+  <circle cx="200" cy="250" r="40" fill="#ffa79f" stroke="#e86d5c"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg width="100%" height="56.25%" viewBox="0 0 857.143 492.453" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E6E6FA"/>
+
+  <!-- Golden ratio calculations -->
+  <defs>
+    <length id="goldenRatio">1.618</length>
+  </defs>
+
+  <!-- Mountains (circles) -->
+  <circle cx="42.857" cy="301.272" r="50" fill="#A52A2A"/>
+  <circle cx="171.429" cy="200.643" r="40" fill="#A52A2A"/>
+
+  <!-- Rivers (paths) -->
+  <path id="river" d="M857,246 Q635.714,123.429 317.857,123.429 Q100,246 857,246" stroke="#008B8B" fill="transparent"/>
+
+  <!-- Trees (polygons) -->
+  <polygon points="350.714,290.357 375,305 400,290.357" fill="#006400"/>
+  <polygon points="450.714,285.357 475,300 500,285.357" fill="#006400"/>
+
+  <!-- Animation (Rivers flow) -->
+  <animate
+    attributeName="d"
+    from="M857,246 Q635.714,123.429 317.857,123.429 Q100,246 857,246"
+    to="M857,246 Q635.714,123.429 317.857,123.429 Q100,300 857,300"
+    dur="5s"
+    repeatCount="indefinite"
+  />
+</svg>

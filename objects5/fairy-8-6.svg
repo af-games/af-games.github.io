@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -15 30 30">
+
+  <!-- Fairy Body -->
+  <g id="fairy-body">
+    <!-- Hexagonal body tiles will be placed here -->
+
+    <!-- Example of a single hexagonal tile -->
+    <polygon points="-6,-9 6,-9 12,0 6,9 -6,9 -12,0" fill="#F3E5AB"/>
+  </g>
+
+  <!-- Fairy Hair -->
+  <g id="fairy-hair">
+    <!-- Smaller hexagonal tiles for hair will be placed here -->
+
+    <!-- Example of a single smaller hexagonal tile -->
+    <polygon points="-3,-4.5 3,-4.5 6,0 3,4.5 -3,4.5 -6,0" fill="#218A7B"/>
+  </g>
+
+  <!-- Fairy Dress -->
+  <g id="fairy-dress">
+    <!-- Larger hexagonal tiles with gradient for dress will be placed here -->
+
+    <!-- Example of a single large hexagonal tile with gradient -->
+    <polygon points="-6,-9 6,-9 12,0 6,9 -6,9 -12,0" fill="url(#dress-gradient)"/>
+    <defs>
+      <linearGradient id="dress-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#FFC9E6; stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#FFBCDE; stop-opacity:1" />
+      </linearGradient>
+    </defs>
+  </g>
+
+</svg>

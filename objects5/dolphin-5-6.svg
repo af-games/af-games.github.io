@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Base: The Pan -->
+<circle cx="400" cy="300" r="350">
+  <linearGradient id="oceanGradient" gradientTransform="rotate(90)">
+    <stop offset="0%"   stop-color="#a6e7ff"/>
+    <stop offset="100%" stop-color="#1f428c"/>
+  </linearGradient>
+  <fill: url(#oceanGradient) />
+</circle>
+
+<!-- Main Ingredient: The Dolphin -->
+<path d="M350,200 Q400,150 450,200 Q400,250 350,200" fill="url(#dolphinGradient)">
+  <linearGradient id="dolphinGradient">
+    <stop offset="0%"   stop-color="#e6e6e6"/>
+    <stop offset="100%" stop-color="#7a7a7a"/>
+  </linearGradient>
+</path>
+
+<!-- Supporting Ingredients: Waves -->
+<path d="M350,450 Q400,480 450,450" fill="url(#oceanGradient)"/>
+<path d="M250,500 Q300,520 350,500" fill="url(#oceanGradient)"/>
+
+<!-- Garnish: Text and Background -->
+<rect x="0" y="0" width="800" height="600" fill="#f4ede9"/>
+<rect x="100" y="530" width="600" height="70" fill="#1f428c">
+  <text x="250" y="570" font-size="50" fill="white">Dolphin Delight</text>
+</rect>
+
+</svg>

@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E5FCC2" />
+
+  <!-- Hills -->
+  <path d="M10,150 Q40,80 90,150 Q160,230 230,150 Q320,70 400,150 Q480,250 560,150 Q640,60 730,150 Z" fill="#CACFD2" stroke="none"/>
+
+  <!-- River -->
+  <path d="M70,450 Q140,520 230,450 Q320,580 420,450 Q510,600 600,450 Z" fill="#B0E0E6" stroke="none"/>
+
+  <!-- Trees -->
+  <circle cx="70" cy="290" r="30" fill="#8B7D6B"/>
+  <circle cx="190" cy="270" r="35" fill="#8B7D6B"/>
+  <circle cx="340" cy="320" r="30" fill="#8B7D6B"/>
+  <circle cx="500" cy="280" r="35" fill="#8B7D6B"/>
+
+  <!-- Giraffe -->
+  <g transform="translate(340,180)">
+    <path d="M50,-50 A50,50 0 0 1 0,-50 Z" fill="#FFFACD"/>
+    <rect x="-20" y="-90" width="60" height="170" fill="#D2691E" rx="30"/>
+    <circle cx="0" cy="80" r="40" fill="#D2691E"/>
+    <path d="M-5,-130 A5,5 0 0 0 5,-130" fill="#D2691E"/>
+  </g>
+
+</svg>

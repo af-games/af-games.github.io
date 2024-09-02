@@ -1,0 +1,29 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Define some colors -->
+  <defs>
+    <linearGradient id="fairySkinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: rgb(255, 240, 230); stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: rgb(229, 187, 163); stop-opacity: 1" />
+    </linearGradient>
+
+    <linearGradient id="fairyHairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: rgb(50, 36, 48); stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: rgb(179, 144, 128); stop-opacity: 1" />
+    </linearGradient>
+
+    <linearGradient id="fairyWingsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: rgb(245, 238, 233); stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: rgb(96, 77, 86); stop-opacity: 1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fairy's Body -->
+  <circle cx="250" cy="300" r="100" stroke-width="10" stroke="#333" fill="url(#fairySkinGradient)" />
+
+  <!-- Fairy's Hair -->
+  <path d="M220,260 Q240,280 260,260 Q280,280 300,260" stroke-width="5" stroke="url(#fairyHairGradient)" fill="transparent" />
+
+  <!-- Fairy's Wings -->
+  <path d="M170,240 Q250,290 330,240 Q250,190 170,240" stroke-width="8" stroke="url(#fairyWingsGradient)" fill="transparent" />
+
+</svg>

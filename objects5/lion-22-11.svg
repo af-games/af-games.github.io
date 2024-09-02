@@ -1,0 +1,20 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outlining the lion's perimeter with a rectangle -->
+  <rect x="100" y="50" width="300" height="400" fill="none" stroke="black"/>
+
+  <!-- Clue: The broken cage door (path leading out) -->
+  <path d="M250,100 Q280,80 310,100" stroke="red" />
+
+  <!-- Clue: Lion's paw prints leading to the scene of the crime -->
+  <circle cx="270" cy="250" r="40" fill="none" stroke="blue"/>
+  <circle cx="290" cy="280" r="40" fill="none" stroke="blue"/>
+
+  <!-- Suspect: The lion (intersecting with the clues) -->
+  <path d="M150,300 Q200,250 250,300 Q200,350 150,300" fill="orange"/>
+
+  <!-- Motive: The stolen steak (diverging from the lion's path) -->
+  <circle cx="350" cy="200" r="40" fill="none" stroke="green"/>
+  <path d="M280,180 Q320,160 350,180" stroke="green"/>
+
+</svg>

@@ -1,0 +1,37 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Body -->
+  <circle id="balloonBody" cx="100" cy="75" r="70" fill="black"/>
+  <circle id="balloonTop" cx="90" cy="20" r="30" fill="black"/>
+
+  <!-- Basket -->
+  <rect id="basketLeft" x="60" y="150" width="40" height="80" fill="black"/>
+  <rect id="basketRight" x="130" y="150" width="40" height="80" fill="black"/>
+
+  <!-- Burner Flame -->
+  <polygon id="flame" points="190,20 200,50 170,50" fill="black"/>
+
+  <!-- Animation: Move up and down (bobbing) -->
+  <animateTransform
+    attributeName="cy"
+    type="translate"
+    from="-30"
+    to="30"
+    dur="2s"
+    repeatCount="indefinite"
+    id="balloonBob">
+  </animateTransform>
+
+  <!-- Animation: Rotate burner flame -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 190 40"
+    to="360 190 40"
+    dur="5s"
+    repeatCount="indefinite"
+    id="flameSpin">
+
+  </animateTransform>
+
+</svg>

@@ -1,0 +1,46 @@
+<svg viewBox="0 0 300 400">
+```
+
+2. **Mix your ingredients together (combine SVG elements using transforms):**
+
+- **Body**
+```svg
+<rect x="50" y="100" width="200" height="200" fill="green" />
+```
+
+- **Tail**
+```svg
+<rect x="250" y="150" width="50" height="100" fill="green" transform="rotate(30 250 200)" />
+```
+
+- **Hip**
+```svg
+<rect x="175" y="350" width="50" height="50" fill="green" />
+```
+
+- **Head (path)**
+```svg
+<polygon points="100,50 200,50 150,100" fill="green"/>
+```
+
+- **Eyes (circles)**
+```svg
+<circle cx="130" cy="70" r="10" fill="black"/>
+<circle cx="170" cy="70" r="10" fill="black"/>
+```
+
+- **Legs (paths)**
+```svg
+<path d="M200,250 Q250,300 200,350" stroke="brown" fill="transparent"/>
+<path d="M80,250 Q130,300 80,350" stroke="brown" fill="transparent"/>
+```
+
+- **Arm (path)**
+```svg
+<path d="M75,150 Q125,100 75,50" stroke="brown" fill="transparent"/>
+```
+
+3. **Bake according to the recipe's instructions (output your SVG code):**
+
+```svg
+</svg>

@@ -1,0 +1,13 @@
+<svg width="100" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M50,20 Q70,40 90,60 Q70,80 50,100 Q30,80 10,60 Q30,40 50,20" fill="lightblue"/>
+
+  <!-- Tail -->
+  <path d="M50,100 Q30,110 50,120 Q70,110 50,100" stroke="black" fill="transparent"/>
+
+  <!-- Fin -->
+  <polygon points="60,80 80,100 40,100" fill="lightblue"/>
+
+  <!-- Head -->
+  <circle cx="50" cy="40" r="20" fill="white"/>
+</svg>

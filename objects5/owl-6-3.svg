@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Stage -->
+  <rect x="10" y="40" width="780" height="520" fill="#8B4513"/>
+
+  <!-- Lighting -->
+  <rect x="10" y="40" width="780" height="520" fill="#FFF569" opacity="0.3"/>
+
+  <!-- Body -->
+  <ellipse cx="350" cy="300" rx="150" ry="100" fill="black"/>
+  <line x1="350" y1="200" x2="350" y2="400" stroke-width="6" stroke="white"/>
+
+  <!-- Head -->
+  <circle cx="350" cy="200" r="60" fill="black"/>
+  <line x1="300" y1="180" x2="350" y2="200" stroke-width="4" stroke="white"/>
+  <line x1="400" y1="180" x2="350" y2="200" stroke-width="4" stroke="white"/>
+
+  <!-- Wings -->
+  <polygon points="300,160,270,90,330,90" fill="black"/>
+  <line x1="300" y1="160" x2="350" y2="240" stroke-width="4" stroke="white"/>
+
+  <!-- Legs -->
+  <rect x="320" y="380" width="40" height="100" fill="black"/>
+  <rect x="380" y="380" width="40" height="100" fill="black"/>
+  <rect x="260" y="380" width="40" height="100" fill="black"/>
+  <rect x="420" y="380" width="40" height="100" fill="black"/>
+
+  <!-- Tail -->
+  <rect x="350" y="460" width="60" height="80" fill="black"/>
+  <line x1="350" y1="520" x2="350" y2="460" stroke-width="4" stroke="white"/>
+
+</svg>

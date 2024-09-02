@@ -1,0 +1,34 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <g id="body">
+    <rect x="100" y="80" width="300" height="240"
+          style="fill:blue; stroke:black; stroke-width:2;" />
+  </g>
+
+  <!-- Head -->
+  <circle cx="200" cy="150" r="60"
+          style="fill:white; stroke:black; stroke-width:2;" />
+
+  <!-- Beak -->
+  <path d="M230,120 Q240,110 250,120"
+        style="fill:orange; stroke:black; stroke-width:2;" />
+
+  <!-- Eyes -->
+  <circle cx="170" cy="90" r="10" />
+  <circle cx="230" cy="90" r="10" />
+  <clipPath id="eyesClip">
+    <circle cx="0" cy="0" r="15" />
+  </clipPath>
+  <g clip-path="url(#eyesClip)">
+    <ellipse cx="170" cy="90" rx="8" ry="6"
+             style="fill:black;" />
+    <ellipse cx="230" cy="90" rx="8" ry="6"
+             style="fill:black;" />
+  </g>
+
+  <!-- Legs -->
+  <polygon points="130,250 170,300 230,250"
+           style="fill:blue; stroke:black; stroke-width:2;" />
+
+</svg>

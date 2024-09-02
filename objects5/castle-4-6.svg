@@ -1,0 +1,17 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ground -->
+  <rect width="80%" height="20%" rx="5" fill="#3D4C67"/>
+
+  <!-- Castle Walls -->
+  <polygon points="40,80 60,100 100,80 140,100" fill="#576A91"/>
+  <polygon points="30,50 70,30 110,50" fill="#4D5B7F"/>
+
+  <!-- Castle Roof -->
+  <path d="M20,20 Q40,0 80,20" stroke="#7A95C1" fill="none"/>
+  ...
+
+  <!-- Window and Door -->
+  <circle cx="x" cy="y" r="5" stroke="#A3BBFF" fill="#E6EEFF"/>
+  <path d="M40,80 Q70,120 100,80" stroke="#A3BBFF" fill="none"/>
+
+</svg>

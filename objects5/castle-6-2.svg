@@ -1,0 +1,26 @@
+<svg width="500" height="400" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Left Tower -->
+<path d="M10 20 C10 40, 40 80, 90 80 H490 C540 80, 570 40, 570 20 V360 H10 Z" fill="brown" stroke="black"/>
+
+<!-- Right Tower -->
+<path d="M490 20 C490 40, 440 80, 390 80 H10 C50 80, 80 40, 80 20 V360 H490 Z" fill="brown" stroke="black"/>
+
+<!-- Wall -->
+<path d="M10 360 H490 V430 H10 Z" fill="grey"/>
+
+<!-- Gatehouse -->
+<path d="M220 20 C220 40, 250 80, 290 80 H310 C360 80, 390 40, 390 20 V360 H220 Z" fill="brown" stroke="black"/>
+
+<!-- Arched Entrance -->
+<path d="M250 360 Q275 390, 310 390 C345 390, 370 360, 370 330 Z" fill="grey"/>
+
+<!-- Roofs -->
+<path d="M10 80 Q40 120, 90 80 H490 Q450 120, 490 80 V360 H10 Z" fill="brown" stroke="black"/>
+
+<!-- Windows -->
+<rect x="170" y="40" width="10" height="20" rx="5"/>
+<rect x="210" y="40" width="10" height="20" rx="5"/>
+<rect x="360" y="40" width="10" height="20" rx="5"/>
+
+</svg>

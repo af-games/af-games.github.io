@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 100 60">
+  <!-- Balloon Envelope -->
+  <ellipse cx="45" cy="25" rx="45" ry="30" fill="#ADD8E6"/>
+  <!-- Basket -->
+  <rect x="-5" y="35" width="70" height="15" rx="7.5" fill="#8B4513"/>
+  <!-- Gondola -->
+  <rect x="25" y="45" width="50" height="10" fill="#8B4513"/>
+  <!-- Rope -->
+  <line x1="25" y1="45" x2="25" y2="60" stroke="#F5DEB3"/>
+  <line x1="50" y1="45" x2="50" y2="60" stroke="#F5DEB3"/>
+  <!-- Burner -->
+  <circle cx="37.5" cy="47.5" r="12.5" fill="#CD7F32"/>
+  <polygon points="-5,-5,5,-5,0,-20" transform="translate(37.5, 55) rotate(-90)" fill="#FF7F00"/>
+</svg>

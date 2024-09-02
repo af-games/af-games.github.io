@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1" xmlns:xlink="http://www.w3.org/1999/xlink"
+     xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:nonzero"
+     width="500pt" height="500pt" viewBox="0 0 500 500" xml:lang="en" xmlns:svgjavascript="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="250" cy="250" r="100" fill="#FF69B4" stroke-width="4" stroke="#8B4513"/>
+
+  <!-- Left Wing -->
+  <path d="M150,70 Q200,30 250,100 H150 Z" fill="#FFD700" stroke-width="2" stroke="#CD7F32"/>
+
+  <!-- Right Wing -->
+  <path d="M350,70 Q400,30 350,100 H450 Z" fill="#FFD700" stroke-width="2" stroke="#CD7F32"/>
+
+</svg>

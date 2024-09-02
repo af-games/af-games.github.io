@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sunrise -->
+  <circle cx="50" cy="50" r="40" fill="orange" />
+
+  <!-- T-Rex -->
+  <polygon id="terra" points="150,200 200,300 300,200" fill="green" stroke="black"/>
+
+  <!-- River & Bridge -->
+  <rect x="400" y="350" width="200" height="50" fill="blue"/>
+  <path id="bridge" d="M400,350 Q500,275 600,350" stroke="brown" fill="transparent"/>
+
+  <!-- Forest -->
+  <ellipse cx="700" cy="400" rx="150" ry="80" fill="green"/>
+  <circle cx="675" cy="350" r="20" fill="purple"/> <!-- Ptera -->
+  <circle cx="650" cy="400" r="20" fill="red"/> <!-- Tricia -->
+  <circle cx="700" cy="450" r="20" fill="yellow"/> <!-- Bronco -->
+
+  <!-- Volcano -->
+  <polygon points="750,150 850,200 850,300 750,350" fill="brown"/>
+
+  <!-- Text Bubbles -->
+  <text x="100" y="250">Good morning!</text>
+  <text x="450" y="300">I wonder...</text>
+  <text x="675" y="325">Hi there!</text>
+  <text x="650" y="375">The Volcano can be scary</text>
+
+</svg>

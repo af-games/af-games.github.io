@@ -1,0 +1,23 @@
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Define gradients -->
+    <linearGradient id="tail" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:blue; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:pink; stop-opacity:1"/>
+    </linearGradient>
+    <!-- Define other gradients (body, hair, etc.) -->
+  </defs>
+
+  <!-- Grid -->
+  <rect width="1000" height="1000" fill="url(#grid)" stroke="none"/>
+
+  <!-- Mermaid's Tail -->
+  <circle cx="0" cy="-250" r="150" fill="url(#tail)" />
+
+  <!-- Mermaid's Body -->
+  <path d="M -400,-250 C -300,-150 0,-100 400,-250" stroke="url(#body)" fill="none"/>
+
+  <!-- Other features (head, hair, etc.) -->
+  <!-- ... -->
+
+</svg>

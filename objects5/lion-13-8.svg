@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background: Savanna -->
+  <rect x="0" y="0" width="800" height="600" fill="#F5DEB3" />
+
+  <!-- Sun -->
+  <circle cx="70" cy="100" r="40" fill="#FFB973">
+    <animate attributeName="r" from="40" to="50" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Grass -->
+  <rect x="0" y="450" width="800" height="150" fill="#6B9C3A">
+    <animate attributeName="opacity" from="1" to="0.8" dur="2s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Tree -->
+  <path d="M70 450 Q200 400, 350 450 L350 600" stroke="#6C3B1F" fill="transparent">
+    <animate attributeName="stroke-width" from="10" to="8" dur="2s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Lion -->
+  <path d="M500 450 Q550 350, 600 450 L600 600 Q550 550, 500 600 Z" stroke="#F19C28" fill="#F7CE5B">
+    <animate attributeName="opacity" from="1" to="0.95" dur="2s" repeatCount="indefinite" />
+  </path>
+
+</svg>

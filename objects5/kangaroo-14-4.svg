@@ -1,0 +1,22 @@
+<svg width="600" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<circle cx="300" cy="250" r="150" fill="brown"/>
+
+<!-- Left Ear -->
+<ellipse cx="180" cy="120" rx="50" ry="30" fill="tan"/>
+<!-- Right Ear -->
+<ellipse cx="420" cy="120" rx="50" ry="30" fill="tan"/>
+
+<!-- Pouch -->
+<polygon points="270,350 300,400 330,350" fill="brown"/>
+
+<!-- Left Eye -->
+<circle cx="220" cy="180" r="20" fill="black"/>
+<!-- Right Eye -->
+<circle cx="380" cy="180" r="20" fill="black"/>
+
+<!-- Nose -->
+<circle cx="300" cy="220" r="15" fill="black"/>
+
+</svg>

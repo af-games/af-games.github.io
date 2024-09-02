@@ -1,0 +1,30 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="500" height="500" fill="#E8D6A7"/>
+
+<!-- Sunlight for Nurse Shark -->
+<circle cx="250" cy="150" r="100" fill="#FFF3B0"/>
+<path d="M450 100 Q400 200, 250 250 Q100 200, 50 100" stroke="#FFBF7D" stroke-width="15"/>
+
+<!-- Shade for Nurse Shark -->
+<circle cx="380" cy="420" r="60" fill="#BFBFBF"/>
+<ellipse cx="380" cy="350" rx="60" ry="40" fill="#A9A9A9"/>
+
+<!-- Roses (Circles) -->
+<circle cx="120" cy="170" r="20" fill="#FFC0CB"/>
+<circle cx="280" cy="320" r="25" fill="#FF69B4"/>
+<circle cx="420" cy="200" r="22" fill="#FFF0F5"/>
+
+<!-- Daisies (Ellipses) -->
+<ellipse cx="170" cy="120" rx="30" ry="20" fill="#FFDAB9"/>
+<ellipse cx="330" cy="400" rx="28" ry="15" fill="#FFFACD"/>
+
+<!-- Tulips (Paths) -->
+<path d="M190 270 Q210 290, 210 310 Q190 330, 170 310 Z" stroke="#FFB6C1" stroke-width="5"/>
+<path d="M400 250 Q420 270, 420 290 Q400 310, 380 290 Z" stroke="#DAA520" stroke-width="5"/>
+
+<!-- Nurse Shark Mouth -->
+<path d="M200 400 Q250 450, 300 400" stroke="#000" stroke-width="10"/>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .circle {
+      fill: none;
+      stroke-width: 4;
+      animation: spin 5s linear infinite;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .red {
+      stroke: red;
+    }
+
+    .blue {
+      stroke: blue;
+    }
+
+    .green {
+      stroke: green;
+    }
+  </style>
+
+  <circle class="circle red" cx="50" cy="50" r="40"/>
+  <circle class="circle blue" cx="150" cy="150" r="40"/>
+  <circle class="circle green" cx="250" cy="50" r="40"/>
+
+</svg>

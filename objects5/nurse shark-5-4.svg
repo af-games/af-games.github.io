@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mountain Range -->
+  <polygon points="45,15 95,75 45,125"
+            style="fill:#8B4513; stroke:black; stroke-width:1" />
+
+  <!-- Crystal Forest -->
+  <ellipse cx="200" cy="100" rx="60" ry="30"
+           style="fill:lightblue; stroke:black; stroke-width:1" />
+  <ellipse cx="250" cy="75" rx="40" ry="20"
+           style="fill:lightblue; stroke:black; stroke-width:1" />
+
+  <!-- Whispering River -->
+  <path d="M300,200 Q400,150 500,200 T500,400"
+        style="fill:none; stroke:blue; stroke-width:10" />
+
+  <!-- Ancient Ruins -->
+  <rect x="375" y="350" width="75" height="75"
+        style="fill:grey; stroke:black; stroke-width:1" />
+
+  <!-- Shark's Fin Cliffs -->
+  <polygon points="425,425 475,475 525,375"
+            style="fill:linear-gradient(blue,white); stroke:black; stroke-width:1" />
+
+</svg>

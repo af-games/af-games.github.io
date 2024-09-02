@@ -1,0 +1,8 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kangaroo -->
+  <circle id="kangaroo" cx="100" cy="400" r="50" fill="brown"/>
+  <!-- Emu -->
+  <circle id="emu" cx="250" cy="350" r="30" fill="purple"/>
+  <!-- Eucalyptus Tree (trunk) -->
+  <rect id="tree-trunk" x="400" y="350" width="30" height="150" fill="brown"/>
+</svg>

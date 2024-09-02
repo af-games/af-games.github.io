@@ -1,0 +1,34 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#022156"/>
+
+  <!-- Pan (Base) -->
+  <circle cx="250" cy="400" r="230" fill="#98FB98"/>
+
+  <!-- Dolphin Body -->
+  <ellipse cx="250" cy="270" rx="180" ry="250" fill="#4A4A4A"/>
+
+  <!-- Tail Flukes & Fins -->
+  <ellipse cx="300" cy="370" rx="60" ry="70" fill="#E0E0E0"/>
+  <rect x="310" y="320" width="40" height="80" fill="#E0E0E0"/>
+
+  <!-- Eye -->
+  <circle cx="235" cy="220" r="25" fill="#000000"/>
+  <circle cx="235" cy="220" r="15" fill="#FFFFFF"/>
+
+  <!-- Mouth -->
+  <path d="M220,300 Q240,280 260,300 T" stroke="#E0E0E0" stroke-width="10"/>
+
+  <!-- Water Bubbles (Small) -->
+  <circle cx="235" cy="370" r="5"/>
+  <circle cx="255" cy="340" r="3"/>
+  <circle cx="280" cy="360" r="4"/>
+
+  <!-- Water Bubbles (Large) -->
+  <ellipse cx="250" cy="410" rx="70" ry="90" fill="#80FFFFFF"/>
+
+  <!-- Splash Effect -->
+  <rect x="200" y="230" width="100%" height="200" fill="#3D9970CC"/>
+
+</svg>

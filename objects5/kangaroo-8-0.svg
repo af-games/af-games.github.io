@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Kangaroo Body -->
+  <ellipse cx="250" cy="300" rx="150" ry="200" fill="#D2B48C"/>
+  <ellipse cx="260" cy="370" rx="40" ry="50" fill="#000"/>
+
+  <!-- Kangaroo Head -->
+  <circle cx="230" cy="250" r="40" fill="#D2B48C"/>
+  <ellipse cx="260" cy="240" rx="20" ry="40" fill="#D2B48C"/>
+  <circle cx="270" cy="235" r="10" fill="#000"/>
+  <circle cx="250" cy="235" r="5" fill="#FFF"/>
+
+  <!-- Kangaroo Legs -->
+  <path d="M240,380 Q260,420 270,380 L290,310 Z" stroke="#654321" fill="transparent"/>
+  <rect x="230" y="310" width="40" height="50" fill="#000"/>
+  <path d="M270,380 Q290,420 300,380 L320,310 Z" stroke="#654321" fill="transparent"/>
+  <rect x="290" y="310" width="40" height="50" fill="#000"/>
+
+  <!-- Kangaroo Tail -->
+  <path d="M270,340 Q300,380 290,360 Z" stroke="#654321" fill="transparent"/>
+
+</svg>

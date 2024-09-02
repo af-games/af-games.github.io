@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Body -->
+  <circle cx="250" cy="450" r="180" fill="#FFD700"/>
+  <!-- Head -->
+  <ellipse cx="250" cy="300" rx="120" ry="160" fill="#FFFDD0"/>
+  <!-- Neck -->
+  <path d="M250,450 Q280,370 250,300" stroke="#FFD700" fill="transparent" stroke-width="20"/>
+  <!-- Legs -->
+  <g transform="translate(160, 530)">
+    <ellipse rx="40" ry="80" fill="#FFFDD0"/>
+    <path d="M0,-80 Q-40,-40 0,-80" stroke="#FFD700" fill="transparent" stroke-width="10"/>
+  </g>
+  <use xlink:href="#leg-template" y="120"/>
+  <!-- Spots -->
+  <defs>
+    <circle id="spot-template" cx="0" cy="0" r="40" fill="#3D9970"/>
+  </defs>
+  <use xlink:href="#spot-template" x="180" y="250"/>
+  <use xlink:href="#spot-template" x="320" y="250"/>
+  <!-- Patterns -->
+  <path d="M20,20 Q40,60 20,100 Q60,40 20,20" stroke="#3D9970" fill="transparent" stroke-width="10"/>
+  <use xlink:href="#pattern-template" transform="translate(80,150) rotate(45)"/>
+</svg>

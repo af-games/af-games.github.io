@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ADD8E6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00BFFF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="url(#skyGrad)" />
+
+  <!-- Land -->
+  <rect x="0" y="765" width="1920" height="315" fill="#A52A2A" />
+
+  <!-- Hot air balloon -->
+  <circle cx="960" cy="480" r="80">
+    <animate attributeName="r" values="0;80;0" dur="8s" repeatCount="indefinite" />
+  </circle>
+  <path d="M960,320 Q1280,560 1440,320" stroke="#FFC300" fill="transparent">
+    <animate attributeName="d" values="M960,320 Q1280,560 1440,320;M960,320 Q1440,560 720,320;" dur="16s" repeatCount="indefinite" />
+    <animate attributeName="stroke" values="#FFC300;#FFA500;#FFC300" dur="8s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Sunrise/sunset -->
+  <rect x="0" y="0" width="1920" height="765">
+    <animate attributeName="fill" values="url(#sunGrad);#FFC300;url(#sunGrad)" dur="8s" repeatCount="indefinite" />
+  </rect>
+</svg>

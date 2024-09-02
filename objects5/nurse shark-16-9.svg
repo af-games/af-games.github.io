@@ -1,0 +1,33 @@
+<svg width="800px" height="600px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Coordinate grid -->
+  <rect x="50" y="50" width="700" height="500" fill="none" stroke="black"/>
+  <line x1="50" y1="50" x2="750" y2="50" stroke="black"/>
+  <line x1="50" y1="50" x2="50" y2="550" stroke="black"/>
+  <text x="695" y="480">Y</text>
+  <text x="-5" y="35">X</text>
+
+  <!-- Clues (small shapes) -->
+  <circle cx="150" cy="200" r="10" fill="#ffa500" />
+  <circle cx="280" cy="340" r="10" fill="#ffa500"/>
+  <text x="140" y="220">Cue card</text>
+  <text x="270" y="360">Fishing hook</text>
+
+  <!-- Suspects (medium shapes) -->
+  <circle cx="220" cy="180" r="50" fill="#ff33cc"/>
+  <text x="210" y="140">Manta Ray</text>
+  <circle cx="450" cy="250" r="60" fill="#3399ff"/>
+  <text x="440" y="210">Grouper</text>
+
+  <!-- Culprits (large shapes) -->
+  <path d="M180,320 Q250,250 320,320" stroke="#cc0000" fill="none"/>
+  <circle cx="400" cy="370" r="90" fill="#cc0000"/>
+  <text x="170" y="380">Nurse Shark</text>
+
+  <!-- Alibis -->
+  <rect x="650" y="50" width="100" height="50" fill="#99ff99"/>
+  <text x="670" y="70">Manta Ray's alibi</text>
+  <rect x="650" y="120" width="100" height="50" fill="#cccccc"/>
+  <text x="670" y="140">Grouper's alibi (unknown)</text>
+
+</svg>

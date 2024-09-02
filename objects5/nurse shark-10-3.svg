@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Body -->
+  <path d="M-40,-30 Q-30,-35 L0,-50 Q40,-35 L40,-30" fill="#8B8989" stroke="#FFF"/>
+  <path d="M-20,-10 Q-5,-5 L20,-5 Q35,-10 L40,-15" fill="#F7941E"/>
+
+  <!-- Fin 1 -->
+  <polygon points="-40,-30 -20,-40 -25,-30" fill="#8B8989"/>
+  <path d="M-25,-30 Q-30,-25 L-20,-35 Q-15,-25 Z" fill="#FFF"/>
+
+  <!-- Fin 2 -->
+  <polygon points="40,-30 20,-40 25,-30" fill="#8B8989"/>
+  <path d="M25,-30 Q30,-25 L20,-35 Q15,-25 Z" fill="#FFF"/>
+
+  <!-- Tail -->
+  <polygon points="-40,-40 -20,-60 -25,-50" fill="#8B8989"/>
+  <path d="M-25,-50 Q-30,-55 L-20,-60 Q-15,-55 Z" fill="#FFF"/>
+
+  <!-- Eye -->
+  <circle cx="-5", cy="-25", r="5" fill="#FFF"/>
+  <circle cx="-5", cy="-25", r="2.5" fill="#000"/>
+
+  <!-- Mouth -->
+  <path d="M-10,-45 Q0,-50 L-20,-45 Z" fill="#F7941E"/>
+</svg>

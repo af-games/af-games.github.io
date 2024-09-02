@@ -1,0 +1,40 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#f5f5f5"/>
+
+<!-- Mountains -->
+<path d="M10,40 Q150,10 300,40 Q450,10 600,40 Q750,10 800,40" stroke="#9D8170" fill="transparent" stroke-width="5"/>
+
+<!-- Rivers -->
+<path d="M120,200 Q200,350 380,200 Q560,350 640,200" stroke="#70A9C1" fill="transparent" stroke-width="3"/>
+
+<!-- Forests -->
+<rect x="150" y="350" width="200" height="250" fill="#66BB6A"/>
+<rect x="450" y="350" width="200" height="250" fill="#66BB6A"/>
+
+<!-- Ocean -->
+<path d="M10,580 Q150,700 300,580 Q450,700 600,580 Q750,700 800,580" fill="#2193B0"/>
+
+<!-- Jellyfish Regions -->
+<circle cx="200" cy="650" r="50" fill="#FFC300"/>
+<circle cx="400" cy="650" r="50" fill="#FFC300"/>
+<circle cx="600" cy="650" r="50" fill="#FFC300"/>
+
+<!-- Cities -->
+<rect x="180" y="480" width="50" height="100" fill="#FFFFFF"/>
+<rect x="380" y="480" width="50" height="100" fill="#FFFFFF"/>
+<rect x="580" y="480" width="50" height="100" fill="#FFFFFF"/>
+
+<!-- Labels -->
+<text x="10" y="30" font-size="20">Aequorea</text>
+<text x="70" y="480" font-size="16">Jellyfish Forest</text>
+<text x="370" y="480" font-size="16">Coral City</text>
+<text x="570" y="480" font-size="16">Nautilus Haven</text>
+
+<!-- Inhabitants -->
+<circle cx="250" cy="630" r="30" fill="#FF6F91"/> <!-- Jellyfish -->
+<image href="https://via.placeholder.com/50x50" x="420" y="620" width="50" height="50" /> <!-- Nautilus -->
+<image href="https://via.placeholder.com/50x50" x="180" y="490" width="50" height="50" /> <!-- City dweller -->
+
+</svg>

@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hot Air Balloon -->
+  <g id="balloon">
+    <circle cx="400" cy="250" r="100" fill="orange" />
+    <path d="M350,150 L450,150 L400,250 Z" fill="white" />
+    <rect x="375" y="175" width="50" height="75" rx="25" fill="blue" />
+  </g>
+
+  <!-- Rolling Hills -->
+  <path id="hills" d="M20,400 Q100,550 200,400 Q300,450 400,400 Q500,450 600,400 Q700,350 800,400" stroke="none" fill="url(#grass)" />
+
+  <!-- Winding River -->
+  <path id="river" d="M20,500 Q100,550 200,500 Q300,550 400,500 Q500,550 600,500 Q700,550 800,500" stroke="blue" fill="none" stroke-width="2"/>
+
+  <!-- Towering Trees -->
+  <g id="tree1">
+    <circle cx="150" cy="350" r="30" fill="brown"/>
+    <polygon points="140,280 160,280 150,200" fill="green"/>
+  </g>
+  <use xlink:href="#tree1" y="250" transform="translate(350, 0) rotate(-45)" />
+  <use xlink:href="#tree1" y="250" transform="translate(600, 0) rotate(45)" />
+
+  <!-- Gradients and Patterns -->
+  <defs>
+    <linearGradient id="grass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(71,139,63);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(51,87,34);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+</svg>

@@ -1,0 +1,35 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Penguin's body -->
+  <rect x="100" y="150" width="300" height="250" fill="#0066cc" rx="50"/>
+
+  <!-- Head -->
+  <circle cx="250" cy="175" r="50" fill="#0066cc"/>
+  <path d="M200 150 Q225 125, 250 150 Q275 125, 300 150" stroke="black"/>
+
+  <!-- Eyes -->
+  <circle cx="220" cy="160" r="5" fill="white"/>
+  <circle cx="280" cy="160" r="5" fill="white"/>
+
+  <!-- Beak -->
+  <path d="M240 190 Q250 185, 260 190 Q270 185, 280 190" stroke="orange" fill="transparent"/>
+
+  <!-- Rooms and windows -->
+  <g id="rooms">
+    <!-- Room 1 -->
+    <rect x="120" y="220" width="80" height="80" fill="#ffffff"/>
+    <circle cx="145" cy="260" r="5" fill="#0066cc"/>
+
+    <!-- Room 2 -->
+    <rect x="230" y="220" width="80" height="80" fill="#ffffff"/>
+    <circle cx="255" cy="260" r="5" fill="#0066cc"/>
+
+    <!-- Room 3 -->
+    <rect x="340" y="220" width="80" height="80" fill="#ffffff"/>
+    <circle cx="365" cy="260" r="5" fill="#0066cc"/>
+  </g>
+
+  <!-- Door -->
+  <path d="M140 300 Q160 320, 180 300 Q200 320, 220 300" stroke="black"/>
+
+</svg>

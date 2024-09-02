@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Body -->
+  <rect x="-40" y="-60" width="80" height="90" fill="#ffd700" stroke="black" stroke-width="2" fill-opacity="0.9"/>
+  <path d="M-35,-40 Q-10,-40 -10,-10 L35,-10 Q60,-40 35,-60 Z" fill="#ffd700" stroke="black" stroke-width="2" fill-opacity="0.9"/>
+
+  <!-- Head -->
+  <circle cx="-5" cy="-20" r="25" fill="#ffe18e" stroke="black" stroke-width="2"/>
+  <path d="M-35,-40 Q0,-60 -10,-60 Z" fill="#ffe18e" stroke="black" stroke-width="2"/>
+
+  <!-- Neck -->
+  <rect x="-20" y="-60" width="40" height="30" fill="#ffd700" stroke="black" stroke-width="2"/>
+  <path d="M-5,-60 Q10,-60 15,-40 Z" fill="#ffd700" stroke="black" stroke-width="2"/>
+
+  <!-- Legs -->
+  <rect x="-30" y="-30" width="20" height="60" fill="#ffd700" stroke="black" stroke-width="2"/>
+  <rect x="10" y="-30" width="20" height="60" fill="#ffd700" stroke="black" stroke-width="2"/>
+  <rect x="-30" y="40" width="20" height="20" fill="#ffd700" stroke="black" stroke-width="2"/>
+  <rect x="10" y="40" width="20" height="20" fill="#ffd700" stroke="black" stroke-width="2"/>
+
+  <!-- Shadows -->
+  <path d="M-35,-40 Q0,-65 -10,-65 Z" fill="black" fill-opacity="0.1"/>
+  <path d="M-5,-60 Q15,-70 35,-70 Z" fill="black" fill-opacity="0.1"/>
+  <rect x="-20" y="40" width="40" height="20" fill="black" fill-opacity="0.1"/>
+
+  <!-- Highlights -->
+  <path d="M-35,-40 Q0,-55 -10,-55 Z" fill="#ffe18e" fill-opacity="0.7"/>
+  <path d="M-5,-60 Q15,-65 35,-65 Z" fill="#ffe18e" fill-opacity="0.7"/>
+
+</svg>

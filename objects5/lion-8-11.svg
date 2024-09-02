@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Perimeter -->
+  <rect x="50" y="50" width="700" height="400" stroke="black" fill="none"/>
+
+  <!-- Suspect A's path: Entered the room, interacted with the lion statue, then left -->
+  <path d="M150 200 Q300 150, 450 200" stroke="red" fill="none" />
+
+  <!-- Suspect B's path: Entered the room, diverged from Suspect A's path, then left -->
+  <path d="M150 250 Q300 250, 450 300" stroke="blue" fill="none"/>
+
+  <!-- Clue 1: Broken lock on the window -->
+  <circle cx="680" cy="300" r="20" stroke="black" fill="red"/>
+
+  <!-- Clue 2: Footprint leading towards the door -->
+  <path d="M700 450 Q650 400, 600 350" stroke="green" fill="none"/>
+
+  <!-- Lion statue's position before it was stolen -->
+  <circle cx="300" cy="250" r="40" stroke="black" fill="gold"/>
+
+</svg>

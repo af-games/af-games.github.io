@@ -1,0 +1,40 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E5D9B3"/>
+
+  <!-- Dinosaur Body -->
+  <path d="M400,200 Q300,100 200,200 Q300,300 400,400 Q500,300 600,200" fill="#0D7874" stroke="#A9A9A9" stroke-width="10"/>
+
+  <!-- Armor Plates -->
+  <g transform="translate(350, 250)">
+    <rect width="70" height="100" rx="50" fill="#FFBF6F"/>
+    <rect x="40" y="50" width="30" height="50" fill="#FFFACD"/>
+  </g>
+  <use xlink:href="#armor-plate" x="200"/>
+
+  <!-- Tail Spikes -->
+  <circle cx="650" cy="350" r="40" fill="#FFBF6F"/>
+  <circle cx="680" cy="370" r="30" fill="#FFFACD"/>
+  <use xlink:href="#spike" x="610" y="320"/>
+
+  <!-- Head Crest -->
+  <path d="M450,150 Q420,100 380,150 Q450,200 500,150" fill="#FFBF6F" stroke="#A9A9A9" stroke-width="10"/>
+
+  <!-- Eyes -->
+  <circle cx="400" cy="175" r="25" fill="#FFFACD"/>
+  <circle cx="500" cy="175" r="25" fill="#FFFACD"/>
+
+  <!-- Legs -->
+  <rect x="250" y="350" width="50" height="150" rx="25" fill="#0D7874"/>
+  <use xlink:href="#leg" x="350" y="350"/>
+  <use xlink:href="#leg" x="650" y="350"/>
+
+  <!-- Patterns -->
+  <defs>
+    <pattern id="rock-texture" patternUnits="userSpaceOnUse" width="100" height="100">
+      <image href="rock-texture.png" width="100" height="100"/>
+    </pattern>
+  </defs>
+
+</svg>

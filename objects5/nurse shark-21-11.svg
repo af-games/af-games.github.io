@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Timeline axis -->
+  <line x1="50" y1="550" x2="750" y2="550" stroke="black"/>
+
+  <!-- Ancient Era (Rectangles) -->
+  <rect x="50" y="450" width="80" height="100" fill="#f3d874" stroke="black"/>
+  <text x="90" y="525" font-size="16">Ancient Era</text>
+
+  <!-- Medieval Era (Polygons) -->
+  <polygon points="250,500 350,450 450,500" fill="#a98ff2" stroke="black"/>
+  <text x="350" y="575" font-size="16">Medieval Era</text>
+
+  <!-- Renaissance Era (Paths) -->
+  <path d="M550,500 Q650,450 750,500" fill="#98f597" stroke="black"/>
+  <text x="650" y="575" font-size="16">Renaissance Era</text>
+
+  <!-- Present Day (Circles) -->
+  <circle cx="400" cy="300" r="50" fill="#fff2cc" stroke="black"/>
+  <text x="380" y="350" font-size="16">Present Day</text>
+
+  <!-- Future Era (Ellipses) -->
+  <ellipse cx="550" cy="300" rx="75" ry="40" fill="#f1b29e" stroke="black"/>
+  <text x="530" y="350" font-size="16">Future Era</text>
+
+</svg>

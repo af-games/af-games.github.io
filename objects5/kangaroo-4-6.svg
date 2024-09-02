@@ -1,0 +1,19 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark blue background (chord progression start) -->
+  <rect x="0" y="0" width="400" height="400" fill="#1e3a86"/>
+
+  <!-- Kangaroo body (melody and rhythm) -->
+  <path d="M200,150 Q175,75 250,75 Q325,75 300,150 Q325,225 250,225 Q175,225 200,150" fill="#fff"/>
+
+  <!-- Kangaroo head (melody) -->
+  <circle cx="200" cy="60" r="40" fill="#fff"/>
+  <circle cx="200" cy="60" r="35" fill="#1e3a86"/>
+
+  <!-- Kangaroo ears (melody and rhythm) -->
+  <polygon points="175,40 190,20 205,40" fill="#fff"/>
+  <polygon points="275,40 290,20 305,40" fill="#fff"/>
+
+  <!-- Kangaroo pouch (melody) -->
+  <path d="M180,260 Q160,280 180,300 Q200,280 190,300" fill="#1e3a86"/>
+
+</svg>

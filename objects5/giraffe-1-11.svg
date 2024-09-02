@@ -1,0 +1,21 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="120" y="90" width="260" height="400" fill="#CD7F32"/>
+
+  <!-- Head -->
+  <circle cx="250" cy="280" r="80" fill="#D9B08C"/>
+
+  <!-- Neck -->
+  <ellipse cx="250" cy="360" rx="40" ry="120" fill="#CD7F32"/>
+
+  <!-- Legs -->
+  <circle cx="150" cy="550" r="30" fill="#D9B08C"/>
+  <circle cx="350" cy="550" r="30" fill="#D9B08C"/>
+  <circle cx="250" cy="640" r="30" fill="#CD7F32"/>
+
+  <!-- Eyes -->
+  <circle cx="210" cy="260" r="15" fill="black"/>
+  <circle cx="290" cy="260" r="15" fill="black"/>
+
+</svg>

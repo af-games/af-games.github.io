@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Basket -->
+  <rect x="180" y="490" width="140" height="60"
+        fill="#8B4513" opacity="0.8"
+        stroke="#72411D" stroke-width="2"/>
+
+  <!-- Balloon Envelope -->
+  <path d="M200,100 Q250,150 300,100 Q250,50 200,100"
+        fill="#FFC107" opacity="0.8"
+        stroke="#D69E00" stroke-width="4"/>
+
+  <!-- Balloon Rim -->
+  <circle cx="250" cy="70" r="30"
+          stroke="#D69E00" stroke-width="4"
+          fill="transparent"/>
+
+  <!-- Burner Flame -->
+  <path d="M180,120 Q200,180 220,120"
+        fill="#FF5733" opacity="0.6"
+        stroke="transparent"
+        transform="rotate(45, 200, 120)"/>
+
+  <!-- Rope -->
+  <line x1="200" y1="550" x2="200" y2="130"
+        stroke="#7D6650" stroke-width="8"
+        stroke-dasharray="10,4"
+        stroke-linecap="round"/>
+
+</svg>

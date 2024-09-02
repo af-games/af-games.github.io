@@ -1,0 +1,19 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <circle cx="50" cy="30" r="20" fill="#FFF1E6"/>
+
+  <!-- Body/Dress -->
+  <rect x="40" y="60" width="80" height="120" fill="#ADD8E6"/>
+
+  <!-- Left arm/Wand -->
+  <path d="M90,70 Q85,60 80,50 Q70,60 65,70" stroke="#CD7F32" fill="transparent" />
+
+  <!-- Right arm -->
+  <path d="M40,70 Q45,60 50,50" stroke="#4A2D2A" fill="transparent"/>
+
+  <!-- Left wing -->
+  <path d="M90,20 Q85,10 90,0 Q95,10 100,20" fill="#FFFFFF" opacity="0.7"/>
+
+  <!-- Right wing (mirror of left) -->
+  <path d="M40,20 Q45,10 40,0 Q35,10 30,20" fill="#FFFFFF" opacity="0.7"/>
+</svg>

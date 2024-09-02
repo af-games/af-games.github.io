@@ -1,0 +1,11 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="80" ry="120" fill="blue"/>
+  <!-- Head -->
+  <circle cx="100" cy="70" r="40" fill="white"/>
+  <!-- Eyes -->
+  <circle cx="90" cy="60" r="5" fill="black"/>
+  <circle cx="110" cy="60" r="5" fill="black"/>
+  <!-- Beak -->
+  <path d="M85 75 Q95 65, 105 75" stroke="orange" fill="transparent"/>
+</svg>

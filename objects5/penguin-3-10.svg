@@ -1,0 +1,52 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Background -->
+  <rect id="bg" x="0" y="0" width="500" height="400" fill="url(#grad-bg)"/>
+  <defs>
+    <linearGradient id="grad-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:lightgray; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <circle id="body" cx="250" cy="300" r="80" fill="url(#grad-body)" stroke="black"/>
+  <defs>
+    <radialGradient id="grad-body" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:darkblue; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:lightblue; stop-opacity:.4" />
+    </radialGradient>
+  </defs>
+
+  <!-- Head -->
+  <circle id="head" cx="250" cy="200" r="60" fill="url(#grad-head)" stroke="black"/>
+  <defs>
+    <radialGradient id="grad-head" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:white; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:lightgray; stop-opacity:.6" />
+    </radialGradient>
+  </defs>
+
+  <!-- Left flipper -->
+  <polygon id="flipper-left" points="230,240,215,270,230,290,250,270,265,240" fill="url(#grad-flipper)" stroke="black"/>
+  <defs>
+    <linearGradient id="grad-flipper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:darkgray; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:lightgray; stop-opacity:.6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Right flipper -->
+  <polygon id="flipper-right" points="270,240,285,270,270,290,250,270,235,240" fill="url(#grad-flipper)" stroke="black"/>
+
+  <!-- Feet -->
+  <rect id="foot-left" x="225" y="310" width="20" height="30" fill="url(#grad-foot)" stroke="black"/>
+  <rect id="foot-right" x="275" y="310" width="20" height="30" fill="url(#grad-foot)" stroke="black"/>
+  <defs>
+    <linearGradient id="grad-foot" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:darkgray; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:lightgray; stop-opacity:.6" />
+    </linearGradient>
+  </defs>
+
+</svg>

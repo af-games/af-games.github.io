@@ -1,0 +1,21 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer Wall -->
+  <circle cx="100" cy="200" r="90" fill="#FFFFFF"/>
+
+  <!-- Inner Wall -->
+  <circle cx="100" cy="200" r="75" fill="#ADD8E6"/>
+
+  <!-- Entry Arch -->
+  <path d="M100,300 Q150,250 200,300" stroke="#0000FF" fill="transparent"/>
+
+  <!-- Dome Roof -->
+  <polygon points="70,50 140,80 210,50 280,80 350,50 420,80 490,50 560,80" fill="#FFFFFF"/>
+
+  <!-- Snow Patterns -->
+  <path d="M70,50 Q90,80 120,50 H140 V70 A50,50 0 0,1 70,100 Z"
+        transform="matrix(1,0,0,1,30,0)" fill="#FFFFFF">
+    <animate attributeName="transform" type="translate" from="0,-200" to="0,0" dur="5s" repeatCount="indefinite"/>
+  </path>
+
+</svg>

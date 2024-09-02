@@ -1,0 +1,47 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="hillGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(50,220,30);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(80,170,40);stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="riverGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(70,200,230);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(180,240,255);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Rolling hills -->
+  <path d="M100,300 Q250,350 400,300 Q550,350 700,300"
+        fill="url(#hillGradient)" stroke="black" stroke-width="2" />
+
+  <!-- Winding river -->
+  <path d="M180,350 Q280,320 380,360 Q480,330 580,370"
+        fill="url(#riverGradient)" stroke="black" stroke-width="2" />
+
+  <!-- Towering trees -->
+  <g id="tree">
+    <rect width="10%" height="20%" transform="translate(600,400) rotate(90)" fill="brown" />
+    <circle cx="5%" cy="5%" r="5%" fill="green" />
+  </g>
+  <use xlink:href="#tree" y="370" />
+  <use xlink:href="#tree" transform="translate(-10%,-20%)" y="420" />
+
+  <!-- Jellyfish -->
+  <circle cx="450" cy="280" r="50" fill="url(#jellyfishGradient)">
+    <animateMotion dur="3s" repeatCount="indefinite">
+      <mpath href="#jellyfishPath"/>
+    </animateMotion>
+  </circle>
+  <path id="jellyfishPath" d="M420,250 Q400,280 450,260 Z"/>
+
+  <!-- Jellyfish gradient -->
+  <defs>
+    <radialGradient id="jellyfishGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(230,180,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,200,255);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+</svg>

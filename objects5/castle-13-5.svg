@@ -1,0 +1,21 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Keep -->
+  <rect x="150" y="75" rx="25" ry="25" width="200" height="250" fill="#8B4513"/>
+
+  <!-- Moat -->
+  <rect x="75" y="25" width="350" height="400" fill="#007B9A"/>
+  <path d="M75,300 Q150,350 250,300 Q325,350 400,300" stroke="#ADD8E6" fill="transparent"/>
+
+  <!-- Forest (left) -->
+  <polygon points="50,375 100,400 150,375" fill="#3D9970"/>
+  <!-- Forest (right) -->
+  <polygon points="400,375 350,400 300,375" fill="#3D9970"/>
+
+  <!-- Paths -->
+  <!-- From Moat to Castle Keep entrance -->
+  <path d="M200,100 L250,150 Z" stroke="#4A4A4A"/>
+  <!-- Around the Castle Keep -->
+  <path d="M250,75 Q300,150 350,75" stroke="#4A4A4A"/>
+
+</svg>

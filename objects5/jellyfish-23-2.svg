@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Bell (body) -->
+  <circle cx="250" cy="100" r="80" fill="#fff" stroke="#333" opacity="0.9"/>
+  <circle cx="250" cy="100" r="70" fill="#00f" opacity="0.5"/>
+
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <path d="M240,180 Q300,260 350,190" stroke="#333" fill="transparent"/>
+    <path d="M260,180 Q320,260 370,190" stroke="#333" fill="transparent"/>
+    <path d="M245,185 Q280,265 320,195" stroke="#333" fill="transparent"/>
+    <!-- Repeat the pattern for remaining tentacles -->
+  </g>
+
+  <!-- Rim lighting for bell -->
+  <circle cx="250" cy="100" r="75" stroke="#fff" stroke-width="2" fill="none" opacity="0.4"/>
+
+  <!-- Eyes (optional, jellyfish don't have eyes but let's add some for fun) -->
+  <circle cx="230" cy="80" r="10" fill="#000"/>
+  <circle cx="270" cy="80" r="10" fill="#000"/>
+
+</svg>

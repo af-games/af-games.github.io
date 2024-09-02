@@ -1,0 +1,36 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Night Sky -->
+  <rect x="0" y="0" width="800" height="600" fill="#303030">
+    <animate attributeName="fill" values="#a0c4ff;#303030" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Stars -->
+  <circle cx="75" cy="150" r="2" fill="white">
+    <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  ...
+  <!-- Add more stars here -->
+
+  <!-- Moon -->
+  <ellipse cx="400" cy="350" rx="200" ry="200" fill="#f1e7ac">
+    <animate attributeName="fill" values="#d9db9c;#f1e7ac" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Owl Body -->
+  <rect x="350" y="450" width="250" height="150" fill="#8b4513">
+    <animate attributeName="fill-opacity" values="1;0.9;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Owl Eyes -->
+  <circle cx="475" cy="525" r="20" fill="#ffd700">
+    <animate attributeName="fill-opacity" values="1;0.9;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Add black pupils here -->
+
+  <!-- Tree Branches -->
+  <rect x="300" y="500" width="600" height="50" fill="#462e17">
+    <animate attributeName="fill-opacity" values="1;0.9;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>

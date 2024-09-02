@@ -1,0 +1,24 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Scene 1 -->
+<rect id="igloo" x="50" y="50" width="200" height="200" style="fill: white; stroke: black;" />
+<circle id="snowflake" cx="150" cy="100" r="10" fill="lightblue" />
+<text x="30%" y="90%" text-anchor="middle">In the heart of winter, Igloo stood tall and white.</text>
+
+<!-- Scene 2 -->
+<circle id="sun" cx="300" cy="150" r="50" fill="yellow" />
+<text x="60%" y="90%" text-anchor="middle">One cold day, Igloo dreamt of the warm summer sun.</text>
+
+<!-- Scene 3 -->
+<path id="water-drop" d="M100,250 Q90,240 100,230 T110,230" stroke="blue" fill="transparent"/>
+<text x="30%" y="80%" text-anchor="middle">As the dream grew warmer, Igloo began to melt.</text>
+
+<!-- Scene 4 -->
+<circle id="flower" cx="200" cy="250" r="15" fill="green"/>
+<text x="60%" y="90%" text-anchor="middle">Igloo was no more, but its waters flowed into a summer paradise.</text>
+
+<!-- Scene 5 -->
+<rect id="igloo-new" x="50" y="50" width="200" height="200" style="fill: white; stroke: black;" opacity="0.5"/>
+<text x="30%" y="90%" text-anchor="middle">With the first snowfall, Igloo rose again from its waters.</text>
+
+</svg>

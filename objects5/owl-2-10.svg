@@ -1,0 +1,24 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="10" y="10" width="480" height="580" fill="lightgrey" />
+
+  <!-- Owl Body -->
+  <path d="M20,70 Q60,30 160,70 Q260,130 360,70 Q460,30 490,70 H510 V610 H490 Q460,580 360,630 Q260,700 160,630 Q60,580 20,610 Z" fill="#8B7D6B" />
+
+  <!-- Left Wing -->
+  <path d="M40,140 Q90,100 200,140 Q310,180 420,140 Q530,100 570,140" fill="#D6EAF5" />
+
+  <!-- Right Wing -->
+  <path d="M490,140 Q400,180 310,140 Q210,100 130,140 Q40,180 70,140" fill="#D6EAF5" />
+
+  <!-- Head -->
+  <circle cx="250" cy="120" r="70" fill="#F4A460" />
+  <ellipse cx="240" cy="90" rx="30" ry="40" fill="black" />
+  <polygon points="260,80 280,100 275,120" fill="white" stroke="black" />
+
+  <!-- Tail Feathers -->
+  <polygon points="440,590 460,630 480,590" fill="#4A2C1A" />
+  <polygon points="400,620 420,660 440,620" fill="#4A2C1A" />
+
+</svg>

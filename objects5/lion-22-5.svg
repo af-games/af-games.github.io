@@ -1,0 +1,23 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion Body -->
+  <circle id="body" cx="100" cy="200" r="80" fill="orange"/>
+  <circle id="head" cx="120" cy="150" r="40" fill="orange"/>
+  <circle id="armL" cx="70" cy="230" r="20" fill="orange"/>
+  <circle id="armR" cx="150" cy="230" r="20" fill="orange"/>
+  <circle id="legL" cx="60" cy="280" r="20" fill="orange"/>
+  <circle id="legR" cx="140" cy="280" r="20" fill="orange"/>
+
+  <!-- Strings (Paths) -->
+  <path d="M70,150 Q90,130 120,150" stroke="black" fill="transparent"/>
+  <path d="M150,150 Q130,130 120,150" stroke="black" fill="transparent"/>
+  <path d="M70,230 Q90,250 120,230" stroke="black" fill="transparent"/>
+  <path d="M150,230 Q130,250 120,230" stroke="black" fill="transparent"/>
+  <path d="M60,280 Q90,260 120,280" stroke="black" fill="transparent"/>
+  <path d="M140,280 Q130,260 120,280" stroke="black" fill="transparent"/>
+
+  <!-- Sun Prop -->
+  <circle id="sun" cx="350" cy="300" r="70" fill="yellow"/>
+  <path d="M350,240 Q360,290 380,240" stroke="black" fill="transparent"/>
+
+</svg>

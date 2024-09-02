@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#000"/>
+
+  <!-- Jellyfish 1 (Red) -->
+  <g id="jellyfish1" transform="translate(200,300)">
+    <!-- Body -->
+    <ellipse cx="50" cy="50" rx="40" ry="60" fill="#f00"/>
+
+    <!-- Tentacles -->
+    <g id="tentacles1">
+      <path d="M50 80 Q90,30 120,70"/>
+      <path d="M50 100 Q90,60 120,140"/>
+      <path d="M50 120 Q90,100 120,180"/>
+    </g>
+  </g>
+
+  <!-- Jellyfish 2 (Blue) -->
+  <g id="jellyfish2" transform="translate(300,400)">
+    <!-- Body -->
+    <ellipse cx="50" cy="50" rx="40" ry="60" fill="#00f"/>
+
+    <!-- Tentacles -->
+    <g id="tentacles2">
+      <path d="M50 80 Q90,30 120,70"/>
+      <path d="M50 100 Q90,60 120,140"/>
+      <path d="M50 120 Q90,100 120,180"/>
+    </g>
+  </g>
+
+  <!-- Animations -->
+  <animateTransform
+    xlink:href="#jellyfish1"
+    attributeName="transform"
+    type="rotate"
+    from="0 200 300"
+    to="360 200 300"
+    dur="5s"
+    repeatCount="indefinite"/>
+  <animateTransform
+    xlink:href="#jellyfish2"
+    attributeName="transform"
+    type="rotate"
+    from="0 300 400"
+    to="360 300 400"
+    dur="5s"
+    repeatCount="indefinite"/>
+</svg>

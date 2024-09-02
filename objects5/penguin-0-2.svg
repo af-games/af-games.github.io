@@ -1,0 +1,55 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E6E9ED"/>
+
+  <!-- Body -->
+  <circle cx="100" cy="150" r="80"
+          fill="url(#bodyGradient)" stroke="black"/>
+  <circle cx="100" cy="150" r="70"
+          fill="#FFF" stroke="none"/>
+
+  <!-- Head -->
+  <circle cx="90" cy="60" r="40"
+          fill="url(#headGradient)" stroke="black"/>
+  <circle cx="90" cy="60" r="35"
+          fill="#FFF" stroke="none"/>
+
+  <!-- Wings -->
+  <rect x="20" y="110" width="160" height="70"
+        fill="url(#wingGradient)" rx="20"/>
+  <rect x="40" y="130" width="120" height="50"
+        fill="#FFF" rx="20"/>
+
+  <!-- Feet -->
+  <rect x="80" y="270" width="40" height="60"
+        fill="#A9A9A9" rx="10"/>
+  <rect x="30" y="250" width="10" height="80"
+        fill="#A9A9A9"/>
+
+  <!-- Beak -->
+  <path d="M70,60 Q80,40 90,60"
+        stroke="black" fill="none"/>
+  <path d="M85,60 L95,50 L105,60"
+        stroke="#FFF" fill="none"/>
+
+  <!-- Flipper Details -->
+  <circle cx="70" cy="210" r="5" fill="#A9A9A9"/>
+  <circle cx="130" cy="210" r="5" fill="#A9A9A9"/>
+
+  <!-- Gradients -->
+  <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%"   stop-color="#6D7889"/>
+    <stop offset="50%"  stop-color="#A3B1C6"/>
+    <stop offset="100%" stop-color="#E6E9ED"/>
+  </linearGradient>
+  <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%"   stop-color="#3D4857"/>
+    <stop offset="50%"  stop-color="#A3B1C6"/>
+    <stop offset="100%" stop-color="#E6E9ED"/>
+  </linearGradient>
+  <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%"   stop-color="#3D4857"/>
+    <stop offset="50%"  stop-color="#A3B1C6"/>
+    <stop offset="100%" stop-color="#E6E9ED" stop-opacity="0.5"/>
+  </linearGradient>
+</svg>

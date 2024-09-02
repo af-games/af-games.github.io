@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Scene 1 -->
+  <circle cx="100" cy="150" r="50" fill="#ADD8E6"/>
+  <path d="M90,140 Q120,170 150,140 Z" stroke="#000000" fill="transparent"/>
+  <text x="50%" y="30%" text-anchor="middle" font-size="12pt">In the deep blue sea, a jellyfish swam...</text>
+
+  <!-- Scene 2 -->
+  <circle cx="300" cy="80" r="50" fill="#9F79EE"/>
+  <path d="M290,70 Q310,40 330,70 Z" stroke="#000000" fill="transparent"/>
+  <circle cx="350" cy="60" r="30" fill="#4A4A4A">
+    <animate attributeName="cy" values="60;30;60" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="50%" y="18%" text-anchor="middle" font-size="12pt">One stormy day, the jellyfish was caught in a current...</text>
+
+  <!-- Scene 3 -->
+  <circle cx="550" cy="200" r="40" fill="#ADD8E6"/>
+  <path d="M540,190 Q570,230 600,190 Z" stroke="#000000" fill="transparent"/>
+  <circle cx="650" cy="250" r="15" fill="#FFDF00">
+    <style>
+      .glow { filter: url(#goldenGlow); }
+    </style>
+    <text class="glow" x="680" y="240" text-anchor="middle" font-size="12pt">and discovered a golden pearl!</text>
+
+  <!-- Scene 4 -->
+  <circle cx="750" cy="350" r="40" fill="#9F79EE"/>
+  <path d="M740,340 Q780,370 800,340 Z" stroke="#000000" fill="transparent"/>
+  <rect x="620" y="310" width="50" height="50" rx="25" fill="#00BFFF"/>
+  <rect x="700" y="340" width="50" height="50" rx="25" fill="#87CEFA"/>
+  <text x="69%" y="45%" text-anchor="middle" font-size="12pt">The jellyfish shared its gift with all...</text>
+
+  <!-- Defining gradient for golden glow -->
+  <defs>
+    <radialGradient id="goldenGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:yellow;"/>
+      <stop offset="100%" style="stop-color:gold;"/>
+    </radialGradient>
+  </defs>
+</svg>

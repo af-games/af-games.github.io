@@ -1,0 +1,27 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Headstock -->
+  <circle cx="0" cy="0" r="50" stroke="black" fill="none" />
+
+  <!-- Body -->
+  <ellipse cx="-60" cy="0" rx="80" ry="40" stroke="black" fill="none" />
+
+  <!-- Head -->
+  <ellipse cx="20" cy="0" rx="30" ry="35" stroke="black" fill="none" />
+
+  <!-- Tail -->
+  <polyline points="-140,0 -60,-20 -60,20" stroke="black" fill="none" />
+
+  <!-- Hair -->
+  <path d="M 20,-35 Q 50,-20 80,-35 T 110,-35" stroke="black" fill="none" />
+
+  <!-- Arms -->
+  <line x1="-40" y1="20" x2="-90" y2="20" stroke="black" />
+  <line x1="40" y1="20" x2="90" y2="20" stroke="black" />
+
+  <!-- Face -->
+  <circle cx="20" cy="-35" r="8" stroke="black" fill="none" />
+
+  <!-- Eyes -->
+  <circle cx="-30" cy="-35" r="2" fill="black" />
+  <circle cx="30" cy="-35" r="2" fill="black" />
+</svg>

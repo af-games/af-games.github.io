@@ -1,0 +1,30 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background ocean -->
+  <rect x="0" y="0" width="500" height="500" fill="#69C6FF"/>
+
+  <!-- Nurse shark (using a path for the outline) -->
+  <path d="M100,200 Q150,175 200,175 Q250,175 300,200 Q250,225 200,225 Q150,225 100,200" stroke="#000" fill="transparent"/>
+
+  <!-- Sunlight (yellow circles) -->
+  <circle cx="175" cy="150" r="50" fill="#FFFF66"/>
+  <circle cx="325" cy="225" r="40" fill="#FFFF66"/>
+
+  <!-- Shade (blue ellipses) -->
+  <ellipse cx="200" cy="300" rx="75" ry="50" fill="#80C5FF"/>
+  <ellipse cx="350" cy="125" rx="60" ry="40" fill="#80C5FF"/>
+
+  <!-- Roses (red circles) -->
+  <circle cx="50" cy="175" r="15" fill="#FF6347"/>
+  <circle cx="150" cy="275" r="12" fill="#FF6347"/>
+  <circle cx="275" cy="180" r="18" fill="#FF6347"/>
+
+  <!-- Daisies (white ellipses) -->
+  <ellipse cx="125" cy="225" rx="20" ry="15" fill="#FFFFFF"/>
+  <ellipse cx="250" cy="325" rx="18" ry="12" fill="#FFFFFF"/>
+
+  <!-- Tulips (orange paths) -->
+  <path d="M75,350 Q90,360 110,350 Q125,360 140,350" stroke="#FFA500" fill="transparent"/>
+  <path d="M300,200 Q315,185 330,200 Q345,215 360,200" stroke="#FFA500" fill="transparent"/>
+
+</svg>

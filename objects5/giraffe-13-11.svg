@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 250">
+
+  <!-- Body -->
+  <rect x="40" y="80" width="70" height="160" fill="#4A2C2A">
+    <pattern id="herringbone" patternUnits="userSpaceOnUse" width="30" height="30">
+      <path d="M 0,0 L 30,30 M 0,30 L 30,0" stroke="#69483F" stroke-width="2"/>
+    </pattern>
+    <style><use fill="url(#herringbone)"/></style>
+  </rect>
+
+  <!-- Head -->
+  <path d="M 70,20 A 35,35 0 0 1 145,65" fill="#D69371"/>
+
+  <!-- Backside -->
+  <path d="M 70,200 A 35,35 0 0 1 145,245" fill="#D69371"/>
+
+  <!-- Legs (Front) -->
+  <path d="M 65,180 Q 75,190 85,180 L 105,220 Q 115,210 125,220 Z" fill="#000"/>
+  <path d="M 65,130 Q 75,140 85,130 L 105,170 Q 115,160 125,170 Z" fill="#000"/>
+
+  <!-- Legs (Back) -->
+  <path d="M 95,200 Q 105,210 115,200 L 135,240 Q 145,230 155,240 Z" fill="#000"/>
+  <path d="M 95,150 Q 105,160 115,150 L 135,190 Q 145,180 155,190 Z" fill="#000"/>
+
+</svg>

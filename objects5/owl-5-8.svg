@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 120">
+  <!-- Body -->
+  <path d="M20 80 Q35 70 40 90 L30 100 Z" stroke="#333" fill="transparent" stroke-width="6"/>
+
+  <!-- Head -->
+  <path d="M37 75 Q45 65 48 55 L42 50 Q39 50 37 55" stroke="#333" fill="transparent" stroke-width="6"/>
+
+  <!-- Eyes -->
+  <circle cx="31" cy="60" r="5" stroke="#333" fill="#FFF" stroke-width="2"/>
+  <circle cx="47" cy="60" r="5" stroke="#333" fill="#FFF" stroke-width="2"/>
+
+  <!-- Beak -->
+  <path d="M42 52 Q48 40 43 35 L41 37" stroke="#333" fill="transparent" stroke-width="4"/>
+
+  <!-- Feet -->
+  <path d="M28 95 Q30 105 33 105 L36 115 L30 120 Z" stroke="#333" fill="transparent" stroke-width="6"/>
+  <path d="M48 95 Q45 105 42 105 L40 115 L45 120 Z" stroke="#333" fill="transparent" stroke-width="6"/>
+</svg>

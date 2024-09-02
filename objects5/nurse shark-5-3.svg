@@ -1,0 +1,33 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 5 5'>
+
+  <!-- Head -->
+  <rect x='0' y='0' width='2' height='1' fill='#324376'/>
+
+  <!-- Body -->
+  <rect x='1' y='0' width='3' height='2' fill='#324376'/>
+  <rect x='0' y='1' width='4' height='1' fill='#324376'/>
+  <rect x='0' y='2' width='4' height='1' fill='#324376'/>
+
+  <!-- Connecting path for the lower body edge -->
+  <path d='M0,3 H4 V5 H0 Z' fill='none' stroke='black'/>
+
+  <!-- Fins -->
+  <rect x='0.5' y='2' width='1' height='1' fill='#C0C0C0'/>
+  <rect x='3.5' y='2' width='1' height='1' fill='#C0C0C0'/>
+
+  <!-- Dorsal fin -->
+  <path d='M2,1 Q2.5,2 3,1 H2 Z' fill='#C0C0C0'/>
+
+  <!-- Pelvic fin -->
+  <path d='M2,4 Q1.5,5 2,4' fill='#C0C0C0'/>
+
+  <!-- Tail with gradient -->
+  <defs>
+    <linearGradient id='tailGrad' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' style='stop-color:#324376; stop-opacity:1'/>
+      <stop offset='100%' style='stop-color:white; stop-opacity:1'/>
+    </linearGradient>
+  </defs>
+  <path d='M2,5 Q3.5,5 5,4 V5 H2 Z' fill='url(#tailGrad)'/>
+
+</svg>

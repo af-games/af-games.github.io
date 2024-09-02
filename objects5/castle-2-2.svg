@@ -1,0 +1,24 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Castle Walls -->
+<rect x="10" y="70" width="480" height="60" fill="grey" stroke-width="2" stroke="black"/>
+
+<!-- Left Tower -->
+<path d="M 50,20 l 30,0 a 30,30 0 0 1 30,-30 h 40 a 30,30 0 0 1 30,30 v 90 q 0,60 -45,90 t -70,0 z" fill="brown"/>
+
+<!-- Right Tower -->
+<path d="M 450,20 l -30,0 a 30,30 0 0 1 -30,-30 h -40 a 30,30 0 0 1 -30,30 v 90 q 0,60 45,90 t 70,0 z" fill="brown"/>
+
+<!-- Gatehouse -->
+<path d="M 225,70 h 50 a 20,20 0 0 1 20,-20 v -30 q 0,-10 -10,-20 t -20,0 z" fill="brown"/>
+
+<!-- Turrets -->
+<g stroke-width="2" stroke="black">
+  <polygon points="80,90 160,140 80,190"/>
+  <polygon points="350,90 430,140 350,190"/>
+</g>
+
+<!-- Roof -->
+<path d="M 10,20 h 480 v 30 q 0,60 -45,90 t -70,0 z" fill="red"/>
+
+</svg>

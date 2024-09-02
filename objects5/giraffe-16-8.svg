@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Plate -->
+  <circle cx="400" cy="300" r="350" fill="#FFF" stroke="#000"/>
+
+  <!-- Giraffe Steak -->
+  <path d="M380,190 Q360,220 370,250 H430 Q410,220 390,190" fill="#8B4513"/>
+  <rect x="365" y="255" width="55" height="25" fill="#FFD700"/>
+
+  <!-- Roasted Vegetables -->
+  <circle cx="260" cy="280" r="30" fill="#FFA500"/>
+  <rect x="190" y="340" width="80" height="40" fill="#8DC63C"/>
+
+  <!-- Quinoa -->
+  <polygon points="130,280 170,280 150,320" fill="#F39C12"/>
+  <polygon points="110,340 150,340 130,380" fill="#F39C12"/>
+
+  <!-- Chimichurri Sauce -->
+  <path d="M360,220 Q370,240 380,220 H420 Q410,240 400,220" stroke="#0F52BA" fill="transparent"/>
+  <text x="390" y="230" font-size="16" text-anchor="middle">Chimichurri Sauce</text>
+
+  <!-- Utensils -->
+  <path d="M470,280 Q480,260 490,280 H510 Q500,300 490,320" fill="#CBCBCB"/>
+  <rect x="465" y="350" width="30" height="30" fill="#CBCBCB"/>
+
+  <!-- Garnishes -->
+  <circle cx="310" cy="240" r="10" fill="#FFF">
+    <animate attributeName="r" from="0" to="10" dur="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Tableware -->
+  <rect x="560" y="370" width="80" height="40" fill="#FFB973"/>
+  <text x="610" y="400" font-size="24">Giraffe Steak</text>
+
+</svg>

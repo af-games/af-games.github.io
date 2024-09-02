@@ -1,0 +1,23 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#F0E68C"/>
+
+  <!-- Terrain -->
+  <path d="M10,40 Q50,200 90,300 Q150,370 200,300 Q250,230 300,300 Q360,380 400,300 Q460,240 500,300" fill="#D9B08C"/>
+  <path d="M10,70 Q50,150 90,250 Q150,320 200,250 Q250,200 300,250 Q360,300 400,250 Q460,200 500,250" fill="#D9B08C"/>
+
+  <!-- Igloo -->
+  <circle cx="175" cy="275" r="75" stroke="#FFFFFF" stroke-width="3" fill="#FFFFFF"/>
+  <path d="M140,225 A35,35 0 0 1 210,225 A35,35 0 0 1 175,280 A35,35 0 0 1 210,335 A35,35 0 0 1 140,335 Z" fill="#F2F2F2"/>
+
+  <!-- River -->
+  <path d="M90,400 Q120,380 160,400 Q200,420 250,400 Q300,380 340,400 Q400,420 450,400" stroke="#7CB9EA" stroke-width="10" fill="transparent"/>
+
+  <!-- Trees -->
+  <circle cx="60" cy="300" r="30" fill="#8B9D6E"/>
+  <path d="M60,250 Q40,280 60,300 Q80,280 60,250 Z" stroke="#8B9D6E" stroke-width="5" fill="#8B9D6E"/>
+  <circle cx="400" cy="320" r="30" fill="#8B9D6E"/>
+  <path d="M400,270 Q380,290 400,310 Q420,290 400,270 Z" stroke="#8B9D6E" stroke-width="5" fill="#8B9D6E"/>
+
+</svg>

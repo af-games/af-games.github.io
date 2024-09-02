@@ -1,0 +1,29 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle Wall -->
+  <rect id="castle-wall" x="100" y="100" width="300" height="300" fill="#8B7D6B"/>
+
+  <!-- Tower -->
+  <circle cx="250" cy="150" r="100" mask="url(#tower-mask)" fill="#A9904F"/>
+  <mask id="tower-mask">
+    <rect width="300" height="300" fill="#fff"/>
+    <circle cx="250" cy="150" r="100" fill="#000"/>
+  </mask>
+
+  <!-- Gate -->
+  <rect x="175" y="400" width="50" height="100" mask="url(#gate-mask)" fill="#A9904F"/>
+  <rect x="225" y="400" width="50" height="100" mask="url(#gate-mask)" fill="#A9904F"/>
+  <mask id="gate-mask">
+    <rect width="300" height="600" fill="#fff"/>
+    <polygon points="200,500 250,500 225,450" fill="#000"/>
+  </mask>
+
+  <!-- Windows -->
+  <rect x="125" y="200" width="50" height="75" mask="url(#window-mask)" fill="#A9904F"/>
+  <rect x="375" y="200" width="50" height="75" mask="url(#window-mask)" fill="#A9904F"/>
+  <rect x="125" y="300" width="50" height="75" mask="url(#window-mask)" fill="#A9904F"/>
+  <mask id="window-mask">
+    <rect width="400" height="400" fill="#fff"/>
+    <polygon points="137.5,200 162.5,200 145,185 155,185" fill="#000"/>
+    <!-- Repeat the above polygon for other windows -->
+  </mask>
+</svg>

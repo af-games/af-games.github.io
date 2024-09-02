@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background-color:black">
+
+  <!-- Igloo -->
+  <path d="M150 100 Q200 70, 250 100 Q300 130, 350 100 Q400 70, 450 100" fill="#87CEEB"/>
+  <path d="M150 100 L200 50 H400 Z" stroke="#87CEEB" stroke-width="10"/>
+
+  <!-- Snow crabs -->
+  <circle cx="300" cy="250" r="60" fill="#FFF"/>
+  <path d="M300 250 L250 300 H350 Z" stroke="#87CEEB" stroke-width="10"/>
+
+  <!-- Scallops -->
+  <circle cx="400" cy="300" r="50" fill="#FFF"/>
+  <path d="M400 300 L350 250 H450 Z" stroke="#87CEEB" stroke-width="10"/>
+
+  <!-- Microgreens -->
+  <rect x="600" y="250" width="150" height="100" fill="#3D9970"/>
+  <circle cx="650" cy="280" r="5" fill="#FFF"/>
+
+  <!-- Edible flowers -->
+  <circle cx="700" cy="270" r="15" fill="#FFC300"/>
+  <path d="M700 240 Q690 255, 700 270 Q710 255, 700 240" stroke="#FFC300" stroke-width="2"/>
+
+  <!-- Fork -->
+  <path d="M600 500 L600 400 H550 Z M600 400 L650 400" fill="#87CEEB"/>
+  <rect x="550" y="400" width="100" height="20" fill="#87CEEB"/>
+
+  <!-- Plate -->
+  <rect x="50" y="50" width="700" height="500" rx="30" stroke="#87CEEB" stroke-width="10" fill="none"/>
+
+</svg>

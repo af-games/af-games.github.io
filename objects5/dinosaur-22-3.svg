@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dinosaur silhouette -->
+  <path id="dinosaur-silhouette"
+        d="M100,400 C150,350 200,300 250,350 C300,400 350,450 400,450 H500 C550,450 600,400 650,350 C700,300 750,250 800,250 V400 H100 Z"
+        fill="black" stroke="none"/>
+
+  <!-- Body fill with linear gradient -->
+  <defs>
+    <linearGradient id="gradient-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(64,64,64);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(32,32,32);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect id="body-fill" x="100" y="400" width="700" height="50"
+        fill="url(#gradient-body)" stroke="none"/>
+
+  <!-- Head -->
+  <circle id="head" cx="275" cy="350" r="50" fill="black" stroke="none"/>
+  <circle id="eye-left" cx="240" cy="335" r="10" fill="white" stroke="black"/>
+  <circle id="eye-right" cx="310" cy="335" r="10" fill="white" stroke="black"/>
+
+  <!-- Legs and tail -->
+  <rect id="leg-left-front" x="180" y="420" width="20" height="60" fill="black" stroke="none"/>
+  <rect id="leg-right-front" x="320" y="420" width="20" height="60" fill="black" stroke="none"/>
+  <rect id="leg-left-back" x="180" y="450" width="20" height="70" fill="black" stroke="none"/>
+  <rect id="leg-right-back" x="320" y="450" width="20" height="70" fill="black" stroke="none"/>
+  <polygon id="tail" points="480,450 610,450 610,500 480,500" fill="black" stroke="none"/>
+
+</svg>

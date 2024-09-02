@@ -1,0 +1,22 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <rect x="150" y="100" width="75" height="300" rx="37.5" fill="#DCDCDC"/>
+  <line x1="150" y1="400" x2="150" y2="600" stroke="black"/>
+
+  <!-- Drawbridge -->
+  <line x1="150" y1="600" x2="200" y2="650" stroke="black"/>
+  <line x1="200" y1="650" x2="250" y2="600" stroke="black"/>
+
+  <!-- Gatehouse -->
+  <rect x="200" y="600" width="75" height="100" fill="#007FFF"/>
+
+  <!-- Turrets -->
+  <circle cx="150" cy="400" r="25" fill="#007FFF"/>
+  <circle cx="250" cy="400" r="25" fill="#007FFF"/>
+
+  <!-- Flag -->
+  <polygon points="250,375,281.25,416.875,168.75,416.875" fill="#007FFF"/>
+  <line x1="250" y1="375" x2="250" y2="400" stroke="black"/>
+
+</svg>

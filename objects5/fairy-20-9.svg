@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Background -->
+  <rect width="500" height="600" fill="#add8e6"/>
+
+  <!-- Body -->
+  <path d="M250,450 Q275,425 300,400 Q300,450 250,450 Z"
+        fill="#fff" stroke="#c0c0c0" stroke-width="1"/>
+
+  <!-- Hair -->
+  <path d="M200,200 Q250,150 300,200 Q250,250 200,200 Z"
+        fill="#ffdfba"/>
+
+  <!-- Eyes -->
+  <circle cx="240" cy="350" r="20" fill="#2196f3"/>
+  <circle cx="270" cy="350" r="20" fill="#2196f3"/>
+
+  <!-- Lips -->
+  <path d="M230,400 Q250,420 270,400 Z"
+        fill="#ee4035"/>
+
+  <!-- Wings -->
+  <g stroke="#ffdfba" stroke-width="1">
+    <path d="M300,300 Q320,250 360,280 Q340,290 300,310 Z"/>
+    <path d="M300,320 Q320,370 360,340 Q340,330 300,350 Z"/>
+  </g>
+
+  <!-- Arms -->
+  <path d="M210,420 L240,480 L270,420" stroke="#c0c0c0"
+        stroke-width="1"/>
+
+  <!-- Legs & Shoes -->
+  <path d="M230,500 Q260,520 290,500 Q260,480 230,500 Z" fill="#ee4035"/>
+</svg>

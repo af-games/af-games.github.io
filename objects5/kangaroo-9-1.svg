@@ -1,0 +1,14 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,50 Q90,75 60,100 Q80,125 100,150 Q120,125 140,100 Q130,75 100,50" fill="brown"/>
+
+  <!-- Head -->
+  <circle cx="90" cy="75" r="25" fill="brown"/>
+
+  <!-- Ears -->
+  <polygon points="80,60 90,40 70,40" fill="brown"/>
+  <polygon points="110,60 100,40 120,40" fill="brown"/>
+
+  <!-- Tail -->
+  <path d="M130,80 Q150,90 130,100 Q110,90 130,80" stroke="brown" fill="transparent"/>
+</svg>

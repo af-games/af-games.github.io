@@ -1,0 +1,28 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="100" y="100" width="300" height="200" fill="green"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="75" r="75" fill="green"/>
+
+  <!-- Tail -->
+  <path d="M375,150 Q400,200 425,150" stroke="black" fill="transparent" />
+
+  <!-- Legs -->
+  <rect x="80" y="275" width="30" height="100" fill="green"/>
+  <rect x="220" y="275" width="30" height="100" fill="green"/>
+  <rect x="360" y="275" width="30" height="100" fill="green"/>
+
+  <!-- Arms -->
+  <rect x="90" y="175" width="30" height="100" fill="green"/>
+  <rect x="230" y="175" width="30" height="100" fill="green"/>
+
+  <!-- Eye -->
+  <circle cx="180" cy="60" r="10" fill="white"/>
+  <circle cx="180" cy="60" r="5" fill="black"/>
+
+  <!-- Text -->
+  <text x="50%" y="350" font-family="Verdana" text-anchor="middle" stroke="black">Dino</text>
+
+</svg>

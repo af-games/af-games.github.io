@@ -1,0 +1,19 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<ellipse cx="50" cy="100" rx="80" ry="60" fill="#8B4513"/>
+
+<!-- Head and Belly -->
+<ellipse cx="40" cy="70" rx="20" ry="30" fill="#F7DC6F"/>
+<ellipse cx="45" cy="120" rx="30" ry="40" fill="#8B4513"/>
+
+<!-- Limbs and Tail -->
+<line x1="30" y1="80" x2="70" y2="120" stroke="#8B4513"/>
+<line x1="70" y1="80" x2="110" y2="120" stroke="#8B4513"/>
+<line x1="90" y1="140" x2="50" y2="160" stroke="#8B4513"/>
+
+<!-- Feet -->
+<circle cx="35" cy="170" r="8" fill="#F7DC6F"/>
+<circle cx="85" cy="170" r="8" fill="#F7DC6F"/>
+
+</svg>

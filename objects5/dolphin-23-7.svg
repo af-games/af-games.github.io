@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Stage Background -->
+  <rect width="100%" height="100%" fill="#4575b4"/>
+
+  <!-- Main Stage Area -->
+  <rect x="150" y="150" width="500" height="300"
+        style="fill: url(#stageGradient); stroke: #fff; stroke-width: 2px;" />
+
+  <!-- Seating Area -->
+  <rect x="150" y="450" width="500" height="150" fill="#333" rx="10"/>
+
+  <!-- Dolphin Props -->
+  <path d="M400,175 Q420,200 460,175 Q480,200 520,175" fill="#fff"/>
+  <circle cx="460" cy="200" r="30" fill="#fff"/>
+
+  <!-- Water Props -->
+  <path d="M150,400 Q250,450 350,400 Q450,450 550,400"
+        style="fill: url(#waterGradient); stroke: #fff; stroke-width: 2px;" />
+
+  <!-- Lighting Effects -->
+  <defs>
+    <linearGradient id="stageGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#336699; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0f2c54; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#003b70; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#4575b4; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

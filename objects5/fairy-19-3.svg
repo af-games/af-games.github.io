@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Background Gradient -->
+  <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFFFFF; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#85A2B3; stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Background Rectangle -->
+  <rect width="500" height="500" fill="url(#bgGradient)" />
+
+  <!-- Fairy's Wings Gradient -->
+  <radialGradient id="wingsGradient" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" style="stop-color:#FFF0DA; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#FFF6E3; stop-opacity:1" />
+  </radialGradient>
+
+  <!-- Fairy's Wings -->
+  <path d="M250,100 Q350,75 400,175 A200,200 0 0 0 100,325 Z" fill="url(#wingsGradient)" stroke="#382420" stroke-width="5" />
+
+  <!-- Fairy's Body -->
+  <path d="M250,375 Q225,450 250,500 Q275,450 300,500 Z" fill="#FFD6B9" stroke="#382420" stroke-width="5"/>
+
+  <!-- Fairy's Clothing (top) -->
+  <path d="M180,400 Q220,375 250,375 Q280,375 320,400 Z" fill="#E7C1A5" stroke="#382420" stroke-width="5"/>
+
+  <!-- Fairy's Clothing (bottom) -->
+  <path d="M200,500 Q225,525 250,575 Q275,525 300,500 Z" fill="#FDB96C" stroke="#382420" stroke-width="5"/>
+
+  <!-- Fairy's Hair -->
+  <path d="M180,325 Q190,280 250,270 Q260,280 320,325 Z" fill="transparent" stroke="#382420" stroke-width="2"/>
+
+</svg>

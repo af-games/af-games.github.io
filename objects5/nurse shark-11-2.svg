@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -100 300 200">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#87CEEB"/>
+
+  <!-- Shark body -->
+  <path d="M-150,0 Q-50,-50 Q0,-100 Q50,-50 Q150,0 Q50,50 Q0,100 Q-50,50" fill="#32CD32" stroke="black"/>
+
+  <!-- Dorsal fin -->
+  <rect x="-70" y="-60" width="40" height="80" fill="#32CD32" opacity="0.5"/>
+  <path d="M-70,-60 Q-90,-20 Q-70,10" stroke="black"/>
+
+  <!-- Pectoral fins -->
+  <rect x="-140" y="-80" width="20" height="80" fill="#32CD32" opacity="0.5"/>
+  <rect x="120" y="-80" width="20" height="80" fill="#32CD32" opacity="0.5"/>
+
+  <!-- Eyes -->
+  <circle cx="-120" cy="-60" r="20" fill="black"/>
+  <circle cx="120" cy="-60" r="20" fill="black"/>
+
+  <!-- Tail -->
+  <path d="M-30,-40 Q0,0 Q30,-40" stroke="black"/>
+
+</svg>

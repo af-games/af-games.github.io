@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Body -->
+  <ellipse cx="250" cy="180" rx="160" ry="120" fill="url(#penguin-body)" />
+  <linearGradient id="penguin-body" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(68,93,145);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(78,112,167);stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Head -->
+  <ellipse cx="250" cy="80" rx="80" ry="90" fill="url(#penguin-head)" />
+  <linearGradient id="penguin-head" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(68,93,145);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(78,112,167);stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Flippers -->
+  <path d="M180,350 Q140,390 180,420 H220 Q220,390 180,350 Z" fill="url(#penguin-flippers)" />
+  <linearGradient id="penguin-flippers" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:rgb(43,65,104);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(78,112,167);stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Eyes -->
+  <circle cx="230" cy="75" r="10" fill="black" />
+  <circle cx="270" cy="75" r="10" fill="black" />
+
+</svg>

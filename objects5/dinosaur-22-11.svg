@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Dino -->
+  <circle cx="100" cy="100" r="40" fill="green" />
+  <text x="90" y="110" text-anchor="middle" font-size="24">Dino</text>
+
+  <!-- Volcano -->
+  <rect x="350" y="70" width="80" height="120" fill="brown" />
+  <path d="M360,70 Q390,30 390,40 V190 H350 Z" stroke="red" fill="transparent" />
+
+  <!-- Raptor -->
+  <polygon points="200,80 250,50 300,80" fill="blue" />
+  <text x="225" y="70" text-anchor="middle" font-size="24">Raptor</text>
+
+  <!-- Meal -->
+  <ellipse cx="120" cy="150" rx="30" ry="20" fill="orange" />
+  <text x="120" y="160" text-anchor="middle" font-size="24">Meal</text>
+
+  <!-- Safe Haven -->
+  <polygon points="80,220 150,220 120,270" fill="lightgreen" />
+  <text x="110" y="300" text-anchor="middle" font-size="24">Safe Haven</text>
+
+  <!-- Dialogue Bubbles -->
+  <text x="50%" y="400" dominant-baseline="middle" text-anchor="middle" font-size="24">Dino: Oh no! The volcano!</text>
+  <text x="170" y="350" text-anchor="end" font-size="24">Raptor: Hey, that's my meal!</text>
+
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Background -->
+  <path d="M50 100 H900 V200 H-900 Z" fill="#8DC63C"/>
+
+  <!-- Kangaroo Joey -->
+  <ellipse id="joeyBody" cx="300" cy="150" rx="75" ry="120" fill="#8B4513">
+    <animateMotion begin="0s" dur="2s" repeatCount="indefinite">
+      <mpath href="#hoppingPath"/>
+    </animateMotion>
+  </ellipse>
+  <circle cx="300" cy="90" r="50" fill="#8B4513"/>
+  <rect id="joeyArm" x="260" y="100" width="120" height="50" fill="#FFFF00"/>
+
+  <!-- Hopping path -->
+  <path id="hoppingPath" d="M300 150 Q400 250, 600 150 T900 150" style="display:none"/>
+
+  <!-- Interaction script -->
+  <script>
+    function wave() {
+      var arm = document.getElementById('joeyArm');
+      arm.setAttribute('transform', 'translate(200, -50) rotate(45)');
+    }
+
+    var joeyBody = document.getElementById('joeyBody');
+    joeyBody.addEventListener('click', wave);
+  </script>
+</svg>

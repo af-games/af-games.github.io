@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Stage Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#004C99"/>
+
+  <!-- Large Circular Stage -->
+  <circle cx="400" cy="300" r="250" stroke="#FFF" stroke-width="3" fill="url(#stageGradient)"/>
+  <linearGradient id="stageGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFF; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#99CCFF; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Dolphin -->
+  <path d="M350,240 Q400,180 450,240 Q400,300 350,240 Z" fill="#FFF"/>
+
+  <!-- Fish Props (smaller shapes) -->
+  <circle cx="150" cy="300" r="20" fill="url(#fishGradient)" />
+  <circle cx="650" cy="300" r="20" fill="url(#fishGradient)" />
+  <linearGradient id="fishGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFF; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#CC66FF; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Bubbles Props -->
+  <circle cx="200" cy="320" r="8" fill="#FFF"/>
+  <circle cx="400" cy="350" r="5" fill="#FFF"/>
+  <circle cx="600" cy="320" r="10" fill="#FFF"/>
+
+</svg>

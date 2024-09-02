@@ -1,0 +1,46 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky gradient -->
+  <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:lightblue; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#9FB5FF; stop-opacity:1"/>
+  </linearGradient>
+  <rect width="800" height="600" fill="url(#sky)"/>
+
+  <!-- Hills -->
+  <path d="M400,300 Q200,200 0,400 H800 V600 H0 Z"
+        fill="url(#hills)"
+        stroke="#7D5C3A" stroke-width="1"/>
+  <linearGradient id="hills" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#9F8B6B; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#6A573D; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Igloo -->
+  <circle cx="400" cy="400" r="150" fill="#FFFFFF"
+          stroke="#8C92AC" stroke-width="5"/>
+  <path d="M400,300 Q375,275 400,250 Q425,275 400,300"
+        fill="#FDD65E"
+        stroke="#8C92AC" stroke-width="5"/>
+
+  <!-- River -->
+  <path d="M700,500 Q600,450 500,400 Q400,350 300,400 Q200,450 100,500"
+        fill="url(#river)"
+        stroke="#8C92AC" stroke-width="3"/>
+  <linearGradient id="river" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:lightblue; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#A8C7F6; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Trees -->
+  <circle cx="250" cy="320" r="40" fill="#3D993B"
+          stroke="#8C92AC" stroke-width="3"/>
+  <path d="M250,260 Q275,220 250,180 Q225,220 250,260 Z"
+        fill="#8FBD47"/>
+
+  <circle cx="550" cy="380" r="50" fill="#3D993B"
+          stroke="#8C92AC" stroke-width="3"/>
+  <path d="M550,310 Q525,260 550,210 Q575,260 550,310 Z"
+        fill="#8FBD47"/>
+
+</svg>

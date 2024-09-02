@@ -1,0 +1,47 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stage background -->
+  <rect x="0" y="450" width="800" height="150" fill="#0D293F"/>
+
+  <!-- Ocean -->
+  <defs>
+    <linearGradient id="oceanGradient" gradientTransform="rotate(90)">
+      <stop offset="0%" style="stop-color:#7EC8F4; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#3A6EA5; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0D293F; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="450" width="800" height="150" fill="url(#oceanGradient)"/>
+
+  <!-- Stage foreground -->
+  <rect x="0" y="0" width="800" height="450" fill="#364C59"/>
+
+  <!-- Main action area (Ocean performance space) -->
+  <circle cx="400" cy="275" r="175" stroke-width="3" stroke="#FFFFFF" fill="none"/>
+
+  <!-- Dolphin props -->
+  <g id="dolphinProps">
+    <!-- Water spout -->
+    <polygon points="380,240 420,260 380,280" fill="#FFFFFF"/>
+    <!-- Fish -->
+    <circle cx="350" cy="290" r="15" fill="#FFC107"/>
+    <!-- Seaweed -->
+    <polyline points="450,240 460,260 470,240" stroke="#FFFFFF" fill="none"/>
+  </g>
+
+  <!-- Lighting effects (Gradient sun rays) -->
+  <defs>
+    <linearGradient id="sunRays" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" style="stop-color:#FFD700; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFFFFF; stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <rect x="250" y="0" width="300" height="450" fill="url(#sunRays)"/>
+
+  <!-- Interactive props (Dolphin jumping) -->
+  <g id="dolphinJump">
+    <!-- Dolphin body -->
+    <path d="M380,175 Q400,200 420,175" stroke="#FFFFFF" fill="#2196F3" stroke-width="2"/>
+    <!-- Tail fin -->
+    <polygon points="420,175 435,185 420,195" fill="#2196F3"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <style>
+    .beat { stroke: url(#grad1); fill: none; }
+    .transition { stroke-width: 4; }
+    @keyframes scale {
+      from { transform: scale(1); }
+      to { transform: scale(2); }
+    }
+    @keyframes move {
+      from { d: path("M 0,-50 A 50,50 0 0,0 0,50"); }
+      to { d: path("M 0,-50 A 75,75 0 0,1 0,75"); }
+    }
+  </style>
+
+  <!-- Bars -->
+  <g id="bars">
+    <circle class="beat" cx="-40" cy="-20" r="5" />
+    <circle class="beat" cx="40" cy="-20" r="5" />
+    <circle class="beat" cx="-40" cy="20" r="5" />
+    <circle class="beat" cx="40" cy="20" r="5" />
+  </g>
+
+  <!-- Transitions -->
+  <path class="transition" d="M -40,-20 A 50,50 0 0,1 40,-20"/>
+
+  <!-- Hot air balloon -->
+  <g id="balloon">
+    <circle cx="0" cy="0" r="30" fill="#DA70D6"/>
+    <path d="M 0,-30 Q -50,-50 0,-70 Q 50,-50 0,-30"/>
+    <rect x="-20" y="-80" width="40" height="10" fill="#FFC300"/>
+
+    <!-- Animations -->
+    <animateTransform attributeName="transform" type="scale" values="1;2;1" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="d" values="M 0,-30 Q -50,-50 0,-70 Q 50,-50 0,-30; M 0,-40 Q -60,-60 0,-80 Q 60,-60 0,-40" dur="10s" repeatCount="indefinite"/>
+  </g>
+</svg>

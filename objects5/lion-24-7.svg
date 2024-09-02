@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+<!-- Pathways -->
+<rect x="100" y="150" width="300" height="200" fill="none" stroke="#6b4f37"/>
+
+<!-- Lion statues (circles) -->
+<circle cx="200" cy="250" r="80" fill="#d2691e"/>
+<circle cx="320" cy="200" r="70" fill="#d2691e"/>
+
+<!-- Plants and organic forms -->
+
+<!-- Large tree -->
+<path d="M450,180 Q400,50 350,100 Q300,50 250,100 Q200,50 150,100 Q100,50 50,100 Q0,150 50,200 Q100,250 150,300 Q200,350 250,400 Z" fill="url(#tree-fill)"/>
+
+<!-- Small plants -->
+<path d="M180,270 Q200,300 250,270 Q280,300 320,270 Q360,300 400,270" stroke="#3d990a"/>
+
+<!-- Grass -->
+<path d="M100,400 Q150,450 200,450 Q250,450 300,400 Q350,450 400,450 Z" fill="#8dc63f"/>
+
+<!-- Lighting effects -->
+<defs>
+    <linearGradient id="tree-fill" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:rgb(54,73,28);stop-opacity:1"/>
+        <stop offset="100%" style="stop-color:rgb(96,125,53);stop-opacity:1"/>
+    </linearGradient>
+</defs>
+
+<!-- Lions -->
+<path d="M200,275 Q240,280 280,275 Q320,280 360,275" fill="#ffa500"/>
+<path d="M310,225 Q350,230 390,225 Q430,230 470,225" fill="#ffa500"/>
+
+</svg>

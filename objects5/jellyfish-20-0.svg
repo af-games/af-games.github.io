@@ -1,0 +1,22 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="100" r="50" fill="#add8e6" stroke="#add8e6"/>
+
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <path d="M100,70 A30,30 0 1,0 100,140" fill="#b279ff"/>
+    <use href="#tentacleTemplate" transform="rotate(45, 100, 100)"/>
+    <use href="#tentacleTemplate" transform="rotate(90, 100, 100)"/>
+    <use href="#tentacleTemplate" transform="rotate(135, 100, 100)"/>
+    <use href="#tentacleTemplate" transform="rotate(180, 100, 100)"/>
+    <use href="#tentacleTemplate" transform="rotate(225, 100, 100)"/>
+    <use href="#tentacleTemplate" transform="rotate(270, 100, 100)"/>
+    <use href="#tentacleTemplate" transform="rotate(315, 100, 100)"/>
+  </g>
+
+  <!-- Tentacle Template -->
+  <path id="tentacleTemplate" d="M100,70 Q90,120 100,140"/>
+
+  <!-- Mouth and Manubrium -->
+  <circle cx="100" cy="180" r="5" fill="#3d1c02"/>
+</svg>

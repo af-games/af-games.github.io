@@ -1,0 +1,14 @@
+<svg id="castle" width="500" height="400">
+  <!-- Castle walls -->
+  <rect x="100" y="300" width="200" height="100"/>
+
+  <!-- Towers -->
+  <circle cx="75" cy="100" r="50"/>
+  <circle cx="325" cy="100" r="50"/>
+
+  <!-- Flag on the left tower -->
+  <rect x="45" y="80" width="25" height="60" id="flag"/>
+
+  <!-- Gate -->
+  <rect x="175" y="300" width="50" height="100" id="gate"/>
+</svg>

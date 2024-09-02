@@ -1,0 +1,19 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Igloo -->
+<circle cx="500" cy="600" r="200" fill="white"/>
+<path d="M500,600 A200,200 0 1 0 500,400" stroke="black"/>
+
+<!-- Entrance Tunnel -->
+<path d="M450,600 Q500,750 550,600 H600 V350 H450 Z" fill="white" stroke="black"/>
+
+<!-- Surrounding Wall -->
+<rect x="-200" y="-150" width="400" height="300" fill="lightgrey"/>
+<line x1="-200" y1="150" x2="200" y2="150" stroke="black"/>
+
+<!-- Scale Transformation -->
+<g transform="scale(1.2)">
+  <!-- All elements will be scaled up by 20% here -->
+</g>
+
+</svg>

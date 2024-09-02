@@ -1,0 +1,19 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Rivers -->
+  <path d="M100,700 Q300,650 600,700 T900,700 T1200,650" stroke="#AEC6CF" fill="transparent"/>
+
+  <!-- Land and forests -->
+  <rect width="1200" height="800" fill="#D5E1DD"/>
+  <ellipse cx="300" cy="400" rx="150" ry="75" fill="#32CD32"/>
+  <ellipse cx="900" cy="600" rx="150" ry="75" fill="#32CD32"/>
+
+  <!-- Mountains -->
+  <polygon points="400,100 800,100 600,300" fill="#8B7D6C"/>
+  <polygon points="200,200 600,200 400,500" fill="#8B7D6C"/>
+
+  <!-- Treasure chest -->
+  <rect x="1050" y="730" width="50" height="50" rx="25" fill="#CD7F32"/>
+  <polygon points="1075,755 1125,755 1100,800" fill="#CD7F32"/>
+
+</svg>

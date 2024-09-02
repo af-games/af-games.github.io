@@ -1,0 +1,29 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Garden Border -->
+  <rect x="5" y="5" width="590" height="390" style="fill:#8B7D6B;" />
+
+  <!-- Rolling Hills -->
+  <path d="M10,40 Q140,20 290,40 Q440,60 590,40" stroke="#AFAF9F" fill="url(#hillGradient)" stroke-width="3"/>
+
+  <!-- Rivers -->
+  <path d="M10,80 C70,120 220,150 370,80 S520,40 670,80" stroke="#6CA6CD" fill="transparent" stroke-width="5"/>
+
+  <!-- Trees -->
+  <circle cx="150" cy="150" r="60" style="fill:green;stroke:brown;stroke-width:3"/>
+  <circle cx="270" cy="240" r="50" style="fill:green;stroke:brown;stroke-width:3"/>
+  <circle cx="450" cy="180" r="40" style="fill:green;stroke:brown;stroke-width:3"/>
+
+  <!-- Giraffe -->
+  <image href="https://i.imgur.com/6n7zSsM.png" x="200" y="100" width="200" height="300"/>
+
+  <!-- Hill Gradient -->
+  <defs>
+    <linearGradient id="hillGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D8CAB9"/>
+      <stop offset="50%" style="stop-color:#BDBFBF"/>
+      <stop offset="100%" style="stop-color:#AFAF9F"/>
+    </linearGradient>
+  </defs>
+
+</svg>

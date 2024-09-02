@@ -1,0 +1,18 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#87CEEB"/>
+
+  <!-- Balloon envelope -->
+  <ellipse cx="250" cy="170" rx="150" ry="120" fill="#DAA520"/>
+  <path d="M250,90 Q300,60 350,90 Q300,120 250,150 Q200,120 100,90 Z" fill="#DAA520"/>
+
+  <!-- Balloon basket -->
+  <rect x="220" y="370" width="80" height="30" fill="#8B4513"/>
+
+  <!-- Balloon ribbons -->
+  <path d="M190,160 V140 H210 V160 Z M260,160 V140 H280 V160 Z M220,270 V310 H260 V270 Z" fill="#4A4A4A"/>
+
+  <!-- Balloon flame -->
+  <ellipse cx="250" cy="410" rx="20" ry="20" fill="#FF7F50"/>
+
+</svg>

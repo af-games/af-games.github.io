@@ -1,0 +1,13 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+       <!-- Circle for centering -->
+       <circle cx="0" cy="0" r="50" stroke="black" fill="transparent"/>
+
+       <!-- Body -->
+       <ellipse cx="0" cy="0" rx="80" ry="120" stroke="black" fill="white"/>
+
+       <!-- Head -->
+       <circle cx="0" cy="-90" r="40" stroke="black" fill="white"/>
+
+       <!-- Tail fin -->
+       <ellipse cx="0" cy="120" rx="20" ry="60" stroke="black" fill="white"/>
+     </svg>

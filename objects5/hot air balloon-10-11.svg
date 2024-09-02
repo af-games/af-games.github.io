@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Balloon Envelope -->
+  <path d="M400,15 A350,350 0 1 0 400,600 A350,350 0 1 0 400,15" fill="#FFDF00"/>
+
+  <!-- Netting -->
+  <pattern id="netting" patternUnits="userSpaceOnUse" width="20" height="20">
+    <rect width="20" height="20" fill="none"/>
+    <path d="M0,10 L20,0 L0,0 Z M0,20 L20,10 L20,0 Z M10,0 L0,10 L0,20 Z" stroke="#42270C"/>
+  </pattern>
+  <rect x="50" y="15" width="300" height="575" fill="url(#netting)"/>
+
+  <!-- Basket -->
+  <rect x="150" y="600" width="500" height="150" fill="#B98F3D"/>
+
+  <!-- Burner Basket -->
+  <circle cx="400" cy="275" r="75" fill="#FF6E57"/>
+
+  <!-- Ropes & Cords -->
+  <path d="M150,600 Q200,550 300,600" stroke="#CACAA4"/>
+  <path d="M550,600 Q400,550 300,600" stroke="#CACAA4"/>
+
+</svg>

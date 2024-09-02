@@ -1,0 +1,42 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M50,10 Q90,10 140,70 Q190,10 140,20 Z"
+        fill="url(#penguinGradient)" />
+
+  <!-- Head -->
+  <circle cx="140" cy="60" r="30"
+          fill="url(#headGradient)"/>
+
+  <!-- Wing (left) -->
+  <polygon points="75,10 25,80 90,80" fill="#3D7DA0"/>
+  <path d="M90,80 Q70,90 90,100"
+        stroke="#3D7DA0" stroke-width="5"/>
+
+  <!-- Wing (right) -->
+  <polygon points="165,10 145,80 220,80" fill="#3D7DA0"/>
+  <path d="M145,80 Q165,90 145,100"
+        stroke="#3D7DA0" stroke-width="5"/>
+
+  <!-- Legs -->
+  <rect x="120" y="100" width="10" height="60" fill="#A8C5CC"/>
+  <rect x="160" y="100" width="10" height="60" fill="#A8C5CC"/>
+
+  <!-- Belly button -->
+  <circle cx="140" cy="75" r="5" fill="#F39C12"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="penguinGradient" gradientTransform="rotate(90)">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:rgb(204,232,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(79,126,162);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headGradient" gradientTransform="rotate(-90)">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:rgb(187,213,224);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(69,107,140);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

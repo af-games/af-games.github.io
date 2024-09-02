@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#22001a"/>
+
+<!-- Owl's Realm Boundary -->
+<path d="M50 75 Q100 40, 180 75 Q360 120, 480 75 Q640 10, 790 75 Q900 130, 960 75" stroke="#ffd700" fill="transparent"/>
+
+<!-- Major Landmarks (Forts) -->
+<circle cx="220" cy="80" r="40" fill="#fff" stroke="#c33"/>
+<circle cx="600" cy="100" r="35" fill="#fff" stroke="#c33"/>
+
+<!-- Points of Interest (Trees) -->
+<path d="M280 110 Q270 90, 280 80 Q290 90, 280 110" stroke="#3d9970" fill="#3d9970"/>
+<path d="M560 140 Q550 120, 560 110 Q570 120, 560 140" stroke="#3d9970" fill="#3d9970"/>
+
+<!-- Rivers -->
+<path d="M80 200 Q120 160, 180 200 Q300 240, 450 200 Q570 160, 620 200" stroke="#0099ff" fill="transparent"/>
+
+<!-- Roads -->
+<path d="M100 250 L180 320 L260 250 L340 320 L420 250 L500 320 L580 250" stroke="#ffcc33" fill="transparent"/>
+
+<!-- Legend -->
+<text x="10" y="570" font-family="Arial" font-size="16">
+  <tspan fill="#c33">Fort</tspan>
+  <tspan dx="40" dy="20" fill="#3d9970">Tree</tspan>
+  <tspan dx="40" dy="20" fill="#0099ff">River</tspan>
+  <tspan dx="40" dy="20" fill="#ffcc33">Road</tspan>
+</text>
+
+</svg>

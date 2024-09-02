@@ -1,0 +1,28 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="#FFF5E6"/>
+
+  <!-- Igloo (star ingredient) -->
+  <path d="M170,20 A90,90 0 0 1 260,180 A90,90 0 0 1 170,350" fill="#B0E0E6" stroke="#FFFFFF"/>
+
+  <!-- Snow on igloo -->
+  <polygon points="170,40 260,40 215,100" fill="#FFFFFF"/>
+
+  <!-- Tableware: Plate -->
+  <circle cx="350" cy="225" r="80" stroke="#FFA500" stroke-width="5" fill="#FFF5E6"/>
+
+  <!-- Accompaniments: Arctic Berries -->
+  <circle cx="220" cy="170" r="10" fill="#FF385C"/>
+  <circle cx="240" cy="170" r="10" fill="#FF385C"/>
+  <circle cx="260" cy="170" r="10" fill="#FF385C"/>
+
+  <!-- Garnish: Sprinkled Snow -->
+  <polygon points="290,240 330,240 305,260" fill="#FFFFFF"/>
+  <polygon points="290,250 330,250 305,270" fill="#FFFFFF"/>
+
+  <!-- Utensils: Fork -->
+  <path d="M310,240 L310,260 L320,260 Z" stroke="#FFA500" fill="#FFA500"/>
+  <line x1="315" y1="260" x2="315" y2="290" stroke="#FFA500"/>
+
+</svg>

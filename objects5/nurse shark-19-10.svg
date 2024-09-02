@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Shark Outline -->
+  <path id="sharkOutline" d="M100 50 Q150 75, 250 100 Q350 75, 400 100 Q450 75, 500 50 Q550 75, 650 100 Q750 75, 800 50" fill="darkblue"/>
+
+  <!-- Sunlight -->
+  <circle cx="350" cy="200" r="250" fill="yellow" opacity="0.5"/>
+
+  <!-- Shade Areas -->
+  <rect x="0" y="0" width="800" height="600" fill="black" opacity="0.1"/>
+  <rect x="0" y="300" width="800" height="300" fill="white" opacity="0"/>
+
+  <!-- Roses (Circles) -->
+  <circle cx="250" cy="150" r="40" fill="red"/>
+  <circle cx="600" cy="400" r="30" fill="pink"/>
+
+  <!-- Daisies (Ellipses) -->
+  <ellipse cx="150" cy="250" rx="35" ry="25" fill="white"/>
+  <ellipse cx="650" cy="450" rx="45" ry="30" fill="white"/>
+
+  <!-- Tulips (Paths) -->
+  <path d="M180 300 Q220 270, 250 320 Q280 270, 320 300" stroke="orange" fill="transparent"/>
+  <path d="M620 430 Q660 410, 700 450 Q740 410, 780 430" stroke="violet" fill="transparent"/>
+
+</svg>

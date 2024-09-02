@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" preserveAspectRatio="xMidYMid meet">
+  <!-- Main body of the quilt -->
+  <rect x="10" y="10" width="480" height="380" fill="#FFE6C7"/>
+
+  <!-- Corner rectangles for folds -->
+  <rect x="5" y="5" width="20" height="20" fill="#FFD9B3"/>
+  <rect x="5" y="375" width="20" height="20" fill="#FFD9B3"/>
+  <rect x="465" y="5" width="20" height="20" fill="#FFD9B3"/>
+  <rect x="465" y="375" width="20" height="20" fill="#FFD9B3"/>
+
+  <!-- Stitch-like patterns -->
+  <polygon points="10,10 10,40 40,10" stroke="#8B4513" fill="transparent"/>
+  <polygon points="470,10 470,40 430,10" stroke="#8B4513" fill="transparent"/>
+  <polygon points="10,370 10,340 40,370" stroke="#8B4513" fill="transparent"/>
+  <polygon points="470,370 470,340 430,370" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Decorative buttons -->
+  <circle cx="250" cy="160" r="40" fill="#FFC98E"/>
+  <circle cx="180" cy="220" r="30" fill="#FFF1D7"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Stage Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#15092B"/>
+
+  <!-- Castle Wall -->
+  <polygon points="400,10 700,150 400,250 100,150"
+           style="fill: url(#castleWallGradient); stroke: black; stroke-width: 3" />
+
+  <!-- Castle Door -->
+  <rect x="300" y="180" width="200" height="150" fill="#6C4D45">
+    <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Castle Window -->
+  <polygon points="500,130 600,130 550,170"
+           style="fill: yellow; stroke: black; stroke-width: 2">
+    <animate attributeName="points" values="500,130 600,130 550,170;550,130 600,130 500,170;" dur="1s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Stage Floor -->
+  <rect x="0" y="300" width="800" height="300" fill="#4E2F2D"/>
+
+  <!-- Throne -->
+  <circle cx="600" cy="450" r="70" fill="url(#throneGradient)">
+    <animate attributeName="r" values="70;80;70" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Stage Lighting -->
+  <linearGradient id="castleWallGradient" x1="400" y1="10" x2="400" y2="250">
+    <stop offset="0%" style="stop-color: #9C7F63; stop-opacity: 1"/>
+    <stop offset="100%" style="stop-color: #5D4E41; stop-opacity: 1"/>
+  </linearGradient>
+
+  <!-- Throne Gradient -->
+  <radialGradient id="throneGradient" cx="600" cy="450" r="70">
+    <stop offset="0%" style="stop-color: #FFD700; stop-opacity: 1"/>
+    <stop offset="100%" style="stop-color: #C29200; stop-opacity: 1"/>
+  </radialGradient>
+
+</svg>

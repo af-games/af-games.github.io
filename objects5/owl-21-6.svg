@@ -1,0 +1,35 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="glassGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(255,238,196);stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:rgb(174,153,107);stop-opacity:1"/>
+        </linearGradient>
+        <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
+            <feOffset dx="5" dy="5" result="offsetblur"/>
+            <feFlood flood-color="black" flood-opacity="0.5"/>
+            <feComposite in2="offsetblur" operator="in"/>
+            <feMerge>
+                <feMergeNode/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Body -->
+    <path d="M350,260 Q400,300 450,260 A100,80 0 0 0 350,200 Z" fill="url(#glassGradient)" filter="url(#shadow)"/>
+
+    <!-- Wings -->
+    <path d="M450,260 Q550,320 600,280 L600,200 Z" fill="url(#glassGradient)" filter="url(#shadow)"/>
+    <path d="M350,260 Q250,320 200,280 L200,200 Z" fill="url(#glassGradient)" filter="url(#shadow)"/>
+
+    <!-- Tail feathers -->
+    <path d="M450,200 Q475,175 500,200 L500,230 Z" fill="url(#glassGradient)" filter="url(#shadow)"/>
+
+    <!-- Eyes -->
+    <circle cx="400" cy="250" r="15" fill="black"/>
+    <circle cx="430" cy="250" r="15" fill="black"/>
+
+    <!-- Beak -->
+    <path d="M420,240 Q460,270 500,240 Z" fill="url(#glassGradient)" filter="url(#shadow)"/>
+</svg>

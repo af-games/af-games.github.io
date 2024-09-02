@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+  <!-- Body -->
+  <path d="M10,30 Q25,20 40,30 Q55,40 35,20 Q25,20 10,30" fill="brown"/>
+
+  <!-- Eyes -->
+  <circle cx="15" cy="25" r="5" fill="white"/>
+  <circle cx="35" cy="25" r="5" fill="white"/>
+
+  <!-- Beak -->
+  <path d="M20,25 Q25,28 30,25 Q35,22 40,25" stroke="orange" fill="transparent"/>
+
+  <!-- Feet -->
+  <rect x="7" y="35" width="10" height="5" fill="brown"/>
+  <rect x="35" y="35" width="10" height="5" fill="brown"/>
+</svg>

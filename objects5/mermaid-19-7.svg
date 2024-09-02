@@ -1,0 +1,16 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+  <g id="mermaid-body">
+    <!-- Paths for mermaid body, face, hair, tail fin -->
+    <path d="M190,25Q185,75 240,120Q290,160 320,200Q340,230 370,255Q390,275 400,290..." fill="lightblue"/>
+    <path d="M250,50Q280,60 290,120Q280,160 250,180Q230,160 220,100Q210,70 250,50" fill="lightblue"/>
+    <!-- Add paths for hair, scales, tail fin patterns -->
+    <path d="M..." fill="darkblue"/>
+    <path d="M..." fill="mediumblue"/>
+    <!-- Continue adding paths for details and shading -->
+
+    <!-- Define the eyes -->
+    <circle cx="270" cy="90" r="15" fill="black"/>
+    <circle cx="300" cy="90" r="15" fill="black"/>
+
+  </g>
+</svg>

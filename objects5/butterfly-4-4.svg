@@ -1,0 +1,22 @@
+<svg>` tags for structure and `<path>` for drawing the shapes. This example uses red (#FF0000) for the wings and black (#000000) for the body, head, and antennae.
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 40 30">
+  <!-- Body -->
+  <path d="M10,5 A5,5 0 1,0 -10,5 A5,5 0 1,0 10,5" fill="black"/>
+
+  <!-- Head -->
+  <circle cx="10" cy="2.5" r="2.5" fill="black"/>
+
+  <!-- Antennae -->
+  <path d="M9,3 L7,-5 M11,3 L13,-5" stroke="black" fill="transparent"/>
+
+  <!-- Wings -->
+  <g>
+    <!-- Left Wing -->
+    <path d="M-20,15 Q-10,20 -20,-10 A40,40 0 0,0 -10,-30 Q-20,-20 -20,15" fill="#FF0000"/>
+
+    <!-- Right Wing -->
+    <path d="M20,15 Q10,20 20,-10 A40,40 0 0,1 10,-30 Q20,-20 20,15" fill="#FF0000"/>
+  </g>
+</svg>

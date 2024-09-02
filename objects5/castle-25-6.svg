@@ -1,0 +1,28 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base Layer -->
+  <rect x="50" y="50" width="400" height="400" fill="#FFFACD"/>
+
+  <!-- Castle Walls -->
+  <polygon points="100,150 200,50 300,150 400,50 400,400 100,400" fill="#FFB6C1"/>
+
+  <!-- Towers & Turrets -->
+  <rect x="75" y="50" width="50" height="200" fill="#FFB6C1"/>
+  <circle cx="90" cy="250" r="30" fill="#FFB6C1"/>
+  <rect x="325" y="50" width="50" height="200" fill="#FFB6C1"/>
+  <circle cx="340" cy="250" r="30" fill="#FFB6C1"/>
+
+  <!-- Windows & Doors -->
+  <circle cx="150" cy="175" r="20" fill="#808080"/>
+  <circle cx="250" cy="175" r="20" fill="#808080"/>
+  <rect x="200" y="300" width="100" height="100" fill="#808080"/>
+
+  <!-- Arches & Details -->
+  <path d="M150,200 Q200,250 250,200" stroke="#FFA500" stroke-width="10"/>
+  <path d="M350,200 Q400,250 450,200" stroke="#FFA500" stroke-width="10"/>
+
+  <!-- Flags -->
+  <polygon points="275,300 300,350 225,350" fill="#FFD700"/>
+  <polygon points="200,300 225,350 150,300" fill="#FFD700"/>
+
+</svg>

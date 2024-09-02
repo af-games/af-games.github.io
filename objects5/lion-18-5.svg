@@ -1,0 +1,28 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Stage Background -->
+  <rect x="10" y="10" width="580" height="380" fill="#f3e5f5" stroke="black"/>
+
+  <!-- Lion Silhouette -->
+  <g id="lion">
+    <circle cx="200" cy="150" r="80" fill="none" stroke="black"/>
+    <path d="M240 70 L260 90 Z" fill="none" stroke="black"/>
+
+    <!-- Strings (Paths) for Limbs -->
+    <path id="limb1" d="M200 150 Q220 80, 240 120"/>
+    <path id="limb2" d="M200 150 Q220 220, 240 180"/>
+
+    <!-- Joints -->
+    <circle cx="220" cy="80" r="5" fill="black"/>
+    <circle cx="240" cy="120" r="5" fill="black"/>
+    <circle cx="220" cy="220" r="5" fill="black"/>
+    <circle cx="240" cy="180" r="5" fill="black"/>
+  </g>
+
+  <!-- Parrot Silhouette -->
+  <g id="parrot">
+    <path d="M350 100 Q370 60, 390 120 Q370 180, 350 140 Z" fill="none" stroke="black"/>
+    <circle cx="370" cy="120" r="20" fill="none" stroke="black"/>
+  </g>
+
+</svg>

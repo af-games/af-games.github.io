@@ -1,0 +1,17 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(180,180,180); stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <g id="owl" fill="url(#glass)" stroke="black" stroke-width="2">
+    <path d="M100 250 Q150 225, 200 250 Q250 300, 300 250 Q300 225, 325 250 Q325 275, 300 275"/>
+    <circle cx="310" cy="220" r="10" fill="black"/>
+    <circle cx="290" cy="220" r="10" fill="black"/>
+    <path d="M275 235 Q285 245, 295 235 Q305 245, 315 235"/>
+    <path d="M125 275 Q135 285, 125 295"/>
+    <path d="M300 275 Q290 285, 300 295"/>
+  </g>
+</svg>

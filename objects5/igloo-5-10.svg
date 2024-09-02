@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100" preserveAspectRatio="xMidYMid meet">
+  <!-- Igloo -->
+  <path id="igloo" d="M-40,-20 a20,20 0 1,0 80,0 a20,20 0 1,0 -80,0 z" fill="#FFF" stroke="#CCC"/>
+
+  <!-- Snowflakes -->
+  <g id="snowflakes">
+    <circle cx="-30" cy="30" r="5" fill="#FFF"/>
+    <circle cx="30" cy="-30" r="5" fill="#FFF"/>
+  </g>
+
+  <!-- Northern Lights -->
+  <defs>
+    <linearGradient id="northernLights" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#AAF; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8FF; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect id="northernLightsRect" x="-40" y="-20" width="80" height="60" fill="url(#northernLights)"/>
+
+  <!-- Animations -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 0"
+    to="360 0"
+    dur="15s"
+    repeatCount="indefinite"
+    id="iglooRotation"/>
+
+  <animateMotion
+    repeatCount="indefinite"
+    dur="8s">
+    <mpath href="#snowflakePath"/>
+  </animate>
+
+  <animate
+    attributeName="opacity"
+    from="0" to="1" begin="5s" dur="2s" fill="freeze" id="northernLightsFadeIn"/>
+
+  <!-- Snowflake path -->
+  <path id="snowflakePath" d="M-30,30 Q0,-20 30,-30 Q60,-20 30,30"/>
+
+</svg>

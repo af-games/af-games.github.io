@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#ECE9D8"/>
+
+<!-- Hills -->
+<path d="M100,400 Q200,500 300,400 Q400,500 500,400 Q600,500 700,400" fill="#C8BFAF" stroke="none"/>
+
+<!-- River -->
+<path d="M120,520 Q250,580 380,520 Q510,580 640,520" stroke="#AEC6CD" stroke-width="3" fill="transparent"/>
+<path d="M120,520 Q250,580 380,520 Q510,580 640,520" stroke="none" fill="#EDEFF3"/>
+
+<!-- Trees -->
+<circle cx="70" cy="200" r="40" fill="#90C2AF"/>
+<circle cx="220" cy="180" r="35" fill="#90C2AF"/>
+<circle cx="400" cy="210" r="45" fill="#90C2AF"/>
+<circle cx="600" cy="190" r="40" fill="#90C2AF"/>
+
+<!-- Jellyfish -->
+<ellipse cx="350" cy="350" rx="80" ry="100" fill="url(#jellyfishGradient)" stroke="#fff"/>
+<ellipse cx="450" cy="320" rx="60" ry="90" fill="url(#jellyfishGradient)" stroke="#fff"/>
+<ellipse cx="280" cy="370" rx="70" ry="100" fill="url(#jellyfishGradient)" stroke="#fff"/>
+
+<!-- Jellyfish Gradient -->
+<defs>
+    <linearGradient id="jellyfishGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color: #FF7F50; stop-opacity: 1"/>
+        <stop offset="100%" style="stop-color: #FFF6E0; stop-opacity: 1"/>
+    </linearGradient>
+</defs>
+
+</svg>

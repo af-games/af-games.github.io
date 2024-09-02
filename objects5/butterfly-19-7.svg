@@ -1,0 +1,15 @@
+<svg width="500px" height="500px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Unexplored lands -->
+  <rect x="0" y="0" width="500" height="500" fill="white"/>
+
+  <!-- Explored paths -->
+  <path d="M10,10 L490,490" stroke="black" fill="transparent"/>
+  <path d="M50,50 Q250,50 450,250" stroke="blue" fill="transparent"/>
+
+  <!-- Landmarks -->
+  <circle cx="100" cy="100" r="30" fill="red"/>
+  <circle cx="300" cy="200" r="20" fill="green"/>
+  <circle cx="450" cy="400" r="40" fill="yellow"/>
+
+</svg>

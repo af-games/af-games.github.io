@@ -1,0 +1,86 @@
+<svg width="800" height="600" style="background-color: #f0f0f0;" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Plant seeds**
+
+Let's start with a simple T-Rex outline using rectangles for the body, circles for the head and eyes, and lines for the limbs.
+
+```svg
+  <!-- Body -->
+  <rect id="body" x="150" y="300" width="200" height="300"/>
+
+  <!-- Head -->
+  <circle id="head" cx="275" cy="250" r="50"/>
+
+  <!-- Eyes -->
+  <circle id="eye1" cx="240" cy="225" r="5"/>
+  <circle id="eye2" cx="310" cy="225" r="5"/>
+
+  <!-- Limbs -->
+  <line id="arm1" x1="170" y1="450" x2="190" y2="550"/>
+  <line id="arm2" x1="330" y1="450" x2="310" y2="550"/>
+
+  <!-- Legs -->
+  <line id="leg1" x1="170" y1="650" x2="190" y2="750"/>
+  <line id="leg2" x1="330" y1="650" x2="310" y2="750"/>
+
+```
+
+3. **Water and nurture seeds (Apply transforms)**
+
+Let's rotate the body slightly, scale up the head, translate the eyes, and adjust the limbs.
+
+```svg
+  <!-- Body rotation -->
+  <g transform="rotate(10 250 450)">
+    <use xlink:href="#body"/>
+  </g>
+
+  <!-- Head scaling -->
+  <circle id="head" cx="275" cy="250" r="60"/>
+
+  <!-- Eyes translation -->
+  <circle id="eye1" cx="230" cy="220" r="5"/>
+  <circle id="eye2" cx="290" cy="220" r="5"/>
+
+  <!-- Limbs adjustment -->
+  <line id="arm1" x1="160" y1="450" x2="180" y2="570"/>
+  <line id="arm2" x1="340" y1="450" x2="320" y2="570"/>
+  <line id="leg1" x1="160" y1="650" x2="180" y2="800"/>
+  <line id="leg2" x1="340" y1="650" x2="320" y2="800"/>
+
+```
+
+4. **Prune unnecessary elements**
+
+We'll remove the original, untransformed shapes since we're using the transformed ones.
+
+```svg
+  <!-- Removed: body, eye1, eye2, arm1, arm2, leg1, leg2 -->
+
+```
+
+5. **Write out SVG code**
+
+Here's our final SVG code:
+
+```svg
+<svg width="800" height="600" style="background-color: #f0f0f0;" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body rotation -->
+  <g transform="rotate(10 250 450)">
+    <use xlink:href="#body"/>
+  </g>
+
+  <!-- Head scaling -->
+  <circle id="head" cx="275" cy="250" r="60"/>
+
+  <!-- Eyes translation -->
+  <circle id="eye1" cx="230" cy="220" r="5"/>
+  <circle id="eye2" cx="290" cy="220" r="5"/>
+
+  <!-- Limbs adjustment -->
+  <line id="arm1" x1="160" y1="450" x2="180" y2="570"/>
+  <line id="arm2" x1="340" y1="450" x2="320" y2="570"/>
+  <line id="leg1" x1="160" y1="650" x2="180" y2="800"/>
+  <line id="leg2" x1="340" y1="650" x2="320" y2="800"/>
+</svg>

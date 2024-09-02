@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- In the Deep Blue Sea -->
+  <circle cx="150" cy="150" r="50" fill="#007FFF"/>
+  <text x="10" y="30" font-size="20">Once upon a time, in the deep blue sea...</text>
+
+  <!-- Meeting the Wise Octopus -->
+  <rect x="350" y="120" width="100" height="70" fill="#FF6F61"/>
+  <polyline points="400,80 450,150 350,150" stroke="#000" fill="transparent"/>
+  <text x="250" y="200">...a lonely jellyfish met a wise old octopus.</text>
+
+  <!-- Expressing His Wish -->
+  <circle cx="150" cy="300" r="50" fill="#007FFF"/>
+  <path d="M150,280 Q160,290 170,300 H140 Z" stroke="#000" fill="transparent"/>
+  <text x="280" y="300">I wish I could dance like the seaweed in the current.</text>
+
+  <!-- The Octopus's Gift -->
+  <circle cx="450" cy="270" r="15" fill="#FFD700"/>
+  <polyline points="420,300 450,270 480,300" stroke="#000" fill="transparent"/>
+  <text x="200" y="350">The wise octopus gave him a magic stone...</text>
+
+  <!-- Learning to Dance -->
+  <circle cx="150" cy="450" r="50" fill="#007FFF"/>
+  <path d="M130,420 Q160,450 190,480 Q220,450 250,420 Z" stroke="#000" fill="transparent"/>
+  <text x="270" y="450">...and the jellyfish began to practice its newfound dance.</text>
+
+  <!-- Performing for Friends -->
+  <circle cx="150" cy="450" r="50" fill="#007FFF"/>
+  <circle cx="220" cy="430" r="30" fill="#FF6F61"/>
+  <rect x="280" y="420" width="40" height="50" fill="#90C3D4"/>
+  <text x="350" y="500">The jellyfish showed off its beautiful dance...</text>
+
+  <!-- Happily Ever After -->
+  <circle cx="150" cy="520" r="50" fill="#007FFF"/>
+  <circle cx="220" cy="500" r="30" fill="#FF6F61"/>
+  <rect x="280" y="490" width="40" height="50" fill="#90C3D4"/>
+  <circle cx="350" cy="520" r="20" fill="#FFF"/>
+  <text x="10" y="600">...and they all lived happily ever after in their dancing sea.</text>
+
+</svg>

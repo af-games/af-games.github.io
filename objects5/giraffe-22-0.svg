@@ -1,0 +1,25 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="150" cy="120" rx="100" ry="100" fill="brown" />
+
+  <!-- Neck -->
+  <ellipse cx="150" cy="80" rx="60" ry="30" fill="brown"/>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="40" rx="30" ry="30" fill="brown"/>
+
+  <!-- Legs -->
+  <rect x="70" y="220" width="60" height="120" fill="brown"/>
+  <rect x="210" y="220" width="60" height="120" fill="brown"/>
+
+  <!-- Feet -->
+  <circle cx="75" cy="340" r="20" fill="brown"/>
+  <circle cx="215" cy="340" r="20" fill="brown"/>
+
+  <!-- Spots (random placement for simplicity) -->
+  <circle cx="90" cy="180" r="5" fill="cream"/>
+  <circle cx="160" cy="220" r="5" fill="cream"/>
+  <circle cx="230" cy="140" r="5" fill="cream"/>
+
+</svg>

@@ -1,0 +1,30 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dolphins -->
+  <g id="dolphins">
+    <path d="M100,50 Q150,75 200,50 Q150,25 100,50" fill="url(#dolphinGradient)" stroke="black"/>
+    <path d="M100,60 A40,40 0 0 0 100,30" fill="url(#dolphinGradient)"/>
+    <path d="M200,60 A40,40 0 0 0 200,30" fill="url(#dolphinGradient)"/>
+  </g>
+
+  <!-- Waves -->
+  <g id="waves">
+    <path d="M50,180 Q75,160 100,180" fill="url(#waveGradient)" stroke="black"/>
+    <path d="M125,190 Q150,170 175,190" fill="url(#waveGradient)" stroke="black"/>
+    <path d="M200,200 Q225,180 250,200" fill="url(#waveGradient)" stroke="black"/>
+  </g>
+
+  <!-- Bubbles -->
+  <circle cx="75" cy="160" r="5" fill="#B5EAD7"/>
+  <circle cx="150" cy="170" r="5" fill="#B5EAD7"/>
+  <circle cx="225" cy="180" r="5" fill="#B5EAD7"/>
+
+  <!-- Gradients -->
+  <linearGradient id="dolphinGradient" gradientTransform="rotate(90)">
+    <stop offset="0%" style="stop-color:#B5EAD7"/>
+    <stop offset="100%" style="stop-color:#68C0DA"/>
+  </linearGradient>
+  <linearGradient id="waveGradient">
+    <stop offset="0%" style="stop-color:#B5EAD7"/>
+    <stop offset="100%" style="stop-color:#FFFFFF"/>
+  </linearGradient>
+</svg>

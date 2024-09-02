@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Jellyfish Bell -->
+  <circle cx="100" cy="100" r="50" fill="url(#grad1)">
+    <animate attributeName="r" values="50;60;50" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Jellyfish Tentacles -->
+  <g id="tentacles">
+    <path d="M95,75 Q140,85 190,75" stroke="#338DAC" fill="transparent"/>
+    <animateTransform attributeName="transform" type="translate" values="0,-20;0,20;0,-20" dur="2s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F2D45;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B3CDE3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

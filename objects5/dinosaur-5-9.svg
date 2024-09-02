@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tribal Pattern -->
+  <defs>
+    <pattern id="tribalPattern" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="2" height="2" fill="#CD7F32"/>
+      <rect x="2" y="2" width="2" height="2" fill="#008080"/>
+    </pattern>
+  </defs>
+
+  <!-- Dinosaur's body -->
+  <ellipse cx="400" cy="350" rx="200" ry="150" fill="#CD7F32"/>
+  <path d="M350,250 Q250,200 150,250 Q250,300 350,350" stroke="#8B4513" fill="none"/>
+
+  <!-- Outfit: Torso -->
+  <rect x="150" y="200" width="500" height="150" fill="#FFFDD0"/>
+  <rect x="175" y="225" width="450" height="100" fill="#CD7F32" pattern="url(#tribalPattern)"/>
+
+  <!-- Outfit: Legs -->
+  <path d="M180,350 Q200,450 320,450 Q400,350 420,350" stroke="#8B4513" fill="#FFFDD0"/>
+  <path d="M680,350 Q600,450 500,450 Q380,350 320,350" stroke="#8B4513" fill="#FFFDD0"/>
+
+  <!-- Outfit: Arms -->
+  <path d="M180,250 Q200,150 320,150 Q400,250 420,250" stroke="#8B4513" fill="#FFFDD0"/>
+  <path d="M680,250 Q600,150 500,150 Q380,250 420,250" stroke="#8B4513" fill="#FFFDD0"/>
+
+  <!-- Accessory: Collar -->
+  <circle cx="400" cy="275" r="75" stroke="#8B4513" fill="#CD7F32"/>
+</svg>

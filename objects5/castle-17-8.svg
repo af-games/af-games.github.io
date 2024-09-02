@@ -1,0 +1,28 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main Tower -->
+  <rect x="100" y="50" width="300" height="200" rx="50" fill="#8B4513"/>
+
+  <!-- Turrets -->
+  <circle cx="75" cy="125" r="50" fill="#8B4513"/>
+  <circle cx="325" cy="125" r="50" fill="#8B4513"/>
+
+  <!-- Gatehouse -->
+  <rect x="175" y="250" width="150" height="100" rx="10" fill="#C09D71"/>
+  <path d="M175,350 Q262.5,300 325,350" stroke="#4A4A4A"/>
+
+  <!-- Walls -->
+  <rect x="50" y="50" width="20" height="200" fill="#A9A9A9"/>
+  <rect x="410" y="50" width="20" height="200" fill="#A9A9A9"/>
+
+  <!-- Roof Line -->
+  <line x1="75" y1="300" x2="325" y2="300" stroke="#4A4A4A"/>
+
+  <!-- Wall Lines -->
+  <line x1="50" y1="50" x2="50" y2="250" stroke="#4A4A4A"/>
+  <line x1="410" y1="50" x2="410" y2="250" stroke="#4A4A4A"/>
+
+  <!-- Doorway Line -->
+  <line x1="275" y1="350" x2="275" y2="250" stroke="#4A4A4A"/>
+
+</svg>

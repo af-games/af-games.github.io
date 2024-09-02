@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2010/svg" viewBox="0 0 500 400">
+    <g id="castle">
+        <!-- Castle walls -->
+        <rect x="100" y="200" width="300" height="200" fill="#8B7D6B"/>
+        <!-- Turrets -->
+        <circle cx="150" cy="400" r="50" fill="#8B7D6B"/>
+        <circle cx="350" cy="400" r="50" fill="#8B7D6B"/>
+        <!-- Drawbridge (initially closed) -->
+        <rect id="drawbridge" x="120" y="400" width="260" height="40" fill="#C09E83"/>
+        <!-- Gate (closed) -->
+        <path id="gate" d="M270,400 H330 V360 H270 Z" fill="#C09E83"/>
+    </g>
+</svg>

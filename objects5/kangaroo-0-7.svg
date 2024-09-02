@@ -1,0 +1,81 @@
+<svg>` canvas.
+
+*Gathered resources:*
+- A large ellipse for the body (`<ellipse>`)
+- Two smaller ellipses for the head (`<ellipse>`) and pouch (`<ellipse>`)
+- Four rectangles for the limbs (`<rect>`)
+- Two circles for the eyes (`<circle>`)
+
+**Day 2:**
+
+Started sketching the kangaroo's body.
+
+*SVG code:*
+```xml
+<ellipse cx="50" cy="100" rx="80" ry="60" fill="#F3DE7E"/>
+```
+
+**Day 3:**
+
+Added the head and pouch, refined the body shape by merging ellipses with `<path>`.
+
+*SVG code:*
+```xml
+<ellipse cx="50" cy="120" rx="40" ry="30" fill="#F3DE7E"/>
+<ellipse cx="65" cy="170" rx="25" ry="20" fill="#FFFFFF"/>
+
+<!-- Body refinement -->
+<path d="M 30,90 Q 60,80 90,90 T 110,90 Q 90,110 60,110 Q 30,90 Z" fill="#F3DE7E"/>
+```
+
+**Day 4:**
+
+Attached limbs and refined the overall shape.
+
+*SVG code:*
+```xml
+<rect x="25" y="180" width="50" height="60" fill="#A36C29"/>
+<rect x="65" y="180" width="50" height="60" fill="#A36C29"/>
+
+<!-- Front limbs -->
+<rect x="40" y="210" width="10" height="40" fill="#A36C29"/>
+<rect x="70" y="210" width="10" height="40" fill="#A36C29"/>
+```
+
+**Day 5:**
+
+Added eyes and final touches, marked the path back home with comments.
+
+*SVG code:*
+```xml
+<!-- Eyes -->
+<circle cx="45" cy="80" r="10" fill="#000"/>
+<circle cx="75" cy="80" r="10" fill="#000"/>
+
+<!-- Tail (not marked earlier) -->
+<path d="M 65,130 Q 75,140 65,150" stroke="#A36C29" stroke-width="5"/>
+```
+
+**Final SVG:**
+```xml
+<svg viewBox="0 0 120 200">
+    <!-- Body -->
+    <path d="M 30,90 Q 60,80 90,90 T 110,90 Q 90,110 60,110 Q 30,90 Z" fill="#F3DE7E"/>
+    <!-- Head -->
+    <ellipse cx="50" cy="120" rx="40" ry="30" fill="#F3DE7E"/>
+    <!-- Pouch -->
+    <ellipse cx="65" cy="170" rx="25" ry="20" fill="#FFFFFF"/>
+
+    <!-- Limbs -->
+    <rect x="25" y="180" width="50" height="60" fill="#A36C29"/>
+    <rect x="65" y="180" width="50" height="60" fill="#A36C29"/>
+    <rect x="40" y="210" width="10" height="40" fill="#A36C29"/>
+    <rect x="70" y="210" width="10" height="40" fill="#A36C29"/>
+
+    <!-- Eyes -->
+    <circle cx="45" cy="80" r="10" fill="#000"/>
+    <circle cx="75" cy="80" r="10" fill="#000"/>
+
+    <!-- Tail -->
+    <path d="M 65,130 Q 75,140 65,150" stroke="#A36C29" stroke-width="5"/>
+</svg>

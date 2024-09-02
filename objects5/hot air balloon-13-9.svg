@@ -1,0 +1,17 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Scene 1: A Lonely Balloon Maker -->
+  <rect x="50" y="50" width="300" height="400" fill="#f2e6d8"/>
+  <circle cx="150" cy="200" r="70" fill="#d2b48c"/>
+  <circle cx="120" cy="300" r="30" fill="#d2b48c"/>
+  <text x="50" y="50">A lonely balloon maker...</text>
+
+  <!-- Scene 2: Birth of the Hot Air Balloon -->
+  <rect x="300" y="100" width="500" height="400" fill="#f2e6d8"/>
+  <rect x="350" y="150" width="400" height="200" fill="#ffcc00"/>
+  <circle cx="450" cy="275" r="50" fill="#d2b48c"/>
+  <circle cx="420" cy="375" r="25" fill="#d2b48c"/>
+  <text x="320" y="75">Birth of the hot air balloon...</text>
+
+  <!-- More scenes follow similar patterns... -->
+
+</svg>

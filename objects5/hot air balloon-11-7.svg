@@ -1,0 +1,52 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#FFF7E7" />
+
+<!-- Mountains -->
+<polyline points="10,50 190,20 340,50 10,200" fill="#C0C0C0" stroke="black"/>
+<text x="100" y="60">Gryphon's Peak</text>
+
+<!-- Rivers -->
+<path d="M400,50 Q500,100 600,50 Q700,200 800,50" stroke="#3D9970" fill="transparent"/>
+<text x="600" y="70">Aerium River</text>
+
+<!-- Forests -->
+<rect x="10" y="200" width="400" height="200" fill="#8ACB8A"/>
+<text x="200" y="350">Whisperwood Forest</text>
+
+<!-- Balloon Regions -->
+<circle cx="600" cy="300" r="150" stroke="black" fill="url(#balloonGrad)"/>
+<defs>
+  <radialGradient id="balloonGrad" cx="600" cy="300" r="150">
+    <stop offset="0%" stop-color="#FFD700"/>
+    <stop offset="100%" stop-color="#FFA500"/>
+  </radialGradient>
+</defs>
+<text x="640" y="280">Hot Air Balloon City</text>
+
+<!-- Cities -->
+<rect x="500" y="400" width="200" height="100" fill="#F39C11"/>
+<text x="600" y="500">Sunshine Town</text>
+
+<!-- Sea -->
+<path d="M800,50 Q700,200 600,450 Q500,200 400,50" stroke="#3D9970" fill="#ADD8E6"/>
+<text x="500" y="480">SkySea</text>
+
+<!-- Clouds -->
+<circle cx="150" cy="150" r="80" fill="#FFFFFF"/>
+<circle cx="250" cy="180" r="70" fill="#FFFFFF"/>
+
+<!-- Legend -->
+<rect x="720" y="40" width="60" height="40" fill="#C0C0C0"/>
+<text x="740" y="60">Mountains</text>
+<circle cx="780" cy="150" r="10" fill="#3D9970"/>
+<text x="800" y="150">Rivers & Sea</text>
+<rect x="720" y="200" width="60" height="40" fill="#8ACB8A"/>
+<text x="740" y="220">Forests</text>
+<circle cx="780" cy="300" r="15" stroke="black" fill="url(#balloonGrad)"/>
+<text x="740" y="320">Balloon Regions</text>
+<rect x="720" y="360" width="60" height="40" fill="#F39C11"/>
+<text x="740" y="380">Cities</text>
+
+</svg>

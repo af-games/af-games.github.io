@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Perimeter -->
+  <rect x="50" y="50" width="700" height="400" style="fill:lightgray;stroke-width:1;" />
+
+  <!-- Museum case perimeter -->
+  <rect x="200" y="200" width="300" height="200" style="fill:whitesmoke;stroke-width:1;" />
+
+  <!-- Lion suspect -->
+  <path d="M450,170 Q400,140 350,170 Q400,200 450,170" style="fill:orange;stroke-width:1;" />
+  <circle cx="450" cy="170" r="30" style="fill:black" /> <!-- Eye -->
+
+  <!-- Clues -->
+  <circle cx="320" cy="280" r="20" style="fill:red" /> <!-- Blood stain (clue 1) -->
+  <path d="M325,275 Q350,260 375,275" stroke="blue" fill="transparent" /> <!-- Footprint leading to case -->
+
+  <path d="M420,280 A30,30 0 1,0 490,280 A30,30 0 1,0 420,280" stroke="brown" fill="transparent" /> <!-- Paw print (lion's path) -->
+
+  <rect x="250" y="375" width="50" height="50" style="fill:green;stroke-width:1;" /> <!-- Evidence marker (clue 2) -->
+  <circle cx="480" cy="350" r="15" style="fill:yellow" /> <!-- Broken glass (clue 3) -->
+
+  <!-- Suspects & motives interaction -->
+  <text x="650" y="100" font-family="Verdana" font-size="24">Suspects & Motives:</text>
+  <text x="650" y="150" font-family="Verdana" font-size="24">- **Lion**: Stepped on glass, leaving paw prints and blood stain.</text>
+  <text x="650" y="200" font-family="Verdana" font-size="24">- **Museum**: Case broken, treasure stolen. Evidence marker found near case.</text>
+
+</svg>

@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define the castle pattern -->
+  <defs>
+    <pattern id="castlePattern" patternUnits="userSpaceOnUse" width="150" height="150">
+      <rect x="0" y="0" width="150" height="150" fill="#87CEEB"/>
+      <polygon points="30,20 90,20 140,60 140,120 90,160 30,160" fill="#FFFFFF" stroke="#000000" stroke-width="5"/>
+      <circle cx="75" cy="85" r="50" fill="#FFC1C1" gradientUnits="userSpaceOnUse">
+        <radialGradient id="castleGradient" cx="75" cy="85" r="75">
+          <stop offset="0%"  style="stop-color: #FF69B4; stop-opacity: 1"/>
+          <stop offset="100%" style="stop-color: #FFFFFF; stop-opacity: 1"/>
+        </radialGradient>
+      </circle>
+    </pattern>
+  </defs>
+
+  <!-- Create the garden -->
+  <rect x="50" y="50" width="600" height="400" fill="url(#castlePattern)"/>
+
+  <!-- Paths connecting castles -->
+  <path d="M100,150 Q200,75 300,150 Q400,225 500,150" stroke="#000000" fill="transparent"/>
+
+</svg>

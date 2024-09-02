@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Lion -->
+<g id="lion">
+  <!-- Rhythm: Circle beats -->
+  <circle cx="400" cy="300" r="50" fill="#FFA500"/>
+  <animateMotion repeatCount="indefinite" dur="1s" attributeName="rotate">
+    <mpath href="#lion-beat" />
+  </animateMotion>
+
+  <!-- Beat: Rectangles -->
+  <rect x="320" y="400" width="60" height="50" fill="none" stroke="#FFA500"/>
+  <rect x="380" y="400" width="60" height="50" fill="none" stroke="#FFA500"/>
+
+  <!-- Mane: Intricate paths -->
+  <path id="lion-mane" d="M270,150 Q350,100 430,150 T550,200 T670,150 Q550,100 430,150 Z"/>
+</g>
+
+<!-- Hyena (Harmony) -->
+<g id="hyena">
+  <!-- Paths for harmony notes -->
+  <path d="M100,250 C200,200 300,250 400,300" stroke="#FFC300"/>
+  <path d="M150,280 Q250,350 350,300 T450,350 Q350,300 250,280 Z"/>
+</g>
+
+<!-- Vultures (Bass) -->
+<g id="vultures">
+  <!-- Paths for bass notes -->
+  <path d="M600,450 C700,400 800,450 700,500" stroke="#9C27B0"/>
+  <path d="M650,480 Q750,550 850,500 T750,550 Q650,480 550,450 Z"/>
+</g>
+
+<!-- Lion Beat Path -->
+<path id="lion-beat" d="M320,400 L380,400"/>
+
+</svg>

@@ -1,0 +1,17 @@
+<svg width="200" height="140" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bell (main body) -->
+  <circle id="bell-main" cx="50" cy="20" r="30" fill="pink" stroke="black"/>
+
+  <!-- Pulsating bells -->
+  <circle cx="20" cy="60" r="15" fill="pink" stroke="black"/>
+  <circle cx="80" cy="60" r="15" fill="pink" stroke="black"/>
+  <circle cx="20" cy="0" r="15" fill="pink" stroke="black"/>
+  <circle cx="80" cy="0" r="15" fill="pink" stroke="black"/>
+
+  <!-- Tentacles -->
+  <path d="M70,40 Q90,60 95,35" stroke="black" fill="transparent"/>
+  <path d="M85,35 Q105,50 110,25" stroke="black" fill="transparent"/>
+  <!-- Add more tentacles following the spiral pattern -->
+
+</svg>

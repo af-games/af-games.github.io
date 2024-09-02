@@ -1,0 +1,20 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Igloo base -->
+  <circle id="igloo-base" cx="100" cy="300" r="80" fill="#4A4A4A"/>
+  <!-- Igloo dome -->
+  <path id="igloo-dome" d="M100,50 Q70,200 100,350" stroke-linecap="round" fill="#4A4A4A"/>
+  <!-- Entrance -->
+  <rect id="entrance" x="85" y="300" width="20" height="50" rx="10" ry="10" fill="#4A4A4A"/>
+
+  <!-- Animation for snow falling off igloo dome -->
+  <animateMotion id="snowfall" from="0,0" to="180,390" dur="2s" repeatCount="indefinite">
+    <mpath href="#igloo-dome"/>
+  </animateMotion>
+
+  <!-- Animation for entrance door opening and closing -->
+  <set attributeName="height" from="50" to="60" begin="doorOpen();" fill="freeze" />
+  <animate id="doorAnim" attributeName="height" values="60;50" dur="1s" repeatCount="indefinite">
+    <set attributeType="xml" from="0%" to="100%" attributeName="visibility" begin="doorClose();"/>
+  </animate>
+
+</svg>

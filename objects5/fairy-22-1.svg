@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 64">
+  <!-- Fairy Body -->
+  <path d="M24,16c-9.9,0-18,8.1-18,18s8.1,18,18,18s18,-8.1,18,-18S33.9,16,24,16z" fill="#ffdbba"/>
+  <circle cx="24" cy="30" r="6" fill="#ffa64d"/>
+
+  <!-- Fairy Wings -->
+  <path d="M16,5c-3.8,0-7,3.2-7,7v12h14V12c0,-3.8,3.2,-7,7,-7H16z" fill="#ffdbba"/>
+  <path d="M31,5c-3.8,0-7,3.2-7,7v12h14V12c0,-3.8,3.2,-7,7,-7H31z" fill="#ffdbba"/>
+
+  <!-- Fairy Wand -->
+  <path d="M16,50l14,0l2,-14h-16z" stroke="#ffa64d" fill="transparent"/>
+</svg>

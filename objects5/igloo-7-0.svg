@@ -1,0 +1,25 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="250" fill="#ADD8E6"/>
+
+  <!-- Ground -->
+  <rect x="0" y="175" width="200" height="75" fill="#8B4513"/>
+
+  <!-- Igloo outer dome -->
+  <circle cx="100" cy="125" r="90" fill="white"/>
+
+  <!-- Igloo inner dome -->
+  <circle cx="100" cy="125" r="75" fill="#4D84A6"/>
+
+  <!-- Doorway cutout -->
+  <polygon points="70,130 130,130 90,150" fill="white"/>
+
+  <!-- Roof details (smoke holes) -->
+  <circle cx="70" cy="80" r="5" fill="black"/>
+  <circle cx="130" cy="80" r="5" fill="black"/>
+
+  <!-- Entryway -->
+  <polygon points="90,160 70,175 110,175" fill="white"/>
+
+</svg>

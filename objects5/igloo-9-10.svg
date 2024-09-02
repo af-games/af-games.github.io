@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+
+  <!-- Beats -->
+  <circle cx="50" cy="150" r="40" fill="#90EE90" />
+  <circle cx="250" cy="150" r="40" fill="#FFB65C" />
+  <circle cx="450" cy="150" r="40" fill="#87CEEB" />
+  <circle cx="650" cy="150" r="40" fill="#D197E2" />
+
+  <!-- Transitions -->
+  <path d="M50,150 A30,30 0 0 0 250,150" stroke-width="10" stroke="#FFFFFF"/>
+  <path d="M250,150 A30,30 0 0 0 450,150" stroke-width="10" stroke="#FFFFFF"/>
+  <path d="M450,150 A30,30 0 0 0 650,150" stroke-width="10" stroke="#FFFFFF"/>
+
+  <!-- Igloo -->
+  <ellipse cx="400" cy="200" rx="180" ry="240" fill="#FFFFFF"/>
+  <circle cx="400" cy="370" r="60" fill="#A9A9A9"/>
+
+</svg>

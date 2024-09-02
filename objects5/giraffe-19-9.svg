@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Scene 1: In the Savannah -->
+  <rect x="50%" y="40%" width="100" height="200" fill="#8B4513"/>
+  <circle cx="60%" cy="150" r="50" fill="#FFFF00"/>
+  <ellipse cx="65%" cy="70%" rx="60" ry="80" fill="#8B4513"/>
+  <text x="20%" y="90%" font-size="24">In the heart of the savannah, Giraffe stood alone.</text>
+
+  <!-- Scene 2: Giraffe's Desire -->
+  <circle cx="75%" cy="20%" r="15" fill="#0000FF"/>
+  <path d="M65% 80%, Q70% 90%, 75% 100%" stroke="#000" fill="transparent"/>
+  <text x="65%" y="25%" font-size="18">A bird brought news of lush greenery far away.</text>
+
+  <!-- Scene 3: The Journey Begins -->
+  <!-- Add paths for river crossing and hill climbing -->
+
+  <!-- Scene 4: Overcoming Obstacles -->
+  <rect x="60%" y="50%" width="120" height="30" fill="#006400"/>
+  <path d="M80% 150, Q75% 175, 80% 200" stroke="#000" fill="transparent"/>
+  <text x="70%" y="190" font-size="18">Giraffe crossed rivers and climbed hills.</text>
+
+  <!-- Scene 5: The Promised Land -->
+  <rect x="60%" y="40%" width="120" height="80" fill="#006400"/>
+  <circle cx="70%" cy="70%" r="30" fill="#FFFF00"/>
+  <text x="65%" y="90" font-size="18">Finally, Giraffe arrived at the lush greenery.</text>
+
+</svg>

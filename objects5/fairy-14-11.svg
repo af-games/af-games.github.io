@@ -1,0 +1,17 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hair -->
+  <path d="M100,5 Q90,10 110,10 Q120,60 100,80 Q90,140 110,140 Q120,200 100,180" fill="none" stroke="black"/>
+
+  <!-- Head -->
+  <path d="M75,180 Q95,160 115,180 Q95,200 75,180" fill="#FFD65B" stroke="black"/>
+
+  <!-- Body -->
+  <path d="M100,200 Q95,240 105,240 H140 Q135,240 140,200" fill="#FFD65B" stroke="black"/>
+
+  <!-- Arms -->
+  <path d="M75,240 Q85,290 115,290 Q125,240 140,240" fill="none" stroke="black"/>
+  <path d="M115,290 Q135,340 160,290" fill="none" stroke="black"/>
+
+  <!-- Legs -->
+  <path d="M75,340 Q85,390 115,390 Q125,340 140,340" fill="#FFD65B" stroke="black"/>
+</svg>

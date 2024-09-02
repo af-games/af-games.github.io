@@ -1,0 +1,24 @@
+<svg width="800" height="600" viewBox="0 0 800 600">
+  <!-- Bar 1 -->
+  <circle cx="50" cy="300" r="40" fill="url(#grad)">
+    <animateMotion dur="2s" repeatCount="indefinite">
+      <mpath href="#path1" />
+    </animateMotion>
+  </circle>
+
+  <!-- Path for Bar 1 -->
+  <path id="path1" d="M50,300 A40,40 0 1,0 67.88,282.12 Q90,220 122.12,282.12">
+
+  <!-- Bar 2 -->
+  <circle cx="150" cy="300" r="40" fill="url(#grad)">
+    <animateMotion dur="2s" repeatCount="indefinite">
+      <mpath href="#path2" />
+    </animateMotion>
+  </circle>
+
+  <!-- Path for Bar 2 -->
+  <path id="path2" d="M150,300 A40,40 0 1,0 187.88,282.12 Q210,220 242.12,282.12">
+
+  <!-- ... Continue this pattern for all bars ... -->
+
+</svg>

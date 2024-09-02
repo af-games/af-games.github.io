@@ -1,0 +1,18 @@
+<svg>` tag and created some uncharted territories (pixels) using rectangles and circles as landmarks. I've also marked paths for discovery using `<path>` elements.
+
+```xml
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Uncharted Territories -->
+  <rect x="100" y="100" width="300" height="300" fill="#FFF" stroke="none"/>
+
+  <!-- Landmarks -->
+  <circle cx="250" cy="250" r="75" fill="#FFC" stroke="#FFA" />
+  <rect x="150" y="350" width="100" height="100" fill="#CCF" stroke="#AAA" />
+  <polygon points="300,400 400,400 350,350" fill="#FFF" stroke="#999"/>
+
+  <!-- Paths for Discovery -->
+  <path d="M100,100 Q200,0 300,100 T500,200" stroke="#F00" fill="transparent"/>
+  <path d="M400,400 Q300,500 200,400 T100,300" stroke="#0F0" fill="transparent"/>
+
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Body -->
+  <path d="M0,-40 A40,40 0 1,0 0,40 A40,40 0 1,0 0,-40" stroke="black" fill="orange" />
+
+  <!-- Left Wing -->
+  <path d="M-50,-20 Q-70,-10 -60,-30 Q-40,-20 -50,-10 A10,10 0 0,1 -40,0 Z" stroke="black" fill="orange" />
+
+  <!-- Right Wing -->
+  <path d="M50,-20 Q70,-10 60,-30 Q40,-20 50,-10 A10,10 0 0,1 40,0 Z" stroke="black" fill="orange" />
+
+  <!-- Head -->
+  <circle cx="0" cy="-40" r="8" stroke="black" fill="black" />
+</svg>

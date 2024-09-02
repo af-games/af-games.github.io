@@ -1,0 +1,35 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion Body -->
+  <rect id="body" x="160" y="280" width="180" height="240" style="fill:orange;" />
+
+  <!-- Lion Head -->
+  <ellipse id="head" cx="230" cy="250" rx="60" ry="80" style="fill:yellow;" />
+
+  <!-- Lion Eyes -->
+  <circle id="eye-left" cx="190" cy="240" r="10" style="fill:black;"/>
+  <circle id="eye-right" cx="270" cy="240" r="10" style="fill:black;" />
+
+  <!-- Lion Mane -->
+  <polygon points="280,250 310,290 360,250 310,210" style="fill:orange;"/>
+
+  <!-- Sun Prop -->
+  <circle id="sun" cx="400" cy="150" r="80" style="fill:yellow; stroke:black;" />
+
+  <!-- Strings (Paths) -->
+
+  <!-- Neck string -->
+  <path id="neck-string" d="M230,250 Q260,210 230,170" stroke="brown" fill="transparent"/>
+
+  <!-- Waist string -->
+  <path id="waist-string" d="M200,420 Q260,480 320,420" stroke="brown" fill="transparent"/>
+
+  <!-- Left leg strings -->
+  <path id="left-leg-top-string" d="M170,500 Q190,540 170,580" stroke="brown" fill="transparent"/>
+  <path id="left-leg-bottom-string" d="M170,620 Q190,660 170,700" stroke="brown" fill="transparent"/>
+
+  <!-- Right leg strings -->
+  <path id="right-leg-top-string" d="M300,500 Q280,540 300,580" stroke="brown" fill="transparent"/>
+  <path id="right-leg-bottom-string" d="M300,620 Q280,660 300,700" stroke="brown" fill="transparent"/>
+
+</svg>

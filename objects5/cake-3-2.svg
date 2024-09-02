@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Cake Tier -->
+  <path d="M175,10 A95,95 0 1,0 325,10 A95,95 0 1,0 175,10" fill="#FDD79E"/>
+  <path d="M175,240 A60,60 0 1,0 315,240 A60,60 0 0,0 175,240" fill="#EBBD8A"/>
+  <path d="M175,390 A35,35 0 1,0 210,390 A35,35 0 0,0 175,390" fill="#D6AC6F"/>
+
+  <!-- Icing Flow -->
+  <path d="M340,240 Q380,300 420,240" stroke="#FFFFFF" stroke-width="10"/>
+  <path d="M175,240 Q130,300 90,240" stroke="#FFFFFF" stroke-width="10"/>
+
+  <!-- Decorations -->
+  <circle cx="380" cy="160" r="30" fill="#FFDDAA"/>
+  <circle cx="120" cy="160" r="30" fill="#FFDDAA"/>
+</svg>

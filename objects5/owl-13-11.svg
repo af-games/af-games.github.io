@@ -1,0 +1,27 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="600" height="400" fill="#3D724B" stroke="#59332E"/>
+<path d="M0 100 Q50 50, 100 0 Z" fill="#59332E" stroke="#59332E"/>
+
+<!-- Owl Body -->
+<path d="M200 50 Q250 75, 300 50 Q350 75, 400 50 Z" fill="#F8DE7D"/>
+<path d="M220 60 Q280 90, 350 60 Q410 90, 470 60"/>
+
+<!-- Owl Eyes & Beak -->
+<circle cx="240" cy="50" r="10" fill="#000"/>
+<path d="M230 50 L270 70 L310 50 Z" fill="#FFCBA9"/>
+
+<!-- Owl Wings -->
+<path d="M200 30 Q150 60, 180 90 Q240 60, 270 30 Z" fill="#785634"/>
+<path d="M200 30 Q150 60, 180 90 Q240 60, 270 30 Z" fill="#33210A"/>
+
+<!-- Moon -->
+<circle cx="500" cy="200" r="50" fill="#F0F0F0"/>
+<feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
+
+<!-- Shadows -->
+<rect x="0" y="350" width="600" height="50" fill="#2F1C08"/>
+<path d="M0 350 Q50 375, 100 350 Z" fill="#2F1C08"/>
+
+</svg>

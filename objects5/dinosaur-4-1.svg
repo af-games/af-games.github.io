@@ -1,0 +1,15 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M50,150 Q90,70 180,150 Q220,240 310,150" fill="green" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="180" cy="120" r="30" fill="green"/>
+  <path d="M160,90 Q170,100 180,90" stroke="black"/>
+
+  <!-- Arms -->
+  <rect x="90" y="150" width="40" height="60" fill="green"/>
+  <rect x="350" y="150" width="40" height="60" fill="green"/>
+
+  <!-- Legs -->
+  <path d="M220,240 Q250,300 290,270 Q320,240 350,180" stroke="black"/>
+</svg>

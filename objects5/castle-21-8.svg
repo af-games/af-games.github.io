@@ -1,0 +1,23 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Towers -->
+  <polygon points="100,50 200,50 200,300 100,300" fill="#4A4A4A"/>
+  <polygon points="400,50 500,50 500,300 400,300" fill="#4A4A4A"/>
+
+  <!-- Gatehouse -->
+  <rect x="250" y="50" width="150" height="250" fill="#C0C0C0"/>
+
+  <!-- Walls -->
+  <rect x="100" y="300" width="400" height="100" fill="#4A4A4A"/>
+  <rect x="150" y="350" width="200" height="50" fill="#C0C0C0"/>
+
+  <!-- Roof lines -->
+  <path d="M100,50 Q200,20 300,50 T400,50 Q500,20 600,50" stroke="#808080" fill="transparent"/>
+
+  <!-- Moat -->
+  <rect x="75" y="25" width="450" height="10" fill="#00008B"/>
+
+  <!-- Keep -->
+  <rect x="200" y="350" width="200" height="50" fill="#006400"/>
+
+</svg>

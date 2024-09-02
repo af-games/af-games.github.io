@@ -1,0 +1,16 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe Body -->
+  <circle id="giraffeBody" cx="150" cy="300" r="80" fill="#9D7F6B"/>
+  <ellipse id="leg1" cx="140" cy="220" rx="30" ry="100" fill="#9D7F6B"/>
+  <ellipse id="leg2" cx="160" cy="220" rx="30" ry="100" fill="#9D7F6B"/>
+
+  <!-- Giraffe Neck -->
+  <rect id="neck" x="145" y="180" width="30" height="120" fill="#9D7F6B"/>
+
+  <!-- Giraffe Head and Facial Features -->
+  <circle id="head" cx="150" cy="80" r="40" fill="#FFFFFF"/>
+  <circle id="eye1" cx="135" cy="65" r="5" fill="#9D7F6B"/>
+  <circle id="eye2" cx="165" cy="65" r="5" fill="#9D7F6B"/>
+
+</svg>

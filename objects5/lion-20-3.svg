@@ -1,0 +1,29 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outline the lion's body with a rectangle -->
+  <rect x="100" y="75" width="300" height="350" fill="rgb(204,153,102)" stroke="black"/>
+
+  <!-- Add details to the body using paths -->
+  <path d="M150 125 Q200 150, 200 225 Q150 275, 100 275" fill="rgb(153,102,51)" stroke="black"/>
+  <path d="M150 300 Q200 350, 200 400 Q150 450, 100 450" fill="rgb(153,102,51)" stroke="black"/>
+
+  <!-- Outline the lion's head with an ellipse -->
+  <ellipse cx="200" cy="175" rx="100" ry="125" fill="rgb(204,153,102)" stroke="black"/>
+
+  <!-- Add details to the head using paths -->
+  <path d="M180 130 Q220 90, 260 130 Q220 170, 180 170" fill="rgb(153,102,51)" stroke="black"/>
+  <path d="M140 175 Q100 210, 60 175 Q100 140, 140 140" fill="rgb(153,102,51)" stroke="black"/>
+
+  <!-- Add the lion's mane using a series of small circles -->
+  <g stroke="black">
+    <circle cx="160" cy="75" r="10"/>
+    <circle cx="180" cy="90" r="10"/>
+    ...
+    <!-- Repeat for other circles forming the mane -->
+  </g>
+
+  <!-- Label some points with coordinates -->
+  <text x="120" y="60" font-family="Verdana" font-size="14">(120,60)</text>
+  <text x="280" y="530" font-family="Verdana" font-size="14">(280,530)</text>
+
+</svg>

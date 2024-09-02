@@ -1,0 +1,20 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dinosaur Body -->
+  <path id="body" d="M100,200 C120,200 180,240 250,200 C320,160 370,210 400,250" fill="#8B7D6C" stroke="black"/>
+
+  <!-- Head -->
+  <path id="head" d="M400,250 Q420,230 430,220 Q450,230 470,250 Z" fill="#8B7D6C" stroke="black"/>
+
+  <!-- Neck -->
+  <path id="neck" d="M370,210 Q390,190 400,200" fill="transparent" stroke="black"/>
+
+  <!-- Tail -->
+  <path id="tail" d="M100,200 C80,220 60,250 40,270 Q30,300 20,290 Z" fill="#8B7D6C" stroke="black"/>
+
+  <!-- Legs -->
+  <path id="leg1" d="M180,240 V260 H160 Z" fill="transparent"/>
+  <path id="leg2" d="M250,200 V230 H270 Z" fill="transparent"/>
+  <path id="leg3" d="M320,160 V180 H340 Z" fill="transparent"/>
+
+</svg>

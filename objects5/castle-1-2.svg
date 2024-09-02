@@ -1,0 +1,29 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle Walls -->
+  <path fill="#8B7D6B"
+        d="M10,90 Q20,70 50,90 L450,90 Q480,70 510,90 V310 H10 Z"/>
+
+  <!-- Left Tower -->
+  <path fill="#8B7D6B"
+        d="M20,90 Q30,60 60,90 L60,280 H40 Z"/>
+
+  <!-- Right Tower -->
+  <path fill="#8B7D6B"
+        d="M450,90 Q420,60 390,90 L390,280 H410 Z"/>
+
+  <!-- Gatehouse -->
+  <path fill="#8B7D6B"
+        d="M230,90 Q250,70 280,90 V200 Q250,170 230,200 H230 Z"/>
+
+  <!-- Roofs -->
+  <path fill="#B39EB5"
+        d="M60,280 Q80,310 140,280 L460,280 Q440,310 380,280 V90 H60 Z"/>
+
+  <!-- Flag -->
+  <path fill="#FF0000"
+        d="M500,90 L490,70 500,50 510,70 Z"/>
+
+  <!-- Shadows -->
+  <path fill-opacity="0.2" fill="#000"
+        d="M60,310 Q80,340 140,310 H460 Q440,340 380,310 V95 H60 Z"/>
+</svg>

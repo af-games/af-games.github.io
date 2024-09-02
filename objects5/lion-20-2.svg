@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M50 100 A40 60 0 0 1 90 160 L170 180 L170 70 Z" fill="#F5DEB3"/>
+
+  <!-- Head -->
+  <path d="M120 80 Q150 50, 160 90 A40 40 0 0 1 120 130 Z" fill="#F5DEB3"/>
+  <circle cx="140" cy="100" r="20" fill="#FFF"/>
+
+  <!-- Mane -->
+  <g stroke="none">
+    <path d="M80 70 Q90 60, 100 70 Q90 80, 80 70" stroke-width="3" fill="gold"/>
+    <path d="M150 60 Q140 50, 130 60 Q140 70, 150 60"/>
+    <path d="M95 55 Q85 45, 75 55 Q85 65, 95 55"/>
+    <path d="M145 45 Q135 35, 125 45 Q135 55, 145 45"/>
+  </g>
+
+  <!-- Legs -->
+  <rect x="70" y="180" width="60" height="40" fill="#F5DEB3"/>
+  <rect x="120" y="180" width="60" height="40" fill="#F5DEB3"/>
+
+</svg>

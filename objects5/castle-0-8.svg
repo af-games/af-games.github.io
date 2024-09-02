@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <rect x="150" y="75" width="150" height="400" fill="#4A4A4A"/>
+  <polygon points="300,50 350,50 325,200" fill="#4A4A4A"/>
+
+  <!-- Gatehouse -->
+  <path d="M100,75 Q150,25 200,75" stroke="#BDBDBD" fill="#BDBDBD"/>
+  <rect x="80" y="50" width="40" height="100" fill="#BDBDBD"/>
+  <rect x="260" y="50" width="40" height="100" fill="#BDBDBD"/>
+
+  <!-- Walls -->
+  <rect x="100" y="175" width="200" height="325" fill="#4A4A4A"/>
+  <rect x="350" y="175" width="200" height="325" fill="#4A4A4A"/>
+
+  <!-- Courtyard -->
+  <rect x="100" y="300" width="400" height="300" fill="#8DC63C"/>
+
+  <!-- Outer Wall -->
+  <polyline points="100,75 200,50 300,75 400,50 500,75" stroke="#4A4A4A" fill="transparent"/>
+
+  <!-- Inner Wall -->
+  <polyline points="150,225 250,225 350,225 450,225" stroke="#4A4A4A" fill="transparent"/>
+
+  <!-- Roof Lines (optional) -->
+  <polygon points="175,575 225,625 275,575" fill="#5F4127"/>
+  <polygon points="325,575 375,625 425,575" fill="#5F4127"/>
+
+  <!-- Moat -->
+  <rect x="50" y="50" width="500" height="100" stroke="#0099FF" fill="transparent" rx="50"/>
+
+</svg>

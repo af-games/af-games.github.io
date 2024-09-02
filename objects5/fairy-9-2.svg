@@ -1,0 +1,22 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="60" y="150" width="80" height="150" fill="#f3e5f5"/>
+
+  <!-- Head -->
+  <circle cx="110" cy="75" r="50" fill="#ffb2d0"/>
+  <path d="M90,60 Q110,40 130,60" stroke="#ffb2d0" fill="transparent"/>
+
+  <!-- Hair -->
+  <polygon points="85,50 115,25 145,50" fill="#ffb2d0"/>
+  <polygon points="95,30 105,20 115,30" fill="#ffb2d0"/>
+
+  <!-- Wings -->
+  <path d="M70,80 Q90,60 110,80 Q90,100 70,80 Z" fill="#e1c4e4"/>
+  <path d="M75,90 Q95,70 115,90 Q95,110 75,90 Z" fill="#e1c4e4"/>
+
+  <!-- Dress -->
+  <rect x="60" y="300" width="80" height="200" fill="#f3e5f5"/>
+  <path d="M60,300 Q40,320 60,340 Q80,320 100,300" stroke="#ffb2d0" fill="transparent"/>
+
+</svg>

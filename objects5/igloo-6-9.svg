@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 100 80">
+
+  <!-- Scene 1 -->
+  <rect id="igloo" x="10" y="20" width="40" height="60" fill="#3D9970" stroke="white"/>
+  <circle id="home" cx="50" cy="60" r="30" stroke-dasharray="5,5" fill="transparent" stroke="black"/>
+
+  <!-- Scene 2 -->
+  <path d="M15,40 A5,5 0 0 1 85,40" stroke="#696969" fill="transparent"/>
+  <use xlink:href="#igloo" x="70" y="30"/>
+
+  <!-- Scene 3 -->
+  <circle id="polar-bear" cx="90" cy="40" r="40" fill="#FFFFFF" stroke="black"/>
+  <text x="85" y="25" font-size="16" text-anchor="middle">Greetings, little one!</text>
+
+  <!-- Scene 4 -->
+  <use xlink:href="#igloo" x="70" y="30" fill-opacity="0.2"/>
+  <rect id="palm-tree" x="95" y="60" width="10" height="20" fill="#006400"/>
+  <circle id="sun" cx="110" cy="75" r="15" fill="#FFFF00"/>
+
+  <!-- Scene 5 -->
+  <use xlink:href="#igloo" x="80" y="30"/>
+  <path d="M85,45 Q90,20 100,60" stroke="#696969" fill="transparent"/>
+
+  <!-- Scene 6 -->
+  <rect id="iceberg" x="90" y="40" width="30" height="20" fill="#006400"/>
+  <use xlink:href="#igloo" x="105" y="30"/>
+  <path d="M105,55 Q110,70 120,90" stroke="#696969" fill="transparent"/>
+
+  <!-- Scene 7 -->
+  <rect id="land" x="110" y="40" width="30" height="40" fill="#008000"/>
+  <use xlink:href="#igloo" x="125" y="30"/>
+  <use xlink:href="#sun"/>
+  <use xlink:href="#palm-tree"/>
+
+</svg>

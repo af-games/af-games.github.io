@@ -1,0 +1,22 @@
+<svg>` tag. I've used circles for the body and top of the cake, rectangles for the base, and some triangles for the cake's top decoration.
+
+```xml
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Body -->
+  <circle cx="100" cy="175" r="90" fill="#FDD786" stroke="#CBA87B" stroke-width="4"/>
+
+  <!-- Cake Top -->
+  <circle cx="100" cy="35" r="25" fill="#FDD786" stroke="#CBA87B" stroke-width="4"/>
+
+  <!-- Base -->
+  <rect x="25" y="225" width="150" height="20" fill="#9D5B23" rx="10"/>
+
+  <!-- Top Decoration (Triangles) -->
+  <polygon points="65,5 100,75 135,5" fill="#CBA87B"/>
+  <polygon points="35,40 100,75 165,40" fill="#CBA87B"/>
+
+  <!-- Icing Layer (Outer Circle) -->
+  <circle cx="100" cy="175" r="95" stroke="#FFFFFF" stroke-width="2" fill="transparent"/>
+
+</svg>

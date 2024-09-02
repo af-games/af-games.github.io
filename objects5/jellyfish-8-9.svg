@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Jellyfish Jim -->
+  <circle cx="150" cy="100" r="80" fill="#FFD6E5"/>
+  <path d="M140,70 Q120,90 160,70" stroke="#C4302B" fill="transparent"/>
+
+  <!-- Sally the Seahorse -->
+  <path id="sally-path" d="M300,80 C280,50 320,50 340,80 Q360,120 370,90 Q350,60 330,80" stroke="#ADD8E6" fill="transparent"/>
+
+  <!-- Sunrise -->
+  <circle cx="400" cy="50" r="50" fill="url(#sun-gradient)"/>
+  <path id="sun-rays" d="M400,50 L390,20 410,20 400,50" stroke="#FFFACD" fill="transparent"/>
+
+  <!-- Storm -->
+  <rect x="550" y="50" width="100" height="150" fill="#696969"/>
+  <path id="lightning-bolt" d="M620,80 L630,120 L640,80 Z" stroke="#00008B" fill="transparent"/>
+
+  <!-- Treasure Cave -->
+  <rect x="570" y="200" width="150" height="200" fill="#D3D3D3"/>
+  <circle cx="680" cy="280" r="30" fill="#FFB973"/>
+
+  <!-- Chat Path -->
+  <path id="chat-path" d="M140,150 Q160,180 180,150"/>
+
+  <!-- Treasure Path -->
+  <path id="treasure-path" d="M620,350 Q640,370 680,350"/>
+
+  <!-- Annotations -->
+  <text x="20" y="30">Sunrise at Jellyfish Beach</text>
+  <text x="250" y="200"><tspan>Jim:</tspan><textPath href="#chat-path">Hi there! I'm Jim.</textPath></text>
+  <text x="400" y="150">The Storm approaches...</text>
+  <text x="280" y="380"><tspan>Jim:</tspan><textPath href="#treasure-path">Wow, look at all this treasure!</textPath></text>
+  <text x="150" y="550">Back home with new friends and treasures</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="sun-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color: #FFFF99; stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: #FFA538; stop-opacity: 1" />
+    </linearGradient>
+  </defs>
+</svg>

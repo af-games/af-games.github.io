@@ -1,0 +1,27 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Central Courtyard -->
+  <circle cx="0" cy="0" r="200" stroke="#333" fill="transparent"/>
+
+  <!-- Wall -->
+  <rect x="-200" y="-180" width="400" height="360" stroke="#333" fill="transparent"/>
+
+  <!-- Entrance Towers -->
+  <circle cx="0" cy="150" r="40" stroke="#333" fill="transparent"/>
+  <circle cx="0" cy="-150" r="40" stroke="#333" fill="transparent"/>
+
+  <!-- Entrance Road -->
+  <path d="M -200, -180 Q -100, -100 0, 0" stroke="#333" fill="transparent"/>
+
+  <!-- Main Igloo -->
+  <circle cx="0" cy="0" r="120" stroke="#333" fill="transparent"/>
+
+  <!-- Housing Igloos -->
+  <?php for ($i = 0; $i < 6; $i++) { ?>
+    <?php $angle = $i * (2 * pi() / 6); ?>
+    <?php $x = cos($angle) * 150; ?>
+    <?php $y = sin($angle) * 150; ?>
+    <circle cx="<?= $x ?>" cy="<?= $y ?>" r="40" stroke="#333" fill="transparent"/>
+  <?php } ?>
+
+</svg>

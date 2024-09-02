@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450">
+  <!-- Body -->
+  <rect x="60" y="180" width="280" height="270" fill="#F9CDAD" stroke="black" stroke-width="3"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="150" r="100" fill="#F9CDAD" stroke="black" stroke-width="3"/>
+  <path d="M200,70 Q140,50 160,80 H240 Q260,50 200,70" fill="none" stroke="black" stroke-width="3"/>
+
+  <!-- Limbs -->
+  <!-- Front Right -->
+  <circle cx="230" cy="290" r="40" fill="#F9CDAD" stroke="black" stroke-width="3"/>
+  <!-- Front Left -->
+  <circle cx="170" cy="290" r="40" fill="#F9CDAD" stroke="black" stroke-width="3"/>
+  <!-- Hind Right -->
+  <circle cx="250" cy="400" r="40" fill="#F9CDAD" stroke="black" stroke-width="3"/>
+  <!-- Hind Left -->
+  <circle cx="150" cy="400" r="40" fill="#F9CDAD" stroke="black" stroke-width="3"/>
+
+  <!-- Mane -->
+  <path d="M200,80 Q160,60 140,80 H260 Q280,60 260,80" fill="#FFD700" stroke="black" stroke-width="3"/>
+
+  <!-- Eyes -->
+  <circle cx="165" cy="90" r="15" fill="white"/>
+  <circle cx="235" cy="90" r="15" fill="white"/>
+  <circle cx="165" cy="90" r="5" fill="black"/>
+  <circle cx="235" cy="90" r="5" fill="black"/>
+
+  <!-- Nose -->
+  <path d="M200,120 Q180,110 160,100 H240 Q260,110 220,120" stroke="black" stroke-width="3" fill="none"/>
+
+  <!-- Mouth -->
+  <path d="M170,150 Q200,180 230,150" stroke="black" stroke-width="3" fill="none"/>
+</svg>

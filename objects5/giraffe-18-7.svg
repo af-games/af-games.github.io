@@ -1,0 +1,31 @@
+<svg width="800px" height="600px" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E5E9F1"/>
+
+  <!-- Mountains -->
+  <polygon id="mountains" points="40,20 70,40 300,60 280,40"
+           fill="#C3D6DA" stroke="#AEC6DB" stroke-width="2"/>
+  <text x="50%" y="15%" dominant-baseline="middle" text-anchor="middle" font-size="16px">Mountains of Giants</text>
+
+  <!-- Giraffe Meadows -->
+  <circle id="giraffe-meadows" cx="400" cy="300" r="200"
+          fill="#F7DC6F" stroke="#CFAA59" stroke-width="2"/>
+  <text x="400" y="300" dominant-baseline="middle" text-anchor="middle" font-size="16px">Giraffe Meadows</text>
+
+  <!-- Rivers -->
+  <path id="rivers" d="M50,300 Q100,250 200,280 Q400,350 500,300"
+        stroke="#6DCFF6" stroke-width="4"/>
+  <text x="275" y="310" dominant-baseline="middle" text-anchor="middle" font-size="16px">River of Nectar</text>
+
+  <!-- Forests -->
+  <polygon id="forests" points="60,400 200,450 350,400"
+           fill="#8DC63C" stroke="#7DAF32" stroke-width="2"/>
+  <text x="180" y="435" dominant-baseline="middle" text-anchor="middle" font-size="16px">Whispering Woods</text>
+
+  <!-- Cities -->
+  <circle id="cities" cx="700" cy="450" r="80"
+          fill="#FFC300" stroke="#EAB258" stroke-width="2"/>
+  <text x="690" y="430" dominant-baseline="middle" text-anchor="middle" font-size="16px">Giraffopolis</text>
+
+</svg>

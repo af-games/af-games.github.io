@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body -->
+  <circle cx="75" cy="75" r="50" fill="#ff8a01" stroke="#ffd65b"/>
+
+  <!-- Bottom knot -->
+  <circle cx="75" cy="135" r="30" fill="#ff8a01" stroke="#ffd65b"/>
+
+  <!-- Mouthpiece -->
+  <ellipse cx="75" cy="20" rx="15" ry="5" fill="#ff8a01" stroke="#ffd65b"/>
+
+  <!-- String 1 -->
+  <path d="M50,35 Q40,20 50,10 L50,90 Z" stroke="#ffd65b" fill="transparent"/>
+
+  <!-- String 2 -->
+  <path d="M100,35 Q110,20 100,10 L100,90 Z" stroke="#ffd65b" fill="transparent"/>
+
+</svg>

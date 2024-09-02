@@ -1,0 +1,43 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Scene 1: In the Savannah -->
+<rect x="50" y="100" width="100" height="200" fill="#8B4513" />
+<circle cx="75" cy="250" r="50" fill="#FFA500" />
+<path d="M75,150 Q150,100 225,150" stroke="#8B4513" fill="transparent"/>
+<text x="50" y="350">Giraffe stretches her neck to reach leaves.</text>
+
+<!-- Scene 2: Giraffe's Dream -->
+<circle cx="75" cy="250" r="50" fill="#FFA500" />
+<circle cx="75" cy="150" r="30" fill="#FFFACD"/>
+<path d="M75,150 Q150,100 225,150" stroke="#8B4513" fill="transparent"/>
+<text x="50" y="350">Giraffe dreams about reaching the moon.</text>
+
+<!-- Scene 3: The Journey Begins -->
+<path d="M75,400 Q150,450 225,400" stroke="#8B4513" fill="transparent"/>
+<circle cx="75" cy="450" r="50" fill="#FFA500"/>
+<rect x="300" y="350" width="50" height="50" fill="#FFFACD"/>
+<text x="280" y="420">Animals cheering and waving goodbye.</text>
+
+<!-- Scene 4: Obstacles Along the Way -->
+<path d="M75,500 Q150,550 225,500" stroke="#8B4513" fill="transparent"/>
+<circle cx="75" cy="550" r="50" fill="#FFA500"/>
+<path d="M250,350 Q300,400 350,350" stroke="#8B4513" fill="transparent"/>
+<text x="75" y="620">Giraffe encounters obstacles along her journey.</text>
+
+<!-- Scene 5: Reaching the Moon -->
+<path d="M75,500 Q150,550 225,500" stroke="#8B4513" fill="transparent"/>
+<circle cx="75" cy="550" r="50" fill="#FFA500"/>
+<circle cx="200" cy="450" r="50" fill="#FFFACD">
+    <animate attributeName="cy" from="450" to="300" dur="2s" repeatCount="indefinite"/>
+</circle>
+<text x="180" y="420">Giraffe finally reaches the moon!</text>
+
+<!-- Scene 6: Back Home -->
+<path d="M75,600 Q150,550 225,600" stroke="#8B4513" fill="transparent"/>
+<circle cx="75" cy="650" r="50" fill="#FFA500"/>
+<rect x="300" y="550" width="50" height="50" fill="#FFFACD">
+    <animate attributeName="y" from="550" to="450" dur="2s" repeatCount="indefinite"/>
+</rect>
+<text x="75" y="720">Back home, Giraffe shares her adventure.</text>
+
+</svg>

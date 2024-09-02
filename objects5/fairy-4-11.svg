@@ -1,0 +1,32 @@
+<svg>`:
+
+```xml
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+```
+
+Now, let's create the fairy's head using a circle for simplicity. We'll use a separate `<circle>` element for this.
+
+```xml
+  <circle cx="150" cy="80" r="40"/>
+```
+
+Next, we'll create the body as a rectangle with rounded corners to represent a dress. We'll use another separate `<rect>` element for this.
+
+```xml
+  <rect x="120" y="130" width="160" height="180" rx="20" ry="20"/>
+```
+
+For the wings, we'll use two separate `<polygon>` elements to represent fairy wings. Each wing will be a simple four-sided polygon.
+
+```xml
+  <polygon points="370,50 430,50 480,100 430,150" />
+  <polygon points="60,50 120,50 170,100 120,150" />
+```
+
+Finally, let's add some details like the fairy's hair using `<path>` element and some simple dots for eyes.
+
+```xml
+  <path d="M135,60 Q145,80 155,60 Q145,40 135,60" stroke="black"/>
+  <circle cx="140" cy="70" r="2"/>
+  <circle cx="155" cy="70" r="2"/>
+</svg>

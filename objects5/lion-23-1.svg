@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <!-- Lion Body -->
+  <path d="M25,10 A15,15 0 1,1 25,40 A15,15 0 1,1 25,10" fill="#FFCC33"/>
+
+  <!-- Lion Head -->
+  <circle cx="25" cy="20" r="8" fill="#FFA500"/>
+  <ellipse cx="22" cy="15" rx="4" ry="7" fill="#FFFFFF"/>
+  <ellipse cx="28" cy="15" rx="4" ry="7" fill="#FFFFFF"/>
+
+  <!-- Lion Mane -->
+  <path d="M10,2 C20,35 40,35 50,20 H0 L10,2 Z" stroke="black" fill="transparent"/>
+</svg>

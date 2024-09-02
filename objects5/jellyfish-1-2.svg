@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Bell (body) -->
+  <circle cx="250" cy="100" r="80" fill="#fff" stroke="#333" opacity="0.9"/>
+  <circle cx="250" cy="100" r="70" fill="#ffd65b"/>
+  <circle cx="250" cy="100" r="60" fill="#ff8c00"/>
+
+  <!-- Tentacles -->
+  <g stroke="#333" stroke-width="10">
+    <path d="M75,200 Q150,120 250,200 T450,200"/>
+    <path d="M85,200 Q160,120 240,200 T440,200"/>
+    <path d="M70,190 Q140,130 240,190 T440,190"/>
+    <path d="M80,195 Q150,135 240,195 T440,195"/>
+  </g>
+
+  <!-- Oral arms (internal tentacles) -->
+  <g stroke="#fff" stroke-width="5">
+    <path d="M250,170 L300,200 L200,200 Z"/>
+    <path d="M250,160 L280,190 L220,190 Z"/>
+  </g>
+
+</svg>

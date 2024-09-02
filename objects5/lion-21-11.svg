@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 350" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="70" width="380" height="50" fill="none" stroke="black"/>
+  <circle cx="60" cy="200" r="40" fill="none" stroke="black"/>
+  <circle cx="290" cy="200" r="40" fill="none" stroke="black"/>
+
+  <!-- Clue: Jaguar's tag -->
+  <path d="M160 150 Q180 140, 190 170" stroke="red"/>
+  <text x="170" y="130" font-size="15">Jaguar</text>
+
+  <!-- Clue: Struggle between suspects -->
+  <path d="M200 170 Q180 130, 160 150" stroke="blue"/>
+
+  <!-- Clue: Broken bottle -->
+  <path d="M290 240 Q310 260, 330 280" stroke="black" stroke-dasharray="5"/>
+</svg>

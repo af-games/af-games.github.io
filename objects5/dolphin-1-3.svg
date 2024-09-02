@@ -1,0 +1,19 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Buildings -->
+  <rect id="building1" x="50" y="450" width="100" height="150" fill="#87CEEB"/>
+  <rect id="building2" x="200" y="350" width="100" height="200" fill="#ADD8E6"/>
+  <rect id="building3" x="450" y="250" width="100" height="250" fill="#7DC8EB"/>
+
+  <!-- Roads -->
+  <line x1="50" y1="600" x2="550" y2="600" stroke="#3D9970" stroke-width="2"/>
+  <line x1="550" y1="600" x2="550" y2="400" stroke="#3D9970" stroke-width="2"/>
+
+  <!-- Dolphin -->
+  <g id="dolphin">
+    <path d="M550,600 Q580,580 610,550 Q640,520 670,550 Q690,570 720,600" fill="#FFF" stroke="#3D9970" stroke-width="2"/>
+    <circle cx="600" cy="510" r="40" fill="#FFF"/>
+    <circle cx="680" cy="510" r="40" fill="#FFF"/>
+  </g>
+
+</svg>

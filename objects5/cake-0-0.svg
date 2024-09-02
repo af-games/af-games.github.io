@@ -1,0 +1,21 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <circle cx="100" cy="180" r="95" fill="#FDD9B5"/>
+  <path d="M100 275 A95 95 0 0 1 100 365 Z" fill="#FDD9B5"/>
+
+  <!-- Cake Layers -->
+  <circle cx="80" cy="140" r="70" fill="#FDD9B5"/>
+  <circle cx="120" cy="140" r="70" fill="#FDD9B5" transform="translate(30, 0)"/>
+
+  <!-- Frosting -->
+  <rect x="60" y="85" width="140" height="110" fill="#FFF">
+    <animate attributeName="height" from="110" to="70" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Icing Details -->
+  <circle cx="85" cy="95" r="10" fill="#8B4513"/>
+  <circle cx="115" cy="95" r="10" fill="#FFC0CB"/>
+  <circle cx="95" cy="70" r="5" fill="#8B4513"/>
+
+</svg>

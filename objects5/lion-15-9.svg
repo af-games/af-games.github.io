@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion's Roar -->
+  <g id="lion-roar">
+    <circle cx="150" cy="100" r="50" fill="orange"/>
+    <text x="160" y="110" font-family="Verdana" fill="white">Roar</text>
+    <animateMotion begin="2s" dur="4s">
+      <mpath href="#roar-path"/>
+    </animateMotion>
+  </g>
+
+  <!-- Jungle Drums -->
+  <g id="jungle-drums">
+    <rect x="300" y="150" width="80" height="60" fill="brown"/>
+    <text x="340" y="200" font-family="Verdana" fill="white">Drum</text>
+    <animateTransform attributeName="transform" type="scale" from="1 1" to="1.5 1.5" begin="0s" dur="6s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Whispers of the Wind -->
+  <path id="wind-path" d="M600,200 Q700,300 800,250 Q900,150 1000,200" stroke-width="5" fill="transparent">
+    <animate attributeName="stroke" values="#88ccff;#ffffff;#88ccff" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Roar path -->
+  <path id="roar-path" d="M10,20 Q50,100 100,20 Q150,10 200,20"/>
+
+</svg>

@@ -1,0 +1,20 @@
+<svg width="300" height="150" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphin Outline -->
+  <path id="dolphin-outline" d="M10 80 Q20 10, 40 30 Q60 50, 70 90 Q90 70, 100 50 Z"/>
+
+  <!-- Wave Pattern -->
+  <path id="wave-pattern" class="background-wave" d="M0 100 Q50 70, 100 100 Q150 130, 200 100 Q250 70, 300 100"/>
+
+  <!-- Hidden Message -->
+  <text id="hidden-message" x="50%" y="90%" dominant-baseline="middle" text-anchor="middle">SOLVE THE MYSTERY</text>
+
+  <!-- Mask for revealing the hidden message -->
+  <mask id="dolphin-mask">
+    <use href="#dolphin-outline"/>
+  </mask>
+
+  <!-- Apply mask to hidden message -->
+  <use href="#hidden-message" mask="url(#dolphin-mask)"/>
+
+</svg>

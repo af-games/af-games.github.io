@@ -1,0 +1,17 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lion body -->
+  <path d="M100 50 Q150 0 200 50 Q150 100 100 50 Z"
+        fill="#F28E72" stroke="#333"/>
+
+  <!-- Lion mane -->
+  <circle cx="150" cy="70" r="40" fill="none"/>
+  <radialGradient id="lion-mane-gradient" cx="150" cy="70" r="40">
+    <stop offset="0%" stop-color="#FFCC66"/>
+    <stop offset="100%" stop-color="#FFF"/>
+  </radialGradient>
+  <circle cx="150" cy="70" r="40" fill="url(#lion-mane-gradient)" stroke="#333"/>
+
+  <!-- Lion eyes -->
+  <circle cx="90" cy="60" r="5" fill="#FFF"/>
+  <circle cx="160" cy="60" r="5" fill="#FFF"/>
+</svg>

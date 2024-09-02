@@ -1,0 +1,25 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#7DC855"/>
+
+  <!-- Mountains (Polygons) -->
+  <polygon id="Mtn1" points="10,20 90,10 170,60 10,30" fill="#DCDCDC"/>
+  <polygon id="Mtn2" points="380,10 460,50 420,150 380,120" fill="#DCDCDC"/>
+
+  <!-- Rivers (Paths) -->
+  <path id="Riv1" d="M90,10 Q170,50 250,10" stroke="#FFFFFF" stroke-width="5"/>
+  <path id="Riv2" d="M300,80 Q420,100 460,150" stroke="#FFFFFF" stroke-width="5"/>
+
+  <!-- Forests (Ellipses) -->
+  <ellipse cx="175" cy="90" rx="40" ry="80" fill="#3D9970"/>
+  <ellipse cx="425" cy="160" rx="30" ry="70" fill="#3D9970"/>
+
+  <!-- Schools of Fish -->
+  <circle id="Fsh1" cx="125" cy="50" r="20" fill="#FFB6C1"/>
+  <circle id="Fsh2" cx="480" cy="210" r="20" fill="#FFB6C1"/>
+
+  <!-- Nurse Shark -->
+  <path id="Shark" d="M350,370 Q390,350 420,370 Q390,390 350,370 Z" fill="#B8860B"/>
+
+</svg>

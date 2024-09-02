@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Create a clipping path for the dolphin shape -->
+  <defs>
+    <clipPath id="dolphinClip" clipPathUnits="objectBoundingBox">
+      <path d="M1,0 A.5,.5 0 0 1 .5,1 V.8 C.7,1 .9,.8 1,.5 H.5 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Create the dolphin mask -->
+  <mask id="dolphinMask" x="0" y="0" width="200" height="200">
+    <rect width="100%" height="100%" fill="#fff"/>
+    <path d="M50,0 A50,50 0 0 1 100,50 V40 C80,50 90,40 100,50 H50 Z" fill="#000"/>
+    <circle cx="70" cy="20" r="3" fill="#fff"/>
+    <circle cx="130" cy="20" r="3" fill="#fff"/>
+    <path d="M60,40 A40,40 0 0 1 140,40" fill="#000"/>
+    <polyline points="75,80 75,90 125,90" fill="#000" stroke-width="0"/>
+  </mask>
+
+  <!-- Create a sample image to use the mask -->
+  <image href="https://example.com/image.jpg" x="0" y="0" width="200" height="200" mask="url(#dolphinMask)"/>
+
+</svg>

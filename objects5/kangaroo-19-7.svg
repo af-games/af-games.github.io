@@ -1,0 +1,21 @@
+<svg>` land.
+
+*Discovered:* Rectangles (`<rect>`) for the body and pouch, circles (`<circle>`) for the head and limbs. Also found colors: `#7C5340` (brown), `#FFF` (white), and `#4A2D1F` (dark brown).
+
+**Resources Gathered:**
+
+- `<rect width="200" height="300" x="10" y="10" fill="#7C5340"/>`
+- `<circle cx="80" cy="60" r="50" fill="#FFF"/>` (head)
+- `<circle cx="120" cy="220" r="20" fill="#4A2D1F"/>` (pouch)
+- `<circle cx="70" cy="320" r="10" fill="#7C5340"/>`, `<circle cx="160" cy="320" r="10" fill="#7C5340"/>` (legs)
+
+**Marked Path:**
+
+```svg
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="300" x="10" y="10" fill="#7C5340"/>
+  <circle cx="80" cy="60" r="50" fill="#FFF"/>
+  <circle cx="120" cy="220" r="20" fill="#4A2D1F"/>
+  <circle cx="70" cy="320" r="10" fill="#7C5340"/>
+  <circle cx="160" cy="320" r="10" fill="#7C5340"/>
+</svg>

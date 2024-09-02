@@ -1,0 +1,25 @@
+<svg width="400" height="700" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="200" cy="175" rx="200" ry="175" fill="#8BC2DA"/>
+
+  <!-- Tail -->
+  <polygon points="350,450 390,500 400,560 350,620 300,560" fill="#8BC2DA"/>
+
+  <!-- Head -->
+  <circle cx="120" cy="100" r="80" fill="#FFD700"/>
+  <ellipse cx="120" cy="60" rx="40" ry="50" fill="#FFD700"/>
+  <ellipse cx="120" cy="140" rx="40" ry="50" fill="#FFD700"/>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="80" r="10" fill="#333"/>
+  <circle cx="150" cy="80" r="10" fill="#333"/>
+
+  <!-- Mouth -->
+  <path d="M 120 140 Q 130 150, 120 160" stroke="#FFD700" fill="transparent"/>
+
+  <!-- Body details -->
+  <rect x="50" y="220" width="30" height="80" fill="#8BC2DA"/>
+  <rect x="250" y="220" width="30" height="80" fill="#8BC2DA"/>
+
+</svg>

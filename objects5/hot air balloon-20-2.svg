@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="800" fill="#ffffff"/>
+
+  <!-- Basket -->
+  <rect x="150" y="720" width="300" height="80" rx="40" fill="#4c2a09" opacity="0.8"/>
+  <path d="M180,760 Q200,780 220,760 H420 Q400,780 380,760 Z" fill="#c45a2e"/>
+
+  <!-- Balloon Envelope -->
+  <path d="M300,150 C200,300 400,300 300,450 Q300,600 300,700" fill="#ffcc00">
+    <linearGradient id="balloonGrad" gradientTransform="rotate(90)">
+      <stop offset="0%" style="stop-color:rgb(255,180,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,140,0);stop-opacity:1"/>
+    </linearGradient>
+  </path>
+
+  <!-- Balloon Top -->
+  <circle cx="300" cy="70" r="60" fill="#ffcc00"/>
+
+  <!-- Burner and Flame -->
+  <rect x="285" y="450" width="25" height="150" rx="12.5" fill="#c45a2e"/>
+  <path d="M300,600 Q290,650 310,650 Z" fill="#ffcc00" opacity="0.8"/>
+
+  <!-- Ropes -->
+  <line x1="150" y1="760" x2="300" y2="450" stroke="#4c2a09" opacity="0.8"/>
+  <line x1="450" y1="760" x2="300" y2="450" stroke="#4c2a09" opacity="0.8"/>
+
+</svg>

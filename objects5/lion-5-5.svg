@@ -1,0 +1,20 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Stage Background -->
+  <rect x="10" y="10" width="580" height="380" fill="#ffe6e6"/>
+
+  <!-- Lion Silhouette -->
+  <path id="lionBody" d="M150,200 Q200,100 250,200 Q200,300 150,400 Q100,300 50,200"
+        fill="#ffa07a" stroke="black"/>
+
+  <!-- Lion Limbs (Paths as Strings) -->
+  <path id="lionLeftArm" d="M120,180 Q160,140 200,180 L250,300" fill="none" stroke="black"/>
+  <path id="lionRightArm" d="M280,180 Q320,140 360,180 L310,300" fill="none" stroke="black"/>
+  <path id="lionLeftLeg" d="M150,400 Q190,460 230,400 Z" fill="#ffa07a" stroke="black"/>
+  <path id="lionRightLeg" d="M270,400 Q310,460 350,400 Z" fill="#ffa07a" stroke="black"/>
+
+  <!-- Mouse Puppet -->
+  <circle cx="450" cy="250" r="30" fill="#8b4513"/>
+  <path d="M420,220 Q450,190 480,220 L470,260" fill="none" stroke="black"/>
+
+</svg>

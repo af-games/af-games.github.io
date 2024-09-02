@@ -1,0 +1,19 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Main Body -->
+  <ellipse cx="150" cy="150" rx="80" ry="120"
+           style="fill:rgb(255,255,0); stroke:black; stroke-width:2"/>
+
+  <!-- Balloon Tie (Organic curve) -->
+  <path d="M75 300 Q125 350, 175 300 T325 300"
+        style="fill:transparent; stroke:black; stroke-width:2"/>
+
+  <!-- Balloon String (Geometric line) -->
+  <line x1="75" y1="300" x2="75" y2="40"
+        style="stroke:black; stroke-width:2"/>
+
+  <!-- Light Interaction (Shadows) -->
+  <circle cx="150" cy="180" r="60"
+          style="fill:rgb(0,0,0,0.3); pointer-events:none;"/>
+
+</svg>

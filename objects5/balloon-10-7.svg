@@ -1,0 +1,19 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100 100 Q200 0, 300 100 Q400 200, 500 100" fill="#f0f8ff" stroke="#000"/>
+
+  <!-- Balloon skirt -->
+  <path d="M500 100 Q700 500, 600 900 Q400 800, 300 900 Q100 500, 200 100" fill="#f0f8ff" stroke="#000"/>
+
+  <!-- Beads at waist -->
+  <circle cx="300" cy="400" r="5" fill="#fff"/>
+  <circle cx="350" cy="400" r="5" fill="#fff"/>
+  <circle cx="250" cy="400" r="5" fill="#fff"/>
+
+  <!-- Beads at hem -->
+  <circle cx="150" cy="850" r="5" fill="#fff"/>
+  <circle cx="350" cy="850" r="5" fill="#fff"/>
+  <circle cx="550" cy="850" r="5" fill="#fff"/>
+
+</svg>

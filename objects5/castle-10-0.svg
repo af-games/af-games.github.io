@@ -1,0 +1,24 @@
+<svg width="220" height="180" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base rectangle -->
+  <rect x="10" y="10" width="200" height="150" fill="#9B5130" stroke="#000000"/>
+
+  <!-- Towers -->
+  <polygon points="75,30 125,30 125,80 75,80" fill="#9B5130" stroke="#000000"/>
+  <rect x="60" y="40" width="70" height="60" fill="#9B5130" stroke="#000000"/>
+  <rect x="80" y="70" width="60" height="60" fill="#9B5130" stroke="#000000"/>
+
+  <!-- Walls -->
+  <rect x="10" y="140" width="200" height="40" fill="#9B5130" stroke="#000000"/>
+  <rect x="87.5" y="160" width="25" height="20" fill="#FFFFFF" stroke="#000000"/>
+
+  <!-- Gatehouse -->
+  <rect x="40" y="130" width="120" height="50" fill="#9B5130" stroke="#000000"/>
+  <rect x="60" y="150" width="80" height="20" fill="#FFFFFF" stroke="#000000"/>
+
+  <!-- Windows and doorways -->
+  <rect x="70" y="40" width="30" height="20" fill="#9B5130" stroke="#000000"/>
+  <rect x="80" y="60" width="30" height="20" fill="#9B5130" stroke="#000000"/>
+  <rect x="40" y="150" width="40" height="20" fill="#FFFFFF" stroke="#000000"/>
+
+</svg>

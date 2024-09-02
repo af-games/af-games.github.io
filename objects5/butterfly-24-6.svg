@@ -1,0 +1,32 @@
+<svg>` tag and set up some initial properties:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     viewBox="-50 -50 100 100"
+     preserveAspectRatio="xMidYMid meet">
+```
+
+Here's what we've done so far:
+
+- `<svg>`: This is the root element of an SVG document.
+- `xmlns`: This attribute specifies the XML namespace for the SVG graphics.
+- `version`: Specifies the version of SVG being used (in this case, 1.1).
+- `viewBox`: Defines the aspect ratio and coordinate system of the SVG canvas. Here, we've set it to a square with width and height of 100 units, with its center at the origin (0, 0).
+- `preserveAspectRatio`: Ensures that the aspect ratio of the SVG content is preserved during rendering.
+
+Now, let's add some color and shapes in our next "notes":
+
+```xml
+<rect x="-50" y="-50" width="100" height="100"
+      fill="gold" stroke="black"/>
+```
+
+We've added a rectangle that fills the entire viewBox:
+
+- `<rect>`: This element defines a rectangle.
+- `x` and `y`: These attributes specify the coordinates of the top-left corner of the rectangle.
+- `width` and `height`: These define the dimensions of the rectangle.
+- `fill`: This attribute sets the interior color of the shape to gold.
+- `stroke`: This attribute sets the border color of the shape to black.
+
+This is just the beginning. We'll continue building our SVG symphony by adding more shapes, colors, and positions for our butterfly masterpiece. Stay tuned!</svg>

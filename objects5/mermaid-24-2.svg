@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mermaid Body -->
+  <path d="M100,300 Q150,275 200,250 Q250,225 300,200 Q350,175 400,150 Q450,125 500,100 L500,50 Z" fill="lightblue"/>
+
+  <!-- Tail Fin Scales -->
+  <path d="M400,150 Q450,175 500,190 Q500,200 480,210 Q460,220 430,225 Q410,230 400,240 Z" fill="lightblue"/>
+
+  <!-- Head and Face -->
+  <circle cx="300" cy="75" r="50"/>
+  <circle cx="290" cy="60" r="5" fill="black"/>
+  <circle cx="310" cy="60" r="5" fill="black"/>
+  <path d="M285,85 Q305,95 315,85 Z" stroke="black"/>
+
+  <!-- Hair -->
+  <path d="M275,50 Q300,40 325,50 Q300,60 275,50 Z" fill="lightblue"/>
+  <path d="M285,50 Q310,40 330,50 Q310,60 285,50 Z" fill="lightblue"/>
+
+</svg>

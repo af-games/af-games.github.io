@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Body -->
+  <circle cx="150" cy="200" r="80" fill="#ff69b4">
+    <animate
+      attributeName="r"
+      from="80"
+      to="100"
+      dur="1s"
+      repeatCount="indefinite"
+      begin="0s"/>
+  </circle>
+
+  <!-- Wings -->
+  <path d="M50,200 Q100,150 150,200" stroke="#ff69b4" fill="transparent">
+    <animate
+      attributeName="d"
+      from="M50,200 Q100,150 150,200"
+      to="M300,200 Q350,150 300,200"
+      dur="1s"
+      repeatCount="indefinite"
+      begin="0s" />
+    <animate
+      attributeName="stroke"
+      from="#ff69b4"
+      to="#ffe6e6"
+      dur="1s"
+      repeatCount="indefinite"
+      begin="0.5s"/>
+  </path>
+</svg>

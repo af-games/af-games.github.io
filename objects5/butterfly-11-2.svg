@@ -1,0 +1,18 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="150" cy="200" r="30" fill="black"/>
+
+  <!-- Left Wing -->
+  <path d="M80 170 Q120 100, 150 150 Q90 240, 80 200" stroke="black" fill="transparent"/>
+
+  <!-- Right Wing -->
+  <path d="M220 170 Q180 100, 150 150 Q230 240, 220 200" stroke="black" fill="transparent"/>
+
+  <!-- Left Antenna -->
+  <line x1="70" y1="150" x2="90" y2="120" stroke="black"/>
+
+  <!-- Right Antenna -->
+  <line x1="230" y1="150" x2="210" y2="120" stroke="black"/>
+
+</svg>

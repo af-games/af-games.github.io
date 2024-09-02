@@ -1,0 +1,43 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color: lightblue; stop-opacity:1" />
+      <stop offset="100%" style="stop-color: skyblue; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rectangle -->
+  <rect width="300" height="200" fill="url(#bgGradient)" />
+
+  <!-- Vector threads (horizontal) -->
+  <?php for ($i = 0; $i <= 150; $i += 10): ?>
+    <line x1="0" y1="<?= $i ?>" x2="300" y2="<?= $i ?>" stroke="black" stroke-width="1" />
+  <?php endfor ?>
+
+  <!-- Vector threads (vertical) -->
+  <?php for ($i = 0; $i <= 300; $i += 15): ?>
+    <line x1="<?= $i ?>" y1="0" x2="<?= $i ?>" y2="200" stroke="black" stroke-width="1" />
+  <?php endfor ?>
+
+  <!-- Penguin eyes -->
+  <circle cx="135" cy="70" r="10" fill="white">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 135 70"
+      to="360 135 70"
+      dur="2s"
+      repeatCount="indefinite" />
+  </circle>
+  <circle cx="165" cy="70" r="10" fill="white">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 165 70"
+      to="360 165 70"
+      dur="2s"
+      repeatCount="indefinite" />
+  </circle>
+
+</svg>

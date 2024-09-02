@@ -1,0 +1,28 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients -->
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(37,94,148);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(65,142,206);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <g id="body">
+    <path d="M75,30 Q95,10 115,30 Q125,70 140,60 A80,80 0 0 0 75,230 Q20,170 75,130 Q130,170 75,230 Z" fill="url(#blueGrad)" stroke="black"/>
+    <path d="M90,60 L110,80 H90 Z" fill="white"/>
+
+    <!-- Flipper -->
+    <g transform="translate(40,90) rotate(-30)">
+      <rect width="20" height="50" fill="black"/>
+    </g>
+  </g>
+
+  <!-- Head -->
+  <circle cx="100" cy="80" r="30" fill="white"/>
+  <path d="M90,70 Q110,60 120,70" stroke="black"/>
+
+  <!-- Eye -->
+  <circle cx="105" cy="65" r="5" fill="black"/>
+
+</svg>

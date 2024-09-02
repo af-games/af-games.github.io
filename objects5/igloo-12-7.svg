@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#D3E3F9"/>
+
+  <!-- Mountains (Igloo) -->
+  <circle cx="400" cy="150" r="80" stroke="#AEC6E7" stroke-width="2" fill="none"/>
+  <circle cx="400" cy="70" r="30" stroke="#AEC6E7" stroke-width="2" fill="white"/>
+  <path d="M370,150 Q380,90 400,70 Q410,90 430,150" stroke="#AEC6E7" stroke-width="2" fill="none"/>
+
+  <!-- Forest -->
+  <polygon points="50,200 100,180 150,200" fill="#66BB6A"/>
+  <text x="75" y="230" font-family="Arial" font-size="14">Emerald Forest</text>
+
+  <!-- City -->
+  <polygon points="650,250 700,280 750,250" fill="#FFC107"/>
+  <circle cx="675" cy="300" r="20" stroke="#FFC107" stroke-width="2" fill="white"/>
+  <text x="660" y="280" font-family="Arial" font-size="14">Glowing City</text>
+
+  <!-- Rivers -->
+  <path d="M350,400 Q320,350 370,300 Q420,350 400,400" stroke="#3897EC" stroke-width="4" fill="none"/>
+  <text x="360" y="450" font-family="Arial" font-size="14">Frost River</text>
+
+  <!-- Igloo Label -->
+  <text x="380" y="50" font-family="Arial" font-size="18">Glacier Grove</text>
+  <circle cx="400" cy="60" r="5" stroke="#AEC6E7" stroke-width="2" fill="white"/>
+
+</svg>

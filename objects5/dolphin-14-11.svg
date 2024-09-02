@@ -1,0 +1,19 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dolphin Outline -->
+  <path id="dolphinOutline" d="M100 20 Q150 50, 200 20 L300 100 Z"/>
+
+  <!-- Eyes and Smile -->
+  <circle cx="120" cy="40" r="5"/>
+  <circle cx="180" cy="40" r="5"/>
+  <path d="M130 60 Q160 70, 190 60"/>
+
+  <!-- Shadow -->
+  <rect x="20" y="80" width="340" height="50" fill="#555">
+    <mask id="shadowMask">
+      <circle cx="170" cy="120" r="150" fill="white"/>
+    </mask>
+  </rect>
+
+  <!-- Dolphin Outline with Mask -->
+  <path d="M100 20 Q150 50, 200 20 L300 100 Z" fill="none" stroke="#0099FF" mask="url(#dolphinMask)"/>
+</svg>

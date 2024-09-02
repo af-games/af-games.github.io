@@ -1,0 +1,14 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Measure 1 -->
+  <circle cx="40" cy="50" r="30" fill="#964B00"/>
+  <rect x="70" y="40" width="15" height="60" fill="#964B00"/>
+  <!-- Measure 2 -->
+  <circle cx="80" cy="50" r="30" fill="#964B00"/>
+  <rect x="110" y="40" width="15" height="60" fill="#964B00"/>
+  <!-- Measure 3 -->
+  <circle cx="120" cy="50" r="30" fill="#964B00"/>
+  <rect x="150" y="40" width="15" height="60" fill="#964B00"/>
+  <!-- Measure 4 -->
+  <circle cx="160" cy="50" r="30" fill="#964B00"/>
+  <path d="M200,40 L210,70 Z" fill="#C8232C"/>
+</svg>

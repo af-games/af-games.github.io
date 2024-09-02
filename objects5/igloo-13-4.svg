@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Igloo -->
+  <circle cx="400" cy="350" r="120" fill="#FFFFFF">
+    <animate attributeName="r" values="120;130;120" dur="1s" repeatCount="indefinite" />
+    <linearGradient id="iglooShadow" x1="400" y1="570" x2="400" y2="280">
+      <stop offset="0%" style="stop-color:#ADD8E6; stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#FFFFFF"/>
+    </linearGradient>
+  </circle>
+
+  <!-- Rolling hills -->
+  <path d="M50,250 Q100,150 200,200 Q400,300 600,200 Q700,150 800,250" fill="#98FB98">
+    <animate attributeName="d" values="M50,275 Q100,175 200,225 Q400,325 600,225 Q700,175 800,275;M50,250 Q100,150 200,200 Q400,300 600,200 Q700,150 800,250" dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- River -->
+  <path d="M100,400 Q200,350 300,400 Q500,450 700,400 Q800,350 900,400" stroke="#ADD8E6" fill="transparent">
+    <animate attributeName="d" values="M100,425 Q200,375 300,425 Q500,475 700,425 Q800,375 900,425;M100,400 Q200,350 300,400 Q500,450 700,400 Q800,350 900,400" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="2;4;2" dur="1s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Pine trees -->
+  <g transform="translate(150,300)">
+    <use href="#pineTree" x="0" y="0"></use>
+    <use href="#pineTree" x="70" y="-20"></use>
+    <use href="#pineTree" x="140" y="0"></use>
+  </g>
+
+  <!-- Small forest -->
+  <g transform="translate(500,350)">
+    <use href="#pineTreeGroup" x="0" y="0"></use>
+  </g>
+
+  <!-- Pine tree pattern -->
+  <defs>
+    <pattern id="pineTree" width="50" height="100">
+      <image xlink:href="https://i.imgur.com/4Xlw87S.png" width="50" height="100"/>
+    </pattern>
+    <!-- Pine tree group pattern -->
+    <pattern id="pineTreeGroup" width="200" height="150">
+      <use href="#pineTree" x="0" y="0"></use>
+      <use href="#pineTree" x="70" y="-20"></use>
+      <use href="#pineTree" x="140" y="0"></use>
+    </pattern>
+  </defs>
+
+</svg>

@@ -1,0 +1,20 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mermaid body -->
+  <ellipse cx="200" cy="150" rx="600" ry="300" fill="lightblue" />
+
+  <!-- Head -->
+  <circle cx="200" cy="75" r="75" fill="pink" />
+  <polygon points="200,50 180,60 220,60 240,50 220,40" fill="brown" />
+
+  <!-- Eyes -->
+  <circle cx="190" cy="85" r="7.5" fill="black" />
+  <circle cx="210" cy="85" r="7.5" fill="black" />
+
+  <!-- Mouth -->
+  <path d="M175,110 Q200,120 225,110" stroke="pink" fill="transparent" stroke-width="4"/>
+
+  <!-- Tail -->
+  <polygon points="400,375 350,425 450,425" fill="lightblue" />
+
+</svg>

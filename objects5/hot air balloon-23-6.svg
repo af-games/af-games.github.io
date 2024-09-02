@@ -1,0 +1,27 @@
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bodice -->
+  <path id="bodice" d="M150,400 Q150,300 300,300 Q450,300 450,400 Z"/>
+
+  <!-- Sleeves -->
+  <circle cx="75" cy="250" r="75"/>
+  <circle cx="625" cy="250" r="75"/>
+
+  <!-- Basket -->
+  <polygon id="basket" points="375,400 425,400 425,550 375,550"/>
+
+  <!-- Burner flame -->
+  <circle cx="400" cy="525" r="25">
+    <linearGradient id="flame" x1="400" y1="525" x2="400" y2="675">
+      <stop offset="0%" style="stop-color:orange"/>
+      <stop offset="100%" style="stop-color:red"/>
+    </linearGradient>
+  </circle>
+
+  <!-- Clothing assembly -->
+  <use href="#bodice" fill="url(#balloonGradient)"/>
+  <use href="#sleeves" fill="url(#balloonGradient)"/>
+  <use href="#basket" fill="yellow"/>
+  <use href="#burner" fill="url(#flame)"/>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg width="190" height="323" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="190" height="323" fill="#E8EAED"/>
+
+  <!-- Balloon boundaries following golden ratio (approx. 1.618) -->
+  <path id="balloon" d="M50,70 Q85,35 140,70 Q85,105 50,70" fill="none" stroke="#FFD700"/>
+
+  <!-- Mountains (circles) -->
+  <circle cx="65" cy="120" r="30" fill="#C0C0C0"/>
+  <circle cx="130" cy="240" r="20" fill="#C0C0C0"/>
+
+  <!-- Rivers (paths with wave animation) -->
+  <path id="river" d="M50,260 Q80,270 140,260 Q180,250 190,260" stroke="#3D9970"/>
+  <animate attributeName="d" values="M50,260 Q80,270 140,260 Q180,250 190,260;M50,265 Q80,275 140,265 Q180,245 190,265" dur="3s" repeatCount="indefinite"/>
+
+  <!-- Trees (polygons) -->
+  <polygon points="100,210 110,200 90,200" fill="#8B7D6B"/>
+  <animate attributeName="points" values="100,210 110,205 90,205;100,210 110,200 90,200" dur="2s" repeatCount="indefinite"/>
+
+</svg>

@@ -1,0 +1,42 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Outline -->
+<rect x="10%" y="5%" width="80%" height="90%" fill="none" stroke="#000"/>
+
+<!-- Main features -->
+
+<!-- Body -->
+<path d="M40% 70%, Q60% 30%, 80% 70%, Z" fill="#F2C94B"/>
+
+<!-- Head -->
+<circle cx="65%" cy="50%" r="15%" fill="#F2C94B"/>
+
+<!-- Mane -->
+<path d="M35% 50%, Q60% 20%, 85% 50%, Z" fill="#E7AB1A"/>
+
+<!-- Legs -->
+<circle cx="25%" cy="80%" r="5%" fill="#F2C94B"/>
+<circle cx="35%" cy="85%" r="5%" fill="#F2C94B"/>
+<circle cx="65%" cy="80%" r="5%" fill="#F2C94B"/>
+<circle cx="75%" cy="85%" r="5%" fill="#F2C94B"/>
+
+<!-- Tail -->
+<path d="M80% 85%, Q85% 65%, 80% 45%" stroke="#E7AB1A" fill="transparent"/>
+
+<!-- Details -->
+
+<!-- Eyes -->
+<circle cx="63.5%" cy="45%" r="2%" fill="#000"/>
+<circle cx="66.5%" cy="45%" r="2%" fill="#000"/>
+
+<!-- Nose -->
+<path d="M65% 50%, Q67% 53%, 68% 50%" stroke="#000" fill="transparent"/>
+
+<!-- Mane details -->
+<path d="M37% 49.5%, L62% 19.5, 84% 49.5" stroke="#E7AB1A" fill="transparent"/>
+
+<!-- Coordinates -->
+<text x="5%" y="90%" font-family="Verdana" font-size="20">(0,0)</text>
+<text x="30%" y="90%" font-family="Verdana" font-size="20">(400,600)</text>
+
+</svg>

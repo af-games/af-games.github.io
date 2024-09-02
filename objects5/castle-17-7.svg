@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Outline -->
+  <rect x="100" y="50" width="600" height="400" style="fill:rgba(0,0,0,0.5);stroke-width:5;stroke:rgb(255,255,255)" />
+
+  <!-- Stage Area -->
+  <rect x="150" y="100" width="500" height="300" style="fill:rgba(255,255,255,0.8);stroke-width:2;stroke:rgb(0,0,0)" />
+
+  <!-- Main Action Area (Throne) -->
+  <rect x="250" y="150" width="300" height="150" style="fill:linearGradient(throneGradient);stroke-width:4;stroke:rgb(169,169,169)">
+    <stop offset="0%" stop-color="#FFD700"/>
+    <stop offset="100%" stop-color="#CACFD2"/>
+  </rect>
+
+  <!-- Props -->
+  <!-- Torch -->
+  <circle cx="350" cy="250" r="40" fill="orange" />
+  <path d="M350,290 Q375,310 400,290" stroke="brown" fill="transparent"/>
+
+  <!-- Curtain -->
+  <rect x="60" y="10" width="50" height="500" style="fill:linearGradient(curtainGradient)">
+    <stop offset="0%" stop-color="#333"/>
+    <stop offset="100%" stop-color="#000"/>
+  </rect>
+
+</svg>

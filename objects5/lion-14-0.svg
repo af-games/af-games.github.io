@@ -1,0 +1,25 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="170" y="140" width="160" height="220" rx="80" fill="#fdb927"/>
+
+  <!-- Head -->
+  <circle cx="250" cy="210" r="130" fill="#f9d71c"/>
+  <path d="M240,160 Q260,140 280,160 H240 Z" fill="#ffffff"/>
+
+  <!-- Eyes -->
+  <circle cx="250" cy="170" r="30" stroke="#fff569" stroke-width="10"/>
+  <circle cx="250" cy="170" r="20" fill="#000000"/>
+
+  <!-- Limbs -->
+  <ellipse cx="180" cy="260" rx="40" ry="90" fill="#fdb927"/>
+  <ellipse cx="320" cy="260" rx="40" ry="90" fill="#fdb927"/>
+
+  <!-- Tail -->
+  <polyline points="185,350 220,420 255,350" stroke="#fdb927" fill="transparent" stroke-width="30" stroke-linecap="round"/>
+
+  <!-- Mane -->
+  <path d="M220,160 Q240,80 260,160 T320,80 Z" fill="#ffffff" stroke="#fdb927" stroke-width="10"/>
+
+  <!-- Outlines & details -->
+  <path d="M185,150 Q230,140 275,150 Q320,160 365,150 Q310,140 265,150 Z" fill="transparent" stroke="#000000" stroke-width="15"/>
+</svg>

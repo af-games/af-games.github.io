@@ -1,0 +1,23 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Basket -->
+  <rect x="80" y="360" width="140" height="60" rx="30" fill="#D2B48C"/>
+
+  <!-- Envelope -->
+  <polygon points="50,30,200,30,300,90,400,90,50,170" fill="#F5DEB3">
+
+    <!-- Netting -->
+    <pattern id="netting" patternUnits="userSpaceOnUse">
+      <path d="M 0 0 L 10 0 M 0 10 L 10 10" stroke="#9E917A"/>
+    </pattern>
+    <rect width="450" height="200" fill="url(#netting)" transform="translate(50,30)"/>
+
+  </polygon>
+
+  <!-- Rim -->
+  <circle cx="250" cy="85" r="15" fill="#644127"/>
+
+  <!-- Burner -->
+  <rect x="220" y="10" width="30" height="90" rx="5" fill="#FFD700"/>
+
+</svg>

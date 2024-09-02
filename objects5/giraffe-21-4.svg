@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="600" fill="#ADD8E6"/>
+
+  <!-- Hills -->
+  <path d="M0,540 Q100,500 200,470 Q350,400 450,450 Q600,500 800,540" stroke="#90EE90" fill="url(#hillGradient)" />
+  <linearGradient id="hillGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#8DC63C; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#7CCD44; stop-opacity:1" />
+  </linearGradient>
+
+  <!-- River -->
+  <path d="M50,590 Q150,580 250,560 Q350,540 450,550 Q550,530 650,570 Q750,580 850,590" stroke="#212F3D" fill="url(#riverPattern)" />
+  <pattern id="riverPattern" patternUnits="userSpaceOnUse" width="4" height="4">
+    <rect width="2" height="2" fill="#212F3D"/>
+    <rect x="2" y="2" width="2" height="2" fill="url(#rippleGradient)"/>
+  </pattern>
+  <linearGradient id="rippleGradient" x1="0%" y1="50%" x2="100%" y2="50%">
+    <stop offset="0%" style="stop-color:#3F5167; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#1E415B; stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Giraffe -->
+  <circle cx="290" cy="400" r="80" fill="#FFFF00"/>
+  <circle cx="270" cy="350" r="30" fill="#8B4513"/>
+  <path d="M310,350 Q330,360 350,390 Q370,360 390,350" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Trees -->
+  <circle cx="120" cy="400" r="30" fill="#A0522D"/>
+  <circle cx="700" cy="450" r="30" fill="#A0522D"/>
+  <circle cx="60" cy="380" r="15" fill="#32CD32"/>
+  <circle cx="740" cy="430" r="15" fill="#32CD32"/>
+
+</svg>

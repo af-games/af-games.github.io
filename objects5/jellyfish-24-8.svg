@@ -1,0 +1,26 @@
+<svg width="600" height="450" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Plate -->
+<circle cx="180" cy="225" r="150" fill="#FFFDD0"/>
+
+<!-- Jellyfish (star ingredient) -->
+<g transform="translate(75, 160)">
+  <path d="M0,-100 a100,100 0 1,0 -200,0 a100,100 0 1,0 200,0" fill="#83A4D4"/>
+  <polygon points="-50,-150 50,-150 0,100" fill="#83A4D4"/>
+</g>
+
+<!-- Lemon wedge garnish -->
+<path transform="translate(225, 90)" d="M-70,-70 Q-50,-60 -30,-50 L0,0 L-30,50 Q-50,60 -70,70" fill="#FFC107"/>
+
+<!-- Olive utensil -->
+<circle cx="420" cy="225" r="10" fill="#8B4513"/>
+<rect x="400" y="210" width="40" height="40" fill="#8B4513"/>
+
+<!-- Tableware (fork) -->
+<path d="M520,270 Q530,260 540,250 L520,240 Z" stroke="#CACFD2" fill="#FFFDD0"/>
+<path d="M540,250 L580,310 L520,370 Z" stroke="#CACFD2" fill="#FFFDD0"/>
+
+<!-- Background (tablecloth) -->
+<rect x="0" y="300" width="600" height="150" fill="#F4D03F"/>
+
+</svg>

@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main body -->
+  <circle cx="100" cy="75" r="60" stroke="darkbrown" stroke-width="2" fill="aquamarine" />
+
+  <!-- Tentacles -->
+  <g transform="rotate(45 100 100)">
+    <path d="M90,30 a10,10 0 0,0 80,0 a10,10 0 0,0 -80,0" stroke="darkbrown" fill="aquamarine"/>
+    <!-- Repeat path for remaining tentacles -->
+  </g>
+
+  <!-- Geometric pattern -->
+  <circle cx="95" cy="72" r="35" fill="gold"/>
+
+</svg>

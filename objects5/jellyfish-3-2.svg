@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Bell (body) -->
+  <circle cx="250" cy="175" r="150" fill="#84b9ff" opacity="0.8"/>
+  <circle cx="250" cy="175" r="130" fill="#d6e3fd"/>
+
+  <!-- Tentacles -->
+  <g stroke="#fff" stroke-width="5">
+    <path d="M120,220 Q150,150 220,220"/>
+    <path d="M380,220 Q350,150 280,220"/>
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="225" cy="75" r="15" fill="#fff"/>
+  <circle cx="275" cy="75" r="15" fill="#fff"/>
+
+</svg>

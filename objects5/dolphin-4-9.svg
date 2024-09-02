@@ -1,0 +1,30 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define patterns -->
+  <defs>
+    <pattern id="waterPattern" patternUnits="userSpaceOnUse" width="60" height="10">
+      <path d="M 0,0 Q 30,5 60,0 H 70 V 10 H 0 Z" fill="#8FD4FF"/>
+    </pattern>
+  </defs>
+
+  <!-- Dolphins -->
+  <g transform="translate(50, 20)">
+    <circle cx="0" cy="50" r="40" fill="#FFFFFF">
+      <animate attributeName="cx" values="0;60;120;60;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <ellipse cx="30" cy="30" rx="15" ry="8" fill="#B3D4FC">
+      <animate attributeName="cx" values="30;60;90;60;30" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="-30" cy="30" rx="15" ry="8" fill="#B3D4FC">
+      <animate attributeName="cx" values="-30;-60;-90;-60;-30" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- Duplicate dolphins with pattern -->
+  <use xlink:href="#dolphin" x="120" y="0"/>
+  <use xlink:href="#dolphin" x="240" y="50"/>
+
+  <!-- Water waves -->
+  <path d="M 0,90 Q 60,80 120,90 T 180,90 Q 240,80 300,90 T 360,90" stroke="#8FD4FF" fill="url(#waterPattern)" stroke-width="5"/>
+
+</svg>

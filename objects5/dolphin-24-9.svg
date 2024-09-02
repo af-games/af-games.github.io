@@ -1,0 +1,34 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define pattern for dolphins -->
+  <defs>
+    <pattern id="dolphinPattern" patternUnits="userSpaceOnUse" width="60" height="40">
+      <image href="https://via.placeholder.com/60x40" x="0" y="0"/>
+    </pattern>
+  </defs>
+
+  <!-- Dolphins -->
+  <g id="dolphins" patternUnits="userSpaceOnUse" transform="translate(15, 15)">
+    <rect width="60" height="40" fill="url(#dolphinPattern)" rx="20"/>
+    <circle cx="30" cy="40" r="5" fill="black"/>
+    <circle cx="90" cy="40" r="5" fill="black"/>
+  </g>
+
+  <!-- Paths connecting dolphins -->
+  <path d="M15,120 Q70,80 160,120 Q300,200 210,280 L280,240 Z" stroke="black" fill="transparent"/>
+
+  <!-- Repeating motifs (dolphins) -->
+  <g id="dolphinsRepeat">
+    <use href="#dolphins" x="65" y="90"/>
+    <use href="#dolphins" transform="scale(-1, 1) translate(-60, 280)" />
+  </g>
+
+  <!-- Repeat motifs -->
+  <pattern id="repeatPattern" patternUnits="userSpaceOnUse" width="325" height="300">
+    <use href="#dolphinsRepeat"/>
+  </pattern>
+
+  <!-- Garden plot background -->
+  <rect width="300" height="300" fill="lightgreen"/>
+
+</svg>

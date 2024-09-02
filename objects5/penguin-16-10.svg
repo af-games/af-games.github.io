@@ -1,0 +1,54 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="600" fill="url(#bgGradient)"/>
+
+  <!-- Body -->
+  <path d="M70,480 Q150,430 230,480 Q310,430 390,480 Q470,430 550,480 V600H0Z"
+        fill="url(#bodyGradient)"/>
+
+  <!-- Belly -->
+  <path d="M70,480 Q150,430 230,480" stroke="none" fill="#fff"/>
+  <circle cx="230" cy="480" r="20" fill="#fff"/>
+
+  <!-- Head -->
+  <circle cx="230" cy="360" r="70" fill="url(#headGradient)"/>
+  <path d="M190,350 Q210,310 230,340 Q250,310 270,350" stroke="#fff" fill="none" stroke-width="5"/>
+
+  <!-- Eye -->
+  <circle cx="210" cy="320" r="10" fill="#000"/>
+  <circle cx="250" cy="320" r="10" fill="#000"/>
+
+  <!-- Wing (Left) -->
+  <path d="M90,480 Q130,430 170,460 Q210,430 250,480"
+        stroke="#fff" fill="none" stroke-width="5"/>
+
+  <!-- Wing (Right) -->
+  <path d="M390,480 Q350,430 330,460 Q290,430 250,480"
+        stroke="#fff" fill="none" stroke-width="5"/>
+
+  <!-- Foot (Left) -->
+  <polygon points="110,570 140,600 170,570" fill="#fff"/>
+  <path d="M110,570 Q120,580 140,590 Q150,580 170,570"
+        stroke="#333" fill="none" stroke-width="3"/>
+
+  <!-- Foot (Right) -->
+  <polygon points="360,570 390,600 420,570" fill="#fff"/>
+  <path d="M360,570 Q370,580 390,590 Q400,580 420,570"
+        stroke="#333" fill="none" stroke-width="3"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(192,192,192);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(51,76,98);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(34,42,50);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(243,236,225);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(179,168,155);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

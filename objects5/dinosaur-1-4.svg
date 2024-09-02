@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 600 180">
+  <!-- Body -->
+  <g id="body" transform="translate(0, 0)">
+    <rect x="0" y="40" width="300" height="90" fill="#8B7D6B" />
+    <path d="M250 130 Q280 150, 300 130" stroke="#553C2E" fill="transparent"/>
+    <!-- Body details (e.g., spikes) -->
+    <circle cx="70" cy="60" r="20" fill="white" />
+    <circle cx="180" cy="60" r="20" fill="white" />
+  </g>
+
+  <!-- Head -->
+  <g id="head" transform="translate(350, -40)">
+    <ellipse cx="70" cy="70" rx="70" ry="90" fill="#C86421"/>
+    <path d="M50 120 Q80 140, 110 120 T140 120" stroke="#553C2E" fill="transparent"/>
+    <!-- Head details (e.g., eyes) -->
+    <circle cx="60" cy="90" r="10" fill="white" />
+    <circle cx="90" cy="90" r="10" fill="white" />
+  </g>
+
+  <!-- Tail -->
+  <g id="tail" transform="translate(370, 60)">
+    <polygon points="0,-20 40,-20 20,40" fill="#8B7D6B"/>
+    <!-- Repeat the above polygon for the tail length -->
+    <!-- Tail details (e.g., spikes) -->
+    <circle cx="30" cy="10" r="10" fill="white"/>
+    <circle cx="50" cy="10" r="10" fill="white"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="
+    M 100,50 C 200,70 340,120 500,90 S 660,170 800,130
+  " fill="none" stroke="black"/>
+
+  <!-- Tail -->
+  <polygon points="700,130 800,250 900,130" fill="none" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="400" cy="60" r="30" fill="none" stroke="black"/>
+
+  <!-- Eyes -->
+  <circle cx="370" cy="50" r="5" fill="black"/>
+  <circle cx="430" cy="50" r="5" fill="black"/>
+
+  <!-- Mouth -->
+  <path d="M 420,80 Q 450,100 480,80" fill="none" stroke="black"/>
+</svg>

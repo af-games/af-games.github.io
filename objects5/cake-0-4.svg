@@ -1,0 +1,22 @@
+<svg>` tag. I've used circles for the body and top of the cake, rectangles for the base, and some triangles for the cake's "feet." I've also added some frosting lines using polyline elements.
+
+```svg
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake body -->
+  <circle cx="100" cy="75" r="75" fill="#FFF" stroke="#C38D46" stroke-width="5"/>
+
+  <!-- Cake top -->
+  <circle cx="100" cy="35" r="25" fill="#FFF" stroke="#C38D46" stroke-width="5"/>
+
+  <!-- Cake base -->
+  <rect x="70" y="150" width="60" height="25" fill="#A96032"/>
+
+  <!-- Cake "feet" -->
+  <polygon points="70,150 130,150 100,200" fill="#A96032" stroke="#C38D46" stroke-width="5"/>
+
+  <!-- Frosting lines -->
+  <polyline points="70,35 130,35 100,15" fill="none" stroke="#FFF" stroke-width="3"/>
+  <polyline points="90,70 110,70" fill="none" stroke="#FFF" stroke-width="3"/>
+
+</svg>

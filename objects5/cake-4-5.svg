@@ -1,0 +1,24 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <circle cx="150" cy="275" r="100" fill="#FFA500"/>
+  <path d="M150 275 Q90 350, 150 425" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Cake Top -->
+  <circle cx="150" cy="175" r="80" fill="#FFFACD"/>
+  <path d="M150 175 Q90 50, 150 25" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Frosting -->
+  <rect x="10" y="10" width="280" height="260" rx="50" fill="#FFFDD0"/>
+  <path d="M0 270 Q50 450, 300 270 T600 270" stroke="#FFFDD0" fill="transparent"/>
+
+  <!-- Candles -->
+  <circle cx="110" cy="125" r="15" fill="#FFA500"/>
+  <circle cx="135" cy="125" r="10" fill="#FFA500"/>
+  <circle cx="160" cy="125" r="8" fill="#FFA500"/>
+
+  <!-- Cake Topping -->
+  <path d="M0 75 Q50 300, 300 75 T600 75" stroke="#CD7F32" fill="transparent"/>
+  <text x="50%" y="140" dominant-baseline="middle" text-anchor="middle" font-family="Verdana" font-size="40">Happy Birthday!</text>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg width="320" height="240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="150" cy="75" rx="100" ry="80" fill="#8B4513"/>
+
+  <!-- Wings -->
+  <path d="M100 10 Q140 5, 200 30 Q250 70, 200 90 Q150 120, 100 100" fill="#D2976C"/>
+
+  <!-- Face -->
+  <circle cx="100" cy="30" r="40" fill="#8B4513"/>
+  <ellipse cx="70" cy="50" rx="25" ry="15" fill="#EFDAC1"/>
+  <ellipse cx="130" cy="50" rx="25" ry="15" fill="#EFDAC1"/>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="20" r="8" fill="#654321"/>
+  <circle cx="110" cy="20" r="8" fill="#654321"/>
+
+  <!-- Background -->
+  <rect x="5" y="5" width="300" height="100" fill="#A9A9A9"/>
+  <rect x="5" y="110" width="300" height="100" fill="#E8E8E8"/>
+
+</svg>

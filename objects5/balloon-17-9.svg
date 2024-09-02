@@ -1,0 +1,56 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .balloon {
+                fill: lightblue;
+                stroke-width: 1;
+                stroke: black;
+                animation-duration: 4s;
+                animation-timing-function: linear;
+            }
+            @keyframes float {
+                from { transform: translateY(0) rotate(0deg); }
+                to { transform: translateY(-20px) rotate(360deg); }
+            }
+        </style>
+    </defs>
+```
+
+Now, let's write out each measure of our musical score. We'll start with a simple introduction, build up to a climax, and then resolve.
+
+**Measure 1 - Introduction**
+
+One balloon floats gently into view from the bottom left corner.
+
+```svg
+    <circle class="balloon" cx="50" cy="400" r="30" animation="float infinite">
+```
+
+**Measure 2 - Building**
+
+More balloons join in, increasing in size and starting higher up on the canvas.
+
+```svg
+    <circle class="balloon" cx="150" cy="350" r="40" animation="float infinite">
+    <circle class="balloon" cx="250" cy="300" r="50" animation="float infinite">
+```
+
+**Measure 3 - Climax**
+
+The balloons reach their peak and start to descend. The largest balloon appears at the top.
+
+```svg
+    <circle class="balloon" cx="400" cy="100" r="60">
+        <animate attributeName="cy" values="100;400;100" begin="2s" dur="3s" repeatCount="indefinite"/>
+    </circle>
+```
+
+**Measure 4 - Resolution**
+
+The balloons slowly drift out of view, leaving one lone balloon floating gently.
+
+```svg
+    <circle class="balloon" cx="550" cy="300" r="40">
+        <animate attributeName="cx" values="550;800" begin="2s" dur="6s" repeatCount="1"/>
+    </circle>
+</svg>

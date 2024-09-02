@@ -1,0 +1,23 @@
+<svg viewBox="-10 -10 300 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body Outline -->
+  <path d="M10 25 Q40 35, 90 35 Q140 35, 170 25 Q210 35, 260 35" stroke="#4a2c0f" stroke-width="8" fill="transparent"/>
+
+  <!-- Body Feathers -->
+  <path d="M40 35 Q50 45, 60 40 Q70 45, 80 35" stroke="#926e42" stroke-width="4" fill="transparent"/>
+  <path d="M130 35 Q140 40, 150 45 Q160 40, 170 35" stroke="#926e42" stroke-width="4" fill="transparent"/>
+
+  <!-- Head -->
+  <path d="M90 25 Q80 15, 110 15 Q120 15, 130 25" stroke="#4a2c0f" stroke-width="6" fill="transparent"/>
+  <path d="M100 15 Q90 10, 110 10" stroke="#926e42" stroke-width="3" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="12" r="7" fill="#fff" stroke="#4a2c0f" stroke-width="3"/>
+  <circle cx="125" cy="12" r="7" fill="#fff" stroke="#4a2c0f" stroke-width="3"/>
+
+  <!-- Beak -->
+  <path d="M95 18 Q110 25, 125 18" stroke="#ffeb7e" stroke-width="3" fill="transparent"/>
+
+  <!-- Wings -->
+  <path d="M40 35 Q20 50, 0 35 Q20 20, 40 35" stroke="#4a2c0f" stroke-width="6" fill="transparent"/>
+  <path d="M170 35 Q190 50, 210 35 Q190 20, 170 35" stroke="#4a2c0f" stroke-width="6" fill="transparent"/>
+</svg>

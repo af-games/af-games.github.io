@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 400 400">
+```
+
+**2. Begin drawing tentative lines and shapes using <path> elements:**
+
+For the body:
+
+```svg
+<path id="body" stroke="black" fill="none" d="M-30,-40 H160 V80 H-50 Z"/>
+```
+
+For the head:
+
+```svg
+<path id="head" stroke="black" fill="none" d="M-20,0 A20,20 0 0 0 20,0"/>
+```
+
+**3. Discover new features (circles for eyes, rectangles for teeth):**
+
+For the left eye:
+
+```svg
+<circle id="eyeLeft" cx="-10" cy="5" r="5"/>
+```
+
+For the right eye:
+
+```svg
+<circle id="eyeRight" cx="10" cy="5" r="5"/>
+```
+
+For the top row of teeth:
+
+```svg
+<rect id="teethTop" width="2" height="10" x="-30" y="20" fill="black"/>
+```
+
+**4. Document your journey with detailed notes (attribute values):**
+
+- `id`: Unique identifier for each element.
+- `stroke` and `fill`: Color of the outline and interior respectively.
+- `d`: The path data defining the shape.
+- For circles: `cx`, `cy`: Center coordinates, `r`: Radius.
+- For rectangles: `width`, `height`: Dimensions, `x`, `y`: Position.
+
+**5. Write out your map's final draft using SVG tags:**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 400 400">
+  <path id="body" stroke="black" fill="none" d="M-30,-40 H160 V80 H-50 Z"/>
+  <path id="head" stroke="black" fill="none" d="M-20,0 A20,20 0 0 0 20,0"/>
+  <circle id="eyeLeft" cx="-10" cy="5" r="5"/>
+  <circle id="eyeRight" cx="10" cy="5" r="5"/>
+  <rect id="teethTop" width="2" height="10" x="-30" y="20" fill="black"/>
+</svg>

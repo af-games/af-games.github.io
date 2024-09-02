@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Museum Perimeter -->
+  <rect x="100" y="50" width="600" height="400" style="fill:lightgray;stroke:black;stroke-width:2" />
+
+  <!-- Lion's Original Location -->
+  <circle cx="300" cy="250" r="50" style="fill:gold;stroke:black;stroke-width:2" />
+  <text x="290" y="260" font-family="Verdana" font-size="14">Lion's Pedestal</text>
+
+  <!-- Clue Paths -->
+  <path d="M350,250 Q400,200 450,250" stroke="blue" stroke-width="2" fill="transparent" />
+  <path d="M350,250 Q250,200 150,250" stroke="blue" stroke-width="2" fill="transparent" />
+
+  <!-- Suspects/Red Herrings -->
+  <circle cx="400" cy="300" r="30" style="fill:red;stroke:black;stroke-width:2" />
+  <text x="395" y="310" font-family="Verdana" font-size="14">Suspect A</text>
+
+  <circle cx="100" cy="150" r="30" style="fill:green;stroke:black;stroke-width:2" />
+  <text x="95" y="160" font-family="Verdana" font-size="14">Red Herring</text>
+
+</svg>

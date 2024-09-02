@@ -1,0 +1,51 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the kangaroo shapes -->
+  <path id="kangaroo-body" d="M100 400 Q150 350, 200 400 Q250 450, 300 400 Q350 350, 400 400" fill="tan"/>
+  <path id="kangaroo-head" d="M150 350 Q175 325, 200 350 Q225 375, 200 400" fill="brown"/>
+  <circle id="kangaroo-eye-left" cx="175" cy="360" r="5" fill="black"/>
+  <circle id="kangaroo-eye-right" cx="190" cy="360" r="5" fill="black"/>
+  <path id="kangaroo-ear-left" d="M225 375 Q240 390, 225 405" fill="brown"/>
+  <path id="kangaroo-ear-right" d="M175 375 Q160 390, 175 405" fill="brown"/>
+  <rect id="kangaroo-pouch" x="225" y="380" width="50" height="50" fill="tan"/>
+
+  <!-- Animate the kangaroo body jumping -->
+  <animate
+    attributeName="d"
+    from="M100 400 Q150 350, 200 400 Q250 450, 300 400 Q350 350, 400 400"
+    to="M100 380 Q150 330, 200 380 Q250 420, 300 380 Q350 330, 400 380"
+    dur="1s"
+    repeatCount="indefinite"
+    begin="0s"/>
+  <animate
+    attributeName="d"
+    from="M175 325 Q225 375, 200 400 Q225 375, 200 400"
+    to="M175 350 Q225 400, 200 430 Q225 400, 200 430"
+    dur="1s"
+    repeatCount="indefinite"
+    begin="0s"/>
+  <animate
+    attributeName="d"
+    from="M225 375 Q240 390, 225 405"
+    to="M225 385 Q240 410, 225 425"
+    dur="0.5s"
+    repeatCount="indefinite"
+    begin="0s" />
+  <animate
+    attributeName="d"
+    from="M175 375 Q160 390, 175 405"
+    to="M175 385 Q160 410, 175 425"
+    dur="0.5s"
+    repeatCount="indefinite"
+    begin="0s" />
+  <animate
+    attributeName="x"
+    from="225"
+    to="275"
+    dur="1s"
+    repeatCount="indefinite"
+    begin="0s"
+    id="pouch-animation"/>
+
+  <!-- Synchronize pouch animation with body animation -->
+  <set attributeName="begin" from="pouch-animation.begin+1s" to="0s" startTime="pouch-animation.end"/>
+</svg>

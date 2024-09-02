@@ -1,0 +1,27 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="450" fill="#87CEEB"/>
+
+  <!-- Sea Plants -->
+  <g id="seaPlants">
+    <polygon points="10,350,200,390,100,390" fill="#00BFFF"/>
+    <polygon points="300,370,450,380,350,360" fill="#00BFFF"/>
+  </g>
+
+  <!-- Small Fish -->
+  <g id="smallFish">
+    <!-- Fish paths and fills go here -->
+  </g>
+
+  <!-- Nurse Sharks -->
+  <g id="nurseSharks">
+    <!-- Shark paths and fills go here -->
+  </g>
+
+  <!-- Corals -->
+  <g id="corals">
+    <!-- Coral paths and fills go here -->
+  </g>
+
+</svg>

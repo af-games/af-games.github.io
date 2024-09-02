@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Balloon Envelope -->
+  <path d="M250,100 Q300,50 350,100 Q300,150 250,200 Q200,150 150,100" fill="#FFD700" opacity="0.9"/>
+  <path d="M250,100 Q300,50 350,100 Q300,150 250,200 Q200,150 150,100" stroke="#FF9900" stroke-width="4"/>
+
+  <!-- Basket -->
+  <rect x="180" y="270" width="60" height="30" fill="#6C4E2B"/>
+  <path d="M185,275 Q195,285 205,275 Q195,265 185,270" stroke="#A57847" stroke-width="3"/>
+
+  <!-- Burner -->
+  <circle cx="200" cy="240" r="20" fill="#FFB92E"/>
+  <path d="M200,210 V240 M190,225 H210" stroke="#7F6C3A" stroke-width="3"/>
+
+  <!-- Rigging -->
+  <line x1="180" y1="100" x2="180" y2="270" stroke="#8B4513" stroke-width="3"/>
+  <line x1="220" y1="100" x2="220" y2="270" stroke="#8B4513" stroke-width="3"/>
+
+  <!-- Rope and Gondola Shadow -->
+  <rect x="185" y="290" width="30" height="10" fill="#000" opacity="0.1"/>
+  <path d="M200,120 Q220,140 200,160" stroke="#A57847" stroke-width="3" opacity="0.5"/>
+
+</svg>

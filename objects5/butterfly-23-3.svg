@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100" preserveAspectRatio="xMidYMid meet">
+  <!-- Body -->
+  <ellipse cx="75" cy="50" rx="40" ry="60" fill="#FFF" stroke="#000"/>
+
+  <!-- Wings -->
+  <path d="M20,30 Q50,10 80,30 T150,70 Q120,90 80,110 T20,70 Z" fill="#000"/>
+  <path d="M130,30 Q100,10 70,30 T20,70 Q50,90 130,110 T150,70 Z" fill="#000"/>
+
+  <!-- Antennae -->
+  <path d="M68,18 L64,12 L60,18 L57,12 L53,18 Z" fill="#000"/>
+  <path d="M82,18 L87,12 L92,18 L97,12 L102,18 Z" fill="#000"/>
+
+  <!-- Compound Eyes -->
+  <circle cx="55" cy="35" r="10" fill="#FFF"/>
+  <circle cx="95" cy="35" r="10" fill="#FFF"/>
+</svg>

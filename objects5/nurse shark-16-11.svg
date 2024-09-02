@@ -1,0 +1,22 @@
+<svg width="1000" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ancient Era -->
+  <rect id="ancientRuins" x="50" y="400" width="80" height="80" fill="#9C7E62" stroke="#614833"/>
+  <text x="100" y="450" text-anchor="start" font-size="20" fill="black">Ancient Era</text>
+
+  <!-- Medieval Era -->
+  <polygon id="medievalCastles" points="350,200 500,50 650,200" fill="#8B4726" stroke="#59311B"/>
+  <text x="400" y="250" text-anchor="middle" font-size="20" fill="black">Medieval Era</text>
+
+  <!-- Renaissance Era -->
+  <path id="renaissanceBuildings" d="M750,300 Q850,100 950,300 T1050,400" stroke="#B27D51" fill="#F5DEB3"/>
+  <text x="850" y="350" text-anchor="middle" font-size="20" fill="black">Renaissance Era</text>
+
+  <!-- Modern Era -->
+  <rect id="modernSkyscrapers" x="1150" y="400" width="80" height="160" stroke="#3A3B3C" fill="none"/>
+  <line x1="1170" y1="420" x2="1190" y2="560" stroke="#3A3B3C" stroke-width="10"/>
+  <text x="1250" y="500" text-anchor="start" font-size="20" fill="black">Modern Era</text>
+
+  <!-- Futuristic Era -->
+  <path id="futuristicStructures" d="M1350,400 Q1450,600 1550,400" stroke="#7BC8FF" fill="none"/>
+  <text x="1450" y="450" text-anchor="middle" font-size="20" fill="black">Futuristic Era</text>
+</svg>

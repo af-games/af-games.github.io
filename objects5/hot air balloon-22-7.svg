@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#E5E5E5"/>
+
+<!-- Montgolfiera Mountains (Hot Air Balloon Region) -->
+<path d="M120,30 Q400,70 780,30" stroke="#6A3D9A" fill="none" stroke-width="3"/>
+<circle cx="400" cy="50" r="30" fill="#FFB2BB" stroke="#FFC1AF" stroke-width="3"/>
+
+<!-- Cumulon Forest -->
+<path d="M80,200 Q200,250 400,200" stroke="#2D7F5E" fill="none" stroke-width="3"/>
+<rect x="80" y="200" width="640" height="100" fill="#9ACD32"/>
+
+<!-- Stratus Sea -->
+<path d="M80,350 Q200,450 400,350" stroke="#2F7BAF" fill="none" stroke-width="3"/>
+<rect x="80" y="350" width="640" height="100" fill="#ADD8E6"/>
+
+<!-- Cirrus City -->
+<path d="M80,500 Q200,550 400,500" stroke="#A0522D" fill="none" stroke-width="3"/>
+<rect x="80" y="500" width="640" height="100" fill="#FFFACD"/>
+
+<!-- Hot Air Balloons -->
+<circle cx="400" cy="40" r="15" fill="#FFC1AF">
+  <animate attributeName="cy" values="40;200;40" dur="3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="600" cy="40" r="15" fill="#FFC1AF">
+  <animate attributeName="cx" values="600;800;600" dur="3s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Labels -->
+<text x="5%" y="90%" text-anchor="start" font-family="Verdana" font-size="14">Montgolfiera Mountains (Hot Air Balloon Region)</text>
+<text x="35%" y="80%" text-anchor="middle" font-family="Verdana" font-size="14">Cumulon Forest</text>
+<text x="65%" y="80%" text-anchor="middle" font-family="Verdana" font-size="14">Stratus Sea</text>
+<text x="5%" y="60%" text-anchor="start" font-family="Verdana" font-size="14">Cirrus City</text>
+
+</svg>

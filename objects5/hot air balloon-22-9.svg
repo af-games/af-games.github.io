@@ -1,0 +1,35 @@
+<svg width="100%" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Scene 1 -->
+<rect x="50" y="50" width="400" height="150" fill="red" stroke="black"/>
+<circle cx="70" cy="80" r="50" fill="yellow"/>
+<text x="60" y="120" font-family="Arial" font-size="14">The Little Bird found a hot air balloon!</text>
+
+<!-- Scene 2 -->
+<line x1="350" y1="180" x2="450" y2="280" stroke="black"/>
+<circle cx="400" cy="230" r="50" fill="yellow"/>
+<text x="370" y="260" font-family="Arial" font-size="14">The bird tried to fly with the deflated balloon.</text>
+
+<!-- Scene 3 -->
+<rect x="50" y="350" width="400" height="150" fill="red" stroke="black"/>
+<circle cx="70" cy="380" r="50" fill="yellow"/>
+<oval cx="250" cy="400" rx="60" ry="80" fill="gray"/>
+<text x="190" y="420" font-family="Arial" font-size="14">A wise old owl helped inflate the balloon.</text>
+
+<!-- Scene 4 -->
+<path d="M50,550 Q150,650 350,550 T700,550" stroke="black"/>
+<circle cx="200" cy="580" r="50" fill="yellow"/>
+<text x="90" y="610" font-family="Arial" font-size="14">The bird took off in the balloon, flying over the forest.</text>
+
+<!-- Scene 5 -->
+<circle cx="350" cy="580" r="50" fill="blue"/>
+<circle cx="450" cy="620" r="40" fill="green"/>
+<circle cx="550" cy="550" r="30" fill="orange"/>
+<text x="310" y="650" font-family="Arial" font-size="14">Other animals joined the adventure.</text>
+
+<!-- Background -->
+<rect width="100%" height="200" fill="green"/>
+<rect x="0" y="200" width="100%" height="300" fill="brown"/>
+<rect x="0" y="500" width="100%" height="100" fill="blue"/>
+
+</svg>

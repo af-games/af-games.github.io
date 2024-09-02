@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <!-- Outline -->
+  <path id="mermaidOutline" fill="none" stroke="black"
+        d="M100 50 Q200 0 300 50 Q400 150 600 50 A80 80, 0, 0, 1, 700 130
+           Z"/>
+
+  <!-- Head and hair -->
+  <ellipse cx="350" cy="90" rx="40" ry="60" fill="none" stroke="black"/>
+  <path d="M320 70 Q380 10 450 70 Q520 140 600 90"/>
+
+  <!-- Tail -->
+  <g id="tailScales">
+    <!-- Add tail scales here -->
+  </g>
+
+  <!-- Details -->
+  <circle cx="350" cy="80" r="5"/>
+  <!-- Add more details here -->
+
+</svg>

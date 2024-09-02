@@ -1,0 +1,25 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M150,100 Q175,75 200,100 Q225,75 250,100 Q275,140 300,100 Q325,75 350,100" fill="#4A2C0B"/>
+
+  <!-- Wings -->
+  <path d="M160,80 L190,50 L220,80 L200,110 Z" fill="#795548"/>
+  <path d="M280,80 L310,50 L340,80 L320,110 Z" fill="#795548"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="60" r="30" fill="#4A2C0B"/>
+  <circle cx="200" cy="60" r="20" fill="#795548"/>
+
+  <!-- Eyes -->
+  <circle cx="170" cy="55" r="5" fill="#FFD700"/>
+  <circle cx="230" cy="55" r="5" fill="#FFD700"/>
+
+  <!-- Beak -->
+  <path d="M205,45 Q210,35 220,40 Q210,45 Z" fill="#FFA500"/>
+
+  <!-- Feathers (simplified representation) -->
+  <rect x="160" y="120" width="80" height="50" fill="#A9A9A9"/>
+  <polygon points="320,140 360,170 320,200" fill="#D3D3D3"/>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="100" cy="300" r="80" fill="#FFB6C1" id="body"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="150" r="70" fill="#FFB6C1" id="head"/>
+  <path d="M150 120 Q180 90, 200 120 T230 120 Z" fill="black" id="mane"/>
+
+  <!-- Legs -->
+  <rect x="60" y="400" width="30" height="150" fill="#FFB6C1" id="frontLeg"/>
+  <path d="M80 550 Q90 600, 100 550 Z" stroke="black" fill="transparent" id="stringFrontLeft"/>
+
+  <rect x="230" y="400" width="30" height="150" fill="#FFB6C1" id="backLeg"/>
+  <path d="M250 550 Q260 600, 270 550 Z" stroke="black" fill="transparent" id="stringBackLeft"/>
+
+  <!-- Tail -->
+  <polygon points="380,400 410,450 380,500" fill="#FFB6C1" id="tail"/>
+  <path d="M420 475 Q450 525, 480 575 Z" stroke="black" fill="transparent" id="stringTail"/>
+
+</svg>

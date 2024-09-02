@@ -1,0 +1,32 @@
+<svg width="500" height="300" viewBox="-10 -10 600 340">
+```
+
+2. **Instruments/SVG Elements**: Let's use circles (for drums), rectangles (for bass notes), and paths (for melodies played by different dinosaurs).
+
+3. **Melody/Interaction**: Our melody will be a harmonious interaction between different dinosaur shapes, each playing their unique rhythm.
+
+Here's the SVG score:
+
+```xml
+<svg width="500" height="300" viewBox="-10 -10 600 340">
+  <!-- Drum Circle (Triceratops) -->
+  <circle cx="200" cy="150" r="80"
+          stroke="green" fill="transparent"
+          stroke-width="10" stroke-dasharray="5, 5">
+    <animate attributeName="stroke-opacity" values="1;0;1" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Bass Rectangle (T-Rex) -->
+  <rect x="270" y="230" width="160" height="50"
+        fill="#8B7D6B" stroke="#C99F7E">
+    <animate attributeName="height" values="50;0;50" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Melody Path (Pterodactyl) -->
+  <path d="M350,120 Q380,90 420,120 T460,70"
+        stroke="#FFD700" fill="transparent">
+    <animate attributeName="d" values="M350,120 Q380,90 420,120 T460,70; M400,120 Q430,90 470,120 T510,70"
+             dur="4s" repeatCount="indefinite"/>
+  </path>
+
+</svg>

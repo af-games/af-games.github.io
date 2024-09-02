@@ -1,0 +1,53 @@
+<svg width="800" height="600" style="background-color: #f0f0f0;" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Plant your seeds - Initial shapes**
+
+Let's start with a simple T-Rex outline using rectangles for the body, neck, head, and legs.
+
+```svg
+<rect x="100" y="350" width="200" height="200" style="fill: #6495ED;" /> <!-- Body -->
+<rect x="150" y="150" width="80" height="200" style="fill: #6495ED;" /> <!-- Neck -->
+<rect x="170" y="30" width="50" height="120" style="fill: #6495ED;" /> <!-- Head -->
+<rect x="70" y="350" width="80" height="150" style="fill: #6495ED;" /> <!-- Left Leg -->
+<rect x="250" y="350" width="80" height="150" style="fill: #6495ED;" /> <!-- Right Leg -->
+```
+
+3. **Water and nurture with transforms**
+
+Let's rotate the head, scale the legs, and translate the neck.
+
+```svg
+<g transform="rotate(20 170 80)">
+  <rect x="170" y="30" width="50" height="120" style="fill: #6495ED;" /> <!-- Head -->
+</g>
+<g transform="scale(1.5) translate(0, 75)">
+  <rect x="70" y="350" width="80" height="150" style="fill: #6495ED;" /> <!-- Left Leg -->
+  <rect x="250" y="350" width="80" height="150" style="fill: #6495ED;" /> <!-- Right Leg -->
+</g>
+<g transform="translate(175, -50)">
+  <rect x="150" y="150" width="80" height="200" style="fill: #6495ED;" /> <!-- Neck -->
+</g>
+```
+
+4. **Prune unnecessary elements**
+
+We'll remove the initial untransformed shapes as they're no longer needed.
+
+5. **Write out your SVG code**
+
+Here's the final SVG code:
+
+```svg
+<svg width="800" height="600" style="background-color: #f0f0f0;" xmlns="http://www.w3.org/2000/svg">
+  <g transform="rotate(20 170 80)">
+    <rect x="170" y="30" width="50" height="120" style="fill: #6495ED;" />
+  </g>
+  <g transform="scale(1.5) translate(0, 75)">
+    <rect x="70" y="350" width="80" height="150" style="fill: #6495ED;" />
+    <rect x="250" y="350" width="80" height="150" style="fill: #6495ED;" />
+  </g>
+  <g transform="translate(175, -50)">
+    <rect x="150" y="150" width="80" height="200" style="fill: #6495ED;" />
+  </g>
+</svg>

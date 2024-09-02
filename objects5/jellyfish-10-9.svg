@@ -1,0 +1,56 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="font-family:Arial;">
+
+  <!-- Colors & Styles -->
+  <style>
+    .sea { fill: lightblue }
+    .jellyfish { fill: purple }
+    .snail { fill: brown }
+    .creatures { fill: white }
+    .text { font-size: 24px; }
+  </style>
+
+  <!-- Scene 1: Introduction -->
+  <g id="scene1">
+    <rect class="sea" width="800" height="600"/>
+    <circle class="jellyfish" cx="50" cy="100" r="40"/>
+    <text class="text" x="50" y="200">Once upon a time, in the vast ocean, lived Jellyfish Jonny.</text>
+  </g>
+
+  <!-- Scene 2: Meeting Shellly -->
+  <g id="scene2">
+    <use href="#scene1"/>
+    <circle class="snail" cx="350" cy="400" r="30"/>
+    <text class="text" x="350" y="500">One day, Jonny met Shellly the Snail on a coral reef.</text>
+  </g>
+
+  <!-- Scene 3: The Race -->
+  <g id="scene3">
+    <use href="#scene2"/>
+    <path d="M400,150 Q600,200 750,150" stroke="black" fill="transparent"/>
+    <text class="text" x="650" y="250">They decided to have a race around the ocean.</text>
+  </g>
+
+  <!-- Scene 4: Lost at Sea -->
+  <g id="scene4">
+    <use href="#scene3"/>
+    <circle class="jellyfish" cx="150" cy="400" r="40" fill="darkviolet"/>
+    <rect class="sea" width="800" height="600" fill="black"/>
+    <text class="text" x="300" y="500">Jonny got lost in the dark, mysterious depths.</text>
+  </g>
+
+  <!-- Scene 5: Glow-in-the-Dark Friends -->
+  <g id="scene5">
+    <use href="#scene4"/>
+    <circle class="creatures" cx="250" cy="300" r="15"/>
+    <circle class="creatures" cx="350" cy="350" r="10"/>
+    <text class="text" x="200" y="600">Bioluminescent creatures helped Jonny find his way back.</text>
+  </g>
+
+  <!-- Scene 6: Reunion -->
+  <g id="scene6">
+    <use href="#scene5"/>
+    <circle class="snail" cx="600" cy="400" r="30"/>
+    <text class="text" x="500" y="500">Jonny and Shellly reunited, celebrating their underwater adventure.</text>
+  </g>
+
+</svg>

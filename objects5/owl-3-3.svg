@@ -1,0 +1,37 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stage -->
+  <defs>
+    <linearGradient id="stageGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(1f4068);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(72bcd4);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="30%" fill="url(#stageGradient)" />
+  <rect x="0" y="50%" width="100%" height="50%" fill="#5c3a2e" />
+
+  <!-- Owl Marionette -->
+  <circle cx="40" cy="30" r="30" fill="#ffd700" />
+  <rect x="20" y="40" width="40" height="80" fill="#b5a67e" />
+
+  <!-- Wings -->
+  <polygon points="50,0 90,20 50,40" fill="#ffd700" />
+  <polygon points="30,-30 60,-30 45,-70" fill="#ffd700" />
+
+  <!-- Legs -->
+  <rect x="-10" y="90" width="20" height="40" fill="#b5a67e" />
+  <rect x="70" y="90" width="20" height="40" fill="#b5a67e" />
+  <rect x="-10" y="130" width="20" height="40" fill="#b5a67e" />
+  <rect x="70" y="130" width="20" height="40" fill="#b5a67e" />
+
+  <!-- Strings -->
+  <line x1="0" y1="30" x2="0" y2="0" stroke="#ffd700" />
+  <line x1="20" y1="45" x2="0" y2="60" stroke="#ffd700" />
+  <line x1="20" y1="75" x2="0" y2="90" stroke="#ffd700" />
+  <line x1="60" y1="10" x2="40" y2="15" stroke="#ffd700" />
+  <line x1="80" y1="10" x2="100" y2="15" stroke="#ffd700" />
+  <line x1="-10" y1="90" x2="-30" y2="85" stroke="#ffd700" />
+  <line x1="70" y1="90" x2="60" y2="85" stroke="#ffd700" />
+  <line x1="-10" y1="130" x2="-30" y2="125" stroke="#ffd700" />
+  <line x1="70" y1="130" x2="60" y2="125" stroke="#ffd700" />
+
+</svg>

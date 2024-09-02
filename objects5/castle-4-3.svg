@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Tower -->
+  <polygon points="150,50 250,50 250,250 150,250" fill="#778899"/>
+
+  <!-- Walls -->
+  <rect x="50" y="300" width="300" height="300" fill="none" stroke="#778899"/>
+  <rect x="350" y="300" width="300" height="300" fill="none" stroke="#778899"/>
+
+  <!-- Gatehouse -->
+  <rect x="200" y="100" width="100" height="200" fill="#778899"/>
+  <circle cx="250" cy="300" r="50" fill="#778899"/>
+
+  <!-- Roofs -->
+  <polygon points="50,300 150,400 250,300" fill="#778899"/>
+  <polygon points="350,300 450,400 550,300" fill="#778899"/>
+
+  <!-- Roads -->
+  <path d="M600,300 H750 V200 H600 Z" stroke="#000" fill="none"/>
+  <path d="M100,450 Q200,550 300,450 T400,450" stroke="#000" fill="none"/>
+
+</svg>

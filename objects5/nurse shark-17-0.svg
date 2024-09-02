@@ -1,0 +1,26 @@
+<svg width="200" height="180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <ellipse cx="0" cy="50" rx="50" ry="50" fill="#C3C3C3"/>
+
+  <!-- Body -->
+  <polygon points="15,70 -15,90 0,40" fill="#8B8B8B"/>
+
+  <!-- Pectoral fins -->
+  <rect x="-25" y="40" width="10" height="50" fill="#696969"/>
+  <rect x="25" y="40" width="10" height="50" fill="#696969"/>
+
+  <!-- Pelvic fins -->
+  <polygon points="-15,85 0,70 15,85" fill="#696969"/>
+  <polygon points="15,85 0,70 -15,85" fill="#696969"/>
+
+  <!-- Caudal fin -->
+  <polygon points="-20,30 0,0 20,30" fill="#696969"/>
+
+  <!-- Eyes -->
+  <circle cx="-10" cy="60" r="5" fill="#000"/>
+  <circle cx="10" cy="60" r="5" fill="#000"/>
+
+  <!-- Nostrils -->
+  <circle cx="-20" cy="45" r="3" fill="#696969"/>
+  <circle cx="20" cy="45" r="3" fill="#696969"/>
+</svg>

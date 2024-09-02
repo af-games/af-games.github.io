@@ -1,0 +1,23 @@
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="800" fill="#ADD8E6"/>
+  <pattern id="bubbles" patternUnits="userSpaceOnUse" width="50" height="50">
+    <circle cx="25" cy="25" r="10" fill="#FFFFFF"/>
+  </pattern>
+  <rect x="0" y="0" width="600" height="800" fill="url(#bubbles)" />
+
+  <!-- Mermaid's tail -->
+  <linearGradient id="tail-gradient" gradientUnits="userSpaceOnUse">
+    <stop offset="0%"   stop-color="#0D47A1"/>
+    <stop offset="50%"  stop-color="#28B463"/>
+    <stop offset="100%" stop-color="#ADD8E6"/>
+  </linearGradient>
+  <rect x="100" y="300" width="400" height="500" fill="url(#tail-gradient)" />
+
+  <!-- Mermaid's body -->
+  <circle cx="200" cy="200" r="100" fill="#F5DEB3"/>
+  <polygon points="100,100 200,50 300,100" fill="#332C29"/>
+
+  <!-- Mermaid's clothing (optional) -->
+  <rect x="140" y="170" width="320" height="60" fill="#FFDFBA"/>
+</svg>

@@ -1,0 +1,69 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Background -->
+  <rect id="bg" x="0" y="0" width="600" height="400" fill="url(#gradient)" />
+
+  <!-- Body -->
+  <g>
+    <circle cx="300" cy="250" r="120" fill="url(#bodyGradient)">
+      <animateTransform attributeName="r" from="0" to="120" dur="2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Head -->
+  <polygon points="350,20 400,100 250,100" fill="url(#headGradient)" />
+
+  <!-- Wing (left) -->
+  <path d="M180,250 Q200,180 300,250" stroke-width="0" fill="url(#wingGradient1)" />
+
+  <!-- Wing (right) -->
+  <path d="M420,250 Q490,180 400,250" stroke-width="0" fill="url(#wingGradient2)" />
+
+  <!-- Legs -->
+  <g>
+    <rect x="270" y="320" width="60" height="80" fill="url(#legGradient1)" />
+    <rect x="340" y="320" width="60" height="80" fill="url(#legGradient2)" />
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="350" cy="70" r="15" fill="#fff">
+    <animate attributeName="r" from="15" to="20" dur="1s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="350" cy="70" r="5" fill="#000">
+
+  <!-- Beak -->
+  <polygon points="360,90 380,120 340,120" fill="#ffd700">
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:0.4" />
+    </linearGradient>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,128);stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(192,192,192);stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="wingGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(64,64,255);stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="wingGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(64,64,255);stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="legGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(64,64,64);stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="legGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(64,64,64);stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+
+</svg>

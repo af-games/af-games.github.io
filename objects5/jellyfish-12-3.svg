@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+
+  <!-- Jellyfish Bell -->
+  <circle cx="200" cy="150" r="80" fill="#87CEEB"/>
+
+  <!-- Jellyfish Tentacles -->
+  <path d="M200,90 Q240,60 240,130 Q220,160 200,190 Q180,160 160,130 Q140,60 160,90 Z" fill="none"/>
+  <path d="M200,95 Q245,75 245,125 Q225,155 200,185 Q175,155 175,125 Q155,75 175,95 Z" fill="none"/>
+  <path d="M200,100 Q230,80 230,140 Q210,160 200,190 Q180,160 180,140 Q160,80 180,100 Z" fill="none"/>
+  <!-- Repeat paths for remaining tentacles -->
+
+  <!-- Jellyfish Oral Arms (If desired) -->
+  <path d="M200,230 Q190,250 200,270 Q210,250 200,230 Z" fill="none"/>
+  <path d="M200,240 Q195,260 200,280 Q205,260 200,240 Z" fill="none"/>
+
+</svg>

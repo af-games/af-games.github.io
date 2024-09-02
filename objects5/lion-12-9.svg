@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Main Melody (Lion's Roar) -->
+<circle cx="150" cy="250" r="50" fill="#FFD700">
+  <animateMotion dur="2s" repeatCount="indefinite">
+    <mpath href="#lionRoarPath"/>
+  </animateMotion>
+</circle>
+
+<!-- Harmony (Lion's Mane) -->
+<path id="lionMane" d="M600,150 Q700,50 800,150 Q700,250 600,200" fill="#FF4500">
+  <animateTransform attributeName="d" type="scale" values="1;1.2;1" dur="1s" repeatCount="indefinite"/>
+</path>
+
+<!-- Rhythm (Lion's Paw) -->
+<rect width="80" height="60" x="350" y="400" fill="#FF7F27">
+  <animate attributeName="y" values="400;340;400" dur="1s" repeatCount="indefinite"/>
+</rect>
+
+<!-- Beat (Lion's Tail) -->
+<path id="lionTail" d="M50,500 Q150,400 250,500 Q350,600 450,500" stroke="#8B4513" fill="transparent">
+  <animate attributeName="stroke-width" values="2;4;2" dur="1s" repeatCount="indefinite"/>
+</path>
+
+<!-- Lion Roar Path -->
+<path id="lionRoarPath" d="M100,250 C150,300 200,350 250,400"/>
+
+</svg>

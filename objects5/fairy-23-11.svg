@@ -1,0 +1,21 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M175,450 Q275,400 325,450 Q225,500 175,450" fill="#FFC89A" stroke-width="1"/>
+
+  <!-- Head -->
+  <circle cx="250" cy="300" r="75" fill="#FFE6BC" stroke-width="1"/>
+
+  <!-- Arms -->
+  <path d="M200,275 Q225,300 250,300 L275,300 Q300,300 325,275" fill="none" stroke-width="1"/>
+  <path d="M200,400 Q225,425 250,425 L275,425 Q300,425 325,400" fill="none" stroke-width="1"/>
+
+  <!-- Legs -->
+  <path d="M200,450 Q225,500 250,500 L275,500 Q300,500 325,450" fill="none" stroke-width="1"/>
+  <path d="M200,600 Q225,650 250,650 L275,650 Q300,650 325,600" fill="none" stroke-width="1"/>
+
+  <!-- Hair -->
+  <path d="M225,225 Q250,200 275,225 Q250,250 225,225" fill="#FFC89A" stroke-width="1"/>
+  <path d="M225,225 Q200,200 225,175 Q250,200 225,225" fill="#FFC89A" stroke-width="1"/>
+
+</svg>

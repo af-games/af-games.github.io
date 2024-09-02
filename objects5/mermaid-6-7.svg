@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 650 700">
+  <!-- Tail Fin -->
+  <path id="tail-fin" d="M10,390 Q400,700 480,390 Q400,20 10,390" fill="url(#tail-gradient)" />
+
+  <!-- Body and Hair -->
+  <path id="body-hair" d="M50,380 Q350,250 450,380 Q350,500 50,380" fill="url(#body-hair-gradient)" />
+
+  <!-- Face Outline -->
+  <path id="face-outline" d="M410,360 Q420,370 410,380" stroke="black" fill="transparent"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="tail-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:pink;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:darkpurple;stop-opacity:1"/>
+    </linearGradient>
+
+    <linearGradient id="body-hair-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:salmon;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:lightpink;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:pink;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

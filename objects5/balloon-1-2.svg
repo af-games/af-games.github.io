@@ -1,0 +1,26 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Balloon body (ellipse) -->
+  <ellipse cx="250" cy="175" rx="150" ry="80" fill="#ffcc66">
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Balloon tie (rectangle) -->
+  <rect x="235" y="70" width="30" height="40" fill="#663300"/>
+
+  <!-- Balloon strings (polyline) -->
+  <polyline points="245,70 255,70 260,90 250,100" stroke="#8b4513" fill="transparent"
+            stroke-width="5">
+    <animate attributeName="stroke-opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </polyline>
+
+  <!-- Light reflection (ellipse) -->
+  <ellipse cx="265" cy="95" rx="35" ry="40" fill="#ffffcc">
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Balloon outline (stroke) -->
+  <ellipse cx="250" cy="175" rx="150" ry="80" stroke="#333" fill="transparent"
+           stroke-width="4"/>
+
+</svg>

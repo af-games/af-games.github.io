@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Cake -->
+  <path id="cake" d="M175 40 Q225 80, 325 40 Q375 80, 425 40 Q375 140, 325 160 Q225 140, 175 160 Q125 140, 75 160 H175 V550 H325 V600 H475 Z"/>
+
+  <!-- Icing -->
+  <path d="M180 40 Q240 90, 300 40 Q360 90, 420 40 Q360 130, 300 160 Q240 130, 180 160"/>
+
+  <!-- Topping -->
+  <circle cx="275" cy="120" r="40" fill="#FFF"/>
+  <path d="M250 90 Q275 120, 300 90 Z" stroke="#CCC" fill="transparent"/>
+
+  <!-- Candles -->
+  <circle cx="260" cy="80" r="15" fill="#FDD"/>
+  <circle cx="280" cy="80" r="15" fill="#FDD"/>
+  <line x1="270" y1="60" x2="270" y2="40" stroke="#FFD" fill="transparent"/>
+
+</svg>

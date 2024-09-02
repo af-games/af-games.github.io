@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80">
+
+  <!-- Body -->
+  <circle cx="50" cy="40" r="20" fill="#FF69B4"/>
+  <circle cx="50" cy="40" r="18" fill="#FFFACD"/>
+
+  <!-- Left Wing -->
+  <ellipse cx="30" cy="30" rx="35" ry="20" fill="#FFFFFF" stroke="#FF69B4"/>
+  <polygon points="30,30 70,10 30,50" fill="#FF69B4"/>
+
+  <!-- Right Wing -->
+  <ellipse cx="70" cy="30" rx="35" ry="20" fill="#FFFFFF" stroke="#FF69B4"/>
+  <polygon points="70,10 10,30 70,50" fill="#FF69B4"/>
+
+  <!-- Antennae -->
+  <polyline points="85,15 95,25 85,35" fill="none" stroke="#FF69B4"/>
+  <polyline points="15,15 5,25 15,35" fill="none" stroke="#FF69B4"/>
+
+</svg>

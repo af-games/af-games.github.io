@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Balloon envelope -->
+  <path id="balloon-envelope" d="M-40,-30 Q0,-40 40,-30 Q0,5 40,30"
+        fill="rgb(255,165,0)" fill-opacity="0.8"/>
+
+  <!-- Basket -->
+  <rect id="basket" x="-15" y="30" width="30" height="15" rx="5"
+        fill="rgb(100,67,34)" fill-opacity="0.9"/>
+
+  <!-- Burner -->
+  <circle id="burner" cx="0" cy="25" r="8" fill="rgb(255,215,0)"/>
+  <path id="burner-flame" d="M0,25 Q-4,-10 4,-10"
+        fill="rgb(255,215,0)" opacity="0.7"/>
+
+  <!-- Ropes -->
+  <line id="rope1" x1="-15" y1="30" x2="0" y2="10"/>
+  <line id="rope2" x1="15" y1="30" x2="0" y2="10"
+        transform="translate(30,0) rotate(180)"/>
+
+  <!-- Shadows -->
+  <path id="shadow-envelope" d="M-40,-30 Q0,-40 40,-30 Q0,5 40,30"
+        fill="url(#radial-gradient)" opacity="0.2"/>
+  <rect id="shadow-basket" x="-15" y="30" width="30" height="15" rx="5"
+        fill="url(#linear-gradient)" opacity="0.3"/>
+
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="radial-gradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:0"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:0.5"/>
+    </linearGradient>
+  </defs>
+
+</svg>

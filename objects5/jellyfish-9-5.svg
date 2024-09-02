@@ -1,0 +1,36 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#fff"/>
+
+  <!-- Jellyfish body -->
+  <circle id="body" cx="400" cy="300" r="50" fill="black">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 400 300"
+      to="360 400 300"
+      dur="2s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Jellyfish tentacles -->
+  <g id="tentacles" transform="translate(400, 350)">
+    <ellipse cx="-20" cy="0" rx="15" ry="5">
+      <animate
+        attributeName="cy"
+        values="0;-30;0"
+        dur="1s"
+        repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Repeat the above ellipse 8 times around the circle to create tentacles -->
+  </g>
+
+  <!-- Jellyfish mouth -->
+  <path id="mouth" d="M405,320 Q395,310 400,300 Q405,290 410,300 Z">
+    <animate
+      attributeName="d"
+      values="M405,320 Q395,310 400,300 Q405,290 410,300 Z; M410,320 Q405,310 400,300 Q410,290 415,300 Z"
+      dur="1s"
+      repeatCount="indefinite"/>
+  </path>
+</svg>

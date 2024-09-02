@@ -1,0 +1,4 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Course path -->
+  <path id="course" d="M100 50 Q200 75, 350 150 Q500 200, 700 400" stroke="black" fill="transparent"/>
+</svg>

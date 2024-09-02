@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <style>
+    .butterfly {
+      fill: blue;
+      stroke: black;
+      stroke-width: 1px;
+      animation: flap 2s infinite ease-in-out;
+    }
+    @keyframes flap {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(180deg); }
+    }
+  </style>
+
+  <g class="butterfly">
+    <!-- Body -->
+    <path d="M250,50 a150,150 0 1,0 300,0 a150,150 0 1,0 -300,0 z" />
+
+    <!-- Wings -->
+    <path d="M200,70 Q150,10 100,50 Q200,0 300,50 Q350,10 400,70"/>
+    <path d="M300,70 Q350,10 400,50 Q300,0 250,50 Q200,10 200,70"/>
+
+    <!-- Antennae -->
+    <line x1="200" y1="20" x2="220" y2="5"/>
+    <line x1="300" y1="20" x2="280" y2="5"/>
+
+    <!-- Eyes -->
+    <circle cx="170" cy="40" r="5" fill="black"/>
+    <circle cx="330" cy="40" r="5" fill="black"/>
+  </g>
+</svg>

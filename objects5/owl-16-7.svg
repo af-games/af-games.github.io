@@ -1,0 +1,28 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Feather Pattern -->
+  <pattern id="feather-pattern" patternUnits="userSpaceOnUse" width="10" height="10">
+    <path d="M0,0 L10,5 Z"/>
+  </pattern>
+  <rect x="0" y="0" width="500" height="500" fill="url(#feather-pattern)"/>
+
+  <!-- Large Owl -->
+  <g transform="translate(200,300)">
+    <circle cx="100" cy="-50" r="40" stroke="#000000" fill="#8B4513"/>
+    <!-- Add more shapes (eyes, beak, etc.) for the owl using paths and ellipses -->
+  </g>
+
+  <!-- Moon Cycle -->
+  <circle cx="20" cy="70" r="30" stroke="#000000" fill="#FFFFFF"/> <!-- Full moon -->
+  <circle cx="160" cy="70" r="25" stroke="#000000" fill="#FFFFFF"/> <!-- Three-quarters moon -->
+  <circle cx="300" cy="70" r="20" stroke="#000000" fill="#FFFFFF"/> <!-- Half moon -->
+  <circle cx="440" cy="70" r="15" stroke="#000000" fill="#FFFFFF"/> <!-- Crescent moon -->
+
+  <!-- Owl Motifs -->
+  <g transform="translate(30,200)">
+    <circle cx="15" cy="-15" r="10" stroke="#000000" fill="#8B4513"/>
+    <!-- Add more owl motifs using circles and other shapes -->
+  </g>
+
+  <!-- Feathers along edges -->
+  <path d="M0,0 Q200,-50 Q500,100 Z" stroke="#000000" fill="#8B4513"/>
+</svg>

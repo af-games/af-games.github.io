@@ -1,0 +1,25 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sun -->
+  <circle cx="80" cy="60" r="50" fill="#FDB927">
+    <animate attributeName="r" from="50" to="70" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Grass -->
+  <rect x="180" y="300" width="260" height="100" fill="#6CA63F"/>
+
+  <!-- Lion's body -->
+  <path d="M240,150 Q280,90 320,150 Q320,250 280,310 Q240,250 190,310 Q190,250 140,150 Z" fill="#F38181"/>
+
+  <!-- Lion's mane -->
+  <path d="M170,90 Q190,60 230,90 Q210,120 230,150 Q190,180 170,150 Z" fill="#F38181"/>
+
+  <!-- Lion's face -->
+  <circle cx="240" cy="120" r="30" fill="#FFFFFF"/>
+  <path d="M260,110 Q270,90 250,100 Z" stroke="#000000" fill="transparent"/>
+
+  <!-- Lion's legs -->
+  <rect x="200" y="340" width="80" height="30" fill="#F38181"/>
+  <rect x="290" y="340" width="80" height="30" fill="#F38181"/>
+
+</svg>

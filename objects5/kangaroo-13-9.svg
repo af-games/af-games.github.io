@@ -1,0 +1,20 @@
+<svg width="1000" height="300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Grass -->
+  <rect x="0" y="250" width="1000" height="50" fill="green"/>
+  <animate attributeName="y" values="248;252;248" dur="1s" repeatCount="indefinite"/>
+
+  <!-- Joey the Kangaroo -->
+  <g id="joey">
+    <path d="M70 230 Q100 180, 150 230 Q200 280, 250 230 Q300 180, 350 230" fill="brown"/>
+    <animate attributeName="d" values="
+      M70 230 Q100 180, 150 230 Q200 280, 250 230 Q300 180, 350 230;
+      M250 230 Q400 180, 450 230 Q500 280, 550 230 Q650 180, 700 230
+    " dur="2s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 50 230" to="360 50 230" dur="1s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Sun -->
+  <circle cx="900" cy="50" r="40" fill="yellow">
+    <animate attributeName="cy" values="50;200;50" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

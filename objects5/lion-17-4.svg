@@ -1,0 +1,36 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+
+  <!-- Body -->
+  <rect x="70" y="80" width="260" height="300" fill="#f5941e" stroke="#333"
+        stroke-width="4" rx="20"/>
+
+  <!-- Head -->
+  <polygon points="330,50,370,80,370,120,330,150,260,120"
+           fill="#f5941e" stroke="#333" stroke-width="4"/>
+
+  <!-- Mane -->
+  <path d="M280,40 Q300,70 320,40 Q340,70 360,40"
+        fill="#f5941e" stroke="#333" stroke-width="4"/>
+
+  <!-- Legs -->
+  <rect x="80" y="320" width="20" height="120" fill="#f5941e" stroke="#333"
+        stroke-width="4"/>
+  <rect x="220" y="320" width="20" height="120" fill="#f5941e" stroke="#333"
+        stroke-width="4"/>
+  <rect x="180" y="360" width="20" height="60" fill="#f5941e" stroke="#333"
+        stroke-width="4"/>
+  <rect x="260" y="360" width="20" height="60" fill="#f5941e" stroke="#333"
+        stroke-width="4"/>
+
+  <!-- Tail -->
+  <path d="M400,80 Q380,100 360,120 Q340,100 320,80"
+        fill="#f5941e" stroke="#333" stroke-width="4"/>
+
+  <!-- Eyes -->
+  <circle cx="350" cy="90" r="20" fill="#fff"/>
+  <circle cx="300" cy="90" r="20" fill="#fff"/>
+  <circle cx="350" cy="90" r="10" fill="#000"/>
+  <circle cx="300" cy="90" r="10" fill="#000"/>
+
+</svg>

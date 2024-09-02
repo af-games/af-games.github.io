@@ -1,0 +1,32 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Plate -->
+  <circle cx="200" cy="180" r="150" fill="#FFFDD0"/>
+
+  <!-- Jellyfish -->
+  <path d="M200,100 Q140,60 170,30 Q230,60 200,100 Q260,60 230,30 Z"
+        fill="#85D6FF" stroke="#FFF" stroke-width="2"/>
+
+  <!-- Tentacles -->
+  <g stroke="#85D6FF" stroke-width="2">
+    <path d="M175,90 Q160,40 150,30"/>
+    <path d="M190,90 Q205,40 215,30"/>
+    <path d="M205,90 Q220,40 235,30"/>
+  </g>
+
+  <!-- Lemon wedge garnish -->
+  <path d="M280,80 L300,70 L280,60 Z" fill="#FFD700"
+        stroke="#FFF" stroke-width="1"/>
+
+  <!-- Fork and knife -->
+  <g transform="translate(50,250)">
+    <path d="M0,0 H40 V-30 H0 Z"/>
+    <path d="M5,0 L5,-70 L35,-70 L5,0"/>
+  </g>
+
+  <!-- Chopsticks -->
+  <g transform="translate(120,260)">
+    <rect width="5" height="80" fill="#4D2B0F"/>
+    <circle cx="10" cy="40" r="5" fill="#4D2B0F"/>
+  </g>
+
+</svg>

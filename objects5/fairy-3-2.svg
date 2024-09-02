@@ -1,0 +1,19 @@
+<svg width="120" height="240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M50,90 Q70,80 70,110 Q50,120 30,110 Q50,80 70,90 Z" stroke="#333" fill="transparent"/>
+
+  <!-- Head -->
+  <circle cx="40" cy="60" r="30" stroke="#333" fill="#F5DEB3"/>
+
+  <!-- Hair -->
+  <path d="M20,50 Q30,40 70,40 Q90,50 80,70 Q70,90 60,100 Q50,90 40,70 Z" stroke="#6C4632"/>
+
+  <!-- Left Wing -->
+  <path d="M20,120 Q40,130 80,120 Q40,110 20,120 Z" stroke="#B3E0FF" fill="#A2D9FF"/>
+
+  <!-- Right Wing -->
+  <path d="M100,120 Q80,130 40,120 Q80,110 100,120 Z" stroke="#B3E0FF" fill="#A2D9FF"/>
+
+  <!-- Dress -->
+  <rect x="35" y="160" width="80" height="60" rx="10" ry="10" stroke="#FFA6E3" fill="#FFC6F1"/>
+</svg>

@@ -1,0 +1,55 @@
+<svg width="800" height="700" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Shark Body -->
+  <path d="
+    M200,450 Q250,400 300,350
+    H600
+    Q550,400 500,450
+    V700
+    H200
+    Z
+    "
+    fill="#C3C3C3" stroke="none"
+    />
+  <path d="
+    M200,450 Q250,400 300,350
+    H600
+    Q550,400 500,450
+    V700
+    H200
+    Z
+    "
+    fill="#696969" stroke="none"
+    opacity="0.5"
+    transform="translate(0,-10)"
+    />
+
+  <!-- Eye -->
+  <circle cx="450" cy="310" r="15" fill="#C3C3C3"/>
+  <circle cx="450" cy="310" r="7.5" fill="#000"/>
+
+  <!-- Nurse Shark's Suction Mouth -->
+  <path d="
+    M425,370 Q450,380 475,370
+    H525
+    Q550,360 575,370
+    V400
+    H425
+    Z
+    "
+    fill="#696969" stroke="none"
+    />
+  <path d="
+    M435,380 Q450,385 465,380
+    H515
+    Q530,375 565,380
+    V405
+    H435
+    Z
+    "
+    fill="#FFF" stroke="none"
+    opacity="0.7"
+    transform="translate(0,-5)"
+    />
+
+</svg>

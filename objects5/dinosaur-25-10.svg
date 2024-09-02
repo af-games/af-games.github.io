@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+```
+
+**Step 2: Begin drawing tentative lines and shapes**
+
+Let's start with a simple outline of our dinosaur. We'll use `<path>` elements for the main body, head, tail, arms, and legs.
+
+```svg
+<path id="body" d="M100 350 Q150 270, 250 300 Q350 370, 400 300 Q450 270, 500 350"/>
+<path id="head" d="M200 250 Q220 220, 250 250 Q280 220, 300 250"/>
+<path id="tail" d="M500 350 Q470 400, 400 370 Q330 400, 300 350"/>
+<path id="arm-left" d="M200 280 Q170 320, 150 300 Q130 360, 150 400"/>
+<path id="arm-right" d="M400 280 Q430 320, 450 300 Q470 360, 450 400"/>
+<path id="leg-left" d="M150 350 Q130 400, 150 450 Q170 500, 200 450"/>
+<path id="leg-right" d="M500 350 Q480 400, 500 450 Q520 500, 550 450"/>
+```
+
+**Step 3: Discover new features**
+
+Let's add some circles for the eyes and rectangles for the plates on the dinosaur's back.
+
+```svg
+<circle cx="260" cy="240" r="10" fill="black"/>
+<circle cx="290" cy="240" r="10" fill="black"/>
+<rect x="300" y="270" width="50" height="50" fill="#8B7D6B"/>
+<rect x="350" y="270" width="50" height="50" fill="#8B7D6B"/>
+```
+
+**Step 4: Document your journey**
+
+Here are the attribute values for each discovery:
+
+- `<path id="body"...>`: The `id` is "body", and the points are `(100,350)`, `(150,270)`, `(250,300)`, etc.
+- `<circle cx="260" cy="240"...>`: The center is at `(260, 240)` with a radius of `10`, and the fill color is black.
+- `<rect x="300" y="270"...>`: The top-left corner is at `(300, 270)`, it's `50` units wide and tall, and the fill color is `#8B7D6B`.
+
+**Step 5: Write out your map's final draft**
+
+Here's our dinosaur map with proper closing tags:
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <path id="body" d="M100 350 Q150 270, 250 300 Q350 370, 400 300 Q450 270, 500 350"/>
+  <path id="head" d="M200 250 Q220 220, 250 250 Q280 220, 300 250"/>
+  <path id="tail" d="M500 350 Q470 400, 400 370 Q330 400, 300 350"/>
+  <path id="arm-left" d="M200 280 Q170 320, 150 300 Q130 360, 150 400"/>
+  <path id="arm-right" d="M400 280 Q430 320, 450 300 Q470 360, 450 400"/>
+  <path id="leg-left" d="M150 350 Q130 400, 150 450 Q170 500, 200 450"/>
+  <path id="leg-right" d="M500 350 Q480 400, 500 450 Q520 500, 550 450"/>
+  <circle cx="260" cy="240" r="10" fill="black"/>
+  <circle cx="290" cy="240" r="10" fill="black"/>
+  <rect x="300" y="270" width="50" height="50" fill="#8B7D6B"/>
+  <rect x="350" y="270" width="50" height="50" fill="#8B7D6B"/>
+</svg>

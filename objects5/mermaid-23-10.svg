@@ -1,0 +1,13 @@
+<svg width="100%" height="auto" viewBox="0 0 500 300">
+  <!-- Background ocean -->
+  <rect x="0" y="0" width="500" height="300" fill="#0E1354"/>
+
+  <!-- Mermaid's tail -->
+  <g id="mermaidTail">
+    <path d="M250,280 Q300,220 350,260 T400,220 Q450,280 500,220" fill="#0D98BA"/>
+    <!-- Add gold accents for scales here -->
+  </g>
+
+  <!-- Rest of the design goes here -->
+
+</svg>

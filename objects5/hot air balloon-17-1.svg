@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Basket -->
+  <rect x="180" y="480" width="40" height="70" fill="#5a391d"/>
+  <path d="M190,520 Q210,550 220,520 H170 Z" fill="#5a391d"/>
+
+  <!-- Balloon envelope -->
+  <circle cx="250" cy="280" r="200" stroke="#ff7f27" stroke-width="2" fill="#ffebcd"/>
+  <path d="M250,280 Q200,100 300,100 T400,280 Z" fill="none" stroke="#ff7f27"/>
+
+  <!-- Flame -->
+  <polygon points="250,280 260,330 240,330" fill="#ff7f27"/>
+</svg>

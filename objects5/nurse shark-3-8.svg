@@ -1,0 +1,15 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg" style="background-color: #FFFFFF;">
+
+  <!-- Base Layer -->
+  <circle cx="150" cy="150" r="100" fill="#8B7D6B"/>
+  <ellipse cx="175" cy="300" rx="250" ry="125" fill="#8B7D6B"/>
+
+  <!-- Main Garment -->
+  <rect x="90" y="100" width="350" height="40" fill="#4F5C75"/>
+  <rect x="130" y="200" width="250" height="80" fill="#4F5C75"/>
+
+  <!-- Embellishments -->
+  <path d="M90,100 Q150,50 220,100 T350,100" stroke="#000000" fill="transparent"/>
+  <path d="M130,200 Q175,240 225,200 Q280,220 360,200" stroke="#000000" fill="transparent"/>
+
+</svg>

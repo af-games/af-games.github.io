@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+
+  <!-- Cake Base -->
+  <circle cx="200" cy="350" r="150" fill="#F4D03F"/>
+  <circle cx="200" cy="275" r="125" fill="#E6B849"/>
+
+  <!-- Cake Top -->
+  <rect x="125" y="100" width="150" height="150"
+        rx="25" ry="25" fill="#E6B849"/>
+  <rect x="137.5" y="112.5" width="125" height="125"
+        fill="url(#frostingGradient)"/>
+
+  <!-- Candle -->
+  <circle cx="175" cy="175" r="10" fill="#FFA500"/>
+  <polygon points="185,165 205,130 165,130" fill="#FF4500"/>
+
+  <!-- Icing Decorations -->
+  <circle cx="175" cy="225" r="5" fill="#FFFFFF"/>
+  <circle cx="125" cy="250" r="5" fill="#FFFFFF"/>
+  <circle cx="275" cy="250" r="5" fill="#FFFFFF"/>
+
+  <!-- Frosting Gradient -->
+  <defs>
+    <linearGradient id="frostingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#DCDCDC; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

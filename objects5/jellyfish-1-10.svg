@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+    <!-- Bar 1 -->
+    <circle cx="50" cy="200" r="30" fill="blue"/>
+    <animate attributeName="cy" from="200" to="280" dur="4s" repeatCount="indefinite"/>
+    <path d="M50,280 Q100,250 150,280"/>
+
+    <!-- Bar 2 -->
+    <circle cx="175" cy="200" r="30" fill="purple"/>
+    <animate attributeName="cy" from="200" to="190" dur="4s" repeatCount="indefinite"/>
+    <path d="M150,280 Q225,260 275,280"/>
+
+    <!-- Bar 3 -->
+    <circle cx="300" cy="200" r="30" fill="pink"/>
+    <animate attributeName="cy" from="200" to="210" dur="4s" repeatCount="indefinite"/>
+    <path d="M275,280 Q350,290 400,280"/>
+
+    <!-- Bar 4 -->
+    <circle cx="425" cy="200" r="30" fill="blue"/>
+    <animate attributeName="cy" from="200" to="280" dur="4s" repeatCount="indefinite"/>
+    <path d="M400,280 Q475,260 525,280"/>
+
+    <!-- Jellyfish animations -->
+    <circle cx="300" cy="150" r="100">
+        <animate attributeName="cx" from="300" to="450" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="cy" from="150" to="250" dur="8s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Repeat pattern -->
+    <g transform="translate(600, 0)">
+        <use href="#bar-1" xlink:href="#bar-1"/>
+        <use href="#bar-2" xlink:href="#bar-2"/>
+        <use href="#bar-3" xlink:href="#bar-3"/>
+        <use href="#bar-4" xlink:href="#bar-4"/>
+    </g>
+</svg>

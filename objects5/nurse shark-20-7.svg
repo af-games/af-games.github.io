@@ -1,0 +1,17 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M10,80 Q40,20 90,80 T160,120 A80,80 0 0 1 10,120" fill="#C3D8F5" stroke="#78A3B7" stroke-width="2"/>
+
+  <!-- Fin (Tail) -->
+  <path d="M90,80 Q140,60 160,80" fill="none" stroke="#78A3B7" stroke-width="2"/>
+
+  <!-- Fins (Pectoral) -->
+  <path d="M20,60 Q40,30 50,60 H30 Z" fill="none" stroke="#78A3B7" stroke-width="2"/>
+  <path d="M160,90 Q120,120 150,90 H140 Z" fill="none" stroke="#78A3B7" stroke-width="2"/>
+
+  <!-- Eyes -->
+  <circle cx="40" cy="60" r="5" fill="black"/>
+  <circle cx="140" cy="90" r="5" fill="black"/>
+
+</svg>

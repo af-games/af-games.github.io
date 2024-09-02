@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Meadow -->
+  <rect id="meadow" width="100%" height="50%" fill="#8DC63C"/>
+
+  <!-- Hot Air Balloon -->
+  <ellipse cx="400" cy="200" rx="150" ry="75" fill="#FFFF00"/>
+  <polygon points="450,50 550,50 550,150" fill="#FF4500"/>
+
+  <!-- Little Bird -->
+  <circle cx="350" cy="250" r="20" fill="#007FFF"/>
+  <path d="M350,275 Q360,290 380,275" stroke="#FFFFFF" fill="transparent"/>
+
+  <!-- Scene Annotations -->
+  <text x="10" y="40" font-family="Verdana" font-size="16">Scene 1: Setup</text>
+  <!-- More annotations for other scenes... -->
+
+  <!-- Balloon Taking Off -->
+  <animateMotion begin="5s" dur="2s"
+    repeatCount="indefinite">
+    <mpath href="#balloon-path"/>
+  </animateMotion>
+
+  <!-- Clouds -->
+  <circle cx="600" cy="350" r="50" fill="#ADD8E6"/>
+  <!-- More clouds for other scenes... -->
+
+  <!-- Storm Dark Clouds -->
+  <circle cx="600" cy="150" r="75" fill="#000000"/>
+
+  <!-- Lightning -->
+  <path d="M590,120 L610,140 Z" stroke="#FFFF00" fill="transparent"/>
+  <!-- More lightning strokes... -->
+
+</svg>

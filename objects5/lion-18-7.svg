@@ -1,0 +1,19 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Pathways -->
+  <rect x="50" y="100" width="700" height="400" fill="lightgreen" stroke="black"/>
+
+  <!-- Beds -->
+  <rect x="100" y="150" width="600" height="200" fill="#f8eae0"/>
+  <rect x="300" y="350" width="400" height="150" fill="#d9ead2"/>
+
+  <!-- Lion Statues (Paths for organic forms) -->
+  <path d="M600,175 Q550,200 500,200 Q450,200 350,175 Q300,200 250,200 Q200,200 150,175 Q100,200 50,200 Z" fill="#8b4c1e"/>
+  <path d="M600,325 Q550,350 500,350 Q450,350 350,325 Q300,350 250,350 Q200,350 150,325 Q100,350 50,350 Z" fill="#8b4c1e"/>
+
+  <!-- Plants (Circles) -->
+  <circle cx="300" cy="250" r="30" fill="green"/>
+  <circle cx="500" cy="250" r="30" fill="green"/>
+  <circle cx="400" cy="400" r="30" fill="green"/>
+
+</svg>

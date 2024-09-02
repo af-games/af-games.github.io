@@ -1,0 +1,19 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="50" r="40" fill="#FF69B4"/>
+
+  <!-- Tentacles -->
+  <g stroke-width="2">
+    <!-- Tentacle 1 -->
+    <path d="M80 30 Q120 70, 160 30"/>
+    <!-- Tentacle 2 -->
+    <path d="M80 50 Q120 90, 160 50"/>
+    <!-- Tentacle 3 -->
+    <path d="M80 70 Q120 110, 160 70"/>
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="45" r="5" fill="#FFFFFF"/>
+  <circle cx="115" cy="45" r="5" fill="#FFFFFF"/>
+
+</svg>

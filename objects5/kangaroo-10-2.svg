@@ -1,0 +1,21 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100,50 Q90,60 80,70 Q40,100 40,120 Q60,130 90,140 Q120,130 150,120 Q160,100 160,70 Q150,60 140,50 Z" fill="#654321"/>
+
+  <!-- Head -->
+  <circle cx="125" cy="80" r="20" fill="#DCD7B8"/>
+
+  <!-- Pouch -->
+  <rect x="90" y="135" width="60" height="30" rx="15" ry="15" fill="#FFFDD0"/>
+
+  <!-- Tail -->
+  <path d="M140,120 Q160,120 170,110" stroke="#DCD7B8" fill="transparent"/>
+
+  <!-- Limbs -->
+  <circle cx="95" cy="140" r="15" fill="#DCD7B8"/>
+  <circle cx="135" cy="160" r="15" fill="#DCD7B8"/>
+  <circle cx="110" cy="120" r="15" fill="#DCD7B8"/>
+  <circle cx="140" cy="100" r="15" fill="#DCD7B8"/>
+
+</svg>

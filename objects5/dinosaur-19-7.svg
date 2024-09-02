@@ -1,0 +1,51 @@
+<svg width="800" height="600" style="background-color: lightgreen;">
+```
+
+2. **Plant your seeds (Initial shapes)**
+
+Let's start with a basic T-Rex outline.
+
+- Head: `<circle cx="400" cy="300" r="150" />`
+- Body: `<rect x="350" y="350" width="70" height="200" />`
+- Tail: `<polyline points="620,350 620,450 580,450" />`
+
+```svg
+<circle cx="400" cy="300" r="150"/>
+<rect x="350" y="350" width="70" height="200"/>
+<polyline points="620,350 620,450 580,450"/>
+```
+
+3. **Water and nurture (Transforms)**
+
+- Rotate the tail slightly to make it look more natural: `transform="rotate(10, 600, 400)"`
+- Scale down the head a bit to make it proportionate: `transform="scale(0.8)"`
+
+```svg
+<circle cx="400" cy="300" r="150" transform="scale(0.8)"/>
+<rect x="350" y="350" width="70" height="200"/>
+<polyline points="620,350 620,450 580,450" transform="rotate(10, 600, 400)"/>
+```
+
+4. **Add some greenery (More shapes)**
+
+Let's add some trees to make it a landscape.
+
+```svg
+<circle cx="100" cy="350" r="20" fill="brown"/> <!-- Trunk -->
+<circle cx="100" cy="250" r="40" fill="green"/> <!-- Leaves -->
+```
+
+5. **Prune (Remove unnecessary elements or attributes)**
+
+In this case, we don't have any unnecessary elements or attributes.
+
+6. **Write out the SVG code**
+
+```svg
+<svg width="800" height="600" style="background-color: lightgreen;">
+  <circle cx="400" cy="300" r="150" transform="scale(0.8)"/>
+  <rect x="350" y="350" width="70" height="200"/>
+  <polyline points="620,350 620,450 580,450" transform="rotate(10, 600, 400)"/>
+  <circle cx="100" cy="350" r="20" fill="brown"/>
+  <circle cx="100" cy="250" r="40" fill="green"/>
+</svg>

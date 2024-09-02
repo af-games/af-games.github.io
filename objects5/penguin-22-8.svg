@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Body -->
+  <g fill="#77CBD7">
+    <circle cx="180" cy="280" r="160"/>
+    <clipPath id="bellyClip">
+      <circle cx="180" cy="300" r="90"/>
+    </clipPath>
+  </g>
+
+  <!-- Belly -->
+  <rect x="75" y="250" width="350" height="100" fill="url(#bellyGradient)" clip-path="url(#bellyClip)"/>
+
+  <!-- Head -->
+  <path d="M90,50 Q150,0 210,50 Q180,100 250,50 Q310,0 370,50" fill="#746D9C"/>
+
+  <!-- Eye details -->
+  <g clip-path="url(#eyeClip)">
+    <circle cx="130" cy="80" r="20"/>
+    <circle cx="270" cy="80" r="20"/>
+  </g>
+  <clipPath id="eyeClip">
+    <circle cx="130" cy="80" r="25"/>
+    <circle cx="270" cy="80" r="25"/>
+  </clipPath>
+
+  <!-- Eyes -->
+  <circle cx="130" cy="80" r="20" fill="#FFFFFF"/>
+  <circle cx="270" cy="80" r="20" fill="#FFFFFF"/>
+
+  <!-- Beak -->
+  <polygon points="150,160 190,120 230,160" fill="#FFD65B"/>
+
+  <!-- Gradient for belly -->
+  <defs>
+    <linearGradient id="bellyGradient" gradientTransform="rotate(45)">
+      <stop offset="0%" stop-color="#FFBF7F"/>
+      <stop offset="100%" stop-color="#FFD65B"/>
+    </linearGradient>
+  </defs>
+</svg>

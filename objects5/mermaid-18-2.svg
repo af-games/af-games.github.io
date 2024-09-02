@@ -1,0 +1,5 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 90 Q50 20, 100 90 A80 40 0 0 1 200 130 L200 270 Q150 320, 100 360 Z" fill="blue"/>
+  <path d="M150 270 Q140 280, 130 290 T130 300" stroke="black" fill="none"/>
+  <!-- Add more paths, polygons, circles, and ellipses here -->
+</svg>

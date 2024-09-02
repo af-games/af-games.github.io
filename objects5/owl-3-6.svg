@@ -1,0 +1,29 @@
+<svg viewBox="-100 -100 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M350 350 Q450 300, 600 350 Q750 300, 850 350" fill="url(#glass)" />
+
+  <!-- Head and Face -->
+  <path d="M600 250 Q675 225, 700 250 Q725 275, 700 300 A150 150 0 1 1 450 300" fill="url(#glass)" />
+  <circle cx="650" cy="280" r="10" fill="black" />
+  <path d="M675 250 Q700 260, 725 250" stroke="black" fill="transparent" />
+
+  <!-- Wings -->
+  <path d="M500 325 Q450 375, 550 375" fill="url(#glass)" />
+  <path d="M800 325 Q750 375, 850 375" fill="url(#glass)" />
+
+  <!-- Tail Feathers -->
+  <g transform="translate(600,400) scale(1.5)">
+    <polyline points="0,-50 10,-20 20,0 30,-20 40,-50" stroke="black" fill="transparent"/>
+  </g>
+
+  <!-- Refined Form -->
+  <path d="M200 350 Q300 450, 600 375 Q700 450, 850 350" fill="url(#glass)" />
+
+  <!-- Defining Glass Gradient -->
+  <defs>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(180,180,180);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

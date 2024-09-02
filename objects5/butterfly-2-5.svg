@@ -1,0 +1,27 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="80" rx="60" ry="40" fill="#FFC97A">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Right Wing -->
+  <path d="M85,20 Q60,30 40,45 Q70,70 90,65 Q110,70 100,40 Z" fill="#FFC97A">
+    <animateTransform attributeName="transform" type="rotate" from="0 100 80" to="360 100 80" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Left Wing -->
+  <path d="M175,20 Q190,30 210,45 Q190,70 160,65 Q140,70 150,40 Z" fill="#FFC97A">
+    <animateTransform attributeName="transform" type="rotate" from="0 150 80" to="-360 150 80" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Head -->
+  <circle cx="100" cy="40" r="20" fill="#FFDB5C">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="35" r="5" fill="#FFFFFF"/>
+  <circle cx="115" cy="35" r="5" fill="#FFFFFF"/>
+
+</svg>

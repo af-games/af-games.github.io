@@ -1,0 +1,18 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer edge -->
+  <path d="M 10,50 Q 40,10 90,50 Q 40,90 10,50" stroke="black" fill="none"/>
+
+  <!-- Scales and fins -->
+  <polygon points="30,70 60,100 30,130" style="fill:blue;stroke:black"/>
+  <circle cx="200" cy="400" r="50" style="fill:blue;stroke:black"/>
+
+  <!-- Hair and tail -->
+  <path d="M 20,20 Q 60,10 100,20 Q 60,30 20,30" stroke="brown" fill="transparent"/>
+
+  <!-- Mermaid's face and body -->
+  <circle cx="75" cy="150" r="40" style="fill:white;stroke:black"/>
+  <path d="M 60,190 Q 80,210 100,190 Q 80,170 60,190" stroke="black" fill="transparent"/>
+
+  <!-- Background elements -->
+  <rect width="500" height="500" style="fill:lightblue"/>
+</svg>

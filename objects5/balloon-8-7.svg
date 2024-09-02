@@ -1,0 +1,15 @@
+<svg width="200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M10,20 Q90,10 180,20 Q150,60 100,120 Q50,60 10,20" fill="#FFD700" stroke="#333" stroke-width="2"/>
+
+  <!-- Balloon Tops -->
+  <circle cx="90" cy="8" r="10" fill="#FFD700"/>
+  <circle cx="160" cy="8" r="10" fill="#FFD700"/>
+
+  <!-- Beads/Sequins -->
+  <g stroke="none">
+    <circle cx="35" cy="40" r="2" fill="#FFF"/>
+    <circle cx="145" cy="40" r="2" fill="#FFF"/>
+    <circle cx="75" cy="85" r="2" fill="#FFF"/>
+  </g>
+</svg>

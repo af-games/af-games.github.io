@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -170 500 340">
+  <!-- Body -->
+  <ellipse cx="0" cy="60" rx="90" ry="180" fill="#8B4513"/>
+  <rect x="-80" y="90" width="160" height="20" fill="#A9A9A9"/>
+
+  <!-- Head -->
+  <circle cx="-30" cy="30" r="30" fill="#A9A9A9"/>
+  <circle cx="-30" cy="30" r="25" stroke="#000000" fill="transparent"/>
+
+  <!-- Face details -->
+  <circle cx="-40" cy="25" r="3" fill="#000000"/> <!-- Left eye -->
+  <circle cx="-20" cy="25" r="3" fill="#000000"/> <!-- Right eye -->
+  <path d="M-10,40 Q-30,60 -10,80" stroke="#000000" fill="transparent"/>
+
+  <!-- Ears -->
+  <polygon points="-70,5 -90,20 -50,20" fill="#A9A9A9"/>
+  <polygon points="-30,15 -10,40 30,15" fill="#A9A9A9"/>
+
+  <!-- Tail -->
+  <path d="M-80,70 Q-60,120 -80,150" stroke="#000000" fill="transparent"/>
+  <rect x="-75" y="140" width="15" height="30" fill="#A9A9A9"/>
+
+  <!-- Legs -->
+  <path d="M-60,90 Q-80,200 -60,300" stroke="#000000" fill="transparent"/>
+  <path d="M60,90 Q80,200 60,300" stroke="#000000" fill="transparent"/>
+
+</svg>

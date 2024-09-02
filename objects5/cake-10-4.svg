@@ -1,0 +1,19 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="50" y="100" width="100" height="50" fill="#E9D7A8" rx="25"/>
+  <path d="M50,100 Q62.5,125 100,100 Q137.5,125 150,100" stroke="black" fill="transparent"/>
+
+  <!-- Cake Top -->
+  <circle cx="100" cy="75" r="50" fill="#FDD798"/>
+  <path d="M50,75 Q62.5,50 100,75 Q137.5,50 150,75" stroke="black" fill="transparent"/>
+
+  <!-- Cake Topping (Whipped Cream) -->
+  <circle cx="100" cy="25" r="25" fill="#FFFFFF"/>
+  <path d="M50,25 Q62.5,0 100,25 Q137.5,0 150,25" stroke="black" fill="transparent"/>
+
+  <!-- Cake Frosting -->
+  <rect x="40" y="0" width="120" height="50" fill="#E9D7A8" rx="25"/>
+  <text x="50%" y="30" text-anchor="middle" font-size="25" fill="black">Happy Birthday!</text>
+
+</svg>

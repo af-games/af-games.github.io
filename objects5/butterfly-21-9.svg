@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -20 60 40">
+
+  <!-- Body -->
+  <circle cx="0" cy="-8" r="7.5" fill="#FFDAB9"/>
+  <path d="M-7 -12 A7.5 7.5 0 1 1 7 -12 A7.5 7.5 0 1 1 -7 -12" stroke="#6B486C" fill="transparent"/>
+
+  <!-- Left Wing -->
+  <rect x="-18" y="-13" width="24" height="9" fill="#FFFACD"/>
+  <path d="M-15 -10 Q-20 -17 0 -17 Q-5 -14 -5 -10 H-18" stroke="#6B486C" fill="transparent"/>
+
+  <!-- Right Wing -->
+  <rect x="3" y="-13" width="24" height="9" fill="#FFFACD"/>
+  <path d="M5 -10 Q10 -17 15 -17 Q10 -14 10 -10 H3" stroke="#6B486C" fill="transparent"/>
+
+  <!-- Antennae -->
+  <circle cx="-12" cy="-18" r="1.5" fill="#696969"/>
+  <circle cx="12" cy="-18" r="1.5" fill="#696969"/>
+  <path d="M-13 -17 Q-10 -20 0 -20 Q10 -20 13 -17"/>
+
+</svg>

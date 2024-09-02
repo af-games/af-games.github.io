@@ -1,0 +1,24 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <g id="fairy" transform="translate(450, 500)">
+    <!-- Fairy's body -->
+    <path d="M10 80 Q30 10, 60 80 T90 160 Q70 210, 50 270 Z" fill="#FFDAB9"/>
+    <!-- Fairy's dress -->
+    <polygon points="50,270 90,310 0,310" fill="#FFFFFF"/>
+
+    <!-- Fairy's hair -->
+    <path d="M60,80 Q40,100 60,120" stroke="#000000" fill="transparent"/>
+    <path d="M70,80 Q90,100 70,120" stroke="#000000" fill="transparent"/>
+
+    <!-- Fairy's face -->
+    <circle cx="50" cy="160" r="40" fill="#FFB6C1"/>
+    <circle cx="50" cy="130" r="10" fill="#000000"/> <!-- Eye -->
+    <circle cx="90" cy="130" r="10" fill="#000000"/> <!-- Eye -->
+
+    <!-- Fairy's hand (initial position) -->
+    <path d="M45,240 Q60,270 75,240 Z" stroke="#000000" fill="transparent"/>
+  </g>
+
+  <animateMotion begin="0s" dur="1s" repeatCount="indefinite">
+    <mpath href="#flightPath"/>
+  </animateMotion>
+</svg>

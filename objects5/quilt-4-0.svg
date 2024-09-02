@@ -1,0 +1,14 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Quilt blocks -->
+<rect x="50" y="50" width="50" height="50" fill="#ADD8E6"/>
+<rect x="100" y="50" width="50" height="50" fill="#FFB6C1"/>
+<rect x="75" y="125" width="50" height="50" fill="#FFFF00"/>
+<rect x="0" y="100" width="300" height="100" fill="#FFFFFF"/>
+
+<!-- Stitching details -->
+<polygon points="47.5,47.5 52.5,52.5 52.5,47.5 47.5,52.5" fill="#00008B"/>
+<polygon points="97.5,47.5 102.5,52.5 102.5,47.5 97.5,52.5" fill="#00008B"/>
+<polygon points="72.5,97.5 77.5,102.5 77.5,97.5 72.5,102.5" fill="#00008B"/>
+
+</svg>

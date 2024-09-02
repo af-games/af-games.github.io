@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Background -->
+<rect width="100%" height="50%" fill="#ADD8E6"/>
+<rect y="50%" width="100%" height="50%" fill="#0A2E46"/>
+
+<!-- Bella (Protagonist) -->
+<circle cx="300" cy="250" r="75" fill="url(#sunlight)" id="bella"/>
+<animateMotion dur="2s" repeatCount="indefinite">
+  <mpath href="#path1"/>
+</animateMotion>
+
+<!-- Glowing creature -->
+<circle cx="400" cy="150" r="60" fill="url(#bioluminescence)" id="glowCreature"/>
+
+<!-- Other sea creatures (ellipses and rectangles) -->
+...
+
+<!-- Paths for swimming motion -->
+<path d="M300,200 Q350,150 400,200" stroke="#FFF569" fill="transparent" id="path1"/>
+
+<!-- Annotations -->
+<text id="annotation1" x="10%" y="90%">Under the sea at sunset...</text>
+...
+
+<!-- Celebration confetti (circles and stars using paths) -->
+...
+
+</svg>

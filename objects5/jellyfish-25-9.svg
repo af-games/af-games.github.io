@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 400 400">
+  <!-- Underwater Dawn -->
+  <circle id="J" cx="50" cy="50" r="30" fill="#ADD8E6"/>
+  <text x="50" y="20">Dawn breaks beneath the waves.</text>
+  <defs>
+    <radialGradient id="SR" cx="50%" cy="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:yellow;"/>
+      <stop offset="100%" style="stop-color:transparent;"/>
+    </radialGradient>
+  </defs>
+  <circle cx="75" cy="75" r="2" fill="url(#SR)"/>
+
+  <!-- Meeting the Wise Octopus -->
+  <rect id="O" x="150" y="80" width="30" height="40" fill="#4B0082"/>
+  <text x="160" y="90">Jellyfish meets wise Octopus.</text>
+
+  <!-- The Journey Begins -->
+  <use href="#J" cx="250" cy="100"/>
+  <text x="270" y="90">Jellyfish embarks on its journey.</text>
+  <path id="W" d="M320,80 Q340,60 360,80" stroke="#0000CD"/>
+
+  <!-- Overcoming Challenges -->
+  <use href="#J" cx="350" cy="150"/>
+  <text x="370" y="140">Challenges arise...</text>
+  <rect id="C" x="390" y="120" width="20" height="60" fill="#000000"/>
+
+  <!-- The Golden Pearl -->
+  <use href="#J" cx="-50" cy="300"/>
+  <circle id="GP" cx="-75" cy="300" r="15" fill="gold"/>
+  <text x="-90" y="290">The Golden Pearl found!</text>
+
+  <!-- Celebration -->
+  <use href="#J" cx="50" cy="400"/>
+  <circle cx="75" cy="425" r="3" fill="#F39C12"/>
+  <text x="60" y="410">Celebration under the moonlight.</text>
+</svg>

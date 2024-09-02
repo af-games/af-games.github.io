@@ -1,0 +1,31 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="0" cy="75" rx="100" ry="75" fill="#D58A62"/>
+
+  <!-- Head -->
+  <circle cx="-60" cy="90" r="30" fill="#794C33"/>
+  <circle cx="-60" cy="87" r="5" fill="#000000"/> <!-- Nose -->
+
+  <!-- Ears -->
+  <polygon points="-120,60 -80,110 -60,60" fill="#000000"/>
+  <polygon points="-40,60 -80,110 -20,60" fill="#000000"/>
+
+  <!-- Legs -->
+  <rect x="-75" y="125" width="30" height="150" fill="#794C33"/>
+  <rect x="0" y="150" width="30" height="180" fill="#794C33"/>
+  <rect x="75" y="200" width="30" height="100" fill="#794C33"/> <!-- Hind leg -->
+  <rect x="0" y="220" width="60" height="80" fill="#794C33"/>
+
+  <!-- Tail -->
+  <path d="M0,150 Q-40,180 -40,210" stroke="#000000" fill="transparent"/>
+
+  <!-- Fur -->
+  <g stroke-width="0">
+    <circle cx="-90" cy="70" r="3"/>
+    <circle cx="-50" cy="65" r="3"/>
+    ...
+    <!-- Add more circles as needed -->
+  </g>
+
+</svg>

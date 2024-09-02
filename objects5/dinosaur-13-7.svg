@@ -1,0 +1,51 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="800" height="600" fill="#E5FFDC"/>
+```
+
+2. **Plant the seeds (initial shapes):**
+
+Let's start with a simple T-Rex head as an ellipse, body as a rectangle, and legs as lines.
+
+```xml
+  <ellipse cx="400" cy="300" rx="150" ry="150" fill="brown"/>
+  <rect x="320" y="400" width="160" height="180" fill="#8B7D6B"/>
+  <line x1="350" y1="580" x2="450" y2="580" stroke="brown" />
+  <line x1="300" y1="520" x2="200" y2="580" stroke="brown"/>
+  <line x1="470" y1="520" x2="570" y2="580" stroke="brown"/>
+```
+
+3. **Water and nurture (apply transforms):**
+
+Let's rotate the body slightly, scale down the head to make it less prominent, translate the legs to make them more visible.
+
+```xml
+  <g transform="rotate(10, 400, 500)">
+    <rect x="320" y="400" width="160" height="180" fill="#8B7D6B"/>
+  </g>
+  <g transform="scale(0.9, 0.9) translate(-30, -30)">
+    <ellipse cx="400" cy="300" rx="150" ry="150" fill="brown"/>
+  </g>
+  <line x1="300" y1="520" x2="200" y2="580" stroke="brown" transform="translate(-50, -60)"/>
+  <line x1="470" y1="520" x2="570" y2="580" stroke="brown" transform="translate(50, -60)"/>
+```
+
+4. **Prune (remove unnecessary elements/attributes):**
+
+Since we've already applied the transforms directly to the shapes, there's nothing to remove.
+
+5. **Write out the SVG code:**
+
+Here's the final SVG code:
+
+```xml
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="800" height="600" fill="#E5FFDC"/>
+  <g transform="rotate(10, 400, 500)">
+    <rect x="320" y="400" width="160" height="180" fill="#8B7D6B"/>
+  </g>
+  <g transform="scale(0.9, 0.9) translate(-30, -30)">
+    <ellipse cx="400" cy="300" rx="150" ry="150" fill="brown"/>
+  </g>
+  <line x1="300" y1="520" x2="200" y2="580" stroke="brown" transform="translate(-50, -60)"/>
+  <line x1="470" y1="520" x2="570" y2="580" stroke="brown" transform="translate(50, -60)"/>
+</svg>

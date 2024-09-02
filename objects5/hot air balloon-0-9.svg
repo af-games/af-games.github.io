@@ -1,0 +1,57 @@
+<svg width="100%" height="auto" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg">
+  <!-- Scene 1 -->
+  <g id="scene1">
+    <rect x="280" y="100" width="400" height="340" fill="#D6B695" stroke="#7A5C39"/>
+    <circle cx="480" cy="250" r="100" fill="#FFFFFF"/>
+    <text x="475" y="220" font-family="Verdana" font-size="20">A lonely balloon maker...</text>
+  </g>
+
+  <!-- Scene 2 -->
+  <g id="scene2">
+    <line x1="480" y1="350" x2="480" y2="400" stroke="#7A5C39"/>
+    <circle cx="480" cy="360" r="40" fill="#FDB927"/>
+    <text x="465" y="380" font-family="Verdana" font-size="20">Looks up...</text>
+  </g>
+
+  <!-- Scene 3 -->
+  <g id="scene3">
+    <rect x="180" y="240" width="600" height="200" fill="#FFFFFF"/>
+    <circle cx="480" cy="360" r="50" fill="#FDB927"/>
+    <text x="200" y="300" font-family="Verdana" font-size="20">Works tirelessly...</text>
+  </g>
+
+  <!-- Scene 4 -->
+  <g id="scene4">
+    <circle cx="480" cy="360" r="150" fill="#FDB927"/>
+    <path d="M480,210 Q420,280 480,350 Q540,280 480,210" stroke="#7A5C39" fill="transparent"/>
+    <text x="465" y="230" font-family="Verdana" font-size="20">Launch Day!</text>
+  </g>
+
+  <!-- Scene 5 -->
+  <g id="scene5">
+    <circle cx="480" cy="180" r="150" fill="#FDB927"/>
+    <image xlink:href="landscape.png" width="960" height="360"/>
+    <text x="465" y="200" font-family="Verdana" font-size="20">A journey into the sky...</text>
+  </g>
+
+  <!-- Scene 6 -->
+  <g id="scene6">
+    <circle cx="480" cy="180" r="150" fill="#FDB927"/>
+    <path d="M480,330 Q420,240 480,150 Q420,60 480,150" stroke="#000000" fill="transparent"/>
+    <text x="465" y="200" font-family="Verdana" font-size="20">Stormy skies...</text>
+  </g>
+
+  <!-- Scene 7 -->
+  <g id="scene7">
+    <circle cx="480" cy="360" r="100" fill="#FFFFFF"/>
+    <path d="M480,330 Q420,280 480,250 Q540,280 480,330" stroke="#7A5C39" fill="transparent"/>
+    <text x="465" y="350" font-family="Verdana" font-size="20">Rescue...</text>
+  </g>
+
+  <!-- Scene 8 -->
+  <g id="scene8">
+    <rect x="180" y="240" width="600" height="200" fill="#FFFFFF"/>
+    <circle cx="480" cy="360" r="50" fill="#FDB927"/>
+    <text x="200" y="300" font-family="Verdana" font-size="20">Celebration!</text>
+  </g>
+</svg>

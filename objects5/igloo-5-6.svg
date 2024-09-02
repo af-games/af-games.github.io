@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 400 700">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+
+  <!-- Jacket Body -->
+  <path d="M-100,350 h200 v175 H-100 Z" fill="url(#bodyGradient)"/>
+  <use xlink:href="#jacketBody" y="-350"/>
+
+  <!-- Sleeve -->
+  <circle cx="-90" cy="120" r="80" fill="url(#sleevePattern)"/>
+  <use xlink:href="#sleeve" x="90"/>
+
+  <!-- Hood -->
+  <path d="M0,-350 a80,80 0 0,1 160,0 a80,80 0 0,1 -160,0 Z"
+        fill="#FFFFFF"/>
+  <use xlink:href="#hood" y="-430"/>
+
+  <!-- Gradients & Patterns -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#ADD8E6"/>
+      <stop offset="100%" stop-color="#4A7DCB"/>
+    </linearGradient>
+    <pattern id="sleevePattern" patternUnits="userSpaceOnUse" width="200" height="200">
+      <circle cx="100" cy="100" r="80" fill="#FFFFFF"/>
+      <circle cx="50" cy="75" r="30" fill="url(#circleGradient)"/>
+    </pattern>
+    <linearGradient id="circleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#ADD8E6"/>
+      <stop offset="100%" stop-color="#2196F3"/>
+    </linearGradient>
+  </defs>
+</svg>

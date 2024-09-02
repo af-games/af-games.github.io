@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Scene 1 -->
+<g id="village">
+  <circle cx="400" cy="300" r="50" fill="#ffa502" stroke="#ff4500"/>
+  <rect x="100" y="500" width="600" height="100" fill="#8b7d6e"/>
+  <path d="M10,50 L790,50 Q790,480 600,320 Q200,480 10,50" stroke="#000" fill="transparent"/>
+</g>
+
+<!-- Scene 2 -->
+<path d="M400,350 A50,50 0 1 0 400,250 50,50 0 1 0 400,350" stroke="#ffa502" fill="transparent"/>
+<rect x="370" y="380" width="60" height="80" fill="#ffe599"/>
+
+<!-- Scene 3 -->
+<circle cx="400" cy="100" r="50" fill="#ffa502"/>
+<path d="M400,100 Q400,50 400,150" stroke="#ffa502" fill="transparent"/>
+
+<!-- Scene 4 -->
+<g id="landscape">
+  <rect x="150" y="300" width="600" height="200" fill="#8b7d6e"/>
+  <path d="M150,300 Q300,300 450,400 Q600,300 750,300 H800 V600 H150 V300 Z" stroke="#000" fill="transparent"/>
+  <circle cx="250" cy="450" r="50" fill="#add8e6"/>
+</g>
+<use href="#balloon" x="400" y="100"/>
+
+<!-- Scene 5 -->
+<use href="#balloon" x="400" y="100"/>
+<circle cx="350" cy="250" r="80" fill="#000"/>
+<path d="M370,260 L390,280 Z" stroke="#fff" fill="transparent"/>
+
+<!-- Scene 6 -->
+<use href="#balloon" x="400" y="100"/>
+<circle cx="550" cy="250" r="30" fill="#ffffff" stroke="#000">
+  <circle cx="550" cy="250" r="8" fill="#fff"/>
+</circle>
+<path d="M460,170 L540,240 Z" stroke="#fff" fill="transparent"/>
+
+<!-- Scene 7 -->
+<use href="#balloon" x="400" y="350"/>
+<rect x="100" y="300" width="600" height="200" fill="#8dc63f">
+  <path d="M10,300 L790,300 Q790,480 600,550 Q200,480 10,300 Z" stroke="#fff" fill="transparent"/>
+</g>
+
+<!-- Text annotations -->
+<text x="50%" y="95%" text-anchor="middle" font-size="24" fill="#000">The Hot Air Balloon's Big Adventure</text>
+<text x="10%" y="10%" text-anchor="start" font-size="18" fill="#000">Scene 1: The peaceful village</text>
+<!-- Add more text annotations for each scene -->
+
+</svg>

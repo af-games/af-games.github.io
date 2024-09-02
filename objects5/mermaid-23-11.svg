@@ -1,0 +1,12 @@
+<svg width="300" height="600" viewBox="-150 -150 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Center circle -->
+  <circle cx="0" cy="0" r="50" fill="none" stroke="black"/>
+
+  <!-- Mermaid body and tail -->
+  <path d="M80,0 Q120,-30 160,-5 A40,40 0 0 0 -160,-5 Q-120,-30 -80,0" fill="none" stroke="black"/>
+  <path transform="scale(-1,1) translate(-200,0)" d="M80,0 Q120,-30 160,-5 A40,40 0 0 0 -160,-5 Q-120,-30 -80,0"/>
+
+  <!-- Mermaid arms and hair -->
+  <path d="M0,-50 L0,-90 Q40,-70 80,-50 Z" fill="none" stroke="black"/>
+  <path transform="scale(-1,1) translate(-200,0)" d="M0,-50 L0,-90 Q40,-70 80,-50 Z"/>
+</svg>

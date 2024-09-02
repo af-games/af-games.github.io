@@ -1,0 +1,31 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy's body -->
+  <path d="M150 75 Q180 90, 210 75 Q240 90, 270 75 Q210 60, 150 75" stroke="black" fill="lightgoldenrodyellow" stroke-width="2"/>
+
+  <!-- Fairy's head -->
+  <circle cx="180" cy="30" r="30" stroke="black" fill="ivory" stroke-width="2"/>
+
+  <!-- Fairy's hair -->
+  <path d="M175 30 Q165 20, 185 20 Q195 20, 185 30" stroke="brown" fill="transparent" stroke-width="3"/>
+
+  <!-- Fairy's eyes -->
+  <circle cx="170" cy="40" r="5" stroke="black" fill="white"/>
+  <circle cx="190" cy="40" r="5" stroke="black" fill="white"/>
+
+  <!-- Fairy's mouth -->
+  <path d="M165 50 Q175 60, 185 50" stroke="black" fill="transparent"/>
+
+  <!-- Fairy's wings -->
+  <path d="M130 90 Q160 120, 190 90 Q160 60, 130 90" stroke="black" fill="lightgoldenrodyellow" stroke-width="2"/>
+  <path d="M145 85 Q175 115, 205 85 Q175 65, 145 85" stroke="black" fill="ivory" stroke-width="2"/>
+
+  <!-- Fairy's dress -->
+  <rect x="135" y="95" width="50" height="60" rx="10" stroke="black" fill="lightgoldenrodyellow"/>
+  <path d="M170 140 Q180 150, 190 140 Q200 150, 190 140" stroke="black" fill="transparent"/>
+
+  <!-- Fairy's legs -->
+  <rect x="160" y="170" width="30" height="40" rx="5" stroke="black" fill="lightgoldenrodyellow"/>
+  <path d="M165 210 Q185 220, 205 210" stroke="black" fill="transparent"/>
+
+</svg>

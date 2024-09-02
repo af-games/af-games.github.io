@@ -1,0 +1,23 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Stand -->
+  <rect x="100" y="380" width="300" height="20" fill="#9D7D6A" rx="5"/>
+  <circle cx="200" cy="400" r="10" fill="#9D7D6A"/>
+
+  <!-- Bottom Tier -->
+  <rect x="80" y="340" width="340" height="60" fill="#F5DEB3" rx="30"/>
+  <path d="M80,340 Q120,300 200,340 Q280,300 340,340 H380 V400 H20 V360 Z" fill="#F5DEB3"/>
+
+  <!-- Middle Tier -->
+  <rect x="120" y="220" width="260" height="70" fill="#FFCC99" rx="30"/>
+  <path d="M120,220 Q180,180 240,220 Q300,180 340,220 V260 H370 V220 Z" fill="#FFCC99"/>
+
+  <!-- Top Tier -->
+  <circle cx="200" cy="120" r="90" fill="#FFF5E6"/>
+  <path d="M180,120 A110,110 0 0 1 220,230 A110,110 0 0 1 180,240 Z" fill="#FFF5E6"/>
+
+  <!-- Candles -->
+  <rect x="195" y="127" width="10" height="20" rx="5" fill="#F39C11"/>
+  <rect x="225" y="127" width="10" height="20" rx="5" fill="#F39C11"/>
+
+</svg>

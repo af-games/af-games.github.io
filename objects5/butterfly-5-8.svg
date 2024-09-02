@@ -1,0 +1,20 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="150" r="80" fill="#F6D97B">
+    <animate attributeName="cx" dur="2s" values="100;400;100" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Wings -->
+  <path d="M50,30 Q150,10 250,30 Q150,50 50,30" fill="#F6D97B">
+    <animate attributeName="d" dur="1s" values="M50,30 Q150,10 250,30 Q150,50 50,30; M250,30 Q350,10 450,30 Q350,50 250,30;" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Antenna -->
+  <line x1="100" y1="70" x2="100" y2="20" stroke="#394A0E">
+    <animate attributeName="x2" dur="2s" values="20;200;20" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="75" r="10" fill="#394A0E"/>
+  <circle cx="115" cy="75" r="10" fill="#394A0E"/>
+</svg>

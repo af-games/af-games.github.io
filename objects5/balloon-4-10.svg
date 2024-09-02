@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Vase -->
+  <path d="M100,400 Q100,300 150,300 Q200,300 200,400" stroke="brown" fill="none" stroke-width="8"/>
+
+  <!-- Water -->
+  <rect x="90" y="460" width="200" height="40">
+    <linearGradient id="waterGradient" gradientTransform="rotate(180)">
+      <stop offset="0%"   stop-color="#ADD8E6"/>
+      <stop offset="100%" stop-color="#0000CD"/>
+    </linearGradient>
+    <style>fill:url(#waterGradient);</style>
+  </rect>
+
+  <!-- Balloons -->
+  <!-- Purple heart-shaped balloon -->
+  <path d="M250,380 Q270,340 290,380 Q250,420 210,380" fill="#800080"/>
+
+  <!-- Blue round balloon behind purple -->
+  <circle cx="225" cy="360" r="30" fill="#0000FF"/>
+
+  <!-- Green leaf-shaped balloon on top -->
+  <path d="M210,340 Q240,310 270,340 Q240,370 210,340" fill="#3D9970"/>
+
+  <!-- Yellow star-shaped balloon in front -->
+  <polygon points="205,320 220,360 235,320 250,360 235,380 220,410 205,380" fill="#FFFF00"/>
+
+  <!-- Stem and leaves -->
+  <path d="M200,320 Q220,300 240,320 L260,340 L270,350 Z" stroke="#3D9970" fill="#3D9970"/>
+
+</svg>

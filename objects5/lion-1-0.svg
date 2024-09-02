@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450">
+  <!-- Lion's main body -->
+  <ellipse cx="200" cy="250" rx="175" ry="100" fill="#F39C12"/>
+
+  <!-- Legs -->
+  <circle cx="150" cy="350" r="40" fill="#F39C12"/>
+  <circle cx="250" cy="350" r="40" fill="#F39C12"/>
+  <circle cx="150" cy="150" r="40" fill="#F39C12"/>
+  <circle cx="250" cy="150" r="40" fill="#F39C12"/>
+
+  <!-- Tail -->
+  <polygon points="300,375 350,425 250,425" fill="#B5651D"/>
+
+  <!-- Face -->
+  <circle cx="175" cy="80" r="20" fill="#8B4513"/>
+  <ellipse cx="150" cy="90" rx="15" ry="10" fill="#000000"/>
+  <ellipse cx="200" cy="90" rx="15" ry="10" fill="#000000"/>
+  <path d="M160,70 Q175,85 210,70 Q185,85 200,70" stroke="#000000" fill="transparent"/>
+
+  <!-- Mane -->
+  <path id="mane" d="M130,60 Q140,20 190,20 Q240,60 250,110 210,160 170,110 150,60 Z" fill="url(#grad)"/>
+
+  <!-- Fur pattern -->
+  <defs>
+    <pattern id="fur" x="0%" y="0%" width="10" height="10">
+      <circle cx="5" cy="5" r="3" fill="#F39C12"/>
+    </pattern>
+  </defs>
+  <rect x="75" y="175" width="250" height="200" fill="url(#fur)"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F39C12"/>
+      <stop offset="100%" style="stop-color:#B5651D"/>
+    </linearGradient>
+  </defs>
+
+</svg>

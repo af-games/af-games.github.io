@@ -1,0 +1,15 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphin body -->
+  <path d="M100 50 Q150 0, 200 50 Q150 100, 100 50 Z" fill="#000000"/>
+
+  <!-- Fin -->
+  <path d="M140 80 Q160 70, 180 80 Q160 90, 140 80" stroke="#000000"/>
+
+  <!-- Tail -->
+  <path d="M350 150 Q320 170, 300 150 Q320 130, 350 150" stroke="#000000"/>
+
+  <!-- Water (background) -->
+  <rect x="0" y="180" width="500" height="120" fill="#87CEEB"/>
+
+</svg>

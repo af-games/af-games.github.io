@@ -1,0 +1,38 @@
+<svg>` canvas.
+
+*Gathered resources:*
+- A rectangle for the body (`width="200" height="250"`)
+- Two circles for the eyes (`r="10"`)
+- An ellipse for the pouch (`rx="40" ry="60"`)
+- Four paths for the limbs and tail
+
+**Day 2:**
+
+*Discovered colors:*
+- Brown (#8B4513) for the body
+- Cream (#FFFDD0) for the pouch
+- Black (#000000) for the eye details and outline
+
+*Marked path with SVG code:*
+
+```svg
+<svg viewBox="0 0 300 400">
+  <!-- Body -->
+  <rect x="10" y="10" width="200" height="250"
+        style="fill:#8B4513; stroke:black; stroke-width:2;" />
+
+  <!-- Eyes -->
+  <circle cx="90" cy="70" r="10" fill="black" />
+  <circle cx="160" cy="70" r="10" fill="black" />
+
+  <!-- Pouch -->
+  <ellipse cx="150" cy="230" rx="40" ry="60"
+           style="fill:#FFFDD0; stroke:black; stroke-width:2;" />
+
+  <!-- Limbs and Tail -->
+  <path d="M70,90 Q80,120 100,90" fill="transparent" stroke="black"/>
+  <path d="M230,90 Q240,120 250,90" fill="transparent" stroke="black"/>
+  <path d="M70,280 Q90,310 110,280" fill="transparent" stroke="black"/>
+  <path d="M230,280 Q250,310 270,280" fill="transparent" stroke="black"/>
+
+</svg>

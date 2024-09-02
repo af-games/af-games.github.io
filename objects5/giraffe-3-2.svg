@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 800">
+
+<!-- Body -->
+<rect id="body" x="150" y="100" width="200" height="600" fill="#b7ada8" opacity="0.9"/>
+<path id="neck" d="M150,300 Q250,400 350,300 T450,100" stroke="#b7ada8" fill="none" stroke-width="30"/>
+
+<!-- Head -->
+<circle id="head" cx="300" cy="150" r="150" fill="#fff" opacity="0.9"/>
+<path id="ears" d="M250,150 Q300,100 350,150 Q300,200 250,150" stroke="#b7ada8" fill="none" stroke-width="15"/>
+
+<!-- Legs -->
+<rect id="front-leg" x="100" y="400" width="50" height="300" fill="#b7ada8" opacity="0.8"/>
+<rect id="back-leg" x="350" y="400" width="50" height="300" fill="#b7ada8" opacity="0.8"/>
+
+<!-- Horns -->
+<path id="horns" d="M290,130 Q310,110 330,130 Q310,150 290,130" stroke="#b7ada8" fill="none" stroke-width="15"/>
+
+<!-- Eyes -->
+<circle id="eye-left" cx="260" cy="140" r="20" fill="#000"/>
+<circle id="eye-right" cx="340" cy="140" r="20" fill="#000"/>
+
+<!-- Mouth -->
+<path id="mouth" d="M280,160 Q300,170 320,160" stroke="#b7ada8" fill="none" stroke-width="15"/>
+
+</svg>

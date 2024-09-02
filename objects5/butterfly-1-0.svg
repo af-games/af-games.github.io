@@ -1,0 +1,26 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="75" cy="100" rx="60" ry="40"
+           fill="#FFCD59" stroke="#E8A70C"/>
+  <!-- Main wings -->
+  <ellipse cx="30" cy="80" rx="45" ry="25"
+           fill="#FFCD59" stroke="#E8A70C"/>
+  <ellipse cx="130" cy="80" rx="45" ry="25"
+           fill="#FFCD59" stroke="#E8A70C"/>
+  <!-- Hindwings -->
+  <ellipse cx="30" cy="160" rx="20" ry="10"
+           fill="#FFCD59" stroke="#E8A70C"/>
+  <ellipse cx="130" cy="160" rx="20" ry="10"
+           fill="#FFCD59" stroke="#E8A70C"/>
+  <!-- Antennae -->
+  <path d="M30,40 L15,60 L30,80 Z" fill="black"/>
+  <path d="M170,40 L155,60 L170,80 Z" fill="black"/>
+  <!-- Eyes -->
+  <circle cx="25" cy="50" r="5" fill="black"/>
+  <circle cx="155" cy="50" r="5" fill="black"/>
+  <!-- Wing veins and details -->
+  <path d="M40,70 Q60,30 80,70 T90,70 Q70,100 50,70"
+        stroke="#3D2B0C" fill="transparent"/>
+  <path d="M130,70 Q110,30 100,70 T80,70 Q90,100 110,70"
+        stroke="#3D2B0C" fill="transparent"/>
+</svg>

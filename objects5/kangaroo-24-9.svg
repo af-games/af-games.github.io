@@ -1,0 +1,13 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kangaroo -->
+  <g id="kangaroo">
+    <circle cx="100" cy="450" r="50" fill="#f297a4"/>
+    <polygon points="120,380 180,380 150,430" fill="#f2668c"/>
+  </g>
+
+  <!-- Joey -->
+  <g id="joey">
+    <circle cx="300" cy="400" r="30" fill="#d9b3ba"/>
+    <polygon points="310,330 350,330 330,380" fill="#c78cac"/>
+  </g>
+</svg>

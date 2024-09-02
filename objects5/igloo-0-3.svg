@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300">
+
+  <!-- Igloo 1 -->
+  <rect x="20" y="80" width="60" height="40" fill="#FFFFFF"/>
+  <circle cx="45" cy="95" r="10" fill="#A9A9A9"/>
+
+  <!-- Igloo 2 -->
+  <rect x="90" y="75" width="60" height="35" fill="#FFFFFF"/>
+  <circle cx="115" cy="87.5" r="10" fill="#A9A9A9"/>
+
+  <!-- Igloo 3 -->
+  <rect x="140" y="85" width="60" height="45" fill="#FFFFFF"/>
+  <circle cx="165" cy="105" r="10" fill="#A9A9A9"/>
+
+  <!-- Communal Area -->
+  <rect x="50" y="200" width="150" height="70" fill="#F8F8FF"/>
+  <circle cx="75" cy="235" r="15" fill="#FF6B4C"/>
+
+  <!-- Flagpole -->
+  <rect x="220" y="200" width="10" height="60" fill="#FFCC00"/>
+
+  <!-- Paths -->
+  <path d="M85,110 L95,230" stroke="#4F4F4F"/>
+  <path d="M100,105 L110,235" stroke="#4F4F4F"/>
+  <path d="M150,115 L160,240" stroke="#4F4F4F"/>
+
+</svg>

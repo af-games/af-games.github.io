@@ -1,0 +1,34 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Repeat rhythm -->
+  <g id="rhythm" transform="translate(0, 40)">
+    <rect width="100%" height="50" fill="#ddd"/>
+    <rect x="100%" width="80" height="50" fill="#ddd"/>
+    <text x="20" y="35" font-size="20">1</text>
+    <text x="140" y="35" font-size="20">2</text>
+  </g>
+
+  <!-- Dinosaurs (circles) -->
+  <circle id="dino1" cx="80" cy="300" r="50" fill="#f00"/>
+  <circle id="dino2" cx="480" cy="300" r="50" fill="#ff0"/>
+
+  <!-- Ground (rectangles) -->
+  <rect id="ground1" x="0" y="450" width="800" height="150" fill="#666"/>
+  <rect id="ground2" x="300" y="300" width="500" height="150" fill="#666"/>
+
+  <!-- Melody -->
+  <g transform="translate(80, 40)">
+    <animateMotion begin="0s" dur="2s" repeatCount="indefinite">
+      <mpath href="#path1"/>
+    </animateMotion>
+  </g>
+  <g transform="translate(400, 350)">
+    <animateMotion begin="0s" dur="2s" repeatCount="indefinite">
+      <mpath href="#path2"/>
+    </animateMotion>
+  </g>
+
+  <!-- Paths for dinosaur movement -->
+  <path id="path1" d="M80,300 Q280,200 580,300 Q780,400 80,300"/>
+  <path id="path2" d="M480,300 Q280,400 680,300 Q880,200 480,300"/>
+
+</svg>

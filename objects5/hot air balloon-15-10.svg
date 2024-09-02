@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Define color gradient for transitions -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(153,255,204);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,165,20);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Bars -->
+  <g id="bars">
+    <circle cx="30" cy="70" r="20" fill="#FFD700"> <!-- C -->
+      <animate attributeName="cy" values="70;150;70" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="90" cy="70" r="20" fill="#DAA520"> <!-- G -->
+      <animate attributeName="cy" values="70;150;70" dur="4s" repeatCount="indefinite" begin="3s" />
+    </circle>
+    <!-- Continue this pattern for the remaining beats in each bar -->
+
+    <!-- Hot air balloon shape (transition) -->
+    <path id="balloon" d="M20,150 Q60,20 140,150 Q20,300 20,150" stroke="url(#grad1)" fill="none">
+      <animate attributeName="d" values="M20,150 Q60,20 140,150;M20,170 Q60,30 140,170;M20,150 Q60,20 140,150" dur="8s" repeatCount="indefinite" />
+    </path>
+  </g>
+</svg>

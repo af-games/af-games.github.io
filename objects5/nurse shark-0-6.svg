@@ -1,0 +1,47 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="10" width="700" height="40" fill="lightgray" />
+```
+
+Now, let's assign note values to instruments:
+
+- Drums (circles): Diameter represents note length; smaller for shorter notes.
+- Violins (rectangles): Width represents note length; taller for louder/longer notes.
+- Guitars (paths): Paths represent melodies; longer paths for longer notes.
+
+Here's a simple composition with one measure of 4/4 time:
+
+```svg
+<!-- Drums -->
+<circle cx="100" cy="325" r="20" fill="black" />
+<circle cx="200" cy="325" r="15" fill="black" />
+<circle cx="300" cy="325" r="20" fill="black" />
+<circle cx="400" cy="325" r="15" fill="black" />
+
+<!-- Violins -->
+<rect x="150" y="375" width="60" height="30" fill="#8B4513" />
+<rect x="250" y="375" width="40" height="40" fill="#8B4513" />
+<rect x="350" y="375" width="60" height="30" fill="#8B4513" />
+<rect x="450" y="375" width="40" height="40" fill="#8B4513" />
+
+<!-- Guitar Melody -->
+<path d="M50,275 Q150,225 250,275 Q350,325 450,275" stroke="brown" fill="transparent" />
+```
+
+For dynamics (crescendos and decrescendos), we'll use colors to represent volume:
+
+- Crescendo: Increase brightness of fill color.
+- Decrescendo: Decrease brightness of fill color.
+
+Here's an example of a crescendo on the violins:
+
+```svg
+<!-- Crescendo on Violins -->
+<rect x="150" y="375" width="60" height="30" fill="#C48F3D" />
+<rect x="250" y="375" width="40" height="40" fill="#AD7A3B" />
+<rect x="350" y="375" width="60" height="30" fill="#9C6D3F" />
+```
+
+Finally, close the SVG canvas:
+
+```svg
+</svg>

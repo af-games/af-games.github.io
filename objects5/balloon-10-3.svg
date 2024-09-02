@@ -1,0 +1,36 @@
+<svg width="100%" height="100%" viewBox="0 0 618 347" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="618" height="347" fill="#F0EAD6"/>
+
+<!-- Ground -->
+<path d="M0,250 Q90,280 200,250 Q310,220 420,250 Q530,280 618,250" fill="#C68B27"/>
+
+<!-- Mountains (circles) -->
+<circle cx="50" cy="200" r="30"/>
+<circle cx="220" cy="190" r="40"/>
+<circle cx="370" cy="210" r="35"/>
+
+<!-- Rivers (paths) -->
+<path d="M50,230 Q150,260 250,230" stroke="#1E90FF" fill="transparent"/>
+<path d="M370,240 Q470,260 580,240" stroke="#1E90FF" fill="transparent"/>
+
+<!-- Trees (polygons) -->
+<polygon points="120,220 150,210 130,190" fill="#006400"/>
+<polygon points="270,220 300,210 280,190" fill="#006400"/>
+<polygon points="420,220 450,210 430,190" fill="#006400"/>
+
+<!-- Sun (circle) -->
+<circle cx="70" cy="80" r="40">
+  <animate attributeName="cy" values="80;180;80" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Clouds (ellipses) -->
+<ellipse cx="200" cy="130" rx="50" ry="40">
+  <animate attributeName="cx" values="200;350;200" dur="7s" repeatCount="indefinite"/>
+</ellipse>
+<ellipse cx="400" cy="130" rx="50" ry="40">
+  <animate attributeName="cx" values="400;550;400" dur="7s" repeatCount="indefinite"/>
+</ellipse>
+
+</svg>

@@ -1,0 +1,34 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background-color:#fff;">
+
+  <!-- Hot Air Balloon -->
+  <g id="hot-air-balloon">
+    <circle cx="150" cy="70" r="80" fill="#FFD700" stroke="#FFA500"/>
+    <path d="M130 20 Q90 60, 70 40 H170 Z" fill="#FFA500" stroke="black"/>
+    <path d="M85 40 L105 20 125 40 Z" fill="#FFD700" stroke="black"/>
+  </g>
+
+  <!-- Basket -->
+  <rect x="130" y="260" width="50" height="90" rx="5" ry="5" fill="#CABB86">
+    <animate attributeName="fill-opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M145 320 Q165 340, 185 320 Z" fill="#CABB86"/>
+
+  <!-- Fruits -->
+  <circle cx="300" cy="280" r="30" fill="#FF6F00"/>
+  <circle cx="350" cy="250" r="25" fill="#FFF9D9"/>
+  <path d="M400 270 Q420 290, 440 270 Z" fill="#A8E6CE"/>
+
+  <!-- Bottle of Wine -->
+  <rect x="450" y="230" width="30" height="100" rx="5" ry="5" fill="#7B68EE"/>
+  <path d="M470 330 Q490 350, 510 330 Z" fill="#7B68EE"/>
+
+  <!-- Tableware & Utensils -->
+  <rect x="550" y="250" width="50" height="50" rx="5" ry="5" fill="#FFA500"/>
+  <circle cx="600" cy="300" r="20" fill="#FFD700"/>
+
+  <!-- Garnishes -->
+  <circle cx="180" cy="450" r="15" fill="#FFFFFF"/>
+  <circle cx="195" cy="450" r="10" fill="#000000"/>
+  <path d="M205 440 Q220 460, 235 440 Z" fill="#FFFFFF"/>
+
+</svg>

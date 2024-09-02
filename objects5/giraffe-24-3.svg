@@ -1,0 +1,26 @@
+<svg viewBox="-300 -300 600 600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Acacia Tree -->
+<circle cx="0" cy="0" r="80" fill="#90EE90"/>
+
+<!-- Giraffe Enclosure -->
+<rect x="-250" y="-250" width="500" height="500" stroke="#333" stroke-width="10"/>
+
+<!-- Water Tower -->
+<circle cx="100" cy="-100" r="40" fill="#87CEEB"/>
+<text x="95" y="-95" font-size="24">Water</text>
+
+<!-- Feeding Platforms -->
+<rect x="300" y="100" width="60" height="100" fill="#FFFACD"/>
+<text x="310" y="85" font-size="24">Feeding 1</text>
+<rect x="-300" y="100" width="60" height="100" fill="#FFFACD"/>
+<text x="-310" y="85" font-size="24">Feeding 2</text>
+
+<!-- Observation Deck -->
+<path d="M0,-250 Q-200,0 200,0 Q0,250 0,175 Z" fill="#FFFACD"/>
+<text x="-30" y="-240" font-size="24">Observation Deck</text>
+
+<!-- Pathways -->
+<path d="M-200,-100 Q-100,-150 100,-150 Q200,-100 200,100 Q100,175 -100,175 Q-200,100 -200,-100" stroke="#333" fill="transparent"/>
+
+</svg>

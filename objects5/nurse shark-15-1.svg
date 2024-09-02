@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 100 80">
+  <!-- Body -->
+  <path d="M0,-10 Q-10,40 10,40 Q30,60 50,-10 Q70,40 90,40 Q70,20 50,-10 Z" fill="#8B8A8C"/>
+
+  <!-- Tail -->
+  <path d="M90,-10 Q95,0 90,10" stroke="#8B8A8C"/>
+
+  <!-- Fins -->
+  <rect x="-20" y="40" width="40" height="60" rx="20" fill="#fff"/>
+  <path d="M-30,50 Q-40,70 -10,70 Q0,60 10,70 Q40,70 30,50 Z" fill="#fff"/>
+  <rect x="80" y="40" width="40" height="60" rx="20" fill="#fff"/>
+
+  <!-- Eyes -->
+  <circle cx="-20" cy="10" r="5" fill="#000"/>
+  <circle cx="20" cy="10" r="5" fill="#000"/>
+</svg>

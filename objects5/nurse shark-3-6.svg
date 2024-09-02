@@ -1,0 +1,37 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Backing rhythm (drums) -->
+  <circle cx="150" cy="300" r="40" fill="#f00"/>
+  <animate attributeName="r"
+           values="40;80;40"
+           dur="2s"
+           repeatCount="indefinite"/>
+
+  <!-- Main melody (guitar) -->
+  <path d="M650,150 Q700,300 750,150"
+        fill="none"
+        stroke="#00f"
+        stroke-width="20"/>
+  <animate attributeName="stroke-width"
+           values="20;40;20"
+           dur="2s"
+           repeatCount="indefinite"
+           begin="1s"/>
+
+  <!-- Harmony (violins) -->
+  <rect x="300" y="150" width="80" height="100" fill="#0f0"/>
+  <animate attributeName="height"
+           values="100;200;100"
+           dur="2s"
+           repeatCount="indefinite"
+           begin="0.5s"/>
+
+  <!-- Crescendo -->
+  <circle cx="450" cy="300" r="30" fill="#ffa"/>
+  <animate attributeName="r"
+           values="30;60;30"
+           dur="2s"
+           repeatCount="indefinite"
+           begin="1.5s"/>
+
+</svg>

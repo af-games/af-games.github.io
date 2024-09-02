@@ -1,0 +1,24 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Snout -->
+  <circle cx="150" cy="100" r="75" fill="lightblue"/>
+
+  <!-- Main body -->
+  <rect x="100" y="80" width="400" height="300" fill="gray"/>
+
+  <!-- Fins (Dorsal fin, Pectoral fins, and Caudal fin) -->
+  <path d="M250,50 Q300,75 300,100 Q250,125 200,100 Z" stroke="darkblue" stroke-width="3"/>
+  <path d="M150,80 L200,40 Z M400,80 L350,40 Z" stroke="darkblue" stroke-width="3"/>
+
+  <!-- Tail fin -->
+  <circle cx="450" cy="200" r="75" fill="lightblue"/>
+
+  <!-- Yellow star on the forehead -->
+  <polygon points="150,50 180,70 210,50 180,30" fill="yellow"/>
+
+  <!-- Black circles for eyes and nostrils -->
+  <circle cx="135" cy="90" r="5" fill="black"/>
+  <circle cx="165" cy="90" r="5" fill="black"/>
+  <circle cx="270" cy="180" r="5" fill="black"/>
+
+</svg>

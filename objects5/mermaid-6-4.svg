@@ -1,0 +1,17 @@
+<svg width="600px" height="600px" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mermaid Upper Body -->
+  <rect x="150px" y="70px" width="150px" height="200px" fill="lightblue"/>
+  <path d="M200,70 Q240,30 280,70" stroke="black" fill="lightblue"/>
+
+  <!-- Rock -->
+  <polygon points="300,10 350,60 300,110" style="fill:grey; stroke:black; stroke-width:2"/>
+
+  <!-- Mermaid Tail -->
+  <path d="M300,70 Q340,110 380,70 Q340,30 300,70" stroke="black" fill="lightblue"/>
+  <path d="M300,270 Q340,240 380,270 Q340,290 300,270"/>
+
+  <!-- Sea -->
+  <rect x="0" y="0" width="600px" height="600px" fill="lightblue"/>
+
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#8B7D6B" />
+
+  <!-- Pathways (Rectangles) -->
+  <rect x="50" y="150" width="300" height="250" fill-opacity="0" stroke="#997C5A" stroke-width="5"/>
+
+  <!-- Structures (Lion Statues) -->
+  <circle cx="100" cy="250" r="40" fill="#FFD700">
+    <path d="M80,230 A60,60 0 1,0 120,230 A60,60 0 1,0 80,230 z"/>
+  </circle>
+  <circle cx="400" cy="250" r="40" fill="#FFD700">
+    <path d="M380,230 A60,60 0 1,0 420,230 A60,60 0 1,0 380,230 z"/>
+  </circle>
+
+  <!-- Plants and Textures (Paths) -->
+  <path d="M50,170 Q90,120 150,140 Q210,160 250,120 Q310,180 350,140 Q410,160 450,170" fill="#009900" stroke="none"/>
+
+  <!-- Shady Areas -->
+  <path d="M70,220 Q130,260 190,240 Q250,280 310,260 Q370,240 430,220" fill="#66BB6A" stroke="none"/>
+
+  <!-- Bright Areas -->
+  <path d="M80,290 Q140,250 200,270 Q260,230 320,250 Q380,270 420,290" fill="#CCFF99" stroke="none"/>
+
+</svg>

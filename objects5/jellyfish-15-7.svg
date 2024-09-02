@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -500 1000 1000">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#00AABB"/>
+
+  <!-- Mountains -->
+  <polygon points="-300,-400 300,-400 0,-200" fill="#6C7189"/>
+  <text x="-50" y="-250" text-anchor="middle" font-size="30px" fill="white">Mount Gelatinus</text>
+
+  <!-- Jellyfish Sea -->
+  <circle cx="0" cy="0" r="300" stroke="#D4A69B" stroke-width="50" fill="none"/>
+  <text x="0" y="100" text-anchor="middle" font-size="40px" fill="black">Jellyfish Sea</text>
+  <circle cx="-200" cy="-100" r="50" fill="#FF6384"/>
+  <circle cx="200" cy="-100" r="50" fill="#FFCE56"/>
+
+  <!-- Forest of Tentacles -->
+  <polygon points="-400,-100 -100,300 100,300 400,-100" fill="#7DC855"/>
+  <text x="0" y="250" text-anchor="middle" font-size="30px" fill="white">Forest of Tentacles</text>
+
+  <!-- City of Nautilus -->
+  <circle cx="-150" cy="-300" r="150" stroke="#6D4C41" stroke-width="20" fill="none"/>
+  <path d="M-200,-350 A150,150 0 0,1 -100,-250 Z" fill="#FFCE56"/>
+  <text x="-150" y="-375" text-anchor="middle" font-size="30px" fill="black">City of Nautilus</text>
+
+  <!-- River of Moonlight -->
+  <path d="M-200,-400 Q-100,-300 100,-400 Q200,-300 300,-400" stroke="#FFFFFF" stroke-width="50" fill="none"/>
+  <text x="0" y="-450" text-anchor="middle" font-size="30px" fill="white">River of Moonlight</text>
+
+  <!-- Labels for mountains, jellyfish sea, forest, city and river -->
+  <text x="-350" y="-150" text-anchor="end" font-size="24px" fill="black">Mount Gelatinus</text>
+  <text x="-30" y="75" text-anchor="start" font-size="24px" fill="black">Jellyfish Sea</text>
+  <text x="-200" y="150" text-anchor="end" font-size="24px" fill="black">Forest of Tentacles</text>
+  <text x="-300" y="-375" text-anchor="start" font-size="24px" fill="black">City of Nautilus</text>
+  <text x="-100" y="-500" text-anchor="end" font-size="24px" fill="white">River of Moonlight</text>
+
+</svg>

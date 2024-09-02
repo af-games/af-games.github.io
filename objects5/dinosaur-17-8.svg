@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Rectangular suspects -->
+  <rect id="body" x="150" y="200" width="400" height="300" fill="#8B4513"/>
+  <rect id="limb-left" x="100" y="350" width="75" height="200" fill="#696969"/>
+  <rect id="limb-right" x="550" y="350" width="75" height="200" fill="#696969"/>
+
+  <!-- Circular suspects -->
+  <circle id="head" cx="400" cy="175" r="100" fill="#D2B48C"/>
+  <circle id="eye-left" cx="300" cy="150" r="15" fill="#FFFFFF"/>
+  <circle id="eye-right" cx="500" cy="150" r="15" fill="#FFFFFF"/>
+
+  <!-- Polygonal suspects -->
+  <polygon id="tail" points="700,200 650,300 600,200" fill="#8B4513"/>
+  <polygon id="foot-left" points="90,450 50,400 10,450" fill="#696969"/>
+  <polygon id="foot-right" points="720,450 780,400 830,450" fill="#696969"/>
+
+  <!-- Path suspect -->
+  <path id="neck" d="M150,175 Q250,225 400,175" stroke="#696969" fill="transparent"/>
+
+</svg>

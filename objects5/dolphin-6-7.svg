@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet">
+
+  <!-- Proscenium Arch -->
+  <rect x="50" y="10" width="700" height="100" fill="#332349" stroke="#fff"/>
+  <text x="50%" y="80" text-anchor="middle" font-size="60px" fill="#fff">The Dolphin</text>
+
+  <!-- Pool Area -->
+  <rect x="150" y="150" width="500" height="300" fill="url(#poolGradient)"/>
+
+  <!-- Dolphin Prop -->
+  <g transform="translate(250, 300)">
+    <path d="M100,0 Q40,-70 100,-120 Q160,-70 100,0" fill="#fff"/>
+    <circle cx="100" cy="-80" r="40" fill="#fff"/>
+  </g>
+
+  <!-- Lighting Effects -->
+  <defs>
+    <linearGradient id="poolGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#003d66; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#004f8e; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#002b53; stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="lightGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff; stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#fff; stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Audience Seating -->
+  <rect x="50" y="450" width="700" height="150" fill="#332349"/>
+  <polygon points="650,450 700,500 650,550" fill="#fff"/>
+
+</svg>

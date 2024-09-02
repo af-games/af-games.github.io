@@ -1,0 +1,17 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base -->
+  <rect x="40" y="180" width="220" height="70" fill="#B695C7"/>
+
+  <!-- Cake layers -->
+  <circle cx="150" cy="150" r="130" fill="#FADADD"/>
+  <circle cx="150" cy="80" r="110" fill="#E8DAB2"/>
+  <circle cx="150" cy="10" r="90" fill="#FADADD"/>
+
+  <!-- Frosting -->
+  <path d="M40 350 Q100 370, 180 360 T340 320 Q400 350, 460 390" stroke="#FFFFFF" fill="transparent"/>
+
+  <!-- Top decoration -->
+  <polygon points="120,50 280,50 200,120" fill="#FFC0CB"/>
+
+</svg>

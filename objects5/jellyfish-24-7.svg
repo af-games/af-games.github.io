@@ -1,0 +1,38 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#ADD8E6" />
+
+  <!-- Mountains -->
+  <polygon points="40,50 90,20 170,50 90,80" fill="#D3D3D3">
+    <animate repeatCount="indefinite" dur="2s" attributeName="points" values="40,50 90,20 170,50 90,80; 60,50 110,30 160,60 110,90; 40,50 90,20 170,50 90,80" />
+  </polygon>
+
+  <!-- Rivers -->
+  <path d="M220,100 Q300,50 400,100" stroke="#5CACEE" fill="transparent">
+    <animate repeatCount="indefinite" dur="3s" attributeName="d" values="M220,100 Q300,50 400,100; M240,100 Q320,60 420,100; M220,100 Q300,50 400,100" />
+  </path>
+
+  <!-- Jellyfish Lagoons -->
+  <circle cx="150" cy="250" r="80" fill="#9DC3E6">
+    <animate repeatCount="indefinite" dur="2s" attributeName="cy" values="250; 270; 250" />
+    <text x="140" y="230" font-family="Verdana" text-anchor="middle">Jellyfish Lagoon</text>
+  </circle>
+
+  <!-- Forests -->
+  <rect x="450" y="180" width="250" height="200" fill="#696932">
+    <animate repeatCount="indefinite" dur="2s" attributeName="height" values="200; 220; 200" />
+    <text x="700" y="380" font-family="Verdana">Forest of whispers</text>
+  </rect>
+
+  <!-- Cities -->
+  <polygon points="650,150 800,100 900,150" fill="#FFA500">
+    <animate repeatCount="indefinite" dur="2s" attributeName="points" values="650,150 800,100 900,150; 700,140 850,90 950,140; 650,150 800,100 900,150" />
+    <text x="725" y="130" font-family="Verdana">Gummi City</text>
+  </polygon>
+
+  <!-- Jellyfish Habitat Labels -->
+  <text x="60" y="320" font-family="Verdana" text-anchor="middle">Jellyfish Habitat</text>
+  <text x="750" y="180" font-family="Verdana" text-anchor="middle">Luminous River</text>
+
+</svg>

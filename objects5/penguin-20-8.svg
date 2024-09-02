@@ -1,0 +1,40 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle id="body" cx="100" cy="80" r="50"
+    style="fill: url(#penguinGradient); stroke-width: 2; stroke: black;" />
+
+  <!-- Head -->
+  <circle id="head" cx="100" cy="30" r="30"
+    style="fill: white; stroke-width: 2; stroke: black;" />
+
+  <!-- Clip path for eyes -->
+  <clipPath id="eyeClip">
+    <circle cx="75" cy="40" r="10" />
+  </clipPath>
+
+  <!-- Eyes (use clipPath for cut-out effect) -->
+  <ellipse cx="85" cy="40" rx="15" ry="20"
+    style="fill: black; stroke-width: 0;" clip-path="url(#eyeClip)" />
+  <ellipse cx="95" cy="40" rx="15" ry="20"
+    style="fill: black; stroke-width: 0;" clip-path="url(#eyeClip)" />
+
+  <!-- Beak -->
+  <path id="beak" d="M80,60 Q90,70 95,65"
+    style="fill: orange; stroke-width: 2; stroke: black;" />
+
+  <!-- Legs -->
+  <rect x="85" y="110" width="30" height="40"
+    style="fill: white; stroke-width: 2; stroke: black;" />
+  <rect x="70" y="130" width="60" height="20"
+    style="fill: white; stroke-width: 2; stroke: black;" />
+
+  <!-- Gradient for penguin body -->
+  <defs>
+    <linearGradient id="penguinGradient">
+      <stop offset="0%" stop-color="#5D70B2"/>
+      <stop offset="100%" stop-color="#3A4C89"/>
+    </linearGradient>
+  </defs>
+
+</svg>

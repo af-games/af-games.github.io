@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 70 140 150">
+
+  <!-- Fairy Body -->
+  <circle cx="50" cy="120" r="30" fill="lightpink"/>
+
+  <!-- Fairy Head -->
+  <polygon points="40 70, 80 70, 60 30" fill="darkpurple"/>
+
+  <!-- Fairy Wings -->
+  <path d="M40 90 Q30 110, 40 130; M80 90 Q70 110, 80 130" stroke="gold" fill="none"/>
+
+  <!-- Fairy Clothes (simple oval) -->
+  <ellipse cx="50" cy="160" rx="25" ry="40" fill="lightgreen"/>
+
+  <!-- Mushroom Cap -->
+  <path d="M50 160 Q30 200, 70 200 Q90 160, 70 140 Q50 160" fill="tan"/>
+
+  <!-- Mushroom Stem -->
+  <rect x="55" y="80" width="10" height="60" fill="brown"/>
+
+  <!-- Wand -->
+  <line x1="60" y1="130" x2="60" y2="30" stroke="silver"/>
+  <circle cx="60" cy="30" r="5" fill="silver"/>
+
+  <!-- Butterfly Body -->
+  <ellipse cx="80" cy="90" rx="20" ry="40" fill="blue"/>
+
+  <!-- Butterfly Antennae -->
+  <path d="M70 80 Q90 100, 110 80" stroke="black" fill="none"/>
+
+</svg>

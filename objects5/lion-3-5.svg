@@ -1,0 +1,20 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect id="body" x="100" y="150" width="80" height="150" fill="#ffa500"/>
+
+  <!-- Head -->
+  <circle id="head" cx="140" cy="120" r="50" fill="#ffa500"/>
+
+  <!-- Mane -->
+  <path id="mane" d="M130,80 Q160,40 200,80 Q170,140 190,160 Q140,140 130,120 Z" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle id="eyeLeft" cx="150" cy="105" r="5" fill="#fff"/>
+  <circle id="eyeRight" cx="170" cy="105" r="5" fill="#fff"/>
+
+  <!-- Strings (paths) for controlling movements -->
+  <path d="M140,80 Q240,20 340,80" stroke="#fff"/>
+  <path d="M170,90 Q260,50 350,90" stroke="#fff"/>
+
+</svg>

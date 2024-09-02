@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Tiered Cake -->
+  <g id="cake">
+    <!-- Top tier -->
+    <circle cx="170" cy="80" r="60" fill="#FFF" stroke="#FFD39B" stroke-width="2"/>
+    <!-- Middle tier -->
+    <circle cx="170" cy="150" r="90" fill="#FFF" stroke="#FFD39B" stroke-width="2"/>
+    <!-- Bottom tier -->
+    <circle cx="170" cy="240" r="120" fill="#FFF" stroke="#FFD39B" stroke-width="2"/>
+
+    <!-- Decoration on top tier -->
+    <path d="M160,65 L180,65 L170,40 Z" fill="#C3A683"/>
+    <circle cx="170" cy="45" r="5" fill="#C3A683"/>
+
+    <!-- Icing stream -->
+    <path d="M170,290 Q190,320 210,290 T230,290" stroke="#FFF" stroke-width="10" fill="transparent"/>
+  </g>
+
+  <!-- Fruits and patterns -->
+  <circle cx="80" cy="350" r="15" fill="#FF6A00"/>
+  <circle cx="420" cy="350" r="15" fill="#FF6A00"/>
+
+  <path d="M90,370 Q150,390 210,370 T270,370" stroke="#FFD39B" stroke-width="5" fill="transparent"/>
+</svg>

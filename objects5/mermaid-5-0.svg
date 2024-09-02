@@ -1,0 +1,27 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="300" height="200" fill="lightblue"/>
+
+  <!-- Mermaid Body -->
+  <ellipse cx="150" cy="75" rx="60" ry="80" fill="white" stroke="black"/>
+  <path d="M130 120 Q150 90, 170 120" fill="lightpink" stroke="black"/>
+
+  <!-- Mermaid Hair -->
+  <polygon points="140 60, 160 50, 180 60" fill="darkblue"/>
+  <polygon points="145 62, 155 53, 165 62" fill="darkblue"/>
+
+  <!-- Mermaid Tail -->
+  <path d="M200 150 Q220 180, 220 220" fill="lightpink" stroke="black"/>
+  <ellipse cx="230" cy="200" rx="60" ry="40" gradientId="tailGradient"/>
+
+  <!-- Mermaid Arms -->
+  <path d="M130 120 Q90 80, 70 120"/>
+  <path d="M170 120 Q210 80, 230 120" transform="rotate(180)"/>
+
+  <!-- Eyes and Mouth -->
+  <circle cx="140" cy="65" r="5" fill="black"/>
+  <circle cx="160" cy="65" r="5" fill="black"/>
+  <path d="M145 80 Q155 90, 165 80" stroke="black"/>
+
+</svg>

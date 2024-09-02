@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Bell (top part) -->
+  <circle cx="0" cy="-25" r="25" fill="#8B4513" opacity="0.9" />
+  <circle cx="0" cy="-25" r="20" fill="#FDD75C" />
+
+  <!-- Tentacles (lower part) -->
+  <g id="tentacles">
+    <mask id="tentacle-mask">
+      <rect width="100%" height="100%" fill="#fff" />
+      <circle cx="0" cy="-25" r="25" fill="#000" opacity="0.7" />
+    </mask>
+    <?php for ($i = 0; $i < 8; $i++) { ?>
+      <path d="M0,-25 A30,10 0 0 0 <?= sin($i * (360 / 8)) * 30 ?>,-<?= abs(cos($i * (360 / 8)) * 25 ?>" stroke="#FDD75C" fill="none" mask="url(#tentacle-mask)" />
+    <?php } ?>
+  </g>
+
+  <!-- Shadows -->
+  <rect x="-40" y="10" width="80" height="30" fill="#000" opacity="0.15" />
+  <rect x="-45" y="-25" width="90" height="70" fill="#000" opacity="0.1" />
+
+</svg>

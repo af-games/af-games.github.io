@@ -1,0 +1,11 @@
+<svg width="140" height="200" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 90 Q20 70, 40 70 Q60 110, 80 90 Q100 70, 120 70" fill="#FDD966"/>
+  <path d="M5 40 L15 30 L25 40 Z" fill="#8B4513"/>
+  <path d="M95 40 L105 30 L115 40 Z" fill="#8B4513"/>
+  <circle cx="60" cy="20" r="20" fill="#FFDEAD"/>
+  <circle cx="60" cy="20" r="5" fill="#FFFFFF"/>
+  <line x1="40" y1="70" x2="40" y2="150" stroke="#8B4513"/>
+  <line x1="60" y1="70" x2="60" y2="150" stroke="#8B4513"/>
+  <line x1="80" y1="90" x2="80" y2="170" stroke="#8B4513"/>
+  <line x1="100" y1="90" x2="100" y2="170" stroke="#8B4513"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg width="500" height="400">
+  <rect x="0" y="0" width="500" height="400" fill="transparent"/>
+
+  <!-- Lion -->
+  <circle cx="250" cy="200" r="100" fill="#f8d7da" stroke="black"/>
+
+  <!-- Suspects -->
+  <circle cx="150" cy="250" r="40" fill="#dc3545"/>
+  <circle cx="350" cy="250" r="40" fill="#007bff"/>
+
+  <!-- Clues (paths) -->
+  <path d="M250 200 Q175 225 150 250" stroke="black"/>
+  <path d="M250 200 Q325 225 350 250" stroke="black"/>
+  <path d="M150 250 Q225 275 350 250" stroke="#808080"/>
+
+</svg>

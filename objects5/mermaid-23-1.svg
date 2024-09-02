@@ -1,0 +1,14 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M50 10 Q90 10, 140 60 Q90 110, 50 60" stroke="black" fill="lightblue"/>
+
+  <!-- Tail -->
+  <path d="M50 60 Q20 80, 50 100 Q70 80, 50 60" stroke="black" fill="lightblue"/>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="40" r="5" fill="white"/>
+  <circle cx="30" cy="40" r="5" fill="white"/>
+
+  <!-- Hair (optional) -->
+  <path d="M60 20 Q70 0, 80 20 Q90 0, 100 20" stroke="black" fill="transparent"/>
+</svg>

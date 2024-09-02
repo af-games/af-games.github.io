@@ -1,0 +1,30 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base -->
+  <rect x="10" y="380" width="480" height="20" fill="#8B7D6B"/>
+
+  <!-- Walls -->
+  <rect x="50" y="10" width="400" height="370" fill="#FFFFFF"/>
+  <rect x="50" y="10" width="200" height="370" fill="#8B7D6B"/>
+
+  <!-- Towers -->
+  <polygon points="70,10 340,10 420,90 370,250 260,250 150,90" fill="#8B7D6B"/>
+  <polygon points="470,10 400,90 450,250 520,250 570,90" fill="#8B7D6B"/>
+
+  <!-- Wall connector -->
+  <path d="M70,90 Q150,170 340,90" stroke="#3D9970" fill="transparent"/>
+
+  <!-- Windows -->
+  <circle cx="200" cy="180" r="20" fill="#3D9970"/>
+  <circle cx="360" cy="180" r="20" fill="#3D9970"/>
+  <circle cx="420" cy="150" r="15" fill="#3D9970"/>
+
+  <!-- Rooftops -->
+  <path d="M70,90 Q150,380 340,90" stroke="#0066BB" fill="transparent"/>
+  <path d="M470,90 Q550,320 650,90" stroke="#0066BB" fill="transparent"/>
+
+  <!-- Turret tops -->
+  <circle cx="150" cy="30" r="10" fill="#8B7D6B"/>
+  <circle cx="420" cy="30" r="10" fill="#8B7D6B"/>
+
+</svg>

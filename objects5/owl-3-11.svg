@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="800" fill="#0D2A3F" />
+
+  <!-- Moon -->
+  <circle cx="550" cy="100" r="70">
+    <linearGradient id="moonGlow" x1="550" y1="100" x2="550" y2="170">
+      <stop offset="0%" stop-color="#FFFDD0" />
+      <stop offset="100%" stop-color="#FFDFBA" />
+    </linearGradient>
+    <radialGradient id="moonShadow" cx="550" cy="100" r="70">
+      <stop offset="80%" stop-color="#FFFDD0" />
+      <stop offset="100%" stop-color="#0D2A3F" />
+    </radialGradient>
+    <fill url="#moonGlow" />
+    <stroke width="5" fill="#0D2A3F" />
+  </circle>
+
+  <!-- Branches -->
+  <path d="M20,780 Q120,750 240,780 Q360,750 480,780 Q600,750 600,780" stroke="#3E2723" fill="transparent">
+    <stroke-dasharray>10</stroke-dasharray>
+    <filter id="branchTexture">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="4" result="noise" />
+      <feDisplacementMap in2="SourceGraphic" in="noise" scale="10" />
+    </filter>
+  </path>
+
+  <!-- Owl Body -->
+  <path d="M300,680 Q350,740 400,780 Q450,740 400,620 Q350,580 300,620" fill="#795548">
+    <radialGradient id="owlFeathers" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#C08D6F" />
+      <stop offset="100%" stop-color="#E5C3A9" />
+    </radialGradient>
+  </path>
+
+  <!-- Owl Eyes -->
+  <circle cx="325" cy="640" r="25">
+    <linearGradient id="eyeGlow" x1="325" y1="640" x2="375" y2="640">
+      <stop offset="0%" stop-color="#FFC107" />
+      <stop offset="100%" stop-color="#FFFDD0" />
+    </linearGradient>
+    <radialGradient id="eyeShadow" cx="325" cy="640" r="25">
+      <stop offset="80%" stop-color="#FFC107" />
+      <stop offset="100%" stop-color="#795548" />
+    </radialGradient>
+    <fill url="#eyeGlow" />
+    <stroke width="5" fill="#795548" />
+  </circle>
+
+  <!-- Owl Eye Pupil -->
+  <circle cx="325" cy="640" r="10">
+    <fill>#000000</fill>
+    <stroke width="0" />
+  </circle>
+
+</svg>

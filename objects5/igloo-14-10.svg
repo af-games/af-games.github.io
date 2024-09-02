@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Bar 1 -->
+  <ellipse cx="-25" cy="0" rx="20" ry="10" fill="#FF6347" stroke-width="2" stroke="#FFF" transform="rotate(45, -25, 0)"/>
+  <animateMotion begin="0s" dur="6s" repeatCount="indefinite">
+    <mpath d="M-25,0 A20,10 0 0,1 25,0 A20,10 0 0,1 -25,0"/>
+    <set attributeName="fill-opacity" values="1;0.8;0.6;0.4;0.2;0.8;1" begin="0s" dur="6s" repeatCount="indefinite"/>
+  </animateMotion>
+
+  <!-- Bar 2 -->
+  <ellipse cx="25" cy="0" rx="20" ry="10" fill="#FFD700" stroke-width="2" stroke="#FFF" transform="rotate(-45, 25, 0)"/>
+  <animateMotion begin="6s" dur="6s" repeatCount="indefinite">
+    <mpath d="M25,0 A20,10 0 0,0 -25,0 A20,10 0 0,0 25,0"/>
+    <set attributeName="fill-opacity" values="1;0.8;0.6;0.4;0.2;0.8;1" begin="6s" dur="6s" repeatCount="indefinite"/>
+  </animateMotion>
+
+  <!-- Bar 3 -->
+  <ellipse cx="-25" cy="0" rx="20" ry="10" fill="#DAA520" stroke-width="2" stroke="#FFF" transform="rotate(45, -25, 0)"/>
+  <animateMotion begin="12s" dur="6s" repeatCount="indefinite">
+    <mpath d="M-25,0 A20,10 0 0,1 25,0 A20,10 0 0,1 -25,0"/>
+    <set attributeName="fill-opacity" values="1;0.8;0.6;0.4;0.2;0.8;1" begin="12s" dur="6s" repeatCount="indefinite"/>
+  </animateMotion>
+
+  <!-- Bar 4 -->
+  <ellipse cx="25" cy="0" rx="20" ry="10" fill="#8B4513" stroke-width="2" stroke="#FFF" transform="rotate(-45, 25, 0)"/>
+  <animateMotion begin="18s" dur="6s" repeatCount="indefinite">
+    <mpath d="M25,0 A20,10 0 0,0 -25,0 A20,10 0 0,0 25,0"/>
+    <set attributeName="fill-opacity" values="1;0.8;0.6;0.4;0.2;0.8;1" begin="18s" dur="6s" repeatCount="indefinite"/>
+  </animateMotion>
+
+  <!-- Igloo -->
+  <path d="M-50,-30 A50,30 0 0,1 50,-30 Z" fill="#FFFFFF" stroke-width="2" stroke="#000"/>
+
+</svg>

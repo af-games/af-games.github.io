@@ -1,0 +1,20 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100 400 Q170 450, 250 400 Q330 450, 400 400" fill="brown" stroke="black"/>
+
+  <!-- Head -->
+  <ellipse cx="300" cy="250" rx="100" ry="80" fill="orange" stroke="black"/>
+
+  <!-- Face -->
+  <path d="M260 210 Q340 210, 370 250 Q300 290, 260 250" fill="white" stroke="black"/>
+  <circle cx="280" cy="230" r="20" fill="black"/>
+  <circle cx="320" cy="230" r="20" fill="black"/>
+
+  <!-- Beak -->
+  <path d="M305 270 Q315 285, 325 295 Q340 290, 350 280" fill="yellow" stroke="black"/>
+
+  <!-- Wings and legs -->
+  <!-- ... continue adding shapes for wings, legs, feathers, details as described above ... -->
+
+</svg>

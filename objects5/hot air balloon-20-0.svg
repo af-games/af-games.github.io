@@ -1,0 +1,14 @@
+<svg width="540" height="540" xmlns="http://www.w3.org/2000/svg">
+  <!-- Basket -->
+  <rect x="270" y="350" width="60" height="40" fill="#8B4513"/>
+
+  <!-- Balloon Envelope -->
+  <ellipse cx="270" cy="200" rx="200" ry="300" fill="#FFC125"/>
+  <circle cx="270" cy="200" r="10" stroke="#462208" fill="transparent"/>
+
+  <!-- Burner Flame -->
+  <path d="M270,390 Q260,420 280,420 Q290,390 270,350" stroke="#FF6F00" fill="transparent" stroke-width="10"/>
+
+  <!-- Ropes and Strings -->
+  <polyline points="275,390 270,350 265,390 270,430 270,390" stroke="#462208" fill="transparent" stroke-width="3"/>
+</svg>

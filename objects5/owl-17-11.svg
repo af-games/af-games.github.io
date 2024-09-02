@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mountains -->
+  <rect id="mountains" x="0" y="450" width="800" height="150"
+        style="fill: url(#gradient-mountains);" />
+
+  <!-- Forest -->
+  <rect id="forest" x="200" y="300" width="600" height="150"
+        style="fill: url(#gradient-forest);" />
+
+  <!-- Owl Body -->
+  <ellipse cx="400" cy="350" rx="150" ry="200"
+           style="fill: url(#owl-body-gradient);" />
+
+  <!-- Owl Eyes -->
+  <circle cx="400" cy="300" r="25" style="fill: url(#owl-eye-gold)" />
+  <circle cx="400" cy="300" r="15" style="fill: black" />
+
+  <!-- Owl Feathers -->
+  <ellipse cx="400" cy="375" rx="200" ry="150"
+           style="fill: url(#owl-feather-gradient);" />
+
+  <!-- Moon -->
+  <circle cx="50" cy="100" r="60" style="fill: url(#moon-gradient)" />
+
+  <!-- Branches -->
+  <rect id="branches" x="200" y="300" width="600" height="150"
+        style="fill: url(#branch-gradient);" />
+
+  <!-- Defining gradients -->
+  <defs>
+    <linearGradient id="gradient-mountains" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:#262335; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A4A4A; stop-opacity:1" />
+    </linearGradient>
+    <!-- Add other gradients here... -->
+  </defs>
+
+</svg>

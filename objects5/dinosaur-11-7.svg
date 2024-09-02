@@ -1,0 +1,50 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg {
+      fill: lightgreen;
+    }
+    .dino {
+      fill: brown;
+    }
+  </style>
+  <rect class="bg" width="100%" height="100%"/>
+```
+
+2. **Plant the seeds (initial shapes):**
+
+```svg
+  <circle cx="50" cy="475" r="30" class="dino"/>
+  <polygon points="80,500 120,500 100,450" transform="translate(50, 400)" class="dino"/>
+```
+
+3. **Water and nurture the seeds (apply transformations):**
+
+```svg
+  <!-- Body -->
+  <g transform="translate(60, 420)">
+    <circle cx="50" cy="475" r="30"/>
+    <!-- Neck -->
+    <polyline points="50,525 100,575 150,525" transform="translate(0,-50)"/>
+    <!-- Head -->
+    <ellipse cx="100" cy="475" rx="50" ry="30"/>
+    <!-- Arms -->
+    <polyline points="60,525 90,575 120,525"/>
+    <polyline points="40,525 80,575 110,525"/>
+    <!-- Legs -->
+    <polyline points="30,475 60,525 90,475" transform="translate(0,-50)"/>
+    <polyline points="120,475 150,525 180,475" transform="translate(30,-50)"/>
+  </g>
+```
+
+4. **Prune (remove unnecessary elements/attributes):**
+
+```svg
+  <!-- Remove initial shapes -->
+  <circle cx="50" cy="475" r="30"/>
+  <polygon points="80,500 120,500 100,450"/>
+```
+
+5. **Write out the SVG code:**
+
+```svg
+</svg>

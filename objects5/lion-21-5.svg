@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Body -->
+  <circle id="body" cx="250" cy="400" r="80" fill="orange" stroke="black"/>
+
+  <!-- Head -->
+  <circle id="head" cx="250" cy="300" r="60" fill="gold" stroke="black"/>
+
+  <!-- Strings (paths) connecting body parts -->
+
+  <!-- Neck string -->
+  <path id="neck" d="M250,400 Q250,375 250,300" fill="transparent"/>
+
+  <!-- Left arm strings -->
+  <path id="leftarm1" d="M200,380 L100,400" fill="transparent"/>
+  <path id="leftarm2" d="M100,400 L50,350" fill="transparent"/>
+
+  <!-- Right arm strings -->
+  <path id="rightarm1" d="M300,380 L400,400" fill="transparent"/>
+  <path id="rightarm2" d="M400,400 L450,350" fill="transparent"/>
+
+  <!-- Tail strings -->
+  <path id="tail1" d="M250,480 Q275,465 275,440" fill="transparent"/>
+  <path id="tail2" d="M275,440 Q300,425 300,400" fill="transparent"/>
+
+</svg>

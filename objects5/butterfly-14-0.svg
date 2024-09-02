@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="50 100 200 300">
+  <!-- Body -->
+  <ellipse cx="100" cy="200" rx="40" ry="20" fill="#FF69B4"/>
+
+  <!-- Left Wing -->
+  <rect x="75" y="150" width="60" height="80" fill="#FFC300"/>
+
+  <!-- Right Wing -->
+  <rect x="90" y="150" width="60" height="80" fill="#FFC300"/>
+
+  <!-- Left Antenna -->
+  <path d="M120 170 Q140 190, 160 210" stroke="black" fill="transparent"/>
+
+  <!-- Right Antenna (Mirrored Left Antenna) -->
+  <path transform="scale(-1,1) translate(-200,0)" d="M120 170 Q140 190, 160 210" stroke="black" fill="transparent"/>
+
+  <!-- Legs (You can adjust these coordinates and colors for a natural look) -->
+  <rect x="85" y="260" width="10" height="30" fill="#704214"/>
+  <rect x="95" y="260" width="10" height="30" fill="#704214"/>
+  <rect x="85" y="270" width="10" height="30" fill="#704214"/>
+  <rect x="95" y="270" width="10" height="30" fill="#704214"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Body -->
+  <circle cx="60" cy="80" r="40" fill="#FFC300"/>
+
+  <!-- Right Wing -->
+  <path d="M90 50 Q120 70, 130 80 Q150 50, 180 60" stroke="#FFC300" fill="transparent" stroke-width="10"/>
+
+  <!-- Left Wing -->
+  <path d="M90 70 Q40 50, 20 60 Q50 90, 90 80" stroke="#FFC300" fill="transparent" stroke-width="10"/>
+
+  <!-- Antennae (Top Left) -->
+  <polygon points="10 30, 40 10, 20 30" fill="#FFC300"/>
+
+  <!-- Antennae (Top Right) -->
+  <polygon points="170 30, 190 10, 160 30" fill="#FFC300"/>
+
+  <!-- Head -->
+  <circle cx="60" cy="50" r="20" fill="#FFC300"/>
+
+</svg>

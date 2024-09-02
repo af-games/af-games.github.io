@@ -1,0 +1,19 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body outline -->
+  <path d="M100,40 Q170,80 240,60 Q310,40 380,80 Q450,40 520,80" stroke="#000000" fill="none"/>
+
+  <!-- Internal structures -->
+  <path d="M90,60 Q160,100 230,80 Q300,60 370,80 Q440,60 510,80" stroke="#C3C3C3" fill="none"/>
+
+  <!-- Skin color -->
+  <path d="M90,60 Q160,100 230,80 Q300,60 370,80 Q440,60 510,80" stroke="#B0E0E6" fill="none"/>
+
+  <!-- Head features -->
+  <circle cx="130" cy="90" r="15" stroke="#000000" fill="#000000"/>
+  <circle cx="270" cy="85" r="5" stroke="#000000" fill="#000000"/>
+
+  <!-- Tail fin edges -->
+  <path d="M390,140 Q460,160 520,140" stroke="#A9A9A9" fill="none"/>
+
+</svg>

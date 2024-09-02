@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="50%" fill="#ADD8E6" />
+
+  <!-- Hills -->
+  <path d="M20,40 Q70,90 130,40 T290,40 Q350,90 410,40 T570,40 Q630,90 690,40 Z" fill="#8B7D6B"/>
+
+  <!-- River -->
+  <path d="M10,250 Q90,280 180,250 Q270,280 360,250 Q450,280 540,250" stroke="#5F9EA0" fill="transparent" stroke-width="15"/>
+
+  <!-- Trees -->
+  <circle cx="150" cy="370" r="80" fill="url(#tree-grad)"/>
+  <circle cx="350" cy="320" r="60" fill="#4CAF50"/>
+  <circle cx="600" cy="390" r="70" fill="url(#tree-grad)"/>
+
+  <!-- Giraffe -->
+  <g transform="translate(250,180)">
+    <rect x="-100" y="-150" width="200" height="300" fill="#FFA500"/>
+    <path d="M-40,-5 L0,-70 L40,-5 Z" fill="#FFFACD"/>
+    <!-- Add more giraffe details as needed -->
+  </g>
+
+  <!-- Gradients for trees -->
+  <defs>
+    <radialGradient id="tree-grad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color: #4CAF50; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#2E7D32; stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+
+</svg>

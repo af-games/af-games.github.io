@@ -1,0 +1,36 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background gradient -->
+<defs>
+  <linearGradient id="sky-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(135,206,235); stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(74,118,146); stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+<rect width="800" height="600" fill="url(#sky-gradient)" />
+
+<!-- Rolling hills -->
+<path d="M 50,300 Q 200,350 450,300 Q 700,350 750,300" stroke="green" fill="transparent" stroke-width="10">
+  <animate attributeName="d" dur="6s" repeatCount="indefinite" to="M 50,290 Q 200,340 450,290 Q 700,340 750,290" />
+</path>
+
+<!-- Winding river -->
+<path d="M 100,400 Q 250,450 400,400 Q 550,450 700,400" stroke="blue" fill="transparent" stroke-width="10">
+  <animate attributeName="d" dur="6s" repeatCount="indefinite" to="M 100,390 Q 250,440 400,390 Q 550,440 700,390" />
+</path>
+
+<!-- Towering trees -->
+<g id="trees">
+  <circle cx="150" cy="450" r="20" fill="brown"/>
+  <polygon points="130,480 170,480 150,550" fill="green"/>
+</g>
+<use xlink:href="#trees" x="300" y="350"/>
+<use xlink:href="#trees" x="450" y="320"/>
+
+<!-- Giraffe -->
+<path d="M 600,300 Q 650,250 700,300 Q 650,350 600,300" stroke="black" fill="transparent" stroke-width="10"/>
+<circle cx="640" cy="280" r="30" fill="#FFD700"/>
+<path d="M 640,250 Q 670,200 700,250 Q 670,300 640,250" stroke="black" fill="transparent" stroke-width="10"/>
+
+</svg>

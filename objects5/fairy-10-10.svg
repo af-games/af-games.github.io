@@ -1,0 +1,33 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#FFF5EE" />
+
+  <!-- Fairy's Body (Pale Yellow) -->
+  <polygon points="250,10 350,100 250,190" fill="#FFFACD">
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite" />
+  </polygon>
+
+  <!-- Fairy's Wings (Purple) -->
+  <path d="M375,120 Q425,60 425,120 Q375,180 250,180 Q125,120 125,60 Q175,120 125,180 Z" fill="#A020F0">
+    <animate attributeName="opacity" values="1;0.5;1" dur="1s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Fairy's Hair (Green) -->
+  <polygon points="300,60 350,20 400,60" fill="#3D9970">
+    <animate attributeName="opacity" values="1;0.8;1" dur="1.5s" repeatCount="indefinite" />
+  </polygon>
+
+  <!-- Fairy's Face (Skin Tone) -->
+  <circle cx="300" cy="60" r="40" fill="#FFCC99">
+    <animate attributeName="opacity" values="1;0.9;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Fairy's Eyes (Black) -->
+  <circle cx="285" cy="55" r="5" fill="#000">
+    <animate attributeName="opacity" values="1;0.7;1" dur="1s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="315" cy="55" r="5" fill="#000">
+    <animate attributeName="opacity" values="1;0.7;1" dur="1s" repeatCount="indefinite" />
+  </circle>
+
+</svg>

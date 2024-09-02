@@ -1,0 +1,18 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E0FFFF"/>
+
+  <!-- Grass -->
+  <polygon points="25,475 200,425 375,475" fill="#69BB6A" stroke="black"/>
+  <polygon points="200,425 225,375 175,375" fill="#8DC63C" stroke="black"/>
+
+  <!-- Tree -->
+  <circle cx="150" cy="300" r="50" fill="#6D4B2A"/>
+  <path d="M150,250 L175,325 L125,325 Z" stroke="#6D4B2A" fill="#90BE6D"/>
+
+  <!-- Fairy -->
+  <circle cx="350" cy="300" r="30" fill="#FFC0CB"/>
+  <path d="M335,270 Q350,250 365,270 T350,290" stroke="#FFC0CB" fill="transparent"/>
+
+</svg>

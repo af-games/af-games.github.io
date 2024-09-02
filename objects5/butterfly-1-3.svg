@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -15 30 30" preserveAspectRatio="xMidYMid meet">
+
+  <!-- Body -->
+  <ellipse cx="0" cy="-8" rx="6" ry="12" fill="#F7DC6F"/>
+
+  <!-- Left Wing -->
+  <path d="M-15,0 Q-10,-10 -5,-5 Q0,-15 5,-10 Q10,-10 15,0" stroke="black" fill="transparent"/>
+
+  <!-- Right Wing -->
+  <path d="M15,0 Q10,-10 5,-5 Q0,-15 -5,-10 Q-10,-10 -15,0" stroke="black" fill="transparent"/>
+
+  <!-- Left Antenna -->
+  <polyline points="-9,-3 -6,-8 -4,-5" stroke="black" fill="transparent"/>
+
+  <!-- Right Antenna -->
+  <polyline points="9,-3 6,-8 4,-5" stroke="black" fill="transparent"/>
+
+</svg>

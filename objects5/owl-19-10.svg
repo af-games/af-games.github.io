@@ -1,0 +1,28 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="600" fill="#00008B"/>
+
+  <!-- Owl's body -->
+  <circle cx="175" cy="200" r="90" fill="#8B4513" opacity="0.8"/>
+  <path d="M120,150 Q140,130 160,150 H190 Q170,170 190,190 V250 Q190,210 170,230 Z" fill="#8B4513" opacity="0.8"/>
+
+  <!-- Owl's eyes -->
+  <circle cx="165" cy="160" r="10" fill="#FFFDD0"/>
+  <circle cx="185" cy="160" r="10" fill="#FFFDD0"/>
+
+  <!-- Owl's beak -->
+  <path d="M170,140 Q160,120 170,130 Q180,120 190,140 Z" fill="#FFFDD0" opacity="0.8"/>
+
+  <!-- Owl's tail feathers -->
+  <path d="M150,250 Q160,280 170,300 Q180,280 190,250 Z" fill="#8B4513" opacity="0.8"/>
+
+  <!-- Branch -->
+  <path d="M20,200 Q50,150 100,200 Q150,250 200,200 Q250,150 300,200" stroke="#654321" fill="transparent"/>
+
+  <!-- Moon -->
+  <circle cx="400" cy="300" r="80" fill="#FFFF99"/>
+  <circle cx="400" cy="300" r="70" fill="#FFD700"/>
+  <circle cx="400" cy="300" r="65" stroke="black" fill="transparent"/>
+
+</svg>

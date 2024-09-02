@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Balloon body -->
+  <ellipse cx="175" cy="250" rx="120" ry="160"
+           fill="#FFD700" stroke="black" stroke-width="3">
+    <animate attributeName="opacity" values="1;0.8;1" dur="1s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- Balloon highlight -->
+  <ellipse cx="175" cy="250" rx="120" ry="160"
+           fill="#FFF5EE" opacity=".4">
+    <animate attributeName="opacity" values="0;.4;0" dur="1s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- Balloon shadow -->
+  <ellipse cx="235" cy="320" rx="80" ry="120"
+           fill="#4A235A" opacity=".3">
+    <animate attributeName="opacity" values=".3;0;.3" dur="1s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- Tether -->
+  <rect x="160" y="375" width="20" height="80" fill="#4A235A">
+    <animate attributeName="opacity" values="1;0.8;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <!-- String knot -->
+  <rect x="170" y="450" width="6" height="20" fill="#32CD32">
+    <animate attributeName="opacity" values="1;0.8;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <!-- String -->
+  <line x1="175" y1="460" x2="190" y2="460" stroke="#32CD32" stroke-width="2">
+    <animate attributeName="opacity" values="1;0.8;1" dur="1s" repeatCount="indefinite"/>
+  </line>
+</svg>

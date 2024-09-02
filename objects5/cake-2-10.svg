@@ -1,0 +1,14 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- The cake base -->
+  <circle cx="100" cy="150" r="75" fill="#FFF4E6"/>
+  <!-- The cake top -->
+  <path d="M90,80 Q100,60 110,80 H210 Q200,60 190,80 V150 Z"
+        fill="#F7CACA" stroke="black"/>
+  <!-- The cake layers -->
+  <rect x="40" y="110" width="30" height="40" rx="15" fill="#E8CBC2"/>
+  <rect x="90" y="90" width="30" height="60" rx="15" fill="#E8CBC2"/>
+  <!-- The cake topper -->
+  <circle cx="150" cy="70" r="30" stroke="black" fill="transparent">
+    <animate attributeName="r" from="30" to="40" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

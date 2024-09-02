@@ -1,0 +1,23 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<ellipse cx="100" cy="175" rx="125" ry="80" fill="#736F6E"/>
+
+<!-- Head -->
+<ellipse cx="100" cy="75" rx="40" ry="50" fill="#D4A985"/>
+<!-- Eyes -->
+<circle cx="90" cy="60" r="5" fill="#212F3D"/>
+<circle cx="110" cy="60" r="5" fill="#212F3D"/>
+<!-- Nostrils -->
+<rect x="85" y="75" width="10" height="5" fill="#212F3D"/>
+
+<!-- Pouch -->
+<ellipse cx="-25" cy="160" rx="40" ry="60" fill="#D4A985"/>
+
+<!-- Limbs -->
+<rect x="70" y="150" width="10" height="100" fill="#C0C0C0"/>
+<rect x="130" y="150" width="10" height="100" fill="#C0C0C0"/>
+
+<!-- Tail -->
+<path d="M-25 200 Q-75 150 -25 100" stroke="#C0C0C0" fill="transparent"/>
+</svg>

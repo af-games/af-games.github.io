@@ -1,0 +1,42 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sun -->
+  <circle cx="400" cy="100" r="50" fill="yellow" />
+  <path d="M380,70 Q390,60 400,70 Q390,80 380,90" stroke="orange" fill="transparent"/>
+
+  <!-- Lion -->
+  <g id="lion">
+    <!-- Body -->
+    <rect x="120" y="250" width="160" height="200" rx="80" fill="sandybrown"/>
+    <circle cx="240" cy="350" r="50" fill="sandybrown"/>
+
+    <!-- Face -->
+    <rect x="170" y="200" width="60" height="120" rx="30" fill="gold"/>
+    <circle cx="240" cy="280" r="50" fill="black"/>
+
+    <!-- Mane -->
+    <path d="M120,200 Q90,170 120,140 Q150,170 120,200" stroke="gold" fill="transparent"/>
+    <path d="M360,200 Q390,170 360,140 Q330,170 360,200" stroke="gold" fill="transparent"/>
+
+    <!-- Strings -->
+    <!-- Tail string -->
+    <line x1="240" y1="350" x2="240" y2="450" stroke="brown"/>
+    <circle cx="240" cy="450" r="5" fill="brown"/>
+
+    <!-- Head string -->
+    <line x1="240" y1="300" x2="240" y2="280" stroke="gold"/>
+    <circle cx="240" cy="280" r="5" fill="gold"/>
+
+    <!-- Mouth string -->
+    <path d="M220,300 Q240,270 260,300" stroke="black" fill="transparent"/>
+    <circle cx="240" cy="300" r="5" fill="black"/>
+  </g>
+
+  <!-- Bird -->
+  <g id="bird">
+    <circle cx="100" cy="150" r="30" fill="blue"/>
+    <path d="M80,120 Q90,140 100,160 Q110,140 100,120" stroke="black" fill="transparent"/>
+    <path d="M100,150 Q110,170 100,190 Q90,170 100,150" stroke="black" fill="transparent"/>
+  </g>
+
+</svg>

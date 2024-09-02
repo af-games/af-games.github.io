@@ -1,0 +1,32 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Grid -->
+<rect x="0" y="0" width="500" height="500" fill="url(#grid)" stroke="black"/>
+<defs>
+  <pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+    <path d="M 0 0 L 500 0 M 0 0 L 0 500" stroke="lightgray"/>
+  </pattern>
+</defs>
+
+<!-- Clues (small shapes) -->
+<circle cx="30" cy="40" r="5" fill="blue" title="Blood sample"/>
+<circle cx="120" cy="70" r="5" fill="green" title="Fish scale"/>
+<circle cx="210" cy="290" r="5" fill="red" title="Human tooth"/>
+
+<!-- Suspects (medium shapes) - Green: Alibi for minor crimes, Blue: Unknown alibi -->
+<ellipse cx="80" cy="140" rx="30" ry="15" fill="green" title="Suspect 1"/>
+<rect x="160" y="220" width="60" height="40" fill="blue" title="Suspect 2"/>
+
+<!-- Culprits (large shapes) - Red: Primary suspect, Yellow: Accomplice -->
+<path d="M350 100 Q400 150 450 100 Q400 50 350 10" stroke="none" fill="red" title="Primary culprit"/>
+<polygon points="290,240 350,280 410,240" fill="yellow" title="Accomplice"/>
+
+<!-- Labels -->
+<text x="30" y="60" font-family="Verdana" font-size="12">Blood sample</text>
+<text x="120" y="90" font-family="Verdana" font-size="12">Fish scale</text>
+<text x="210" y="310" font-family="Verdana" font-size="12">Human tooth</text>
+
+<!-- Crime scene title -->
+<text x="25%" y="10%" text-anchor="middle" font-family="Verdana" font-size="24">Nurse Shark Crime Scene</text>
+
+</svg>

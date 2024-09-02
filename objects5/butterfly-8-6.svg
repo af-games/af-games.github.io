@@ -1,0 +1,15 @@
+<svg>` tag and set up some initial attributes:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     viewBox="-50 -50 100 100" preserveAspectRatio="xMidYMid meet">
+```
+
+In this opening stanza, we've defined the following:
+
+- `xmlns`: The namespace for SVG.
+- `version`: The version of SVG we're using.
+- `viewBox`: The aspect ratio and coordinate system bounds. Here, we've set it to cover a square area from `-50` to `50` along both axes.
+- `preserveAspectRatio`: This ensures that the aspect ratio is maintained when scaling.
+
+Next, we'll start adding shapes, colors, and positions to bring life to our SVG canvas. Stay tuned for the next notes in this visual melody!</svg>

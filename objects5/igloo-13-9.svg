@@ -1,0 +1,31 @@
+<svg width="100%" height="100%" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Scene 1: The Lonely Igloo -->
+<rect x="500" y="400" width="200" height="250" fill="#ADD8E6"/>
+<text x="570" y="600" font-size="30" fill="black">The lonely igloo</text>
+
+<!-- Scene 2: Meeting the Wind -->
+<circle cx="600" cy="450" r="100" fill="#D3D3D3"/>
+<path d="M600,450 A100,100 0 1 0 700,350 Z" stroke="#D3D3D3" fill="transparent"/>
+<rect x="500" y="400" width="200" height="250" fill="#ADD8E6"/>
+<text x="570" y="600" font-size="30" fill="black">Meeting the wind</text>
+
+<!-- Scene 3: Journey Begins -->
+<circle cx="400" cy="450" r="100" fill="#D3D3D3"/>
+<path d="M400,450 A100,100 0 1 1 200,450 Z" stroke="#D3D3D3" fill="transparent"/>
+<rect x="500" y="400" width="200" height="250" fill="#ADD8E6"/>
+<text x="570" y="600" font-size="30" fill="black">Journey begins</text>
+
+<!-- Scene 4: Meeting New Friends -->
+<circle cx="700" cy="550" r="100" fill="#F5DEB3"/>
+<rounded-rect width="200" height="200" rx="50" ry="50" fill="#F5DEB3" x="800" y="400"/>
+<rect x="500" y="400" width="200" height="250" fill="#ADD8E6"/>
+<text x="570" y="600" font-size="30" fill="black">Meeting new friends</text>
+
+<!-- Scene 5: Igloo's Return -->
+<circle cx="1000" cy="450" r="100" fill="#D3D3D3"/>
+<path d="M1000,450 A100,100 0 1 1 900,450 Z" stroke="#D3D3D3" fill="transparent"/>
+<rect x="800" y="400" width="200" height="250" fill="#ADD8E6"/>
+<text x="870" y="600" font-size="30" fill="black">Igloo's return</text>
+
+</svg>

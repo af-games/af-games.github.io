@@ -1,0 +1,28 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Walls -->
+<rect x="100" y="150" width="300" height="350" fill="#8B4513"/>
+
+<!-- Towers -->
+<path d="M150 200 Q200 150, 250 200 L300 200 Q250 250, 200 200 Z" fill="#8B4513"/>
+<path d="M350 200 Q400 150, 450 200 L500 200 Q450 250, 400 200 Z" fill="#8B4513"/>
+
+<!-- Roof -->
+<path d="M150 550 Q200 600, 250 550 L300 550 Q250 600, 200 550 Z" fill="#987654"/>
+
+<!-- Windows -->
+<circle cx="180" cy="280" r="30" fill="#FFFFFF"/>
+<circle cx="280" cy="280" r="30" fill="#FFFFFF"/>
+<circle cx="180" cy="380" r="30" fill="#FFFFFF"/>
+<circle cx="280" cy="380" r="30" fill="#FFFFFF"/>
+
+<!-- Door -->
+<rect x="220" y="400" width="60" height="150" fill="#694E29"/>
+
+<!-- Drawbridge -->
+<path d="M270 400 Q300 350, 330 400 L330 500 H270 Z" fill="#694E29"/>
+
+<!-- Moat -->
+<rect x="100" y="550" width="300" height="50" fill="#483D28"/>
+
+</svg>

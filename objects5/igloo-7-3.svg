@@ -1,0 +1,19 @@
+<svg width="100%" height="50%" viewBox="-500 -300 1000 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo -->
+  <circle cx="500" cy="300" r="250" fill="#FFF" stroke="#000"/>
+
+  <!-- Snow Path -->
+  <path d="M-500,300 Q-250,400 -100,300 T0,300" stroke="#FFF" fill="transparent" stroke-width="50"/>
+
+  <!-- Snowman Body -->
+  <circle cx="200" cy="175" r="75" fill="#FFF"/>
+  <!-- Snowman Head -->
+  <circle cx="200" cy="50" r="37.5" fill="#FFF"/>
+  <!-- Snowman Nose -->
+  <circle cx="200" cy="40" r="12.5" fill="#FF6347"/>
+  <!-- Snowman Arms -->
+  <rect x="150" y="225" width="50" height="100" rx="25" fill="#FFF"/>
+  <rect x="250" y="225" width="50" height="100" rx="25" fill="#FFF"/>
+
+</svg>

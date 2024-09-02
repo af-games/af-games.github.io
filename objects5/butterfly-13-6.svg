@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- First movement: The Body -->
+  <rect id="body" width="50%" height="70%" fill="#FF69B4" ry="20%"/>
+
+  <!-- Second movement: The Wings -->
+  <path id="wing-left" d="M30%,10% Q40%,0% 50%,10%" stroke="black" fill="transparent"/>
+  <path id="wing-right" d="M70%,10% Q60%,0% 50%,10%" stroke="black" fill="transparent"/>
+
+  <!-- Third movement: The Antennae -->
+  <circle cx="25%" cy="5%" r="3%" fill="#000"/>
+  <circle cx="75%" cy="5%" r="3%" fill="#000"/>
+</svg>

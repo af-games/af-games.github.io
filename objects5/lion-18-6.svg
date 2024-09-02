@@ -1,0 +1,33 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion's head (circle) -->
+  <circle cx="100" cy="90" r="70"
+          fill="#FDD835" stroke="#E4A126" stroke-width="3" />
+
+  <!-- Lion's mane (path) -->
+  <path d="M60 40 Q90 20, 130 40 Q160 70, 130 110 Q90 140, 60 110"
+        fill="#FDD835" stroke="#E4A126" stroke-width="3"/>
+
+  <!-- Lion's eye (circle) -->
+  <circle cx="90" cy="70" r="10"
+          fill="#000000" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Gemstone setting for the left side (rectangle with rounded corners) -->
+  <rect x="65" y="85" width="30" height="30"
+        rx="15" ry="15"
+        fill="#FFD700" stroke="#CD7F32" stroke-width="2"/>
+
+  <!-- Gemstone for the left side (circle) -->
+  <circle cx="80" cy="97.5" r="12.5"
+          fill="#6B4226" stroke="#FFD700" stroke-width="1"/>
+
+  <!-- Gemstone setting for the right side (same as left) -->
+  <rect x="135" y="85" width="30" height="30"
+        rx="15" ry="15"
+        fill="#FFD700" stroke="#CD7F32" stroke-width="2"/>
+
+  <!-- Gemstone for the right side (same as left) -->
+  <circle cx="150" cy="97.5" r="12.5"
+          fill="#6B4226" stroke="#FFD700" stroke-width="1"/>
+
+</svg>

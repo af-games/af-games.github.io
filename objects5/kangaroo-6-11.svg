@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <g id="kangaroo">
+    <!-- Body -->
+    <path d="M100,100 Q200,50 300,100 A100,100 0 0 1 400,200" fill="#ffcc00" stroke="#000" />
+
+    <!-- Head -->
+    <circle cx="250" cy="75" r="50" fill="#ff6600" stroke="#000" />
+
+    <!-- Tail -->
+    <path d="M350,150 Q450,200 350,250" stroke-linecap="round" fill="none" stroke="#000" />
+
+    <!-- Feet -->
+    <circle cx="75" cy="350" r="50" fill="#ffcc00" stroke="#000" />
+    <circle cx="425" cy="350" r="50" fill="#ffcc00" stroke="#000" />
+
+    <!-- Pouches -->
+    <path d="M175,200 Q225,275 325,200" stroke-linecap="round" fill="#ff9933" stroke="#000" />
+  </g>
+</svg>

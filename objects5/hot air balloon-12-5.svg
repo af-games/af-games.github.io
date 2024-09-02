@@ -1,0 +1,53 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Basket -->
+  <g id="basket" transform="translate(150, 450)">
+    <rect width="70" height="40" rx="20" fill="#522B08"/>
+    <path d="M35 0 L70 0 L70 40 L35 40 z" stroke="#AA6E2A" fill="transparent"/>
+  </g>
+
+  <!-- Balloon envelope -->
+  <g id="balloonEnvelope">
+    <path d="M100,0 Q200,50 300,0 Q200,-50 100,0 z" stroke="#FFAA33" fill="transparent"/>
+  </g>
+
+  <!-- Basket rope -->
+  <line x1="175" y1="450" x2="200" y2="300" stroke="#AA6E2A"/>
+
+  <!-- Burner flame -->
+  <g id="flame" transform="translate(200, 380)">
+    <polygon points="-5,-5 5,-5 0,10" fill="#FF5733"/>
+    <polygon points="-3,-3 3,-3 0,6" fill="#FF4C29"/>
+  </g>
+
+  <!-- Animation -->
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0 0"
+    to="50 0"
+    dur="1s"
+    repeatCount="indefinite"
+    begin="basket.start()"
+    id="moveBasket"
+  />
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 200 380"
+    to="360 200 380"
+    dur="5s"
+    repeatCount="indefinite"
+    begin="flame.start()"
+    id="spinFlame"
+  />
+  <animate
+    attributeName="scale"
+    values="1; 1.2; 1"
+    dur="4s"
+    repeatCount="indefinite"
+    begin="balloonEnvelope.start()"
+    id="floatBalloon"
+  />
+
+</svg>

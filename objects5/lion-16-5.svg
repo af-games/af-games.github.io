@@ -1,0 +1,73 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Stage -->
+<rect x="100" y="150" width="600" height="400" fill="#f7e9dd" stroke="#ccc"/>
+
+<!-- Lion -->
+<g id="lion">
+  <!-- Body -->
+  <circle cx="250" cy="300" r="80" fill="#ffa500" stroke="#fff"/>
+  <!-- Head -->
+  <circle cx="250" cy="240" r="60" fill="#ffa500" stroke="#fff"/>
+
+  <!-- String - Move head vertically -->
+  <path id="headUpDown" d="M250,240 Q250,180 250,270"/>
+
+  <!-- Left ear -->
+  <polygon points="230,220 220,200 230,190" fill="#ffa500"/>
+  <!-- Right ear -->
+  <polygon points="270,220 280,200 270,190" fill="#ffa500"/>
+
+  <!-- String - Move ears vertically -->
+  <path id="earsUpDown" d="M230,220 Q240,240 230,260 M270,220 Q260,240 270,260"/>
+
+  <!-- Tail -->
+  <polygon points="250,380 220,410 280,410" fill="#ffa500"/>
+  <!-- String - Move tail horizontally -->
+  <path id="tailLeftRight" d="M250,380 Q220,410 280,410"/>
+
+</g>
+
+<!-- Bird -->
+<g id="bird">
+  <!-- Body -->
+  <circle cx="600" cy="350" r="20" fill="#70c5ce"/>
+  <!-- Head -->
+  <polygon points="590,330 610,330 600,300" fill="#70c5ce"/>
+
+  <!-- String - Move bird vertically -->
+  <path id="birdUpDown" d="M600,350 Q600,400 600,300"/>
+</g>
+
+<!-- Controls for strings -->
+<text x="10" y="50">Head: Up/Down - Arrow Keys</text>
+<text x="10" y="70">Ears: Up/Down - PageUp/PageDown</text>
+<text x="10" y="90">Tail: Left/Right - Left/Right Arrow Keys</text>
+<text x="10" y="110">Bird: Up/Down - Up/Down Arrow Keys</text>
+
+<!-- Script for interaction -->
+<script>
+  document.onkeydown = function(e) {
+    const keyCode = e.keyCode;
+    const lionHead = document.getElementById('headUpDown');
+    const lionEars = document.getElementById('earsUpDown');
+    const lionTail = document.getElementById('tailLeftRight');
+    const birdBody = document.getElementById('birdUpDown');
+
+    if (keyCode === 38) { // Up arrow
+      birdBody.setAttribute("d", "M600,350 Q600,400 600,300");
+    } else if (keyCode === 40) { // Down arrow
+      birdBody.setAttribute("d", "M600,350 Q600,250 600,300");
+    } else if (keyCode === 37) { // Left arrow
+      lionTail.setAttribute("d", "M220,410 L280,410");
+    } else if (keyCode === 39) { // Right arrow
+      lionTail.setAttribute("d", "M250,380 Q220,410 280,410");
+    } else if (keyCode === 33) { // PageUp
+      lionEars.setAttribute("d", "M230,260 Q240,240 230,220 M270,260 Q260,240 270,220");
+    } else if (keyCode === 34) { // PageDown
+      lionEars.setAttribute("d", "M230,220 Q240,240 230,260 M270,220 Q260,240 270,260");
+    }
+  };
+</script>
+
+</svg>

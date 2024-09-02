@@ -1,0 +1,25 @@
+<svg width="500" height="750" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer Coat -->
+  <path id="coatOuter" d="M180,60 C180,40 220,80 220,100 Q350,180 350,240 Q280,320 220,360 C170,330 90,310 90,290 Q150,230 180,200 Z" fill="url(#outerGradient)"/>
+  <path id="coatSleeveOuter" d="M40,60 A60,60 0 0 1 180,120 A60,60 0 0 1 40,180 Z"/>
+
+  <!-- Inner Coat -->
+  <path id="coatInner" d="M195,70 C195,55 235,95 235,115 Q345,195 345,235 Q270,295 230,335 C180,310 100,290 100,270 Q160,210 195,180 Z" fill="url(#innerGradient)"/>
+  <path id="coatSleeveInner" d="M45,75 A55,55 0 0 1 195,135 A55,55 0 0 1 45,195 Z"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="outerGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:blue; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:white; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:blue; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="innerGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:white; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#87CEEB; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

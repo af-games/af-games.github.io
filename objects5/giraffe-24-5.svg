@@ -1,0 +1,27 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <path id="head" d="M100,50 Q140,0 200,50 Q140,100 100,50 Z" fill="#333" />
+  <circle id="eye-left" cx="80" cy="60" r="5" fill="#333" />
+  <circle id="eye-right" cx="120" cy="60" r="5" fill="#333" />
+
+  <!-- Neck -->
+  <rect id="neck" x="90" y="80" width="120" height="40" fill="none" stroke="#333" stroke-width="5"/>
+
+  <!-- Body -->
+  <rect id="body" x="80" y="150" width="160" height="180" rx="20" fill="#333"/>
+
+  <!-- Legs -->
+  <g id="legs">
+    <path d="M40,250 Q60,350 140,300 Q180,350 200,250 Z"/>
+    <path d="M260,250 Q240,350 140,300 Q120,350 100,250 Z"/>
+  </g>
+
+  <!-- Spots -->
+  <g id="spots" fill="#fff">
+    <circle cx="90" cy="70" r="8"/>
+    <circle cx="140" cy="60" r="8"/>
+    <circle cx="220" cy="130" r="5"/>
+  </g>
+
+</svg>

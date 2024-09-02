@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+  <!-- Clue 1: Dolphin outline -->
+  <path id="dolphin-outline" d="M10 80 Q20 10, 40 80 Q60 120, 90 80 Q120 30, 150 80" stroke="black" fill="none"/>
+
+  <!-- Clue 2: Ocean -->
+  <rect id="ocean" x="0" y="160" width="300" height="40" style="fill:blue; opacity:0.5"/>
+
+  <!-- Clue 3: Hidden dolphin image with mask -->
+  <image id="dolphin-image" href="dolphin.png" x="20" y="60" width="150" height="120"/>
+  <mask id="reveal-dolphin">
+    <path d="M10 80 Q20 10, 40 80 Q60 120, 90 80 Q120 30, 150 80" fill="white"/>
+  </mask>
+
+  <!-- Apply mask to reveal dolphin image -->
+  <g mask="url(#reveal-dolphin)">
+    <use href="#dolphin-image"/>
+  </g>
+</svg>

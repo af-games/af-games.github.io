@@ -1,0 +1,23 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<rect x="60" y="150" width="80" height="150" fill="#F4A460"/>
+
+<!-- Head -->
+<circle cx="90" cy="70" r="50" fill="#F4A460"/>
+
+<!-- Neck -->
+<rect x="70" y="120" width="10" height="80" fill="#F4A460"/>
+
+<!-- Legs -->
+<path d="M60 230 h20 l-50 -50 H40 Z" fill="#F4A460"/>
+<path d="M60 310 h20 l-50 50 H40 Z" fill="#F4A460"/>
+
+<!-- Horns -->
+<circle cx="87" cy="60" r="5" fill="#9E4817"/>
+<circle cx="93" cy="60" r="5" fill="#9E4817"/>
+
+<!-- Tail -->
+<polygon points="140,270 160,290 120,290" fill="#F4A460"/>
+
+</svg>

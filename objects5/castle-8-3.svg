@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Castle -->
+<g id="castle">
+  <!-- Keep tower -->
+  <rect x="150" y="200" width="100" height="400" fill="#775a3c"/>
+  <polygon points="250,200 350,200 300,400" fill="#775a3c"/>
+  <circle cx="200" cy="150" r="50" fill="#fff"/>
+
+  <!-- Main tower -->
+  <rect x="300" y="200" width="200" height="400" fill="#775a3c"/>
+  <polygon points="300,200 500,200 400,400" fill="#775a3c"/>
+  <rect x="380" y="150" width="80" height="250" fill="#fff"/>
+
+  <!-- Gate tower -->
+  <polygon points="400,200 600,200 500,400" fill="#775a3c"/>
+</g>
+
+<!-- Walls -->
+<rect x="150" y="400" width="450" height="200" fill="#775a3c"/>
+
+<!-- Road -->
+<line x1="0" y1="600" x2="800" y2="600" stroke-width="50" stroke="#333"/>
+<text x="400" y="630" font-size="36">Vector City Rd</text>
+
+<!-- Label -->
+<text x="10" y="50" font-size="48">Castle of Vector City</text>
+
+</svg>

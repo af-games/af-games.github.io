@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 100 80">
+  <!-- Body -->
+  <path fill="#FF69B4" d="M0,-5 A5,5 0 1,0 0,5 A5,5 0 1,0 0,-5"/>
+
+  <!-- Left Wing -->
+  <path id="wing-template" fill="#8B008B"
+        d="M-20,-30 Q -30,-15 0,-30 Q 30,-15 -20,-30"/>
+
+  <!-- Right Wing (mirrored left wing) -->
+  <use href="#wing-template" transform="translate(40,0) scale(-1,1)"/>
+
+  <!-- Antennae -->
+  <polygon fill="#8B008B" points="-5,-2 -20,0 5,-2"/>
+  <polygon fill="#8B008B" transform="translate(35)" points="-5,-2 -20,0 5,-2"/>
+
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+    <style>
+        @keyframes butterfly {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .wing {
+            fill: #FF69B4;
+            stroke: #FFF;
+            stroke-width: 2px;
+        }
+    </style>
+
+    <g class="butterfly">
+        <!-- Body -->
+        <circle cx="15" cy="20" r="8" fill="#F39C12"/>
+
+        <!-- Wings -->
+        <path d="M15 5 L30 20 L15 35 Z" transform="translate(7, 0)"/>
+        <use href="#wing" xlink:href="#wing" transform="translate(-10, -5), rotate(45deg)" />
+        <use href="#wing" xlink:href="#wing" transform="translate(-10, 35), rotate(-45deg)" />
+
+        <!-- Antennae -->
+        <line x1="25" y1="5" x2="25" y2="-10"/>
+        <line x1="18" y1="5" x2="9" y2="-10"/>
+    </g>
+
+    <!-- Wing pattern for reuse -->
+    <defs>
+        <pattern id="wingPattern" width="4" height="4">
+            <rect width="2" height="2" fill="#FF69B4"/>
+            <rect x="2" y="2" width="2" height="2" fill="white"/>
+        </pattern>
+    </defs>
+
+    <!-- Animate butterfly -->
+    <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 25 20"
+        to="360 25 20"
+        dur="1.5s"
+        repeatCount="indefinite"/>
+</svg>

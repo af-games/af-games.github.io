@@ -1,0 +1,37 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue"/>
+      <stop offset="100%" style="stop-color:white"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="250" rx="80" ry="130" fill="black">
+    <animate attributeName="cx" dur="2s" from="200" to="200"/>
+  </ellipse>
+
+  <!-- Belly -->
+  <ellipse cx="200" cy="250" rx="70" ry="120" fill="white">
+    <animate attributeName="cx" dur="2s" from="200" to="200"/>
+  </ellipse>
+
+  <!-- Head -->
+  <path d="M200 160 Q230 120, 245 180 T270 150 Z" fill="black"/>
+
+  <!-- Eyes -->
+  <circle cx="190" cy="140" r="5" fill="white"/>
+  <circle cx="210" cy="140" r="5" fill="white"/>
+  <path d="M185 135 Q190 125, 195 135 Z" fill="black"/>
+  <path d="M215 135 Q220 125, 225 135 Z" fill="black"/>
+
+  <!-- Beak -->
+  <path d="M200 180 Q210 190, 220 180 Z" fill="orange"/>
+
+  <!-- Feathers (intricate details using path) -->
+  <path d="M205 220 Q210 230, 205 240 Z" stroke="black" fill="transparent"/>
+  <path d="M195 225 Q200 235, 195 245 Z" stroke="black" fill="transparent"/>
+  <!-- Add more feather paths as needed -->
+
+</svg>

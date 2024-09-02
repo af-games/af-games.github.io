@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+
+  <!-- Igloo -->
+  <path d="M180,150 Q220,50 300,150 Q220,250 180,350 Q140,250 60,150 Z" fill="#ADD8E6"/>
+
+  <!-- Snow -->
+  <polygon points="60,70 180,40 300,70" fill="#FFFFFF"/>
+  <polygon points="180,40 300,70 420,40" fill="#FFFFFF"/>
+
+  <!-- Polar Bear (garnish) -->
+  <circle cx="450" cy="250" r="40" fill="#FFFFFF"/>
+  <circle cx="460" cy="210" r="5" fill="#000000"/>
+  <circle cx="430" cy="210" r="5" fill="#000000"/>
+  <path d="M440,230 Q460,280 470,240 Z" stroke="#000000" fill="transparent"/>
+
+  <!-- Salmon (accompaniment) -->
+  <polygon points="150,300 200,350 100,350" fill="#FF6F61"/>
+  <path d="M170,340 Q185,370 195,340 Z" stroke="#FFFFFF" fill="transparent"/>
+
+  <!-- Plate -->
+  <circle cx="300" cy="420" r="120" fill="#F39C12"/>
+  <path d="M300,280 Q360,350 420,280 Z" stroke="#F39C12" fill="transparent"/>
+
+  <!-- Fork -->
+  <path d="M500,300 L540,370 L500,440 H480 Z" fill="#C0C0C0"/>
+
+  <!-- Knife -->
+  <rect x="520" y="310" width="20" height="90" rx="10" fill="#C0C0C0"/>
+  <path d="M540,360 L580,420 Z" stroke="#C0C0C0" fill="transparent"/>
+
+</svg>

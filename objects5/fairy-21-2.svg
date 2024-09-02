@@ -1,0 +1,30 @@
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100,280 Q90,270 95,260 Q105,270 110,260 Q100,250 95,240" fill="#FFF" stroke="#000" stroke-width="2"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="230" r="25" fill="#FFF" stroke="#000" stroke-width="2"/>
+
+  <!-- Hair -->
+  <path d="M95,225 Q90,215 100,205 Q105,215 98,225" fill="#000" stroke="none"/>
+  <path d="M98,230 Q93,240 105,240 Q110,235 102,230" fill="#000" stroke="none"/>
+
+  <!-- Dress -->
+  <rect x="70" y="260" width="60" height="80" rx="10" fill="#E9F5D7" stroke="#000" stroke-width="2"/>
+
+  <!-- Wings -->
+  <path d="M80,240 Q90,230 100,240 Q90,250 80,260 Z" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <path d="M120,240 Q110,230 100,240 Q110,250 120,260 Z" fill="#FFF" stroke="#000" stroke-width="2"/>
+
+  <!-- Arms -->
+  <path d="M95,265 L85,275 M105,265 L115,275" stroke="#000" stroke-width="2" fill="none"/>
+
+  <!-- Legs -->
+  <path d="M95,285 L85,295 M105,285 L115,295" stroke="#000" stroke-width="2" fill="none"/>
+
+  <!-- Accessories (crown) -->
+  <circle cx="100" cy="220" r="5" fill="#FFD700" stroke="#FFD700" stroke-width="2"/>
+  <path d="M98,218 L102,218 M100,216 L100,222" stroke="#FFD700" stroke-width="2" fill="none"/>
+
+</svg>

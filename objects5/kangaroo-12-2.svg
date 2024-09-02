@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 300 200">
+  <defs>
+    <linearGradient id="gradient" gradientTransform="rotate(90)">
+      <stop offset="0%" stop-color="#6C4F2B"/>
+      <stop offset="100%" stop-color="#8B5A3B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <ellipse cx="70" cy="100" rx="80" ry="120" fill="url(#gradient)"/>
+
+  <!-- Tail -->
+  <path d="M70,160 Q90,140 130,150 Q170,160 190,150" fill="url(#gradient)"/>
+
+  <!-- Hind legs -->
+  <rect x="85" y="120" width="30" height="80" rx="15" fill="#8B5A3B"/>
+  <rect x="65" y="140" width="40" height="60" rx="10" fill="#6C4F2B"/>
+
+  <!-- Front legs -->
+  <rect x="-10" y="90" width="20" height="30" rx="5" fill="#8B5A3B"/>
+  <rect x="70" y="90" width="20" height="30" rx="5" fill="#6C4F2B"/>
+
+  <!-- Head -->
+  <ellipse cx="70" cy="60" rx="35" ry="40" fill="#D1913C"/>
+  <polygon points="-10,-10, 30,-10, -5,-30" fill="#8B5A3B"/>
+  <ellipse cx="70" cy="50" rx="10" ry="15" fill="#D1913C"/>
+
+  <!-- Eyes and nose -->
+  <circle cx="-5" cy="45" r="5" fill="black"/>
+  <circle cx="65" cy="45" r="5" fill="black"/>
+  <circle cx="70" cy="65" r="3" fill="#D1913C"/>
+
+  <!-- Leg outlines -->
+  <path d="M85,120 H115 V180 H65 Z" stroke="black" fill="transparent"/>
+  <path d="M-10,90 H30 V110 Z" stroke="black" fill="transparent"/>
+  <path d="M70,90 H100 V110 Z" stroke="black" fill="transparent"/>
+</svg>

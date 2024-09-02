@@ -1,0 +1,18 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Walls -->
+  <rect x="100" y="250" width="200" height="50" fill="#776e65"/>
+  <path d="M100,250 Q140,280 240,250 T380,250 H400 V300 H0 V250 Z" stroke="#776e65" fill="transparent"/>
+
+  <!-- Castle Towers -->
+  <polygon points="140,50 190,50 165,200" fill="#776e65"/>
+  <polygon points="340,50 390,50 365,200" fill="#776e65"/>
+
+  <!-- Roofs -->
+  <path d="M100,50 Q140,0 240,50 T380,50 H400 V100 H0 Z" stroke="#776e65" fill="#b9a98f"/>
+
+  <!-- Gate -->
+  <rect x="190" y="250" width="100" height="50" fill="#776e65"/>
+  <path d="M240,250 Q280,230 320,250 T360,250 H380 V300 H190 Z" stroke="#776e65" fill="transparent"/>
+
+</svg>

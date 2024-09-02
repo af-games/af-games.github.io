@@ -1,0 +1,11 @@
+<svg id="castle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Castle walls -->
+  <rect x="100" y="400" width="300" height="200" fill="brown"/>
+
+  <!-- Castle towers -->
+  <polygon points="150,400 350,400 250,200" fill="brown"/>
+  <polygon points="75,450 125,450 250,350" fill="brown"/>
+
+  <!-- Castle walls (continued) -->
+  <rect x="100" y="200" width="300" height="200" fill="brown"/>
+</svg>

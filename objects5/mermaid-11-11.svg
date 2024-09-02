@@ -1,0 +1,81 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="250" cy="250" r="150" fill="lightgray"/>
+```
+
+2. **Building up layers of detail:**
+   We'll create the basic mermaid shape first, then add details like hair, tail, and accessories.
+
+   a. **Mermaid's body:**
+      We'll use an ellipse for the upper body and blend it with a tail using quadratic Bézier curves.
+
+```svg
+<ellipse cx="250" cy="125" rx="100" ry="175" fill="lightblue"/>
+<path d="M 250,300 Q 225,350 200,375 Q 275,400 250,425 Q 325,400 300,375 Q 350,350 325,300" fill="lightblue"/>
+```
+
+   b. **Mermaid's hair:**
+      We'll add some wavy lines for the hair using a combination of line segments and quadratic curves.
+
+```svg
+<path d="M 225,75 Q 180,40 135,90 Q 160,120 185,150 Q 210,120 235,90 Q 250,40 285,75" stroke="brown"/>
+<path d="M 275,75 Q 310,40 345,90 Q 330,120 315,150 Q 290,120 265,90 Q 250,40 225,75" stroke="brown"/>
+```
+
+   c. **Mermaid's tail:**
+      We'll add some scaly details to the mermaid's tail using a repeated pattern of small triangles.
+
+```svg
+<g transform="translate(200,375)">
+  <pattern id="scales" patternUnits="userSpaceOnUse" width="10" height="5">
+    <polygon points="0,0 5,5 0,10"/>
+  </pattern>
+  <rect x="-50" y="-25" width="300" height="275" fill="url(#scales)"/>
+</g>
+```
+
+   d. **Mermaid's face and accessories:**
+      We'll add a simple oval for the face, circles for eyes, and optional accessories like a seashell bra or jewelry using various SVG shapes.
+
+```svg
+<ellipse cx="250" cy="175" rx="40" ry="60" fill="white"/>
+<circle cx="235" cy="165" r="8" fill="black"/>
+<circle cx="265" cy="165" r="8" fill="black"/>
+<path d="M 225,210 Q 200,235 175,250 Q 200,265 225,280 Q 250,265 275,250 Q 275,235 250,210" stroke="pink" fill="transparent"/>
+```
+
+3. **Ensuring balance in the design:**
+   To ensure our mermaid is balanced, we'll use symmetry and evenly distribute details on both sides of her body.
+
+```svg
+<g transform="scale(-1,1) translate(-500,0)">
+  <path d="M 275,75 Q 310,40 345,90 Q 330,120 315,150 Q 290,120 265,90 Q 250,40 225,75" stroke="brown"/>
+</g>
+```
+
+Here's the complete SVG mermaid figurine:
+
+```svg
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="250" cy="250" r="150" fill="lightgray"/>
+
+  <ellipse cx="250" cy="125" rx="100" ry="175" fill="lightblue"/>
+  <path d="M 250,300 Q 225,350 200,375 Q 275,400 250,425 Q 325,400 300,375 Q 350,350 325,300" fill="lightblue"/>
+
+  <g transform="translate(200,375)">
+    <pattern id="scales" patternUnits="userSpaceOnUse" width="10" height="5">
+      <polygon points="0,0 5,5 0,10"/>
+    </pattern>
+    <rect x="-50" y="-25" width="300" height="275" fill="url(#scales)"/>
+  </g>
+
+  <path d="M 225,75 Q 180,40 135,90 Q 160,120 185,150 Q 210,120 235,90 Q 250,40 285,75" stroke="brown"/>
+  <path d="M 275,75 Q 310,40 345,90 Q 330,120 315,150 Q 290,120 265,90 Q 250,40 225,75" stroke="brown"/>
+  <g transform="scale(-1,1) translate(-500,0)">
+    <path d="M 275,75 Q 310,40 345,90 Q 330,120 315,150 Q 290,120 265,90 Q 250,40 225,75" stroke="brown"/>
+  </g>
+
+  <ellipse cx="250" cy="175" rx="40" ry="60" fill="white"/>
+  <circle cx="235" cy="165" r="8" fill="black"/>
+  <circle cx="265" cy="165" r="8" fill="black"/>
+  <path d="M 225,210 Q 200,235 175,250 Q 200,265 225,280 Q 250,265 275,250 Q 275,235 250,210" stroke="pink" fill="transparent"/>
+</svg>

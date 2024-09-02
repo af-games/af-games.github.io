@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Sun -->
+  <circle id="sun" cx="40" cy="-40" r="40" fill="url(#sunGradient)">
+    <animate attributeName="r" dur="2s" repeatCount="indefinite"
+             from="35" to="40" begin="0s"/>
+  </circle>
+  <rect id="sunRays" x="-80" y="-60" width="160" height="120" fill="none">
+    <animate attributeName="width" dur="2s" repeatCount="indefinite"
+             from="140" to="160" begin="0s"/>
+  </rect>
+
+  <!-- Dolphins -->
+  <path id="dolphin1" d="M-30,-10 Q-15,30 -30,50 Z">
+    <animate attributeName="d" dur="4s" repeatCount="indefinite"
+             from="M-30,-10 Q-15,30 -30,50 Z" to="M20,-10 Q15,30 20,50 Z"/>
+  </path>
+  <path id="dolphin2" d="M10,-10 Q25,30 10,50 Z">
+    <animate attributeName="d" dur="4s" repeatCount="indefinite"
+             from="M10,-10 Q25,30 10,50 Z" to="M-20,-10 Q-15,30 -20,50 Z"/>
+  </path>
+  <path id="dolphin3" d="M40,-10 Q55,30 40,50 Z">
+    <animate attributeName="d" dur="4s" repeatCount="indefinite"
+             from="M40,-10 Q55,30 40,50 Z" to="M20,-10 Q15,30 20,50 Z"/>
+  </path>
+
+  <!-- Water Waves -->
+  <polyline id="waterWaves" points="-80,-10 -60,10 -40,-10 -20,10 0,-10 20,10 40,-10 60,10 80,-10">
+    <animate attributeName="points" dur="4s" repeatCount="indefinite"
+             from="-80,-10 -60,10 -40,-10 -20,10 0,-10 20,10 40,-10 60,10 80,-10"
+             to="-80,-5 -60,15 -40,-5 -20,15 0,-5 20,15 40,-5 60,15 80,-5"/>
+  </polyline>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="sunGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,165,0);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,153);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(89,147,226);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

@@ -1,0 +1,24 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path id="body" d="M170,180 C140,160 90,140 90,120 Q50,80 90,60 Q130,40 170,60 Q210,40 250,60 Q290,80 300,120 Q310,160 270,180 Z"
+    fill="brown" stroke="black"/>
+
+  <!-- Head -->
+  <path id="head" d="M90,60 Q50,40 90,20 C120,0 170,30 170,60 Q180,30 190,60 Z"
+    fill="brown" stroke="black"/>
+
+  <!-- Tail -->
+  <path id="tail" d="M250,60 Q290,40 290,120 Q270,160 250,180 Z"
+    fill="brown" stroke="black"/>
+
+  <!-- Legs -->
+  <rect id="leg1" x="70" y="180" width="30" height="40" rx="15" ry="15" fill="brown"/>
+  <rect id="leg2" x="95" y="160" width="30" height="60" rx="15" ry="15" fill="brown"/>
+  <rect id="leg3" x="270" y="180" width="30" height="40" rx="15" ry="15" fill="brown"/>
+  <rect id="leg4" x="295" y="160" width="30" height="60" rx="15" ry="15" fill="brown"/>
+
+  <!-- Eyes -->
+  <circle id="eye1" cx="120" cy="45" r="10" fill="white"/>
+  <circle id="eye2" cx="150" cy="45" r="10" fill="white"/>
+
+</svg>

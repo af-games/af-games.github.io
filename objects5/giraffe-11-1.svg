@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Body -->
+  <path d="M256 80C114.7,80,20,194.7,20,304h41.2l-40 160c0,53,43,96,96,96h112c53,0,96,-43,96,-96V304H256z" fill="brown"/>
+
+  <!-- Neck -->
+  <path d="M280,270l-20,-50,80,0" stroke="brown" fill="transparent"/>
+
+  <!-- Head -->
+  <circle cx="192" cy="140" r="60" fill="saddleBrown"/>
+
+  <!-- Eyes -->
+  <circle cx="170" cy="130" r="5"/>
+  <circle cx="212" cy="130" r="5"/>
+
+  <!-- Ears -->
+  <polygon points="180,90 160,110 200,110" fill="saddleBrown"/>
+  <polygon points="220,90 240,110 260,110" fill="saddleBrown"/>
+
+  <!-- Legs -->
+  <path d="M304,304V256h-80v-56c0,-53,-43,-96,-96,-96H72c-53,0,-96,43,-96,96v56h-80z" fill="brown"/>
+
+  <!-- Spots -->
+  <circle cx="150" cy="350" r="20"/>
+  <circle cx="250" cy="370" r="20"/>
+  <circle cx="350" cy="360" r="20"/>
+
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Ocean Waves -->
+  <path d="M 0,0 A 150 150 0 1 1 225,-75 A 150 150 0 1 1 -225,-75" stroke="#007BFF"/>
+
+  <!-- Mermaid Tail -->
+  <path d="M 0,0 C -75,-75 75,-75 0,-150" stroke="#9C27B0" fill="transparent"/>
+
+  <!-- Landmill -->
+  <circle cx="-80" cy="60" r="30" fill="#8B4513"/>
+
+  <!-- Shipwreck -->
+  <circle cx="80" cy="-60" r="25" fill="#A9A9A9"/>
+</svg>

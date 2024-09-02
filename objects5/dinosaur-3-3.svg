@@ -1,0 +1,26 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path id="body" d="M10,80 C30,60 70,100 100,100 Q150,80 200,100 L250,140 Z"
+        fill="url(#dinosaurGradient)"/>
+  <!-- Tail -->
+  <path id="tail" d="M300,120 C350,160 370,200 400,220 H350 V180 Z"
+        fill="url(#dinosaurGradient)"/>
+  <!-- Head -->
+  <path id="head" d="M100,60 Q130,40 160,60 Q190,80 220,60 L250,80 Z"
+        fill="url(#dinosaurGradient)"/>
+  <!-- Legs -->
+  <path id="frontLegLeft" d="M70,200 Q100,240 130,200 L90,160 Z"
+        fill="url(#dinosaurGradient)" transform="scale(1,-1)"/>
+  <use xlink:href="#frontLegLeft" id="frontLegRight" transform="translate(150,0)"/>
+  <path id="backLegLeft" d="M280,200 Q310,240 340,200 L310,160 Z"
+        fill="url(#dinosaurGradient)" transform="scale(1,-1)"/>
+  <use xlink:href="#backLegLeft" id="backLegRight" transform="translate(-70,0)"/>
+
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="dinosaurGradient" gradientTransform="rotate(90)">
+      <stop offset="5%" stop-color="#4F281A"/>
+      <stop offset="95%" stop-color="#260E05"/>
+    </linearGradient>
+  </defs>
+</svg>

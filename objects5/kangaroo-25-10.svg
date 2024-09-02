@@ -1,0 +1,18 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="150" cy="200" rx="70" ry="80" fill="#8B4513"/>
+
+  <!-- Head -->
+  <rect x="140" y="160" width="80" height="80" rx="40" fill="#CD7F32"/>
+
+  <!-- Ears -->
+  <circle cx="130" cy="150" r="20" fill="#CD7F32"/>
+  <circle cx="170" cy="150" r="20" fill="#CD7F32"/>
+
+  <!-- Arms and Legs (simple lines for now) -->
+  <line x1="160" y1="220" x2="140" y2="240" stroke="#00"/>
+  <line x1="160" y1="220" x2="180" y2="240" stroke="#00"/>
+  <line x1="150" y1="270" x2="130" y2="290" stroke="#00"/>
+  <line x1="170" y1="270" x2="190" y2="290" stroke="#00"/>
+
+</svg>

@@ -1,0 +1,13 @@
+<svg width="800px" height="600px" xmlns="http://www.w3.org/2000/svg">
+  <!-- Introduction -->
+  <circle cx="150" cy="150" r="50" fill="#FFC0CB"/>
+  <text x="100" y="250">Once upon a time, there was a lonely jellyfish...</text>
+
+  <!-- Dreaming -->
+  <circle cx="300" cy="150" r="50" fill="#FFC0CB"/>
+  <path d="M400,100 Q425,75 450,100" stroke="#FFFF99" fill="transparent"/>
+  <text x="350" y="80">...who dreamed of exploring beyond its home.</text>
+
+  <!-- Encounter -->
+  ...
+</svg>

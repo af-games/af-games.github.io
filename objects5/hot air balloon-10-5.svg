@@ -1,0 +1,25 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Balloon body -->
+  <circle id="balloonBody" cx="400" cy="50" r="200"
+          fill="none" stroke="#333" stroke-width="5" />
+
+  <!-- Balloon burner -->
+  <rect id="burner" x="360" y="180" width="80" height="60"
+        fill="#FF4500" rx="20"/>
+
+  <!-- Basket and gondola -->
+  <rect id="basket" x="320" y="340" width="120" height="90"
+        fill="none" stroke="#333" stroke-width="5"/>
+  <path id="gondola" d="M370,420 Q400,480 430,420 H370 Z"
+        fill="none" stroke="#333" stroke-width="5"/>
+
+  <!-- Animation (simulating ascent) -->
+  <animateMotion id="ascentAnimation" begin="click" dur="4s"
+                 repeatCount="indefinite">
+    <mpath href="#balloonPath"/>
+  </animateMotion>
+
+  <!-- Path for animation -->
+  <path id="balloonPath" d="M400,50 Q400,200 400,350"/>
+
+</svg>

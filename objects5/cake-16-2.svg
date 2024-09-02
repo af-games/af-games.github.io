@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Cake -->
+  <path id="cake" d="M175 400 Q200 450, 225 400 Q250 450, 275 400 Q300 450, 325 400 Q350 450, 375 400 Q400 450, 425 400" fill="url(#cakeGradient)"/>
+  <rect x="175" y="350" width="250" height="50" fill="#CC6699" />
+  <circle cx="250" cy="250" r="50" fill="#FFA07A"/>
+
+  <!-- Icing streams -->
+  <path d="M175 400 Q150 450, 175 500 Q200 550, 175 600" stroke="#CC6699" fill="transparent"/>
+  <path d="M325 400 Q350 450, 325 500 Q300 550, 325 600" stroke="#CC6699" fill="transparent"/>
+
+  <!-- Candles -->
+  <rect x="210" y="200" width="10" height="80" fill="#FFA500"/>
+  <rect x="270" y="200" width="10" height="80" fill="#FFA500"/>
+
+  <!-- Defining gradients -->
+  <defs>
+    <linearGradient id="cakeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,239,213); stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(248,177,119); stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

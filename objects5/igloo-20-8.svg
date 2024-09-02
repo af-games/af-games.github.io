@@ -1,0 +1,35 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" style="font-family: Arial;">
+
+<!-- Background -->
+<rect x="0" y="0" width="600" height="400" fill="#FFFFFF"/>
+
+<!-- Round Wooden Plate -->
+<circle cx="300" cy="200" r="180" stroke="#A97D59" stroke-width="15" fill="#F4E4C1"/>
+<path d="M285 165 Q270 175, 270 185 H330 Q315 175, 315 165 Z" stroke="#A97D59" fill="none"/>
+
+<!-- Igloo -->
+<path d="M300 100 A100 100 0 1 0 300 200 A100 100 0 0 1 300 100 Z" fill="#C0C0C0"/>
+<path d="M300 85 L300 95 L340 95 L340 85 Z" stroke="#7F9FBF" fill="none"/>
+
+<!-- Snowflakes -->
+<g transform="translate(150, 25)">
+  <polygon points="10,10 20,10 15,30" fill="#FFFFFF"/>
+  <polygon points="40,10 50,10 45,30" fill="#FFFFFF"/>
+  <polygon points="70,10 80,10 75,30" fill="#FFFFFF"/>
+</g>
+
+<!-- Polar Bear Figurine -->
+<path d="M260 130 Q270 140, 270 150 V190 H230 V150 Q240 140, 250 130 Z" fill="#FFFFFF"/>
+<circle cx="265" cy="180" r="15" fill="#7F9FBF"/>
+
+<!-- Fork and Spoon -->
+<path d="M450 180 L460 160 H470 L460 140 Z" stroke="#A97D59" fill="none"/>
+<path d="M500 200 Q490 190, 480 180 V220 Q490 230, 500 240 Z" stroke="#A97D59" fill="none"/>
+
+<!-- Garnish (Green Sprig) -->
+<path d="M540 200 Q530 185, 520 170 Q530 160, 540 150 Q550 160, 560 170 Q550 185, 540 200 Z" fill="#8DC63C"/>
+
+<!-- Tableware (Bowl) -->
+<path d="M570 190 A80 80 0 1 0 570 230 A80 80 0 0 1 570 190 Z" stroke="#A97D59" fill="#F4E4C1"/>
+
+</svg>

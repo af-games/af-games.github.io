@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Major Landmarks -->
+<path d="M100 50 Q150 0, 250 50" stroke="black" fill="none" id="owl-tower"/>
+<circle cx="400" cy="150" r="75" stroke="black" fill="none" id="ancient-oak"/>
+
+<!-- Boundaries -->
+<path d="M100 50 L700 50 Q700 550, 100 550 Z" stroke="darkgreen" fill="lightgreen"/>
+<path d="M100 400 L700 400 Q700 90, 100 90 Z" stroke="darkblue" fill="lightblue"/>
+
+<!-- Rivers -->
+<path d="M350 60 Q400 120, 450 60" stroke="blue" fill="transparent"/>
+<path d="M550 200 Q600 280, 650 200" stroke="blue" fill="transparent"/>
+
+<!-- Roads -->
+<path d="M150 100 L300 200 L450 100 Z" stroke="grey" fill="transparent"/>
+<path d="M250 350 L400 450 L550 350 Z" stroke="grey" fill="transparent"/>
+
+<!-- Points of Interest -->
+<circle cx="300" cy="300" r="20" stroke="red" fill="red"/>
+<circle cx="600" cy="400" r="15" stroke="orange" fill="orange"/>
+
+<!-- Legend -->
+<text x="720" y="50" font-size="12">Legend:</text>
+<rect x="720" y="80" width="30" height="10" fill="darkgreen"/>
+<text x="760" y="90" font-size="12">Forest</text>
+<rect x="720" y="110" width="30" height="10" fill="lightblue"/>
+<text x="760" y="120" font-size="12">Sea</text>
+
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 100 100">
+  <!-- Grid -->
+  <defs>
+    <pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#ddd"/>
+      <line x1="0" y1="0" x2="0" y2="100" stroke="#ddd"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+
+  <!-- Clues -->
+  <circle cx="5" cy="5" r="1.5" fill="#ff6347" stroke="#fff"/>
+  <circle cx="20" cy="20" r="1.5" fill="#32cd32" stroke="#fff"/>
+  <circle cx="35" cy="5" r="1.5" fill="#daa520" stroke="#fff"/>
+
+  <!-- Suspects -->
+  <rect x="40" y="40" width="20" height="10" fill="#ffb6c1" stroke="#fff"/>
+  <rect x="70" y="30" width="20" height="10" fill="#f1c40f" stroke="#fff"/>
+
+  <!-- Culprits -->
+  <polygon points="85,5 95,25 85,45" fill="#bdb76b" stroke="#fff"/>
+  <polygon points="35,65 45,85 25,65" fill="#808080" stroke="#fff"/>
+
+</svg>

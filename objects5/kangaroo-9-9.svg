@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Kangaroo -->
+  <path id="kangaroo" d="M400,300 Q500,100 600,300 T700,500" fill="brown"/>
+  <animateMotion begin="0s" dur="2s" repeatCount="indefinite">
+    <mpath href="#kangarooPath"/>
+  </animateMotion>
+
+  <!-- Kangaroo path -->
+  <path id="kangarooPath" d="M400,300 Q500,100 600,300 T700,500 S800,400 700,500 Z" fill="transparent"/>
+
+  <!-- Birds -->
+  <circle cx="100" cy="200" r="30" fill="blue"/>
+  <animateTransform attributeName="transform" type="translate" from="0,-60" to="800,-60" begin="0s" dur="4s" repeatCount="indefinite"/>
+  <circle cx="150" cy="230" r="30" fill="red"/>
+  <animateTransform attributeName="transform" type="translate" from="0,-70" to="800,-70" begin="0.5s" dur="4s" repeatCount="indefinite"/>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E0FFD1"/>
+</svg>

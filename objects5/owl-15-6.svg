@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,200 C150,150 200,250 250,300 C270,330 300,400 330,450" fill="#FFC98A"/>
+
+  <!-- Eyes -->
+  <circle cx="290" cy="410" r="20" fill="#FFFFFF"/>
+  <circle cx="310" cy="410" r="20" fill="#FFFFFF"/>
+
+  <!-- Wings -->
+  <path d="M230,350 C200,400 170,450 140,500 L160,550" fill="#FFC98A"/>
+  <path d="M350,350 C380,400 410,450 440,500 L420,550" fill="#FFC98A"/>
+
+  <!-- Beak -->
+  <path d="M300,420 C290,430 280,450 270,460" stroke="#333333" fill="transparent"/>
+</svg>

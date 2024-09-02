@@ -1,0 +1,18 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Nurse Shark -->
+  <path id="shark" d="M150,50 Q200,20 300,50 Q350,80 450,50 Q400,170 350,220 Q200,270 150,220 Q100,170 50,220 Z" fill="lightblue"/>
+
+  <!-- Mountains -->
+  <polygon id="mountFin" points="50,50 250,0 50,100" fill="brown"/>
+  <polygon id="mountGill" points="300,400 400,450 300,500" fill="brown"/>
+  <polygon id="mountTail" points="200,400 100,450 200,500" fill="brown"/>
+
+  <!-- Forests -->
+  <ellipse cx="250" cy="375" rx="125" ry="75" fill="green"/>
+  <ellipse cx="250" cy="225" rx="125" ry="75" fill="green"/>
+
+  <!-- Rivers -->
+  <path id="river" d="M50,0 Q100,50 150,25 Q200,50 250,25 Q300,50 350,25 Q400,50 450,25 Z" stroke="blue" fill="transparent"/>
+
+</svg>

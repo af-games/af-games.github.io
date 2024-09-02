@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 50">
+
+  <!-- Body -->
+  <rect x="20" y="10" width="60" height="30" fill="#8B8989" rx="10"/>
+
+  <!-- Dorsal fins (symmetrical) -->
+  <path d="M35,5 C45,5 45,15 35,15 S25,5 15,5" fill="#8B8989"/>
+  <path d="M65,5 C55,5 55,15 65,15 S75,5 65,5" fill="#8B8989"/>
+
+  <!-- Pectoral fins (symmetrical) -->
+  <path d="M30,25 Q40,35 50,25" stroke="#8B8989"/>
+  <path d="M70,25 Q60,35 50,25" stroke="#8B8989"/>
+
+  <!-- Caudal fin (asymmetrical) -->
+  <path d="M80,40 Q90,30 100,40" fill="#8B8989"/>
+
+  <!-- Eyes -->
+  <circle cx="45" cy="12.5" r="5" fill="white"/>
+  <circle cx="55" cy="12.5" r="5" fill="white"/>
+
+</svg>

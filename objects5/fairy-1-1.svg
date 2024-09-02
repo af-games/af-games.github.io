@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 60">
+  <!-- Fairy Body -->
+  <path d="M25 10 A15 15 0 1 0 25 50 A15 15 0 1 0 25 10" fill="#FFCDE8"/>
+
+  <!-- Fairy Hair -->
+  <polygon points="15,5 30,5 22.5,20" fill="black"/>
+  <path d="M17.5,20 C20,30 30,30 32.5,20" stroke="black"/>
+
+  <!-- Fairy Wings -->
+  <polygon points="5,35 45,35 25,50" fill="#FFF6B2"/>
+  <path d="M25,50 Q15,60 25,70 Q35,60 25,50" stroke="black"/>
+
+  <!-- Fairy Dress -->
+  <rect x="5" y="40" width="40" height="20" fill="#FFCDE8"/>
+</svg>

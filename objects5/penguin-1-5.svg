@@ -1,0 +1,29 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Black tiles -->
+<rect x="5" y="5" width="40" height="40" fill="#000"/>
+<rect x="15" y="5" width="40" height="40" fill="#000"/>
+<rect x="25" y="5" width="40" height="40" fill="#000"/>
+<rect x="35" y="5" width="40" height="40" fill="#000"/>
+<rect x="5" y="15" width="40" height="40" fill="#000"/>
+<rect x="15" y="15" width="40" height="40" fill="#000"/>
+<rect x="25" y="15" width="40" height="40" fill="#fff"/>
+<rect x="35" y="15" width="40" height="40" fill="#000"/>
+<rect x="5" y="25" width="40" height="40" fill="#fff"/>
+<rect x="15" y="25" width="40" height="40" fill="#000"/>
+<rect x="25" y="25" width="40" height="40" fill="#000"/>
+<rect x="35" y="25" width="40" height="40" fill="#fff"/>
+
+<!-- White belly -->
+<rect x="15" y="75" width="60" height="60" fill="#fff"/>
+
+<!-- Orange beak and feet -->
+<rect x="22.5" y="35" width="15" height="15" fill="#F39C12"/>
+<rect x="47.5" y="35" width="15" height="15" fill="#F39C12"/>
+<rect x="60" y="80" width="20" height="20" fill="#F39C12"/>
+
+<!-- Eyes -->
+<circle cx="27.5" cy="22.5" r="5" fill="#fff"/>
+<circle cx="47.5" cy="22.5" r="5" fill="#fff"/>
+
+</svg>

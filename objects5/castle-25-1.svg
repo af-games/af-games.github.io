@@ -1,0 +1,14 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle -->
+  <polygon points="100,10 200,50 150,100 50,100 75,50"
+           fill="brown" stroke="black"/>
+
+  <!-- Towers -->
+  <circle cx="80" cy="60" r="30"/>
+  <circle cx="120" cy="90" r="25"/>
+
+  <!-- Roof -->
+  <polygon points="75,50 200,50 140,10"
+           fill="red" stroke="black"/>
+
+</svg>

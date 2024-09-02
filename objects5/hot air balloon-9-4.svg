@@ -1,0 +1,45 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hot Air Balloon Envelope -->
+  <circle cx="400" cy="150" r="150"
+          fill="url(#balloonGradient)"
+          stroke-width="3" stroke="#8B7D6D"/>
+
+  <!-- Hot Air Balloon Basket -->
+  <ellipse cx="400" cy="280" rx="50" ry="80"
+           fill="#C19A6B"/>
+  <path d="M370,280 h60 v60 H370 Z"
+        fill="#C19A6B"/>
+
+  <!-- Rolling Hills -->
+  <path id="hillPattern" d="M0,0 Q50,50 100,0 H200 Z"/>
+  <pattern id="hills" patternUnits="userSpaceOnUse" width="200" height="100">
+    <use xlink:href="#hillPattern" fill="#8B4513"/>
+  </pattern>
+  <rect x="0" y="300" width="800" height="300"
+        fill="url(#hills)"/>
+
+  <!-- Winding River -->
+  <path d="M20,500 Q200,400 600,500 Q1000,600 780,500 Z"
+        stroke="#70DB93" fill="#70DB93" stroke-width="3"/>
+
+  <!-- Towering Trees -->
+  <g transform="translate(200,450)">
+    <rect width="10" height="60" fill="#8B4513"/>
+    <circle cx="5" cy="30" r="3" fill="#3D9970"/>
+  </g>
+  <g transform="translate(350,400)">
+    <rect width="10" height="60" fill="#8B4513"/>
+    <circle cx="5" cy="30" r="3" fill="#3D9970"/>
+  </g>
+  <g transform="translate(550,420)">
+    <rect width="10" height="60" fill="#8B4513"/>
+    <circle cx="5" cy="30" r="3" fill="#3D9970"/>
+  </g>
+
+  <!-- Balloon Gradient -->
+  <linearGradient id="balloonGradient" gradientTransform="rotate(45)">
+    <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#FFA500;stop-opacity:1" />
+  </linearGradient>
+
+</svg>

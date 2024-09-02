@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+
+<!-- Body -->
+<path d="M150,50 Q175,60 200,90 Q225,120 250,140 Q280,170 300,170 H150 Z" fill="#1F4552"/>
+
+<!-- Tail fin -->
+<path d="M300,170 L290,160 L270,170 Z" fill="#1F4552"/>
+
+<!-- Head and melon -->
+<path d="M150,50 Q125,60 100,90 Q80,120 70,130 A50,50 0 0 0 50,170" fill="#A9A9A9"/>
+
+<!-- Upper jaw with beak -->
+<path d="M50,170 L60,180 L70,170 Z" fill="#D3D3D3"/>
+
+<!-- Lower jaw -->
+<rect x="45" y="165" width="20" height="5" fill="#FFFFFF"/>
+
+<!-- Dorsal fin -->
+<path d="M90,120 Q80,130 70,135 Z" fill="#3D80B2"/>
+
+<!-- Pectoral fins (left and right) -->
+<path d="M50,140 L60,130 L50,120 Z" fill="#3D80B2"/>
+<path d="M290,140 L280,130 L290,120 Z" fill="#3D80B2"/>
+
+<!-- Flank fins (left and right) -->
+<path d="M50,170 Q60,175 50,180 Q40,175 50,170 Z" fill="#3D80B2"/>
+<path d="M290,170 Q280,175 290,180 Q300,175 290,170 Z" fill="#3D80B2"/>
+
+</svg>

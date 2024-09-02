@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2010/svg" viewBox="0 0 50 50">
+  <!-- Body -->
+  <circle cx="25" cy="30" r="7.5"/>
+
+  <!-- Left Wing -->
+  <path d="M15,5 Q40,10 45,25 L30,40 Z"/>
+
+  <!-- Right Wing -->
+  <path d="M40,5 Q10,10 5,25 L20,40 Z"/>
+
+  <!-- Eyes -->
+  <circle cx="22" cy="10" r="2"/>
+  <circle cx="28" cy="10" r="2"/>
+</svg>

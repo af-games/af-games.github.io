@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 800">
+
+  <!-- Mermaid tail -->
+  <path d="M100,700 Q150,650 200,650 Q250,600 300,600 Q350,650 400,650 Q450,600 500,600" fill="#77ddff" stroke="black"/>
+
+  <!-- Mermaid body -->
+  <path d="M200,150 Q225,175 250,225 A300,300 0 1,1 250,600 Q225,525 200,475" fill="#ffdede"/>
+
+  <!-- Mermaid hair -->
+  <path d="M200,150 Q225,130 250,100 Q275,130 300,150 Q275,170 250,200" fill="#000000" opacity="0.8"/>
+
+  <!-- Mermaid accessories (e.g., necklace) -->
+  <circle cx="250" cy="400" r="30" fill="#fdd96a"/>
+
+</svg>

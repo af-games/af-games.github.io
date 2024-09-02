@@ -1,0 +1,20 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphin sculpture -->
+  <g transform="translate(400, 300)">
+    <path d="M150 75 Q250 150, 350 75 T450 150 Q350 250, 250 150 Q150 75, 0 150" fill="lightblue" stroke="black"/>
+    <circle cx="180" cy="60" r="20" fill="darkblue"/>
+    <circle cx="420" cy="60" r="20" fill="darkblue"/>
+  </g>
+
+  <!-- Buildings -->
+  <rect x="50" y="100" width="150" height="300" fill="lightgray" stroke="black"/>
+  <polygon points="250,50 450,50 650,150 450,250 250,250" fill="lightgray" stroke="black"/>
+  <rect x="700" y="100" width="150" height="300" fill="lightgray" stroke="black"/>
+
+  <!-- Roads -->
+  <path d="M50,400 h200" stroke="black"/>
+  <path d="M650,400 h100" stroke="black"/>
+  <path d="M300,50 Q400,150, 500,50 T600,150 Q500,250, 400,350 Q300,250, 200,350" stroke="black"/>
+
+</svg>

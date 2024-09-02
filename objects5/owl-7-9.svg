@@ -1,0 +1,23 @@
+<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="400" height="50"
+        style="fill:rgb(33,47,60);stroke:rgb(0,0,0);stroke-width:1"
+        x="0" y="0"/>
+
+  <!-- Body -->
+  <ellipse cx="150" cy="300" rx="150" ry="250"
+           style="fill:rgb(8B,45,13);stroke:rgb(0,0,0);stroke-width:1"/>
+
+  <!-- Wing -->
+  <path d="M200,250 Q175,300 225,350 Q275,325 325,350" style="fill:rgb(48,169,228);stroke:rgb(0,0,0);stroke-width:1"/>
+
+  <!-- Face -->
+  <ellipse cx="250" cy="275" rx="100" ry="125"
+           style="fill:rgb(255,253,216);stroke:rgb(0,0,0);stroke-width:1"/>
+
+  <!-- Eye -->
+  <circle cx="230" cy="250" r="75"
+           style="fill:rgb(47,38,0);stroke:rgb(0,0,0);stroke-width:1"/>
+
+</svg>

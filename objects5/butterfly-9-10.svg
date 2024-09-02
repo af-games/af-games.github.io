@@ -1,0 +1,30 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="75" rx="60" ry="80" fill="#FFCBA4">
+    <animate attributeName="opacity" from="1" to="0.5" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Wings -->
+  <path d="M70,30 Q90,60 110,30" stroke="#FF6F42" fill="transparent">
+    <animate attributeName="stroke-width" from="5" to="2" dur="1s" repeatCount="indefinite"/>
+  </path>
+  <path d="M70,80 Q90,100 110,80" stroke="#FF6F42" fill="transparent">
+    <animate attributeName="stroke-width" from="5" to="2" dur="1s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Antennae -->
+  <line x1="95" y1="30" x2="95" y2="10" stroke="#66BBFF">
+    <animate attributeName="stroke-width" from="2" to="4" dur="1s" repeatCount="indefinite"/>
+  </line>
+  <line x1="95" y1="30" x2="85" y2="10" stroke="#66BBFF">
+    <animate attributeName="stroke-width" from="2" to="4" dur="1s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="70" r="5" fill="#FFFFFF" stroke="#000000">
+    <animate attributeName="r" from="5" to="3" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="110" cy="70" r="5" fill="#FFFFFF" stroke="#000000">
+    <animate attributeName="r" from="5" to="3" dur="1s" repeatCount="indefinite"/>
+  </circle>
+</svg>

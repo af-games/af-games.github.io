@@ -1,0 +1,31 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Hot Air Balloon -->
+<path d="M170 10 Q190 60, 250 60 Q310 10, 330 60 Q350 10, 410 60 L470 200 A50 50 0 0 0 470 10 L350 180 Z" fill="orange"/>
+<path d="M170 60 Q190 110, 250 110 Q310 60, 330 110 Q350 60, 410 110 L470 250" stroke="black" fill="transparent"/>
+<circle cx="410" cy="85" r="15" fill="brown"/>
+
+<!-- Baguette Slice -->
+<rect x="10" y="300" width="80" height="30" rx="15" fill="#F2D7B9"/>
+<path d="M40 315 L40 345 L80 345 Z" stroke="#8B4513" fill="transparent"/>
+
+<!-- Grapes -->
+<circle cx="60" cy="320" r="10" fill="#7C3A29"/>
+<circle cx="75" cy="310" r="8" fill="#7C3A29"/>
+<circle cx="45" cy="330" r="8" fill="#7C3A29"/>
+
+<!-- Knife -->
+<polygon points="20,360 50,360 50,390 20,390" fill="#CC0000"/>
+<path d="M10,380 Q40,400 70,380 Q100,400 70,380 Z" stroke="#000" fill="transparent"/>
+
+<!-- Fork -->
+<polygon points="90,360 120,360 120,390 90,390" fill="#CC0000"/>
+<path d="M95,380 Q115,400 135,380 Q155,400 135,380 Z" stroke="#000" fill="transparent"/>
+
+<!-- Plate -->
+<rect x="5" y="270" width="490" height="130" rx="50" fill="#FFFACD"/>
+
+<!-- Tablecloth -->
+<path d="M0,400 Q50,450 100,400 Q150,450 200,400 Z" stroke="#8B4513" fill="#FFE79F"/>
+
+</svg>

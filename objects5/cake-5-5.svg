@@ -1,0 +1,27 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="50" y="170" width="200" height="130"
+        fill="#FDD98C" stroke="#D7A641" stroke-width="5"/>
+
+  <!-- Cake Top -->
+  <path d="M50,170 Q150,50 250,170"
+        fill="#FFCFB3" stroke="#D7A641" stroke-width="5"/>
+
+  <!-- Frosting -->
+  <circle cx="150" cy="85" r="85"
+          fill="url(#frostGradient)"/>
+
+  <!-- Frosting Gradient -->
+  <defs>
+    <radialGradient id="frostGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color: #fff; stop-opacity: 1"/>
+      <stop offset="100%" style="stop-color: #E9D2A6; stop-opacity: 1"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Cake Topping -->
+  <circle cx="150" cy="30" r="25"
+          fill="#8C5739"/>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#F1E7D2"/>
+
+  <!-- Igloo -->
+  <path d="M400 50 Q450 100, 500 150 Q550 100, 600 50 Q550 0, 450 50 Q400 0, 350 50 Z" fill="#FFFFFF" stroke="#BDB7AB"/>
+
+  <!-- Snow -->
+  <circle cx="450" cy="250" r="100" fill="url(#snow)"/>
+  <defs>
+    <radialGradient id="snow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color: #FFFFFF; stop-opacity: 1"/>
+      <stop offset="100%" style="stop-color: #D9D7CE; stop-opacity: 1"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Tableware -->
+  <rect x="50" y="400" width="200" height="60" fill="#FFFFFF" stroke="#BDB7AB"/>
+  <circle cx="80" cy="430" r="10" fill="#BDB7AB"/>
+  <circle cx="160" cy="430" r="10" fill="#BDB7AB"/>
+
+  <!-- Utensils -->
+  <path d="M50 500 Q80 520, 120 550 Q160 520, 200 500" stroke="#BDB7AB" fill="transparent"/>
+  <polygon points="300,400 350,350 250,350" fill="#BDB7AB"/>
+
+  <!-- Garnishes -->
+  <circle cx="650" cy="150" r="20" fill="#8DC63C"/>
+  <path d="M700 120 Q720 90, 740 120" stroke="#BDB7AB" fill="transparent"/>
+
+</svg>

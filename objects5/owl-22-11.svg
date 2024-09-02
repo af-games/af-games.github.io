@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Owl's Body -->
+  <path d="M100,50 Q200,75 300,50 Q400,100 500,50 Q600,25 700,50" fill="#8B4513" stroke="none"/>
+
+  <!-- Owl's Eyes -->
+  <circle cx="350" cy="90" r="20" fill="url(#eyesGradient)"/>
+  <defs>
+    <radialGradient id="eyesGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color: #CD7F32; stop-opacity: 1"/>
+      <stop offset="100%" style="stop-color: #FFFDD0; stop-opacity: 1"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Owl's Feathers -->
+  <path d="M150,75 Q250,60 350,75" stroke="#A9A9A9" stroke-width="5" fill="none"/>
+  <!-- Add more feather paths here... -->
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="url(#backgroundGradient)"/>
+  <defs>
+    <linearGradient id="backgroundGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color: #212F3C; stop-opacity: 1"/>
+      <stop offset="100%" style="stop-color: #00563B; stop-opacity: 1"/>
+    </linearGradient>
+  </defs>
+</svg>

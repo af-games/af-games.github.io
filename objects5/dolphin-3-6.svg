@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+
+  <!-- Ocean Background -->
+  <defs>
+    <linearGradient id="oceanGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="50%" style="stop-color:darkblue; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:lightblue; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="lightblue"></rect>
+  <rect width="100%" height="50%" fill="url(#oceanGradient)"></rect>
+
+  <!-- Main Dolphin -->
+  <image href="Dolphin.svg" x="25%" y="35%" width="50%" height="60%"/>
+
+  <!-- Sunlight Shimmer -->
+  <defs>
+    <radialGradient id="sunlightGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:yellow; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:white; stop-opacity:0.3"/>
+    </radialGradient>
+  </defs>
+  <circle cx="50%" cy="10%" r="45%" fill="url(#sunlightGradient)"></circle>
+
+  <!-- Seaweed -->
+  <polygon points="20% 95%, 30% 80%, 50% 70%, 70% 60%, 80% 70%" fill="green" transform="rotate(45, 50%, 50%)"/>
+  <!-- Add more seaweed with variations here -->
+
+  <!-- Bubbles -->
+  <circle cx="30%" cy="90%" r="2%" fill="white"></circle>
+  <!-- Add more bubbles with varying positions and sizes here -->
+
+</svg>

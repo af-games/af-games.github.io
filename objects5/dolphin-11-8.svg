@@ -1,0 +1,36 @@
+<svg width="1200" height="750" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sun -->
+  <circle cx="400" cy="100" r="80">
+    <radialGradient id="sunGradient" cx="50%" cy="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:FFD700"/>
+      <stop offset="100%" style="stop-color:FFFFFF"/>
+    </radialGradient>
+    <animate attributeName="r" values="80;120;80" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Dolphins -->
+  <path id="dolphin1" d="M300,400 Q400,200 700,400 Q900,600 800,550">
+    <animate attributeName="d" values="M300,400 Q400,200 700,400 Q900,600 800,550;M300,400 Q400,100 700,400 Q900,500 800,550" dur="5s" repeatCount="indefinite"/>
+    <linearGradient id="dolphinGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:ADD8E6"/>
+      <stop offset="100%" style="stop-color:003399"/>
+    </linearGradient>
+  </path>
+  <use href="#dolphin1" x="900"/>
+
+  <!-- Waves -->
+  <path id="wave" d="M20,450 Q600,300 1200,450">
+    <animate attributeName="d" values="M20,450 Q600,300 1200,450;M20,475 Q600,325 1200,475" dur="5s" repeatCount="indefinite"/>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:ADD8E6;stroke:003399"/>
+      <stop offset="100%" style="stop-color:003399"/>
+    </linearGradient>
+  </path>
+  <use href="#wave" x="450"/>
+
+  <!-- Lines -->
+  <line x1="700" y1="400" x2="400" y2="100" style="stroke:DAA520;stroke-width:5"/>
+  <line x1="800" y1="550" x2="400" y2="100" style="stroke:DAA520;stroke-width:5"/>
+
+</svg>

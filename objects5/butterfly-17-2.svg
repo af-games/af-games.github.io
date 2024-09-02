@@ -1,0 +1,16 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Butterfly Body -->
+  <path d="M175,250 Q225,175 300,250 Q225,325 175,250 Z" fill="#FF69B4"/>
+
+  <!-- Left Wing -->
+  <path d="M100,200 Q150,50 200,200 Q150,350 100,200 Z" fill="#FF69B4"/>
+
+  <!-- Right Wing -->
+  <path d="M375,200 Q325,50 425,200 Q325,350 375,200 Z" fill="#FF69B4"/>
+
+  <!-- Tributary Lines -->
+  <path d="M175,250 Q150,150 125,200 L50,300" stroke="#8B4513"/>
+  <path d="M300,250 Q325,150 350,200 L450,300" stroke="#8B4513"/>
+
+</svg>

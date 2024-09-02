@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#DAEAF1"/>
+
+  <!-- Dolphin (Main Attraction) -->
+  <path d="M250,50 Q350,75 450,50 Q550,125 650,50 Q750,75 850,50 Z" fill="#0099FF" stroke="black"/>
+
+  <!-- Buildings -->
+  <rect x="50" y="200" width="100" height="300" fill="#AEA27B"/>
+  <polygon points="600,400 700,300 800,400" fill="#9FA3A7"/>
+  <circle cx="450" cy="350" r="150" fill="#E3B59C"/>
+
+  <!-- Roads -->
+  <line x1="0" y1="550" x2="800" y2="550" stroke="black"/>
+  <line x1="400" y1="600" x2="400" y2="300" stroke="black"/>
+
+  <!-- Trees -->
+  <circle cx="90" cy="480" r="30" fill="#5F7B3C"/>
+  <circle cx="730" cy="480" r="30" fill="#5F7B3C"/>
+
+  <!-- Label: Vector City -->
+  <text x="10" y="40" font-family="Arial" font-size="36">Vector City</text>
+
+  <!-- Label: Dolphin in the Heart of Vector City -->
+  <text x="280" y="150" font-family="Arial" font-size="24">Dolphin in the Heart of Vector City</text>
+
+</svg>

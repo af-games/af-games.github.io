@@ -1,0 +1,38 @@
+<svg width="1000" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stage -->
+  <rect x="0" y="0" width="1000" height="600" fill="#ADD8E6"/>
+
+  <!-- Owl Marionette -->
+  <g id="owl">
+
+    <!-- Head -->
+    <ellipse cx="40" cy="50" rx="20" ry="30" fill="brown"/>
+    <circle cx="40" cy="50" r="10" fill="#FFF"/>
+
+    <!-- Body -->
+    <rect x="15" y="30" width="30" height="50" fill="#F8E7BF"/>
+
+    <!-- Wings -->
+    <polygon points="15,40 95,40 55,80" fill="#F8E7BF"/>
+    <polygon points="75,40 25,40 65,80" fill="#F8E7BF"/>
+
+    <!-- Legs -->
+    <rect x="15" y="30" width="10" height="20" fill="#F8E7BF"/>
+    <rect x="25" y="30" width="10" height="20" fill="#F8E7BF"/>
+    <rect x="15" y="50" width="10" height="20" fill="#F8E7BF"/>
+    <rect x="25" y="50" width="10" height="20" fill="#F8E7BF"/>
+
+  </g>
+
+  <!-- Strings (not visible in SVG, but assumed to be attached at specified points) -->
+
+  <!-- Lighting effect -->
+  <defs>
+    <radialGradient id="spotlight" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFF; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#000; stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="60" fill="url(#spotlight)"/>
+
+</svg>

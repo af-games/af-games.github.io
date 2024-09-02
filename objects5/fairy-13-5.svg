@@ -1,0 +1,21 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ground -->
+  <path d="M 10 390 Q 50 370, 100 380 Q 150 360, 200 370 Q 250 350, 300 360 Q 350 340, 400 350 Q 450 330, 500 340 Q 550 320, 600 330" stroke="brown" fill="none" stroke-width="10"/>
+
+  <!-- Trees -->
+  <circle cx="150" cy="280" r="30" fill="green"/>
+  <circle cx="250" cy="270" r="40" fill="green"/>
+  <circle cx="380" cy="290" r="25" fill="green"/>
+
+  <!-- Fairy (body) -->
+  <ellipse cx="180" cy="180" rx="30" ry="60" fill="yellow" />
+
+  <!-- Fairy (hair) -->
+  <polygon points="170,140 210,140 190,110" fill="brown"/>
+
+  <!-- Fairy (arms) -->
+  <line x1="185" y1="200" x2="160" y2="130" stroke="black"/>
+  <line x1="185" y1="200" x2="210" y2="130" stroke="black"/>
+
+</svg>

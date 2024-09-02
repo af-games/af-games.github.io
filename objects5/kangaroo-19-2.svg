@@ -1,0 +1,28 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="150" cy="180" rx="90" ry="120"
+           fill="lightbrown" stroke="black"/>
+
+  <!-- Head -->
+  <ellipse cx="140" cy="130" rx="35" ry="40"
+           fill="lightbrown" stroke="black"/>
+
+  <!-- Ears -->
+  <path d="M90 120 Q80 90, 110 90 Q120 120, 150 130"
+        fill="darkbrown"/>
+  <path d="M170 120 Q180 90, 160 90 Q140 120, 150 130"
+        fill="darkbrown"/>
+
+  <!-- Legs -->
+  <polygon points="130 210, 170 210, 160 250, 140 250" fill="darkbrown"/>
+  <polyline points="90 210, 80 250, 120 230" fill="darkbrown"/>
+
+  <!-- Tail -->
+  <path d="M160 250 Q170 270, 180 260 Q200 270, 210 250" fill="darkbrown"/>
+
+  <!-- Feet -->
+  <rect x="85" y="245" width="30" height="30" fill="cream"/>
+  <rect x="165" y="245" width="30" height="30" fill="cream"/>
+
+</svg>

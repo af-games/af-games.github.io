@@ -1,0 +1,47 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<path d="M150 50 Q200 70, 200 140 Q150 200, 100 140 Q50 70, 150 50"
+      fill="url(#bodyGradient)" />
+<defs>
+  <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(51,136,204);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(0,92,178);stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+<!-- Head -->
+<path d="M150 140 Q160 150, 165 170 Q150 190, 135 170 Q130 150, 150 140"
+      fill="url(#headGradient)" />
+<defs>
+  <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(180,180,180);stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+<!-- Wings -->
+<path d="M120 90 Q140 70, 200 90 Q160 130, 120 150"
+      fill="url(#wingGradient)" />
+<defs>
+  <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(51,136,204);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(0,92,178);stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+<!-- Legs -->
+<path d="M150 160 Q130 210, 150 240 Q170 210, 150 160"
+      fill="url(#legGradient)" />
+<defs>
+  <linearGradient id="legGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(0,92,178);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(51,136,204);stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+<!-- Beak -->
+<path d="M150 175 Q140 185, 160 195 Q170 185, 150 175"
+      fill="#FF0000" />
+
+</svg>

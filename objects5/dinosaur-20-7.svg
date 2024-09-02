@@ -1,0 +1,58 @@
+<svg width="800" height="600" style="background-color: #f0f0f0;">
+```
+
+2. **Plant the seeds - initial shapes**
+
+- Let's start with a simple rectangle for the ground and two circles for the T-Rex's eyes.
+```svg
+  <rect x="150" y="350" width="500" height="200" style="fill: green;" />
+  <circle cx="250" cy="250" r="50" style="fill: black;" />
+  <circle cx="450" cy="250" r="50" style="fill: black;" />
+```
+
+3. **Water and nurture the seeds with transforms**
+
+- Grow the ground into a more dynamic shape by translating, rotating, and scaling it.
+- Move and scale the eyes to make them look like they're peeking out from under the soil.
+
+```svg
+  <g transform="translate(150, 350) rotate(-5) scale(1.2)">
+    <rect width="500" height="200" style="fill: green;" />
+  </g>
+  <circle cx="270" cy="220" r="60" style="fill: black;" transform="translate(30, -40) scale(1.5)" />
+  <circle cx="470" cy="220" r="60" style="fill: black;" transform="translate(-30, -40) scale(1.5)" />
+```
+
+4. **Add more features (body, legs, etc.)**
+
+- Let's add a simple body by scaling and translating the ground rectangle.
+- Add two triangles for the legs using the 'polygon' element.
+
+```svg
+  <g transform="translate(-100, -100) rotate(5) scale(0.8)">
+    <rect width="400" height="200" style="fill: brown;" />
+  </g>
+  <polygon points="-20,-20, 20,-20, 0,60" transform="translate(-100, -50) rotate(30)" fill="brown"/>
+  <polygon points="-20,-20, 20,-20, 0,60" transform="translate(300, -50) rotate(-30)" fill="brown"/>
+```
+
+5. **Prune unnecessary elements/attributes**
+
+- Remove the unused style attributes and close open tags.
+
+6. **Write out the final SVG code**
+
+```svg
+<svg width="800" height="600">
+  <rect x="150" y="350" width="500" height="200" fill="green"/>
+  <g transform="translate(150, 350) rotate(-5) scale(1.2)">
+    <rect width="500" height="200" fill="green"/>
+  </g>
+  <circle cx="270" cy="220" r="60" fill="black" transform="translate(30, -40) scale(1.5)"/>
+  <circle cx="470" cy="220" r="60" fill="black" transform="translate(-30, -40) scale(1.5)"/>
+  <g transform="translate(-100, -100) rotate(5) scale(0.8)">
+    <rect width="400" height="200" fill="brown"/>
+  </g>
+  <polygon points="-20,-20, 20,-20, 0,60" transform="translate(-100, -50) rotate(30)" fill="brown"/>
+  <polygon points="-20,-20, 20,-20, 0,60" transform="translate(300, -50) rotate(-30)" fill="brown"/>
+</svg>

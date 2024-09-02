@@ -1,0 +1,37 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphin Body -->
+  <rect x="100" y="50" width="400" height="250" fill="#ADD8E6" stroke="#000" stroke-width="2"/>
+
+  <!-- Fin (Left) -->
+  <polygon points="130,50 70,150 130,250" fill="#ADD8E6" stroke="#000" stroke-width="2"/>
+
+  <!-- Fin (Right) -->
+  <polygon points="470,50 530,150 470,250" fill="#ADD8E6" stroke="#000" stroke-width="2"/>
+
+  <!-- Tail -->
+  <polyline points="200,250 350,250 300,350" fill="none" stroke="#000" stroke-width="4"/>
+
+  <!-- Buildings -->
+
+  <!-- Building (Top) -->
+  <rect x="180" y="70" width="60" height="90" fill="#B0C4DE" stroke="#000" stroke-width="2"/>
+
+  <!-- Building (Middle Left) -->
+  <rect x="250" y="130" width="80" height="110" fill="#B0C4DE" stroke="#000" stroke-width="2"/>
+
+  <!-- Building (Middle Right) -->
+  <rect x="370" y="130" width="80" height="110" fill="#B0C4DE" stroke="#000" stroke-width="2"/>
+
+  <!-- Roads -->
+
+  <!-- Road (Horizontal) -->
+  <polyline points="150,220 450,220" fill="none" stroke="#000" stroke-width="4"/>
+
+  <!-- Road (Vertical Left) -->
+  <polyline points="180,230 180,360" fill="none" stroke="#000" stroke-width="4"/>
+
+  <!-- Road (Vertical Right) -->
+  <polyline points="430,230 430,360" fill="none" stroke="#000" stroke-width="4"/>
+
+</svg>

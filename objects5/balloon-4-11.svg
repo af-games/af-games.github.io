@@ -1,0 +1,31 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Tilling the soil (Defining the canvas) -->
+  <rect x="0" y="0" width="500" height="500" fill="#FFFFFF"/>
+
+  <!-- Planting seeds - Basic shapes -->
+  <circle cx="250" cy="150" r="100">
+    <animate attributeName="r" values="100;200;100" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#FF69B4;#FFD700;#FF69B4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="150" cy="280" r="80">
+    <animate attributeName="r" values="80;160;80" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#48CAE4;#2ECC71;#48CAE4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="280" r="60">
+    <animate attributeName="r" values="60;120;60" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#FFB7B7;#FFA500;#FFB7B7" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Nurturing with colors, strokes and animations -->
+  <g stroke="black" stroke-width="2">
+    <path d="M150,180 Q200,220 250,180" fill-opacity="0.3">
+      <animate attributeName="d" values="M150,180 Q200,220 250,180; M160,170 Q210,210 260,170;" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M250,180 Q300,220 350,180" fill-opacity="0.3">
+      <animate attributeName="d" values="M250,180 Q300,220 350,180; M260,170 Q310,210 360,170;" dur="3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- Blooming into a vibrant garden scene -->
+  <text x="50%" y="450" text-anchor="middle" font-size="24px" fill="#3D9970">Balloon Garden</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="140" height="240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Eyes -->
+  <circle cx="50" cy="60" r="7" fill="#333"/>
+
+  <!-- Beak -->
+  <path d="M50 80 Q60 70 70 60" stroke="#004d98" fill="#004d98"/>
+
+  <!-- Breast -->
+  <circle cx="60" cy="120" r="15" fill="#ffa500"/>
+
+  <!-- Body -->
+  <circle cx="60" cy="180" r="35" fill="#white" stroke="#a0c9c7" stroke-width="2"/>
+
+  <!-- Wings (Gleaming lines) -->
+  <polyline points="40,100 60,80 80,100" stroke="#a0c9c7" stroke-width="2" fill="transparent"/>
+  <polyline points="50,150 70,130 90,150" stroke="#a0c9c7" stroke-width="2" fill="transparent"/>
+
+  <!-- Tail (Gleaming lines) -->
+  <polyline points="60,200 70,180 80,200" stroke="#a0c9c7" stroke-width="2" fill="transparent"/>
+</svg>

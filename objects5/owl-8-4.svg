@@ -1,0 +1,25 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Major Landmarks -->
+  <circle cx="400" cy="250" r="50" fill="#FFA500" id="OwlTower"/>
+  <circle cx="100" cy="450" r="30" fill="#FFA500" id="WhisperingCave"/>
+  <circle cx="600" cy="400" r="40" fill="#FFA500" id="AncientTree"/>
+
+  <!-- Boundaries -->
+  <path d="M10,200 Q100,50 200,200 Q350,350 500,200 Q650,50 790,200" stroke="#7C3A1B" fill="transparent"/>
+
+  <!-- Forests -->
+  <path d="M50,200 Q100,400 200,200 Q300,300 400,200 Q500,300 600,200" stroke="#228B22" fill="transparent"/>
+
+  <!-- Rivers -->
+  <path d="M100,500 Q200,450 300,500 Q400,550 500,500 Q600,450 700,500" stroke="#009ACD" fill="transparent"/>
+
+  <!-- Roads -->
+  <path d="M100,350 Q200,300 300,350 Q400,400 500,350 Q600,400 700,350" stroke="#646464" fill="transparent"/>
+
+  <!-- Points of Interest -->
+  <circle cx="150" cy="325" r="15" fill="#FFA500"/>
+  <circle cx="450" cy="275" r="15" fill="#FFA500"/>
+  <circle cx="650" cy="375" r="15" fill="#FFA500"/>
+
+</svg>

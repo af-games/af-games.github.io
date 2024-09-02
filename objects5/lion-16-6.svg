@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFF6E5"/>
+
+  <!-- Gold setting -->
+  <circle cx="75" cy="75" r="70" stroke="#FFD700" stroke-width="3" fill="none"/>
+  <circle cx="75" cy="75" r="60" stroke="#B5A642" stroke-width="1.5" fill="none"/>
+
+  <!-- Lion head -->
+  <circle cx="75" cy="55" r="45" fill="#E9C46A"/>
+  <path d="M75,40 a35,35 0 1,0 0,70 a35,35 0 1,0 0,-70 z" stroke="#FFD700" stroke-width="2" fill="#E9C46A"/>
+
+  <!-- Eyes -->
+  <circle cx="65" cy="45" r="5" fill="#000"/>
+  <circle cx="85" cy="45" r="5" fill="#000"/>
+
+  <!-- Mane (yellow gemstones) -->
+  <circle cx="75" cy="30" r="10" fill="#FFF6E5" stroke="#FFD700" stroke-width="2"/>
+  <circle cx="80" cy="25" r="7" fill="#FFD700"/>
+  <circle cx="70" cy="25" r="7" fill="#FFD700"/>
+
+  <!-- Mane (orange gemstones) -->
+  <circle cx="75" cy="38" r="10" fill="#FFF6E5" stroke="#FFA500" stroke-width="2"/>
+  <circle cx="80" cy="43" r="7" fill="#FFA500"/>
+  <circle cx="70" cy="43" r="7" fill="#FFA500"/>
+
+</svg>

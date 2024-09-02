@@ -1,0 +1,32 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="400" fill="#E6E9ED"/>
+
+  <!-- Dino (Circle) -->
+  <circle id="dino" cx="50" cy="200" r="30" stroke="#3D9970" fill="#FFF">
+    <animateMotion dur="10s" repeatCount="indefinite">
+      <mpath href="#path"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Path for Dino's motion -->
+  <path id="path" d="M50,200 H750 V350 H50 Z"/>
+
+  <!-- Shapes interacting with Dino -->
+
+  <!-- Shape 1 (Rectangle) - Harmonizing -->
+  <rect x="150" y="150" width="50" height="80" fill="#4CAF50">
+    <animate attributeName="x" from="150" to="750" dur="10s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Shape 2 (Circle) - Clashing -->
+  <circle cx="300" cy="200" r="25" stroke="#FFC107" fill="#FFF">
+    <animate attributeName="cx" from="300" to="600" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" from="200" to="150" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Rhythm (Lines) -->
+  <line x1="0" y1="375" x2="800" y2="375" stroke="#FF6F00">
+    <animate attributeName="stroke" values="#FF6F00;#FFF;#FF6F00" dur="0.2s" repeatCount="indefinite"/>
+  </line>
+</svg>

@@ -1,0 +1,56 @@
+<svg>` canvas.
+
+*Resource Gathering:*
+- Found a versatile `<path>` element for shaping the kangaroo's body and limbs.
+- Discovered `<circle>` for creating the head and eyes.
+- Collected `<rect>` for forming the pouch.
+- Gathered `<polygon>` to shape the ears and tail.
+
+**Day 2:**
+
+Marked my path with SVG code:
+
+```svg
+<path id="body" d="M150,30 Q160,90 220,90 Q240,15 300,90 Q310,180 320,200" fill="brown"/>
+<path id="limbs" d="M170,200 Q160,240 180,260 H250 Q260,240 270,200 L310,190" fill="brown"/>
+<circle id="head" cx="220" cy="180" r="40" fill="orange"/>
+<circle id="eye-left" cx="205" cy="165" r="5" fill="black"/>
+<circle id="eye-right" cx="235" cy="165" r="5" fill="black"/>
+<rect id="pouch" x="210" y="240" width="70" height="80" fill="orange"/>
+<polygon points="190,150 200,130 210,150" id="ear-left" fill="brown"/>
+<polygon points="280,150 270,130 260,150" id="ear-right" fill="brown"/>
+<path id="tail" d="M240,290 Q250,320 260,300" fill="brown"/>
+```
+
+**Day 3:**
+
+Prepared a simple `<style>` section to add some style:
+
+```svg
+<style>
+    #body, #limbs, #tail {stroke: brown; stroke-width: 10;}
+    #pouch {stroke: orange; stroke-width: 5;}
+</style>
+```
+
+**Back Home:**
+
+Packed up my campsite and headed back home with the following complete SVG code:
+
+```svg
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+    <path id="body" d="M150,30 Q160,90 220,90 Q240,15 300,90 Q310,180 320,200" fill="brown"/>
+    <path id="limbs" d="M170,200 Q160,240 180,260 H250 Q260,240 270,200 L310,190" fill="brown"/>
+    <circle id="head" cx="220" cy="180" r="40" fill="orange"/>
+    <circle id="eye-left" cx="205" cy="165" r="5" fill="black"/>
+    <circle id="eye-right" cx="235" cy="165" r="5" fill="black"/>
+    <rect id="pouch" x="210" y="240" width="70" height="80" fill="orange"/>
+    <polygon points="190,150 200,130 210,150" id="ear-left" fill="brown"/>
+    <polygon points="280,150 270,130 260,150" id="ear-right" fill="brown"/>
+    <path id="tail" d="M240,290 Q250,320 260,300" fill="brown"/>
+
+    <style>
+        #body, #limbs, #tail {stroke: brown; stroke-width: 10;}
+        #pouch {stroke: orange; stroke-width: 5;}
+    </style>
+</svg>

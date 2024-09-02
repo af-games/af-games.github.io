@@ -1,0 +1,28 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rectangle for the savannah -->
+  <rect x="0" y="0" width="500" height="300" fill="#FFD700" />
+
+  <!-- Sun in the sky -->
+  <circle cx="450" cy="100" r="50" fill="#FFFF99">
+    <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Horizon line -->
+  <rect x="0" y="250" width="500" height="50" fill="#FFFFFF" />
+
+  <!-- Lion's body -->
+  <path d="M150,270 Q100,300 150,320 T200,320 Q250,300 200,270" fill="#E6B84A" stroke="#696969" stroke-width="2" />
+
+  <!-- Lion's mane -->
+  <path d="M100,250 A80,80 0 1,0 300,250 A80,80 0 1,0 100,250 z" fill="#FFBF4F" stroke="#696969" stroke-width="2" />
+
+  <!-- Lion's face -->
+  <circle cx="150" cy="230" r="30" fill="#FFFFFF">
+    <path d="M150,230 Q170,220 180,230 Q170,240 150,230 Z" stroke="#696969" stroke-width="2" fill="transparent" />
+    <circle cx="155" cy="225" r="5" fill="#000000" />
+
+  <!-- Grass at the bottom -->
+  <rect x="0" y="300" width="500" height="50" fill="#8BC34A">
+    <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite" />
+  </rect>
+</svg>

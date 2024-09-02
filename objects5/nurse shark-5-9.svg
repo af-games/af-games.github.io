@@ -1,0 +1,30 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Grid -->
+<rect x="0" y="0" width="600" height="400" fill="lightgray"/>
+<line x1="0" y1="20" x2="600" y2="20" stroke="black"/>
+<line x1="0" y1="40" x2="600" y2="40" stroke="black"/>
+<line x1="20" y1="0" x2="20" y2="400" stroke="black"/>
+<line x1="40" y1="0" x2="40" y2="400" stroke="black"/>
+
+<!-- Clues (small circles) -->
+<circle cx="50" cy="50" r="5" fill="#ff7f50"/>
+<circle cx="150" cy="100" r="5" fill="#8b4513"/>
+<circle cx="250" cy="50" r="5" fill="#daa520"/>
+
+<!-- Suspects (medium rectangles) -->
+<rect x="70" y="70" width="40" height="30" fill="#808080"/>
+<text x="100" y="95" font-family="Verdana" font-size="12">Suspicious Scalloped Hammerhead</text>
+
+<rect x="120" y="120" width="60" height="40" fill="#ffa500"/>
+<text x="150" y="145" font-family="Verdana" font-size="12">Cunning Tiger Shark</text>
+
+<!-- Culprits (large triangles) -->
+<polygon points="350,70 300,140 400,140" fill="#ff0000"/>
+<text x="360" y="120" font-family="Verdana" font-size="18">Guilty Nurse Sharks</text>
+
+<!-- Motive and Alibi -->
+<text x="50" y="350" font-family="Verdana" font-size="14">Motive: Control of feeding grounds</text>
+<text x="200" y="350" font-family="Verdana" font-size="14">Alibi: Seen near the surface during the incident</text>
+
+</svg>

@@ -1,0 +1,33 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Kangaroo Outline -->
+  <path d="M100 200 Q150 150, 200 180 C250 250, 300 270, 350 240 Q400 210, 450 200" fill="none" stroke="#8B4513"/>
+
+  <!-- Eyes -->
+  <circle cx="220" cy="170" r="10" fill="#FFFFFF"/>
+  <circle cx="220" cy="170" r="5" fill="#000000"/>
+
+  <!-- Nose and Mouth -->
+  <polygon points="230,160 240,150 250,160" fill="#8B4513"/>
+  <path d="M235,165 Q245,170, 255,165" stroke="#8B4513"/>
+
+  <!-- Fur Details -->
+  <rect x="90" y="140" width="10" height="10" fill="url(#radialGradient)" opacity="0.8"/>
+  <rect x="200" y="160" width="15" height="15" fill="#C29A4D" opacity="0.7"/>
+
+  <!-- Tail -->
+  <polygon points="320,220 350,210 380,220" fill="#8B4513"/>
+  <path d="M360,220 Q375,215, 390,220 C405,225, 420,220, 435,215" stroke="#8B4513"/>
+
+  <!-- Pouch -->
+  <ellipse cx="260" cy="270" rx="30" ry="40" fill="#C29A4D"/>
+
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="radialGradient" cx="50%" cy="50%" r="50%" gradientUnits="objectBoundingBox">
+      <stop offset="0%" style="stop-color:rgb(139,69,19);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(147,128,97);stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+
+</svg>

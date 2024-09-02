@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <g id="body">
+    <rect x="150" y="200" width="400" height="250" fill="#8B7D6D"/>
+    <path d="M150,350 Q200,250 250,350 Q300,250 350,350" stroke="black" fill="transparent"/>
+  </g>
+
+  <!-- Head -->
+  <g id="head">
+    <circle cx="275" cy="150" r="80" fill="#8B7D6D"/>
+    <path d="M275,90 Q325,50 375,90" stroke="black" fill="transparent"/>
+    <circle cx="345" cy="70" r="10" fill="black"/>
+    <circle cx="305" cy="70" r="10" fill="black"/>
+  </g>
+
+  <!-- Tail -->
+  <g id="tail">
+    <polyline points="550,250 500,300 450,250" stroke="black" fill="transparent"/>
+    <rect x="450" y="250" width="100" height="100" fill="#8B7D6D"/>
+  </g>
+
+  <!-- Legs -->
+  <g id="legs">
+    <rect x="150" y="400" width="300" height="100" fill="transparent"/>
+    <path d="M200,450 Q250,500 300,450" stroke="black" fill="transparent"/>
+    <path d="M300,450 Q350,500 400,450" stroke="black" fill="transparent"/>
+  </g>
+
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+<!-- Balloon envelope -->
+<path id="balloonEnvelope" fill="#FFDEAD" opacity="0.9"
+  d="M250,10 C350,10 400,150 400,300 Q400,450 250,500 Q100,450 100,300 100,150 250,10"
+  stroke="#FF8C00" stroke-width="5" opacity="0.9"/>
+
+<!-- Basket -->
+<rect id="basket" x="175" y="460" width="150" height="40" fill="#8B4513" opacity="0.9"/>
+<path id="basketHandle" d="M200,460 Q250,440 300,460 H175 Z" stroke="#8B4513" stroke-width="5"/>
+
+<!-- Burner -->
+<circle id="burner" cx="250" cy="350" r="20" fill="#FF69B4"/>
+<path id="flame" d="M240,370 C245,380 255,380 260,370 H240 Z" fill="#FF69B4"/>
+
+<!-- Shadows -->
+<use xlink:href="#balloonEnvelope" transform="translate(10,-10)" fill-opacity="0.1"/>
+<use xlink:href="#basket" transform="translate(10,50)" fill-opacity="0.2"/>
+<use xlink:href="#burner" transform="translate(-5,-5)" fill-opacity="0.3"/>
+
+<!-- Highlights -->
+<use xlink:href="#balloonEnvelope" transform="translate(-10,10)" fill-opacity="0.2"
+  filter="url(#highlight)" />
+<circle cx="260" cy="340" r="5" fill="white" filter="url(#highlight)"/>
+
+<!-- Filter for highlights -->
+<defs>
+  <filter id="highlight">
+    <feGaussianBlur stdDeviation="1"/>
+    <feMerge>
+      <feMergeNode in="SourceGraphic"/>
+      <feMergeNode in="BackgroundImage"/>
+    </feMerge>
+  </filter>
+</defs>
+
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Castle gate paths -->
+  <path id="gateLeft" d="M100,200 H150 V350 A50,50 0 0 0 200,400 V200 Z"/>
+  <path id="gateRight" d="M350,200 H400 V350 A50,50 0 0 1 350,400 V200 Z"/>
+
+  <!-- Castle gate animations -->
+  <set attributeName="visibility" to="hidden" begin="0s"/>
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 275 200"
+    to="-90 275 200"
+    dur="2s"
+    begin="start() + 1s"
+    id="openGate"/>
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="-90 325 200"
+    to="0 325 200"
+    dur="2s"
+    begin="openGate.end"/>
+
+  <!-- Start animation -->
+  <set attributeName="begin" to="start() + 0s" fill="freeze"/>
+</svg>

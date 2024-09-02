@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="600" fill="#ADD8E6"/>
+
+  <!-- Mountains -->
+  <polygon points="150,40 250,70 350,40 300,100" fill="#708090"/>
+  <text x="200" y="50" font-size="16">Mount Karakum</text>
+
+  <!-- Forest -->
+  <polygon points="450,250 550,300 650,250 600,350" fill="#008000"/>
+  <text x="550" y="275" font-size="16">Whisperwood Forest</text>
+
+  <!-- River -->
+  <path d="M150,400 Q250,350 350,400 T550,400" stroke="#000" fill="transparent"/>
+  <text x="250" y="425" font-size="16">Serpentine River</text>
+
+  <!-- Hot Air Balloon City -->
+  <circle cx="375" cy="180" r="80" fill="#FFFACD"/>
+  <path d="M375,100 Q325,150 425,150 T375,100" stroke="#FFA500" fill="transparent"/>
+  <text x="360" y="170" font-size="18">Skyhaven</text>
+
+  <!-- Other Cities -->
+  <circle cx="120" cy="450" r="50" fill="#FFFACD"/>
+  <text x="95" y="440" font-size="16">Cloudfall</text>
+  <circle cx="700" cy="300" r="50" fill="#FFFACD"/>
+  <text x="680" y="290" font-size="16">Mistport</text>
+
+</svg>

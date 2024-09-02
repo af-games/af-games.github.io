@@ -1,0 +1,18 @@
+<svg width="100%" height="100%" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Drum Beat (Circle) -->
+  <circle cx="50%" cy="550" r="40" fill="#779933">
+    <animate attributeName="cy" values="550;650;550" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Repetitive Rhythm (Rectangle) -->
+  <rect x="80%" y="400" width="100" height="100" fill="#997733">
+    <animate attributeName="y" values="400;500;400" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Melody (Path) -->
+  <path d="M60,180 Q150,75 300,180 Q450,75 600,180" stroke="#ffcc00" fill="transparent">
+    <animate attributeName="d" values="M60,220 Q150,90 300,220;M60,180 Q450,75 600,180;M60,140 Q150,50 300,140 Q450,50 600,140" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+</svg>

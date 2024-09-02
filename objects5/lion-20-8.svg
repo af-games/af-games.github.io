@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky -->
+  <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(7, 58, 96);stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:rgb(43, 107, 155);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(239, 218, 104);stop-opacity:1"/>
+  </linearGradient>
+  <rect x="0" y="0" width="800" height="600" fill="url(#skyGrad)"/>
+
+  <!-- Sunset -->
+  <circle cx="400" cy="300" r="150" fill="orange"/>
+
+  <!-- Hills -->
+  <rect x="200" y="300" width="200" height="300" fill="rgb(76,187,27);fill-opacity:0.8"/>
+  <rect x="450" y="250" width="200" height="350" fill="rgb(76,187,27);fill-opacity:0.5"/>
+
+  <!-- Lion silhouette -->
+  <path d="M350,150 Q375,175 400,150 Q425,175 450,150" stroke="black" fill="transparent" stroke-width="10"/>
+
+  <!-- Grass -->
+  <circle cx="250" cy="500" r="3" fill="rgb(38,139,6);fill-opacity:0.5"/>
+  <circle cx="350" cy="475" r="3" fill="rgb(38,139,6);fill-opacity:0.5"/>
+  <!-- Add more circles for grass -->
+
+</svg>

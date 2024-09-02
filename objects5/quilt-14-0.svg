@@ -1,0 +1,38 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Quilt background -->
+  <rect x="0" y="0" width="300" height="200" fill="#f2f2f2"/>
+
+  <!-- Quilt squares -->
+  <g stroke="none">
+    <!-- Dark blue squares -->
+    <rect x="15" y="15" width="60" height="60" fill="#457b9d"/>
+    <rect x="85" y="85" width="60" height="60" fill="#457b9d"/>
+
+    <!-- Light beige squares -->
+    <rect x="15" y="85" width="60" height="60" fill="#f5deb3"/>
+    <rect x="85" y="15" width="60" height="60" fill="#f5deb3"/>
+
+    <!-- Repeating squares for bottom row -->
+    <use xlink:href="#dark-blue-square" x="15" y="150"/>
+    <use xlink:href="#light-beige-square" x="85" y="150"/>
+  </g>
+
+  <!-- Stitching details (diagonal lines) -->
+  <defs>
+    <pattern id="stitching" patternUnits="userSpaceOnUse" width="60" height="60">
+      <path d="M 0,0 L 60,60 M 60,0 L 0,60" stroke="#000000"/>
+    </pattern>
+  </defs>
+
+  <!-- Apply stitching pattern to squares -->
+  <g pattern="url(#stitching)">
+    <rect x="15" y="15" width="60" height="60"/>
+    <rect x="85" y="85" width="60" height="60"/>
+
+    <!-- Bottom row stitching -->
+    <use xlink:href="#dark-blue-square-stitching" x="15" y="150"/>
+    <use xlink:href="#light-beige-square-stitching" x="85" y="150"/>
+  </g>
+
+</svg>

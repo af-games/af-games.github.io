@@ -1,0 +1,31 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients for colors -->
+  <defs>
+    <linearGradient id="balloonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Greenhouse background -->
+  <rect width="500" height="400" fill="#8B7D6B"/>
+
+  <!-- Balloon plant -->
+  <!-- Stem -->
+  <path d="M250,300 Q180,300 150,200 Q200,100 250,80 Q300,100 350,200 Q320,300 250,370" stroke="#6F4D29" fill="transparent"/>
+
+  <!-- Balloon -->
+  <circle cx="250" cy="180" r="80">
+    <animate attributeName="r" from="80" to="100" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" from="1" to="0.7" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Leaf -->
+  <path d="M350,60 Q380,40 400,60 Q350,80 300,60 Z">
+    <animate attributeName="fill" values="#32CD32;#009B7E;#32CD32" dur="1s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Ground -->
+  <rect width="500" height="60" y="340" fill="#5C4033"/>
+
+</svg>

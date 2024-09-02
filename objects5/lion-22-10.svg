@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Background -->
+  <rect width="100%" height="50%" fill="#8EA67C"/>
+
+  <!-- Sun -->
+  <circle cx="90%" cy="10%" r="40" fill="#FFDE2A"/>
+  <circle cx="88%" cy="12%" r="3" fill="black"/>
+
+  <!-- Grass -->
+  <rect x="5%" y="60%" width="75%" height="15%" fill="#5F9E49" />
+  <g fill="green">
+    <path d="M5% 65%, Q20% 70%, 35% 65%, Z"/>
+    <path d="M10% 68%, Q25% 72%, 40% 68%, Z"/>
+    <!-- Repeat the above paths with varying heights and positions to create a grassy effect -->
+  </g>
+
+  <!-- Lion Body -->
+  <path fill="#F2D079" d="M150,300 Q250,250 350,300 Q450,350 550,300 Q650,250 750,300"/>
+
+  <!-- Lion Mane -->
+  <path fill="#F1C977" d="M180,270 Q230,240 280,270 Q330,290 380,270 Q430,240 480,270"/>
+
+  <!-- Lion Tail -->
+  <path fill="#F2D079" d="M650,350 Q680,380 710,350 Q740,320 770,350"/>
+
+  <!-- Lion Eyes -->
+  <circle cx="270" cy="270" r="20" fill="white"/>
+  <circle cx="270" cy="270" r="10" fill="black"/>
+  <circle cx="430" cy="270" r="20" fill="white"/>
+  <circle cx="430" cy="270" r="10" fill="black"/>
+
+</svg>

@@ -1,0 +1,50 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body (circle) -->
+  <circle cx="150" cy="75" r="70"
+    fill="url(#balloon-body-gradient)"
+    stroke="black" stroke-width="2"/>
+  <defs>
+    <linearGradient id="balloon-body-gradient" gradientTransform="rotate(90)">
+      <stop offset="0%" style="stop-color:rgb(143,78,16);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,175,75);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Balloon knot (ellipse) -->
+  <ellipse cx="150" cy="30" rx="25" ry="45"
+    fill="url(#knot-gradient)"
+    stroke="black" stroke-width="2"/>
+  <defs>
+    <linearGradient id="knot-gradient">
+      <stop offset="0%" style="stop-color:rgb(198,135,67);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,204,97);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Balloon string (line) -->
+  <line x1="150" y1="30" x2="150" y2="60"
+    stroke="black" stroke-width="4"/>
+
+  <!-- Balloon shadow (rectangle with filter) -->
+  <rect x="145" y="145" width="70" height="20"
+    fill="url(#shadow-gradient)"
+    filter="url(#drop-shadow)"/>
+  <defs>
+    <linearGradient id="shadow-gradient">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:0.5" />
+      <stop offset="100%" style="stop-color:rgba(0,0,0,0)" />
+    </linearGradient>
+    <filter id="drop-shadow">
+      <feGaussianBlur stdDeviation="2" />
+      <feOffset dx="2" dy="2" />
+      <feFlood flood-color="black"/>
+      <feComposite in2="SourceAlpha" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+</svg>

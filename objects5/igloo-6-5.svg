@@ -1,0 +1,39 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg" style="background-color: #333;" viewBox="0 0 500 400">
+
+  <!-- Igloo base -->
+  <path id="iglooBase" d="M100,380 Q200,400 300,380" fill="#fff" stroke="#000"/>
+
+  <!-- Igloo dome -->
+  <path id="iglooDome" d="M250,260 Q375,125 250,25" fill="#fff" stroke="#000"/>
+  <animateTransform
+    attributeType="xml"
+    attributeName="d"
+    type="path"
+    from="M250,260 Q375,125 250,25"
+    to="M250,240 Q375,115 250,25"
+    dur="2s"
+    repeatCount="indefinite" />
+
+  <!-- Igloo door -->
+  <rect id="iglooDoor" width="60" height="90" x="180" y="340" fill="#fff" stroke="#000"/>
+  <animateTransform
+    attributeType="xml"
+    attributeName="y"
+    type="translate"
+    from="340"
+    to="350"
+    dur="1s"
+    repeatCount="indefinite" />
+
+  <!-- Igloo smoke -->
+  <path id="iglooSmoke" d="M275,60 Q290,80 280,90 Q270,80 265,60" fill="#fff" stroke="#000"/>
+  <animateTransform
+    attributeType="xml"
+    attributeName="d"
+    type="path"
+    from="M275,60 Q290,80 280,90 Q270,80 265,60"
+    to="M275,70 Q290,90 280,100 Q270,90 265,70"
+    dur="2s"
+    repeatCount="indefinite" />
+
+</svg>

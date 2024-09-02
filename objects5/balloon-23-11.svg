@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Define the canvas -->
+  <rect width="100%" height="100%" fill="#f4f4f4"/>
+
+  <!-- Plant basic shapes (seeds) -->
+
+  <!-- Circle (balloon base) -->
+  <circle cx="250" cy="300" r="50" fill="#ffa502">
+    <animate
+      attributeName="r"
+      from="50"
+      to="70"
+      dur="2s"
+      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Oval (balloon body) -->
+  <ellipse cx="250" cy="180" rx="40" ry="90">
+    <animate
+      attributeName="ry"
+      from="90"
+      to="70"
+      dur="2s"
+      repeatCount="indefinite"/>
+    <animation begin="circle.end" dur="3s">
+      <set attributeName="fill" from="#ffcc66" to="#ffd14f"/>
+    </animation>
+  </ellipse>
+
+  <!-- Oval (balloon top) -->
+  <ellipse cx="250" cy="80" rx="30" ry="70">
+    <animate
+      attributeName="ry"
+      from="70"
+      to="60"
+      dur="2s"
+      repeatCount="indefinite"/>
+    <animation begin="circle.end+1s" dur="3s">
+      <set attributeName="fill" from="#ff9e4a" to="#ffb58f"/>
+    </animation>
+  </ellipse>
+
+  <!-- String (balloon string) -->
+  <line x1="250" y1="70" x2="250" y2="30" stroke="#4d4d4d">
+    <animate
+      attributeName="y2"
+      from="30"
+      to="50"
+      dur="2s"
+      repeatCount="indefinite"/>
+  </line>
+
+</svg>

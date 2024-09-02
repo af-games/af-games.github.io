@@ -1,0 +1,20 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Reef -->
+  <polygon points="10,400 70,500 130,400 190,500 250,400"
+            fill="#8B7D6B" stroke="black"/>
+
+  <!-- Fish (Supporting Roles) -->
+  <circle cx="150" cy="350" r="10" fill="#FFC300"/>
+  <circle cx="200" cy="400" r="8" fill="#69D5E0"/>
+  <circle cx="270" cy="320" r="12" fill="#FF6F61"/>
+
+  <!-- Nurse Shark (Main Character) -->
+  <path d="M300,250 Q400,200 500,250 Q450,350 300,400"
+        fill="#3D9970" stroke="#8B7D6B"/>
+
+  <!-- Sea Turtle (Medium Shape) -->
+  <path d="M600,400 Q650,450 700,400 Q650,350 600,300"
+        fill="#9ACD32" stroke="#8B7D6B"/>
+
+</svg>

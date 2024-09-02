@@ -1,0 +1,18 @@
+<svg width="400" height="450" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Launch Pad -->
+  <rect x="50" y="300" width="100" height="40" style="fill: brown;" />
+
+  <!-- Hot Air Balloon Basket -->
+  <rect x="70" y="280" width="60" height="60" style="fill: yellow;" />
+
+  <!-- Inflated Balloon -->
+  <ellipse cx="150" cy="200" rx="90" ry="400" style="fill: orange;" />
+
+  <!-- Control Tower -->
+  <circle cx="350" cy="370" r="30" style="fill: grey;" />
+
+  <!-- Road -->
+  <path d="M200,400 Q260,380 310,370 T350,370" stroke="black" fill="transparent"/>
+
+</svg>

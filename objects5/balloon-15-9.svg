@@ -1,0 +1,26 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Introduction -->
+  <circle cx="200" cy="200" r="10" fill="#ff6347" stroke="#fff">
+    <animate attributeName="r"
+             from="10" to="50"
+             dur="3s"
+             begin="0s" />
+  </circle>
+
+  <!-- Climax -->
+  <circle cx="200" cy="200" r="50" fill="#ff6347">
+    <animate attributeName="r"
+             from="50" to="10"
+             dur="2s"
+             begin="3s" />
+  </circle>
+
+  <!-- Resolution -->
+  <circle cx="200" cy="200" r="10" fill="#ff6347">
+    <animate attributeName="r"
+             from="10" to="5"
+             dur="2s"
+             begin="5s"
+             fill="freeze" />
+  </circle>
+</svg>

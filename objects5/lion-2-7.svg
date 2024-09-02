@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Pathways -->
+  <rect x="100" y="400" width="600" height="200" fill="lightgreen"/>
+  <path d="M50,450 Q150,300 300,450 H700 V600 H100 Z" fill="lightgrey"/>
+
+  <!-- Lion statues -->
+  <circle cx="200" cy="500" r="80" fill="saddlebrown"/>
+  <circle cx="400" cy="450" r="70" fill="saddlebrown"/>
+  <circle cx="600" cy="550" r="90" fill="saddlebrown"/>
+
+  <!-- Plants (Organic paths with Bézier curves) -->
+  <path d="M100,300 Q200,400 300,300 T500,300 T700,400 Z" fill="forestgreen"/>
+  <path d="M150,450 Q300,600 450,450 T650,600 T850,450 Z" fill="darkgreen"/>
+
+  <!-- Light interaction (Shading) -->
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(0,255,0);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(0,128,0);stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Apply gradient to plants -->
+  <path d="M100,300 Q200,400 300,300 T500,300 T700,400 Z" fill="url(#grad1)"/>
+  <path d="M150,450 Q300,600 450,450 T650,600 T850,450 Z" fill="url(#grad1)"/>
+
+</svg>

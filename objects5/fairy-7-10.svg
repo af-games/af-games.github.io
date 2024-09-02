@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="800" fill="#F5DEB3"/>
+
+  <!-- Fairy body -->
+  <path id="fairyBody" d="M240,120 Q300,90 360,120 Q300,150 240,120 Z"/>
+  <g fill="#FFC3A0">
+    <use xlink:href="#fairyBody" style="fill-opacity:.8"/>
+    <use xlink:href="#fairyBody" style="stroke-width:5; stroke:#E7996F"/>
+  </g>
+
+  <!-- Fairy wings -->
+  <path id="wingTemplate1" d="M240,360 Q210,330 180,360 Q210,390 240,360 Z"/>
+  <use xlink:href="#wingTemplate1" style="fill:#FFF3E0; stroke-width:5; stroke:#FFD7AA"/>
+  <use xlink:href="#wingTemplate1" transform="translate(120,0) rotate(45)" style="fill-opacity:.8"/>
+
+  <!-- Fairy hair -->
+  <path id="hair" d="M260,200 Q290,170 320,200 Q290,230 260,200 Z"/>
+  <use xlink:href="#hair" style="fill:#FFA57F; stroke-width:3; stroke:#FF8C6D"/>
+
+  <!-- Fairy face -->
+  <circle cx="240" cy="170" r="50" fill="#FFF9E5"/>
+  <circle cx="240" cy="170" r="45" style="stroke-width:3; stroke:#FFDFBB"/>
+
+  <!-- Fairy eyes -->
+  <circle cx="210" cy="160" r="8" fill="#000"/>
+  <circle cx="270" cy="160" r="8" fill="#000"/>
+</svg>

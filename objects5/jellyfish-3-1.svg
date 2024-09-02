@@ -1,0 +1,10 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bell -->
+  <circle cx="50" cy="40" r="40" fill="#7FFFD4"/>
+  <!-- Tentacles (8 of them) -->
+  <g stroke="#FFF" stroke-width="3">
+    <path d="M60,40 Q90,20 60,0" />
+    <path d="M50,40 Q20,20 50,0" />
+    <!-- Repeat similar paths for other tentacles -->
+  </g>
+</svg>

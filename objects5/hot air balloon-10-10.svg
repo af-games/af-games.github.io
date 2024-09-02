@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+
+  <!-- Bar 1: Blue circles (low notes) -->
+  <circle cx="0" cy="0" r="20" fill="#3b5187"/>
+  <animateMotion begin="0s" dur="4s" repeatCount="indefinite">
+    <mpath href="#path1"/>
+  </animateMotion>
+
+  <!-- Bar 2: Purple circles (higher notes) -->
+  <circle cx="0" cy="0" r="15" fill="#9b59b6"/>
+  <animateMotion begin="4s" dur="4s" repeatCount="indefinite">
+    <mpath href="#path2"/>
+  </animateMotion>
+
+  <!-- Paths for transitions -->
+  <path id="path1" d="M0,-20 A20,20 0 0,1 0,20" stroke="none"/>
+  <path id="path2" d="M0,20 A20,20 0 0,1 0,-20" stroke="none"/>
+
+  <!-- Hot air balloon -->
+  <g transform="translate(50, -70)">
+    <ellipse cx="0" cy="30" rx="40" ry="60" fill="#ffd800"/>
+    <path d="M-20,-10 Q0,-30 20,-10" stroke="#ffcc00" fill="none"/>
+    <circle cx="0" cy="-50" r="40" fill="#ff6f00">
+      <animateTransform attributeName="r" from="40" to="60" begin="0s" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+</svg>

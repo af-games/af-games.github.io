@@ -1,0 +1,43 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Pathways -->
+<rect x="100" y="100" width="300" height="300" fill="lightgreen"/>
+<circle cx="250" cy="300" r="75" fill="lightgray"/>
+
+<!-- Beds -->
+<circle cx="150" cy="200" r="100" fill="#d8b67a"/>
+<circle cx="350" cy="200" r="100" fill="#d8b67a"/>
+
+<!-- Structures -->
+<rect x="400" y="350" width="80" height="100" fill="#8b4513"/>
+<text x="420" y="420" font-family="Verdana" font-size="24">GARDEN</text>
+
+<!-- Plants -->
+<path d="M120 170 Q160 90, 240 170 Q320 250, 400 170" stroke="#3d9970" fill="transparent"/>
+<path d="M380 170 Q420 90, 460 170 Q540 250, 400 170" stroke="#3d9970" fill="transparent"/>
+
+<!-- Lions -->
+<g transform="translate(100, 100) scale(0.5)">
+  <!-- Lion 1 -->
+  <path d="M60 60 Q80 40, 120 80 Q130 150, 90 170 Q40 150, 10 80 Z" fill="#ffa500"/>
+  <circle cx="70" cy="120" r="20" fill="#ffffff"/>
+
+  <!-- Lion 2 -->
+  <path d="M360 60 Q400 40, 460 80 Q490 150, 430 170 Q320 150, 340 80 Z" fill="#ffa500"/>
+  <circle cx="410" cy="120" r="20" fill="#ffffff"/>
+</g>
+
+<!-- Light effect -->
+<linearGradient id="light" x1="0%" y1="0%" x2="0%" y2="100%">
+  <stop offset="0%" style="stop-color:white; stop-opacity:1"/>
+  <stop offset="50%" style="stop-color:white; stop-opacity:0.7"/>
+  <stop offset="100%" style="stop-color:white; stop-opacity:0"/>
+</linearGradient>
+<mask id="lightMask">
+  <rect x="0" y="300" width="500" height="200" fill="url(#light)"/>
+</mask>
+<g mask="url(#lightMask)">
+  <!-- Repeat elements here to apply light effect -->
+</g>
+
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Landmass -->
+  <rect x="100" y="100" width="600" height="400" fill="#FFD700"/>
+
+  <!-- Islands -->
+  <circle cx="250" cy="300" r="80" fill="#FFD700"/>
+  <circle cx="550" cy="250" r="60" fill="#FFD700"/>
+  <circle cx="150" cy="450" r="50" fill="#FFD700"/>
+
+  <!-- Rivers -->
+  <polyline points="350,180 350,250 450,250" stroke="#006BB6" fill="transparent"/>
+  <polyline points="250,370 350,370 350,450" stroke="#006BB6" fill="transparent"/>
+
+  <!-- Mountains -->
+  <polygon points="150,380 200,450 100,450" fill="#9ACD32"/>
+  <polygon points="600,280 650,350 550,350" fill="#9ACD32"/>
+
+</svg>

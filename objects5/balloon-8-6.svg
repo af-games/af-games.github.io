@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350">
+  <defs>
+    <pattern id="balloonPattern" patternUnits="userSpaceOnUse">
+      <path d="M0 0 L20 20 M10 0 L20 10 Z" stroke="#FF9933" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <use id="balloonPatternFill" xlink:href="#balloon" fill-url("#balloonPattern")/>
+  <rect id="basket" x="70" y="280" width="60" height="40" fill="#964B00" stroke="black" stroke-width="1"/>
+  <path id="rope" d="M100 350 Q70 325, 50 300 V0 H250 V300 Q280 325, 300 350 Z" stroke="#694529" stroke-width="5"/>
+  <path id="flame" d="M175 280 C185 290, 195 300, 205 290 Z" fill="#FF6600"/>
+
+  <use id="shadow" xlink:href="#balloonPatternFill" transform="translate(0, 4) blur(3)" fill-opacity="0.2"/>
+</svg>

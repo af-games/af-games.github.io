@@ -1,0 +1,36 @@
+<svg width="800" height="1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Virtual Mannequin -->
+  <rect x="150" y="100" width="500" height="1000" fill="white"/>
+
+  <!-- Igloo Jacket Pattern Pieces -->
+
+  <!-- Bodice (Front) -->
+  <path d="M280,230 Q460,170 690,230 H170 Z" fill="#AEDDFF" stroke="#005FAF"/>
+  <rect x="170" y="230" width="210" height="740" fill="none" stroke="#005FAF"/>
+
+  <!-- Bodice (Back) -->
+  <path d="M280,970 Q460,1030 690,970 H170 Z" fill="#AEDDFF" stroke="#005FAF"/>
+  <rect x="170" y="970" width="210" height="230" fill="none" stroke="#005FAF"/>
+
+  <!-- Sleeves -->
+  <circle cx="460" cy="480" r="150" fill="#AEDDFF"/>
+  <path d="M390,720 Q460,810 530,720" fill="#AEDDFF" stroke="#005FAF"/>
+  <circle cx="460" cy="630" r="150" fill="#AEDDFF"/>
+
+  <!-- Hood -->
+  <path d="M280,170 Q460,100 690,170 H170 Z" fill="#AEDDFF"/>
+  <rect x="170" y="170" width="520" height="60" fill="none"/>
+
+  <!-- Hem -->
+  <path d="M280,1140 Q460,1210 690,1140 H170 Z" fill="#AEDDFF"/>
+  <rect x="170" y="1140" width="520" height="60" fill="none"/>
+
+  <!-- Igloo Pattern -->
+  <mask id="igloo-pattern">
+    <image href="https://i.imgur.com/8XGZPjS.png" x="0" y="0" width="100%" height="100%"/>
+  </mask>
+  <g mask="url(#igloo-pattern)">
+    <rect x="260" y="350" width="370" height="800" fill="#FFB6C1"/>
+    <rect x="260" y="90" width="370" height="240" fill="#FFB6C1"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="200" height="300" style="background-color: #f0f0f0;" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Body -->
+  <circle cx="100" cy="150" r="90" fill="lightblue" stroke="blue" stroke-width="4"/>
+
+  <!-- Balloon String -->
+  <line x1="100" y1="50" x2="100" y2="75" stroke="black" stroke-width="3"/>
+  <path d="M95,50 Q80,65 100,75" stroke="black" stroke-width="3"/>
+
+  <!-- Balloon Tassel -->
+  <polygon points="125,225 140,225 132.5,240" fill="darkblue"/>
+  <line x1="125" y1="225" x2="100" y2="225" stroke="black" stroke-width="3"/>
+
+  <!-- Balloon Shape (for a more realistic look) -->
+  <path d="M80,75 Q95,65 100,75 Q95,85 80,90 Z" fill="lightblue"/>
+  <circle cx="100" cy="95" r="3" fill="black"/>
+
+</svg>

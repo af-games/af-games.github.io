@@ -1,0 +1,20 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- FINS -->
+  <rect id="FIN_LEFT" x="40" y="70" width="80" height="160" fill="#5DADE2"/>
+  <rect id="FIN_RIGHT" x="370" y="70" width="80" height="160" fill="#5DADE2"/>
+
+  <!-- EYES -->
+  <circle id="EYE_LEFT" cx="120" cy="90" r="40" fill="#5DADE2"/>
+  <circle id="EYE_RIGHT" cx="380" cy="90" r="40" fill="#5DADE2"/>
+
+  <!-- BODY PARTS -->
+  <ellipse id="BODY_MID" cx="200" cy="160" rx="100" ry="180" fill="#5DADE2"/>
+  <ellipse id="BODY_FRONT" cx="90" cy="140" rx="70" ry="150" fill="#5DADE2"/>
+  <ellipse id="BODY_BACK" cx="310" cy="160" rx="70" ry="180" fill="#5DADE2"/>
+
+  <!-- ROADS (Connecting lines) -->
+  <path id="ROAD_TOP" d="M40,70 Q90,50 200,70 T370,70 Q310,50 380,70" stroke="#FFFFFF" fill="transparent"/>
+  <path id="ROAD_BOTTOM" d="M40,230 Q90,260 200,230 T370,230 Q310,260 380,230" stroke="#FFFFFF" fill="transparent"/>
+
+</svg>

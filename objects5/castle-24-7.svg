@@ -1,0 +1,51 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Stage Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#151418"/>
+
+  <!-- Castle Wall (Largest Shape) -->
+  <polygon id="castleWall" points="300,200 500,200 550,100 350,100"
+           style="fill:url(#wallGradient); stroke:#8B4513; stroke-width:5"/>
+
+  <!-- Castle Wall Window -->
+  <rect x="450" y="150" width="50" height="50" fill="#FFC700"/>
+  <polygon points="425,150 500,150 462.5,200 437.5,200"
+           style="fill:transparent; stroke:#FFC700; stroke-width:3"/>
+
+  <!-- Stage Floor -->
+  <rect id="floor" x="0" y="300" width="800" height="300"
+        fill="#4A2E16" stroke="#8B4513" stroke-width="5"/>
+
+  <!-- Throne (Prop) -->
+  <polygon id="throne" points="200,500 300,500 250,550"
+           style="fill:url(#throneGradient); stroke:#8B4513; stroke-width:3"/>
+
+  <!-- Crown (Prop) -->
+  <circle cx="250" cy="475" r="30"
+          style="fill:url(#crownGradient); stroke:#FFC700; stroke-width:3"/>
+
+  <!-- Actor Position (Interactive) -->
+  <circle id="actor" cx="350" cy="450" r="20" fill="#FFFFFF"/>
+  <animateMotion xlink:href="#actor" repeatCount="indefinite">
+    <mpath href="#floorPath"/>
+  </animateMotion>
+
+  <!-- Lighting Effects -->
+  <linearGradient id="wallGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#8B4513; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#DCDCDC; stop-opacity:0.7"/>
+  </linearGradient>
+  <linearGradient id="throneGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FFC700; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#8B4513; stop-opacity:0.7"/>
+  </linearGradient>
+  <linearGradient id="crownGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FFC700; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#FFFFFF; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#FFC700; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Floor Path for Actor Movement -->
+  <path id="floorPath" d="M350,500 Q400,450 350,400 Q300,450 350,500"/>
+
+</svg>

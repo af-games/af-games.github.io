@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300">
+
+  <!-- Envelope -->
+  <ellipse cx=100 cy=160 rx=60 ry=140 fill="#ADD8E6"/>
+
+  <!-- Basket -->
+  <rect x=60 y=270 width=80 height=40 fill="#C19A6B"/>
+
+  <!-- Burner (anchor shape) -->
+  <path d="M75,230 Q95,210 115,230 H75" stroke="#FFD700" fill="none"/>
+
+  <!-- Burner flame -->
+  <polygon points="85,230 95,240 105,230" fill="#FFA500"/>
+
+</svg>

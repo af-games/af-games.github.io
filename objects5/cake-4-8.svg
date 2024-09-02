@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Cake Base -->
+  <circle cx="0" cy="0" r="40" fill="#F6A87D">
+    <animate attributeName="fill-opacity" values="1;.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Cake Top -->
+  <path d="M0,15 A15,15 0 1,0 0,-15" fill="#F8D87B">
+    <animate attributeName="fill-opacity" values="1;.5;1" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Frosting Message -->
+  <text x="0" y="30" font-size="20" text-anchor="middle" fill="#000">
+    Happy Birthday!
+    <animate attributeName="y" values="30;45;30" dur="1s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Candles -->
+  <g id="candles">
+    <circle cx="-20" cy="-25" r="5" fill="#F9EBB6">
+      <animate attributeName="cy" values="-25;-30;-25" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="1;.5;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="20" cy="-25" r="5" fill="#F9EBB6">
+      <animate attributeName="cy" values="-25;-30;-25" dur="1s" repeatCount="indefinite"/>
+      <animate attributeName="fill-opacity" values="1;.5;1" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+</svg>

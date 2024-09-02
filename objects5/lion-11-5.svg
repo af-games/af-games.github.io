@@ -1,0 +1,44 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion Silhouette -->
+  <g id="lion">
+    <!-- Body -->
+    <circle cx="100" cy="300" r="80" fill="#ffcc00"/>
+
+    <!-- Head -->
+    <circle cx="120" cy="250" r="40" fill="#ffcc00"/>
+
+    <!-- Arms -->
+    <circle id="arm-left" cx="70" cy="320" r="10" fill="#ffcc00"/>
+    <circle id="arm-right" cx="150" cy="320" r="10" fill="#ffcc00"/>
+
+    <!-- Legs -->
+    <circle id="leg-left" cx="80" cy="400" r="15" fill="#ffcc00"/>
+    <circle id="leg-right" cx="160" cy="400" r="15" fill="#ffcc00"/>
+
+    <!-- Face Features -->
+    <rect x="90" y="230" width="40" height="30" fill="#fff"/>
+    <circle cx="125" cy="260" r="15" fill="#fff"/>
+  </g>
+
+  <!-- Parrot Prop -->
+  <g id="parrot">
+    <rect x="250" y="280" width="30" height="40" fill="#ffcc00"/>
+    <circle cx="270" cy="310" r="15" fill="#ffcc00"/>
+  </g>
+
+  <!-- Coconut Tree Prop -->
+  <g id="tree">
+    <rect x="300" y="400" width="20" height="80" fill="#8b7d6c"/>
+    <circle cx="310" cy="350" r="10" fill="#fff"/>
+  </g>
+
+  <!-- Strings (Paths) -->
+  <path d="M70,320 Q90,280 120,250" stroke="black"/>
+  <path d="M150,320 Q130,280 120,250" stroke="black"/>
+  <path d="M80,400 Q60,370 90,340" stroke="black"/>
+  <path d="M160,400 Q140,370 130,340" stroke="black"/>
+  <path d="M250,280 Q270,250 290,220" stroke="black"/>
+  <path d="M300,400 Q280,370 260,340" stroke="black"/>
+
+</svg>

@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outline of the lion -->
+  <path id="lionOutline" d="M100 50 Q150 70, 200 50 Q250 80, 300 50..." stroke="black" fill="none"/>
+
+  <!-- Main features with simple shapes -->
+  <circle cx="400" cy="150" r="50" fill="lightblue"/> <!-- Eye -->
+  <rect x="270" y="200" width="50" height="30" fill="#ff8c00"/> <!-- Mane -->
+  <path d="M320 230 Q350 260, 400 230..." stroke="brown" fill="none" /> <!-- Body -->
+
+  <!-- Complex elements with paths and colors -->
+  <g stroke="black" fill="#ff8c00">
+    <path d="M150 70 Q170 90, 190 70..."/> <!-- Ear -->
+    <path d="M340 260 Q370 290, 410 260..."/> <!-- Tail -->
+  </g>
+
+  <!-- Labels using coordinates -->
+  <text x="5" y="15" font-family="Verdana">(0,0)</text>
+  <text x="150" y="75" font-family="Verdana">(150,70)</text>
+  <text x="325" y="265" font-family="Verdana">(320,230)</text>
+
+</svg>

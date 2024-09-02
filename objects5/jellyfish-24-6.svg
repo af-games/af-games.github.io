@@ -1,0 +1,36 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Bodice -->
+<path d="M50,20 Q70,35 80,60 Q70,85 50,90 Q30,85 20,60 Q30,35 50,20 Z" fill="url(#gradient1)" />
+
+<!-- Left Sleeve -->
+<circle cx="40" cy="60" r="15" fill="url(#pattern1)"/>
+<!-- Right Sleeve (mirrored for simplicity) -->
+<use xlink:href="#leftSleeve" transform="translate(90, 0) scale(-1, 1)"/>
+
+<!-- Neckline -->
+<path d="M40,20 Q65,30 80,20 Q65,10 40,20 Z" fill="url(#gradient2)"/>
+
+<!-- Left Tentacle (mirrored for simplicity) -->
+<g id="leftTentacle">
+  <circle cx="40" cy="60" r="10" fill="white"/>
+  <text x="35" y="60">...</text>
+</g>
+
+<!-- Gradient Definitions -->
+<defs>
+  <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(13,87,134);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(23,147,198);stop-opacity:1"/>
+  </linearGradient>
+  <radialGradient id="gradient2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" style="stop-color:rgb(255,105,180);stop-opacity:0.2"/>
+  </radialGradient>
+</defs>
+
+<!-- Pattern Definition -->
+<pattern id="pattern1" patternUnits="userSpaceOnUse" width="30" height="30">
+  <circle cx="15" cy="15" r="15" fill="white" opacity="0.5"/>
+</pattern>
+
+</svg>

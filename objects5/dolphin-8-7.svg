@@ -1,0 +1,30 @@
+<svg width="800px" height="600px" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect id="background" width="100%" height="100%" fill="url(#gradient)" />
+
+  <!-- Ocean Wave -->
+  <path id="wave" d="M0,50 Q200,75 400,50 Q600,25 800,50" stroke-width="2" stroke="#4CAF50" fill="transparent">
+    <animate attributeName="d" dur="3s" repeatCount="indefinite"
+             values="M0,50 Q200,75 400,50 Q600,25 800,50; M0,60 Q200,85 400,60 Q600,35 800,60;" />
+  </path>
+
+  <!-- Rock Props -->
+  <circle cx="100" cy="550" r="50" fill="#775A39" />
+  <circle cx="250" cy="570" r="40" fill="#775A39" />
+  <circle cx="450" cy="520" r="60" fill="#775A39" />
+
+  <!-- Dolphin -->
+  <g id="dolphin">
+    <path d="M350,150 Q380,100 420,150 Q400,200 350,250 Q300,200 270,150" fill="#64FFDA" />
+    <path d="M370,180 Q390,200 410,180" stroke="#FFF" stroke-width="2" fill="transparent" />
+  </g>
+
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="gradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(139,207,226);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+</svg>

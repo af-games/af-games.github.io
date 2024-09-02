@@ -1,0 +1,40 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Wall Filter -->
+  <defs>
+    <filter id="castleWall">
+      <feTurbulence baseFrequency="0.1" numOctaves="1" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5"/>
+    </filter>
+  </defs>
+
+  <!-- Front Gate -->
+  <polygon points="40,360 80,390 120,360"
+            fill="brown" stroke="black" filter="url(#castleWall)"/>
+
+  <!-- Castle Walls -->
+  <rect x="40" y="270" width="120" height="90" rx="5"
+        fill="#8B4513" stroke="black" filter="url(#castleWall)"/>
+  <rect x="220" y="270" width="120" height="90" rx="5"
+        fill="#8B4513" stroke="black" filter="url(#castleWall)"/>
+
+  <!-- Tower Filter -->
+  <filter id="towerGlow">
+    <feGaussianBlur stdDeviation="2.5"/>
+    <feMerge>
+      <feMergeNode in="SourceGraphic"/>
+      <feMergeNode in="BackgroundImage"/>
+    </feMerge>
+  </filter>
+
+  <!-- Towers -->
+  <circle cx="80" cy="140" r="60" fill="#702609"
+          stroke="black" filter="url(#towerGlow)"/>
+  <circle cx="260" cy="140" r="60" fill="#702609"
+          stroke="black" filter="url(#towerGlow)"/>
+
+  <!-- Paths connecting shapes -->
+  <path d="M85,360 H115 V270 Q110,240 85,210 Q60,240 85,270" stroke="black"/>
+  <path d="M265,360 H295 V270 Q300,240 265,210 Q250,240 265,270" stroke="black"/>
+
+</svg>

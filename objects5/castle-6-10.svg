@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle Gate -->
+  <polygon id="castle-gate" points="100,50 400,50 400,200 100,200" fill="#8B7D6B"/>
+
+  <!-- Path to the Keep -->
+  <path d="M450,200 Q500,300 550,200" stroke="#696969" fill="transparent" stroke-width="10"/>
+
+  <!-- The Keep -->
+  <rect id="keep" x="500" y="150" width="150" height="250" rx="20" fill="#A3875F"/>
+  <text x="600" y="400" font-size="2em" text-anchor="middle">Keep</text>
+
+  <!-- Apply blur filter -->
+  <defs>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <!-- Apply glow filter -->
+  <filter id="glow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blurred"/>
+    <feOffset in="blurred" dx="2" dy="2" result="offsetBlurred"/>
+    <feFlood flood-color="#FFD700" flood-opacity="1" result="glowColor"/>
+    <feComposite in="offsetBlured" in2="glowColor" operator="in" result="glowEffect"/>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <!-- Apply filters to landmarks -->
+  <use xlink:href="#castle-gate" x="100" y="50" filter="url(#blur)"/>
+  <use xlink:href="#keep" x="500" y="150" filter="url(#glow)" />
+
+</svg>

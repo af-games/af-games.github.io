@@ -1,0 +1,28 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="200" fill="#333" stroke="#666" stroke-width="1"/>
+
+  <!-- Lion's head (main circle) -->
+  <circle cx="100" cy="80" r="50" fill="#FDB927" stroke="#CCA300" stroke-width="4"/>
+
+  <!-- Mane details -->
+  <path d="M60 20 Q90 10, 120 20" fill="none" stroke="#FFD700" stroke-width="8"/>
+  <path d="M60 35 Q90 25, 120 35" fill="none" stroke="#FFD700" stroke-width="6"/>
+  <path d="M60 50 Q90 40, 120 50" fill="none" stroke="#FDB927" stroke-width="4"/>
+
+  <!-- Eyes -->
+  <circle cx="80" cy="55" r="10" fill="#FFF"/>
+  <circle cx="120" cy="55" r="10" fill="#FFF"/>
+  <path d="M85 60 Q95 70, 105 60" stroke="#000" stroke-width="3"/>
+
+  <!-- Nose -->
+  <polygon points="90,70, 95,75, 90,80" fill="#FDB927" stroke="#CCA300" stroke-width="4"/>
+
+  <!-- Gemstones (overlapping circles) -->
+  <circle cx="70" cy="110" r="8" fill="#FFF"/>
+  <circle cx="85" cy="115" r="6" fill="#E74C3C"/>
+  <circle cx="100" cy="110" r="8" fill="#FFF"/>
+  <circle cx="115" cy="115" r="6" fill="#2ECC71"/>
+
+</svg>

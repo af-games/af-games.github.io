@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Scene 1: In the Savannah -->
+<rect x="50" y="200" width="700" height="400" fill="#FDFD93"/>
+<circle cx="200" cy="300" r="80" fill="#FFEBCD" stroke="black" />
+<text x="150" y="360" font-size="20">Giraffe among other animals under the sun.</text>
+<star x="700" y="50" points="9 4, 5 8, 2.5 15, 4.5 25, 8 30, 4.5 35, 2.5 45, 5 53, 9 60" fill="#FFFF00"/>
+
+<!-- Scene 2: The Drought -->
+<rect x="50" y="200" width="700" height="400" fill="#FDFD93" stroke-dasharray="10"/>
+<text x="150" y="360" font-size="20">The drought struck, making it hard for animals to reach food.</text>
+
+<!-- Scene 3: Giraffe's Discovery -->
+<path d="M200 400 Q250 300 300 400 L300 100" stroke="black" fill="transparent"/>
+<drop x="300" y="90" cx="5" cy="10" r="5" fill="#007FFF"/>
+<text x="280" y="160" font-size="20">Giraffe discovered water at the top of a tree!</text>
+
+<!-- Scene 4: The Rescue -->
+<path d="M300 100 Q350 200 300 400"/>
+<circle cx="150" cy="350" r="30" fill="#FFEBCD" stroke="black"/>
+<circle cx="450" cy="350" r="30" fill="#FFEBCD" stroke="black"/>
+<path d="M200 200 Q175 175 150 200" stroke="black" fill="transparent"/>
+<text x="300" y="400" font-size="20">Giraffe helped other animals reach water.</text>
+
+<!-- Scene 5: Celebration -->
+<rect x="50" y="200" width="700" height="400" fill="#FDFD93"/>
+<rect x="60" y="210" width="40" height="180" fill="#32CD32" stroke-dasharray="5"/>
+<text x="150" y="360" font-size="20">Animals celebrate together around the tree.</text>
+
+</svg>

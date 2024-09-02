@@ -1,0 +1,38 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sunrise -->
+  <circle cx="100" cy="100" r="80" fill="gold"></circle>
+  <animateMotion begin="0s" dur="2s" repeatCount="indefinite">
+    <mpath href="#sunPath"/>
+  </animateMotion>
+  <path id="sunPath" d="M100,300 Q50,200 100,100"></path>
+
+  <!-- Dinosaur (Tria) -->
+  <polygon points="200,15 300,75 200,135 100,75" fill="green" id="tria">
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="400,0" begin="sunEnd" dur="8s"></animateTransform>
+  </polygon>
+
+  <!-- Friendship -->
+  <circle cx="350" cy="80" r="40" fill="blue">Pete</circle>
+  <line x1="325" y1="90" x2="375" y2="90"></line>
+  <animateMotion begin="triaStart" dur="6s">
+    <mpath href="#friendshipPath"/>
+  </animateMotion>
+  <path id="friendshipPath" d="M200,80 Q250,100 350,80"></path>
+
+  <!-- Barrier/Rock Formation -->
+  <rect width="100%" height="200" rx="10" fill="grey">Rocks</rect>
+  <animate begin="triaEnd" dur="1s">
+    <set attributeName="display" from="none" to="block"/>
+  </animate>
+
+  <!-- Farewell -->
+  <circle cx="350" cy="180" r="60" fill="transparent" stroke="black">Farewell</circle>
+  <line x1="325" y1="190" x2="375" y2="190"></line>
+  <animateTransform attributeName="transform" type="translate" from="400,0" to="300,0" begin="rockEnd" dur="6s"></animateTransform>
+
+  <!-- Text Elements -->
+  <text x="150" y="80" font-family="Verdana">Tria: Good morning, Pete!</text>
+  <text x="370" y="90" font-family="Verdana">Pete: Morning, Tria! Let's explore!</text>
+  <text x="250" y="150" font-family="Verdana">Tria: Pete? Where are you?</text>
+  <text x="350" y="200" font-family="Verdana">Pete: Tria... I'm stuck here.</text>
+</svg>

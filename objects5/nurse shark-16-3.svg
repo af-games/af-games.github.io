@@ -1,0 +1,17 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='-50 -20 100 40'>
+
+  <!-- Body -->
+  <path id="shark-body" d="M0,-15 Q20,0 40,-15 Q60,0 80,-15 Q95,-30 100,-15 L-5,-15 Z"
+        fill="darkblue" stroke="black"/>
+
+  <!-- Fin Shapes -->
+  <polygon id="fin-template" points="0,0 20,10 0,20" transform="rotate(45)"/>
+  <use xlink:href="#fin-template" transform="translate(-30,-35)" fill="darkblue"/>
+  <use xlink:href="#fin-template" transform="translate(70,-35)" fill="darkblue"/>
+  <use xlink:href="#fin-template" transform="rotate(90) translate(-15,20)" fill="darkblue"/>
+
+  <!-- Tail -->
+  <polygon id="tail" points="80,0 100,0 90,-10" fill="darkblue"/>
+  <path d="M90,-10 Q75,-30 60,-20 Q45,-30 30,-20" stroke="black"/>
+
+</svg>

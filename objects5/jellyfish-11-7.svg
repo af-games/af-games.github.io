@@ -1,0 +1,36 @@
+<svg width="100%" height="100%" viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Jellyfish Seas -->
+<path d="M0,450 Q240,300 480,375 Q720,450 960,300 H960 V600 H0 Z" fill="url(#seasGradient)" />
+<defs>
+  <linearGradient id="seasGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#ADD8E6"/>
+    <stop offset="100%" style="stop-color:#007FFF"/>
+  </linearGradient>
+</defs>
+
+<!-- Coral Mountains -->
+<path d="M960,300 Q720,450 480,375 Q240,450 0,300 H0 V0 H960 Z" fill="#FFA500"/>
+<path d="M480,375 Q550,275 630,375 Q710,275 800,375" fill="#FFC0CB"/>
+
+<!-- Mangrove Forests -->
+<rect x="0" y="0" width="480" height="300" fill="#3D9970"/>
+<path d="M480,300 Q600,150 720,300 H960 V600 H0 Z" stroke="#B0E0E6" stroke-width="15"/>
+
+<!-- Lumen Cities -->
+<circle cx="240" cy="150" r="80" fill="#FFFFFF"/>
+<path d="M240,70 A80,80 0 1,0 320,70 A80,80 0 1,0 240,150" stroke="#FF69B4" stroke-width="15"/>
+<path d="M240,230 A80,80 0 1,0 160,230 A80,80 0 1,0 240,310" stroke="#8A2BE2" stroke-width="15"/>
+
+<!-- Volcanic Islands -->
+<circle cx="720" cy="375" r="40" fill="#FF4500"/>
+<circle cx="600" cy="450" r="30" fill="#323232"/>
+
+<!-- Labels -->
+<text x="10" y="20" font-size="24">Jellyfish Seas</text>
+<text x="850" y="590" font-size="24">Volcanic Islands</text>
+<text x="730" y="390" font-size="24">Coral Mountains</text>
+<text x="180" y="160" font-size="24">Mangrove Forests</text>
+<text x="250" y="110" font-size="24">Lumen Cities</text>
+
+</svg>

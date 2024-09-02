@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Dome -->
+  <path id="dome" d="M250 50 Q140 180, 250 300 Q360 180, 250 50 Z"
+        fill="#FFD700" stroke="#CACFD2" stroke-width="2" opacity="0.9"/>
+
+  <!-- Inner wall -->
+  <rect id="innerWall" x="180" y="300" width="40" height="200"
+        fill="#F5F5DC" stroke="#CACFD2" stroke-width="2" opacity="0.7"/>
+
+  <!-- Outer wall (base) -->
+  <rect id="outerWallBase" x="160" y="480" width="280" height="20"
+        fill="#D3D3D3" stroke="#CACFD2" stroke-width="2" opacity="0.6"/>
+
+  <!-- Outer wall (top) -->
+  <polygon id="outerWallTop" points="160,480 440,480 400,500"
+           fill="#D3D3D3" stroke="#CACFD2" stroke-width="2" opacity="0.6"/>
+
+  <!-- Door -->
+  <rect id="door" x="210" y="490" width="70" height="80"
+        fill="#CACFD2" stroke="#CACFD2" stroke-width="2" opacity="1"/>
+
+  <!-- Entrance arch -->
+  <path id="entranceArch" d="M230,500 Q260,490, 290,500 Z"
+        fill="none" stroke="#CACFD2" stroke-width="2" opacity="1"/>
+
+</svg>

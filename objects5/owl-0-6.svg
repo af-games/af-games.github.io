@@ -1,0 +1,17 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="200" cy="200" r="80" fill="orange"/>
+  <ellipse cx="160" cy="320" rx="120" ry="80" fill="orange"/>
+  <circle cx="160" cy="160" r="40" fill="orange">
+    <ellipse cx="160" cy="200" rx="30" ry="20" fill="white"/>
+  </circle>
+  <g transform="translate(150, 160)">
+    <circle cx="0" cy="-30" r="10" fill="black">
+      <ellipse cx="0" cy="-28" rx="4" ry="3" fill="white"/>
+    </circle>
+    <circle cx="30" cy="-30" r="10" fill="black">
+      <ellipse cx="30" cy="-28" rx="4" ry="3" fill="white"/>
+    </circle>
+  </g>
+  <path d="M180,240 Q200,260 220,240" stroke="yellow" fill="transparent"/>
+  <!-- More paths for details -->
+</svg>

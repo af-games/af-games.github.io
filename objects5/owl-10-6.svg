@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Gathered molten glass -->
+  <circle cx="200" cy="150" r="75" fill="goldenrod" stroke="black"/>
+
+  <!-- Body -->
+  <path d="M200,75 Q350,150 400,75 Q200,0 100,75" fill="goldenrod"/>
+
+  <!-- Head -->
+  <circle cx="250" cy="40" r="40" fill="goldenrod"/>
+
+  <!-- Eyes -->
+  <circle cx="230" cy="20" r="10" fill="black"/>
+  <circle cx="270" cy="20" r="10" fill="black"/>
+
+  <!-- Wings -->
+  <path d="M150,75 Q100,150 150,225" fill="goldenrod"/>
+  <path d="M250,75 Q300,150 250,225" fill="goldenrod"/>
+
+  <!-- Refined Body outline -->
+  <path d="M100,75 Q200,150 400,75 Q300,0 250,75" fill="transparent" stroke="black"/>
+
+</svg>

@@ -1,0 +1,17 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define the mask -->
+  <defs>
+    <mask id="castleMask">
+      <rect x="100" y="100" width="300" height="300" fill="white"/>
+      <circle cx="50" cy="70" r="60" fill="black"/>
+      <circle cx="450" cy="70" r="60" fill="black"/>
+      <rect x="150" y="230" width="200" height="80" fill="black"/>
+      <line x1="250" y1="310" x2="250" y2="350" stroke="black" stroke-width="20"/>
+    </mask>
+  </defs>
+
+  <!-- Castle walls -->
+  <rect x="100" y="100" width="300" height="300" fill="lightgray" mask="url(#castleMask)"/>
+
+</svg>

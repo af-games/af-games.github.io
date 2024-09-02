@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Basket -->
+  <rect id="basket" x="175" y="520" width="50" height="40" fill="#8B4513" opacity="0.9"/>
+  <path id="basket-handle" d="M200,560 Q225,540 250,560 H175 Q150,540 125,560 Z" fill="none" stroke="#8B4513"/>
+
+  <!-- Balloon Envelope -->
+  <path id="envelope" d="M250,50 Q275,100 300,50 Q225,100 250,50 Z" fill="#FFD700"/>
+  <linearGradient id="envelope-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%"   stop-color="#FFF380"/>
+    <stop offset="50%"  stop-color="#FFD700"/>
+    <stop offset="100%" stop-color="#FFA500"/>
+  </linearGradient>
+  <use xlink:href="#envelope" fill="url(#envelope-gradient)"/>
+
+  <!-- Balloon Top -->
+  <circle id="balloon-top" cx="250" cy="75" r="30" fill="#FFD700"/>
+
+  <!-- Rope -->
+  <path id="rope" d="M175,560 Q200,580 250,560 Q300,580 325,560 H450 V600 H350 Z" stroke="#4A2C19" fill="none"/>
+
+  <!-- Shadow -->
+  <rect id="shadow" x="170" y="560" width="50" height="40" fill="#8B4513" opacity="0.3"/>
+
+</svg>

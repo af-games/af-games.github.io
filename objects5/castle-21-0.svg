@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <!-- Ground -->
+  <rect x="0" y="250" width="600" height="50" fill="#3d7d52" />
+
+  <!-- Castle Wall -->
+  <polygon points="10 0, 590 0, 600 40, 590 80, 10 80" fill="#c0b28f" />
+
+  <!-- Left Tower -->
+  <rect x="50" y="150" width="90" height="200" fill="#ffd700" />
+  <circle cx="110" cy="230" r="15" fill="#ffd700" />
+  <circle cx="110" cy="320" r="15" fill="#ffd700" />
+  <polygon points="90 150, 180 100, 90 50" fill="#ffd700" />
+
+  <!-- Right Tower -->
+  <rect x="460" y="150" width="90" height="200" fill="#ffd700" />
+  <circle cx="470" cy="230" r="15" fill="#ffd700" />
+  <circle cx="470" cy="320" r="15" fill="#ffd700" />
+  <polygon points="430 150, 320 100, 430 50" fill="#ffd700" />
+
+  <!-- Gatehouse -->
+  <rect x="180" y="150" width="240" height="150" fill="#ffd700" />
+  <rect x="230" y="210" width="60" height="80" fill="#592f0b" />
+  <circle cx="290" cy="250" r="40" fill="#592f0b" />
+</svg>

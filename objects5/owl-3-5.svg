@@ -1,0 +1,44 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="75" rx="80" ry="60" fill="#F4E5C9" stroke="#D1A665"/>
+  <!-- Ocean Jasper stone effect -->
+  <defs>
+    <linearGradient id="oceanJasperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B7E6F; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#D9C3A2; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8B7E6F; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="75" rx="70" ry="50" fill="url(#oceanJasperGrad)"/>
+
+  <!-- Eyes -->
+  <circle cx="80" cy="60" r="12" fill="#2A3C4E"/>
+  <circle cx="120" cy="60" r="12" fill="#2A3C4E"/>
+  <!-- Black Spinel stone effect -->
+  <defs>
+    <radialGradient id="blackSpinelGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#211F1F; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#000; stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+  <circle cx="85" cy="65" r="4.5" fill="url(#blackSpinelGrad)"/>
+  <circle cx="115" cy="65" r="4.5" fill="url(#blackSpinelGrad)"/>
+
+  <!-- Wings -->
+  <polygon points="30,80 70,20 130,80" fill="#3C91E6"/>
+  <!-- Blue Sapphire pavé effect -->
+  <g stroke="#0D47A1">
+    <!-- Generate small circles to represent pavé stones -->
+    <?for (let i = 0; i < 50; i++) {?>
+      <circle cx="<?Math.random() * 20 + 30?>" cy="<?Math.random() * 60 + 20?>" r="1.5"/>
+    <?}?>
+  </g>
+
+  <!-- Details (feathers, claws) -->
+  <path d="M40,85 Q50,90 60,85 Q70,90 80,85" stroke="#231F20" fill="transparent"/>
+  <!-- Obsidian bead setting effect -->
+  <?for (let i = 0; i < 20; i++) {?>
+    <circle cx="<?Math.random() * 40 + 40?>" cy="<?Math.random() * 10 + 90?>" r="0.5" fill="#231F20"/>
+  <?}?>
+
+</svg>

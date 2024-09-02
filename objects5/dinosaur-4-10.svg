@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -500 1000 1000">
+```
+
+**Venturing deeper with tentative lines and shapes:**
+
+Let's start with a simple dinosaur body shape. We'll use `<path>` elements for the body, neck, and tail.
+
+```svg
+<path id="body" d="M0,-250 Q-300,-100 0,-400 Q300,-100 0,250" stroke="black" fill="transparent"/>
+```
+
+**Discovering new features:**
+
+Now, let's add some basic features like the head and legs. We'll use `<circle>` for the head and `<rect>` for the legs.
+
+For the head:
+```svg
+<circle id="head" cx="0" cy="-150" r="75" stroke="black" fill="lightgrey"/>
+```
+
+For the left leg:
+```svg
+<rect id="leftLeg" x="-100" y="-400" width="50" height="200" stroke="black" fill="transparent"/>
+```
+
+And for the right leg:
+```svg
+<rect id="rightLeg" x="100" y="-400" width="50" height="200" stroke="black" fill="transparent"/>
+```
+
+**Documenting the journey:**
+
+Here are some notes on the attributes we've used:
+
+- `id`: Unique identifier for each element.
+- `d` (for `<path>`): The path data, which consists of a series of commands and parameters.
+- `stroke`: The color of the outline of the shape.
+- `fill`: The color inside the shape. If not specified, it's transparent by default.
+- `cx`, `cy` (for `<circle>`): The x and y coordinates of the center of the circle.
+- `r` (for `<circle>`): The radius of the circle.
+- `x`, `y`, `width`, `height` (for `<rect>`): The coordinates of the top-left corner, width, and height of the rectangle.
+
+**Writing out the final draft:**
+
+Putting it all together:
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -500 1000 1000">
+  <path id="body" d="M0,-250 Q-300,-100 0,-400 Q300,-100 0,250" stroke="black" fill="transparent"/>
+  <circle id="head" cx="0" cy="-150" r="75" stroke="black" fill="lightgrey"/>
+  <rect id="leftLeg" x="-100" y="-400" width="50" height="200" stroke="black" fill="transparent"/>
+  <rect id="rightLeg" x="100" y="-400" width="50" height="200" stroke="black" fill="transparent"/>
+</svg>

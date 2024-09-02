@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="100" y="70" width="300" height="400" fill="#8B4513"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="150" r="90" fill="#8B4513"/>
+  <ellipse cx="200" cy="220" rx="70" ry="40" fill="#8B4513"/>
+
+  <!-- Eyes -->
+  <circle cx="160" cy="120" r="15" fill="#FFFFFF"/>
+  <circle cx="240" cy="120" r="15" fill="#FFFFFF"/>
+
+  <!-- Tail -->
+  <polygon points="380,70 400,90 420,70" fill="#8B4513" transform="rotate(160,400,75)"/>
+  <path d="M380,70 Q400,90 350,70 T300,70" stroke="#8B4513"/>
+
+  <!-- Legs -->
+  <rect x="120" y="300" width="20" height="150" fill="#8B4513" transform="rotate(40,140,350)"/>
+  <rect x="280" y="300" width="20" height="150" fill="#8B4513" transform="rotate(-40,260,350)"/>
+
+  <!-- Text -->
+  <text x="10%" y="95%" font-size="40px" text-anchor="start">DINOSAUR</text>
+
+</svg>

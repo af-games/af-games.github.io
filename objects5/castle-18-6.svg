@@ -1,0 +1,32 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base -->
+  <rect x="50" y="200" width="400" height="300" fill="#8B4513"/>
+
+  <!-- Walls -->
+  <rect x="70" y="200" width="150" height="400" fill="#DCDCDC"/>
+  <rect x="320" y="200" width="150" height="400" fill="#DCDCDC"/>
+
+  <!-- Towers -->
+  <polygon points="70,200 220,50 370,200" fill="#DCDCDC"/>
+  <polygon points="320,200 470,50 620,200" fill="#DCDCDC"/>
+
+  <!-- Roof -->
+  <polygon points="140,200 390,200 640,50 80,50" fill="#A0522D"/>
+  <rect x="70" y="50" width="60" height="150" fill="#A0522D"/>
+  <rect x="620" y="50" width="60" height="150" fill="#A0522D"/>
+
+  <!-- Windows -->
+  ...
+  <!-- Turrets -->
+  ...
+
+  <!-- Details -->
+  <line x1="160" y1="300" x2="240" y2="300" stroke="#000000"/>
+  <path d="M450 270 L500 320 L550 270 Z" fill="#FF69B4"/>
+  <line x1="380" y1="220" x2="480" y2="220" stroke="#000000"/>
+
+  <!-- Outer Wall and Decorative Elements -->
+  ...
+
+</svg>

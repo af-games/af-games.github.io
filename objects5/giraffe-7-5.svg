@@ -1,0 +1,68 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background-color:white;">
+
+  <!-- Body -->
+  <rect id="giraffeBody" x="150" y="100" width="200" height="400" fill="black"/>
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0,0"
+    to="30,-100"
+    dur="2s"
+    repeatCount="indefinite"/>
+
+  <!-- Head -->
+  <circle id="giraffeHead" cx="225" cy="75" r="60" fill="black"/>
+  <animate
+    attributeName="cy"
+    from="75"
+    to="125"
+    dur="1s"
+    repeatCount="indefinite"
+    begin="-1s"/>
+
+  <!-- Neck -->
+  <circle id="giraffeNeck1" cx="225" cy="140" r="30" fill="black"/>
+  <circle id="giraffeNeck2" cx="225" cy="180" r="20" fill="black"/>
+
+  <!-- Legs -->
+  <rect id="giraffeLegFrontLeft" x="170" y="350" width="40" height="150" fill="black"/>
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0,210,400"
+    to="0,-20,400"
+    dur="1s"
+    repeatCount="indefinite"
+    begin="-1.5s"/>
+
+  <rect id="giraffeLegFrontRight" x="250" y="350" width="40" height="150" fill="black"/>
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0,290,400"
+    to="0,20,400"
+    dur="1s"
+    repeatCount="indefinite"
+    begin="-1.5s"/>
+
+  <rect id="giraffeLegBackLeft" x="170" y="500" width="40" height="150" fill="black"/>
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0,210,650"
+    to="0,-20,650"
+    dur="1s"
+    repeatCount="indefinite"
+    begin="-1.5s"/>
+
+  <rect id="giraffeLegBackRight" x="250" y="500" width="40" height="150" fill="black"/>
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0,290,650"
+    to="0,20,650"
+    dur="1s"
+    repeatCount="indefinite"
+    begin="-1.5s"/>
+
+</svg>

@@ -1,0 +1,45 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Scene 1 -->
+<circle cx="400" cy="300" r="150" fill="white" stroke="black"/>
+<text x="400" y="320" font-family="Verdana" font-size="20">Igloo stands alone...</text>
+
+<!-- Scene 2 -->
+<circle cx="380" cy="260" r="15" fill="orange"/>
+<circle cx="375" cy="255" r="2" fill="black"/>
+<circle cx="385" cy="255" r="2" fill="black"/>
+<path d="M400 250 Q390 240 380 260" stroke="yellow" fill="transparent"/>
+<text x="370" y="240">A bird flies in...</text>
+
+<!-- Scene 3 -->
+<rect x="385" y="280" width="10" height="10" fill="black"/>
+<text x="400" y="290">Igloo packs his belongings...</text>
+
+<!-- Scene 4 -->
+<path d="M400 300 Q390 330 400 360 Q410 330 400 300" stroke="darkblue"/>
+<circle cx="385" cy="300" r="150" fill="white" stroke="black"/>
+<text x="370" y="290">Igloo embarks on his journey...</text>
+
+<!-- Scene 5 -->
+<rect x="460" y="290" width="80" height="50" rx="10" fill="brown"/>
+<circle cx="465" cy="300" r="5" fill="black"/>
+<circle cx="475" cy="300" r="5" fill="black"/>
+<circle cx="470" cy="295" r="3" fill="white"/>
+<text x="460" y="310">Igloo meets a polar bear...</text>
+
+<!-- Scene 6 -->
+<g stroke-width="2">
+  <path d="M600 200 Q580 230 600 260 Q620 230 600 200"/>
+  <circle cx="580" cy="200" r="10" fill="white" stroke="black"/>
+  <circle cx="590" cy="200" r="10" fill="white" stroke="black"/>
+  <!-- Repeat for more igloos -->
+</g>
+<text x="600" y="180">Igloo arrives at the gathering...</text>
+
+<!-- Snowflakes -->
+<g>
+  <circle cx="150" cy="250" r="3" fill="lightblue"/>
+  <!-- Repeat for more snowflakes -->
+</g>
+
+</svg>

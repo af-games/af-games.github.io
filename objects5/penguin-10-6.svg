@@ -1,0 +1,36 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(51,98,234);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(237,28,135);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- P -->
+  <path d="M10,40 Q30,60 60,60 T140,90 V150 A70,70 0 0 0 210,210 L140,280 H10 Z"
+        stroke-width="5" fill="url(#gradient)" />
+
+  <!-- E -->
+  <path d="M30,90 Q60,90 90,120 T170,90 V150 A70,70 0 0 0 240,260 L170,330 H30 Z"
+        stroke-width="5" fill="url(#gradient)" />
+
+  <!-- N -->
+  <path d="M50,90 Q80,90 110,120 T180,90 V150 A70,70 0 0 0 250,260 L180,330 H50 Z"
+        stroke-width="5" fill="url(#gradient)" />
+
+  <!-- G -->
+  <path d="M70,90 Q100,120 140,120 T170,90 V150 A70,70 0 0 1 240,260 L210,330 H70 Z"
+        stroke-width="5" fill="url(#gradient)" />
+
+  <!-- U -->
+  <path d="M80,90 Q110,120 150,120 A70,70 0 0 0 220,60 H80 Z"
+        stroke-width="5" fill="url(#gradient)" />
+
+  <!-- I -->
+  <path d="M90,90 V330 M120,90 V330"
+        stroke-width="5" fill="url(#gradient)" />
+
+  <!-- N -->
+  <path d="M150,90 Q180,90 210,120 T270,90 V150 A70,70 0 0 0 340,260 L270,330 H150 Z"
+        stroke-width="5" fill="url(#gradient)" />
+</svg>

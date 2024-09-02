@@ -1,0 +1,33 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 400">
+
+  <!-- Body -->
+  <rect id="body" x="80" y="70" width="260" height="240"
+        fill="#E3A24D" stroke="#4F311C" stroke-width="2"/>
+
+  <!-- Head -->
+  <polygon id="head" points="240,40,360,40,360,150,290,210,240,170"
+           fill="#E3A24D" stroke="#4F311C" stroke-width="2"/>
+
+  <!-- Face -->
+  <circle id="face" cx="300" cy="110" r="80" fill="#FFDF9D"/>
+  <circle id="eye-left" cx="265" cy="85" r="10" fill="#000"/>
+  <circle id="eye-right" cx="335" cy="85" r="10" fill="#000"/>
+  <path id="mouth" d="M240,130 Q260,150 290,130" stroke="#000"
+        fill="transparent"/>
+
+  <!-- Legs -->
+  <rect id="front-left-leg" x="100" y="240" width="40" height="80"
+        fill="#E3A24D" stroke="#4F311C" stroke-width="2"/>
+  <rect id="front-right-leg" x="260" y="240" width="40" height="80"
+        fill="#E3A24D" stroke="#4F311C" stroke-width="2"/>
+  <rect id="back-left-leg" x="95" y="320" width="40" height="80"
+        fill="#E3A24D" stroke="#4F311C" stroke-width="2"/>
+  <rect id="back-right-leg" x="255" y="320" width="40" height="80"
+        fill="#E3A24D" stroke="#4F311C" stroke-width="2"/>
+
+  <!-- Tail -->
+  <path id="tail" d="M370,210 Q390,250 380,290" stroke="#4F311C"
+        fill="transparent" stroke-width="2"/>
+
+</svg>

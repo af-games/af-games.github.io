@@ -1,0 +1,22 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy body -->
+  <path d="M100,50 Q90,75 60,120 C40,160 80,200 100,220 Q140,160 120,120" fill="none" stroke="black"/>
+
+  <!-- Fairy wings -->
+  <path d="M90,50 Q70,30 80,20 L120,20 Q140,30 130,50" fill="none" stroke="black"/>
+  <path d="M90,60 Q70,70 80,80 L120,80 Q140,70 130,60"/>
+
+  <!-- Fairy hair -->
+  <polygon points="110,50 100,40 115,45" fill="black"/>
+  <polygon points="125,50 135,40 130,45" fill="black"/>
+
+  <!-- Fairy face -->
+  <circle cx="100" cy="70" r="30" stroke="black"/>
+  <path d="M90,80 Q100,90 110,80" stroke="black"/> <!-- mouth -->
+
+  <!-- Fairy dress -->
+  <rect x="80" y="220" width="40" height="60" fill="#ffd700"/>
+  <circle cx="100" cy="280" r="30" fill="#ffd700"/>
+
+</svg>

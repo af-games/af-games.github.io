@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Skin -->
+  <g id="skin" fill="#FEF9E7">
+    <!-- Face (4x4 tiles) -->
+    <rect x="64" y="80" width="32" height="32"/>
+    ...
+    <!-- Body (8x8 tiles) -->
+    <rect x="96" y="160" width="64" height="64"/>
+    ...
+  </g>
+
+  <!-- Hair -->
+  <g id="hair" fill="#3D0C02">
+    <!-- Head hair (2x2 tiles) -->
+    <rect x="80" y="96" width="16" height="16"/>
+    ...
+  </g>
+
+  <!-- Eyes -->
+  <g id="eyes" fill="#383534">
+    <!-- Left eye (2x2 tiles) -->
+    <circle cx="144" cy="120" r="16"/>
+    ...
+  </g>
+
+  <!-- Wings (Gradient from pink to plum) -->
+  <defs>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB6C1"/>
+      <stop offset="100%" style="stop-color:#C771AA"/>
+    </linearGradient>
+  </defs>
+  <rect x="384" y="96" width="128" height="256" fill="url(#wingGradient)"/>
+
+  <!-- Clothing -->
+  <g id="clothing" fill="#A9CCE3">
+    <!-- Dress (8x8 tiles) -->
+    <rect x="96" y="240" width="64" height="64"/>
+    ...
+  </g>
+
+  <!-- Dark purple accents (dress trim and belt) -->
+  <g id="darkPurple" fill="#5D26C1">
+    <rect x="112" y="304" width="32" height="32"/>
+    ...
+  </g>
+
+  <!-- Highlights (hair and wings) -->
+  <g id="highlights" fill="#FFFFFF">
+    <path d="M..."/> <!-- Hair highlight -->
+    <path d="M..."/> <!-- Wing highlights -->
+  </g>
+</svg>

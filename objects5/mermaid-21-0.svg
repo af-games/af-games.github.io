@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+
+  <!-- Rock -->
+  <path d="M150,575 Q200,585 250,570 Q300,590 350,575 Q400,580 450,565 Q500,570 550,560 Q600,565 650,550" fill="#4A4A4A"/>
+
+  <!-- Mermaid Body -->
+  <ellipse cx="300" cy="280" rx="100" ry="150" fill="#ADD8E6"/>
+  <rect x="270" y="350" width="60" height="90" fill="#ADD8E6"/>
+  <rect x="330" y="350" width="60" height="90" fill="#ADD8E6"/>
+
+  <!-- Mermaid Hair -->
+  <path d="M270,190 Q300,150 330,190 Q360,150 420,190 A100,50 0 0 0 480,320" fill="#ADD8E6"/>
+
+  <!-- Mermaid Tail -->
+  <ellipse cx="300" cy="500" rx="150" ry="75" fill="#ADD8E6"/>
+  <path d="M270,500 Q300,550 330,500 Q420,520 510,500 Z" fill="#ADD8E6"/>
+
+  <!-- Bubbles -->
+  <circle cx="100" cy="590" r="5" fill="#ADD8E6" opacity="0.5"/>
+  <circle cx="200" cy="585" r="3" fill="#ADD8E6" opacity="0.5"/>
+  <!-- Add more bubbles as desired -->
+
+  <!-- Seaweed -->
+  <path d="M150,450 Q200,480 250,455 Q300,490 350,465" stroke="#228B22" fill="transparent"/>
+  <!-- Add more seaweed paths as desired -->
+
+</svg>

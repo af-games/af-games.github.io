@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+```
+
+**Step 2: Add a square for the balloon's body**
+
+We'll start with a red square to represent the main body of the balloon.
+
+```svg
+<rect x="100" y="50" width="300" height="200" fill="red"/>
+```
+
+**Step 3: Introduce a circle for the balloon's center**
+
+Now, let's add a yellow circle in the middle to represent the opening of the balloon.
+
+```svg
+<circle cx="200" cy="150" r="75" fill="yellow"/>
+```
+
+**Step 4: Add lines for the balloon strings**
+
+Let's create two black lines coming out of the top of the balloon to represent the strings.
+
+```svg
+<line x1="200" y1="35" x2="200" y2="75" stroke="black" stroke-width="5"/>
+<line x1="280" y1="35" x2="280" y2="75" stroke="black" stroke-width="5"/>
+```
+
+**Step 5: Create a path for the balloon's tail**
+
+Let's add a curved path at the bottom to create the tail of the balloon.
+
+```svg
+<path d="M140,300 Q200,375 260,300" stroke="black" stroke-width="5" fill="transparent"/>
+```
+
+**Step 6: Add a final touch with a small circle for the tail's end**
+
+Let's add a tiny white circle at the end of the balloon's tail.
+
+```svg
+<circle cx="290" cy="310" r="5" fill="white"/>
+```
+
+**Final SVG code:**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <rect x="100" y="50" width="300" height="200" fill="red"/>
+  <circle cx="200" cy="150" r="75" fill="yellow"/>
+  <line x1="200" y1="35" x2="200" y2="75" stroke="black" stroke-width="5"/>
+  <line x1="280" y1="35" x2="280" y2="75" stroke="black" stroke-width="5"/>
+  <path d="M140,300 Q200,375 260,300" stroke="black" stroke-width="5" fill="transparent"/>
+  <circle cx="290" cy="310" r="5" fill="white"/>
+</svg>

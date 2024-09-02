@@ -1,0 +1,15 @@
+<svg width="200" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <circle cx="100" cy="270" r="80" fill="#FFD6E5"/>
+
+  <!-- Top Cake Layer -->
+  <circle cx="100" cy="140" r="30" fill="#FFD6E5"/>
+
+  <!-- Frosting -->
+  <rect x="30" y="90" width="140" height="260" fill="#FFFFFF"/>
+
+  <!-- Cherry on Top -->
+  <circle cx="85" cy="50" r="15" fill="#FF4500"/>
+
+</svg>

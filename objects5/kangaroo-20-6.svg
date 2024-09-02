@@ -1,0 +1,17 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#F39C12;stop-opacity:1"/>
+      <stop offset="25%" style="stop-color:#FFF569;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#66BB6A;stop-opacity:1"/>
+      <stop offset="75%" style="stop-color:#2196F3;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Kangaroo body -->
+  <path d="M 10,50 C 40,70 80,30 120,50 C 140,60 160,20 180,60 A 90,45 0 0 1 120,95" fill="url(#grad1)"/>
+
+  <!-- Pouch -->
+  <path d="M 70,85 A 30,15 0 0 1 110,105" fill="#FFF569"/>
+</svg>

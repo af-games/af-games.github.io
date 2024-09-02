@@ -1,0 +1,22 @@
+<svg width="100%" height="100%" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Main Plaza -->
+<rect id="plaza" x="250" y="150" width="300" height="300"
+style="fill:lightgreen; stroke:black; stroke-width:2"/>
+
+<!-- Tower -->
+<circle id="tower" cx="500" cy="400" r="80"
+style="fill:brown; stroke:black; stroke-width:2"/>
+
+<!-- Residential Buildings -->
+<rect id="building1" x="-300" y="-150" width="200" height="300"
+style="fill:lightgrey; stroke:black; stroke-width:2"/>
+<rect id="building2" x="-200" y="100" width="200" height="300"
+style="fill:lightgrey; stroke:black; stroke-width:2"/>
+<!-- Add more buildings as needed -->
+
+<!-- Roads -->
+<path id="road1" d="M-300 50 L500 450 L800 -50 Z"
+style="fill:none; stroke:black; stroke-width:4"/>
+
+</svg>

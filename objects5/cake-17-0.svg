@@ -1,0 +1,32 @@
+<svg width="300" height="450" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <circle cx="150" cy="390" r="80" fill="#8B4513"/>
+
+  <!-- Middle Layer -->
+  <circle cx="150" cy="330" r="60" fill="#FFD6E5"/>
+
+  <!-- Top Layer (Crown) -->
+  <circle cx="150" cy="270" r="40" fill="#FFFACD"/>
+
+  <!-- Frosting between Base and Middle Layer -->
+  <rect x="130" y="350" width="30" height="40" fill="#ADD8E6"/>
+  <rect x="190" y="350" width="30" height="40" fill="#ADD8E6"/>
+
+  <!-- Frosting between Middle Layer and Crown -->
+  <rect x="135" y="290" width="20" height="40" fill="#ADD8E6"/>
+  <rect x="170" y="290" width="20" height="40" fill="#ADD8E6"/>
+
+  <!-- Candle -->
+  <rect x="145" y="305" width="10" height="20" fill="#FFFF00"/>
+  <rect x="140" y="300" width="20" height="2" fill="black"/>
+
+  <!-- Decorations (small circles) -->
+  <circle cx="160" cy="375" r="5" fill="#FF69B4"/>
+  <circle cx="140" cy="350" r="5" fill="#DAA520"/>
+
+  <!-- Star decorations -->
+  <polygon points="150,340 160,350 170,340 160,330" fill="#FFD700"/>
+  <polygon points="140,360 130,370 120,360 130,350" fill="#8B4513"/>
+
+</svg>

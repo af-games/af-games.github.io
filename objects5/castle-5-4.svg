@@ -1,0 +1,47 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle -->
+  <polygon id="castle" points="100,10 400,10 400,280 100,280" fill="lightgrey">
+    <animateTransform
+      attributeName="points"
+      type=" cubicBezierCurve"
+      values="
+        '100,10 400,10 400,280 100,280';
+        '100,150 370,150 400,230 130,230';
+      "
+      dur="3s"
+      repeatCount="indefinite"
+    />
+  </polygon>
+
+  <!-- Gates -->
+  <rect id="gates" x="90" y="10" width="20" height="50" fill="brown">
+    <animateTransform
+      attributeName="height"
+      type=" cubicBezierCurve"
+      values="
+        '50';
+        '0';
+      "
+      dur="3s"
+      begin="0.5s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+  <!-- Drawbridge -->
+  <path id="drawbridge" d="M270,180 Q400,280 320,300" stroke="brown" fill="transparent">
+    <animateTransform
+      attributeName="d"
+      type=" cubicBezierCurve"
+      values="
+        'M270,180 Q400,280 320,300';
+        'M270,250 Q320,280 270,300';
+      "
+      dur="3s"
+      begin="1.5s"
+      repeatCount="indefinite"
+    />
+  </path>
+
+</svg>

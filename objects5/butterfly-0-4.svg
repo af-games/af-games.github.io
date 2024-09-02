@@ -1,0 +1,15 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="70" cy="70" r="40" fill="#FF69B4"/>
+  <path d="M70,80 Q60,90 50,100 H90 Q100,90 90,80" stroke="black" fill="transparent"/>
+
+  <!-- Left Wing -->
+  <polygon points="30,20 10,70 40,70" fill="#FF69B4"/>
+  <path d="M30,20 Q25,10 15,10 L30,5 L15,0 L30,0 Z" stroke="black" fill="transparent"/>
+
+  <!-- Right Wing -->
+  <polygon points="150,20 140,70 170,70" fill="#FF69B4"/>
+  <path d="M150,20 Q155,10 165,10 L150,5 L165,0 L150,0 Z" stroke="black" fill="transparent"/>
+
+</svg>

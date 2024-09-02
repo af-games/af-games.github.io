@@ -1,0 +1,18 @@
+<svg width="200" height="200" viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M-50,-60 Q-40,-40 0,-30 Q40,-40 50,-60" stroke="black" fill="lightblue"/>
+
+  <!-- Head -->
+  <ellipse cx="-25" cy="-60" rx="25" ry="35" stroke="black" fill="lightblue"/>
+
+  <!-- Tail -->
+  <path d="M50,-60 Q60,-40 80,-60 Q70,-80 50,-100" stroke="black" fill="lightblue"/>
+
+  <!-- Fin (left) -->
+  <path d="M-30,-40 Q-45,-20 -30,0 Q-15,-20 -30,-40" stroke="black" fill="lightblue"/>
+
+  <!-- Fin (right) -->
+  <path d="M30,-40 Q45,-20 30,0 Q15,-20 30,-40" stroke="black" fill="lightblue"/>
+
+</svg>

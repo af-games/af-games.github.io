@@ -1,0 +1,25 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFF"/>
+
+  <!-- Mermaid's head and torso -->
+  <g transform="translate(150, 75)">
+    <!-- Head -->
+    <circle cx="50" cy="50" r="40" fill="#F6998B"/>
+    <!-- Torso (squares) -->
+    <rect x="-25" y="100" width="100" height="75" fill="#FFF"/>
+    <rect x="-35" y="125" width="80" height="50" fill="#E9C46A"/>
+    <rect x="-40" y="150" width="70" height="35" fill="#F3D996"/>
+  </g>
+
+  <!-- Mermaid's tail -->
+  <g transform="translate(125, 250)">
+    <!-- Tail fin (triangles) -->
+    <polygon points="0,-50 50,-100 100,-50" fill="#007BFF"/>
+    <polygon points="30,-80 60,-140 90,-80" fill="#28A7EC"/>
+    <!-- Tail (circles) -->
+    <circle cx="0" cy="0" r="50" fill="#FFF"/>
+    <circle cx="50" cy="30" r="35" fill="#E6F7FF"/>
+  </g>
+
+</svg>

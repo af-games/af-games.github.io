@@ -1,0 +1,6 @@
+<svg>` tag and give it some basic dimensions:
+
+```xml
+<svg width="500" height="500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!-- Composition starts here -->
+</svg>

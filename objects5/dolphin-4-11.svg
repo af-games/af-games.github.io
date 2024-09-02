@@ -1,0 +1,16 @@
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="dolphin-mask">
+      <rect x="95" y="65" width="70" height="35"/>
+    </mask>
+  </defs>
+
+  <!-- Clue 1: Dolphin outline -->
+  <path class="dolphin" d="M10 80 Q30 60 60 80 Q90 120 120 80 Q150 40 180 80 Q210 120 240 80 Z"/>
+
+  <!-- Clue 3: Hidden message -->
+  <text id="dolphin-text" x="120" y="140">SOLVED</text>
+
+  <!-- Apply the mask to reveal the dolphin outline and the message -->
+  <use class="dolphin-masked" href="#dolphin-outline" mask="url(#dolphin-mask)"/>
+</svg>

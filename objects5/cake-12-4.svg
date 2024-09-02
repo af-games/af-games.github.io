@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake base -->
+  <circle cx="100" cy="95" r="85" stroke="black" stroke-width="2" fill="#FDD794" />
+
+  <!-- Cake top -->
+  <path d="M100,35 Q80,5 60,70 Q140,5 120,70 Q100,100 100,75" stroke="black" stroke-width="2" fill="#FDD794" />
+
+  <!-- Frosting -->
+  <path d="M100,75 A35,35 0 0 0 135,80 L165,95 Q165,110 135,125 A35,35 0 0 0 100,120 Z" stroke="black" stroke-width="2" fill="#FFFDD0" />
+
+  <!-- Cake layers -->
+  <circle cx="70" cy="60" r="40" stroke="black" stroke-width="1" fill="#FDD794" />
+  <circle cx="130" cy="60" r="40" stroke="black" stroke-width="1" fill="#FDD794" />
+
+  <!-- Cherry on top -->
+  <circle cx="185" cy="25" r="8" fill="red" />
+  <path d="M185,33 Q190,38 185,43 Q180,38 185,33 Z" stroke="black" stroke-width="1" fill="#FFCCCB" />
+
+</svg>

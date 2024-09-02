@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Pull out a circle from thin air -->
+  <circle cx="0" cy="0" r="40"
+          fill="blue"
+          stroke="black"
+          stroke-width="3" />
+
+  <!-- Make colors appear with a rectangle -->
+  <rect x="25" y="-40" width="50" height="80"
+        fill="url(# gradient )"
+        stroke="purple"
+        stroke-width="3" />
+
+  <!-- Create a linear gradient to give our rectangle some color -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,0,255);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#F5DEB3"/>
+
+  <!-- Mermaid body -->
+  <path d="M75,425 Q100,500 150,550 Q200,600 250,550 Q300,500 350,425" fill="#007B9A"/>
+
+  <!-- Mermaid tail -->
+  <path d="M350,425 Q375,600 450,550 Q525,500 600,425 Q675,350 750,425" stroke-width="1" stroke="#D19FE2" fill="none"/>
+
+  <!-- Mermaid hair -->
+  <rect x="200" y="100" width="400" height="300" fill="url(#hairPattern)"/>
+  <defs>
+    <pattern id="hairPattern" patternUnits="userSpaceOnUse" width="50" height="50">
+      <image href="https://example.com/floralPattern.png" x="0" y="0" width="50" height="50"/>
+    </pattern>
+  </defs>
+
+  <!-- Patchwork fabrics (houndstooth patterns) -->
+  <rect x="125" y="375" width="150" height="150" fill="#C64269"/>
+  <rect x="300" y="250" width="150" height="150" fill="#F7DC6F"/>
+  <rect x="475" y="125" width="150" height="150" fill="#A0E6FF"/>
+
+</svg>

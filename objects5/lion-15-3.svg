@@ -1,0 +1,34 @@
+<svg width="500" height="500" viewBox="-250 -250 500 500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Main outline -->
+<circle cx="0" cy="0" r="200" fill="none" stroke="black"/>
+
+<!-- Body -->
+<path d="M-100 -50 A120 120 0 0 1 100 -50 A40 40 0 0 0 0 -90 A120 120 0 0 1 -100 -50" fill="saddlebrown"/>
+
+<!-- Head -->
+<path d="M0 -170 Q-50 -130 0 -80 Q50 -130 0 -170" fill="#F2CDBB"/>
+<circle cx="0" cy="-160" r="40" fill="#F2CDBB"/>
+
+<!-- Eyes -->
+<circle cx="-30" cy="-150" r="10" fill="black"/>
+<circle cx="30" cy="-150" r="10" fill="black"/>
+
+<!-- Mane -->
+<path d="M-90 -70 Q-60 -80 0 -90 Q60 -80 90 -70" stroke="#FFBF00" fill="transparent"/>
+
+<!-- Legs -->
+<path d="M-120 -50 H-40 V130 H-120 Z"/>
+<path d="M120 -50 H80 V130 H120 Z"/>
+<path d="M-60 70 Q0 90 60 70" stroke="black" fill="transparent"/>
+<path d="M60 70 Q0 90 -60 70" stroke="black" fill="transparent"/>
+
+<!-- Tail -->
+<path d="M130 -50 Q120 -80 100 -50 Q120 -20 130 0" stroke="#FFBF00" fill="transparent"/>
+
+<!-- Labels -->
+<text x="-240" y="-260" font-family="Verdana" font-size="14">(-250, -250)</text>
+<text x="240" y="-260" font-family="Verdana" font-size="14">(250, -250)</text>
+<text x="0" y="-280" font-family="Verdana" font-size="14">(0, -250) Lion's nose</text>
+
+</svg>

@@ -1,0 +1,28 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <rect x="100" y="50" width="80" height="200" rx="40" stroke="#000" stroke-width="5"
+    fill="#A9A9A9"/>
+
+  <!-- Curtain Wall -->
+  <rect x="70" y="250" width="160" height="30" rx="15" stroke="#000" stroke-width="5"
+    fill="#A9A9A9"/>
+
+  <!-- Gatehouse -->
+  <rect x="70" y="300" width="160" height="50" rx="20" stroke="#000" stroke-width="5"
+    fill="#CCBBAA"/>
+  <path d="M80,325 Q120,340 160,325" stroke="#000" stroke-width="5"/>
+
+  <!-- Moat -->
+  <rect x="30" y="370" width="220" height="50" rx="25" stroke="#000" stroke-width="5"
+    fill="#C6E28B"/>
+
+  <!-- Roof Lines -->
+  <path d="M100,45 Q140,380 180,45" stroke="#000" stroke-width="2"/>
+  <path d="M70,45 Q110,380 150,45" stroke="#000" stroke-width="2"/>
+
+  <!-- Dividing Lines -->
+  <line x1="100" y1="250" x2="100" y2="70" style="stroke: #000; stroke-dasharray: 3, 3"/>
+  <line x1="240" y1="250" x2="240" y2="70" style="stroke: #000; stroke-dasharray: 3, 3"/>
+
+</svg>

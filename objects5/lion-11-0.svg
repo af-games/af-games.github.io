@@ -1,0 +1,18 @@
+<svg viewBox="-250 -150 500 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <circle cx="0" cy="0" r="150" fill="orange" stroke="black"/>
+
+  <!-- Mane -->
+  <path d="M0,-100 A150,150 0 0 1 0,70 A150,150 0 0 1 0,230 Z"
+        fill="gold" stroke="black"/>
+
+  <!-- Eyes -->
+  <ellipse cx="-60" cy="-50" rx="40" ry="30" fill="white"/>
+  <ellipse cx="60" cy="-50" rx="40" ry="30" fill="white"/>
+
+  <!-- Nose (Triangle) -->
+  <polygon points="-20,-100, 20,-100, 0,-50"
+           fill="saddleBrown" stroke="black"/>
+
+</svg>

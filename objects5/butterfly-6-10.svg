@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100 50 Q90 70, 80 80 Q120 70, 100 50 Z"
+        fill="#FFA500" stroke="#FFC300" stroke-width="5"/>
+
+  <!-- Wings -->
+  <path d="M80 30 L120 30 L100 60 L80 30 Z"
+        fill="#FFF4D9" stroke="#FFE3B3" stroke-width="5"/>
+  <path d="M70 20 Q90 20, 80 35 Q70 50, 60 35 L70 20 Z"
+        fill="#FFF4D9" stroke="#FFE3B3" stroke-width="5"/>
+  <path d="M110 20 Q130 20, 120 35 Q110 50, 100 35 L110 20 Z"
+        fill="#FFF4D9" stroke="#FFE3B3" stroke-width="5"/>
+
+  <!-- Antennae -->
+  <path d="M85 60 L95 70 L75 70 Z"
+        fill="#FFA500" stroke="#FFC300" stroke-width="5"/>
+  <path d="M115 60 L105 70 L125 70 Z"
+        fill="#FFA500" stroke="#FFC300" stroke-width="5"/>
+
+</svg>

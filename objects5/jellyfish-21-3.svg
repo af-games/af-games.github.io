@@ -1,0 +1,17 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Jellyfish Bell -->
+  <circle cx="200" cy="200" r="150" fill="lightblue"/>
+
+  <!-- Tentacles -->
+  <?for (let i = 0; i < 8; i++) {?>
+    <path d="M200,200 A150,150 0 0 1 350,<?= Math.sin(i * Math.PI / 4) * 150 + 200 ?>" stroke="black"/>
+  <?}?>
+
+  <!-- Oral Arms -->
+  <circle cx="200" cy="150" r="30" fill="lightblue"/>
+  <circle cx="170" cy="120" r="30" fill="lightblue"/>
+  <circle cx="230" cy="120" r="30" fill="lightblue"/>
+  <circle cx="200" cy="90" r="30" fill="lightblue"/>
+
+</svg>

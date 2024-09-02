@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 120 80">
+  <!-- Body -->
+  <ellipse cx="50" cy="75" rx="40" ry="60" fill="#A2D9FF"/>
+
+  <!-- Wings -->
+  <g transform="rotate(10, 30, 75)">
+    <ellipse cx="30" cy="75" rx="35" ry="55" fill="#4C6ECF"/>
+  </g>
+  <g transform="rotate(-10, 70, 75)">
+    <ellipse cx="70" cy="75" rx="35" ry="55" fill="#4C6ECF"/>
+  </g>
+
+  <!-- Antennae -->
+  <path d="M50 25 Q55 10, 60 25 L60 35 Z" stroke="black" fill="transparent"/>
+  <path d="M50 25 Q45 10, 40 25 L40 35 Z" stroke="black" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="35" cy="30" r="5" fill="black"/>
+  <circle cx="65" cy="30" r="5" fill="black"/>
+
+  <!-- Heart detail -->
+  <path d="M45,80 Q47.5,90 52.5,90 Q55,80 57.5,80 Z" stroke="black" fill="transparent"/>
+</svg>

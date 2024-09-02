@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 100 100">
+  <!-- Mask definition -->
+  <defs>
+    <mask id="castleMask" x="0" y="0" width="100%" height="100%">
+      <rect width="100%" height="100%" fill="black"/>
+      <path d="M25,30 a25,25 0 1 1 50,0 a25,25 0 1 1 -50,0" fill="white"/>
+    </mask>
+  </defs>
+
+  <!-- Castle wall -->
+  <rect x="20" y="30" width="60" height="40" fill="#8B7D6B"/>
+
+  <!-- Towers -->
+  <path d="M15,30 a15,15 0 0 1 30,0 a15,15 0 0 1 -30,0"/>
+  <path d="M85,30 a15,15 0 0 1 30,0 a15,15 0 0 1 -30,0"/>
+
+  <!-- Gate -->
+  <rect x="40" y="65" width="20" height="15" fill="#8B7D6B"/>
+
+  <!-- Flag -->
+  <polygon points="90,20 95,30 90,35" fill="#FFD700"/>
+
+  <!-- Details (windows, doors, battlements) -->
+  <circle cx="45" cy="48" r="3"/>
+  <circle cx="65" cy="48" r="3"/>
+  <rect x="25" y="55" width="10" height="5"/>
+
+  <!-- Apply mask to reveal castle -->
+  <g mask="url(#castleMask)">
+    <path d="M20,30 a5,5 0 0 1 10,0 a5,5 0 0 1 -10,0"/>
+    <path d="M80,30 a5,5 0 0 1 10,0 a5,5 0 0 1 -10,0"/>
+    <rect x="45" y="65" width="10" height="5"/>
+  </g>
+</svg>

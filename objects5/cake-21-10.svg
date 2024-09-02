@@ -1,0 +1,13 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Base -->
+  <rect x="50" y="100" width="100" height="80" fill="#B76E79"/>
+
+  <!-- Icing -->
+  <path d="M50,20 C50,100 150,100 150,20 Z" fill="#FFFFFF"/>
+
+  <!-- Topping -->
+  <circle cx="100" cy="40" r="30" fill="#F5D76E"/>
+
+  <!-- Cherry on Top -->
+  <circle cx="100" cy="20" r="5" fill="#FF0000"/>
+</svg>

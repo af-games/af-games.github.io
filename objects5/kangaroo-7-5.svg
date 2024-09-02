@@ -1,0 +1,25 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFFAF5"/>
+
+  <!-- Grass (concentric circles) -->
+  <g id="grass" transform="translate(400, 300)">
+    <circle r="200" fill="#8DC63C"/>
+    <circle r="150" fill="#7DB952"/>
+    <circle r="100" fill="#6AB041"/>
+  </g>
+
+  <!-- Kangaroos (random placement) -->
+  <g id="kangaroos">
+    <!-- ... More kangaroos here ... -->
+    <circle cx="300" cy="250" r="30" fill="#FFB35A"/>
+    <circle cx="500" cy="400" r="40" fill="#FFA500"/>
+  </g>
+
+  <!-- Trees (wave-like pattern) -->
+  <g id="trees">
+    <!-- ... More trees here ... -->
+    <polygon points="600,100 650,50 700,100" fill="#D2A14A"/>
+    <polygon points="300,200 250,150 350,250" fill="#CBA639"/>
+  </g>
+</svg>

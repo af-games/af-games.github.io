@@ -1,0 +1,46 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define patterns for repeating motifs -->
+  <defs>
+    <pattern id="dolphin-body-pattern" patternUnits="userSpaceOnUse" width="100" height="70">
+      <circle cx="50" cy="35" r="40" fill="#6495ED"/>
+    </pattern>
+
+    <pattern id="dolphin-fin-pattern" patternUnits="userSpaceOnUse" width="20" height="30">
+      <ellipse cx="10" cy="15" rx="8" ry="20" fill="#6495ED"/>
+    </pattern>
+  </defs>
+
+  <!-- Create a grid of dolphins -->
+  <g transform="translate(50, 50)">
+    <rect width="370" height="370" stroke="#6495ED" stroke-width="2"/>
+
+    <!-- Front fins -->
+    <g id="front-fins">
+      <use xlink:href="#dolphin-fin-pattern" y="35"/>
+      <use xlink:href="#dolphin-fin-pattern" transform="translate(100, 0)"/>
+      <use xlink:href="#dolphin-fin-pattern" transform="translate(200, 0)"/>
+    </g>
+
+    <!-- Back fins -->
+    <g id="back-fins">
+      <use xlink:href="#dolphin-fin-pattern" y="45" transform="rotate(-45, 30, 60)"/>
+      <use xlink:href="#dolphin-fin-pattern" transform="translate(100, 0)" transform="rotate(-45, 130, 60)"/>
+      <use xlink:href="#dolphin-fin-pattern" transform="translate(200, 0)" transform="rotate(-45, 230, 60)"/>
+    </g>
+
+    <!-- Bodies -->
+    <g id="bodies">
+      <use xlink:href="#dolphin-body-pattern"/>
+      <use xlink:href="#dolphin-body-pattern" transform="translate(100, 0)"/>
+      <use xlink:href="#dolphin-body-pattern" transform="translate(200, 0)"/>
+    </g>
+
+    <!-- Tails -->
+    <path d="M350,70 Q380,40 410,70 Q440,100 470,70 Z" stroke="#6495ED" fill="transparent"/>
+    <use xlink:href="#dolphin-tail-pattern" transform="translate(100, 0)"/>
+    <use xlink:href="#dolphin-tail-pattern" transform="translate(200, 0)"/>
+
+  </g>
+
+</svg>

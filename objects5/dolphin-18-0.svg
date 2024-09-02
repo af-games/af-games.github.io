@@ -1,0 +1,22 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="150" cy="170" rx="80" ry="120"
+           style="fill:#2C69A5; stroke: #333333; stroke-width:2"/>
+
+  <!-- Tail -->
+  <ellipse cx="220" cy="180" rx="40" ry="70"
+           style="fill:#2C69A5; stroke: #333333; stroke-width:2"/>
+  <ellipse cx="250" cy="180" rx="30" ry="50"
+           style="fill:#2C69A5; stroke: #333333; stroke-width:2"/>
+
+  <!-- Fin -->
+  <polygon points="175,140 225,140 200,80"
+           style="fill:#FFFFFF; stroke: #333333; stroke-width:2"/>
+
+  <!-- Head Outline -->
+  <path d="M110 140 Q150 90 200 140" style="fill: none; stroke: #333333; stroke-width:2"/>
+  <polygon points="100,70 130,70 115,40"
+           style="fill:#333333"/>
+
+</svg>

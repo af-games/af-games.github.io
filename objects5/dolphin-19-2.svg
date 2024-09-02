@@ -1,0 +1,22 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M150,70 Q180,60 200,90 Q240,130 280,100 Q290,70 300,10 Z" fill="#8BC3D1"/>
+
+  <!-- Head -->
+  <path d="M250,50 Q260,40 270,50 L265,55 Q260,60 250,55 Z" fill="#8BC3D1"/>
+
+  <!-- Tail -->
+  <path d="M300,100 Q320,90 330,70 Q340,90 350,100 Q360,120 370,100 Z" fill="#8BC3D1"/>
+
+  <!-- Fin (left) -->
+  <path d="M150,70 Q130,60 120,90 Q140,110 150,90 Z" fill="#8BC3D1"/>
+
+  <!-- Fin (right) -->
+  <path d="M300,70 Q320,60 330,90 Q320,110 310,90 Z" fill="#8BC3D1"/>
+
+  <!-- Eye (left) -->
+  <circle cx="255" cy="45" r="5" fill="black"/>
+
+  <!-- Eye (right) -->
+  <circle cx="265" cy="45" r="5" fill="black"/>
+</svg>

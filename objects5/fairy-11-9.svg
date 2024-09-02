@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Fairy Body -->
+  <path id="fairyBody" fill="#008F39" d="M175,550 Q200,475 225,450 Q250,500 275,450 Q300,575 325,450 Z"/>
+  <use xlink:href="#fairyBody" fill="#CD7F32" opacity="0.2"/>
+
+  <!-- Fairy Wings -->
+  <path id="fairyWing1" fill="#008F39" d="M150,50 L100,150 Q50,200 100,250 Z"/>
+  <use xlink:href="#fairyWing1" transform="scale(-1,1) translate(-375,0)" fill="#CD7F32"/>
+
+  <!-- Fairy Hair -->
+  <path id="fairyHair" fill="#FF0000" d="M225,350 Q200,300 225,250 Q250,300 225,350"/>
+  <use xlink:href="#fairyHair"/>
+
+  <!-- Fairy Face -->
+  <circle cx="225" cy="400" r="25" fill="#CD7F32">
+    <circle cx="215" cy="400" r="5" fill="#FF0000"/>
+    <circle cx="235" cy="400" r="5" fill="#FF0000"/>
+  </circle>
+
+  <!-- Fairy Dress -->
+  <path id="fairyDress" fill="#CD7F32" d="M175,525 Q150,600 175,650 Q200,600 225,525 Z"/>
+  <use xlink:href="#fairyDress"/>
+
+</svg>

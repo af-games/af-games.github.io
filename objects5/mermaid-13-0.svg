@@ -1,0 +1,33 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#f8f9fa"/>
+
+  <!-- Scales pattern -->
+  <defs>
+    <pattern id="scales" patternUnits="userSpaceOnUse" width="50" height="40">
+      <path d="M0,0 l25,-20 h30 z M0,20 l25,20 h30 z" stroke="#64b5e7" fill="none"/>
+    </pattern>
+  </defs>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="350" rx="180" ry="90" fill="#64b5e7"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="230" r="70" fill="#fff"/>
+
+  <!-- Hair/Fins -->
+  <path d="M200,200 Q180,170 200,140 Q220,170 200,200" fill="#64b5e7" opacity="0.8"/>
+  <!-- Duplicate paths for other fins and hair -->
+
+  <!-- Tail -->
+  <polygon points="200,480 180,530 220,530 200,600" fill="#64b5e7"/>
+
+  <!-- Eyes -->
+  <circle cx="150" cy="220" r="10" fill="#000"/>
+  <circle cx="250" cy="220" r="10" fill="#000"/>
+
+  <!-- Mouth -->
+  <path d="M130,470 Q160,490 270,470 Q300,490 330,470" stroke="#fff" fill="none"/>
+
+</svg>

@@ -1,0 +1,59 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg"
+     style="background-color: #f5deb3;">
+```
+
+2. **Plant the seeds:**
+
+Let's start with simple shapes for the body, head, tail, and legs.
+
+```svg
+  <path id="body" d="M100,400 Q150,300 200,400"/>
+  <circle id="head" cx="150" cy="350" r="50"/>
+  <path id="tail" d="M250,400 Q300,450 350,400"/>
+  <path id="leg1" d="M150,450 q-50,-50 -100,-0"/>
+  <path id="leg2" d="M150,450 q50,-50 100,-0"/>
+```
+
+3. **Water and nurture the seeds:**
+
+Now let's apply some transformations to grow these shapes into recognizable dinosaur features.
+
+```svg
+  <g transform="translate(100, 200) rotate(-5)">
+    <use href="#body" fill="#8B7D6B"/>
+    <use href="#head" fill="#8B7D6B"/>
+    <use href="#tail" fill="#8B7D6B"/>
+    <g transform="translate(150, 450) rotate(-30)">
+      <use href="#leg1" fill="#8B7D6B"/>
+      <use href="#leg2" fill="#8B7D6B"/>
+    </g>
+  </g>
+```
+
+4. **Prune unnecessary elements:**
+
+Since we're using `use` to replicate shapes, we can remove the individual paths.
+
+5. **Write out the SVG code:**
+
+Here's the final SVG code for our T-Rex landscape:
+
+```svg
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg"
+     style="background-color: #f5deb3;">
+  <path id="body" d="M100,400 Q150,300 200,400"/>
+  <circle id="head" cx="150" cy="350" r="50"/>
+  <path id="tail" d="M250,400 Q300,450 350,400"/>
+  <path id="leg1" d="M150,450 q-50,-50 -100,-0"/>
+  <path id="leg2" d="M150,450 q50,-50 100,-0"/>
+
+  <g transform="translate(100, 200) rotate(-5)">
+    <use href="#body" fill="#8B7D6B"/>
+    <use href="#head" fill="#8B7D6B"/>
+    <use href="#tail" fill="#8B7D6B"/>
+    <g transform="translate(150, 450) rotate(-30)">
+      <use href="#leg1" fill="#8B7D6B"/>
+      <use href="#leg2" fill="#8B7D6B"/>
+    </g>
+  </g>
+</svg>

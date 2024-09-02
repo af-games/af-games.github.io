@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#e5f7e9"/>
+
+  <!-- Butterfly Landmass -->
+  <path d="M100,100 Q300,50 500,100 Q300,150 100,100 Z" fill="#cddc39"/>
+  <path d="M400,200 Q600,150 700,200 Q600,250 400,200 Z" fill="#cddc39"/>
+
+  <!-- Landmarks -->
+
+  <!-- Mountain (triangle) -->
+  <polygon points="200,300 350,300 275,400" fill="#8a817d"/>
+  <circle cx="237.5" cy="400" r="25" fill="#cddc39"/>
+
+  <!-- Tree (rounded rectangle) -->
+  <rect x="550" y="350" width="100" height="150" rx="50" ry="50" fill="#8a817d"/>
+  <circle cx="625" cy="400" r="25" fill="#cddc39"/>
+
+  <!-- River (path) -->
+  <path d="M300,400 Q350,450 400,400 Q450,450 500,400" stroke="#1d6a8e" fill="transparent"/>
+
+</svg>

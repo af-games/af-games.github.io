@@ -1,0 +1,45 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Define colors -->
+<defs>
+  <linearGradient id="black-white" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:black;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:white;stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+<!-- Penguin body -->
+<g transform="translate(50, 75)">
+  <rect width="4" height="4" x="0" y="0"/>
+  <rect width="4" height="4" x="8" y="0"/>
+  <rect width="4" height="4" x="16" y="0"/>
+  <rect width="4" height="4" x="24" y="0"/>
+  <rect width="4" height="4" x="32" y="0"/>
+  <!-- ... repeat for the rest of the body tiles ... -->
+</g>
+
+<!-- Penguin head (smaller tiles) -->
+<g transform="translate(75, 25)">
+  <rect width="2" height="2" x="0" y="0"/>
+  <rect width="2" height="2" x="4" y="0"/>
+  <!-- ... continue for the rest of the head tiles ... -->
+</g>
+
+<!-- Penguin beak (yellow) -->
+<g transform="translate(85, 35)">
+  <polygon points="10,0 20,0 15,10" fill="yellow"/>
+</g>
+
+<!-- Penguin eyes (white) -->
+<g transform="translate(70, 20)">
+  <circle cx="5" cy="5" r="4" fill="white"/>
+  <!-- ... repeat for the second eye ... -->
+</g>
+
+<!-- Penguin feet (orange) -->
+<g transform="translate(60, 80)">
+  <rect width="10" height="20" x="0" y="0" fill="orange"/>
+  <!-- ... repeat for the second foot ... -->
+</g>
+
+</svg>

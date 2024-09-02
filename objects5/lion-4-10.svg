@@ -1,0 +1,27 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion's body -->
+  <rect x="100" y="120" width="300" height="280" fill="#F9A74D" stroke="black"/>
+  <path d="M150 120 Q200 100, 250 120 Q200 160, 150 160" fill="none" stroke="black"/>
+
+  <!-- Lion's head -->
+  <circle cx="200" cy="90" r="80" fill="#F9A74D"/>
+  <path d="M170 60 Q200 50, 230 60 Q200 70, 170 70" fill="none" stroke="black"/>
+
+  <!-- Lion's mane -->
+  <g fill="#FF9F43">
+    <path d="M180 50 C210 30, 260 30, 310 50"/>
+    <path d="M190 60 C220 40, 270 40, 320 60"/>
+    <path d="M200 70 C230 50, 280 50, 330 70"/>
+    <path d="M190 80 C220 60, 270 60, 320 80"/>
+  </g>
+
+  <!-- Lion's eyes -->
+  <circle cx="180" cy="75" r="20" fill="#FFFFFF"/>
+  <circle cx="220" cy="75" r="20" fill="#FFFFFF"/>
+
+  <!-- Lion's crown -->
+  <rect x="160" y="40" width="120" height="30" fill="#9C6D35" stroke="black"/>
+  <path d="M185 70 Q215 50, 245 70" fill="none" stroke="black"/>
+
+</svg>

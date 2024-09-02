@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Black body -->
+  <path id="owl-body" d="M170,10 C210,10 280,60 320,90 Q350,140 380,180 Q320,240 270,270 Q220,240 170,200 Q120,240 60,270 Q90,220 40,180 Q90,130 130,90 Q150,60 170,10 Z" fill="black"/>
+
+  <!-- White eyes -->
+  <circle id="owl-eye-left" cx="210" cy="130" r="20" fill="white"/>
+  <circle id="owl-eye-right" cx="290" cy="130" r="20" fill="white"/>
+
+  <!-- Yellow beak -->
+  <path id="owl-beak" d="M260,150 Q275,140 285,150 L295,165 L305,150 L315,165 L325,150 L335,165 Z" fill="yellow"/>
+
+</svg>

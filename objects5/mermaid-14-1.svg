@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Body -->
+  <path d="M250 100 Q400 200, 250 300 Q100 200, 250 100" stroke="black" fill="lightblue"/>
+
+  <!-- Hair -->
+  <polygon points="250,50 280,30 220,30" fill="black"/>
+
+  <!-- Face -->
+  <circle cx="250" cy="175" r="75" stroke="black" fill="lightpink"/>
+
+  <!-- Eyes -->
+  <circle cx="225" cy="145" r="10" fill="white"/>
+  <circle cx="275" cy="145" r="10" fill="white"/>
+  <circle cx="225" cy="145" r="5" stroke="black" fill="black"/>
+  <circle cx="275" cy="145" r="5" stroke="black" fill="black"/>
+
+  <!-- Mouth -->
+  <path d="M200,225 Q230,260, 280,225" stroke="black" fill="transparent"/>
+
+  <!-- Tail -->
+  <polyline points="250,300 300,400 200,400" stroke="black" fill="lightblue"/>
+</svg>

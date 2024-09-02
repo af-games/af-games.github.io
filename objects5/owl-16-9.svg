@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#212F3C"/>
+
+  <!-- Body -->
+  <path d="M50,400 Q150,350 300,400 Q450,450 600,400 Q750,350 800,400 H50 Z" fill="#8B4513"/>
+  <path d="M50,400 Q125,375 250,400 Q375,425 500,400 Q625,375 750,400 H50 Z" fill="#FFFDD0"/>
+  <path d="M50,400 Q100,325 200,400 Q300,475 400,400 Q500,375 600,400 Q700,325 800,400 H50 Z" fill="#654321"/>
+
+  <!-- Wings -->
+  <!-- ... Continue this pattern for the wings, eyes, and face using appropriate paths and fills ... -->
+
+</svg>

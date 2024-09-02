@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outline -->
+  <path id="mermaidOutline"
+        d="M100 50 Q150 0 250 50 Q400 150 500 50 Q650 0 700 50 Q750 100 800 150 V350 H700 V450 Q650 600 500 550 Q350 600 250 550 Q150 600 100 550 V450 H150 Z"/>
+
+  <!-- Face -->
+  <ellipse cx="275" cy="90" rx="30" ry="40"/>
+  <circle cx="275" cy="85" r="5"/>
+  <path d="M265 95 Q275 105 285 95"/>
+
+  <!-- Hair -->
+  <line x1="230" y1="40" x2="250" y2="30"/>
+  <line x1="290" y1="40" x2="270" y2="30"/>
+  ...
+
+  <!-- Scales and tail fins -->
+  <polygon points="680,150 700,150 690,160"/>
+
+  <!-- Gradients -->
+  <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Apply gradients to outline -->
+  <use xlink:href="#mermaidOutline" stroke="url(#gradient1)" stroke-width="5"/>
+
+</svg>

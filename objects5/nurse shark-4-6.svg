@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Drums: Circles -->
+  <circle cx="150" cy="400" r="50" fill="#ff6f69" />
+  <circle cx="250" cy="400" r="40" fill="#ffa38e" />
+  <circle cx="350" cy="400" r="30" fill="#fff1bf" />
+
+  <!-- Violins: Rectangles -->
+  <rect x="100" y="250" width="60" height="100" fill="#77ddf8" />
+  <rect x="200" y="250" width="60" height="150" fill="#c1e4ff" />
+  <rect x="300" y="200" width="60" height="200" fill="#77ddf8" />
+
+  <!-- Guitar: Path -->
+  <path d="M400,150 Q450,250 500,150" stroke="#ff69b4" fill="transparent" />
+
+  <!-- Dynamics: Color gradients -->
+  <linearGradient id="crescendo" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#fff; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#000; stop-opacity:1" />
+  </linearGradient>
+
+  <linearGradient id="decrescendo" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#000; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#fff; stop-opacity:1" />
+  </linearGradient>
+
+</svg>

@@ -1,0 +1,35 @@
+<svg>` tag and give it some basic attributes like width, height, and viewBox for responsiveness:
+
+```xml
+<svg xmlns="http://www.w3.org/2002/svg" version="1.1"
+     width="500px" height="500px" viewBox="0 0 500 500">
+```
+
+Next, let's add some color to our canvas by defining a gradient:
+
+```xml
+<defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%"   style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+        <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+    </linearGradient>
+</defs>
+```
+
+Now, let's create our first musical note with a circle:
+
+```xml
+<circle cx="100" cy="200" r="80" fill="url(#grad1)" stroke="black"/>
+```
+
+To make it more interesting, we'll add another note with a different shape (a rectangle) and position:
+
+```xml
+<rect x="250" y="150" width="100" height="150"
+      style="fill:blue;stroke:pink;stroke-width:4;fill-opacity:0.8"/>
+```
+
+Finally, let's close our `<svg>` tag:
+
+```xml
+</svg>

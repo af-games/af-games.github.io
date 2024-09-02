@@ -1,0 +1,22 @@
+<svg width="100%" height="50%" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Ancient Era: Rectangles -->
+<rect x="50" y="50" width="80" height="100" fill="#8B4513" stroke-width="2" stroke="#000"/>
+<text x="70" y="150" text-anchor="middle" font-family="Verdana" font-size="14">Ancient Era</text>
+
+<!-- Medieval Era: Polygons -->
+<polygon points="350,0 550,50 350,100 200,100" fill="#696969" stroke-width="2" stroke="#000"/>
+<text x="400" y="75" text-anchor="middle" font-family="Verdana" font-size="14">Medieval Era</text>
+
+<!-- Future Era: Paths -->
+<path d="M800,0 Q900,200 800,300 T600,300 T800,0 Z" fill="#ADD8E6" stroke-width="2" stroke="#000"/>
+<text x="850" y="150" text-anchor="middle" font-family="Verdana" font-size="14">Future Era</text>
+
+<!-- Timeline -->
+<line x1="0" y1="300" x2="1000" y2="300" stroke-width="2" stroke="#000"/>
+<text x="-50" y="325" text-anchor="end" font-family="Verdana" font-size="14">Time</text>
+
+<!-- Nurse Shark Icon -->
+<image xlink:href="https://www.svgrepo.com/show/1766/nurse-shark.svg" width="50" height="50" x="350" y="200"/>
+
+</svg>

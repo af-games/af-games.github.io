@@ -1,0 +1,16 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Perimeter -->
+  <rect x="50" y="50" width="500" height="300" stroke="black" fill="transparent"/>
+
+  <!-- Suspects' locations (circles) -->
+  <circle cx="150" cy="120" r="30" fill="yellow" /> <!-- Lion's den -->
+  <circle cx="280" cy="70" r="25" fill="green" /> <!-- Suspect A -->
+  <circle cx="400" cy="180" r="25" fill="blue" /> <!-- Suspect B -->
+
+  <!-- Clues (paths) - paths converge at the crime scene -->
+  <path d="M60,70 Q90,30 150,120" stroke="red" fill="transparent"/> <!-- Path from edge to lion's den -->
+  <path d="M280,40 Q320,70 280,100" stroke="red" fill="transparent"/> <!-- Path from Suspect A -->
+  <path d="M400,150 Q360,180 280,100" stroke="red" fill="transparent"/> <!-- Path from Suspect B -->
+
+</svg>

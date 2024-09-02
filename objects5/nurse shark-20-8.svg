@@ -1,0 +1,20 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Shark Head Mask -->
+  <circle cx="150" cy="50" r="50" fill="#FFA07A"/>
+  <circle cx="90" cy="35" r="15" fill="#FFFFFF"/>
+  <circle cx="210" cy="35" r="15" fill="#FFFFFF"/>
+
+  <!-- Nurse Shark Costume Body -->
+  <rect x="50" y="100" width="200" height="200" fill="#3B4CCA"/>
+
+  <!-- Top Fin -->
+  <polygon points="100,75 200,40 150,95" fill="#FFA07A"/>
+  <!-- Side Fins -->
+  <polygon points="75,200 75,250 105,225" fill="#FFA07A"/>
+  <polygon points="225,200 225,250 215,225" fill="#FFA07A"/>
+
+  <!-- Patterns on the main body -->
+  <path d="M60,130 Q90,80 140,130 T250,130" stroke="#FFFFFF" stroke-width="2"/>
+
+</svg>

@@ -1,0 +1,39 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo -->
+  <ellipse cx="250" cy="275" rx="150" ry="125"
+           style="fill: url(#iglooGradient); stroke: brown; stroke-width: 2"/>
+
+  <!-- Hills and terrain -->
+  <polygon points="40,350 90,400 140,350 190,400 240,350"
+           style="fill: lightgreen; stroke: brown; stroke-width: 2"/>
+  <polygon points="270,380 320,430 370,380 420,430 470,380"
+           style="fill: lightgreen; stroke: brown; stroke-width: 2"/>
+  <rect x="150" y="450" width="200" height="50" style="fill: lightbrown"/>
+
+  <!-- River -->
+  <path d="M30,380 Q70,420 160,420 Q290,420 380,380 Q460,420 500,380"
+        style="fill: lightblue; stroke: darkblue; stroke-width: 2; fill-opacity: 0.7">
+    <pattern id="waterPattern" patternUnits="userSpaceOnUse" width="10" height="6">
+      <rect width="5" height="3" rx="1.5"/>
+    </pattern>
+    <style>fill:url(#waterPattern)</style>
+  </path>
+
+  <!-- Trees -->
+  <circle cx="70" cy="240" r="20" style="fill: green"/>
+  <polyline points="60,220 80,190 100,220"
+            style="stroke: brown; stroke-width: 3; fill: transparent"/>
+  <circle cx="450" cy="220" r="20" style="fill: green"/>
+  <polyline points="440,200 460,170 480,200"
+            style="stroke: brown; stroke-width: 3; fill: transparent"/>
+
+  <!-- Defining gradients -->
+  <defs>
+    <linearGradient id="iglooGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(135,206,235);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

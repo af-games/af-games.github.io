@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Bar 1 -->
+  <circle cx="50" cy="50" r="40" fill="url(#sunGradient)">
+    <animate attributeName="r" from="40" to="60" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Bar 2 -->
+  <ellipse cx="300" cy="200" rx="40" ry="80">
+    <animate attributeName="rx" from="40" to="150" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- Bar 3 -->
+  <polygon points="450,200 550,300 650,200">
+    <animate attributeName="points" values="450,200 550,300 650,200;450,150 550,250 650,150" dur="6s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-100" dur="6s" repeatCount="indefinite"/>
+  </polygon>
+  <!-- Bar 4 -->
+  <path d="M700,200 Q500,100 300,200 Q500,300 700,200">
+    <animate attributeName="d" values="M700,200 Q500,100 300,200 Q500,300 700,200;M650,180 Q450,90 250,180 Q450,270 650,180" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Defining gradients -->
+  <defs>
+    <linearGradient id="sunGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:yellow;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:orange;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Lion Head Pendant -->
+  <g id="lion-head">
+    <!-- Outline -->
+    <path d="M100 50 Q140 70, 180 90 Q230 70, 270 50 Q320 70, 360 90 Q410 70, 450 50 H470 V110 H450 Q420 80, 370 50 Q320 80, 270 50 Z" fill="none" stroke="#000" stroke-width="5"/>
+
+    <!-- Face -->
+    <path d="M110 60 Q160 40, 220 60 Q280 40, 330 60 Q390 40, 440 60" fill="#FCD1D3"/>
+
+    <!-- Nose -->
+    <path d="M150 70 Q200 90, 240 70 Q280 90, 320 70 Q360 90, 400 70" fill="#FCD1D3"/>
+
+    <!-- Eye -->
+    <circle cx="250" cy="90" r="20" fill="#000"/>
+    <circle cx="250" cy="90" r="15" fill="#FFF"/>
+    <circle cx="250" cy="90" r="8" fill="#006D77"/>
+
+  </g>
+
+  <!-- Gemstone Eye -->
+  <circle cx="250" cy="95" r="4" fill="#FF6347"/>
+
+  <!-- Chain - Lion Heads -->
+  <g id="lion-head-chain">
+    <!-- Repeated pattern of lion heads for the chain -->
+    <use xlink:href="#lion-head" x="10" y="200" transform="scale(0.5)"/>
+    <use xlink:href="#lion-head" x="80" y="200" transform="scale(0.5) rotate(180)"/>
+
+  </g>
+
+</svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="300" cy="500" r="150" fill="#9DC47B"/>
+  <circle cx="300" cy="600" r="120" fill="#85A15D"/>
+
+  <!-- Head -->
+  <rect x="220" y="350" width="160" height="200" rx="50" ry="50" fill="#7B944F"/>
+  <circle cx="300" cy="420" r="60" fill="white"/>
+
+  <!-- Legs -->
+  <circle cx="200" cy="700" r="80" fill="#9DC47B"/>
+  <circle cx="400" cy="700" r="80" fill="#9DC47B"/>
+
+  <!-- Tail -->
+  <rect x="350" y="620" width="100" height="200" rx="50" ry="50" fill="#85A15D"/>
+
+  <!-- Spikes on back -->
+  <path d="M300,450 Q350,400 300,350 Q250,400 300,450" stroke="#6B7E3C" fill="transparent"/>
+
+  <!-- Tail spike -->
+  <polygon points="420,620 470,620 445,580" stroke="#6B7E3C" fill="#85A15D"/>
+
+</svg>

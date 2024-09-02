@@ -1,0 +1,17 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outline -->
+  <path id="outline" d="M10,40 Q30,20 60,40 Q90,60 120,40 Q150,20 180,40 Q210,60 240,40 Q270,20 300,40 V200 H-100 Z"/>
+  <use xlink:href="#outline" fill="none" stroke="black"/>
+
+  <!-- Body -->
+  <path id="body" d="M60,80 Q90,60 120,80 Q150,60 180,80 Q210,60 240,80"/>
+  <use xlink:href="#body" fill="brown"/>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="60" r="15" fill="yellow"/>
+  <circle cx="210" cy="60" r="15" fill="yellow"/>
+
+  <!-- Beak -->
+  <path id="beak" d="M120,80 Q130,70 140,80"/>
+  <use xlink:href="#beak" fill="yellow"/>
+</svg>

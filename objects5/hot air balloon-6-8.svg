@@ -1,0 +1,31 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg" style="font-family: Arial;">
+
+  <!-- Hot Air Balloon -->
+  <path d="M150 20 Q200 60, 250 20 Q300 60, 350 20 Q400 60, 450 20 Q500 60, 550 20 L500 100 Q450 140, 400 180 L350 220 Q300 260, 250 300 Q200 340, 150 380 Z" fill="#FFBF7C" stroke="black"/>
+  <circle cx="250" cy="80" r="40" fill="#FF9A6F"/>
+  <rect x="200" y="120" width="150" height="20" rx="5" fill="#FFBF7C"/>
+
+  <!-- Baguette Slice -->
+  <path d="M300 340 Q350 380, 400 340 Q450 380, 500 340 Q550 380, 600 340 Z" fill="#FFF1C2"/>
+  <path d="M300 370 Q350 410, 400 370 Q450 410, 500 370 Q550 410, 600 370 Z" fill="#D1B289"/>
+
+  <!-- Grapes -->
+  <circle cx="180" cy="340" r="15" fill="#7E57C2"/>
+  <circle cx="195" cy="345" r="10" fill="white"/>
+  <circle cx="165" cy="335" r="10" fill="white"/>
+  <circle cx="220" cy="340" r="15" fill="#7E57C2"/>
+
+  <!-- Knife -->
+  <path d="M480 390 Q520 430, 560 390 Q600 430, 640 390 Z" stroke="black" fill="transparent"/>
+  <rect x="520" y="410" width="80" height="20" rx="5" fill="#C7A98E"/>
+
+  <!-- Fork -->
+  <path d="M680 390 Q720 430, 760 390 Q800 430, 840 390 Z" stroke="black" fill="transparent"/>
+  <rect x="720" y="410" width="80" height="20" rx="5" fill="#C7A98E"/>
+
+  <!-- Tableware and Garnishes -->
+  <rect x="10" y="390" width="380" height="10" fill="#D1B289"/>
+  <circle cx="45" cy="410" r="5" fill="#7E57C2"/>
+  <circle cx="60" cy="405" r="3" fill="white"/>
+
+</svg>

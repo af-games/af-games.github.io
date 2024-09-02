@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#f8f2e0"/>
+
+  <!-- Branch -->
+  <path d="M50,370 Q90,360 140,350 T290,350 T240,370 Z" stroke="#673c2a" fill="transparent"/>
+
+  <!-- Owl Body -->
+  <circle cx="150" cy="200" r="80" fill="#bda49f"/>
+  <circle cx="150" cy="270" r="30" fill="#bda49f"/>
+  <path d="M150,300 A80,80 0 0 1 150,460 Z" fill="#f8f2e0"/>
+
+  <!-- Owl Eyes -->
+  <circle cx="120" cy="170" r="20" fill="black"/>
+  <use xlink:href="#eye" x="190" y="170"/>
+
+  <!-- Feathers -->
+  <path d="M145,160 Q120,180 130,190 T165,190 Z" fill="#bda49f"/>
+  <path d="M135,210 Q145,220 155,210 T140,230 Z" fill="#bda49f"/>
+
+  <!-- Beak -->
+  <polygon points="130,180 170,180 150,200" fill="#fffacd"/>
+
+  <!-- Eye template for reuse -->
+  <defs>
+    <g id="eye">
+      <circle cx="0" cy="0" r="20"/>
+    </g>
+  </defs>
+</svg>

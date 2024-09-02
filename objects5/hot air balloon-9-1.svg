@@ -1,0 +1,17 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon envelope -->
+  <ellipse cx="100" cy="50" rx="80" ry="40"
+           fill="#ffd700">
+    <animate attributeName="cx" values="90;110;90" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Balloon basket -->
+  <rect x="85" y="140" width="30" height="60"
+        fill="#cd7f32"/>
+
+  <!-- Balloon string -->
+  <line x1="100" y1="200" x2="100" y2="0"
+        stroke="black" stroke-width="5"/>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Face -->
+  <g id="face">
+    <!-- Skin tiles go here -->
+  </g>
+
+  <!-- Hair -->
+  <g id="hair">
+    <!-- Hair tiles go here -->
+  </g>
+
+  <!-- Eyes -->
+  <g id="eyes">
+    <!-- Eye tiles go here -->
+  </g>
+
+  <!-- Clothing -->
+  <g id="clothing">
+    <!-- Clothing tiles go here -->
+  </g>
+</svg>

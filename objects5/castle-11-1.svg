@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Walls -->
+  <rect x="100" y="250" width="300" height="250" fill="grey"/>
+  <rect x="150" y="400" width="200" height="100" fill="lightgrey"/>
+
+  <!-- Tower -->
+  <polygon points="250,50 350,50 375,150 225,150" fill="brown"/>
+  <rect x="225" y="150" width="125" height="100" fill="tan"/>
+
+  <!-- Door -->
+  <rect x="180" y="300" width="140" height="70" fill="saddlebrown"/>
+  <polygon points="220,370 250,370 235,390" fill="black"/>
+
+  <!-- Windows -->
+  <circle cx="280" cy="350" r="30" fill="tan"/>
+  <rect x="310" y="340" width="20" height="30" fill="black"/>
+</svg>

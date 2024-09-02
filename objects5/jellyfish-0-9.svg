@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Introduction -->
+<g id="scene1">
+  <circle cx="400" cy="300" r="50" fill="#66CDAA"/>
+  <text x="370" y="290" font-size="12">Jellyfish Jonny<br>floats alone...</text>
+</g>
+
+<!-- Meeting the Current -->
+<g id="scene2">
+  <use href="#scene1"/>
+  <path d="M400,350 Q300,400 200,350" stroke="#3D9970" fill="transparent"/>
+</g>
+
+<!-- The Underwater City -->
+<g id="scene3">
+  <use href="#scene2"/>
+  <!-- Add buildings and creatures here using rectangles and circles -->
+</g>
+
+<!-- Jellyfish Jamboree -->
+<g id="scene4">
+  <use href="#scene3"/>
+  <!-- Add dancing jellyfish paths and colorful scene elements -->
+</g>
+
+<!-- The Storm -->
+<g id="scene5">
+  <use href="#scene4"/>
+  <!-- Add storm action paths and dark, moody colors -->
+</g>
+
+<!-- Jonny's Rescue -->
+<g id="scene6">
+  <use href="#scene5"/>
+  <!-- Add wise old turtle using rectangle and semicircle -->
+</g>
+
+<!-- Return Home -->
+<g id="scene7">
+  <use href="#scene6"/>
+  <!-- Add path for journey home -->
+</g>
+
+<!-- Jonny's New Perspective -->
+<g id="scene8">
+  <use href="#scene7"/>
+  <text x="370" y="590" font-size="12">...but there's<br>no place like home.</text>
+</g>
+
+</svg>

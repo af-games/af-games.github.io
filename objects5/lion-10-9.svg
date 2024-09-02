@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Rhythm (circles) -->
+  <circle cx="-40" cy="0" r="8" fill="black" />
+  <circle cx="40" cy="0" r="8" fill="black" />
+
+  <!-- Main melody: Lion's head and mane -->
+  <path d="M-20,-35 Q0,-40 10,-35 Q10,5 -20,5 Q-20,-35z"
+        stroke="brown" fill="orange" stroke-width="2"/>
+
+  <!-- Harmony: Lion's mane patterns -->
+  <path d="M10,-35 L10,-28 A7,7 0 0 1 20,-28 Z"
+        fill="orange" opacity=".7"/>
+  <path d="M10,-28 L10,-21 A7,7 0 0 1 20,-21 Z"
+        fill="orange" opacity=".5"/>
+
+  <!-- Harmony: Background patterns (grass) -->
+  <path d="M-40,-30 Q-20,-25 -40,-10 L-60,-10 Q-80,-25 -60,-30 Z"
+        fill="green" opacity=".7"/>
+
+  <!-- Instruments interaction:
+      - Lion's mane patterns overlap each other.
+      - Background patterns complement the lion and create contrast with the mane. -->
+
+</svg>

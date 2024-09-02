@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect id="body" x="150" y="200" width="500" height="300" fill="#d3eaf7"/>
+  <path d="M150,200 Q300,100 650,200" stroke="#48cae4" stroke-width="3"/>
+
+  <!-- Head -->
+  <circle id="head" cx="300" cy="150" r="100" fill="#c0def7"/>
+  <path d="M250,150 Q350,75 450,150" stroke="#48cae4" stroke-width="3"/>
+
+  <!-- Fin (Left) -->
+  <polygon id="fin-left" points="150,300 100,400 200,400" fill="#d3eaf7"/>
+  <path d="M100,400 Q50,350 150,300" stroke="#48cae4" stroke-width="3"/>
+
+  <!-- Fin (Right) -->
+  <polygon id="fin-right" points="650,300 700,400 550,400" fill="#d3eaf7"/>
+  <path d="M700,400 Q650,350 550,300" stroke="#48cae4" stroke-width="3"/>
+
+  <!-- Tail -->
+  <polygon id="tail" points="650,200 700,150 600,150" fill="#d3eaf7"/>
+  <path d="M700,150 Q650,100 600,150" stroke="#48cae4" stroke-width="3"/>
+
+</svg>

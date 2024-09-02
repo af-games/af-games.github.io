@@ -1,0 +1,55 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Jellyfish 1 -->
+  <g id="jellyfish1" transform="translate(150, 200)">
+    <!-- Bell (body) -->
+    <circle cx="50" cy="50" r="40" fill="#FFF" stroke="#000"/>
+    <!-- Tentacles -->
+    <ellipse cx="0" cy="-80" rx="30" ry="120" fill="#FFF" stroke="#000"/>
+    <ellipse cx="50" cy="-60" rx="30" ry="120" fill="#FFF" stroke="#000"/>
+    <ellipse cx="100" cy="-80" rx="30" ry="120" fill="#FFF" stroke="#000"/>
+
+    <!-- Animation: Move down and rotate -->
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="0 0"
+      to="0 -50"
+      repeatCount="indefinite"
+      dur="3s"/>
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 50 50"
+      to="360 50 50"
+      repeatCount="indefinite"
+      dur="4s"/>
+  </g>
+
+  <!-- Jellyfish 2 -->
+  <g id="jellyfish2" transform="translate(400, 250)">
+    <!-- Bell (body) -->
+    <circle cx="50" cy="50" r="40" fill="#FFF" stroke="#000"/>
+    <!-- Tentacles -->
+    <ellipse cx="0" cy="-80" rx="30" ry="120" fill="#FFF" stroke="#000"/>
+    <ellipse cx="50" cy="-60" rx="30" ry="120" fill="#FFF" stroke="#000"/>
+    <ellipse cx="100" cy="-80" rx="30" ry="120" fill="#FFF" stroke="#000"/>
+
+    <!-- Animation: Move up and rotate -->
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="0 0"
+      to="0 50"
+      repeatCount="indefinite"
+      dur="3s"/>
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 50 50"
+      to="360 50 50"
+      repeatCount="indefinite"
+      dur="4s"/>
+  </g>
+
+</svg>

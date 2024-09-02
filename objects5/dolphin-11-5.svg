@@ -1,0 +1,20 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M50,70 Q60,80 90,70 Q100,60 140,70" fill="#003366" stroke="#B3E5FC"/>
+
+  <!-- Head -->
+  <ellipse cx="70" cy="65" rx="25" ry="35" fill="#003366"/>
+  <path d="M65,45 Q80,40 95,45" stroke="#B3E5FC"/>
+
+  <!-- Dorsal Fin -->
+  <polygon points="120,30 135,0 150,30" fill="#A9A9A9"/>
+
+  <!-- Pectoral Fins -->
+  <path d="M40,80 Q60,100 80,80" fill="#A9A9A9"/>
+  <path d="M170,80 Q150,100 130,80" fill="#A9A9A9"/>
+
+  <!-- Tail -->
+  <path d="M160,120 Q150,140 130,120" fill="#A9A9A9"/>
+  <polygon points="120,120 110,135 130,135" fill="#A9A9A9"/>
+
+</svg>

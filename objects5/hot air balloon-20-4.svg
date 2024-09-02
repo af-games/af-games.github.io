@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hot Air Balloon -->
+  <g id="balloon">
+    <circle cx="400" cy="570" r="150" fill="#FFBF00"/>
+    <path d="M400,60 L375,570 H425 Z" fill="#FF8C00"/>
+  </g>
+
+  <!-- Rolling Hills -->
+  <path id="hill1" d="M300,50 Q350,100 400,50 Q450,100 500,50" fill="#98FB98"/>
+  <path id="hill2" d="M600,50 Q550,100 450,50 Q400,100 300,50" fill="#98FB98"/>
+
+  <!-- Winding River -->
+  <path id="river" d="M300,60 Q320,70 340,60 Q360,70 380,60 Q400,70 420,60 Q440,70 460,60" stroke="#0095DD" fill="transparent"/>
+
+  <!-- Towering Trees -->
+  <g id="tree1">
+    <circle cx="100" cy="350" r="50" fill="#32CD32"/>
+    <polygon points="80,400 120,400 100,500" fill="#696969"/>
+  </g>
+  <use href="#tree1" transform="translate(700, 250)"/>
+
+</svg>

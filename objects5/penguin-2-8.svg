@@ -1,0 +1,40 @@
+<svg>` tag.
+
+```svg
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:black; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:white; stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradient2" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:orange; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:yellow; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Clip path for penguin body -->
+  <clipPath id="clipBody">
+    <path d="M35,20 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0 z" />
+  </clipPath>
+
+  <!-- Clip path for penguin wing -->
+  <clipPath id="clipWing">
+    <path d="M75,10 l-20,-30 a20,20 0 0,0 -20,20 l20,30 z" />
+  </clipPath>
+
+  <!-- First penguin -->
+  <g transform="translate(50, 60)">
+    <circle cx="175" cy="175" r="150" fill="url(#gradient1)" clip-path="url(#clipBody)" />
+    <path d="M230,140 l-50,-80 a40,40 0 0,1 -40,40 l50,80 z" fill="black" />
+    <rect x="190" y="160" width="50" height="30" fill="url(#gradient2)" clip-path="url(#clipWing)" />
+  </g>
+
+  <!-- Second penguin facing the first one -->
+  <g transform="translate(200, 60) rotate(180)">
+    <circle cx="75" cy="175" r="150" fill="url(#gradient1)" clip-path="url(#clipBody)" />
+    <path d="M40,140 l50,-80 a40,40 0 0,0 40,40 l-50,80 z" fill="black" />
+    <rect x="30" y="160" width="50" height="30" fill="url(#gradient2)" clip-path="url(#clipWing)" />
+  </g>
+</svg>

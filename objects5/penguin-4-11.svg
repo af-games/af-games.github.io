@@ -1,0 +1,26 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="150" cy="180" rx="90" ry="150" fill="url(#penguinGradient)" />
+  <linearGradient id="penguinGradient" gradientTransform="rotate(45)">
+    <stop offset="0%" style="stop-color:rgb(73,64,127);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(188,170,216);stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Head -->
+  <circle cx="150" cy="90" r="40" fill="white" />
+
+  <!-- Eye (left) -->
+  <circle cx="130" cy="85" r="2" fill="black" />
+
+  <!-- Eye (right) -->
+  <circle cx="170" cy="85" r="2" fill="black" />
+
+  <!-- Beak -->
+  <path d="M150,60 Q140,40 130,50 T170,50 T160,60" stroke="orange" fill="transparent" />
+  <path d="M150,60 Q160,40 170,50 T160,60" stroke="orange" fill="transparent" />
+
+  <!-- Legs -->
+  <rect x="120" y="230" width="10" height="80" rx="5" fill="rgb(96,88,142)" />
+  <rect x="170" y="230" width="10" height="80" rx="5" fill="rgb(96,88,142)" />
+
+</svg>

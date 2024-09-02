@@ -1,0 +1,52 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- The Dawn Departure -->
+<rect x="50%" y="10%" width="20%" height="40%" fill="#ADD8E6"/>
+<path d="M400 400 Q400 300 450 300" stroke="#FFBD00" fill="transparent" stroke-width="10"/>
+<circle cx="425" cy="375" r="50" fill="#F5DEB3"/>
+<rect x="380" y="350" width="60" height="50" fill="#8B4513"/>
+<text x="40%" y="20%" text-anchor="middle" font-size="2em">As the sun rises, our hot air balloon takes off!</text>
+
+<!-- Crossing the Meadow -->
+<rect x="0%" y="60%" width="100%" height="40%" fill="#9ACD32"/>
+<use href="#balloon" x="5%" y="68%"/>
+<circle cx="70%" cy="75%" r="30" fill="#CD7F32" stroke="#222" stroke-width="1"/>
+<polygon points="60 90, 80 90, 70 110" fill="#FFFACD" stroke="#222" stroke-width="1"/>
+<text x="5%" y="85%" text-anchor="left" font-size="1.5em">Flying over the meadow, a friendly deer waves goodbye.</text>
+
+<!-- Stormy Skies -->
+<rect x="0%" y="0%" width="100%" height="100%" fill="#3A3B3C"/>
+<use href="#balloon" x="20%" y="40%"/>
+<circle cx="60%" cy="50%" r="20" fill="#FFDF00" stroke="#222" stroke-width="2"/>
+<text x="10%" y="30%" text-anchor="left" font-size="1.5em">A storm hits, but our balloon remains afloat.</text>
+
+<!-- Rescue by the Eagle -->
+<rect x="40%" y="60%" width="60%" height="40%" fill="#ADD8E6"/>
+<use href="#balloon" x="5%" y="65%"/>
+<path d="M70 100 Q90 80 100 100 T120 100" stroke="#CD7F32" fill="transparent" stroke-width="5"/>
+<text x="45%" y="70%" text-anchor="middle" font-size="1.5em">An eagle spots our balloon and offers support.</text>
+
+<!-- Sunset Glow -->
+<rect x="0%" y="0%" width="100%" height="100%" fill="#0D2C54"/>
+<use href="#balloon" x="30%" y="60%"/>
+<use href="#balloon" x="70%" y="60%" style="opacity: 0.5"/>
+<circle cx="90%" cy="90%" r="30" fill="#FFBD00" stroke="#222" stroke-width="2"/>
+<text x="10%" y="85%" text-anchor="left" font-size="1.5em">As the sun sets, our balloon glows.</text>
+
+<!-- Return to Town -->
+<rect x="30%" y="40%" width="40%" height="60%" fill="#ADD8E6"/>
+<use href="#balloon" x="40%" y="50%"/>
+<g id="town">
+  <rect x="70%" y="40%" width="10%" height="20%" fill="#F28500"/>
+  <rect x="80%" y="60%" width="10%" height="20%" fill="#FF7F27"/>
+  <rect x="90%" y="50%" width="10%" height="20%" fill="#FFC300"/>
+</g>
+<text x="35%" y="65%" text-anchor="middle" font-size="1.5em">Back in the small town, our balloon is welcomed home.</text>
+
+<!-- Balloon template -->
+<g id="balloon">
+  <path d="M200 100 Q250 75 300 100 Q250 125 200 100" stroke="#FFBD00" fill="transparent" stroke-width="10"/>
+  <rect x="190" y="90" width="20" height="50" fill="#8B4513"/>
+</g>
+
+</svg>

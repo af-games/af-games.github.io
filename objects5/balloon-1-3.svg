@@ -1,0 +1,52 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1920" height="1080" fill="#E6F7FF"/>
+
+  <!-- Golden ratio layout boundaries -->
+  <defs>
+    <clipPath id="goldenRatioClip">
+      <polygon points="0,0 1920,0 1920,1080 547.53,1080"/>
+    </clipPath>
+  </defs>
+
+  <!-- Mountains (Circles) -->
+  <circle cx="660" cy="810" r="240" fill="#8D9FAE"/>
+  <circle cx="1260" cy="750" r="180" fill="#8D9FAE"/>
+
+  <!-- Rivers (Paths) -->
+  <path id="riverPath"
+        d="M360,960 Q480,840 600,900 Q720,960 960,900 Q1200,960 1440,900 Q1560,840 1800,960"
+        stroke="#3A9DC9" fill="transparent">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite"
+             values="M360,960 Q480,840 600,900 Q720,960 960,900 Q1200,960 1440,900 Q1560,840 1800,960;
+                     M360,960 Q480,880 600,920 Q720,960 960,920 Q1200,960 1440,920 Q1560,880 1800,960"/>
+  </path>
+
+  <!-- Trees (Polygons) -->
+  <polygon id="tree" points="375,930 390,950 340,950" fill="#2D7F4C">
+    <animateTransform attributeName="transform" type="rotate"
+                     from="0 375 930" to="360 375 930" dur="2s" repeatCount="indefinite"/>
+  </polygon>
+  <use xlink:href="#tree" x="540" y="880"/>
+  <use xlink:href="#tree" x="705" y="910"/>
+
+  <!-- Clip path to apply golden ratio layout -->
+  <clipPath id="goldenRatioClip" clipPathUnits="objectBoundingBox">
+    <polygon points="0,0 1,0 1,0.618 0.382,0.618"/>
+  </clipPath>
+  <g clip-path="url(#goldenRatioClip)">
+    <!-- All elements -->
+    <circle cx="660" cy="810" r="240" fill="#8D9FAE"/>
+    <circle cx="1260" cy="750" r="180" fill="#8D9FAE"/>
+    <path id="riverPath"
+          d="M360,960 Q480,840 600,900 Q720,960 960,900 Q1200,960 1440,900 Q1560,840 1800,960"/>
+    <polygon id="tree" points="375,930 390,950 340,950" fill="#2D7F4C">
+      <animateTransform attributeName="transform" type="rotate"
+                       from="0 375 930" to="360 375 930" dur="2s" repeatCount="indefinite"/>
+    </polygon>
+    <use xlink:href="#tree" x="540" y="880"/>
+    <use xlink:href="#tree" x="705" y="910"/>
+  </g>
+
+</svg>

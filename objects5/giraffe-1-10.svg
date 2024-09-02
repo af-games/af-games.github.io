@@ -1,0 +1,23 @@
+<svg width="100%" height="100%" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .beat { fill: #f8d7da; stroke: #dc3545; }
+    .transition { stroke-width: 1.5; }
+    .giraffe-path { fill: none; stroke: #3d9970; stroke-width: 12; }
+    @keyframes morph {
+      to { d: path("M...Z") } /* Replace "...Z" with the desired giraffe shape */
+    }
+    rect, circle { animation-timing-function: linear; }
+    path { animation: morph 4s infinite; }
+  </style>
+
+  <!-- Bar 1 -->
+  <circle class="beat" cx="80" cy="270" r="30"/>
+  <path class="transition" d="M80,270 Q160,350 240,270"/>
+
+  <!-- Repeat similar patterns for bars 2 to 8 -->
+
+  <!-- Giraffe path -->
+  <path id="giraffe-path" class="giraffe-path"
+        d="M...Z" /> /* Replace "...Z" with the desired giraffe shape */
+
+</svg>

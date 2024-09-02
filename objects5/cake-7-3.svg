@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Base tier -->
+  <circle cx="250" cy="575" r="180" fill="#FDD9C6" stroke="#FFC54E" stroke-width="3"/>
+
+  <!-- Middle tier -->
+  <circle cx="250" cy="430" r="140" fill="#FFF3D7" stroke="#FFC54E" stroke-width="3"/>
+
+  <!-- Top tier -->
+  <circle cx="250" cy="285" r="100" fill="#FFF9EF" stroke="#FFC54E" stroke-width="3"/>
+
+  <!-- Frosting swirls -->
+  <path d="M250,575 Q150,650 250,700 Q350,650 250,700 Z" fill="#FFF3D7"/>
+  <path d="M250,430 Q150,505 250,550 Q350,505 250,550 Z" fill="#FFF9EF"/>
+  <path d="M250,285 Q150,360 250,405 Q350,360 250,405 Z" fill="#FFF5E3"/>
+
+  <!-- Cake topper (optional) -->
+  <circle cx="250" cy="200" r="30" fill="#FFC54E"/>
+</svg>

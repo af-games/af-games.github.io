@@ -1,0 +1,27 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100 40 Q150 60, 200 80 Q150 100, 100 120 Q50 100, 0 80" fill="lightblue"/>
+
+  <!-- Fin shapes -->
+  <path d="M30 70 L40 90 L20 90 Z" fill="lightblue"/>
+  <path d="M60 70 L50 90 L70 90 Z" fill="lightblue"/>
+  <path d="M120 70 L130 90 L110 90 Z" fill="lightblue"/>
+  <path d="M180 70 L170 90 L190 90 Z" fill="lightblue"/>
+
+  <!-- Tail -->
+  <path d="M200 120 Q180 150, 140 160 Q100 130, 80 120" stroke="black" fill="transparent"/>
+
+  <!-- Gradient for eyes -->
+  <defs>
+    <linearGradient id="eyeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:black; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:white; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Eyes -->
+  <circle cx="50" cy="60" r="10" fill="url(#eyeGradient)"/>
+  <circle cx="150" cy="60" r="10" fill="url(#eyeGradient)"/>
+
+</svg>

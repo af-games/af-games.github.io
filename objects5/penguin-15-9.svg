@@ -1,0 +1,32 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue;"/>
+      <stop offset="100%" style="stop-color:white;"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bgGradient)"/>
+
+  <!-- Vertical threads (penguin body) -->
+  <g stroke="navy" stroke-width="2">
+    <line x1="50" y1="60" x2="50" y2="180"/>
+    <line x1="70" y1="60" x2="70" y2="180"/>
+  </g>
+
+  <!-- Horizontal threads (penguin belly) -->
+  <g stroke="#FFC300" stroke-width="2">
+    <line x1="40" y1="180" x2="80" y2="180"/>
+  </g>
+
+  <!-- Diagonal threads (penguin flipper patterns) -->
+  <g stroke="#D95F0E" stroke-width="3">
+    <line x1="35" y1="140" x2="65" y2="170"/>
+    <line x1="65" y1="140" x2="95" y2="170"/>
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="55" cy="80" r="5" fill="#3D3D3D"/>
+  <circle cx="65" cy="80" r="5" fill="#3D3D3D"/>
+
+</svg>

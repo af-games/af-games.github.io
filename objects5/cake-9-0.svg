@@ -1,0 +1,26 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="75" y="325" width="350" height="50" fill="#D2B48C"/>
+
+  <!-- Cake Body -->
+  <rect x="100" y="275" width="300" height="100" fill="#FDD79A"/>
+
+  <!-- Cake Top -->
+  <rect x="125" y="175" width="250" height="75" fill="#FDD79A"/>
+
+  <!-- Icing -->
+  <path d="M75,325 Q100,350 125,350 Q225,350 250,325 Q300,350 325,325 Q350,350 400,325 Q425,350 450,325" fill="#FFFFFF"/>
+
+  <!-- Frosting Swirls -->
+  <g stroke="black" stroke-width="2">
+    <ellipse cx="175" cy="150" rx="15" ry="5"/>
+    <ellipse cx="225" cy="165" rx="10" ry="3"/>
+    <ellipse cx="275" cy="145" rx="15" ry="5"/>
+    <ellipse cx="325" cy="160" rx="10" ry="3"/>
+  </g>
+
+  <!-- Cake Board -->
+  <rect x="75" y="375" width="350" height="25" fill="#D2B48C"/>
+
+</svg>

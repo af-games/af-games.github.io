@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <!-- Body -->
+  <ellipse cx="75" cy="75" rx="60" ry="80" fill="#blue" stroke="black" stroke-width="2"/>
+  <!-- Eyes -->
+  <circle cx="65" cy="60" r="8" fill="black"/>
+  <circle cx="65" cy="60" r="4" fill="#yellow"/>
+  <!-- Wings -->
+  <path d="M30,70 Q50,90 70,120 Q90,90 110,70 Q70,50 30,70" stroke="#metallic-gold" fill="url(#motherOfPearl)" stroke-width="4"/>
+  <!-- Feathers -->
+  <path d="M40,80 Q60,110 90,80 Q70,50 110,80 Q90,110 130,80" stroke="#blue" fill="transparent" stroke-width="2"/>
+  <!-- Beak -->
+  <polygon points="40,60 70,20 100,60" fill="#coral" stroke="black" stroke-width="2"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg width="300" height="250" viewBox="0 0 300 250" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Towers -->
+<polygon points="10,10 80,10 80,70 40,90 10,70"
+         style="fill:rgb(169,169,169);stroke-width:2;stroke:rgb(0,0,0)" />
+<polygon points="250,10 220,10 220,70 280,90 250,70"
+         style="fill:rgb(169,169,169);stroke-width:2;stroke:rgb(0,0,0)" />
+
+<!-- Walls -->
+<path d="M30,10 H270 V80 Q255,65 240,80 T250,100 Q265,95 270,100"
+      style="fill:rgb(169,169,169);stroke-width:2;stroke:rgb(0,0,0)" />
+<path d="M30,80 H270 V150 Q255,135 240,150 T250,160 Q265,155 270,160"
+      style="fill:rgb(169,169,169);stroke-width:2;stroke:rgb(0,0,0)" />
+
+<!-- Gatehouse -->
+<rect x="80" y="80" width="140" height="70" rx="15"
+      style="fill:rgb(139,69,19);stroke-width:2;stroke:rgb(0,0,0)" />
+<path d="M110,130 Q130,120 150,130"
+      style="fill:none;stroke-width:2;stroke:rgb(0,0,0)" />
+
+<!-- Roof -->
+<path d="M10,70 Q40,90 80,70 T160,70 T140,50 T10,50"
+      style="fill:rgb(210,105,30);stroke-width:2;stroke:rgb(0,0,0)" />
+
+</svg>

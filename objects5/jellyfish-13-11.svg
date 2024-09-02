@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200">
+  <!-- Bell (Body) -->
+  <ellipse cx="75" cy="100" rx="70" ry="90" fill="#F08080"/>
+  <!-- Tentacles -->
+  <g stroke="#FFFFFF" stroke-width="6">
+    <path d="M75,140 a20,20 0 0 1 -20,-20 h-20 a20,20 0 0 1 20,-20 v-80"/>
+    <path d="M95,140 a20,20 0 0 1 20,-20 h20 a20,20 0 0 1 -20,-20 v-80"/>
+    <path d="M55,140 a20,20 0 0 1 -20,-20 h-20 a20,20 0 0 1 20,-20 v-80"/>
+  </g>
+</svg>

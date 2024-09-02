@@ -1,0 +1,72 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body -->
+  <circle cx="100" cy="75" r="60"
+    fill="url(#balloon-body-gradient)"
+    stroke="#777" stroke-width="2"/>
+
+  <!-- Balloon body shadow -->
+  <circle cx="100" cy="75" r="60"
+    fill="none"
+    stroke="url(#shadow-linear)" stroke-width="8"
+    opacity="0.3"/>
+
+  <!-- Balloon knot -->
+  <ellipse cx="95" cy="45" rx="20" ry="10"
+    fill="#6a6a6a"
+    filter="url(#knot-soft-light)"/>
+
+  <!-- Balloon string -->
+  <path d="M75,30 Q80,20 95,30"
+    stroke="#333" stroke-width="4"/>
+
+  <!-- Balloon top (where it's tied) -->
+  <circle cx="95" cy="30" r="15"
+    fill="#6a6a6a"
+    filter="url(#top-soft-light)"/>
+
+  <!-- Balloon bottom (where the air is inflated) -->
+  <path d="M75,140 Q80,120 95,130 Q110,120 125,140"
+    fill="#ffd700" stroke="#ffe63b" stroke-width="2"/>
+
+  <!-- Balloon bottom glow -->
+  <path d="M75,140 Q80,120 95,130 Q110,120 125,140"
+    fill="none"
+    stroke="url(#glow-linear)" stroke-width="6"
+    opacity="0.6"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="balloon-body-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,215,34);stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="shadow-linear" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:rgb(0,0,0);stop-opacity:0.3"/>
+    </linearGradient>
+    <linearGradient id="glow-linear" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:rgb(255,255,0);stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Filters -->
+  <filter id="knot-soft-light" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+    <feOffset dx="2" dy="2" result="offsetblur"/>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <filter id="top-soft-light" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+    <feOffset dx="1" dy="1" result="offsetblur"/>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+</svg>

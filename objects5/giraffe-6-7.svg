@@ -1,0 +1,36 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E5E9EC"/>
+
+  <!-- Mountains -->
+  <polygon points="40,180 80,120 120,180" fill="#8B7D6D"/>
+  <polygon points="300,180 340,150 380,180" fill="#8B7D6D"/>
+
+  <!-- Rivers -->
+  <path d="M200,280 Q250,320 300,280 T450,280 Q400,320 450,280" stroke="#4CAF50" fill="transparent"/>
+
+  <!-- Forests -->
+  <rect x="160" y="340" width="80" height="100" fill="#28A745"/>
+  <rect x="400" y="340" width="80" height="100" fill="#28A745"/>
+
+  <!-- Giraffaria City -->
+  <circle cx="240" cy="220" r="60" fill="#FFC107"/>
+  <path d="M240,160 Q190,130 240,80 T290,130 Q340,160 240,220" stroke="#FFC107" fill="transparent"/>
+
+  <!-- Giraffe Habitat -->
+  <circle cx="50" cy="400" r="40" fill="#F5DEB3"/>
+  <text x="50" y="450" font-family="Verdana" font-size="16">Giraffe Habitat</text>
+
+  <!-- Other Creatures -->
+  <circle cx="200" cy="500" r="40" fill="#8B7D6D"/>
+  <text x="200" y="550" font-family="Verdana" font-size="16">Ostrich</text>
+
+  <circle cx="350" cy="500" r="40" fill="#9C27B0"/>
+  <text x="350" y="550" font-family="Verdana" font-size="16">Phoenix</text>
+
+  <!-- Labels -->
+  <text x="180" y="20" font-family="Verdana" font-size="24">Giraffaria</text>
+  <text x="35" y="200" font-family="Verdana" font-size="16">Mountains</text>
+  <text x="70" y="400" font-family="Verdana" font-size="16">Rivers</text>
+  <text x="180" y="500" font-family="Verdana" font-size="16">Forests</text>
+</svg>

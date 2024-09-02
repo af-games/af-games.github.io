@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .outer { stroke: black; stroke-width: 2px; fill: none; }
+    .inner { stroke: black; stroke-width: 1px; fill: none; }
+    .feather { stroke: darkgray; stroke-width: 1.5px; fill: none; }
+    .horizontal { stroke: darkgray; stroke-width: 1px; fill: none; }
+    .diagonal { stroke: lightgray; stroke-width: 0.8px; fill: none; }
+    .eye-outline { stroke: black; stroke-width: 1px; fill: none; }
+    .eye-pupil { fill: black; }
+  </style>
+
+  <path class="outer" d="M30,50 Q60,40 90,50 Q70,80 40,50 Z"/>
+  <path class="inner" d="M31,51 Q60,41 90,51 Q70,81 40,51 Z"/>
+
+  <path class="feather" d="M40,49 Q28,65 40,75"/>
+  <path class="feather" d="M70,51 Q82,65 70,75"/>
+
+  <path class="horizontal" d="M40,73 H70"/>
+
+  <path class="diagonal" d="M41,52 L69,73"/>
+  <path class="diagonal" d="M41,73 L69,52"/>
+
+  <path class="eye-outline" d="M50,50 a10,10 -90 0 0 10,-10 a10,10 -90 0 0 10,10"/>
+  <path class="eye-pupil" d="M50,50 a6,6 -90 0 0 10,-6 a6,6 -90 0 0 10,6"/>
+
+</svg>

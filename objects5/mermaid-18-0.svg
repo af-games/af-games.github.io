@@ -1,0 +1,29 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(ADD8E6);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(2C5998);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" fill="url(#grad1)" />
+
+  <!-- Mermaid body -->
+  <path d="M150,350 Q200,400 300,350 Q350,400 300,450 Q250,400 150,450" fill="#48CAE4" stroke="black" stroke-width="5"/>
+
+  <!-- Mermaid hair -->
+  <path d="M175,250 Q200,300 225,275 Q250,325 275,290 Q300,340 285,325 Q315,360 300,340 Q285,315 270,300 Z" fill="#228B22"/>
+
+  <!-- Mermaid head -->
+  <ellipse cx="225" cy="300" rx="125" ry="125" fill="#48CAE4"/>
+  <circle cx="225" cy="275" r="25" fill="#48CAE4"/>
+
+  <!-- Mermaid jewelry -->
+  <circle cx="200" cy="300" r="20" fill="#FFD700"/>
+  <circle cx="250" cy="300" r="15" fill="#FFD700"/>
+
+  <!-- Rock -->
+  <polygon points="400,600 500,550 600,600 500,650" fill="#8B8989" stroke="black" stroke-width="3"/>
+
+</svg>

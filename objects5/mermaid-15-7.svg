@@ -1,0 +1,24 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="0%">
+      <!-- Gradient stops -->
+    </linearGradient>
+
+    <filter id="shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="2" dy="2"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- More gradients and filters -->
+  </defs>
+
+  <!-- Path for mermaid's body -->
+  <path d="..." fill="url(#skin)" mask="url(#mask)" filter="url(#shadow)"/>
+
+  <!-- More paths, polygons, and shapes for details -->
+
+</svg>

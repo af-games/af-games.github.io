@@ -1,0 +1,64 @@
+<svg width="800" height="600" style="background-color: lightgreen;" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Plant your seeds:**
+
+Let's start with some basic shapes for the T-Rex's head, body, and legs.
+
+```svg
+  <circle cx="400" cy="150" r="100" fill="brown"/>
+  <rect x="350" y="200" width="100" height="300" fill="tan"/>
+  <path d="M400,500 Q450,600 500,500" stroke="brown" fill="transparent"/>
+  <path d="M400,600 Q350,700 400,800" stroke="brown" fill="transparent"/>
+```
+
+3. **Water and nurture the seeds:**
+
+Now we'll transform these shapes to give them their final forms.
+
+```svg
+  <g transform="translate(350,200) rotate(-10)">
+    <!-- Head -->
+    <circle cx="40" cy="70" r="100" fill="brown"/>
+  </g>
+  <g transform="translate(350,300) rotate(-10)">
+    <!-- Body -->
+    <rect width="100" height="300" fill="tan"/>
+  </g>
+  <g transform="translate(400,500)">
+    <!-- Left Leg -->
+    <path d="M0,-200 Q-50,-150 0,-100" stroke="brown" fill="transparent"/>
+  </g>
+  <g transform="translate(400,600)">
+    <!-- Right Leg -->
+    <path d="M0,-200 Q50,-150 0,-100" stroke="brown" fill="transparent"/>
+  </g>
+```
+
+4. **Prune where necessary:**
+
+Since we've already defined the shapes and transformed them, there's no need for further pruning in this case.
+
+5. **Write out your SVG code:**
+
+Putting it all together:
+
+```svg
+<svg width="800" height="600" style="background-color: lightgreen;" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(350,200) rotate(-10)">
+    <!-- Head -->
+    <circle cx="40" cy="70" r="100" fill="brown"/>
+  </g>
+  <g transform="translate(350,300) rotate(-10)">
+    <!-- Body -->
+    <rect width="100" height="300" fill="tan"/>
+  </g>
+  <g transform="translate(400,500)">
+    <!-- Left Leg -->
+    <path d="M0,-200 Q-50,-150 0,-100" stroke="brown" fill="transparent"/>
+  </g>
+  <g transform="translate(400,600)">
+    <!-- Right Leg -->
+    <path d="M0,-200 Q50,-150 0,-100" stroke="brown" fill="transparent"/>
+  </g>
+</svg>

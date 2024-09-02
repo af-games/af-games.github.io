@@ -1,0 +1,19 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Igloo base -->
+  <rect id="igloo-base" x="80" y="300" width="340" height="50" fill="#696969" stroke-width="0"/>
+
+  <!-- Igloo dome -->
+  <path id="igloo-dome" d="M120,70 Q250,30 380,70" fill="#696969" stroke-width="0"/>
+  <circle id="dome-top" cx="250" cy="40" r="40" fill="#696969" stroke-width="0"/>
+
+  <!-- Door -->
+  <rect id="door" x="180" y="300" width="40" height="50" fill="#fff"/>
+  <line id="doorknob" x1="210" y1="300" x2="210" y2="250" stroke="#696969" stroke-width="5"/>
+
+  <!-- Animation -->
+  <animateMotion begin="click" dur="2s" repeatCount="indefinite">
+    <mpath href="#igloo-dome"/>
+    <set attributeName="opacity" from="1" to="0.3" />
+  </animateMotion>
+
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Body -->
+  <path fill="#D3D3D3" d="M-90,-120 Q-40,-70 0,-80 Q40,-70 90,-120"/>
+
+  <!-- Back shading -->
+  <linearGradient id="backGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#D3D3D3"/>
+    <stop offset="50%" style="stop-color:#4A4A4A"/>
+  </linearGradient>
+  <path fill="url(#backGradient)" d="M-90,-120 Q-40,-70 0,-80"/>
+
+  <!-- Fin -->
+  <rect width="60" height="30" fill="#333333" x="-95" y="-130"/>
+
+  <!-- Belly -->
+  <path fill="#FFFFFF" d="M-90,-120 Q40,-70 -90,-80"/>
+
+  <!-- Eye spots -->
+  <circle cx="-30" cy="-60" r="5" fill="#000000"/>
+  <circle cx="30" cy="-60" r="5" fill="#000000"/>
+
+</svg>

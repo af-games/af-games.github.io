@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Bell (top part) -->
+  <circle cx="0" cy="-25" r="25" fill="#F8D7AA" opacity="0.9" />
+  <circle cx="0" cy="-25" r="23" fill="#FFF" />
+
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <path d="M-15,-25 Q-30,-15 0,-25 Q30,-15 15,-25" stroke="#F8D7AA" fill="transparent"/>
+    <path d="M0,-40 Q-30,-20 0,-40 Q30,-20 0,-40" stroke="#FFF" fill="transparent"/>
+
+    <!-- Add more tentacles by duplicating and rotating the above paths -->
+    <use xlink:href="#tentacles" transform="rotate(60, 0, -50)" />
+    <use xlink:href="#tentacles" transform="rotate(-60, 0, -50)" />
+  </g>
+
+  <!-- Oral arms (inside the bell) -->
+  <circle cx="0" cy="-28" r="3" fill="#FFF"/>
+  <circle cx="0" cy="-28" r="1.5" fill="#F8D7AA"/>
+
+</svg>

@@ -1,0 +1,38 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect id="body" x="50" y="100" width="100" height="150"
+        fill="url(#penguinGradient)" />
+
+  <!-- Head -->
+  <circle cx="100" cy="75" r="25" fill="black" />
+  <circle cx="90" cy="68" r="3" fill="white" /> <!-- Left eye -->
+  <circle cx="110" cy="68" r="3" fill="white" /> <!-- Right eye -->
+
+  <!-- Beak -->
+  <path id="beak" d="M85,75 Q95,85 105,75 Q115,85 95,70 Z"
+        fill="orange" />
+
+  <!-- Wings -->
+  <g transform="rotate(45 100 125)">
+    <path d="M90,130 Q75,140 90,150 Q105,140 90,130 Z"
+          fill="url(#wingGradient)" />
+    <path d="M90,130 Q75,120 90,110 Q105,120 90,130 Z"
+          fill="url(#wingGradient)" />
+  </g>
+
+  <!-- Feet -->
+  <polygon points="80,260 120,260 100,280"
+            fill="black" />
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(57,89,163);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(148,179,211);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   style="stop-color:rgb(57,89,163);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

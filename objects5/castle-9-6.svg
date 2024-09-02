@@ -1,0 +1,36 @@
+<svg width="80%" height="60%" viewBox="0 0 100% 100%" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle foundation -->
+  <rect width="80%" height="60%" rx="20" fill="#D3D3D3"/>
+
+  <!-- Front wall -->
+  <rect x="10%" y="10%" width="70%" height="40%" rx="20" fill="#D3D3D3"/>
+
+  <!-- Back wall -->
+  <rect x="10%" y="50%" width="70%" height="30%" rx="20" fill="#D3D3D3"/>
+
+  <!-- Towers -->
+  <circle cx="15%" cy="20%" r="10%" fill="#A9A9A9"/>
+  <circle cx="85%" cy="20%" r="10%" fill="#A9A9A9"/>
+  <circle cx="15%" cy="60%" r="7%" fill="#A9A9A9"/>
+  <circle cx="85%" cy="60%" r="7%" fill="#A9A9A9"/>
+
+  <!-- Roofs -->
+  <polygon points="20%,10%, 30%,2%, 80%,2%, 90%,10%" fill="#800020"/>
+  <polygon points="20%,50%, 30%,48%, 80%,48%, 90%,50%" fill="#800020"/>
+
+  <!-- Arches, Bridges & Windows -->
+  <path d="M30%,10% Q50%,2% 70%,10%" stroke="#FFDF00" fill="transparent"/>
+  <path d="M40%,40% Q60%,50% 80%,40%" stroke="#FFDF00" fill="transparent"/>
+
+  <!-- Front windows -->
+  <rect x="35%" y="15%" width="5%" height="5%" fill="#A9A9A9"/>
+  <!-- Back windows -->
+  <rect x="35%" y="55%" width="5%" height="5%" fill="#A9A9A9"/>
+
+  <!-- Flags -->
+  <rect x="12%" y="8%" width="6%" height="4%" rx="2" fill="#FFDF00"/>
+  <rect x="77%" y="8%" width="6%" height="4%" rx="2" fill="#FFDF00"/>
+
+  <!-- Text -->
+  <text x="50%" y="10%" dominant-baseline="middle" text-anchor="middle" font-size="2vw" fill="#000000">Castle Feast</text>
+</svg>

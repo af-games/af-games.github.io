@@ -1,0 +1,34 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#E5F5E0"/>
+
+  <!-- Rolling hills -->
+  <path d="M10,30 Q90,70 240,30 Q490,100 740,30 Q780,70 800,30" fill="#C5E1A5" stroke-width="0"/>
+  <path d="M10,130 Q90,170 240,130 Q490,150 740,130 Q780,170 800,130" fill="#C5E1A5" stroke-width="0"/>
+  <path d="M10,230 Q90,270 240,230 Q490,250 740,230 Q780,270 800,230" fill="#C5E1A5" stroke-width="0"/>
+
+  <!-- Winding river -->
+  <path d="M10,370 C60,390 170,420 300,380 C420,410 550,370 700,380 C750,400 800,370 800,300" stroke="#3D9970" stroke-width="20" fill="transparent"/>
+
+  <!-- Towering trees -->
+  <circle cx="150" cy="150" r="60" fill="#4CAF50"/>
+  <circle cx="280" cy="100" r="50" fill="#4CAF50"/>
+  <circle cx="420" cy="170" r="70" fill="#4CAF50"/>
+
+  <!-- Hot air balloon -->
+  <ellipse cx="360" cy="280" rx="120" ry="180" fill="url(#balloonGradient)" stroke-width="5"/>
+  <polygon points="300,220 420,220 360,90" fill="url(#basketGradient)"/>
+
+  <!-- Balloon gradients -->
+  <defs>
+    <linearGradient id="balloonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,215,77);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,165,0);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="basketGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(139,69,19);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(84,51,24);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

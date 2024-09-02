@@ -1,0 +1,21 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#00FFFF"/>
+
+  <!-- Mermaid's Tail -->
+  <defs>
+    <linearGradient id="tail-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#40E0D0"/>
+      <stop offset="100%" style="stop-color:#00BFFF"/>
+    </linearGradient>
+  </defs>
+  <polygon points="250,400 375,400 312.5,350" fill="url(#tail-gradient)"/>
+
+  <!-- Mermaid's Hair -->
+  <rect x="250" y="200" width="125" height="200" fill="#483D8B"/>
+
+  <!-- Ocean Elements (simplified for SVG text-based representation) -->
+  <!-- Add rectangles, circles, and other basic shapes with appropriate fills to represent corals, seaweed, fish -->
+
+</svg>

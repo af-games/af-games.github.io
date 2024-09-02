@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" preserveAspectRatio="xMidYMid meet">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#F8EDEA"/>
+
+  <!-- Fairy Body: Main Pane (Emerald Green) with Organic Pattern -->
+  <path d="M50,300 Q90,250 200,270 Q310,230 400,300 Q310,370 200,330 Q90,350 50,300" fill="#6C916D" stroke="#4A6B48">
+    <pattern id="fairyBodyPattern" patternUnits="userSpaceOnUse" width="40" height="40">
+      <rect width="20" height="20" fill="#8DC63C"/>
+      <circle cx="10" cy="10" r="5" fill="#9ED271"/>
+    </pattern>
+    <style>fill:url(#fairyBodyPattern)</style>
+  </path>
+
+  <!-- Fairy Wings: Main Pane (Purple) with Geometric Pattern -->
+  <path d="M40,300 Q80,250 200,260 Q310,270 400,310 Q310,350 200,340 Q80,330 40,300" fill="#A259D9" stroke="#7F4C9B">
+    <pattern id="fairyWingsPattern" patternUnits="userSpaceOnUse" width="16" height="16">
+      <rect width="8" height="8" fill="#D3ADFB"/>
+      <line x1="0" y1="8" x2="16" y2="8" stroke="#B9A1F7"/>
+    </pattern>
+    <style>fill:url(#fairyWingsPattern)</style>
+  </path>
+
+  <!-- Fairy Hair: Main Pane (Gold) -->
+  <path d="M50,200 Q90,160 200,180 Q310,200 400,220 Q310,240 200,260 Q90,280 50,260" fill="#FFD700" stroke="#CBA300"/>
+
+  <!-- Fairy Eyes: Main Pane (Blue) -->
+  <circle cx="200" cy="250" r="30" fill="#4E91EC" stroke="#2F78AC"/>
+  <circle cx="300" cy="250" r="30" fill="#4E91EC" stroke="#2F78AC"/>
+
+  <!-- Fairy Border -->
+  <rect width="100%" height="100%" rx="20" ry="20" stroke="#3B0000" stroke-width="5"/>
+</svg>

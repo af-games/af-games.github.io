@@ -1,0 +1,30 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define a linear gradient for the threads -->
+  <defs>
+    <linearGradient id="threadGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background rectangle -->
+  <rect width="200" height="200" fill="#FFB6C1" />
+
+  <!-- Horizontal threads for the body -->
+  <g stroke-width="3" stroke="url(#threadGradient)">
+    <line x1="50" y1="70" x2="150" y2="70"/>
+    <line x1="50" y1="80" x2="150" y2="80"/>
+    <!-- Repeat for more threads -->
+  </g>
+
+  <!-- Vertical threads for the wings and head -->
+  <g stroke-width="3" stroke="url(#threadGradient)" transform="translate(50, 0)">
+    <line x1="0" y1="70" x2="0" y2="180"/>
+    <line x1="10" y1="70" x2="10" y2="180"/>
+    <!-- Repeat for more threads -->
+  </g>
+
+  <!-- Black outline for the penguin's body shape -->
+  <path d="M50,70 Q90,30 150,70 Q90,110 50,70" stroke="#000" fill="transparent"/>
+
+</svg>

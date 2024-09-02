@@ -1,0 +1,21 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#FFF59D"/>
+
+  <!-- Rhythm (circles) and Beat (rectangles) -->
+  <circle cx="100" cy="200" r="30" stroke="#8B4513" fill="transparent"/>
+  <circle cx="200" cy="200" r="25" stroke="#8B4513" fill="transparent"/>
+  <rect x="300" y="175" width="100" height="50" stroke="#8B4513" fill="#E99679"/>
+  <circle cx="450" cy="200" r="20" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Melody (lion's mane) -->
+  <path d="M50 150 Q100 50, 200 150 Q300 250, 400 150 Q500 50, 600 150" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Harmony (lion's body and patterns) -->
+  <path d="M100 275 Q150 325, 200 375 Q250 425, 300 375 Q350 325, 400 275" stroke="#8B4513" fill="transparent"/>
+  <path d="M225 300 Q275 350, 325 400 Q375 450, 425 400 Q475 350, 525 300" stroke="#8B4513" fill="transparent"/>
+  <path d="M250 350 A50 50 0 1 0 300 400 A50 50 0 1 0 350 350" stroke="#8B4513" fill="transparent"/>
+  <path d="M275 375 Q325 425, 375 475 Q425 525, 375 475 Q325 425, 275 375" stroke="#8B4513" fill="transparent"/>
+
+</svg>

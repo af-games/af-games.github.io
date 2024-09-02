@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  <!-- Face -->
+  <g id="face">
+    <circle cx="250" cy="300" r="200" fill="#F8EDE5"/>
+    <circle cx="250" cy="300" r="170" fill="#FFC3E6"/>
+  </g>
+
+  <!-- Hair -->
+  <g id="hair">
+    <rect x="200" y="240" width="80" height="60" fill="#800080"/>
+    <circle cx="270" cy="250" r="30" fill="#800080"/>
+  </g>
+
+  <!-- Eyes -->
+  <g id="eyes">
+    <circle cx="210" cy="260" r="10" fill="#800080"/>
+    <circle cx="290" cy="260" r="10" fill="#800080"/>
+  </g>
+
+  <!-- Clothing -->
+  <g id="clothing">
+    <rect x="180" y="340" width="240" height="160" fill="#D9E7FF"/>
+    <polygon points="50,340 180,400 310,340 450,400" fill="#4CAF50"/>
+  </g>
+
+  <!-- Accessories -->
+  <g id="accessories">
+    <circle cx="250" cy="460" r="20" fill="#FF6347"/>
+    <rect x="210" y="480" width="80" height="20" fill="#FF6347"/>
+  </g>
+
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" preserveAspectRatio="xMidYMid meet">
+
+  <!-- Body -->
+  <rect x="150" y="400" width="300" height="400" fill="#F5DEB3" stroke="#9C7E52" stroke-width="10"/>
+  <linearGradient id="bodyGradient" gradientUnits="userSpaceOnUse" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" style="stop-color:#F5DEB3; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#E8CCA4; stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Head -->
+  <ellipse cx="270" cy="320" rx="80" ry="90" fill="#F5DEB3" stroke="#9C7E52" stroke-width="10"/>
+  <linearGradient id="headGradient" gradientUnits="userSpaceOnUse" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" style="stop-color:#F5DEB3; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#E8CCA4; stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Neck -->
+  <path d="M270,320 Q200,500 270,650" stroke="#9C7E52" fill="transparent" stroke-width="10"/>
+
+  <!-- Legs -->
+  <rect x="180" y="650" width="40" height="200" fill="#F5DEB3" stroke="#9C7E52" stroke-width="10"/>
+  <rect x="320" y="650" width="40" height="200" fill="#F5DEB3" stroke="#9C7E52" stroke-width="10"/>
+
+  <!-- Tail -->
+  <path d="M270,850 Q320,900 270,950" stroke="#9C7E52" fill="transparent" stroke-width="10"/>
+
+  <!-- Spots -->
+  <circle cx="190" cy="690" r="30" fill="#4B3A28"/>
+  <circle cx="270" cy="690" r="30" fill="#4B3A28"/>
+  <circle cx="350" cy="690" r="30" fill="#4B3A28"/>
+
+  <!-- Eyes -->
+  <circle cx="210" cy="330" r="20" fill="#FFFFFF"/>
+  <circle cx="310" cy="330" r="20" fill="#FFFFFF"/>
+  <circle cx="210" cy="330" r="15" fill="#4B3A28"/>
+  <circle cx="310" cy="330" r="15" fill="#4B3A28"/>
+
+</svg>

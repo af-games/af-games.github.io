@@ -1,0 +1,42 @@
+<svg>` element and then create each section one by one.
+
+```xml
+<svg width="150" height="200" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path id="body" d="
+    M 150 380
+    A 70 70 0 1 1 150 290
+    A 70 70 0 1 1 150 380
+    Z"
+    fill="lightpink" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="320" r="40" fill="lightpink" stroke="black"/>
+
+  <!-- Hair -->
+  <polygon points="120,300 180,300 150,260" fill="brown" stroke="black"/>
+
+  <!-- Arms -->
+  <path id="arm-left" d="
+    M 140 340
+    L 100 380
+    L 140 420"
+    fill="transparent" stroke="black"/>
+  <path id="arm-right" d="
+    M 160 340
+    L 200 380
+    L 160 420"
+    fill="transparent" stroke="black"/>
+
+  <!-- Wings -->
+  <path id="wing-left" d="
+    M 130 350
+    Q 90 400, 130 450
+    Q 70 480, 130 500"
+    fill="lightblue" stroke="black"/>
+  <path id="wing-right" d="
+    M 170 350
+    Q 210 400, 170 450
+    Q 230 480, 170 500"
+    fill="lightblue" stroke="black"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#fff"/>
+
+  <!-- Jellyfish 1 -->
+  <g id="jellyfish1">
+    <circle cx="200" cy="350" r="40" fill="#003366"/>
+    <polygon points="-20,0 -8,-30 8,-30 20,0" transform="translate(200,175) rotate(-45)" fill="#0066cc">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+  <!-- Jellyfish 2 -->
+  <g id="jellyfish2" transform="translate(350,300)">
+    <circle cx="0" cy="0" r="35" fill="#003366"/>
+    <polygon points="-15,0 -5,-25 5,-25 15,0">
+      <animateTransform attributeName="transform" type="translate" from="0,-10" to="0,10" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+  <!-- Jellyfish 3 -->
+  <g id="jellyfish3" transform="translate(500,250)">
+    <circle cx="0" cy="0" r="30" fill="#003366"/>
+    <polygon points="-10,0 -3,-20 3,-20 10,0">
+      <animateTransform attributeName="transform" type="scale" from="1" to="1.5" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+</svg>

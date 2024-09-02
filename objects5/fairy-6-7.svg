@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2018/svg" viewBox="0 0 500 500">
+    <defs>
+        <!-- Fairy image -->
+        <image id="fairy" xlink:href="https://via.placeholder.com/50x70" width="50px"/>
+    </defs>
+
+    <!-- Fairy starts at bottom left corner -->
+    <use href="#fairy" x="-20" y="400">
+
+        <!-- Fly towards the center -->
+        <animateMotion begin="0s" dur="1s" repeatCount="1">
+            <mpath d="M 0,400 Q 250,300 500,400"/>
+        </animateMotion>
+
+    </use>
+
+    <!-- Fairy waves her wand at the center -->
+    <use href="#fairy" x="250" y="300">
+        <animateTransform attributeName="transform" type="rotate" from="0 250 300" to="360 250 300" dur="1s" repeatCount="1"/>
+    </use>
+
+    <!-- Fairy flies off to top right corner -->
+    <use href="#fairy" x="400" y="20">
+        <animateMotion begin="3s" dur="1s" repeatCount="1">
+            <mpath d="M 400,20 Q 250,200 0,20"/>
+        </animateMotion>
+    </use>
+</svg>

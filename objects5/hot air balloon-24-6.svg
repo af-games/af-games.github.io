@@ -1,0 +1,21 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bodice -->
+  <rect id="bodice" x="90" y="100" width="200" height="350" rx="4" fill="#FFF8DC"/>
+  <!-- Sleeves -->
+  <circle id="sleeve-template" cx="70" cy="250" r="90" fill="transparent"/>
+  <use xlink:href="#sleeve-template" y="100"/>
+  <use xlink:href="#sleeve-template" transform="translate(300, 100) rotate(180)"/>
+  <!-- Balloon Section -->
+  <path id="balloon-template" d="M250,100 a90,90 0 1,0 180,0 a90,90 0 1,0 -180,0 a45,45 0 1,0 75,75" fill="url(#balloon-pattern)" />
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="gradient" x1="250" y1="350" x2="250" y2="450">
+      <stop offset="0%" style="stop-color:#FFD700; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFF8DC; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Balloon Pattern -->
+  <pattern id="balloon-pattern" patternUnits="userSpaceOnUse" width="25" height="25">
+    <image href="hot-air-balloon.png" x="0" y="0" width="25" height="25"/>
+  </pattern>
+</svg>

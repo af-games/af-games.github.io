@@ -1,0 +1,20 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Quilt background -->
+  <rect x="10" y="10" width="480" height="380" fill="#F6E9C7" stroke="#D5A584" stroke-width="3"/>
+
+  <!-- Main pattern (Alternating colored rectangles) -->
+  <defs>
+    <pattern id="quiltPattern" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="100" height="100" fill="#F8DCC7"/>
+      <rect x="100" y="0" width="100" height="100" fill="#EBC4A3"/>
+    </pattern>
+  </defs>
+  <rect x="20" y="20" width="460" height="360" fill="url(#quiltPattern)"/>
+
+  <!-- Buttons (Circles with different colors) -->
+  <circle cx="75" cy="150" r="25" fill="#F9E7D8"/>
+  <circle cx="225" cy="75" r="20" fill="#FFBD7B"/>
+  <circle cx="375" cy="225" r="22" fill="#FF6C41"/>
+
+</svg>

@@ -1,0 +1,17 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Terrain: Sky, Mountains, and Ground -->
+  <rect x="0" y="0" width="500" height="150" fill="#87CEEB"/>
+  <polygon points="450,50 50,50 250,300" fill="#696969" stroke="black"/>
+  <rect x="0" y="300" width="500" height="200" fill="#8B7D6B"/>
+
+  <!-- Tree -->
+  <circle cx="100" cy="400" r="50" fill="#006400"/>
+  <polygon points="90,350 150,350 120,280" stroke="#006400" fill="transparent"/>
+
+  <!-- Fairy -->
+  <circle cx="200" cy="350" r="30" fill="#FFC0CB"/>
+  <polygon points="190,320 210,320 200,280" stroke="#FFC0CB" fill="transparent"/>
+  <circle cx="200" cy="300" r="15" fill="#FFD700"/>
+
+</svg>

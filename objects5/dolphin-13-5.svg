@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -20 70 60" id="dolphin-map">
+  <!-- Body -->
+  <path d="M-5,-15 Q0,-15 5,-10 Q10,-5 15,-15 Q20,-20 25,-15 Q30,-10 35,-15 Q40,-20 45,-15 Q50,-10 55,-15 Q60,-20 65,-15" fill="#3D405B" stroke="#000"/>
+
+  <!-- Dorsal fin -->
+  <path d="M15,-5 L25,0 L15,5" fill="#C5C6CA" stroke="#000"/>
+
+  <!-- Tail fin -->
+  <path d="M35,-15 Q40,-20 45,-15 Q50,-20 55,-15" fill="#C5C6CA" stroke="#000"/>
+
+  <!-- Head outline -->
+  <path d="M-5,-15 Q0,-15 5,-10 Q10,-5 -5,0 Q-10,5 -5,10" fill="none" stroke="#000"/>
+
+  <!-- Blowhole -->
+  <circle cx="-5" cy="5" r="3" fill="#FFF"/>
+
+  <!-- Eye highlights -->
+  <circle cx="-10" cy="0" r="2" fill="#FFF"/>
+  <circle cx="-3" cy="0" r="2" fill="#FFF"/>
+
+</svg>

@@ -1,0 +1,30 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Plate -->
+<circle cx="175" cy="200" r="150" fill="#FFFCEA"/>
+
+<!-- Jellyfish -->
+<g id="jellyfish">
+  <path d="M140 180 q30 20, 60 0 q30 -20, 60 0 Q210 200, 175 160" fill="#C6F2FF"/>
+  <circle cx="175" cy="140" r="40" fill="#7AB7D3"/>
+  <path d="M165 145 l-20 -25, 20 -25" stroke="#0E89C7" fill="transparent"/>
+</g>
+<use xlink:href="#jellyfish" y="180"/>
+
+<!-- Ingredients -->
+<circle cx="320" cy="140" r="30" fill="#FFD65B"/> <!-- Lemon slice -->
+<rect x="370" y="120" width="60" height="60" rx="30" fill="#8DC63C"/> <!-- Spinach -->
+<path d="M440 160 l-40 -50, 0 -50, 40 -50 Z" fill="#FF7F27"/> <!-- Tomato -->
+
+<!-- Garnish -->
+<circle cx="220" cy="180" r="10" stroke="#0E89C7" stroke-width="3" fill="transparent"/>
+
+<!-- Utensils -->
+<rect x="450" y="220" width="40" height="60" rx="10" fill="#F1B342"/> <!-- Fork -->
+<path d="M480 240 l-10 -20, 20 0, 10 20 Z" stroke="#795548" fill="transparent"/>
+<rect x="465" y="270" width="20" height="40" rx="5" fill="#F1B342"/> <!-- Knife -->
+
+<!-- Background -->
+<rect x="0" y="0" width="500" height="350" fill="#FFFCEA"/>
+
+</svg>

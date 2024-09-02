@@ -1,0 +1,24 @@
+<svg width="100%" height="100%" viewBox="-50 -50 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hot Air Balloon Envelope -->
+  <ellipse cx="0" cy="0" rx="60" ry="80" fill="#FFB973"/>
+  <path d="M0,-85 Q-40,-100 -40,-80 A40,40 0 0 0 40,-80 z" fill="#FFB973"/>
+
+  <!-- Hot Air Balloon Basket -->
+  <rect x="-20" y="-60" width="40" height="25" fill="#5E4C2A"/>
+  <path d="M-20,-10 Q0,-20 20,-10 z" fill="#5E4C2A"/>
+
+  <!-- Hot Air Balloon Ribs -->
+  <path d="M-60,-70 L0,-85 L60,-70 Z" stroke="#5E4C2A" stroke-width="3"/>
+  <path d="M-40,-50 L0,-65 L40,-50 Z" stroke="#5E4C2A" stroke-width="3"/>
+
+  <!-- Mooring Point Tower -->
+  <circle cx="-80" cy="70" r="10" fill="#7F9DB9"/>
+  <rect x="-90" y="60" width="20" height="50" fill="#7F9DB9"/>
+  <path d="M-80,120 V140 H-60 V120 Z" fill="#7F9DB9"/>
+
+  <!-- Launch Point Ground -->
+  <rect x="-100" y="-30" width="200" height="50" fill="#BDB7A5"/>
+  <path d="M0,-40 Q-80,-60 -80,-40 z" fill="#BDB7A5"/>
+
+</svg>

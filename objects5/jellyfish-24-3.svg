@@ -1,0 +1,19 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Bell -->
+<circle cx="300" cy="200" r="100" fill="#9DC5C7"/>
+
+<!-- Tentacles -->
+<path d="M300,70 Q400,160 300,250" stroke="#80B3AE" stroke-width="30"/>
+<path d="M300,30 Q400,130 300,200" stroke="#80B3AE" stroke-width="30"/>
+<path d="M300,250 Q200,160 300,70" stroke="#80B3AE" stroke-width="30"/>
+<path d="M300,230 Q200,140 300,90" stroke="#80B3AE" stroke-width="30"/>
+
+<!-- Oral Arms -->
+<circle cx="250" cy="180" r="40" fill="#80B3AE"/>
+<circle cx="350" cy="180" r="40" fill="#80B3AE"/>
+
+<!-- Pulsating Line -->
+<path d="M300,200 A90,90 0 1,0 300,100 A90,90 0 1,0 300,300" stroke="#4CAF50" stroke-width="10"/>
+
+</svg>

@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#B0E0E6"/>
+
+<!-- Mountains -->
+<polyline points="50,40 150,80 250,120" stroke="#779ECB" fill="none" stroke-width="3"/>
+<polyline points="300,40 400,80 500,120" stroke="#779ECB" fill="none" stroke-width="3"/>
+<text x="100" y="60" text-anchor="middle" font-family="Arial" font-size="12">Mountains of Frost</text>
+<text x="450" y="60" text-anchor="middle" font-family="Arial" font-size="12">Peaks of Permafrost</text>
+
+<!-- Rivers -->
+<path d="M350,200 Q400,150 450,200 T500,250 Q550,180 600,250" stroke="#FFFFFF" fill="none" stroke-width="3"/>
+<text x="475" y="190" text-anchor="middle" font-family="Arial" font-size="12">Frozen River</text>
+
+<!-- Forests -->
+<rect x="650" y="180" width="100" height="150" fill="#3D7D52"/>
+<text x="700" y="220" text-anchor="middle" font-family="Arial" font-size="12">Whispering Pine Forest</text>
+
+<!-- Igloo City -->
+<circle cx="200" cy="200" r="80" fill="#FFFFFF"/>
+<path d="M170,150 A30,30 0 0 0 230,150 A30,30 0 0 0 170,190 z" stroke="#6495ED" fill="#FFFFFF"/>
+<text x="200" y="180" text-anchor="middle" font-family="Arial" font-size="12">Igloo City</text>
+
+<!-- Lake -->
+<rect x="300" y="270" width="200" height="150" fill="#ADD8E6"/>
+<text x="400" y="350" text-anchor="middle" font-family="Arial" font-size="12">Frozen Lake</text>
+
+<!-- Legend -->
+<rect x="700" y="350" width="100" height="50" fill="#FFFFFF"/>
+<text x="750" y="400" text-anchor="middle" font-family="Arial" font-size="12">Legend:</text>
+<text x="750" y="430" text-anchor="middle" font-family="Arial" font-size="12">Mountains - #779ECB</text>
+<text x="750" y="460" text-anchor="middle" font-family="Arial" font-size="12">Rivers - #FFFFFF</text>
+
+</svg>

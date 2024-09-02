@@ -1,0 +1,92 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+```
+
+Next, let's define some variables for note sizes and positions:
+
+- Whole note: `w = 100`, `h = 50`
+- Half note: `wh = w / 2`, `hh = h / 2`
+- Quarter note: `q = wh / 2`, `hq = hh / 2`
+- Eighth note: `e = q / 2`, `he = hq / 2`
+
+Now, let's create the notes. We'll use circles for drums (kick) and rectangles for violins.
+
+```svg
+<g id="nurse_shark">
+  <!-- Kick drum -->
+  <circle cx="50" cy="150" r="40" fill="darkblue"/>
+
+  <!-- Violin -->
+  <rect x="150" y="75" width="w" height="h" fill="brown"/>
+  <rect x="250" y="75" width="w" height="h" fill="brown"/>
+</g>
+```
+
+Now, let's add the notes. We'll start with a simple rhythm:
+
+- Kick drum: Quarter note on beats 1 and 3
+- Violin: Eighth note on beats 2 and 4
+
+```svg
+<g id="measure_1">
+  <!-- Kick drum -->
+  <circle cx="50" cy="150" r="40" fill="darkblue"/>
+  <animate attributeName="r" from="40" to="30" dur="0.5s" begin="0s"/>
+
+  <!-- Violin -->
+  <rect x="150" y="75" width="e" height="he" fill="orange"/>
+  <animate attributeName="width" from="e" to="w" dur="0.25s" begin="0.25s"/>
+  <rect x="250" y="75" width="e" height="he" fill="orange"/>
+  <animate attributeName="width" from="e" to="w" dur="0.25s" begin="1.25s"/>
+</g>
+```
+
+Finally, let's add some dynamics with color changes for crescendos:
+
+```svg
+<g id="measure_2">
+  <!-- Kick drum -->
+  <circle cx="50" cy="150" r="30" fill="#88ccff"/>
+  <animate attributeName="r" from="30" to="40" dur="0.5s" begin="1.5s"/>
+
+  <!-- Violin -->
+  <rect x="150" y="75" width="w" height="h" fill="#ffdd66"/>
+  <animate attributeName="fill" from="#ffdd66" to="#ff9933" dur="0.25s" begin="2s"/>
+</g>
+```
+
+Here's the complete SVG score:
+
+```svg
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <g id="nurse_shark">
+    <!-- Kick drum -->
+    <circle cx="50" cy="150" r="40" fill="darkblue"/>
+    <animate attributeName="r" from="40" to="30" dur="0.5s" begin="0s"/>
+
+    <!-- Violin -->
+    <rect x="150" y="75" width="w" height="h" fill="brown"/>
+    <rect x="250" y="75" width="w" height="h" fill="brown"/>
+  </g>
+
+  <g id="measure_1">
+    <!-- Kick drum -->
+    <circle cx="50" cy="150" r="40" fill="darkblue"/>
+    <animate attributeName="r" from="40" to="30" dur="0.5s" begin="0s"/>
+
+    <!-- Violin -->
+    <rect x="150" y="75" width="e" height="he" fill="orange"/>
+    <animate attributeName="width" from="e" to="w" dur="0.25s" begin="0.25s"/>
+    <rect x="250" y="75" width="e" height="he" fill="orange"/>
+    <animate attributeName="width" from="e" to="w" dur="0.25s" begin="1.25s"/>
+  </g>
+
+  <g id="measure_2">
+    <!-- Kick drum -->
+    <circle cx="50" cy="150" r="30" fill="#88ccff"/>
+    <animate attributeName="r" from="30" to="40" dur="0.5s" begin="1.5s"/>
+
+    <!-- Violin -->
+    <rect x="150" y="75" width="w" height="h" fill="#ffdd66"/>
+    <animate attributeName="fill" from="#ffdd66" to="#ff9933" dur="0.25s" begin="2s"/>
+  </g>
+</svg>

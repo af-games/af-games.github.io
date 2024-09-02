@@ -1,0 +1,19 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Main Quilt Background -->
+<rect x="10" y="10" width="600" height="400" fill="#F5DEB3"/>
+
+<!-- Quilt Blocks -->
+<g stroke-width="0">
+  <rect x="20" y="20" width="180" height="180" fill="#DABABA"/>
+  <rect x="260" y="60" width="180" height="180" fill="#E6CBC5"/>
+  <!-- Add more rectangles with varying positions and colors as needed -->
+</g>
+
+<!-- Stitching Lines -->
+<path d="M30,40 H590 V420 H30 Z" stroke="#000"/>
+
+<!-- Border -->
+<rect x="0" y="0" width="640" height="480" stroke="#000" stroke-width="20"/>
+
+</svg>

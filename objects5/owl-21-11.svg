@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#3D9483"/>
+
+  <!-- Tree Trunk -->
+  <polygon points="200,550 350,550 300,500 250,500" fill="#41270E"/>
+  ...
+
+  <!-- Owl Eyes -->
+  <circle cx="400" cy="350" r="50" fill="#FFD800"/>
+  <circle cx="400" cy="350" r="40" fill="#311F0B"/>
+
+  <!-- Moon -->
+  <circle cx="70" cy="120" r="60">
+    <radialGradient id="grad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#C0C0C0; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#E6E6E6; stop-opacity:1"/>
+    </radialGradient>
+  </circle>
+
+  ...
+
+</svg>

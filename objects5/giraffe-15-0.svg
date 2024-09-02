@@ -1,0 +1,32 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <circle cx="250" cy="75" r="75" fill="#FDD896"/>
+  <path d="M210,60 A70,70 0 0 1 290,60 A70,70 0 0 1 210,140 A70,70 0 0 1 250,180" stroke="black"/>
+
+  <!-- Body & Neck -->
+  <ellipse cx="250" cy="325" rx="100" ry="200" fill="#FDD896"/>
+  <path d="M250,180 Q275,225 300,275 Q225,325 250,375 Q175,325 125,275 Q145,225 250,180" stroke="black"/>
+
+  <!-- Legs -->
+  <circle cx="160" cy="375" r="15" fill="#FDD896"/>
+  <circle cx="250" cy="375" r="15" fill="#FDD896"/>
+  <circle cx="340" cy="375" r="15" fill="#FDD896"/>
+  <circle cx="250" cy="425" r="15" fill="#FDD896"/>
+
+  <!-- Spots -->
+  <circle cx="190" cy="340" r="5" fill="black"/>
+  <circle cx="240" cy="370" r="5" fill="black"/>
+  <circle cx="300" cy="340" r="5" fill="black">
+    <!-- Add more spots as needed -->
+
+  <!-- Ears -->
+  <ellipse cx="190" cy="85" rx="25" ry="50" fill="#FDD896"/>
+  <ellipse cx="310" cy="85" rx="25" ry="50" fill="#FDD896"/>
+
+  <!-- Mane & Horns -->
+  <path d="M230,70 Q245,50 260,70 Q275,110 290,70 Q275,30 260,10 Z" fill="#FFB87D"/>
+  <path d="M220,60 L240,40 L260,60 Z" fill="#FDD896"/>
+  <path d="M280,60 L300,40 L320,60 Z" fill="#FDD896"/>
+
+</svg>

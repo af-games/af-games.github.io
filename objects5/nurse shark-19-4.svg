@@ -1,0 +1,25 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Sea -->
+<rect x="0" y="0" width="300" height="300" fill="#7DC8FF"/>
+
+<!-- Nurse Shark -->
+<path d="M150,60 Q190,40 250,100 T280,180 V220 H180 Z" fill="#FFF37F"/>
+<circle cx="185" cy="140" r="5" fill="#FF8C56"/>
+
+<!-- Mountains -->
+<polygon points="50,0 100,50 150,0 200,50 250,0" fill="#7F7F7F"/>
+<text x="100" y="30" font-size="18">Mountains</text>
+
+<!-- Forests -->
+<ellipse cx="65" cy="90" rx="40" ry="60" fill="#228B22"/>
+<ellipse cx="235" cy="90" rx="40" ry="60" fill="#228B22"/>
+
+<!-- Rivers -->
+<path d="M120,150 Q170,110 220,150" stroke="#00A0E9" stroke-width="3" fill="transparent"/>
+<text x="165" y="140" font-size="18">Rivers</text>
+
+<!-- Text for Nurse Shark Island -->
+<text x="150" y="270" font-size="24" text-anchor="middle">Nurse Shark Island</text>
+
+</svg>

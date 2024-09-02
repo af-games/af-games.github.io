@@ -1,0 +1,38 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Plate -->
+<circle cx="200" cy="175" r="150" fill="#FFEBCD" stroke="#FFA500" stroke-width="2"/>
+
+<!-- Jellyfish (star ingredient) -->
+<path d="M200 75 Q180 50, 160 30 Q140 50, 120 75 Q100 50, 80 30 Q60 50, 40 75 Z" fill="#F0F8FF">
+<animateMotion begin="0s" dur="5s" repeatCount="indefinite">
+  <mpath href="#jellyfishPath"/>
+</animateMotion>
+</path>
+<path id="jellyfishPath" d="M200 75 A130 130 0 0 1 40 285"/>
+
+<!-- Garnish: Lemon slice -->
+<circle cx="320" cy="140" r="40" fill="#FFD700"/>
+<path d="M320 90 Q330 80, 340 90 Q330 100, 320 110 Z" fill="#FFA500"/>
+
+<!-- Garnish: Sprig of parsley -->
+<polygon points="270,120 260,110 280,110" fill="#3D9970"/>
+<polyline points="270,120 250,140 290,140" fill="#3D9970"/>
+
+<!-- Accompaniment: Couscous -->
+<rect x="80" y="160" width="120" height="30" fill="#FFFACD"/>
+<path d="M90 180 Q110 190, 130 180 Z" stroke="#FFA500" stroke-width="2"/>
+
+<!-- Accompaniment: Asparagus -->
+<rect x="160" y="170" width="40" height="60" fill="#8DC63C"/>
+<path d="M170 230 Q180 220, 190 230 Z" stroke="#FFA500" stroke-width="2"/>
+
+<!-- Utensil: Fork -->
+<polyline points="340,260 350,250 370,260" fill="none" stroke="#C0C0C0" stroke-width="3"/>
+<path d="M340,280 Q330,290, 350,290 Z" fill="none" stroke="#C0C0C0" stroke-width="3"/>
+
+<!-- Utensil: Spoon -->
+<path d="M370,260 Q380,250, 390,260" fill="none" stroke="#C0C0C0" stroke-width="3"/>
+<circle cx="390" cy="240" r="15" fill="none" stroke="#C0C0C0" stroke-width="3"/>
+
+</svg>

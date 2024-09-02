@@ -1,0 +1,27 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy Body -->
+  <g id="body">
+    <!-- Head -->
+    <rect x="60" y="15" width="70" height="90" fill="#F3E5F5"/>
+    <!-- Torso -->
+    <rect x="65" y="45" width="60" height="80" fill="#D9EAF8"/>
+  </g>
+
+  <!-- Fairy Wings -->
+  <g id="wings">
+    <!-- Left Wing -->
+    <polygon points="120,30 170,30 145,60" fill="#FFFDE7"/>
+    <!-- Right Wing -->
+    <polygon points="185,30 135,30 150,60" fill="#FFFDE7"/>
+  </g>
+
+  <!-- Fairy Dress -->
+  <g id="dress">
+    <!-- Upper Dress -->
+    <rect x="65" y="90" width="60" height="40" fill="#FF69B4"/>
+    <!-- Lower Dress -->
+    <rect x="70" y="130" width="50" height="80" fill="#FFFDE7"/>
+  </g>
+
+</svg>

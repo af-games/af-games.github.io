@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200">
+  <!-- Body -->
+  <rect x="40" y="40" width="70" height="120" fill="#8B4513" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="90" cy="60" r="30" fill="#696969"/>
+  <circle cx="90" cy="70" r="5" fill="#FDD700"/> <!-- Eye -->
+
+  <!-- Legs -->
+  <path d="M40,120 Q40,180 90,180 Q140,180 140,120" fill="#696969"/>
+
+  <!-- Spots -->
+  <circle cx="50" cy="90" r="5" fill="#FDD700"/>
+  <circle cx="70" cy="100" r="5" fill="#FDD700"/>
+  <circle cx="110" cy="90" r="5" fill="#FDD700"/>
+  <circle cx="130" cy="100" r="5" fill="#FDD700"/>
+
+</svg>

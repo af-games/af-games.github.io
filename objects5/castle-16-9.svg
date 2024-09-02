@@ -1,0 +1,27 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define patterns -->
+  <defs>
+    <pattern id="castleWallPattern" patternUnits="userSpaceOnUse" width="40" height="80">
+      <rect x="10" y="0" width="20" height="80" fill="#8B7D6B"/>
+      <rect x="30" y="0" width="20" height="80" fill="#FFFFFF"/>
+    </pattern>
+    <pattern id="pathPattern" patternUnits="userSpaceOnUse" width="40" height="10">
+      <line x1="0" y="5" x2="40" y="5" stroke="#696969" stroke-width="2"/>
+      <line x1="0" y="0" x2="40" y="0" stroke="#D3D3D3" stroke-width="2" stroke-dasharray="4 4"/>
+    </pattern>
+  </defs>
+
+  <!-- Castles -->
+  <g transform="translate(50, 50)">
+    <!-- Left castle -->
+    <castle x="-100" y="0" fill="#FFFFFF" stroke="#8B7D6B" pattern="castleWallPattern"/>
+    <!-- Middle castle -->
+    <castle x="0" y="0" fill="#FFFFFF" stroke="#8B7D6B" pattern="castleWallPattern"/>
+    <!-- Right castle -->
+    <castle x="100" y="0" fill="#FFFFFF" stroke="#8B7D6B" pattern="castleWallPattern"/>
+  </g>
+
+  <!-- Paths -->
+  <path d="M50,120 Q90,140 130,120 T270,120" fill="none" stroke-width="2" stroke="#696969" pattern="url(#pathPattern)"/>
+
+</svg>

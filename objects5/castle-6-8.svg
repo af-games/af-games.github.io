@@ -1,0 +1,23 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <polygon points="150,50 200,50 250,100 200,150 150,150" fill="#D3D3D3" stroke="black"/>
+
+  <!-- Gatehouse Archway and Towers -->
+  <path d="M300,50 Q350,75 400,50 Q450,75 500,50" fill="#4A2C2A"/>
+  <polygon points="280,50 300,100 350,50" fill="#D3D3D3"/>
+  <polygon points="420,50 450,100 500,50" fill="#D3D3D3"/>
+
+  <!-- Curtain Wall -->
+  <rect x="150" y="150" width="350" height="100" fill="#D3D3D3"/>
+  <rect x="200" y="250" width="200" height="50" fill="#D3D3D3"/>
+
+  <!-- Windows and Doorways -->
+  <circle cx="400" cy="100" r="25" fill="#FFFF00"/>
+  <rect x="350" y="150" width="50" height="50" fill="#FFFF00"/>
+
+  <!-- Moat Outline and Walkways -->
+  <path d="M50,250 Q100,300 150,250" stroke-width="5" stroke="#00008B"/>
+  <path d="M150,250 H450 M200,200 H400" stroke-dasharray="5,5" stroke="black"/>
+
+</svg>

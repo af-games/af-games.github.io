@@ -1,0 +1,30 @@
+<svg>` tag:
+
+```xml
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer cake circle -->
+  <circle cx="100" cy="100" r="80" fill="#FDD794"/>
+
+  <!-- Inner cake inner circle -->
+  <circle cx="100" cy="100" r="60" fill="#E5D8B1"/>
+
+  <!-- Cake top half - triangle -->
+  <polygon points="100,20 170,140 30,140" fill="#FDD794"/>
+
+  <!-- Cake bottom half - triangle -->
+  <polygon points="100,180 170,60 30,60" fill="#FDD794"/>
+
+  <!-- Frosting line -->
+  <line x1="50" y1="20" x2="150" y2="20" stroke="#FFFFFF" stroke-width="10"/>
+  <line x1="50" y1="20" x2="50" y2="180" stroke="#FFFFFF" stroke-width="10"/>
+
+  <!-- Candles (repeated elements) -->
+  <g id="candle">
+    <rect x="60" y="30" width="20" height="70" fill="#FDD794"/>
+    <circle cx="70" cy="50" r="10" fill="#FFD700"/>
+  </g>
+  <use href="#candle" x="80" y="30"/>
+  <use href="#candle" x="60" y="90"/>
+
+</svg>

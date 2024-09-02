@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="60" y="150" width="80" height="100"
+        fill="#f9e7a9" stroke="#ddd" stroke-width="3"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="75" rx="40" ry="60"
+           fill="#f5deb3" stroke="#ddd" stroke-width="2"/>
+
+  <!-- Wings -->
+  <rect x="40" y="80" width="30" height="50"
+        fill="transparent" stroke="#ddd" stroke-width="3"/>
+  <rect x="140" y="80" width="30" height="50"
+        fill="transparent" stroke="#ddd" stroke-width="3"/>
+
+  <!-- Hair -->
+  <circle cx="90" cy="60" r="2.5" fill="#333"/>
+  <circle cx="110" cy="65" r="2.5" fill="#333"/>
+  <circle cx="85" cy="70" r="2.5" fill="#333"/>
+
+  <!-- Clothing -->
+  <rect x="60" y="250" width="80" height="40"
+        fill="#f9e7a9" stroke="#ddd" stroke-width="3"/>
+  <rect x="65" y="260" width="70" height="20"
+        fill="#f5deb3" stroke="#ddd" stroke-width="3"/>
+
+</svg>

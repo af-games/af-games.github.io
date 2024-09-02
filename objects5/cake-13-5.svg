@@ -1,0 +1,22 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="100" y="150" width="200" height="150" fill="#D2691E"/>
+
+  <!-- Cake Top -->
+  <path d="M100,75 Q150,0 200,75 T400,300" stroke-width="0" fill="#FDD75B"/>
+
+  <!-- Icing -->
+  <rect x="90" y="65" width="220" height="85" rx="40%" fill="#FFFFFF"/>
+  <path d="M100,65 Q150,130 200,65 T400,270" stroke-width="2" stroke="#FFD4C1" fill="transparent"/>
+
+  <!-- Cake Top Decoration -->
+  <circle cx="200" cy="50" r="40" fill="#D2691E"/>
+  <path d="M160,110 A80,80 0 0 0 240,110" stroke-width="2" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Candles -->
+  <circle cx="130" cy="90" r="7" fill="#F6C177"/>
+  <circle cx="170" cy="90" r="7" fill="#F6C177"/>
+  <circle cx="210" cy="90" r="7" fill="#F6C177"/>
+
+</svg>

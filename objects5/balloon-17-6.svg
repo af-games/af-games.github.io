@@ -1,0 +1,14 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    <rect width="300" height="200" fill="#fff"/>
+
+    <path d="M50,10 Q90,5 150,10 Q90,190 50,180 Q90,140 10,10" stroke="#000"/>
+    <path d="M50,10 Q90,5 150,10 Q90,190 50,180 Q90,140 10,10" fill="#ff6347"/>
+
+    <pattern id="texture" patternUnits="userSpaceOnUse">
+        <image href="https://via.placeholder.com/5x5.png" width="2" height="2"/>
+    </pattern>
+    <path d="M50,10 Q90,5 150,10 Q90,190 50,180 Q90,140 10,10" fill="url(#texture)"/>
+
+    <path d="M20,70 Q40,60 60,70 Q40,80 20,80" stroke="#ffd700"/>
+    <path d="M20,70 Q40,60 60,70 Q40,80 20,80" fill="#ffd700"/>
+</svg>

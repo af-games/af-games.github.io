@@ -1,0 +1,18 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo Base -->
+  <rect id="iglooBase" x="150" y="300" width="300" height="100" fill="#AAA"
+        stroke="black" stroke-width="2"/>
+
+  <!-- Igloo Dome -->
+  <path id="iglooDome" d="M180,200 Q240,150 300,200 T360,200"
+        fill="#AAA" stroke="black" stroke-width="2"/>
+
+  <!-- Door -->
+  <rect id="door" x="220" y="310" width="60" height="90" fill="black"
+        stroke="white" stroke-width="2"/>
+
+  <!-- Roof -->
+  <polygon id="roof" points="180,200 240,150 300,200 360,200" fill="black"/>
+
+</svg>

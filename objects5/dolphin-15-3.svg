@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Buildings -->
+  <rect x="50" y="200" width="100" height="400" fill="#AAA" stroke-width="2" stroke="#000"/>
+  <polygon points="650,300 750,300 700,400" fill="#CCC" stroke-width="2" stroke="#000"/>
+  <rect x="150" y="150" width="150" height="300" fill="#BBB" stroke-width="2" stroke="#000"/>
+
+  <!-- Dolphin -->
+  <path d="M200,100 Q250,150 350,100 Q400,150 450,100 Q500,150 600,100" fill="#66F" stroke-width="2" stroke="#000"/>
+
+  <!-- Roads -->
+  <line x1="50" y1="200" x2="750" y2="200" stroke-width="5" stroke="#333"/>
+  <line x1="400" y1="100" x2="400" y2="500" stroke-width="5" stroke="#333"/>
+
+  <!-- City Entrance Arch -->
+  <path d="M75,50 Q200,0 350,50 Q500,100 650,50" fill="transparent" stroke-width="5" stroke="#333"/>
+
+  <!-- Park and Trees -->
+  <rect x="450" y="350" width="250" height="250" fill="#0F0"/>
+  <circle cx="550" cy="400" r="30" fill="#090"/>
+  <circle cx="650" cy="400" r="30" fill="#090"/>
+
+</svg>

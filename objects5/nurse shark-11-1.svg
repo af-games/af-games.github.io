@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+  <!-- Body -->
+  <path d="M10 20 Q30 10, 50 20 Q30 30, 10 20 Z" fill="#8B7D6B"/>
+
+  <!-- Fins -->
+  <g stroke="#4A4136">
+    <!-- Dorsal Fin -->
+    <polygon points="20,15 30,10 35,15"/>
+    <!-- Pectoral Fins (left and right) -->
+    <polygon points="5,10 10,5 20,10" transform="translate(45,0)" />
+  </g>
+
+  <!-- Tail -->
+  <path d="M40 30 Q45 35, 50 30" stroke="#4A4136"/>
+
+  <!-- Eye (left) -->
+  <circle cx="25" cy="20" r="3" fill="#FFFFFF"/>
+</svg>

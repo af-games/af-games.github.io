@@ -1,0 +1,38 @@
+<svg width="600" height="450" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="450" fill="#ADD8E6"/>
+
+  <!-- Castle Foundation -->
+  <rect x="100" y="350" width="400" height="50" fill="#8B4513"/>
+  <rect x="200" y="300" width="200" height="50" fill="#8B4513"/>
+
+  <!-- Main Towers -->
+  <polygon points="150,300 250,300 350,350 250,400 150,400" fill="#D2B48C"/>
+  <polygon points="450,300 550,300 650,350 550,400 450,400" fill="#D2B48C"/>
+
+  <!-- Side Towers -->
+  <polygon points="100,250 150,250 200,300 150,350 100,350" fill="#D2B48C"/>
+  <polygon points="500,250 550,250 600,300 550,350 500,350" fill="#D2B48C"/>
+
+  <!-- Connecting Walls -->
+  <polygon points="100,350 150,350 200,400 150,450 100,450" fill="#8B4513"/>
+  <polygon points="450,350 500,350 550,400 600,450 550,500" fill="#8B4513"/>
+
+  <!-- Turrets -->
+  <circle cx="250" cy="450" r="30" fill="#D2B48C"/>
+  <circle cx="550" cy="450" r="30" fill="#D2B48C"/>
+
+  <!-- Windows -->
+  <rect x="170" y="320" width="60" height="20" fill="#FFFF00"/>
+  <rect x="470" y="320" width="60" height="20" fill="#FFFF00"/>
+
+  <!-- Battlements -->
+  <polyline points="150,300 200,280 250,300" stroke="black" fill="transparent"/>
+  <polyline points="450,300 500,280 550,300" stroke="black" fill="transparent"/>
+
+  <!-- Flag -->
+  <rect x="270" y="190" width="20" height="60" fill="#FFFF00"/>
+  <polygon points="285,190 270,220 285,250" fill="#FFCC00"/>
+
+</svg>

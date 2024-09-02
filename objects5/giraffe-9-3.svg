@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 500 500">
+
+  <!-- Giraffe (Circle) -->
+  <circle id="giraffe" cx="0" cy="0" r="150" fill="#f0e68c"/>
+
+  <!-- Trees (Rectangles) -->
+  <rect x="-200" y="-200" width="40" height="300" fill="#694f29"/>
+  <rect x="200" y="-200" width="40" height="300" fill="#694f29"/>
+
+  <!-- Buildings (Rectangles) -->
+  <rect id="building1" x="-250" y="-200" width="100" height="200" fill="#a9a9a9"/>
+  <rect id="building2" x="0" y="-200" width="100" height="200" fill="#a9a9a9"/>
+  <rect id="building3" x="250" y="-200" width="100" height="200" fill="#a9a9a9"/>
+
+  <!-- Roads (Paths) -->
+  <path d="M-250 -200 L0 -200 Z" stroke="#6e6e6e" fill="transparent"/>
+  <path d="M250 -200 L0 -200 Z" stroke="#6e6e6e" fill="transparent"/>
+
+</svg>

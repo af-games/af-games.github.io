@@ -1,0 +1,19 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Skin -->
+  <path d="M100 150 Q150 75, 250 150 Q350 225, 300 325 Q200 400, 100 400" fill="#FFF"/>
+  <path d="M100 150 Q150 75, 250 150 Q350 225, 300 325 Q200 400, 100 400" fill="#F2E0D6"/>
+  <path d="M100 150 Q150 75, 250 150 Q350 225, 300 325 Q200 400, 100 400" fill="#D1B089"/>
+  <path d="M100 150 Q150 75, 250 150 Q350 225, 300 325 Q200 400, 100 400" fill="#A58C71"/>
+
+  <!-- Hair -->
+  <path d="M150 50 Q125 25, 175 75 Q225 100, 150 150" stroke="#4A3426" fill="transparent"/>
+  <path d="M150 50 Q125 25, 175 75 Q225 100, 150 150" stroke="#634634" fill="transparent"/>
+  <path d="M150 50 Q125 25, 175 75 Q225 100, 150 150" stroke="#C2ABAA" fill="transparent"/>
+
+  <!-- Tail -->
+  <path d="M300 325 Q375 400, 425 450 Q325 500, 300 550" fill="#80BFFF"/>
+  <path d="M300 325 Q375 400, 425 450 Q325 500, 300 550" fill="#5DADE2"/>
+
+  <!-- Seaweed -->
+  <rect x="100" y="500" width="200" height="100" fill="#8DC63C"/>
+</svg>

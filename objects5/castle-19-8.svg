@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+
+  <!-- Castle Tower -->
+  <rect x="100" y="50" width="200" height="300" rx="50" fill="#8B4513">
+    <animate attributeName="height" values="300;250;300" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <polyline points="100,50 200,50 200,350" stroke="#000" fill="transparent">
+    <animate attributeName="stroke-width" values="2;4;2" dur="1.5s" repeatCount="indefinite"/>
+  </polyline>
+
+  <!-- Gatehouse -->
+  <rect x="350" y="150" width="200" height="200" fill="#8B4513">
+    <animate attributeName="height" values="200;150;200" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M350,150 Q450,50 550,150" stroke="#000" fill="transparent">
+    <animate attributeName="stroke-width" values="2;4;2" dur="1.5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Turret -->
+  <polygon points="300,50 400,50 350,150" fill="#FF0000">
+    <animate attributeName="points" values="300,50 400,50 350,150;350,50 450,50 325,175;300,50 400,50 350,150" dur="2s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Roof Lines -->
+  <line x1="100" y1="350" x2="300" y2="400" stroke="#000">
+    <animate attributeName="stroke-width" values="2;4;2" dur="1.5s" repeatCount="indefinite"/>
+  </line>
+  <line x1="350" y1="350" x2="550" y2="400" stroke="#000">
+    <animate attributeName="stroke-width" values="2;4;2" dur="1.5s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Flying Flags -->
+  <path d="M375,45 Q400,50 375,60" stroke="#0000FF">
+    <animate attributeName="d" values="M375,45 Q400,50 375,60;M375,50 Q425,55 375,65;" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-width" values="2;4;2" dur="1.5s" repeatCount="indefinite"/>
+  </path>
+
+</svg>

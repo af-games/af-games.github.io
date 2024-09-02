@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 170">
+  <!-- Basket -->
+  <rect x="45" y="160" width="8" height="10" fill="#8B4513"/>
+  <rect x="45" y="155" width="8" height="5" transform="rotate(45 45 160)" fill="#8B4513"/>
+  <polygon points="42,160 58,160 50,170" fill="#8B4513"/>
+  <!-- Envelope -->
+  <ellipse cx="50" cy="80" rx="45" ry="90" fill="#FFD700"/>
+  <ellipse cx="50" cy="60" rx="20" ry="30" fill="#FFD700"/>
+  <!-- Rope -->
+  <line x1="45" y1="160" x2="50" y2="80" stroke="black"/>
+  <line x1="55" y1="160" x2="50" y2="80" stroke="black"/>
+  <!-- Basket Handle -->
+  <rect x="43" y="157" width="4" height="6" fill="#8B4513"/>
+  <rect x="47" y="159" width="4" height="4" fill="#8B4513"/>
+  <!-- Burner -->
+  <circle cx="50" cy="120" r="10" fill="orange"/>
+  <rect x="46" y="117" width="2" height="10" fill="red"/>
+  <rect x="52" y="117" width="2" height="10" fill="red"/>
+</svg>

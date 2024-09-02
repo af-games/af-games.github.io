@@ -1,0 +1,26 @@
+<svg width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon -->
+  <circle cx="12" cy="12" r="8"
+          fill="#ffd700"
+          stroke="#ffcc00"
+          stroke-width="2" />
+
+  <!-- Mountains (Circles) -->
+  <circle cx="4" cy="6" r="3" fill="#bdbdbd"/>
+  <circle cx="16" cy="8" r="3.5" fill="#bdbdbd"/>
+
+  <!-- Rivers (Paths) -->
+  <path d="M6,14 Q9,12 12,10"
+        stroke="#3c76a5"
+        stroke-width="2"
+        fill="transparent"/>
+  <path d="M8,17 Q11,15 14,13"
+        stroke="#3c76a5"
+        stroke-width="2"
+        fill="transparent"/>
+
+  <!-- Trees (Polygons) -->
+  <polygon points="10,15 12,17 14,15" fill="#008000"/>
+  <polygon points="7,13 9,15 11,13" fill="#008000"/>
+
+</svg>

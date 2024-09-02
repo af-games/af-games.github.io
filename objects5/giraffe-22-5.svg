@@ -1,0 +1,27 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="400" r="80" fill="#000"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="320" r="60" fill="#000"/>
+
+  <!-- Neck -->
+  <ellipse cx="170" cy="370" rx="40" ry="80" fill="#fff"/>
+
+  <!-- Legs (Front) -->
+  <rect x="90" y="420" width="20" height="80" fill="#000"/>
+  <rect x="170" y="420" width="20" height="80" fill="#000"/>
+
+  <!-- Legs (Back) -->
+  <rect x="90" y="460" width="20" height="80" fill="#000"/>
+  <rect x="170" y="460" width="20" height="80" fill="#000"/>
+
+  <!-- Animation (rotate giraffe's head) -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 150 320"
+    to="360 150 320"
+    dur="4s"
+    repeatCount="indefinite" />
+</svg>

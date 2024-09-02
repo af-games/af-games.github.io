@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path fill="blue" stroke="black" stroke-width="1.5"
+        d="M10,80 Q20,60 40,70 Q60,90 80,70 Q100,60 120,70 Q130,80 150,75 L160,70"/>
+
+  <!-- Tail flukes -->
+  <path fill="blue" stroke="black" stroke-width="1.5"
+        d="M150,75 Q145,90 120,85 Q100,100 80,85 Q60,100 40,85 Q30,90 20,75"/>
+
+  <!-- Dorsal fin -->
+  <path fill="blue" stroke="black" stroke-width="1.5"
+        d="M80,50 Q90,40 100,50 Q110,40 120,50 Q130,60 140,70"/>
+
+  <!-- Eye -->
+  <circle fill="black" stroke="white" stroke-width="1"
+         cx="70" cy="60" r="8"/>
+
+</svg>

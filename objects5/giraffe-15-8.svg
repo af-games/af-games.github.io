@@ -1,0 +1,39 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Plate -->
+  <circle cx="150" cy="200" r="100" fill="#FFEFD5"/>
+
+  <!-- Giraffe -->
+  <g transform="translate(120, 160) rotate(-15)">
+    <!-- Body -->
+    <path d="M 0,-80 A 90,90 0 0 1 0,30 Z" fill="#D4BB7C"/>
+    <!-- Neck & Head -->
+    <rect width="30" height="200" x="-15" y="-160" rx="15" ry="15" fill="#FFEFD5"/>
+    <circle cx="-10" cy="-180" r="40" fill="#FF9A4C"/>
+    <!-- Legs -->
+    <rect width="20" height="100" x="-30" y="60" rx="5" ry="5" fill="#D4BB7C"/>
+    <rect width="20" height="100" x="10" y="60" rx="5" ry="5" fill="#D4BB7C"/>
+
+    <!-- Spots -->
+    <circle cx="-30" cy="50" r="10" fill="#9F8A5B"/>
+    <circle cx="20" cy="50" r="10" fill="#9F8A5B"/>
+    <circle cx="-10" cy="120" r="10" fill="#9F8A5B"/>
+  </g>
+
+  <!-- Lettuce -->
+  <path d="M 360,70 Q 400,50 440,70 T 400,120 Z" fill="#7BC885"/>
+
+  <!-- Tomatoes -->
+  <circle cx="380" cy="90" r="20" fill="#FF6F61"/>
+  <circle cx="420" cy="90" r="15" fill="#FF6F61"/>
+
+  <!-- Cucumber -->
+  <rect width="60" height="10" x="370" y="110" rx="5" ry="5" fill="#E8EFEB"/>
+
+  <!-- Fork & Knife -->
+  <path d="M 240,250 Q 200,280 220,300 L 260,300 Z" stroke="#333" fill="none"/>
+  <path d="M 270,250 Q 310,280 290,300 Z" stroke="#333" fill="none"/>
+
+  <!-- Tableware & Garnishes -->
+  <circle cx="450" cy="180" r="15" fill="#FF6F61"/>
+  <rect width="40" height="20" x="440" y="170" rx="10" ry="10" fill="#9F8A5B"/>
+</svg>

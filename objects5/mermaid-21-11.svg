@@ -1,0 +1,21 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Canvas -->
+  <circle cx="150" cy="150" r="150" stroke="black" fill="none"/>
+
+  <!-- Body -->
+  <ellipse cx="150" cy="200" rx="80" ry="120" stroke="black" fill="none"/>
+  <line x1="75" y1="130" x2="225" y2="130" stroke="black"/>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="80" rx="40" ry="60" stroke="black" fill="none"/>
+
+  <!-- Hair -->
+  <path d="M130,170 Q150,200 170,170 T220,170" stroke="black"/>
+
+  <!-- Tail -->
+  <path d="M150,250 Q200,300 150,350 T50,350" stroke="black"/>
+
+  <!-- Arms and legs -->
+  <line x1="75" y1="200" x2="75" y2="250" stroke="black"/>
+  <line x1="225" y1="200" x2="225" y2="250" stroke="black"/>
+</svg>

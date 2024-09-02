@@ -1,0 +1,44 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Giraffe Body -->
+  <circle cx="150" cy="250" r="120" fill="#333" id="giraffe-body"/>
+
+  <!-- Giraffe Head -->
+  <ellipse cx="170" cy="160" rx="80" ry="100" fill="#333" id="giraffe-head"/>
+  <circle cx="150" cy="140" r="20" fill="#333" id="giraffe-eye"/>
+
+  <!-- Giraffe Legs -->
+  <ellipse cx="90" cy="370" rx="60" ry="80" fill="#333" id="left-leg"/>
+  <ellipse cx="210" cy="370" rx="60" ry="80" fill="#333" id="right-leg"/>
+
+  <!-- Giraffe Neck -->
+  <ellipse cx="150" cy="200" rx="40" ry="80" fill="#333" id="neck"/>
+
+  <!-- Giraffe Spots and Horns -->
+  <g id="spots-and-horns">
+    <circle cx="160" cy="90" r="15" fill="#333"/>
+    <circle cx="240" cy="80" r="10" fill="#333"/>
+    <path d="M 170,60 Q 190,40 210,60" stroke="#333" stroke-width="5" fill="transparent"/>
+  </g>
+
+  <!-- Animation -->
+  <script type="text/ecmascript">
+    <![CDATA[
+      var giraffe = document.getElementById('giraffe-body');
+      var spotsHorns = document.getElementById('spots-and-horns');
+
+      function animate(timestamp) {
+        var progress = timestamp / 1000 % 4;
+
+        // Body movement
+        giraffe.setAttributeNS(null, 'transform', `rotate(${progress * 5}, 150, 250)`);
+
+        // Spots and horns rotation
+        spotsHorns.setAttributeNS(null, 'transform', `rotate(${progress * 360}, 180, 75)`);
+
+        requestAnimationFrame(animate);
+      }
+
+      animate();
+    ]]>
+  </script>
+</svg>

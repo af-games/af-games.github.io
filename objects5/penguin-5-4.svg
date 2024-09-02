@@ -1,0 +1,64 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="url(#gradient)" />
+
+  <!-- Body -->
+  <ellipse cx="200" cy="250" rx="80" ry="120" fill="#4F7D9A">
+    <animate
+      attributeName="opacity"
+      values="1;0.5;1"
+      dur="1s"
+      repeatCount="indefinite" />
+  </ellipse>
+
+  <!-- Head -->
+  <circle cx="200" cy="180" r="40" fill="#FFFFFF">
+    <animate
+      attributeName="opacity"
+      values="1;0.5;1"
+      dur="1s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <!-- Eye -->
+  <circle cx="175" cy="165" r="5" fill="#000000">
+    <animate
+      attributeName="opacity"
+      values="1;0.5;1"
+      dur="1s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <!-- Beak -->
+  <path d="M210,170 Q230,160 240,170 Q230,180 210,170" stroke="#FFD700" fill="transparent" />
+  <animate
+    attributeName="stroke-opacity"
+    values="1;0.5;1"
+    dur="1s"
+    repeatCount="indefinite" />
+
+  <!-- Wing -->
+  <path d="M140,230 Q160,270 200,230 Q180,270 220,230" stroke="#4F7D9A" fill="transparent" />
+  <animate
+    attributeName="stroke-opacity"
+    values="1;0.5;1"
+    dur="1s"
+    repeatCount="indefinite" />
+
+  <!-- Leg -->
+  <path d="M220,300 Q240,340 260,300" stroke="#4F7D9A" fill="transparent">
+    <animate
+      attributeName="stroke-opacity"
+      values="1;0.5;1"
+      dur="1s"
+      repeatCount="indefinite" />
+  </path>
+
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(135,206,235);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(77,149,187);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

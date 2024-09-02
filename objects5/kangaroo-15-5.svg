@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Define reusable styles for shapes -->
+  <defs>
+    <linearGradient id="kangarooGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightgrey; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:brown; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Draw the background -->
+  <rect width="800" height="600" fill="#f7dcb9"/>
+
+  <!-- Draw kangaroo families here using for loop or manually -->
+
+  <!-- Example of a single kangaroo family -->
+  <g transform="translate(100, 300)">
+    <!-- Adult kangaroo -->
+    <ellipse cx="50" cy="50" rx="45" ry="70" fill="url(#kangarooGradient)"/>
+
+    <!-- Joeys and younger ones here... -->
+
+    <!-- Legs for adult using polylines -->
+    <polyline points="30,80 60,120 90,80"/>
+    <polyline points="70,80 100,120 130,80"/>
+  </g>
+
+</svg>

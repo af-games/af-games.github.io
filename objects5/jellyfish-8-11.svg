@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 180">
+
+  <!-- Bell (main body) -->
+  <circle cx="75" cy="90" r="60" fill="#80d5e1" stroke-width="2"/>
+
+  <!-- Tentacles -->
+  <g stroke-width="4">
+    <ellipse cx="30" cy="130" rx="30" ry="50" fill="none"/>
+    <ellipse cx="75" cy="120" rx="35" ry="60" fill="none"/>
+    <ellipse cx="120" cy="140" rx="40" ry="55" fill="none"/>
+  </g>
+
+  <!-- Oral arms -->
+  <g stroke-width="2">
+    <circle cx="75" cy="85" r="6" fill="#dfc6f2"/>
+    <circle cx="65" cy="90" r="5" fill="#dfc6f2"/>
+    <circle cx="85" cy="90" r="5" fill="#dfc6f2"/>
+  </g>
+
+</svg>

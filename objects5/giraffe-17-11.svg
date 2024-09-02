@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 100 100">
+    <!-- Body -->
+    <rect id="body" x="-45" y="-20" width="90" height="40" fill="#8B4513"/>
+    <!-- Head -->
+    <path id="head" d="M-30,-20 A30,30 0 0,0 30,-20" stroke="#CD7F32" fill="gold"/>
+    <!-- Legs -->
+    <path id="leg1" d="M-45,-40 A20,20 0 0,0 -30,-60" stroke="#CD7F32" fill="gold"/>
+    <path id="leg2" d="M45,-40 A20,20 0 0,0 30,-60" stroke="#CD7F32" fill="gold"/>
+    <!-- Details -->
+    <rect id="spot1" x="-40" y="-35" width="10" height="10" fill="black"/>
+    <rect id="spot2" x="-20" y="-35" width="10" height="10" fill="black"/>
+    <path id="horns" d="M-2,-45 L-8,-50 L8,-50 Z" stroke="#CD7F32" fill="gold"/>
+</svg>

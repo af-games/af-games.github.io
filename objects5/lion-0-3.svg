@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Main Features -->
+  <circle cx="0" cy="0" r="40" fill="#f8d7da" stroke="#cacfd2"/>
+  <rect x="-30" y="-60" width="60" height="90" fill="#ffcc00" stroke="#e69a1a"/>
+  <circle cx="5" cy="-20" r="15" fill="#f8d7da" stroke="#cacfd2"/>
+
+  <!-- Details -->
+  <path d="M0,-30 Q-20,-40 -5,-20 Q-20,-0 -5,20 Q0,40 5,20 Q0,0 0,-30" fill="#f8d7da"/>
+  <path d="M10,-20 L10,-10 L20,-10 Z" fill="#f8d7da"/>
+  <path d="M-10,-20 L-10,-10 L-20,-10 Z" fill="#f8d7da"/>
+
+  <!-- Eyes -->
+  <circle cx="5" cy="-20" r="3" fill="#000"/>
+  <circle cx="-5" cy="-20" r="3" fill="#000"/>
+
+  <!-- Labeling Coordinates -->
+  <text x="-60" y="40" text-anchor="middle">(-60, 40)</text>
+  <text x="60" y="40" text-anchor="middle">(60, 40)</text>
+  <text x="0" y="-70" text-anchor="middle">(0, -70)</text>
+
+</svg>

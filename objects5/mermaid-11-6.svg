@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define linear gradient -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Draw the outline -->
+  <path d="M400,10 Q350,70 400,140 Q450,70 400,10 Z" fill="url(#gradient)"/>
+
+  <!-- Weave the background -->
+  <polygon points="200,200 300,100 400,200 300,300" fill="url(#gradient)"/>
+  <line x1="250" y1="150" x2="350" y2="250" stroke="black"/>
+
+  <!-- Build up details in the center -->
+  <circle cx="450" cy="250" r="50" fill="url(#gradient)"/>
+  <path d="M400,180 Q375,210 425,180 Q450,210 425,180" stroke="black"/>
+
+  <!-- Add final touches -->
+  <circle cx="430" cy="200" r="5" fill="white"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#D5E1DD"/>
+
+  <!-- Mountains -->
+  <polygon points="40,120 70,90 340,180 290,210" fill="#A9CCAB"/>
+  <polygon points="360,70 450,100 540,140 490,170" fill="#A9CCAB"/>
+
+  <!-- Rivers -->
+  <path d="M80 280 Q150 320, 240 310 Q360 340, 480 300 Q600 270, 750 290" stroke="#4D908E" fill="transparent"/>
+
+  <!-- Forest -->
+  <rect x="20" y="450" width="100%" height="150" fill="#8DC63C"/>
+  <text x="400" y="570" font-family="Verdana" font-size="20">Whisperwood Forest</text>
+
+  <!-- Cities -->
+  <circle cx="90" cy="160" r="50" fill="#FFB38A"/>
+  <circle cx="400" cy="240" r="70" fill="#FFB38A"/>
+
+  <!-- Hot Air Balloon -->
+  <ellipse cx="320" cy="320" rx="150" ry="200" fill="#FFF6D9"/>
+  <circle cx="320" cy="470" r="50" fill="#FFB38A"/>
+  <text x="300" y="350" font-family="Verdana" font-size="24">Hot Air Balloon</text>
+
+  <!-- Labels -->
+  <text x="150" y="100" font-family="Verdana" font-size="20">Crimson Peak</text>
+  <text x="380" y="70" font-family="Verdana" font-size="20">Emerald Valley</text>
+
+</svg>

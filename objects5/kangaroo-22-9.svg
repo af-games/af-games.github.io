@@ -1,0 +1,50 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kangaroo Head -->
+  <circle id="kangarooHead" cx="100" cy="180" r="40" fill="#FFA500"/>
+
+  <!-- Kangaroo Body -->
+  <rect id="kangarooBody" x="90" y="160" width="20" height="70" fill="#FFC300"/>
+
+  <!-- Kangaroo Tail -->
+  <polyline id="kangarooTail" points="120,185 140,210 125,215" fill="#FFC300"/>
+
+  <!-- Joey (Initially hidden) -->
+  <g id="joey">
+    <circle cx="150" cy="180" r="20" fill="#FFA500"/>
+    <rect x="140" y="160" width="10" height="70" fill="#FFC300"/>
+  </g>
+
+  <!-- Eucalyptus Tree -->
+  <path id="tree" d="M300,150 V80 Q290,60 300,40 Q310,60 300,80 H350 Q340,60 350,40 Z"/>
+  <path id="treeLeaves" d="M300,70 Q290,50 300,30 Q310,50 300,70"/>
+
+  <!-- Animation Script -->
+  <script>
+    <![CDATA[
+      // Move Kangaroo's head and body
+      var kangarooHead = document.getElementById('kangarooHead');
+      var kangarooBody = document.getElementById('kangarooBody');
+
+      function moveKangaroo() {
+        var cx = parseFloat(kangarooHead.getAttribute('cx'));
+        if (cx < 200) {
+          kangarooHead.setAttribute('cx', `${cx + 1}`);
+          kangarooBody.setAttribute('x', `${cx - 5}`);
+          requestAnimationFrame(moveKangaroo);
+        }
+      }
+
+      // Show Joey after Kangaroo reaches the tree
+      var tree = document.getElementById('tree');
+      function showJoey() {
+        if (kangarooHead.getAttribute('cx') > '290') {
+          document.getElementById('joey').setAttribute('opacity', `1`);
+        }
+      }
+
+      // Start animations
+      moveKangaroo();
+      tree.addEventListener('animationend', showJoey);
+    ]]>
+  </script>
+</svg>

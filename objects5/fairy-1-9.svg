@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <!-- Fairy Body -->
+  <path id="fairy-body" fill="#4caf50" stroke="#fff" stroke-width="10" d="M200,75 Q150,350 200,500 Q250,350 200,50" />
+  <use xlink:href="#fairy-body" fill="none"/>
+
+  <!-- Fairy Head -->
+  <circle cx="200" cy="75" r="40" fill="#fff"/>
+  <path d="M180,90 Q160,120 180,150" stroke="#fff" fill="transparent"/>
+
+  <!-- Fairy Hair -->
+  <polygon points="170,130 190,130 180,180" fill="#4caf50"/>
+  <use xlink:href="#fairy-hair-polygon" transform="rotate(60,200,130)"/>
+
+  <!-- Fairy Wings -->
+  <g id="fairy-wing">
+    <path d="M200,550 Q400,700 200,800 Q0,700 200,550" fill="#a2d2ff"/>
+    <use xlink:href="#fairy-wing-path" transform="translate(300,0) scale(-1,1)" fill="#a2d2ff"/>
+  </g>
+
+  <!-- Fairy Dress -->
+  <rect x="170" y="520" width="260" height="80" fill="#4caf50"/>
+  <polygon points="200,600 300,600 250,650" fill="#4caf50"/>
+
+  <!-- Fairy Accents - Diamonds (White) -->
+  <polygon id="diamond" points="180,200 190,210 185,220" fill="#fff"/>
+  <use xlink:href="#diamond" transform="translate(20,240)" />
+  <use xlink:href="#diamond" transform="scale(-1,1) translate(-370,240)" />
+
+  <!-- Fairy Accents - Sapphires (Blue) -->
+  <circle id="sapphire" cx="205" cy="210" r="10" fill="#003f87"/>
+  <use xlink:href="#sapphire" transform="translate(40,40)" />
+  <use xlink:href="#sapphire" transform="scale(-1,1) translate(-450,40)" />
+
+</svg>

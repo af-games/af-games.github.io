@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#f5f5f5"/>
+
+  <!-- Owl's Realm Boundary -->
+  <path d="M10,10 H790 L790,590 Q720,630 640,600 Q560,630 490,600 Q420,630 340,600 Q260,630 180,600 Q100,630 10,590" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Major Landmarks -->
+
+  <!-- Owl Tower -->
+  <circle cx="400" cy="300" r="80" fill="#ffa500"/>
+  <text x="400" y="350" text-anchor="middle" font-size="24">Owl Tower</text>
+
+  <!-- Whispering Woods -->
+  <path d="M250,150 Q350,70 450,150 Q350,230 250,150" fill="#00ff00"/>
+  <text x="350" y="120" text-anchor="middle" font-size="24">Whispering Woods</text>
+
+  <!-- Moon Lake -->
+  <circle cx="600" cy="450" r="80" fill="#add8e6"/>
+  <text x="600" y="420" text-anchor="middle" font-size="24">Moon Lake</text>
+
+  <!-- Roads -->
+
+  <!-- Main Road -->
+  <path d="M10,300 L790,300" stroke="#383838" stroke-width="5"/>
+
+  <!-- Rivers -->
+
+  <!-- Owl River -->
+  <path d="M10,400 Q200,350 400,400 Q600,450 790,400" stroke="#0000ff" stroke-width="5"/>
+
+  <!-- Points of Interest -->
+
+  <!-- Owl's Roost -->
+  <path d="M200,350 A150,150 0 1,0 600,350 A150,150 0 1,0 200,350" fill="#ffd700"/>
+  <text x="400" y="325" text-anchor="middle" font-size="24">Owl's Roost</text>
+
+</svg>

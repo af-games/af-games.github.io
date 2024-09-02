@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Keep -->
+  <rect x="150" y="100" width="150" height="250" fill="#7D9EC0" stroke="#000"/>
+  <polygon points="300,50 450,50 400,150" fill="#7D9EC0" stroke="#000"/>
+
+  <!-- Walls -->
+  <rect x="25" y="300" width="50" height="300" fill="none" stroke="#000"/>
+  <rect x="562.5" y="300" width="50" height="300" fill="none" stroke="#000"/>
+  <line x1="75" y1="600" x2="75" y2="300" stroke="#000"/>
+  <line x1="575" y1="600" x2="575" y2="300" stroke="#000"/>
+
+  <!-- Outer buildings -->
+  <rect x="25" y="200" width="125" height="400" fill="#EFEFEF" stroke="#000"/>
+  <polygon points="675,200 800,200 737.5,300" fill="#EFEFEF" stroke="#000"/>
+
+  <!-- Roads -->
+  <line x1="175" y1="600" x2="425" y2="600" stroke="#000"/>
+  <line x1="175" y1="450" x2="425" y2="450" stroke="#000"/>
+
+  <!-- Trees -->
+  <circle cx="85" cy="530" r="30" fill="green"/>
+  <circle cx="675" cy="530" r="30" fill="green"/>
+
+  <!-- Text -->
+  <text x="20" y="40" font-size="30">Vector Castle</text>
+  <text x="690" y="40" font-size="30">Population: 100</text>
+
+</svg>

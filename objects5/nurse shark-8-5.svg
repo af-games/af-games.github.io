@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+
+<!-- Seafloor -->
+<rect x="0" y="450" width="600" height="150"
+      style="fill:#324376; stroke:none;"/>
+
+<!-- Corals -->
+<polygon points="50,500 100,520 150,500 200,520"
+       style="fill:linear-gradient(#FFB973, #F16A23); stroke:none;"/>
+<!-- Add more corals with similar shapes and sizes -->
+
+<!-- School of Small Fish -->
+<circle cx="50" cy="350" r="5"
+      style="fill:radialGradient(gradientUnits=objectBoundingBox, x0=0%, y0=0%, r=1) color-stop(0%, #FFF) color-stop(100%, #BBB); stroke:none;"/>
+<!-- Repeat and scatter more circles to create a school of fish -->
+
+<!-- Nurse Shark -->
+<path d="M250 250 Q350 150, 400 250 Q350 350, 250 450 Q150 350, 200 250"
+      style="fill:#8DC63C; stroke:none;"/>
+
+<!-- Sun Rays -->
+<path d="M300 100 L300 500" stroke="#FFC107" stroke-width="5" opacity="0.4"/>
+<path d="M200 80 L400 420" stroke="#FDD835" stroke-width="5" opacity="0.4"/>
+
+</svg>

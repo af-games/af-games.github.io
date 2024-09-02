@@ -1,0 +1,23 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Envelope -->
+  <ellipse cx="300" cy="150" rx="300" ry="150" fill="#FFBF00"/>
+  <ellipse cx="300" cy="75" rx="75" ry="37.5" fill="#FFBF00"/>
+
+  <!-- Basket -->
+  <rect x="0" y="-200" width="200" height="50" fill="#8B4513"/>
+  <polygon points="-50,-150,50,-150,0,-75" fill="#8B4513"/>
+
+  <!-- Attachment Point -->
+  <circle cx="0" cy="-75" r="10" fill="#5A2D10"/>
+
+  <!-- Basket Handle -->
+  <rect x="-60" y="-90" width="20" height="50" fill="#5A2D10"/>
+  <rect x="40" y="-90" width="20" height="50" fill="#5A2D10"/>
+  <path d="M-60,-90 Q0,-75 40,-90" stroke="#5A2D10" fill="transparent"/>
+
+  <!-- Rope -->
+  <path d="M0,-200 Q0,-75 0,-50" stroke="#5A2D10" fill="transparent"/>
+  <path d="M-60,-90 Q0,-70 40,-90" stroke="#5A2D10" fill="transparent"/>
+
+</svg>

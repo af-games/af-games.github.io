@@ -1,0 +1,38 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle tower -->
+  <rect x="150" y="40" width="100" height="200"
+        style="fill:gray; stroke-width:2; stroke:black;" id="tower"/>
+
+  <!-- Castle walls -->
+  <rect x="70" y="340" width="360" height="160"
+        style="fill:lightgray; stroke-width:2; stroke:black;" id="wall"/>
+
+  <!-- Tower circles -->
+  <circle cx="95" cy="270" r="40"/>
+  <circle cx="285" cy="270" r="40"/>
+  <circle cx="190" cy="360" r="50"/>
+
+  <!-- Main entrance gate -->
+  <ellipse cx="250" cy="420" rx="100" ry="50"
+           style="fill:brown; stroke-width:2; stroke:black;" id="gate"/>
+
+  <!-- Battlements polygon -->
+  <polygon points="70,340 130,290 230,290 290,340 360,340"
+           style="fill:none; stroke-width:2; stroke:black;" id="battlements"/>
+
+  <!-- Mask for revealing castle -->
+  <mask id="castle-mask">
+    <rect x="70" y="340" width="360" height="160" fill="white"/>
+    <path d="M70,340 H360 V500 H70 Z" fill="black"/>
+  </mask>
+
+  <!-- Apply mask to castle elements -->
+  <g mask="url(#castle-mask)">
+    <use xlink:href="#tower"/>
+    <use xlink:href="#wall"/>
+    <use xlink:href="#gate"/>
+    <use xlink:href="#battlements"/>
+  </g>
+
+</svg>

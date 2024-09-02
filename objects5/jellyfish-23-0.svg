@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+
+  <!-- Body -->
+  <circle cx="0" cy="0" r="150" fill="#ADD8E6"/>
+
+  <!-- Tentacles -->
+  <?for ($i = 0; $i < 8; $i++) {?>
+    <path d="M150,0 A140,140 0 0 1 -150,0 A140,140 0 0 1 150,0" transform="rotate(45 <?=$i*45?>)" stroke="#003D66"/>
+  <?}?>
+
+  <!-- Mouth -->
+  <circle cx="-5" cy="-5" r="5" fill="#000000"/>
+
+</svg>

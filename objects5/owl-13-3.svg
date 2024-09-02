@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Stage -->
+  <rect x="-50" y="-50" width="100" height="100" fill="#00008B"/>
+
+  <!-- Owl Puppet -->
+  <g id="owl">
+    <!-- Body -->
+    <path d="M-20,-30 Q-20,-15 -10,-15 L10,-15 Q20,-15 20,-30" fill="#F8DE74"/>
+
+    <!-- Head -->
+    <circle cx="-5" cy="-35" r="10" fill="#FFD700"/>
+    <ellipse cx="5" cy="-35" rx="5" ry="15" fill="#FFFACD"/>
+
+    <!-- Eyes -->
+    <circle cx="-10" cy="-40" r="2" fill="#000"/>
+    <circle cx="10" cy="-40" r="2" fill="#000"/>
+
+    <!-- Beak -->
+    <polygon points="-5,-35 0,-45 5,-35" fill="#FFD700"/>
+
+    <!-- Wings -->
+    <path d="M-25,-25 Q-35,-10 -35,-25 L35,-25 Q25,-10 25,-25" fill="#FFFACD"/>
+  </g>
+
+  <!-- Strings -->
+  <line x1="-5" y1="-40" x2="-5" y2="-60" stroke="#8B4513" stroke-width="2"/> <!-- Head String -->
+  <line x1="-20" y1="-30" x2="-20" y2="-50" stroke="#8B4513" stroke-width="2"/> <!-- Left Body String -->
+  <line x1="20" y1="-30" x2="20" y2="-50" stroke="#8B4513" stroke-width="2"/> <!-- Right Body String -->
+  <line x1="-35" y1="-25" x2="-35" y2="-45" stroke="#8B4513" stroke-width="2"/> <!-- Left Wing String -->
+  <line x1="35" y1="-25" x2="35" y2="-45" stroke="#8B4513" stroke-width="2"/> <!-- Right Wing String -->
+</svg>

@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon envelope -->
+  <path id="balloon-envelope"
+        d="M400,50 Q420,10 470,50 Q500,180 470,250 Q420,320 400,250 Q370,180 320,50"
+        fill="url(#balloon-gradient)" stroke="none"/>
+
+  <!-- Balloon basket -->
+  <rect id="basket" width="160" height="80" x="280" y="240"
+        fill="#964B00" rx="4"/>
+
+  <!-- Balloon basket rope -->
+  <line id="rope" x1="370" y1="255" x2="370" y2="30" stroke="#8B4513" stroke-width="4"/>
+
+  <!-- Balloon knot -->
+  <circle cx="370" cy="30" r="10" fill="#8B4513"/>
+
+  <!-- Balloon top (basket) -->
+  <path id="top-basket" d="M280,240 Q340,260 400,240"
+        fill="#964B00" stroke="none"/>
+
+  <!-- Balloon top (envelope) -->
+  <circle cx="400" cy="50" r="30" fill="url(#balloon-gradient)" stroke="none"/>
+
+  <!-- Balloon gradient -->
+  <defs>
+    <radialGradient id="balloon-gradient" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0%" style="stop-color:rgb(249,136,5); stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,88,0); stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+</svg>

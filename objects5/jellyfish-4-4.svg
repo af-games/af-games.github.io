@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Hills -->
+  <path d="M150,400 Q200,300 270,400 Q350,500 500,400 Q650,300 750,400" fill="#8B4513" fill-opacity="0.8"/>
+  <path d="M100,300 Q200,200 350,300 Q500,400 650,300" fill="#D2691E" fill-opacity="0.7"/>
+
+  <!-- Rivers -->
+  <path d="M180,450 Q250,400 320,450 Q450,420 550,450 Q680,400 750,450" stroke="#4D908E" fill="transparent" stroke-width="10"/>
+
+  <!-- Pond -->
+  <path d="M350,500 A250,250 0 1 0 450,650 A250,250 0 1 0 350,800 Z" fill="#ADD8E6" fill-opacity="0.7"/>
+
+  <!-- Jellyfish -->
+  <circle cx="450" cy="600" r="50" fill="url(#jellyfishGradient)"/>
+  <path d="M420,550 Q450,580 480,550" stroke="#FFFFFF" fill="transparent" stroke-width="10"/>
+
+  <!-- Trees -->
+  <defs>
+    <linearGradient id="treeTrunkGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#785134; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#C68642; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path d="M150,250 A50,50 0 0 0 100,300 L100,550" fill="#785134" fill-opacity="0.8"/>
+  <path d="M650,250 A50,50 0 0 1 700,300 L700,550" fill="#785134" fill-opacity="0.8"/>
+
+  <!-- Leaf patterns -->
+  <pattern id="leafPattern" patternUnits="userSpaceOnUse" width="20" height="20">
+    <rect x="0" y="0" width="20" height="20" fill="#3D9970"/>
+    <circle cx="10" cy="10" r="5" fill="#FFFFFF"/>
+  </pattern>
+
+  <!-- Tree leaves -->
+  <path d="M100,400 Q120,380 140,400 T160,380 Z" fill="url(#leafPattern)" transform="rotate(45 120 400)"/>
+  <path d="M700,400 Q680,380 660,400 T640,380 Z" fill="url(#leafPattern)" transform="rotate(-45 680 400)"/>
+
+</svg>

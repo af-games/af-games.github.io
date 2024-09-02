@@ -1,0 +1,26 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Base -->
+  <circle cx="150" cy="200" r="120" fill="#FDD78C"/>
+
+  <!-- Frosting -->
+  <ellipse cx="150" cy="150" rx="90" ry="130" fill="#FFFFFF"/>
+  <path d="M140,60 Q100,100 70,140 T120,220 Z" fill="#FDD78C"/>
+
+  <!-- Layers -->
+  <circle cx="150" cy="200" r="90" stroke="#FDD78C" stroke-width="3"/>
+  <circle cx="150" cy="200" r="60" stroke="#FDD78C" stroke-width="3"/>
+
+  <!-- Candles -->
+  <rect x="120" y="40" width="20" height="60" fill="#FFA500"/>
+  <rect x="140" y="40" width="20" height="60" fill="#FFA500"/>
+  <rect x="130" y="30" width="20" height="70" fill="#FFA500"/>
+  <rect x="110" y="50" width="20" height="50" fill="#FFA500"/>
+  <rect x="150" y="50" width="20" height="50" fill="#FFA500"/>
+
+  <!-- Icing Drips -->
+  <polygon points="140,190 160,230 180,190" fill="#FFFFFF"/>
+  <polygon points="170,190 190,230 210,190" fill="#FFFFFF"/>
+  <polygon points="150,210 170,250 190,210" fill="#FFFFFF"/>
+  <polygon points="120,190 140,230 160,190" fill="#FFFFFF"/>
+  <polygon points="130,210 150,250 170,210" fill="#FFFFFF"/>
+</svg>

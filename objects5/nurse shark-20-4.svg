@@ -1,0 +1,20 @@
+<svg width="1400" height="900" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mountains -->
+  <polygon id="Mtn1" points="0,0 200,0 100,200" fill="#8B4513"/>
+  <polygon id="Mtn2" points="800,250 1000,400 950,200" fill="#8B4513"/>
+
+  <!-- Forests -->
+  <ellipse id="Fst1" cx="400" cy="325" rx="150" ry="75" fill="#006400"/>
+  <ellipse id="Fst2" cx="1100" cy="325" rx="150" ry="75" fill="#006400"/>
+  <ellipse id="Fst3" cx="1200" cy="325" rx="150" ry="75" fill="#006400"/>
+
+  <!-- Rivers -->
+  <path id="Rv1" d="M600,200 Q800,350 900,500" stroke="#0000FF" fill="transparent"/>
+  <path id="Rv2" d="M750,600 Q900,750 1050,900" stroke="#0000FF" fill="transparent"/>
+
+  <!-- Treasure Islands/Chest -->
+  <rect id="TIsl" x="700" y="300" width="100" height="100" fill="#CD7F32"/>
+  <circle id="TC" cx="1050" cy="300" r="40" fill="#CD7F32"/>
+
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Kangaroo Head -->
+  <circle cx="100" cy="50" r="30" fill="brown" />
+
+  <!-- Kangaroo Ears -->
+  <ellipse cx="70" cy="20" rx="40" ry="15" transform="rotate(-30 70 20)" fill="dark-brown" />
+  <ellipse cx="130" cy="20" rx="40" ry="15" transform="rotate(30 130 20)" fill="dark-brown" />
+
+  <!-- Kangaroo Body -->
+  <rect x="60" y="70" width="140" height="150" rx="20" ry="20" fill="url(#kangaroo-body-gradient)">
+    <animate attributeName="x" from="60" to="100" dur="3s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Kangaroo Legs and Tail -->
+  <polyline points="90 150, 80 220, 160 220, 170 150" fill="dark-brown" stroke-width="4" stroke="black" />
+  <polyline points="130 150, 140 200, 220 200, 230 150" fill="dark-brown" stroke-width="4" stroke="black" />
+
+  <!-- Gradient for Kangaroo Body -->
+  <defs>
+    <linearGradient id="kangaroo-body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#FFF3E0"/>
+      <stop offset="50%"  stop-color="#FFD7AA"/>
+      <stop offset="100%" stop-color="#FFC186"/>
+    </linearGradient>
+  </defs>
+
+  <!-- More kangaroos, trees, bushes, rocks... -->
+</svg>

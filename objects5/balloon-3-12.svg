@@ -1,0 +1,44 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Encountering a vast ocean (rectangle) at the starting point:**
+
+```svg
+  <rect x="50" y="50" width="300" height="400" fill="blue"/>
+```
+
+3. **Venturing into a mysterious valley (path):**
+
+```svg
+  <path d="M400,100 Q600,200 750,50" stroke="black" fill="transparent"/>
+```
+
+4. **Reaching the foothills of a towering mountain (polygon):**
+
+```svg
+  <polygon points="750,50 850,150 950,50" fill="brown" style="fill-opacity:0.5"/>
+```
+
+5. **Discovering a dense forest (circles and ellipses):**
+
+```svg
+  <circle cx="700" cy="200" r="30" fill="green"/>
+  <ellipse cx="800" cy="180" rx="40" ry="20" fill="green"/>
+```
+
+6. **Spotting a hot air balloon (circle with a linear gradient):**
+
+```svg
+  <defs>
+    <linearGradient id="balloonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,165,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,215,0);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <circle cx="700" cy="300" r="80" fill="url(#balloonGradient)"/>
+```
+
+7. **Finally, anchoring the map (closing the SVG tag):**
+
+```svg
+</svg>

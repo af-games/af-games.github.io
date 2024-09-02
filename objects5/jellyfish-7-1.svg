@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bell -->
+  <path fill="#FF69B4" d="M100,5 Q80,75 100,100 Q120,75 100,5"/>
+
+  <!-- Tentacles -->
+  <path fill="none" stroke="#FFFFFF" stroke-width="3">
+    <animate repeatCount="indefinite" begin="0s" dur="2s"
+      attributeName="d" values="
+        M110,110 Q90,140 80,150;
+        M90,110 Q80,130 70,140;
+        M110,110 Q120,140 130,150;
+        M120,110 Q130,130 140,140"/>
+  </path>
+
+  <!-- Eye -->
+  <circle fill="#000" cx="95" cy="70" r="5"/>
+
+</svg>

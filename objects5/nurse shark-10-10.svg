@@ -1,0 +1,25 @@
+<svg width="600px" height="400px" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background grass -->
+  <rect x="0" y="300" width="600" height="100" fill="#8B9D6C"/>
+
+  <!-- Sunlight and shade -->
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="50%" style="stop-color:rgb(245,245,220);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(220,220,180);stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Roses (circles) -->
+  <circle cx="50" cy="370" r="30" fill="#FFC0CB"/>
+  <circle cx="150" cy="400" r="20" fill="#FF69B4"/>
+  <circle cx="280" cy="350" r="25" fill="#FFD700"/>
+
+  <!-- Daisies (ellipses) -->
+  <ellipse cx="100" cy="250" rx="40" ry="60" fill="#FFFF99"/>
+  <ellipse cx="220" cy="320" rx="30" ry="50" fill="#FFFACD"/>
+
+  <!-- Tulips (paths) -->
+  <path d="M180,170 Q200,200 240,170 T260,190" stroke="#FF00FF" fill="transparent"/>
+  <path d="M350,220 Q380,250 420,220 T440,240" stroke="#FFA500" fill="transparent"/>
+
+</svg>

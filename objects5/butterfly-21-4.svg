@@ -1,0 +1,14 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="60" y="50" width="80" height="40" rx="20" fill="#FFC107"/>
+
+  <!-- Wings -->
+  <path d="M50,30 Q90,10 130,30 Q90,50 50,30" stroke="#FFC107" fill="transparent"/>
+  <path d="M50,80 Q90,110 130,80 Q90,60 50,80" stroke="#FFC107" fill="transparent"/>
+
+  <!-- Antennae -->
+  <line x1="60" y1="20" x2="60" y2="40" style="stroke:#FFC107"/>
+  <line x1="140" y1="20" x2="140" y2="40" style="stroke:#FFC107"/>
+
+</svg>

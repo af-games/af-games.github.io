@@ -1,0 +1,7 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <g id="mermaid">
+    <path d="M50 90 Q70 100, 90 80 A70 30 0 0 1 50 20 Z"/>
+    <path d="M50 20 Q30 10, 50 0 A50 20 0 0 0 70 0"/>
+    <path d="M60 40 Q80 10, 90 30 Q95 20, 90 10 Q80 0, 70 10"/>
+  </g>
+</svg>

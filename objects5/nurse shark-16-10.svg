@@ -1,0 +1,25 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Sky -->
+<rect x="0" y="0" width="500" height="150" fill="#87CEEB"/>
+
+<!-- Grass -->
+<rect x="0" y="150" width="500" height="350" fill="#4CAF50"/>
+
+<!-- Sun -->
+<circle cx="20" cy="50" r="20" fill="#FFFF00"/>
+<path d="M 18 70 A 20 20 0 0 1 68 30 Z" stroke="#FFFF00" fill="transparent"/>
+
+<!-- Roses (Circles) -->
+<circle cx="150" cy="250" r="40" fill="#FFC0CB"/>
+<circle cx="250" cy="200" r="40" fill="#FFC0CB"/>
+
+<!-- Daisies (Ellipses) -->
+<ellipse cx="300" cy="250" rx="30" ry="40" fill="#FFFACD"/>
+<ellipse cx="400" cy="180" rx="30" ry="40" fill="#FFFACD"/>
+
+<!-- Tulips (Paths) -->
+<path d="M 120 300 Q 160 250 200 300 Q 240 350 320 300 Z" stroke="#FF69B4" fill="transparent"/>
+<path d="M 380 220 Q 420 170 460 220 Q 420 270 380 220 Z" stroke="#FF69B4" fill="transparent"/>
+
+</svg>

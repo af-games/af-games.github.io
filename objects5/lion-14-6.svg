@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lion's head (main circle) -->
+  <circle cx="100" cy="75" r="60" fill="#FDD835" stroke="#D4A900" stroke-width="2"/>
+
+  <!-- Eyes (small circles) -->
+  <circle cx="85" cy="65" r="5" fill="#000"/>
+  <circle cx="115" cy="65" r="5" fill="#000"/>
+
+  <!-- Nose and mouth (paths for patterns and textures) -->
+  <path d="M90,80 Q97,75 104,80" stroke="#D4A900" stroke-width="2"/>
+  <polygon points="95,85 100,95 105,85" fill="#FFF380"/>
+
+  <!-- Mane (random overlapping circles) -->
+  <circle cx="90" cy="45" r="7" fill="#FDD835"/>
+  <circle cx="105" cy="50" r="6" fill="#FFC929"/>
+  <circle cx="110" cy="40" r="5" fill="#FDD835"/>
+
+  <!-- Gemstone setting (overlapping rectangles) -->
+  <rect x="70" y="95" width="60" height="20" fill="#C0C0C0"/>
+  <rect x="75" y="100" width="50" height="15" fill="#FFD700"/>
+
+</svg>

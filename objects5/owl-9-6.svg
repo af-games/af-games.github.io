@@ -1,0 +1,46 @@
+<svg width="500" height="500" viewBox="-250 -250 500 500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<path id="body" d="M-180,-160 Q-90,-170 -90,-90 Q-180,10 -180,-160"/>
+
+<!-- Head -->
+<ellipse cx="-90" cy="-50" rx="40" ry="80" fill="none" stroke="black"/>
+<path id="head" d="M-90,-50 Q-70,-20 -90,20 Q-110,-20 -90,-50"/>
+
+<!-- Eyes -->
+<circle cx="-60" cy="-35" r="5" fill="black"/>
+<circle cx="-120" cy="-35" r="5" fill="black"/>
+
+<!-- Beak -->
+<path id="beak" d="M-90,-40 Q-80,-70 -60,-70 Q-40,-40 -90,-40"/>
+
+<!-- Wings -->
+<path id="wing1" d="M-130,20 Q-150,-10 -170,-20"/>
+<path id="wing2" d="M-50,20 Q-30,-10 -10,-20"/>
+
+<!-- Feathers -->
+<defs>
+  <pattern id="feathers" patternUnits="userSpaceOnUse" width="8" height="8">
+    <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Feather_07.svg/1200px-Feather_07.svg.png" x="0" y="0" width="8" height="8"/>
+  </pattern>
+</defs>
+<rect x="-135" y="-65" width="40" height="80" fill="url(#feathers)"/>
+
+<!-- Color and light interaction -->
+<clipPath id="owl-clip">
+  <path d="M-180,-160 Q-90,-170 -90,-90 Q-180,10 -180,-160"/>
+</clipPath>
+<radialGradient id="glass-gradient" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+  <stop offset="100%" style="stop-color:rgb(230,230,230);stop-opacity:1"/>
+</radialGradient>
+<rect width="400" height="400" fill="url(#glass-gradient)" clip-path="url(#owl-clip)"/>
+
+<!-- Final owl outline -->
+<use href="#body" stroke="black"/>
+<use href="#head" stroke="black"/>
+<use href="#beak" stroke="black"/>
+<use href="#wing1" stroke="black"/>
+<use href="#wing2" stroke="black"/>
+
+</svg>

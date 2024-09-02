@@ -1,0 +1,23 @@
+<svg>` tag:
+
+```xml
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake outer shape -->
+  <path d="M100 20 Q140 60, 180 90 Q140 120, 100 150 Q60 120, 20 90 Q60 60, 100 20" fill="brown"/>
+
+  <!-- Cake inner shape -->
+  <path d="M80 70 Q120 40, 160 70 Q120 100, 80 130 Q40 100, 80 70" fill="yellow"/>
+
+  <!-- Cake layers -->
+  <path d="M80 70 Q120 50, 160 70 Q120 90, 80 110 Q40 90, 80 70" stroke="black" stroke-width="2"/>
+
+  <!-- Cake top circle -->
+  <circle cx="100" cy="55" r="30" fill="brown"/>
+  <circle cx="100" cy="55" r="25" fill="white"/>
+
+  <!-- Cake candles -->
+  <rect x="90" y="40" width="20" height="5" rx="5" ry="5" fill="orange"/>
+  <rect x="110" y="40" width="20" height="5" rx="5" ry="5" fill="orange"/>
+
+</svg>

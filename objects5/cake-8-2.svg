@@ -1,0 +1,13 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake tiers -->
+  <circle cx="150" cy="200" r="80" fill="#FDD79A" />
+  <circle cx="150" cy="260" r="60" fill="#FDD79A" />
+
+  <!-- Icing decorations (flowing like tributaries) -->
+  <path d="M30,220 Q140,100 280,220" stroke="#FFFFFF" stroke-width="10" fill="transparent"/>
+
+  <!-- Candles (focal point tributaries) -->
+  <rect x="125" y="170" width="50" height="60" rx="25" fill="#F4D03F"/>
+  <circle cx="180" cy="190" r="15" fill="#FFCC00"/>
+
+</svg>

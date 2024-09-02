@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+```
+
+**Step 2: Begin drawing tentative lines and shapes using <path> elements**
+
+Let's start with the basic body outline. We'll use a `<path>` element with the `d` attribute to define the path.
+
+```svg
+<path d="M-40 -30 Q0 -50 40 -30" stroke="black" fill="none"/>
+```
+
+**Step 3: Discover new features and add SVG elements**
+
+Let's add a head. We'll use an `<ellipse>` element this time.
+
+```svg
+<ellipse cx="40" cy="-20" rx="15" ry="20" stroke="black" fill="none"/>
+```
+
+Next, let's add two circles for the eyes using `<circle>` elements.
+
+```svg
+<circle cx="35" cy="-15" r="5" stroke="black" fill="black"/>
+<circle cx="45" cy="-15" r="5" stroke="black" fill="black"/>
+```
+
+Now, let's add some legs using `<path>` elements again.
+
+```svg
+<path d="M-40 -30 Q-60 -70 0 -80" stroke="black" fill="none"/>
+<path d="M40 -30 Q20 -70 0 -80" stroke="black" fill="none"/>
+```
+
+**Step 4: Document your journey with detailed notes (attribute values)**
+
+For the body path:
+- `d`: The command list for the path. `M` moves to a new position, `Q` draws a quadratic Bézier curve.
+
+For the ellipse (head):
+- `cx`, `cy`: The x and y coordinates of the center.
+- `rx`, `ry`: The x and y radii.
+
+For the circles (eyes):
+- `cx`, `cy`: The x and y coordinates of the center.
+- `r`: The radius.
+
+For the legs paths:
+- Same as the body path, but with different commands and positions to create the desired shapes.
+
+**Step 5: Write out your map's final draft using SVG tags**
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <path d="M-40 -30 Q0 -50 40 -30" stroke="black" fill="none"/>
+  <ellipse cx="40" cy="-20" rx="15" ry="20" stroke="black" fill="none"/>
+  <circle cx="35" cy="-15" r="5" stroke="black" fill="black"/>
+  <circle cx="45" cy="-15" r="5" stroke="black" fill="black"/>
+  <path d="M-40 -30 Q-60 -70 0 -80" stroke="black" fill="none"/>
+  <path d="M40 -30 Q20 -70 0 -80" stroke="black" fill="none"/>
+</svg>

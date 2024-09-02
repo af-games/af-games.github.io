@@ -1,0 +1,30 @@
+<svg viewBox="0 0 200 250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="40" y="100" width="120" height="150" fill="#F39C12" stroke="black"/>
+  <!-- Head -->
+  <circle cx="85" cy="70" r="60" fill="#F39C12"/>
+
+  <!-- Legs -->
+  <!-- Front Left Leg -->
+  <rect x="45" y="175" width="15" height="80" fill="none" stroke="black"/>
+  <!-- Front Right Leg -->
+  <rect x="110" y="175" width="15" height="80" fill="none" stroke="black"/>
+  <!-- Back Left Leg -->
+  <rect x="45" y="245" width="15" height="80" fill="none" stroke="black"/>
+  <!-- Back Right Leg -->
+  <rect x="110" y="245" width="15" height="80" fill="none" stroke="black"/>
+
+  <!-- Tail -->
+  <path d="M90,230 Q120,250 160,230 H180 V250 L160,270 Z" fill="#F39C12"/>
+
+  <!-- Mane -->
+  <polygon points="70,40 130,40 130,70 100,100 70,70" fill="#FFDF56"/>
+
+  <!-- Eyes -->
+  <!-- Left Eye -->
+  <circle cx="65" cy="55" r="10" fill="black"/>
+  <!-- Right Eye -->
+  <circle cx="105" cy="55" r="10" fill="black"/>
+
+</svg>

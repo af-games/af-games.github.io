@@ -1,0 +1,29 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E8D7A4" />
+
+  <!-- Pathways -->
+  <rect id="pathway" x="50" y="50" width="300" height="200" fill="transparent" stroke="#6D4C41" stroke-width="2"/>
+
+  <!-- Beds -->
+  <circle cx="150" cy="150" r="70" fill="#A3BE8C"/>
+  <circle cx="300" cy="150" r="70" fill="#D9E4BC"/>
+
+  <!-- Lion Statues -->
+  <path d="M120,130 a60,60 0 1,0 120,0 a60,60 0 1,0 -120,0 z" fill="#CD7F32"/>
+  <path d="M380,130 a60,60 0 1,0 120,0 a60,60 0 1,0 -120,0 z" fill="#CD7F32"/>
+
+  <!-- Plants -->
+  <path id="plant1" d="M90,150 q20,-30 40,0 q20,30 40,0 Q160,180 180,150" stroke="#4CAF50" fill="transparent"/>
+  <use href="#plant1" x="220" y="70"/>
+
+  <!-- Other Details -->
+  <path id="bench" d="M300,190 h60 q-30,-15 -45,0 T300,210 v-20 z" fill="#8B4513"/>
+  <use href="#bench" x="70" y="190"/>
+
+  <!-- Light Interaction (Shade) -->
+  <rect x="0" y="0" width="100%" height="20%" fill="#A3BE8C" opacity=".2"/>
+  <rect x="0" y="80%" width="50%" height="20%" fill="#D9E4BC" opacity=".2"/>
+
+</svg>

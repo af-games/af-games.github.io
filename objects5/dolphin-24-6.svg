@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base -->
+  <rect width="800" height="600" fill="#ADD8E6"/>
+
+  <!-- Ocean and Sky -->
+  <rect x="0" y="400" width="800" height="200" fill="#ADD8E6"/>
+  <rect x="0" y="0" width="800" height="200" fill="#5F9EA0"/>
+
+  <!-- Horizon Line -->
+  <line x1="0" y1="400" x2="800" y2="400" stroke="black" stroke-width="2"/>
+
+  <!-- Sea Waves -->
+  <path d="M0 350 Q100 300, 200 350 Q300 400, 400 350 Q500 300, 600 350 Q700 400, 800 350" stroke="black" fill="transparent"/>
+
+  <!-- Sun Rays -->
+  <polygon points="200,100 300,50 400,100 350,200 400,300 350,400" fill="#F9A61C"/>
+
+  <!-- Dolphin -->
+  <ellipse cx="400" cy="370" rx="120" ry="80" fill="#4098ED"/>
+  <path d="M500,370 Q550,420, 600,370 Q550,320, 500,370" stroke="black" fill="#4098ED"/>
+  <polygon points="400,310 450,280 400,250 350,280" fill="#4098ED"/>
+
+  <!-- Dolphins' Tail Splash -->
+  <circle cx="550" cy="370" r="30" fill="#ADD8E6"/>
+  <circle cx="570" cy="375" r="20" fill="#ADD8E6"/>
+  <circle cx="600" cy="370" r="15" fill="#ADD8E6"/>
+
+  <!-- Sea Foam -->
+  <circle cx="540" cy="365" r="3" fill="white"/>
+  <circle cx="555" cy="370" r="2" fill="white"/>
+  <circle cx="580" cy="375" r="2" fill="white"/>
+</svg>

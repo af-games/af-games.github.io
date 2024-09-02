@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Main features outlined using simple shapes -->
+
+  <!-- Body -->
+  <rect x="150" y="100" width="400" height="400" style="fill:orange; stroke-width:2; stroke:black"/>
+
+  <!-- Head -->
+  <circle cx="300" cy="200" r="100" style="fill:orange; stroke-width:2; stroke:black"/>
+
+  <!-- Legs -->
+  <rect x="175" y="300" width="25" height="250"/>
+  <rect x="425" y="300" width="25" height="250"/>
+
+  <!-- Tail -->
+  <polyline points="425,600 500,600 575,500" style="fill:orange; stroke-width:2; stroke:black"/>
+
+  <!-- Complex elements with paths -->
+
+  <!-- Mane -->
+  <path d="M150,100 Q250,50 350,100 Q450,50 550,100" style="fill:none; stroke-width:2; stroke:black"/>
+
+  <!-- Face details (eyes, nose, mouth) -->
+  <circle cx="275" cy="175" r="25"/>
+  <polygon points="300,150 350,150 325,125" style="fill:black"/>
+  <path d="M260,190 Q280,210 300,190 Q320,210 340,190"/>
+
+  <!-- Labels with coordinates -->
+  <text x="5" y="50">(150,100)</text>
+  <text x="5" y="200">(300,200)</text>
+  <text x="5" y="600">(425,600)</text>
+
+</svg>

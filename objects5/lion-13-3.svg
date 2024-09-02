@@ -1,0 +1,22 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outline the body with a rectangle -->
+  <rect x="100" y="100" width="300" height="300" fill="none" stroke="black"/>
+
+  <!-- Head: Circle -->
+  <circle cx="200" cy="150" r="80" fill="none" stroke="black"/>
+  <path d="M200 70 Q160 90, 130 150" fill="none" stroke="black"/> <!-- Jaw -->
+
+  <!-- Eyes: Circles -->
+  <circle cx="160" cy="120" r="15" fill="black"/>
+  <circle cx="240" cy="120" r="15" fill="black"/>
+
+  <!-- Mane: Complex path for lion's mane -->
+  <path d="M280 70 Q320 90, 360 70 Q320 50, 280 30 Z" fill="none" stroke="black"/>
+
+  <!-- Body: Paths for limbs and tail -->
+  <path d="M150 200 L100 250 L150 300" fill="none" stroke="black"/> <!-- Front left limb -->
+  <path d="M250 200 L300 250 L250 300" fill="none" stroke="black"/> <!-- Front right limb -->
+  <path d="M180 350 Q220 400, 260 350" fill="none" stroke="black"/> <!-- Tail -->
+
+</svg>

@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dinosaur Outline -->
+  <path id="dinosaur-outline" d="M100,10 L150,70 Q200,50 250,70 L300,10 Q350,50 400,10 Z">
+    <!-- Linear Gradient for Outline -->
+    <defs>
+      <linearGradient id="gradient-outline" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:rgb(51,0,0);stop-opacity:1"/>
+        <stop offset="100%" style="stop-color:rgb(153,0,0);stop-opacity:1"/>
+      </linearGradient>
+    </defs>
+    <style>#dinosaur-outline{fill:none;stroke:url(#gradient-outline);stroke-width:5;}</style>
+  </path>
+
+  <!-- Dinosaur Interior -->
+  <rect id="dinosaur-interior" width="300" height="80" x="120" y="20">
+    <!-- Linear Gradient for Interior -->
+    <defs>
+      <linearGradient id="gradient-interior" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:rgb(153,0,0);stop-opacity:1"/>
+        <stop offset="100%" style="stop-color:rgb(204,0,0);stop-opacity:1"/>
+      </linearGradient>
+    </defs>
+    <style>#dinosaur-interior{fill:url(#gradient-interior);}</style>
+  </rect>
+</svg>

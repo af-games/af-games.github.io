@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 60">
+  <!-- Body -->
+  <ellipse cx="25" cy="30" rx="15" ry="25" fill="#7D3C98" stroke="black"/>
+  <!-- Eyes -->
+  <circle cx="18" cy="15" r="4" fill="#008000"/><circle cx="32" cy="15" r="4" fill="#008000"/>
+  <!-- Feathers (Black Onyx) -->
+  <polygon points="16,17 25,25 34,17" fill="#000000" stroke="black"/>
+  <!-- Wings and Tail (Moonstone) -->
+  <path d="M10,40 Q20,30 35,40 T45,60" fill="#F9DEC8" stroke="black"/>
+  <!-- Beak (Rhodium-plated Silver) -->
+  <polygon points="17.5,30 20,35 12.5,35" fill="#C0C0C0" stroke="black"/>
+</svg>

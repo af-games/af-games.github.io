@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Scene 1: In the Savannah -->
+<rect x="50" y="100" width="700" height="400" fill="#FFB6C1"/>
+<circle cx="400" cy="350" r="80" fill="#8B4513" />
+<text x="400" y="270" font-family="Verdana" font-size="20">Giraffe</text>
+<path d="M700 100 Q750 50 650 100 L700 150" stroke="#FFD700" fill="transparent"/>
+
+<!-- Scene 2: Windstorm -->
+<circle cx="400" cy="350" r="80" fill="#C0C0C0"/>
+<path d="M400 200 Q350 150 450 200 L400 250" stroke="#696969" fill="transparent"/>
+
+<!-- Scene 3: Giraffe's Idea -->
+<circle cx="400" cy="350" r="80" fill="#FFFFFF"/>
+<text x="370" y="310" font-family="Verdana" font-size="20">Idea</text>
+
+<!-- Scene 4: Building a Weather Tower -->
+<rect x="200" y="250" width="400" height="150" fill="#8B7D6B"/>
+<circle cx="300" cy="350" r="60" fill="#8B4513"/>
+
+<!-- Scene 5: Weather Tower Completed -->
+<rect x="200" y="250" width="400" height="200" fill="#8B7D6B"/>
+<circle cx="300" cy="350" r="60" fill="#8B4513"/>
+
+<!-- Scene 6: Storm Passes Safely -->
+<rect x="200" y="250" width="400" height="200" fill="#A9A9A9"/>
+<circle cx="300" cy="350" r="60" fill="#8B4513"/>
+
+<!-- Scene 7: Celebration -->
+<rect x="200" y="250" width="400" height="200" fill="#8B7D6B"/>
+<circle cx="300" cy="350" r="60" fill="#8B4513"/>
+
+</svg>

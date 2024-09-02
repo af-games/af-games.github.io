@@ -1,0 +1,27 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle id="body" cx="150" cy="100" r="40">
+    <animate attributeName="fill"
+             values="#ff6347;#ffa502;#ff6347"
+             dur="2s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Left Wing -->
+  <circle cx="120" cy="80" r="40">
+    <animate attributeName="fill"
+             values="#ffffff;#ffa502;#ffffff"
+             dur="2s"
+             repeatCount="indefinite"/>
+    <animate attributeName="cy" from="80" to="120" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Right Wing -->
+  <circle cx="180" cy="80" r="40">
+    <animate attributeName="fill"
+             values="#ffffff;#ffa502;#ffffff"
+             dur="2s"
+             repeatCount="indefinite"/>
+    <animate attributeName="cy" from="80" to="120" dur="2s" repeatCount="indefinite" begin="-1s"/>
+  </circle>
+</svg>

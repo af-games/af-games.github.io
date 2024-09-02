@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2010/svg" viewBox="0 0 800 600">
+
+  <!-- Sky background -->
+  <rect x="0" y="0" width="800" height="600" fill="#BFE5EA"/>
+
+  <!-- Ground -->
+  <rect x="0" y="400" width="800" height="200" fill="#3D9970"/>
+
+  <!-- Hot Air Balloon Basket -->
+  <rect x="100" y="500" width="60" height="100" rx="10" fill="#C0C0C0"/>
+
+  <!-- Hot Air Balloon Envelope -->
+  <path d="M200,50 A80,80 0 1 1 340,70 A80,80 0 1 1 200,90" fill="#FA6E6E"/>
+
+  <!-- Balloon Rope -->
+  <line x1="260" y1="500" x2="260" y2="370" stroke="#646464" stroke-width="5"/>
+
+  <!-- Flame (optional) -->
+  <polygon points="280,390 270,410 290,410" fill="#FF4500" stroke="#FF4500" stroke-width="1"/>
+
+</svg>

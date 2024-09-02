@@ -1,0 +1,25 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hot Air Balloon -->
+  <g id="hot-air-balloon">
+    <circle cx="150" cy="60" r="50" fill="#FF9900"/>
+    <path d="M150,60 Q75,20 150,0 Q225,20 150,60" stroke="#FF9900" fill="transparent"/>
+    <rect x="135" y="80" width="25" height="120" fill="#FFF47F"/>
+    <path d="M160,80 L160,200 Q150,220 140,200 Z" stroke="#FF9900" fill="transparent"/>
+  </g>
+
+  <!-- Baguette Slice -->
+  <rect x="100" y="170" width="30" height="15" fill="#F8D7AA"/>
+
+  <!-- Grapes -->
+  <circle cx="250" cy="190" r="10" fill="#6C2E0D"/>
+  <circle cx="270" cy="190" r="8" fill="#6C2E0D"/>
+  <circle cx="260" cy="180" r="5" fill="#6C2E0D"/>
+
+  <!-- Knife -->
+  <path d="M340,150 L370,190 Q380,200 390,190 L400,150 Z" stroke="#3D3D3D" fill="transparent"/>
+
+  <!-- Fork -->
+  <path d="M360,200 L360,230 Q355,240 370,240 Q385,240 390,230 Z" stroke="#3D3D3D" fill="transparent"/>
+
+</svg>

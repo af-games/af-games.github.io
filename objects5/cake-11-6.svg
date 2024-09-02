@@ -1,0 +1,30 @@
+<svg>` tag and give it some basic dimensions for our canvas.
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 800 600"
+     version="1.1">
+```
+
+In this case, we're creating an SVG with a viewBox that spans from 0 to 800 in the x-direction and 0 to 600 in the y-direction. This will give us plenty of space to compose our masterpiece.
+
+Next, let's add a `<rect>` element to create a simple background for our artwork. We'll use a light blue color (#ADD8E6) for now.
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 800 600"
+     version="1.1">
+  <rect width="100%" height="100%" fill="#ADD8E6" />
+```
+
+Now, let's start adding some notes - in this case, circles ( `<circle>` elements) to create a simple melody.
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 800 600"
+     version="1.1">
+  <rect width="100%" height="100%" fill="#ADD8E6" />
+  <circle cx="50" cy="50" r="40" fill="blue" />
+  <circle cx="200" cy="50" r="40" fill="red" />
+  <circle cx="350" cy="50" r="40" fill="green" />
+</svg>

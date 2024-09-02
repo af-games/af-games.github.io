@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,50 Q140,70 160,50 Q180,70 190,50 Q170,20 160,30 Q150,20 140,50" fill="blue"/>
+
+  <!-- Head -->
+  <circle cx="160" cy="70" r="20" fill="white"/>
+
+  <!-- Eyes -->
+  <circle cx="150" cy="60" r="3" fill="black"/>
+  <circle cx="170" cy="60" r="3" fill="black"/>
+
+  <!-- Beak -->
+  <path d="M155,80 Q160,90 165,80" stroke="orange" fill="transparent"/>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo -->
+  <circle cx="400" cy="250" r="120" fill="#FFFFFF"/>
+  <path d="M360,170 Q390,120 420,170" stroke="#8B7D6C" fill="#E0E0E0"/>
+
+  <!-- Hills -->
+  <path d="M150,350 Q250,400 350,350 Q450,450 550,350 Q650,400 750,350" stroke="none" fill="#8B9F8E"/>
+  <path d="M150,250 Q250,300 350,250 Q450,350 550,250 Q650,300 750,250" stroke="none" fill="#8B9F8E"/>
+
+  <!-- River -->
+  <path d="M150,400 Q200,450 250,400 Q300,450 350,400 Q400,450 450,400 Q500,450 550,400" stroke="#3D8DC7" fill="none" stroke-width="15"/>
+
+  <!-- Trees -->
+  <circle cx="200" cy="200" r="30" fill="#3B7A39"/>
+  <path d="M200,170 Q180,140 200,110 Q220,140 200,170" stroke="#3B7A39" fill="none"/>
+
+  <circle cx="500" cy="200" r="30" fill="#3B7A39"/>
+  <path d="M500,170 Q480,140 500,110 Q520,140 500,170" stroke="#3B7A39" fill="none"/>
+
+</svg>

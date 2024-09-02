@@ -1,0 +1,20 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Nurse Shark Reef -->
+  <polygon points="50,50 130,50 130,130 50,130" fill="#4CAF50"/>
+
+  <!-- Marlin's Mountain -->
+  <polygon points="280,150 300,100 350,170 320,220" fill="#9C27B0" stroke="black" stroke-width="1"/>
+
+  <!-- Turtle's Cove -->
+  <ellipse cx="150" cy="200" rx="60" ry="40" fill="#64FFDA"/>
+
+  <!-- Eel's River -->
+  <path d="M100,100 Q130,80 200,170 T250,200" stroke="#2196F3" stroke-width="10" fill="transparent"/>
+
+  <!-- Starfish Forest -->
+  <ellipse cx="180" cy="240" rx="20" ry="10" fill="#FFC107"/>
+  <ellipse cx="220" cy="260" rx="15" ry="7.5" fill="#CDDC39"/>
+  <ellipse cx="240" cy="280" rx="10" ry="5" fill="#DAA520"/>
+
+</svg>

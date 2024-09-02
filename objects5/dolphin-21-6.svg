@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Background -->
+  <rect x="-50" y="-50" width="100%" height="100%" fill="#87CEEB"/>
+
+  <!-- Pan -->
+  <circle cx="0" cy="0" r="45" fill="#FFF5EE"/>
+
+  <!-- Dolphin -->
+  <path d="M-30,0 Q-20,-20 C0,-40 20,-20 30,0 Q10,40 -30,0" stroke-width="2" stroke="#000000" fill="#D3D3D3"/>
+
+  <!-- Water Swirls -->
+  <ellipse cx="-35" cy="0" rx="35" ry="20" fill="url(#waterGradient)"/>
+  <ellipse cx="-15" cy="0" rx="25" ry="15" fill="url(#waterGradient)" transform="rotate(45, 0, 0)"/>
+  <!-- Add more ellipses with different sizes and rotations -->
+
+  <!-- Starfish -->
+  <polygon points="-35,-15 -15,-35 15,-35 35,-15 20,10" fill="#FFA500"/>
+
+  <!-- Seaweed -->
+  <path d="M-40,-20 Q-20,-30 0,-20 Q20,-30 40,-20 Z" stroke-width="1" stroke="#006400"/>
+
+  <!-- Water Gradient -->
+  <defs>
+    <linearGradient id="waterGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%"   style="stop-color:#00008B;"/>
+      <stop offset="100%" style="stop-color:#87CEEB;"/>
+    </linearGradient>
+  </defs>
+</svg>

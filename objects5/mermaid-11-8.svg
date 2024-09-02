@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Rock -->
+  <rect x="170" y="480" width="160" height="20" fill="#8B4513"/>
+  <rect x="190" y="460" width="120" height="20" fill="#FDD835"/>
+
+  <!-- Mermaid's body and face -->
+  <circle cx="250" cy="350" r="100" fill="#FFCBAE"/>
+  <circle cx="250" cy="325" r="70" fill="#FFAEB9"/>
+
+  <!-- Tail fins -->
+  <polygon points="240,480,260,480,250,510" fill="#0D47A1"/>
+  <polygon points="230,490,270,490,250,520" fill="#2193B0"/>
+  <polygon points="220,500,280,500,250,550" fill="#6DC8EC"/>
+
+  <!-- Hair -->
+  <polygon points="240,300,250,280,260,300" fill="#0D47A1"/>
+  <polygon points="235,290,265,290,250,270" fill="#2193B0"/>
+
+  <!-- Water -->
+  <rect x="0" y="0" width="500" height="500" fill="#0D47A1"/>
+  <circle cx="100" cy="100" r="10" fill="#2193B0"/>
+  <triangle points="150,150,200,200,100,200" fill="#6DC8EC"/>
+
+</svg>

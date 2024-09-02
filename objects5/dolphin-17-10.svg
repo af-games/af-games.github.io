@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ocean -->
+  <rect id="ocean" x="0" y="0" width="800" height="400" fill="lightblue"/>
+
+  <!-- Sun -->
+  <circle cx="750" cy="100" r="60" fill="yellow">
+    <animate attributeName="r" values="60;120;60" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Landmarks -->
+  <polygon id="island-1" points="50,150 150,100 100,250" fill="darkgreen">
+    <animateTransform attributeName="transform" type="scale" from="1" to="1.5" begin="mouseover" dur="0.5s"/>
+  </polygon>
+
+  <!-- Dolphins -->
+  <g id="dolphins">
+    <path d="M200,200 Q180,160 240,200 T300,240" fill="lightblue" stroke="black"/>
+    <path d="M350,200 Q370,220 310,200 T390,240" fill="lightblue" stroke="black"/>
+
+    <!-- SVG filter for dolphin glow -->
+    <defs>
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+        <feMerge>
+          <feMergeNode in="coloredBlur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
+
+    <!-- Apply glow filter to dolphins -->
+    <use xlink:href="#dolphins" style="filter:url(#glow)" />
+  </g>
+
+  <!-- Route -->
+  <polyline points="10,350 50,200 150,150 200,180 300,240 400,280 500,320 600,350" stroke="black" fill="transparent"/>
+
+</svg>

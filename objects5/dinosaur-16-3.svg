@@ -1,0 +1,23 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dinosaur silhouette -->
+  <path id="dinosaur-outline" d="M10,40 C30,10 70,10 90,40 H160 V80 Q150,120 140,160 L100,200 Q70,180 40,160 V80 Z" fill="none" stroke="black"/>
+
+  <!-- Body -->
+  <rect id="body-fill" x="90" y="40" width="70" height="80" fill="#CCC"/>
+  <linearGradient id="body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFF; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#999; stop-opacity:1"/>
+  </linearGradient>
+  <rect x="90" y="40" width="70" height="80" fill="url(#body-gradient)"/>
+
+  <!-- Head -->
+  <ellipse id="head-fill" cx="50" cy="60" rx="30" ry="40" fill="#EEE"/>
+  <linearGradient id="head-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFF; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#CCC; stop-opacity:1"/>
+  </linearGradient>
+  <ellipse cx="50" cy="60" rx="30" ry="40" fill="url(#head-gradient)"/>
+
+  <!-- Tail -->
+  <rect id="tail-fill" x="160" y="80" width="20" height="80" fill="#AAA"/>
+</svg>

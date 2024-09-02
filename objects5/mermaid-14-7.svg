@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -100 200 200">
+  <!-- Mermaid Tail -->
+  <path d="M-40,-90 Q-60,-80 0,-70 Q60,-80 40,-90" fill="#80C3EC" stroke="#000"/>
+
+  <!-- Mermaid Body -->
+  <path d="M-15,-70 Q0,-60 15,-70" fill="#80C3EC" stroke="#000"/>
+
+  <!-- Mermaid Face & Hair -->
+  <g fill="#FFF">
+    <circle cx="-5" cy="-60" r="20"/>
+    <path d="M-40,-50 Q0,-30 10,-50 Q40,-70 5,-85 Q0,-95 -10,-85 Z"/>
+  </g>
+
+  <!-- Mermaid Tail Fin -->
+  <path d="M0,-60 Q20,-40 -20,-40" fill="#80C3EC" stroke="#000"/>
+
+  <!-- Shading & Highlights -->
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#80C3EC; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#5DADEA; stop-opacity:1"/>
+  </linearGradient>
+  <rect width="200" height="200" fill="url(#grad1)"/>
+
+</svg>

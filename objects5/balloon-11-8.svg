@@ -1,0 +1,18 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Body -->
+  <ellipse cx="100" cy="75" rx="80" ry="40" fill="#ffcc66">
+    <animate attributeName="ry" values="40;90;40" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Balloon String -->
+  <line x1="100" y1="75" x2="100" y2="10" stroke="#333" stroke-width="3"/>
+
+  <!-- Balloon Tassel -->
+  <polygon points="95,10 105,10 100,40" fill="#ffcc66"/>
+
+  <!-- Balloon Tie -->
+  <circle cx="100" cy="87.5" r="2.5" fill="#333"/>
+  <line x1="95" y1="85" x2="105" y2="85" stroke="#333"/>
+
+</svg>

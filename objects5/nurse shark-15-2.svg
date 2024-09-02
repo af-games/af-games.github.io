@@ -1,0 +1,18 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="150" cy="180" r="90" fill="#67b8d9" stroke="#000" stroke-width="5"/>
+
+  <!-- Fin shapes using paths -->
+  <path d="M30 240 Q70 280, 150 240 T220 240 Q260 280, 330 240" fill="#67b8d9"/>
+  <path d="M330 100 Q360 50, 300 100 S240 50, 200 100" fill="#67b8d9"/>
+
+  <!-- Eye patches -->
+  <rect x="100" y="100" width="30" height="30" fill="#fff"/>
+  <rect x="200" y="100" width="30" height="30" fill="#fff"/>
+
+  <!-- Eyes -->
+  <circle cx="125" cy="125" r="10" fill="#000"/>
+  <circle cx="225" cy="125" r="10" fill="#000"/>
+
+</svg>

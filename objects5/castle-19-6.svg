@@ -1,0 +1,35 @@
+<svg width="100%" height="auto" viewBox="-30% 0 160% 100%">
+  <!-- Base Layer -->
+  <rect width="80%" height="20%" rx="5" ry="5" fill="#4a2f30"/>
+
+  <!-- Castle Walls -->
+  <g transform="translate(-10%, 0)">
+    <rect width="20%" height="70%" rx="5" ry="5" fill="#6a4b3d"/>
+    <g transform="translate(10%, 80%)">
+      <rect width="60%" height="20%" rx="5" ry="5" fill="#6a4b3d"/>
+      <!-- Repeat three more times with decreasing heights -->
+    </g>
+  </g>
+
+  <!-- Towers -->
+  <circle cx="-10%" cy="80%" r="20%" fill="#6a4b3d"/>
+  <circle cx="10%" cy="80%" r="20%" fill="#6a4b3d"/>
+  <circle cx="-10%" cy="75%" r="10%" fill="#89634e"/>
+  <circle cx="10%" cy="75%" r="10%" fill="#89634e"/>
+
+  <!-- Roofs -->
+  <polygon points="-20,75,-10,65,-10,75" fill="#a3826e"/>
+  <polygon points="10,75,20,65,20,75" fill="#a3826e"/>
+
+  <!-- Windows and Doors -->
+  <g transform="translate(-15%, 40%)">
+    <rect width="5%" height="10%" fill="#fff"/>
+    <!-- Repeat for more windows -->
+  </g>
+  <path d="M-20,90 Q-30,80 -20,70" stroke="#6a4b3d" fill="#fff"/>
+
+  <!-- Finishing Touches -->
+  <circle cx="100%" cy="5%" r="15%" fill="#ffcc29"/>
+  <path d="M90,30 Q80,20 90,10" stroke="#6a4b3d" fill="#fff"/>
+
+</svg>

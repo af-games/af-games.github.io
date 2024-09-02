@@ -1,0 +1,18 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="275" y="300" width="150" height="200" fill="#FFC156"/>
+  <path d="M300,300 Q350,400 300,500 Q250,400 300,300" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Mane -->
+  <polygon points="275,300 325,300 350,350 325,400 275,400" fill="#F59D7B"/>
+  <path d="M275,350 Q300,400 325,350 Q300,300 275,350" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Face -->
+  <circle cx="300" cy="350" r="50" stroke="#8B4513"/>
+  <path d="M290,360 Q310,360 300,370 Q290,370 290,360" fill="#000000"/>
+
+  <!-- Eyes -->
+  <circle cx="285" cy="345" r="5" fill="#000000"/>
+  <circle cx="315" cy="345" r="5" fill="#000000"/>
+
+</svg>

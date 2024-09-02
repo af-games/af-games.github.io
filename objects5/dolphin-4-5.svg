@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Body -->
+  <path d="M0,-40 A40,40 0 1,0 0,40 A70,70 0 1,0 0,-40" fill="#D3D3D3"/>
+
+  <!-- Head -->
+  <path d="M-25,-30 L25,-30 Q0,-25 0,-10 Z" fill="#D3D3D3"/>
+
+  <!-- Tail fins -->
+  <polygon points="-40,0 0,60 40,0" fill="#D3D3D3"/>
+  <polygon points="40,0 0,-60 -40,0" fill="#D3D3D3"/>
+
+  <!-- Upper jaw/Beak -->
+  <path d="M-50,-10 L0,-20 L-50,-30 Z" fill="#D3D3D3"/>
+
+  <!-- Eye spots -->
+  <circle cx="-15" cy="-25" r="5" fill="#000000"/>
+  <circle cx="15" cy="-25" r="5" fill="#000000"/>
+
+  <!-- Water reflections -->
+  <linearGradient id="waterReflections" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" style="stop-color:#003D66"/>
+    <stop offset="100%" style="stop-color:#90CAF9"/>
+  </linearGradient>
+  <rect width="100%" height="50%" fill="url(#waterReflections)"/>
+
+</svg>

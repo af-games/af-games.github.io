@@ -1,0 +1,58 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg"
+     style="background-color: #f5deb3;">
+```
+
+2. **Plant your seeds:**
+
+Let's start with the body, head, tail, and legs of our T-Rex.
+
+```svg
+  <rect id="body" x="100" y="200" width="600" height="200" fill="#8B4513"/>
+  <circle id="head" cx="250" cy="150" r="100" fill="#8B4513"/>
+  <polygon id="tail" points="350,75 650,75 600,200" fill="#8B4513"/>
+```
+
+3. **Water and nurture:**
+
+- Body: No transformation needed.
+- Head: Rotate slightly downwards.
+- Tail: Scale it up a bit.
+- Legs: We'll add these as lines later.
+
+```svg
+  <g transform="rotate(5,250,150)">
+    <circle id="head" cx="250" cy="150" r="100" fill="#8B4513"/>
+  </g>
+  <g transform="scale(1.5) translate(75,0)">
+    <polygon id="tail" points="350,75 650,75 600,200" fill="#8B4513"/>
+  </g>
+```
+
+4. **Add legs:**
+
+```svg
+  <line id="leg1" x1="150" y1="350" x2="100" y2="450" stroke="#8B4513"/>
+  <line id="leg2" x1="250" y1="350" x2="200" y2="450" stroke="#8B4513"/>
+  <line id="leg3" x1="350" y1="350" x2="300" y2="450" stroke="#8B4513"/>
+```
+
+5. **Prune:**
+
+We don't need any unnecessary elements or attributes here, so we can proceed with the final code.
+
+6. **Write out your SVG code:**
+
+```svg
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg"
+     style="background-color: #f5deb3;">
+  <rect id="body" x="100" y="200" width="600" height="200" fill="#8B4513"/>
+  <g transform="rotate(5,250,150)">
+    <circle id="head" cx="250" cy="150" r="100" fill="#8B4513"/>
+  </g>
+  <g transform="scale(1.5) translate(75,0)">
+    <polygon id="tail" points="350,75 650,75 600,200" fill="#8B4513"/>
+  </g>
+  <line id="leg1" x1="150" y1="350" x2="100" y2="450" stroke="#8B4513"/>
+  <line id="leg2" x1="250" y1="350" x2="200" y2="450" stroke="#8B4513"/>
+  <line id="leg3" x1="350" y1="350" x2="300" y2="450" stroke="#8B4513"/>
+</svg>

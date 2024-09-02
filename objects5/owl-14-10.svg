@@ -1,0 +1,28 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="175" cy="200" rx="150" ry="80"
+           fill="brown"/>
+  <!-- Head -->
+  <ellipse cx="160" cy="140" rx="70" ry="40"
+           fill="grey"/>
+  <!-- Left Eye -->
+  <circle cx="130" cy="125" r="15"
+          fill="white">
+    <circle cx="130" cy="125" r="5"
+            fill="black"/>
+  </circle>
+  <!-- Right Eye -->
+  <circle cx="195" cy="125" r="15"
+          fill="white">
+    <circle cx="195" cy="125" r="5"
+            fill="black"/>
+  </circle>
+  <!-- Left Wing -->
+  <path d="M70,130 Q100,80 140,130 Q160,200 200,130 Z"
+        fill="grey"/>
+  <!-- Right Wing -->
+  <path d="M250,130 Q290,80 330,130 Q370,200 410,130 Z"
+        fill="grey"/>
+
+</svg>

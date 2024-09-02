@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Sky -->
+  <rect width="100%" height="40%" fill="#87CEEB" />
+
+  <!-- Ground -->
+  <rect y="60%" width="100%" height="40%" fill="#9ACD32" />
+
+  <!-- Sun -->
+  <circle cx="50" cy="-20" r="20" fill="#FFFF00" />
+  <circle cx="50" cy="-20" r="8" fill="#F7DC6F" />
+
+  <!-- Shark fin (for the garden's namesake) -->
+  <path d="M-10, -30 Q0,-40 20,-30 L-10,-20 Z" fill="#D9D9D9" stroke-width="2" stroke="#696969" />
+
+  <!-- Roses (circles) -->
+  <circle cx="-25" cy="5" r="8" fill="#FF69B4" />
+  <circle cx="10" cy="10" r="7" fill="#FF69B4" />
+  <circle cx="30" cy="5" r="6" fill="#FF69B4" />
+
+  <!-- Daisies (ellipses) -->
+  <ellipse cx="-20" cy="20" rx="10" ry="8" fill="#FFFACD" />
+  <ellipse cx="15" cy="15" rx="12" ry="9" fill="#FFFACD" />
+
+  <!-- Tulips (paths) -->
+  <path d="M-30,10 Q-20,20 -30,30 L-40,20 Z" fill="#FFD700" stroke-width="2" stroke="#FFC300" />
+  <path d="M0,25 Q10,35 0,45 L-10,35 Z" fill="#FFD700" stroke-width="2" stroke="#FFC300" />
+
+  <!-- Depth layering: darker ground -->
+  <rect y="65%" width="100%" height="5%" fill="#8B894E" />
+</svg>

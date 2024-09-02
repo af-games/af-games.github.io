@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f5e6cc"/>
+
+  <!-- Owl's Realm Boundary -->
+  <path d="M10 10 Q190 10, 380 40 Q670 10, 800 100 Q670 200, 380 250 Q190 200, 10 100" stroke="#8b4513" fill="transparent" stroke-width="3"/>
+
+  <!-- Major Landmarks -->
+  <circle cx="200" cy="150" r="40" fill="#ffa500"/>
+  <circle cx="600" cy="150" r="35" fill="#ffd700"/>
+  <polygon points="350,50 450,50 400,120" stroke="#cd7f32" fill="#fffacd" stroke-width="2"/>
+
+  <!-- Rivers -->
+  <path d="M20 300 Q100 350, 200 320 Q350 400, 500 380 Q650 450, 800 420" stroke="#007bff" fill="transparent" stroke-width="3"/>
+  <path d="M10 500 Q90 550, 200 520 Q400 600, 600 580 Q800 550, 790 500" stroke="#007bff" fill="transparent" stroke-width="3"/>
+
+  <!-- Roads -->
+  <path d="M100 200 L400 250 L600 200 Z" stroke="#3d9970" fill="transparent" stroke-width="2"/>
+  <path d="M200 300 L400 350 L600 300 Z" stroke="#3d9970" fill="transparent" stroke-width="2"/>
+
+  <!-- Points of Interest -->
+  <circle cx="150" cy="100" r="15" fill="#ff6347"/>
+  <circle cx="450" cy="180" r="12" fill="#ff6347"/>
+  <circle cx="650" cy="250" r="10" fill="#ff6347"/>
+
+</svg>

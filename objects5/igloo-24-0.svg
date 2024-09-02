@@ -1,0 +1,28 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="300" height="300" fill="#F0F8FF"/>
+
+  <!-- Igloo Base -->
+  <path d="M150,275 A100,100 0 0 1 250,275" stroke="#FFFFFF" fill="#98FB98"/>
+  <path d="M150,275 A100,100 0 0 1 50,275" stroke="#FFFFFF" fill="#98FB98"/>
+
+  <!-- Igloo Dome -->
+  <ellipse cx="150" cy="137.5" rx="100" ry="162.5" stroke="#FFFFFF" fill="#FFDEAD"/>
+  <path d="M150,0 A100,162.5 0 0 1 150,275" stroke="#FFFFFF"/>
+
+  <!-- Entry Hole -->
+  <rect x="90" y="240" width="120" height="35" fill="#FFDEAD"/>
+  <path d="M150,240 A62.5,62.5 0 0 1 150,305"/>
+
+  <!-- Windows -->
+  <circle cx="80" cy="90" r="10" fill="#FFFFFF"/>
+  <circle cx="170" cy="90" r="10" fill="#FFFFFF"/>
+  <circle cx="260" cy="90" r="10" fill="#FFFFFF"/>
+
+  <!-- Snow Patches -->
+  <circle cx="150" cy="35" r="40" fill="#FFFFFF"/>
+  <circle cx="75" cy="80" r="15" fill="#FFFFFF"/>
+  <circle cx="225" cy="80" r="15" fill="#FFFFFF"/>
+
+</svg>

@@ -1,0 +1,26 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bell (body) -->
+  <circle cx="0" cy="0" r="100" fill="#98FB98" stroke="black" />
+
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <?php for ($i = 0; $i < 8; $i++): ?>
+      <?php
+        // Calculate the angle for each tentacle (360 degrees / 8 = 45 degrees)
+        $angle = 45 * $i;
+        $radAngle = deg2rad($angle);
+
+        // Calculate the end coordinates of each tentacle
+        $xEnd = cos($radAngle) * 150;
+        $yEnd = sin($radAngle) * 150;
+
+        // Set the rectangle's width and height based on its position
+        $width = ($xEnd < 0) ? abs($xEnd) : 20;
+        $height = ($yEnd < 0) ? abs($yEnd) : 80;
+      ?>
+      <rect x="<?php echo $xEnd - $width / 2 ?>" y="<?php echo $yEnd - $height / 2 ?>" width="<?php echo $width ?>" height="<?php echo $height ?>" fill="#98FB98" stroke="black"/>
+    <?php endfor; ?>
+  </g>
+
+</svg>

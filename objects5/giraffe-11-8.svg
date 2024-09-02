@@ -1,0 +1,29 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe -->
+  <g id="giraffe">
+    <path d="M150,20 Q250,70 350,20 A100,100 0 0 1 150,280 Q250,230 350,280 A100,100 0 0 1 150,40 L150,380 H300 Z" fill="#f0b67c"/>
+    <path d="M190,330 Q220,350 250,330 A30,30 0 0 1 190,350" fill="#fff"/>
+    <circle cx="220" cy="280" r="30" fill="#fff"/>
+    <path d="M220,260 Q240,270 260,260" stroke="#000" fill="transparent"/>
+    <circle cx="220" cy="190" r="20" fill="#000"/>
+  </g>
+
+  <!-- Plate -->
+  <ellipse cx="300" cy="350" rx="200" ry="140" fill="#fff"/>
+  <path d="M300,70 Q400,140 500,70 A80,80 0 0 1 300,0 Z" fill="#fdd9b5"/>
+
+  <!-- Vegetables -->
+  <circle cx="250" cy="150" r="30" fill="#8dc63c"/>
+  <polygon points="400,120 450,170 400,220" fill="#ffa502"/>
+
+  <!-- Fruits -->
+  <circle cx="150" cy="250" r="25" fill="#ff6f92"/>
+  <path d="M80,300 Q120,340 180,300 Q220,340 260,300 Z" fill="#ffe57e"/>
+
+  <!-- Utensils -->
+  <rect x="530" y="270" width="60" height="100" rx="10" fill="#fff"/>
+  <polygon points="540,370 580,370 600,350" fill="#ffc108"/>
+  <circle cx="570" cy="420" r="10" fill="#fff"/>
+
+</svg>

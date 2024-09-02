@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200" style="background-color: #000; padding: 10px;">
+  <!-- Mermaid's body -->
+  <path id="mermaid-body" d="M75,10 Q90,30 100,60 Q95,80 75,100 Q60,80 45,60 Q50,30 75,10 Z"
+        fill="url(#grad-scales)" stroke="#FDD83A" stroke-width="2"/>
+
+  <!-- Mermaid's hair -->
+  <path id="mermaid-hair" d="M60,20 Q40,40 60,60 Q80,40 75,20"
+        fill="none" stroke="#FDD83A" stroke-width="2"/>
+
+  <!-- Mermaid's face -->
+  <circle cx="75" cy="45" r="15" fill="#FFF4D1"/>
+  <circle cx="75" cy="45" r="5" fill="#000"/>
+
+  <!-- Mermaid's eyes -->
+  <circle cx="68" cy="42" r="2" fill="#000"/>
+  <circle cx="82" cy="42" r="2" fill="#000"/>
+
+  <!-- Mermaid's pearl -->
+  <circle cx="95" cy="70" r="10" fill="#FFFDD0" stroke="#FDD83A" stroke-width="2"/>
+
+  <!-- Iridescent gradient for scales -->
+  <defs>
+    <linearGradient id="grad-scales" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#7D3898; stop-opacity:1" />
+      <stop offset="50%"  style="stop-color:#356AAE; stop-opacity:1" />
+      <stop offset="75%"  style="stop-color:#37D8FF; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF7BC8; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Glowing highlights -->
+  <path id="glow" d="M60,20 Q40,40 60,60 Q90,40 75,20"
+        fill="url(#grad-glow)" stroke="#FDD83A" stroke-width="2"/>
+
+  <!-- Glowing gradient -->
+  <defs>
+    <linearGradient id="grad-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:#F0F0F0; stop-opacity:0.8" />
+      <stop offset="50%"  style="stop-color:#F0F0F0; stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#F0F0F0; stop-opacity:0" />
+    </linearGradient>
+  </defs>
+</svg>

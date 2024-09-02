@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 40 60">
+  <!-- Body Structure -->
+  <rect x="5" y="10" width="30" height="40" fill="#ffcccb" stroke="black" stroke-width="1"/>
+  <polygon points="5,5 35,5 25,10" fill="none" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="20" cy="5" r="8" fill="#ffcccb" stroke="black" stroke-width="1"/>
+
+  <!-- Legs -->
+  <rect x="5" y="40" width="5" height="20" fill="#ffcccb" stroke="black"/>
+  <rect x="30" y="40" width="5" height="20" fill="#ffcccb" stroke="black"/>
+
+  <!-- Tail -->
+  <path d="M30,15 Q35,25 40,30" fill="none" stroke="black"/>
+
+  <!-- Details -->
+  <!-- Face -->
+  <circle cx="20" cy="7" r="2" fill="black"/>
+  <path d="M18,6 Q22,6 20,4" stroke="black" fill="none"/>
+
+  <!-- Mane -->
+  <rect x="5" y="10" width="35" height="15" fill="none">
+    <animate attributeName="height" values="15;0;15" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Decorative Elements -->
+  <!-- Crown -->
+  <polygon points="22,3 28,3 25,10" fill="#ffcccb" stroke="black"/>
+
+</svg>

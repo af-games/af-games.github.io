@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f0f0ff"/>
+
+  <!-- Lion Silhouette -->
+  <g id="lion" transform="translate(200,300)">
+    <!-- Body -->
+    <rect x="-50" y="-100" width="100" height="200" fill="#000"/>
+    <!-- Head -->
+    <circle cx="0" cy="-150" r="75" fill="#000"/>
+    <!-- Eyes -->
+    <circle cx="-30" cy="-180" r="10"/>
+    <circle cx="30" cy="-180" r="10"/>
+  </g>
+
+  <!-- Lion Strings (Paths) -->
+  <path d="M200,300 Q400,450 600,300 t0,-600" stroke="#fff"/>
+
+  <!-- Tree Prop -->
+  <g id="tree" transform="translate(700,500)">
+    <rect width="10" height="200" fill="#8b4513"/>
+    <circle cx="5" cy="5" r="5" fill="#0d6a48"/>
+  </g>
+
+  <!-- Tree Strings (Paths) -->
+  <path d="M700,500 Q750,250 800,500 t0,-100" stroke="#fff"/>
+
+  <!-- SMIL Animations -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 400 300"
+    to="360 400 300"
+    dur="5s"
+    repeatCount="indefinite"
+    id="lionAnimation"/>
+
+  <set attributeName="display" values="none;block;" begin="lionAnimation.end"/>
+</svg>

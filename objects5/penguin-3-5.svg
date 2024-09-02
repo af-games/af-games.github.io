@@ -1,0 +1,31 @@
+<svg width="200" height="180" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Define colors -->
+<defs>
+  <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:black; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#696969; stop-opacity:1" />
+  </linearGradient>
+  <linearGradient id="headGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#4A4A4A; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#F8F8FF; stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+<!-- Body -->
+<rect width="20" height="20" x="5" y="5" fill="url(#bodyGradient)" />
+<rect width="20" height="20" x="35" y="5" fill="url(#bodyGradient)" />
+<rect width="20" height="20" x="65" y="5" fill="url(#bodyGradient)" />
+<rect width="20" height="20" x="95" y="5" fill="url(#bodyGradient)" />
+<rect width="20" height="40" x="125" y="5" fill="url(#bodyGradient)" />
+
+<!-- Head -->
+<rect width="10" height="10" x="70" y="20" fill="url(#headGradient)" />
+<rect width="10" height="10" x="85" y="20" fill="url(#headGradient)" />
+<rect width="10" height="10" x="100" y="20" fill="url(#headGradient)" />
+
+<!-- Feet -->
+<rect width="10" height="20" x="75" y="60" fill="#4A4A4A" />
+<rect width="10" height="20" x="95" y="60" fill="#4A4A4A" />
+
+</svg>

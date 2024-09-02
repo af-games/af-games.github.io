@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+
+  <!-- Tiered Cake -->
+  <path id="cake-tier1" d="M150,200 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0" fill="#FFF7D9"/>
+  <path id="cake-tier2" d="M150,280 a50,50 0 1,1 100,0 a50,50 0 1,1 -100,0" fill="#FFF7D9"/>
+  <path id="cake-top" d="M150,320 Q160,330 150,340 Q140,330 150,320" stroke="none" fill="#FFFFFF"/>
+
+  <!-- Icing Tributaries -->
+  <path id="icing1" d="M300,270 Q400,280 500,260 Q550,290 600,310" stroke="#CACFD2" fill="transparent"/>
+  <path id="icing2" d="M300,250 Q400,270 500,240 Q550,280 600,300" stroke="#CACFD2" fill="transparent"/>
+
+  <!-- Candles -->
+  <circle cx="170" cy="340" r="10" fill="#FFD700"/>
+  <circle cx="190" cy="340" r="8" fill="#FFD700"/>
+  <circle cx="210" cy="340" r="10" fill="#FFD700"/>
+
+</svg>

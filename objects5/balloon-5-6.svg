@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <!-- Dust particles layer -->
+  <g id="dust">
+    <!-- Dust particle circles here -->
+  </g>
+
+  <!-- Balloon outline -->
+  <path id="balloon-outline" d="M75,5 C75,65 25,95 75,105 C125,95 75,45 75,5" fill="transparent"/>
+
+  <!-- Balloon shape -->
+  <path id="balloon-body" d="M75,5 Q80,60 75,105 Q70,60 75,5" fill="#FF4500"/>
+
+  <!-- Ribbon -->
+  <path id="ribbon" d="M75,5 L90,20 L75,35 Z" fill="#DAA520"/>
+
+  <!-- Radial lines (aura) -->
+  <defs>
+    <pattern id="lines" patternUnits="userSpaceOnUse" width="10" height="10">
+      <line x1="0" y1="5" x2="10" y2="5" stroke="#FF4500"/>
+    </pattern>
+  </defs>
+  <rect x="30" y="30" width="80" height="80" fill="url(#lines)"/>
+
+  <!-- Final touches -->
+  <!-- Text or other elements here -->
+
+</svg>

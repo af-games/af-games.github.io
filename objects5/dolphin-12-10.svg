@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Landmarks -->
+  <circle id="island1" cx="50" cy="250" r="40"/>
+  <ellipse id="archipelago" cx="250" cy="300" rx="80" ry="40"/>
+  <polygon id="dolphin-ridge" points="400,100 600,100 500,200"/>
+
+  <!-- Filters -->
+  <defs>
+    <filter id="waterripple">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3"/>
+      <feDisplacementMap in2="SourceGraphic" scale="15"/>
+    </filter>
+
+    <filter id="dolphinskin">
+      <feComponentTransfer in="SourceGraphic">
+        <feFuncA type="table" tableValues="0 1 1"/>
+      </feComponentTransfer>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feColorMatrix type="matrix"
+                     values="0.33 0.33 0.33 0 0
+                            0.33 0.33 0.33 0 0
+                            0.33 0.33 0.33 0 0
+                            0    0    0   1 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+  </defs>
+
+  <!-- Route -->
+  <path d="M50,250 Q150,350 250,450 T600,500 Z"
+        stroke="#333" fill="transparent"
+        filter="url(#waterripple)"/>
+
+  <!-- Dolphins -->
+  <circle cx="70" cy="400" r="30" fill="#9AC0CD" filter="url(#dolphinskin)" />
+  <circle cx="120" cy="450" r="35" fill="#9AC0CD" filter="url(#dolphinskin)"/>
+
+</svg>

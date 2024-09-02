@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Body -->
+  <path id="body" d="M-40,-30 A40,40 0 0 0 40,-30 A40,20 0 0 1 40,10 Q-40,50 -40,10 z" fill="#008000"/>
+  <path id="body-accent" d="M-40,-30 A36,36 0 0 0 36,-30 A36,18 0 0 1 36,6 Q-36,42 -36,6 z" fill="#800080"/>
+
+  <!-- Wings -->
+  <path id="wing-1" d="M-50,-10 Q-30,-40 -10,-20 Q0,-10 10,-20 Q30,-40 50,-10 z" fill="#008000"/>
+  <path id="wing-accent-1" d="M-45,-7.5 Q-26.25,-35 -6.25,-17.5 Q0,-7.5 6.25,-17.5 Q26.25,-35 45,-7.5 z" fill="#800080"/>
+  <path id="wing-2" d="M50,-10 Q30,-40 -10,-20 Q0,-10 10,-20 Q30,-40 50,-10 z" fill="#008000"/>
+  <path id="wing-accent-2" d="M45,-7.5 Q26.25,-35 -6.25,-17.5 Q0,-7.5 6.25,-17.5 Q26.25,-35 45,-7.5 z" fill="#800080"/>
+
+  <!-- Hair -->
+  <path id="hair" d="M-40,20 Q0,40 40,20" stroke="#F39C12" stroke-width="5"/>
+  <path id="hair-accent" d="M-36,22.5 Q0,42.5 36,22.5" stroke="#C0C0C0" stroke-width="3"/>
+
+  <!-- Face -->
+  <circle cx="-10" cy="-10" r="8" fill="#FFFFFF"/>
+  <path id="eyes" d="M-14,-14 Q-12,-12 -10,-10 Q-12,-8 -14,-6 z" fill="#000000"/>
+  <path id="mouth" d="M-12,-4 Q-10,-8 -8,-4 Q-10,-2 -12,0" stroke="#000000" stroke-width="2"/>
+
+</svg>

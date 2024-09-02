@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+
+  <!-- Cake Base -->
+  <rect x="20" y="80" width="360" height="80" rx="40" fill="#FDD79A"/>
+
+  <!-- Cake Body -->
+  <ellipse cx="200" cy="250" rx="170" ry="130" fill="#FDD79A"/>
+  <rect x="60" y="210" width="280" height="40" fill="#FFFFFF"/>
+
+  <!-- Cake Top -->
+  <ellipse cx="200" cy="200" rx="150" ry="100" fill="#FDD79A"/>
+  <rect x="60" y="190" width="280" height="20" fill="#FFFFFF"/>
+
+  <!-- Frosting -->
+  <rect x="60" y="230" width="40" height="50" fill="#FFFFFF"/>
+  <rect x="300" y="230" width="40" height="50" fill="#FFFFFF"/>
+  <rect x="60" y="180" width="40" height="50" fill="#FFFFFF"/>
+  <rect x="300" y="180" width="40" height="50" fill="#FFFFFF"/>
+
+  <!-- Candles -->
+  <circle cx="90" cy="170" r="8" fill="#F39C12"/>
+  <circle cx="160" cy="170" r="8" fill="#F39C12"/>
+  <circle cx="230" cy="170" r="8" fill="#F39C12"/>
+  <circle cx="300" cy="170" r="8" fill="#F39C12"/>
+
+</svg>

@@ -1,0 +1,18 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define the coordinate system and background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E8F5E9"/>
+
+  <!-- Roses of circles (Nurse Shark's spots) -->
+  <circle cx="250" cy="150" r="30" fill="#007BFF"/>
+  <circle cx="220" cy="160" r="20" fill="#007BFF"/>
+  <circle cx="280" cy="140" r="20" fill="#007BFF"/>
+
+  <!-- Daisies of ellipses (for simplicity, let's consider shark fins) -->
+  <ellipse cx="350" cy="200" rx="50" ry="30" fill="#FFC107"/>
+  <ellipse cx="400" cy="180" rx="40" ry="25" fill="#FFC107"/>
+
+  <!-- Tulips of paths (shark's tail) -->
+  <path d="M 430,200 Q 460,250 490,200 Q 460,150 430,200" stroke="#FF5733" fill="transparent"/>
+
+</svg>

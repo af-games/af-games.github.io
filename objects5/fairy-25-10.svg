@@ -1,0 +1,29 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy's body -->
+  <polygon id="fairy-body" points="150,30 280,160 20,160"
+           fill="#FF69B4" stroke="#FF00FF" stroke-width="5"/>
+
+  <!-- Fairy's wings (left) -->
+  <polygon id="wing-left" points="70,120 30,80 10,120"
+           fill="#32CD32" stroke="#696969" stroke-width="5"/>
+  <line x1="70" y1="120" x2="70" y2="160" style="stroke:#696969; stroke-width:5"/>
+
+  <!-- Fairy's wings (right) -->
+  <polygon id="wing-right" points="230,120 250,80 290,120"
+           fill="#FF7F50" stroke="#9C27B0" stroke-width="5"/>
+  <line x1="230" y1="120" x2="230" y2="160" style="stroke:#9C27B0; stroke-width:5"/>
+
+  <!-- Fairy's head -->
+  <circle id="fairy-head" cx="150" cy="80" r="40"
+          fill="#FFD700" stroke="#FFA500" stroke-width="5"/>
+
+  <!-- Fairy's hair (left) -->
+  <polygon id="hair-left" points="90,70 60,30 120,30"
+           fill="#DAA520" stroke="#FF8C00" stroke-width="5"/>
+
+  <!-- Fairy's hair (right) -->
+  <polygon id="hair-right" points="210,70 240,30 180,30"
+           fill="#DAA520" stroke="#FF8C00" stroke-width="5"/>
+
+</svg>

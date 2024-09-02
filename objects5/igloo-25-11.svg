@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Exterior wall -->
+  <polygon fill="white" stroke="black" points="10,10 20,180 90,100 70,30"/>
+
+  <!-- Interior wall -->
+  <path d="M60,150 A40,40 0 0 1 260,150 A40,40 0 0 1 300,90 A40,40 0 0 1 260,50 A40,40 0 0 1 140,50 Z" fill="lightblue"/>
+
+  <!-- Entrance tunnel -->
+  <polygon fill="white" stroke="black" points="370,10 490,80 490,20 370,40"/>
+
+  <!-- Annotation: Original purpose of the igloo -->
+  <text x="50%" y="95%" text-anchor="middle" dominant-baseline="middle" font-family="Verdana" font-size="16">
+    This ancient igloo artifact was used as a shelter by Inuit people living in Arctic regions.
+  </text>
+</svg>

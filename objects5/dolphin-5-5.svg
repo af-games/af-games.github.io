@@ -1,0 +1,20 @@
+<svg width="500" height="300" viewBox="0 0 250 150" xmlns="http://www.w3.org/2000/svg">
+```
+
+Now, let's create the landmarks (major shapes) and paths that connect them:
+
+```xml
+<path d="M75 40 Q90 60 120 40 Q140 60 180 40 Q200 60 230 40" stroke="#000" fill="none"/>
+<!-- Body and major fins -->
+<path d="M75 40 Q90 60 120 40 Q140 60 180 40 Q200 60 230 40 Q230 20 250 40 L230 60 Z" fill="#4A4A4A"/>
+<!-- Internal organs -->
+<path d="M90 60 Q100 70 110 60" fill="#CACACA"/>
+<path d="M180 60 Q190 70 200 60" fill="#FFF"/>
+<!-- Water line -->
+<path d="M75 40 Q90 30 120 40 Q140 30 180 40 Q200 30 230 40" stroke="#007BFF" fill="none"/>
+```
+
+Finally, close the SVG tag to complete our map:
+
+```xml
+</svg>

@@ -1,0 +1,11 @@
+<svg width="100" height="80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M40,10 Q50,10 60,20 Q70,10 80,20 Q70,30 60,40 Q50,30 40,40" fill="none" stroke="black"/>
+
+  <!-- Wings -->
+  <path d="M20,5 Q40,30 60,5 Q40,70 20,50" fill="yellow" stroke="black"/>
+  <path d="M80,5 Q100,30 80,50 Q100,70 80,5" fill="yellow" stroke="black"/>
+
+  <!-- Antennae -->
+  <path d="M40,15 L20,5 L60,5 Z" stroke="brown"/>
+</svg>

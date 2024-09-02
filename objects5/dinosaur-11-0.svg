@@ -1,0 +1,23 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="10" y="60" width="200" height="250"
+        fill="#8B7D6B" stroke="#333"/>
+
+  <!-- Head -->
+  <ellipse cx="140" cy="100" rx="80" ry="90"
+           fill="#A9997E" stroke="#333"/>
+  <polygon points="120,60 150,70 180,60" fill="#A9997E"/>
+  <polygon points="140,150 120,170 160,170" fill="#A9997E"/>
+
+  <!-- Neck -->
+  <rect x="130" y="200" width="40" height="80"
+        fill="#8B7D6B"/>
+  <rect x="170" y="200" width="40" height="80"
+        fill="#8B7D6B"/>
+
+  <!-- Legs -->
+  <polygon points="30,350 80,350 130,400 80,450" fill="#8B7D6B"/>
+  <polygon points="290,350 220,350 170,400 220,450" fill="#8B7D6B"/>
+
+</svg>

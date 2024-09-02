@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Castle -->
+  <rect id="castle" x="-40" y="-40" width="80" height="80" fill="#8B7D6B"/>
+
+  <!-- Drawbridge (initial pose) -->
+  <path id="drawbridge" d="M-25,-30 h50 v10 Z" fill="#C89A6F">
+    <animateTransform attributeType="xml"
+                      attributeName="d"
+                      type="scale"
+                      from="1 1"
+                      to="1.5 1"
+                      begin="0s"
+                      dur="1s"
+                      repeatCount="indefinite"/>
+  </path>
+
+  <!-- Animate Drawbridge Opening -->
+  <animate id="openDrawbridge" attributeType="xml"
+           attributeName="d"
+           from="M-25,-30 h50 v10 Z"
+           to="M-25,-40 h50 v20 Z"
+           begin="drawbridge.end"
+           dur="2s"/>
+
+  <!-- Animate Drawbridge Closing -->
+  <animate id="closeDrawbridge" attributeType="xml"
+           attributeName="d"
+           from="M-25,-40 h50 v20 Z"
+           to="M-25,-30 h50 v10 Z"
+           begin="openDrawbridge.end"
+           dur="2s"/>
+</svg>

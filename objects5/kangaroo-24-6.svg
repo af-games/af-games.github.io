@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#008080;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CD7F32;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <ellipse cx="250" cy="200" rx="150" ry="120" fill="url(#grad1)" />
+
+  <!-- Head -->
+  <circle cx="250" cy="130" r="60" fill="#8B4513"/>
+
+  <!-- Limbs -->
+  <path d="M170,200 Q200,250 250,200 H290 Q320,250 350,200 L350,160 Z" fill="url(#grad1)" stroke="#CD7F32"/>
+
+</svg>

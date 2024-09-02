@@ -1,0 +1,30 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Face -->
+  <ellipse cx="250" cy="175" rx="150" ry="200"
+           fill="url(#skinGradient)" stroke="#000"/>
+
+  <!-- Hair -->
+  <path d="M150,100 Q300,50 450,100"
+        fill="url(#hairGradient)"/>
+  <!-- More paths for hair details -->
+
+  <!-- Tail -->
+  <polygon points="250,400 400,550 100,550"
+           fill="url(#tailGradient)" stroke="#000"/>
+
+  <!-- Waves -->
+  <rect x="0" y="300" width="500" height="200"
+        fill="url(#waveGradient)"/>
+  <!-- More rectangles or paths for wave details -->
+
+  <!-- Eyes, jewelry, etc. will follow similar structure -->
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#C7AB93; stop-opacity:1"/>
+    </linearGradient>
+    <!-- More gradients for hair, tail, waves -->
+  </defs>
+</svg>

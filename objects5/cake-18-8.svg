@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <defs>
+    <!-- Define some gradients for our cake and candles -->
+    <linearGradient id="cakeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#ffe59a"/>
+    </linearGradient>
+
+    <radialGradient id="candleGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#ffd700" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffd700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Our cake -->
+  <rect id="cake" x="50" y="320" width="400" height="80" fill="url(#cakeGradient)" stroke="#696969" stroke-width="1">
+    <animate attributeName="height" from="80" to="120" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Our candles -->
+  <circle cx="75" cy="320" r="30" fill="url(#candleGradient)" stroke="#696969" stroke-width="1">
+    <animate attributeName="cy" from="320" to="310" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="175" cy="320" r="30" fill="url(#candleGradient)" stroke="#696969" stroke-width="1">
+    <animate attributeName="cy" from="320" to="310" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="275" cy="320" r="30" fill="url(#candleGradient)" stroke="#696969" stroke-width="1">
+    <animate attributeName="cy" from="320" to="310" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>

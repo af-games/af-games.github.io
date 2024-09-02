@@ -1,0 +1,49 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <g transform="translate(50, 100)">
+    <!-- Rows -->
+    <g>
+      <!-- Columns -->
+      <rect x="0" y="0" width="10" height="10" fill="url(#bodyGradient)" />
+      <rect x="10" y="0" width="10" height="10" fill="url(#bodyGradient)" />
+      <rect x="20" y="0" width="10" height="10" fill="url(#bodyGradient)" />
+      <!-- ... repeat for the next 3 rows ... -->
+    </g>
+  </g>
+
+  <!-- Head -->
+  <g transform="translate(65, 40)">
+    <rect x="0" y="0" width="5" height="5" fill="url(#headGradient)" />
+    <rect x="5" y="0" width="5" height="5" fill="url(#headGradient)" />
+    <!-- ... repeat for the next 2 rows ... -->
+  </g>
+
+  <!-- Beak -->
+  <polygon points="85,40 95,60 75,60" fill="yellow" />
+
+  <!-- Eyes -->
+  <circle cx="75" cy="35" r="1.5" fill="black" />
+  <circle cx="90" cy="35" r="1.5" fill="black" />
+
+  <!-- Legs -->
+  <rect x="60" y="80" width="20" height="40" fill="url(#legGradient)" />
+  <rect x="75" y="80" width="20" height="40" fill="url(#legGradient)" />
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="30" y2="0">
+      <stop offset="0%" stop-color="#769abc"/>
+      <stop offset="50%" stop-color="#4c688a"/>
+      <stop offset="100%" stop-color="#3d5b75"/>
+    </linearGradient>
+    <linearGradient id="headGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="15" y2="0">
+      <stop offset="0%" stop-color="#4c688a"/>
+      <stop offset="100%" stop-color="#3d5b75"/>
+    </linearGradient>
+    <linearGradient id="legGradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="20" y2="40">
+      <stop offset="0%" stop-color="#a6addd"/>
+      <stop offset="50%" stop-color="#7b849f"/>
+      <stop offset="100%" stop-color="#626e83"/>
+    </linearGradient>
+  </defs>
+</svg>

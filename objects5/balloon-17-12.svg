@@ -1,0 +1,38 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **The Coastline (Path):** Our journey begins at the coast. Let's create a simple coastline using a path.
+
+```svg
+<path d="M 10 10 Q 450 10, 250 400" stroke="blue" fill="transparent"/>
+```
+
+3. **The Mountain (Polygon):** Next, we encounter a mountain. It's a polygon with four points.
+
+```svg
+<polygon points="350,50 400,150 450,50 350,20" fill="brown"/>
+```
+
+4. **The Valley (Path):** After the mountain, we descend into a valley.
+
+```svg
+<path d="M 350 20 Q 400 75, 375 150" stroke="green" fill="transparent"/>
+```
+
+5. **The Forest (Circles and Ellipses):** Deep within the valley, we find a forest filled with circles and ellipses.
+
+```svg
+<circle cx="250" cy="250" r="40" fill="green"/>
+<ellipse cx="300" cy="280" rx="30" ry="45" fill="green"/>
+```
+
+6. **The Balloon (Circle):** And finally, we discover a hot air balloon floating above the forest.
+
+```svg
+<circle cx="270" cy="180" r="30" stroke="red" stroke-width="4" fill="yellow"/>
+```
+
+Now let's close our SVG canvas.
+
+```svg
+</svg>

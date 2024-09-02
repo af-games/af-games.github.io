@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Golden lion head -->
+  <circle cx="100" cy="75" r="60" fill="#CD7F32" stroke="#D4A01B" stroke-width="5"/>
+
+  <!-- Lion's mane -->
+  <path d="M85,30 Q95,50 115,30 L125,50 L135,30 Z" fill="#FFCC57" stroke="#CD7F32" stroke-width="4"/>
+
+  <!-- Gemstone eyes -->
+  <circle cx="85" cy="65" r="10" fill="#007FFF"/>
+  <circle cx="115" cy="65" r="10" fill="#007FFF"/>
+
+  <!-- Ruby nose and mouth -->
+  <path d="M90,80 Q95,85 100,80 Q105,85 110,80 Z" fill="#E0263A"/>
+
+  <!-- Golden ring setting -->
+  <circle cx="100" cy="140" r="40" stroke="#CD7F32" stroke-width="5"/>
+  <path d="M90,130 L110,130 M100,120 L100,150" stroke="#CD7F32" stroke-width="5"/>
+
+</svg>

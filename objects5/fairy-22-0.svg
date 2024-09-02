@@ -1,0 +1,55 @@
+<svg width="120" height="240" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="120" height="240" fill="#ADD8E6"/>
+
+  <!-- Flower -->
+  <circle cx="60" cy="90" r="45" fill="#FDD835"/>
+  <circle cx="60" cy="90" r="30" stroke="orange" stroke-width="10"/>
+
+  <!-- Fairy Body -->
+  <ellipse cx="60" cy="120" rx="45" ry="60" fill="#32CD32"/>
+  <ellipse cx="60" cy="75" rx="30" ry="30" fill="#ADD8E6"/>
+
+  <!-- Fairy Hair -->
+  <ellipse cx="90" cy="105" rx="15" ry="20" fill="#FFC0CB"/>
+  <ellipse cx="30" cy="105" rx="15" ry="20" fill="#FFC0CB"/>
+
+  <!-- Fairy Hat -->
+  <polygon points="60,75 90,45 30,45" fill="#00008B"/>
+
+  <!-- Fairy Wings -->
+  <circle cx="90" cy="145" r="45" fill="#80FF80" opacity="0.2"/>
+  <circle cx="30" cy="145" r="45" fill="#80FF80" opacity="0.2"/>
+
+  <!-- Fairy Legs -->
+  <rect x="55" y="165" width="10" height="30" fill="#8B4513"/>
+  <rect x="75" y="165" width="10" height="30" fill="#8B4513"/>
+
+  <!-- Fairy Arms -->
+  <ellipse cx="90" cy="90" rx="10" ry="15" fill="#FFC0CB"/>
+  <ellipse cx="30" cy="90" rx="10" ry="15" fill="#FFC0CB"/>
+
+  <!-- Fairy Wand -->
+  <rect x="80" y="97" width="20" height="4" fill="white"/>
+  <circle cx="86" cy="103" r="5" fill="#FFC0CB"/>
+
+  <!-- Crown -->
+  <g transform="translate(60, 60) rotate(-30)">
+    <circle r="5" fill="#FFFF00"/>
+    <circle r="5" fill="#FFFF00" transform="rotate(40, 0, 0)"/>
+    <circle r="5" fill="#FFFF00" transform="rotate(80, 0, 0)"/>
+    <circle r="5" fill="#FFFF00" transform="rotate(120, 0, 0)"/>
+    <circle r="5" fill="#FFFF00" transform="rotate(160, 0, 0)"/>
+    <circle r="5" fill="#FFFF00" transform="rotate(200, 0, 0)"/>
+    <circle r="5" fill="#FFFF00" transform="rotate(240, 0, 0)"/>
+    <circle r="5" fill="#FFFF00" transform="rotate(280, 0, 0)"/>
+  </g>
+
+  <!-- Magic Dust -->
+  <g>
+    <circle cx="75" cy="65" r="3" fill="#ADD8E6"/>
+    <!-- Add more circles with random coordinates here -->
+  </g>
+
+</svg>

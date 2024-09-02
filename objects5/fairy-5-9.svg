@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fairy Body -->
+  <path d="M256,79.8c-94.1,0-170.4,63.1-194.5,156.5C75.6,360,256,492,256,492s180.4-132,194.5-156.5C426.6,143,256,79.8,256,79.8z"
+        fill="#3d9970" stroke="#cd7f32" stroke-width="4"/>
+
+  <!-- Fairy Hair -->
+  <polygon points="245.8,55.1 245.8,10 256,35 266.2,10 266.2,55.1"
+           fill="#fff" stroke="#cd7f32" stroke-width="2"/>
+
+  <!-- Fairy Wings -->
+  <path d="M341.9,308c-28.7-32.8-82-56.5-142.5-56.5S58.1,275.2,341.9,308Z"
+        fill="#212f3c" stroke="#cd7f32" stroke-width="2"/>
+
+  <!-- Fairy Arms -->
+  <circle cx="256" cy="220" r="18" fill="#fff"/>
+  <path d="M248,202 256,192 264,202"
+        stroke="#cd7f32" stroke-width="4"/>
+
+  <!-- Fairy Legs -->
+  <path d="M256,320V356a32,32 0 0,0 32-32h-64a32,32 0 0,0 32,32z"
+        fill="#fff"/>
+  <path d="M192,356v16H288v-16z"
+        stroke="#cd7f32" stroke-width="4"/>
+
+  <!-- Fairy Face -->
+  <circle cx="256" cy="180" r="75" fill="#fff"/>
+  <path d="M256,94a62,62 0 1,0-62,62A62.1,62.1 0 0,0 256,94Z"
+        stroke="#cd7f32" stroke-width="2"/>
+  <circle cx="288" cy="144" r="6" fill="#8b000a"/>
+  <circle cx="216" cy="144" r="6" fill="#8b000a"/>
+
+  <!-- Fairy Eyes -->
+  <circle cx="232" cy="120" r="5" fill="#000"/>
+  <circle cx="272" cy="120" r="5" fill="#000"/>
+
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Owl -->
+  <image href="owl.svg" width="30%" height="auto" x="25%" y="10%" />
+
+  <!-- Ancient Scrolls -->
+  <path d="M... Z" style="fill:gold; stroke:black;" />
+  ...
+
+  <!-- Moon Phases -->
+  <path d="M... A10 5 0 1,0 ... Z" style="fill:lightgrey; stroke:none;" />
+
+  <!-- Tree of Knowledge -->
+  <g transform="translate(..., ...) rotate(45)">
+    ...
+  </g>
+
+  <!-- Feathers & Line Work -->
+  <path d="M... Z" style="fill:black; stroke:none;" />
+</svg>

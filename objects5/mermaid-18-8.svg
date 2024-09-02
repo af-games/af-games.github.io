@@ -1,0 +1,16 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mermaid's face -->
+  <rect x="100" y="75" width="100" height="100" fill="#FFC300"/>
+  <rect x="130" y="90" width="40" height="60" fill="#F59D4E"/>
+
+  <!-- Mermaid's tail fin -->
+  <polygon points="250,75 300,125 200,125" fill="#ADD8E6"/>
+  <polygon points="260,80 290,110 210,110" fill="#C8FFFF"/>
+
+  <!-- Waves -->
+  <rect x="350" y="200" width="40" height="30" fill="#9ACD32"/>
+  <polygon points="400,230 450,260 350,260" fill="#1DC77A"/>
+  <rect x="370" y="240" width="30" height="20" fill="#6AB04C"/>
+
+</svg>

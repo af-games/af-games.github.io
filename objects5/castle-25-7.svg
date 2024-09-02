@@ -1,0 +1,44 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle background -->
+  <rect x="50%" y="-10%" width="100%" height="120%" fill="url(#castleGradient)"/>
+
+  <!-- Stage floor -->
+  <rect x="10%" y="40%" width="80%" height="30%" fill="#2D2D2D"/>
+
+  <!-- Throne -->
+  <g id="throne" transform="translate(50%,60%) scale(0.7)">
+    <path d="M-50,15 a30,30 0 1,1 100,0 a30,30 0 1,1 -100,0" fill="#C89D5D"/>
+    <polygon points="-50,-70 50,-70 50,20 -50,20" fill="#C89D5D"/>
+  </g>
+
+  <!-- Main action rectangle (largest shape) -->
+  <rect id="mainAction" x="15%" y="45%" width="70%" height="30%" fill-opacity="0"/>
+
+  <!-- Props: Columns -->
+  <g id="columns">
+    <use href="#column" xlink:href="#column"/>
+    <use href="#column" transform="translate(20%,10%) rotate(-45)" xlink:href="#column"/>
+    <use href="#column" transform="translate(35%,-5%) rotate(45)" xlink:href="#column"/>
+  </g>
+
+  <!-- Props: Torches -->
+  <g id="torches">
+    <use href="#torch" xlink:href="#torch"/>
+    <use href="#torch" transform="translate(60%,20%) scale(-1,1) rotate(45)" xlink:href="#torch"/>
+  </g>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="castleGradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" style="stop-color:#6E8B9C; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#3D4F5A; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#222; stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="throneGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#F4D03F; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#E2B84C; stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+
+</svg>

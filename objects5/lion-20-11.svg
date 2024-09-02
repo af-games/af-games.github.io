@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- The zoo -->
+<rect x="100" y="150" width="600" height="300" style="fill: #cce6ff;" />
+
+<!-- The lion's usual spot -->
+<circle cx="200" cy="250" r="70" stroke="#000" fill="none" />
+```
+
+Now, let's add clues with paths. Each clue will intersect or converge with others to reveal the true culprit.
+
+1. **Mysterious Figure in a Top Hat (MFT)**
+   - Clue: A trail of black feathers leading away from the lion's spot.
+   - Interaction: Diverges from the lion's spot, suggesting they took something and left.
+
+```svg
+<!-- MFT's feather trail -->
+<path d="M200 250 Q300 180, 400 250" stroke="#000" fill="transparent" />
+```
+
+2. **Agile the Acrobat**
+   - Clue: A series of small footprints leading to the lion's spot from outside the zoo.
+   - Interaction: Converges with the lion's spot, suggesting they might have entered the scene.
+
+```svg
+<!-- Agile's footprint trail -->
+<path d="M100 350 Q200 400, 200 250" stroke="#000" fill="transparent" />
+```
+
+3. **Zephyr the Zookeeper**
+   - Clue: A straight path leading from Zephyr's house to the lion's spot.
+   - Interaction: Intersects with other clues, suggesting they might have knowledge of what happened.
+
+```svg
+<!-- Zephyr's path -->
+<path d="M500 300 L200 250" stroke="#000" fill="transparent" />
+```
+
+Finally, let's add a few more details to make the scene more realistic:
+
+```svg
+<!-- MFT's top hat -->
+<ellipse cx="400" cy="190" rx="50" ry="70" style="fill: #000; opacity: 0.5;" />
+
+<!-- Agile's acrobatics tool (a trapeze) -->
+<line x1="120" y1="380" x2="160" y2="340" stroke="#000" />
+<circle cx="160" cy="370" r="10" style="fill: #000;" />
+
+<!-- Zephyr's house -->
+<rect x="500" y="250" width="100" height="150" style="fill: #cce6ff;" />
+```
+
+Putting it all together, we get:
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect x="100" y="150" width="600" height="300" style="fill: #cce6ff;" />
+  <circle cx="200" cy="250" r="70" stroke="#000" fill="none" />
+
+  <!-- MFT's feather trail -->
+  <path d="M200 250 Q300 180, 400 250" stroke="#000" fill="transparent" />
+  <!-- MFT's top hat -->
+  <ellipse cx="400" cy="190" rx="50" ry="70" style="fill: #000; opacity: 0.5;" />
+
+  <!-- Agile's footprint trail -->
+  <path d="M100 350 Q200 400, 200 250" stroke="#000" fill="transparent" />
+  <!-- Agile's acrobatics tool -->
+  <line x1="120" y1="380" x2="160" y2="340" stroke="#000" />
+  <circle cx="160" cy="370" r="10" style="fill: #000;" />
+
+  <!-- Zephyr's path -->
+  <path d="M500 300 L200 250" stroke="#000" fill="transparent" />
+  <!-- Zephyr's house -->
+  <rect x="500" y="250" width="100" height="150" style="fill: #cce6ff;" />
+
+</svg>

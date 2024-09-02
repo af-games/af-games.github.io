@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Body -->
+  <g transform="translate(0, 40)">
+    <rect x="-50" y="-20" width="100" height="40" fill="green" />
+    <circle cx="-30" cy="-10" r="10" fill="brown" /> <!-- Left hip -->
+    <circle cx="30" cy="-10" r="10" fill="brown" /> <!-- Right hip -->
+  </g>
+
+  <!-- Head -->
+  <g transform="translate(0, -25)">
+    <path d="M-40,-30 A20,20 0 0,0 40,-30 A20,20 0 0,1 -40,30" fill="green"/>
+    <circle cx="0" cy="-45" r="15" fill="brown" /> <!-- Nose -->
+    <path d="M-30,-10 Q-20,-30 0,-10 Q20,-30 30,-10" stroke="black" fill="transparent"/> <!-- Mouth -->
+    <circle cx="-15" cy="-40" r="5" fill="white"/> <!-- Left eye -->
+    <circle cx="15" cy="-40" r="5" fill="white"/> <!-- Right eye -->
+  </g>
+
+  <!-- Tail -->
+  <g transform="translate(0, 60)">
+    <polygon points="-30,-20 -50,-40 -30,-60 50,-40 30,-20" fill="green"/>
+  </g>
+</svg>

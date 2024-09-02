@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Boundary -->
+  <path d="M10,10 Q50,10 Q100,50 Q150,100 Q200,50 Q250,10 Q300,50 Q350,100 Q400,50 Q450,10 Q500,50 Q550,100 Q600,50 Q650,10 Q700,50 Q750,10 Z"
+        fill="none" stroke="black"/>
+
+  <!-- Major Landmarks -->
+  <circle cx="200" cy="200" r="40" fill="green" />
+  <circle cx="350" cy="150" r="40" fill="blue" />
+  <circle cx="600" cy="250" r="40" fill="red" />
+
+  <!-- Roads -->
+  <path d="M10,10 L500,10" stroke="grey"/>
+  <path d="M10,300 L700,300" stroke="grey"/>
+
+  <!-- Rivers -->
+  <path d="M10,400 Q200,250 Q400,400 Q600,300 Q700,400" stroke="blue" fill="transparent"/>
+
+  <!-- Points of Interest (smaller circles) -->
+  <circle cx="150" cy="150" r="15" fill="yellow"/>
+  <circle cx="450" cy="200" r="15" fill="purple"/>
+  <circle cx="650" cy="350" r="15" fill="orange"/>
+
+</svg>

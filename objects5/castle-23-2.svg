@@ -1,0 +1,22 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Walls -->
+  <rect x="100" y="150" width="300" height="150" fill="grey" stroke="black"/>
+
+  <!-- Towers -->
+  <polygon points="75,50 225,50 225,150 75,150" fill="brown" stroke="black"/>
+  <polygon points="325,50 475,50 475,150 325,150" fill="brown" stroke="black"/>
+
+  <!-- Roofs -->
+  <polygon points="75,50 225,50 150,0" fill="red" stroke="black"/>
+  <polygon points="325,50 475,50 400,0" fill="red" stroke="black"/>
+
+  <!-- Gates -->
+  <rect x="175" y="250" width="150" height="75" fill="brown" stroke="black"/>
+  <polygon points="175,250 325,250 250,200" fill="tan"/>
+
+  <!-- Windows -->
+  <path d="M250,175 L280,145 L310,175 Z" fill="white"/>
+  <path d="M250,95 L280,65 L310,95 Z" fill="white"/>
+
+</svg>

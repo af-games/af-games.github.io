@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Balloon Envelope -->
+  <ellipse cx="200" cy="150" rx="200" ry="300" fill="#FFB6C1"/>
+
+  <!-- Basket -->
+  <rect x="170" y="350" width="260" height="80" rx="20" fill="#CD853F"/>
+
+  <!-- Burner -->
+  <path d="M190,340 h220 a20,20 0 0 1 -20,20 v-70 a20,20 0 0 1 20,-20z" fill="#A0522D"/>
+
+  <!-- Rope -->
+  <path d="M190,350 Q200,400 200,300 Q200,200 200,150" stroke="#696969" stroke-width="10"/>
+
+  <!-- Strings -->
+  <path d="M170,340 Q185,320 200,150" stroke="#696969" stroke-width="5"/>
+  <path d="M330,340 Q315,320 200,150" stroke="#696969" stroke-width="5"/>
+
+</svg>

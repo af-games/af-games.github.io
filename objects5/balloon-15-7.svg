@@ -1,0 +1,13 @@
+<svg width="200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,50 Q90,20 100,10 A80,80 0 0 0 120,160" fill="#FFC300" stroke="#000"/>
+
+  <!-- Ribbons -->
+  <path d="M70,140 Q90,100 100,140 H150 Q130,180 120,160" fill="#FFC300" stroke="#000"/>
+  <path d="M70,190 Q90,220 100,190 H150 Q130,240 120,210" fill="#FFC300" stroke="#000"/>
+
+  <!-- Beads -->
+  <circle cx="80" cy="165" r="3" fill="#000"/>
+  <circle cx="95" cy="175" r="3" fill="#000"/>
+  <circle cx="110" cy="180" r="3" fill="#000"/>
+</svg>

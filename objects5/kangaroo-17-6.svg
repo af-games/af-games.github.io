@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Body -->
+  <path d="M150 250 Q200 150, 300 250 Q250 350, 300 400" fill="#D3B68C"/>
+
+  <!-- Head -->
+  <circle cx="250" cy="200" r="70" fill="#EFE9DB"/>
+
+  <!-- Face -->
+  <circle cx="250" cy="180" r="40" fill="#BEBABA"/>
+  <path d="M230 160 Q250 140, 270 160" stroke="#8C8A8E" fill="transparent"/>
+
+  <!-- Pouch -->
+  <path d="M200 270 Q230 300, 250 330" fill="#F9D69B"/>
+  <circle cx="250" cy="310" r="15" fill="#CAB48A"/>
+
+  <!-- Arms -->
+  <path d="M170 220 Q200 250, 230 280" stroke="#8C8A8E" fill="transparent"/>
+  <path d="M330 220 Q300 250, 270 280" stroke="#8C8A8E" fill="transparent"/>
+
+  <!-- Legs -->
+  <path d="M160 300 Q200 350, 240 380" stroke="#8C8A8E" fill="transparent"/>
+  <path d="M340 300 Q300 350, 260 380" stroke="#8C8A8E" fill="transparent"/>
+
+  <!-- Ears -->
+  <polygon points="190,70 230,50 270,70" fill="#BEBABA"/>
+  <polygon points="270,70 310,50 350,70" fill="#BEBABA"/>
+
+  <!-- Tail -->
+  <rect x="220" y="380" width="60" height="90" rx="20" fill="#7F4D2C"/>
+</svg>

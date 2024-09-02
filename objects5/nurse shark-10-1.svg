@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+<style>
+    .shark { fill: #4CAF50; stroke: #2196f3; }
+</style>
+
+<path class="shark"
+      d="M250,50 Q170,100 100,100 L100,250 L250,350 L400,250 L400,100 Q330,100 250,50"/>
+
+<circle class="shark" cx="175" cy="90" r="15"/>
+<circle class="shark" cx="325" cy="90" r="15"/>
+
+<path class="shark"
+      d="M180,260 Q220,240 250,260 Q280,240 310,260"/>
+</svg>

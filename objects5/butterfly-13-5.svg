@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+
+  <!-- Body -->
+  <path d="M10,25 Q15,15 25,25 Q35,35 40,25"
+        fill="#FF69B4" stroke="#fff" stroke-width="2"/>
+
+  <!-- Left Wing -->
+  <path d="M15,15 Q20,5 25,15"
+        fill="#FF69B4" stroke="#fff" stroke-width="2"/>
+
+  <!-- Right Wing -->
+  <path d="M35,35 Q30,45 25,35"
+        fill="#FF69B4" stroke="#fff" stroke-width="2"/>
+
+  <!-- Head -->
+  <circle cx="10" cy="20" r="5" fill="#FF69B4"/>
+  <path d="M10,20 Q8,23 12,23"
+        fill="transparent" stroke="#fff" stroke-width="2"/>
+
+  <!-- Eyes -->
+  <circle cx="9" cy="20" r="1.5" fill="#000"/>
+  <circle cx="11" cy="20" r="1.5" fill="#000"/>
+
+</svg>

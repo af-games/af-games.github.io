@@ -1,0 +1,20 @@
+<svg width="300" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dolphin mask -->
+  <defs>
+    <mask id="dolphinMask" x="0" y="0" width="100%" height="100%">
+      <rect width="100%" height="100%" fill="white"/>
+      <path d="M20,60 Q45,80 70,60 Q95,40 120,60" fill="black"/>
+    </mask>
+  </defs>
+
+  <!-- Island -->
+  <path d="M150,30 H180 V100 H150 Z M160,70 m-5,-5 h10 v10 h-10 z M170,80 m-5,-5 h10 v10 h-10 z" fill="lightgreen"/>
+
+  <!-- Shadowy figure -->
+  <path d="M200,90 Q240,60 280,90" fill="darkblue"/>
+
+  <!-- Dolphin outline -->
+  <g mask="url(#dolphinMask)">
+    <path d="M20,60 Q45,80 70,60 Q95,40 120,60" fill="#ffcc00"/>
+  </g>
+</svg>

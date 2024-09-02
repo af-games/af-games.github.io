@@ -1,0 +1,42 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <g id="head" transform="translate(150, 150)">
+    <rect x="0" y="0" width="200" height="150" fill="#8B4513"/>
+    <circle cx="100" cy="75" r="50" fill="#FFF7D6"/>
+    <path d="M150 50 Q200 0, 250 50 Q200 100, 150 50 Z" fill="#8B4513"/>
+
+    <!-- Eyes -->
+    <circle cx="75" cy="50" r="10" fill="#FFFFFF"/>
+    <circle cx="175" cy="50" r="10" fill="#FFFFFF"/>
+
+    <!-- Nostrils -->
+    <circle cx="125" cy="80" r="5" fill="#8B4513"/>
+    <circle cx="125" cy="60" r="5" fill="#8B4513"/>
+  </g>
+
+  <!-- Body -->
+  <g id="body" transform="translate(100, 250)">
+    <rect x="0" y="0" width="300" height="200" fill="#8B4513"/>
+
+    <!-- Back spikes -->
+    <path d="M100 100 Q150 75, 200 100 Q150 125, 100 100 Z" fill="#8B4513"/>
+    <path d="M250 100 Q300 75, 350 100 Q300 125, 250 100 Z" fill="#8B4513"/>
+  </g>
+
+  <!-- Tail -->
+  <g id="tail" transform="translate(400, 300)">
+    <rect x="0" y="0" width="200" height="20" fill="#8B4513"/>
+
+    <!-- Spikes -->
+    <path d="M20 10 Q60 0, 120 10 Q60 20, 20 10 Z" fill="#8B4513"/>
+    <path d="M180 10 Q220 0, 260 10 Q220 20, 180 10 Z" fill="#8B4513"/>
+  </g>
+
+  <!-- Legs -->
+  <g id="legs">
+    <rect x="75" y="400" width="50" height="150" fill="#8B4513" transform="rotate(-20, 100, 450)"/>
+    <rect x="225" y="400" width="50" height="150" fill="#8B4513" transform="rotate(20, 250, 450)"/>
+  </g>
+
+</svg>

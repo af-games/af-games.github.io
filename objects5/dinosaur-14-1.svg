@@ -1,0 +1,14 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100 50 Q170 60, 200 90 Q130 140, 100 150 Q30 140, 60 90" fill=" grey" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="70" r="30" fill="grey"/>
+
+  <!-- Tail -->
+  <path d="M100 200 Q80 240, 50 260 Q20 290, 60 320 Q90 340, 120 330" fill="grey"/>
+
+  <!-- Legs -->
+  <rect x="70" y="180" width="20" height="80" fill="grey"/>
+  <rect x="130" y="190" width="20" height="70" fill="grey"/>
+</svg>

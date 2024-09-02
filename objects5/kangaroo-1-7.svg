@@ -1,0 +1,19 @@
+<svg>` canvas.
+
+**Discovered Resources:**
+
+- *Shapes*: I found two useful shapes - `circle` for the head and body, and `path` for the limbs, ears, and tail.
+- *Colors*: Collected some colors from nearby elements: `#382709` (brown) for the kangaroo's fur, `#FFFFFF` (white) for highlights, and `#006400` (dark green) for the background.
+
+**SVG Code:**
+
+```svg
+<svg viewBox="0 0 150 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#006400"/>
+  <!-- Body -->
+  <circle cx="75" cy="120" r="60" fill="#382709"/>
+  <!-- Head -->
+  <circle cx="65" cy="100" r="20" fill="#382709"/>
+  <!-- Tail -->
+  <path d="M90,140 Q110,130 110,120" stroke="black" fill="transparent"/>
+</svg>

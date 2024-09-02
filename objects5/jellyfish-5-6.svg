@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1600">
+
+  <!-- Strapless Bodice -->
+  <rect id="bodice" x="50%" y="0" width="400" height="800"
+    style="fill: linear-gradient(to bottom, #FFC300, #FFDB7D);"/>
+
+  <!-- Skirt with Tentacle-like Shapes -->
+  <defs>
+    <linearGradient id="tentacleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgba(89, 54, 236, 1); stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgba(89, 54, 236, 0.5); stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <circle cx="400" cy="750" r="350"
+    style="fill:url(#tentacleGradient); stroke-width:0"/>
+
+  <!-- Tentacles -->
+  <path d="M400,900 Q300,850 200,900 T600,900 Q500,850 400,900"
+    style="fill:url(#tentacleGradient); stroke-width:0"/>
+  <path d="M400,1000 Q300,950 200,1000 T600,1000 Q500,950 400,1000"
+    style="fill:url(#tentacleGradient); stroke-width:0"/>
+  <path d="M400,1100 Q300,1050 200,1100 T600,1100 Q500,1050 400,1100"
+    style="fill:url(#tentacleGradient); stroke-width:0"/>
+
+</svg>

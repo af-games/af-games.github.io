@@ -1,0 +1,13 @@
+<svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="60" cy="60" rx="50" ry="40" fill="#FFCC99"/>
+  <!-- Eyes -->
+  <circle cx="35" cy="35" r="15" fill="white"/>
+  <circle cx="85" cy="35" r="15" fill="white"/>
+  <circle cx="35" cy="40" r="5" fill="black"/>
+  <circle cx="85" cy="40" r="5" fill="black"/>
+  <!-- Beak -->
+  <path d="M70,60 Q75,55 80,60" stroke="orange" fill="transparent"/>
+  <!-- Wings -->
+  <polygon points="20,90 60,120 100,90" style="fill:brown;stroke:black;stroke-width:1" />
+</svg>

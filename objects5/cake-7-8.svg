@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <style>
+    @keyframes appear {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    .cake-layer {
+      animation: appear 2s ease-in-out;
+    }
+  </style>
+
+  <!-- Cake base -->
+  <circle cx="250" cy="400" r="80" fill="#F3A683" class="cake-layer" />
+
+  <!-- Cake top -->
+  <circle cx="250" cy="275" r="150" fill="#E9C49E" class="cake-layer"/>
+
+  <!-- Icing -->
+  <path d="M175,300 Q250,175 375,300" stroke="#FFF" stroke-width="30" fill="transparent" class="cake-layer"/>
+
+  <!-- Candles -->
+  <g transform="translate(225, 180)">
+    <rect width="15" height="60" rx="5" fill="#FBB040"/>
+    <circle cx="7.5" cy="30" r="5" fill="#FFF"/>
+  </g>
+  <use href="#candle" x="27" y="0"/>
+  <use href="#candle" x="213" y="0"/>
+
+</svg>

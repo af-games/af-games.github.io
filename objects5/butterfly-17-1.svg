@@ -1,0 +1,10 @@
+<svg width="100" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M50,10 A40,40 0 0 1 50,130 A40,40 0 0 1 50,90" stroke="black" fill="yellow" />
+
+  <!-- Wings (Left) -->
+  <path d="M20,80 Q30,60 50,80 Q70,100 50,120 Q30,140 20,120" stroke="black" fill="orange"/>
+
+  <!-- Wings (Right) -->
+  <path d="M80,80 Q90,60 100,80 Q130,100 100,120 Q130,140 80,120" stroke="black" fill="orange"/>
+</svg>

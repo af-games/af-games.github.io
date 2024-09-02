@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Outer Shell -->
+  <path d="M100 400 A300 300 0 0 1 400 400 L400 200 Q300 100 100 100 Z" fill="#B2EBF2" stroke="black"/>
+
+  <!-- Entrance Tunnel -->
+  <path d="M50 200 A80 80 0 0 1 450 200 L400 170 Q300 150 100 170 Z" fill="#6DC8EC"/>
+
+  <!-- Inner Arch -->
+  <path d="M250 150 Q350 50 250 0 Z" fill="#FFFFFF" stroke="black"/>
+
+  <!-- Annotations -->
+  <text x="40" y="450" font-family="Arial" font-size="16">Outer Shell: Light blue (#B2EBF2) - Main structure</text>
+  <text x="380" y="220" font-family="Arial" font-size="16">Entrance Tunnel: Darker blue (#6DC8EC) - Access point</text>
+  <text x="250" y="75" font-family="Arial" font-size="16">Inner Arch: White (#FFFFFF) - Interior support/design</text>
+
+  <!-- Purpose Annotation -->
+  <text x="150" y="50" font-family="Arial" font-size="20" font-weight="bold">Purpose: Temporary dwelling shelter for Inuit communities</text>
+</svg>

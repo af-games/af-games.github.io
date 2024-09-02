@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:blue;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:orange;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Bar 1 -->
+  <circle cx="-40" cy="0" r="8">
+    <animateMotion dur="2s" repeatCount="indefinite">
+      <mpath href="#path1"/>
+    </animateMotion>
+  </circle>
+  <path id="path1" d="M -40,0 C 0,-20 0,20 40,0"/>
+
+  <!-- Bar 2 -->
+  <circle cx="-20" cy="0" r="8">
+    <animateMotion dur="2s" begin="path1.end" repeatCount="indefinite">
+      <mpath href="#path2"/>
+    </animateMotion>
+  </circle>
+  <path id="path2" d="M -20,0 C 0,-40 80,0"/>
+
+  <!-- Bar 3 -->
+  <circle cx="0" cy="0" r="8">
+    <animateMotion dur="2s" begin="path2.end" repeatCount="indefinite">
+      <mpath href="#path3"/>
+    </animateMotion>
+  </circle>
+  <path id="path3" d="M 0,0 C -40,-20 -40,20 40,0"/>
+
+  <!-- Bar 4 -->
+  <circle cx="20" cy="0" r="8">
+    <animateMotion dur="2s" begin="path3.end" repeatCount="indefinite">
+      <mpath href="#path4"/>
+    </animateMotion>
+  </circle>
+  <path id="path4" d="M 20,0 C -20,-40 60,0"/>
+
+  <!-- Hot Air Balloon -->
+  <g id="balloon" transform="translate(80,0) rotate(-30)">
+    <ellipse cx="50" cy="50" rx="30" ry="70" fill="#ffcc00"/>
+    <polygon points="-25,-140 25,-140 0,-70" fill="purple"/>
+    <circle cx="0" cy="-180" r="30" fill="green"/>
+    <text x="0" y="-200" font-family="Verdana" font-size="20">Hot Air Balloon</text>
+  </g>
+
+  <!-- Animation for Balloon -->
+  <animateTransform xlink:href="#balloon" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+
+</svg>

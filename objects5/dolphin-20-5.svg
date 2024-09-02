@@ -1,0 +1,21 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="lightblue"/>
+
+  <!-- Body -->
+  <path d="M100,50 Q170,20 300,50 Q430,80 500,50" stroke="darkblue" fill="transparent" stroke-width="20"/>
+
+  <!-- Head -->
+  <polygon points="100,50 170,20 100,80" stroke="darkblue" fill="darkblue" stroke-width="15"/>
+
+  <!-- Left Dorsal Fin -->
+  <ellipse cx="220" cy="30" rx="40" ry="60" stroke="lightgray" fill="transparent" stroke-width="10"/>
+
+  <!-- Right Dorsal Fin -->
+  <ellipse cx="380" cy="30" rx="40" ry="60" stroke="lightgray" fill="transparent" stroke-width="10"/>
+
+  <!-- Tail -->
+  <polygon points="500,50 570,20 500,80" stroke="darkblue" fill="darkblue" stroke-width="15"/>
+
+</svg>

@@ -1,0 +1,42 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle background -->
+  <rect x="50" y="0" width="700" height="600" fill="#441a0c" />
+
+  <!-- Stage floor -->
+  <rect x="50" y="400" width="700" height="200" fill="#331608" />
+
+  <!-- Castle walls -->
+  <polygon points="100,50 700,50 700,400 100,400" fill="#9d7d5c" stroke="#fff" stroke-width="2"/>
+
+  <!-- Stage curtain (before opening) -->
+  <rect x="150" y="300" width="500" height="100" fill="#3a2618" />
+
+  <!-- Main action area - Throne -->
+  <g id="throne">
+    <circle cx="400" cy="350" r="75" fill="url(#throneGradient)" />
+    <text x="390" y="360" font-family="Verdana" font-size="24px" fill="#fff">Throne</text>
+  </g>
+
+  <!-- Stage props -->
+  <circle cx="150" cy="450" r="30" fill="#fdd835" /> <!-- Chandelier -->
+  <rect x="600" y="420" width="50" height="80" fill="#fff" stroke="#000" stroke-width="2"/> <!-- Torch -->
+
+  <!-- Audience area lighting effect -->
+  <defs>
+    <linearGradient id="audienceGradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f4f4f4"/>
+      <stop offset="100%" stop-color="#6d6d6d"/>
+    </linearGradient>
+  </defs>
+  <rect x="50" y="200" width="700" height="200" fill="url(#audienceGradient)" />
+
+  <!-- Throne lighting effect -->
+  <defs>
+    <radialGradient id="throneGradient" cx="400" cy="350" r="100">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#8b6a52"/>
+    </radialGradient>
+  </defs>
+
+</svg>

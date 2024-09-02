@@ -1,0 +1,28 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FDD9B5"/>
+
+  <!-- Giraffe Body -->
+  <ellipse id="head" cx="70" cy="70" rx="60" ry="80" fill="#A52A2A"/>
+  <polyline id="neck" points="70,140 90,180 130,220 150,260" stroke="#A52A2A" fill="transparent"/>
+
+  <!-- Body -->
+  <rect id="body" x="120" y="160" width="200" height="120" rx="30" ry="30" fill="#C78E6D"/>
+
+  <!-- Legs -->
+  <rect id="leg1" x="150" y="340" width="30" height="80" fill="#A52A2A"/>
+  <rect id="leg2" x="220" y="340" width="30" height="80" fill="#A52A2A"/>
+  <rect id="leg3" x="150" y="420" width="30" height="80" fill="#A52A2A"/>
+  <rect id="leg4" x="220" y="420" width="30" height="80" fill="#A52A2A"/>
+
+  <!-- Tail -->
+  <rect id="tail" x="360" y="280" width="20" height="70" fill="#A52A2A"/>
+
+  <!-- Horns Base -->
+  <circle id="horn1-base" cx="90" cy="60" r="10" fill="#A52A2A"/>
+  <circle id="horn2-base" cx="340" cy="60" r="10" fill="#A52A2A"/>
+
+  <!-- Horns Tip -->
+  <polygon id="horn1-tip" points="80,50 90,40 100,50" fill="#A52A2A"/>
+  <polygon id="horn2-tip" points="350,50 360,40 370,50" fill="#A52A2A"/>
+</svg>

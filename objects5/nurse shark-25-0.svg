@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Shark Body -->
+  <ellipse cx="250" cy="200" rx="180" ry="90"
+           style="fill:#8B8970; stroke-width:2; stroke:black;" />
+  <path d="M246,138 Q275,100 275,150 T250,180 T225,150 Q255,100 246,138"
+        style="fill:#52534F; stroke-width:0;" />
+
+  <!-- Fin -->
+  <polygon points="470,290 500,320 430,320" style="fill:#8B8970; stroke-width:1; stroke:black;" />
+  <path d="M460,310 Q470,325 475,315"
+        style="fill:#B98C6D; stroke-width:0;" />
+
+  <!-- Head -->
+  <ellipse cx="150" cy="200" rx="70" ry="90"
+           style="fill:#A4A29F; stroke-width:2; stroke:black;" />
+  <path d="M135,180 Q150,150 165,180"
+        style="fill:#8B8970; stroke-width:0;" />
+
+  <!-- Eyes -->
+  <circle cx="120" cy="170" r="10" fill="#000000"/>
+  <circle cx="180" cy="170" r="10" fill="#000000"/>
+  <circle cx="120" cy="165" r="3" fill="#FFFFFF"/>
+  <circle cx="180" cy="165" r="3" fill="#FFFFFF"/>
+
+  <!-- Gills -->
+  <polygon points="90,140 75,150 90,160"
+           style="fill:#8B8970; stroke-width:0;" />
+  <polygon points="120,140 135,150 120,160"
+           style="fill:#8B8970; stroke-width:0;" />
+  <polygon points="150,140 165,150 150,160"
+           style="fill:#8B8970; stroke-width:0;" />
+  <polygon points="240,140 225,150 240,160"
+           style="fill:#8B8970; stroke-width:0;" />
+  <polygon points="270,140 285,150 270,160"
+           style="fill:#8B8970; stroke-width:0;" />
+
+</svg>

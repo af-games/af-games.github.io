@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 180">
+  <!-- Define gradients -->
+  <defs>
+    <linearGradient id="penguin-body-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#79B4DZ"/>
+      <stop offset="100%" stop-color="#3F586C"/>
+    </linearGradient>
+    <linearGradient id="penguin-feet-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9D4F4A"/>
+      <stop offset="100%" stop-color="#572826"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <g id="penguin-body">
+    <rect x="30" y="30" width="90" height="120" fill="url(#penguin-body-gradient)"/>
+
+    <!-- Head -->
+    <circle cx="75" cy="60" r="40" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Beak -->
+  <path d="M70,30 Q80,20 90,30 Q80,40 70,30" stroke="#FFD65B" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="65" cy="50" r="5" fill="#000"/>
+  <circle cx="85" cy="50" r="5" fill="#000"/>
+
+  <!-- Wings -->
+  <path d="M30,40 Q20,70 10,90 Q20,110 30,120 Q40,110 50,90 Q60,110 70,90" stroke="#3F586C" fill="transparent"/>
+
+  <!-- Feet -->
+  <g id="penguin-feet">
+    <rect x="45" y="140" width="60" height="20" fill="url(#penguin-feet-gradient)"/>
+    <polygon points="45,160 75,160 60,180" fill="#9D4F4A"/>
+    <circle cx="60" cy="170" r="5" fill="#FFFFFF"/>
+  </g>
+
+</svg>

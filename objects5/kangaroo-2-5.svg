@@ -1,0 +1,15 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Kangaroo silhouettes -->
+  <path d="M100,50 Q150,100 200,50 T250,150" fill="#8DC63C"/>
+  <path d="M300,70 Q350,120 400,70 T450,130" fill="#5D9D4F"/>
+
+  <!-- Leaf-like shapes -->
+  <polygon points="500,80 550,60 600,80" fill="#3A7E21"/>
+  <path d="M650,100 Q700,80 750,100 T700,140" fill="#3A7E21"/>
+
+  <!-- Flower-like shapes -->
+  <circle cx="150" cy="200" r="50" fill="#FF7F50"/>
+  <polygon points="100,250 150,280 200,250" fill="#FF6347"/>
+
+</svg>

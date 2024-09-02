@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 0 900 600">
+
+<!-- Jurassic Park -->
+<rect id="jungle" width="900" height="600" fill="#8B7D6B"/>
+
+<!-- T-Rex -->
+<polygon id="t-rex-body" points="400,150 350,200 450,200"/>
+<circle cx="400" cy="150" r="25" fill="#FFFFFF"/>
+<circle cx="375" cy="180" r="10" fill="#FFFFFF"/>
+<path id="t-rex-arms" d="M350,200 Q300,225 300,200"/>
+<path id="t-rex-legs-tail-spikes" d="M400,200 Q450,175 450,200 Q500,250 550,200"/>
+
+<!-- Scientist -->
+<ellipse cx="600" cy="300" rx="30" ry="40" fill="#FFFFFF"/>
+<circle cx="600" cy="270" r="15" fill="#000"/>
+<circle cx="605" cy="285" r="5" fill="#000"/>
+<path id="scientist-arms" d="M600,340 Q575,325 575,340"/>
+
+<!-- Dinosaur Egg -->
+<oval cx="150" cy="400" rx="50" ry="75" fill="#E5D8B6"/>
+<text x="150" y="430">Hatching...</text>
+
+<!-- Baby Dinosaur -->
+<polygon id="baby-dino-body" points="250,350 200,400 300,400"/>
+<circle cx="250" cy="375" r="15" fill="#FFFFFF"/>
+<path id="baby-dino-arms-legs-tail-spikes" d="M250,400 Q200,375 200,400 Q300,450 350,400"/>
+
+<!-- Dialogue Bubbles -->
+<rect x="120" y="280" width="80" height="60" rx="10" fill="#FFFF99"/>
+<text x="135" y="310">I found an egg!</text>
+
+</svg>

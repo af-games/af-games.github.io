@@ -1,0 +1,33 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Envelope (main body of the balloon) -->
+  <polygon id="envelope" points="150,0 300,0 300,200 150,200"
+           fill="linear-gradient(#FFCC99, #FFFF66)" />
+  <!-- Basket -->
+  <rect id="basket" x="240" y="180" width="40" height="40"
+        fill="#996633" rx="5" />
+
+  <!-- Burning flame at the bottom of the basket -->
+  <path id="flame" d="M255,175 Q245,190 255,200 Q265,190 255,175"
+        fill="linear-gradient(#FF3300, #FF9900)" />
+
+  <!-- ropes connecting basket to envelope -->
+  <line id="rope1" x1="250" y1="180" x2="160" y2="40" stroke="#774422" />
+  <line id="rope2" x1="290" y1="180" x2="320" y2="40" stroke="#774422" />
+
+  <!-- Balloon string connecting envelope to the top of SVG -->
+  <path id="balloon-string" d="M150,0 Q200,50 300,0"
+        stroke="#774422" stroke-width="5" fill="transparent" />
+
+  <!-- Filter for lighting effect -->
+  <filter id="light">
+    <feGaussianBlur stdDeviation="2" />
+    <feMerge>
+      <feMergeNode in="SourceGraphic" />
+      <feMergeNode in="BackgroundImage" />
+    </feMerge>
+  </filter>
+
+  <!-- Apply filter to the envelope for lighting effect -->
+  <use xlink:href="#envelope" fill="url(#light)" />
+
+</svg>

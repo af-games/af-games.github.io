@@ -1,0 +1,24 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy's Body -->
+  <circle cx="70" cy="80" r="40" fill="#F2CACA" stroke="#000000"/>
+  <circle cx="65" cy="130" r="25" fill="#F2CACA" stroke="#000000"/>
+  <circle cx="75" cy="160" r="25" fill="#F2CACA" stroke="#000000"/>
+
+  <!-- Wings -->
+  <ellipse cx="80" cy="90" rx="40" ry="20" fill="#FFD700" stroke="#000000"/>
+  <ellipse cx="60" cy="90" rx="40" ry="20" fill="#FFD700" stroke="#000000"/>
+
+  <!-- Dress -->
+  <rect x="50" y="120" width="80" height="40" fill="#FFDAB9" stroke="#000000"/>
+  <polygon points="50,160 70,190 30,190" fill="#FFDAB9" stroke="#000000"/>
+  <polygon points="110,160 90,190 130,190" fill="#FFDAB9" stroke="#000000"/>
+
+  <!-- Wand -->
+  <rect x="85" y="200" width="10" height="50" fill="#FFD700" stroke="#000000"/>
+  <polygon points="85,250 75,260 95,260" fill="#FFD700" stroke="#000000"/>
+
+  <!-- Hair -->
+  <path d="M70,40 A40,40 0 1 1 70,80 A40,40 0 1 1 70,40 z" fill="#FFDAB9" stroke="#000000"/>
+
+</svg>

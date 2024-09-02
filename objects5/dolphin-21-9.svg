@@ -1,0 +1,36 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define repeating dolphin pattern -->
+  <defs>
+    <pattern id="dolphinPattern" patternUnits="objectBoundingBox" width="0.1" height="0.1">
+      <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Dolphin.svg/240px-Dolphin.svg" x="0" y="0" width="100%" height="100%"/>
+    </pattern>
+  </defs>
+
+  <!-- Background with dolphin pattern -->
+  <rect width="500" height="500" fill="url(#dolphinPattern)"/>
+
+  <!-- Circular garden path -->
+  <circle cx="250" cy="250" r="180" stroke="#333" stroke-width="4"/>
+
+  <!-- Dolphin shapes arranged in a circle -->
+  <g transform="translate(250, 250)">
+    <g transform="rotate(0)" style="fill: #fff;">
+      <path d="M-75,-180a90,90 0 1,0 180,0a90,90 0 1,0 -180,0z"/>
+    </g>
+    <g transform="rotate(45)" style="fill: #fff;">
+      <path d="M-75,-180a90,90 0 1,0 180,0a90,90 0 1,0 -180,0z"/>
+    </g>
+    <!-- Repeat this group every 45 degrees for a total of 8 dolphins -->
+    <g transform="rotate(90)" style="fill: #fff;">
+      <path d="M-75,-180a90,90 0 1,0 180,0a90,90 0 1,0 -180,0z"/>
+    </g>
+    <!-- ... Repeat for other angles -->
+  </g>
+
+  <!-- Connecting paths between dolphins -->
+  <g transform="translate(250, 250)">
+    <path d="M-75,-135 L 75,-135" stroke="#333"/>
+    <path d="M-75,-60 L -30,-60" stroke="#333"/>
+    <!-- Repeat this pattern to connect all dolphins -->
+  </g>
+</svg>

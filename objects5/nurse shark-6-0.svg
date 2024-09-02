@@ -1,0 +1,24 @@
+<svg width="400" height="650" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Shark Body -->
+<ellipse cx="200" cy="350" rx="200" ry="125" fill="#8B7D6B"/>
+
+<!-- Dorsal Fin -->
+<polygon points="170,150 240,190 100,190" fill="#8B7D6B"/>
+
+<!-- Pectoral Fins -->
+<ellipse cx="60" cy="450" rx="40" ry="50" fill="#8B7D6B"/>
+<ellipse cx="320" cy="450" rx="40" ry="50" fill="#8B7D6B"/>
+
+<!-- Caudal Fin -->
+<polygon points="270,600 310,510 230,510" fill="#8B7D6B"/>
+
+<!-- Eye -->
+<circle cx="220" cy="320" r="10" fill="Black"/>
+<circle cx="220" cy="320" r="5" fill="White"/>
+
+<!-- Nostrils -->
+<circle cx="180" cy="375" r="2.5" fill="Black"/>
+<circle cx="230" cy="375" r="2.5" fill="Black"/>
+
+</svg>

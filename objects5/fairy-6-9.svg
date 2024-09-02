@@ -1,0 +1,31 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy Body -->
+  <path d="M175,60 Q185,40 200,90 Q185,140 175,120 Q135,140 150,90 Q165,40 175,60"
+        fill="lightblue" stroke="gold" stroke-width="5"/>
+
+  <!-- Fairy Face -->
+  <circle cx="180" cy="85" r="25" fill="pink"/>
+  <circle cx="180" cy="80" r="10" fill="black"/>
+  <path d="M175,95 Q170,105 175,110 H185 Q180,105 185,95"
+        stroke="gold" stroke-width="3"/>
+
+  <!-- Fairy Hair -->
+  <polygon points="200,60 210,40 200,20 190,40"
+           fill="purple" stroke="gold" stroke-width="2"/>
+  <polygon points="150,60 140,40 150,20 160,40"
+           fill="purple" stroke="gold" stroke-width="2"/>
+
+  <!-- Fairy Wings -->
+  <path d="M175,150 Q185,130 200,150 Q185,170 175,190"
+        fill="lightblue" stroke="gold" stroke-width="3"/>
+  <path d="M165,140 Q175,120 185,140 Q175,160 165,180"
+        fill="lightblue" stroke="gold" stroke-width="3"/>
+
+  <!-- Fairy Dress -->
+  <polygon points="175,195 185,205 175,215 165,205"
+           fill="darkblue" stroke="gold" stroke-width="3"/>
+  <path d="M175,215 Q185,225 175,235 Q165,225 175,215"
+        fill="darkblue" stroke="gold" stroke-width="3"/>
+
+</svg>

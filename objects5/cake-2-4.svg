@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake base -->
+  <circle cx="100" cy="175" r="80" fill="#FDD9B5"/>
+
+  <!-- Cake layers -->
+  <circle cx="100" cy="145" r="60" fill="#F4D03F"/>
+  <circle cx="100" cy="105" r="50" fill="#F4D03F"/>
+  <circle cx="100" cy="65" r="40" fill="#F4D03F"/>
+
+  <!-- Frosting -->
+  <path d="M75,195 Q95,220 125,195 Q145,220 155,195 H185 Q165,220 135,195 Z" fill="#FFFFFF"/>
+
+  <!-- Top border -->
+  <rect x="75" y="170" width="50" height="25" rx="10" fill="#FDD9B5"/>
+
+  <!-- Flowers -->
+  <polygon points="80,60 100,40 120,60 100,80" fill="#FFC0CB"/>
+  <polygon points="130,60 150,40 170,60 150,80" fill="#FFC0CB"/>
+  <polygon points="90,90 110,70 130,90 110,110" fill="#FFC0CB"/>
+
+</svg>

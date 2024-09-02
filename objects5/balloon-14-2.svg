@@ -1,0 +1,22 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon body -->
+  <ellipse cx="150" cy="180" rx="120" ry="160"
+           fill="#ffd700" stroke="black" stroke-width="2"/>
+  <ellipse cx="150" cy="230" rx="90" ry="120"
+           fill="#ffa502" stroke="black" stroke-width="2"/>
+
+  <!-- Balloon string -->
+  <path d="M150,260 Q70,380 70,430" stroke="brown" stroke-width="6"
+        fill="transparent"/>
+  <circle cx="70" cy="430" r="20" stroke="brown" stroke-width="6"
+          fill="#f5deb3"/>
+
+  <!-- Balloon ties -->
+  <path d="M150,260 Q280,380 280,430" stroke="brown" stroke-width="6"
+        fill="transparent"/>
+  <circle cx="280" cy="430" r="20" stroke="brown" stroke-width="6"
+          fill="#f5deb3"/>
+
+  <!-- Balloon shadow -->
+  <rect x="110" y="370" width="130" height="30" fill="#8b4513"/>
+</svg>

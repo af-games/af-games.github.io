@@ -1,0 +1,29 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sunrise -->
+  <circle cx="50" cy="100" r="70" fill="#FFD700"/>
+
+  <!-- Terry the Triceratops -->
+  <polygon points="200,150 350,150 350,300 200,300" style="fill:green;stroke:black;stroke-width:2"/>
+
+  <!-- Terry's Friends -->
+  <circle cx="400" cy="200" r="30" fill="#FF6347"/>
+  <circle cx="500" cy="150" r="30" fill="#FFB973"/>
+  <circle cx="600" cy="220" r="30" fill="#8B4513"/>
+
+  <!-- Barrier/Rock Formation -->
+  <rect x="300" y="300" width="200" height="100" rx="20" style="fill:grey;stroke:black;stroke-width:2"/>
+
+  <!-- Watering Hole -->
+  <circle cx="700" cy="400" r="50" stroke="#0099FF" stroke-width="10"/>
+  <circle cx="700" cy="400" r="30" fill="#0099FF"/>
+
+  <!-- The Eclipse -->
+  <ellipse cx="650" cy="250" rx="100" ry="50" style="fill:rgba(0,0,0,0.5);stroke:none"/>
+
+  <!-- Dialogue Bubbles -->
+  <text x="450" y="180" font-family="Verdana" font-size="20">Pete: Hi Terry! We've been waiting for you.</text>
+  <text x="630" y="370" font-family="Verdana" font-size="20" text-anchor="end">Terry: Almost there, friends...</text>
+  <text x="580" y="420" font-family="Verdana" font-size="20">Shadow: ...Farewell, Terry...</text>
+
+</svg>

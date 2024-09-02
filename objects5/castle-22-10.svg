@@ -1,0 +1,43 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define reusable gradients -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Starting point -->
+  <circle cx="50" cy="50" r="40" fill="url(#grad1)" filter="url(#outerGlow)"/>
+  <text x="57" y="63" font-family="Verdana" font-size="12">Starting Point</text>
+
+  <!-- Route -->
+  <line x1="90" y1="50" x2="250" y2="50" stroke-width="4" stroke="black"/>
+  <line x1="250" y1="50" x2="320" y2="80" stroke-width="4" stroke="black"/>
+
+  <!-- Landmarks -->
+  <rect x="90" y="60" width="160" height="100" fill="url(#grad1)" rx="20"/>
+  <text x="150" y="130" font-family="Verdana" font-size="14">Great Hall</text>
+
+  <circle cx="370" cy="180" r="60" fill="url(#grad1)" filter="url(#innerGlow)"/>
+  <text x="355" y="193" font-family="Verdana" font-size="12">Tower</text>
+
+  <!-- Define filters -->
+  <filter id="outerGlow">
+    <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+    <feMerge>
+      <feMergeNode in="coloredBlur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <filter id="innerGlow">
+    <feFlood flood-color="yellow" flood-opacity="0.5" result="floodFill"/>
+    <feComposite operator="in" in2="SourceAlpha" result="glow"/>
+    <feGaussianBlur stdDeviation="3" result="glowBlur"/>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="glowBlur"/>
+    </feMerge>
+  </filter>
+</svg>

@@ -1,0 +1,35 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="150" cy="180" r="90" fill="#4D6A79"
+          stroke="#3C3F41" stroke-width="5">
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4D6A79;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3C3F41;stop-opacity:.8" />
+    </linearGradient>
+  </circle>
+
+  <!-- Fin -->
+  <path d="M110 120 Q160 70, 190 120" fill="#4D6A79"
+        stroke="#3C3F41" stroke-width="5">
+    <linearGradient id="finGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4D6A79;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3C3F41;stop-opacity:.8" />
+    </linearGradient>
+  </path>
+
+  <!-- Tail -->
+  <path d="M250 130 Q300 90, 330 130" fill="#4D6A79"
+        stroke="#3C3F41" stroke-width="5">
+    <linearGradient id="tailGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4D6A79;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3C3F41;stop-opacity:.8" />
+    </linearGradient>
+  </path>
+
+  <!-- Eye -->
+  <rect x="120" y="110" width="30" height="30" fill="#FFFFFF"
+        stroke="#3C3F41" stroke-width="5">
+    <circle cx="135" cy="135" r="3" fill="#000000"></circle>
+  </rect>
+
+</svg>

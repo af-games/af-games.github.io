@@ -1,0 +1,19 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Base -->
+  <circle cx="200" cy="250" r="160" fill="#f0b890" stroke="#321707" stroke-width="4"/>
+
+  <!-- Top Layer -->
+  <circle cx="200" cy="120" r="100" fill="#f0b890" stroke="#321707" stroke-width="4"/>
+
+  <!-- Cake Slice -->
+  <path d="M200 250 Q160 200 200 150" fill="#f0b890" stroke="#321707" stroke-width="4"/>
+
+  <!-- Frosting (Top) -->
+  <rect x="180" y="90" width="40" height="60" fill="#fff"/>
+  <rect x="260" y="90" width="40" height="60" fill="#fff"/>
+
+  <!-- Frosting (Bottom) -->
+  <rect x="180" y="230" width="40" height="20" fill="#fff"/>
+  <rect x="260" y="230" width="40" height="20" fill="#fff"/>
+
+</svg>

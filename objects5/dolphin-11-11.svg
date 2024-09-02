@@ -1,0 +1,18 @@
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M0 50 Q50 0 100 50" fill="#6495ed"/>
+
+  <!-- Left fin with mask -->
+  <g mask="url(#finMask)">
+    <path d="M80 40 L90 60 L70 60 Z" fill="#6495ed"/>
+  </g>
+
+  <!-- Right fin -->
+  <path d="M10 50 L20 30 L-10 50 Z" fill="#6495ed"/>
+
+  <!-- Horizon -->
+  <line x1="0" y1="50" x2="100" y2="50" stroke="#000"/>
+
+  <!-- Mystery text -->
+  <text x="30%" y="90%" text-anchor="middle" font-size="14px" fill="#fff">I am a dolphin leaping over the horizon.</text>
+</svg>

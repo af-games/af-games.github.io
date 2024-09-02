@@ -1,0 +1,47 @@
+<svg width="500" height="400" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="500" height="400" fill="url(#bg-gradient)"/>
+
+<!-- Body -->
+<path d="M100,200 Q170,150 250,200 A150,150 0 0 0 390,200 Q460,250 420,200" fill="url(#body-gradient)"/>
+<path d="M275,200 Q285,185 295,200 Q285,215 275,200" fill="black"/>
+
+<!-- Head -->
+<circle cx="300" cy="150" r="60" fill="url(#head-gradient)"/>
+<path d="M240,150 L360,150" stroke="black" fill="transparent"/>
+
+<!-- Beak -->
+<polygon points="310,130 330,90 350,130" fill="#ffd700"/>
+<path d="M340,90 Q350,80 360,90" stroke="black" fill="transparent"/>
+
+<!-- Eyes -->
+<circle cx="275" cy="120" r="10" fill="white"/>
+<circle cx="325" cy="120" r="10" fill="white"/>
+<path d="M270,120 A10,10 0 0 1 280,120 M320,120 A10,10 0 0 1 330,120" stroke="#555" fill="transparent"/>
+
+<!-- Feet -->
+<path d="M160,340 Q220,380 330,340 Q400,380 470,340" stroke="black" fill="url(#feet-gradient)"/>
+<path d="M190,350 L260,390 M290,350 L360,390 M410,350 L480,390" stroke="#555" fill="transparent"/>
+
+<!-- Gradients -->
+<defs>
+  <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(47,79,79);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(86,135,135);stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="body-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:rgb(98,174,175);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(206,236,240);stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="head-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(184,227,239);stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="feet-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(86,135,135);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(47,79,79);stop-opacity:1"/>
+  </linearGradient>
+</defs>
+
+</svg>

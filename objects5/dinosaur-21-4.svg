@@ -1,0 +1,29 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <g transform="translate(150, 250)">
+    <!-- Torso -->
+    <rect x="0" y="0" width="200" height="150" fill="#8B4513" />
+    <!-- Tail -->
+    <path d="M200,0 Q250,75 300,0 H350 V50 Z" fill="#8B4513" />
+  </g>
+
+  <!-- Head -->
+  <g transform="translate(120, 100) rotate(-2)">
+    <!-- Skull -->
+    <path d="M75,75 Q100,50 125,75 Q100,100 75,75" fill="#8B4513" />
+    <!-- Jaw -->
+    <rect x="60" y="90" width="120" height="20" fill="#8B4513" />
+    <!-- Eye -->
+    <circle cx="90" cy="60" r="10" fill="#FFF" />
+  </g>
+
+  <!-- Legs -->
+  <g transform="translate(70, 300)">
+    <!-- Left Leg -->
+    <path d="M50,0 Q25,-50 0,-50 L0,50 Z" fill="#8B4513" />
+    <!-- Right Leg -->
+    <path d="M50,0 Q75,-50 100,-50 L100,50 Z" fill="#8B4513" />
+  </g>
+
+</svg>

@@ -1,0 +1,34 @@
+<svg>` element with width, height, viewBox attributes, and background color set to dark gray.
+   - `<g>` elements for grouping related shapes (e.g., mermaid body, hair, fins).
+   - `<path>` elements for creating complex shapes like the tail, hair, and bikini top.
+   - `<circle>` and `<ellipse>` elements for the glow effect.
+
+Here's a valid SVG code based on the above approach:
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" width="500px" height="600px">
+  <rect width="100%" height="100%" fill="#4A4A4A" />
+
+  <!-- Mermaid Body -->
+  <g stroke="#D3F9FF" stroke-width="2">
+    <!-- Head -->
+    <ellipse cx="250" cy="150" rx="80" ry="120" fill="#6B7ABE" />
+    <!-- Tail -->
+    <path d="M250,200 Q300,280 350,240 Q400,200 450,240 Q500,280 500,200" fill="#6B7ABE" />
+    <!-- Fins -->
+    <polygon points="350,240 390,190 430,240" fill="#6B7ABE" />
+    <polygon points="450,240 490,190 530,240" fill="#6B7ABE" />
+  </g>
+
+  <!-- Hair -->
+  <path d="M220,80 Q250,15 280,80" stroke="#D3F9FF" stroke-width="2" fill="transparent" />
+  <path d="M260,70 Q280,40 300,70" stroke="#D3F9FF" stroke-width="2" fill="transparent" />
+
+  <!-- Bikini Top -->
+  <polygon points="210,180 290,180 250,220" fill="#D3F9FF" />
+
+  <!-- Glow Effect -->
+  <ellipse cx="250" cy="170" rx="90" ry="140" fill="none" stroke="#D3F9FF" stroke-width="10" />
+  <circle cx="250" cy="280" r="60" fill="none" stroke="#D3F9FF" stroke-width="10" />
+
+</svg>

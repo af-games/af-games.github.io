@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+  <!-- Body -->
+  <ellipse cx="25" cy="20" rx="15" ry="25" fill="#FF99CC"/>
+  <!-- Wings -->
+  <path d="M10,20 Q30,10 40,20 T60,30 Z" fill="#FFF"/>
+  <!-- Antennae -->
+  <path d="M5,5 L10,0 L5,5 Z"/>
+  <path d="M45,5 L40,0 L45,5 Z"/>
+</svg>

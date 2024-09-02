@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200">
+
+<!-- Mushroom -->
+<ellipse cx="75" cy="175" rx="40" ry="60" fill="#8B4513"/>
+<rect x="65" y="195" width="30" height="25" fill="#8B4513"/>
+
+<!-- Fairy Body -->
+<ellipse cx="75" cy="125" rx="30" ry="50" fill="#98FB98"/>
+<circle cx="75" cy="75" r="20" fill="#FFFACD"/>
+<rect x="60" y="145" width="10" height="40" fill="#98FB98"/>
+<rect x="85" y="145" width="10" height="40" fill="#98FB98"/>
+<circle cx="65" cy="175" r="5" fill="#FFFACD"/>
+<circle cx="85" cy="175" r="5" fill="#FFFACD"/>
+
+<!-- Fairy Wings -->
+<rect x="40" y="95" width="30" height="60" fill="url(#wingGradient)"/>
+<rect x="100" y="95" width="30" height="60" fill="url(#wingGradient)"/>
+
+<!-- Fairy Hair -->
+<path d="M70,40 a20,20 0 0 1 40,0 a20,20 0 0 1 -40,0 z" fill="#CD7F32"/>
+<path d="M85,30 a15,15 0 0 1 30,0 a15,15 0 0 1 -30,0 z" fill="#CD7F32"/>
+
+<!-- Fairy Dress -->
+<polygon points="60,145 90,145 75,180" fill="#98FB98"/>
+<polygon points="75,175 85,170 65,170" fill="#98FB98"/>
+
+<!-- Fairy Wand -->
+<rect x="80" y="120" width="5" height="40" fill="#FFFFFF"/>
+<circle cx="83" cy="155" r="3" fill="#CD7F32"/>
+
+<!-- Wing Gradient -->
+<linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" style="stop-color:rgba(0,0,0,.4);stop-opacity:.8"/>
+  <stop offset="100%" style="stop-color:rgba(0,0,0,.2);stop-opacity:.6"/>
+</linearGradient>
+
+</svg>

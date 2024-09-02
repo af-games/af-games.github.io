@@ -1,0 +1,5 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mountain -->
+  <polygon points="100,10 40,198 190,77 10,198"
+           style="fill:rgb(135,206,250);stroke-width:1;stroke:rgb(0,0,0)" />
+</svg>

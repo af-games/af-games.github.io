@@ -1,0 +1,47 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Mix your ingredients together:**
+
+   - Body:
+     ```xml
+     <circle cx="150" cy="250" r="100" fill="#8B4513"/>
+     ```
+   - Eyes:
+     ```xml
+     <circle cx="120" cy="160" r="20" fill="black"/>
+     <circle cx="180" cy="160" r="20" fill="black"/>
+     ```
+   - Spikes:
+     ```xml
+     <circle cx="90" cy="70" r="5" fill="#8B4513"/>
+     <circle cx="120" cy="70" r="5" fill="#8B4513"/>
+     <circle cx="150" cy="70" r="5" fill="#8B4513"/>
+     <circle cx="180" cy="70" r="5" fill="#8B4513"/>
+     ```
+   - Arms:
+     ```xml
+     <rect x="90" y="210" width="60" height="20" fill="#8B4513"/>
+     <rect x="160" y="210" width="60" height="20" fill="#8B4513"/>
+     ```
+   - Leg:
+     ```xml
+     <rect x="90" y="270" width="60" height="80" fill="#8B4513"/>
+     ```
+   - Head shape (path):
+     ```xml
+     <path d="M130 130 Q150 100, 170 130 Q200 100, 210 130" stroke="black" fill="#8B4513"/>
+     ```
+   - Tail:
+     ```xml
+     <path d="M220 290 Q260 330, 270 360" stroke="black" fill="#8B4513"/>
+     ```
+   - Jaw (path):
+     ```xml
+     <path d="M130 260 Q150 280, 170 260" stroke="black" fill="transparent"/>
+     ```
+
+3. **Bake according to the recipe's instructions:**
+
+   ```xml
+</svg>

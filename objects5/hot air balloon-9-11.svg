@@ -1,0 +1,22 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Envelope (Balloon) -->
+  <polygon points="250,10 370,80 450,100 400,200 280,220 220,160" fill="#FAE5D3"/>
+  <circle cx="335" cy="90" r="35" fill="#FAE5D3"/>
+
+  <!-- Gondola -->
+  <rect x="200" y="300" width="80" height="100" rx="40" fill="#332222"/>
+  <circle cx="240" cy="360" r="5" fill="#AA9C9C"/>
+
+  <!-- Burner -->
+  <circle cx="240" cy="270" r="30" fill="#CC8833"/>
+  <circle cx="240" cy="270" r="10" fill="#C0C0C0"/>
+
+  <!-- Rigging -->
+  <line x1="180" y1="250" x2="260" y2="290" stroke="#8B4513"/>
+  <line x1="260" y1="290" x2="340" y2="250" stroke="#8B4513"/>
+
+  <!-- Basket Handle -->
+  <path d="M180,250 Q220,300 260,290" stroke="#332222" fill="transparent"/>
+
+</svg>

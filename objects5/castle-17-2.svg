@@ -1,0 +1,28 @@
+<svg width="500" height="400" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Base rectangle -->
+<rect x="100" y="280" width="300" height="120" fill="#696969"/>
+
+<!-- Front wall with arched gate -->
+<path d="M100 280 Q140 250, 200 280 H350 V210 C370 190, 370 150, 350 130 Z" fill="#A9A9A9"/>
+
+<!-- Towers -->
+<path d="M50 250 L100 180 Q140 160, 180 180 V250 H50 Z"/>
+<path d="M350 250 L400 180 Q440 160, 420 180 V250 H350 Z"/>
+
+<!-- Roof -->
+<path d="M100 200 Q170 130, 240 200 T390 200 T320 270 Z" fill="#8B7D6B"/>
+
+<!-- Windows -->
+<rect x="120" y="220" width="50" height="50" fill="black"/>
+<rect x="180" y="220" width="50" height="50" fill="black"/>
+<rect x="360" y="220" width="50" height="50" fill="black"/>
+
+<!-- Light interaction (simple shading) -->
+<linearGradient id="lighting" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+  <stop offset="100%" style="stop-color:rgb(192,192,192);stop-opacity:1"/>
+</linearGradient>
+<rect x="100" y="280" width="300" height="120" fill="url(#lighting)"/>
+
+</svg>

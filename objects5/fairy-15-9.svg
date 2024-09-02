@@ -1,0 +1,33 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="250" fill="#fff"/>
+
+  <!-- Fairy body and wings -->
+  <path d="M100,80 Q140,70 160,90 Q130,130 100,150 Q70,130 40,90 Q100,70 100,80"
+        fill="#3d9970" stroke="#000" stroke-width="2"/>
+
+  <!-- Fairy face -->
+  <circle cx="100" cy="65" r="20" fill="#fff"/>
+  <path d="M100,45 Q85,35 100,25 Q115,35 100,45" stroke="#000" stroke-width="2"/>
+
+  <!-- Fairy hair -->
+  <polygon points="90,55 100,70 110,55" fill="#3d9970"/>
+  <polygon points="85,60 100,75 115,60" fill="#3d9970"/>
+
+  <!-- Fairy dress -->
+  <path d="M100,150 Q120,170 140,190 Q120,210 100,230 Q80,210 60,190 Q80,170 100,150"
+        fill="#2158ab" stroke="#000" stroke-width="2"/>
+
+  <!-- Fairy shoes -->
+  <rect x="75" y="230" width="50" height="20" fill="#c3061b"/>
+  <path d="M95,240 Q105,250 85,240" stroke="#000" stroke-width="2"/>
+
+  <!-- Fairy accessories -->
+  <circle cx="125" cy="75" r="10" fill="#ffdf00"/>
+  <path d="M135,65 L145,85 L135,95 Z" stroke="#000" stroke-width="2"/>
+
+  <!-- Fairy wand -->
+  <line x1="170" y1="90" x2="185" y2="105" stroke="#ffdf00" stroke-width="4"/>
+  <circle cx="190" cy="100" r="5" fill="#fff" stroke="#000" stroke-width="2"/>
+
+</svg>

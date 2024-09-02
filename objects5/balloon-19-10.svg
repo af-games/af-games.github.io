@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450">
+
+  <!-- Water -->
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:lightblue;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:deepSkyBlue;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="25" y="375" width="350" height="75" fill="url(#waterGradient)" />
+
+  <!-- Vase -->
+  <path d="M20,400 Q50,380 100,360 Q350,380 400,400 Q250,420 200,440 Z" stroke="#bebebe" fill="#ffe5d9" />
+  <path d="M45,400 H355 Z" stroke="#bebebe" fill="#ffe5d9" />
+
+  <!-- Balloons -->
+  <circle cx="120" cy="270" r="60" fill="lightPink">
+    <animate attributeName="cy" values="270;240;270" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="250" cy="280" r="50" fill="yellow">
+    <animate attributeName="cy" values="280;250;280" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <polygon points="370,190 410,210 370,230" fill="lightBlue">
+    <animate attributeName="points" values="370,190 410,210 370,230;370,200 410,220 370,240;370,190 410,210 370,230" dur="5s" repeatCount="indefinite" />
+  </polygon>
+
+  <!-- Leaves -->
+  <path d="M120,360 Q110,350 120,340 Z" fill="#8b7d6c" />
+  <path d="M290,320 Q280,310 290,300 Z" fill="#8b7d6c" />
+
+  <!-- Stems -->
+  <line x1="120" y1="345" x2="120" y2="370" stroke="#8b7d6c" />
+  <line x1="290" y1="305" x2="290" y2="330" stroke="#8b7d6c" />
+
+</svg>

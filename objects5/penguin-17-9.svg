@@ -1,0 +1,30 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:white; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#gradient)" />
+
+  <!-- Horizontal threads -->
+  <g stroke="black" stroke-width="2">
+    <?php for ($i = 0; $i <= 200; $i += 10): ?>
+      <line x1="0" y1="<?=$i?>" x2="200" y2="<?=$i?>" />
+    <?php endfor; ?>
+  </g>
+
+  <!-- Diagonal threads -->
+  <g stroke="black" stroke-width="2">
+    <?php for ($i = 0; $i <= 200; $i += 14): ?>
+      <line x1="<?=$i?>" y1="0" x2="200-<?=$i?>" y2="200" />
+    <?php endfor; ?>
+  </g>
+
+  <!-- Penguin face -->
+  <circle cx="100" cy="80" r="70" stroke="black" fill="white" />
+  <ellipse cx="130" cy="60" rx="20" ry="40" stroke="black" fill="black" />
+  <path d="M50,90 Q60,80 70,90" stroke="black" fill="transparent"/>
+
+</svg>

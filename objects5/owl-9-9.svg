@@ -1,0 +1,19 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#0D47A1"/>
+
+  <!-- Owl's Body -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E5D8B6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#4A2C2A;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect x="150" y="125" width="500" height="375" fill="url(#bodyGradient)"/>
+
+  <!-- Owl's Eyes -->
+  <circle cx="250" cy="175" r="30" fill="#FFD700"/>
+  <circle cx="250" cy="175" r="10" fill="#000000"/>
+
+</svg>

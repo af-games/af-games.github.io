@@ -1,0 +1,34 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="300" height="200" fill="#FFFFFF"/>
+
+<!-- Grid of Squares -->
+<g transform="translate(15, 15)">
+  <pattern id="peachSquares" patternUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="50" height="50" fill="#FF6347"/>
+    <rect x="55" y="0" width="50" height="50" fill="#FFFFFF"/>
+  </pattern>
+  <pattern id="greenSquares" patternUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="50" height="50" fill="#32CD32"/>
+    <rect x="55" y="0" width="50" height="50" fill="#FFFFFF"/>
+  </pattern>
+  <pattern id="purpleSquares" patternUnits="userSpaceOnUse">
+    <polygon points="0,0 50,0 25,50" fill="#800080"/>
+    <rect x="55" y="0" width="50" height="50" fill="#FFFFFF"/>
+  </pattern>
+
+<!-- Peach Squares -->
+<rect width="300" height="150" fill="url(#peachSquares)"/>
+
+<!-- Green Squares -->
+<rect x="75" y="50" width="50" height="50" fill="url(#greenSquares)"/>
+<rect x="225" y="100" width="50" height="50" fill="url(#greenSquares)"/>
+
+<!-- Purple Squares -->
+<rect x="150" y="75" width="50" height="50" fill="url(#purpleSquares)"/>
+<rect x="275" y="125" width="50" height="50" fill="url(#purpleSquares)"/>
+
+</g>
+
+</svg>

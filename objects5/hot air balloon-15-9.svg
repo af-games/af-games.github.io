@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Scene 1: Old Man Carl at Work -->
+<rect id="workbench" x="100" y="250" width="200" height="150" fill="#4A302C"/>
+<circle id="carl" cx="150" cy="350" r="30" fill="#FCD116"/>
+<text x="50" y="375">Old Man Carl, the balloon maker.</text>
+<path d="M40 280 Q90 350 180 350 Q270 280 360 280 Q450 350 540 350 Q630 280 720 280" stroke="#EBB978" fill="transparent"/>
+<text x="50" y="425">Hot air balloons in progress.</text>
+
+<!-- Scene 2: Carl Tests His New Balloon -->
+<circle id="new-balloon" cx="300" cy="150" r="75" fill="#FFC800"/>
+<path id="balloon-string" d="M300 150 Q350 200 400 200 L400 100 Z" stroke="#D9A73B" fill="transparent"/>
+<text x="280" y="65">Carl inflates his newest creation.</text>
+
+<!-- Scene 3: The Unexpected Storm -->
+<path id="storm-clouds" d="M50 50 Q150 100 250 150 Q350 100 450 50 Z" stroke="#697A9D" fill="#B9CDE5"/>
+<text x="480" y="65">Dark clouds gather as Carl ascends.</text>
+<path id="lightning" d="M520 100 L570 150 Z" stroke="#FFFFFF"/>
+
+<!-- Scene 4: Carl's Unexpected Discovery -->
+<rect id="hidden-valley" x="300" y="250" width="300" height="200" fill="#7DB96D"/>
+<text x="350" y="400">A hidden valley comes into view.</text>
+<circle cx="400" cy="350" r="20" fill="#FFB6C1"/>
+<path d="M380 350 Q420 375 460 350 Q500 325 540 350" stroke="#FFA07D" fill="transparent"/>
+
+<!-- Scene 5: A New Friendship -->
+<circle cx="400" cy="250" r="15" fill="#FF7F50"/>
+<path d="M400 250 Q380 225 360 225 Q340 200 300 200 Z" stroke="#FF69B4" fill="transparent"/>
+<text x="375" y="185">Carl meets a new friend.</text>
+
+<!-- Scene 6: Carl Returns Home -->
+<circle id="ascending-balloon" cx="550" cy="150" r="75" fill="#FFC800"/>
+<path d="M550 150 Q600 200 650 200 L650 100 Z" stroke="#D9A73B" fill="transparent"/>
+<text x="540" y="65">Carl waves goodbye, returning home.</text>
+<path id="hidden-valley-fading" d="M300 250 Q350 300 400 350 Q450 400 500 450 Z" stroke="#7DB96D" fill="#B9CDE5" opacity="0.5"/>
+
+</svg>

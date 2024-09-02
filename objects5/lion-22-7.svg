@@ -1,0 +1,34 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#8BC34A"/>
+
+  <!-- Pathways (Rectangles) -->
+  <rect x="50" y="50" width="200" height="300" fill-opacity="0"/>
+  <path d="M70,350 Q100,300 150,350" stroke="#6F9F4D" stroke-width="2"/>
+
+  <!-- Beds (Circles) -->
+  <circle cx="150" cy="250" r="70" fill-opacity="0"/>
+  <circle cx="300" cy="200" r="60" fill-opacity="0"/>
+  <path d="M150,180 a70,70 0 1,0 140,0 a70,70 0 1,0 -140,0" stroke="#A9D68E" stroke-width="2"/>
+  <path d="M300,140 a60,60 0 1,0 120,0 a60,60 0 1,0 -120,0" stroke="#CDE8AB" stroke-width="2"/>
+
+  <!-- Plants and Lions (Paths) -->
+  <path d="M175,230 Q190,200 225,230 Q240,260 265,230 Q280,200 305,230" fill="#FFFFFF" stroke="#CDE8AB" stroke-width="2"/>
+  <path d="M175,230 Q190,200 225,230 Q240,260 265,230 Q280,200 305,230" fill-opacity="0"/>
+  <text x="275" y="260" font-size="14" text-anchor="middle">LION</text>
+
+  <path d="M225,190 Q240,160 265,190 Q280,220 310,190 Q325,160 350,190" fill="#FFFFFF" stroke="#CDE8AB" stroke-width="2"/>
+  <path d="M225,190 Q240,160 265,190 Q280,220 310,190 Q325,160 350,190" fill-opacity="0"/>
+  <text x="310" y="220" font-size="14" text-anchor="middle">LION</text>
+
+  <!-- Shade (Gradient) -->
+  <defs>
+    <linearGradient id="shade" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#CDE8AB; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#A9D68E; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8BC34A; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect x="270" y="350" width="230" height="150" fill="url(#shade)"/>
+
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100% 100%" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<!-- Color Patterns -->
+<defs>
+    <linearGradient id="pattern1" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%"   style="stop-color:#8DC63C;"/>
+        <stop offset="50%"  style="stop-color:#D4AF37;"/>
+        <stop offset="100%" style="stop-color:#F4A460;"/>
+    </linearGradient>
+</defs>
+
+<!-- Dinosaur -->
+<circle id="dinosaur-body" cx="50%" cy="70%" r="30%" fill="url(#pattern1)"/>
+
+<path id="dinosaur-left-leg" d="M40% 90%, L20% 80%, Z" transform="rotate(10, 50%, 70%)"/>
+<path id="dinosaur-right-leg" d="M60% 90%, L80% 80%, Z" transform="rotate(-10, 50%, 70%)"/>
+
+<!-- Clothing Pieces -->
+<rect id="jacket" width="80%" height="40%" rx="20%" ry="20%" fill="#D4AF37"/>
+<rect id="pants" y="60%" width="80%" height="35%" rx="10%" ry="10%" fill="#8DC63C"/>
+
+<path id="shoes-left" d="M20% 90%, Q40% 95%, 70% 90%" fill="#F4A460"/>
+<path id="shoes-right" d="M80% 90%, Q60% 95%, 30% 90%" fill="#F4A460"/>
+
+<!-- Accessories -->
+<rect id="collar" width="70%" height="15%" y="-20%" fill="#D4AF37"/>
+<circle id="tail-accessory" cx="85%" cy="75%" r="15%" fill="#F4A460"/>
+
+<!-- Applying Clothing Pieces and Accessories -->
+<use xlink:href="#jacket" y="30%" transform="translate(20%, 0) scaleX(.9)" />
+<use xlink:href="#pants" transform="translate(-10%, 0) scaleX(.9)" />
+
+<use xlink:href="#shoes-left"/>
+<use xlink:href="#shoes-right" transform="translate(30%, 0)"/>
+
+<use xlink:href="#collar" transform="translate(10%, 0) scaleX(.9)" />
+<use xlink:href="#tail-accessory"/>
+
+<!-- Strokes -->
+<style>
+#jacket, #pants {
+  stroke: #212529;
+  stroke-width: 2px;
+}
+#shoes-left, #shoes-right {
+  stroke: #212529;
+  stroke-width: 1px;
+}
+</style>
+
+</svg>

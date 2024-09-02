@@ -1,0 +1,33 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dolphin outline -->
+  <path id="dolphin" d="M175,20 Q180,40 225,30 T300,20 H325 V60 H300 Z"/>
+
+  <!-- Mask for waves to reveal dolphin -->
+  <defs>
+    <mask id="wavesMask">
+      <rect x="0" y="0" width="100%" height="100%" fill="white"/>
+      <path d="M0,50 Q250,70 500,50 T500,30 H480 V0 H500 Z" stroke="#fff" stroke-width="5" fill="none"/>
+    </mask>
+  </defs>
+
+  <!-- Waves -->
+  <path d="M0,50 Q250,70 500,50 T500,30 H480 V0 H500 Z" stroke="#000" stroke-width="5" fill="none"/>
+
+  <!-- Bubbles -->
+  <circle cx="160" cy="35" r="12"/>
+  <circle cx="175" cy="40" r="8"/>
+  <circle cx="190" cy="38" r="10"/>
+
+  <!-- Mask for bubbles to reveal dolphin's blowhole -->
+  <mask id="bubblesMask">
+    <rect x="0" y="0" width="100%" height="100%" fill="white"/>
+    <circle cx="160" cy="35" r="12" fill="#fff"/>
+    <circle cx="175" cy="40" r="8" fill="#fff"/>
+    <circle cx="190" cy="38" r="10" fill="#fff"/>
+  </mask>
+
+  <!-- Dolphin outline with masks -->
+  <use xlink:href="#dolphin" mask="url(#wavesMask)" stroke="#000" stroke-width="2" fill="none"/>
+  <use xlink:href="#dolphin" mask="url(#bubblesMask)" stroke="#000" stroke-width="2" fill="none"/>
+
+</svg>

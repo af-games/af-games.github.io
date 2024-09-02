@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#F0EAD6"/>
+
+<!-- Pathways (light brown) -->
+<path d="M50 100 H750 V500 H50 Z" stroke="#C49962" stroke-width="3"/>
+<path d="M150 200 Q300 150, 450 200" stroke="#C49962" stroke-width="3"/>
+
+<!-- Beds (green) -->
+<path d="M750 100 H780 V300 H750 Z" fill="#7DCE5A"/>
+<path d="M200 200 Q400 150, 600 200" fill="#7DCE5A"/>
+
+<!-- Structures (rocks - grey) -->
+<circle cx="300" cy="250" r="50" fill="#8B8989"/>
+<circle cx="450" cy="150" r="30" fill="#8B8989"/>
+
+<!-- Plants (organic paths - dark green) -->
+<path d="M350 220 Q370 200, 400 220 Q380 240, 360 260" stroke="#1D7A49" stroke-width="2"/>
+<path d="M250 250 Q280 270, 320 250 Q300 220, 280 200" stroke="#1D7A49" stroke-width="2"/>
+
+<!-- Lions (orange) -->
+<path d="M600 150 C620 130, 640 150, 620 170 Z" fill="#FFA500"/>
+<path d="M680 200 Q700 220, 680 240 Q660 220, 680 200" fill="#FFA500"/>
+
+<!-- Light interaction - sun rays (yellow) -->
+<path d="M350 100 L400 150 L350 200" stroke="#FFFF00" stroke-width="2"/>
+<path d="M600 150 L650 180 L600 210" stroke="#FFFF00" stroke-width="2"/>
+
+</svg>

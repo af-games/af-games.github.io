@@ -1,0 +1,19 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 6 6'>
+  <!-- Towers -->
+  <rect x='0' y='0' width='2' height='3' fill='#0066cc'/>
+  <rect x='4' y='0' width='1' height='3' fill='#0066cc'/>
+
+  <!-- Arches -->
+  <path d='M1.5,4.5 A1,1,0,0,1,2.5,5.5' stroke='#0066cc' fill='transparent'/>
+  <path d='M3.5,4.5 A1,1,0,0,1,4.5,5.5' stroke='#0066cc' fill='transparent'/>
+
+  <!-- Body -->
+  <defs>
+    <linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' style='stop-color:#ffffff;stop-opacity:1' />
+      <stop offset='50%' style='stop-color:#cccccc;stop-opacity:1' />
+    </linearGradient>
+  </defs>
+  <path d='M1,5 C2.5,6 4.5,6 5,5 H1 Z' fill='url(#grad)'/>
+
+</svg>

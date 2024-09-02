@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Background -->
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#1D335B"/>
+    <stop offset="100%" style="stop-color:#9BD8FF"/>
+  </linearGradient>
+  <rect width="800" height="600" fill="url(#grad1)"/>
+
+  <!-- Mermaid tail -->
+  <linearGradient id="grad2" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#0D2C57"/>
+    <stop offset="100%" style="stop-color:#AED8F6"/>
+  </linearGradient>
+  <rect x="100" y="350" width="600" height="250" fill="url(#grad2)"/>
+  <linearGradient id="scales" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#F1FAEE; stop-opacity:.7"/>
+    <stop offset="50%" style="stop-color:#B3DCFF; stop-opacity:.9"/>
+    <stop offset="100%" style="stop-color:#BDBABD; stop-opacity:.6"/>
+  </linearGradient>
+  <rect x="150" y="400" width="500" height="200" fill="url(#scales)"/>
+
+  <!-- Skin tone -->
+  <rect x="200" y="175" width="400" height="300" fill="#FFEAEA"/>
+
+  <!-- Face -->
+  <circle cx="400" cy="250" r="150" stroke="#FFB6C1" stroke-width="10" fill="#FFEAEA"/>
+  <circle cx="400" cy="225" r="75" stroke="#3D2F4E" stroke-width="5" fill="#191A52"/>
+
+  <!-- Hair -->
+  <polygon points="375,125 425,125 400,60" style="fill:#27403C; opacity:.8"/>
+
+  <!-- Eyes -->
+  <circle cx="350" cy="200" r="10" stroke="#6FCFEB" stroke-width="3" fill="#191A52"/>
+  <circle cx="450" cy="200" r="10" stroke="#6FCFEB" stroke-width="3" fill="#191A52"/>
+
+</svg>

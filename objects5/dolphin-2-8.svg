@@ -1,0 +1,20 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#003D66"/>
+
+  <!-- Dolphin A -->
+  <path d="M150,100 Q200,75 250,150 Q300,225 350,150 Q400,75 450,100" fill="#48CAE4"/>
+  <polygon points="250,150 270,200 230,200" fill="#B3ECFF"/>
+  <circle cx="160" cy="90" r="5" fill="#000"/>
+  <line x1="240" y1="170" x2="280" y2="170" stroke="#B3ECFF" stroke-width="10"/>
+
+  <!-- Dolphin B -->
+  <path d="M650,100 Q550,75 450,150 Q350,225 300,150 Q200,75 150,100" fill="#48CAE4"/>
+  <polygon points="350,150 330,200 370,200" fill="#B3ECFF"/>
+  <circle cx="640" cy="90" r="5" fill="#000"/>
+  <line x1="400" y1="170" x2="320" y2="170" stroke="#B3ECFF" stroke-width="10"/>
+
+  <!-- Waves -->
+  <path d="M150,200 Q200,225 250,200 Q300,175 350,200 Q400,225 450,200" fill="#B3ECFF"/>
+  <path d="M650,200 Q550,175 450,200 Q350,225 300,200 Q200,175 150,200" fill="#B3ECFF"/>
+</svg>

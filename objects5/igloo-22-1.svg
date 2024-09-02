@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="-100 0 300 300">
+  <!-- Outer circle (igloo base) -->
+  <circle cx="0" cy="0" r="90" fill="white" stroke="black" stroke-width="5"/>
+
+  <!-- Inner circle (igloo interior) -->
+  <circle cx="0" cy="0" r="80" fill="white" stroke="lightgray" stroke-width="2"/>
+
+  <!-- Roof arc -->
+  <path d="M -90,90 Q 0,150 90,90" fill="white" stroke="black" stroke-width="3"/>
+
+  <!-- Entrance arch -->
+  <path d="M -70,80 Q -20,95 20,95 Q 70,80 40,-10" fill="none" stroke="black" stroke-width="3"/>
+</svg>

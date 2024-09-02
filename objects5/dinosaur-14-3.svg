@@ -1,0 +1,35 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <path id="head" d="M175,50 Q200,75 225,50 A90,90 0 0 1 150,140" fill="#3D6B8C"
+        stroke="black" stroke-width="2"/>
+
+  <!-- Body -->
+  <path id="body" d="M225,140 Q275,150 300,140 A90,90 0 0 0 150,230"
+        fill="#2E4A61" stroke="black" stroke-width="2"/>
+
+  <!-- Tail -->
+  <path id="tail" d="M300,140 Q350,175 350,230" fill="url(#tailGradient)"
+        stroke="black" stroke-width="2"/>
+
+  <!-- Legs -->
+  <g id="legs">
+    <!-- Front Left Leg -->
+    <path d="M190,230 Q160,280 150,330" fill="#3D6B8C"/>
+    <!-- Front Right Leg -->
+    <path d="M280,230 Q270,280 275,330" fill="#3D6B8C"/>
+    <!-- Back Left Leg -->
+    <path d="M340,230 Q310,280 315,330" fill="#2E4A61"/>
+    <!-- Back Right Leg -->
+    <path d="M370,230 Q360,280 365,330" fill="#2E4A61"/>
+  </g>
+
+  <!-- Tail Gradient -->
+  <defs>
+    <linearGradient id="tailGradient" x1="350" y1="230" x2="350" y2="380">
+      <stop offset="0%"   stop-color="#4F7C9B"/>
+      <stop offset="100%" stop-color="#2E4A61"/>
+    </linearGradient>
+  </defs>
+
+</svg>

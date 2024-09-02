@@ -1,0 +1,101 @@
+<svg width="100%" height="100%" viewBox="-50 -50 100 100" xmlns="http://www.w3.org/2000/svg">
+```
+
+Now, let's create the instruments. We'll start with the drums (circles):
+
+```svg
+<g id="drums">
+  <circle cx="-40" cy="0" r="5" fill="#F00"/>
+  <circle cx="0" cy="0" r="5" fill="#F00"/>
+  <circle cx="40" cy="0" r="5" fill="#F00"/>
+</g>
+```
+
+Next, the violins (rectangles):
+
+```svg
+<g id="violins">
+  <rect x="-25" y="-15" width="50" height="30" fill="#0F0"/>
+  <rect x="-25" y="15" width="50" height="30" fill="#0F0"/>
+</g>
+```
+
+And the guitars (paths):
+
+```svg
+<g id="guitars">
+  <path d="M-40 -10 H40 V10 H-40 Z" stroke="#00F" fill="transparent"/>
+  <path d="M-40 10 H40 V-10 H-40 Z" stroke="#00F" fill="transparent"/>
+</g>
+```
+
+Now, let's add some notes. For simplicity, we'll use quarter notes for the drums and violins, and eighth notes for the guitars:
+
+```svg
+<g id="notes">
+  <!-- Drums -->
+  <circle cx="-40" cy="0" r="2.5" fill="#F00"/>
+  <circle cx="0" cy="0" r="2.5" fill="#F00"/>
+  <circle cx="40" cy="0" r="2.5" fill="#F00"/>
+
+  <!-- Violins -->
+  <rect x="-25" y="-15" width="25" height="15" fill="#0F0"/>
+  <rect x="-25" y="15" width="25" height="15" fill="#0F0"/>
+
+  <!-- Guitars (eighth notes) -->
+  <path d="M-40 -5 H40 V5 H-40 Z" stroke="#00F" fill="transparent"/>
+  <path d="M-40 5 H40 V-5 H-40 Z" stroke="#00F" fill="transparent"/>
+</g>
+```
+
+Finally, let's add some dynamics with color gradients for crescendos:
+
+```svg
+<defs>
+  <linearGradient id="crescendo" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:0"/>
+    <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+  </linearGradient>
+</defs>
+
+<circle cx="-40" cy="0" r="7.5" fill="url(#crescendo)"/>
+```
+
+And that's our visual symphony "Nurse Shark"! Here's the complete SVG code:
+
+```svg
+<svg width="100%" height="100%" viewBox="-50 -50 100 100" xmlns="http://www.w3.org/2000/svg">
+  <g id="drums">
+    <circle cx="-40" cy="0" r="5" fill="#F00"/>
+    <circle cx="0" cy="0" r="5" fill="#F00"/>
+    <circle cx="40" cy="0" r="5" fill="#F00"/>
+  </g>
+  <g id="violins">
+    <rect x="-25" y="-15" width="50" height="30" fill="#0F0"/>
+    <rect x="-25" y="15" width="50" height="30" fill="#0F0"/>
+  </g>
+  <g id="guitars">
+    <path d="M-40 -10 H40 V10 H-40 Z" stroke="#00F" fill="transparent"/>
+    <path d="M-40 10 H40 V-10 H-40 Z" stroke="#00F" fill="transparent"/>
+  </g>
+  <g id="notes">
+    <!-- Drums -->
+    <circle cx="-40" cy="0" r="2.5" fill="#F00"/>
+    <circle cx="0" cy="0" r="2.5" fill="#F00"/>
+    <circle cx="40" cy="0" r="2.5" fill="#F00"/>
+
+    <!-- Violins -->
+    <rect x="-25" y="-15" width="25" height="15" fill="#0F0"/>
+    <rect x="-25" y="15" width="25" height="15" fill="#0F0"/>
+
+    <!-- Guitars (eighth notes) -->
+    <path d="M-40 -5 H40 V5 H-40 Z" stroke="#00F" fill="transparent"/>
+    <path d="M-40 5 H40 V-5 H-40 Z" stroke="#00F" fill="transparent"/>
+  </g>
+  <defs>
+    <linearGradient id="crescendo" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

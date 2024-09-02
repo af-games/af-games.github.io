@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#ADD8E6"/>
+
+  <!-- Jellyfish Lagoon -->
+  <path d="M150,200 Q300,100 450,200 Q300,300 150,200" stroke="#00BFFF" fill="#ADD8E6"/>
+  <text x="270" y="220" font-family="Verdana" font-size="18">Jellyfish Lagoon</text>
+
+  <!-- Mount Medusa -->
+  <polygon points="50,150 300,50 550,150" stroke="#696969" fill="#C0C0C0"/>
+  <circle cx="275" cy="75" r="40" fill="#FFD700"/>
+  <text x="300" y="180" font-family="Verdana" font-size="18">Mount Medusa</text>
+
+  <!-- Floating Forests of Flotilla -->
+  <circle cx="650" cy="250" r="70" stroke="#696969" fill="#32CD32"/>
+  <circle cx="650" cy="210" r="40" stroke="#696969" fill="#32CD32"/>
+  <text x="680" y="270" font-family="Verdana" font-size="18">Floating Forests of Flotilla</text>
+
+  <!-- City of Bellville -->
+  <polygon points="450,400 600,300 750,400" stroke="#696969" fill="#FFD700"/>
+  <circle cx="575" cy="280" r="40" stroke="#696969" fill="#FFD700"/>
+  <text x="520" y="350" font-family="Verdana" font-size="18">City of Bellville</text>
+
+  <!-- Rivers of Ribbon -->
+  <path d="M100,400 Q150,350 200,400" stroke="#696969" fill="transparent"/>
+  <path d="M700,400 Q650,350 600,400" stroke="#696969" fill="transparent"/>
+
+</svg>

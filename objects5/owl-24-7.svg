@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Forearm: Owl in Flight -->
+  <image x="60%" y="5%" width="50%" href="owl_in_flight.png"/>
+
+  <!-- Upper Arm: Forest Scene -->
+  <g stroke="#3D7D5A" stroke-width="2">
+    <rect x="40%" y="15%" width="60%" height="60%" rx="10"/>
+    <path d="M50% 80%, Q90% 120%, 100% 160%, Z" fill="#8BAB7C"/>
+    <image x="45%" y="30%" width="30%" href="owl_glowing_eyes.png"/>
+  </g>
+
+  <!-- Elbow: Moon -->
+  <circle cx="25%" cy="30%" r="30" fill="#F1DEB3">
+    <text x="50%" y="45%" font-size="18" text-anchor="middle">Moon</text>
+    <use xlink:href="#owl_shadow_small" x="20%" y="25%"/>
+  </circle>
+
+  <!-- Lower Arm: Night Sky -->
+  <g stroke="#0B173F" stroke-width="2">
+    <rect x="40%" y="60%" width="60%" height="60%" rx="10"/>
+    <path d="M50% 80%, Q90% 120%, 100% 160%, Z" fill="#0E1C3A"/>
+    <use xlink:href="#owl_stars_soaring" x="45%" y="70%"/>
+    <text x="50%" y="85%" font-size="18" text-anchor="middle">Night Sky</text>
+  </g>
+
+  <!-- Wrist: Nest -->
+  <image x="60%" y="70%" width="30%" href="owl_nest.png"/>
+  <use xlink:href="#owl_shadow_small" x="55%" y="72%"/>
+
+  <!-- Connecting Line Work -->
+  <g stroke="#8BAB7C" stroke-width="1">
+    <path d="M40%,60 Q70%,80 90%,60"/>
+    <path d="M30%,65 Q50%,75 70%,65"/>
+    <use xlink:href="#wavy_lines" x="45%" y="65%"/>
+  </g>
+
+  <!-- Definitions -->
+  <defs>
+    <image id="owl_in_flight" href="owl_in_flight.png"/>
+    <image id="owl_glowing_eyes" href="owl_glowing_eyes.png"/>
+    <image id="owl_nest" href="owl_nest.png"/>
+    <use xlink:href="#owl_shadow_small" xlink:href="#owl_stars_soaring">
+      <image href="owl_shadow_small.png"/>
+    </use>
+    <path id="wavy_lines" d="M0,0 Q10,20 20,0 Q40,30 60,0 Q80,20 100,0 Z"/>
+  </defs>
+</svg>

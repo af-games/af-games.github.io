@@ -1,0 +1,38 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Balloon Envelope -->
+<rect id="balloon-envelope" x="175" y="70" width="150" height="400"
+  style="fill: url(#pattern-balloons); stroke-width: 2; stroke: black;" />
+
+<!-- Balloon Sleeves (Circles) -->
+<circle id="balloon-sleeve-left" cx="190" cy="300" r="60"
+  style="fill: url(#gradient-balloon); stroke-width: 2; stroke: black;" />
+<circle id="balloon-sleeve-right" cx="250" cy="300" r="60"
+  style="fill: url(#gradient-balloon); stroke-width: 2; stroke: black;" />
+
+<!-- Balloon Basket -->
+<rect x="175" y="550" width="150" height="50"
+  style="fill: #F39C11; stroke-width: 2; stroke: black;" />
+
+<!-- Balloon Rope -->
+<line x1="262.5" y1="575" x2="262.5" y2="40"
+  style="stroke-width: 5; stroke: #9D8B70;" />
+<circle cx="262.5" cy="35" r="15"
+  style="fill: #9D8B70; stroke-width: 2; stroke: black;" />
+
+<!-- Gradients and Patterns -->
+<defs>
+  <linearGradient id="gradient-balloon" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,238,167);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(249,149,58);stop-opacity:1" />
+  </linearGradient>
+  <pattern id="pattern-balloons" patternUnits="userSpaceOnUse" width="60" height="60">
+    <image href="https://i.imgur.com/uZtWzXr.png" x="0" y="0" width="60" height="60" />
+  </pattern>
+</defs>
+
+<!-- Mannequin Outline -->
+<path d="M250,30 A150,150 0 1,0 75,30 150,150 0 1,0 250,30 Z" style="stroke:black; stroke-width:2;" />
+<path d="M250,60 L250,650" style="stroke:black; stroke-width:2;" />
+
+</svg>

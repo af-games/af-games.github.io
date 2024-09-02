@@ -1,0 +1,35 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define Patterns -->
+  <defs>
+    <pattern id="roofPattern" patternUnits="userSpaceOnUse" width="15" height="7.5">
+      <polygon points="0,0 15,0 7.5,7.5" fill="#8B4513"/>
+    </pattern>
+  </defs>
+
+  <!-- Castle 1 -->
+  <g transform="translate(50, 100)">
+    <polygon points="25,0 50,0 50,50 25,50" fill="#CAB986"/>
+    <polygon points="0,0 25,0 12.5,25" fill="url(#roofPattern)" />
+    <circle cx="37.5" cy="75" r="25" stroke="black" fill="#D5E8D4"/>
+  </g>
+
+  <!-- Castle 2 -->
+  <g transform="translate(150, 175)">
+    <polygon points="25,0 50,0 50,50 25,50" fill="#CAB986"/>
+    <polygon points="0,0 25,0 12.5,25" fill="url(#roofPattern)" />
+    <circle cx="37.5" cy="75" r="25" stroke="black" fill="#D5E8D4"/>
+  </g>
+
+  <!-- Castle 3 -->
+  <g transform="translate(250, 100)">
+    <polygon points="25,0 50,0 50,50 25,50" fill="#CAB986"/>
+    <polygon points="0,0 25,0 12.5,25" fill="url(#roofPattern)" />
+    <circle cx="37.5" cy="75" r="25" stroke="black" fill="#D5E8D4"/>
+  </g>
+
+  <!-- Paths -->
+  <path d="M100,125 Q150,90 200,125" stroke="black" fill="transparent"/>
+  <path d="M300,125 Q250,170 200,125" stroke="black" fill="transparent"/>
+
+</svg>

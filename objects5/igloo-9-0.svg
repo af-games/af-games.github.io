@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="300" height="200" fill="#ADD8E6"/>
+
+  <!-- Igloo Base -->
+  <circle cx="150" cy="175" r="150" stroke="#000000" stroke-width="3" fill="#FFFFFF"/>
+
+  <!-- Igloo Dome -->
+  <path d="M150,25 A140,140 0 1 0 150,175 A80,80 0 1 1 150,95 L150,25 Z" fill="#FFB6C1" stroke="#FFFF99" stroke-width="3"/>
+
+  <!-- Doorway -->
+  <rect x="120" y="150" width="60" height="30" fill="#8B4513"/>
+
+</svg>

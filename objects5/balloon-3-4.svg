@@ -1,0 +1,44 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Basket -->
+  <rect x="150" y="300" width="80" height="50"
+        style="fill:rgb(255,215,0); stroke:black; stroke-width:2" />
+
+  <!-- Envelope (Balloon fabric) -->
+  <path d="M200,50 Q300,75 400,50 Q300,25 200,50"
+        style="fill:linearGradient(blue_gradient); stroke:black; stroke-width:2" />
+
+  <!-- Blue gradient -->
+  <defs>
+    <linearGradient id="blue_gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(54,83,167); stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(92,135,201); stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Gondola (Basket and fabric connection) -->
+  <rect x="160" y="270" width="40" height="20"
+        style="fill:rgb(54,83,167); stroke:black; stroke-width:2" />
+
+  <!-- Rigging (Cables) -->
+  <line x1="190" y1="290" x2="210" y2="290"
+        style="stroke:rgb(153,153,153); stroke-width:4"/>
+  <line x1="200" y1="280" x2="200" y2="300"
+        style="stroke:rgb(153,153,153); stroke-width:4"/>
+
+  <!-- Burner (Fire) -->
+  <circle cx="200" cy="75" r="20"
+          style="fill:yellow; stroke:orange; stroke-width:2"/>
+  <circle cx="200" cy="75" r="15"
+          style="fill:orange; stroke:red; stroke-width:2"/>
+
+  <!-- Lighting effect (Shadows) -->
+  <filter id="shadow" width="130%" height="130%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+    <feOffset dx="5" dy="5" result="offsetblur"/>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+</svg>

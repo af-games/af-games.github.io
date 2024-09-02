@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 600">
+
+  <!-- Owl -->
+  <path d="M180,100 Q200,75 250,125 Q300,75 330,125 Q360,75 400,125 Q390,175 380,225 Q350,175 320,225 Q290,175 260,225 Q230,175 180,225 Z" fill="#4C4140"/>
+  <circle cx="260" cy="225" r="25" fill="#BFA9A0"/>
+  <path d="M180,375 Q200,400 250,375 Q300,400 330,375 Q360,400 400,375 Q390,425 380,475 Q350,425 320,475 Q290,425 260,475 Q230,425 180,475 Z" fill="#6A5C5B"/>
+
+  <!-- Branches -->
+  <path d="M180,400 Q200,425 250,400 Q300,425 330,400 Q360,425 400,400 Q390,375 380,325 Q350,375 320,325 Q290,375 260,325 Q230,375 180,325 Z" stroke="#4C4140" fill="none"/>
+  <!-- Repeat and vary path for more branches -->
+
+  <!-- Feathers -->
+  <path d="M380,325 Q400,300 360,275 Q340,300 320,275" stroke="#BFA9A0" fill="none"/>
+  <!-- Repeat and vary path for more feathers -->
+
+  <!-- Stars/Moon -->
+  <circle cx="150" cy="80" r="20" fill="#FFFFBF"/>
+  <circle cx="300" cy="80" r="15" fill="#FFFFBF"/>
+  <path d="M45,150 Q95,75 145,150 Q195,75 245,150 Q295,75 345,150 Z" stroke="#FFFFBF" fill="none"/>
+
+  <!-- Mice/Snakes/Ancient symbols -->
+  <path d="M280,450 Q300,475 320,450 Q340,475 360,450 Z" stroke="#4C4140" fill="#BFA9A0"/>
+  <!-- Repeat and vary path for more mice/snakes/ancient symbols -->
+
+</svg>

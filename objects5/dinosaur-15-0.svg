@@ -1,0 +1,25 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dinosaur Body -->
+  <rect x="0" y="50" width="200" height="300" rx="50" fill="#8B4513"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="150" rx="80" ry="60" fill="#8B4513"/>
+
+  <!-- Neck -->
+  <polygon points="200 70, 250 0, 300 70" fill="#8B4513"/>
+
+  <!-- Legs -->
+  <rect x="50" y="250" width="50" height="150" fill="#8B4513"/>
+  <rect x="130" y="250" width="50" height="150" fill="#8B4513"/>
+  <rect x="80" y="300" width="50" height="100" fill="#8B4513"/>
+  <rect x="160" y="300" width="50" height="100" fill="#8B4513"/>
+
+  <!-- Tail -->
+  <polygon points="200 300, 250 350, 300 300" fill="#8B4513"/>
+
+  <!-- Eyes -->
+  <circle cx="70" cy="120" r="20" fill="#FFFFFF"/>
+  <circle cx="130" cy="120" r="20" fill="#FFFFFF"/>
+
+</svg>

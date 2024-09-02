@@ -1,0 +1,16 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Owl's Realm Boundary -->
+  <path d="M10 10 H790 V590 H10 L10 10" stroke="black" fill="none"/>
+
+  <!-- Major Landmarks (color-coded) -->
+  <circle cx="200" cy="300" r="40" fill="#ffa500"/> <!-- Sun Peak -->
+  <circle cx="600" cy="200" r="30" fill="#00bfff"/> <!-- Moon Lake -->
+
+  <!-- Roads (color-coded) -->
+  <path d="M100 400 Q300 500 500 400 T700 400" stroke="#8B4513" fill="none"/>
+
+  <!-- Rivers (color-coded) -->
+  <path d="M200 450 Q400 350 600 450 T750 450" stroke="#00ced1" fill="none"/>
+
+</svg>

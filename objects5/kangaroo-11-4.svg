@@ -1,0 +1,23 @@
+<svg width="400px" height="300px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect id="body" x="50" y="175" width="150" height="100" style="fill: brown; stroke: black"/>
+  <animateMotion xlink:href="#body" begin="0s" dur="2s">
+    <mpath href="#M1"/>
+  </animateMotion>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="175" rx="75" ry="80" style="fill: lightbrown; stroke: black"/>
+  <animate attributeName="cy" from="300" to="175" begin="2s" dur="0.5s"/>
+
+  <!-- Left Leg -->
+  <rect x="-200" y="250" width="40" height="100" style="fill: brown; stroke: black"/>
+  <animate attributeName="x" from="-200" to="75" begin="3s" dur="1s"/>
+
+  <!-- Right Leg -->
+  <rect x="400" y="250" width="40" height="100" style="fill: brown; stroke: black"/>
+  <animate attributeName="x" from="400" to="225" begin="3s" dur="1s"/>
+
+  <!-- Path for body motion -->
+  <path id="M1" d="M0,0 H200 V300 H-200 Z" style="display:none"/>
+
+</svg>

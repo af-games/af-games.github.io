@@ -1,0 +1,17 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kangaroo's body -->
+  <rect x="100" y="50" width="300" height="400" fill="#8B4513"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="120" r="70" fill="#D2691E"/>
+  <path d="M200,120 Q150,70 100,150" stroke="#552C04" stroke-width="10" fill="transparent"/>
+
+  <!-- Pouch -->
+  <circle cx="280" cy="350" r="70" fill="#FDD900"/>
+  <path d="M280,350 Q320,400 360,350" stroke="#552C04" stroke-width="10" fill="transparent"/>
+
+  <!-- Limbs and tail -->
+  <path d="M170,270 Q130,330 100,380" stroke="#552C04" stroke-width="10" fill="transparent"/>
+  <path d="M290,270 Q330,330 360,380" stroke="#552C04" stroke-width="10" fill="transparent"/>
+  <path d="M250,270 Q220,330 190,380" stroke="#552C04" stroke-width="10" fill="transparent"/>
+</svg>

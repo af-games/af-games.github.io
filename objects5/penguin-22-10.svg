@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+<!-- Background -->
+<rect x="0" y="0" width="500" height="500" fill="url(#Gradient1)"/>
+
+<!-- Body -->
+<g id="penguinBody">
+  <rect x="175" y="200" width="150" height="300" fill="url(#Gradient2)"/>
+</g>
+
+<!-- Head -->
+<polygon points="240,80 190,160 260,160" fill="url(#Gradient3)"/>
+
+<!-- Eye (left) -->
+<circle cx="225" cy="120" r="10" fill="#FFFFFF"/>
+
+<!-- Eye (right) -->
+<circle cx="275" cy="120" r="10" fill="#FFFFFF"/>
+
+<!-- Beak -->
+<polygon points="230,80 260,80 245,90" fill="#FFD700"/>
+
+<!-- Feet (left) -->
+<path d="M195,370 Q200,390 210,370" stroke="#FFFFFF" fill="url(#Gradient4)"/>
+
+<!-- Feet (right) -->
+<path d="M285,370 Q280,390 295,370" stroke="#FFFFFF" fill="url(#Gradient4)"/>
+
+<!-- Gradient definitions -->
+
+<defs>
+  <linearGradient id="Gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(78,130,198);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+  </linearGradient>
+
+  <linearGradient id="Gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(247,236,95);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+  </linearGradient>
+
+  <linearGradient id="Gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:rgb(247,236,95);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+  </linearGradient>
+
+  <linearGradient id="Gradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(168,75,39);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+  </linearGradient>
+</defs>
+
+</svg>

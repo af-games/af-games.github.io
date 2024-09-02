@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="468" height="368">
+
+<!-- Quilt Background -->
+<rect x="50" y="50" width="400" height="300" fill="#f2f2f2"/>
+
+<!-- Border -->
+<rect x="48" y="48" width="416" height="316" stroke="#a9a9a9" stroke-width="2"/>
+
+<!-- Patches -->
+<g transform="translate(57, 57)">
+  <pattern id="p1" patternUnits="userSpaceOnUse">
+    <rect x="0" y="0" width="70" height="70" fill="#ff8c00"/>
+  </pattern>
+  <!-- Repeat similar patterns for other colors -->
+</g>
+
+<!-- Grid of Patches -->
+<g transform="translate(57, 57)">
+  <!-- Loop through rows and columns to create grid -->
+  <rect x="0" y="0" width="70" height="70" fill="url(#p1)"/>
+  <!-- Repeat similar rectangles for other patches -->
+
+  <!-- Add more rectangles here to complete the 5x5 grid -->
+</g>
+
+</svg>

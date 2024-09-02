@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outline -->
+  <rect x="100" y="50" width="600" height="400" style="fill:lightgrey;stroke:black"/>
+
+  <!-- Body -->
+  <path d="M170,200 Q300,150 450,200 Q300,250 170,200"
+        stroke="black" fill="tan" stroke-width="2"/>
+
+  <!-- Head -->
+  <circle cx="300" cy="160" r="80" stroke="black" fill="tan" stroke-width="2"/>
+  <circle cx="300" cy="150" r="40" stroke="black" fill="saddlebrown"/>
+
+  <!-- Eyes -->
+  <circle cx="250" cy="140" r="10" stroke="black" fill="white"/>
+  <circle cx="350" cy="140" r="10" stroke="black" fill="white"/>
+
+  <!-- Mane -->
+  <path d="M180,90 Q250,70 300,90 Q350,70 420,90"
+        stroke="black" fill="goldenrod" stroke-width="2"/>
+
+  <!-- Legs -->
+  <path d="M160,280 L200,350 L300,350 Z"
+        stroke="black" fill="tan"/>
+  <path d="M400,280 L440,350 L300,350 Z"
+        stroke="black" fill="tan"/>
+
+  <!-- Tail -->
+  <path d="M370,290 Q410,310 450,290"
+        stroke="black" fill="tan"/>
+</svg>

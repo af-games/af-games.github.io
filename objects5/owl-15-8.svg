@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 140">
+  <!-- Outer Outline -->
+  <path d="M50,70 Q60,50 80,20 L150,40 Q140,50 130,90 Z" fill="transparent" stroke="#000" stroke-width="10"/>
+
+  <!-- Inner Outline -->
+  <path d="M55,75 Q65,60 85,35 L145,55 Q145,70 135,95 Z" fill="transparent" stroke="#4A4A4A" stroke-width="5"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon envelope -->
+  <g id="balloon" transform="translate(150, 250)">
+    <path d="M0,-100 Q50,-50 100,0 Q50,50 0,100" fill="#FFD700"/>
+  </g>
+
+  <!-- Basket -->
+  <g id="basket" transform="translate(150, 350)">
+    <rect width="80" height="40" rx="20" fill="#CD7F32"/>
+  </g>
+
+  <!-- Burning flame (optional) -->
+  <g id="flame" transform="translate(160, 220) rotate(-15)">
+    <path d="M-10,-20 Q-5,-40 -10,-60 Q5,-40 -10,-20" fill="#FF7F27"/>
+  </g>
+
+  <!-- Animation example: moving the balloon up and down -->
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="150,250"
+    to="150,300"
+    begin="0s"
+    dur="2s"
+    repeatCount="indefinite"
+    id="balloonAnimation"/>
+
+  <!-- Animation example: rotating the flame -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0"
+    to="360"
+    begin="1s"
+    dur="4s"
+    repeatCount="indefinite"
+    centerX="150" centerY="250"
+    id="flameAnimation"/>
+</svg>

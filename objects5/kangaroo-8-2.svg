@@ -1,0 +1,14 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M10,20 Q50,0 90,20 Q70,40 100,60" fill="#8B4513"/>
+
+  <!-- Head -->
+  <ellipse cx="50" cy="60" rx="20" ry="30" fill="#8B4513"/>
+
+  <!-- Legs -->
+  <rect x="70" y="100" width="40" height="80" fill="#8B4513"/>
+  <rect x="90" y="120" width="40" height="60" fill="#8B4513"/>
+
+  <!-- Pouch -->
+  <path d="M110,70 Q120,80 110,90 Q100,80 110,70" fill="#FFA500"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake -->
+  <path d="M150 50 Q175 0 250 50 Q325 0 400 50 Q375 0 450 50 A50 50 0 0 1 450 150 L400 300 Q375 350 325 400 H150 Z" fill="lightgray"/>
+
+  <!-- Icing tributaries -->
+  <path d="M250 100 Q280 75 300 100 Q320 75 330 100 A20 20 0 0 1 330 120 L320 200 Q320 225 300 200 Z" fill="lightblue"/>
+  <path d="M180 120 Q200 90 220 120 Q240 90 260 120 A20 20 0 0 1 260 140 L240 250 Q240 270 220 250 Z" fill="lightblue"/>
+
+  <!-- Candles -->
+  <circle cx="350" cy="375" r="5" fill="yellow"/>
+  <circle cx="380" cy="375" r="5" fill="yellow"/>
+  <path d="M345 365 L355 365 L350 390 Z" stroke="black" fill="transparent"/>
+
+</svg>

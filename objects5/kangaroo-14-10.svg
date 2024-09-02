@@ -1,0 +1,19 @@
+<svg width="300" height="600">
+     <!-- Body -->
+     <ellipse cx="150" cy="200" rx="80" ry="100" style="fill:#F7941E"/>
+
+     <!-- Head and Ears -->
+     <circle cx="130" cy="170" r="40" style="fill:#F7941E"/>
+     <path d="M150 150 Q160 130, 170 170 t-20 0"/>
+
+     <!-- Pouch -->
+     <ellipse cx="150" cy="280" rx="60" ry="80" style="fill:#586C32"/>
+
+     <!-- Legs -->
+     <line x1="130" y1="300" x2="140" y2="400"/>
+     <line x1="170" y1="300" x2="160" y2="400"/>
+     <line x1="150" y1="450" x2="150" y2="550"/>
+
+     <!-- Tail -->
+     <rect width="20" height="80" x="130" y="370" style="fill:#F7941E"/>
+   </svg>

@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="ocean-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50; stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#0D58A9; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Ocean waves -->
+  <path d="M0,200 Q200,300 400,200 Q600,100 800,200" fill="#FFFFFF" stroke="#0D58A9"/>
+
+  <!-- Mermaid body & tail -->
+  <path d="M400,200 Q350,150 400,100 Q450,150 400,200" fill="#FFD6E5"/>
+  <path d="M400,200 Q450,180 470,200 Q430,220 400,200" fill="#2193B0"/>
+
+  <!-- Mermaid hair/tail -->
+  <path d="M400,200 Q300,300 500,300 Q600,200 700,300" stroke="#2193B0" fill="transparent"/>
+
+</svg>

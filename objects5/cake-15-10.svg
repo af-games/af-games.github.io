@@ -1,0 +1,19 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="60" y="180" width="80" height="70" fill="#FDD9B5" rx="20"/>
+
+  <!-- Upper Cake Layer -->
+  <rect x="40" y="130" width="120" height="50" fill="#E6BE8A" rx="20"/>
+
+  <!-- Frosting -->
+  <path d="M60 90 Q70 70, 90 90 T110 90 Q120 70, 140 90" fill="#FFFFFF"/>
+
+  <!-- Cherry Topping -->
+  <circle cx="115" cy="80" r="8" fill="#FF4500"/>
+
+  <!-- Icing Lines -->
+  <path d="M65 90 Q75 80, 85 90" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M135 90 Q125 80, 115 90" stroke="#FFFFFF" stroke-width="2"/>
+
+</svg>

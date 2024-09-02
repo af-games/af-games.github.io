@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Bell (top) -->
+  <circle cx="0" cy="-30" r="30"
+          fill="#84b6ec" fill-opacity="0.8"
+          stroke="#fff" stroke-width="2"/>
+
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <path d="M-15,-15 Q0,-25 15,-15 T30,-15"
+          fill="none" stroke="#84b6ec" stroke-width="4"/>
+    <use href="#tentacles" x="-45" y="0" transform="rotate(40)"/>
+    <use href="#tentacles" x="-30" y="0" transform="rotate(120)"/>
+    <use href="#tentacles" x="30" y="0" transform="rotate(-120)"/>
+    <use href="#tentacles" x="45" y="0" transform="rotate(-40)"/>
+  </g>
+
+  <!-- Shadows -->
+  <circle cx="0" cy="-30" r="35"
+          fill="none" stroke="#fff" stroke-width="2"
+          stroke-opacity="0.5"/>
+  <path d="M-15,-15 Q0,-25 15,-15 T30,-15"
+        fill="none" stroke="#fff" stroke-width="2"
+        stroke-opacity="0.5" transform="translate(0, -5)"/>
+
+</svg>

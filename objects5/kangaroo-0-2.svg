@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Body -->
+  <ellipse cx="200" cy="300" rx="180" ry="200"
+           fill="url(#bodyGradient)" />
+
+  <!-- Limbs -->
+  <path d="M160,340 v70 M240,340 v70"
+        stroke="black" fill="transparent"/>
+
+  <!-- Head and ears -->
+  <circle cx="200" cy="250" r="80"
+          fill="url(#headGradient)" />
+  <polygon points="160,220 240,220 200,170"
+           fill="darkbrown"/>
+
+  <!-- Tail -->
+  <path d="M190,350 Q230,420 180,470"
+        stroke="black" fill="transparent"/>
+
+  <!-- Pouch -->
+  <rect x="160" y="280" width="80" height="80"
+        fill="url(#pouchGradient)" />
+
+  <!-- Eyes -->
+  <circle cx="180" cy="240" r="15" fill="white"/>
+  <circle cx="220" cy="240" r="15" fill="white"/>
+  <circle cx="180" cy="240" r="5" fill="black"/>
+  <circle cx="220" cy="240" r="5" fill="black"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(180,135,90);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(140,105,70);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(200,150,110);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(160,120,90);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="pouchGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(230,210,180);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(190,170,150);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

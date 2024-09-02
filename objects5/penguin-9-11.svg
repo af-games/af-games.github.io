@@ -1,0 +1,32 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="250" fill="#F4D03F" />
+
+  <!-- Body -->
+  <ellipse cx="100" cy="180" rx="90" ry="70" fill="url(#penguinBodyGradient)" />
+  <circle cx="100" cy="250" r="90" fill="#F4D03F" />
+
+  <!-- Head -->
+  <path d="M60 80 Q100 60, 140 80 Q100 100, 60 80" fill="#457B9D">
+    <animate attributeName="d" dur="2s" repeatCount="indefinite" from="M60 80 Q100 60, 140 80 Q100 100, 60 80" to="M50 75 Q100 55, 150 75 Q100 95, 50 75" />
+  </path>
+
+  <!-- Eyes -->
+  <circle cx="80" cy="70" r="10" fill="#fff" />
+  <circle cx="120" cy="70" r="10" fill="#fff" />
+
+  <!-- Beak -->
+  <path d="M95 60 Q110 40, 125 60 Q110 80, 95 60" fill="#FFD700" />
+
+  <!-- Legs -->
+  <rect x="80" y="210" width="40" height="40" fill="#457B9D" />
+  <rect x="120" y="210" width="40" height="40" fill="#457B9D" />
+
+  <!-- Gradient for body -->
+  <defs>
+    <linearGradient id="penguinBodyGradient" gradientTransform="rotate(45)">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+  </defs>
+</svg>

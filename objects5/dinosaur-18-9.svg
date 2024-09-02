@@ -1,0 +1,43 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dinosaur Body -->
+  <rect id="dinosaurBody" width="50%" height="70%" fill="#228B22" rx="10"/>
+
+  <!-- Dinosaur Tail -->
+  <path id="dinosaurTail" d="M400,350 Q450,250 500,350" stroke="#9A632E" fill="transparent"/>
+
+  <!-- Clothing Pieces -->
+
+  <!-- Shirt -->
+  <rect id="shirt" width="40%" height="15%" y="10%" fill="url(#hatchingPattern)" rx="5"/>
+  <use xlink:href="#shirt" transform="translate(20, 30) scale(.8)"/>
+
+  <!-- Vest -->
+  <rect id="vest" width="30%" height="10%" y="20%" fill="#9A632E" rx="5"/>
+  <use xlink:href="#vest" transform="translate(35, 40) scale(.8)"/>
+
+  <!-- Belt -->
+  <rect id="belt" width="15%" height="5%" y="30%" fill="#F7DC6F" rx="2.5"/>
+  <use xlink:href="#belt" transform="translate(20, 40) scale(.8)"/>
+
+  <!-- Accessories -->
+
+  <!-- Footprint Brooch -->
+  <circle id="footprintBrooch" cx="350" cy="150" r="10" fill="url(#footprintPattern)" stroke="#000"/>
+  <use xlink:href="#footprintBrooch" transform="translate(40, -20) scale(.6)"/>
+
+  <!-- Pattern Definitions -->
+
+  <!-- Hatching Pattern -->
+  <defs>
+    <pattern id="hatchingPattern" patternUnits="userSpaceOnUse" width="15" height="15">
+      <path d="M0,0 L15,15 M15,0 L0,15" stroke="#9A632E" fill="transparent"/>
+    </pattern>
+  </defs>
+
+  <!-- Footprint Pattern -->
+  <pattern id="footprintPattern" patternUnits="userSpaceOnUse" width="20" height="20">
+    <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w3cPF19eX3MAAB" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w3cPF19eX3MAAB" width="20" height="20"/>
+  </pattern>
+
+</svg>

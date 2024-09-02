@@ -1,0 +1,26 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="350" width="800" height="150" style="fill: darkgreen; stroke-width: 0;" />
+
+  <!-- Water Gradient -->
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color: lightblue;" />
+      <stop offset="50%" style="stop-color: darkblue;" />
+    </linearGradient>
+  </defs>
+
+  <!-- Nurse Sharks -->
+  <ellipse cx="400" cy="150" rx="70" ry="30" style="fill: gray; stroke-width: 2;" />
+  <ellipse cx="600" cy="100" rx="80" ry="30" style="fill: gray; stroke-width: 2;" z-index="-1" />
+
+  <!-- Supporting Roles -->
+  <circle cx="150" cy="200" r="5" style="fill: orange; stroke-width: 0;" />
+  <circle cx="250" cy="250" r="5" style="fill: orange; stroke-width: 0;" z-index="-1" />
+
+  <ellipse cx="300" cy="220" rx="30" ry="15" style="fill: darkgreen; stroke-width: 2;" />
+  <ellipse cx="550" cy="170" rx="35" ry="18" style="fill: darkgreen; stroke-width: 2;" z-index="-1" />
+
+  <!-- Water -->
+  <rect width="800" height="400" fill="url(#waterGradient)" />
+</svg>

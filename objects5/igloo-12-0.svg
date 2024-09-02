@@ -1,0 +1,17 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="60%" fill="#87CEEB"/>
+
+  <!-- Igloo Wall - Outer -->
+  <circle cx="250" cy="200" r="180" fill="#FFFFFF"/>
+  <!-- Igloo Wall - Inner (shading) -->
+  <circle cx="250" cy="200" r="170" fill="#DCDCDC"/>
+
+  <!-- Igloo Door -->
+  <rect x="230" y="240" width="40" height="80" fill="#000000"/>
+
+  <!-- Snow -->
+  <circle cx="50" cy="400" r="5" fill="#FFFFFF"/>
+  <circle cx="150" cy="380" r="5" fill="#FFFFFF"/>
+  <circle cx="350" cy="420" r="5" fill="#FFFFFF"/>
+</svg>

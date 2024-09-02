@@ -1,0 +1,48 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fairy's body -->
+  <circle cx="100" cy="150" r="30" fill="pink">
+
+    <!-- Fairy's face -->
+    <circle cx="90" cy="140" r="5" fill="black"/>
+    <circle cx="110" cy="140" r="5" fill="black"/>
+
+  </circle>
+
+  <!-- Fairy's wand -->
+  <rect x="80" y="120" width="20" height="30" fill="gold">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0"
+      to="45"
+      repeatCount="indefinite"
+      dur="1s"
+    />
+  </rect>
+
+  <!-- Fairy's wings -->
+  <path d="M120 130 Q140 90 160 130" fill="lightgreen">
+    <animateTransform
+      attributeName="transform"
+      type="scale"
+      from="1"
+      to="1.5"
+      repeatCount="indefinite"
+      dur="2s"
+    />
+  </path>
+
+  <!-- Fairy's hair -->
+  <polygon points="80,90 120,70 160,90" fill="brown"/>
+
+  <!-- Fairy floats upwards -->
+  <animate
+    attributeName="cy"
+    from="150"
+    to="40"
+    repeatCount="indefinite"
+    dur="4s"
+    begin="0s; wand.begin; wings.begin"
+  />
+
+</svg>

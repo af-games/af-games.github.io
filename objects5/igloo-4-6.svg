@@ -1,0 +1,46 @@
+<svg width="600" height="720" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Background -->
+  <rect width="600" height="720" fill="#fff"/>
+
+  <!-- Mannequin -->
+  <ellipse cx="300" cy="660" rx="300" ry="450" fill="#f8f9fa"/>
+  <path d="M300,150 Q450,250 600,400 H0 Z" stroke="#333" fill="none"/>
+
+  <!-- Igloo Jacket Pattern Pieces -->
+
+  <!-- Bodice -->
+  <rect x="270" y="180" width="460" height="390" fill="url(#jacketGrad)" stroke="#333"/>
+  <polygon points="630,180 630,570 310,570 310,180" fill="none" stroke="#333"/>
+
+  <!-- Sleeves -->
+  <circle cx="270" cy="450" r="150" fill="url(#sleevePattern)" stroke="#333"/>
+  <circle cx="630" cy="450" r="150" fill="url(#sleevePattern)" stroke="#333"/>
+
+  <!-- Collar -->
+  <path d="M270,180 Q450,90 630,180 T630,270 Z" fill="#fff" stroke="#333"/>
+
+  <!-- Hem -->
+  <path d="M270,660 Q450,720 630,660 T630,570 Z" fill="#fff" stroke="#333"/>
+
+  <!-- Shoulder Pieces -->
+  <polygon points="310,90 450,180 310,270" fill="url(#shoulderPattern)" stroke="#333"/>
+  <polygon points="630,90 450,180 630,270" fill="url(#shoulderPattern)" stroke="#333"/>
+
+  <!-- Gradients and Patterns -->
+  <defs>
+    <linearGradient id="jacketGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="780">
+      <stop offset="0%" stop-color="#4caf50"/>
+      <stop offset="100%" stop-color="#28a745"/>
+    </linearGradient>
+
+    <pattern id="sleevePattern" patternUnits="userSpaceOnUse" width="30" height="30">
+      <circle cx="15" cy="15" r="15" fill="#fff" stroke="#333"/>
+    </pattern>
+
+    <pattern id="shoulderPattern" patternUnits="userSpaceOnUse" width="60" height="60">
+      <rect x="0" y="0" width="60" height="60" fill="url(#jacketGrad)"/>
+      <polygon points="30,0 60,30 30,60" fill="#fff" stroke="#333"/>
+    </pattern>
+  </defs>
+
+</svg>

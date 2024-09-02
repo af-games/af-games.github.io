@@ -1,0 +1,37 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="300" height="250" fill="#F5DEB3"/>
+
+<!-- Body -->
+<ellipse cx="150" cy="70" rx="70" ry="65" fill="#8B4513"/>
+<path d="M90,70 Q150,80 210,70 Q150,60 90,70" stroke="black" fill="transparent"/>
+
+<!-- Legs -->
+<ellipse cx="75" cy="140" rx="10" ry="20" fill="#8B4513"/>
+<ellipse cx="30" cy="160" rx="10" ry="20" fill="#8B4513"/>
+<ellipse cx="135" cy="160" rx="10" ry="20" fill="#8B4513"/>
+<ellipse cx="180" cy="140" rx="10" ry="20" fill="#8B4513"/>
+
+<!-- Tail -->
+<polyline points="210,70 220,60 230,70 235,80 245,70" stroke="black" fill="transparent"/>
+
+<!-- Head -->
+<ellipse cx="90" cy="50" rx="30" ry="45" fill="#FFDFBA">
+  <!-- Mane -->
+  <rect x="65" y="35" width="10" height="20"/>
+  <rect x="75" y="35" width="10" height="25"/>
+  <rect x="85" y="40" width="10" height="20"/>
+</ellipse>
+
+<!-- Eyes -->
+<circle cx="90" cy="60" r="5" fill="black"/>
+<circle cx="100" cy="60" r="5" fill="black"/>
+
+<!-- Nose -->
+<polygon points="100,75 110,75 105,85"/>
+
+<!-- Mouth -->
+<path d="M95,72 Q105,80 95,88" stroke="black" fill="transparent"/>
+
+</svg>

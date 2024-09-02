@@ -1,0 +1,27 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Body -->
+  <path d="M100 50 Q140 20, 160 80 Q140 140, 100 120 Q60 140, 40 80" fill="#9db7cf">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite" from="M100 50 Q140 20, 160 80 Q140 140, 100 120 Q60 140, 40 80"
+             to="M90 55 Q130 15, 150 75 Q130 155, 90 115 Q50 155, 10 80"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Fin -->
+  <path d="M90 80 Q70 100, 90 120" fill="#9db7cf"/>
+
+  <!-- Tail -->
+  <polygon points="160,80 180,100 140,100" fill="#9db7cf"/>
+
+  <!-- Eye -->
+  <circle cx="85" cy="65" r="10" fill="#fff">
+    <animate attributeName="cy" dur="2s" repeatCount="indefinite" from="65" to="75"/>
+  </circle>
+
+  <!-- Gradient for shading -->
+  <linearGradient id="sharkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#8496a5; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#3b4c5f; stop-opacity:1"/>
+  </linearGradient>
+
+</svg>

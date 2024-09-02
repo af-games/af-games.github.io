@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#d1e7dd"/>
+
+  <!-- Grass -->
+  <path d="M0,590 Q200,640 400,590 Q600,640 800,590" stroke="#3D7D5C" fill="none" stroke-width="10"/>
+
+  <!-- Trees -->
+  <g transform="translate(100,400)">
+    <circle cx="0" cy="-120" r="60" fill="#8B4513"/>
+    <path d="M0,-60 Q-50,-180 -50,-250 L0,-300 Z" stroke="#8B4513" fill="#9ACD32" stroke-width="5"/>
+  </g>
+  <use xlink:href="#tree" x="250"/>
+
+  <!-- Fairy -->
+  <g transform="translate(400,300)">
+    <!-- Body -->
+    <path d="M100,75 A75,75 0 1,0 -100,75 A75,75 0 1,0 100,75" fill="#FFCDE8"/>
+
+    <!-- Hair -->
+    <polygon points="-30,-200, 30,-200, 0,-100" fill="#FFCDE8"/>
+
+    <!-- Face -->
+    <circle cx="0" cy="-140" r="60" fill="#FFF5F7"/>
+    <circle cx="0" cy="-140" r="30" fill="#FF9FA2"/>
+
+    <!-- Wings -->
+    <path d="M-80,-160 Q0,-200 80,-160 Q0,-120 -80,-160 Z" fill="#FFCDE8"/>
+    <path d="M-50,-140 Q0,-180 50,-140 Q20,-160 -50,-140 Z" fill="#FFF5F7"/>
+
+    <!-- Arms -->
+    <path d="M-30,-90 L0,-50 Z" stroke="#FF9FA2" fill="none" stroke-width="5"/>
+    <path d="M30,-90 L0,-50 Z" stroke="#FF9FA2" fill="none" stroke-width="5"/>
+  </g>
+
+  <!-- Define tree pattern for use -->
+  <defs>
+    <g id="tree">
+      <circle cx="0" cy="-120" r="60" fill="#8B4513"/>
+      <path d="M0,-60 Q-50,-180 -50,-250 L0,-300 Z" stroke="#8B4513" fill="#9ACD32" stroke-width="5"/>
+    </g>
+  </defs>
+</svg>

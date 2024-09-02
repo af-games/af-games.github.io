@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Body -->
+  <circle cx="0" cy="0" r="40" fill="url(#bodyGradient)"/>
+  <rect x="-10" y="30" width="20" height="20" fill="#fff"/>
+
+  <!-- Head -->
+  <circle cx="0" cy="-30" r="35" fill="url(#headGradient)"/>
+
+  <!-- Wings -->
+  <rect x="-40" y="10" width="80" height="20" rx="10" fill="#add8e6"/>
+  <rect x="-40" y="70" width="80" height="20" rx="10" fill="#add8e6"/>
+
+  <!-- Belly -->
+  <rect x="-30" y="50" width="60" height="20" fill="#fff"/>
+
+  <!-- Beak -->
+  <path d="M -45,-40 L -25,-35 L 0,-40 Z" fill="#ffa500"/>
+  <circle cx="-30" cy="-40" r="10" fill="#ffa500"/>
+
+  <!-- Eyes -->
+  <circle cx="-15" cy="-35" r="5" fill="#fff"/>
+  <circle cx="15" cy="-35" r="5" fill="#fff"/>
+  <circle cx="-15" cy="-35" r="2.5" fill="#000"/>
+  <circle cx="15" cy="-35" r="2.5" fill="#000"/>
+
+  <!-- Legs -->
+  <rect x="-8" y="0" width="2" height="40" fill="#696969"/>
+  <rect x="8" y="0" width="2" height="40" fill="#696969"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" gradientUnits="userSpaceOnUse" x1="-50" y1="0" x2="50" y2="0">
+      <stop offset="0%" stop-color="#3d768c"/>
+      <stop offset="100%" stop-color="#004a59"/>
+    </linearGradient>
+    <linearGradient id="headGradient" gradientUnits="userSpaceOnUse" x1="-50" y1="-70" x2="50" y2="0">
+      <stop offset="0%" stop-color="#3d768c"/>
+      <stop offset="100%" stop-color="#004a59"/>
+    </linearGradient>
+  </defs>
+
+</svg>

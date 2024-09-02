@@ -1,0 +1,18 @@
+<svg width="800" height="1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bodice -->
+  <path d="M400,50 Q450,75 500,125 Q450,175 400,225 Q250,175 100,125 Q150,75 400,50 Z" fill="pink" stroke="black"/>
+
+  <!-- Balloon poufs -->
+  <circle cx="350" cy="350" r="150" fill="pink"/>
+  <circle cx="450" cy="350" r="150" fill="pink"/>
+
+  <!-- Beads/Sequins on bodice and balloon poufs -->
+  <circle cx="275" cy="85" r="5" fill="gold"/>
+  <circle cx="325" cy="85" r="5" fill="gold"/>
+  <!-- ... continue adding beads/sequins as desired ... -->
+
+  <!-- Skirt layers -->
+  <ellipse cx="400" cy="600" rx="175" ry="250" fill="pink" stroke="black"/>
+  <ellipse cx="400" cy="650" rx="150" ry="225" fill="pink" stroke="black"/>
+  <!-- ... continue adding skirt layers as desired ... -->
+</svg>

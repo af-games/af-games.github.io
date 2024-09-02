@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -5 90 40">
+  <!-- Drums (circles) -->
+  <circle cx="5" cy="-3" r="3" fill="lightblue"/>
+  <text x="5" y="-7" font-family="Verdana" font-size="8">1/8</text>
+  <circle cx="20" cy="-3" r="4.5" fill="lightblue"/>
+  <text x="20" y="-7" font-family="Verdana" font-size="8">1/8</text>
+
+  <!-- Violins (rectangles) -->
+  <rect width="15" height="6" x="30" y="2.5" fill="lightgreen"/>
+  <text x="35" y="7" font-family="Verdana" font-size="8">1/4</text>
+  <rect width="12" height="4.5" x="50" y="2.5" fill="lightgreen"/>
+  <text x="55" y="7" font-family="Verdana" font-size="8">1/4</text>
+
+  <!-- Guitars (paths) -->
+  <path d="M60,0 Q65,5 70,0" stroke="black" fill="transparent"/>
+  <text x="62.5" y="3" font-family="Verdana" font-size="8">1/4</text>
+  <path d="M75,0 Q80,5 85,0" stroke="black" fill="transparent"/>
+  <text x="77.5" y="3" font-family="Verdana" font-size="8">1/4</text>
+
+  <!-- Repeat -->
+  <use href="#repeat" x="90"/>
+
+  <!-- Dynamics (color) -->
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1"/>
+  </linearGradient>
+</svg>

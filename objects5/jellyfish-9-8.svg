@@ -1,0 +1,36 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Plate -->
+  <path fill="#FFFBD5" d="M100,300 Q150,320 200,300 Q250,320 300,300 Q350,320 400,300 Z"/>
+
+  <!-- Jellyfish -->
+  <g transform="translate(180,160)">
+    <!-- Bell-shaped body -->
+    <path fill="#C9EDF7" d="M0,-50 A50,50 0 0 1 100,50 Z"/>
+    <!-- Tentacles -->
+    <g stroke="#34A8D6" stroke-width="2">
+      <path d="M5,5 L-10,100"/>
+      <path d="M15,5 L10,-100"/>
+      <path d="M25,5 L20,-70"/>
+      <path d="M35,5 L30,-40"/>
+    </g>
+  </g>
+
+  <!-- Wasabi paste -->
+  <circle cx="80" cy="210" r="15" fill="#CACFD2"/>
+
+  <!-- Soy sauce drizzle -->
+  <polygon points="60,220 70,230 80,220" fill="#5F270D">
+
+  <!-- Garnish: Ginger slices -->
+  <g transform="translate(40,210)">
+    <rect width="20" height="10" rx="5" fill="#F4A460"/>
+    <path d="M0,5 L20,5 Z" stroke="#FFFBD5" stroke-width="3"/>
+  </g>
+
+  <!-- Chopsticks -->
+  <g transform="translate(30,280)">
+    <rect width="10" height="70" rx="5" fill="#B5651D"/>
+    <path d="M10,-35 L-10,-35 Z" stroke="#FFFBD5" stroke-width="3"/>
+  </g>
+
+</svg>

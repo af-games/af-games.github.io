@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 100 90">
+  <path d="M0,-10 A80,80 0 1,1 0,70 L-40,60 L40,60 Z"/>
+  <path d="M0,-10 Q-5,-2 5,-2 Q-5,-5 0,-10"/>
+  <circle cx="0" cy="-30" r="15" fill="orange">
+    <animateMotion repeatCount="indefinite">
+      <mpath href="#hairPath"/>
+    </animateMotion>
+  </circle>
+</svg>

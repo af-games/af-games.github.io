@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <defs>
+    <!-- Dolphin shapes -->
+    <path id="dolphinPose1" d="M...Z"/> <!-- Underwater pose -->
+    <path id="dolphinPose2" d="M...Z"/> <!-- Starting to jump -->
+    <path id="dolphinPose3" d="M...Z"/> <!-- Fully jumping -->
+
+    <!-- Dolphin colors -->
+    <linearGradient id="dolphinGradient" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#87cefa"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+
+  <use href="#dolphinPose1" fill="url(#dolphinGradient)">
+    <!-- Pose animations -->
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="0,0"
+      to="50,-40"
+      begin="0s"
+      dur="2s"
+      repeatCount="indefinite"
+      id="animation1"/>
+  </use>
+
+  <!-- Repeat the animation with different poses -->
+  <use href="#dolphinPose2" fill="url(#dolphinGradient)">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="50,-40"
+      to="75,-30"
+      begin="animation1.end + 1s"
+      dur="1.5s"/>
+  </use>
+
+  <use href="#dolphinPose3" fill="url(#dolphinGradient)">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="75,-30"
+      to="90,0"
+      begin="animation2.end + 1s"
+      dur="1.5s"/>
+  </use>
+</svg>

@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle parts definitions -->
+  <g id="castle">
+    ...
+  </g>
+  ...
+
+  <!-- Animation paths and triggers -->
+  <path id="wavePath" d="M10,50 Q90,75 180,50 Q90,25 10,50"/>
+
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0, doorHeight"
+    to="0, 0"
+    dur="5s"
+    begin="0s"
+    repeatCount="1"
+    id="doorOpenAnimation"
+  />
+  ...
+
+</svg>

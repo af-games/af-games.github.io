@@ -1,0 +1,25 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="110" cy="150" rx="90" ry="180" fill="#A9A9A9"/>
+
+  <!-- Head -->
+  <ellipse cx="70" cy="50" rx="40" ry="60" fill="#A9A9A9"/>
+
+  <!-- Arms -->
+  <rect x="60" y="120" width="30" height="80" fill="#A9A9A9"/>
+  <rect x="90" y="120" width="30" height="80" fill="#A9A9A9"/>
+
+  <!-- Legs -->
+  <rect x="40" y="220" width="60" height="80" fill="#A9A9A9"/>
+  <rect x="130" y="220" width="60" height="80" fill="#A9A9A9"/>
+
+  <!-- Tail -->
+  <rect x="60" y="300" width="80" height="30" fill="#A9A9A9"/>
+
+  <!-- Face -->
+  <circle cx="80" cy="45" r="10" fill="#000000"/>
+  <circle cx="95" cy="45" r="10" fill="#000000"/>
+  <ellipse cx="90" cy="70" rx="20" ry="5" fill="#000000"/>
+
+</svg>

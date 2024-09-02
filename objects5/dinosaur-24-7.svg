@@ -1,0 +1,40 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#8BC34A"/>
+```
+
+2. **Plant the seeds (initial shapes)**:
+   - For the T-Rex, we'll start with a simple body shape.
+```xml
+<path id="T-RexBody" d="M100 300 Q150 250, 200 250 Q250 270, 300 250 Q350 250, 400 300"/>
+```
+
+3. **Water and nurture the seeds (apply transformations)**:
+   - Add head by rotating the body.
+```xml
+<use xlink:href="#T-RexBody" transform="translate(350, 150) rotate(-20)"/>
+```
+   - Create arms by scaling and translating the body.
+```xml
+<use xlink:href="#T-RexBody" transform="translate(70, 280) scale(.6)" fill="none" stroke="#000"/>
+<use xlink:href="#T-RexBody" transform="translate(430, 280) scale(.6) rotate(180)"/>
+```
+
+4. **Plant more seeds (create additional features)**:
+   - Add legs by translating the body.
+```xml
+<path id="T-RexLeg" d="M50 370 Q100 400, 150 420 Q200 450, 250 480"/>
+<use xlink:href="#T-RexLeg" transform="translate(300, 480)"/>
+```
+
+5. **Prune where necessary (remove unused elements/attributes)**:
+   - We'll remove the original T-Rex body path as it's not needed.
+
+6. **Write out the SVG code**:
+```xml
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="500" fill="#8BC34A"/>
+  <path id="T-RexBody" d="M100 300 Q150 250, 200 250 Q250 270, 300 250 Q350 250, 400 300"/>
+  <use xlink:href="#T-RexBody" transform="translate(350, 150) rotate(-20)"/>
+  <path id="T-RexLeg" d="M50 370 Q100 400, 150 420 Q200 450, 250 480"/>
+  <use xlink:href="#T-RexLeg" transform="translate(300, 480)"/>
+</svg>

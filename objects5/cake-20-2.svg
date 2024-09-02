@@ -1,0 +1,22 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Body -->
+  <circle cx="150" cy="150" r="100" fill="#FDD78C" stroke="black"/>
+
+  <!-- Topping and Candles -->
+  <circle cx="150" cy="60" r="30" fill="#FFFFFF"/>
+  <circle cx="120" cy="40" r="5" fill="#FFCC00"/>
+  <circle cx="140" cy="40" r="5" fill="#FFCC00"/>
+  <circle cx="160" cy="40" r="5" fill="#FFCC00"/>
+
+  <!-- Flowers -->
+  <circle cx="90" cy="230" r="20" fill="#FF8A98">
+    <circle cx="95" cy="225" r="5" fill="#FFF"/>
+    <circle cx="105" cy="225" r="5" fill="#FFF"/>
+  </circle>
+
+  <circle cx="170" cy="230" r="20" fill="#FF8A98">
+    <circle cx="175" cy="225" r="5" fill="#FFF"/>
+    <circle cx="185" cy="225" r="5" fill="#FFF"/>
+  </circle>
+
+</svg>

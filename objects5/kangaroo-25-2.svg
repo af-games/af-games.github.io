@@ -1,0 +1,31 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="#FFF8DC"/>
+
+  <!-- Kangaroo Body -->
+  <ellipse cx="150" cy="200" rx="100" ry="150" fill="#C76F5B"/>
+  <ellipse cx="150" cy="130" rx="40" ry="60" fill="#A58979"/>
+
+  <!-- Ears -->
+  <oval cx="120" cy="110" rx="20" ry="30" fill="#A58979"/>
+  <oval cx="180" cy="110" rx="20" ry="30" fill="#A58979"/>
+
+  <!-- Legs -->
+  <line x1="120" y1="240" x2="120" y2="340" stroke="#7F6C5E"/>
+  <line x1="180" y1="240" x2="180" y2="340" stroke="#7F6C5E"/>
+  <line x1="90" y1="170" x2="120" y2="240" stroke="#7F6C5E"/>
+  <line x1="210" y1="170" x2="180" y2="240" stroke="#7F6C5E"/>
+
+  <!-- Tail -->
+  <path d="M150,240 Q130,290 150,340" stroke="#7F6C5E" fill="transparent"/>
+
+  <!-- Eye and Nostrils -->
+  <circle cx="145" cy="125" r="8" fill="#FFF"/>
+  <circle cx="135" cy="125" r="2" fill="#000"/>
+  <circle cx="155" cy="125" r="2" fill="#000"/>
+
+  <!-- Paws -->
+  <rect x="90" y="240" width="30" height="40" fill="#7F6C5E"/>
+  <rect x="210" y="240" width="30" height="40" fill="#7F6C5E"/>
+
+</svg>

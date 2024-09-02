@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sun -->
+  <circle cx="150" cy="80" r="70" fill="#FDB927"/>
+  <circle cx="150" cy="60" r="30" fill="#FFF46A"/>
+
+  <!-- Balloon Envelope (Organic shape) -->
+  <path d="M120,20 Q100,70 140,70 Q180,90 220,20" stroke="#FFC300" fill="#FFEBB5" stroke-width="2"/>
+
+  <!-- Balloon Basket (Geometric shapes) -->
+  <rect x="160" y="160" width="80" height="40" fill="#9ACD32"/>
+  <polygon points="170,200 210,200 190,180" fill="#9ACD32"/>
+
+  <!-- Balloon Strings (Lines) -->
+  <line x1="165" y1="40" x2="165" y2="160" stroke="#777"/>
+  <line x1="215" y1="40" x2="215" y2="160" stroke="#777"/>
+
+  <!-- Balloon Fin -->
+  <polygon points="185,30 215,10 165,10" fill="#FFC300"/>
+</svg>

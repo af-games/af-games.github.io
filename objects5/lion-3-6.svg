@@ -1,0 +1,23 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="200" fill="#FFD700" stroke="#333" stroke-width="1"/>
+
+  <!-- Lion's main body -->
+  <circle cx="100" cy="100" r="80" fill="#F59E6C"/>
+  <circle cx="120" cy="80" r="40" fill="#F59E6C"/>
+
+  <!-- Setting and gemstones -->
+  <rect x="30" y="30" width="140" height="140" fill="#7D26CD"/>
+  <circle cx="70" cy="70" r="30" fill="#FF69B4"/>
+  <circle cx="130" cy="70" r="30" fill="#FF69B4"/>
+
+  <!-- Lion's mane -->
+  <path d="M50,20 Q80,30 120,20 Q150,30 180,20" stroke="#FFD700" stroke-width="10" fill="transparent"/>
+
+  <!-- Lion's eyes and details -->
+  <circle cx="90" cy="60" r="10" fill="#FFFFFF"/>
+  <circle cx="110" cy="60" r="10" fill="#FFFFFF"/>
+  <path d="M85,70 Q95,80 105,70" stroke="#333" stroke-width="2" fill="transparent"/>
+
+</svg>

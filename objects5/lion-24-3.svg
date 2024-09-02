@@ -1,0 +1,24 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body outline -->
+  <path d="M100,150 Q150,75 250,150 Q350,225 450,150" stroke="black" fill="none"/>
+
+  <!-- Head -->
+  <circle cx="250" cy="75" r="50" stroke="black" fill="#F8D18C"/>
+
+  <!-- Eyes -->
+  <circle cx="210" cy="60" r="5" stroke="black" fill="white"/>
+  <circle cx="290" cy="60" r="5" stroke="black" fill="white"/>
+  <path d="M220,45 Q230,50 240,45" stroke="black"/>
+
+  <!-- Mane -->
+  <path d="M175,125 Q225,150 275,125 Q325,175 375,125" stroke="black" fill="#FFB973"/>
+
+  <!-- Legs -->
+  <rect x="80" y="200" width="40" height="100" rx="20" stroke="black" fill="#F8D18C"/>
+  <rect x="360" y="200" width="40" height="100" rx="20" stroke="black" fill="#F8D18C"/>
+
+  <!-- Tail -->
+  <path d="M400,250 Q450,300 500,275" stroke="black" fill="#FFB973"/>
+
+</svg>

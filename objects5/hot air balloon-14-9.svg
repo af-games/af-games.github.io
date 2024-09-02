@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Scene 1: Launch -->
+<g id="launch">
+  <circle cx="400" cy="250" r="75" fill="#FF7F27" stroke="#C35C00"/>
+  <path d="M350,350 Q375,150 400,250" stroke="#C35C00" fill="transparent"/>
+  <g id="crowd">
+    <circle cx="200" cy="250" r="20" fill="black"/>
+    <circle cx="250" cy="225" r="20" fill="black"/>
+    <!-- Add more villagers here -->
+  </g>
+</g>
+
+<!-- Scene 2: Flying Over Countryside -->
+<g id="countryside">
+  <path d="M0,350 Q100,450 200,350 Q300,250 400,350" stroke="#8B7D6B" fill="transparent"/>
+  <!-- Add trees and sun here -->
+</g>
+
+<!-- Scene 3: Storm -->
+<g id="storm">
+  <circle cx="500" cy="150" r="75" fill="#2F4F4F" stroke="#CACFD2"/>
+  <path d="M450,125 L550,175 Z" stroke="#FFFFFF" fill="transparent"/>
+</g>
+
+<!-- Scene 4: Lost at Sea -->
+<g id="sea">
+  <path d="M0,400 Q200,600 400,400" stroke="#0095DA" fill="transparent"/>
+  <!-- Add lighthouse and seagulls here -->
+</g>
+
+<!-- Scene 5: Rescue -->
+<g id="rescue">
+  <path d="M550,300 Q625,150 700,300" stroke="#2894FF" fill="transparent"/>
+  <!-- Add rescue crew and waving sailor here -->
+</g>
+
+<!-- Scene 6: Return Home -->
+<g id="return">
+  <circle cx="400" cy="250" r="75" fill="#FF7F27" stroke="#C35C00"/>
+  <!-- Add welcome banner and fireworks here -->
+</g>
+
+<!-- Text annotations -->
+<text x="10" y="30">Launch</text>
+<text x="200" y="450">Flying Over Countryside</text>
+<text x="475" y="125">Storm</text>
+<text x="600" y="425">Lost at Sea</text>
+<text x="675" y="300">Rescue</text>
+<text x="725" y="550">Return Home</text>
+
+</svg>

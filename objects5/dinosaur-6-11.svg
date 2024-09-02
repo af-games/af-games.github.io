@@ -1,0 +1,22 @@
+<svg width="500" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lily -->
+  <circle cx="50" cy="70" r="30" fill="lightblue"/>
+
+  <!-- School fence -->
+  <rect x="10" y="90" width="80" height="60" fill="gray"/>
+
+  <!-- Dino -->
+  <path d="M250,70 Q200,10 200,70 Q250,130 300,100 Q350,130 350,70" fill="green"/>
+
+  <!-- Tree -->
+  <polygon points="400,20 450,150 350,150" fill="brown"/>
+
+  <!-- Meeting spot -->
+  <ellipse cx="375" cy="90" rx="40" ry="20" fill="lightgreen"/>
+
+  <!-- Dialogue bubbles -->
+  <text x="60" y="85">Hi, I'm Lily! Can we be friends?</text>
+  <text x="260" y="110">Hello Lily! I'm Dino. I'd love to be your friend!</text>
+
+</svg>

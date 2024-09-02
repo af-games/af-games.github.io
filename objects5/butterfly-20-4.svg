@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Body -->
+  <path d="
+    M 0,-40
+    A 40,40 0 0 0 0,40
+    A 40,40 0 0 0 0,-40
+    Z"
+    fill="orange"/>
+
+  <!-- Wings -->
+  <path d="
+    M -35,-20 Q -60,-40 0,-70 Q 60,-40 35,-20
+    A 80,10 0 0 0 -35,-20 Z"
+    fill="orange"/>
+
+  <!-- Antennae -->
+  <path d="
+    M -25,40 Q -40,70 -25,90
+    M 25,40 Q 40,70 25,90"
+    stroke="black" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="-15" cy="15" r="5"/>
+  <circle cx="15" cy="15" r="5"/>
+</svg>

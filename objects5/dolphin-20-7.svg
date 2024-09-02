@@ -1,0 +1,33 @@
+<svg width="100%" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Stage Background -->
+  <rect x="0" y="0" width="100%" height="50%" fill="#081D42"/>
+  <linearGradient id="stageGradient" gradientTransform="rotate(90)">
+    <stop offset="0%"   stop-color="#3B67C2"/>
+    <stop offset="100%" stop-color="#0F2E75"/>
+  </linearGradient>
+  <rect x="0" y="0" width="100%" height="50%" fill="url(#stageGradient)"/>
+
+  <!-- Ocean Water -->
+  <circle cx="350" cy="450" r="200" fill="#2D68A9">
+    <animate attributeName="cy" dur="2s" values="450;470;450" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Main Action Area (Ocean Surface) -->
+  <rect x="10%" y="30%" width="80%" height="40%" fill="url(#oceanSurface)">
+    <linearGradient id="oceanSurface" gradientTransform="rotate(90)">
+      <stop offset="0%"   stop-color="#42A5F5"/>
+      <stop offset="100%" stop-color="#0867C2"/>
+    </linearGradient>
+  </rect>
+
+  <!-- Dolphin -->
+  <path d="M350 370 Q330 390, 370 420 Q410 390, 390 370" fill="#4E86D1">
+    <animate attributeName="d" dur="2s" values="M350 370 Q330 390, 370 420 Q410 390, 390 370; M380 360 Q360 380, 390 420 Q420 380, 390 350" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Interactive Props: Seaweed -->
+  <g id="seaweedGroup">
+    <line x1="20%" y1="75%" x2="40%" y2="85%" stroke="#6EBB9C" stroke-width="3"/>
+    <line x1="35%" y1="80%" x2="45%" y2="70%" stroke="#6EBB9C" stroke-width="3"/>
+  </g>
+</svg>

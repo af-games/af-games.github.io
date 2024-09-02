@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+<!-- Background gradient -->
+<defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:lightblue;stop-opacity:1"/>
+        <stop offset="100%" style="stop-color:white;stop-opacity:1"/>
+    </linearGradient>
+</defs>
+
+<rect width="500" height="400" fill="url(#grad1)"/>
+
+<!-- Body -->
+<ellipse cx="200" cy="300" rx="90" ry="150" fill="black"/>
+<path d="M200 300 Q180 280, 200 260 T170 240 Z" fill="white"/>
+
+<!-- Head -->
+<circle cx="170" cy="200" r="50" fill="black"/>
+<path d="M170 150 Q190 130, 180 160 H160 Z" fill="white"/>
+
+<!-- Wing -->
+<path d="M140 240 Q110 280, 140 320 T170 350 Z" fill="black"/>
+<path d="M140 240 Q160 260, 170 280 Z" fill="white"/>
+
+<!-- Legs -->
+<rect x="170" y="350" width="20" height="80" rx="10" fill="black"/>
+<path d="M190 350 Q200 400, 190 430 Z" fill="white"/>
+
+<!-- Eyes -->
+<circle cx="165" cy="175" r="10" fill="white">
+    <animate attributeName="cy" values="175;200;175" dur="2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="175" cy="175" r="10" fill="white">
+    <animate attributeName="cy" values="175;200;175" dur="2s" delay=".5s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Beak -->
+<path d="M170 180 Q160 190, 175 200 L185 190 Z" fill="orange"/>
+
+</svg>

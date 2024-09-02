@@ -1,0 +1,12 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<path d="M100,250 Q140,180 200,250 Q140,320 100,250" fill="black"/>
+
+<!-- Left Wing -->
+<path d="M75,250 Q90,200 130,150 Q170,200 75,250" fill="pink"/>
+
+<!-- Right Wing -->
+<path d="M225,250 Q260,200 300,150 Q340,200 225,250" fill="pink"/>
+
+</svg>

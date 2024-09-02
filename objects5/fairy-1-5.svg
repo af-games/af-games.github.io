@@ -1,0 +1,24 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy -->
+  <circle cx="150" cy="200" r="40" fill="#FFCC99"/>
+  <circle cx="170" cy="180" r="10" fill="black"/>
+  <circle cx="130" cy="180" r="10" fill="black"/>
+  <path d="M150,240 Q140,260 170,260 T190,240" stroke="black"/>
+
+  <!-- Trees -->
+  <!-- Tree 1: Large and sprawling -->
+  <path d="M300,300 Q350,250 400,300 Q375,375 425,300" stroke="#4D8C29" fill="transparent"/>
+  <circle cx="362.5" cy="275" r="15" fill="brown"/>
+  <path d="M300,300 Q350,250 400,300" stroke="#8CA96B" fill="transparent"/>
+
+  <!-- Tree 2: Neat and compact -->
+  <circle cx="100" cy="300" r="40" stroke="#4D8C29" fill="transparent"/>
+  <path d="M75,340 Q125,380 175,340" stroke="#8CA96B" fill="transparent"/>
+
+  <!-- Tree 3: Medium size -->
+  <path d="M200,200 Q250,150 300,200 Q325,250 375,200" stroke="#4D8C29" fill="transparent"/>
+  <circle cx="300" cy="175" r="15" fill="brown"/>
+  <path d="M200,200 Q250,150 300,200" stroke="#8CA96B" fill="transparent"/>
+
+</svg>

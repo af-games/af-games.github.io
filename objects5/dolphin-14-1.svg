@@ -1,0 +1,3 @@
+<svg width="100" height="150" xmlns="http://www.w3.org/2000/svg">
+  <path d="M50,10 Q90,10 90,40 H10 Z M80,60 Q70,80 60,80 L40,60 Q50,40 60,20 Q70,0 80,20 Q90,40 80,60 Z" fill="blue"/>
+</svg>

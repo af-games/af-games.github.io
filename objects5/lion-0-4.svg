@@ -1,0 +1,21 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Body -->
+  <rect id="body" x="100" y="70" width="300" height="350" rx="50" fill="#FFC0CB" stroke="#8B4513" stroke-width="5"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="120" r="90" fill="#FFC0CB" stroke="#8B4513" stroke-width="5"/>
+  <path id="mane" d="M200,70 Q250,60 250,110 T200,160 T150,110 Z" fill="none" stroke="#8B4513"/>
+
+  <!-- Face -->
+  <circle cx="200" cy="100" r="40" fill="#FFC0CB"/>
+  <ellipse cx="200" cy="90" rx="20" ry="10" fill="#000"/>
+  <circle cx="170" cy="85" r="3" fill="#000"/>
+  <circle cx="230" cy="85" r="3" fill="#000"/>
+
+  <!-- Legs -->
+  <rect x="140" y="280" width="20" height="150" rx="5" fill="#FFC0CB"/>
+  <rect x="260" y="280" width="20" height="150" rx="5" fill="#FFC0CB"/>
+
+  <!-- Tail -->
+  <path d="M370,350 Q400,380 370,410 Z" fill="#FFC0CB"/>
+</svg>

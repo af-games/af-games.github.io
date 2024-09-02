@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(0,0,128);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Diagonal threads -->
+  <g stroke="url(#penguinGradient)" stroke-width="2">
+    <!-- Vertical Lines -->
+    <line x1="10" y1="0" x2="190" y2="200" transform="rotate(45)" />
+    <line x1="30" y1="0" x2="170" y2="200" transform="rotate(45)" />
+    <!-- Horizontal Lines -->
+    <line x1="0" y1="10" x2="200" y2="190" transform="rotate(-45)" />
+    <line x1="0" y1="30" x2="200" y2="170" transform="rotate(-45)" />
+  </g>
+
+  <!-- Penguin shape using created threads -->
+  <path d="M 60,80 Q 90,10 A 70,70 0 1,0 30,10 Q 60,80 90,120 Q 140,120 170,100 Z" fill="black"/>
+</svg>

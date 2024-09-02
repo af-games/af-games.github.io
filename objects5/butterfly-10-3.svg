@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350">
+  <!-- Body -->
+  <ellipse cx="200" cy="175" rx="80" ry="130" fill="#FFD65B"/>
+  <circle cx="200" cy="230" r="40" fill="#FFA500"/>
+
+  <!-- Wings -->
+  <path d="M50,90 Q150,10 C350,80 370,160 270,260 Q150,350 50,330" fill="#FFD65B"/>
+  <path d="M350,90 Q250,10 C130,80 90,160 130,260 Q250,350 350,330" fill="#FFD65B"/>
+
+  <!-- Antennae -->
+  <line x1="40" y1="70" x2="60" y2="60" stroke="#3D2B1F"/>
+  <line x1="360" y1="70" x2="340" y2="60" stroke="#3D2B1F"/>
+
+  <!-- Legs -->
+  <polyline points="180,250 190,270 170,270" fill="none" stroke="#3D2B1F"/>
+  <polyline points="220,250 210,270 230,270" fill="none" stroke="#3D2B1F"/>
+
+</svg>

@@ -1,0 +1,12 @@
+<svg width="500" height="800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Gown -->
+  <path d="M10 10 Q50 90, 100 10 L200 10 Z" fill="#FFC0CB" stroke="#8B4513"/>
+  <path d="M200 10 Q350 90, 400 10 L500 10 Z" fill="#FFF5EE" stroke="#8B4513"/>
+
+  <!-- Beads -->
+  <circle cx="75" cy="75" r="5" fill="#FFD700"/>
+  <circle cx="225" cy="75" r="5" fill="#FFD700"/>
+  <circle cx="375" cy="75" r="5" fill="#FFD700"/>
+
+</svg>

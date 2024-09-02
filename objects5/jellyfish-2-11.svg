@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Main body (medusa) -->
+  <circle cx="250" cy="250" r="150" fill="#48CAE4">
+    <pattern id="jellyfish-pattern" patternUnits="userSpaceOnUse" width="60" height="60">
+      <path d="M30 30 l30 0 M30 0 l30 30 M30 30 l0 30" stroke="#88D8ED" stroke-width="5"/>
+    </pattern>
+    <animate attributeName="fill-opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <?php for($i = 0; $i < 12; $i++): ?>
+      <path d="M250 <?=20 + ($i * 30)?> A90 <?=20 + ($i * 30)?> 0 1,<?=($i % 2 == 0) ? '0' : '1'?>,40 <?=20 + (($i+1) * 30)?>" stroke="#48CAE4" fill="transparent"/>
+    <?php endfor; ?>
+  </g>
+
+  <!-- Exumbrella -->
+  <circle cx="250" cy="75" r="25" fill="#0F7698"/>
+
+</svg>

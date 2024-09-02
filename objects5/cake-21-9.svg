@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+
+  <!-- Cake Base -->
+  <circle cx="200" cy="250" r="180" fill="#F5DEB3" stroke="#C99769" stroke-width="5"/>
+
+  <!-- First Layer (Bottom) -->
+  <rect x="80" y="200" width="240" height="50" rx="25" fill="#E6D5AA" />
+
+  <!-- Second Layer -->
+  <rect x="130" y="150" width="140" height="50" rx="20" fill="#F5DEB3"/>
+
+  <!-- Third Layer (Top) -->
+  <circle cx="200" cy="87.5" r="62.5" fill="#E6D5AA"/>
+
+  <!-- Frosting -->
+  <path d="M150,90 Q175,140 250,130 Q325,190 250,250 Q175,310 150,260" fill="#FFFFFF"/>
+
+  <!-- Decorations (Fruits) -->
+  <circle cx="180" cy="240" r="15" fill="#FF4500"/>
+  <circle cx="220" cy="230" r="12" fill="#FFB973"/>
+  <circle cx="260" cy="245" r="10" fill="#FF4500"/>
+
+</svg>

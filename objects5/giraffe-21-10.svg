@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <!-- Colors -->
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,215,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(238,174,209);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(65,43,138);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(75,0,130);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Bar 1-2 -->
+  <circle cx="100" cy="300" r="40" fill="url(#grad1)" transform="rotate(-90)">
+    <animateMotion dur="8s" repeatCount="indefinite">
+      <mpath href="#path1"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Bar 3-4 -->
+  <rect width="50%" height="20%" x="150" y="400" fill="url(#grad2)">
+    <animateTransform attributeName="transform" type="scale" from="1.5" to="1" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Bar 5-6 -->
+  <ellipse cx="350" cy="400" rx="80" ry="40" fill="#FFC300">
+    <animateMotion dur="8s" repeatCount="indefinite">
+      <mpath href="#path2"/>
+    </animateMotion>
+  </ellipse>
+
+  <!-- Bar 7-8 -->
+  <polygon points="550,100 650,300 750,100" fill="#FF69B4">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite" centerX="650" centerY="200"/>
+  </polygon>
+
+  <!-- Paths -->
+  <path id="path1" d="M0,0 Q90,300 180,0" stroke-width="0"/>
+  <path id="path2" d="M150,400 Q360,700 540,400" stroke-width="0"/>
+
+</svg>

@@ -1,0 +1,32 @@
+<svg viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <path id="head" d="M100,10 C120,0 160,40 200,70 A80,80 0 0 1 200,200"/>
+  <circle id="eye-left" cx="130" cy="90" r="5" fill="black"/>
+  <circle id="eye-right" cx="160" cy="90" r="5" fill="black"/>
+
+  <!-- Neck -->
+  <path id="neck" d="M200,70 L230,140 L280,140 Z"/>
+
+  <!-- Body -->
+  <rect id="body" x="220" y="120" width="50" height="60" fill="#8B4513"/>
+  <linearGradient id="body-gradient" gradientUnits="userSpaceOnUse" x1="220" y1="120" x2="270" y2="180">
+    <stop offset="0%" stop-color="#A06A42"/>
+    <stop offset="100%" stop-color="#59332E"/>
+  </linearGradient>
+  <use xlink:href="#body" fill="url(#body-gradient)"/>
+
+  <!-- Tail -->
+  <path id="tail" d="M270,180 Q300,240 330,180"/>
+
+  <!-- Legs -->
+  <g id="front-legs">
+    <rect x="180" y="180" width="20" height="60"/>
+    <rect x="200" y="180" width="20" height="60"/>
+  </g>
+  <g id="back-legs">
+    <rect x="290" y="180" width="30" height="80"/>
+    <rect x="320" y="180" width="30" height="80"/>
+  </g>
+
+</svg>

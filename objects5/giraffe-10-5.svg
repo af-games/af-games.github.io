@@ -1,0 +1,44 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" style="background-color:black;">
+
+  <!-- Body -->
+  <rect id="giraffeBody" x="100" y="200" width="300" height="300" fill="brown" rx="50"/>
+
+  <!-- Neck -->
+  <path id="giraffeNeck" d="M180,70 Q260,200 340,70" fill="transparent" stroke="brown" stroke-width="20"/>
+
+  <!-- Head -->
+  <circle id="giraffeHead" cx="315" cy="70" r="60" fill="brown"/>
+  <ellipse id="giraffeMane" cx="315" cy="40" rx="40" ry="20" fill="transparent" stroke="brown" stroke-width="20"/>
+
+  <!-- Legs -->
+  <rect id="giraffeLeg1" x="80" y="370" width="50" height="200" fill="transparent" stroke="brown" stroke-width="20"/>
+  <rect id="giraffeLeg2" x="160" y="370" width="50" height="200" fill="transparent" stroke="brown" stroke-width="20"/>
+  <rect id="giraffeLeg3" x="280" y="370" width="50" height="200" fill="transparent" stroke="brown" stroke-width="20"/>
+  <rect id="giraffeLeg4" x="360" y="370" width="50" height="200" fill="transparent" stroke="brown" stroke-width="20"/>
+
+  <!-- Spots -->
+  <circle id="spot1" cx="120" cy="320" r="20" fill="yellow"/>
+  <circle id="spot2" cx="240" cy="320" r="20" fill="yellow"/>
+  <circle id="spot3" cx="360" cy="320" r="20" fill="yellow"/>
+
+  <!-- Animation: Rotate head and neck -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 315 70"
+    to="45 315 70"
+    begin="0s"
+    dur="2s"
+    repeatCount="indefinite"
+    id="headRotate"/>
+  <animateTransform
+    attributeName="d"
+    type="rotate"
+    from="M180,70 Q260,200 340,70"
+    to="M150,70 Q220,200 300,70"
+    begin="0s"
+    dur="2s"
+    repeatCount="indefinite"
+    id="neckRotate"/>
+
+</svg>

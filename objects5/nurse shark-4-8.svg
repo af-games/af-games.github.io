@@ -1,0 +1,38 @@
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Nurse Shark Top -->
+  <rect id="top" x="-50" y="-25" width="100" height="75" fill="url(#grad1)" />
+
+  <!-- Nurse Shark Shorts (Left) -->
+  <polygon id="shorts-left" points="-30,-50,30,25,-30,50" stroke="black" fill="transparent" />
+  <path id="shorts-left-lace" d="M-30,-50 L30,25 M-30,-50 L30,50" stroke="#CBCBCB" fill="none" />
+
+  <!-- Nurse Shark Shorts (Right) -->
+  <polygon id="shorts-right" points="-30,-50,30,25,-30,50" transform="translate(60,0)" stroke="black" fill="transparent" />
+  <path id="shorts-right-lace" d="M-30,-50 L30,25 M-30,-50 L30,50" transform="translate(60,0)" stroke="#CBCBCB" fill="none" />
+
+  <!-- Nurse Shark Fin -->
+  <polygon id="fin" points="0,-75,-50,-25,50,-25" fill="#1f4034" stroke="#4E6958">
+    <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" />
+  </polygon>
+  <circle cx="0" cy="-75" r="2" fill="#FFFFFF">
+    <animate attributeName="r" values="1.5;2;1.5" dur="1s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Nurse Shark Tail -->
+  <path id="tail" d="M0,-75 A75,75 0 0 1 0,-100 A75,75 0 0 0 0,-75" fill="#382F29" stroke="#4E6958">
+    <pattern id="stripes" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="5" height="10" fill="#6D8B7A"/>
+      <rect x="5" width="5" height="10" fill="white"/>
+    </pattern>
+  </path>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(53,89,76);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(94,120,99);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

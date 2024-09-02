@@ -1,0 +1,14 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Butterfly Body -->
+  <path d="M250 100 Q270 80, 290 100 Q270 120, 250 100 Z" fill="#ff6347"/>
+  <path d="M250 100 Q230 80, 210 100 Q230 120, 250 100 Z" fill="#ff6347"/>
+
+  <!-- Butterfly Wings -->
+  <path d="M190 70 Q200 30, 220 70 Q210 100, 230 70 Q200 40, 190 70 Z" fill="#ff69b4"/>
+  <path d="M310 70 Q320 30, 340 70 Q350 100, 330 70 Q320 40, 310 70 Z" fill="#ff69b4"/>
+
+  <!-- Flight Path -->
+  <path d="M250 100 C280 120, 310 150, 330 120 Q360 80, 390 100" stroke="#000" fill="transparent"/>
+  <path d="M250 100 C220 120, 190 150, 170 120 Q140 80, 110 100" stroke="#000" fill="transparent"/>
+
+</svg>

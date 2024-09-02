@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Diagonal grid for feather pattern -->
+  <defs>
+    <linearGradient id="featherGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(51,74,98);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(216,231,241);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <rect x="50" y="100" width="300" height="250" rx="50" fill="url(#featherGradient)"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="75" r="75" fill="rgb(0,0,0)" stroke="rgb(255,255,255)" stroke-width="3"/>
+
+  <!-- Beak -->
+  <path d="M140,60 L180,90 L140,120 Z" fill="rgb(255,255,255)"/>
+
+  <!-- Eyes -->
+  <circle cx="120" cy="70" r="10" fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-width="3"/>
+  <circle cx="180" cy="70" r="10" fill="rgb(255,255,255)" stroke="rgb(0,0,0)" stroke-width="3"/>
+
+  <!-- Feet -->
+  <path d="M90,250 Q100,280 140,280 Q180,280 190,250 Z" fill="rgb(0,0,0)"/>
+
+  <!-- Diagonal lines for feather pattern -->
+  <g stroke="url(#featherGradient)" stroke-width="3">
+    <line x1="70%" y1="60%" x2="30%" y2="40%" />
+    <line x1="85%" y1="65%" x2="15%" y2="35%" />
+    <line x1="100%" y1="70%" x2="5%" y2="30%" />
+  </g>
+</svg>

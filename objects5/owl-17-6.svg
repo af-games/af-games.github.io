@@ -1,0 +1,16 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body and Head -->
+  <path d="M50 40 Q70 60, 90 80 A100 30 0 1 1 50 220" stroke="black" fill="none"/>
+
+  <!-- Wings -->
+  <path d="M50 220 Q70 260, 90 220 Q110 260, 130 220" stroke="black" fill="none"/>
+  <path d="M50 220 Q30 240, 10 220 Q20 240, 50 220" stroke="black" fill="none"/>
+
+  <!-- Head Details -->
+  <circle cx="75" cy="90" r="10" stroke="black" fill="black"/>
+  <circle cx="85" cy="90" r="10" stroke="black" fill="black"/>
+  <path d="M90 80 L85 70 L95 70 Z" stroke="black" fill="none"/>
+
+  <!-- Tail -->
+  <path d="M130 220 Q140 240, 150 260" stroke="black" fill="none"/>
+</svg>

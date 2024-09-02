@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Igloo dome -->
+  <path id="igloo-dome"
+        d="M250,175 A175,175 0 0 1 250,425"
+        fill="#FFFFFF" stroke="#AAA" opacity="0.8"/>
+  <use xlink:href="#igloo-dome" y="300"/>
+
+  <!-- Igloo entrance -->
+  <rect id="entrance" x="225" y="475" width="50" height="25"
+        fill="#FFFFFF" stroke="#AAA"/>
+  <use xlink:href="#entrance" x="150" y="525"/>
+
+  <!-- Igloo base shadow -->
+  <path id="shadow"
+        d="M0,475 Q150,425 300,475 T500,475"
+        fill="#999" opacity="0.4"/>
+  <use xlink:href="#shadow"/>
+
+</svg>

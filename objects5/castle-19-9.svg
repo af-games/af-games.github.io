@@ -1,0 +1,31 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define patterns -->
+  <defs>
+    <linearGradient id="castleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(204,204,204);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Castles -->
+  <rect x="10%" y="5%" width="30%" height="40%" fill="url(#castleGradient)" rx="5%" ry="5%" />
+
+  <!-- Repeat castles using SVG pattern -->
+  <pattern id="castlePattern" patternUnits="objectBoundingBox" width=".7" height=".6">
+    <use xlink:href="#castle" transform="translate(.3,.2) rotate(45)" />
+    <use xlink:href="#castle" transform="translate(.7,.8) rotate(-45)" />
+  </pattern>
+
+  <!-- Garden paths -->
+  <rect width="100%" height="100%" fill="url(#gardenGradient)">
+    <animate attributeName="x" values="0%;-20%;0%" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="0%;-20%;0%" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Garden gradient -->
+  <linearGradient id="gardenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:rgb(139,69,19);stop-opacity:1" />
+    <stop offset="50%" style="stop-color:rgb(84,57,25);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(54,35,9);stop-opacity:1" />
+  </linearGradient>
+</svg>

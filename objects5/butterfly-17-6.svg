@@ -1,0 +1,83 @@
+<svg>` tag and set up some initial properties:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="800px" height="600px"
+     viewBox="0 0 800 600">
+```
+
+Here, we've set up the SVG with its namespace, version, and dimensions (width and height). We've also included a `viewBox` attribute for easier scaling and positioning of elements.
+
+Next, let's start adding some colors and shapes. For our butterfly, let's create a beautiful blue body:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="800px" height="600px"
+     viewBox="0 0 800 600">
+    <rect id="butterfly-body" x="50%" y="40%" width="30%" height="20%"
+          style="fill: #87CEEB;"/>
+```
+
+Now, let's add some wings:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="800px" height="600px"
+     viewBox="0 0 800 600">
+    <rect id="butterfly-body" x="50%" y="40%" width="30%" height="20%"
+          style="fill: #87CEEB;"/>
+    <path id="left-wing" d="M100,100 Q150,75 200,100"
+          style="fill: #FFDAB9; stroke-width: 1px; stroke: black;"/>
+    <path id="right-wing" d="M600,100 Q550,75 500,100"
+          style="fill: #FFDAB9; stroke-width: 1px; stroke: black;"/>
+```
+
+We've added two wings using the `<path>` element with quadratic Bézier curves (`Q`). The left wing is a mirror image of the right wing for symmetry.
+
+Let's continue adding details, such as antennae and eyes:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="800px" height="600px"
+     viewBox="0 0 800 600">
+    <rect id="butterfly-body" x="50%" y="40%" width="30%" height="20%"
+          style="fill: #87CEEB;"/>
+    <path id="left-wing" d="M100,100 Q150,75 200,100"
+          style="fill: #FFDAB9; stroke-width: 1px; stroke: black;"/>
+    <path id="right-wing" d="M600,100 Q550,75 500,100"
+          style="fill: #FFDAB9; stroke-width: 1px; stroke: black;"/>
+    <line id="antenna-left" x1="80" y1="20" x2="60" y2="40"
+          style="stroke: black; stroke-width: 3px;"/>
+    <line id="antenna-right" x1="720" y1="20" x2="740" y2="40"
+          style="stroke: black; stroke-width: 3px;"/>
+    <circle id="eye-left" cx="90" cy="80" r="5"
+            style="fill: black;"/>
+    <circle id="eye-right" cx="610" cy="80" r="5"
+            style="fill: black;"/>
+```
+
+Finally, let's add some highlights to give our butterfly a shiny appearance:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     width="800px" height="600px"
+     viewBox="0 0 800 600">
+    <rect id="butterfly-body" x="50%" y="40%" width="30%" height="20%"
+          style="fill: #87CEEB;"/>
+    <path id="left-wing" d="M100,100 Q150,75 200,100"
+          style="fill: #FFDAB9; stroke-width: 1px; stroke: black;"/>
+    <path id="right-wing" d="M600,100 Q550,75 500,100"
+          style="fill: #FFDAB9; stroke-width: 1px; stroke: black;"/>
+    <line id="antenna-left" x1="80" y1="20" x2="60" y2="40"
+          style="stroke: black; stroke-width: 3px;"/>
+    <line id="antenna-right" x1="720" y1="20" x2="740" y2="40"
+          style="stroke: black; stroke-width: 3px;"/>
+    <circle id="eye-left" cx="90" cy="80" r="5"
+            style="fill: black;"/>
+    <circle id="eye-right" cx="610" cy="80" r="5"
+            style="fill: black;"/>
+    <path id="highlight-left-wing" d="M120,90 Q140,70 160,90"
+          style="fill: #FFF; stroke-width: 0;"/>
+    <path id="highlight-right-wing" d="M580,90 Q560,70 540,90"
+          style="fill: #FFF; stroke-width: 0;"/>
+</svg>

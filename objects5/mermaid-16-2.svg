@@ -1,0 +1,13 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mermaid Body -->
+  <path d="M10 20 Q50 30, 90 40 Q80 70, 100 60 Q130 30, 150 20" fill="none" stroke="black"/>
+
+  <!-- Left Fin -->
+  <clipPath id="finClip">
+    <path d="M0 0 Q50 50, 100 0"/>
+  </clipPath>
+  <path d="M0 0 Q50 50, 100 0" fill="blue" clip-path="url(#finClip)"/>
+
+  <!-- Other details and features here... -->
+
+</svg>

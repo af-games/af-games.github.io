@@ -1,0 +1,25 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="75" rx="60" ry="40" fill="#FF99CC">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 100 75"
+      to="360 100 75"
+      dur="2s"
+      repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Wings -->
+  <path d="M80 40 Q90 5, 150 40" stroke="#FF99CC" fill="transparent">
+    <animate attributeName="d"
+             values="M80 40 Q90 5, 150 40; M80 40 Q20 70, 150 40;"
+             dur="1s"
+             repeatCount="indefinite"/>
+    <path d="M150 40 Q160 70, 200 40" stroke="#FF99CC" fill="transparent">
+      <animate attributeName="d"
+               values="M150 40 Q160 70, 200 40; M150 40 Q220 70, 200 40;"
+               dur="1s"
+               repeatCount="indefinite"/>
+    </path>
+  </svg>

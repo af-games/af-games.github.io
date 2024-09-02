@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lion body -->
+  <path d="M100 50 Q150 0 200 50 Q150 100 100 50 Z"
+        fill="#ff9933" stroke="black"/>
+
+  <!-- Lion head -->
+  <circle cx="100" cy="75" r="50" fill="#ffcc66"/>
+  <circle cx="120" cy="85" r="5" fill="black"/> <!-- Left eye -->
+  <circle cx="80" cy="85" r="5" fill="black"/> <!-- Right eye -->
+
+  <!-- Lion mane -->
+  <path d="M70 30 Q90 10 110 30 Q130 50 150 30"
+        fill="#ff9933"/>
+
+</svg>

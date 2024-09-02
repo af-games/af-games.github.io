@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Dome -->
+  <path id="dome" d="M 250 50 Q 350 100, 250 175 Q 150 100, 250 50" fill="#D8F9FF" stroke="#4C6FAF"/>
+  <path id="dome-shadow" d="M 250 50 Q 350 100, 250 175 Q 150 100, 250 50" fill-opacity="0.3" stroke-opacity="0" fill="#000"/>
+
+  <!-- Door -->
+  <rect x="220" y="400" width="60" height="80" fill="#E8C761"/>
+  <path d="M 220 500 H 280 V 480 Z" fill="#000"/>
+
+  <!-- Entrance Tunnel -->
+  <rect x="230" y="390" width="40" height="20" fill="#E8C761"/>
+  <path d="M 230 390 Q 250 410, 270 390" stroke="#4C6FAF"/>
+
+</svg>

@@ -1,0 +1,16 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body -->
+  <circle id="balloonBody" cx="150" cy="75" r="75" fill="#FFCC99"/>
+
+  <!-- Basket -->
+  <rect id="basket" x="120" y="200" width="80" height="60" fill="#663300"/>
+
+  <!-- Burner flames -->
+  <ellipse id="flame1" cx="175" cy="140" rx="30" ry="60" fill="#FF9900"/>
+  <ellipse id="flame2" cx="125" cy="140" rx="30" ry="60" fill="#FF9900"/>
+
+  <!-- Mooring rope -->
+  <path id="rope" d="M150,75 L150,100" stroke="#AA6600" stroke-width="5"/>
+
+</svg>

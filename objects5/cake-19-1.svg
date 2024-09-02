@@ -1,0 +1,16 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake base -->
+  <rect x="50" y="100" width="100" height="80" fill="#B47C49"/>
+
+  <!-- Cake top -->
+  <path d="M100,50 Q150,10 200,50 Q150,0 100,50" fill="#F3E5AB" stroke="black"/>
+
+  <!-- Icing lines -->
+  <line x1="70" y1="80" x2="130" y2="80" stroke="black"/>
+  <line x1="70" y1="90" x2="130" y2="90" stroke="black"/>
+
+  <!-- Cherry -->
+  <circle cx="150" cy="45" r="10" fill="#FF4500"/>
+
+</svg>

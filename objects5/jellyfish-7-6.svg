@@ -1,0 +1,29 @@
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bodices -->
+  <rect x="40" y="320" width="180" height="300" fill="url(#grad1)"/>
+  <rect x="320" y="320" width="180" height="300" fill="url(#grad1)"/>
+
+  <!-- Sleeves -->
+  <circle cx="60" cy="420" r="80" fill="white" />
+  <circle cx="580" cy="420" r="80" fill="white" />
+  <circle cx="60" cy="190" r="80" fill="white" />
+  <circle cx="580" cy="190" r="80" fill="white" />
+  <pattern id="bell-pattern" patternUnits="userSpaceOnUse" width="20" height="20">
+    <circle cx="10" cy="10" r="3" fill="#FFC0CB"/>
+  </pattern>
+  <rect x="55" y="410" width="160" height="160" fill="url(#bell-pattern)" />
+  <rect x="55" y="180" width="160" height="160" fill="url(#bell-pattern)" />
+
+  <!-- Tentacles -->
+  <path d="M60,500 Q140,750 220,500" stroke="#FFF1E6" stroke-width="3" fill="none"/>
+  <path d="M400,500 Q260,750 140,500" stroke="#FFF1E6" stroke-width="3" fill="none"/>
+  <!-- Repeat for remaining tentacles -->
+
+  <!-- Gradients -->
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,224,230);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(173,216,230);stop-opacity:1"/>
+  </linearGradient>
+
+</svg>

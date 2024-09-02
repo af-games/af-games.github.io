@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+
+  <!-- Quilt Base -->
+  <rect width="600" height="400" fill="#FFF5E6"/>
+
+  <!-- Patches -->
+  <rect x="100" y="50" width="150" height="150" fill="#FF69B4"/>
+  <rect x="275" y="50" width="150" height="150" fill="#FFD700"/>
+  <rect x="450" y="50" width="150" height="150" fill="#9C27B0"/>
+
+  <!-- Stitching Lines -->
+  <path d="M100,50 H600 V400 H100 Z" stroke="#4A2C0B" stroke-width="8"/>
+  <path d="M600,50 v350 h-750 v-350 z" stroke="#4A2C0B" stroke-width="8"/>
+
+  <!-- Buttons -->
+  <circle cx="375" cy="350" r="15" fill="#4A2C0B"/>
+  <circle cx="375" cy="350" r="6" fill="#FFF"/>
+  <circle cx="450" cy="350" r="15" fill="#4A2C0B"/>
+  <circle cx="450" cy="350" r="6" fill="#FFF"/>
+
+</svg>

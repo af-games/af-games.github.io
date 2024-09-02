@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Defining reusable filters -->
+  <defs>
+    <filter id="emboss" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feSpecularLighting in="blur" surfaceScale="5" specularConstant=".75"
+        specularExponent="20" lighting-color="#bbbbbb" result="specOut">
+        <fePointLight x="-5000" y="-10000" z="20000"/>
+      </feSpecularLighting>
+      <feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut"/>
+      <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic"
+        k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+    <filter id="displacementMap">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="1" result="turbulence"/>
+      <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="50" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+
+  <!-- Starting point -->
+  <circle cx="100" cy="100" r="50" fill="#9ACD32" filter="url(#emboss)" />
+
+  <!-- Dolphin-shaped island -->
+  <path d="M250,50 Q350,100 450,50 Q550,100 650,50" stroke="#FFD700" fill="#FFFACD" filter="url(#displacementMap)"/>
+  <text x="275" y="90" font-size="36">Dolphin Island</text>
+
+  <!-- Underwater cliff -->
+  <polygon points="400,300 600,150 800,300" fill="#00BFFF" filter="url(#emboss)"/>
+  <text x="550" y="250" font-size="36">Underwater Cliff</text>
+
+  <!-- Connecting lines -->
+  <line x1="100" y1="150" x2="250" y2="100" stroke="#8B7D6B"/>
+  <line x1="450" y1="150" x2="500" y2="100" stroke="#8B7D6B"/>
+  <line x1="650" y1="150" x2="700" y2="100" stroke="#8B7D6B"/>
+
+</svg>

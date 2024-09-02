@@ -1,0 +1,18 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Tier 1 -->
+  <circle cx="75" cy="250" r="70" fill="#FFF" stroke="#DDD" stroke-width="3"/>
+  <path d="M75,180 a60,60 0 0 1 120,0 a60,60 0 0 1 -120,0" fill="none" stroke="#DDD" stroke-width="4"/>
+
+  <!-- Tier 2 -->
+  <circle cx="135" cy="370" r="90" fill="#FFF" stroke="#DDD" stroke-width="3"/>
+  <path d="M135,280 a90,90 0 0 1 180,0 a90,90 0 0 1 -180,0" fill="none" stroke="#DDD" stroke-width="4"/>
+
+  <!-- Tier 3 -->
+  <circle cx="185" cy="520" r="110" fill="#FFF" stroke="#DDD" stroke-width="3"/>
+  <path d="M185,410 a110,110 0 0 1 220,0 a110,110 0 0 1 -220,0" fill="none" stroke="#DDD" stroke-width="4"/>
+
+  <!-- Piping details on top tier -->
+  <path d="M170,530 Q210,590 260,530 Q200,580 140,530" fill="none" stroke="#DDD" stroke-width="4"/>
+
+</svg>

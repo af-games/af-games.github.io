@@ -1,0 +1,21 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <circle cx="100" cy="80" r="40" fill="#C6711B"/>
+
+  <!-- Body -->
+  <rect x="90" y="130" width="20" height="50" fill="#C6711B"/>
+
+  <!-- Tail -->
+  <polygon points="180,160 140,180 180,200" fill="#C6711B"/>
+
+  <!-- Legs (Front) -->
+  <rect x="95" y="230" width="10" height="40" rx="5" fill="#C6711B"/>
+  <rect x="80" y="260" width="10" height="40" rx="5" fill="#C6711B"/>
+
+  <!-- Legs (Back) -->
+  <rect x="125" y="230" width="10" height="40" rx="5" fill="#C6711B"/>
+  <rect x="135" y="260" width="10" height="40" rx="5" fill="#C6711B"/>
+
+  <!-- Pouch -->
+  <circle cx="95" cy="180" r="30" stroke="black" stroke-width="2" fill="white"/>
+</svg>

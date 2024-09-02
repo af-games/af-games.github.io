@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 400 100">
+
+  <!-- Rhythm: Lion's roar -->
+  <circle cx="-20" cy="60" r="40" fill="orange">
+    <animateMotion repeatCount="indefinite" dur="2s">
+      <mpath href="#roar-path"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Beat: Purring -->
+  <rect x="80" y="55" width="160" height="30" fill="gold">
+    <animate attributeName="width" repeatCount="indefinite" dur="2s" values="160;400;160"/>
+  </rect>
+
+  <!-- Harmony: Mane -->
+  <path id="mane" d="M150,70 Q200,90 300,70 Q350,90 450,70 Q400,90 450,70 Z" fill="brown">
+    <animate attributeName="d" repeatCount="indefinite" dur="3s" values="M150,70 Q200,90 300,70 Q350,90 450,70 Q400,90 450,70 Z; M150,60 Q200,80 300,60 Q350,80 450,60 Q400,80 450,60 Z"/>
+  </path>
+
+  <!-- Roar path -->
+  <path id="roar-path" d="M-20,60 A40,40 0 1,0 20,-60 A40,40 0 1,0 -20,60 Z"/>
+
+</svg>

@@ -1,0 +1,17 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake base -->
+  <circle cx="100" cy="180" r="90" fill="#FDD74C" stroke="#C78A1D" stroke-width="5"/>
+
+  <!-- Top layer of cake -->
+  <rect x="30" y="20" width="140" height="60" fill="#C78A1D" rx="30"/>
+
+  <!-- Candle flames -->
+  <polygon points="95,55 105,55 100,80" fill="#FF9F1F"/>
+  <polygon points="125,55 135,55 130,75" fill="#FF9F1F"/>
+
+  <!-- Wicks -->
+  <rect x="93" y="60" width="4" height="20" fill="#382D0B"/>
+  <rect x="123" y="60" width="4" height="20" fill="#382D0B"/>
+
+</svg>

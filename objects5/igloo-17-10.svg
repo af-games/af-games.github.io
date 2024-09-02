@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Igloo -->
+  <circle id="igloo" cx="0" cy="0" r="40" fill="#ffffff"/>
+  <!-- Beat Shapes and Paths -->
+
+  <!-- Bar I -->
+  <g transform="translate(0, 30)">
+    <rect x="-25" y="0" width="10" height="50" fill="#ddb787" transform="rotate(45)" />
+    <path d="M-25,0 Q-10,-20 -25,-40 T 0,-60" stroke="#2c3e50" fill="transparent"/>
+    <!-- ... Repeat for beats II, III, IV with different colors and transformations ... -->
+  </g>
+
+  <!-- Animations -->
+  <animateMotion id="iglooRotate" repeatCount="indefinite">
+    <mpath href="#beatPathI"/>
+    <set attributeName="transform" attributeType="XML" to="rotate(360)"/>
+  </animateMotion>
+  <animateTransform id="iglooGlow" repeatCount="indefinite"
+    type="scale" from="1.05" to="1.00" dur="2s" fill="#b3cde3"
+    attributeName="r" attributeType="XML" begin="iglooRotate.begin"/>
+</svg>

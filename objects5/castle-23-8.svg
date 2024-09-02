@@ -1,0 +1,40 @@
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <polygon points="250,50 350,50 350,200 250,200" fill="#4286f4"/>
+
+  <!-- Flags -->
+  <rect x="300" y="40" width="50" height="100" fill="#ffffff"/>
+  <path d="M300,140 Q325,175 350,140" stroke="#ff3b30" stroke-width="10"/>
+
+  <!-- Violinists -->
+  <ellipse cx="100" cy="600" rx="40" ry="50" fill="#f4d03f"/>
+  <polygon points="80,650 220,650 150,700" fill="#8b572a"/>
+  <path d="M90,620 Q110,580 130,620"/>
+
+  <!-- Cellist -->
+  <ellipse cx="400" cy="600" rx="40" ry="50" fill="#f4d03f"/>
+  <polygon points="370,650 430,650 400,700" fill="#8b572a"/>
+  <rect x="380" y="660" width="40" height="40" fill="#8b4513"/>
+
+  <!-- Trumpeter -->
+  <ellipse cx="550" cy="600" rx="40" ry="50" fill="#f4d03f"/>
+  <polygon points="520,650 600,650 570,700" fill="#8b572a"/>
+  <path d="M590,620 Q610,580 630,620"/>
+
+  <!-- Drummer -->
+  <ellipse cx="400" cy="700" rx="40" ry="50" fill="#f4d03f"/>
+  <rect x="370" y="720" width="60" height="80" fill="#8b572a"/>
+  <circle cx="400" cy="770" r="20" fill="#3322cc"/>
+
+  <!-- Lines connecting musicians -->
+  <path d="M290,190 Q320,250 350,190"/>
+
+  <!-- Trees -->
+  <polygon points="40,750 80,750 60,800" fill="#3d9400"/>
+  <path d="M40,760 Q20,790 60,760"/>
+
+  <!-- Ground -->
+  <rect x="0" y="810" width="600" height="90" fill="#8b4513"/>
+
+</svg>

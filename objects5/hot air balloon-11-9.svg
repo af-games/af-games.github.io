@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Scene 1 -->
+<g id="scene1">
+    <circle cx="400" cy="300" r="50" fill="#FF6347"/>
+    <text x="200" y="350" font-family="Arial" font-size="24">Lonely balloon maker</text>
+</g>
+
+<!-- Scene 2 -->
+<g id="scene2">
+    <circle cx="200" cy="150" r="20" fill="#FFD700"/>
+    <path d="M300,100 Q400,50 500,100" stroke="#FF6347" fill="transparent"/>
+    <text x="200" y="200" font-family="Arial" font-size="24">Birth of an idea</text>
+</g>
+
+<!-- Scene 3 -->
+<g id="scene3">
+    <!-- Hot air balloon construction... -->
+    <circle cx="350" cy="150" r="75" fill="#FF6347"/>
+    <path d="M300,225 Q350,175 400,225" stroke="#000" fill="transparent"/>
+    <!-- Other construction elements... -->
+    <text x="250" y="275" font-family="Arial" font-size="24">Building the balloon</text>
+</g>
+
+<!-- Scene 4 -->
+<g id="scene4">
+    <!-- Inflated hot air balloon... -->
+    <path d="M300,100 Q350,50 400,100" stroke="#FF6347" fill="transparent"/>
+    <text x="250" y="150" font-family="Arial" font-size="24">Inflation day</text>
+</g>
+
+<!-- Scene 5 -->
+<g id="scene5">
+    <!-- Hot air balloon in flight... -->
+    <circle cx="600" cy="300" r="75" fill="#FF6347"/>
+    <path d="M550,250 Q600,200 650,250" stroke="#00F" fill="transparent"/>
+    <!-- Passengers... -->
+    <text x="500" y="350" font-family="Arial" font-size="24">Maiden voyage</text>
+</g>
+
+<!-- Scene 6 -->
+<g id="scene6">
+    <!-- Storm approaching... -->
+    <rect width="150" height="150" x="400" y="100" fill="#A9A9A9"/>
+    <path d="M450,150 Q500,125 550,150" stroke="#FFF" fill="transparent"/>
+    <!-- Balloon bobbing... -->
+    <circle cx="500" cy="300" r="75" fill="#FF6347"/>
+    <text x="350" y="200" font-family="Arial" font-size="24">Stormy encounter</text>
+</g>
+
+<!-- Scene 7 -->
+<g id="scene7">
+    <!-- Safe landing... -->
+    <rect width="800" height="150" x="0" y="450" fill="#9ACD32"/>
+    <!-- Passengers disembarking... -->
+    <circle cx="650" cy="550" r="20" fill="#FFF"/>
+    <text x="300" y="550" font-family="Arial" font-size="24">Safe landing</text>
+</g>
+
+</svg>

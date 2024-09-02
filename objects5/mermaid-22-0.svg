@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+
+<!-- Background -->
+<rect x="0" y="0" width="600" height="400" fill="#B3E0FF"/>
+
+<!-- Rock -->
+<ellipse cx="270" cy="380" rx="120" ry="90" fill="#777777"/>
+<polygon points="220,360 250,340 280,360 310,340" fill="#777777"/>
+
+<!-- Mermaid's body -->
+<path d="M250 360 Q260 340 270 320 Q280 340 290 360 H310 V380 Q300 400 270 420 Q240 400 250 380" fill="url(#Gradient)"/>
+<ellipse cx="270" cy="320" rx="40" ry="40" fill="#F2CACA"/>
+<circle cx="265" cy="315" r="8" fill="white"/>
+
+<!-- Mermaid's hair -->
+<path d="M255 320 Q265 310 275 320 Q285 310 295 320 Q305 310 315 320 V380 H340" stroke="none" fill="url(#Gradient)"/>
+
+<!-- Pearl -->
+<circle cx="265" cy="340" r="12" fill="#FFFFFF"/>
+
+<!-- Gradients -->
+<defs>
+    <linearGradient id="Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#98FB98; stop-opacity:1"/>
+        <stop offset="100%" style="stop-color:#66CDAA; stop-opacity:1"/>
+    </linearGradient>
+</defs>
+
+</svg>

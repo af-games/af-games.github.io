@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Tempo -->
+  <rect width="100%" height="5" fill="#ddd"/>
+
+  <!-- Measure 1: Balloon starts as a tiny dot -->
+  <circle cx="400" cy="300" r="2" fill="red" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="1s"/>
+    <animate attributeName="r" from="2" to="50" dur="6s" begin="start; end+1s"/>
+  </circle>
+
+  <!-- Measure 2: Balloon reaches full size -->
+  <circle cx="400" cy="300" r="50" fill="red">
+    <animate attributeName="opacity" from="1" to="0" dur="6s" begin="start; end+7s"/>
+    <animate attributeName="r" from="50" to="2" dur="6s" begin="start; end+7s"/>
+  </circle>
+
+  <!-- Measure 3: Balloon pops -->
+  <circle cx="400" cy="300" r="2" fill="red">
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="start; end+13s"/>
+  </circle>
+</svg>

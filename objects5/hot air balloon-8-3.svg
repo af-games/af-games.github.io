@@ -1,0 +1,15 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Hot Air Balloon -->
+<ellipse cx="120" cy="70" rx="40" ry="150" fill="lightyellow"/>
+<rect x="50" y="120" width="80" height="60" fill="tan"/>
+
+<!-- Launch Tower -->
+<circle cx="300" cy="150" r="40" fill="darkgray"/>
+<rect x="280" y="120" width="60" height="30" fill="lightgray"/>
+
+<!-- Ground -->
+<rect x="0" y="250" width="500" height="100" fill="green"/>
+<polyline points="50,240 300,240 300,180" stroke="black" fill="transparent"/>
+
+</svg>

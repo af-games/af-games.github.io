@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Survey the terrain: background -->
+  <rect x="0" y="0" width="500" height="500" fill="#f0f8ff"/>
+
+  <!-- Grass -->
+  <polygon points="10,290 40,310 70,290"
+           fill="#3d990b" stroke-width="0"/>
+
+  <!-- Tree (lush, sprawling) -->
+  <g transform="translate(150, 180)">
+    <circle cx="60" cy="-60" r="60" fill="#4e2f07"/>
+    <polygon points="90,-20 -10,-20 -30,-90"
+             fill="#3c631a" stroke-width="0"/>
+  </g>
+
+  <!-- Fairy (compact form) -->
+  <g transform="translate(200, 150)">
+    <circle cx="40" cy="80" r="40" fill="#ffcc99"/>
+    <path d="M60,120 Q70,130 60,140" stroke="#660033"
+          stroke-width="5" fill="transparent"/>
+    <circle cx="80" cy="80" r="20" fill="#ffcc99"/>
+  </g>
+
+</svg>

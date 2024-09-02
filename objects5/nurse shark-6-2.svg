@@ -1,0 +1,26 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#D3D3D3" />
+
+  <!-- Body -->
+  <path d="M100 150 Q150 75, 250 150 Q350 225, 400 150" fill="#8B8989" stroke="black" stroke-width="2"/>
+
+  <!-- Fin (Left) -->
+  <polygon points="60 100, 100 75, 100 125" fill="#8B8989" stroke="black" stroke-width="2"/>
+
+  <!-- Fin (Right) -->
+  <polygon points="430 100, 400 75, 400 125" fill="#8B8989" stroke="black" stroke-width="2"/>
+
+  <!-- Tail -->
+  <path d="M400 150 Q450 200, 430 160" fill="#8B8989" stroke="black" stroke-width="2"/>
+
+  <!-- Eye (Left) -->
+  <circle cx="275" cy="125" r="10" fill="black"/>
+  <circle cx="275" cy="125" r="5" fill="white"/>
+
+  <!-- Eye (Right) -->
+  <circle cx="325" cy="125" r="10" fill="black"/>
+  <circle cx="325" cy="125" r="5" fill="white"/>
+
+</svg>

@@ -1,0 +1,61 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+```
+
+**Step 2: Begin drawing tentative lines and shapes using <path> elements**
+
+Let's start by drawing a basic outline of a dinosaur. We'll use cubic Bézier curves for the spine, head, and tail.
+
+```svg
+<path id="dinosaurOutline" stroke="#333" fill="transparent"
+      d="M100 50 Q200 0, 350 50 T600 200 H700 V400 H600 Z"/>
+```
+
+**Step 3: Discover new features**
+
+Let's add some basic shapes to represent the body and legs. We'll use rectangles for the body and circles for the hips, knees, and feet.
+
+*Body*
+
+```svg
+<rect id="dinosaurBody" width="400" height="250" rx="50" fill="#ddd"
+      stroke="#333" x="150" y="75"/>
+```
+
+*Hips, Knees, and Feet (using circles)*
+
+```svg
+<!-- Left Hip -->
+<circle cx="200" cy="225" r="40" fill="#ddd"/>
+
+<!-- Right Hip -->
+<circle cx="350" cy="225" r="40" fill="#ddd"/>
+
+<!-- Knees and Feet (using smaller circles) -->
+<circle cx="250" cy="375" r="20" fill="#ddd"/>
+<circle cx="300" cy="375" r="20" fill="#ddd"/>
+```
+
+**Step 4: Document your journey with detailed notes (attribute values)**
+
+* `id`: Unique identifier for each shape to facilitate styling and manipulation.
+* `stroke` & `fill`: Color of the outline and interior of shapes.
+* `d`, `width`, `height`, `rx`, `cx`, `cy`, `r`: Attribute values specific to the type of SVG element.
+
+**Step 5: Write out your map's final draft using SVG tags**
+
+Here's the complete SVG code for our dinosaur map:
+
+```svg
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <path id="dinosaurOutline" stroke="#333" fill="transparent"
+        d="M100 50 Q200 0, 350 50 T600 200 H700 V400 H600 Z"/>
+  <rect id="dinosaurBody" width="400" height="250" rx="50" fill="#ddd"
+        stroke="#333" x="150" y="75"/>
+  <!-- Left Hip -->
+  <circle cx="200" cy="225" r="40" fill="#ddd"/>
+  <!-- Right Hip -->
+  <circle cx="350" cy="225" r="40" fill="#ddd"/>
+  <!-- Knees and Feet (using smaller circles) -->
+  <circle cx="250" cy="375" r="20" fill="#ddd"/>
+  <circle cx="300" cy="375" r="20" fill="#ddd"/>
+</svg>

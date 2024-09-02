@@ -1,0 +1,39 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+```
+
+Now, let's create the geometric elements for our kangaroo: a circle for the body, two ovals for the ears, and two rectangles for the legs.
+
+```svg
+<circle cx="150" cy="150" r="80" fill="lightgray" id="body"/>
+
+<ellipse cx="120" cy="90" rx="30" ry="10" fill="darkgray" id="ear-left"/>
+<ellipse cx="180" cy="90" rx="30" ry="10" fill="darkgray" id="ear-right"/>
+
+<rect x="120" y="220" width="50" height="60" fill="lightgray" id="leg-left"/>
+<rect x="180" y="220" width="50" height="60" fill="lightgray" id="leg-right"/>
+```
+
+Next, let's animate the kangaroo jumping. We'll move the body and legs simultaneously to create a jumping motion.
+
+```svg
+<!-- Body movement -->
+<animateMotion id="body-animation" dur="2s" repeatCount="indefinite">
+  <mpath href="#path"/>
+</animateMotion>
+
+<!-- Left leg movement -->
+<animateTransform attributeName="y" from="220" to="150" begin="0s" dur="1s" repeatCount="indefinite"/>
+<animateTransform attributeName="x" from="120" to="90" begin="0.5s" dur="1s" repeatCount="indefinite"/>
+
+<!-- Right leg movement -->
+<animateTransform attributeName="y" from="220" to="150" begin="0s" dur="1s" repeatCount="indefinite"/>
+<animateTransform attributeName="x" from="180" to="210" begin="0.5s" dur="1s" repeatCount="indefinite"/>
+```
+
+Finally, let's create the path for the body animation and close off our SVG:
+
+```svg
+<!-- Path for kangaroo jumping -->
+<path id="path" d="M150 300 Q200 200 250 300"/>
+
+</svg>

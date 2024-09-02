@@ -1,0 +1,52 @@
+<svg width="800" height="600" style="background-color: #f0e68c;">
+```
+
+2. **Plant the seeds - initial shapes:**
+
+We'll start with a few basic shapes for the T-Rex's body, head, and legs.
+
+```svg
+<rect id="body" x="250" y="350" width="150" height="250" fill="#8b7d6c"/>
+<circle id="head" cx="290" cy="420" r="80" fill="#8b7d6c"/>
+<rect id="leg1" x="230" y="520" width="40" height="80" fill="#8b7d6c"/>
+<rect id="leg2" x="310" y="520" width="40" height="80" fill="#8b7d6c"/>
+```
+
+3. **Water and nurture the seeds (apply transforms):**
+
+Let's make the T-Rex stand upright, rotate its head slightly, scale up its body a bit, and translate one of its legs to create a walking pose.
+
+```svg
+<g transform="rotate(10 400 550)">
+    <use href="#body" x="250" y="350"/>
+</g>
+<g transform="translate(-50, -80) rotate(30)">
+    <use href="#head"/>
+</g>
+<g transform="scale(1.1)">
+    <use href="#leg1" x="230" y="520"/>
+</g>
+<use href="#leg2" x="310" y="520" transform="translate(20, 0)"/>
+```
+
+4. **Prune where necessary (remove unnecessary elements or attributes):**
+
+Since we've used `<use>` to reference the initial shapes, we can remove them from the SVG code.
+
+5. **Write out the final SVG code:**
+
+Here's the complete SVG code for our dinosaur landscape:
+
+```svg
+<svg width="800" height="600" style="background-color: #f0e68c;">
+    <g transform="rotate(10 400 550)">
+        <use href="#body"/>
+    </g>
+    <g transform="translate(-50, -80) rotate(30)">
+        <use href="#head"/>
+    </g>
+    <g transform="scale(1.1)">
+        <use href="#leg1"/>
+    </g>
+    <use href="#leg2" x="310" y="520" transform="translate(20, 0)"/>
+</svg>

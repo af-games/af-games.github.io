@@ -1,0 +1,22 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main Owl -->
+  <path d="M50,10 Q70,40 90,60 Q110,80 130,50" fill="#DCDCDC" stroke="#3B3A32" stroke-width="2"/>
+
+  <!-- Branches -->
+  <path d="M20,90 Q50,70 80,90" fill="transparent" stroke="#8B4513" stroke-width="4"/>
+  <path d="M60,90 Q90,70 120,90" fill="transparent" stroke="#8B4513" stroke-width="4"/>
+
+  <!-- Feathers -->
+  <polygon points="30,70 50,50 70,70" fill="#A9A9A9"/>
+  <path d="M90,70 Q110,60 120,70" fill="#A9A9A9"/>
+
+  <!-- Owl Pellets -->
+  <circle cx="40" cy="35" r="20" fill="#DCDCDC"/>
+  <circle cx="60" cy="35" r="15" fill="#DCDCDC"/>
+
+  <!-- Moon Phases -->
+  <path d="M70,30 A20,20 0 1,0 90,40" fill="#FFFFFF"/>
+
+  <!-- Ancient Script (example) -->
+  <text x="20" y="85" font-family="Old English Text MT" font-size="16" fill="#3B3A32">Sapientia aeterna</text>
+</svg>

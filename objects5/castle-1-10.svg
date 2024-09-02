@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Filters -->
+  <defs>
+    <filter id="emboss" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1" result="blur"/>
+      <feSpecularLighting in="blur" surfaceScale="4" specularConstant=".75"
+        specularExponent="20" lighting-color="#bbbbbb" result="specOut">
+        <fePointLight x="-5000" y="-10000" z="20000"/>
+      </feSpecularLighting>
+      <feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut"/>
+      <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic"
+        k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+  </defs>
+
+  <!-- Castle Gate -->
+  <polygon id="gate" points="50,100 150,100 200,50 200,200"
+           style="fill:gray; stroke:black; stroke-width:3" filter="url(#emboss)"/>
+
+  <!-- Castle Wall -->
+  <rect id="wall" x="170" y="40" width="630" height="520"
+        style="fill:lightgray; stroke:black; stroke-width:3" filter="url(#emboss)"/>
+
+  <!-- Tower -->
+  <polygon id="tower" points="380,100 580,100 630,200 630,400"
+           style="fill:gray; stroke:black; stroke-width:3" filter="url(#emboss)"/>
+
+  <!-- Roof -->
+  <polygon id="roof" points="380,400 580,400 480,550"
+           style="fill:brown; stroke:black; stroke-width:3" filter="url(#emboss)"/>
+
+  <!-- Expedition Route -->
+  <path d="M50,150 L170,100 L200,200 L380,400 L580,400"
+        style="stroke:blue; stroke-width:3"/>
+
+  <!-- Landmarks Labels -->
+  <text x="60" y="130" text-anchor="middle">Gate</text>
+  <text x="270" y="90" text-anchor="middle">Wall</text>
+  <text x="500" y="450" text-anchor="middle">Tower</text>
+  <text x="480" y="530" text-anchor="middle">Roof</text>
+</svg>

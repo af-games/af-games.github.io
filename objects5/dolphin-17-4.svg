@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <g id="dolphin">
+    <!-- Define your dolphin path here -->
+    <path d="M...Z" style="fill:blue;" />
+  </g>
+
+  <!-- Animations go here -->
+
+  <script>
+    <![CDATA[
+      var dolphin = document.getElementById("dolphin");
+      dolphin.start = 0;
+      dolphin.end = 1;
+
+      function animateDolphin() {
+        dolphin.start += dolphin.end;
+        dolphin.end = parseFloat(dolphin.start) + 6; // duration of the animation sequence
+      }
+
+      setInterval(animateDolphin, 7000); // adjust interval to match your desired pace
+    ]]>
+  </script>
+</svg>

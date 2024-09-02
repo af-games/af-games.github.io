@@ -1,0 +1,20 @@
+<svg width="200" height="300" viewBox="0 0 150 250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Tier 1 -->
+  <circle cx="75" cy="40" r="60" fill="#FDD9E6" stroke="#FDD9E6"/>
+  <path d="M75,80 Q95,85 75,90 Q55,85 75,100" fill="#E2BFD4" stroke="#E2BFD4"/>
+
+  <!-- Tier 2 -->
+  <circle cx="65" cy="130" r="50" fill="#FDD9E6" stroke="#FDD9E6"/>
+  <path d="M65,170 Q85,175 65,180 Q45,175 65,190" fill="#E2BFD4" stroke="#E2BFD4"/>
+
+  <!-- Tier 3 -->
+  <circle cx="55" cy="220" r="40" fill="#FDD9E6" stroke="#FDD9E6"/>
+  <path d="M55,260 Q75,265 55,270 Q35,265 55,280" fill="#E2BFD4" stroke="#E2BFD4"/>
+
+  <!-- Adornments -->
+  <circle cx="75" cy="110" r="10" fill="#FDD9E6"/>
+  <circle cx="65" cy="200" r="8" fill="#FDD9E6"/>
+  <circle cx="55" cy="275" r="6" fill="#FDD9E6"/>
+
+</svg>

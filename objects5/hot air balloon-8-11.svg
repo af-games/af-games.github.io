@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800">
+
+  <!-- Basket -->
+  <rect x="200" y="650" width="600" height="150" rx="75" fill="#D3B987"/>
+
+  <!-- Envelope (Balloon) -->
+  <path d="M500,40 Q500,250 700,350 H300 Q300,250 500,100" fill="#E58E6F"/>
+
+  <!-- Netting -->
+  <polygon points="350,50 450,50 550,150 450,250 350,250" fill="#A9A9A9"/>
+  <!-- Repeat the above polygon pattern to create additional hexagons -->
+
+  <!-- Rigging -->
+  <line x1="200" y1="650" x2="800" y2="650" stroke="#8B7D6B"/>
+  <line x1="400" y1="650" x2="400" y2="100" stroke="#8B7D6B"/>
+  <!-- Add additional lines for vertical and horizontal rigging -->
+
+  <!-- Burner -->
+  <circle cx="500" cy="350" r="50" fill="#8F90A3"/>
+  <!-- Flame -->
+  <path d="M480,370 Q490,390 520,370 T510,360 Z" fill="#FFC247"/>
+
+</svg>

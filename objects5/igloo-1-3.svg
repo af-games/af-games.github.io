@@ -1,0 +1,14 @@
+<svg viewBox="-500 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Central Igloo Dome -->
+  <circle cx="0" cy="0" r="200" fill="white" stroke="black"/>
+
+  <!-- Entrance Path -->
+  <path d="M-300 0 Q-150 75 150 0 T150 200" stroke="black" fill="transparent"/>
+
+  <!-- Rectangular Buildings -->
+  <rect x="-350" y="-150" width="200" height="300" fill="lightgrey"/>
+  <rect x="450" y="-150" width="200" height="300" fill="lightgrey"/>
+
+  <!-- Connecting Paths -->
+  <path d="M-350 -75 Q-150 -225 0 -150 T150 -225 Q450 -75 450 -150" stroke="black" fill="transparent"/>
+</svg>

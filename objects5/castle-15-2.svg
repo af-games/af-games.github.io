@@ -1,0 +1,26 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Left tower -->
+  <polygon points="10,50 90,50 90,150 10,150" fill="#8B4513"/>
+  <circle cx="50" cy="75" r="25" fill="#A0522D"/>
+
+  <!-- Right tower -->
+  <polygon points="490,50 400,50 400,120 490,120" fill="#8B4513"/>
+  <circle cx="450" cy="65" r="25" fill="#A0522D"/>
+
+  <!-- Wall connecting towers -->
+  <rect x="10" y="150" width="480" height="50" fill="#8B4513"/>
+
+  <!-- Gatehouse -->
+  <polygon points="240,200 360,200 360,270 240,270" fill="#8B4513"/>
+  <rect x="290" y="220" width="60" height="40" fill="#CFCFCF"/> <!-- Gate -->
+
+  <!-- Windows on towers -->
+  <g stroke="black" stroke-width="2">
+    <rect x="20" y="80" width="30" height="30"/>
+    <rect x="70" y="80" width="30" height="30"/>
+    <rect x="420" y="55" width="30" height="30"/>
+    <rect x="370" y="55" width="30" height="30"/>
+  </g>
+
+</svg>

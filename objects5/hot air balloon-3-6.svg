@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <!-- Main body -->
+  <path id="mainBody" d="M150,100 Q300,75 450,100 V600 Q300,625 150,600 Z"/>
+
+  <!-- Sleeves (semicircles) -->
+  <path id="leftSleeve" d="M150,100 A150,150 0 0 1 300,350"/>
+  <path id="rightSleeve" d="M450,100 A150,150 0 0 1 600,350"/>
+
+  <!-- Basket -->
+  <rect id="basket" width="200" height="50" x="200" y="700"/>
+
+  <!-- Balloon (circle) -->
+  <circle id="balloon" cx="400" cy="100" r="300"/>
+
+  <!-- Gradient pattern -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,165,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,238,196);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Apply colors and patterns -->
+  <g fill="url(#gradient)">
+    <path d="M150,100 Q300,75 450,100 V600 Q300,625 150,600 Z"/>
+    <path d="M150,100 A150,150 0 0 1 300,350"/>
+    <path d="M450,100 A150,150 0 0 1 600,350"/>
+    <rect width="200" height="50" x="200" y="700"/>
+    <circle cx="400" cy="100" r="300"/>
+  </g>
+</svg>

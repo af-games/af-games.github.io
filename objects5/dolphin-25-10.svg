@@ -1,0 +1,22 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dolphin Shapes -->
+  <polygon id="dolphin1" points="50,20 70,40 30,60" fill="blue" filter="url(#glow)" />
+  <polygon id="dolphin2" points="150,20 170,40 130,60" fill="blue" filter="url(#glow)" />
+  <polygon id="dolphin3" points="250,20 270,40 230,60" fill="blue" filter="url(#glow)" />
+
+  <!-- Connecting Lines -->
+  <line x1="70" y1="40" x2="150" y2="20" stroke="black" />
+  <line x1="170" y1="40" x2="250" y2="20" stroke="black" />
+
+  <!-- Filter for Glow Effect -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+</svg>

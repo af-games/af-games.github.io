@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hot Air Balloon -->
+  <g id="balloon">
+    <circle cx="400" cy="150" r="75" fill="#FFDEAD"/>
+    <rect x="360" y="80" width="80" height="200" fill="#F0E68C"/>
+    <path d="M390,80 Q400,10 410,80" stroke="#FFA500" stroke-width="5"/>
+    <circle cx="400" cy="200" r="30" fill="#FF69B4"/>
+  </g>
+
+  <!-- Hills -->
+  <path id="hills" d="M10,400 Q200,350 700,400 Q800,450 10,400" fill="#8B7D6B" stroke-width="0"/>
+
+  <!-- River -->
+  <path id="river" d="M10,500 Q200,550 700,500 Q800,450 90,500" fill="url(#riverGradient)" stroke-width="0"/>
+  <defs>
+    <linearGradient id="riverGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#A3D2E4; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#6497B1; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Trees -->
+  <g id="trees">
+    <rect x="150" y="350" width="20" height="80" fill="#3D9970"/>
+    <circle cx="160" cy="430" r="15" fill="#3D9970"/>
+  </g>
+  <use xlink:href="#trees" x="200" y="380"/>
+  <use xlink:href="#trees" x="250" y="400"/>
+
+</svg>

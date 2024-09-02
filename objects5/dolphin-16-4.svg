@@ -1,0 +1,20 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dolphins -->
+  <path id="dolphin" d="M...Z"/>
+  <use xlink:href="#dolphin" transform="translate(0,100)" fill="blue"/>
+
+  <!-- Water -->
+  <path id="water" d="M...Z"/>
+  <use xlink:href="#water" transform="translate(0,250)"/>
+
+  <!-- Animations -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 150 300"
+    to="90 150 300"
+    begin="0s" dur="1s"
+    fill="freeze"/>
+  <!-- More animations for tail kick, mid-air, peak jump, flip, splashdown and swim away... -->
+
+</svg>

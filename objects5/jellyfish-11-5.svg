@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Jellyfish 1 -->
+  <g id="jellyfish1" transform="translate(200,300)">
+    <circle cx="50" cy="50" r="50" fill-opacity="0.7"/>
+    <g id="tentacles1">
+      <ellipse cx="-40" cy="0" rx="60" ry="2" fill-opacity="0.7"/>
+      <ellipse cx="40" cy="0" rx="60" ry="2" fill-opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- Jellyfish 2 -->
+  <g id="jellyfish2" transform="translate(500,350)">
+    <circle cx="40" cy="40" r="40" fill-opacity="0.6"/>
+    <g id="tentacles2">
+      <ellipse cx="-30" cy="0" rx="45" ry="2" fill-opacity="0.6"/>
+      <ellipse cx="30" cy="0" rx="45" ry="2" fill-opacity="0.6"/>
+    </g>
+  </g>
+
+  <!-- Animation -->
+  <animate
+    attributeName="transform"
+    from="translate(200,300)"
+    to="translate(300,300) rotate(180)"
+    begin="0s" dur="4s" repeatCount="indefinite"
+    fill="freeze"
+  />
+  <animate
+    attributeName="transform"
+    from="translate(500,350)"
+    to="translate(600,350) rotate(-180)"
+    begin="2s" dur="4s" repeatCount="indefinite"
+    fill="freeze"
+  />
+</svg>

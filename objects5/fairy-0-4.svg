@@ -1,0 +1,18 @@
+<svg width="400" height="500" viewBox="0 0 400 500" style="background-color: #fff;" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <circle cx="200" cy="150" r="80" fill="#fff" stroke="#000"/>
+
+  <!-- Eyes -->
+  <circle cx="160" cy="140" r="10" fill="#000"/>
+  <circle cx="240" cy="140" r="10" fill="#000"/>
+
+  <!-- Body -->
+  <rect x="150" y="200" width="100" height="160" fill="#fff" stroke="#000"/>
+
+  <!-- Wings -->
+  <polygon points="30,40 70,80 30,120 0,90" fill="#fff" stroke="#000"/>
+  <polygon points="370,40 330,80 370,120 400,90" fill="#fff" stroke="#000"/>
+
+  <!-- Dress details (Paths) -->
+  <path d="M200,250 Q150,300 200,350 Q250,300 200,250" stroke="#000" fill="transparent"/>
+</svg>

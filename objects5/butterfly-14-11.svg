@@ -1,0 +1,19 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,5 L180,40 A60,60 0 0 0 100,95 L20,70 A60,60 0 0 1 100,35 Z"
+        fill="#FFD700" stroke="black"/>
+
+  <!-- Left Wing -->
+  <path d="M80,40 Q120,0 180,40"
+        fill="#FFD700" stroke="black"/>
+
+  <!-- Right Wing -->
+  <path d="M120,40 Q60,0 20,40"
+        fill="#FFD700" stroke="black"/>
+
+  <!-- Left Antenna -->
+  <line x1="85" y1="30" x2="95" y2="10" stroke="black"/>
+
+  <!-- Right Antenna -->
+  <line x1="115" y1="30" x2="105" y2="10" stroke="black"/>
+</svg>

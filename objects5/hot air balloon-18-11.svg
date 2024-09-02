@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+<!-- Basket -->
+<rect x="100" y="450" width="300" height="80" rx="40" style="fill:#8B4513"/>
+
+<!-- Envelope -->
+<ellipse cx="250" cy="250" rx="220" ry="60" fill="#DAA520">
+  <!-- Ripple Pattern -->
+  <pattern id="ripplePattern" patternUnits="userSpaceOnUse" width="100" height="40">
+    <path d="M0,0 V40 H100 V0 Z" stroke="#000080"/>
+  </pattern>
+  <rect x="-230" y="-50" width="460" height="380" fill="url(#ripplePattern)"/>
+</ellipse>
+
+<!-- Gondola -->
+<circle cx="250" cy="170" r="30" fill="#000000"/>
+
+<!-- Burner -->
+<path d="M240,140 L260,140 L250,100 Z" fill="#000000"/>
+
+</svg>

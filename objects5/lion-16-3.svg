@@ -1,0 +1,16 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main features outlined with simple shapes -->
+  <circle cx="175" cy="150" r="60" fill="sandybrown" /> <!-- Body -->
+  <polygon points="240,75 300,150 240,225" fill="saddlebrown" /> <!-- Head & Mane -->
+  <rect x="90" y="280" width="320" height="150" fill="#C0C0C0" /> <!-- Ground -->
+
+  <!-- Complex elements with paths -->
+  <path d="M240,75 Q260,50 300,75 T300,150 A80,40 0 1 0 240,225" fill="#FFD700" stroke="black" stroke-width="2" /> <!-- Detailed Mane -->
+  <path d="M150,190 Q130,220 175,260 Q220,220 245,190" fill="black" /> <!-- Left Eye & Ear -->
+  <path d="M280,190 Q300,220 245,260 Q330,220 305,190" fill="black" /> <!-- Right Eye & Ear -->
+
+  <!-- Label points with coordinates -->
+  <text x="5" y="50" font-family="Verdana" font-size="12">(75,25)</text>
+  <text x="480" y="490" font-family="Verdana" font-size="12">(325,425)</text>
+
+</svg>

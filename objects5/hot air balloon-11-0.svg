@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Balloon Envelope -->
+  <ellipse cx="0" cy="-75" rx="150" ry="80" fill="#ffff99"/>
+  <ellipse cx="0" cy="-75" rx="140" ry="75" fill="#e6cc8a"/>
+
+  <!-- Basket -->
+  <rect x="-25" y="-100" width="50" height="50" fill="#8b4513"/>
+
+  <!-- Burner -->
+  <rect x="10" y="-95" width="20" height="60" fill="#8b4513"/>
+  <rect x="20" y="-90" width="10" height="70" fill="#8b4513"/>
+
+  <!-- Ropes -->
+  <line x1="-25" y1="-100" x2="0" y2="-75" stroke="#8b4513" stroke-width="3"/>
+  <line x1="25" y1="-100" x2="0" y2="-75" stroke="#8b4513" stroke-width="3"/>
+
+  <!-- Shadow -->
+  <path d="M -150, -60 Q 0, -150 150, -60" fill="#e6cc8a"/>
+</svg>

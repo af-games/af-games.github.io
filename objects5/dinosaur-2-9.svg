@@ -1,0 +1,39 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#F0EAD6"/>
+
+  <!-- Shirt -->
+  <defs>
+    <pattern id="diagonalLines" patternUnits="userSpaceOnUse" width="4" height="4">
+      <line x1="2" y1="2" x2="2.5" y2="2.5"/>
+    </pattern>
+  </defs>
+  <rect x="70" y="60" width="360" height="280" fill="#58D68D" stroke="#FFD700" stroke-width="4" pattern="url(#diagonalLines)"/>
+
+  <!-- Pants -->
+  <path d="M100,340 Q120,380 190,380 Q250,380 260,340 Q300,380 370,380 Q400,380 410,340" fill="#58D68D" stroke="#FFD700" stroke-width="4"/>
+
+  <!-- Belt -->
+  <rect x="190" y="320" width="120" height="20" fill="#FFD700"/>
+
+  <!-- Crown -->
+  <circle cx="250" cy="80" r="60" stroke="#FFD700" stroke-width="4"/>
+  <path d="M230,40 Q260,10 300,40 Q330,10 360,40" fill="#58D68D"/>
+
+  <!-- Footprint accessories -->
+  <defs>
+    <g id="footprint">
+      <path d="M30,20 Q50,10 70,20 Q50,30 30,20"/>
+      <circle cx="50" cy="20" r="10" fill="#FFD700"/>
+    </g>
+  </defs>
+
+  <!-- Brooch -->
+  <use xlink:href="#footprint" x="240" y="60"/>
+
+  <!-- Buttons (3) -->
+  <use xlink:href="#footprint" x="150" y="170"/>
+  <use xlink:href="#footprint" x="200" y="170"/>
+  <use xlink:href="#footprint" x="250" y="170"/>
+
+</svg>

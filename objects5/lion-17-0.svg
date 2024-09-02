@@ -1,0 +1,22 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M50,80 Q60,70 70,80 H30 Z" fill="#CD7F32"/>
+
+  <!-- Mane -->
+  <polygon points="45,70 55,60 65,70 55,80" fill="#FFBF00"/>
+  <polygon points="40,60 50,50 60,60 45,70" fill="#FFBF00"/>
+
+  <!-- Head & Eyes -->
+  <circle cx="50" cy="35" r="25" fill="#CD7F32"/>
+  <circle cx="45" cy="30" r="5" fill="#FFFFFF"/>
+  <circle cx="55" cy="30" r="5" fill="#FFFFFF"/>
+
+  <!-- Nose -->
+  <polygon points="50,35 47,32 53,32" fill="#000000"/>
+
+  <!-- Tail & Outline -->
+  <path d="M90,80 Q80,70 70,80 H60 Z" fill="#CD7F32"/>
+  <rect x="0" y="0" width="100" height="100" stroke="#000000"/>
+
+</svg>

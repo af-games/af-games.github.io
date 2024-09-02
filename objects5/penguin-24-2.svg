@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -100 100 200">
+  <!-- Body -->
+  <circle cx="0" cy="60" r="40" fill="url(#bodyGradient)"/>
+  <!-- Head -->
+  <circle cx="0" cy="-30" r="30" fill="url(#headGradient)"/>
+  <!-- Wing (left) -->
+  <rect x="-25" y="-70" width="25" height="40" fill="url(#wingGradient)" transform="rotate(30, -12.5, -70)"/>
+  <!-- Flipper (left) -->
+  <path d="M-30,-90 Q-25,-85 -20,-90" stroke="#333" fill="url(#flipperGradient)" transform="rotate(45, -15, -90)"/>
+  <!-- Wing (right) -->
+  <rect x="25" y="-70" width="25" height="40" fill="url(#wingGradient)" transform="rotate(-30, 32.5, -70)"/>
+  <!-- Flipper (right) -->
+  <path d="M30,-90 Q25,-85 20,-90" stroke="#333" fill="url(#flipperGradient)" transform="rotate(-45, 15, -90)"/>
+  <!-- Beak -->
+  <path d="M-15,-35 Q0,-45 15,-35" stroke="#FFD700" fill="none"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(51,79,143);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(186,211,232);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(195,217,238);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(245,255,255);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,247,153);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,206,89);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="flipperGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(51,79,143);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

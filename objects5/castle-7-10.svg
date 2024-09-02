@@ -1,0 +1,39 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Start point -->
+  <circle cx="50" cy="100" r="5" fill="green"/>
+
+  <!-- Castle gate -->
+  <rect x="80" y="70" width="40" height="60" rx="10" fill="brown"/>
+  <text x="95" y="120" font-family="Verdana" font-size="20">Gate</text>
+
+  <!-- Wall -->
+  <rect x="130" y="70" width="400" height="60" rx="30" fill="grey"/>
+  <line x1="530" y1="70" x2="530" y2="130" stroke="black"/>
+
+  <!-- Tower -->
+  <polygon points="450,70 550,70 550,200 480,200" fill="brown"/>
+  <circle cx="515" cy="135" r="5" fill="white"/>
+
+  <!-- Castle -->
+  <polygon points="260,200 360,200 360,300 260,300" fill="brown"/>
+  <text x="310" y="250" font-family="Verdana" font-size="20">Castle</text>
+
+  <!-- Path -->
+  <path d="M50,100 L80,70 L130,70 L260,200 L360,200 L450,70 Z" stroke="black"/>
+
+  <!-- Filters for visual effects -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Apply filter to castle gate -->
+  <use xlink:href="#Gate" style="mix-blend-mode: screen; filter:url(#glow);"/>
+
+</svg>

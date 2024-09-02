@@ -1,0 +1,49 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#E0F7FF"/>
+
+  <!-- Central Pool -->
+  <circle cx="400" cy="300" r="150">
+    <linearGradient id="poolGradient" gradientTransform="rotate(90)">
+      <stop offset="0%"   stop-color="#AED6F1"/>
+      <stop offset="50%" stop-color="#7E9DB4"/>
+      <stop offset="100%" stop-color="#4C6B88"/>
+    </linearGradient>
+    <pattern id="ripples" patternUnits="userSpaceOnUse" width="2" height="2">
+      <circle cx="1" cy="1" r="1" fill="#CCE5FF"/>
+    </pattern>
+    <fill style="url(#poolGradient)"/>
+  </circle>
+
+  <!-- Rivers -->
+  <path d="M400,300 Q550,200 700,300 Q850,400 1000,300" stroke="#7E9DB4" fill="url(#ripples)"/>
+  <path d="M400,300 Q250,200 0,300 Q-50,400 -100,300" stroke="#7E9DB4" fill="url(#ripples)"/>
+
+  <!-- Hills -->
+  <rect x="0" y="300" width="800" height="300">
+    <linearGradient id="hillGradient" gradientTransform="rotate(90)">
+      <stop offset="0%"   stop-color="#C6E2A5"/>
+      <stop offset="50%" stop-color="#8DC655"/>
+      <stop offset="100%" stop-color="#479F23"/>
+    </linearGradient>
+    <pattern id="grass" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect x="0" y="0" width="10" height="5" fill="#8DC655"/>
+    </pattern>
+    <fill style="url(#hillGradient)"/>
+  </rect>
+
+  <!-- Trees -->
+  <rect x="250" y="150" width="300" height="450" fill="none">
+    <pattern id="treeSilhouette" patternUnits="userSpaceOnUse" width="20" height="80">
+      <polygon points="0,0 10,0 10,70 5,80 0,70"/>
+    </pattern>
+    <fill style="url(#treeSilhouette)"/>
+  </rect>
+
+  <!-- Jellyfish -->
+  <circle cx="400" cy="320" r="60" fill="#9B5DE5">
+    <animate attributeName="cy" values="320;280;320" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+</svg>

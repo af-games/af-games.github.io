@@ -1,0 +1,32 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect id="bodice" x="150" y="80" width="200" height="400"
+        style="fill: lightgoldenrodyellow; stroke: brown; stroke-width: 2"/>
+
+  <!-- Neck opening (trapezoid) -->
+  <polygon id="neck-opening" points="150,80 350,80 250,40"
+           style="fill: lightgoldenrodyellow; stroke: brown; stroke-width: 2"/>
+
+  <!-- Sleeves (circles) -->
+  <circle id="sleeve-left" cx="120" cy="170" r="80"/>
+  <circle id="sleeve-right" cx="380" cy="170" r="80"
+          transform="rotate(180, 380, 170)"/>
+
+  <!-- Giraffe spots (ellipses) -->
+  <ellipse cx="200" cy="150" rx="40" ry="60"
+           style="fill: brown; stroke: brown; stroke-width: 2"/>
+  <ellipse cx="300" cy="280" rx="30" ry="50"
+           style="fill: brown; stroke: brown; stroke-width: 2"/>
+  <ellipse cx="180" cy="420" rx="60" ry="40"
+           style="fill: brown; stroke: brown; stroke-width: 2"/>
+
+  <!-- Sewing lines -->
+  <line x1="150" y1="80" x2="350" y2="80"
+        style="stroke: darkbrown; stroke-width: 2"/>
+  <line x1="120" y1="90" x2="150" y2="80"
+        style="stroke: darkbrown; stroke-width: 2"/>
+  <line x1="380" y1="90" x2="350" y2="80"
+        style="stroke: darkbrown; stroke-width: 2"/>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg viewBox="-250 -300 500 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Canvas -->
+  <circle cx="0" cy="0" r="250" fill="brown" stroke="black"/>
+
+  <!-- Mermaid body -->
+  <ellipse cx="0" cy="150" rx="150" ry="200" fill="white"/>
+
+  <!-- Eyes -->
+  <circle cx="-70" cy="80" r="30" fill="black"/>
+  <circle cx="70" cy="80" r="30" fill="black"/>
+
+  <!-- Tail -->
+  <path d="M0 300 C50 -50, 150 -50, 200 300" stroke="black" fill="transparent"/>
+
+  <!-- Hair -->
+  <path d="M-150 70 Q-120 0, -150 70" stroke="black"/>
+
+  <!-- Hands and feet -->
+  <circle cx="-80" cy="200" r="30" fill="white"/>
+  <circle cx="80" cy="200" r="30" fill="white"/>
+</svg>

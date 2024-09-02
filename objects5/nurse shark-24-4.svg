@@ -1,0 +1,22 @@
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Land -->
+  <rect x="0" y="0" width="1000" height="1000" fill="#8B4513"/>
+
+  <!-- Mountains -->
+  <polygon points="25,50 75,70 125,50 125,200 75,250 25,200" fill="#A9A9A9"/>
+  <linearGradient id="mountain-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#A9A9A9; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#D3D3D3; stop-opacity:1" />
+  </linearGradient>
+  <polygon points="25,50 75,70 125,50 125,200 75,250 25,200" fill="url(#mountain-gradient)"/>
+
+  <!-- Forests -->
+  <ellipse cx="90" cy="90" rx="40" ry="20" fill="#006400"/>
+  <ellipse cx="180" cy="90" rx="40" ry="20" fill="#006400"/>
+
+  <!-- Rivers -->
+  <path d="M320,100 C350,120 400,150 450,170" stroke="#00008B" fill="transparent"/>
+  <path d="M320,100 Q370,130 450,170" stroke="#00008B" fill="transparent"/>
+
+</svg>

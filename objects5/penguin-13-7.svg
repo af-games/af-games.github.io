@@ -1,0 +1,23 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <polygon points="100,0 400,0 300,200 100,200"
+           style="fill:linear-gradient(90deg, #789db5, #6189a4);"/>
+
+  <!-- Head -->
+  <path d="M150,50 A70,70 0 0 0 350,50" fill="#6189a4"
+        style="fill:linear-gradient(180deg, #c6d0db, #bdc3c7)"/>
+
+  <!-- Beak -->
+  <path d="M200,50 Q225,25 250,50" fill="#ffcc4d"
+        style="fill:linear-gradient(180deg, #ffcc4d, #f39c12)"/>
+
+  <!-- Eyes -->
+  <circle cx="220" cy="60" r="5" fill="#000"/>
+  <circle cx="270" cy="60" r="5" fill="#000"/>
+
+  <!-- Feet -->
+  <polygon points="80,190 140,300 400,300 460,190"
+           style="fill:linear-gradient(90deg, #789db5, #6189a4);"/>
+
+</svg>

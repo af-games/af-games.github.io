@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Bell -->
+  <ellipse cx="0" cy="0" rx="40" ry="60"
+    style="fill: url(#bellGradient); stroke-width: 2; stroke: black;" />
+
+  <!-- Tentacles -->
+  <path d="M-35,-10 Q-40,-30 -35,-40" style="fill: darkblue; stroke-width: 1; stroke: white;" />
+  <path d="M35,-10 Q40,-30 35,-40" style="fill: darkblue; stroke-width: 1; stroke: white;" />
+
+  <!-- Mouth -->
+  <circle cx="0" cy="0" r="8"
+    style="fill: black; stroke-width: 0;" />
+
+  <!-- Defining gradients -->
+  <defs>
+    <linearGradient id="bellGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue;" />
+      <stop offset="100%" style="stop-color:white;" />
+    </linearGradient>
+  </defs>
+
+</svg>

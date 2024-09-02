@@ -1,0 +1,17 @@
+<svg width="100" height="80" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M50,10 Q60,30 70,40 H30 Z"
+        fill="#8B8989" stroke="#000"/>
+
+  <!-- Fin 1 -->
+  <polygon points="25,20 35,10 25,0"
+           fill="#8B8989" stroke="#000"/>
+
+  <!-- Fin 2 -->
+  <polygon points="75,20 65,10 75,0"
+           fill="#8B8989" stroke="#000"/>
+
+  <!-- Tail -->
+  <path d="M80,40 Q90,50 95,35"
+        fill="#8B8989" stroke="#000"/>
+</svg>

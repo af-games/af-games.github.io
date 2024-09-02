@@ -1,0 +1,18 @@
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe Head Tower -->
+  <circle cx="500" cy="200" r="300" fill="#ffcccb"/>
+
+  <!-- Neck Bridge -->
+  <path d="M400,400 Q500,300 600,400" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Body Rectangle -->
+  <rect x="500" y="600" width="300" height="200" fill="#ffcccb"/>
+
+  <!-- Legs -->
+  <rect x="400" y="800" width="20" height="150" fill="#8B4513"/>
+  <rect x="600" y="800" width="20" height="150" fill="#8B4513"/>
+  <rect x="400" y="950" width="200" height="50" fill="#8B4513"/>
+  <rect x="600" y="950" width="200" height="50" fill="#8B4513"/>
+
+</svg>

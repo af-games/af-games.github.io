@@ -1,0 +1,23 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="100" y="75" width="300" height="250" fill="#8B7D6B"/>
+  <polygon points="100,75 400,75 350,250 150,250" fill="#A99F85"/>
+
+  <!-- Head -->
+  <ellipse cx="250" cy="150" rx="50" ry="80" fill="#8B7D6B"/>
+  <path d="M200,75 Q150,150 200,225 T300,225"/>
+
+  <!-- Neck -->
+  <line x1="200" y1="225" x2="200" y2="300"/>
+  <path d="M200,300 Q175,325 200,350 T225,350"/>
+
+  <!-- Tail -->
+  <line x1="400" y1="250" x2="400" y2="150"/>
+  <path d="M400,150 Q425,175 400,200 T375,200"/>
+
+  <!-- Arms -->
+  <circle cx="225" cy="180" r="20" fill="#8B7D6B"/>
+  <ellipse cx="175" cy="200" rx="25" ry="15" fill="#A99F85"/>
+
+</svg>

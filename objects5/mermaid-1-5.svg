@@ -1,0 +1,26 @@
+<svg width="150" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black velvet background -->
+  <rect x="0" y="0" width="150" height="200" fill="#000"/>
+
+  <!-- Silver pendant outline -->
+  <path d="M75,50 Q95,40 125,50 Q95,60 75,50 Z" stroke="#C0C0C0" fill="none" stroke-width="3"/>
+
+  <!-- Mermaid tail and body -->
+  <path d="M80,150 Q90,140 120,150 Q90,160 80,150 A70,70 0 1 0 80,150" fill="url(#mermaidGradient)" stroke="#C0C0C0" stroke-width="2"/>
+
+  <!-- Mermaid hair -->
+  <path d="M80,90 Q70,60 90,60 Q80,40 100,40 Q110,30 130,50 Q110,70 90,90 Z" fill="url(#mermaidGradient)" stroke="#C0C0C0" stroke-width="2"/>
+
+  <!-- Mermaid eyes -->
+  <circle cx="85" cy="60" r="5" fill="#FFD700"/>
+  <circle cx="115" cy="60" r="5" fill="#FFD700"/>
+
+  <!-- Mermaid Gradient -->
+  <defs>
+    <linearGradient id="mermaidGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:rgb(0,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

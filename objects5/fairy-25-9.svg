@@ -1,0 +1,29 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy Body -->
+  <ellipse cx="150" cy="170" rx="60" ry="80" fill="#3d9970"/>
+  <path d="M150,80 A60,60 0 0 0 150,240" stroke="#3d9970" fill="transparent"/>
+
+  <!-- Fairy Head -->
+  <ellipse cx="150" cy="100" rx="30" ry="40" fill="#3d9970"/>
+  <circle cx="150" cy="85" r="2.5" fill="#fff"/>
+  <path d="M140,70 C160,70 170,90 170,110 H150 V130 H140 Z" stroke="#3d9970" fill="transparent"/>
+
+  <!-- Fairy Wings -->
+  <path d="M80,120 Q100,150 150,170 Q200,150 80,120 Z" fill="#3d9970"/>
+  <path d="M85,125 Q105,155 155,175 Q205,155 85,125 Z" stroke="#3d9970" fill="transparent"/>
+
+  <!-- Fairy Hair -->
+  <g transform="rotate(45 150 160)">
+    <path d="M145,165 Q160,170 175,165" stroke="#3d9970" fill="transparent"/>
+    <path d="M140,160 Q165,165 170,160" stroke="#3d9970" fill="transparent"/>
+  </g>
+
+  <!-- Fairy Accents: Sapphire Blue Eyes -->
+  <circle cx="145" cy="85" r="2.5" fill="#284aad"/>
+  <circle cx="155" cy="85" r="2.5" fill="#284aad"/>
+
+  <!-- Fairy Accents: Ruby Red Lipstick -->
+  <path d="M135,95 Q145,105 155,95" stroke="#c2185b" fill="transparent" stroke-width="2"/>
+
+</svg>

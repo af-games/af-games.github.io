@@ -1,0 +1,37 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFF4E0"/>
+
+  <!-- Fairy Body -->
+  <g id="fairy-body">
+    <!-- Head: Blue -->
+    <circle cx="50" cy="75" r="50" fill="#3D9970"/>
+    <circle cx="50" cy="75" r="40" stroke="#FFDD28" stroke-width="10"/>
+
+    <!-- Hair: Purple -->
+    <polygon points="20,15 60,15 60,30 90,15 90,30" fill="#7C4F97"/>
+    <polygon points="20,25 60,25 60,40 90,25 90,40" fill="#7C4F97"/>
+
+    <!-- Body: Green -->
+    <rect x="30" y="125" width="80" height="150" fill="#3D9970"/>
+    <polygon points="30,275 100,275 65,300" fill="#3D9970"/>
+
+    <!-- Arms: Gold -->
+    <rect x="40" y="225" width="10" height="80" fill="#FFDD28"/>
+    <rect x="90" y="225" width="10" height="80" fill="#FFDD28"/>
+
+    <!-- Legs: Gold -->
+    <polygon points="45,375 65,375 55,400" fill="#FFDD28"/>
+    <polygon points="85,375 105,375 95,400" fill="#FFDD28"/>
+  </g>
+
+  <!-- Fairy Wings: Organic Pattern -->
+  <defs>
+    <pattern id="wings-pattern" patternUnits="userSpaceOnUse" width="5" height="5">
+      <rect width="5" height="5" fill="#3D9970"/>
+      <path d="M0,2.5 Q2.5,0 5,2.5 Q2.5,5 0,2.5" stroke="#FFDD28" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect x="10" y="300" width="90" height="75" fill="url(#wings-pattern)"/>
+
+</svg>

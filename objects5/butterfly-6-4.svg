@@ -1,0 +1,26 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100 5 Q140 5, 160 30 Q180 70, 160 90 Q140 110, 100 110 Q60 110, 40 90 Q20 70, 40 50 Q60 30, 80 5 Q100 5, 100 20" fill="url(#bodyGradient)" stroke="black"/>
+
+  <!-- Left Wing -->
+  <path d="M100 110 Q120 130, 140 150 Q160 170, 180 190 Q180 210, 160 230 Q140 250, 120 230 Q100 210, 100 190 Q100 170, 100 150" fill="url(#wingGradient)"/>
+
+  <!-- Right Wing -->
+  <path d="M100 110 Q80 130, 60 150 Q40 170, 20 190 Q0 210, 20 230 Q40 250, 60 230 Q80 210, 100 190 Q100 170, 100 150" fill="url(#wingGradient)"/>
+
+  <!-- Antennae -->
+  <polygon points="190,40 200,30 180,20" fill="black"/>
+  <polygon points="20,40 10,30 20,20" fill="black"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,215,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(238,174,207);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,99,71);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(238,130,96);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

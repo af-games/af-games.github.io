@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-40 -40 320 320">
+  <!-- Center of the virtual wheel -->
+  <circle cx="50" cy="50" r="40" fill="lightgray" />
+
+  <!-- Mermaid's body and mirrored body for symmetry -->
+  <g transform="translate(150, 80)">
+    <!-- Mermaid's head, tail, limbs, and fin (as described above) -->
+  </g>
+
+  <!-- Mirrored mermaid for symmetry -->
+  <g transform="translate(300, 260) rotate(-90)">
+    <g transform="scale(-1, 1) translate(-300, -260)">
+      <!-- Mermaid's head, tail, limbs, and fin (as described above) -->
+    </g>
+  </g>
+</svg>

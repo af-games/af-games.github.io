@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Basket -->
+  <rect x="-10" y="40" width="20" height="20" fill="#694F40" opacity="0.8" stroke="#3D2B1C" stroke-width="1"/>
+
+  <!-- Balloon Envelope -->
+  <path d="M0,-50 A50,50 0 1,0 0,50" fill="#FFDEAD" stroke="#CD9F72" stroke-width="2"/>
+  <path d="M-45,-50 Q0,-60 45,-50" stroke="#CD9F72" stroke-width="3"/>
+
+  <!-- Bottom Circle -->
+  <circle cx="0" cy="-50" r="45" fill="#FFDEAD" opacity="0.8"/>
+  <circle cx="0" cy="-50" r="40" stroke="#CD9F72" stroke-width="2"/>
+
+  <!-- Top Circle (for the opening) -->
+  <circle cx="0" cy="50" r="30" fill="#FFDEAD" opacity="0.5"/>
+  <circle cx="0" cy="50" r="25" stroke="#CD9F72" stroke-width="2"/>
+
+  <!-- Netting (around the envelope) -->
+  <path d="M-45,-35 L-45,-15 L0,-15 Z M45,-15 L45,-35 L0,-35 Z" fill="#CD9F72" opacity="0.6"/>
+  <path d="M-45,-50 Q-45,-65 0,-65 Q45,-65 45,-50"/>
+
+  <!-- Ropes -->
+  <line x1="-30" y1="40" x2="0" y2="-50" stroke="#CD9F72" stroke-width="3"/>
+  <line x1="30" y1="40" x2="0" y2="-50" stroke="#CD9F72" stroke-width="3"/>
+
+  <!-- Shadow -->
+  <rect x="-55" y="40" width="60" height="10" fill="#8B4513" opacity="0.3"/>
+
+</svg>

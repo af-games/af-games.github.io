@@ -1,0 +1,25 @@
+<svg width="500" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Colors -->
+    <linearGradient id="noteColor" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+    </linearGradient>
+    <!-- Jellyfish shapes -->
+    <path id="jellyfish" d="M75 0 Q100 30 75 60 Q50 30 25 0" fill="url(#noteColor)" stroke-width="2"/>
+    <path id="jellyfishPath" d="M150 0 Q180 30 150 60 Q120 30 90 0" fill="none" stroke="#fff" stroke-width="2"/>
+  </defs>
+
+  <!-- Bar 1 -->
+  <g transform="translate(0, 100)">
+    <!-- Beat 1 -->
+    <rect width="50" height="50" rx="5" fill="url(#noteColor)" />
+    <use xlink:href="#jellyfish" x="25" y="75"/>
+    <animateMotion begin="0s" dur="1s" repeatCount="indefinite">
+      <mpath href="#jellyfishPath"/>
+    </animateMotion>
+  </g>
+
+  <!-- Repeat the pattern for Beat 2, Beat 3, and Beat 4 -->
+
+</svg>

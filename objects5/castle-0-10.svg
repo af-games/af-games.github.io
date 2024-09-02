@@ -1,0 +1,46 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Gate -->
+  <polygon id="gate" points="100,50 400,50 400,150 100,150" fill="#8B7D6B"
+    style="filter:url(#glow);"/>
+  <line x1="200" y1="100" x2="300" y2="100" stroke="#4CAF50"/>
+
+  <!-- Castle Wall -->
+  <rect id="wall" width="600" height="300" x="50" y="50" fill="transparent"
+    stroke="#8B7D6B" stroke-width="20" style="filter:url(#rough)"/>
+  <line x1="450" y1="250" x2="550" y2="250" stroke="#4CAF50"/>
+
+  <!-- Castle Tower -->
+  <polygon id="tower" points="700,50 800,50 800,250 700,250" fill="#8B7D6B"
+    style="filter:url(#glow);"/>
+  <line x1="750" y1="150" x2="850" y2="150" stroke="#4CAF50"/>
+
+  <!-- Castle Roof -->
+  <polygon id="roof" points="600,300 700,350 800,300" fill="#FF9800"
+    style="filter:url(#shadow);"/>
+  <line x1="650" y1="325" x2="850" y2="325" stroke="#4CAF50"/>
+
+  <!-- Castle Keep -->
+  <circle id="keep" cx="650" cy="450" r="150" fill="#FFC107"
+    style="filter:url(#glow);"/>
+  <line x1="650" y1="600" x2="650" y2="650" stroke="#4CAF50"/>
+
+  <!-- Filters -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="rough">
+      <feTurbulence baseFrequency="0.1" numOctaves="2" result="turbulence"/>
+      <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="1"/>
+    </filter>
+  </defs>
+
+</svg>

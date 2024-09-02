@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#f5deb3"/>
+
+  <!-- Giraffia Mountains (Where giraffe habitats are located) -->
+  <polygon points="100,50 200,100 300,50 300,200 400,250 500,200 600,100 700,50" fill="#b98a5e" stroke="black"/>
+  <text x="50%" y="70" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="24">Giraffia Mountains</text>
+
+  <!-- Giraffe Habitats -->
+  <circle cx="150" cy="80" r="30" fill="#fdd9b5"/>
+  <circle cx="270" cy="160" r="30" fill="#fdd9b5"/>
+  <circle cx="420" cy="220" r="30" fill="#fdd9b5"/>
+
+  <!-- Crystal River -->
+  <path d="M80,150 Q170,80 320,150 T470,150" stroke="#aec6cf" fill="transparent"/>
+  <text x="50%" y="155" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="24">Crystal River</text>
+
+  <!-- Whispering Woods -->
+  <rect x="370" y="280" width="300" height="200" fill="#6f9d5a"/>
+  <text x="50%" y="480" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="24">Whispering Woods</text>
+
+  <!-- Emerald City -->
+  <circle cx="700" cy="350" r="100" fill="#90d86e"/>
+  <text x="750" y="350" dominant-baseline="middle" text-anchor="start" font-family="Arial" font-size="24">Emerald City</text>
+
+  <!-- Sky Islands -->
+  <circle cx="180" cy="400" r="40" fill="#9db7d5"/>
+  <circle cx="620" cy="300" r="40" fill="#9db7d5"/>
+
+  <!-- Legend -->
+  <text x="10" y="580" font-family="Arial" font-size="20">Legend:</text>
+  <circle cx="40" cy="560" r="5" fill="#b98a5e"/>
+  <text x="70" y="560" font-family="Arial" font-size="16">Giraffia Mountains</text>
+  <circle cx="40" cy="590" r="5" fill="#fdd9b5"/>
+  <text x="70" y="590" font-family="Arial" font-size="16">Giraffe Habitats</text>
+
+</svg>

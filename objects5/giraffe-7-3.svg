@@ -1,0 +1,28 @@
+<svg width="100%" height="100%" viewBox="0 0 1000 800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1000" height="800" fill="#87C46F"/>
+
+  <!-- Central Plaza -->
+  <circle cx="500" cy="500" r="250" stroke="#333" fill="none"/>
+  <text x="50%" y="55%" text-anchor="middle" font-size="48">Central Plaza</text>
+
+  <!-- Giraffe Tower -->
+  <rect x="100" y="250" width="400" height="550" stroke="#333" fill="#FFF"/>
+  <text x="50%" y="750" text-anchor="middle" font-size="64">Giraffe Tower</text>
+
+  <!-- Visitor Center -->
+  <rect x="700" y="350" width="300" height="200" stroke="#333" fill="#FFF"/>
+  <text x="85%" y="550" text-anchor="end" font-size="48">Visitor Center</text>
+
+  <!-- Park Entrance -->
+  <rect x="950" y="450" width="50" height="200" stroke="#333" fill="#FFF"/>
+  <text x="100%" y="650" text-anchor="end" font-size="48">Entrance</text>
+
+  <!-- Main Path -->
+  <path d="M1000,650 Q900,500 750,350 Z" stroke="#333" fill="none"/>
+
+  <!-- Secondary Path -->
+  <path d="M250,750 L850,400 Z" stroke="#333" fill="none"/>
+
+</svg>

@@ -1,0 +1,35 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Walls -->
+  <polygon points="250,50 350,50 400,150 350,250 250,250 200,150" fill="#4A4A4A"/>
+
+  <!-- Towers -->
+  <polygon points="175,50 250,50 200,150" fill="url(#towerGradient)" />
+  <polygon points="375,50 450,50 400,150" fill="url(#towerGradient)" />
+
+  <!-- Gates -->
+  <rect x="260" y="180" width="90" height="70" rx="20" fill="#654321"/>
+  <path d="M260,250 Q300,280 340,250 H350 V180 H260 Z" fill="#F5DEB3"/>
+
+  <!-- Drawbridge -->
+  <polyline points="270,320 330,320 390,250 450,320" stroke="#8D3101" fill="transparent" stroke-width="5"/>
+
+  <!-- Lines connecting castle walls -->
+  <line x1="250" y1="50" x2="350" y2="50"/>
+  <line x1="400" y1="150" x2="350" y2="250"/>
+  <line x1="250" y1="250" x2="200" y2="150"/>
+
+  <!-- Lines connecting towers to castle walls -->
+  <line x1="175" y1="50" x2="250" y2="50"/>
+  <line x1="450" y1="50" x2="375" y2="50"/>
+
+  <!-- Tower gradient -->
+  <defs>
+    <linearGradient id="towerGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#A9A9A9"/>
+      <stop offset="50%" style="stop-color:#A9A9A9; stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#777777"/>
+    </linearGradient>
+  </defs>
+
+</svg>

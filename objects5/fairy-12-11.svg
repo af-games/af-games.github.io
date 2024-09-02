@@ -1,0 +1,20 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="100" cy="180" r="60" fill="#f0e68c"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="140" r="40" fill="#f0e68c"/>
+  <circle cx="100" cy="135" r="20" fill="black"/> <!-- For the face -->
+
+  <!-- Arms -->
+  <path d="M70,160 l20,-30 A40,40 0 0 0 130,100 l20,30 Z" fill="#f0e68c"/>
+
+  <!-- Legs -->
+  <path d="M90,180 l-10,-50 A20,20 0 0 0 70,110 l10,50 Z" fill="#f0e68c"/>
+  <path d="M110,180 l10,-50 A20,20 0 0 0 130,110 l-10,50 Z" fill="#f0e68c"/>
+
+  <!-- Hair -->
+  <path d="M90,140 q20,-10 40,0 q20,10 40,0" stroke="#000" fill="transparent"/>
+
+</svg>

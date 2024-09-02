@@ -1,0 +1,22 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Starting Line -->
+  <circle cx="50" cy="180" r="30" fill="yellow"/>
+
+  <!-- Racers -->
+  <polygon points="70,200 120,240 70,280" fill="green"/>
+  <rect x="160" y="220" width="50" height="80" fill="red"/>
+
+  <!-- Barrier/Obstacle -->
+  <path d="M320,380 Q400,300 480,380" stroke="blue" fill="transparent"/>
+
+  <!-- Finish Line & Trophy -->
+  <circle cx="560" cy="200" r="30" fill="gold"/>
+
+  <!-- Dialogue Bubbles -->
+  <text x="10" y="30" text-anchor="start">The sun marks the start!</text>
+  <text x="80" y="270" text-anchor="middle">Go, Triceratops!</text>
+  <text x="450" y="390" text-anchor="end">Almost there!</text>
+  <text x="560" y="170" text-anchor="middle">Winner!</text>
+
+</svg>

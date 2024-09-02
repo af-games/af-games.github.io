@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#F8F9FA"/>
+
+  <!-- Nurse Shark Body -->
+  <circle cx="250" cy="300" r="150" fill="#212529"/>
+  <path d="M250,200 Q270,180 290,200" stroke="#212529" fill="transparent"/>
+
+  <!-- Nurse Shark Eye Patches -->
+  <rect x="160" y="140" width="20" height="40" fill="#0DCA8F"/>
+  <rect x="320" y="140" width="20" height="40" fill="#0DCA8F"/>
+
+  <!-- Nurse Shark Fins -->
+  <!-- Top Fin -->
+  <polygon points="190,150 200,170 190,190" fill="#212529"/>
+  <!-- Bottom Left Fin -->
+  <polygon points="210,300 240,280 210,260" fill="#212529"/>
+  <!-- Bottom Right Fin -->
+  <polygon points="290,300 260,280 290,260" fill="#212529"/>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Butterfly Body -->
+  <path d="M175,400 Q225,400 250,350 Q300,400 325,350" fill="black"/>
+
+  <!-- Butterfly Wings -->
+  <path d="M175,400 Q90,250 175,200 Q260,250 175,200 Z" fill="#ffcc00"/>
+  <path d="M325,350 Q430,250 325,200 Q230,250 325,200 Z" fill="#ffcc00"/>
+
+  <!-- Butterfly Antennae -->
+  <path d="M90,210 L75,180 90,160 105,180 Z" fill="black"/>
+  <path d="M430,210 L445,180 430,160 415,180 Z" fill="black"/>
+
+  <!-- Surrounding Flowers -->
+  <circle cx="75" cy="450" r="30" fill="#ffa502"/>
+  <path d="M75,420 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0 Z" fill="white"/>
+
+  <circle cx="425" cy="450" r="30" fill="#ffa502"/>
+  <path d="M425,420 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0 Z" fill="white"/>
+
+</svg>

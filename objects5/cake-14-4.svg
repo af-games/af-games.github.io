@@ -1,0 +1,27 @@
+<svg>` tag:
+
+```xml
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake outer shape -->
+  <path d="M100,10 A90,90 0 1,1 100,190 A90,90 0 1,1 100,10" fill="#FDD79B"/>
+
+  <!-- Cake inner hole -->
+  <circle cx="100" cy="100" r="65" fill="transparent" stroke="#FDD79B" stroke-width="2"/>
+
+  <!-- Frosting top and bottom -->
+  <path d="M100,30 A70,70 0 0,0 100,140 Z" fill="#FFFFFF"/>
+  <path d="M100,160 A90,90 0 0,0 100,225 A90,90 0 0,0 100,185 Z" fill="#7DC855"/>
+
+  <!-- Cake layers -->
+  <path d="M100,30 A90,90 0 0,0 100,270 A90,90 0 0,0 100,60 Z" fill="#FDD79B"/>
+  <path d="M100,60 A80,80 0 0,0 100,240 A80,80 0 0,0 100,90 Z" fill="#FDD79B"/>
+
+  <!-- Candles -->
+  <g transform="translate(50,30)">
+    <circle cx="5" cy="0" r="5" fill="#FFBF00"/>
+    <path d="M-5,-10 L5,-10 L0,-20 Z" fill="#FFBF00"/>
+  </g>
+  <use href="#candle" x="95"/>
+
+</svg>

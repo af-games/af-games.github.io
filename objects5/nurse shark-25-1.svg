@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 100 80">
+  <!-- Body -->
+  <path fill="#8B7D6B"
+        d="M-40,-10 A40,40 0 0 0 40,-10
+             A40,40 0 0 0 -40,30 Z"/>
+
+  <!-- Tail -->
+  <path fill="#8B7D6B"
+        d="M-50,-10 Q-20,-10 -20,30
+             Q0,10 -20,-10 Q-50,-10"/>
+
+  <!-- Fins -->
+  <circle cx="-30" cy="30" r="15" fill="#8B7D6B"/>
+  <path fill="#8B7D6B"
+        d="M-40,20 H0 V35 H-40 Z"/>
+
+  <!-- Head -->
+  <circle cx="0" cy="-10" r="40" fill="#8B7D6B"/>
+
+  <!-- Eyes -->
+  <circle cx="-15" cy="-15" r="5" fill="black"/>
+  <circle cx="15" cy="-15" r="5" fill="black"/>
+</svg>

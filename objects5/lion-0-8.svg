@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#E7D4C1"/>
+
+  <!-- Sun (bright light source) -->
+  <circle cx="50" cy="50" r="30" fill="#FDB927"/>
+  <circle cx="50" cy="50" r="20" fill="#FFC86A"/>
+  <circle cx="50" cy="50" r="10" fill="#FFF"/>
+
+  <!-- Grass (path element with repetitive pattern) -->
+  <defs>
+    <pattern id="grass" x="0%" y="0%" width="20%" height="100%" patternUnits="objectBoundingBox">
+      <rect width="1%" height="3%" fill="#5D7F4B"/>
+    </pattern>
+  </defs>
+  <path d="M0,600 H800 V580 H0 Z" fill="url(#grass)"/>
+
+  <!-- Tree (path element with stroke and opacity) -->
+  <path d="M250,570 Q300,550 350,570 Q400,600 450,570" stroke="#4C3F29" fill="none" stroke-width="10" opacity="0.8"/>
+
+  <!-- Lion (path element with fill and stroke) -->
+  <path d="M550,300 Q500,400 600,300 Q550,200 700,300 Q650,400 550,300" fill="#F19C5D" stroke="#B88E57" stroke-width="5"/>
+  <circle cx="600" cy="300" r="20" fill="#FFF"/>
+
+  <!-- Lion's mane (path element with opacity) -->
+  <path d="M450,250 Q500,180 550,250 Q500,320 450,250" fill="none" stroke="#F7896B" stroke-width="5" opacity="0.5"/>
+</svg>

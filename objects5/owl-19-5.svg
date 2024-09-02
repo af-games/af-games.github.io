@@ -1,0 +1,24 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path id="body" d="M100 25 Q120 75, 160 25 Q180 75, 140 125 A10 10 0 0 1 130 150 Z"/>
+  <polygon fill="black" points="body"/>
+
+  <!-- Wings -->
+  <path id="left-wing" d="M60 75 Q80 90, 120 75 Q140 90, 160 75"/>
+  <polygon fill="lightblue" points="left-wing"/>
+  <text font-family="Verdana" font-size="3" x="65" y="85">Blue Sapphire</text>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="120" r="15" fill="white">
+    <animate attributeName="fill-opacity" values="1;0.7;1" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text font-family="Verdana" font-size="3" x="87" y="125">White Opal</text>
+
+  <!-- Feathers -->
+  <polygon fill="gold" points="145,60,160,50,155,65"/>
+  <text font-family="Verdana" font-size="3" x="150" y="55">Golden Yellow Citrine</text>
+
+  <!-- Accent Diamonds -->
+  <circle cx="95" cy="70" r="2" fill="gold"/>
+  <circle cx="145" cy="70" r="2" fill="gold"/>
+</svg>

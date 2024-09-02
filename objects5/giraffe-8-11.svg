@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Body -->
+  <circle cx="0" cy="0" r="120" fill="#CD7F32"/>
+
+  <!-- Neck -->
+  <rect x="-60" y="-140" width="120" height="80" rx="40" ry="40" fill="#CD7F32"/>
+  <circle cx="0" cy="-150" r="30" fill="#CD7F32"/>
+
+  <!-- Head -->
+  <ellipse cx="0" cy="-190" rx="60" ry="80" fill="#CD7F32"/>
+  <circle cx="0" cy="-210" r="40" fill="#CD7F32"/>
+
+  <!-- Legs -->
+  <rect x="-30" y="10" width="60" height="150" rx="30" ry="30" fill="#CD7F32"/>
+  <rect x="30" y="10" width="60" height="150" rx="30" ry="30" fill="#CD7F32"/>
+
+  <!-- Tail -->
+  <polygon points="-40,-80, -20,-90, 0,-80" fill="#CD7F32"/>
+
+  <!-- Engravings and Inlays -->
+  <path d="M-120,-120 Q-60,-150 60,-120 Q120,-150 60,-120" stroke="#2E0C0D"/>
+  <path d="M-120,-90 Q-60,-120 60,-90 Q120,-120 60,-90" fill="#4A9298"/>
+</svg>

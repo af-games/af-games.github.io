@@ -1,0 +1,16 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Envelope -->
+  <circle cx="100" cy="75" r="75" fill="red" />
+
+  <!-- Basket -->
+  <rect x="70" y="225" width="40" height="30" fill="brown" />
+
+  <!-- Gondola (optional) -->
+  <rect x="120" y="180" width="20" height="25" fill="brown" stroke-width="2" stroke="black"/>
+
+  <!-- Rope and Attachments -->
+  <line x1="70" y1="225" x2="100" y2="75" stroke="brown" stroke-width="3"/>
+  <line x1="120" y1="200" x2="140" y2="180" stroke="brown" stroke-width="3"/>
+
+</svg>

@@ -1,0 +1,25 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect id="bg" x="0" y="0" width="800" height="600" fill="#9ACD32"/>
+
+<!-- Landscape -->
+<rect id="land" x="150" y="400" width="500" height="200" fill="#F4A460"/>
+
+<!-- Dinosaur's footsteps -->
+<g id="footsteps">
+  <circle cx="200" cy="500" r="30"/>
+  <animateMotion dur="500ms" repeatCount="indefinite">
+    <mpath href="#footpath"/>
+  </animateMotion>
+</g>
+
+<!-- Dinosaur's tail -->
+<path id="tail" d="M600,450 Q620,380 640,450 T660,380 Z">
+  <animateTransform attributeType="xml" type="rotate" from="0 600 450" to="360 600 450" dur="1s" repeatCount="indefinite"/>
+</path>
+
+<!-- Footstep path -->
+<path id="footpath" d="M200,500 Q300,480 400,500 Q500,520 600,500"/>
+
+</svg>

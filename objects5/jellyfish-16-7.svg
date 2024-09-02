@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#051b47"/>
+
+  <!-- Jellyfish Habitat (Ocean) -->
+  <path d="M0,200 Q300,100 600,200 Q900,300 800,200" stroke="#f75d8c" fill="#0b48ab" stroke-width="2"/>
+  <text x="10" y="230" font-family="Verdana" font-size="16">Jellyfish Habitat</text>
+
+  <!-- Mountains -->
+  <circle cx="350" cy="150" r="70" fill="#4b391d"/>
+  <circle cx="450" cy="200" r="50" fill="#4b391d"/>
+  <text x="360" y="180" font-family="Verdana" font-size="16">Mountains</text>
+
+  <!-- Rivers -->
+  <path d="M200,350 Q350,450 500,350" stroke="#fff" fill="transparent" stroke-width="2"/>
+  <text x="370" y="400" font-family="Verdana" font-size="16">Rivers</text>
+
+  <!-- Forests -->
+  <rect x="150" y="400" width="100" height="200" fill="#0b893f"/>
+  <rect x="550" y="400" width="100" height="200" fill="#0b893f"/>
+  <text x="250" y="600" font-family="Verdana" font-size="16">Forests</text>
+
+  <!-- Cities -->
+  <polygon points="650,400 750,350 800,450" fill="#f9d71c"/>
+  <text x="725" y="425" font-family="Verdana" font-size="16">City of Medusa</text>
+
+  <!-- Jellyfish -->
+  <circle cx="300" cy="250" r="40" fill="#f75d8c"/>
+  <circle cx="500" cy="220" r="30" fill="#f75d8c"/>
+
+</svg>

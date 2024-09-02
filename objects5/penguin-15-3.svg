@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Body -->
+  <g id="body">
+    <rect width="400" height="300" x="50" y="150" fill="#A9E6FF"/>
+    <path d="M270,280 Q350,350 350,450 Q270,550 150,450 Q150,350 270,280" fill="#D6F5FF"/>
+    <circle cx="270" cy="220" r="50" fill="#FFFFFF"/>
+
+    <!-- Feet -->
+    <g transform="translate(190,530)">
+      <path d="M0,0 L10,-40 Z" fill="#A9E6FF"/>
+      <path d="M0,0 L10,-20 Z" fill="#D6F5FF"/>
+    </g>
+  </g>
+
+  <!-- Head -->
+  <g id="head">
+    <circle cx="270" cy="220" r="80" fill="#FFFFFF"/>
+    <path d="M230,140 Q270,160 310,140" stroke="#000000" stroke-width="5"/>
+
+    <!-- Eyes -->
+    <g transform="translate(220,180)">
+      <circle cx="0" cy="0" r="10" fill="#000000"/>
+      <circle cx="40" cy="0" r="10" fill="#000000"/>
+    </g>
+
+    <!-- Beak -->
+    <path d="M270,160 L320,180 L220,180 Z" fill="#FFC0CB"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ancient Era -->
+  <rect x="50" y="400" width="150" height="100" fill="#E39371" stroke="black"/>
+  <text x="80" y="460" font-size="24" fill="white">Ancient Nurse Shark Era</text>
+
+  <!-- Medieval Era -->
+  <polygon points="250,450 350,450 300,500 200,500" fill="#8B7D6B" stroke="black"/>
+  <text x="280" y="460" font-size="24" fill="white">Medieval Nurse Shark Era</text>
+
+  <!-- Future Era -->
+  <path d="M450,350 Q550,450 650,350" stroke="#87CEEB" stroke-width="10" fill="transparent"/>
+  <text x="520" y="390" font-size="24" fill="black">Future Nurse Shark Era</text>
+
+  <!-- Timeline -->
+  <line x1="50" y1="550" x2="700" y2="550" stroke="black"/>
+  <text x="350" y="580" font-size="24">Time Traveler's Journey</text>
+
+</svg>

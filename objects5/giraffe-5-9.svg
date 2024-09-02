@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Scene 1: Giraffe in the Savannah -->
+  <rect x="50" y="100" width="700" height="400" fill="#F3D9AB"/>
+  <circle cx="200" cy="250" r="150" fill="#B86C1E"/>
+  <path d="M300,150 Q350,75 400,150" stroke="#FFD966" fill="transparent"/>
+
+  <!-- Scene 2: Giraffe Spots a Hidden Oasis -->
+  <rect x="50" y="200" width="200" height="200" fill="#6A4F3B"/>
+  <circle cx="150" cy="300" r="100" fill="#C9892D"/>
+
+  <!-- Scene 3: Giraffe's Journey to the Oasis -->
+  <rect x="250" y="150" width="400" height="300" fill="#FDB76E"/>
+  <path d="M300,200 Q350,150 400,200 Q350,250 300,300" stroke="#FFD966" fill="transparent"/>
+
+  <!-- Scene 4: Giraffe Reaches the Oasis -->
+  <rect x="50" y="250" width="700" height="300" fill="#8BC8AC"/>
+  <circle cx="150" cy="400" r="100" fill="#C9892D"/>
+
+  <!-- Scene 5: Celebration at the Oasis -->
+  <rect x="50" y="300" width="700" height="300" fill="#F3E3DC"/>
+  <circle cx="150" cy="450" r="100" fill="#C9892D"/>
+  <circle cx="300" cy="450" r="50" fill="#FF6C00"/>
+
+  <!-- Scene 6: Giraffe Shares the Secret -->
+  <rect x="50" y="350" width="700" height="250" fill="#FDB76E"/>
+  <circle cx="150" cy="450" r="100" fill="#C9892D"/>
+  <path d="M300,400 Q350,350 400,400" stroke="#FFD966" fill="transparent"/>
+
+  <!-- Text Elements -->
+  <text x="10" y="50" font-size="20">The Giraffe's Long-Necked Adventure</text>
+  <text x="50" y="175" font-size="14">Giraffe stands tall among other animals.</text>
+  <!-- Add more text elements for each scene as desired -->
+
+</svg>

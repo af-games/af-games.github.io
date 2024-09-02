@@ -1,0 +1,32 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- White background -->
+  <rect x="0" y="0" width="400" height="300" fill="white"/>
+
+  <!-- Penguin body (black circles) -->
+  <g stroke="none">
+    <!-- Head and body -->
+    <?for ($i = 10; $i <= 280; $i += 10):?>
+      <?for ($j = 50; $j <= 230; $j += 10):?>
+        <?if (($i > 70 && $i < 210) || ($j > 90 && $j < 170)):?>
+          <circle cx="<?= $i ?>" cy="<?= $j ?>" r="5" fill="black"/>
+        <?endif;?>
+      <?endfor;?>
+    <?endfor;?>
+
+    <!-- Beak -->
+    <?for ($i = 80; $i <= 120; $i += 10):?>
+      <circle cx="<?= $i ?>" cy="90" r="5" fill="black"/>
+    <?endfor;?>
+
+    <!-- Eyes -->
+    <circle cx="130" cy="60" r="5" fill="white"/>
+    <circle cx="170" cy="60" r="5" fill="white"/>
+    <circle cx="130" cy="60" r="2.5" fill="black"/>
+    <circle cx="170" cy="60" r="2.5" fill="black"/>
+
+    <!-- Feet -->
+    <?for ($i = 140; $i <= 260; $i += 80):?>
+      <polygon points="<?= $i ?>,230 <?= $i + 40 ?>,270 <?= $i + 40 ?>,230" fill="black"/>
+    <?endfor;?>
+  </g>
+</svg>

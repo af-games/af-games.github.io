@@ -1,0 +1,41 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#281D1A"/>
+
+  <!-- Stage floor -->
+  <rect x="50" y="350" width="500" height="50" fill="#5B3F30"/>
+
+  <!-- Lighting effect -->
+  <radialGradient id="lightingEffect" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" style="stop-color:#FFF; stop-opacity:0.2"/>
+    <stop offset="100%" style="stop-color:#FFF; stop-opacity:0"/>
+  </radialGradient>
+  <rect x="50" y="300" width="500" height="50" fill="url(#lightingEffect)"/>
+
+  <!-- Owl Marionette -->
+  <g stroke="black" stroke-width="2">
+
+    <!-- Head -->
+    <ellipse cx="150" cy="100" rx="50" ry="80" fill="#F9DDC6"/>
+    <circle cx="150" cy="70" r="5" fill="black"/>
+
+    <!-- Body -->
+    <rect x="120" y="180" width="40" height="80" fill="#FFE5B3"/>
+
+    <!-- Wings (Left) -->
+    <polygon points="90,180 70,140 110,160" fill="#F9DDC6"/>
+    <!-- Wings (Right) -->
+    <polygon points="230,180 250,140 210,160" fill="#F9DDC6"/>
+
+    <!-- Tail -->
+    <polygon points="170,260 140,240 200,240" fill="#FFE5B3"/>
+
+    <!-- Strings and attachment points -->
+    <line x1="150" y1="20" x2="150" y2="100" stroke-dasharray="5"/>
+    <circle cx="150" cy="20" r="5" fill="black"/>
+    <!-- More strings and attachment points for wings, body, and tail -->
+
+  </g>
+
+</svg>

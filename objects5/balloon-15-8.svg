@@ -1,0 +1,20 @@
+<svg width="200" height="300" style="background-color: lightgray;" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon outline -->
+  <path d="M100,20 Q140,20 170,60 Q200,20 150,80" stroke="black" stroke-width="4" fill="transparent"/>
+
+  <!-- Balloon top -->
+  <circle cx="100" cy="20" r="10" fill="#ff7f27"/>
+  <path d="M90,10 L95,0 L105,0 Z" fill="#ff7f27"/>
+
+  <!-- Balloon color gradient -->
+  <linearGradient id="balloonGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:rgb(255,255,0);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(255,79,39);stop-opacity:1" />
+  </linearGradient>
+  <path d="M100,60 Q140,60 170,100 A80,80 0 0 1 100,200 A80,80 0 0 1 30,100" fill="url(#balloonGrad)"/>
+
+  <!-- Balloon string -->
+  <path d="M150,80 Q175,90 175,140" stroke="black" stroke-width="2"/>
+
+</svg>

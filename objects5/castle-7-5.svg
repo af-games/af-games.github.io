@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+
+  <!-- Castle walls -->
+  <rect x="150" y="50" width="300" height="300" style="fill:#8B4513"/>
+
+  <!-- Moat water -->
+  <rect x="75" y="250" width="550" height="150" style="fill:#006494"/>
+
+  <!-- Forest -->
+  <polygon points="0,250 0,400 300,400 300,250" style="fill:#228B22"/>
+
+  <!-- Path to castle gate -->
+  <path d="M75,250 Q150,300 225,250 T275,250" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Castle tower (optional detail) -->
+  <polygon points="225,100 275,100 250,50" style="fill:#8B4513"/>
+
+</svg>

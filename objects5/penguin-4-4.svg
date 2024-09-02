@@ -1,0 +1,38 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="url(#background-gradient)"/>
+  <defs>
+    <linearGradient id="background-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <ellipse cx="250" cy="350" rx="150" ry="180" fill="url(#body-gradient)"/>
+  <defs>
+    <radialGradient id="body-gradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%"   stop-color="#006491"/>
+      <stop offset="100%" stop-color="#3B2F8C"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Head -->
+  <circle cx="250" cy="275" r="75" fill="url(#head-gradient)"/>
+  <defs>
+    <linearGradient id="head-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#CBCFE2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Eye -->
+  <circle cx="235" cy="260" r="10" fill="#000000"/>
+
+  <!-- Flipper (Left) -->
+  <path d="M210,340 Q200,370 210,400 T230,370 Z" fill="#3B2F8C"/>
+
+  <!-- Flipper (Right) -->
+  <path d="M290,340 Q300,370 290,400 T270,370 Z" fill="#3B2F8C"/>
+
+</svg>

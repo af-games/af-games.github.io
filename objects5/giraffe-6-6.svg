@@ -1,0 +1,35 @@
+<svg width="800" height="1200" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<rect id="bodice" x="40" y="50" width="720" height="650"
+  style="fill: url(#giraffe-fur); stroke: black; stroke-width: 1"/>
+
+<!-- Left Sleeve -->
+<circle cx="300" cy="180" r="250"
+  style="fill: url(#giraffe-fur); stroke: black; stroke-width: 1"/>
+
+<!-- Right Sleeve -->
+<use xlink:href="#left-sleeve" transform="translate(480,0)"/>
+
+<!-- Neckline -->
+<polygon id="neckline" points="40,50 760,50 430,280"
+  style="fill: url(#giraffe-fur); stroke: black; stroke-width: 1"/>
+
+<!-- Giraffe Head & Neck -->
+<path d="M450,50 Q500,75 550,50 T650,300 T550,580 T450,550"
+  style="fill: url(#giraffe-fur); stroke: black; stroke-width: 1"/>
+
+<!-- Giraffe Horns -->
+<path d="M500,75 Q575,25 625,75" stroke="brown" stroke-width="3"/>
+<path d="M450,50 Q375,25 325,50" stroke="brown" stroke-width="3"/>
+
+<!-- Giraffe Fur Gradient -->
+<defs>
+  <linearGradient id="giraffe-fur" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color: #f5d76e; stop-opacity: 1"/>
+    <stop offset="50%" style="stop-color: #b98432; stop-opacity: 1"/>
+    <stop offset="100%" style="stop-color: #7a4c1a; stop-opacity: 1"/>
+  </linearGradient>
+</defs>
+
+</svg>

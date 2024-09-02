@@ -1,0 +1,105 @@
+<svg width="600" height="400" viewBox="0 0 600 400">
+```
+
+Now, let's assign note values to our instruments. Each note will be represented by a shape or path with a size and position corresponding to its duration and pitch.
+
+For simplicity, we'll use the following sizes and positions:
+- Drum circles: radius = note value (1/8 -> 2), center position = (x, y)
+- Violin rectangles: width = note value * 50 (1/8 -> 400), height = 100, position = (x, y - 50)
+- Guitar paths: path data varies based on rhythm and melody
+
+Let's start with the drums. We'll use a simple 4/4 beat pattern for the nurse shark.
+
+```svg
+<g id="drums">
+  <!-- Kick drum -->
+  <circle cx="100" cy="350" r="20" fill="#696969"/>
+  <!-- Snare drum -->
+  <circle cx="200" cy="350" r="15" fill="#CACFD2"/>
+</g>
+```
+
+Next, let's add the violins. We'll create a simple harmony using three notes: C4 (middle C), E4, and G4.
+
+```svg
+<g id="violins">
+  <!-- Melody -->
+  <rect x="300" y="250" width="150" height="100" fill="#FFD700"/>
+  <!-- Harmony -->
+  <rect x="450" y="250" width="100" height="100" fill="#DAA520"/>
+</g>
+```
+
+Finally, let's add the guitar. We'll use a simple path for the melody of "When the Saints Go Marching In".
+
+```svg
+<g id="guitar">
+  <path d="M300,200 Q350,150 400,200 Q350,250 300,200 Q250,150 200,200" stroke="#FF69B4" fill="transparent"/>
+</g>
+```
+
+Now, let's add some dynamics with colors. We'll use a light-to-dark gradient for crescendos and a dark-to-light gradient for decrescendos.
+
+```svg
+<defs>
+  <linearGradient id="crescendo" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:white; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:black; stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="decrescendo" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:black; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:white; stop-opacity:1"/>
+  </linearGradient>
+</defs>
+```
+
+Finally, let's add the dynamics to our instruments.
+
+```svg
+<g id="drums" fill="url(#crescendo)">
+  <!-- ... drum circles ... -->
+</g>
+
+<g id="violins">
+  <!-- Melody with decrescendo -->
+  <rect x="300" y="250" width="150" height="100" fill="url(#decrescendo)"/>
+  <!-- Harmony with crescendo -->
+  <rect x="450" y="250" width="100" height="100" fill="url(#crescendo)"/>
+</g>
+
+<g id="guitar">
+  <!-- Guitar melody with alternating dynamics -->
+  <path d="M300,200 Q350,150 400,200 Q350,250 300,200 Q250,150 200,200" stroke="#FF69B4" fill="url(#crescendo)" stroke-width="10"/>
+</g>
+```
+
+And that's our SVG composition "Nurse Shark". You can view it in a web browser by saving the code as an .svg file and opening it. Here's the complete SVG:
+
+```svg
+<svg width="600" height="400" viewBox="0 0 600 400">
+<defs>
+  <linearGradient id="crescendo" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:white; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:black; stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="decrescendo" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:black; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:white; stop-opacity:1"/>
+  </linearGradient>
+</defs>
+
+<g id="drums" fill="url(#crescendo)">
+  <circle cx="100" cy="350" r="20"/>
+  <circle cx="200" cy="350" r="15"/>
+</g>
+
+<g id="violins">
+  <rect x="300" y="250" width="150" height="100" fill="url(#decrescendo)"/>
+  <rect x="450" y="250" width="100" height="100" fill="url(#crescendo)"/>
+</g>
+
+<g id="guitar">
+  <path d="M300,200 Q350,150 400,200 Q350,250 300,200 Q250,150 200,200" stroke="#FF69B4" fill="url(#crescendo)" stroke-width="10"/>
+</g>
+
+</svg>

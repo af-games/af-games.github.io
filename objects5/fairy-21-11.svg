@@ -1,0 +1,15 @@
+<svg>` element:
+
+```html
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fairy body -->
+  <path id="body" fill="#FFCDE4" stroke-width="1" stroke="#FFA7D8"/>
+
+  <!-- Fairy head -->
+  <circle id="head" cx="250" cy="225" r="30" fill="#FFF1E6" stroke-width="1" stroke="#FFA7D8"/>
+
+  <!-- Fairy wings -->
+  <polygon id="left-wing" points="45,120 90,30 135,120" fill="#FFCDE4" stroke-width="1" stroke="#FFA7D8"/>
+  <polygon id="right-wing" points="355,120 400,30 445,120" fill="#FFCDE4" stroke-width="1" stroke="#FFA7D8"/>
+
+</svg>

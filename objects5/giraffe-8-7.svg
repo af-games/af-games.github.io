@@ -1,0 +1,46 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#E5ECF9"/>
+
+  <!-- Mountains -->
+  <polygon points="40,10 70,60 300,200 20,180" fill="#7D7C6F" />
+  <text x="50%" y="190" dominant-baseline="middle" text-anchor="middle" font-size="14">Mount Giraffia</text>
+
+  <!-- Rivers -->
+  <path d="M350,80 Q420,160 500,80 Q580,160 700,80" stroke="#BDBDBD" fill="transparent"/>
+  <text x="400" y="90" dominant-baseline="middle" text-anchor="middle" font-size="12">River Nileara</text>
+
+  <!-- Forests -->
+  <rect x="150" y="300" width="300" height="200" fill="#78C049"/>
+  <text x="250" y="450" dominant-baseline="middle" text-anchor="middle" font-size="16">Whisperwood Forest</text>
+
+  <!-- Giraffe Habitats -->
+  <circle cx="250" cy="350" r="80" fill="#FFA500"/>
+  <text x="250" y="430" dominant-baseline="middle" text-anchor="middle" font-size="16">Giraffe Meadows</text>
+  <circle cx="550" cy="350" r="80" fill="#FFA500"/>
+  <text x="550" y="430" dominant-baseline="middle" text-anchor="middle" font-size="16">Giraffe Meadows</text>
+
+  <!-- City -->
+  <circle cx="700" cy="250" r="80" fill="#FFFFFF"/>
+  <path d="M690,230 Q740,150 800,230" stroke="#000000" fill="transparent"/>
+  <text x="750" y="260" dominant-baseline="middle" text-anchor="middle" font-size="16">Giraffa City</text>
+
+  <!-- Creatures -->
+  <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Leopard_(Panthera_parcus)_-_Tatsworth_Park_-_20171105.jpg/280px-Leopard_(Panthera_parcus)_-_Tatsworth_Park_-_20171105.jpg" x="60" y="400" width="30"/>
+
+  <!-- Legend -->
+  <text x="10" y="570" dominant-baseline="hanging">Legend:</text>
+  <circle cx="40" cy="590" r="5"/>
+  <text x="60" y="590">Mountains</text>
+  <circle cx="200" cy="590" r="3"/>
+  <path d="M220,590 Q240,570 260,590 Q280,570 300,590" stroke="#BDBDBD"/>
+  <text x="310" y="590">Rivers</text>
+  <rect x="400" cy="590" width="30" height="10" fill="#78C049"/>
+  <text x="450" y="590">Forests</text>
+  <circle cx="600" cy="590" r="12" fill="#FFA500"/>
+  <text x="630" y="590">Giraffe Meadows</text>
+  <circle cx="730" cy="590" r="12" fill="#FFFFFF"/>
+  <text x="760" y="590">Cities</text>
+
+</svg>

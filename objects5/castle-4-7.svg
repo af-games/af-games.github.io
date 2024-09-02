@@ -1,0 +1,43 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle Walls -->
+  <rect id="walls" x="15%" y="5%" width="70%" height="40%" fill="url(#wallGradient)" rx="5%" ry="5%"/>
+
+  <!-- Towers -->
+  <circle cx="20%" cy="20%" r="10%" fill="url(#towerGradient)"/>
+  <circle cx="80%" cy="20%" r="10%" fill="url(#towerGradient)"/>
+
+  <!-- Main Courtyard -->
+  <rect id="courtyard" x="25%" y="45%" width="50%" height="35%" fill="url(#floorGradient)" rx="5%" ry="5%"/>
+  <circle cx="50%" cy="60%" r="15%" stroke="white" stroke-width="2"/>
+
+  <!-- Banner -->
+  <rect id="banner" x="45%" y="15%" width="10%" height="30%" fill="url(#bannerGradient)"/>
+  <text x="47%" y="60%" font-size="8" text-anchor="middle">BANNER</text>
+
+  <!-- Interactive Torch -->
+  <circle id="torch" cx="65%" cy="55%" r="10" fill="#ffa502">
+    <animate attributeName="r" values="10;20;10" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="70%" y="60%" font-size="8" text-anchor="middle">Click to interact</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="wallGradient" gradientTransform="rotate(90)">
+      <stop offset="50%" stop-color="#4d2b17"/>
+      <stop offset="100%" stop-color="#361c0f"/>
+    </linearGradient>
+    <linearGradient id="towerGradient">
+      <stop offset="0%" stop-color="#7a4837"/>
+      <stop offset="100%" stop-color="#5d3223"/>
+    </linearGradient>
+    <linearGradient id="floorGradient">
+      <stop offset="0%" stop-color="#e6ba9e"/>
+      <stop offset="100%" stop-color="#c4a887"/>
+    </linearGradient>
+    <linearGradient id="bannerGradient">
+      <stop offset="0%" stop-color="#ffb35d"/>
+      <stop offset="100%" stop-color="#ff9e2d"/>
+    </linearGradient>
+  </defs>
+
+</svg>

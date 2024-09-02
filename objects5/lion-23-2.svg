@@ -1,0 +1,16 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <path d="M100 50 Q140 35, 160 70 Q140 105, 100 80 Q60 105, 40 70" fill="#F39C12"/>
+
+  <!-- Mane -->
+  <path d="M90 40 Q120 20, 140 40 Q160 60, 140 80 Q120 100, 90 80" fill="#F39C12"/>
+
+  <!-- Eyes -->
+  <circle cx="75" cy="70" r="10" fill="black"/>
+  <circle cx="125" cy="70" r="10" fill="black"/>
+
+  <!-- Mouth -->
+  <rect x="80" y="90" width="40" height="20" fill="black"/>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg width="300" height="300" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <circle cx="150" cy="200" r="100" fill="#FFF" stroke="#CCC" stroke-width="4"/>
+
+  <!-- Frosting -->
+  <circle cx="150" cy="200" r="90" fill="#FFD700" />
+
+  <!-- Topping (Sprinkles) -->
+  <g id="sprinkles">
+    <circle cx="80" cy="120" r="3" fill="#FF69B4"/>
+    <circle cx="120" cy="150" r="3" fill="#32CD32"/>
+    <circle cx="180" cy="110" r="3" fill="#DAA520"/>
+  </g>
+
+  <!-- Use the sprinkles pattern multiple times for effect -->
+  <use xlink:href="#sprinkles" x="70" y="90"/>
+  <use xlink:href="#sprinkles" x="110" y="80"/>
+  <use xlink:href="#sprinkles" x="150" y="120"/>
+
+</svg>

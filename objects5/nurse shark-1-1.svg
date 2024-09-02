@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 100 80">
+  <!-- Body -->
+  <path fill="#8B7D6B" d="M-40,0 Q0,-40 40,0 Q0,40 -40,0"/>
+
+  <!-- Tail Fin -->
+  <polygon fill="#8B7D6B" points="-40,0 0,-20 0,-15"/>
+
+  <!-- Dorsal Fins -->
+  <circle cx="35" cy="5" r="10"/>
+  <circle cx="15" cy="10" r="7"/>
+  <circle cx="-5" cy="15" r="4"/>
+
+  <!-- Pectoral Fins -->
+  <polygon fill="#8B7D6B" points="-20,-30 -40,-20 -40,-35"/>
+
+  <!-- Head -->
+  <ellipse cx="-20" cy="0" rx="15" ry="12" fill="#8B7D6B"/>
+</svg>

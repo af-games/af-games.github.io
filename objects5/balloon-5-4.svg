@@ -1,0 +1,33 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body -->
+  <circle cx="100" cy="75" r="60">
+    <style>
+      fill: url(#balloonGradient);
+      stroke-width: 2;
+      stroke: #333;
+    </style>
+  </circle>
+
+  <!-- Balloon string -->
+  <line x1="100" y1="75" x2="100" y2="20"
+        style="stroke:#4a4a4a; stroke-width:4;" />
+
+  <!-- Balloon tail -->
+  <polygon points="90,260 100,230 110,260"
+           style="fill:url(#tailGradient); stroke-width:1; stroke:#333;" />
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="balloonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="5%" style="stop-color:rgb(249,216,73); stop-opacity:1" />
+      <stop offset="95%" style="stop-color:rgb(255,182,59); stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="tailGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="5%" style="stop-color:rgb(246,238,217); stop-opacity:1" />
+      <stop offset="95%" style="stop-color:rgb(220,211,180); stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+</svg>

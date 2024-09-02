@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Perimeter -->
+<rect x="100" y="50" width="600" height="400" fill="none" stroke="black"/>
+<circle cx="300" cy="200" r="150" fill="none" stroke="black"/>
+
+<!-- Clue 1: Bloodstain -->
+<path d="M180,170 Q220,140 260,170 Q300,210 260,240 Q220,270 180,240" fill="red"/>
+
+<!-- Clue 2: Footprint -->
+<path d="M500,300 Q530,340 580,300 Q620,260 580,220 Q530,180 500,220" fill="none" stroke="black"/>
+
+<!-- Clue 3: Broken cage bar -->
+<path d="M400,350 V400 H440 V350 Z" fill="none" stroke="red"/>
+<circle cx="420" cy="375" r="10" fill="black"/>
+
+<!-- Suspect 1: Tiger -->
+<path d="M650,200 Q680,240 720,200 Q680,160 650,140 Z" fill="none" stroke="orange"/>
+
+<!-- Suspect 2: Poacher -->
+<path d="M350,500 Q380,460 420,500 Q380,540 350,560 Z" fill="none" stroke="green"/>
+
+</svg>

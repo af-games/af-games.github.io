@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#8EA597" />
+
+  <!-- Rolling Hills -->
+  <path d="M0,40 Q200,80 400,40 Q600,80 800,40" stroke="#C3D0C5" fill="none" stroke-width="1" />
+  <path d="M800,40 Q600,80 400,40 Q200,80 0,40" stroke="#C3D0C5" fill="none" stroke-width="1" />
+
+  <!-- Winding River -->
+  <path d="M50,180 C200,120 400,160 600,120 S800,80 750,180" stroke="#3E9CB7" fill="none" stroke-width="2" />
+
+  <!-- Towering Trees -->
+  <g id="tree" transform="translate(150,40)">
+    <circle cx="0" cy="0" r="60" fill="#3D8C57"/>
+    <path d="M-20,-80 Q0,-140 20,-80" stroke="#3D8C57" fill="none" stroke-width="5"/>
+  </g>
+  <use xlink:href="#tree" y="200" transform="translate(250,40) scale(0.9)" />
+  <use xlink:href="#tree" y="350" transform="translate(400,40) scale(0.8)" />
+
+  <!-- Giraffe -->
+  <g id="giraffe" transform="translate(250,160)">
+    <circle cx="0" cy="-80" r="70" fill="#FFD34A"/>
+    <path d="M-40,-20 Q0,-140 40,-20" stroke="#FFD34A" fill="none" stroke-width="5"/>
+    <rect x="-160" y="-180" width="320" height="180" fill="#FFA500"/>
+  </g>
+
+</svg>

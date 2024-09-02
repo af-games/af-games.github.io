@@ -1,0 +1,31 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main body -->
+  <circle cx="100" cy="75" r="50" stroke="black" fill="transparent" />
+
+  <!-- Arms -->
+  <g stroke="black" fill="transparent">
+    <circle cx="80" cy="25" r="15" />
+    <circle cx="120" cy="25" r="15" />
+    <circle cx="60" cy="75" r="15" />
+    <circle cx="140" cy="75" r="15" />
+    <circle cx="80" cy="125" r="15" />
+    <circle cx="120" cy="125" r="15" />
+    <circle cx="60" cy="175" r="15" />
+    <circle cx="140" cy="175" r="15" />
+  </g>
+
+  <!-- Tentacles -->
+  <g stroke="black">
+    <path d="M80,25 Q90,35 100,25" />
+    <path d="M120,25 Q110,35 100,25" />
+    <path d="M60,75 Q70,85 80,75" />
+    <path d="M140,75 Q130,85 120,75" />
+    <!-- Repeat for other arms -->
+  </g>
+
+  <!-- Eyes -->
+  <ellipse cx="90" cy="60" rx="5" ry="10" stroke="black" fill="black"/>
+  <ellipse cx="110" cy="60" rx="5" ry="10" stroke="black" fill="black"/>
+
+</svg>

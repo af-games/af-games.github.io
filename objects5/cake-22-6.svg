@@ -1,0 +1,15 @@
+<svg>` tag. We'll also include some initial shapes and colors to begin setting the stage for our visual masterpiece.
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id="Layer_1" x="0px" y="0px"
+width="500px" height="500px" viewBox="0 0 500 500">
+
+<!-- Background rectangle -->
+<rect width="100%" height="100%" fill="#FFF4C2"/>
+
+<!-- Circle shapes for the melody -->
+<circle cx="100" cy="150" r="80" stroke="#FF6347" stroke-width="4" fill="#FFFFFF"/>
+<circle cx="250" cy="200" r="60" stroke="#4CAF50" stroke-width="4" fill="#FFFFFF"/>
+<circle cx="400" cy="180" r="50" stroke="#3F51B5" stroke-width="4" fill="#FFFFFF"/>
+
+</svg>

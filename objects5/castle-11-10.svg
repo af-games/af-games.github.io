@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define reusable filters -->
+  <defs>
+    <filter id="f1" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+    </filter>
+    <filter id="f2" x="-50%" y="-50%" width="200%" height="200%">
+      <feColorMatrix in="SourceGraphic" type="matrix"
+        values="0.33 0.33 0.33 0 0
+                0.33 0.33 0.33 0 0
+                0.33 0.33 0.33 0 0
+                0     0   0   1 0" />
+    </filter>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Exterior Walls -->
+  <rect x="50" y="400" width="700" height="200" fill="url(#grad1)" filter="url(#f1)"/>
+  <path d="M30,400 H770 V600 H30 Z" stroke="black"/>
+
+  <!-- Towers -->
+  <polygon points="150,300 250,300 200,200" fill="blue" filter="url(#f2)"/>
+  <polygon points="650,300 750,300 700,200" fill="blue" filter="url(#f2)"/>
+
+  <!-- Gates & Drawbridge -->
+  <rect x="200" y="450" width="400" height="150" fill="brown"/>
+  <path d="M300,600 Q400,700 500,600" stroke="black"/>
+
+  <!-- Path -->
+  <path d="M250,450 Q350,350 450,450 T550,450" stroke="green" stroke-width="10"/>
+
+</svg>

@@ -1,0 +1,42 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black outline -->
+  <rect x="10" y="10" width="480" height="280" fill="black"/>
+
+  <!-- White body -->
+  <rect x="50" y="50" width="300" height="200" fill="white">
+    <animate attributeName="opacity" values="1;0.7;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Orange belly -->
+  <rect x="60" y="150" width="280" height="80" fill="orange"/>
+
+  <!-- Black tummy outline -->
+  <path d="M70,130 Q90,150 140,150 Q210,150 260,130 Z" stroke="black" fill="transparent"/>
+
+  <!-- White eye -->
+  <circle cx="120" cy="80" r="30" fill="white"/>
+  <circle cx="220" cy="80" r="30" fill="white"/>
+
+  <!-- Black eye outline and pupils -->
+  <circle cx="120" cy="80" r="25" stroke="black" fill="transparent"/>
+  <circle cx="220" cy="80" r="25" stroke="black" fill="transparent"/>
+  <circle cx="120" cy="75" r="5" fill="black"/>
+  <circle cx="220" cy="75" r="5" fill="black"/>
+
+  <!-- Yellow beak -->
+  <polygon points="180,60 240,60 220,90" fill="yellow"/>
+  <path d="M180,60 Q170,70 180,80" stroke="black" fill="transparent"/>
+
+  <!-- Blue wings -->
+  <rect x="50" y="50" width="300" height="40" fill="blue">
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6D9EEB"/>
+      <stop offset="100%" stop-color="#3C78AC"/>
+    </linearGradient>
+  </rect>
+
+  <!-- Black feet -->
+  <rect x="150" y="250" width="50" height="50" fill="black"/>
+  <rect x="200" y="250" width="50" height="50" fill="black"/>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f5eccf"/>
+
+  <!-- Igloo -->
+  <circle cx="400" cy="300" r="200" fill="#fff"/>
+  <path d="M350,300 Q375,275 400,250 Q425,275 450,300 Z" fill="#f8c9a6"/>
+
+  <!-- Bar 1 -->
+  <circle cx="100" cy="500" r="20" fill="#ff6b6b"/>
+  <animate attributeName="cx" values="100;200;100" dur="4s" repeatCount="indefinite"/>
+
+  <!-- Bar 2 -->
+  <circle cx="300" cy="500" r="20" fill="#ffcc6b"/>
+  <animate attributeName="cx" values="300;400;300" dur="4s" begin="1s" repeatCount="indefinite"/>
+
+  <!-- Bar 3 -->
+  <circle cx="500" cy="500" r="20" fill="#bffa6b"/>
+  <animate attributeName="cx" values="500;600;500" dur="4s" begin="2s" repeatCount="indefinite"/>
+
+  <!-- Bar 4 -->
+  <circle cx="700" cy="500" r="20" fill="#7bfa8e"/>
+  <animate attributeName="cx" values="700;800;700" dur="4s" begin="3s" repeatCount="indefinite"/>
+
+  <!-- Transitions -->
+  <path d="M100,500 Q200,600 300,500" stroke="#ff6b6b" stroke-width="10"/>
+  <animate attributeName="d" values="M100,500 Q200,600 300,500;M300,500 Q400,600 500,500;" dur="4s" repeatCount="indefinite"/>
+  <animate attributeName="stroke" values="#ff6b6b;#ffcc6b" dur="2s" repeatCount="indefinite"/>
+
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 0 600 800">
+  <!-- Background -->
+  <rect x="-100" y="-50" width="900" height="900" fill="#fff" />
+
+  <!-- Basket -->
+  <polygon points="-20,750 60,-400 340,-400 580,750" fill="#7a4125" stroke="#6d3d20" stroke-width="3"/>
+  <path d="M60,750 Q90,800 200,750" stroke="#6d3d20" stroke-width="3"/>
+
+  <!-- Envelope -->
+  <path d="M100,-400 C200,-200 400,-200 500,-400" fill="#ffa502" stroke="#f78c0d" stroke-width="3"/>
+  <path d="M100,-400 Q-100,-600 200,-400" stroke="#f78c0d" stroke-width="3"/>
+
+  <!-- Gondola -->
+  <rect x="90" y="650" width="40" height="100" fill="#fff" stroke="#000" stroke-width="2"/>
+  <circle cx="120" cy="725" r="25" fill="#fff" stroke="#000" stroke-width="2"/>
+
+  <!-- Shadow -->
+  <path d="M-50,-400 Q150,-600 350,-400" fill="url(#shadow)" opacity="0.5"/>
+  <defs>
+    <linearGradient id="shadow" x1="-50" y1="-400" x2="350" y2="-400">
+      <stop offset="0%" stop-color="#000" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+    </linearGradient>
+  </defs>
+
+</svg>

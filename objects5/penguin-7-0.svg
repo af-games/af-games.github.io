@@ -1,0 +1,26 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<ellipse cx="150" cy="200" rx="100" ry="200" fill="#000"/>
+
+<!-- Head -->
+<ellipse cx="150" cy="150" rx="75" ry="100" fill="#fff"/>
+
+<!-- Beak -->
+<polygon points="125,50 100,75 150,75" fill="#ffa500"/>
+
+<!-- Left Eye -->
+<circle cx="90" cy="60" r="5" fill="#000"/>
+<!-- Right Eye -->
+<circle cx="130" cy="60" r="5" fill="#000"/>
+
+<!-- Feet -->
+<!-- Left Foot -->
+<rect x="75" y="200" width="30" height="30" fill="#000"/>
+<!-- Right Foot -->
+<rect x="125" y="200" width="30" height="30" fill="#000"/>
+
+<!-- Belly -->
+<path d="M 100,275 A 80,80 0 1,0 260,275 A 80,80 0 1,0 100,345 Z" fill="#fff"/>
+
+</svg>

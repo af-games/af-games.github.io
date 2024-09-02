@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 100 100">
+  <!-- Initial stroke (Outline) -->
+  <path d="M50 35 A25 25 0 1 1 90 35" stroke="#cccccc" fill="transparent"/>
+
+  <!-- First main stroke (Inner curve) -->
+  <path d="M65 40 A30 30 0 1 0 85 50" stroke="#424242" fill="transparent"/>
+
+  <!-- Second main stroke (Outer curve) -->
+  <path d="M60 55 A35 35 0 1 1 95 55" stroke="#424242" fill="transparent"/>
+
+  <!-- Third main stroke (Top and bottom lines) -->
+  <path d="M50 30 H90 V60 H50" stroke="#424242" fill="transparent"/>
+
+  <!-- Final stroke (Outline reinforcement) -->
+  <path d="M50 30 A25 25 0 1 1 90 30" stroke="#424242" fill="transparent"/>
+
+  <!-- Color accent (Highlight) -->
+  <path d="M55 30 A20 20 0 1 1 85 30" stroke="#ffff99" fill="transparent"/>
+</svg>

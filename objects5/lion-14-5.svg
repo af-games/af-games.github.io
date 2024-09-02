@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Stage -->
+  <rect x="100" y="250" width="600" height="300" fill="#f0e68c"/>
+
+  <!-- Lion -->
+  <g id="lion">
+    <!-- Body -->
+    <circle cx="400" cy="350" r="70" fill="#ffa502"/>
+
+    <!-- Head -->
+    <circle cx="400" cy="300" r="60" fill="#ffa502"/>
+    <ellipse cx="380" cy="290" rx="15" ry="20" fill="#fff"/>
+
+    <!-- Legs (front) -->
+    <circle cx="420" cy="370" r="30" fill="#ffa502"/>
+    <circle cx="380" cy="370" r="30" fill="#ffa502"/>
+
+    <!-- Legs (back) -->
+    <circle cx="420" cy="410" r="30" fill="#ffa502"/>
+    <circle cx="380" cy="410" r="30" fill="#ffa502"/>
+
+    <!-- Tail -->
+    <path d="M460 410 Q490 450 470 490 Q440 520 410 490 Z" stroke="#ffa502" fill="transparent"/>
+  </g>
+
+  <!-- Strings (paths) for lion movements -->
+  <path id="string-head" d="M380,270 Q400,250 400,300"/>
+
+  <!-- Props -->
+  <!-- Tree -->
+  <rect x="150" y="290" width="30" height="150" fill="#6f421c"/>
+  <circle cx="170" cy="400" r="30" fill="#8b5a36"/>
+
+  <!-- Ball -->
+  <circle cx="650" cy="350" r="40" fill="#ffcc00"/>
+
+</svg>

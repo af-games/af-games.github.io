@@ -1,0 +1,8 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer dome -->
+  <path d="M50,1 L70,40 A50,50 0 0 1 30,90 L50,100 Z" fill="white"/>
+  <!-- Inner dome -->
+  <path d="M60,20 A40,40 0 0 1 40,70 L50,80 Z" fill="lightblue"/>
+  <!-- Door -->
+  <rect x="35" y="90" width="15" height="20" fill="brown"/>
+</svg>

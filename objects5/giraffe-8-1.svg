@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 150">
+  <!-- Body -->
+  <path d="M50 10 Q60 30, 70 40 H30 Q40 30, 50 40 V100 A50 50 0 0 0 50 10" fill="brown"/>
+
+  <!-- Neck -->
+  <path d="M50 100 Q60 90, 70 80 H30 Q20 90, 50 80 V100 A50 50 0 0 0 50 10" fill="tan"/>
+
+  <!-- Head -->
+  <circle cx="50" cy="60" r="40" fill="tan"/>
+  <ellipse cx="45" cy="70" rx="5" ry="15" fill="black"/> <!-- Left eye -->
+  <ellipse cx="55" cy="70" rx="5" ry="15" fill="black"/> <!-- Right eye -->
+
+  <!-- Legs -->
+  <rect x="40" y="95" width="20" height="60" fill="tan"/>
+  <rect x="60" y="95" width="20" height="60" fill="tan"/>
+
+  <!-- Horns (optional, as not all giraffes have them) -->
+  <polygon points="45,35 50,10 55,35" fill="brown"/>
+</svg>

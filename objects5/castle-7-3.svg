@@ -1,0 +1,23 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Walls -->
+  <rect x="150" y="200" width="400" height="300" fill="none" stroke="black"/>
+  <line x1="150" y1="200" x2="550" y2="200" stroke="black"/>
+  <line x1="550" y1="200" x2="550" y2="500" stroke="black"/>
+
+  <!-- Castle Tower -->
+  <polygon points="300,100 450,100 400,300 300,300" fill="none" stroke="black"/>
+  <circle cx="375" cy="250" r="50" fill="none" stroke="black"/>
+
+  <!-- Gatehouse -->
+  <rect x="180" y="150" width="60" height="150" fill="none" stroke="black"/>
+  <line x1="170" y1="300" x2="230" y2="300" stroke="black"/>
+
+  <!-- Roads -->
+  <path d="M60,400 h200 M650,400 h-200" stroke="black"/>
+  <line x1="350" y1="400" x2="550" y2="400" stroke="black"/>
+
+  <!-- Entrance Arch -->
+  <path d="M270,350 Q300,400 330,350 Q360,400 390,350" stroke="black"/>
+
+</svg>

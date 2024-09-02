@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Dolphin outline -->
+  <image href="dolphin_transparent.png" xlink:href="dolphin_transparent.png" width="100%" height="100%" mask="url(#dolphinMask)" />
+
+  <!-- Ocean waves -->
+  <polyline points="25,475 50,450 75,480 125,450 150,480" fill="none" stroke="#336699" mask="url(#wavesMask)" />
+  <polyline points="25,450 50,425 75,450 125,425 150,450" fill="none" stroke="#336699" mask="url(#wavesMask)" />
+
+  <!-- Sun rays -->
+  <line x1="200" y1="50" x2="300" y2="75" stroke="#FFF8DC" mask="url(#sunRaysMask)" />
+  <line x1="250" y1="60" x2="350" y2="90" stroke="#FFF8DC" mask="url(#sunRaysMask)" />
+
+  <!-- Dolphin's eye -->
+  <ellipse cx="75" cy="125" rx="50" ry="50" fill="#4CAF50" mask="url(#eyeMask)" />
+  <circle cx="90" cy="130" r="5" fill="#FFF8DC" mask="url(#eyeMask)" />
+
+  <!-- Mysterious message -->
+  <text x="25%" y="90%" dominant-baseline="middle" text-anchor="middle" stroke="#4CAF50" stroke-width="1px" fill="none">SOLVE</text>
+
+  <!-- Defining masks -->
+  <defs>
+    <mask id="dolphinMask">
+      <path d="M0 375 Q25,400 50,450 Q75,400 100,350 ... " fill="black" />
+    </mask>
+    <mask id="wavesMask">
+      <polyline points="..." fill="white" />
+    </mask>
+    <mask id="sunRaysMask">
+      <line x1="..." y1="..." x2="..." y2="..." stroke="#FFF8DC" />
+      <line x1="..." y1="..." x2="..." y2="..." stroke="#FFF8DC" />
+    </mask>
+    <mask id="eyeMask">
+      <ellipse cx="75" cy="125" rx="50" ry="50" fill="black" />
+      <circle cx="90" cy="130" r="5" fill="white" />
+    </mask>
+  </defs>
+</svg>

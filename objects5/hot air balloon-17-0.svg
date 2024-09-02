@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Hot Air Balloon Envelope -->
+  <ellipse cx="250" cy="150" rx="180" ry="90" fill="#ADD8E6"/>
+  <polygon points="175,0 325,0 250,75" fill="#ADD8E6"/>
+
+  <!-- Hot Air Balloon Basket -->
+  <circle cx="250" cy="450" r="25" fill="#ADD8E6"/>
+  <rect x="230" y="425" width="60" height="50" fill="#ADD8E6"/>
+  <rect x="270" y="425" width="60" height="50" fill="#ADD8E6"/>
+
+  <!-- Hot Air Balloon Gondola -->
+  <rect x="215" y="390" width="80" height="40" fill="#8B4513"/>
+</svg>

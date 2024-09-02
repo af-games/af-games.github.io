@@ -1,0 +1,23 @@
+<svg viewBox="-300 -200 600 400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe Body -->
+  <rect x="-250" y="-150" width="500" height="300" fill="#DCDCDC"/>
+
+  <!-- Head -->
+  <ellipse cx="0" cy="75" rx="75" ry="75" fill="#F8DE74"/>
+
+  <!-- Neck -->
+  <path d="M0,75 Q-20,-100 20,-100 H0 V-150" stroke="black" fill="transparent"/>
+
+  <!-- Legs -->
+  <rect x="-250" y="125" width="50" height="300" fill="#F8DE74"/>
+  <rect x="-250" y="275" width="50" height="300" fill="#F8DE74"/>
+  <rect x="250" y="125" width="50" height="300" fill="#F8DE74"/>
+  <rect x="250" y="275" width="50" height="300" fill="#F8DE74"/>
+
+  <!-- Spot Patterns -->
+  <circle cx="-150" cy="250" r="20" fill="black"/>
+  <circle cx="150" cy="175" r="35" fill="black"/>
+  <!-- Add more spot circles as desired -->
+
+</svg>

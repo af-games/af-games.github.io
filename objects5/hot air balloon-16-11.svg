@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Basket -->
+  <polygon points="-40,-40 40,-40 40,40 0,60 -40,40"
+            fill="#D39146" stroke="black"/>
+
+  <!-- Envelope -->
+  <ellipse cx="0" cy="20" rx="50" ry="80"
+            fill="#F5DEB3"/>
+  <circle cx="0" cy="20" r="50"
+          stroke="#D39146" stroke-width="4"/>
+
+  <!-- Rim -->
+  <circle cx="0" cy="20" r="50"
+          fill="none" stroke="#D39146" stroke-width="4"/>
+
+  <!-- Burner System -->
+  <rect x="-25" y="-70" width="50" height="10" fill="#2C3E50"/>
+  <circle cx="-25" cy="-70" r="5" fill="#2C3E50"/>
+  <circle cx="25" cy="-70" r="5" fill="#2C3E50"/>
+  <path d="M-25,-70 H25 M-15,-65 H15"
+        stroke="#2C3E50" stroke-width="4"/>
+
+  <!-- Gondola Suspension Cables -->
+  <line x1="-35" y1="40" x2="35" y2="40"
+        stroke="black"/>
+  <line x1="-25" y1="60" x2="25" y2="60"
+        stroke="black"/>
+
+</svg>

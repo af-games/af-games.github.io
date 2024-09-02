@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Neck -->
+  <rect id="neck" x="150" y="100" width="30" height="200" fill="#333" />
+
+  <!-- Body -->
+  <rect id="body" x="140" y="270" width="40" height="160" fill="#333" />
+
+  <!-- Head -->
+  <circle id="head" cx="155" cy="80" r="50" fill="#333" />
+
+  <!-- Legs -->
+  <g id="legs">
+    <rect x="90" y="420" width="20" height="120" fill="#333" />
+    <rect x="240" y="420" width="20" height="120" fill="#333" />
+    <rect x="290" y="420" width="20" height="120" fill="#333" />
+    <rect x="350" y="420" width="20" height="120" fill="#333" />
+  </g>
+
+  <!-- Spots -->
+  <g id="spots">
+    <circle cx="175" cy="360" r="8" fill="#fff" />
+    <circle cx="190" cy="410" r="8" fill="#fff" />
+    <circle cx="220" cy="380" r="8" fill="#fff" />
+    <!-- Add more spots as needed -->
+  </g>
+
+</svg>

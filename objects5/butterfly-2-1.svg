@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="75" rx="50" ry="25" fill="black"/>
+  <circle cx="90" cy="85" r="5" fill="black"/>
+
+  <!-- Wings -->
+  <path d="M60,60 Q40,30 10,60 T140,60 Q120,30 170,60" stroke="black" fill="white"/>
+  <path d="M60,90 Q40,110 10,90 T140,90 Q120,110 170,90" stroke="black" fill="white"/>
+
+  <!-- Antennae -->
+  <line x1="85" y1="30" x2="85" y2="5" stroke="black"/>
+  <line x1="115" y1="30" x2="115" y2="5" stroke="black"/>
+
+</svg>

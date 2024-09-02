@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Scene 1: Jellyfish at Home -->
+  <circle id="jellyfish" cx="400" cy="500" r="50" fill="#90E0EC"/>
+  <text x="370" y="480" text-anchor="middle" fill="#FFF">Jellyfish</text>
+  <rect x="200" y="450" width="400" height="150" fill="#696969" stroke="#FFF"/>
+  <text x="300" y="570" text-anchor="middle" fill="#FFF">Ocean Floor</text>
+
+  <!-- Scene 2: The Moon Rises -->
+  <circle id="moon" cx="400" cy="150" r="80" fill="#FFFF99"/>
+  <path d="M360,70 Q400,250 440,70" stroke="#FFF" fill="transparent"/>
+
+  <!-- Scene 3: Dance Begins -->
+  <animateMotion id="dance" begin="0s" dur="5s" repeatCount="indefinite">
+    <mpath href="#path1"/>
+  </animateMotion>
+  <path id="path1" d="M400,200 A70,70 0 1,0 400,300 A70,70 0 1,0 400,200"/>
+
+  <!-- Scene 4: Other Sea Creatures Join -->
+  <circle cx="250" cy="400" r="20" fill="#FFFFFF"/>
+  <text x="230" y="420" text-anchor="middle" fill="#FFF">School of Fish</text>
+  <circle cx="600" cy="400" r="30" fill="#32CD32"/>
+  <text x="580" y="420" text-anchor="middle" fill="#FFF">Squid</text>
+  <polygon points="700,400 650,350 650,450" fill="#AAA"/>
+  <text x="700" y="420" text-anchor="middle" fill="#FFF">Octopus</text>
+
+  <!-- Scene 5: The Tide Turns -->
+  <path d="M0,600 Q800,300 0,-100" stroke="#FFF" fill="transparent"/>
+  <animate attributeName="d" attributeType="XML" begin="4s" dur="2s"
+           from="M0,600 Q800,300 0,-100" to="M0,-50 Q800,-300 0,-700"/>
+
+  <!-- Scene 6: Everyone Returns Home -->
+  <animate attributeName="cy" begin="6s" dur="2s"
+           from="450" to="500" id="return"/>
+  <set begin="return.end" to="500">
+    <stop offset="0%" style="stop-color:#90E0EC; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#FFF; stop-opacity:0"/>
+  </set>
+
+</svg>

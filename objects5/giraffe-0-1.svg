@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28">
+  <!-- Body -->
+  <path d="M12,5 Q9,7.5 6,10 L6,20 Q9,22.5 12,25 Q15,22.5 18,20 L18,10 Q15,7.5 12,5 Z" fill="#FFC300"/>
+
+  <!-- Neck -->
+  <path d="M12,5 L12,16" stroke="#794D1F" stroke-width="2"/>
+
+  <!-- Head -->
+  <circle cx="12" cy="8" r="5" fill="#FFC300"/>
+  <circle cx="12" cy="4" r="1.5" fill="black"/>
+
+  <!-- Legs -->
+  <path d="M6,20 L6,27 Q9,25 12,27 Z" fill="none" stroke="#794D1F" stroke-width="2"/>
+  <path d="M18,20 L18,27 Q15,25 12,27 Z" fill="none" stroke="#794D1F" stroke-width="2"/>
+
+  <!-- Spots -->
+  <circle cx="6" cy="13" r="1.5" fill="black"/>
+  <circle cx="18" cy="13" r="1.5" fill="black"/>
+</svg>

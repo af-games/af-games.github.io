@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Castle outline -->
+  <path d="M150,200 h500 v400 H150 Z" fill="#8B4513"/>
+
+  <!-- Left tower -->
+  <rect x="175" y="200" width="50" height="200" fill="#696969"/>
+  <circle cx="190" cy="350" r="20" fill="#696969"/>
+
+  <!-- Right tower -->
+  <rect x="475" y="200" width="50" height="200" fill="#696969"/>
+  <circle cx="510" cy="350" r="20" fill="#696969"/>
+
+  <!-- Surrounding forest -->
+  <rect x="75" y="400" width="700" height="200" fill="#006400"/>
+
+  <!-- Lake -->
+  <path d="M75,300 Q175,200 300,300 Q425,400 650,300 H75 Z" fill="#0000FF"/>
+
+  <!-- Bridge -->
+  <rect x="175" y="380" width="250" height="20" fill="#FFA500"/>
+
+  <!-- Path leading to forest -->
+  <path d="M425,390 Q500,450 650,390" stroke="#FFA500" fill="transparent"/>
+
+</svg>

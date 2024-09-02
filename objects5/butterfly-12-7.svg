@@ -1,0 +1,16 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main Landmass -->
+  <path d="M100 100 Q200 50, 350 100 Q400 200, 400 300 Q350 400, 200 350 Q100 400, 50 300 Z" fill="green"/>
+
+  <!-- Landmark (Island) 1 -->
+  <circle cx="150" cy="200" r="30" fill="blue"/>
+  <text x="140" y="207" text-anchor="middle" font-size="10" fill="white">Island 1</text>
+
+  <!-- Landmark (Island) 2 -->
+  <circle cx="350" cy="250" r="25" fill="red"/>
+  <text x="345" y="257" text-anchor="middle" font-size="10" fill="white">Island 2</text>
+
+  <!-- Landmark (Island) 3 -->
+  <circle cx="400" cy="350" r="20" fill="yellow"/>
+  <text x="395" y="357" text-anchor="middle" font-size="10" fill="black">Island 3</text>
+</svg>

@@ -1,0 +1,25 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="glassGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB973; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#EECFA1; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <path d="M100 150 Q140 180, 190 160 T230 150 Q170 120, 100 150" fill="url(#glassGradient)"/>
+
+  <!-- Wings -->
+  <path d="M90 80 L40 20 Q60 10, 90 5 T100 30 Z" fill="url(#glassGradient)"/>
+  <path d="M210 80 L260 20 Q240 10, 210 5 T190 30 Z" fill="url(#glassGradient)"/>
+
+  <!-- Tail feathers -->
+  <path d="M150 60 Q160 50, 155 40 Q145 50, 150 60" stroke="#FFB973" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="120" cy="110" r="5" fill="#FFFFFF"/>
+  <circle cx="180" cy="110" r="5" fill="#FFFFFF"/>
+
+  <!-- Beak -->
+  <path d="M140 90 Q130 70, 160 70 T170 90" stroke="#FFB973" fill="transparent"/>
+</svg>

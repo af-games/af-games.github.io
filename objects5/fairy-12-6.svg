@@ -1,0 +1,22 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fairy body -->
+  <g id="fairy-body">
+    <rect x="50" y="100" width="5" height="5" fill="#87CEEB"/>
+    <rect x="55" y="100" width="5" height="5" fill="#483D8B"/>
+    <!-- Repeat the pattern to create the fairy's body -->
+  </g>
+
+  <!-- Fairy wings -->
+  <g id="fairy-wings">
+    <rect x="25" y="75" width="5" height="5" fill="#87CEEB"/>
+    <rect x="30" y="75" width="5" height="5" fill="#483D8B"/>
+    <!-- Repeat the pattern to create the fairy's wings -->
+  </g>
+
+  <!-- Fairy hair and accent colors -->
+  <g id="fairy-accent">
+    <rect x="60" y="75" width="5" height="5" fill="#CD7F32"/>
+    <rect x="65" y="80" width="5" height="5" fill="#CD7F32"/>
+    <!-- Add more rectangles to create the fairy's hair and accent colors -->
+  </g>
+</svg>

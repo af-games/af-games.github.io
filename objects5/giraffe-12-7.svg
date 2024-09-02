@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 400 400">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFF5E6"/>
+
+  <!-- Giraffe Plains (Heart of Giraficus) -->
+  <path d="M-75,-50 A75,75 0 0 1 75,-50" fill="#FFD49F"/>
+  <text x="-32.5" y="-60" font-size="16px" text-anchor="middle">Giraffe Plains</text>
+
+  <!-- Crystal Mountains -->
+  <polygon points="-150,50 -75,-100 -75,-25" fill="#90C3D4"/>
+  <text x="-112.5" y="-80" font-size="16px" text-anchor="middle">Crystal Mountains</text>
+
+  <!-- Whispering Woods -->
+  <path d="M-100,-75 Q-125,-100 -75,-100 Q-50,-75 -25,-50" fill="#6C914F"/>
+  <text x="-87.5" y="-80" font-size="16px" text-anchor="middle">Whispering Woods</text>
+
+  <!-- Serenity Springs -->
+  <path d="M-125,-30 Q-150,0 -125,30 A25,25 0 0 0 -75,30" fill="#8CD6FF"/>
+  <text x="-125" y="-20" font-size="16px" text-anchor="middle">Serenity Springs</text>
+
+  <!-- Luminary City -->
+  <circle cx="-50" cy="50" r="30" fill="#FFFACD"/>
+  <text x="-47.5" y="60" font-size="16px" text-anchor="middle">Luminary City</text>
+
+  <!-- Giraffe River -->
+  <path d="M-25,-50 Q0,0 -25,30" stroke="#007BFF" fill="transparent"/>
+
+  <!-- Legendary Falls -->
+  <polygon points="-160,-100 -125,-80 -145,-60" fill="#E9D4AA"/>
+  <text x="-142.5" y="-90" font-size="16px" text-anchor="middle">Legendary Falls</text>
+</svg>

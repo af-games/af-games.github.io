@@ -1,0 +1,14 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black gradient -->
+  <defs>
+    <linearGradient id="blackGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(64,64,64);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Penguin-themed calligraphy -->
+  <path d="M50,100 Q80,50 130,100 L170,120 Q190,160 230,180 Q270,220 320,240 L370,260 Q390,280 440,280 H50 Z"
+        fill="none" stroke-width="5" stroke-url(#blackGradient) />
+
+</svg>

@@ -1,0 +1,29 @@
+<svg width="100%" height="100%" viewBox="-50 -50 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradientYellowOrangeRedBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:yellow; stop-opacity:1" />
+      <stop offset="33.3%" style="stop-color:orange; stop-opacity:1" />
+      <stop offset="66.6%" style="stop-color:red; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:blue; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Balloon -->
+  <circle cx="0" cy="0" r="45" fill="url(#gradientYellowOrangeRedBlue)">
+    <animateMotion repeatCount="indefinite">
+      <mpath href="#balloonPath" />
+    </animateMotion>
+  </circle>
+
+  <!-- Fire -->
+  <circle cx="0" cy="-30" r="10" fill="orange">
+    <animate attributeName="r" from="5" to="15" dur="0.2s" repeatCount="indefinite" begin="3s" />
+  </circle>
+
+  <!-- Balloon Path -->
+  <path id="balloonPath" d="M0,-45 Q-10,0 10,0 Z" fill="transparent">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" begin="0s">
+      <![CDATA[M0,-45 Q-10,0 10,0 Z M0,-30 Q-10,-60 10,-60 Z]]>
+    </animate>
+  </path>
+</svg>

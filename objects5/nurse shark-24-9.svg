@@ -1,0 +1,25 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Coordinate Grid -->
+  <rect x="50" y="50" width="500" height="300" style="stroke:black; fill:white;" />
+  <line x1="50" y1="50" x2="550" y2="50" style="stroke:black;" />
+  <line x1="50" y1="50" x2="50" y2="350" style="stroke:black;" />
+  <text x="60" y="40" text-anchor="start">X</text>
+  <text x="580" y="40" text-anchor="end">X</text>
+  <text x="10" y="360" text-anchor="middle" transform="rotate(-90)">Y</text>
+
+  <!-- Clues -->
+  <circle cx="120" cy="280" r="5" style="fill:blue;" />
+  <circle cx="280" cy="150" r="5" style="fill:blue;" />
+  <circle cx="440" cy="220" r="5" style="fill:blue;" />
+
+  <!-- Suspects -->
+  <rect x="70" y="120" width="30" height="60" style="fill:orange;" />
+  <rect x="220" y="70" width="40" height="80" style="fill:purple;" />
+  <rect x="380" y="180" width="50" height="90" style="fill:green;" />
+
+  <!-- Culprits -->
+  <polygon points="460,70 520,130 420,130" style="fill:red;" />
+  <polygon points="80,250 140,310 20,290" style="fill:darkblue;" />
+
+</svg>

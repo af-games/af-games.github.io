@@ -1,0 +1,26 @@
+<svg width="100%" height="50%" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Measure 1 -->
+  <g transform="translate(0, 300)">
+    <!-- Beat 1: T-Rex stomps -->
+    <circle cx="50" cy="200" r="40" fill="green" />
+    <!-- Beat 2: Triceratops silhouette -->
+    <rect x="150" y="170" width="80" height="60" fill="brown" />
+    <!-- Beat 3: Pterodactyl footprint -->
+    <path d="M400 190 Q420 200, 440 190" stroke="black" fill="transparent" />
+    <!-- Beat 4: T-Rex passes Triceratops -->
+    <circle cx="350" cy="200" r="40" fill="green" />
+  </g>
+
+  <!-- Measure 2 -->
+  <g transform="translate(400, 300)">
+    <!-- Beat 1: Brachiosaurus silhouette -->
+    <rect x="0" y="150" width="80" height="100" fill="brown" />
+    <!-- Beat 2: Pterodactyl in the sky -->
+    <path d="M80 190 Q100 210, 120 190" stroke="black" fill="transparent" />
+    <!-- Beat 3: Stegosaurus stomps -->
+    <circle cx="250" cy="200" r="40" fill="green" />
+    <!-- Beat 4: Harmony - all shapes overlap slightly -->
+    <circle cx="350" cy="210" r="35" fill="green" />
+    <rect x="400" y="160" width="80" height="70" fill="brown" />
+  </g>
+</svg>

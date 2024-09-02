@@ -1,0 +1,17 @@
+<svg width="300" height="150" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Nurse Shark Body -->
+  <path d="M0,50 Q75,30 150,50 Q225,70 300,50 L300,90 H0 Z" fill="#8B8989"/>
+
+  <!-- Dorsal Fin -->
+  <polygon points="30,20 60,0 90,20" fill="#696969"/>
+
+  <!-- Pectoral Fins -->
+  <polygon points="140,70 170,50 140,30" fill="#696969"/>
+  <polygon points="180,70 210,50 180,30" fill="#696969"/>
+
+  <!-- Anal Fin & Caudal Fin -->
+  <polygon points="240,70 270,50 240,30" fill="#696969"/>
+  <polygon points="280,50 310,20 280,0" fill="#696969"/>
+
+</svg>

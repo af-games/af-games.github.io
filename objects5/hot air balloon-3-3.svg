@@ -1,0 +1,30 @@
+<svg width="100%" height="auto" viewBox="-70 -150 160 300">
+
+  <!-- Launch Area -->
+  <circle cx="0" cy="0" r="50" fill="#ffe399"/>
+
+  <!-- Basket Positioning Area -->
+  <rect x="-30" y="-70" width="60" height="20" fill="#d3d3d3"/>
+
+  <!-- Balloon Envelope -->
+  <ellipse cx="0" cy="50" rx="40" ry="80" fill="#ffcc99"/>
+
+  <!-- Basket -->
+  <rect x="-15" y="-70" width="30" height="20" fill="#c66"/>
+  <circle cx="0" cy="-55" r="3" fill="#333"/>
+
+  <!-- Tether Anchor -->
+  <circle cx="-30" cy="-120" r="4" fill="#333"/>
+
+  <!-- Inflation Fan -->
+  <polygon points="-30,-120, -30,-100, 30,-100, 45,-110" fill="#ff6600"/>
+
+  <!-- Heating Burner -->
+  <circle cx="60" cy="-80" r="10" fill="#ff9900"/>
+  <text x="70" y="-72" font-family="Arial" font-size="14">Heating</text>
+
+  <!-- Control Tower -->
+  <rect x="-50" y="90" width="30" height="50" fill="#a9a9a9"/>
+  <rect x="-40" y="120" width="10" height="20" fill="#fff"/>
+
+</svg>

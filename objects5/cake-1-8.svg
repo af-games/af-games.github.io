@@ -1,0 +1,25 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cakeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:bisque; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:darkorange; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <circle cx="150" cy="150" r="100">
+    <animate
+      attributeName="transform"
+      type="rotate"
+      from="0 150 150"
+      to="360 150 150"
+      dur="2s"
+      repeatCount="indefinite" />
+    <animate
+      attributeName="fill-opacity"
+      values="1;0;1"
+      dur="1s"
+      repeatCount="indefinite" />
+
+    <circle fill="chocolate" cx="135" cy="70" r="40"/>
+  </circle>
+</svg>

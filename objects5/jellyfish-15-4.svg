@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="50%" fill="#76A9C6"/>
+
+  <!-- Rolling Hills -->
+  <path d="M0,40 Q200,80 400,40 Q600,80 800,40 L800,600 H0 Z" fill="#8BACAD" stroke="none"/>
+
+  <!-- Winding River -->
+  <path d="M150,350 Q200,300 300,350 Q400,400 550,350 Q700,300 850,350" stroke="#2E6980" stroke-width="20" fill="none"/>
+
+  <!-- Towering Trees -->
+  <g transform="translate(100,200)">
+    <circle cx="0" cy="0" r="40" fill="#776e3d"/>
+    <path d="M-5,-100 Q10,-80 20,-60 Q30,-40 40,-20 Q50,0 60,20 Q70,40 80,60 Q90,80 100,100" stroke="#3d5c2b" stroke-width="10" fill="none"/>
+    <circle cx="0" cy="-100" r="20" fill="#776e3d"/>
+  </g>
+  <use xlink:href="#tree" x="400"/>
+
+  <!-- Jellyfish -->
+  <circle cx="450" cy="350" r="50" fill="url(#jellyfishGradient)"/>
+  <path d="M450,250 A150,75 90 0 0 450,150 L450,250 Z" stroke="#fff" stroke-width="5" fill="none"/>
+
+  <!-- Jellyfish Gradient -->
+  <defs>
+    <radialGradient id="jellyfishGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:hsla(197,80%,60%,1);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:hsla(197,80%,30%,0.5)"/>
+    </radialGradient>
+  </defs>
+
+</svg>

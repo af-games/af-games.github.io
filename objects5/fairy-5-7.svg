@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Fairy's body -->
+  <path id="fairyBody" d="M175,480 A90,90 0 1,0 325,480 A90,90 0 1,0 175,650" fill="gold"/>
+
+  <!-- Fairy's wings -->
+  <path id="fairyWings" d="M100,25 Q200,75 300,25 T400,25 Q300,75 200,25 Z" fill="gold"/>
+
+  <!-- Fairy's hair -->
+  <path id="fairyHair" d="M150,200 Q225,150 300,200 Q375,250 450,200" stroke="black" fill="transparent"/>
+
+  <!-- Fairy's face -->
+  <circle id="fairyFace" cx="250" cy="350" r="50" fill="white"/>
+  <circle id="fairyEye1" cx="225" cy="325" r="5" fill="black"/>
+  <circle id="fairyEye2" cx="275" cy="325" r="5" fill="black"/>
+  <path id="fairyMouth" d="M200,400 Q250,450 300,400" stroke="black" fill="transparent"/>
+
+  <!-- Animation -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 250 400"
+    to="360 250 400"
+    dur="1s"
+    repeatCount="indefinite"
+    id="fairyRotate"/>
+
+  <animateMotion
+    path="M 250,480 Q 250,375 250,275"
+    begin="fairyRotate.begin + 1s"
+    dur="1s"
+    repeatCount="indefinite"
+    id="fairyFloat"/>
+
+</svg>

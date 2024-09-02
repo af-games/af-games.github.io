@@ -1,0 +1,19 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Basket -->
+  <rect x="100" y="300" width="300" height="100" fill="#B98467"/>
+  <circle cx="200" cy="350" r="50" fill="#B98467"/>
+
+  <!-- Envelope -->
+  <ellipse cx="250" cy="100" rx="150" ry="250" fill="#FFF3E0"/>
+  <path d="M250,50 Q350,150 450,50 T550,200 Q450,250 350,200 T250,150" fill="#FFF3E0"/>
+
+  <!-- Netting -->
+  <path d="M150,300 L250,250 Z M250,300 L350,250 Z" stroke="#8B4513"/>
+  <path d="M100,250 Q200,150 300,250 Z M300,250 Q400,150 500,250 Z" stroke="#8B4513"/>
+
+  <!-- Rigging & Hardware -->
+  <line x1="150" y1="350" x2="250" y2="250" stroke="#A9A9A9"/>
+  <polygon points="200,275 240,275 220,315" fill="#A9A9A9"/>
+
+</svg>

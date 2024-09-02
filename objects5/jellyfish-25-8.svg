@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Plate -->
+  <ellipse cx="250" cy="275" rx="200" ry="180" fill="#FFD56F"/>
+  <path d="M250,455 Q300,490 350,455 H250 Z" stroke="#EBB73A" fill="transparent"/>
+
+  <!-- Jellyfish -->
+  <g id="jellyfish">
+    <circle cx="250" cy="150" r="80" fill="#A9D6E5"/>
+    <path d="M250,50 a70,70 0 1,0 0,-140 a70,70 0 1,0 0,140 z" fill="transparent" stroke="#3C8DBF" stroke-width="15"/>
+    <polygon points="250,50 325,125 175,125" fill="#A9D6E5"/>
+  </g>
+
+  <!-- Lemon wedge garnish -->
+  <path d="M400,180 Q425,140 450,160 Q475,120 500,135 Q475,150 450,170 Q425,190 400,180 Z" fill="#FFC300"/>
+
+  <!-- Fork -->
+  <path d="M150,300 v-100 q15,-20 45,-20 h60 q20,0 40,20 v100" stroke="#A9D6E5" fill="transparent"/>
+
+  <!-- Tableware shadow -->
+  <rect x="0" y="475" width="500" height="25" fill="#8B4513"/>
+
+</svg>

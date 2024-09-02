@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Background grid -->
+  <rect width="100%" height="100%" fill="none" stroke="#ddd"/>
+  <path d="M-50,0 H50 M0,-50 V50" stroke="#ddd"/>
+
+  <!-- Clues (small shapes) -->
+  <circle cx="-20" cy="30" r="5" fill="#ff7f50" data-role="clue"/>
+  <rect x="10" y="-25" width="8" height="8" fill="#8b4513" data-role="clue"/>
+
+  <!-- Suspects (medium shapes) -->
+  <ellipse cx="30" cy="20" rx="15" ry="10" fill="#ffa500" data-role="suspect"/>
+  <polygon points="-30,0 -40,-15 -30,-30 0,-15 30,-30 40,-15" fill="#daa520" data-role="suspect"/>
+
+  <!-- Culprits (large shapes) -->
+  <circle cx="50" cy="-30" r="25" fill="#ff69b4" data-role="culprit"/>
+  <polygon points="0,-50 50,-50 25,-80" fill="#c71585" data-role="culprit"/>
+
+  <!-- Text labels -->
+  <text x="-35" y="35" text-anchor="middle" font-size="8">Bloodstain</text>
+  <text x="14" y="-29" text-anchor="middle" font-size="8">Fin fragment</text>
+  <text x="30" y="25" text-anchor="middle" font-size="8">Shark A</text>
+  <text x="-35" y="-25" text-anchor="middle" font-size="8">Shark B</text>
+  <text x="50" y="-35" text-anchor="middle" font-size="8">Shark C (primary culprit)</text>
+  <text x="25" y="-75" text-anchor="middle" font-size="8">Shark D (secondary culprit)</text>
+
+</svg>

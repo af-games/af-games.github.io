@@ -1,0 +1,36 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path fill="#4C6E81" stroke="#fff" stroke-width="2"
+        d="M75,50 Q95,30 115,50 Q95,70 75,50 Z"/>
+
+  <!-- Fin 1 (Dorsal) -->
+  <path fill="#4C6E81" stroke="#fff" stroke-width="2"
+        d="M75,35 L85,25 L95,35 Z"/>
+
+  <!-- Fin 2 (Anal) -->
+  <rect x="80" y="75" width="40" height="20" fill="#4C6E81"/>
+  <path fill="none" stroke="#fff" stroke-width="2"
+        d="M100,95 Q110,105 120,95"/>
+
+  <!-- Fin 3 (Caudal) -->
+  <path fill="#4C6E81" stroke="#fff" stroke-width="2"
+        d="M115,75 Q125,85 115,95 Q105,85 115,75"/>
+
+  <!-- Eye -->
+  <circle cx="95" cy="40" r="5" fill="#fff"/>
+  <circle cx="95" cy="40" r="3" fill="#000"/>
+
+  <!-- Gradient for belly -->
+  <defs>
+    <linearGradient id="bellyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7F9DB9;"/>
+      <stop offset="100%" style="stop-color:#4C6E81;"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Belly -->
+  <path fill="url(#bellyGradient)" stroke="#fff" stroke-width="2"
+        d="M75,95 Q95,110 115,95"/>
+
+</svg>

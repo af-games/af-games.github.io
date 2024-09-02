@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outlining perimeter with rectangles -->
+  <rect x="100" y="50" width="200" height="300" style="fill:lightgrey;stroke:black;" />
+
+  <!-- Clue 1: Paw prints -->
+  <path d="M350,75 Q400,75 450,150 Q400,225 350,300 Q280,225 190,150 Q250,75 350,75" stroke="red"/>
+
+  <!-- Clue 2: Dropped mane hair -->
+  <path d="M400,200 C350,175 250,225 350,250 C450,225 550,175 400,200" stroke="blue"/>
+
+  <!-- Clue 3: Broken-off claw -->
+  <path d="M600,300 Q550,275 450,200 Q500,275 600,300" stroke="green"/>
+
+  <!-- Lion (suspect) -->
+  <image xlink:href="lion.png" x="100" y="50" width="200" height="300"/>
+
+</svg>

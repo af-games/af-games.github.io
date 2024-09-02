@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 650">
+
+  <!-- Front Bodice -->
+  <polygon id="frontBodice"
+           points="187.5,5 292.5,5 350,130 300,270 250,270 200,130"
+           fill="url(#giraffeFur)"/>
+  <text x="50%" y="40%" text-anchor="middle" font-size="60" fill="black">Front Bodice</text>
+
+  <!-- Back Bodice -->
+  <polygon id="backBodice"
+           points="162.5,5 37.5,5 0,130 50,270 100,270 150,130"
+           fill="url(#giraffeFur)"/>
+  <text x="50%" y="40%" text-anchor="middle" font-size="60" fill="black">Back Bodice</text>
+
+  <!-- Sleeves -->
+  <circle id="sleeve1" cx="125" cy="375" r="150" fill="url(#giraffeFur)"/>
+  <circle id="sleeve2" cx="325" cy="375" r="150" fill="url(#giraffeFur)"/>
+  <text x="100%" y="40%" text-anchor="end" font-size="60" fill="black">Sleeves</text>
+
+  <!-- Neck Opening -->
+  <polygon id="neckOpening"
+           points="250,5 300,5 307.5,100 292.5,150 287.5,100"
+           fill="url(#giraffeFur)"/>
+  <text x="50%" y="20%" text-anchor="middle" font-size="60" fill="black">Neck Opening</text>
+
+  <!-- Gradients and Patterns -->
+  <defs>
+    <linearGradient id="giraffeFur" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="450" y2="650">
+      <stop offset="0%" style="stop-color:lightgoldenrodyellow; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:darkkhaki; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:olive; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

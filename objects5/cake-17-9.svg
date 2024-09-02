@@ -1,0 +1,13 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Body -->
+  <circle cx="100" cy="200" r="80" fill="#fdd" stroke="#e6b342" stroke-width="5"/>
+
+  <!-- Frosting -->
+  <path d="M70 120 Q90 100, 130 120 H170 Q190 100, 210 120 V280 Q210 300, 130 320 Q70 300, 70 280" fill="#fff"/>
+
+  <!-- Top Decoration -->
+  <circle cx="150" cy="80" r="50" fill="#fdd" stroke="#e6b342" stroke-width="5"/>
+  <text x="150" y="70" font-size="20" fill="#9c6">Happy Birthday!</text>
+
+</svg>

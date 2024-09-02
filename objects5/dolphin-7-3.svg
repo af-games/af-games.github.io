@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Dolphin Body -->
+  <path id="dolphinBody" fill="lightblue" d="
+    M100 200
+    C100 300, 200 400, 350 400
+    C450 400, 550 300, 550 200
+    C550 100, 450 0, 350 0
+    C250 0, 150 100, 100 200"/>
+
+  <!-- Fins -->
+  <path fill="lightblue" d="M90 280 l-30 30 z"/>
+  <path fill="lightblue" d="M470 280 l30 30 z"/>
+  <path fill="lightblue" d="M160 50 l0 -30 z"/>
+
+  <!-- Tail -->
+  <path id="dolphinTail" fill="lightblue" d="
+    M550 200
+    C490 250, 430 300, 370 350
+    C310 400, 250 450, 200 500"/>
+
+  <!-- Buildings -->
+  <rect width="80" height="150" x="60" y="150" fill="lightgrey"/>
+  <rect width="80" height="100" x="170" y="250" fill="lightgrey"/>
+  <rect width="80" height="120" x="280" y="200" fill="lightgrey"/>
+  <rect width="80" height="90" x="390" y="300" fill="lightgrey"/>
+
+  <!-- Roads -->
+  <path stroke="black" fill="transparent" d="M60 550 h200"/>
+  <path stroke="black" fill="transparent" d="M170 400 h200"/>
+  <path stroke="black" fill="transparent" d="M390 450 h150"/>
+  <path stroke="black" fill="transparent" d="M60 550 v-100"/>
+
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+
+  <!-- Balloon envelope -->
+  <circle cx="150" cy="180" r="150"
+          fill="#FFC77F"
+          stroke="#FFA539"
+          stroke-width="2"/>
+  <linearGradient id="balloonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFC77F; stop-opacity:1" />
+    <stop offset="50%" style="stop-color:#FFF5E6; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#FFC77F; stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Ballast and burner (triangle) -->
+  <polygon points="200,480 300,480 250,600"
+            fill="#D9D9D9"
+            stroke="#AFAFAF"
+            stroke-width="2"/>
+
+  <!-- Basket -->
+  <rect x="170" y="550" width="60" height="30"
+        fill="#8B4513"
+        stroke="#5E350C"
+        stroke-width="2"/>
+
+  <!-- Rope (line) -->
+  <line x1="200" y1="610" x2="200" y2="650"
+        stroke="#8B4513"
+        stroke-width="5"/>
+  <circle cx="200" cy="650" r="5" fill="#8B4513"/>
+
+  <!-- Lighting effect (filter) -->
+  <defs>
+    <filter id="light">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" />
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="BackgroundImage"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Apply lighting effect to balloon envelope -->
+  <circle cx="150" cy="180" r="150"
+          fill="#FFC77F"
+          stroke="#FFA539"
+          stroke-width="2"
+          filter="url(#light)"/>
+
+</svg>

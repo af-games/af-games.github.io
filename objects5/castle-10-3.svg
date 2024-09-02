@@ -1,0 +1,26 @@
+<svg width="100%" height="100%" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Castle -->
+<rect id="castle-body" x="250" y="150" width="300" height="400" fill="#775B49" rx="50"/>
+<path id="castle-turrets" d="M260,180 Q280,130 300,180 H400 Q420,130 440,180 V370 H260 Z" fill="#775B49"/>
+
+<!-- Towers -->
+<rect id="tower-1" x="150" y="100" width="100" height="250" fill="#775B49" rx="30"/>
+<rect id="tower-2" x="650" y="100" width="100" height="250" fill="#775B49" rx="30"/>
+
+<!-- Walls -->
+<path id="wall-1" d="M250,300 H450 V450 Z" fill="#775B49"/>
+<path id="wall-2" d="M250,500 H450 V600 Z" fill="#775B49"/>
+
+<!-- Roads -->
+<path id="road-1" d="M50,300 Q150,250 250,300 H450 Q550,250 650,300 V550 H50 Z" fill="#E8D7BE"/>
+<path id="road-2" d="M50,450 Q150,400 250,450 H450 Q550,400 650,450 V600 H50 Z" fill="#E8D7BE"/>
+
+<!-- Homes -->
+<rect id="home-1" x="100" y="350" width="120" height="150" fill="#F3DED0"/>
+<rect id="home-2" x="600" y="350" width="120" height="150" fill="#F3DED0"/>
+
+<!-- Castle gate -->
+<path id="gate" d="M370,450 Q380,470 400,450 H430 Q440,470 460,450 V550 Z" fill="#775B49"/>
+
+</svg>

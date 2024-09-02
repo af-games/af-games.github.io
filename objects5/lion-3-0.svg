@@ -1,0 +1,25 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mane -->
+  <g fill="#D4A61F">
+    <polygon points="75,50 125,75 175,50 175,200 125,225 75,200" />
+    <polygon points="375,50 425,75 475,50 475,200 425,225 375,200" />
+    <polygon points="125,225 175,250 225,225 225,300 175,325 125,300" />
+    <polygon points="325,225 375,250 425,225 425,300 375,325 325,300" />
+  </g>
+
+  <!-- Body -->
+  <rect x="100" y="200" width="300" height="300" fill="#8B572A" />
+
+  <!-- Head -->
+  <ellipse cx="250" cy="150" rx="100" ry="150" fill="#8B572A" />
+
+  <!-- Eyes -->
+  <circle cx="230" cy="90" r="10" fill="black" />
+  <circle cx="270" cy="90" r="10" fill="black" />
+
+  <!-- Legs and Tail -->
+  <polygon points="150,350 200,400 250,350 300,400" fill="#8B572A" />
+  <polygon points="350,350 400,400 450,350 400,290" fill="#8B572A" />
+
+</svg>

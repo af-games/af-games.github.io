@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 100">
+
+  <!-- Melody (Main Shapes) -->
+  <path id="dolphin1" d="M10,50 C20,70 40,80 60,50 S90,30 110,50" fill="#harmonyBlue"/>
+  <path id="dolphin2" d="M130,50 C150,70 170,80 190,50 S220,30 240,50" fill="#harmonyBlue"/>
+  <path id="waves" d="M10,80 Q30,90 60,80 Q90,70 120,80" fill="#harmonyBlue"/>
+
+  <!-- Rhythm (Lines Connecting Them) -->
+  <polyline id="rhythm" points="60,50 90,70 120,80" stroke="#harmonyWhite" stroke-width="3"/>
+
+</svg>

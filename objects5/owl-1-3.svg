@@ -1,0 +1,31 @@
+<svg width="800" height="600" style="background-color: lightgray;">
+  <!-- Stage -->
+  <rect x="50" y="50" width="700" height="400" fill="lightgray"/>
+
+  <!-- Owl parts with strings (simplified for clarity) -->
+
+  <!-- Head -->
+  <ellipse cx="200" cy="150" rx="80" ry="100" fill="orange"/>
+  <!-- Strings: top, bottom-left, bottom-right -->
+
+  <!-- Body -->
+  <rect x="160" y="190" width="80" height="100" fill="#ffcc66"/>
+  <!-- Strings: top, bottom -->
+
+  <!-- Wings (left and right) -->
+  <!-- Left wing -->
+  <polygon points="240,150 320,70 360,150" fill="#ffcc66"/>
+  <!-- Strings: top, bottom, front, back -->
+  <!-- Right wing (similar to left wing) -->
+
+  <!-- Tail feathers -->
+  <polygon points="280,400 340,470 340,330" fill="#ffcc66"/>
+  <!-- Strings: bottom -->
+
+  <!-- Legs (left and right) -->
+  <!-- Left leg -->
+  <rect x="190" y="350" width="20" height="80" fill="#ffcc66"/>
+  <!-- Strings: top, bottom -->
+  <!-- Right leg (similar to left leg) -->
+
+</svg>

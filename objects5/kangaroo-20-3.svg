@@ -1,0 +1,24 @@
+<svg viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .brown { fill: #D2B48C; }
+    .dark-brown { fill: #A08467; }
+    .black { stroke: #000000; }
+  </style>
+
+  <!-- Head -->
+  <circle cx="0" cy="-50" r="50" class="dark-brown"/>
+
+  <!-- Body -->
+  <rect x="-60" y="-90" width="120" height="180" rx="30" class="brown"/>
+
+  <!-- Arms -->
+  <path d="M-70,-40 H-100 V-80 H-70 Z" class="dark-brown"/>
+  <path d="M70,-40 H100 V-80 H70 Z" class="dark-brown"/>
+
+  <!-- Legs -->
+  <path d="M-60,20 l-30,40 l30,40 z" class="dark-brown"/>
+  <path d="M60,20 l30,40 l-30,40 z" class="dark-brown"/>
+
+  <!-- Pouch -->
+  <path d="M0,90 Q-30,120 30,120" class="dark-brown"/>
+</svg>

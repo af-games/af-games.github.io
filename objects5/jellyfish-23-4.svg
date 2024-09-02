@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Pond -->
+  <path d="M150,200 Q200,150 270,200 Q340,250 410,200 Q480,150 550,200" fill="url(#pondGradient)" stroke="none"/>
+
+  <!-- Hills -->
+  <path d="M0,600 Q50,550 100,600 Q150,650 200,600 Q250,650 300,600 Q350,650 400,600 Q450,650 500,600 Q550,650 600,600" fill="url(#hillGradient)" stroke="none"/>
+
+  <!-- River -->
+  <path d="M170,350 Q200,400 230,350 Q260,450 290,350 Q320,400 350,350" fill="none" stroke="#005F7D" stroke-width="15"/>
+
+  <!-- Trees -->
+  <g id="tree">
+    <circle cx="75" cy="50" r="20" fill="#8B4513"/>
+    <polygon points="50,50 125,75 50,100" fill="#3D9970"/>
+  </g>
+  <use xlink:href="#tree" x="200" y="150"/>
+  <use xlink:href="#tree" x="350" y="100"/>
+
+  <!-- Pathways -->
+  <path d="M60,450 Q100,400 140,450" fill="none" stroke="#D3D3D3" stroke-width="5"/>
+  <path d="M250,500 Q300,550 350,500" fill="none" stroke="#D3D3D3" stroke-width="5"/>
+
+  <!-- Jellyfish -->
+  <circle cx="410" cy="250" r="80" fill="url(#jellyfishGradient)" opacity="0.7">
+    <animateMotion begin="0s" dur="4s" repeatCount="indefinite">
+      <mpath href="#jellyfishPath"/>
+    </animateMotion>
+  </circle>
+  <path id="jellyfishPath" d="M395,220 Q410,230 425,220 Q410,210 395,220"/>
+
+</svg>

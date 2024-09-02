@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Grid -->
+<rect width="800" height="600" fill="url(#grid)" transform="translate(50,50)"/>
+
+<!-- Clues (small shapes) -->
+<circle cx="150" cy="200" r="10" fill="#FFC300" data-type="clue"/>
+<circle cx="450" cy="150" r="10" fill="#FFC300" data-type="clue"/>
+<circle cx="650" cy="400" r="10" fill="#FFC300" data-type="clue"/>
+
+<!-- Suspects (medium shapes) -->
+<rect x="200" y="250" width="80" height="50" fill="#3D9970" stroke="#000" data-type="suspect"/>
+<circle cx="400" cy="280" r="30" fill="#3D9970" stroke="#000" data-type="suspect"/>
+
+<!-- Culprits (large shapes) -->
+<path d="M150,350 Q200,400 250,450 Q300,500 350,450 Q400,400 450,350" stroke="#FF6347" fill="transparent" data-type="culprit"/>
+<path d="M550,200 Q600,150 650,100 Q700,50 750,100 Q700,150 650,200" stroke="#FF6347" fill="transparent" data-type="culprit"/>
+
+<!-- Definitions -->
+<defs>
+  <linearGradient id="grid" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:rgb(238,238,238);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+  </linearGradient>
+</defs>
+
+<!-- Labels -->
+<text x="140" y="180" fill="#000" font-size="16" text-anchor="middle">Clue</text>
+<text x="440" y="130" fill="#000" font-size="16" text-anchor="middle">Clue</text>
+<text x="640" y="380" fill="#000" font-size="16" text-anchor="middle">Clue</text>
+<text x="250" y="300" fill="#000" font-size="16" text-anchor="middle">Suspect 1</text>
+<text x="400" y="270" fill="#000" font-size="16" text-anchor="middle">Suspect 2</text>
+<text x="175" y="380" fill="#FF6347" font-size="20" text-anchor="middle">Culprit 1</text>
+<text x="675" y="130" fill="#FF6347" font-size="20" text-anchor="middle">Culprit 2</text>
+
+</svg>

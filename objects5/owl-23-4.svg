@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.wikipedia.org/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#F5DEB3"/>
+
+<!-- Owl's Realm Boundary -->
+<path d="M 100 100 Q 200 75, 350 100 Q 450 125, 600 100 Q 700 75, 800 100 V 500 H 0 Z" fill="#E3C980"/>
+
+<!-- Major Landmarks -->
+
+<!-- Owl Tower -->
+<circle cx="400" cy="250" r="60" stroke="black" stroke-width="3" fill="#FFF7E6"/>
+<text x="370" y="280" font-size="14" text-anchor="middle">Owl Tower</text>
+
+<!-- Whispering Woods -->
+<path d="M 250 350 Q 200 400, 250 450 Q 300 400, 350 350" stroke="black" stroke-width="3" fill="#C1D8B9"/>
+<text x="275" y="425" font-size="14" text-anchor="middle">Whispering Woods</text>
+
+<!-- Moonlit Lake -->
+<circle cx="650" cy="400" r="80" stroke="black" stroke-width="3" fill="#B3E5FC"/>
+<text x="625" y="375" font-size="14" text-anchor="middle">Moonlit Lake</text>
+
+<!-- Roads -->
+<path d="M 150 300 H 750" stroke="darkgrey" stroke-width="3"/> <!-- Main Road -->
+
+<!-- Rivers -->
+<path d="M 250 500 Q 400 450, 600 500" stroke="#007BFF" stroke-width="3"/> <!-- Blue River -->
+
+</svg>

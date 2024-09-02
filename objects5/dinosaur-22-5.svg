@@ -1,0 +1,35 @@
+<svg width="800" height="600" viewBox="0 0 800 600">
+  <!-- Define the dinosaur silhouette path -->
+  <defs>
+    <path id="dino" d="M100,50 Q200,100 300,50 Q400,100 500,50 Q600,100 700,50"/>
+  </defs>
+
+  <!-- Bass notes (circles) -->
+  <circle cx="100" cy="200" r="30">
+    <animate attributeName="cy" values="200;400;200" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="200" r="30">
+    <animate attributeName="cy" values="200;400;200" dur="1s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+
+  <!-- Mid-range notes (rectangles) -->
+  <rect x="200" y="300" width="60" height="80">
+    <animate attributeName="y" values="300;100;300" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="450" y="300" width="60" height="80">
+    <animate attributeName="y" values="300;100;300" dur="1s" repeatCount="indefinite" begin="0.5s"/>
+  </rect>
+
+  <!-- High-pitched notes (paths) -->
+  <path d="M600,400 Q700,200 800,400">
+    <animate attributeName="d" values="M600,400 Q700,200 800,400;M800,400 Q900,200 1000,400;M1000,400 Q900,200 800,400" dur="1s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Dinosaur silhouette animation -->
+  <use href="#dino">
+    <animateMotion begin="0.5s" dur="3s" repeatCount="indefinite">
+      <mpath href="#dino-path"/>
+    </animateMotion>
+  </use>
+
+</svg>

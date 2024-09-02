@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients -->
+  <defs>
+    <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:pink;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Draw mermaid outline -->
+  <path d="M...Z" fill="url(#skinGradient)" stroke="black"/>
+
+  <!-- Add details to edges -->
+  <circle cx="..." cy="..." r="..." fill="black"/>
+  <path d="M...Q..." stroke="black"/>
+
+  <!-- Build intricate details in the center -->
+  <g id="scales">
+    <!-- Generate scale patterns here using path commands -->
+  </g>
+
+</svg>

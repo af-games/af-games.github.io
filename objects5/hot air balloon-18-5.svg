@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body -->
+  <circle id="balloonBody" cx="400" cy="150" r="150" fill="none" stroke="#AAA">
+    <animate attributeName="cy" values="150;300;150" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Balloon burner -->
+  <rect id="balloonBurner" x="340" y="70" width="120" height="60" fill="#AAA">
+    <animate attributeName="x" values="340;480;340" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Balloon basket -->
+  <ellipse id="balloonBasket" cx="400" cy="280" rx="100" ry="50" fill="#AAA">
+    <animate attributeName="cy" values="280;350;280" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+
+</svg>

@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#42302C" />
+
+<!-- Forest Trees -->
+<path d="M...Z" fill="#187D59" />
+<path d="M...Z" fill="#0F4E3B" />
+
+<!-- Owl Body -->
+<path d="M...Z" fill="#F5DEB3" stroke="#F1E7D2" stroke-width="3" />
+
+<!-- Owl Feathers (use path commands and gradients for feather shading) -->
+
+<!-- Owl Eyes -->
+<circle cx="..." cy="..." r="..." fill="#FFC10A" />
+<circle cx="..." cy="..." r="..." fill="#231F20" />
+
+<!-- Owl Beak -->
+<path d="M...Z" fill="#FFF5E6" stroke="#F1E7D2" stroke-width="3" />
+
+<!-- Moonlight (use radial gradients for the glowing effect) -->
+
+<!-- Frame (if desired) -->
+<rect x="10" y="10" width="780" height="580" fill="#FFDF00" stroke="#FFDF00" stroke-width="10" />
+
+</svg>

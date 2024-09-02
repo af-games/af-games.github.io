@@ -1,0 +1,26 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="125" y="175" width="250" height="300" fill="#8B4513"/>
+
+  <!-- Head -->
+  <ellipse cx="250" cy="125" rx="100" ry="150" fill="#8B4513"/>
+  <circle cx="275" cy="90" r="15" fill="#000000"/>
+  <circle cx="225" cy="90" r="15" fill="#000000"/>
+
+  <!-- Arms -->
+  <rect x="200" y="175" width="30" height="75" fill="#8B4513"/>
+  <rect x="320" y="175" width="30" height="75" fill="#8B4513"/>
+
+  <!-- Legs -->
+  <rect x="175" y="350" width="60" height="125" fill="#8B4513"/>
+  <rect x="315" y="350" width="60" height="125" fill="#8B4513"/>
+
+  <!-- Tail -->
+  <circle cx="175" cy="500" r="20" fill="#8B4513"/>
+  <circle cx="200" cy="500" r="20" fill="#8B4513"/>
+  <circle cx="225" cy="500" r="20" fill="#8B4513"/>
+
+  <!-- Highlights & Shadows -->
+  <rect x="175" y="175" width="60" height="175" fill="#A5723D"/>
+  <rect x="415" y="175" width="60" height="175" fill="#696969"/>
+</svg>

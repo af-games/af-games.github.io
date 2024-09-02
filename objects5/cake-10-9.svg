@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+
+  <!-- Cake base rectangle -->
+  <rect x="50" y="180" width="300" height="120" fill="#FDD79A"/>
+
+  <!-- Top cake layer -->
+  <ellipse cx="200" cy="240" rx="150" ry="120" fill="#FFF2CC"/>
+
+  <!-- Frosting rectangle -->
+  <rect x="60" y="180" width="320" height="40" fill="#FFFFFF"/>
+
+  <!-- Cake layers -->
+  <ellipse cx="200" cy="220" rx="135" ry="105" fill="#FDD79A"/>
+  <ellipse cx="200" cy="160" rx="120" ry="80" fill="#FDD79A"/>
+
+  <!-- Cherries on top -->
+  <circle cx="130" cy="245" r="8" fill="#FF4500"/>
+  <circle cx="160" cy="245" r="8" fill="#FF4500"/>
+  <circle cx="210" cy="245" r="8" fill="#FF4500"/>
+
+</svg>

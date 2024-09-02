@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Body -->
+  <path id="owl-body" d="M100,200 Q150,150 200,200 Q150,250 100,200" fill="#FFA500"/>
+
+  <!-- Head -->
+  <circle id="owl-head" cx="200" cy="150" r="80" fill="#FFD700"/>
+  <path id="owl-face" d="M160,130 L240,130 Q220,100 200,90 Q180,100 160,130" fill="#FFFFFF"/>
+
+  <!-- Eyes -->
+  <circle id="owl-eye-left" cx="170" cy="145" r="20" fill="#000000"/>
+  <circle id="owl-eye-right" cx="230" cy="145" r="20" fill="#000000"/>
+
+  <!-- Beak -->
+  <path id="owl-beak" d="M200,160 Q210,170 220,160 Q210,150 200,160" fill="#FFC300"/>
+
+  <!-- Wings -->
+  <polygon id="owl-wing-left" points="100,200 50,250 150,300" fill="#FFA500"/>
+  <polygon id="owl-wing-right" points="400,200 350,250 450,300" fill="#FFA500"/>
+
+</svg>

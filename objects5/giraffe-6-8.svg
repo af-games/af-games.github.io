@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Plate -->
+  <ellipse cx="400" cy="550" rx="350" ry="400" fill="#FFEBCD"/>
+  <rect x="150" y="475" width="500" height="25" fill="#FFFFFF"/>
+
+  <!-- Giraffe -->
+  <g transform="translate(300, 350)">
+    <path d="M80 60 L120 120 Q250 120 250 240 Q200 360 80 480" stroke="#7B5E29" fill="transparent"/>
+    <circle cx="250" cy="240" r="120" fill="#F5DEB3"/>
+    <path d="M250 200 Q225 225 200 240 Q175 255 150 280 Z" stroke="#7B5E29" fill="#F5DEB3"/>
+    <circle cx="250" cy="260" r="10" fill="#FFFFFF"/>
+    <path d="M240 280 Q260 300 280 320 Z" stroke="#7B5E29" fill="transparent"/>
+
+    <!-- Giraffe's neck and head -->
+    <path d="M150 280 L120 340 Q90 390 60 450 Z" stroke="#7B5E29" fill="#F5DEB3"/>
+  </g>
+
+  <!-- Ingredients -->
+  <circle cx="150" cy="400" r="30" fill="#8BC34A"/>
+  <path d="M130 370 L150 400 L170 370 Z" stroke="#7B5E29" fill="transparent"/>
+
+  <circle cx="200" cy="420" r="20" fill="#FFC107"/>
+  <circle cx="230" cy="420" r="20" fill="#FFC107"/>
+  <circle cx="260" cy="420" r="20" fill="#FFC107"/>
+
+  <!-- Utensils, garnishes, and tableware -->
+  <rect x="530" y="480" width="50" height="40" rx="5" fill="#FFEBCD"/>
+  <path d="M560 490 L570 510 Z" stroke="#7B5E29" fill="transparent"/>
+
+  <circle cx="580" cy="500" r="30" fill="#C5E1A5"/>
+  <path d="M560 470 L580 500 Z" stroke="#7B5E29" fill="transparent"/>
+
+  <!-- Tableware shadow -->
+  <rect x="150" y="575" width="500" height="25" fill="#CACFD2"/>
+</svg>

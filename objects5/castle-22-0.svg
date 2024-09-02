@@ -1,0 +1,20 @@
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Castle Walls -->
+<rect x="75" y="150" width="400" height="100" fill="#708090" stroke="#000"/>
+<rect x="75" y="250" width="400" height="200" fill="#708090" stroke="#000"/>
+<rect x="75" y="375" width="400" height="300" fill="#708090" stroke="#000"/>
+
+<!-- Towers -->
+<polygon points="162.5,50 250,50 250,150 162.5,150" fill="#708090" stroke="#000"/>
+<path d="M162.5,50 L337.5,50 L337.5,150 Z" fill="#264d59"/>
+
+<!-- Gatehouse -->
+<rect x="187.5" y="250" width="150" height="250" fill="#708090" stroke="#000"/>
+<polygon points="337.5,250 437.5,250 387.5,325" fill="#264d59"/>
+
+<!-- Windows -->
+<rect x="125" y="200" width="30" height="60" fill="#fff"/>
+<rect x="425" y="200" width="30" height="60" fill="#fff"/>
+
+</svg>

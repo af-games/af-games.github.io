@@ -1,0 +1,16 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo -->
+  <circle cx="150" cy="150" r="100" fill="white" stroke="black"/>
+
+  <!-- Doorway -->
+  <rect x="90" y="220" width="70" height="60" fill="white"/>
+
+  <!-- Fire pit inside igloo -->
+  <circle cx="135" cy="180" r="20" fill="#FF4500"/>
+
+  <!-- Snow piles around igloo -->
+  <circle cx="80" cy="170" r="30" fill="white"/>
+  <circle cx="220" cy="170" r="30" fill="white"/>
+
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <!-- Clues -->
+  <rect x="60" y="40" width="30" height="90" fill="grey"/>
+  <rect x="15" y="70" width="80" height="30" fill="lightGrey"/>
+  <circle cx="30" cy="85" r="15" fill="grey"/>
+  <circle cx="60" cy="85" r="15" fill="grey"/>
+  <circle cx="90" cy="85" r="15" fill="grey"/>
+  <path d="M75,150 Q140,120 150,150 H75 Z" fill="lightGrey"/>
+
+  <!-- Mask -->
+  <defs>
+    <mask id="castleMask">
+      <rect x="60" y="40" width="30" height="90" fill="white"/>
+      <circle cx="30" cy="85" r="15" fill="black"/>
+      <circle cx="60" cy="85" r="15" fill="black"/>
+      <circle cx="90" cy="85" r="15" fill="black"/>
+    </mask>
+  </defs>
+
+  <!-- Revealing castle -->
+  <rect x="15" y="70" width="80" height="30" fill="darkGrey" mask="url(#castleMask)"/>
+</svg>

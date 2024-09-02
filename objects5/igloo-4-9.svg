@@ -1,0 +1,27 @@
+<svg width="400" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Scene 1: igloo's Winter Solace -->
+  <rect id="igloo" x="50" y="50" width="200" height="300" fill="#6495ED" stroke="#fff"/>
+  <circle id="snowflake" cx="150" cy="150" r="10" fill="#ffffff"/>
+
+  <!-- Scene 2: igloo's Dream -->
+  <circle id="sun" cx="300" cy="150" r="40" fill="#ffd700"/>
+  <text id="ann2" x="250" y="60" font-family="Verdana" font-size="16">One night, Igloo dreamt of a bright, warm sun.</text>
+
+  <!-- Scene 3: Spring Arrival -->
+  <polygon id="bird" points="270,180,300,210,230,210" fill="#ffc0cb"/>
+  <circle id="flower" cx="150" cy="250" r="10" fill="#ffa500" />
+  <text id="ann3" x="50" y="600" font-family="Verdana" font-size="16">One morning, Igloo woke to find spring had arrived.</text>
+
+  <!-- Scene 4: Summer Fun -->
+  <rect id="pool" x="50" y="350" width="200" height="100" fill="#00bfff"/>
+  <circle id="child" cx="70" cy="400" r="15" fill="#ffc0cb"/>
+  <text id="ann4" x="70" y="480" font-family="Verdana" font-size="16">Igloo was filled with joy as children played in his pool.</text>
+
+  <!-- Scene 5: Summer's End -->
+  <circle id="leaf" cx="100" cy="450" r="10" fill="#8b4513"/>
+  <text id="ann5" x="70" y="600" font-family="Verdana" font-size="16">As summer ended, Igloo felt a chill in the air.</text>
+
+  <!-- Scene 6: igloo's Resolve -->
+  <path id="resolve" d="M250,450 Q300,350 350,450" stroke="#fff" fill="transparent"/>
+  <text id="ann6" x="250" y="600" font-family="Verdana" font-size="16">But Igloo promised himself he'd dream again of summer.</text>
+</svg>

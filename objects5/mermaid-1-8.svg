@@ -1,0 +1,33 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Mermaid Tail -->
+<g id="tail">
+  <!-- Larger shapes at top, smaller towards bottom -->
+  <rect x="150" y="250" width="50" height="50" fill="#008CBA"/>
+  <circle cx="175" cy="275" r="25" fill="#4CAF50"/>
+  <!-- ... Continue with more shapes, gradually reducing size and changing color towards bottom ... -->
+</g>
+
+<!-- Rock -->
+<g id="rock">
+  <rect x="100" y="350" width="80" height="70" fill="#A0522D"/>
+  <circle cx="120" cy="400" r="35" fill="#696969"/>
+  <!-- ... Continue with more shapes, gradually reducing size towards top ... -->
+</g>
+
+<!-- Water -->
+<g id="water">
+  <rect x="100" y="420" width="80" height="70" fill="#ADD8E6"/>
+  <circle cx="120" cy="450" r="35" fill="#87CEEB"/>
+  <!-- ... Continue with more shapes, gradually changing color towards darker shades as it goes deeper ... -->
+</g>
+
+<!-- Mermaid (Head and Upper Body) -->
+<g id="mermaid">
+  <circle cx="200" cy="150" r="40" fill="#FFF1E6"/> <!-- Face -->
+  <path d="M180,90 Q170,130 200,150 Q210,130 190,90" stroke="#191970" fill="transparent"/> <!-- Hair -->
+</g>
+
+<!-- Eyes and other details -->
+
+</svg>

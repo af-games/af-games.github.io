@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 10 10">
+  <!-- Body -->
+  <path d="M0,-5 L0,5 Z" fill="#FF69B4"/>
+
+  <!-- Left Wing -->
+  <path d="M-5,0 C-3.75,2.5 -2.5,2.5 -1,0" stroke="#FF69B4" fill="transparent"/>
+
+  <!-- Right Wing -->
+  <path d="M5,0 C3.75,-2.5 2.5,-2.5 1,0" stroke="#FF69B4" fill="transparent"/>
+</svg>

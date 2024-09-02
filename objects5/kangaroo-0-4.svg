@@ -1,0 +1,58 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kangaroo Body -->
+  <circle id="body" cx="250" cy="400" r="100" fill="brown"/>
+
+  <!-- Left Ear -->
+  <ellipse id="leftEar" cx="220" cy="380" rx="40" ry="60"/>
+  <animate
+    attributeName="cx"
+    from="220"
+    to="190"
+    dur="2s"
+    repeatCount="indefinite"
+    begin="0s"/>
+  <animate
+    attributeName="ry"
+    from="60"
+    to="40"
+    dur="1s"
+    repeatCount="indefinite"
+    begin="0.5s"/>
+
+  <!-- Right Ear -->
+  <ellipse id="rightEar" cx="280" cy="380" rx="40" ry="60"/>
+  <animate
+    attributeName="cx"
+    from="280"
+    to="310"
+    dur="2s"
+    repeatCount="indefinite"
+    begin="0.5s"/>
+  <animate
+    attributeName="ry"
+    from="60"
+    to="40"
+    dur="1s"
+    repeatCount="indefinite"
+    begin="0.5s"/>
+
+  <!-- Kangaroo Pouch -->
+  <polygon id="pouch" points="230,430 270,430 250,500" fill="tan"/>
+  <animate
+    attributeName="points"
+    from="230,430 270,430 250,500"
+    to="210,450 290,450 250,480"
+    dur="1.5s"
+    repeatCount="indefinite"
+    begin="0s"/>
+
+  <!-- Kangaroo Bounding Box -->
+  <path id="boundingBox" d="M230,370 L270,370 L270,480 L230,480 Z"/>
+  <animate
+    attributeName="d"
+    from="M230,370 L270,370 L270,480 L230,480 Z"
+    to="M190,350 L310,350 L310,510 L190,510 Z"
+    dur="2s"
+    repeatCount="indefinite"
+    begin="0.5s"/>
+</svg>

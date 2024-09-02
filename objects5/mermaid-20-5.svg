@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+
+  <!-- Black velvet background -->
+  <rect width="100%" height="100%" fill="#000000"/>
+
+  <!-- Mermaid outline and colors -->
+  <g stroke="none">
+    <!-- Skin -->
+    <path d="M200,50 Q220,70 240,90 Q260,70 280,50 Q300,70 320,90 Q340,70 360,50 Z" fill="#FFB6C1"/>
+    <!-- Hair -->
+    <path d="M180,10 C160,30 140,70 160,90 Q180,110 200,130 Q220,110 240,90 Q260,110 280,130 Z" fill="#00FFFF"/>
+    <!-- Tail -->
+    <path d="M250,270 Q270,290 290,310 Q310,290 330,270 Z" fill="#00FFFF"/>
+    <!-- Eyes -->
+    <circle cx="240" cy="100" r="5" fill="#FFFFFF"/>
+    <circle cx="260" cy="100" r="5" fill="#FFFFFF"/>
+
+    <!-- Glow effect (translucent white) -->
+    <path d="M200,50 Q220,70 240,90 Q260,70 280,50 Q300,70 320,90 Q340,70 360,50 Z" fill="rgba(255, 255, 255, 0.5)"/>
+    <path d="M180,10 C160,30 140,70 160,90 Q180,110 200,130 Q220,110 240,90 Q260,110 280,130 Z" fill="rgba(255, 255, 255, 0.5)"/>
+    <path d="M250,270 Q270,290 290,310 Q310,290 330,270 Z" fill="rgba(255, 255, 255, 0.5)"/>
+  </g>
+
+</svg>

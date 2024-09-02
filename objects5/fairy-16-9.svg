@@ -1,0 +1,26 @@
+<svg>` as the mounting:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <!-- Fairy Body -->
+  <path d="M300,150 Q340,120 390,170 Q300,230 210,170 Q260,120 300,150" fill="#FFD700"/>
+
+  <!-- Fairy Hair -->
+  <path d="M280,140 C300,120 320,140 300,160 Q280,180 280,200" stroke="#38B4AA" fill="transparent"/>
+
+  <!-- Fairy Clothing -->
+  <path d="M270,290 Q300,350 330,300 Q360,350 390,300 Q360,250 330,290 Q270,350 240,300" fill="#FF69B4"/>
+
+  <!-- Fairy Eyes -->
+  <circle cx="300" cy="210" r="15" fill="#FFFFFF"/>
+  <circle cx="300" cy="210" r="10" fill="#000000"/>
+
+  <!-- Fairy Jewelry - Tiara -->
+  <polygon points="290,230 310,240 310,250 290,260" fill="#FFD700"/>
+  <line x1="285" y1="235" x2="315" y2="235" stroke="#000000"/>
+
+  <!-- Fairy Jewelry - Necklace -->
+  <circle cx="300" cy="340" r="20" fill="#FF69B4"/>
+  <rect x="285" y="335" width="10" height="15" fill="#000000"/>
+
+</svg>

@@ -1,0 +1,26 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="150" cy="250" rx="80" ry="120" fill="#FFD700"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="140" r="60" fill="#FFFACD"/>
+
+  <!-- Arms -->
+  <path d="M130,170 Q100,220 80,250 H200 Q220,220 250,170 Z" fill="#FFD700"/>
+  <path d="M140,260 Q90,310 70,350 L280,350 Q320,310 310,260 Z" fill="#FFD700"/>
+
+  <!-- Legs -->
+  <path d="M140,280 Q90,350 70,400 L280,400 Q320,350 310,280 Z" fill="#FFD700"/>
+
+  <!-- Dress -->
+  <path d="M130,280 Q90,360 70,420 L280,420 Q320,360 310,280 Z" fill="#FFD700"/>
+
+  <!-- Hair -->
+  <path d="M130,130 Q90,80 70,50 L280,50 Q320,80 310,130 Z" stroke="#000" fill="transparent"/>
+
+  <!-- Wings -->
+  <path d="M120,160 Q90,190 70,220 L290,220 Q320,190 310,160 Z" fill="#FFD700"/>
+  <path d="M130,240 Q95,280 105,320 L300,320 Q305,280 290,240 Z" fill="#FFD700"/>
+
+</svg>

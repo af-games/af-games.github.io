@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Scene 1 -->
+<g id="scene1">
+  <rect x="50" y="400" width="700" height="200" fill="#90EE90"/>
+  <circle cx="200" cy="500" r="150" fill="#8B4513"/>
+  <path d="M150,400 Q200,350 250,400 H700 V600 H50 Z" fill="#3D9970" stroke="#000"/>
+  <text x="50" y="150" font-family="Verdana" font-size="24">Under the tree, Giraffe stood</text>
+</g>
+
+<!-- Scene 2 -->
+<g id="scene2">
+  <image href="#scene1" xlink:href="#scene1" transform="translate(800)"/>
+  <circle cx="700" cy="500" r="150" fill="#8B4513"/>
+  <path d="M600,200 Q650,150 700,200 L750,250" stroke="#000" fill="transparent"/>
+  <text x="650" y="280" font-family="Verdana" font-size="24">I wonder what's over there?</text>
+</g>
+
+<!-- More scenes follow the pattern of 'sceneX' with appropriate elements -->
+
+</svg>

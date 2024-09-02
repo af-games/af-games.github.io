@@ -1,0 +1,30 @@
+<svg width="600" height="900" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Top -->
+<rect x="150" y="100" width="400" height="450" fill="url(#gradient)" />
+<circle cx="75" cy="275" r="100" fill="url(#gradient)" />
+<circle cx="525" cy="275" r="100" fill="url(#gradient)" />
+
+<!-- Neckline -->
+<path d="M300,100 Q400,150 400,250 Q300,350 200,300 Q100,350 100,250 Q200,150 300,100" fill="url(#gradient)" />
+
+<!-- Pants -->
+<rect x="160" y="700" width="320" height="700" fill="url(#gradient)" />
+<path d="M480,1400 Q560,1300 560,1100 Q480,900 400,1000 Q240,900 240,1100 Q320,1300 400,1400" fill="url(#gradient)" />
+
+<!-- Ankles -->
+<path d="M560,1800 Q640,1700 640,1500 A80,80 0 0 1 560,1300 Z" fill="url(#gradient)" />
+<path d="M400,1800 Q240,1700 240,1500 A80,80 0 0 1 400,1300 Z" fill="url(#gradient)" />
+
+<!-- Gradients -->
+<defs>
+  <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(73,156,240);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+<!-- Mannequin Outline -->
+<path d="M300,10 Q400,60 400,170 Q300,280 200,290 Q100,300 100,200 Q200,110 300,10 Z" fill="none" stroke="black" />
+
+</svg>

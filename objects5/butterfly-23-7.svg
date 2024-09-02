@@ -1,0 +1,23 @@
+<svg width="100%" height="100%" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Landmass -->
+  <polygon points="400,10 700,250 100,250" fill="#9ACD32" stroke="#006400"/>
+
+  <!-- Island (Butterfly's starting point) -->
+  <circle cx="600" cy="150" r="50" fill="#FFD700">
+    <animateMotion repeatCount="indefinite" dur="5s">
+      <mpath href="#butterflyPath"/>
+    </animateMotion>
+  </circle>
+
+  <!-- River -->
+  <path d="M200,300 Q400,150 600,300 T800,300" stroke="#0000CD" fill="transparent"/>
+
+  <!-- Mountain ranges (Butterfly's landmarks) -->
+  <polygon points="300,250 500,400 700,250" fill="#D3D3D3"/>
+  <polygon points="150,350 300,500 450,350" fill="#D3D3D3"/>
+
+  <!-- Butterfly's path -->
+  <path id="butterflyPath" d="M600,150 Q700,200 750,250 Q800,300 750,350 Q700,400 600,350 Q500,400 450,350 Z" stroke="#FF69B4"/>
+
+</svg>

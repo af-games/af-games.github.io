@@ -1,0 +1,30 @@
+<svg width="600" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="50" y="80" width="300" height="250" rx="20" ry="20" fill="#3D9400"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="120" r="90" fill="#3D9400"/>
+
+  <!-- Neck -->
+  <path d="M60 80 Q70 50, 150 100" stroke="#3D9400" fill="transparent"/>
+
+  <!-- Front legs -->
+  <rect x="100" y="270" width="30" height="90" rx="15" ry="15" fill="#A9A9A9"/>
+  <rect x="200" y="270" width="30" height="90" rx="15" ry="15" fill="#A9A9A9"/>
+
+  <!-- Back legs -->
+  <circle cx="250" cy="380" r="40" fill="#A9A9A9"/>
+  <circle cx="350" cy="380" r="40" fill="#A9A9A9"/>
+
+  <!-- Tail -->
+  <path d="M360 250 Q410 330, 470 380" stroke="#3D9400" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="120" cy="90" r="15" fill="#000"/>
+  <circle cx="180" cy="90" r="15" fill="#000"/>
+
+  <!-- Mouth -->
+  <path d="M60 230 Q140 300, 280 230" stroke="#3D9400" fill="transparent"/>
+
+</svg>

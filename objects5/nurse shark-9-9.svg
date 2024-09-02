@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 600 400">
+
+<!-- Coordinate Grid -->
+<rect width="580" height="380" fill="none"/>
+<path d="M-10,0 L570,0" stroke="#ccc"/>
+<path d="M0,-10 L0,370" stroke="#ccc"/>
+
+<!-- Clues (small circles) -->
+<circle cx="20" cy="180" r="5" fill="#f00"/>
+<circle cx="45" cy="90" r="5" fill="#0f0"/>
+<circle cx="130" cy="270" r="5" fill="#00f"/>
+
+<!-- Suspects (medium rectangles) -->
+<rect x="80" y="60" width="80" height="40" fill="#ffa500"/>
+<rect x="250" y="130" width="120" height="60" fill="#a52a2a"/>
+
+<!-- Culprits (large triangles) -->
+<polygon points="400,70 480,70 440,150" fill="#ff00ff"/>
+<polygon points="300,250 380,250 340,330" fill="#00ffff"/>
+
+<!-- Labels -->
+<text x="10" y="170" font-family="Arial" text-anchor="start">Shark Fin</text>
+<text x="45" y="90" font-family="Arial" text-anchor="start">Blood Drop</text>
+<text x="130" y="270" font-family="Arial" text-anchor="start">Fish Bone</text>
+<text x="80" y="75" font-family="Arial" text-anchor="start">Suspect 1: Golden Reef Shark</text>
+<text x="250" y="135" font-family="Arial" text-anchor="start">Suspect 2: Tiger Shark</text>
+<text x="400" y="75" font-family="Arial" text-anchor="start">Culprit 1: Great White Shark</text>
+<text x="300" y="255" font-family="Arial" text-anchor="start">Culprit 2: Hammerhead Shark</text>
+
+</svg>

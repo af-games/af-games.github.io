@@ -1,0 +1,17 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle -->
+  <rect id="castle" x="150" y="100" width="400" height="300" fill="#775a3c" stroke="#696969" stroke-width="5"/>
+
+  <!-- Towers -->
+  <circle cx="200" cy="200" r="80" fill="#775a3c" stroke="#696969" stroke-width="5"/>
+  <circle cx="400" cy="200" r="80" fill="#775a3c" stroke="#696969" stroke-width="5"/>
+
+  <!-- Walls -->
+  <polygon points="150,100 350,100 350,400 150,400" fill="#b2897a" stroke="#696969" stroke-width="5"/>
+
+  <!-- Roads -->
+  <path d="M50,300 h100 a50,50 0 0,1 50,50 v100 a50,50 0 0,1 -50,50 H200" fill="none" stroke="#696969" stroke-width="5"/>
+  <path d="M350,300 h100 a50,50 0 0,1 50,50 v100 a50,50 0 0,1 -50,50 H450" fill="none" stroke="#696969" stroke-width="5"/>
+
+</svg>

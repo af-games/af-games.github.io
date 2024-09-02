@@ -1,0 +1,55 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+```
+
+**Step 2: Begin drawing tentative lines and shapes using <path> elements**
+
+Let's start by drawing the basic outline of a dinosaur. We'll use `<path>` elements for this.
+
+```xml
+<path id="dino-outline" stroke="black" fill="none"
+      d="M100,50 Q200,75 350,50 Q450,75 600,50 Q700,75 800,50 H900 V500 H800 Z"/>
+```
+
+**Step 3: Discover new features**
+
+As we venture deeper into the land, we discover more features. Let's add a head, some legs, and a tail.
+
+```xml
+<!-- Head -->
+<circle id="head" cx="120" cy="50" r="40"
+        stroke="black" fill="lightgrey"/>
+<!-- Legs -->
+<rect id="leg-front-left" x="160" y="90" width="30" height="80"
+      stroke="black" fill="lightgrey"/>
+<rect id="leg-front-right" x="240" y="90" width="30" height="80"
+      stroke="black" fill="lightgrey"/>
+<!-- Tail -->
+<path id="tail" d="M700,50 Q750,75 800,50 Q850,25 900,50"
+      stroke="black" fill="none"/>
+```
+
+**Step 4: Document your journey with detailed notes**
+
+For each discovery, we've added attributes like `id`, `stroke`, `fill`, `cx`, `cy`, `r` (for circles), `x`, `y`, `width`, `height` (for rectangles), and `d` (for paths) to document our findings.
+
+**Step 5: Write out your map's final draft**
+
+Here's the complete SVG map of our dinosaur discovery:
+
+```xml
+<svg width="1000" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dinosaur outline -->
+  <path id="dino-outline" stroke="black" fill="none"
+        d="M100,50 Q200,75 350,50 Q450,75 600,50 Q700,75 800,50 H900 V500 H800 Z"/>
+  <!-- Head -->
+  <circle id="head" cx="120" cy="50" r="40"
+          stroke="black" fill="lightgrey"/>
+  <!-- Legs -->
+  <rect id="leg-front-left" x="160" y="90" width="30" height="80"
+        stroke="black" fill="lightgrey"/>
+  <rect id="leg-front-right" x="240" y="90" width="30" height="80"
+        stroke="black" fill="lightgrey"/>
+  <!-- Tail -->
+  <path id="tail" d="M700,50 Q750,75 800,50 Q850,25 900,50"
+        stroke="black" fill="none"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Basket -->
+  <rect x="80" y="450" width="340" height="150" rx="25" fill="#A97D59"/>
+
+  <!-- Envelope -->
+  <polygon points="250,50 350,200 250,350 50,200" fill="#F8E6CE"/>
+  <circle cx="250" cy="175" r="50" stroke="#D3B074" stroke-width="10"/>
+
+  <!-- Gondola -->
+  <rect x="90" y="425" width="220" height="25" rx="12.5" fill="#A97D59"/>
+
+</svg>

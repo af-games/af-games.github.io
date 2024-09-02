@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Drum Circle -->
+  <circle cx="150" cy="300" r="50" fill="blue" />
+  <circle cx="150" cy="300" r="40" fill="white" />
+
+  <!-- Violin Rectangle -->
+  <rect x="250" y="200" width="100" height="200" fill="brown" stroke="black"/>
+  <path d="M260,380 L290,380 Z" fill="yellow" />
+
+  <!-- Guitar Path -->
+  <path d="M450,100 Q550,250 650,100 Q750,250 850,100" stroke="black" fill="transparent"/>
+
+  <!-- Crescendo/Decrescendo Dynamics -->
+  <circle cx="350" cy="450" r="20" fill="red"/>
+  <path d="M320,470 Q380,530 440,470 Z" stroke="black"/>
+
+</svg>

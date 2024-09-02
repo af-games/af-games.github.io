@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 200">
+  <!-- Head -->
+  <circle cx="50" cy="80" r="40" fill="#FFE6D9" stroke="#C79F7D" stroke-width="3"/>
+
+  <!-- Body -->
+  <rect x="30" y="100" width="40" height="60" fill="#FFE6D9" stroke="#C79F7D" stroke-width="3"/>
+
+  <!-- Left Wing -->
+  <polygon points="25,90 25,110 50,105" fill="#FFE6D9" stroke="#C79F7D" stroke-width="3"/>
+
+  <!-- Right Wing -->
+  <polygon points="75,90 75,110 50,105" fill="#FFE6D9" stroke="#C79F7D" stroke-width="3"/>
+
+  <!-- Hair -->
+  <path d="M40,60 Q25,50 40,40 Q55,50 40,60 Z" fill="black"/>
+
+  <!-- Clothing Details -->
+  <path d="M30,140 Q40,160 70,140 Q80,160 70,140 Z" fill="#C79F7D"/>
+</svg>

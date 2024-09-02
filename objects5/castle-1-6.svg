@@ -1,0 +1,18 @@
+<svg viewBox="0 0 100 100">
+  <!-- Base -->
+  <rect width="100%" height="20%" fill="#783F04" />
+  <ellipse cx="50%" cy="90%" rx="50%" ry="60%" fill="#A5D6FF" />
+
+  <!-- Castle -->
+  <rect x="10%" y="30%" width="8%" height="40%" fill="#C39BD3" />
+  <rect x="40%" y="30%" width="8%" height="40%" fill="#C39BD3" />
+  <rect x="12%" y="70%" width="26%" height="20%" fill="#C39BD3" />
+  <polygon points="5%, 80% 95%, 80% 50%, 40%" fill="#8B6581" />
+  <circle cx="70%" cy="20%" r="3%" fill="#FFFF00" />
+
+  <!-- Landscape -->
+  <polygon points="5%, 95% 40%, 85% 95%, 5%" fill="#4CAF50" />
+  <rect x="25%" y="70%" width="50%" height="10%" fill="#2196F3" />
+  <circle cx="85%" cy="80%" r="2%" fill="#FF4848" />
+  <rect x="30%" y="75%" width="40%" height="5%" fill="#783F04" />
+</svg>

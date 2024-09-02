@@ -1,0 +1,47 @@
+<svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Define some colors -->
+<defs>
+  <linearGradient id="landGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(200,200,200);stop-opacity:1" />
+  </linearGradient>
+  <linearGradient id="waterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(135,206,235);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(64,131,174);stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+<!-- Create a grid of coordinates -->
+<rect width="1000" height="800" fill="url(#landGradient)"/>
+```
+
+Now let's add some landmarks. We'll create mountains using polygons, forests using ellipses, and rivers using paths.
+
+```svg
+<!-- Mountains -->
+<ploygon points="400,50 600,100 800,50" fill="brown" stroke="black"/>
+<ploygon points="200,300 400,400 600,300" fill="brown" stroke="black"/>
+
+<!-- Forests -->
+<ellipse cx="150" cy="250" rx="80" ry="50" fill="green"/>
+<ellipse cx="700" cy="450" rx="120" ry="60" fill="green"/>
+
+<!-- Rivers -->
+<path d="M 300,400 Q 450,350 600,400 T 800,500" stroke="blue" fill="transparent"/>
+```
+
+Finally, let's add some depth by layering elements. We'll put the mountains in the middle distance and the forests and rivers in the foreground.
+
+```svg
+<!-- Layering -->
+<ploygon points="200,300 400,400 600,300" fill="brown" stroke="black"/>
+<ploygon points="400,50 600,100 800,50" fill="brown" stroke="black"/>
+
+<!-- Foreground -->
+<ellipse cx="700" cy="450" rx="120" ry="60" fill="green"/>
+<path d="M 300,400 Q 450,350 600,400 T 800,500" stroke="blue" fill="transparent"/>
+
+<!-- Grid -->
+<rect width="1000" height="800" fill="url(#landGradient)"/>
+</svg>

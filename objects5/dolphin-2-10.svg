@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Filters -->
+  <defs>
+    <filter id="waterRipple">
+      <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="2" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <filter id="dolphinGlow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Landmarks -->
+  <circle cx="100" cy="200" r="50" fill="#87CEEB" filter="url(#dolphinGlow)" />
+  <polygon points="300,100 400,150 200,150" fill="#87CEEB" filter="url(#dolphinGlow)" />
+
+  <!-- Expedition Route -->
+  <path d="M60,250 Q100,100 200,200 Q350,300 450,250 Q600,200 700,250" stroke="#333" fill="transparent"/>
+
+  <!-- Water -->
+  <rect x="0" y="300" width="800" height="300" fill="url(#gradient)" filter="url(#waterRipple)"/>
+  <linearGradient id="gradient" gradientTransform="rotate(45)">
+    <stop offset="0%" stop-color="#0099FF"/>
+    <stop offset="100%" stop-color="#003366"/>
+  </linearGradient>
+
+</svg>

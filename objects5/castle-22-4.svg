@@ -1,0 +1,28 @@
+<svg width="500" height="300" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle -->
+  <path id="castle" d="M100,100 L400,100 Q350,20 300,50 Q250,80 200,100 Z"/>
+
+  <!-- Drawbridge -->
+  <use xlink:href="#drawbridge" x="370" y="90" />
+  <path id="drawbridge" d="M400,100 L450,60 H500 V150 H450 Z"/>
+
+  <!-- Animate Drawbridge -->
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0 0"
+    to="-50 30"
+    begin="0s; drawbridgeDown.end + 2s"
+    dur="1s"
+    repeatCount="indefinite"
+    id="drawbridgeUp" />
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="-50 30"
+    to="0 0"
+    begin="drawbridgeUp.begin + 2s"
+    dur="1s"
+    repeatCount="indefinite"
+    id="drawbridgeDown" />
+</svg>

@@ -1,0 +1,32 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="75" r="50"
+          fill="url(#butterflyBodyGradient)" />
+
+  <!-- Left Wing -->
+  <ellipse cx="60" cy="80" rx="40" ry="90"
+           fill="url(#butterflyWingGradient)"
+           transform="rotate(-135, 60, 80)"/>
+
+  <!-- Right Wing -->
+  <ellipse cx="140" cy="80" rx="40" ry="90"
+           fill="url(#butterflyWingGradient)"
+           transform="rotate(135, 140, 80)"/>
+
+  <!-- Antennae -->
+  <path d="M70 20 L60 40 Z" stroke="black" fill="transparent"/>
+  <path d="M130 20 L140 40 Z" stroke="black" fill="transparent"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="butterflyBodyGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,242,73);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,198,0);stop-opacity:1"/>
+    </linearGradient>
+
+    <linearGradient id="butterflyWingGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,242,73);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+</svg>

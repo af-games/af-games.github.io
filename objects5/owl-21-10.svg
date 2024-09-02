@@ -1,0 +1,20 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <polygon id="background" points="0,0 600,0 600,400 0,400" fill="#153E79"/>
+
+  <!-- Owl Outline (Body) -->
+  <path id="owl-body" d="M100,50 Q200,25 300,50 Q400,75 500,50 Q600,25 500,0 Q400,25 300,0 Z" fill="black"/>
+
+  <!-- Eyes -->
+  <circle id="eye-left" cx="150" cy="75" r="25" fill="#FFD700"/>
+  <circle id="eye-right" cx="450" cy="75" r="25" fill="#FFD700"/>
+
+  <!-- Beak -->
+  <path id="beak" d="M350,100 Q400,50 450,100" stroke="#FFA500" stroke-width="20" fill="transparent"/>
+
+  <!-- Feet -->
+  <polygon id="foot-left" points="175,300 225,350 125,350" fill="#4A2C2A"/>
+  <polygon id="foot-right" points="425,300 375,350 525,350" fill="#4A2C2A"/>
+
+</svg>

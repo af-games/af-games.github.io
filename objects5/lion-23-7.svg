@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Pathways -->
+<rect x="50" y="150" width="700" height="300" fill="lightgrey" stroke="black"/>
+
+<!-- Lion Beds -->
+<circle cx="200" cy="300" r="100" fill="#8B4513"/>
+<circle cx="450" cy="350" r="75" fill="#8B4513"/>
+<circle cx="650" cy="275" r="120" fill="#8B4513"/>
+
+<!-- Lion Outlines -->
+<path d="M250 330 A100 100 0 0 1 350 330 A100 100 0 0 1 250 270 Z" fill="#FFD700" opacity="0.8"/>
+<path d="M410 380 A75 75 0 0 1 510 380 A75 75 0 0 1 410 325 Z" fill="#FFD700" opacity="0.6"/>
+<path d="M610 290 A120 120 0 0 1 730 290 A120 120 0 0 1 610 250 Z" fill="#FFD700" opacity="0.8"/>
+
+<!-- Plants -->
+<path d="M150 250 Q200 300, 250 350 Q200 400, 150 350 Z" fill="#006400"/>
+<path d="M370 280 Q420 330, 370 380 Q320 330, 370 280 Z" fill="#006400"/>
+<path d="M590 230 Q640 280, 590 330 Q540 280, 590 230 Z" fill="#006400"/>
+
+</svg>

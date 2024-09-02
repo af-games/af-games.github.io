@@ -1,0 +1,27 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake base -->
+  <rect x="50" y="280" width="200" height="120"
+        style="fill:brown; stroke:black; stroke-width:2"/>
+
+  <!-- Top of the cake (white) -->
+  <circle cx="150" cy="260" r="90"
+          style="fill:white; stroke:black; stroke-width:2"/>
+
+  <!-- Crust (light brown) around the top of the cake -->
+  <circle cx="150" cy="260" r="88"
+          style="fill:lightgoldenrodyellow; stroke:black; stroke-width:2"/>
+
+  <!-- Topping (pink) -->
+  <path d="M 75 240 Q 130 210, 225 240 Q 180 270, 150 300 Z"
+        style="fill:pink; stroke:black; stroke-width:2"/>
+
+  <!-- Candles (yellow) -->
+  <circle cx="120" cy="290" r="10" style="fill:yellow"/>
+  <circle cx="170" cy="290" r="10" style="fill:yellow"/>
+
+  <!-- Cake text (happy birthday) -->
+  <text x="85" y="360" font-family="Verdana" font-size="24"
+        fill="black">Happy Birthday</text>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f7f7f7"/>
+
+  <!-- Kangaroo Body (Deep Blue) -->
+  <path d="M30,90 Q60,40 120,90 Q60,140 30,90" fill="#152c3e"
+        stroke="#152c3e"/>
+
+  <!-- Kangaroo Head (Teal) -->
+  <path d="M70,80 Q90,60 110,80 Q90,100 70,80" fill="#4caf50"
+        stroke="#4caf50"/>
+
+  <!-- Kangaroo Ears (Light Yellow) -->
+  <path d="M60,60 L70,40 80,60 Z" fill="#fff176"/>
+  <path d="M90,60 L100,40 110,60 Z" fill="#fff176"/>
+
+  <!-- Kangaroo Pouch (Light Yellow) -->
+  <path d="M45,120 Q30,140 30,160 Q45,180 60,160"
+        fill="#fff176" stroke="#fff176"/>
+
+</svg>

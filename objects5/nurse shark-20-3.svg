@@ -1,0 +1,24 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 400'>
+
+  <!-- Body -->
+  <path d="M100,100 Q250,150 350,100 Q300,50 150,50 Q100,50 50,100" fill="#8BC34A">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite"
+      values="M100,100 Q250,150 350,100 Q300,50 150,50 Q100,50 50,100;
+              M100,100 Q200,75 300,100 Q350,50 200,50 Q100,50 50,100" />
+  </path>
+
+  <!-- Fins -->
+  <rect x="80" y="60" width="10" height="70" fill="#8BC34A"/>
+  <rect x="290" y="60" width="10" height="70" fill="#8BC34A"/>
+  <path d="M350,170 Q380,190 390,160 Z" fill="#8BC34A"/>
+
+  <!-- Tail -->
+  <path d="M420,190 Q440,220 460,190 Q450,170 420,140" stroke="#8BC34A" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="150" cy="70" r="10" fill="#FFFFFF"/>
+  <circle cx="300" cy="70" r="10" fill="#FFFFFF"/>
+  <rect x="120" y="60" width="40" height="20" fill="#000000"/>
+  <rect x="270" y="60" width="40" height="20" fill="#000000"/>
+
+</svg>

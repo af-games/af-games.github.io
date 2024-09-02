@@ -1,0 +1,32 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#FFF4E6"/>
+
+  <!-- Basket (organic shape) -->
+  <path d="M50,400 Q75,380 125,370 Q175,390 225,370 Q275,390 325,370 Q375,390 425,370 Q475,390 525,370" fill="#A5694F"/>
+
+  <!-- Balloon envelope (organic shape with geometric pattern) -->
+  <path d="M125,150 Q250,100 375,150 Q250,200 125,150" fill="#FFB97D">
+    <!-- Geometric pattern (hexagons) -->
+    <pattern id="hexagonPattern" patternUnits="userSpaceOnUse" width="40" height="40">
+      <polygon points="20,0 40,0 40,40 20,40" fill="#FF7F50"/>
+    </pattern>
+    <use xlink:href="#hexagonPattern" x="10%" y="10%" width="80%" height="80%"/>
+  </path>
+
+  <!-- Balloon rim (geometric circle) -->
+  <circle cx="250" cy="300" r="60" fill="#FF7F50"/>
+
+  <!-- Rope (organic, wavy line) -->
+  <polyline points="125,400 180,420 230,400 280,420 330,400 380,420 430,400" fill="none" stroke="#A5694F"/>
+
+  <!-- Light interaction (shadows and highlights) -->
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFB97D; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#FFB97D; stop-opacity:.8"/>
+  </linearGradient>
+  <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FF7F50; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#FF7F50; stop-opacity:.8"/>
+  </linearGradient>
+</svg>

@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Scene 1 -->
+<rect id="igloo" x="50%" y="40%" width="20%" height="30%" fill="#FFFFFF"/>
+<text x="50%" y="70%" text-anchor="middle" font-size="24">Igloo is lonely in the winter.</text>
+<circle cx="50%" cy="10%" r="5" fill="#808080">
+  <animateMotion repeatCount="indefinite" dur="1s" rotate="360">
+    <mpath href="#path1"/>
+  </animateMotion>
+</circle>
+
+<path id="path1" d="M50,10 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 z"/>
+
+<!-- Scene 2 -->
+<circle id="penguin" cx="30%" cy="60%" r="20" fill="#FFFFFF">
+  <animateTransform attributeName="cx" from="30%" to="50%" dur="2s" repeatCount="1"/>
+</circle>
+<text x="30%" y="80%" text-anchor="middle">Penguin arrives!</text>
+
+<!-- More scenes follow similar pattern... -->
+
+<!-- Scene 9 -->
+<use href="#igloo"/>
+<text x="50%" y="70%" text-anchor="middle" font-size="24">Igloo accepts the change of seasons.</text>
+<circle cx="50%" cy="10%" r="5" fill="#808080">
+  <animateMotion repeatCount="indefinite" dur="1s" rotate="360">
+    <mpath href="#path9"/>
+  </animateMotion>
+</circle>
+
+<path id="path9" d="M50,10 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 z"/>
+
+</svg>

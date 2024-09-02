@@ -1,0 +1,12 @@
+<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="10" cy="10" r="9" fill="#CFCFCF" />
+
+  <!-- Fins -->
+  <rect x="8" y="4" width="4" height="2" fill="#707070" />
+  <rect x="3" y="7" width="2" height="2" fill="#707070" />
+  <rect x="15" y="7" width="2" height="2" fill="#707070" />
+
+  <!-- Mouth -->
+  <path d="M8,14 Q12,16 8,14 Q12,12 8,14" stroke="#FFF5E6" fill="transparent" />
+</svg>

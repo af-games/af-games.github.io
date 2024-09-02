@@ -1,0 +1,17 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="150" cy="120" rx="80" ry="60" fill="brown"/>
+  <!-- Head -->
+  <circle cx="150" cy="90" r="40" fill="brown"/>
+  <!-- Tail -->
+  <rect x="170" y="130" width="20" height="80" fill="brown"/>
+
+  <!-- Legs -->
+  <polygon points="70,150 90,200 110,150" fill="brown"/>
+  <polygon points="230,150 250,200 270,150" fill="brown"/>
+
+  <!-- Feet -->
+  <circle cx="70" cy="210" r="15" fill="tan"/>
+  <circle cx="270" cy="210" r="15" fill="tan"/>
+
+</svg>

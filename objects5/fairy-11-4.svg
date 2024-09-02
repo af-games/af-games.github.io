@@ -1,0 +1,27 @@
+<svg width="200" height="300" viewBox="0 0 100 150" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<circle cx="50" cy="75" r="25" fill="#FFD65B"/>
+<circle cx="45" cy="95" r="15" fill="#FFD65B"/>
+<circle cx="55" cy="95" r="15" fill="#FFD65B"/>
+
+<!-- Head -->
+<circle cx="50" cy="35" r="20" fill="#FFF78C">
+  <!-- Hair -->
+  <g stroke="#000" stroke-width="1">
+    <path d="M45,30 Q55,20 65,30"/>
+    <path d="M40,25 Q50,15 60,25"/>
+    <!-- Add more hair paths as needed -->
+  </g>
+</circle>
+
+<!-- Wings -->
+<path d="M10,20 C20,0 80,0 90,20" fill="#FFF78C" stroke="#FFD65B"/>
+<path d="M40,30 Q55,25 70,30" fill="#FFF78C" stroke="#FFD65B"/>
+<circle cx="50" cy="15" r="5" fill="#FFD65B"/>
+
+<!-- Dress -->
+<rect x="20" y="90" width="60" height="40" rx="20" ry="20" fill="#FFD65B"/>
+<path d="M20,130 Q40,150 60,130" fill="#FFD65B"/>
+
+</svg>

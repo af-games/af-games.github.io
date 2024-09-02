@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 √2*512">
+  <!-- Kangaroo Body -->
+  <ellipse cx="256" cy="768" rx="256" ry="128"
+    fill="#2C5338" stroke="#FF7F00"/>
+
+  <!-- Pouch -->
+  <rect x="192" y="448" width="128" height="192"
+    fill="#FF7F00" rx="64"/>
+
+  <!-- Ears -->
+  <circle cx="352" cy="352" r="64" fill="#FF7F00"/>
+  <circle cx="160" cy="352" r="64" fill="#FF7F00">
+
+  <!-- Inner Ear Details -->
+  <path d="M384,352 A64,64 0 1,0 256,288 64,64 0 1,0 384,352 fill="#9A0300"/>
+  <path d="M128,352 A64,64 0 1,0 64,288 64,64 0 1,0 128,352 fill="#9A0300"/>
+
+  <!-- Feet -->
+  <path d="M288,704 Q288,768 352,768" stroke="#FF7F00"/>
+  <path d="M224,704 Q224,768 128,768" stroke="#FF7F00"/>
+
+</svg>

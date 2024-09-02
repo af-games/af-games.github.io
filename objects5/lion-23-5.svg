@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
+
+  <!-- Lion body -->
+  <rect id="lion-body" x="-50" y="0" width="100" height="80" fill="brown" stroke="black"/>
+
+  <!-- Strings at neck, hips, and tail -->
+  <path d="M-50,-40 Q0,-20 -50,0" stroke="black"/>
+  <path d="M0,0 Q100,20 50,0" stroke="black"/>
+  <path d="M50,0 Q70,30 90,0" stroke="black"/>
+
+  <!-- Lion head -->
+  <circle id="lion-head" cx="0" cy="-40" r="40" fill="gold"/>
+
+  <!-- Eyes -->
+  <circle cx="-15" cy="-50" r="5" fill="white"/>
+  <circle cx="15" cy="-50" r="5" fill="white"/>
+
+  <!-- Mouth (open/close) -->
+  <path id="lion-mouth" d="M-30,-60 Q0,-70 30,-60" stroke="black" fill="transparent"/>
+
+</svg>

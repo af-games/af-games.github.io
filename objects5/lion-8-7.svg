@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Pathways -->
+  <rect x="100" y="400" width="300" height="100" fill="#e6f7fe" stroke="#b3d6ea"/>
+  <path d="M150,420 Q200,380 300,420" stroke="#b3d6ea" fill="transparent"/>
+
+  <!-- Beds -->
+  <circle cx="175" cy="325" r="75" fill="#90be6d"/>
+  <circle cx="275" cy="325" r="75" fill="#90be6d"/>
+
+  <!-- Plants (Lions) -->
+  <path d="M140,300 Q180,280 220,300 T220,330 Q180,350 140,330" fill="#6d904f" stroke="#b3d6ea"/>
+  <path d="M240,300 Q280,280 320,300 T320,330 Q280,350 240,330" fill="#6d904f" stroke="#b3d6ea"/>
+
+  <!-- Structures (Lion heads) -->
+  <circle cx="175" cy="275" r="50" fill="#ffcccb"/>
+  <path d="M150,250 Q180,230 210,250 A50,50 0 1,1 240,250 Q270,230 290,250" fill="#ffcccb"/>
+
+</svg>

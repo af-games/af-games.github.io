@@ -1,0 +1,19 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kangaroo -->
+  <g id="kangaroo">
+    <circle cx="100" cy="500" r="40" fill="#FFA500"/>
+    <rect x="90" y="460" width="20" height="80" fill="#CD7F32"/>
+  </g>
+
+  <!-- Bird -->
+  <g id="bird">
+    <path d="M100 200 Q150 150, 200 200 T250 150" stroke="#0099FF" fill="transparent"/>
+    <circle cx="270" cy="180" r="30" fill="#FFCC00"/>
+  </g>
+
+  <!-- Sun -->
+  <circle id="sun" cx="700" cy="50" r="60" fill="yellow"/>
+
+  <!-- Ground -->
+  <rect x="0" y="500" width="800" height="100" fill="#32CD32"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 0 400 600">
+
+<!-- Body -->
+<rect x="100" y="200" width="200" height="250" fill="#C8B57F"/>
+
+<!-- Head -->
+<circle cx="150" cy="130" r="90" fill="#E6CBCA"/>
+<ellipse cx="150" cy="110" rx="40" ry="20" fill="#FFFFFF" opacity="0.8"/>
+
+<!-- Neck -->
+<path d="M150 230 Q200 190, 170 160 Z" stroke="#C8B57F" fill="transparent" stroke-width="20"/>
+
+<!-- Legs -->
+<g transform="translate(120, 400)">
+    <circle cx="0" cy="0" r="30" fill="#C8B57F"/>
+    <path d="M-60 -60 Q-100 -40, -120 0 Z" stroke="#C8B57F" fill="transparent" stroke-width="20"/>
+</g>
+<use xlink:href="#leg-template" transform="translate(240, 0) rotate(90)" />
+<use xlink:href="#leg-template" transform="translate(120, 200) rotate(180)" />
+<use xlink:href="#leg-template" transform="translate(240, 200)"/>
+
+<!-- Tail -->
+<path d="M230 450 Q270 490, 260 520 Z" stroke="#C8B57F" fill="transparent" stroke-width="15"/>
+
+<!-- Horns -->
+<circle cx="130" cy="100" r="10" fill="#A58E6D"/>
+<circle cx="170" cy="100" r="10" fill="#A58E6D"/>
+
+<!-- Leg template for reusing -->
+<g id="leg-template">
+    <circle cx="0" cy="0" r="30" fill="#C8B57F"/>
+    <path d="M-60 -60 Q-100 -40, -120 0 Z" stroke="#C8B57F" fill="transparent" stroke-width="20"/>
+</g>
+
+</svg>

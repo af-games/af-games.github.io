@@ -1,0 +1,33 @@
+<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Shark Body -->
+  <ellipse cx="200" cy="250" rx="200" ry="150" fill="#8B8989"/>
+
+  <!-- Mouth -->
+  <ellipse cx="200" cy="270" rx="40" ry="20" fill="#333"/>
+  <!-- Teeth -->
+  <circle cx="180" cy="265" r="5" fill="#FFF"/>
+  <circle cx="220" cy="265" r="5" fill="#FFF"/>
+
+  <!-- Dorsal Fin -->
+  <rect x="170" y="100" width="50" height="80" rx="10" fill="#333"/>
+
+  <!-- Pelvic Fins -->
+  <circle cx="220" cy="350" r="20" fill="#333"/>
+  <circle cx="260" cy="350" r="20" fill="#333"/>
+
+  <!-- Caudal Fin -->
+  <ellipse cx="300" cy="275" rx="75" ry="40" fill="#333"/>
+
+  <!-- Eyes -->
+  <circle cx="140" cy="180" r="15" fill="#000"/>
+  <circle cx="260" cy="180" r="15" fill="#000"/>
+
+  <!-- Gills -->
+  <ellipse cx="160" cy="190" rx="10" ry="5" fill="#D3D3D3"/>
+  <ellipse cx="170" cy="200" rx="10" ry="5" fill="#D3D3D3"/>
+  <ellipse cx="180" cy="210" rx="10" ry="5" fill="#D3D3D3"/>
+  <ellipse cx="190" cy="220" rx="10" ry="5" fill="#D3D3D3"/>
+  <ellipse cx="200" cy="230" rx="10" ry="5" fill="#D3D3D3"/>
+
+</svg>

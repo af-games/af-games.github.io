@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700">
+  <!-- Vase -->
+  <path d="M250,10 Q140,90 250,180 Q360,90 250,30 A250,250 0 1 0 250,700" fill="#FFD700" stroke="black"/>
+
+  <!-- Water Gradient -->
+  <linearGradient id="waterGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" style="stop-color:lightblue; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:white; stop-opacity:1"/>
+  </linearGradient>
+  <rect width="500" height="180" fill="url(#waterGradient)"/>
+
+  <!-- Balloons -->
+  <!-- Red balloon -->
+  <circle cx="150" cy="250" r="40" fill="red">
+    <animateMotion dur="3s" repeatCount="indefinite">
+      <mpath href="#balloonPath"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Yellow balloon -->
+  <ellipse cx="300" cy="280" rx="45" ry="60" fill="yellow">
+    <animateMotion dur="3s" repeatCount="indefinite">
+      <mpath href="#balloonPath"/>
+    </animateMotion>
+  </ellipse>
+
+  <!-- Green balloon -->
+  <polygon points="180,320 250,400 320,320" fill="green">
+    <animateMotion dur="3s" repeatCount="indefinite">
+      <mpath href="#balloonPath"/>
+    </animateMotion>
+  </polygon>
+
+  <!-- Balloon path -->
+  <path id="balloonPath" d="M150,250 Q200,300 300,280 Q350,300 300,250"/>
+
+  <!-- Leaves and stems -->
+  <!-- Red balloon leaf -->
+  <path d="M140,220 C160,240 180,240 200,220" stroke="green" fill="transparent"/>
+  <line x1="150" y1="230" x2="150" y2="270" stroke="brown"/>
+
+  <!-- Yellow balloon leaf -->
+  <path d="M280,260 C300,280 320,280 340,260" stroke="green" fill="transparent"/>
+  <line x1="300" y1="250" x2="300" y2="290" stroke="brown"/>
+
+  <!-- Green balloon leaf -->
+  <path d="M210,340 C230,360 250,360 270,340" stroke="green" fill="transparent"/>
+  <line x1="240" y1="350" x2="240" y2="390" stroke="brown"/>
+</svg>

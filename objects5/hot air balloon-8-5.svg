@@ -1,0 +1,12 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Envelope -->
+  <circle cx="150" cy="70" r="80" fill="#FF6F00" stroke="#D94C00" stroke-width="2"/>
+
+  <!-- Basket -->
+  <rect x="130" y="140" width="90" height="50" fill="#A34900" stroke="#7C3A00" stroke-width="2"/>
+
+  <!-- Burner Flame (Path for simplicity) -->
+  <path d="M160,180 Q170,220 180,210 Q170,190 160,180" fill="#FF4500" stroke="none"/>
+
+</svg>

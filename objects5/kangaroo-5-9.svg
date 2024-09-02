@@ -1,0 +1,38 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Kangaroo body -->
+  <path id="kangarooBody" d="M100 350 Q150 370, 200 350 Q250 370, 300 350 Q350 370, 400 350" fill="brown" stroke="black">
+    <animate attributeName="d"
+             dur="1s"
+             values="
+               M100 350 Q150 370, 200 350 Q250 370, 300 350 Q350 370, 400 350;
+               M100 310 Q150 330, 200 310 Q250 330, 300 310 Q350 330, 400 310;
+               M100 350 Q150 370, 200 350 Q250 370, 300 350 Q350 370, 400 350
+             "
+             repeatCount="indefinite" />
+  </path>
+
+  <!-- Kangaroo tail -->
+  <path id="kangarooTail" d="M380 320 Q410 360, 440 320 Q470 360, 500 320" fill="brown" stroke="black">
+    <animate attributeName="d"
+             dur="1s"
+             values="
+               M380 320 Q410 360, 440 320 Q470 360, 500 320;
+               M380 340 Q410 380, 440 340 Q470 380, 500 340
+             "
+             repeatCount="indefinite" />
+  </path>
+
+  <!-- Kangaroo ears -->
+  <circle id="kangarooEarLeft" cx="120" cy="250" r="20" fill="brown">
+    <animate attributeName="cy"
+             dur="0.5s"
+             values="250;240;250"
+             repeatCount="indefinite" />
+  </circle>
+  <circle id="kangarooEarRight" cx="180" cy="250" r="20" fill="brown">
+    <animate attributeName="cy"
+             dur="0.5s"
+             values="250;260;250"
+             repeatCount="indefinite" />
+  </circle>
+</svg>

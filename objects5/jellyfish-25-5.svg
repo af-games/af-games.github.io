@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- First Jellyfish -->
+  <g id="jellyfish1">
+    <!-- Bell (body) -->
+    <circle cx="50" cy="150" r="40" fill="#ff6666"/>
+
+    <!-- Tentacles -->
+    <g transform="translate(50, 230)">
+      <path d="M -7,-7 Q 0,-25 7,-7 T 14,-40" stroke="#ffcc66"/>
+      <path d="M 7,-7 Q 0,-25 -7,-7 T -14,-40" stroke="#ffcc66"/>
+    </g>
+  </g>
+
+  <!-- Second Jellyfish -->
+  <g id="jellyfish2">
+    <!-- Bell (body) -->
+    <circle cx="350" cy="200" r="30" fill="#6699ff"/>
+
+    <!-- Tentacles -->
+    <g transform="translate(350, 280)">
+      <path d="M -7,-7 Q 0,-25 7,-7 T 14,-35" stroke="#ccffff"/>
+      <path d="M 7,-7 Q 0,-25 -7,-7 T -14,-35" stroke="#ccffff"/>
+    </g>
+  </g>
+
+</svg>

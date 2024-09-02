@@ -1,0 +1,20 @@
+<svg width="300" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M150,10 Q175,30 200,10 Q175,0 150,10 Z"
+        fill="#FFD6E5" stroke="#8B4513" stroke-width="5"/>
+
+  <!-- Balloon (upper body) -->
+  <path d="M150,10 Q200,50 175,90 A75,75 0 0 0 150,140"
+        fill="#FFD6E5" stroke="#8B4513" stroke-width="5"/>
+
+  <!-- Balloon (lower body) -->
+  <path d="M150,290 Q100,350 75,390 A75,75 0 0 1 150,460"
+        fill="#FFD6E5" stroke="#8B4513" stroke-width="5"/>
+
+  <!-- Beads (small circles) -->
+  <circle cx="125" cy="70" r="5"/>
+  <circle cx="175" cy="70" r="5"/>
+  <circle cx="150" cy="280" r="5"/>
+  <circle cx="165" cy="390" r="5"/>
+
+</svg>

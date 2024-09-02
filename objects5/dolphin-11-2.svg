@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Body -->
+  <path d="M100,200 Q175,100 300,200 Q425,300 500,200" fill="blue"/>
+
+  <!-- Fin (left) -->
+  <path d="M80,150 L100,200 L120,150 Z" fill="blue"/>
+
+  <!-- Fin (right) -->
+  <path d="M420,150 L400,200 L380,150 Z" fill="blue"/>
+
+  <!-- Tail fin -->
+  <path d="M300,300 Q350,350 400,300" fill="blue"/>
+
+  <!-- Head -->
+  <circle cx="75" cy="200" r="50" fill="blue"/>
+
+  <!-- Eye (left) -->
+  <circle cx="65" cy="185" r="5" fill="black"/>
+
+  <!-- Eye (right) -->
+  <circle cx="85" cy="185" r="5" fill="black"/>
+</svg>

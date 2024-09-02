@@ -1,0 +1,20 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bell (Central Body) -->
+  <circle cx="200" cy="200" r="50" fill="transparent"/>
+
+  <!-- Tentacles -->
+  <path id="tentacle1" d="M150,70 Q160,80 170,70" stroke="black"/>
+  <path id="tentacle2" d="M180,40 Q190,50 200,40" stroke="black"/>
+  <!-- Add more tentacles here following the same pattern -->
+
+  <!-- Animation for pulsating effect -->
+  <animate
+    attributeName="d"
+    values="
+      M150,70 Q160,80 170,70;
+      M150,70 Q165,90 175,70;
+      M150,70 Q160,80 170,70
+    "
+    dur="2s"
+    repeatCount="indefinite" />
+</svg>

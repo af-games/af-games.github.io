@@ -1,0 +1,32 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="500" height="500" fill="#87CEEB"/>
+
+  <!-- Sun -->
+  <circle cx="40" cy="60" r="30" fill="#FCD116"/>
+
+  <!-- Clouds -->
+  <circle cx="120" cy="80" r="40" fill="white"/>
+  <circle cx="180" cy="90" r="50" fill="white"/>
+  <circle cx="230" cy="70" r="40" fill="white"/>
+
+  <!-- Trees -->
+  <rect x="160" y="180" width="80" height="140" rx="20" ry="20" fill="#3D9970"/>
+  <rect x="260" y="150" width="80" height="160" rx="20" ry="20" fill="#3D9970"/>
+
+  <!-- Grass -->
+  <rect x="0" y="340" width="500" height="160" fill="#00FF00"/>
+
+  <!-- Fairy -->
+  <circle cx="350" cy="280" r="30" fill="#FFFACD"/>
+  <circle cx="355" cy="275" r="5" fill="#FF4500"/>
+  <path d="M345,260 Q350,250 355,260 T360,260 Z" stroke="black" fill="transparent"/>
+
+  <!-- Mushrooms -->
+  <circle cx="80" cy="350" r="30" fill="#FFD700"/>
+  <path d="M70,340 Q80,360 90,340 Z" stroke="brown" fill="transparent"/>
+  <circle cx="140" cy="320" r="25" fill="#FFD700"/>
+  <path d="M130,310 Q140,330 150,310 Z" stroke="brown" fill="transparent"/>
+
+</svg>

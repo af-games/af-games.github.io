@@ -1,0 +1,23 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main Landmass -->
+  <rect x="100" y="150" width="300" height="250"
+        style="fill:lightgreen; stroke:black; stroke-width:1"/>
+
+  <!-- Island -->
+  <circle cx="250" cy="300" r="40"
+          style="fill:darkgreen; stroke:black; stroke-width:1"/>
+
+  <!-- Mountain Range -->
+  <polygon points="150,200 250,100 350,200"
+           style="fill:brown; stroke:black; stroke-width:1"/>
+
+  <!-- River -->
+  <polyline points="175,250 225,300 275,250"
+            style="fill:transparent; stroke:blue; stroke-width:3"/>
+
+  <!-- Volcano Island -->
+  <circle cx="400" cy="350" r="20"
+          style="fill:red; stroke:black; stroke-width:1"/>
+
+</svg>

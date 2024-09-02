@@ -1,0 +1,19 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Buildings -->
+  <rect x="50" y="100" width="70" height="400" fill="#ADD8E6" stroke="black"/>
+  <polygon points="250,100 300,200 250,300" fill="#B0E0E0" stroke="black"/>
+  <rect x="400" y="150" width="60" height="300" fill="#87CEEB" stroke="black"/>
+
+  <!-- Roads -->
+  <path d="M50,550 h300" stroke="black" fill="transparent"/>
+  <path d="M250,450 q100,-50 100,-150" stroke="black" fill="transparent"/>
+
+  <!-- Water -->
+  <rect x="0" y="550" width="800" height="50" fill="#7AC5CD"/>
+  <rect x="350" y="600" width="450" height="100" fill="#00BFFF"/>
+
+  <!-- Dolphin -->
+  <path d="M650,200 Q700,150 750,200 Q700,250 650,300 Q550,250 500,200 Z" fill="#ADD8E6" stroke="black"/>
+
+</svg>

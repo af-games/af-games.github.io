@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <!-- Dinosaur Body -->
+  <rect x="50" y="100" width="300" height="400" fill="#3D9400"/>
+  <circle cx="200" cy="75" r="75" fill="#3D9400"/>
+  <circle cx="200" cy="525" r="75" fill="#3D9400"/>
+
+  <!-- Clothing Pieces -->
+  <rect x="100" y="150" width="200" height="150" fill="#9C27B0"/>
+  <rect x="100" y="350" width="200" height="150" fill="#FBC02D"/>
+  <ellipse cx="200" cy="125" rx="60" ry="80" fill="#E53935"/>
+
+  <!-- Accessories -->
+  <rect x="150" y="400" width="100" height="20" fill="#64FFDA"/>
+  <path d="M100,575 Q150,600 200,575 Q250,600 300,575" stroke="#1DE9B6" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="150" cy="100" r="25" fill="#FF6347"/>
+  <circle cx="250" cy="100" r="25" fill="#FF6347"/>
+</svg>

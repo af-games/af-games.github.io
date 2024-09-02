@@ -1,0 +1,24 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="100" y="300" width="300" height="80" fill="#FFA500" stroke="black"/>
+  <text x="200" y="340" font-size="20">Cake Base</text>
+
+  <!-- First Layer -->
+  <rect x="100" y="220" width="300" height="80" fill="#FFF5EE" stroke="black"/>
+  <text x="200" y="260" font-size="20">First Layer</text>
+
+  <!-- Second Layer -->
+  <rect x="100" y="140" width="300" height="80" fill="#FFF5EE" stroke="black"/>
+  <text x="200" y="180" font-size="20">Second Layer</text>
+
+  <!-- Top Layer -->
+  <rect x="100" y="60" width="300" height="80" fill="#FFF5EE" stroke="black"/>
+  <text x="200" y="100" font-size="20">Top Layer</text>
+
+  <!-- Candles -->
+  <circle cx="150" cy="60" r="20" fill="#F39C12"/>
+  <circle cx="200" cy="60" r="20" fill="#F39C12"/>
+  <circle cx="250" cy="60" r="20" fill="#F39C12"/>
+
+</svg>

@@ -1,0 +1,39 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .beat {
+      animation: beatAnimation 4s infinite;
+    }
+
+    @keyframes beatAnimation {
+      0%, 100% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+
+    .balloon {
+      animation: balloonAnimation 8s infinite ease-in-out;
+    }
+
+    @keyframes balloonAnimation {
+      0% { transform: translateY(0) scaleX(.7); }
+      50% { transform: translateY(50px) scaleX(1); }
+      100% { transform: translateY(0) scaleX(.7); }
+    }
+  </style>
+
+  <!-- Bar 1 -->
+  <circle cx="25" cy="60" r="10" fill="red" class="beat">
+    <animate attributeName="cy" values="60;80;60" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M30,70 Q50,90 70,70 T100" stroke-width="2" stroke="orange" fill="transparent">
+    <animate attributeName="d" dur="4s" repeatCount="indefinite"
+             values="M30,70 Q50,90 70,70 T100; M80,70 Q100,90 120,70 T150"/>
+  </path>
+  <circle cx="140" cy="60" r="10" fill="yellow" class="beat">
+    <animate attributeName="cy" values="60;80;60" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Hot Air Balloon -->
+  <image href="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hot_air_balloon.svg"
+         x="250" y="130" width="80" height="140" class="balloon"/>
+
+</svg>

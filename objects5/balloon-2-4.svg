@@ -1,0 +1,61 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Balloon body (circle) -->
+<circle cx="150" cy="150" r="90"
+        fill="lightgoldenrodyellow" stroke="black"/>
+<!-- Balloon body shadow -->
+<circle cx="150" cy="165" r="80"
+        fill="none" stroke="lightgrey" stroke-width="2" stroke-opacity="0.3"/>
+
+<!-- Balloon neck (rectangle) -->
+<rect x="90" y="40" width="20" height="110"
+      fill="#FF7F50" stroke="black"/>
+<!-- Balloon neck shadow -->
+<rect x="86" y="46" width="18" height="102"
+      fill="none" stroke="lightgrey" stroke-width="1.5" stroke-opacity="0.3"/>
+
+<!-- Basket (triangle) -->
+<polygon points="270,20 370,20 300,90"
+         fill="#8B4513"/>
+<!-- Basket shadow -->
+<rect x="265" y="25" width="105" height="65"
+      fill="none" stroke="lightgrey" stroke-width="2" stroke-opacity="0.3"/>
+
+<!-- String (path) -->
+<path d="M270,20 L290,40 L310,20"
+      stroke="#8B4513" stroke-width="5"/>
+<!-- String shadow -->
+<path d="M267,25 L287,50 L307,25"
+      fill="none" stroke="lightgrey" stroke-opacity="0.3"/>
+
+<!-- Lighting effect (linear gradient) -->
+<defs>
+  <linearGradient id="balloonGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0.8"/>
+    <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:0"/>
+  </linearGradient>
+</defs>
+
+<!-- Apply gradient to balloon body -->
+<circle cx="150" cy="150" r="90"
+        fill="url(#balloonGradient)" stroke="black"/>
+
+<!-- Lighting effect (feGaussianBlur filter) -->
+<defs>
+  <filter id="blurShadow">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+    <feOffset dx="2" dy="2"/>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+
+<!-- Apply filter to balloon components -->
+<circle cx="150" cy="165" r="80"
+        fill="none" stroke="lightgrey" stroke-width="2" stroke-opacity="0.3"
+        filter="url(#blurShadow)"/>
+<!-- ... repeat applying the filter to other shapes as needed -->
+
+</svg>

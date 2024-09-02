@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <!-- Bell -->
+  <circle cx="25" cy="10" r="8" fill="#ff69b4"/>
+
+  <!-- Tentacles -->
+  <path d="M25,20 A7.5,7.5 0 1 0 32.5,20 A7.5,7.5 0 1 0 37.5,20" stroke="#ff69b4" fill="transparent"/>
+
+  <!-- Eye -->
+  <circle cx="22.5" cy="6" r="2" fill="black"/>
+
+</svg>

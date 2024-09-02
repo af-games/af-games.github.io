@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100 50 Q150 75, 200 100 A80 80 0 0 0 100 150" fill="#A9C6C9"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="75" r="25" fill="#FFFFFF"/>
+
+  <!-- Eye (Left) -->
+  <circle cx="85" cy="60" r="5" fill="#000000"/>
+
+  <!-- Eye (Right) -->
+  <circle cx="115" cy="60" r="5" fill="#000000"/>
+
+  <!-- Beak -->
+  <path d="M90 70 Q100 80, 110 70" stroke="#FF6F61" fill="transparent"/>
+
+  <!-- Fin (Left) -->
+  <polygon points="30 150, 40 200, 70 200" fill="#A9C6C9"/>
+
+  <!-- Fin (Right) -->
+  <polygon points="170 150, 160 200, 130 200" fill="#A9C6C9"/>
+</svg>

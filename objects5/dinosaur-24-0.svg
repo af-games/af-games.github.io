@@ -1,0 +1,27 @@
+<svg width="250" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="10" y="30" width="150" height="100" fill="#228B22"/>
+
+  <!-- Head -->
+  <ellipse cx="70" cy="50" rx="45" ry="60" fill="#228B22"/>
+  <polygon points="35,20 85,20 100,50 85,80 35,80" fill="#000000"/>
+
+  <!-- Arms -->
+  <rect x="30" y="70" width="20" height="60" fill="#228B22"/>
+  <rect x="140" y="70" width="20" height="60" fill="#228B22"/>
+
+  <!-- Legs -->
+  <rect x="50" y="180" width="50" height="100" fill="#228B22"/>
+  <rect x="120" y="180" width="50" height="100" fill="#228B22"/>
+  <rect x="60" y="300" width="50" height="100" fill="#228B22"/>
+  <rect x="140" y="300" width="50" height="100" fill="#228B22"/>
+
+  <!-- Tail -->
+  <ellipse cx="205" cy="220" rx="25" ry="30" fill="#9ACD32"/>
+  <ellipse cx="220" cy="240" rx="30" ry="35" fill="#8DC63C"/>
+  <ellipse cx="235" cy="260" rx="35" ry="40" fill="#7DB231"/>
+  <ellipse cx="250" cy="280" rx="40" ry="45" fill="#6EAF2F"/>
+  <ellipse cx="265" cy="300" rx="45" ry="50" fill="#5CA227"/>
+
+</svg>

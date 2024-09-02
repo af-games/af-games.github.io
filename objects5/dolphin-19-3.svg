@@ -1,0 +1,26 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100 50 Q150 0, 250 50 Q300 100, 350 50 Q400 0, 450 50" fill="lightblue" stroke="black"/>
+
+  <!-- Tail -->
+  <path d="M500 50 Q550 0, 600 50" fill="lightblue" stroke="black"/>
+
+  <!-- Fins (Dorsal and Pectoral) -->
+  <polygon points="200,30 250,70 150,70" fill="lightblue" stroke="black"/>
+  <polygon points="400,30 350,70 450,70" fill="lightblue" stroke="black"/>
+
+  <!-- Eye -->
+  <circle cx="225" cy="35" r="15" fill="white">
+    <circle cx="225" cy="35" r="5" fill="black"/>
+  </circle>
+
+  <!-- Roads (as lines connecting buildings) -->
+  <line x1="100" y1="50" x2="150" y2="0" stroke="darkgray"/>
+  <line x1="150" y1="0" x2="200" y2="30" stroke="darkgray"/>
+  <line x1="250" y1="50" x2="300" y2="100" stroke="darkgray"/>
+  <line x1="350" y1="50" x2="400" y2="0" stroke="darkgray"/>
+  <line x1="450" y1="50" x2="500" y2="50" stroke="darkgray"/>
+  <line x1="600" y1="50" x2="550" y2="0" stroke="darkgray"/>
+
+</svg>

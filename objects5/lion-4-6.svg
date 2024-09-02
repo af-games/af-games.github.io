@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Gold background -->
+  <circle cx="250" cy="250" r="200" fill="#FDB813"/>
+
+  <!-- Lion's face -->
+  <circle cx="250" cy="175" r="75" fill="#FFD700"/>
+  <circle cx="225" cy="125" r="25" fill="#E6B34F"/> <!-- Left eye -->
+  <circle cx="275" cy="125" r="25" fill="#E6B34F"/> <!-- Right eye -->
+
+  <!-- Lion's mane -->
+  <path d="M100,225 Q200,75 350,225 Q450,325 300,400 Q200,375 100,275 Z" fill="#FFC181"/>
+
+  <!-- Gemstones -->
+  <circle cx="200" cy="225" r="15" fill="#FFA500"/> <!-- Amber -->
+  <circle cx="250" cy="300" r="15" fill="#7A0468"/> <!-- Ruby -->
+  <circle cx="300" cy="225" r="15" fill="#00FFFF"/> <!-- Aquamarine -->
+
+  <!-- Gold settings for gemstones -->
+  <rect x="190" y="215" width="20" height="20" fill="#FDB813"/>
+  <rect x="245" y="290" width="20" height="20" fill="#FDB813"/>
+  <rect x="295" y="215" width="20" height="20" fill="#FDB813"/>
+
+</svg>

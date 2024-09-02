@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+<!-- Body -->
+<rect x="100" y="100" width="300" height="400" fill="#FFCC99" stroke="#8B7D6B" stroke-width="5"/>
+
+<!-- Neck -->
+<path d="M250,200 Q275,175 300,200" fill="none" stroke="#8B7D6B" stroke-width="5"/>
+
+<!-- Head -->
+<circle cx="300" cy="150" r="70" fill="#FFCC99" stroke="#8B7D6B" stroke-width="5"/>
+<circle cx="270" cy="140" r="20" fill="#FFFFFF"/> <!-- Eye (left) -->
+<circle cx="330" cy="140" r="20" fill="#FFFFFF"/> <!-- Eye (right) -->
+
+<!-- Legs -->
+<rect x="150" y="350" width="20" height="200" fill="#8B7D6B"/>
+<rect x="350" y="350" width="20" height="200" fill="#8B7D6B"/>
+<rect x="175" y="550" width="20" height="50" fill="#8B7D6B"/>
+<rect x="325" y="550" width="20" height="50" fill="#8B7D6B"/>
+
+<!-- Shadows and highlights -->
+<defs>
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:0.5"/>
+    <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:0"/>
+  </linearGradient>
+</defs>
+<rect x="100" y="100" width="300" height="400" fill="url(#grad1)"/>
+
+</svg>

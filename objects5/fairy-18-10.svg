@@ -1,0 +1,23 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy outline -->
+  <path d="M100 200 Q150 50 250 200 Q300 350 350 200 Q400 50 450 200" fill="#FF6F92"/>
+  <path d="M100 200 Q150 50 250 200 Q300 350 350 200 Q400 50 450 200" stroke="#3D0C74" fill="none"/>
+
+  <!-- Fairy face -->
+  <circle cx="275" cy="150" r="60" fill="#FFB3DE"/>
+  <circle cx="275" cy="150" r="50" stroke="#3D0C74" fill="none"/>
+
+  <!-- Fairy hair (flowers) -->
+  <g transform="translate(250, 50)">
+    <circle cx="0" cy="0" r="20" fill="#FF6F92"/>
+    <path d="M0 -30 A20 20 0 0 1 40 0 L20 0 Z" stroke="#3D0C74" fill="none"/>
+  </g>
+  <use xlink:href="#hair-flowers" transform="rotate(60, 250, 50)" />
+  <use xlink:href="#hair-flowers" transform="rotate(-60, 250, 50)" />
+
+  <!-- Fairy wings (hexagons) -->
+  <polygon points="-100,-30 0,-70 100,-30 100,30 0,70 -100,30" transform="translate(250, 180)" fill="#FF6F92"/>
+  <polygon points="-100,-30 0,-70 100,-30 100,30 0,70 -100,30" transform="translate(250, 180)" stroke="#3D0C74" fill="none"/>
+
+</svg>

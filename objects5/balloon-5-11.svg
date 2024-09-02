@@ -1,0 +1,22 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Define the canvas -->
+  <rect width="100%" height="100%" fill="#FFFFCC"/>
+
+  <!-- Plant your seeds: Basic shapes -->
+  <circle cx="250" cy="75" r="50" stroke="#FF6600" stroke-width="4" fill="transparent"/>
+  <ellipse cx="250" cy="150" rx="80" ry="30" stroke="#FF9933" stroke-width="4" fill="transparent"/>
+
+  <!-- Nurture them with colors, strokes, and animations -->
+  <!-- Animate the balloon growing -->
+  <animateMotion dur="3s" repeatCount="indefinite">
+    <mpath d="M250,75 Q160,200 360,200"/>
+    <animateTransform attributeName="transform" type="scale" values="1;2;1" begin="0s" dur="2s" repeatCount="indefinite"/>
+  </animateMotion>
+
+  <!-- Add a string to the balloon -->
+  <text x="50%" y="375" text-anchor="middle" stroke="#6666FF" stroke-width="2">Happy Birthday!</text>
+  <animateText content="Happy Birthday!" dur="4s" repeatCount="indefinite">
+    <animate attributeName="stroke" values="#6666FF;#3333CC;#6666FF" begin="0s" dur="1s" repeatCount="indefinite"/>
+  </animateText>
+
+</svg>

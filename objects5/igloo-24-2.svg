@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Outer dome -->
+  <path id="outer-dome"
+        d="M60,-40 A40,40 0 0 1 -60,40 A40,40 0 0 1 60,40 A40,40 0 0 1"
+        fill="#FFFFFF" stroke="#9D9D9D" stroke-width="2"/>
+
+  <!-- Inner dome -->
+  <path id="inner-dome"
+        d="M55,-35 A35,35 0 0 1 -55,35 A35,35 0 0 1"
+        fill="#FFFFFF" fill-opacity="0.7"/>
+
+  <!-- Entrance hole -->
+  <circle id="entrance-hole"
+          cx="0" cy="-40" r="20" fill="#FFFFFF" stroke="#9D9D9D" stroke-width="2"/>
+
+  <!-- Inner wall shading -->
+  <path id="inner-wall-shadow"
+        d="M-60,-35 Q-40,-20 -60,10 Q-80,20 -60,-35"
+        fill="#707070" fill-opacity="0.5"/>
+
+</svg>

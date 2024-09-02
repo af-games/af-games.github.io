@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#add8e6"/>
+
+<!-- Mountains -->
+<path d="M100 400 Q150 300, 250 350 T350 300 Q400 400, 450 350 T550 400 Q600 500, 700 450" fill="#d9e1f2" stroke="black"/>
+<text x="50%" y="375" font-size="24px" text-anchor="middle">Mountains of Perpetual Snow</text>
+
+<!-- Igloo City -->
+<circle cx="400" cy="400" r="150" fill="#ffffff"/>
+<text x="400" y="375" font-size="24px" text-anchor="middle">Igloo City</text>
+
+<!-- Forest -->
+<path d="M600 500 Q650 550, 700 500 T750 550 Q800 600, 750 650" fill="#32cd32"/>
+<text x="725" y="575" font-size="24px" text-anchor="middle">Whispering Pine Forest</text>
+
+<!-- River -->
+<path d="M100 500 Q150 550, 200 500 T250 550 Q300 600, 350 550" stroke="#48cae4" stroke-width="5"/>
+<text x="275" y="525" font-size="24px" text-anchor="middle">Frozen River of Dreams</text>
+
+<!-- Lake -->
+<path d="M100 600 Q150 650, 200 600 T250 650 Q300 700, 350 650" fill="#add8e6"/>
+<text x="275" y="625" font-size="24px" text-anchor="middle">Lake of Shattered Ice</text>
+
+<!-- Legend -->
+<rect x="10" y="550" width="90" height="50" fill="#ffffff"/>
+<text x="50" y="600" font-size="24px">Legend</text>
+
+</svg>

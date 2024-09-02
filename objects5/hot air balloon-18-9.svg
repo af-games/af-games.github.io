@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Meadow -->
+<rect width="100%" height="50%" fill="#90EE90"/>
+
+<!-- Hot Air Balloon -->
+<circle cx="400" cy="200" r="150">
+  <radialGradient id="balloonGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" style="stop-color:yellow; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:orange; stop-opacity:1"/>
+  </radialGradient>
+  <animate attributeName="cy" values="200;50;200" dur="6s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Miki Mouse -->
+<circle cx="370" cy="180" r="5">
+  <circle cx="-5" cy="0" r="3"/> <!-- Tail -->
+  <circle cx="-10" cy="-10" r="2"/> <!-- Ear Left -->
+  <circle cx="-10" cy="10" r="2"/> <!-- Ear Right -->
+</circle>
+
+<!-- Birds/Owl -->
+<circle cx="450" cy="300" r="20"/>
+<circle cx="600" cy="250" r="15"/>
+
+<!-- Speech Bubbles (use text elements to narrate each scene) -->
+
+<!-- Scene 1 -->
+<text x="200" y="400">Miki finds a hot air balloon!</text>
+
+<!-- More scenes and annotations follow the same pattern -->
+
+</svg>

@@ -1,0 +1,25 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Face -->
+  <circle cx="100" cy="100" r="80" fill="#F5DEB3" stroke="#9C6618" stroke-width="4"/>
+
+  <!-- Eyes -->
+  <circle cx="70" cy="60" r="20" fill="black"/>
+  <circle cx="130" cy="60" r="20" fill="black"/>
+
+  <!-- Muzzle -->
+  <ellipse cx="100" cy="120" rx="40" ry="50" fill="#E9A77B" stroke="#9C6618" stroke-width="4"/>
+
+  <!-- Nose and mouth -->
+  <g>
+    <path d="M90,130 Q95,140 100,130 H110 Q105,140 110,130 V125" stroke="#9C6618" fill="transparent"/>
+    <path d="M97,125 Q103,120 107,125" stroke="#9C6618" fill="transparent"/>
+  </g>
+
+  <!-- Mane -->
+  <g>
+    <circle cx="85" cy="40" r="25" fill="#FFD700"/>
+    <circle cx="115" cy="40" r="25" fill="#FFD700"/>
+  </g>
+
+</svg>

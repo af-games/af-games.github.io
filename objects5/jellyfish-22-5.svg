@@ -1,0 +1,43 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Jellyfish 1 -->
+  <g id="jellyfish1" transform="translate(50, 100)">
+    <!-- Body -->
+    <circle cx="0" cy="0" r="40" fill="#FFF"/>
+    <!-- Tentacles -->
+    <path d="M-20,-30 Q0,-60 20,-30 T0,-70" stroke="#8B4513" fill="transparent"/>
+    <path d="M-20,-20 Q0,20 20,-20 T0,40" stroke="#8B4513" fill="transparent"/>
+    <!-- Eyes -->
+    <circle cx="-15" cy="-20" r="5" fill="#FFF"/>
+    <circle cx="15" cy="-20" r="5" fill="#FFF"/>
+
+    <!-- Animation: Move and Rotate -->
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 0"
+      to="360 0"
+      dur="4s"
+      repeatCount="indefinite"/>
+  </g>
+
+  <!-- Jellyfish 2 (Smaller, different position) -->
+  <g id="jellyfish2" transform="translate(150, 150)">
+    <!-- Body -->
+    <circle cx="0" cy="0" r="30" fill="#FFF"/>
+    <!-- Tentacles -->
+    <path d="M-15,-22.5 Q0,-45 15,-22.5 T0,-67.5" stroke="#8B4513" fill="transparent"/>
+    <path d="M-15,-15 Q0,30 15,-15 T0,45" stroke="#8B4513" fill="transparent"/>
+    <!-- Eyes -->
+    <circle cx="-11.25" cy="-15" r="3.75" fill="#FFF"/>
+    <circle cx="11.25" cy="-15" r="3.75" fill="#FFF"/>
+
+    <!-- Animation: Move Left and Right -->
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="0, 0"
+      to="20, 0"
+      dur="2s"
+      repeatCount="alternate"/>
+  </g>
+</svg>

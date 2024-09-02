@@ -1,0 +1,26 @@
+<svg viewBox="0 0 140 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="50" y="50" width="80" height="120" fill="#ffcc99"/>
+
+  <!-- Head -->
+  <ellipse cx="70" cy="40" rx="40" ry="60" fill="#ffffcc"/>
+
+  <!-- Left wing -->
+  <path d="M85,60 Q90,20 110,60 Q90,75 85,60" stroke="black" fill="none"/>
+
+  <!-- Right wing (mirrored) -->
+  <use xlink:href="#left-wing" transform="scale(-1,1) translate(-140,0)"/>
+
+  <!-- Hair -->
+  <path d="M70,35 C70,25 80,20 90,35 Q95,45 100,35 Q105,20 110,35" stroke="black" fill="none"/>
+
+  <!-- Arms -->
+  <rect x="65" y="110" width="20" height="50" fill="#ffcc99"/>
+  <use xlink:href="#arm" transform="translate(20,0)"/>
+
+  <!-- Legs -->
+  <polygon points="70,140 60,170 80,170" fill="#ffcc99"/>
+  <use xlink:href="#leg" transform="scale(-1,1) translate(-140,0)"/>
+
+</svg>

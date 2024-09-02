@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Plate -->
+  <ellipse cx="400" cy="300" rx="350" ry="300" fill="#FFFDD0"/>
+  <path d="M170,480 Q290,420 430,480 H570 Q690,420 810,480 V570 H0 Z" stroke="#FFA500" fill="#FFFDD0"/>
+
+  <!-- Jellyfish -->
+  <path d="M400,150 Q350,200 300,250 C200,280 150,350 150,400 H650 C750,350 800,280 600,250 Q550,200 400,150" stroke="#009CFF" fill="none"/>
+  <circle cx="400" cy="100" r="30" fill="#FFFDD0"/>
+
+  <!-- Ingredients -->
+  <rect x="150" y="420" width="80" height="60" rx="10" fill="#FFA500"/>
+  <text x="170" y="470" font-family="Verdana" font-size="16">Soy Sauce</text>
+
+  <rect x="300" y="420" width="80" height="60" rx="10" fill="#FFFDD0"/>
+  <circle cx="340" cy="470" r="5" fill="#FF0000"/>
+  <text x="320" y="470" font-family="Verdana" font-size="16">Wasabi</text>
+
+  <!-- Garnishes -->
+  <path d="M700,480 Q650,530 600,580 Q550,530 500,480" stroke="#009CFF" fill="none"/>
+  <circle cx="650" cy="530" r="10" fill="#FFFDD0"/>
+
+  <!-- Chopsticks -->
+  <path d="M720,480 L750,520 C760,530 770,540 780,550 Z" stroke="#FFA500" fill="#FFFDD0"/>
+  <path d="M720,410 L750,370 C760,360 770,350 780,340 Z" stroke="#FFA500" fill="#FFFDD0"/>
+
+</svg>

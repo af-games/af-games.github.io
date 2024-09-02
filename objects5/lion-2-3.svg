@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define some colors -->
+  <style>
+    .lion { fill: brown; }
+    .mane { fill: gold; }
+    .eyes { fill: black; }
+    .background { fill: lightgray; }
+  </style>
+
+  <!-- Background rectangle -->
+  <rect class="background" width="800" height="600"/>
+
+  <!-- Lion's body (simple ellipse for now) -->
+  <ellipse cx="400" cy="350" rx="250" ry="175" class="lion"/>
+  <text x="410" y="380" text-anchor="middle" stroke-width="1">(400, 350)</text>
+
+  <!-- Mane (rough shape with paths) -->
+  <path d="M275 290 Q250 260 200 290 T175 320 Q150 340 125 320 T100 290 Z" class="mane"/>
+  <text x="125" y="280" text-anchor="middle" stroke-width="1">(125, 280)</text>
+
+  <!-- Eyes (circles) -->
+  <circle cx="375" cy="300" r="25" class="eyes"/>
+  <circle cx="425" cy="300" r="25" class="eyes"/>
+  <text x="380" y="290" text-anchor="middle" stroke-width="1">(375, 300)</text>
+  <text x="430" y="290" text-anchor="middle" stroke-width="1">(425, 300)</text>
+
+</svg>

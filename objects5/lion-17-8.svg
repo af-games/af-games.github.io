@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sun -->
+  <circle cx="150" cy="70" r="80" fill="#FFC107" stroke="#FFF" stroke-width="2"/>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="300" fill="#AED6F1"/>
+
+  <!-- Grassland -->
+  <rect x="0" y="300" width="800" height="300" fill="#4CAF50"/>
+
+  <!-- Dirt Road -->
+  <rect x="200" y="400" width="400" height="100" fill="#D9B07C"/>
+
+  <!-- Lion -->
+  <circle cx="600" cy="500" r="80" fill="#FF0000" stroke="#FFF" stroke-width="2"/>
+
+</svg>

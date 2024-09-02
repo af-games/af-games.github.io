@@ -1,0 +1,29 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Igloo base -->
+  <g id="iglooBase" transform="translate(150, 400)">
+    <circle cx="100" cy="0" r="100" fill="#6495ED"/>
+  </g>
+
+  <!-- Igloo dome -->
+  <g id="iglooDome">
+    <path d="M250,350 A75,75 0 0 1 325,350 75,75 0 0 1 250,425 Z" fill="#6495ED"/>
+  </g>
+
+  <!-- Igloo door -->
+  <rect id="iglooDoor" width="30" height="75" x="240" y="350" fill="#FFD700"/>
+
+  <!-- Snowman (optional) -->
+  <g id="snowman">
+    <!-- Body -->
+    <circle cx="180" cy="400" r="30" fill="#FFFFFF"/>
+    <!-- Head -->
+    <circle cx="180" cy="370" r="20" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Animation: Swing igloo door -->
+  <animateMotion id="doorAnimation" begin="0s" dur="2s" repeatCount="indefinite">
+    <mpath href="#doorPath"/>
+  </animateMotion>
+  <path id="doorPath" d="M240,350 Q280,350 240,375"/>
+
+</svg>

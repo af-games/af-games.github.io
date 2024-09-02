@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#D4E6F1"/>
+
+<!-- Mountains -->
+<path d="M50,200 Q100,150 200,200 Q350,250 500,200 Q650,150 750,200 Q800,250 900,200 V600 H0 Z" fill="#AEC6CF"/>
+<text x="400" y="230" font-family="Arial" font-size="20">Glacier Mountains</text>
+
+<!-- Rivers -->
+<path d="M150,350 Q250,400 350,350 Q450,450 550,350 Q650,400 750,350" stroke="#3D9970" fill="transparent"/>
+<text x="250" y="380" font-family="Arial" font-size="16">Frostflow River</text>
+
+<!-- Forests -->
+<path d="M50,400 Q150,450 250,400 Q350,475 450,400 Q550,450 650,400" fill="#8DC63C"/>
+<text x="300" y="430" font-family="Arial" font-size="16">Icetree Forest</text>
+
+<!-- Iglootopia -->
+<circle cx="400" cy="250" r="75" fill="#FFFFFF"/>
+<polygon points="325,250 375,200 425,250" fill="#C8E6C9"/>
+<text x="400" y="210" font-family="Arial" font-size="20">Iglootopia</text>
+
+<!-- Crystal City -->
+<polygon points="600,300 700,250 700,350" fill="#B3E5FC"/>
+<path d="M600,300 Q625,280 650,300 Q675,320 700,300" stroke="#4A90E2" fill="transparent"/>
+<text x="650" y="270" font-family="Arial" font-size="16">Crystal City</text>
+
+<!-- Snowspire Tower -->
+<line x1="750" y1="350" x2="750" y2="450"/>
+<polygon points="725,450 775,450 800,400 800,350 775,300 725,300" fill="#FFFFFF"/>
+<text x="775" y="370" font-family="Arial" font-size="16">Snowspire Tower</text>
+
+<!-- Legend -->
+<rect x="10" y="550" width="150" height="40" rx="10" fill="#AEC6CF"/>
+<text x="20" y="570" font-family="Arial" font-size="12">Glacier Mountains</text>
+<circle cx="180" cy="575" r="10" fill="#3D9970"/>
+<text x="200" y="570" font-family="Arial" font-size="12">Frostflow River</text>
+<rect x="260" y="550" width="140" height="40" rx="10" fill="#8DC63C"/>
+<text x="290" y="570" font-family="Arial" font-size="12">Icetree Forest</text>
+
+</svg>

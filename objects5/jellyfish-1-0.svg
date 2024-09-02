@@ -1,0 +1,27 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bell -->
+  <defs>
+    <radialGradient id="bellGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="5%" style="stop-color:blue; stop-opacity:1" />
+      <stop offset="95%" style="stop-color:white; stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="70" r="60" fill="url(#bellGradient)" />
+  <circle cx="100" cy="95" r="35" fill="url(#bellGradient)" />
+
+  <!-- Tentacles -->
+  <g stroke="white" stroke-width="2">
+    <?php for ($i = 0; $i < 16; $i++): ?>
+      <line x1="100" y1="95" x2="<?php echo 100 + sin(($i * 2 * PI) / 16) * 80 ?>" y2="<?php echo 95 + cos(($i * 2 * PI) / 16) * 80 ?>" />
+    <?php endfor; ?>
+  </g>
+
+  <!-- Oral Arms -->
+  <g stroke="yellow" stroke-width="3">
+    <?php for ($i = 0; $i < 4; $i++): ?>
+      <line x1="100" y1="95" x2="<?php echo 100 + sin(($i * PI) / 2) * 60 ?>" y2="<?php echo 95 + cos(($i * PI) / 2) * 60 ?>" />
+    <?php endfor; ?>
+  </g>
+
+</svg>

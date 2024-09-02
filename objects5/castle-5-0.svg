@@ -1,0 +1,22 @@
+<svg width="120" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle wall -->
+  <rect x="15" y="40" width="90" height="230" rx="20" fill="#4A4A4A"/>
+
+  <!-- Towers -->
+  <polygon points="5,40 5,270 95,270 95,40" style="fill:#4A4A4A; stroke:black"/>
+  <polygon points="15,30 15,260 85,260 85,30" style="fill:#4A4A4A; stroke:black"/>
+
+  <!-- Gatehouse -->
+  <rect x="50" y="30" width="20" height="70" fill="#4A4A4A"/>
+  <polygon points="45,100 65,100 55,120" style="fill:#8B4513; stroke:black"/>
+
+  <!-- Moat & Greenspace -->
+  <rect x="10" y="270" width="100" height="30" fill="#7DC855"/>
+  <rect x="15" y="40" width="90" height="30" fill="#7DC855"/>
+
+  <!-- Turrets -->
+  <circle cx="62.5" cy="325" r="10" fill="#C0C0C0"/>
+  <circle cx="37.5" cy="325" r="10" fill="#C0C0C0"/>
+
+</svg>

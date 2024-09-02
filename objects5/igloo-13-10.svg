@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+  <!-- Igloo -->
+  <circle cx="40%" cy="60%" r="50%" fill="#FFFFFF" />
+  <path d="M40% 60% Q70% 20%, 40% 20%" stroke="#ADAFAE" fill="none" />
+
+  <!-- Bar 1 -->
+  <rect x="8%" y="85%" width="9%" height="3%" fill="#B3E5FC">
+    <animate attributeName="height" from="3%" to="6%" dur="4s" repeatCount="indefinite" />
+  </rect>
+  <line x1="17%" y1="85%" x2="17%" y2="93%" stroke="#B3E5FC">
+    <animate attributeName="stroke-width" from="0.5" to="1" dur="4s" repeatCount="indefinite" />
+  </line>
+
+  <!-- Bar 2 -->
+  <rect x="17%" y="85%" width="9%" height="3%" fill="#A6D89E">
+    <animate attributeName="height" from="3%" to="6%" begin="4s" dur="4s" repeatCount="indefinite" />
+  </rect>
+  <line x1="26%" y1="85%" x2="26%" y2="93%" stroke="#A6D89E">
+    <animate attributeName="stroke-width" from="0.5" to="1" begin="4s" dur="4s" repeatCount="indefinite" />
+  </line>
+
+  <!-- ... Continue this pattern for Bars 3-8 -->
+
+</svg>

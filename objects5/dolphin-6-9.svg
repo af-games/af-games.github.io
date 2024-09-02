@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphins -->
+  <g id="dolphins">
+    <circle cx="150" cy="150" r="70" fill="lightblue"/>
+    <ellipse cx="140" cy="90" rx="30" ry="60" fill="none" stroke="black"/>
+    <ellipse cx="160" cy="90" rx="30" ry="60" fill="none" stroke="black"/>
+
+    <!-- Repeat dolphins using pattern -->
+    <pattern id="dolphin-pattern" patternUnits="userSpaceOnUse">
+      <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwAEBAQHIAhcAAAAASUVORK5CYII=" width="300" height="300"/>
+    </pattern>
+    <rect x="300" y="100" width="500" height="400" fill="url(#dolphin-pattern)"/>
+
+    <!-- More dolphins -->
+    <circle cx="250" cy="250" r="60" fill="lightblue"/>
+    <ellipse cx="240" cy="210" rx="25" ry="50" fill="none" stroke="black"/>
+    <ellipse cx="260" cy="210" rx="25" ry="50" fill="none" stroke="black"/>
+
+    <!-- Repeat pattern for paths -->
+    <pattern id="path-pattern" patternUnits="userSpaceOnUse">
+      <polyline points="30 40, 90 80, 150 60" stroke="darkblue"/>
+    </pattern>
+    <rect x="20" y="20" width="760" height="560" fill="url(#path-pattern)"/>
+  </g>
+
+  <!-- Paths connecting dolphins -->
+  <polyline points="130,140 200,210 180,160" stroke="darkblue" fill="none"/>
+
+</svg>

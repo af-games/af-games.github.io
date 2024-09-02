@@ -1,0 +1,14 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Owl Head (Shoulder) -->
+  <path d="M150,75 Q175,50 200,75" stroke="#000000" fill="#FFFFFF"/>
+  <circle cx="200" cy="65" r="35" stroke="#000000" fill="#FFD700"/>
+  <!-- Canopy (Upper Arm) -->
+  <path d="M125,150 Q150,125 175,150 Q200,175 225,150 Q250,125 275,150" stroke="#006400" fill="transparent"/>
+  <!-- Sun/Moon (Elbow) -->
+  <circle cx="300" cy="225" r="50" stroke="#FFFF00" fill="#FFFF00"/>
+  <!-- Forest Motifs (Forearm) -->
+  <circle cx="400" cy="275" r="15" stroke="#FF0000" fill="#FF0000"/>
+  <rect x="425" y="265" width="30" height="10" stroke="#00FF00" fill="#00FF00"/>
+  <!-- Roots (Wrist) -->
+  <path d="M375,375 Q400,400 425,375" stroke="#8B4513" fill="transparent"/>
+</svg>

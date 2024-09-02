@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 600 800 900">
+
+  <!-- Ground -->
+  <rect x="0" y="700" width="800" height="100" fill="#8B4513"/>
+
+  <!-- Balloon Basket -->
+  <rect x="50" y="650" width="200" height="300" fill="#C9935D"/>
+
+  <!-- Balloon Envelope -->
+  <ellipse cx="150" cy="400" rx="150" ry="500" fill="#F39C12"/>
+
+  <!-- Rope & Attachment -->
+  <path d="M150,650 Q150,450 120,400 Q150,375 150,375" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Burner -->
+  <rect x="280" y="650" width="150" height="50" fill="#FFD700">
+
+</svg>

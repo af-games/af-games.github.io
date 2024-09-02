@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200">
+  <!-- Body -->
+  <g id="penguin-body">
+    <rect width="150" height="150" fill="#A9E6F1"/>
+  </g>
+
+  <!-- Head -->
+  <circle cx="75" cy="45" r="45" fill="#FFFFFF"/>
+
+  <!-- Eyes -->
+  <circle cx="60" cy="35" r="5" fill="#000000"/>
+  <circle cx="90" cy="35" r="5" fill="#000000"/>
+
+  <!-- Beak -->
+  <path d="M75,25 Q85,15 95,25 Q85,35 75,35 Q65,35 65,25 Z" fill="#FFD700"/>
+
+  <!-- Feet -->
+  <rect x="45" y="100" width="50" height="50" fill="#A9E6F1"/>
+  <rect x="60" y="130" width="20" height="40" fill="#A9E6F1"/>
+
+</svg>

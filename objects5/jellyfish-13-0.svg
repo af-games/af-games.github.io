@@ -1,0 +1,17 @@
+<svg width="500" height="800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="150" cy="100" r="75" fill="#ADD8E6" stroke="#003D66" stroke-width="4"/>
+
+  <!-- Tentacles -->
+  <polyline points="150,200 140,220 130,240 120,260 110,280 100,300 90,320 80,340" fill="#ADD8E6" fill-opacity="0.7" stroke="#003D66" stroke-width="2"/>
+  <polyline points="150,200 160,220 170,240 180,260 190,280 200,300 210,320 220,340" fill="#ADD8E6" fill-opacity="0.7" stroke="#003D66" stroke-width="2"/>
+  <polyline points="150,200 140,220 160,240 180,260 200,280 220,300 240,320 260,340" fill="#ADD8E6" fill-opacity="0.7" stroke="#003D66" stroke-width="2"/>
+  <polyline points="150,200 160,220 140,240 180,260 200,280 180,300 160,320 140,340" fill="#ADD8E6" fill-opacity="0.7" stroke="#003D66" stroke-width="2"/>
+  <polyline points="150,200 160,220 180,240 200,260 220,280 240,300 260,320 280,340" fill="#ADD8E6" fill-opacity="0.7" stroke="#003D66" stroke-width="2"/>
+  <polyline points="150,200 140,220 160,240 180,260 200,280 180,300 160,320 140,340" fill="#ADD8E6" fill-opacity="0.7" stroke="#003D66" stroke-width="2"/>
+
+  <!-- Mouth -->
+  <circle cx="150" cy="350" r="10" fill="#000000"/>
+
+</svg>

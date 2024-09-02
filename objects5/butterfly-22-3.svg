@@ -1,0 +1,17 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="80" rx="30" ry="40" fill="#FFCC99"/>
+  <circle cx="100" cy="70" r="5" fill="#694F29"/>
+
+  <!-- Left Wing -->
+  <path d="M80,60 Q70,50 90,50 Q100,40 120,50 Q110,60 130,60" fill="#FFCC99"/>
+
+  <!-- Right Wing -->
+  <path d="M180,60 Q170,50 160,50 Q150,40 140,50 Q130,60 120,60" fill="#FFCC99"/>
+
+  <!-- Antennae -->
+  <path d="M85,35 L75,25 L95,25 Z" fill="#694F29"/>
+  <path d="M165,35 L175,25 L155,25 Z" fill="#694F29"/>
+
+</svg>

@@ -1,0 +1,37 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 618 347">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFFFFF"/>
+
+  <!-- Golden Ratio Layout -->
+  <defs>
+    <clipPath id="balloonClip" clipPathUnits="objectBoundingBox">
+      <path d="M0,0 H1 V1 H.62 H1 V0"/>
+    </clipPath>
+  </defs>
+
+  <!-- Mountains (Circles) -->
+  <circle cx="39.84" cy="57.88" r="35" fill="#D2B48C"/>
+  <circle cx="556.64" cy="104.49" r="25" fill="#D2B48C"/>
+
+  <!-- Rivers (Paths) -->
+  <path id="river" d="M73.5,75 Q147,75 220,90 Q365,75 438,90" stroke="#6F8FAF" fill="transparent">
+    <animate attributeName="d"
+             dur="5s"
+             repeatCount="indefinite"
+             values="
+              M73.5,75 Q147,75 220,90;
+              M73.5,75 Q167,75 220,90;
+              M73.5,75 Q147,75 220,90"/>
+  </path>
+
+  <!-- Trees (Triangles) -->
+  <polygon points="480,120 500,140 460,140" fill="#3D9970">
+    <animateTransform attributeName="transform"
+                     type="rotate"
+                     from="0"
+                     to="360"
+                     dur="2s"
+                     repeatCount="indefinite"/>
+  </polygon>
+
+</svg>

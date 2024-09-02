@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Scene 1 -->
+  <circle cx="100" cy="250" r="50" fill="#FFEBB2" />
+  <text x="90" y="300" font-family="Verdana" font-size="24">The Lonely Igloo</text>
+
+  <!-- Scene 2 -->
+  <circle cx="150" cy="250" r="50" fill="#FFEBB2"/>
+  <circle cx="200" cy="300" r="30" fill="#FFA78D"/>
+  <rect x="250" y="220" width="50" height="60" rx="10" ry="10" fill="#FFD6A5"/>
+  <text x="140" y="350" font-family="Verdana" font-size="24">Meeting New Friends</text>
+
+  <!-- Scene 3 -->
+  <path d="M300,200 Q350,100 400,200" stroke="#777" fill="transparent"/>
+  <circle cx="350" cy="250" r="10" fill="white"/>
+  <text x="390" y="250" font-family="Verdana" font-size="24">The Big Storm</text>
+
+  <!-- Scene 4 -->
+  <circle cx="450" cy="250" r="50" fill="#FFEBB2"/>
+  <circle cx="500" cy="300" r="30" fill="#FFA78D"/>
+  <rect x="550" y="220" width="50" height="60" rx="10" ry="10" fill="#FFD6A5"/>
+  <path d="M475,250 Q525,300 575,250" stroke="#0095DD" fill="transparent"/>
+  <text x="480" y="350" font-family="Verdana" font-size="24">Igloo's Decision</text>
+
+  <!-- Scene 5 -->
+  <path d="M600,250 Q650,150 700,250" stroke="#777" fill="transparent"/>
+  <circle cx="650" cy="250" r="50" fill="#FFEBB2"/>
+  <circle cx="700" cy="300" r="30" fill="#FFA78D"/>
+  <rect x="750" y="220" width="50" height="60" rx="10" ry="10" fill="#FFD6A5"/>
+  <circle cx="725" cy="350" r="20" fill="#FFF9B2"/>
+  <text x="610" y="350" font-family="Verdana" font-size="24">The Adventure Begins</text>
+
+  <!-- Scene 6 -->
+  <circle cx="700" cy="350" r="50" fill="#FFEBB2"/>
+  <circle cx="750" cy="400" r="30" fill="#FFA78D"/>
+  <rect x="800" y="320" width="50" height="60" rx="10" ry="10" fill="#FFD6A5"/>
+  <circle cx="725" cy="450" r="20" fill="#FFF9B2"/>
+  <path d="M700,350 Q750,400 800,350" stroke="#FFC17D" fill="transparent"/>
+  <text x="690" y="460" font-family="Verdana" font-size="24">Discovering the Glowing Light</text>
+
+  <!-- Scene 7 -->
+  <path d="M850,300 Q800,150 900,300" stroke="#777" fill="transparent"/>
+  <circle cx="850" cy="350" r="50" fill="#FFEBB2"/>
+  <circle cx="900" cy="400" r="30" fill="#FFA78D"/>
+  <rect x="950" y="320" width="50" height="60" rx="10" ry="10" fill="#FFD6A5"/>
+  <circle cx="875" cy="450" r="20" fill="#FFF9B2"/>
+  <path d="M850,350 Q900,400 950,350" stroke="#FFC17D" fill="transparent"/>
+  <text x="840" y="500" font-family="Verdana" font-size="24">Celebration</text>
+
+</svg>

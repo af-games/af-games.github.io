@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Bell (body) -->
+  <circle cx="0" cy="-30" r="40" fill="#97D6F4" opacity="0.8"/>
+  <circle cx="0" cy="-30" r="35" stroke="#FFFFFF" stroke-width="2" fill="none"/>
+
+  <!-- Tentacles -->
+  <path d="M-40 -10 Q-50 -5 0 20 Q50 -5 40 -10" stroke="#97D6F4" stroke-width="8" fill="transparent"/>
+  <path d="M-40 -30 Q-50 -40 0 -20 Q50 -40 40 -30" stroke="#97D6F4" stroke-width="8" fill="transparent"/>
+
+  <!-- Rim light -->
+  <circle cx="0" cy="-30" r="40" stroke="#FFFFFF" stroke-width="1" opacity="0.5"/>
+  <path d="M-40 -10 Q-50 -5 0 20 Q50 -5 40 -10" stroke="#FFFFFF" stroke-width="3" opacity="0.3"/>
+  <path d="M-40 -30 Q-50 -40 0 -20 Q50 -40 40 -30" stroke="#FFFFFF" stroke-width="3" opacity="0.3"/>
+
+</svg>

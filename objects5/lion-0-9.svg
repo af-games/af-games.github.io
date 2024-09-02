@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main melody: Rhythm (circles) and Beat (rectangles) -->
+  <circle cx="150" cy="150" r="50" fill="orange" stroke="black"/>
+  <circle cx="250" cy="150" r="50" fill="orange" stroke="black"/>
+  <rect x="370" y="125" width="80" height="50" fill="brown" stroke="black"/>
+
+  <!-- Lion head with intricate mane patterns (harmonies) -->
+  <path d="M40,100 Q90,50 150,100 Q90,150 40,200"
+        fill="transparent" stroke="black" stroke-width="5"/>
+
+  <!-- Mane patterns (overlapping harmonies) -->
+  <path d="M60,80 Q130,50 200,80 Q130,110 60,140"
+        fill="transparent" stroke="#9D7E58" stroke-width="3"/>
+  <path d="M100,60 Q170,30 240,60 Q170,90 100,120"
+        fill="transparent" stroke="#9D7E58" stroke-width="3"/>
+
+  <!-- Background instruments (complementary colors) -->
+  <rect x="0" y="0" width="800" height="600" fill="#F4A460"/>
+  <circle cx="120" cy="500" r="40" fill="#E9D3AB"/>
+
+</svg>

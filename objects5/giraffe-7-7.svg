@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 600 600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f4e5da"/>
+
+  <!-- Giraffe Plains (Central) -->
+  <path d="M-80,-80 A90,90 0 1 1 80,-80 A90,90 0 1 1 -80,80 Z" fill="#bdb76b"/>
+  <text x="-20" y="-5" text-anchor="end">Giraffe Plains</text>
+  <image href="https://i.imgur.com/XdYqwKj.png" width="30" height="40" transform="translate(10,10) scale(0.8)" x="-60" y="-60"/>
+
+  <!-- Mountains (North) -->
+  <polygon points="-250,-100 -70,-200 70,-200 250,-100" fill="#9d8b70"/>
+  <text x="-120" y="-140" text-anchor="middle">Mount Giraffa</text>
+
+  <!-- Forests (East) -->
+  <path d="M-160,30 Q-120,-50 -100,-10 Q-60,-50 -20,30" fill="#4c9f58"/>
+  <text x="-130" y="70" text-anchor="middle">Whisperwood Forest</text>
+
+  <!-- Rivers (South) -->
+  <path d="M-80,80 Q0,-120 80,-60 Q160,-40 240,-80 Q320,-120 400,-60 Q480,-120 560,-80" stroke="#74b3be" fill="transparent"/>
+  <text x="-90" y="85" text-anchor="end">Giraffe River</text>
+
+  <!-- Marshes (West) -->
+  <path d="M-250,-10 Q-200,-40 -160,0 Q-120,-40 -80,-10" fill="#c3dcc7"/>
+  <text x="-190" y="-15" text-anchor="middle">Giraffe Marsh</text>
+
+  <!-- Cities (South-East) -->
+  <circle cx="360" cy="240" r="80" fill="#e9c46a"/>
+  <polygon points="320,280 400,280 400,360 320,360" fill="#e9c46a"/>
+  <text x="370" y="250" text-anchor="middle">Giraffonia</text>
+
+  <!-- Labels -->
+  <text font-size="14" fill="#333">
+    <tspan x="-80" y="-170">North</tspan>
+    <tspan x="60" y="190">South</tspan>
+    <tspan x="320" y="-170">East</tspan>
+    <tspan x="-250" y="60">West</tspan>
+  </text>
+</svg>

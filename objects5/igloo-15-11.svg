@@ -1,0 +1,16 @@
+<svg width="500" height="500" viewBox="-250 -250 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer wall -->
+  <path d="M-150,-150 A150,150 0 0 1 150,-150 L150,150 A150,150 0 0 1 -150,150 Z" fill="#fff" stroke="black"/>
+
+  <!-- Inner wall -->
+  <path d="M-125,-125 A125,125 0 0 1 125,-125 L125,125 A125,125 0 0 1 -125,125 Z" fill="#ccc"/>
+
+  <!-- Roof -->
+  <path d="M-150,-150 Q0,-250 150,-150 L150,150 Q0,250 -150,150 Z" fill="#fff" stroke="black"/>
+
+  <!-- Entrance tunnel -->
+  <path d="M-175,-175 Q-150,-190 -125,-160 L-125,-140 Q-150,-130 -175,-150 Z" fill="#ccc"/>
+
+  <!-- Annotation -->
+  <text x="-200" y="200" font-family="Arial" font-size="18">Igloo: Ancient Inuit shelter with excellent insulation</text>
+</svg>

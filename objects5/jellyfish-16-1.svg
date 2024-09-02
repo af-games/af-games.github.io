@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="50" r="40" fill="#FF69B4"/>
+
+  <!-- Tentacles (8 of them) -->
+  <g id="tentacles">
+    <path d="M80,70 Q90,20 130,70"/>
+    <path d="M85,65 Q95,15 135,65"/>
+    <path d="M90,60 Q100,10 140,60"/>
+    <path d="M95,55 Q105,5 145,55"/>
+    <path d="M100,50 Q110,-5 150,50"/>
+    <path d="M80,70 Q70,20 60,70"/>
+    <path d="M85,65 Q75,15 65,65"/>
+    <path d="M90,60 Q70,10 60,60"/>
+  </g>
+
+  <!-- Mouth -->
+  <circle cx="100" cy="90" r="5" fill="#FFFFFF"/>
+
+</svg>

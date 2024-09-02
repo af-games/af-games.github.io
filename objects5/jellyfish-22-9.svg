@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Scene 1 -->
+  <g id="scene1">
+    <circle cx="40" cy="50" r="30" fill="#800080"/>
+    <text x="70" y="70" font-size="20">Jelli swims alone.</text>
+  </g>
+
+  <!-- Scene 2 -->
+  <g id="scene2">
+    <rect x="150" y="300" width="400" height="200" fill="#8B7D6B"/>
+    <circle cx="200" cy="350" r="5" fill="#FF0000"/>
+    <!-- More vibrant circles -->
+    <text x="160" y="250" font-size="20">Jelli discovers...</text>
+  </g>
+
+  <!-- Scene 3 -->
+  <g id="scene3">
+    <rect x="400" y="350" width="50" height="150" fill="#A9A9A9"/>
+    <text x="420" y="470" font-size="20">...a dying reef.</text>
+  </g>
+
+  <!-- Scene 4 -->
+  <g id="scene4">
+    <circle cx="60" cy="50" r="30" fill="#800080"/>
+    <path d="M70,50 Q120,90 150,50" stroke="#000" stroke-width="5" stroke-dasharray="10,5"/>
+    <text x="160" y="70" font-size="20">Jelli decides to...</text>
+  </g>
+
+  <!-- Scene 5 -->
+  <g id="scene5">
+    <circle cx="40" cy="50" r="30" fill="#800080"/>
+    <rect x="100" y="40" width="20" height="30" fill="#A9A9A9"/>
+    <!-- More sea creatures joining -->
+    <text x="110" y="70" font-size="20">...clean up the reef!</text>
+  </g>
+
+  <!-- Scene 6 -->
+  <g id="scene6">
+    <rect x="350" y="300" width="400" height="200" fill="#8B7D6B"/>
+    <circle cx="400" cy="350" r="5" fill="#FF0000"/>
+    <!-- More vibrant circles -->
+    <text x="370" y="250" font-size="20">Life returns to...</text>
+  </g>
+
+  <!-- Background waves -->
+  <path d="M0,600 Q100,580 200,600 Q300,580 400,600..." fill="#FFFFFF"/>
+</svg>

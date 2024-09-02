@@ -1,0 +1,21 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe Tower -->
+  <rect x="150" y="60" width="200" height="30" fill="brown"/>
+  <rect x="170" y="90" width="40" height="30" fill="tan"/>
+  <rect x="170" y="120" width="40" height="30" fill="tan"/>
+  <rect x="170" y="150" width="40" height="30" fill="tan"/>
+
+  <!-- Spot Patterns -->
+  <circle cx="160" cy="80" r="5" fill="black"/>
+  <circle cx="190" cy="95" r="5" fill="black"/>
+  <!-- Add more circles as desired -->
+
+  <!-- Base Platform -->
+  <rect x="-200" y="-70" width="400" height="100" fill="#8B4513"/>
+
+  <!-- Roads -->
+  <path d="M-100,-70 Q-50,-60 -50,-90 L50,-90 Q100,-60 100,-70" stroke="black"/>
+  <path d="M100,-70 Q50,-60 50,-90 L-50,-90 Q-100,-60 -100,-70" stroke="black"/>
+
+</svg>

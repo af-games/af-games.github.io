@@ -1,0 +1,14 @@
+<svg viewBox="-50 -50 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M0,-40 A60,60 0 1,0 0,40 A60,60 0 1,0 0,-40" fill="#3366FF"/>
+
+  <!-- Tail -->
+  <path d="M-25,-70 Q-50,-50 -30,-40 H-30 V-80 H-25 V-40 Z" fill="none" stroke="#3366FF"/>
+
+  <!-- Fins -->
+  <circle cx="-10" cy="30" r="30" fill="none"/>
+  <circle cx="10" cy="30" r="30" fill="none"/>
+
+  <!-- Eye -->
+  <circle cx="5" cy="-20" r="10" fill="#FFFFFF"/>
+</svg>

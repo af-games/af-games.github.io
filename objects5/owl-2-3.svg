@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
+  <!-- Stage -->
+  <rect x="-100" y="-50" width="200" height="100" fill="#4A4A4A" />
+
+  <!-- Backdrop -->
+  <rect x="-100" y="-100" width="200" height="200" fill="#000000" />
+
+  <!-- Owl Marionette -->
+
+  <!-- Head -->
+  <ellipse cx="0" cy="-30" rx="30" ry="40" fill="#FFCBA8">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- Body -->
+  <rect x="-15" y="-40" width="30" height="40" fill="#FFCBA8">
+    <!-- Left Body String -->
+    <line x1="-15" y1="-40" x2="-50" y2="-70" stroke="#CC9966"/>
+    <!-- Right Body String -->
+    <line x1="15" y1="-40" x2="50" y2="-70" stroke="#CC9966"/>
+  </rect>
+  <!-- Wings -->
+  <polygon points="-30,-5,-50,-30,-10,-80,10,-80,50,-30,30,-5" fill="#FFCBA8">
+    <!-- Left Wing String -->
+    <line x1="-50" y1="-30" x2="-60" y2="-50" stroke="#CC9966"/>
+    <!-- Right Wing String -->
+    <line x1="50" y1="-30" x2="60" y2="-50" stroke="#CC9966"/>
+  </polygon>
+  <!-- Tail -->
+  <polygon points="0,-40,0,-70,10,-60" fill="#FFCBA8">
+    <!-- Tail String -->
+    <line x1="0" y1="-70" x2="0" y2="-90" stroke="#CC9966"/>
+  </polygon>
+
+  <!-- Spotlight -->
+  <circle cx="0" cy="0" r="50" fill="url(#spotlight)" />
+  <defs>
+    <radialGradient id="spotlight" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FBB600; stop-opacity:1"/>
+      <stop offset="80%" style="stop-color:#FBB600; stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+</svg>

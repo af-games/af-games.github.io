@@ -1,0 +1,36 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path id="body" d="M10,90 Q25,75 50,90 Q75,105 100,90 Q85,60 100,30 L100,90 Z" fill="url(#penguinGradient)"/>
+  <use xlink:href="#body" y="100"/>
+
+  <!-- Head -->
+  <path id="head" d="M75,20 Q85,20 95,35 Q105,20 115,35" fill="url(#penguinGradient)"/>
+  <use xlink:href="#head"/>
+
+  <!-- Wing -->
+  <path id="wing" d="M20,70 Q40,60 80,70 Q90,80 90,105 L90,70 Z" fill="url(#penguinGradient)" transform="rotate(30,50,70)"/>
+  <use xlink:href="#wing" transform="rotate(-60,50,70)"/>
+
+  <!-- Leg -->
+  <path id="leg" d="M120,90 Q140,85 140,70 L120,70 Z" fill="url(#penguinGradient)" transform="rotate(30,130,80)"/>
+  <use xlink:href="#leg" transform="rotate(-60,130,80)"/>
+
+  <!-- Beak -->
+  <path id="beak" d="M95,40 L105,40 Q115,30 120,40 Z" fill="orange"/>
+  <use xlink:href="#beak"/>
+
+  <!-- Eyes -->
+  <circle cx="80" cy="30" r="5" fill="black"/>
+  <circle cx="100" cy="30" r="5" fill="black"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:white; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:lightgrey; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:darkgrey; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

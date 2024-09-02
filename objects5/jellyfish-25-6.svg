@@ -1,0 +1,19 @@
+<svg width="100%" height="100%" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bodice -->
+  <rect id="bodice" x="250" y="240" width="200" height="300"
+        style="fill:linear-gradient(#FFE0C2, #FFC3A4); stroke:#000; stroke-width:2" />
+
+  <!-- Sleeves -->
+  <circle id="sleeve" cx="350" cy="180" r="150"
+          style="fill:linear-gradient(#FFE0C2, #FFC3A4); stroke:#000; stroke-width:2" />
+  <path d="M350,180 a150,150 0 0 1 0,-300" fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Tentacles -->
+  <path id="tentacle" d="M350,470 Q390,680 300,620 Q210,730 100,620 Q150,470 50,420 Z"
+        style="fill:#1D3557; stroke:#F8F9FA; stroke-width:5" />
+  <use xlink:href="#tentacle" y="720"/>
+  <use xlink:href="#tentacle" transform="translate(60,40) rotate(-30)"/>
+  <use xlink:href="#tentacle" transform="translate(-60,-10) scale(.8)"/>
+
+</svg>

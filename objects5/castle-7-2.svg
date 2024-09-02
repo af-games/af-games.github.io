@@ -1,0 +1,29 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Castle Walls -->
+<rect x="50" y="100" width="300" height="300" style="fill:grey;stroke-width:2;stroke:black"/>
+
+<!-- Left Tower -->
+<path d="M70 40 Q90 80, 130 80 L150 20 Z" style="fill:brown;stroke-width:2;stroke:black"/>
+<path d="M65 80 Q95 120, 135 120 H145 V70 H65 Z" style="fill:darkbrown"/>
+
+<!-- Right Tower -->
+<path d="M280 40 Q250 80, 220 80 L190 20 Z" style="fill:brown;stroke-width:2;stroke:black"/>
+<path d="M275 80 Q245 120, 215 120 H205 V70 H275 Z" style="fill:darkbrown"/>
+
+<!-- Gate -->
+<rect x="130" y="160" width="60" height="200" style="fill:grey;stroke-width:2;stroke:black"/>
+<path d="M180 240 Q220 260, 220 300 L180 320 Z" style="fill:lightgrey"/>
+
+<!-- Windows -->
+<circle cx="75" cy="90" r="15" style="fill:white;stroke-width:2;stroke:black"/>
+<circle cx="235" cy="90" r="15" style="fill:white;stroke-width:2;stroke:black"/>
+
+<!-- Roof -->
+<polyline points="70,40 280,40 320,120 70,120" style="fill:orange;stroke-width:2;stroke:black"/>
+
+<!-- Shadows -->
+<rect x="55" y="95" width="310" height="260" style="fill:black;opacity:0.1"/>
+<path d="M70 40 Q90 80, 130 80 L150 20 Z" style="fill:black;opacity:0.1"/>
+
+</svg>

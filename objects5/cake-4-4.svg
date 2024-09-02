@@ -1,0 +1,26 @@
+<svg>` tag:
+
+```xml
+<svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Base -->
+  <circle cx="50" cy="98" r="48" fill="#FDD794"/>
+  <path d="M50,98 a48,48 0 1,0 96,0 a48,48 0 1,0 -96,0" stroke="#9C7B53" fill="transparent"/>
+
+  <!-- Cake Top -->
+  <circle cx="50" cy="12" r="40" fill="#FDD794"/>
+  <path d="M50,12 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0" stroke="#9C7B53" fill="transparent"/>
+
+  <!-- Cake Middle (repeated three times for symmetry) -->
+  <g transform="translate(25, 64)">
+    <rect x="-2.5" y="-2.5" width="5" height="40" rx="1.5" fill="#8B7361"/>
+    <path d="M-2.5,-2 a2.5,2.5 0 0,0 5,0 a2.5,2.5 0 0,0 -5,0" stroke="#9C7B53" fill="transparent"/>
+  </g>
+  <use xlink:href="#cakeMiddle" y="64" transform="translate(75, 0)"/>
+  <use xlink:href="#cakeMiddle" y="64" transform="translate(-25, 0)"/>
+
+  <!-- Frosting -->
+  <path d="M50,38 a30,10 0 0,0 -60,20 a30,10 0 0,0 60,20" stroke="#FFFFFF" fill="#E6E6E6"/>
+
+  <!-- Cherry on Top -->
+  <circle cx="50" cy="12" r="4" fill="#FF474C"/>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body base -->
+  <rect x="50" y="150" width="300" height="200" fill="url(#bodyGradient)" stroke="black"/>
+
+  <!-- Scales -->
+  <polygon points="60,180 90,200 60,220" fill="saddleBrown"/>
+  <polygon points="75,210 105,230 75,250" fill="saddleBrown"/>
+
+  <!-- Eyes -->
+  <circle cx="150" cy="180" r="20" fill="black"/>
+  <circle cx="250" cy="180" r="20" fill="black"/>
+
+  <!-- Neck, head, and tail -->
+  <path d="M130,140 Q160,90 200,140 T400,300" stroke="black" fill="url(#tailGradient)"/>
+
+  <!-- Spikes (optional) -->
+  <text x="185" y="170">▲</text>
+  <text x="295" y="170">▲</text>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:forestGreen"/>
+      <stop offset="100%" style="stop-color:saddleBrown"/>
+    </linearGradient>
+    <linearGradient id="tailGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:darkGreen"/>
+      <stop offset="100%" style="stop-color:saddleBrown"/>
+    </linearGradient>
+  </defs>
+</svg>

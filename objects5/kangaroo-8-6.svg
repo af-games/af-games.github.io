@@ -1,0 +1,17 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Light green body -->
+  <ellipse cx="100" cy="80" rx="75" ry="60" fill="#98FB98"/>
+
+  <!-- Darker green limbs -->
+  <path d="M80,140 Q120,180 160,140" stroke="#7FFF00" stroke-width="20"/>
+  <path d="M80,220 Q120,260 160,220" stroke="#7FFF00" stroke-width="20"/>
+
+  <!-- Tail -->
+  <rect x="135" y="140" width="25" height="90" fill="#7FFF00"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="60" rx="40" ry="30" fill="#98FB98"/>
+  <circle cx="100" cy="50" r="25" fill="#FFFFFF"/>
+
+</svg>

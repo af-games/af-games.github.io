@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body (rect) -->
+  <rect id="body" x="150" y="200" width="400" height="300" fill="#8B7D6B"/>
+  <!-- Head (circle) -->
+  <circle cx="275" cy="150" r="75" fill="#A9A9A9"/>
+  <!-- Neck (polygon) -->
+  <polygon points="275,150 325,100 400,150" fill="#8B7D6B"/>
+  <!-- Tail (path with scales texture) -->
+  <path id="tail" d="M400,300 Q450,250 500,300" stroke="none" fill="url(#scales)" />
+  <!-- Limbs (polygon) -->
+  <polygon points="175,400 250,450 325,400" fill="#8B7D6B"/>
+  <!-- Textured overlay (image) -->
+  <image xlink:href="textures/scales.png" width="50%" height="50%" x="125" y="125"/>
+
+  <!-- Defining pattern for scales texture -->
+  <defs>
+    <pattern id="scales" patternUnits="userSpaceOnUse" width="30" height="30">
+      <image href="textures/scale.png" width="30" height="30"/>
+    </pattern>
+  </defs>
+</svg>

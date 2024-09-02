@@ -1,0 +1,38 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="200" cy="180" rx="90" ry="140"
+           fill="#C0C0C0" stroke="#2F4F4F" stroke-width="5"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="130" r="50"
+          fill="url(#moonstoneGradient)" stroke="#2F4F4F" stroke-width="3"/>
+  <circle cx="200" cy="130" r="30"
+          fill="#C0C0C0"/>
+
+  <!-- Hair -->
+  <path d="M160,90 Q180,70 220,90 Q240,70 260,90"
+        fill="none" stroke="#2F4F4F" stroke-width="3"/>
+
+  <!-- Wings -->
+  <path d="M150,150 Q180,170 220,150 Q250,170 290,150"
+        fill="#B0E0E6" stroke="#2F4F4F" stroke-width="3"/>
+  <path d="M170,140 Q200,160 240,140 Q260,160 290,140"
+        fill="#C0C0C0" stroke="#2F4F4F" stroke-width="3"/>
+
+  <!-- Gown -->
+  <path d="M180,180 Q220,250 260,180"
+        fill="#C0C0C0" stroke="#2F4F4F" stroke-width="3"/>
+
+  <!-- Adornments (rose gold) -->
+  <circle cx="190" cy="170" r="10" fill="#CD7F32"/>
+  <circle cx="210" cy="165" r="8" fill="#CD7F32"/>
+  <circle cx="225" cy="185" r="12" fill="#CD7F32"/>
+
+  <!-- Moonstone gradient for head -->
+  <defs>
+    <linearGradient id="moonstoneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#B0E0E6; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C0C0C0; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

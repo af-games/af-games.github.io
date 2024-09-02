@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle Wall -->
+  <rect id="wall" x="150" y="200" width="400" height="250" fill="grey"/>
+
+  <!-- Towers -->
+  <polygon id="tower-left" points="150,200 250,100 350,200" fill="brown"/>
+  <polygon id="tower-right" points="650,200 750,100 850,200" fill="brown"/>
+
+  <!-- Gate -->
+  <rect id="gate" x="300" y="450" width="200" height="150" fill="black"/>
+
+  <!-- Path to connect shapes and create expedition route -->
+  <path d="M150,200 Q250,150 300,450 H500 Q600,300 650,450 L850,200" stroke-width="4" stroke="gold"/>
+
+  <!-- Filters -->
+  <defs>
+    <filter id="emboss">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1"/>
+      <feSpecularLighting in="blur" surfaceScale="5"
+        specularConstant=".75" specularExponent="20"
+        lighting-color="#bbbbbb" result="specOut">
+        <fePointLight x="-5000" y="-10000" z="20000"/>
+      </feSpecularLighting>
+    </filter>
+
+    <!-- Apply filters -->
+    <use href="#wall" filter="url(#emboss)"/>
+    <use href="#tower-left" filter="url(#emboss)"/>
+    <use href="#tower-right" filter="url(#emboss)"/>
+  </defs>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+    <!-- Fairy dress -->
+    <ellipse cx="185" cy="155" rx="135" ry="65" fill="#9DBBF2"/>
+    <path d="M140,260 A40,40 0 0 1 280,260 L300,300 Z" fill="#9DBBF2"/>
+
+    <!-- Skin -->
+    <ellipse cx="185" cy="155" rx="125" ry="65" fill="#F7CACA"/>
+
+    <!-- Hair -->
+    <polygon points="10,50 290,50 270,120 130,120 10,140" fill="#FFD700"/>
+
+    <!-- Wings -->
+    <ellipse cx="160" cy="80" rx="70" ry="35" fill="url(#wingGradient1)"/>
+    <ellipse cx="155" cy="120" rx="55" ry="40" fill="url(#wingGradient2)"/>
+
+    <!-- Wand -->
+    <circle cx="260" cy="170" r="30" fill="#FFF"/>
+    <circle cx="240" cy="130" r="10" fill="#FFF"/>
+    <line x1="260" y1="170" x2="285" y2="195" stroke="#FFF"/>
+
+    <!-- Gradients -->
+    <linearGradient id="wingGradient1" gradientUnits="userSpaceOnUse">
+        <stop offset="0%"  stop-color="#ADD8E6"/>
+        <stop offset="100%" stop-color="#3D94F2"/>
+    </linearGradient>
+    <linearGradient id="wingGradient2" gradientUnits="userSpaceOnUse">
+        <stop offset="0%"  stop-color="#ADE5FF"/>
+        <stop offset="100%" stop-color="#679ECB"/>
+    </linearGradient>
+</svg>

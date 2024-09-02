@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <defs>
+    <variable id="width" type="mm">10</variable>
+    <variable id="height" type="mm">7</variable>
+    <variable id="radius" type="mm">3</variable>
+  </defs>
+```
+
+Now, let's choreograph the movements:
+
+1. **Head (circle)**: The head will move into place first as it's the main component.
+   ```svg
+   <circle cx="0" cy="-25" r="{width}" fill="brown"/>
+   ```
+
+2. **Body (ellipse)**: The body follows, positioned just below the head.
+   ```svg
+   <ellipse cx="0" cy="-17" rx="{width}" ry="{height}" fill="brown"/>
+   ```
+
+3. **Left Leg**: It enters from the left side of the body and curves downwards.
+   ```svg
+   <path d="M -{width} -17 Q 0 -25, {width} -17" stroke="black" fill="transparent"/>
+   ```
+
+4. **Right Leg**: It mirrors the left leg's movement from the right side.
+   ```svg
+   <path d="M {width} -17 Q 0 -25, -{width} -17" stroke="black" fill="transparent"/>
+   ```
+
+5. **Tail (curved path)**: The tail enters from behind the body and curves upwards.
+   ```svg
+   <path d="M 0 -25 Q {width*2} -17, 0 -30" stroke="brown" fill="transparent"/>
+   ```
+
+6. **Pouch (ellipse) with Joey (small circle)**: The pouch enters from the belly of the body and contains a tiny joey.
+   ```svg
+   <g>
+     <ellipse cx="0" cy="-12" rx="{radius}" ry="{height/3}" fill="tan"/>
+     <circle cx="0" cy="-15" r="{radius/2}" fill="brown"/>
+   </g>
+   ```
+
+Finally, we close our SVG tag and let the dance begin:
+
+```svg
+</svg>

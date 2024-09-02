@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Dolphin paths -->
+  <g id="dolphin-idle">
+    <path d="M...Z"/>
+  </g>
+  ...
+  <!-- Animations -->
+  <animate
+    xlink:href="#dolphin-idle"
+    attributeName="transform"
+    from="rotate(0)"
+    to="rotate(30)"
+    dur="1s"
+    begin="0s" />
+  <animate
+    xlink:href="#dolphin-prepare"
+    attributeName="transform"
+    from="rotate(30) translateY(0)"
+    to="translateY(-100px) rotate(90)"
+    dur="0.5s"
+    begin="dolphin-idle.end" />
+  <animate
+    xlink:href="#dolphin-jump"
+    attributeName="transform"
+    from="translateY(-100px) rotate(90)"
+    to="translateY(50px) rotate(-30)"
+    dur="0.5s"
+    begin="dolphin-prepare.end" />
+  <!-- Repeat animation -->
+  <set attributeName="begin" to="dolphin-land.end+1s" />
+</svg>

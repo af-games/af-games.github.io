@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+  <!-- Body -->
+  <rect x="50" y="75" width="200" height="150" rx="50" ry="50"
+        fill="#f8d7da" stroke="#8b7d6c" stroke-width="3"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="50" r="40"
+          fill="#ffcc99" stroke="#ffa52e" stroke-width="3"/>
+
+  <!-- Hair (Left) -->
+  <path d="M130,30 Q160,10 190,30"
+        fill="transparent" stroke="#8b7d6c" stroke-width="3"/>
+
+  <!-- Hair (Right) -->
+  <path d="M170,30 Q200,10 230,30"
+        fill="transparent" stroke="#8b7d6c" stroke-width="3"/>
+
+  <!-- Wings (Left) -->
+  <ellipse cx="150" cy="175" rx="40" ry="60"
+           fill="#f8d7da" stroke="#8b7d6c" stroke-width="3"/>
+  <!-- Wings (Right) -->
+  <ellipse cx="200" cy="175" rx="40" ry="60"
+           fill="#f8d7da" stroke="#8b7d6c" stroke-width="3"/>
+
+  <!-- Wing Connector -->
+  <path d="M150,175 Q200,175 200,215"
+        fill="transparent" stroke="#8b7d6c" stroke-width="3"/>
+
+  <!-- Dress -->
+  <polygon points="50,325 150,325 250,425"
+           fill="#ffcc99" stroke="#ffa52e" stroke-width="3"/>
+</svg>

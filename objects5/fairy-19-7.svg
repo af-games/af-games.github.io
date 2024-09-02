@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <defs>
+    <!-- Fairy and wand -->
+    <g id="fairy">
+      <path d="M180,470 Q195,430 210,470" fill="gold"/>
+      <path d="M220,470 Q200,490 220,510" stroke="black" fill="transparent"/>
+    </g>
+  </defs>
+
+  <!-- Fairy initial pose -->
+  <use href="#fairy" x="100" y="350"/>
+
+  <!-- Animation: Wand wave -->
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0,0"
+    to="20,0"
+    begin="0s"
+    dur="2s"
+    repeatCount="indefinite"
+    id="wandWave">
+  </animateTransform>
+
+  <!-- Animation: Dress sway -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 150 470"
+    to="5 150 470"
+    begin="0s"
+    dur="2s"
+    repeatCount="indefinite"
+    id="dressSway">
+  </animateTransform>
+
+  <!-- Animation: Fairy turn -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 150 470"
+    to="-90 150 470"
+    begin="4s"
+    dur="2s"
+    fill="freeze">
+  </animateTransform>
+
+</svg>

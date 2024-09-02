@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define color gradients -->
+  <defs>
+    <linearGradient id="owlBodyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0c234d; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#191b32; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#373535; stop-opacity:1"/>
+    </linearGradient>
+    <!-- Add other gradients here... -->
+  </defs>
+
+  <!-- Owl's body -->
+  <path d="M100,200 Q150,150 200,200 Q250,250 300,200 Q350,150 400,200" fill="url(#owlBodyGrad)"/>
+
+  <!-- Owl's eyes -->
+  <circle cx="170" cy="180" r="20" fill="#e1ac0d"/>
+  <circle cx="170" cy="180" r="10" fill="#ffdf5f"/>
+  <circle cx="170" cy="180" r="5" fill="#000000"/>
+
+  <!-- Owl's feathers, beak, background, and borders (add paths and gradients here...) -->
+
+</svg>

@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="450" width="800" height="150" fill="#007BFF"/>
+
+  <!-- Water -->
+  <path d="M0,450 Q200,350 400,450 Q600,550 800,450 H0 z" fill="#007BFF"/>
+
+  <!-- Buildings (Dolphin's body) -->
+  <path d="M100,300 A200,200 0 0 0 700,300 Q600,450 400,500 A200,200 0 0 1 100,500 z" fill="#FFFFFF"/>
+
+  <!-- Buildings (Dolphin's head) -->
+  <path d="M200,200 Q350,150 500,200 Q650,250 800,200 V300 H0 z" fill="#FFFFFF"/>
+
+  <!-- Buildings (Dolphin's tail) -->
+  <path d="M100,500 A200,200 0 0 1 700,500 Q600,550 400,600 z" fill="#FFFFFF"/>
+
+  <!-- Buildings (Dolphin's fin) -->
+  <path d="M300,450 Q350,500 400,450 Q450,500 500,450 z" fill="#FFFFFF"/>
+
+  <!-- Roads -->
+  <line x1="200" y1="300" x2="600" y2="300" stroke="#3D9970" stroke-width="5"/>
+  <line x1="400" y1="450" x2="400" y2="550" stroke="#3D9970" stroke-width="5"/>
+
+  <!-- Dolphin eye -->
+  <circle cx="400" cy="280" r="50" fill="#FFFFFF"/>
+  <circle cx="400" cy="280" r="30" fill="#000000"/>
+
+</svg>

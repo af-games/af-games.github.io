@@ -1,0 +1,26 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <ellipse cx="100" cy="50" rx="40" ry="60" fill="#78c02b"/>
+  <circle cx="90" cy="40" r="5" fill="#fff"/>
+  <circle cx="110" cy="40" r="5" fill="#fff"/>
+  <rect x="80" y="60" width="40" height="20" fill="#fff"/>
+
+  <!-- Neck -->
+  <line x1="100" y1="70" x2="100" y2="90" stroke="#78c02b" stroke-width="5"/>
+
+  <!-- Body -->
+  <rect x="80" y="90" width="40" height="60" fill="#78c02b"/>
+  <rect x="85" y="130" width="30" height="60" fill="#78c02b"/>
+
+  <!-- Legs -->
+  <line x1="80" y1="150" x2="90" y2="180" stroke="#78c02b" stroke-width="5"/>
+  <circle cx="90" cy="180" r="10" fill="#78c02b"/>
+  <line x1="90" y1="180" x2="90" y2="210" stroke="#78c02b" stroke-width="5"/>
+
+  <!-- Tail -->
+  <ellipse cx="130" cy="160" rx="20" ry="40" fill="#78c02b"/>
+  <ellipse cx="150" cy="160" rx="15" ry="30" fill="#78c02b"/>
+  <ellipse cx="170" cy="160" rx="10" ry="20" fill="#78c02b"/>
+
+</svg>

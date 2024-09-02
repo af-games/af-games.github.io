@@ -1,0 +1,21 @@
+<svg width="100%" height="100%" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E8F5E9"/>
+
+  <!-- Ground -->
+  <rect x="0" y="360" width="960" height="180" fill="#C5CAE9"/>
+
+  <!-- Mountains (Golden ratio based layout) -->
+  <circle cx="210" cy="270" r="80" fill="#424B5B"/>
+  <circle cx="520" cy="320" r="60" fill="#424B5B"/>
+  <circle cx="800" cy="370" r="90" fill="#424B5B"/>
+
+  <!-- Rivers -->
+  <path d="M100,420 Q250,380 400,420 T550,460 Q700,420 850,460" stroke="#6D9EEB" fill="transparent"/>
+
+  <!-- Trees -->
+  <polygon points="150,300 200,300 175,250" fill="#3F4C5C"/>
+  <polygon points="450,350 500,350 475,300" fill="#3F4C5C"/>
+  <polygon points="750,400 800,400 775,350" fill="#3F4C5C"/>
+
+</svg>

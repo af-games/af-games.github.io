@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Umbrella -->
+  <circle cx="0" cy="-25" r="25" fill="lightblue" opacity="0.8"/>
+  <path d="M0,-37 A37,37 0 1 0 0,-43 A37,37 0 1 0 0,-37" stroke="black" fill="none"/>
+
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <path d="M-5,-25 Q-20,-25 -30,-10" stroke="black" fill="none" opacity="0.5"/>
+    <path d="M5,-25 Q20,-25 30,-10" stroke="black" fill="none" opacity="0.5"/>
+
+    <!-- Add more tentacles by duplicating and translating the 'tentacles' group -->
+    <use href="#tentacles" x="-40"/>
+    <use href="#tentacles" x="40" transform="scale(-1, 1)"/>
+    <use href="#tentacles" y="-30"/>
+    <use href="#tentacles" y="-5" transform="rotate(90)" />
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="-15" cy="-28" r="2.5" fill="black"/>
+  <circle cx="15" cy="-28" r="2.5" fill="black"/>
+
+</svg>

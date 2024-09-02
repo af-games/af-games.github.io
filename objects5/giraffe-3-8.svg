@@ -1,0 +1,25 @@
+<svg width="600" height="450" xmlns="http://www.w3.org/2000/svg" style="background-color: antiquewhite;">
+
+  <!-- Plate -->
+  <ellipse cx="300" cy="225" rx="275" ry="180" fill="#fff" stroke="black"/>
+
+  <!-- Giraffe (main ingredient) -->
+  <g transform="translate(150, 190)">
+    <path d="M20 60 Q40 30 70 60 T150 180 A140 130 0 0 0 20 300 Z" fill="#eabf7c"/>
+    <circle cx="10" cy="90" r="80" fill="#fff"/>
+    <path d="M0 50 Q10 40 20 50 T140 290 Q130 300 150 290 Z" stroke="#006400" fill="transparent"/>
+    <rect x="70" y="180" width="100" height="10" fill="#eabf7c"/>
+    <circle cx="150" cy="200" r="30" fill="#006400"/>
+  </g>
+
+  <!-- Ingredients -->
+  <circle cx="120" cy="120" r="40" fill="#ffa500"/> <!-- Carrot -->
+  <polygon points="80,90 130,90 105,60" fill="#8b7d6b"/> <!-- Leafy greens -->
+
+  <!-- Garnishes and tableware -->
+  <rect x="480" y="20" width="100" height="30" rx="15" fill="#ffd700"/> <!-- Napkin -->
+  <circle cx="490" cy="60" r="15" stroke="#000" fill="transparent"/> <!-- Knife -->
+
+  <text x="280" y="430" font-size="24px" font-family="Verdana">Giraffe's Delight</text>
+
+</svg>

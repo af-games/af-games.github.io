@@ -1,0 +1,21 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pulling out the cake shape from thin air -->
+  <rect id="cake" x="10" y="10" width="280" height="200"
+        fill="#FADA5E" stroke="#BB6D33" stroke-width="5" />
+
+  <!-- Making colors appear for the frosting -->
+  <circle cx="75" cy="75" r="70" fill="#FFF1E6"/>
+
+  <!-- Pulling out candles from thin air, they'll dance later -->
+  <g id="candles">
+    <rect x="95" y="135" width="10" height="25" fill="#F4A460"/>
+    <rect x="125" y="135" width="10" height="25" fill="#F4A460"/>
+    <rect x="155" y="135" width="10" height="25" fill="#F4A460"/>
+  </g>
+
+  <!-- Making writing appear for "Happy Birthday!" -->
+  <text x="50%" y="230" dominant-baseline="middle"
+        text-anchor="middle" font-family="Verdana" font-size="24">
+    Happy Birthday!
+  </text>
+</svg>

@@ -1,0 +1,31 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#ADD8E6"/>
+
+  <!-- Body - Front part -->
+  <path d="M150,100 Q200,75 250,100 Q200,125 150,100" stroke="black" fill="#C0C0C0"/>
+
+  <!-- Body - Middle part -->
+  <path d="M250,100 Q300,75 350,100 Q300,125 250,100" stroke="black" fill="#B4B4B4"/>
+
+  <!-- Body - Back part -->
+  <path d="M350,100 Q400,75 450,100 Q400,125 350,100" stroke="black" fill="#A8A8A8"/>
+
+  <!-- Tail Fin -->
+  <path d="M450,100 Q500,50 450,0" stroke="black" fill="#949494"/>
+
+  <!-- Dorsal Fins -->
+  <circle cx="200" cy="70" r="8" fill="#5D6D7E"/>
+  <circle cx="300" cy="70" r="10" fill="#5D6D7E"/>
+  <circle cx="400" cy="70" r="12" fill="#5D6D7E"/>
+
+  <!-- Pectoral Fins -->
+  <rect x="50" y="125" width="50" height="50" rx="25" fill="#A9A9A9"/>
+  <rect x="400" y="125" width="50" height="50" rx="25" fill="#A9A9A9"/>
+
+  <!-- Nostrils -->
+  <circle cx="175" cy="85" r="3" fill="black"/>
+  <circle cx="375" cy="85" r="3" fill="black"/>
+
+</svg>

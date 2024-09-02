@@ -1,0 +1,7 @@
+<svg width="50" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon string -->
+  <path d="M25,10 Q40,30 65,10" stroke="black" fill="transparent"/>
+
+  <!-- Balloon body -->
+  <ellipse cx="50" cy="70" rx="40" ry="50" fill="red"/>
+</svg>

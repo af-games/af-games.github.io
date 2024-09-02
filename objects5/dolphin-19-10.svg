@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Filters -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="fish-eye">
+      <feSpecularLighting in="SourceAlpha" surfaceScale="5"
+                           specularConstant=".75" specularExponent="20"
+                           lighting-color="#bbbbbb" result="specOut">
+        <fePointLight x="-5000" y="-10000" z="20000"/>
+      </feSpecularLighting>
+      <feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut"/>
+      <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic"
+                   k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+  </defs>
+
+  <!-- Landmarks/Shape landmarks -->
+  <circle cx="60" cy="50" r="40" fill="#87ceeb" filter="url(#glow)" />
+  <rect x="200" y="150" width="150" height="100" fill="#add8e6" stroke="black"/>
+  <polygon points="450,200 550,100 650,200" fill="#87ceeb" filter="url(#fish-eye)" />
+
+  <!-- Route -->
+  <path d="M60,300 Q90,350 180,400 T200,150 Q250,200 350,250 Q450,300 550,350" stroke="black" fill="transparent"/>
+
+</svg>

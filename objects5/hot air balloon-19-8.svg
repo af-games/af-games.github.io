@@ -1,0 +1,33 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hot Air Balloon -->
+  <g id="hot-air-balloon" transform="translate(150,200)">
+    <circle cx="80" cy="60" r="60" fill="#F4D03F"/>
+    <path d="M90,10 A70,70 0 0 1 40,10" stroke="#E5822A" stroke-width="2" fill="transparent"/>
+    <rect width="20" height="120" x="-30" y="60" fill="#E5822A"/>
+
+    <!-- Basket -->
+    <g transform="translate(40, 120)">
+      <rect width="40" height="20" rx="5" fill="#7D3C98"/>
+      <polygon points="-20,-10 20,-10 -10,20" fill="#7D3C98"/>
+    </g>
+  </g>
+
+  <!-- Tableware -->
+  <rect x="10" y="50" width="40" height="60" rx="5" fill="#FFF5E6" stroke="#A05213" stroke-width="2"/>
+  <circle cx="70" cy="80" r="40" fill="#FFF5E6" stroke="#A05213" stroke-width="2"/>
+
+  <!-- Utensils -->
+  <path d="M20,90 Q50,150 20,250" stroke="#A05213" stroke-width="4"/>
+  <polygon points="70,180 100,180 140,220 100,260" fill="#A05213"/>
+
+  <!-- Garnishes -->
+  <circle cx="300" cy="150" r="15" fill="#FFC0CB"/>
+  <path d="M320,140 Q360,180 320,220" stroke="#FFC0CB" stroke-width="4"/>
+
+  <!-- Ingredients -->
+  <circle cx="400" cy="250" r="30" fill="#32CD32"/>
+  <rect x="400" y="180" width="60" height="70" rx="5" fill="#FF69B4"/>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#FFF5E6"/>
+</svg>

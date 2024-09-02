@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 600 80">
+  <!-- Main Melody: Lion Roars -->
+  <circle cx="10" cy="40" r="30" fill="none" stroke="black"/>
+  <circle cx="100" cy="40" r="25" fill="none" stroke="black"/>
+  <circle cx="200" cy="40" r="20" fill="none" stroke="black"/>
+
+  <!-- Bass Notes: Savannah Rhythm -->
+  <rect x="-30" y="70" width="60" height="10" fill="none" stroke="black"/>
+  <rect x="50" y="70" width="60" height="10" fill="none" stroke="black"/>
+
+  <!-- Harmonies: Interaction Patterns -->
+  <path d="M-40,20 Q0,-30 40,20 Q0,50 40,20" fill="none" stroke="brown"/>
+  <path d="M160,10 Q180,50 220,10 Q180,30 160,10" fill="none" stroke="brown"/>
+
+</svg>

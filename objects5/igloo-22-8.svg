@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" style="background-color: #1D1D1D;">
+
+<!-- Igloo -->
+<path d="M150,100 Q175,50 250,100 Q325,50 400,100 Q375,150 350,200 Q325,250 250,200 Q175,250 150,200 Z" fill="#D3D3D3"/>
+
+<!-- Northern Lights behind Igloo -->
+<path d="M0,0 Q25,400 50,0 Q75,400 100,0 Q125,400 150,0 Z" fill="#FFC107" stroke="#FFC107"/>
+
+<!-- Snowflakes -->
+<circle cx="80" cy="90" r="5" fill="#FFFFFF"/>
+<circle cx="120" cy="130" r="5" fill="#FFFFFF"/>
+<circle cx="160" cy="85" r="5" fill="#FFFFFF"/>
+
+<!-- Tableware -->
+<rect x="400" y="100" width="150" height="300" rx="20" fill="#FFFFFF"/>
+
+<!-- Utensils -->
+<path d="M475,150 Q490,160 490,180 Q475,190 460,180 Z" fill="#D3D3D3"/>
+<rect x="450" y="220" width="50" height="50" rx="10" fill="#D3D3D3"/>
+
+<!-- Garnish (Moss) -->
+<path d="M475,320 Q485,330 495,330 Q505,330 515,320 Z" fill="#8BC34A"/>
+<path d="M460,340 Q470,350 480,350 Q490,350 500,340 Z" fill="#8BC34A"/>
+
+<!-- Plate Border -->
+<rect x="125" y="75" width="350" height="250" rx="25" stroke="#FFFFFF" stroke-width="2"/>
+
+<!-- Text (Title) -->
+<text x="175" y="40" font-family="Verdana" font-size="48px" fill="#FFFFFF">Iglu-lu-llama-ding-dong</text>
+
+<!-- Text (Description) -->
+<text x="125" y="360" font-family="Arial" font-size="24px" fill="#FFFFFF">Served with a side of Aurora Borealis & snowflakes</text>
+
+</svg>

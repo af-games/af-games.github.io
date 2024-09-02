@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-200 -200 400 400">
+  <!-- Clipping Mask -->
+  <defs>
+    <clipPath id="jellyfishClip" clipPathUnits="userSpaceOnUse">
+      <path d="M0,0a150,150 0 1,0 300,0a150,150 0 1,0 -300,0z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Bell -->
+  <circle cx="0" cy="0" r="200" fill="url(#jellyfishGradient)" clip-path="url(#jellyfishClip)"/>
+
+  <!-- Tentacles -->
+  <g clip-path="url(#jellyfishClip)">
+    <?php for ($i = 0; $i < 8; $i++): ?>
+      <path d="M<?php echo cos(($i * PI) / 4) * 250 ?>,<?php echo sin(($i * PI) / 4) * 250 ?>
+              Q<?php echo cos((($i + 1) * PI) / 8) * 350 ?>,<?php echo sin((($i + 1) * PI) / 8) * 350 ?>
+                  <?php echo cos(($i * PI) / 4) * 200 ?>,<?php echo sin(($i * PI) / 4) * 200 ?>" fill="url(#tentacleGradient)"/>
+    <?php endfor; ?>
+  </g>
+
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="jellyfishGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:blue;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:pink;stop-opacity:1"/>
+    </radialGradient>
+    <linearGradient id="tentacleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:violet;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:purple;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:pink;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

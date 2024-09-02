@@ -1,0 +1,23 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Basket -->
+  <rect x="50" y="150" width="150" height="70" rx="10" fill="#8B6C2C"/>
+
+  <!-- Balloon Envelope -->
+  <ellipse cx="125" cy="50" rx="60" ry="30" fill="#FF9900"/>
+
+  <!-- Burner -->
+  <rect x="90" y="80" width="40" height="60" fill="#8B4513"/>
+
+  <!-- Gondola (bottom edge of the basket) -->
+  <line x1="75" y1="140" x2="225" y2="140" stroke="#57351C"/>
+
+  <!-- Strings & Rigging -->
+
+  <!-- Basket to Balloon -->
+  <line x1="125" y1="140" x2="125" y2="80" stroke="#57351C"/>
+
+  <!-- Balloon to Burner -->
+  <line x1="135" y1="80" x2="90" y2="80" stroke="#57351C"/>
+
+</svg>

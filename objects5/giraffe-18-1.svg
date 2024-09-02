@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Body -->
+  <path d="M12,5 C8.375,5 5,8.375 5,12s3.375,7 7.625,9h1v-9H12z" fill="#ffcc00"/>
+
+  <!-- Neck -->
+  <path d="M12,14 l-2,-6h4l-2,6" stroke="#8b4513" fill="transparent"/>
+
+  <!-- Head -->
+  <circle cx="12" cy="7" r="7" fill="#ffcc00"/>
+  <circle cx="10.5" cy="5" r="1.5" fill="#ffffff"/> <!-- eye -->
+  <circle cx="13.5" cy="5" r="1.5" fill="#ffffff"/> <!-- eye -->
+
+  <!-- Legs -->
+  <path d="M7,22 h10 a2,2 0 0,0 4,0 v-8a2,2 0 0,0 -4,0 z" stroke="#8b4513" fill="transparent"/>
+  <path d="M7,22 h10 a2,2 0 0,0 4,0 v-8a2,2 0 0,0 -4,0 z" transform="rotate(90 12 22)" stroke="#8b4513" fill="transparent"/>
+</svg>

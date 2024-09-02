@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Igloo -->
+  <path d="M100,200 Q170,150 250,200 A150,150 0 0 1 320,280 L300,400 Z" fill="#FDD74B"/>
+
+  <!-- Snowman -->
+  <circle cx="120" cy="300" r="60" fill="#FFFFFF"/>
+  <circle cx="95" cy="235" r="35" fill="#FFFFFF"/>
+  <circle cx="80" cy="175" r="20" fill="#FFFFFF"/>
+  <rect x="90" y="145" width="40" height="40" fill="#000000"/>
+
+  <!-- Pine Trees -->
+  <polygon points="370,280 400,220 430,280" fill="#6D9E3C"/>
+  <polygon points="375,180 405,120 435,180" fill="#6D9E3C"/>
+  <polygon points="380,80 410,20 440,80" fill="#6D9E3C"/>
+
+  <!-- Hot Cocoa Mug -->
+  <path d="M450,200 Q470,150 490,200 A50,50 0 0 1 450,250 Q430,280 450,300 Z" fill="#CD6F3A"/>
+  <path d="M470,250 Q480,260 490,270 Q480,280 470,290 Q460,280 450,270 Z" fill="#FFFFFF"/>
+
+  <!-- Tableware -->
+  <rect x="10" y="350" width="50" height="50" fill="#FFFFFF"/>
+  <path d="M60,390 Q70,400 80,390 Z" stroke="#000000"/>
+
+  <!-- Garnish (Snowflakes) -->
+  <circle cx="200" cy="150" r="10"/>
+  <circle cx="220" cy="160" r="10"/>
+  <circle cx="180" cy="170" r="10"/>
+
+</svg>

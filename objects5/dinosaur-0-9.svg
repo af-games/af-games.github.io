@@ -1,0 +1,27 @@
+<svg width="100%" height="100%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dinosaur's Form -->
+  <path id="dinosaur" fill="#f5deb3"/>
+
+  <!-- Body Armor -->
+  <use xlink:href="#body-armor-front"/>
+  <use xlink:href="#body-armor-back"/>
+  <use xlink:href="#belly-armor"/>
+
+  <!-- Leg Armor -->
+  <use xlink:href="#leg-armor-left" transform="translate(0, 50%)"/>
+  <use xlink:href="#leg-armor-right" transform="translate(80%, 50%)"/>
+
+  <!-- Head Protection -->
+  <circle id="head-protection"/>
+
+  <!-- Necklace -->
+  <path id="necklace" stroke="#693000" stroke-width="5%" fill="none"/>
+
+  <!-- Wristbands -->
+  <g id="wristbands">
+    <!-- Left Wristband -->
+    <rect x="10%" y="60%" width="10%" height="10%"/>
+    <!-- Right Wristband -->
+    <use xlink:href="#wristband-left" transform="translate(70%, 0)"/>
+  </g>
+</svg>

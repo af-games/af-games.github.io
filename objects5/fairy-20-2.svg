@@ -1,0 +1,29 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="80" ry="120"
+           style="fill:lightgreen; stroke:brown; stroke-width:4"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="75" r="30"
+          style="fill:lightyellow; stroke:brown; stroke-width:2"/>
+
+  <!-- Hair -->
+  <path d="M80 60 Q90 40, 100 60 T110 40 Q120 60, 110 80"
+        style="fill:transparent; stroke:brown; stroke-width:3"/>
+
+  <!-- Arms -->
+  <rect x="75" y="140" width="20" height="60"
+        style="fill:lightgreen; stroke:brown; stroke-width:2"/>
+  <rect x="125" y="140" width="20" height="60"
+        style="fill:lightgreen; stroke:brown; stroke-width:2"/>
+
+  <!-- Wings -->
+  <path d="M90 130 Q80 160, 70 150 Q90 140, 100 150 Q110 140, 120 150"
+        style="fill:transparent; stroke:pink; stroke-width:3"/>
+  <path d="M110 130 Q120 160, 130 150 Q110 140, 100 150 Q90 140, 80 150"
+        style="fill:transparent; stroke:pink; stroke-width:3"/>
+
+  <!-- Dress -->
+  <rect x="70" y="200" width="80" height="60"
+        style="fill:lightblue; stroke:brown; stroke-width:2"/>
+</svg>

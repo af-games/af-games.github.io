@@ -1,0 +1,35 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="250" r="90" fill="#C19A6B"/>
+
+  <!-- Head -->
+  <path d="M80,50 Q120,70 140,50 Q160,70 180,50" stroke="black" fill="transparent"/>
+  <circle cx="100" cy="50" r="30" fill="#C19A6B"/>
+
+  <!-- Pouch -->
+  <circle cx="90" cy="210" r="40" fill="#FFFFFF"/>
+  <path d="M85,210 Q95,220 105,210" stroke="black" fill="transparent"/>
+
+  <!-- Legs -->
+  <rect x="70" y="230" width="60" height="40" fill="#8D7053"/>
+  <rect x="110" y="230" width="60" height="40" fill="#8D7053"/>
+
+  <!-- Tail -->
+  <rect x="150" y="210" width="30" height="50" fill="#8D7053"/>
+
+  <!-- Ears -->
+  <polygon points="60,40 90,20 60,0" fill="#C19A6B"/>
+  <polygon points="120,40 150,20 120,0" fill="#C19A6B"/>
+
+  <!-- Eyes -->
+  <circle cx="80" cy="45" r="10" fill="black"/>
+  <circle cx="120" cy="45" r="10" fill="black"/>
+  <circle cx="80" cy="45" r="3" fill="#FFFFFF"/>
+  <circle cx="120" cy="45" r="3" fill="#FFFFFF"/>
+
+  <!-- Mouth -->
+  <path d="M90,60 Q100,70 110,60" stroke="black" fill="transparent"/>
+
+  <!-- Highlights on head -->
+  <circle cx="100" cy="50" r="25" fill="#F7DC6F"/>
+</svg>

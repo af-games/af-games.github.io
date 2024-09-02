@@ -1,0 +1,9 @@
+<svg> element with appropriate viewBox and preserveAspectRatio attributes. Ensure each element has distinct IDs to facilitate easy selection and manipulation.
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid meet">
+  <!-- All the groups (owl-face, branches-leaves, owl-flight, moon-stars) here -->
+
+  <!-- Connecting line work -->
+  <path d="M..." fill="none" stroke="#7F5219"/>
+</svg>

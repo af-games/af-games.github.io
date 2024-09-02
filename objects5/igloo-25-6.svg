@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Front -->
+  <path id="front" d="M-40,-50 A50,50 0 0 1 40,-50 L70,-50 Q90,-30 90,-5 L90,-80 Q90,-110 70,-80 A30,30 0 0 0 -40,-80 Z"
+        fill="url(#gradient)" />
+
+  <!-- Sleeves -->
+  <circle id="sleeve" cx="-25" cy="-5" r="25" fill="none" stroke="black"/>
+  <use xlink:href="#sleeve" cx="75"/>
+
+  <!-- Back -->
+  <path id="back" d="M40,-50 A50,50 0 1 0 -40,-50 Z"
+        fill="url(#pattern)" />
+
+  <!-- Front pattern overlay -->
+  <use xlink:href="#front" fill="none" stroke-width="3" stroke-dasharray="5"/>
+
+</svg>

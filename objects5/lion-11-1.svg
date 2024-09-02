@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Body -->
+  <path d="M250 100 Q270 140, 280 160 L290 180 L300 200 Q310 220, 320 240 Z" fill="#FFC54D"/>
+
+  <!-- Head -->
+  <path d="M270 50 Q280 60, 290 70 L290 100 Q285 120, 270 130 Z" fill="#FFC54D"/>
+
+  <!-- Eyes -->
+  <circle cx="275" cy="70" r="10" fill="black"/>
+  <circle cx="285" cy="70" r="10" fill="black"/>
+
+  <!-- Mane -->
+  <path d="M240 160 Q230 180, 220 200 L240 220 Q250 190, 260 200 Z" fill="#FFC54D"/>
+</svg>

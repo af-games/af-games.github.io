@@ -1,0 +1,13 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <g id="kangaroo">
+    <circle cx="150" cy="300" r="30" fill="brown"/>
+    <circle cx="170" cy="340" r="20" fill="orange"/> <!-- ear -->
+    <circle cx="130" cy="340" r="20" fill="orange"/> <!-- ear -->
+  </g>
+
+  <g id="joey">
+    <circle cx="250" cy="360" r="20" fill="grey"/>
+    <circle cx="270" cy="390" r="10" fill="white"/> <!-- joey's head -->
+    <circle cx="230" cy="390" r="10" fill="white"/> <!-- joey's head -->
+  </g>
+</svg>

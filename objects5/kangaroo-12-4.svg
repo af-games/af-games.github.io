@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 200">
+  <!-- Kangaroo's Body -->
+  <rect id="kangarooBody" width="200" height="100" fill="brown"/>
+
+  <!-- Kangaroo's Head -->
+  <circle id="kangarooHead" cx="50" cy="75" r="30" fill="saddleBrown"/>
+
+  <!-- Kangaroo's Ears -->
+  <circle id="kangarooEarLeft" cx="25" cy="60" r="10" fill="saddleBrown"/>
+  <circle id="kangarooEarRight" cx="75" cy="60" r="10" fill="saddleBrown"/>
+
+  <!-- Kangaroo's Tail -->
+  <path id="kangarooTail" d="M200 150 Q225 125 250 150" stroke="brown" fill="transparent"/>
+
+  <!-- Kangaroo's Legs -->
+  <rect id="kangarooLegLeft" width="30" height="50" x="40" y="175" fill="brown"/>
+  <rect id="kangarooLegRight" width="30" height="50" x="120" y="175" fill="brown"/>
+
+  <!-- Animation: Switch legs' positions -->
+  <animate
+    attributeName="y"
+    from="175"
+    to="200"
+    dur="1s"
+    repeatCount="indefinite"
+    id="legLeftAnim"
+    begin="0s"
+    fill="freeze"
+    />
+  <set
+    attributeName="x"
+    to="40"
+    begin="1s"
+    fill="freeze"
+    />
+  <animate
+    attributeName="y"
+    from="175"
+    to="100"
+    dur="1s"
+    repeatCount="indefinite"
+    id="legRightAnim"
+    begin="1s"
+    fill="freeze"
+    />
+  <set
+    attributeName="x"
+    to="120"
+    begin="2s"
+    fill="freeze"
+    />
+
+</svg>

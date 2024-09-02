@@ -1,0 +1,28 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sky/Background -->
+  <rect x="0" y="0" width="500" height="100" fill="#F0FFFF"/>
+
+  <!-- Ocean waves -->
+  <polygon points="0,100 250,70 500,100" fill="#4169E1"/>
+  <polygon points="0,130 250,150 500,130" fill="#000080"/>
+
+  <!-- Seaweed -->
+  <rect x="0" y="170" width="500" height="60" fill="#32CD32">
+    <pattern id="leafPattern" patternUnits="userSpaceOnUse" width="20" height="20">
+      <image href="leaf_pattern.png" x="0" y="0"/>
+    </pattern>
+    <rect width="500" height="60" fill="url(#leafPattern)"/>
+  </rect>
+
+  <!-- Sand/Rocks -->
+  <rect x="0" y="230" width="170" height="80" fill="#A52A2A"/>
+  <rect x="170" y="230" width="330" height="80" fill="#D2B48C"/>
+
+  <!-- Mermaid's body -->
+  <linearGradient id="mermaidGradient" gradientUnits="objectBoundingBox">
+    <stop offset="0%"   stop-color="#008080"/>
+    <stop offset="100%" stop-color="#800080"/>
+  </linearGradient>
+  <rect x="75" y="310" width="350" height="190" fill="url(#mermaidGradient)"/>
+
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+
+  <!-- Head -->
+  <g id="head">
+    <rect width="5" height="5" fill="#F1C4D0"/>
+    <!-- Repeat for each tile, total of 10x10 = 100 tiles -->
+  </g>
+
+  <!-- Body & Dress -->
+  <g id="body-dress">
+    <rect width="5" height="5" fill="#FFC0CB"/>
+    <!-- Repeat for each tile, total of 20x10 = 200 tiles -->
+  </g>
+
+  <!-- Wings -->
+  <g id="wings">
+    <rect width="5" height="5" fill="#89C6E7"/>
+    <!-- Repeat for each tile, total of 20x10 = 200 tiles -->
+
+    <!-- Gems on wings -->
+    <circle cx="4" cy="4" r="2" fill="#FFFFFF"/>
+    <!-- Place gems strategically within the wing area -->
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="75" cy="60" r="3" fill="#000000"/>
+  <circle cx="115" cy="60" r="3" fill="#000000"/>
+
+  <!-- Lips -->
+  <path d="M80,90 Q90,100 100,90 Q110,100 120,90" stroke="#FF5C7D" fill="transparent"/>
+
+</svg>

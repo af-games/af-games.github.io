@@ -1,0 +1,29 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="150" y="100" width="200" height="200" fill="#8B7D6B"/>
+  <circle cx="225" cy="200" r="100" fill="#8B7D6B"/>
+
+  <!-- Head -->
+  <ellipse cx="250" cy="75" rx="75" ry="50" fill="#8B7D6B"/>
+  <circle cx="250" cy="50" r="30" fill="#FFA500"/>
+
+  <!-- Tail -->
+  <polyline points="175,290 200,340 225,290 250,340" fill="none" stroke="#8B7D6B" stroke-width="20"/>
+
+  <!-- Legs -->
+  <!-- Front Left Leg -->
+  <rect x="160" y="250" width="20" height="80" fill="#8B7D6B"/>
+  <!-- Front Right Leg -->
+  <rect x="340" y="250" width="20" height="80" fill="#8B7D6B"/>
+  <!-- Back Left Leg -->
+  <rect x="160" y="330" width="20" height="80" fill="#8B7D6B"/>
+  <!-- Back Right Leg -->
+  <rect x="340" y="330" width="20" height="80" fill="#8B7D6B"/>
+
+  <!-- Arms (optional, as dinosaurs didn't have arms) -->
+  <!-- Left Arm -->
+  <rect x="190" y="150" width="20" height="40" fill="#8B7D6B"/>
+  <!-- Right Arm -->
+  <rect x="310" y="150" width="20" height="40" fill="#8B7D6B"/>
+
+</svg>

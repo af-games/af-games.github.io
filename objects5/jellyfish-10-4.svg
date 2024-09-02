@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background gradient -->
+<linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(95,176,224);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(238,232,213);stop-opacity:1"/>
+</linearGradient>
+<rect width="100%" height="100%" fill="url(#bgGrad)"/>
+
+<!-- Rolling hills -->
+<path d="M 50 300 Q 150 270 250 300 Q 350 330 450 300 Q 550 270 650 300" stroke="#6f8c79" fill="none" stroke-width="2"/>
+
+<!-- Winding river -->
+<path d="M 150 320 Q 200 340 270 320 Q 320 360 390 320 Q 440 340 500 320" stroke="#7bc8ed" fill="none" stroke-width="2"/>
+
+<!-- Towering trees -->
+<g id="tree">
+    <circle cx="100" cy="100" r="60" fill="#4a90e2"/>
+    <path d="M 50 30 A 70 70 0 0 0 150 30 A 70 70 0 0 0 50 30" stroke="#6f8c79" fill="none" stroke-width="2"/>
+</g>
+<use xlink:href="#tree" x="400" y="100"/>
+<use xlink:href="#tree" x="550" y="150"/>
+
+<!-- Jellyfish -->
+<g id="jellyfish">
+    <circle cx="350" cy="280" r="70" fill="url(#jellyfishGrad)"/>
+    <path d="M 350 210 A 60 60 0 0 0 410 270 A 60 60 0 0 0 350 210" stroke="#fff" fill="none" stroke-width="2"/>
+    <path d="M 350 280 Q 300 350 350 420 Q 400 350 350 280" stroke="#fff" fill="none" stroke-width="2"/>
+</g>
+<use xlink:href="#jellyfish"/>
+
+<!-- Jellyfish gradient -->
+<linearGradient id="jellyfishGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:.9"/>
+    <stop offset="100%" style="stop-color:rgb(234,237,238);stop-opacity:1" />
+</linearGradient>
+
+</svg>

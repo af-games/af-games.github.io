@@ -1,0 +1,16 @@
+<svg width="800" height="600">
+  <!-- Rect for body -->
+  <rect id="body" x="150" y="200" width="300" height="400" fill="#8B4513"/>
+
+  <!-- Circle for head -->
+  <circle id="head" cx="300" cy="150" r="100" fill="#696969"/>
+
+  <!-- Polygon for limb (left leg) -->
+  <polygon id="leftLeg" points="400,250 350,350 450,350" fill="#A9A9A9"/>
+
+  <!-- Path for spike (back spine) -->
+  <path id="spineSpike" d="M170,280 L190,320 L210,280" stroke="#696969" fill="transparent"/>
+
+  <!-- Ellipse for eye (left eye) -->
+  <ellipse id="leftEye" cx="290" cy="140" rx="30" ry="40" fill="#D3D3D3"/>
+</svg>

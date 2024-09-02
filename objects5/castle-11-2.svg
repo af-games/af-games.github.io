@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2010/svg" viewBox="0 0 500 400">
+  <!-- Castle Walls -->
+  <rect x="70" y="200" width="360" height="200" fill="#775f46"/>
+  <path d="M80,200 Q150,150 250,200 H400 V400 Q350,350 250,400 T100,400 Z" fill="#775f46"/>
+
+  <!-- Towers -->
+  <path d="M80,200 Q150,100 250,200 L400,300 H350 Q300,400 250,450 T100,450 Z" fill="#775f46"/>
+  <path d="M400,200 Q350,100 250,200 L80,300 H150 Q200,400 250,450 T350,450 Z" fill="#775f46"/>
+
+  <!-- Gates -->
+  <rect x="160" y="350" width="80" height="150" fill="#775f46"/>
+  <path d="M200,350 Q250,300 300,350 H320 Q270,400 200,400 Z" fill="#ffffff"/>
+
+  <!-- Windows -->
+  <circle cx="100" cy="250" r="20"/>
+  <circle cx="400" cy="250" r="20"/>
+  <circle cx="300" cy="380" r="10"/>
+
+  <!-- Roof -->
+  <polygon points="70,200 400,200 350,300 100,300" fill="#b9967d"/>
+</svg>

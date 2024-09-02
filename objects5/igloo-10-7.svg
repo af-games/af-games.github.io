@@ -1,0 +1,36 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#ADD8E6"/>
+
+  <!-- Mountains -->
+  <path d="M50,40 Q70,5 L150,90 L230,50 Z"
+        fill="#FFFFFF" stroke="#90EE90" stroke-width="2"/>
+  <text x="90" y="60" font-family="Arial" font-size="18">Mount Igloo</text>
+
+  <!-- Igloo -->
+  <polygon points="350,40 450,40 400,200"
+           fill="#FFFFFF" stroke="#90EE90" stroke-width="2"/>
+  <circle cx="400" cy="170" r="30" fill="#C0C0C0"/>
+  <text x="385" y="150" font-family="Arial" font-size="18">Igloo City</text>
+
+  <!-- Rivers -->
+  <path d="M280,140 Q320,90 360,140"
+        stroke="#00BFFF" stroke-width="6"/>
+  <text x="310" y="170" font-family="Arial" font-size="18">Frost River</text>
+
+  <!-- Forests -->
+  <polygon points="50,200 150,200 100,300"
+           fill="#32CD32"/>
+  <text x="75" y="270" font-family="Arial" font-size="18">Crystal Forest</text>
+
+  <!-- Cities -->
+  <circle cx="600" cy="300" r="40" fill="#FFD700"/>
+  <text x="590" y="280" font-family="Arial" font-size="18">Gleaming City</text>
+
+  <!-- Label -->
+  <text x="400" y="560" font-family="Arial" font-size="24" text-anchor="middle">
+    Welcome to Igloo Land!
+  </text>
+
+</svg>

@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define patterns -->
+  <defs>
+    <pattern id="castlePattern" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="5" height="5" fill="#ffd700"/>
+      <rect x="5" y="5" width="5" height="5" fill="#ffa502"/>
+    </pattern>
+  </defs>
+
+  <!-- Castle 1 -->
+  <polygon points="10,10 90,10 140,70 10,130" fill="url(#castlePattern)" stroke="#696969"/>
+
+  <!-- Castle 2 -->
+  <polygon points="85,75 135,25 185,75 135,125" fill="url(#castlePattern)" stroke="#696969"/>
+
+  <!-- Castle 3 -->
+  <polygon points="40,140 90,70 140,140" fill="url(#castlePattern)" stroke="#696969"/>
+
+  <!-- Path connecting castles -->
+  <path d="M10,10 Q50,30 90,10 T85,75 Q120,40 135,25 T140,70 Q170,100 185,75 T185,140 Q160,200 140,140" stroke="#696969"/>
+
+</svg>

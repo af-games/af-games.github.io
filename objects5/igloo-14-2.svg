@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Igloo dome -->
+  <path id="igloo-dome"
+        d="M0,-50 A50,50 0 1,0 0,50"
+        fill="#FFF" stroke="#696969" stroke-width="2"
+        opacity="0.8" />
+
+  <!-- Igloo entrance -->
+  <rect id="igloo-entrance"
+        x="-30" y="-40" width="60" height="15"
+        fill="#FFF" stroke="#696969" stroke-width="2"
+        opacity="0.8" />
+
+  <!-- Igloo top highlight -->
+  <circle id="igloo-top-highlight"
+          cx="0" cy="-47" r="3" fill="#FFF" opacity="1" />
+
+  <!-- Igloo bottom shadow -->
+  <path id="igloo-bottom-shadow"
+        d="M0,-50 Q-20,-80 20,-80 Q0,-50"
+        fill="#696969" opacity="0.4" />
+
+  <!-- Light interaction: Shadows -->
+  <mask id="shadow-mask">
+    <rect x="0" y="0" width="100%" height="100%" fill="#fff"/>
+    <path d="M-5,-20 Q-35,-70 -35,-80 H35 V-70 H-35 Z"
+          fill="#000" opacity="0.4"/>
+  </mask>
+  <g mask="url(#shadow-mask)">
+    <use xlink:href="#igloo-dome" />
+    <use xlink:href="#igloo-bottom-shadow" />
+  </g>
+
+</svg>

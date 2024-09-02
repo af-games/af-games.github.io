@@ -1,0 +1,37 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="150" height="150" fill="green" />
+    <circle cx="75" cy="125" r="30" fill="green" />
+    <path d="M75,50 Q50,75 75,100" stroke="black" fill="transparent" />
+  </g>
+
+  <!-- Head -->
+  <g transform="translate(180, 120)">
+    <circle cx="40" cy="40" r="40" fill="green" />
+    <path d="M50,30 Q60,50 50,70" stroke="black" fill="transparent" />
+  </g>
+
+  <!-- Tail -->
+  <g transform="translate(120, 300)">
+    <polyline points="0,0 50,-50 100,0" fill="none" stroke="green" />
+  </g>
+
+  <!-- Legs -->
+  <g transform="translate(40, 330)">
+    <rect x="0" y="0" width="20" height="70" fill="green" />
+    <path d="M10,70 Q50,120 90,70" stroke="black" fill="transparent" />
+  </g>
+
+  <!-- Other Leg -->
+  <use xlink:href="#leg" transform="translate(140, 330)" />
+
+  <!-- Arms -->
+  <g transform="translate(80, 250)">
+    <rect x="0" y="0" width="30" height="60" fill="green" />
+    <path d="M15,60 Q75,120 15,180" stroke="black" fill="transparent" />
+  </g>
+
+  <!-- Other Arm -->
+  <use xlink:href="#arm" transform="translate(120, 250)" />
+</svg>

@@ -1,0 +1,36 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .beat { fill: blue; }
+    .transition { stroke: white; stroke-width: 10; fill: none; }
+  </style>
+
+  <!-- Bar 1 -->
+  <circle class="beat" cx="64" cy="360" r="50">
+    <animate attributeName="r" values="50;70;50" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <path class="transition" d="M64,360 A50,50 0 0,0 192,360"/>
+
+  <!-- Bar 2 -->
+  <circle class="beat white" cx="288" cy="360" r="50">
+    <animate attributeName="r" values="50;70;50" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <path class="transition" d="M192,360 A50,50 0 0,0 288,360"/>
+
+  <!-- Bar 3 -->
+  <circle class="beat yellow" cx="472" cy="360" r="50">
+    <animate attributeName="r" values="50;70;50" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <path class="transition" d="M288,360 A50,50 0 0,0 472,360"/>
+
+  <!-- Bar 4 -->
+  <circle class="beat" cx="656" cy="360" r="50">
+    <animate attributeName="r" values="50;70;50" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <path class="transition" d="M472,360 A50,50 0 0,0 656,360"/>
+
+  <!-- Igloo -->
+  <ellipse cx="896" cy="360" rx="150" ry="200">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
+  </ellipse>
+
+</svg>

@@ -1,0 +1,38 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Jacket -->
+  <rect x="100" y="50" width="300" height="400" fill="#8B4513"/>
+  <rect x="160" y="200" width="200" height="200" fill="none" stroke="#D3D3D3"/>
+
+  <!-- Shirt -->
+  <rect x="100" y="50" width="300" height="150" fill="#228B22"/>
+  <rect x="160" y="200" width="200" height="100" fill="#228B22"/>
+
+  <!-- Pants -->
+  <rect x="100" y="350" width="75" height="200" fill="#D3D3D3"/>
+  <rect x="350" y="350" width="75" height="200" fill="#D3D3D3"/>
+  <rect x="175" y="325" width="50" height="50" fill="#D3D3D3"/>
+
+  <!-- Belt -->
+  <rect x="160" y="425" width="80" height="25" fill="#DAA520"/>
+  <rect x="200" y="430" width="25" height="15" fill="#DAA520"/>
+  <rect x="230" y="430" width="25" height="15" fill="#DAA520"/>
+
+  <!-- Collar -->
+  <circle cx="220" cy="80" r="75" stroke="#D3D3D3" stroke-width="5"/>
+
+  <!-- Necklace -->
+  <circle cx="240" cy="120" r="8" fill="#DAA520"/>
+  <circle cx="260" cy="120" r="8" fill="#DAA520"/>
+  <circle cx="220" cy="130" r="8" fill="#DAA520"/>
+
+  <!-- Earrings -->
+  <path d="M270,90 Q275,85 280,90" stroke="#D3D3D3"/>
+  <circle cx="270" cy="90" r="10" fill="#DAA520"/>
+  <path d="M240,90 Q245,85 230,90" stroke="#D3D3D3"/>
+  <circle cx="240" cy="90" r="10" fill="#DAA520"/>
+
+  <!-- Crown -->
+  <path d="M260,70 Q270,50 280,70 Q270,90 260,70 Z" fill="#DAA520"/>
+
+</svg>

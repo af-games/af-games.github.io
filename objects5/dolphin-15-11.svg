@@ -1,0 +1,25 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphin's body -->
+  <mask id="dolphinBodyMask">
+    <rect x="50%" y="0" width="100" height="80"/>
+  </mask>
+  <path d="M50 160 A70 70 0 0 1 150 160" fill="#fff" mask="url(#dolphinBodyMask)"/>
+
+  <!-- Dolphin's fins -->
+  <mask id="finMask">
+    <circle cx="80" cy="120" r="30"/>
+    <circle cx="170" cy="120" r="30"/>
+  </mask>
+  <path d="M60 140 Q90 100, 150 140" stroke="#fff" mask="url(#finMask)" />
+  <path d="M170 140 Q200 100, 190 140" stroke="#fff" mask="url(#finMask)" />
+
+  <!-- Dolphin's eyes and nostril -->
+  <circle cx="80" cy="60" r="5"/>
+  <circle cx="130" cy="60" r="5"/>
+  <circle cx="100" cy="40" r="2"/>
+
+  <!-- Water -->
+  <path d="M0 170 Q50 200, 100 180 Q150 200, 200 170" stroke="#fff" fill="none"/>
+
+</svg>

@@ -1,0 +1,47 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon envelope (oval) -->
+  <ellipse id="balloonEnvelope" cx="150" cy="70" rx="80" ry="150" fill="#000">
+    <animate
+      attributeName="cx"
+      from="150"
+      to="250"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+  </ellipse>
+
+  <!-- Basket (rectangle) -->
+  <rect id="basket" x="120" y="280" width="40" height="60" fill="#000">
+    <animate
+      attributeName="y"
+      from="280"
+      to="320"
+      dur="1.5s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+  <!-- Balloon top (circle) -->
+  <circle id="balloonTop" cx="170" cy="5" r="10" fill="#000">
+    <animate
+      attributeName="cy"
+      from="5"
+      to="-15"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+  </circle>
+
+  <!-- Rigging (polyline) -->
+  <polyline id="rigging" points="140,30 160,30 170,50 190,30" fill="#000">
+    <animate
+      attributeName="points"
+      from="140,30 160,30 170,50 190,30"
+      to="220,30 240,30 250,50 270,30"
+      dur="3s"
+      repeatCount="indefinite"
+    />
+  </polyline>
+
+</svg>

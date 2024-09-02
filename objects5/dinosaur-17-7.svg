@@ -1,0 +1,66 @@
+<svg width="800" height="600" style="background-color: lightgreen;" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Plant seeds - initial shapes:**
+
+- Sky:
+```svg
+  <rect id="sky" x="0" y="0" width="800" height="300" style="fill: lightblue;" />
+```
+
+- Ground:
+```svg
+  <rect id="ground" x="0" y="300" width="800" height="300" style="fill: brown;" />
+```
+
+3. **Water and nurture the seeds:**
+
+- T-Rex body:
+```svg
+  <path id="t-rex-body" d="M400,450 Q420,400 460,450" stroke="black" fill="orange" />
+```
+
+- T-Rex head:
+```svg
+  <circle cx="430" cy="380" r="30" stroke="black" fill="orange" />
+
+  <ellipse cx="420" cy="370" rx="15" ry="25" stroke="black" fill="orange" />
+```
+
+- T-Rex legs:
+```svg
+  <path id="t-rex-left-leg" d="M410,460 Q380,500 390,470" stroke="black" fill="orange" />
+
+  <path id="t-rex-right-leg" d="M470,460 Q490,500 480,470" stroke="black" fill="orange" />
+```
+
+4. **Transformations:**
+
+- Rotate the left leg slightly inward:
+```svg
+  <use href="#t-rex-left-leg" transform="rotate(-5, 390, 465)" />
+```
+
+- Scale and translate the right leg to make it longer:
+```svg
+  <use href="#t-rex-right-leg" transform="scale(1.2) translate(20, 20)" />
+```
+
+5. **Prune unnecessary elements/attributes:**
+
+For simplicity, we'll remove the `<path>` elements for the legs since we're using `<use>` to replicate them with transformations.
+
+6. **Write out the SVG code:**
+
+```svg
+<svg width="800" height="600" style="background-color: lightgreen;" xmlns="http://www.w3.org/2000/svg">
+  <rect id="sky" x="0" y="0" width="800" height="300" style="fill: lightblue;" />
+  <rect id="ground" x="0" y="300" width="800" height="300" style="fill: brown;" />
+
+  <path id="t-rex-body" d="M400,450 Q420,400 460,450" stroke="black" fill="orange" />
+  <circle cx="430" cy="380" r="30" stroke="black" fill="orange" />
+  <ellipse cx="420" cy="370" rx="15" ry="25" stroke="black" fill="orange" />
+
+  <use href="#t-rex-left-leg" transform="rotate(-5, 390, 465)" />
+  <use href="#t-rex-right-leg" transform="scale(1.2) translate(20, 20)" />
+</svg>

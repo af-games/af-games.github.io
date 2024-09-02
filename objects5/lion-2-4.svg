@@ -1,0 +1,29 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect id="lionBody" x="100" y="70" width="200" height="250"
+        fill="goldenrod" stroke="brown" stroke-width="3"/>
+
+  <!-- Head -->
+  <polygon id="lionHead" points="160,40,280,40,220,90"
+           fill="tan" stroke="brown" stroke-width="3"/>
+
+  <!-- Legs -->
+  <rect x="75" y="280" width="30" height="120" fill="tan" />
+  <rect x="140" y="280" width="30" height="120" fill="tan" />
+  <rect x="295" y="280" width="30" height="120" fill="tan" />
+  <rect x="360" y="280" width="30" height="120" fill="tan" />
+
+  <!-- Tail -->
+  <path id="lionTail" d="M450,300 Q475,225 450,150"
+        fill="tan" stroke="brown" stroke-width="3"/>
+
+  <!-- Eyes -->
+  <circle cx="190" cy="60" r="20" fill="black"/>
+  <circle cx="240" cy="60" r="20" fill="black"/>
+
+  <!-- Nose -->
+  <polygon points="215,80,235,80,225,95"
+           fill="tan" stroke="brown" stroke-width="3"/>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle body -->
+  <rect id="castle-body" x="100" y="50" width="300" height="400" fill="#8B7D6B"/>
+
+  <!-- Towers -->
+  <circle cx="50" cy="200" r="80" fill="url(#castle-tower-grad)"/>
+  <circle cx="350" cy="200" r="80" fill="url(#castle-tower-grad)"/>
+
+  <!-- Gatehouse -->
+  <rect id="gatehouse" x="150" y="400" width="200" height="100" fill="#C69942"/>
+
+  <!-- Roof lines -->
+  <polyline points="100,50 300,50 350,150 250,150" stroke="#8B7D6B" fill="transparent" stroke-width="10"/>
+
+  <!-- Mask for revealing castle body -->
+  <mask id="castle-body-mask">
+    <rect x="100" y="50" width="300" height="400" fill="#fff"/>
+    <polyline points="100,50 300,50 350,150 250,150" stroke="#fff" fill="transparent" stroke-width="10"/>
+  </mask>
+
+  <!-- Gradient for towers -->
+  <linearGradient id="castle-tower-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(139,125,107); stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Apply mask to castle body -->
+  <use xlink:href="#castle-body" y="50" mask="url(#castle-body-mask)"/>
+
+</svg>

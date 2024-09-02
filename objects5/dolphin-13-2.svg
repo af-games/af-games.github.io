@@ -1,0 +1,13 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100 20 Q150 70, 200 140 A80 80 0 0 1 280 70 Q330 160, 400 100" stroke="black" fill="lightblue"/>
+
+  <!-- Tail -->
+  <path d="M400 100 Q450 50, 500 100 A50 50 0 0 0 425 175" stroke="black" fill="lightblue"/>
+
+  <!-- Fin -->
+  <path d="M360 90 Q380 60, 400 90 Q380 120, 360 90" stroke="black" fill="lightblue"/>
+
+  <!-- Head -->
+  <ellipse cx="75" cy="75" rx="50" ry="75" stroke="black" fill="lightblue"/>
+</svg>

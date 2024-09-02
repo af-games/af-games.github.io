@@ -1,0 +1,49 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#F7DC6F"/>
+
+  <!-- Border -->
+  <rect x="10" y="10" width="480" height="480" stroke="#CC8833" stroke-width="20"/>
+
+  <!-- Head (circle) -->
+  <circle cx="50" cy="75" r="50" fill="#F5D7AA"/>
+
+  <!-- Hair (arc with pattern) -->
+  <path d="M50,125 Q90,40 160,75 T300,125 A150,150 0 0 1 460,300" fill="#8B4513" stroke-width="0">
+    <pattern id="braid" patternUnits="userSpaceOnUse" width="30" height="10">
+      <path d="M0,5 L30,0 L0,10 Z"/>
+      <rect width="30" height="10" fill="#8B4513"/>
+    </pattern>
+    <mask id="hair-mask">
+      <rect x="0" y="0" width="300" height="200" fill="#FFFFFF"/>
+      <path d="M50,125 Q90,40 160,75 T300,125 A150,150 0 0 1 460,300" fill="#000000"/>
+    </mask>
+    <use xlink:href="#braid" mask="url(#hair-mask)" />
+  </path>
+
+  <!-- Body (semi-circle) -->
+  <path d="M250,75 Q460,100 300,300" fill="#F5D7AA"/>
+
+  <!-- Tail (serpentine path with gradient and stripes) -->
+  <defs>
+    <linearGradient id="tail-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C69A5; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0E2B42; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path d="M300,300 Q370,360 450,320 Q520,390 600,350" fill="url(#tail-gradient)">
+    <animate attributeName="d"
+             values="
+              M300,300 Q370,360 450,320;
+              M300,300 Q380,350 460,310;
+              M300,300 Q390,340 470,320;
+              M300,300 Q370,360 450,320"
+             dur="5s" repeatCount="indefinite"/>
+    <pattern id="tail-stripes" patternUnits="userSpaceOnUse" width="10" height="1">
+      <rect width="10" height="1" fill="#FFFFFF"/>
+    </pattern>
+    <use xlink:href="#tail-stripes" />
+  </path>
+
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450">
+
+  <!-- Balloon 1 (Red Heart) -->
+  <path d="M100,75 Q120,30 160,75 Q180,30 200,75" fill="red" />
+  <circle cx="130" cy="40" r="15" fill="white" />
+
+  <!-- Balloon 2 (Blue Circle) -->
+  <circle cx="250" cy="60" r="40" fill="blue" />
+
+  <!-- Balloon 3 (Green Triangle) -->
+  <polygon points="340,20 380,120 320,170" fill="green" />
+
+  <!-- Leaves -->
+  <path d="M50,190 Q60,210 50,230" stroke="green" fill="transparent" />
+  <path d="M80,170 Q90,190 80,210" stroke="green" fill="transparent" />
+
+  <!-- Stems -->
+  <rect x="45" y="260" width="3" height="70" fill="brown" />
+  <rect x="75" y="240" width="3" height="80" fill="brown" />
+
+  <!-- Vase -->
+  <path d="M10,390 Q40,410 90,390 H310 Q360,410 410,390 V250 Q410,230 360,210 Q290,230 240,250 Q190,230 140,210 Q90,230 40,250 V390 Z" fill="#F8D7AA" stroke="#6B4226" fill-rule="evenodd"/>
+
+  <!-- Water Gradient -->
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,64,128);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="10" y="370" width="390" height="20" fill="url(#waterGradient)" />
+
+</svg>

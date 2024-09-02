@@ -1,0 +1,20 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake -->
+  <rect x="175" y="50" width="150" height="180" fill="#f8eae1"/>
+  <circle cx="210" cy="90" r="40" fill="#fff"/>
+  <path d="M200,130 Q175,160 150,210 Q200,220 250,210 Q280,160 255,130" stroke="#f4a493" fill="none"/>
+  <circle cx="210" cy="270" r="20" fill="#fff"/>
+
+  <!-- Frosting -->
+  <path d="M175,180 Q160,200 150,220 Q175,240 200,220 Q225,200 200,180" stroke="#f4a493" fill="none"/>
+
+  <!-- Candles -->
+  <rect x="185" y="265" width="5" height="20" fill="#ffcc00"/>
+  <rect x="220" y="265" width="5" height="20" fill="#ffcc00"/>
+
+  <!-- Birthday Balloons -->
+  <circle cx="140" cy="300" r="20" fill="#ff99cc"/>
+  <circle cx="270" cy="300" r="20" fill="#ff99cc"/>
+
+</svg>

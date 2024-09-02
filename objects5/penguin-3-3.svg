@@ -1,0 +1,33 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <g fill="#A9D6E5">
+    <rect x="60" y="80" width="80" height="120" rx="40"/>
+  </g>
+
+  <!-- Head -->
+  <circle cx="120" cy="110" r="30" fill="#FFFFFF"/>
+
+  <!-- Tummy -->
+  <circle cx="95" cy="170" r="25" fill="#FFD65B"/>
+
+  <!-- Beak -->
+  <path d="M85 140 Q110 160, 135 150" stroke="#FFD65B" fill="transparent"/>
+
+  <!-- Wings -->
+  <g>
+    <!-- Left Wing -->
+    <path d="M70 90 Q50 120, 80 140" stroke="#A9D6E5" fill="transparent"/>
+    <!-- Right Wing -->
+    <path d="M150 90 Q130 120, 140 140" stroke="#A9D6E5" fill="transparent"/>
+  </g>
+
+  <!-- Feet -->
+  <g>
+    <!-- Left Foot -->
+    <path d="M75 190 Q90 200, 85 210" stroke="#A9D6E5" fill="transparent"/>
+    <!-- Right Foot -->
+    <path d="M145 190 Q130 200, 140 210" stroke="#A9D6E5" fill="transparent"/>
+  </g>
+
+</svg>

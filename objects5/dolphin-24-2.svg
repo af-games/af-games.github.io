@@ -1,0 +1,31 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M150 20 Q200 75, 250 20 Q300 75, 350 20 Q400 75, 450 20 L400 150 L350 200 Q300 250, 250 200 Q200 250, 150 200 L150 150 Z"
+        fill="url(#dolphinGradient)" stroke-width="1" stroke="black"/>
+
+  <!-- Fin -->
+  <path d="M175 160 Q200 200, 230 160 Q250 200, 280 160 L275 200 L230 240 Z"
+        fill="url(#dolphinGradient)" stroke-width="1" stroke="black"/>
+
+  <!-- Tail -->
+  <path d="M360 20 Q390 50, 410 20 Q420 50, 430 75 L425 100 L400 125 Z"
+        fill="url(#dolphinGradient)" stroke-width="1" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="125" cy="60" r="50" fill="url(#dolphinGradient)"/>
+  <path d="M75 30 Q90 10, 125 30 L140 10 Z"
+        fill="url(#dolphinGradient)" stroke-width="1" stroke="black"/>
+
+  <!-- Eyes -->
+  <circle cx="105" cy="45" r="5"/>
+  <circle cx="115" cy="45" r="5"/>
+
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="dolphinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:blue; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:white; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:lightblue; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

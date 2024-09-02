@@ -1,0 +1,25 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#dedede"/>
+
+  <!-- Owl's Realm Boundary -->
+  <path d="M100,50 Q200,0 300,50 T500,100 Q700,200 800,150 V450 Q700,600 300,700 H100 Z" fill="#fff" stroke="#000"/>
+
+  <!-- Major Landmarks -->
+  <circle cx="200" cy="200" r="50" fill="#f89406"/> <!-- Tower of Wisdom -->
+  <polygon points="350,150 400,100 350,50" fill="#ff6347"/> <!-- The Great Temple -->
+  <circle cx="600" cy="400" r="80" fill="#90ee90"/> <!-- The Ancient Oasis -->
+
+  <!-- Rivers -->
+  <path d="M150,250 Q250,350 350,250" stroke="#00bfff" stroke-width="10"/>
+
+  <!-- Roads -->
+  <path d="M100,400 H200 V500 H300 Z" stroke="#f4a460" stroke-width="8"/>
+  <path d="M400,300 Q500,200 600,300" stroke="#f4a460" stroke-width="8"/>
+
+  <!-- Points of Interest -->
+  <circle cx="150" cy="350" r="20" fill="#ffa500"/> <!-- Owl's Nest -->
+  <rect x="500" y="500" width="100" height="50" fill="#87cefa"/> <!-- The Secret Library -->
+
+</svg>

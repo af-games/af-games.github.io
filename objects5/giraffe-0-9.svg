@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 400 400">
+  <defs>
+    <linearGradient id="sunlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,223,94);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Scene 1: In the Savannah -->
+  <circle cx="0" cy="100" r="60" fill="#8B4513" />
+  <text x="-70" y="90">Giraffe stands tall</text>
+  <circle cx="-60" cy="120" r="20" fill="#D2691E"/>
+  <circle cx="60" cy="120" r="20" fill="#D2691E"/>
+
+  <!-- Scene 2: The Windstorm -->
+  <path d="M-50,-80 Q0,-120 -50,-140" stroke="#4A4A4A" fill="transparent"/>
+  <text x="-70" y="70">Strong winds blow</text>
+  <rect width="20" height="30" x="-90" y="80" fill="#D2691E" rx="5"/>
+  <text x="-95" y="95">Animals shelter</text>
+
+  <!-- Scene 3: Giraffe's Discovery -->
+  <circle cx="0" cy="40" r="60" fill="#8B4513"/>
+  <path d="M-70,20 Q0,-20 -70,-60" stroke="#4A4A4A" fill="transparent"/>
+  <text x="-75" y="35">Giraffe lands</text>
+  <circle cx="70" cy="120" r="20" fill="#8BC9B5"/>
+  <text x="65" y="130">Hidden oasis</text>
+
+  <!-- Scene 4: The News Spreads -->
+  <circle cx="-60" cy="60" r="30" fill="#D2691E"/>
+  <circle cx="60" cy="60" r="30" fill="#D2691E"/>
+  <text x="-70" y="55">News spreads</text>
+
+  <!-- Scene 5: Celebration -->
+  <circle cx="0" cy="100" r="80" fill="#FFD34A" stroke="url(#sunlight)" stroke-width="2"/>
+  <circle cx="-60" cy="90" r="20" fill="#D2691E"/>
+  <circle cx="60" cy="90" r="20" fill="#D2691E"/>
+  <text x="-75" y="85">Celebration</text>
+
+</svg>

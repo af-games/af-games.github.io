@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,10 Q140,10 150,40 Q160,80 140,90 Q120,80 100,40 Q60,10 40,40"
+        fill="lightblue" stroke="black"/>
+
+  <!-- Wings -->
+  <path d="M70,30 L30,50 L70,70 Z"
+        fill="pink"/>
+  <path d="M130,30 L170,50 L130,70 Z"
+        fill="pink"/>
+
+  <!-- Antennae -->
+  <line x1="90" y1="30" x2="90" y2="10"/>
+  <line x1="110" y1="30" x2="110" y2="10"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="40" r="5" fill="black"/>
+  <circle cx="115" cy="40" r="5" fill="black"/>
+
+</svg>

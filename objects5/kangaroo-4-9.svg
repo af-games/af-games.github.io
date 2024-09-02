@@ -1,0 +1,29 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kangaroo's body -->
+  <path id="kangarooBody" d="M100,200 Q90,250 100,300 Q110,250 100,200 Z"
+        fill="brown">
+    <!-- Animate kangaroo's body movement -->
+    <animate attributeName="d" dur="1s"
+             values="M100,200 Q90,250 100,300 Q110,250 100,200 Z;
+                    M140,200 Q130,250 140,300 Q150,250 140,200 Z"
+             begin="indefinite" repeatCount="indefinite" />
+  </path>
+
+  <!-- Kangaroo's tail -->
+  <path id="kangarooTail" d="M80,300 Q90,320 80,340"
+        fill="brown">
+    <!-- Animate kangaroo's tail movement -->
+    <animate attributeName="d" dur="1s"
+             values="M80,300 Q90,320 80,340;
+                    M70,300 Q60,320 70,340"
+             begin="indefinite" repeatCount="indefinite" />
+  </path>
+
+  <!-- Kangaroo's pouch -->
+  <circle id="kangarooPouch" cx="105" cy="280" r="15" fill="orange">
+    <!-- Animate kangaroo's pouch movement -->
+    <animate attributeName="cy" dur="1s"
+             values="280; 290; 280"
+             begin="indefinite" repeatCount="indefinite" />
+  </circle>
+</svg>

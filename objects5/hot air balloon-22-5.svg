@@ -1,0 +1,15 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon envelope -->
+  <ellipse cx="150" cy="80" rx="120" ry="200"
+           fill="black"/>
+  <circle cx="150" cy="40" r="70" fill="black"/>
+
+  <!-- Basket -->
+  <polygon points="190,360 210,360 180,320"
+           fill="black"/>
+
+  <!-- Flame (optional) -->
+  <path d="M155,320 Q140,340 155,360 Q170,340 155,320" fill="orange"/>
+
+</svg>

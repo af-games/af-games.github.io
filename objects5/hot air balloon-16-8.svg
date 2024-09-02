@@ -1,0 +1,48 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="500" height="350" fill="#FFF7E6"/>
+
+<!-- Tablecloth -->
+<rect x="50" y="100" width="400" height="250" fill="#F8EDE4"/>
+
+<!-- Hot Air Balloon -->
+<g id="balloon-group">
+  <!-- Basket -->
+  <rect x="375" y="50" width="60" height="70" fill="#CBBEA5"/>
+
+  <!-- Envelope -->
+  <path d="M285,10 C285,35 300,70 320,70 S345,35 345,10 Z"
+        fill="#FFC126" stroke="#E99F0D"/>
+
+  <!-- Burner -->
+  <circle cx="310" cy="80" r="15" fill="#FFA500"/>
+</g>
+
+<!-- Sauce Drizzle -->
+<path d="M70,200 Q100,160 140,200"
+      stroke="#8B5CB9" stroke-width="5" fill="transparent"/>
+
+<!-- Garnish - Fresh Herbs -->
+<circle cx="130" cy="150" r="7" fill="#28B463"/>
+<circle cx="160" cy="140" r="5" fill="#28B463"/>
+
+<!-- Side Salad -->
+<polygon points="20,220 90,220 50,270"
+          fill="#D1ECBE"/>
+<circle cx="30" cy="240" r="10" fill="#FDD83C"/>
+
+<!-- Utensils - Fork & Knife -->
+<g id="utensil-group">
+  <!-- Fork -->
+  <polygon points="15,300 35,300 25,330"
+           stroke="#000" fill="#FFF"/>
+  <!-- Knife -->
+  <path d="M60,300 Q90,320 120,300"
+        stroke="#000" fill="transparent"/>
+</g>
+
+<!-- Hot Air Balloon Shadow -->
+<use xlink:href="#balloon-group" y="5" opacity="0.1"/>
+
+</svg>

@@ -1,0 +1,23 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#FFF4E6"/>
+
+  <!-- Basket -->
+  <polygon points="75,475 125,475 100,525" fill="#8B4513" stroke="#693D14" stroke-width="2"/>
+  <rect x="75" y="525" width="50" height="25" fill="#E6BA83"/>
+
+  <!-- Envelope -->
+  <path d="M25,125 Q125,75 250,125 Q125,175 25,225" stroke-width="4" stroke="#FFC976"/>
+  <path d="M25,125 Q125,75 250,125 Q125,175 25,225" fill="#FFF4E6"/>
+
+  <!-- Rim -->
+  <circle cx="187.5" cy="193.75" r="43.75" stroke-width="4" stroke="#FFC976"/>
+  <path d="M187.5,200 A43.75,43.75 0 1,0 187.5,186" fill="#E6BA83"/>
+
+  <!-- Strings -->
+  <line x1="75" y1="225" x2="75" y2="450" stroke-width="3" stroke="#8B4513"/>
+  <line x1="250" y1="225" x2="250" y2="450" stroke-width="3" stroke="#8B4513"/>
+
+  <!-- Flame -->
+  <polygon points="175,275 225,275 200,325" fill="#FF6F0E"/>
+</svg>

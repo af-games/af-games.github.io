@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Body -->
+  <rect x="100" y="150" width="300" height="400" fill="#F8D7AA" stroke="#A52A2A" stroke-width="5"/>
+  <linearGradient id="bodyGrad" gradientTransform="rotate(90)">
+    <stop offset="0%" style="stop-color:#F8D7AA; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#E2A64C; stop-opacity:.5" />
+  </linearGradient>
+  <rect x="100" y="150" width="300" height="400" fill="url(#bodyGrad)" stroke="#A52A2A"/>
+
+  <!-- Head -->
+  <ellipse cx="250" cy="175" rx="125" ry="175" fill="#F8D7AA" stroke="#A52A2A"/>
+  <linearGradient id="headGrad">
+    <stop offset="0%" style="stop-color:#F8D7AA; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#E2A64C; stop-opacity:.5" />
+  </linearGradient>
+  <ellipse cx="250" cy="175" rx="125" ry="175" fill="url(#headGrad)" stroke="#A52A2A"/>
+
+  <!-- Legs -->
+  <rect x="130" y="425" width="20" height="150" fill="#A52A2A"/>
+  <rect x="370" y="425" width="20" height="150" fill="#A52A2A"/>
+
+  <!-- Neck -->
+  <path d="M250,325 Q280,260 320,325" stroke="#A52A2A" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="210" cy="140" r="20" fill="#FFFFFF"/>
+  <circle cx="290" cy="140" r="20" fill="#FFFFFF"/>
+  <circle cx="210" cy="140" r="15" fill="#000000"/>
+  <circle cx="290" cy="140" r="15" fill="#000000"/>
+
+  <!-- Mane -->
+  <path d="M230,80 Q250,60 270,80" stroke="#A52A2A" fill="transparent"/>
+  <path d="M230,90 Q250,100 270,90" stroke="#A52A2A" fill="transparent"/>
+
+</svg>

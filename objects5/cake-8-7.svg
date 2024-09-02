@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <!-- Landmass -->
+  <rect x="50" y="50" width="400" height="200"
+        style="fill:rgb(128,255,0);stroke-width:2;stroke:rgb(0,0,0)"/>
+
+  <!-- Circular landmark (Cake Center) -->
+  <circle cx="250" cy="150" r="40" fill="red"/>
+  <text x="230" y="165" font-family="Verdana" font-size="18">Cake Center</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background grid -->
+<rect x="50" y="50" width="500" height="300" fill="#ddd" stroke="#ccc"/>
+
+<!-- Clues (small circles) -->
+<circle cx="150" cy="150" r="5" fill="#f00"/>
+<circle cx="250" cy="70" r="5" fill="#f00"/>
+<circle cx="350" cy="200" r="5" fill="#f00"/>
+
+<!-- Suspects (medium rectangles) -->
+<rect x="100" y="200" width="80" height="40" fill="#ffa500"/>
+<rect x="230" y="130" width="80" height="40" fill="#ffa500"/>
+
+<!-- Culprits (large triangles) -->
+<polygon points="400,50 500,50 450,100" fill="#0f0"/>
+<polygon points="320,270 270,320 360,320" fill="#0f0"/>
+
+<!-- Labels -->
+<text x="140" y="170" font-family="Verdana" font-size="12">Blood</text>
+<text x="240" y="90" font-family="Verdana" font-size="12">Shark tooth</text>
+<text x="340" y="220" font-family="Verdana" font-size="12">Human bone fragment</text>
+
+<text x="150" y="240" font-family="Verdana" font-size="16">Suspect 1 - Golden Retriever</text>
+<text x="280" y="170" font-family="Verdana" font-size="16">Suspect 2 - Lighthouse Keeper</text>
+
+<text x="450" y="90" font-family="Verdana" font-size="16">Culprit 1 - Nurse Shark (Motive: Territory)</text>
+<text x="340" y="340" font-family="Verdana" font-size="16">Culprit 2 - Scuba Diver (Alibi: Deep sea dive)</text>
+
+</svg>

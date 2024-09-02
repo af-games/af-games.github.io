@@ -1,0 +1,38 @@
+<svg width="100%" height="560" viewBox="0 0 900 560" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Colors -->
+    <linearGradient id="iglooGradient" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:.8"/>
+      <stop offset="50%" style="stop-color:#97d3f4;stop-opacity:.6"/>
+      <stop offset="100%" style="stop-color:#7acdc4;stop-opacity:.4"/>
+    </linearGradient>
+    <linearGradient id="iceGradient" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c6f8ff;stop-opacity:.9"/>
+      <stop offset="50%" style="stop-color:#b3e7eb;stop-opacity:.8"/>
+      <stop offset="100%" style="stop-color:#aec7cd;stop-opacity:.7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Igloo -->
+  <circle cx="450" cy="280" r="200" fill="url(#iglooGradient)" stroke="#333" stroke-width="10"/>
+
+  <!-- Ice paths for animation -->
+  <path id="icePath1" d="M260,290 Q300,340 340,290"/>
+  <path id="icePath2" d="M440,290 Q480,340 520,290"/>
+
+  <!-- Beats and transitions -->
+  <circle cx="100" cy="370" r="10" fill="#fff"/>
+  <circle cx="260" cy="370" r="10" fill="#fff">
+    <animate attributeName="cx" values="260;300;260" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <!-- More beats and transitions... Up to bar 8 -->
+
+  <!-- Animations for ice paths -->
+  <animateMotion id="iceAnimation1" xlink:href="#icePath1">
+    <mpath href="#icePath1"/>
+  </animateMotion>
+  <animateMotion id="iceAnimation2" xlink:href="#icePath2">
+    <mpath href="#icePath2"/>
+  </animateMotion>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+
+  <!-- Quilt background -->
+  <rect width="600" height="400" fill="#ADD8E6"/>
+
+  <!-- Patches -->
+  <g stroke="black" stroke-width="5">
+    <!-- Red patch -->
+    <rect x="50" y="50" width="100" height="100" fill="#FF0000"/>
+    <!-- Yellow patch -->
+    <rect x="200" y="50" width="100" height="100" fill="#FFFF00"/>
+    <!-- Green patch -->
+    <rect x="350" y="50" width="100" height="100" fill="#00FF00"/>
+    <!-- Blue patch -->
+    <rect x="50" y="200" width="100" height="100" fill="#0000FF"/>
+    <!-- Orange patch -->
+    <rect x="200" y="200" width="100" height="100" fill="#FFA500"/>
+    <!-- Purple patch -->
+    <rect x="350" y="200" width="100" height="100" fill="#800080"/>
+  </g>
+
+  <!-- Stitches -->
+  <g stroke="#72412F" stroke-width="3">
+    <!-- Top-left to top-right stitch -->
+    <polygon points="50,50 150,25 250,50"/>
+
+    <!-- ... repeat for other stitches using similar patterns ... -->
+
+  </g>
+
+</svg>

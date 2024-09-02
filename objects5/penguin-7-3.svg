@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200">
+  <!-- Body -->
+  <rect x="40" y="60" width="70" height="90" fill="#A9D6E5"/>
+
+  <!-- Head -->
+  <circle cx="75" cy="80" r="30" fill="#FFFFFF"/>
+  <clipPath id="headClip">
+    <circle cx="75" cy="80" r="30"/>
+  </clipPath>
+
+  <!-- Face (Eye and Beak) -->
+  <g clip-path="url(#headClip)">
+    <!-- Eye -->
+    <circle cx="65" cy="70" r="5" fill="#000000"/>
+    <!-- Beak -->
+    <path d="M65,90 Q70,100 75,80 L80,90 H65 Z" fill="#FFC300"/>
+  </g>
+
+  <!-- Feet -->
+  <circle cx="45" cy="150" r="20" fill="#A9D6E5"/>
+  <circle cx="105" cy="150" r="20" fill="#A9D6E5"/>
+
+</svg>

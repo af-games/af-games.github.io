@@ -1,0 +1,58 @@
+<svg width="800px" height="600px" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect id="background" x="0" y="0" width="100%" height="100%" fill="url(#gradient)" />
+
+  <!-- Ocean -->
+  <ellipse cx="400" cy="500" rx="380" ry="250" fill="url(#oceanGradient)">
+    <animateTransform attributeName="transform"
+                      type="rotate"
+                      from="0 400 500"
+                      to="360 400 500"
+                      dur="10s"
+                      repeatCount="indefinite" />
+  </ellipse>
+
+  <!-- Stage -->
+  <rect id="stage" x="100" y="250" width="600" height="300" fill="#2C3E50" />
+
+  <!-- Main Action Area (Pool) -->
+  <rect id="pool" x="170" y="300" width="460" height="200" fill="url(#waterGradient)">
+    <animate attributeName="opacity"
+             values="1;0.8;1"
+             dur="5s"
+             repeatCount="indefinite" />
+  </rect>
+
+  <!-- Dolphin Props -->
+  <circle id="dolphin1" cx="270" cy="400" r="50" fill="#39A6D7">
+    <animate attributeName="cy"
+             values="400;380;400"
+             dur="2s"
+             repeatCount="indefinite" />
+  </circle>
+
+  <circle id="dolphin2" cx="450" cy="420" r="40" fill="#39A6D7">
+    <animate attributeName="cy"
+             values="420;400;420"
+             dur="2.5s"
+             repeatCount="indefinite" />
+  </circle>
+
+  <!-- Lighting Effects -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(54,89,137);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(30,61,94);stop-opacity:1" />
+    </linearGradient>
+
+    <radialGradient id="oceanGradient" cx="50%" cy="80%" r="50%" fx="50%" fy="80%">
+      <stop offset="0%" style="stop-color:rgb(34,153,227);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(9,68,121);stop-opacity:1" />
+    </radialGradient>
+
+    <linearGradient id="waterGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(34,153,227);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(9,68,121);stop-opacity:0.5" />
+    </linearGradient>
+  </defs>
+</svg>

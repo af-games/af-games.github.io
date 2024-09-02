@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Landmass -->
+  <rect x="100" y="100" width="300" height="300"
+        style="fill:lightgreen;stroke:black;stroke-width:2"/>
+
+  <!-- Islands -->
+  <circle cx="200" cy="250" r="40"
+          style="fill:lightgreen;stroke:black;stroke-width:1"/>
+  <circle cx="350" cy="320" r="30"
+          style="fill:lightgreen;stroke:black;stroke-width:1"/>
+
+  <!-- Rivers -->
+  <polyline points="160,140 220,90 310,150"
+            style="fill:transparent;stroke:blue;stroke-width:8"/>
+  <polyline points="370,270 430,310 470,240"
+            style="fill:transparent;stroke:blue;stroke-width:8"/>
+
+  <!-- Lake -->
+  <path d="M160,220 Q250,150 350,220 Q450,300 400,370"
+        style="fill:aqua;stroke:black;stroke-width:2"/>
+
+</svg>

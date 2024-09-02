@@ -1,0 +1,32 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#90ee90"/>
+
+  <!-- Trees -->
+  <g id="trees">
+    <!-- Tree 1 -->
+    <polygon points="230,70 260,40 290,70"
+             style="fill:green;stroke:black;stroke-width:1" transform="rotate(15 260 80)"/>
+
+    <!-- Tree 2 -->
+    <polygon points="280,230 310,190 340,230"
+             style="fill:green;stroke:black;stroke-width:1" transform="rotate(15 310 260)"/>
+  </g>
+
+  <!-- Fairy 1 -->
+  <circle cx="100" cy="80" r="20" fill="#ffcc99">
+    <animate attributeName="cy" dur="2s" values="80;140;80" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Fairy 2 -->
+  <circle cx="400" cy="370" r="20" fill="#ffcc99">
+    <animate attributeName="cy" dur="2s" values="370;430;370" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Toadstool -->
+  <ellipse cx="150" cy="180" rx="40" ry="60" fill="#ffa500">
+    <animate attributeName="cx" dur="2s" values="150;210;150" repeatCount="indefinite"/>
+  </ellipse>
+
+</svg>

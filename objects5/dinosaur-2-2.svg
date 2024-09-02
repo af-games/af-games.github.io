@@ -1,0 +1,23 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Body -->
+  <rect x="100" y="100" width="200" height="200" fill="#778899"/>
+  <path d="M150,100 Q200,50 250,100 H300 V200 H250 Z" fill="#646C72"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="120" r="80" fill="#9AA5A9"/>
+  <path d="M160,70 Q200,30 240,70" stroke="#3D4C53" stroke-width="10"/>
+
+  <!-- Tail -->
+  <path d="M320,180 Q360,240 400,180" fill="#778899"/>
+  <rect x="350" y="150" width="50" height="100" fill="#646C72"/>
+
+  <!-- Legs -->
+  <path d="M120,280 Q100,320 140,360" stroke="#3D4C53" stroke-width="10"/>
+  <path d="M220,280 Q200,320 260,360" stroke="#3D4C53" stroke-width="10"/>
+  <path d="M320,280 Q300,320 360,360" stroke="#3D4C53" stroke-width="10"/>
+
+  <!-- Arms -->
+  <path d="M170,220 Q150,260 190,300" stroke="#3D4C53" stroke-width="10"/>
+  <path d="M230,220 Q250,260 210,300" stroke="#3D4C53" stroke-width="10"/>
+
+</svg>

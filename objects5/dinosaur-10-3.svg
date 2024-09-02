@@ -1,0 +1,19 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define linear gradient -->
+  <defs>
+    <linearGradient id="dinoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(64,64,64);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(32,32,32);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dinosaur outline -->
+  <path id="dinoOutline" d="M50,40 Q70,10 150,40 Q200,80 260,90 L300,120 Q350,150 400,140 Q430,90 500,80 Q570,10 650,40 Q700,80 770,100 L800,150 Q820,200 750,220 Q680,250 600,230 Q530,270 450,290 Q380,320 300,310 Z"
+    fill="url(#dinoGradient)" stroke="none"/>
+
+  <!-- Body interior -->
+  <rect id="dinoBody" x="160" y="80" width="240" height="150" fill="#4a4a4a"/>
+  <circle id="dinoTail" cx="700" cy="190" r="30" fill="#4a4a4a"/>
+
+</svg>

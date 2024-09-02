@@ -1,0 +1,28 @@
+<svg viewBox="0 0 250 600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Kangaroo Body -->
+<ellipse cx="100" cy="250" rx="100" ry="150" fill="#8B4513"/>
+
+<!-- Head -->
+<ellipse cx="125" cy="150" rx="37.5" ry="37.5" fill="#8B4513"/>
+<circle cx="125" cy="140" r="15" fill="#FFFFFF"/>
+
+<!-- Ears -->
+<polygon points="80,125 120,165 80,165" fill="#A9C6C9"/>
+<polygon points="170,125 130,165 170,165" fill="#A9C6C9"/>
+
+<!-- Arms -->
+<ellipse cx="90" cy="300" rx="10" ry="10" fill="#A9C6C9"/>
+<ellipse cx="180" cy="300" rx="10" ry="10" fill="#A9C6C9"/>
+
+<!-- Legs -->
+<rect x="70" y="400" width="40" height="80" fill="#A9C6C9"/>
+<rect x="160" y="400" width="40" height="80" fill="#A9C6C9"/>
+
+<!-- Tail -->
+<line x1="125" y1="375" x2="125" y2="600" stroke="#A9C6C9" stroke-width="10"/>
+
+<!-- Pouch -->
+<path d="M80,400 Q100,450 125,400 T150,450 Q170,400 160,400 Z" fill="#CD7F32"/>
+
+</svg>

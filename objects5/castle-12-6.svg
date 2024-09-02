@@ -1,0 +1,25 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0" y="0" width="600" height="400" fill="#f0ead6"/>
+    <rect x="150" y="50" width="300" height="300" fill="#d8b791"/>
+    <rect x="20" y="50" width="40" height="300" fill="#d8b791"/>
+    <rect x="460" y="50" width="40" height="300" fill="#d8b791"/>
+    <rect x="20" y="350" width="300" height="50" fill="#d8b791"/>
+
+    <polygon points="170,40 270,40 220,100" fill="#8a4e2c"/>
+    <polygon points="50,40 100,40 65,100" fill="#8a4e2c"/>
+    <polygon points="440,40 370,40 405,100" fill="#8a4e2c"/>
+
+    <circle cx="90" cy="120" r="15" fill="#ffffff"/>
+    <circle cx="270" cy="120" r="15" fill="#ffffff"/>
+    <circle cx="360" cy="120" r="15" fill="#ffffff"/>
+
+    <path d="M20,40 Q90,70 170,40" stroke="#352a22" fill="transparent"/>
+    <path d="M460,40 Q370,70 300,40" stroke="#352a22" fill="transparent"/>
+    <path d="M20,350 Q90,380 170,350" stroke="#352a22" fill="transparent"/>
+    <path d="M460,350 Q370,380 300,350" stroke="#352a22" fill="transparent"/>
+
+    <rect x="190" y="50" width="20" height="40" fill="#ff0000"/>
+    <rect x="380" y="50" width="20" height="40" fill="#ff0000"/>
+
+    <text x="50%" y="360" font-family="Verdana" font-size="36" text-anchor="middle">Castle Feast</text>
+</svg>

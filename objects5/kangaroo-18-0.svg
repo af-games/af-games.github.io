@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+<!-- Body -->
+<ellipse cx="250" cy="450" rx="180" ry="220" fill="#8B4513"/>
+<ellipse cx="250" cy="370" rx="130" ry="160" fill="#D2691E"/>
+
+<!-- Legs -->
+<rect x="100" y="400" width="50" height="150" fill="#8B4513"/>
+<rect x="350" y="400" width="50" height="250" fill="#8B4513"/>
+<rect x="100" y="600" width="50" height="50" fill="#8B4513"/>
+<rect x="350" y="600" width="50" height="50" fill="#8B4513"/>
+
+<!-- Tail -->
+<rect x="200" y="550" width="150" height="70" rx="35" fill="#8B4513"/>
+<circle cx="350" cy="620" r="35" fill="#8B4513"/>
+
+<!-- Ears -->
+<ellipse cx="150" cy="300" rx="70" ry="90" fill="#D2691E"/>
+<ellipse cx="350" cy="300" rx="70" ry="90" fill="#D2691E"/>
+
+<!-- Face -->
+<ellipse cx="250" cy="320" rx="60" ry="80" fill="#FFFFFF"/>
+<circle cx="240" cy="315" r="10" fill="#000000"/>
+<circle cx="260" cy="315" r="10" fill="#000000"/>
+<path d="M245,325 Q255,345 265,325" stroke="#000000" fill="transparent"/>
+
+</svg>

@@ -1,0 +1,27 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ancient Era (500 BCE - 1 CE) -->
+  <rect x="50" y="300" width="70" height="100" fill="#696969" stroke-width="2" stroke="#fff"/>
+  <text x="85" y="350" font-family="Verdana" font-size="14" fill="#fff">Ancient Ruins</text>
+
+  <!-- Medieval Era (7th - 15th Century CE) -->
+  <polygon points="200,300 250,200 350,300" fill="#774f38" stroke-width="2" stroke="#fff"/>
+  <text x="260" y="325" font-family="Verdana" font-size="14" fill="#fff">Medieval Castle</text>
+
+  <!-- Renaissance Era (14th - 17th Century CE) -->
+  <rect x="400" y="250" width="80" height="150" rx="30" ry="30" fill="#d9b38f" stroke-width="2" stroke="#fff"/>
+  <text x="460" y="325" font-family="Verdana" font-size="14" fill="#fff">Renaissance Palace</text>
+
+  <!-- Industrial Era (18th - 19th Century CE) -->
+  <rect x="550" y="200" width="120" height="200" fill="#a7a7a7" stroke-width="2" stroke="#fff"/>
+  <text x="630" y="325" font-family="Verdana" font-size="14" fill="#fff">Industrial Factory</text>
+
+  <!-- Futuristic Era (Present - Future) -->
+  <path d="M700,150 Q780,250 860,150 T940,300" fill="#add8e6" stroke-width="2" stroke="#fff"/>
+  <text x="750" y="225" font-family="Verdana" font-size="14" fill="#fff">Futuristic Tower</text>
+
+  <!-- Timeline -->
+  <line x1="50" y1="350" x2="950" y2="350" stroke-width="2" stroke="#ddd"/>
+  <text x="975" y="350" font-family="Verdana" font-size="14">Time (CE)</text>
+
+</svg>

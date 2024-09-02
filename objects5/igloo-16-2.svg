@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Igloo base -->
+  <rect x="-40" y="-40" width="80" height="60" fill="#FDD97B" opacity="0.8"/>
+  <rect x="-40" y="-35" width="80" height="10" fill="#CFA22F" opacity="0.5"/>
+
+  <!-- Igloo dome -->
+  <path d="M-40,-40 Q 40,-40 0,-10 Q -40,40 -40,-40" stroke="#8B7D6C" fill="#AEC6CF" opacity="0.9"/>
+  <circle cx="0" cy="-25" r="35" stroke="#8B7D6C" fill="#FDD97B" opacity="0.7"/>
+
+  <!-- Igloo entrance -->
+  <rect x="-15" y="-40" width="30" height="60" fill="#CFA22F" opacity="0.3"/>
+  <path d="M-15,-40 Q -5,-35 -15,-25 Q -25,-35 -15,-40" stroke="#8B7D6C" fill="none"/>
+
+  <!-- Igloo details -->
+  <circle cx="-10" cy="-15" r="5" fill="#8B7D6C"/>
+  <circle cx="10" cy="-15" r="5" fill="#8B7D6C"/>
+  <rect x="-35" y="-40" width="2" height="50" fill="#8B7D6C"/>
+  <rect x="33" y="-40" width="2" height="50" fill="#8B7D6C"/>
+
+</svg>

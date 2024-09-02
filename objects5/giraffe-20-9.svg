@@ -1,0 +1,55 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Introduction -->
+  <g id="introduction">
+    <circle cx="100" cy="400" r="50" fill="#987654">Gil</circle>
+    <text x="105" y="380" font-size="20">Gil discovers the world alone.</text>
+    <circle cx="200" cy="100" r="50" fill="#FFB973">Sun</circle>
+  </g>
+
+  <!-- Discovery -->
+  <g id="discovery">
+    <use href="#introduction/Gil"/>
+    <path d="M150,450 Q200,480 150,520" stroke="#693D1B" fill="transparent"/>
+    <text x="170" y="470" font-size="20">Gil finds a tiny acacia seed.</text>
+    <circle cx="150" cy="520" r="5" fill="#987654"></circle>
+  </g>
+
+  <!-- Journey Begins -->
+  <g id="journey-begins">
+    <use href="#discovery/Gil"/>
+    <path d="M150,450 Q200,300 250,400" stroke="#693D1B" fill="transparent"/>
+    <text x="270" y="420" font-size="20">Gil starts his journey.</text>
+    <circle cx="300" cy="280" r="40" fill="#3D5A80">River</circle>
+  </g>
+
+  <!-- Obstacles -->
+  <g id="obstacles">
+    <use href="#journey-begins/Gil"/>
+    <path d="M150,450 Q200,600 250,700" stroke="#693D1B" fill="transparent"/>
+    <text x="280" y="650" font-size="20">Gil faces challenges along the way.</text>
+    <circle cx="350" cy="400" r="30" fill="#FFC17A">Manni</circle>
+  </g>
+
+  <!-- Help Arrives -->
+  <g id="help-arrives">
+    <use href="#obstacles/Gil"/>
+    <path d="M250,700 Q400,800 350,900" stroke="#693D1B" fill="transparent"/>
+    <text x="420" y="870" font-size="20">Help arrives from friends.</text>
+    <circle cx="400" cy="850" r="40" fill="#A2C169">Terry</circle>
+  </g>
+
+  <!-- Planting -->
+  <g id="planting">
+    <use href="#help-arrives/Gil"/>
+    <path d="M350,900 Q500,800 400,700" stroke="#693D1B" fill="transparent"/>
+    <circle cx="420" cy="650" r="10" fill="#987654"></circle>
+    <text x="430" y="620" font-size="20">Gil plants the acacia seed.</text>
+  </g>
+
+  <!-- Celebration -->
+  <g id="celebration">
+    <use href="#planting/Gil"/>
+    <circle cx="500" cy="500" r="50" fill="#FFB973">Sun</circle>
+    <text x="600" y="480" font-size="20">Animals celebrate the new seedling.</text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M170 300 Q280 200, 390 300 Q420 400, 500 300" fill="#F39C12"/>
+
+  <!-- Head -->
+  <ellipse cx="350" cy="200" rx="60" ry="80" fill="#F39C12"/>
+
+  <!-- Legs -->
+  <rect x="170" y="400" width="20" height="100" fill="#F39C12"/>
+  <rect x="250" y="400" width="20" height="100" fill="#F39C12"/>
+  <rect x="370" y="400" width="20" height="100" fill="#F39C12"/>
+  <rect x="450" y="400" width="20" height="100" fill="#F39C12"/>
+
+  <!-- Tail -->
+  <path d="M420, 370 Q380, 450, 330, 420 Q260, 370, 230, 320" fill="#F39C12"/>
+
+  <!-- Mane -->
+  <g stroke="black" stroke-width="2">
+    <path d="M170, 250 Q240, 180, 300, 250 Q360, 320, 420, 250"/>
+    <path d="M190, 230 Q260, 160, 320, 230 Q380, 260, 440, 230"/>
+    <path d="M170, 270 Q240, 340, 300, 270 Q360, 300, 420, 270"/>
+  </g>
+
+</svg>

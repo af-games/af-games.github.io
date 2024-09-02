@@ -1,0 +1,46 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <g id="castleTower">
+    <rect x="150" y="100" width="400" height="500" fill="url(#towerGradient)" rx="50"/>
+    <circle cx="250" cy="300" r="100" fill="#553D7E"/>
+  </g>
+
+  <!-- Castle Gate -->
+  <path id="castleGate" d="M400,600 v-400 q50,-50 150,-50 Q550,250 400,100 Q250,250 100,350 V600 h50 Z" fill="url(#gateGradient)"/>
+
+  <!-- Stage Floor -->
+  <rect x="100" y="250" width="600" height="350" fill="#3B2F48"/>
+
+  <!-- Throne -->
+  <g id="throne">
+    <rect x="250" y="350" width="300" height="150" fill="url(#throneGradient)" rx="50"/>
+    <circle cx="400" cy="475" r="75" fill="#F8E6A7"/>
+  </g>
+
+  <!-- Props -->
+  <circle cx="350" cy="425" r="50" fill="#C09D55"/>
+  <rect x="450" y="400" width="100" height="50" fill="#8B7146" rx="10"/>
+
+  <!-- Lighting Effects -->
+  <defs>
+    <linearGradient id="towerGradient" gradientUnits="userSpaceOnUse" x1="250" y1="600" x2="250" y2="100">
+      <stop offset="0%" style="stop-color:#8B7D9C; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#3E416F; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="gateGradient" gradientUnits="userSpaceOnUse" x1="250" y1="550" x2="250" y2="100">
+      <stop offset="0%" style="stop-color:#A68F7D; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#433C35; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="throneGradient" gradientUnits="userSpaceOnUse" x1="350" y1="525" x2="350" y2="375">
+      <stop offset="0%" style="stop-color:#E6D8AF; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F4EDBB; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Stage Lighting (Glare) -->
+  <circle cx="375" cy="275" r="125" fill="#00000000" stroke-width="5">
+    <animate attributeName="r" values="50;125;50" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+</svg>

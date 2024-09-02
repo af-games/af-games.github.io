@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+
+  <!-- Create a circle (ball) -->
+  <circle cx="100" cy="150" r="50"
+          fill="blue" stroke="black" stroke-width="2"
+          animation="bounce 3s infinite ease-in-out" />
+
+  <!-- Define the bounce animation -->
+  <animate id="bounce" attributeName="cy" values="150;75;150"
+           dur="3s" repeatCount="indefinite" />
+
+</svg>

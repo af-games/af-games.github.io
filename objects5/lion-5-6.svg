@@ -1,0 +1,30 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="200" fill="#FFF" />
+
+  <!-- Lion face -->
+  <polygon points="100,50 150,75 50,75" fill="#FFCC33" stroke="#996600" stroke-width="4"/>
+
+  <!-- Mane -->
+  <circle cx="125" cy="25" r="25" fill="url(#maneGradient)" stroke="#996600" stroke-width="3"/>
+  <circle cx="75" cy="50" r="20" fill="url(#maneGradient)" stroke="#996600" stroke-width="3"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="40" r="15" fill="#FFF"/>
+  <circle cx="145" cy="40" r="15" fill="#FFF"/>
+  <path d="M70,35 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0" stroke="#000" stroke-width="2"/>
+
+  <!-- Nose and mouth -->
+  <polygon points="100,75 130,90 70,90" fill="#663300"/>
+  <path d="M100,80 Q115,95 125,80 T140,80" stroke="#996600" stroke-width="2"/>
+
+  <!-- Patterns and textures -->
+  <defs>
+    <linearGradient id="maneGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,239,176);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(238,204,112);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

@@ -1,0 +1,25 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <defs>
+    <linearGradient id="sunlight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="50%" style="stop-color:rgb(255,214,137);stop-opacity:1"/>
+      <stop offset="98%" style="stop-color:rgb(0,0,0);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="350" fill="url(#sunlight)"/>
+
+  <!-- Main Character -->
+  <rect id="nurseShark" x="300" y="250" width="200" height="40" rx="20" fill="#7a98b1"/>
+  <circle cx="280" cy="260" r="10" fill="#f07a7a"/> <!-- Fish 1 -->
+  <circle cx="350" cy="270" r="10" fill="#f0d77a"/> <!-- Fish 2 -->
+  <circle cx="340" cy="300" r="8" fill="#7af07a"/> <!-- Fish 3 -->
+  <circle cx="390" cy="290" r="10" fill="#f07a7a"/> <!-- Fish 4 -->
+  <circle cx="420" cy="265" r="8" fill="#7af07a"/> <!-- Fish 5 -->
+
+  <!-- Supporting Roles -->
+  <path id="turtle" d="M380 190 Q390 170 400 160 Q420 180 430 200" fill="#7a98b1"/>
+  <polygon id="coral1" points="50,70 120,60 90,100" fill="#ffb777" stroke="#fff"/>
+  <polygon id="coral2" points="430,220 480,200 450,240" fill="#ffb777" stroke="#fff"/>
+
+</svg>

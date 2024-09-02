@@ -1,0 +1,24 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <defs>
+    <linearGradient id="gradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(173,216,230);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,139);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="50" r="80" fill="url(#gradient)" />
+
+  <!-- Tentacles -->
+  <g stroke="#00008B" fill="transparent">
+    <?php for ($i = 0; $i < 12; $i++): ?>
+      <path d="M100,50 A75 75 0 <?=($i%2 == 0) ? '1' : '0'?> 1 100,<?=($i < 6) ? '175' : '25'?>" />
+    <?php endfor; ?>
+  </g>
+
+  <!-- Oral Arms -->
+  <g stroke="#00008B" fill="transparent">
+    <?php for ($i = 0; $i < 4; $i++): ?>
+      <path d="M100,50 A50 50 0 <?=($i%2 == 0) ? '1' : '0'?> 1 100,<?=($i % 2 == 0) ? '200' : '0'?>" />
+    <?php endfor; ?>
+  </g>
+</svg>

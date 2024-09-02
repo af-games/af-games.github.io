@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+```
+
+**2. Begin drawing tentative lines and shapes using `<path>` elements:**
+
+Let's start by sketching a simple dinosaur outline with a tentative head, body, tail, and legs.
+
+```svg
+<path d="M100 50 L200 100 Q300 150, 400 100 L450 150 Q550 200, 650 150 L700 100 Z" fill="none" stroke="black"/>
+```
+
+**3. Discover new features and add SVG elements:**
+
+As we venture deeper into the uncharted territory, we find more detailed features like eyes, hips, and toes. We'll use circles (`<circle>`), rectangles (`<rect>`), and other shapes to represent these features.
+
+```svg
+<!-- Eyes -->
+<circle cx="150" cy="75" r="10" fill="black"/>
+<circle cx="280" cy="75" r="10" fill="black"/>
+
+<!-- Hips -->
+<rect x="350" y="120" width="100" height="40" fill="brown"/>
+
+<!-- Legs and toes -->
+<path d="M600 150 Q650 200, 700 150 L700 300 Q750 250, 800 300" stroke="black" fill="brown"/>
+```
+
+**4. Document your journey with detailed notes:**
+
+For each discovery, we've added attributes like `cx`, `cy`, `r`, `x`, `y`, `width`, and `height` to specify the position and size of the shapes.
+
+```svg
+<!-- Eyes -->
+<circle cx="150" cy="75" r="10" fill="black"/>
+<circle cx="280" cy="75" r="10" fill="black"/>
+
+<!-- Hips -->
+<rect x="350" y="120" width="100" height="40" fill="brown"/>
+
+<!-- Legs and toes -->
+<path d="M600 150 Q650 200, 700 150 L700 300 Q750 250, 800 300" stroke="black" fill="brown"/>
+```
+
+**5. Write out the final draft using SVG tags:**
+
+Here's our completed dinosaur map:
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <path d="M100 50 L200 100 Q300 150, 400 100 L450 150 Q550 200, 650 150 L700 100 Z" fill="none" stroke="black"/>
+  <circle cx="150" cy="75" r="10" fill="black"/>
+  <circle cx="280" cy="75" r="10" fill="black"/>
+  <rect x="350" y="120" width="100" height="40" fill="brown"/>
+  <path d="M600 150 Q650 200, 700 150 L700 300 Q750 250, 800 300" stroke="black" fill="brown"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+<!-- Dolphin body -->
+<ellipse cx="250" cy="250" rx="180" ry="220"
+style="fill:#80CBC4; stroke:black; stroke-width:3"/>
+
+<!-- Tail fin -->
+<path d="M370 290 Q380 260, 370 230"
+style="fill:#3D9970; stroke:black; stroke-width:3"/>
+
+<!-- Left fin -->
+<path d="M150 240 Q170 200, 150 160"
+style="fill:#3D9970; stroke:black; stroke-width:3"/>
+
+<!-- Head and eye -->
+<ellipse cx="80" cy="180" rx="60" ry="65"
+style="fill:#80CBC4; stroke:black; stroke-width:3"/>
+<circle cx="90" cy="170" r="10"
+style="fill:white; stroke:black; stroke-width:2"/>
+
+<!-- Body details -->
+<path d="M150 260 Q180 280, 210 260"
+style="fill:#3D9970; stroke:black; stroke-width:3"/>
+<path d="M180 240 Q210 260, 250 240"
+style="fill:#3D9970; stroke:black; stroke-width:3"/>
+
+</svg>

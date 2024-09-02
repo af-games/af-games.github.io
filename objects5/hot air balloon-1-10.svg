@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 600 600">
+
+<!-- BAR 1 -->
+<rect x="0" y="0" width="75" height="40" fill="#8DC63C"/>
+<path d="M75,0 Q225,60 450,0 T750" stroke="#4A90E2" fill="transparent"/>
+
+<!-- BAR 2 -->
+<rect x="75" y="0" width="75" height="40" fill="#FFA500"/>
+<path d="M150,0 Q300,60 450,0 T750" stroke="#8DC63C" fill="transparent"/>
+
+<!-- BAR 3 -->
+<rect x="150" y="0" width="75" height="40" fill="#4A90E2"/>
+<path d="M225,0 Q375,60 450,0 T750" stroke="#FFA500" fill="transparent"/>
+
+<!-- BAR 4 -->
+<rect x="225" y="0" width="75" height="40" fill="#8DC63C"/>
+<path d="M300,0 Q450,60 450,0 T750" stroke="#4A90E2" fill="transparent"/>
+
+<!-- BAR 5 -->
+<rect x="300" y="0" width="75" height="40" fill="#FFA500"/>
+<path d="M375,0 Q525,60 450,0 T750" stroke="#8DC63C" fill="transparent"/>
+
+<!-- BAR 6 -->
+<rect x="375" y="0" width="75" height="40" fill="#4A90E2"/>
+<path d="M450,0 Q600,60 450,0 T750" stroke="#FFA500" fill="transparent"/>
+
+<!-- BAR 7 -->
+<rect x="450" y="0" width="75" height="40" fill="#8DC63C"/>
+<path d="M525,0 Q675,60 450,0 T750" stroke="#4A90E2" fill="transparent"/>
+
+<!-- BAR 8 -->
+<rect x="525" y="0" width="75" height="40" fill="#FFA500"/>
+<path d="M600,0 Q750,60 450,0 T750" stroke="#8DC63C" fill="transparent"/>
+
+<!-- Hot Air Balloon -->
+<circle cx="150" cy="200" r="90" fill="#FFD700"/>
+<path d="M150,290 Q225,350 300,290 H450 Q425,350 375,290 V160 Z" stroke="#FFD700" fill="#FFD700"/>
+<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Verdana" font-size="48">Hot Air Balloon</text>
+
+<!-- Animations -->
+<animateTransform attributeName="transform" type="scale" from="1 1" to="1.2 1.2" begin="0s" dur="5s" repeatCount="indefinite"/>
+<animateMotion path="M75,0 Q225,60 450,0 T750;M75,0 Q300,60 450,0 T750;" begin="0s" dur="16s" repeatCount="indefinite"/>
+
+</svg>

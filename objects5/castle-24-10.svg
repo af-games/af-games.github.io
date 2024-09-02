@@ -1,0 +1,43 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Start point -->
+  <circle cx="100" cy="500" r="5" fill="#f00" id="start"/>
+
+  <!-- Path to the castle gate -->
+  <line x1="100" y1="500" x2="300" y2="450" stroke="#000" stroke-width="5"/>
+  <text x="350" y="480" font-size="24">Castle Gate</text>
+
+  <!-- Castle gate -->
+  <rect x="250" y="400" width="100" height="200" fill="#666"/>
+  <use href="#start" cx="375" cy="600"/>
+
+  <!-- Path to the courtyard -->
+  <line x1="300" y1="450" x2="500" y2="450" stroke="#000" stroke-width="5"/>
+  <text x="550" y="480" font-size="24">Courtyard</text>
+
+  <!-- Courtyard -->
+  <rect x="450" y="350" width="200" height="300" fill="#ccc"/>
+  <use href="#start" cx="600" cy="500"/>
+
+  <!-- Path to the tower -->
+  <line x1="600" y1="500" x2="700" y2="400" stroke="#000" stroke-width="5"/>
+  <text x="750" y="480" font-size="24">Tower</text>
+
+  <!-- Tower -->
+  <polygon points="650,350 750,350 750,550 650,550" fill="#999"/>
+  <use href="#start" cx="725" cy="450"/>
+
+  <!-- Apply filters for visual effects -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Apply glow filter to landmarks -->
+  <use href="#start" cx="100" cy="500" style="filter:url(#glow)"/>
+
+</svg>

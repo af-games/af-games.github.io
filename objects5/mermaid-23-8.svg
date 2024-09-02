@@ -1,0 +1,16 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="150" cy="300" r="120" fill="#FFDEE9"/>
+  <!-- Head -->
+  <circle cx="150" cy="220" r="80" fill="#FFDEE9"/>
+  <!-- Hair -->
+  <rect x="120" y="170" width="260" height="80" rx="40" fill="#382566"/>
+  <!-- Tail fin inner -->
+  <rect x="120" y="380" width="260" height="100" fill="#7DB9D4"/>
+  <!-- Tail fin outer -->
+  <rect x="120" y="480" width="260" height="50" fill="#00AEEF"/>
+  <!-- Left tail fin tip -->
+  <polygon points="130,530 170,580 90,580" fill="#333333"/>
+  <!-- Right tail fin tip -->
+  <polygon points="260,530 220,580 310,580" fill="#333333"/>
+</svg>

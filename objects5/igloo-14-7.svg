@@ -1,0 +1,40 @@
+<svg width="800px" height="600px" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="100%" height="100%" fill="#b3d9eb"/>
+
+<!-- Continents and Mountains -->
+<path d="M10 50 Q200 40, 380 70 Q650 50, 800 100 H100 Z" stroke="#98e3db" fill="#f1f6fa"/>
+<path d="M300 300 Q200 400, 400 350 Q500 400, 600 300 H300 Z" stroke="#98e3db" fill="#f1f6fa"/>
+<path d="M150 200 Q100 250, 150 300 Q200 250, 150 200 Z" stroke="#98e3db" fill="#dce6f1"/>
+
+<!-- Rivers -->
+<path d="M100 400 Q200 450, 300 400 Q400 450, 500 400" stroke="#aed5e6" fill="transparent"/>
+<path d="M250 350 Q350 400, 450 350 Q550 400, 650 350" stroke="#aed5e6" fill="transparent"/>
+
+<!-- Forests -->
+<rect x="170" y="280" width="20%" height="25%" fill="#78c091"/>
+<rect x="420" y="220" width="20%" height="30%" fill="#78c091"/>
+
+<!-- Igloo-inspired City (Iglootopia) -->
+<circle cx="380" cy="350" r="60" stroke="#5d997a" fill="#fff"/>
+<path d="M320 340 L320 410 L400 410 Z" stroke="#5d997a" fill="#fff"/>
+
+<!-- Human Settlement (Thermia) -->
+<rect x="600" y="250" width="80" height="80" rx="20" fill="#fff"/>
+<circle cx="640" cy="310" r="20" stroke="#98e3db" fill="#98e3db"/>
+
+<!-- Labels -->
+<text x="50%" y="10%" text-anchor="middle" font-family="Verdana" font-size="30">Glaciera</text>
+<text x="45%" y="70%" text-anchor="middle" font-family="Verdana" font-size="20">Iglootopia</text>
+<text x="78%" y="65%" text-anchor="middle" font-family="Verdana" font-size="20">Thermia</text>
+
+<!-- Legend -->
+<rect x="10" y="490" width="30" height="10" fill="#78c091"/>
+<text x="50" y="500" text-anchor="start" font-family="Verdana" font-size="16">Forests</text>
+<rect x="10" y="520" width="30" height="10" fill="#98e3db"/>
+<text x="50" y="530" text-anchor="start" font-family="Verdana" font-size="16">Mountains</text>
+<rect x="10" y="550" width="30" height="10" fill="#aed5e6"/>
+<text x="50" y="560" text-anchor="start" font-family="Verdana" font-size="16">Rivers</text>
+
+</svg>

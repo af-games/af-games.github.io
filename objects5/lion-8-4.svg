@@ -1,0 +1,32 @@
+<svg viewBox="0 0 200 250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="40" y="100" width="120" height="100" fill="#FFCC00" stroke="black"/>
+  <circle cx="90" cy="150" r="80" fill="url(#lionGradient)" stroke="none"/>
+
+  <!-- Head -->
+  <polygon points="70,40 130,40 100,60" fill="#FFCC00" stroke="black"/>
+  <circle cx="95" cy="55" r="20" fill="black"/>
+
+  <!-- Mane -->
+  <path d="M45,70 Q60,30 95,70 T130,70 Q110,90 95,70 T70,70" stroke="#FFCC00" fill="transparent"/>
+
+  <!-- Tail -->
+  <path d="M140,200 Q160,220 180,200" stroke="#FFCC00" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="75" cy="45" r="5" fill="black"/>
+  <circle cx="115" cy="45" r="5" fill="black"/>
+
+  <!-- Tail tuft -->
+  <path d="M180,200 Q190,210 185,220" stroke="#FFCC00" fill="transparent"/>
+
+  <!-- Gradient for lion body -->
+  <defs>
+    <linearGradient id="lionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,204,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(238,177,6);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

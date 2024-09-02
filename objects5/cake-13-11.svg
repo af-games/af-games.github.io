@@ -1,0 +1,18 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake bottom layer -->
+  <path d="M150,300 A70,70 0 1,1 150,260 A70,70 0 1,1 150,340" fill="#CD7F32"/>
+
+  <!-- Cake top layer -->
+  <path d="M150,260 A50,50 0 1,1 150,220 A50,50 0 1,1 150,240" fill="#CD7F32"/>
+
+  <!-- Cake middle layer -->
+  <path d="M150,240 A35,35 0 1,1 150,215 A35,35 0 1,1 150,228" fill="#CD7F32"/>
+
+  <!-- Candles -->
+  <circle cx="125" cy="160" r="10" fill="#FFFFFF"/>
+  <circle cx="145" cy="160" r="10" fill="#FFFFFF"/>
+  <circle cx="165" cy="160" r="10" fill="#FFFFFF"/>
+
+  <!-- Happy Birthday text -->
+  <text x="35%" y="85%" font-family="Verdana" font-size="40" text-anchor="middle" fill="#FFFFFF">Happy Birthday</text>
+</svg>

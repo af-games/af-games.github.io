@@ -1,0 +1,42 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stage background -->
+  <rect x="0" y="450" width="800" height="150" fill="#0D293B"/>
+
+  <!-- Ocean water -->
+  <defs>
+    <linearGradient id="water-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(8,75,116); stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(2,49,71); stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="450" fill="url(#water-gradient)"/>
+
+  <!-- Stage floor -->
+  <rect x="0" y="435" width="800" height="15" fill="#A6C7CD"/>
+
+  <!-- Main action area (Dolphin tank) -->
+  <ellipse cx="400" cy="275" rx="350" ry="225" fill="url(#tank-gradient)">
+    <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+  <defs>
+    <linearGradient id="tank-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:rgb(255,255,255); stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dolphin -->
+  <g id="dolphin" transform="translate(-175,-60)">
+    <path d="M-175,-60 Q-130,-80 -20,-40 T90,20 Q130,0 175,60" fill="#EAF2F3"/>
+    <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="8s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Props: Rocks -->
+  <circle cx="150" cy="400" r="25" fill="#7B8F9D"/>
+  <circle cx="250" cy="350" r="30" fill="#7B8F9D"/>
+
+  <!-- Props: Seaweed -->
+  <polyline points="65,410 80,400 95,410" stroke="#2C4E59" stroke-width="5" fill="transparent"/>
+  <polyline points="700,430 680,420 700,430" stroke="#2C4E59" stroke-width="5" fill="transparent"/>
+
+</svg>

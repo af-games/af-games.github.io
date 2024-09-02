@@ -1,0 +1,16 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kangaroo silhouettes -->
+  <path d="M100 200 Q150 150, 200 200..." fill="none" stroke="black" />
+
+  <!-- Eucalyptus leaves -->
+  <polygon points="300,400 350,350 400,400" fill="green" />
+  <!-- More leaves... -->
+
+  <!-- Flower buds & blossoms -->
+  <circle cx="500" cy="250" r="15" fill="#FF69B4" />
+  <!-- More flowers... -->
+
+  <!-- Rocky outcrops -->
+  <polygon points="600,500 650,550 700,500" fill="#8B4513" opacity="0.8" />
+  <!-- More rocks... -->
+</svg>

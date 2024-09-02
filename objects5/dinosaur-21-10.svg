@@ -1,0 +1,37 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Start drawing tentative lines and shapes using <path> elements.**
+
+Let's start with a simple outline of a dinosaur, say a Tyrannosaurus Rex.
+
+```svg
+<path id="body-outline" d="M100 50 Q150 75, 200 100 T300 100..." />
+```
+
+In this case, we're using quadratic Bézier curves (`Q`) to draw the body outline. The `id` attribute allows us to reference this path later if needed.
+
+3. **Discover new features (circles, rectangles, etc.)**
+
+As we explore further, let's add some circles for the head and a rectangle for the torso.
+
+```svg
+<circle cx="150" cy="75" r="25" id="head" />
+<rect x="200" y="90" width="80" height="60" id="torso" />
+```
+
+4. **Document your journey with detailed notes (attribute values)**
+
+For the `body-outline`, we've used quadratic Bézier curves (`Q`). The points are `(100, 50)`, `(150, 75)`, and `(200, 100)`. We're using `T` for a smooth connection to `(300, 100)`.
+
+For the circles and rectangles, we've noted their centers/coordinates (`cx`, `cy`), radii (`r`), dimensions (`width`, `height`), and positions (`x`, `y`).
+
+5. **Write out your map's final draft using SVG tags.**
+
+Let's add some colors and stroke widths to make our map more vivid.
+
+```svg
+<path id="body-outline" d="M100 50 Q150 75, 200 100 T300 100..." fill="none" stroke="black" stroke-width="3" />
+<circle cx="150" cy="75" r="25" id="head" fill="red" stroke="black" stroke-width="2" />
+<rect x="200" y="90" width="80" height="60" id="torso" fill="green" stroke="black" stroke-width="2" />
+</svg>

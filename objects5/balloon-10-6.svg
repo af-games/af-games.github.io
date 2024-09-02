@@ -1,0 +1,21 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Layer 0: Background -->
+  <rect width="100%" height="100%" fill="#FFF"/>
+
+  <!-- Layer 1: Balloon shape -->
+  <path d="M50,10 Q90,30 140,10 H260 V280 H140 L90,250 50,280 Z" fill="red"/>
+
+  <!-- Layer 2: Balloon patterns -->
+  <defs>
+    <pattern id="pattern" patternUnits="userSpaceOnUse">
+      <path d="M0,0 L10,0 M5,5 L15,5" stroke="#FFD700" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#pattern)"/>
+
+  <!-- Layer 3: Balloon outline -->
+  <path d="M50,10 Q90,30 140,10 H260 V280 H140 L90,250 50,280 Z" stroke="#FFD700" stroke-width="5"/>
+
+  <!-- Layer 4: Ribbon -->
+  <path d="M300,140 Q350,160 400,140 L450,180 Z" fill="#FFD700"/>
+</svg>

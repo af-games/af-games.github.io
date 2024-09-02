@@ -1,0 +1,19 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="75" r="25" fill="#FFF" stroke="#000"/>
+
+  <!-- Head -->
+  <circle cx="90" cy="60" r="8" fill="#000"/>
+
+  <!-- Left Wing (Upper) -->
+  <path d="M80,35 Q100,10 120,35 L140,70 Z" fill="#FFC" stroke="#000"/>
+
+  <!-- Right Wing (Lower) -->
+  <path d="M80,95 Q100,110 120,95 L140,60 Z" fill="#FFC" stroke="#000"/>
+
+  <!-- Left Antenna -->
+  <polyline points="75,30 85,20 75,10" stroke="#000" fill="transparent"/>
+
+  <!-- Right Antenna -->
+  <polyline points="125,30 115,20 125,10" stroke="#000" fill="transparent"/>
+</svg>

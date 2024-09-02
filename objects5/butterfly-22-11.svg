@@ -1,0 +1,16 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,5 L140,90 Q160,80 175,50 Q140,20 100,5 Z" fill="#FFBF00"/>
+
+  <!-- Wings -->
+  <path d="M130,30 Q150,20 160,30 L140,80 Z" fill="#FFBF00"/>
+  <path d="M70,30 Q50,20 60,30 L80,80 Z" fill="#FFBF00"/>
+
+  <!-- Antennae -->
+  <path d="M180,40 L190,30 L200,40 Z" fill="#FFBF00"/>
+  <path d="M60,40 L50,30 L40,40 Z" fill="#FFBF00"/>
+
+  <!-- Eyes -->
+  <circle cx="170" cy="65" r="2.5" fill="#000"/>
+  <circle cx="80" cy="65" r="2.5" fill="#000"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Bell -->
+  <circle cx="50" cy="40" r="35" fill="#DAA520"/>
+  <!-- Tentacles -->
+  <g stroke="#98FB98" stroke-width="3">
+    <path d="M40,60 A30,30 0 1,0 60,60 A30,30 0 1,0 40,60"/>
+    <path d="M50,70 A20,20 0 1,0 70,70 A20,20 0 1,0 50,70"/>
+    <path d="M60,80 A10,10 0 1,0 80,80 A10,10 0 1,0 60,80"/>
+  </g>
+  <!-- Oral Arms -->
+  <g stroke="#2F4F4F" stroke-width="3">
+    <path d="M50,40 l-30,-10 M50,40 l30,-10"/>
+    <path d="M50,30 l-20,-5 M50,30 l20,-5"/>
+  </g>
+</svg>

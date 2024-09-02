@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600">
+  <defs>
+    <!-- Door -->
+    <g id="gate-doors">
+      <path d="M400,100 H500 V200 Z"/>
+      <animateTransform attributeName="transform"
+                       type="rotate"
+                       from="0 400 300"
+                       to="360 400 300"
+                       begin="0s"
+                       dur="1s"
+                       repeatCount="1" />
+    </g>
+    <!-- Drawbridge -->
+    <rect id="drawbridge" x="250" y="350" width="300" height="20" fill="#8B4513">
+      <animate attributeName="display"
+               from="block"
+               to="none"
+               begin="0s; drawbridge-end=endOfDrawbridge"
+               dur="0.4s"
+               repeatCount="1" />
+    </rect>
+  </defs>
+  <!-- Moat water ripple animation -->
+  <path id="moat-water" d="M250,400 Q300,380 350,400 T650,400">
+    <animate attributeName="d"
+             values="M250,400 Q300,380 350,400 T650,400; M250,400 Q300,390 350,410 T650,410"
+             begin="0s; moat-water-start=250ms"
+             dur="700ms"
+             repeatCount="1"
+             fill="freeze" />
+    <animate attributeName="animation-play-state"
+             values="running; paused"
+             begin="0s; moat-water-end=950ms"
+             dur="50ms"
+             repeatCount="1" />
+  </path>
+  <!-- Assemble castle parts using gate-doors, drawbridge, and moat-water -->
+</svg>

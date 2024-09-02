@@ -1,0 +1,39 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main body outline -->
+  <path id="lion-body" d="M100 150 Q140 80, 200 150 Q240 220, 300 150 Q340 80, 390 150" fill="none" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="120" r="30" fill="none" stroke="black"/>
+
+  <!-- Legs -->
+  <rect x="70" y="180" width="30" height="80" rx="5" fill="none" stroke="black"/>
+  <rect x="340" y="180" width="30" height="80" rx="5" fill="none" stroke="black"/>
+
+  <!-- Tail -->
+  <path id="lion-tail" d="M390 230 Q410 260, 370 290 Q330 260, 350 230" fill="none" stroke="black"/>
+
+  <!-- Complex details with paths -->
+  <path d="M120 120 Q140 80, 160 120" stroke="brown" stroke-width="5"/>
+  <path d="M170 130 Q210 90, 250 130" stroke="brown" stroke-width="5"/>
+
+  <!-- Eyes -->
+  <circle cx="180" cy="105" r="10" fill="black"/>
+  <circle cx="220" cy="105" r="10" fill="black"/>
+
+  <!-- Nose -->
+  <polygon points="200,90 230,90 215,80" fill="black"/>
+
+  <!-- Fur patterns (using linear gradient for depth) -->
+  <defs>
+    <linearGradient id="lion-fur" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:gold; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:orange; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path d="M100 150 Q140 80, 200 150" fill="url(#lion-fur)"/>
+
+  <!-- Labels (coordinates) -->
+  <text x="30" y="10" font-family="Verdana" font-size="16">(70,80)</text>
+  <text x="420" y="300" font-family="Verdana" font-size="16">(390,290)</text>
+
+</svg>

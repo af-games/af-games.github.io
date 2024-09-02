@@ -1,0 +1,28 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="60" y="40" width="180" height="160" fill="#FCD594" stroke="#9B760C" stroke-width="2"/>
+
+  <!-- Head -->
+  <path d="M90,20 Q130,0 170,20 A80,80 0 0 1 90,140" fill="#FCD594" stroke="#9B760C" stroke-width="2"/>
+
+  <!-- Ears -->
+  <polygon points="80,20 100,0 120,20" fill="#FCD594" stroke="#9B760C" stroke-width="2"/>
+  <polygon points="170,20 190,0 210,20" fill="#FCD594" stroke="#9B760C" stroke-width="2"/>
+
+  <!-- Eyes -->
+  <circle cx="110" cy="30" r="10" fill="black"/>
+  <circle cx="145" cy="30" r="10" fill="black"/>
+
+  <!-- Nose -->
+  <path d="M125,70 Q140,60 155,70" stroke="#9B760C" stroke-width="2"/>
+
+  <!-- Mane -->
+  <polygon points="90,30 110,80 130,30 150,80 170,30" fill="#FFD470" stroke="#FFD470" stroke-width="2"/>
+
+  <!-- Legs -->
+  <rect x="60" y="200" width="10" height="60" fill="#FCD594" stroke="#9B760C" stroke-width="2"/>
+  <rect x="130" y="200" width="10" height="60" fill="#FCD594" stroke="#9B760C" stroke-width="2"/>
+  <rect x="180" y="200" width="10" height="60" fill="#FCD594" stroke="#9B760C" stroke-width="2"/>
+
+</svg>

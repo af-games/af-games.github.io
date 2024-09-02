@@ -1,0 +1,32 @@
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bodice -->
+  <rect id="bodice" x="150" y="50" width="300" height="400"
+        style="fill: url(#gradient); stroke: black; stroke-width: 2;" rx="50"/>
+
+  <!-- Sleeves (top part) -->
+  <path id="sleeve-top" d="M100,70 A90,90 0 0 1 400,70 L600,300 A90,90 0 0 1 200,600"
+        style="fill: url(#gradient); stroke: black; stroke-width: 2;" />
+
+  <!-- Sleeves (bottom part) -->
+  <path id="sleeve-bottom" d="M400,70 A90,90 0 0 1 600,300 A90,90 0 0 1 200,530"
+        style="fill: url(#gradient); stroke: black; stroke-width: 2;" />
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(128,0,128); stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,192,203); stop-opacity:1"/>
+    </linearGradient>
+
+    <radialGradient id="pattern" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(128,0,128); stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Apply pattern to bodice -->
+  <mask id="pattern-mask">
+    <rect x="0" y="0" width="300" height="400" fill="url(#pattern)" />
+  </mask>
+  <use href="#bodice" mask="url(#pattern-mask)"/>
+</svg>

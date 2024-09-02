@@ -1,0 +1,35 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="200" fill="#039BE5"/>
+
+  <!-- Shark Body (Baked) -->
+  <path d="M80,40 Q100,20 150,60 Q170,80 180,120 H100 Q80,160 30,120 Q10,80 20,60 Z" fill="#fff"/>
+
+  <!-- Shark Fins (Baked) -->
+  <path d="M50,40 L55,60 L45,60 Z" fill="#fff"/>
+  <path d="M170,80 L165,90 L175,90 Z" fill="#fff"/>
+
+  <!-- Shark Tail (Baked) -->
+  <path d="M200,120 Q185,130 170,140" fill="#fff"/>
+
+  <!-- Shark Eye (Boiled) -->
+  <circle cx="60" cy="90" r="10" stroke="#000" stroke-width="2"/>
+  <circle cx="60" cy="90" r="5" fill="#000"/>
+
+  <!-- Shark Teeth (Baked) -->
+  <path d="M40,100 Q30,90 40,80 Z" fill="#fff"/>
+  <path d="M60,100 Q50,90 60,80 Z" fill="#fff"/>
+  <path d="M80,100 Q70,90 80,80 Z" fill="#fff"/>
+
+  <!-- Shark Skin Gradient (Grilling) -->
+  <defs>
+    <linearGradient id="sharkSkin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#E6F3FF;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B9DAEB;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect x="80" y="40" width="120" height="80" fill="url(#sharkSkin)"/>
+
+</svg>

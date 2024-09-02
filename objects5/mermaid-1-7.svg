@@ -1,0 +1,32 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,50 Q140,70 200,100 Q160,130 100,180 Q40,130 0,100" fill="url(#skinGradient)" />
+
+  <!-- Tail -->
+  <path d="M100,200 Q150,240 200,270 Q160,290 100,320 Q40,290 0,270" fill="url(#tailGradient)" />
+
+  <!-- Hair -->
+  <path d="M80,150 C100,130 120,160 140,170 C160,180 180,150 200,160" fill="url(#hairGradient)" />
+
+  <!-- Eyes -->
+  <circle cx="90" cy="75" r="15" fill="black">
+    <animate attributeName="r" values="10;15;10" dur="1s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="110" cy="75" r="15" fill="white">
+    <animate attributeName="r" values="5;10;5" dur="1s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Gradients -->
+  <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,245,238);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(239,228,216);stop-opacity:1" />
+  </linearGradient>
+  <linearGradient id="tailGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(0,136,169);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(45,185,193);stop-opacity:1" />
+  </linearGradient>
+  <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(54,48,63);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(97,84,105);stop-opacity:1" />
+  </linearGradient>
+</svg>

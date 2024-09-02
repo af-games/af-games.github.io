@@ -1,0 +1,27 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="90" rx="45" ry="70" fill="#FF6347">
+    <animate attributeName="cx" dur="2s" values="100;120;100;" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Wings -->
+  <path d="M85,30 Q95,20 105,30 Q95,40 85,30" fill="#FFC300">
+    <animate attributeName="d" dur="2s" values="M85,30 Q95,20 105,30 Q95,40 85,30; M75,25 Q85,15 95,25 Q85,35 75,25;" repeatCount="indefinite"/>
+  </path>
+  <path d="M115,30 Q105,20 95,30 Q105,40 115,30">
+    <animate attributeName="d" dur="2s" values="M115,30 Q105,20 95,30 Q105,40 115,30; M125,25 Q115,15 105,25 Q115,35 125,25;" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Head and antennas -->
+  <circle cx="97" cy="60" r="5" fill="#FFFFFF">
+    <animate attributeName="cy" dur="2s" values="60;40;60;" repeatCount="indefinite"/>
+  </circle>
+  <path d="M103,55 L107,45 L103,40" stroke="#FFFFFF">
+    <animate attributeName="d" dur="2s" values="M103,55 L107,45 L103,40; M98,50 L110,40 L98,35;" repeatCount="indefinite"/>
+  </path>
+  <path d="M92,55 L88,45 L92,40" stroke="#FFFFFF">
+    <animate attributeName="d" dur="2s" values="M92,55 L88,45 L92,40; M97,50 L85,40 L97,35;" repeatCount="indefinite"/>
+  </path>
+
+</svg>

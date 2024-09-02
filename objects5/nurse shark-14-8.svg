@@ -1,0 +1,15 @@
+<svg width="300px" height="500px" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bodysuit -->
+  <circle cx="150" cy="300" r="100" fill="#3D3C3A"/>
+  <path d="M140,280 Q160,270 180,280 T220,280 Q200,290 180,300 Z" stroke="#FFFDD0" fill="transparent"/>
+
+  <!-- Left Fin -->
+  <rect x="50" y="350" width="30" height="100" rx="15" fill="#021E4F"/>
+  <path d="M60,380 Q70,400 80,380 Z" stroke="#FFFDD0" fill="transparent"/>
+
+  <!-- Right Fin -->
+  <rect x="220" y="350" width="30" height="100" rx="15" fill="#021E4F"/>
+  <path d="M230,380 Q240,400 250,380 Z" stroke="#FFFDD0" fill="transparent"/>
+
+</svg>

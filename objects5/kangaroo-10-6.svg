@@ -1,0 +1,13 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <g id="kangaroo">
+    <!-- Body -->
+    <path d="M100,200 Q200,50 300,200 Q250,300 200,400 Q100,300 50,200 Z" fill="#654321"/>
+
+    <!-- Pouch -->
+    <polygon points="100,200 150,250 50,250" fill="#F39C12"/>
+
+    <!-- Highlights -->
+    <circle cx="75" cy="150" r="25" fill="#ADEFE4"/>
+    <circle cx="225" cy="350" r="25" fill="#ADEFE4"/>
+  </g>
+</svg>

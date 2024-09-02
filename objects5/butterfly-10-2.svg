@@ -1,0 +1,9 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="150" cy="150" r="80" fill="black"/>
+  <!-- Left Wing -->
+  <path d="M75,90 Q100,120 150,150 T300,90 H400 V250 H0 Z" fill="red"/>
+  <!-- Right Wing -->
+  <path d="M225,90 Q300,120 250,150 T450,90 H500 V250 H0 Z" fill="red"/>
+
+</svg>

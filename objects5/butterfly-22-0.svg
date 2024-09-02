@@ -1,0 +1,24 @@
+<svg width="240" height="360" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="200" rx="40" ry="80" fill="#FF69B4"/>
+
+  <!-- Upper Wing -->
+  <rect x="50" y="150" width="120" height="70" rx="20" fill="#FFF1E6"/>
+
+  <!-- Lower Wing -->
+  <rect x="50" y="230" width="140" height="80" rx="20" fill="#FFC300"/>
+
+  <!-- Left Antenna -->
+  <rect x="75" y="130" width="20" height="60" fill="#696969"/>
+
+  <!-- Right Antenna -->
+  <rect x="145" y="130" width="20" height="60" fill="#696969"/>
+
+  <!-- Left Eye -->
+  <circle cx="70" cy="180" r="5" fill="#000000"/>
+
+  <!-- Right Eye -->
+  <circle cx="130" cy="180" r="5" fill="#000000"/>
+
+</svg>

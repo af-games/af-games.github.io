@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo -->
+  <circle cx="400" cy="300" r="200" fill="white" stroke="black"/>
+
+  <!-- Entrance Tunnel -->
+  <path d="M350,375 Q375,350 425,300" stroke="black" fill="transparent"/>
+
+  <!-- Snowman - Body -->
+  <circle cx="600" cy="300" r="25" fill="white"/>
+
+  <!-- Snowman - Buttons -->
+  <circle cx="590" cy="310" r="5" fill="black"/>
+  <circle cx="610" cy="310" r="5" fill="black"/>
+
+  <!-- Snowman - Nose -->
+  <polygon points="600,285 590,270 610,270" fill="orange"/>
+
+  <!-- Flags -->
+  <rect x="375" y="275" width="40" height="75" fill="red"/>
+  <rect x="425" y="275" width="40" height="75" fill="red"/>
+
+</svg>

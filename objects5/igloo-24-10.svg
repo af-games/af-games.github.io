@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:blue;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:green;stop-opacity:1"/>
+    </radialGradient>
+    <radialGradient id="grad2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:green;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:yellow;stop-opacity:1"/>
+    </radialGradient>
+    <radialGradient id="grad3" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:yellow;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:orange;stop-opacity:1"/>
+    </radialGradient>
+    <radialGradient id="grad4" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:orange;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:red;stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Igloo -->
+  <ellipse cx="0" cy="-40" rx="35" ry="60" fill="#fff"/>
+  <circle cx="0" cy="-20" r="35" fill="#000"/>
+
+  <!-- Bars and transitions -->
+  <g id="bar1">
+    <circle cx="-25" cy="25" r="5" fill="url(#grad1)"/>
+    <path d="M-25,25 Q0,-25 25,25"/>
+    <animate attributeName="r" values="5;7;5" dur="4s" repeatCount="indefinite"/>
+  </g>
+  <!-- Add more bars (bar2, bar3, etc.) following the same pattern and adjusting colors -->
+
+</svg>

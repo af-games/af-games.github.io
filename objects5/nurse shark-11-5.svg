@@ -1,0 +1,22 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ocean Floor -->
+  <rect id="oceanFloor" x="0" y="768" width="1920" height="312" fill="#264D59"/>
+
+  <!-- Reef -->
+  <polygon id="reef" points="... (complex reef shape coordinates)" fill="#3D9970"/>
+
+  <!-- Nurse Shark -->
+  <path id="nurseShark" d="M... (shark path coordinates)" fill="#8B4513" stroke="#632C0F"/>
+
+  <!-- Reef Fish School -->
+  <g id="reefFishSchool">
+    <!-- Individual fish paths and styling go here -->
+  </g>
+
+  <!-- Moray Eel -->
+  <path id="morayEel" d="M... (eel path coordinates)" fill="#35140D" stroke="#280C09"/>
+
+  <!-- Crab -->
+  <path id="crab" d="M... (crab path coordinates)" fill="#6B4A3C" stroke="#4E3227"/>
+
+</svg>

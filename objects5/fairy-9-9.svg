@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" style="border:1px solid #ccc;">
+
+  <!-- Fairy's body -->
+  <path id="body" d="M250,50 A80,40 0 1,0 250,130 L250,170 Z"
+        fill="#fff" stroke="#000" stroke-width="3"/>
+
+  <!-- Fairy's hair -->
+  <polygon id="hair" points="200,70 250,40 300,70"
+           fill="#008000" stroke="#00694b" stroke-width="2"/>
+
+  <!-- Fairy's face -->
+  <circle cx="250" cy="100" r="30" fill="#fff"/>
+  <circle cx="240" cy="90" r="2" fill="#000"/> <!-- Left eye -->
+  <circle cx="260" cy="90" r="2" fill="#000"/> <!-- Right eye -->
+  <path id="mouth" d="M235,140 Q245,150 255,140 Z"
+        fill="#fff"/>
+
+  <!-- Fairy's dress -->
+  <rect x="220" y="170" width="60" height="200"
+        fill="#003f7d" stroke="#00264d" stroke-width="3"/>
+  <path id="dress-decoration" d="M220,350 Q280,390 220,450 Z"
+        fill="#fff"/>
+
+  <!-- Fairy's wings -->
+  <g id="left-wing">
+    <path d="M170,250 Q120,350 170,450"/>
+    <path d="M170,250 Q190,350 170,450" transform="rotate(6)"/>
+  </g>
+  <use xlink:href="#left-wing" transform="translate(300,0)" id="right-wing"/>
+
+  <!-- Fairy's hands -->
+  <path id="hand" d="M280,190 Q320,240 280,290"/>
+  <use xlink:href="#hand" transform="translate(-50,-140)" id="left-hand"/>
+
+</svg>

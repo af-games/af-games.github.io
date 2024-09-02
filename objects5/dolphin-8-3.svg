@@ -1,0 +1,31 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphin-shaped buildings -->
+  <polygon points="100,200 175,50 250,200"
+           style="fill:blue;stroke:black;stroke-width:1" />
+  <polygon points="300,200 375,75 450,200"
+           style="fill:lightblue;stroke:black;stroke-width:1" />
+  <polygon points="150,250 225,150 300,250"
+           style="fill:blue;stroke:black;stroke-width:1" />
+  <polygon points="400,250 475,150 550,250"
+           style="fill:lightblue;stroke:black;stroke-width:1" />
+
+  <!-- Roads as dolphin body lines -->
+  <path d="M100,200 Q175,50 250,200"
+        style="stroke:gray;stroke-width:4" />
+  <path d="M300,200 Q375,75 450,200"
+        style="stroke:gray;stroke-width:4" />
+
+  <!-- Waves -->
+  <path id="wave" d="M0,180 Q50,220 100,180 Q150,240 200,180"
+        style="fill:lightblue;stroke:none" />
+  <use xlink:href="#wave" x="250" y="180"/>
+  <use xlink:href="#wave" x="500" y="180"/>
+
+  <!-- Lighthouse -->
+  <circle cx="400" cy="75" r="50"
+          style="fill:yellow;stroke:black;stroke-width:2" />
+  <polygon points="350,50 450,50 400,10"
+           style="fill:black;stroke:none" />
+
+</svg>

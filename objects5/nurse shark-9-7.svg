@@ -1,0 +1,27 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path id="shark-body"
+        d="M100 10 Q90 50, 80 90 Q70 60, 60 40 Q50 60, 40 90 Q30 50, 20 10 Z"
+        fill="#0099FF" />
+
+  <!-- Fin (left) -->
+  <path id="shark-fin-left"
+        d="M70 80 L60 100 L70 110 Z"
+        fill="url(#fin-gradient)" />
+
+  <!-- Fin (right) -->
+  <use xlink:href="#shark-fin-left" transform="translate(30, 0) scale(-1, 1)" />
+
+  <!-- Eye -->
+  <circle id="shark-eye"
+          cx="65" cy="70" r="8"
+          fill="black" stroke="#fff" stroke-width="2" />
+
+  <!-- Gradient for fins -->
+  <linearGradient id="fin-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#3366CC; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#003399; stop-opacity:1" />
+  </linearGradient>
+
+</svg>

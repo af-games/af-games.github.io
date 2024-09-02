@@ -1,0 +1,61 @@
+<svg width="800" height="600" style="background-color: #f0f0f0;">
+```
+
+2. **Plant your seeds (initial shapes):**
+
+Let's start with a basic T-Rex outline using rectangles for the body and circles for the head and limbs.
+
+```svg
+  <rect id="body" x="350" y="400" width="150" height="250" fill="green"/>
+  <circle id="head" cx="400" cy="250" r="80" fill="brown"/>
+  <rect id="leg1" x="375" y="600" width="50" height="150" fill="green"/>
+  <rect id="leg2" x="450" y="600" width="50" height="150" fill="green"/>
+```
+
+3. **Water and nurture the seeds (apply transforms):**
+
+Now, let's use rotate, scale, translate to grow these shapes into more dinosaur-like features.
+
+```svg
+  <g transform="rotate(-10, 400, 600)">
+    <rect id="leg1" x="375" y="600" width="50" height="150" fill="green"/>
+  </g>
+  <g transform="scale(1.2) translate(0, -100)">
+    <circle id="head" cx="400" cy="250" r="80" fill="brown"/>
+  </g>
+  <g transform="translate(-75, 60)">
+    <rect id="body" x="350" y="400" width="150" height="250" fill="green"/>
+  </g>
+  <g transform="rotate(10, 450, 600)">
+    <rect id="leg2" x="450" y="600" width="50" height="150" fill="green"/>
+  </g>
+```
+
+4. **Prune (remove unnecessary elements or attributes):**
+
+Since we're creating a simple SVG, there's no need for IDs anymore.
+
+```svg
+  <rect x="375" y="600" width="50" height="150" fill="green"/>
+  <circle cx="400" cy="250" r="80" fill="brown"/>
+  <rect x="350" y="400" width="150" height="250" fill="green"/>
+  <rect x="450" y="600" width="50" height="150" fill="green"/>
+```
+
+Here's the final SVG code:
+
+```svg
+<svg width="800" height="600" style="background-color: #f0f0f0;">
+  <g transform="rotate(-10, 400, 600)">
+    <rect x="375" y="600" width="50" height="150" fill="green"/>
+  </g>
+  <g transform="scale(1.2) translate(0, -100)">
+    <circle cx="400" cy="250" r="80" fill="brown"/>
+  </g>
+  <g transform="translate(-75, 60)">
+    <rect x="350" y="400" width="150" height="250" fill="green"/>
+  </g>
+  <g transform="rotate(10, 450, 600)">
+    <rect x="450" y="600" width="50" height="150" fill="green"/>
+  </g>
+</svg>

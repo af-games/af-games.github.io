@@ -1,0 +1,48 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Mix your ingredients:**
+
+   - **Head (Circle):**
+     ```svg
+     <circle cx="100" cy="75" r="50" fill="#8B4513"/>
+     ```
+
+   - **Body (Rectangle):**
+     ```svg
+     <rect x="60" y="125" width="180" height="150" fill="#8B4513"/>
+     ```
+
+   - **Tail (Path):**
+     ```svg
+     <path d="M240 175 Q280 225, 320 175 Q360 125, 400 175" stroke="#8B4513" fill="transparent"/>
+     ```
+
+   - **Legs (Rectangle duplicates):**
+     ```svg
+     <rect x="90" y="250" width="30" height="80" fill="#8B4513"/>
+     <use href="#leg" x="170"/>
+     <use href="#leg" x="50"/>
+     ```
+
+   - **Arms (Rectangle duplicates):**
+     ```svg
+     <rect x="90" y="220" width="30" height="80" fill="#8B4513"/>
+     <use href="#arm" x="170"/>
+     ```
+
+   - **Eye (Circle):**
+     ```svg
+     <circle cx="95" cy="65" r="5" fill="white"/>
+     <circle cx="145" cy="65" r="5" fill="white"/>
+     ```
+
+   - **Text:**
+     ```svg
+     <text x="200" y="375" font-family="Verdana" font-size="48">T-Rex</text>
+     ```
+
+3. **Bake according to the recipe's instructions:**
+
+```svg
+</svg>

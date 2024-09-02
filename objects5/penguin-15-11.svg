@@ -1,0 +1,35 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="300" height="300" fill="#E6D4A1"/>
+
+  <!-- Body -->
+  <path d="M150,75 Q180,75 200,90 Q180,105 150,105 Q120,105 130,90 Q120,75 150,75"
+        fill="url(#bodyGradient)"/>
+  <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color: #B4936A; stop-opacity: 1"/>
+    <stop offset="100%" style="stop-color: #85715D; stop-opacity: 1"/>
+  </linearGradient>
+
+  <!-- Head -->
+  <circle cx="150" cy="50" r="35" fill="url(#headGradient)"/>
+  <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color: #E9C87A; stop-opacity: 1"/>
+    <stop offset="100%" style="stop-color: #D3AB5F; stop-opacity: 1"/>
+  </linearGradient>
+
+  <!-- Eye -->
+  <circle cx="145" cy="25" r="5" fill="#000"/>
+  <circle cx="155" cy="25" r="5" fill="#000"/>
+
+  <!-- Beak -->
+  <path d="M150,35 Q145,20 155,20 Q160,35 150,40 Z"
+        fill="#FFD700"/>
+
+  <!-- Flipper (left) -->
+  <path d="M130,90 Q140,80 130,70 Q120,80 130,90"
+        fill="#B4936A"/>
+  <!-- Flipper (right) -->
+  <path d="M170,90 Q160,80 170,70 Q180,80 170,90"
+        fill="#B4936A"/>
+
+</svg>

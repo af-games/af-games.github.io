@@ -1,0 +1,25 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect id="lionBody" x="100" y="70" width="200" height="250"
+        fill="saddlebrown" stroke="black" stroke-width="4"/>
+
+  <!-- Head -->
+  <polygon id="lionHead" points="300,50,350,80,250,120"
+           fill="orange" stroke="black" stroke-width="4"/>
+
+  <!-- Eyes -->
+  <circle cx="300" cy="70" r="10" fill="white"/>
+  <circle cx="350" cy="70" r="10" fill="white"/>
+
+  <!-- Mane -->
+  <path id="lionMane" d="M280,40 Q260,20 290,30 T320,40 Z"
+        fill="orange" stroke="black" stroke-width="4"/>
+
+  <!-- Legs -->
+  <rect x="120" y="250" width="10" height="80" fill="saddlebrown"/>
+  <rect x="170" y="250" width="10" height="80" fill="saddlebrown"/>
+  <rect x="230" y="250" width="10" height="80" fill="saddlebrown"/>
+  <rect x="290" y="250" width="10" height="80" fill="saddlebrown"/>
+
+</svg>

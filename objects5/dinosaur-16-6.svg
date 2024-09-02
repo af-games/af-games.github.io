@@ -1,0 +1,24 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="150" cy="200" r="80" fill="#FFA500"/>
+
+  <!-- Head -->
+  <circle cx="170" cy="140" r="60" fill="#FFC300"/>
+  <circle cx="170" cy="140" r="50" fill="black"/>
+
+  <!-- Legs -->
+  <rect x="120" y="240" width="20" height="80" fill="brown"/>
+  <rect x="200" y="240" width="20" height="80" fill="brown"/>
+
+  <!-- Tail -->
+  <path d="M150,260 Q220,300 220,350" stroke="brown" fill="transparent" />
+
+  <!-- Spikes -->
+  <path d="M140,180 L160,170 L180,180 Z" fill="orange"/>
+  <path d="M160,210 L180,195 L200,210 Z" fill="orange"/>
+
+  <!-- Text -->
+  <text x="50%" y="350" dominant-baseline="middle" text-anchor="middle" font-family="Verdana" font-size="36">Dinosaur</text>
+
+</svg>

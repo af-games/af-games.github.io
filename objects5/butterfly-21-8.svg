@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <g id="butterfly">
+    <!-- Body -->
+    <circle cx="15" cy="25" r="15" fill="#ffcc66"/>
+
+    <!-- Wings -->
+    <path d="M30,10 Q40,0 45,10 Q30,20 20,10 Z" fill="#ffff99"/>
+    <path d="M10,10 Q0,0 5,10 Q10,20 20,10 Z" fill="#ffff99"/>
+
+    <!-- Antennae -->
+    <line x1="35" y1="25" x2="40" y2="25"/>
+    <line x1="5" y1="25" x2="10" y2="25"/>
+
+    <!-- Eyes -->
+    <circle cx="8" cy="27" r="1.5"/>
+    <circle cx="32" cy="27" r="1.5"/>
+  </g>
+
+  <!-- Animation -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 25 25"
+    to="360 25 25"
+    begin="0s"
+    dur="2s"
+    repeatCount="indefinite"/>
+</svg>

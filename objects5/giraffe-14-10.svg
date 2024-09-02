@@ -1,0 +1,36 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(52,73,94);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(168,176,203);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Bars -->
+  <g id="bars">
+    <!-- Bar 1 -->
+    <circle cx="50" cy="400" r="30" fill="#5D26C1"/>
+    <circle cx="150" cy="400" r="30" fill="#9B51E0"/>
+    <circle cx="250" cy="400" r="30" fill="#FFCD07"/>
+    <!-- Bar 2 -->
+    <circle cx="350" cy="400" r="30" fill="#5D26C1"/>
+    <circle cx="450" cy="400" r="30" fill="#9B51E0"/>
+    <circle cx="550" cy="400" r="30" fill="#FFCD07"/>
+    <!-- Bar 3 -->
+    <circle cx="650" cy="400" r="30" fill="#5D26C1"/>
+    <circle cx="750" cy="400" r="30" fill="#9B51E0"/>
+    <circle cx="850" cy="400" r="30" fill="#FFCD07"/>
+  </g>
+
+  <!-- Giraffe -->
+  <path id="giraffePath" d="M10,10 Q20,50 50,90 Q100,50 150,90 T300,450 Z" stroke="#000" fill="url(#grad1)"/>
+  <animateTransform attributeName="d" type="rotate" from="0 400 275" to="360 400 275" begin="0s" dur="8s" repeatCount="indefinite"/>
+
+  <!-- Transition Path -->
+  <path id="transitionPath" d="M10,500 Q50,450 100,500 T300,500 Z" stroke="#fff" fill="transparent"/>
+  <animate attributeName="d" values="
+    M10,500 Q50,450 100,500 T300,500 Z;
+    M10,500 Q200,300 300,500 T500,500 Z;
+    M10,500 Q50,450 100,500 T300,500 Z;" begin="0s" dur="2.4s" repeatCount="indefinite"/>
+
+</svg>

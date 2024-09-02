@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe Tower -->
+  <path d="M0,-150 A150,150 0 0 0 0,150 A75,75 0 0 0 -150,300 A75,75 0 0 1 0,450 A75,75 0 0 1 150,300 Z" fill="brown"/>
+
+  <!-- Enclosure Wall -->
+  <rect x="-400" y="-300" width="800" height="600" fill="green"/>
+
+  <!-- Trees -->
+  <circle cx="200" cy="-300" r="50" fill="green"/>
+  <circle cx="-200" cy="-300" r="50" fill="green"/>
+  <circle cx="200" cy="300" r="50" fill="green"/>
+  <circle cx="-200" cy="300" r="50" fill="green"/>
+
+  <!-- Roads -->
+  <path d="M-400,-150 h800" stroke="black" fill="transparent"/>
+  <path d="M-300,-300 v600" stroke="black" fill="transparent"/>
+
+  <!-- Feeding Platform -->
+  <rect x="250" y="-50" width="100" height="100" fill="yellow"/>
+
+</svg>

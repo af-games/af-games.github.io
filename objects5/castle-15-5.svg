@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E5E5EA"/>
+
+  <!-- Castle Wall -->
+  <polygon points="400,100 600,100 700,200 500,300"
+           style="fill:#8B7D6B;stroke:#A9A9A9;stroke-width:2"/>
+
+  <!-- Castle Tower -->
+  <polygon points="450,150 400,250 500,250"
+           style="fill:#8B7D6B;stroke:#A9A9A9;stroke-width:2"/>
+
+  <!-- Gatehouse -->
+  <rect x="350" y="350" width="150" height="200" fill="#8B7D6B"
+        stroke="#A9A9A9" stroke-width="2"/>
+  <polygon points="350,550 400,600 450,550" fill="#8B7D6B"/>
+
+  <!-- Drawbridge -->
+  <rect x="375" y="525" width="100" height="25" fill="#A9A9A9"
+        stroke="#A9A9A9" stroke-width="2"/>
+
+  <!-- Moat -->
+  <rect x="325" y="450" width="200" height="75" fill="#708090"
+        stroke="#708090" stroke-width="1"/>
+
+  <!-- Forest (Green) -->
+  <polygon points="200,300 300,350 400,300 300,250"
+           style="fill:#3D9970;stroke:#A9A9A9;stroke-width:1"/>
+
+  <!-- Path (Yellow) -->
+  <polygon points="200,300 250,250 350,250 400,300"
+           style="fill:#FFD700;stroke:#A9A9A9;stroke-width:1"/>
+
+</svg>

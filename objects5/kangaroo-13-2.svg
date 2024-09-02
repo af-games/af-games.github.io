@@ -1,0 +1,25 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="90" cy="75" rx="80" ry="60" fill="#F4D03F"/>
+  <!-- Head -->
+  <ellipse cx="130" cy="60" rx="40" ry="30" fill="#F4D03F"/>
+
+  <!-- Face features -->
+  <circle cx="125" cy="55" r="5" fill="black"/>
+  <circle cx="135" cy="55" r="5" fill="black"/>
+  <path d="M130,65 V75 H140 Z" fill="#F89C2D"/>
+  <path d="M120,70 Q130,80 140,70" stroke="brown" stroke-width="2"/>
+
+  <!-- Limbs -->
+  <rect x="60" y="85" width="20" height="30" fill="#F4D03F"/>
+  <ellipse cx="65" cy="110" rx="10" ry="20" fill="#F4D03F"/>
+  <rect x="70" y="85" width="20" height="30" fill="#F4D03F"/>
+  <ellipse cx="75" cy="110" rx="10" ry="20" fill="#F4D03F"/>
+
+  <!-- Back legs -->
+  <rect x="85" y="90" width="20" height="35" fill="#F4D03F"/>
+  <ellipse cx="90" cy="120" rx="10" ry="25" fill="#F4D03F"/>
+
+  <!-- Tail -->
+  <polygon points="170,90 180,110 190,90" fill="#F4D03F"/>
+</svg>

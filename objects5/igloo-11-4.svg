@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Igloo -->
+  <path id="igloo" d="M400,150 A150,150 0 1 1 400,300 A150,150 0 1 1 400,150 Z" fill="#D9EAFB"/>
+
+  <!-- Hills -->
+  <path d="M200,580 Q350,650 700,580 H800 V600 H0 Z" fill="#9ACF9A"/>
+  <path d="M100,450 Q250,500 400,450 Q550,500 700,450 H800 V500 H0 Z" fill="#C3D69B"/>
+
+  <!-- River -->
+  <path d="M100,580 Q200,620 350,580 Q500,620 700,580 H800 V590 H0 Z" stroke="#4A90E2" fill="transparent"/>
+
+  <!-- Trees -->
+  <g id="tree">
+    <circle cx="150" cy="350" r="50" fill="#7C6F56"/>
+    <path d="M150,200 Q140,150 150,100 Q160,150 150,200 Z" stroke="#7C6F56" fill="transparent"/>
+  </g>
+  <use xlink:href="#tree" x="300" y="400"/>
+  <use xlink:href="#tree" x="450" y="350"/>
+
+  <!-- Flowers -->
+  <circle cx="250" cy="500" r="20" fill="#FF6F91"/>
+  <circle cx="550" cy="450" r="20" fill="#FFB378"/>
+
+</svg>

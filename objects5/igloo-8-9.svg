@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#F0F0F0"/>
+
+  <!-- Scene 1: The Lonely Igloo -->
+  <circle cx="400" cy="300" r="200" stroke="#2193B0" stroke-width="5" fill="#ADD8E6"/>
+  <path d="M10,10 Q300,10 700,10 T800,10 Q700,400 300,400 T10,400 Q10,300 10,10" stroke="#B0E0E6" stroke-width="2"/>
+
+  <!-- Scene 2: Meeting the Snowy Owl -->
+  <polygon points="350,200 450,150 250,150" style="fill:#C4C4C4;stroke:#000;stroke-width:2"/>
+  <circle cx="400" cy="250" r="20" stroke="#000" stroke-width="2" fill="#FFF"/>
+
+  <!-- Scene 3-7: More scenes... -->
+
+  <!-- Scene 8: The New Home -->
+  <circle cx="600" cy="300" r="150" stroke="#2193B0" stroke-width="5" fill="#ADD8E6"/>
+  <rect x="400" y="200" width="200" height="300" style="fill:#B3E0FF;stroke:#000;stroke-width:2"/>
+  <!-- More igloos and snow structures here... -->
+
+</svg>

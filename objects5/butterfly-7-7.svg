@@ -1,0 +1,24 @@
+<svg>` tag:
+
+```xml
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Start at the entrance of the uncharted territories -->
+  <circle cx="100" cy="100" r="50" fill="#ffd700" stroke="#000"/>
+  <text x="90" y="110" font-family="Verdana" font-size="20">Entrance</text>
+
+  <!-- Path to the first landmark -->
+  <path d="M150,100 Q250,75 350,100" stroke="#000" fill="transparent"/>
+
+  <!-- First landmark: A mysterious glowing orb -->
+  <circle cx="350" cy="100" r="40" fill="#ff6347" stroke="#000"/>
+  <text x="320" y="95" font-family="Verdana" font-size="20">Mystery Orb</text>
+
+  <!-- Path to the next landmark -->
+  <path d="M350,100 Q450,75 500,100" stroke="#000" fill="transparent"/>
+
+  <!-- Second landmark: A colorful butterfly haven -->
+  <rect x="400" y="80" width="200" height="130" fill="#ffff99"/>
+  <text x="500" y="150" font-family="Verdana" font-size="20">Butterfly Haven</text>
+
+</svg>

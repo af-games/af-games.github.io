@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo -->
+  <circle cx="150" cy="250" r="70" fill="#FFFFFF">
+    <animate attributeName="r" values="70;90;70" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Rolling Hills -->
+  <path d="M30,180 Q60,140 120,180 Q180,220 240,180 Q300,140 360,180 Q420,220 480,180 Q540,140 600,180" stroke="#7B6D55" fill="transparent" stroke-width="5"/>
+
+  <!-- Winding River -->
+  <path d="M300,550 Q320,500 350,520 Q380,480 410,500 Q440,460 470,480" stroke="#A9D6E5" fill="transparent" stroke-width="5"/>
+
+  <!-- Towering Trees -->
+  <rect x="50" y="350" width="20" height="100" fill="url(#treeGradient)"/>
+  <rect x="150" y="300" width="20" height="110" fill="url(#treeGradient)"/>
+  <rect x="250" y="250" width="20" height="120" fill="url(#treeGradient)"/>
+
+  <!-- Defining Gradients -->
+  <linearGradient id="hillGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#7B6D55;stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#C4A484;stop-opacity:1"/>
+  </linearGradient>
+
+  <linearGradient id="treeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#228B22;stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#4A7D46;stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#8DC63C;stop-opacity:1"/>
+  </linearGradient>
+
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Bell (main body) -->
+  <circle cx="0" cy="0" r="40" fill="#FAFAD2" opacity="0.9"/>
+  <circle cx="0" cy="0" r="35" fill="#CACFD2"/>
+
+  <!-- Tentacles -->
+  <g stroke="#696969" stroke-width="2">
+    <?for (let i = 1; i <= 8; i++) {?>
+      <path d="M0,-40 A40,40 0 0 <?=i % 2 === 0 ? '1' : '0'?>,1 0,-<?=50 - i * 5?>"/>
+    <?}?>
+  </g>
+
+  <!-- Mouth and eyes -->
+  <circle cx="0" cy="-30" r="8" fill="#4C7AFF"/>
+  <circle cx="-10" cy="-35" r="2" fill="#000"/>
+  <circle cx="10" cy="-35" r="2" fill="#000"/>
+
+  <!-- Shadows -->
+  <circle cx="0" cy="0" r="42" fill="none" stroke="#696969" stroke-width="2" opacity="0.3"/>
+  <path d="M0,-40 A45,45 0 0 1 0,-<?=i * 5 + 45?>" fill="none" stroke="#696969" stroke-width="2" opacity="0.3"/>
+
+</svg>

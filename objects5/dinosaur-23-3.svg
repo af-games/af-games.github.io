@@ -1,0 +1,37 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path id="dinosaur-body" d="M170,40 C180,60 220,80 240,90 L250,120 L270,130 Z"
+        fill="url(#body-gradient)"/>
+  <!-- Tail -->
+  <path id="dinosaur-tail" d="M260,90 C250,100 220,80 200,90 Z"
+        fill="none" stroke="black"/>
+
+  <!-- Head -->
+  <path id="dinosaur-head" d="M140,40 Q160,30 170,40 L150,60 C140,70 120,80 110,90 Z"
+        fill="url(#head-gradient)"/>
+  <!-- Neck -->
+  <path id="dinosaur-neck" d="M130,60 Q150,50 170,40 Z"
+        fill="none" stroke="black"/>
+
+  <!-- Legs -->
+  <rect id="dinosaur-leg-left" x="180" y="120" width="20" height="80"
+        fill="url(#leg-gradient)" rx="5"/>
+  <rect id="dinosaur-leg-right" x="240" y="120" width="20" height="80"
+        fill="url(#leg-gradient)" rx="5"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(79,138,65);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(64,96,54);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="head-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(79,138,65);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(64,96,54);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="leg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(79,138,65);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(64,96,54);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

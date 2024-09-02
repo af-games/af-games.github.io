@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+
+  <!-- Bell -->
+  <ellipse cx="150" cy="150" rx="120" ry="60" fill="url(#bellGradient)">
+    <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Bell gradient -->
+  <defs>
+    <linearGradient id="bellGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(217,223,246);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,139);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Eye-spot -->
+  <circle cx="150" cy="130" r="10" fill="#FFFFFF"/>
+
+  <!-- Tentacles and Oral arms (8 total) -->
+  <ellipse cx="120" cy="90" rx="50" ry="10" fill="#4B0082"/>
+  <ellipse cx="160" cy="90" rx="50" ry="10" fill="#4B0082" transform="rotate(30, 150, 150)"/>
+  <!-- Repeat for other tentacles and oral arms with varying sizes and rotations -->
+
+</svg>

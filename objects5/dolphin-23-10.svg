@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dolphin tail -->
+  <polygon points="-50,-100 50,-100 25,-50"
+           style="fill:blue; stroke:black; stroke-width:2px; filter:url(#dolphinTailShadow)"/>
+  <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+  <feOffset in="blur" dx="2" dy="2" result="offsetBlur"/>
+  <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+  <!-- Dolphin body -->
+  <ellipse cx="0" cy="-50" rx="100" ry="70"
+           style="fill:lightblue; stroke:black; stroke-width:2px; filter:url(#dolphinBodyRipple)"/>
+  <feDisplacementMap in2="Noise" in="SourceGraphic" scale="15" xChannelSelector="R" yChannelSelector="G"/>
+  <!-- Dolphin fin -->
+  <polygon points="-30,50 -70,-50 30,50"
+           style="fill:blue; stroke:black; stroke-width:2px; filter:url(#dolphinFinGlitch)"/>
+  <feTurbulence type="fractalNoise" baseFrequency="0.1" numOctaves="2"/>
+  <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="50"/>
+
+  <!-- Noise texture for displacement maps -->
+  <defs>
+    <pattern id="Noise" patternUnits="userSpaceOnUse" width="4" height="4">
+      <image href="data:image/png;base64,iVBORw0KG...AAAA" width="4" height="4"/>
+    </pattern>
+  </defs>
+</svg>

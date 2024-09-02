@@ -1,0 +1,16 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define the main landmass (cake) -->
+  <rect id="landmass" x="50" y="50" width="400" height="200"
+        style="fill:lightgreen; stroke:black; stroke-width:3;" />
+
+  <!-- Mark landmarks within the cake territory -->
+
+  <!-- Landmark 1: A circle to represent a cherry on top -->
+  <circle cx="200" cy="150" r="20" fill="red" stroke="black" stroke-width="2"/>
+
+  <!-- Landmark 2: A triangle to represent a piece of the cake that has been taken -->
+  <polygon points="350,75 450,75 400,175"
+           style="fill:orange; stroke:black; stroke-width:2;" />
+
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 200">
+  <!-- Outline (Body) -->
+  <path d="M50 20 C70 20, 90 40, 110 60 A60 60 0 0 1 50 100 A60 60 0 0 1 10 60" stroke="#333" stroke-width="8"/>
+
+  <!-- Eyes -->
+  <circle cx="75" cy="30" r="18" fill="#fff" stroke="#333" stroke-width="4"/>
+  <circle cx="93" cy="30" r="18" fill="#fff" stroke="#333" stroke-width="4"/>
+
+  <!-- Beak -->
+  <path d="M80 60 Q95 75, 105 60" stroke="#333" stroke-width="4"/>
+
+  <!-- Wings -->
+  <path d="M25 80 Q40 100, 70 90" fill="#ddd" stroke="#ddd" stroke-width="6"/>
+  <path d="M135 80 Q120 100, 110 90" fill="#ddd" stroke="#ddd" stroke-width="6"/>
+
+  <!-- Feet -->
+  <path d="M60 140 Q70 150, 80 140" stroke="#333" stroke-width="2"/>
+  <path d="M90 140 Q100 150, 110 140" stroke="#333" stroke-width="2"/>
+
+</svg>

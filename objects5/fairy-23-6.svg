@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Fairy's body -->
+  <g id="fairy-body" transform="translate(100, 250)">
+    <!-- Face (light skin tone) -->
+    <rect width="70" height="80" fill="#F8E3C7"/>
+    <!-- Hair (dark brown) -->
+    <polygon points="70,10 140,10 105,60" fill="#4A2C0B"/>
+    <!-- Eyes (blue accents) -->
+    <circle cx="90" cy="30" r="8" fill="#6CAFD1"/>
+    <circle cx="120" cy="30" r="8" fill="#6CAFD1"/>
+  </g>
+
+  <!-- Fairy's dress (medium skin tone) -->
+  <rect x="50" y="270" width="300" height="200" fill="#D4A970"/>
+
+  <!-- Fairy's wings (blue accents) -->
+  <polygon points="180,150 250,100 180,50" fill="#6CAFD1"/>
+  <polygon points="130,150 100,100 130,50" fill="#6CAFD1"/>
+
+</svg>

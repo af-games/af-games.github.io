@@ -1,0 +1,32 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy's Body -->
+  <g id="fairy-body">
+    <!-- Head -->
+    <circle cx="100" cy="75" r="50" stroke="#000" fill="none" stroke-width="2"/>
+
+    <!-- Torso -->
+    <rect x="90" y="125" width="20" height="60" stroke="#000" fill="none" stroke-width="2"/>
+    <path d="M70 185 Q90 240 130 185" stroke="#000" fill="none" stroke-width="2"/>
+
+    <!-- Arms -->
+    <line x1="75" y1="210" x2="75" y2="240" stroke="#000" fill="none" stroke-width="2"/>
+    <line x1="125" y1="210" x2="125" y2="240" stroke="#000" fill="none" stroke-width="2"/>
+
+    <!-- Legs -->
+    <g transform="translate(95, 270)">
+      <line x1="-20" y1="0" x2="-20" y2="30" stroke="#000" fill="none" stroke-width="2"/>
+      <line x1="20" y1="0" x2="20" y2="30" stroke="#000" fill="none" stroke-width="2"/>
+    </g>
+  </g>
+
+  <!-- Fairy's Wings -->
+  <g id="fairy-wings">
+    <!-- Left Wing -->
+    <path d="M50 100 Q60 70 80 100 Q90 130 60 140" stroke="#000" fill="none" stroke-width="2"/>
+
+    <!-- Right Wing -->
+    <path d="M150 100 Q140 70 120 100 Q110 130 140 140" stroke="#000" fill="none" stroke-width="2"/>
+  </g>
+
+</svg>

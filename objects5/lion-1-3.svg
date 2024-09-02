@@ -1,0 +1,17 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outline the main features -->
+  <rect x="100" y="80" width="300" height="340" fill="#F39C12" stroke="black"/>
+  <circle cx="170" cy="150" r="60" fill="#FFF" stroke="black"/>
+  <circle cx="250" cy="150" r="60" fill="#FFF" stroke="black"/>
+
+  <!-- Add complex elements with paths -->
+  <path d="M130,80 Q170,40 210,80 L210,320 Q250,400 290,320 L290,80 Z" fill="#C67115" stroke="black"/>
+  <path d="M170,230 Q210,290 250,320 Q290,290 250,230 Q210,170 170,230 Z" fill="#C67115" stroke="black"/>
+  <path d="M140,80 Q110,120 170,150 Q200,120 140,80 Z" fill="#FFF" stroke="black"/>
+
+  <!-- Label points using coordinates -->
+  <text x="350" y="90" font-family="Verdana" font-size="14">(350,90)</text>
+  <text x="20" y="480" font-family="Verdana" font-size="14">(20,480)</text>
+
+</svg>

@@ -1,0 +1,32 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="50" y="170" width="200" height="130"
+        fill="#FDD79C" stroke="#CCA64D" stroke-width="2"/>
+
+  <!-- Topping -->
+  <circle cx="150" cy="50" r="120"
+          fill="url(#Gradient)" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Frosting Edges -->
+  <rect x="53" y="173" width="194" height="6"
+        fill="#FFFFFF"/>
+  <polygon points="53,173 60,180 53,187"
+            fill="#FFFFFF"/>
+  <polygon points="247,173 240,180 247,187"
+            fill="#FFFFFF"/>
+
+  <!-- Cherries -->
+  <circle cx="90" cy="60" r="5" fill="#FF0000"/>
+  <circle cx="210" cy="60" r="5" fill="#FF0000"/>
+
+  <!-- Gradient for Topping -->
+  <defs>
+    <linearGradient id="Gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#FFF3E0"/>
+      <stop offset="50%"  stop-color="#FFD6A5"/>
+      <stop offset="100%" stop-color="#FFA54F"/>
+    </linearGradient>
+  </defs>
+
+</svg>

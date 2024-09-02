@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250">
+  <!-- Body -->
+  <path id="giraffe-body" d="M100,50 A75,75 0 1,1 100,225 A75,75 0 1,1 100,50 Z" fill="gold"/>
+
+  <!-- Neck -->
+  <rect id="giraffe-neck" width="40" height="150" x="85" y="50" fill="black"/>
+  <path d="M97.5,200 Q97.5,160 110,130 Q122.5,160 122.5,200" stroke="black"/>
+
+  <!-- Legs -->
+  <rect id="giraffe-leg1" width="20" height="80" x="70" y="200"/>
+  <rect id="giraffe-leg2" width="20" height="80" x="130" y="200"/>
+
+  <!-- Eye Spots -->
+  <circle cx="95" cy="140" r="10" fill="turquoise"/>
+  <circle cx="105" cy="140" r="10" fill="turquoise"/>
+
+  <!-- Head Outline -->
+  <path d="M80,20 Q80,60 95,80 Q110,60 110,20 Z" stroke="black"/>
+
+</svg>

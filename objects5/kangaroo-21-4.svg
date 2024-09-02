@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 150 800 450">
+
+  <!-- Background -->
+  <rect x="0" y="250" width="800" height="300" fill="#8DC63C"/>
+
+  <!-- Sun -->
+  <circle cx="750" cy="150" r="100" fill="#FFDF00"/>
+  <animateMotion dur="4s" repeatCount="indefinite">
+    <mpath href="#sunPath"/>
+  </animateMotion>
+  <path id="sunPath" d="M750,150 Q700,200 750,250"/>
+
+  <!-- Kangaroo Body -->
+  <ellipse cx="300" cy="450" rx="200" ry="300" fill="#C7A986"/>
+  <animateMotion dur="1s" repeatCount="1">
+    <mpath href="#kangaPath"/>
+  </animateMotion>
+  <path id="kangaPath" d="M200,350 Q400,200 200,450"/>
+
+  <!-- Kangaroo Head -->
+  <ellipse cx="275" cy="150" rx="100" ry="150" fill="#9C8F6D"/>
+  <animateMotion dur="1s" repeatCount="1">
+    <mpath href="#headPath"/>
+  </animateMotion>
+  <path id="headPath" d="M250,150 Q350,50 250,150"/>
+
+  <!-- Kangaroo Ears -->
+  <polygon points="180,70 150,50 210,50" fill="#C7A986"/>
+  <polygon points="320,70 350,50 290,50" fill="#C7A986"/>
+
+  <!-- Kangaroo Legs -->
+  <line x1="200" y1="550" x2="300" y2="550" stroke="#C7A986"/>
+  <line x1="400" y1="650" x2="500" y2="650" stroke="#C7A986"/>
+
+</svg>

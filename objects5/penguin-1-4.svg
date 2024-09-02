@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/20丨svg" viewBox="-5 0 190 280">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(153,194,228);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(227,236,248);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <ellipse cx="95" cy="220" rx="70" ry="110" fill="url(#grad)"/>
+
+  <!-- Head -->
+  <ellipse cx="80" cy="160" rx="40" ry="60" fill="#324376"/>
+  <path d="M95 165 Q100 150, 95 135" stroke="#fff" fill="transparent"/>
+
+  <!-- Eye -->
+  <circle cx="85" cy="145" r="10" fill="#fff"/>
+  <path d="M80 145 Q85 135, 90 145" stroke="#324376" fill="transparent"/>
+
+  <!-- Beak -->
+  <path d="M95 170 Q105 180, 95 190" stroke="#fff" fill="transparent"/>
+
+  <!-- Feathers (intricate details) -->
+  <g fill="#324376">
+    <path d="M85 210 Q90 220, 85 230"/>
+    <path d="M95 210 Q100 220, 95 230"/>
+    <path d="M90 220 Q95 230, 85 220"/>
+  </g>
+
+</svg>

@@ -1,0 +1,30 @@
+<svg width="500px" height="500px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Pulling out a circle from thin air -->
+  <circle id="cakeBase" cx="250" cy="400" r="80"
+          stroke="#6B4226" stroke-width="3"
+          fill="#D79A2B"
+          opacity="1">
+
+    <!-- Making colors appear from nowhere -->
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Creating the candle -->
+  <rect id="candleBase" x="235" y="200" width="30" height="70"
+        fill="#C4986A">
+    <animate attributeName="x" values="235;265;235" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- And the candle's flame -->
+  <polygon id="flame" points="245,200 275,200 260,130"
+           fill="#FFC10A">
+    <animate attributeName="points" values="245,200 275,200 260,130;255,180 285,180 270,110;245,200 275,200 260,130"
+             dur="1s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- And finally, the candle's wick -->
+  <rect id="wick" x="255" y="195" width="10" height="5"
+        fill="#6B4226">
+    <animate attributeName="y" values="195;185;195" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="150" cy="200" rx="80" ry="120" fill="brown"/>
+
+  <!-- Head -->
+  <path d="M90 70 Q140 30, 190 70 Q240 30, 290 70" stroke="black" fill="lightgray"/>
+  <polygon points="85,70 135,60 185,70 235,60 285,70" stroke="black"/>
+
+  <!-- Wings -->
+  <ellipse cx="50" cy="220" rx="40" ry="90" fill="brown"/>
+  <ellipse cx="210" cy="220" rx="40" ry="90" fill="brown"/>
+
+  <!-- Legs and Tail -->
+  <line x1="75" y1="300" x2="80" y2="360"/>
+  <line x1="185" y1="300" x2="180" y2="360"/>
+  <ellipse cx="125" cy="340" rx="40" ry="60" fill="brown"/>
+
+  <!-- Eyes and Beak -->
+  <circle cx="120" cy="90" r="20" fill="white"/>
+  <circle cx="180" cy="90" r="20" fill="white"/>
+  <path d="M145 70 Q160 60, 175 70" stroke="black"/>
+
+</svg>

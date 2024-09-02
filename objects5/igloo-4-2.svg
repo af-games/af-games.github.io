@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Dome -->
+  <path id="dome" d="M250 10 A240 240 0 1 1 250 490 A240 240 0 1 1 250 10 Z"
+        fill="#FDD835" stroke="#FFF" stroke-width="2"/>
+
+  <!-- Entrance -->
+  <rect id="entrance" x="175" y="350" width="70" height="70"
+        fill="#A9C6FF" opacity="0.8"/>
+
+  <!-- Inner circle (for shadow) -->
+  <circle cx="250" cy="450" r="100" fill="url(#grad)" />
+
+  <!-- Gradient for inner circle shadow -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+</svg>

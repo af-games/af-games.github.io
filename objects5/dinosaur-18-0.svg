@@ -1,0 +1,28 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="50" y="150" width="100" height="80" fill="#7c6f4e"/>
+
+  <!-- Head -->
+  <ellipse cx="90" cy="70" rx="35" ry="45" fill="#7c6f4e"/>
+
+  <!-- Neck -->
+  <rect x="85" y="120" width="20" height="50" fill="#7c6f4e"/>
+
+  <!-- Left Leg -->
+  <rect x="60" y="230" width="25" height="70" fill="#7c6f4e"/>
+  <rect x="60" y="180" width="25" height="50" fill="#7c6f4e"/>
+
+  <!-- Right Leg -->
+  <rect x="105" y="230" width="25" height="70" fill="#7c6f4e"/>
+  <rect x="105" y="180" width="25" height="50" fill="#7c6f4e"/>
+
+  <!-- Left Arm -->
+  <rect x="35" y="100" width="20" height="30" fill="#7c6f4e"/>
+  <rect x="35" y="80" width="20" height="20" fill="#7c6f4e"/>
+
+  <!-- Right Arm -->
+  <rect x="130" y="100" width="20" height="30" fill="#7c6f4e"/>
+  <rect x="130" y="80" width="20" height="20" fill="#7c6f4e"/>
+
+</svg>

@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle Gate -->
+  <polygon id="castle-gate" points="100,50 400,50 400,150" fill="#8B7D6B"/>
+  <text x="250" y="90" font-family="Verdana" font-size="24">Castle Gate</text>
+
+  <!-- Path to the Keep -->
+  <path id="keep-path" d="M450,150 L600,300 Q700,400 800,300" stroke="#5E3F2C" fill="transparent"/>
+
+  <!-- Keep -->
+  <circle id="keep" cx="800" cy="300" r="100" fill="#B98D6A"/>
+  <text x="740" y="270" font-family="Verdana" font-size="24">Keep</text>
+
+  <!-- Filter for glowing effect -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Moat -->
+  <rect id="moat" x="100" y="200" width="700" height="300" fill="#5E8B8B"/>
+  <text x="400" y="350" font-family="Verdana" font-size="24">Moat</text>
+
+  <!-- Tower -->
+  <polygon id="tower" points="100,400 300,400 300,600 100,600" fill="#8B7D6B"/>
+  <text x="200" y="500" font-family="Verdana" font-size="24">Tower</text>
+
+  <!-- Filtered line for exploration route -->
+  <use id="keep-path-filter" href="#keep-path" filter="url(#glow)"/>
+
+</svg>

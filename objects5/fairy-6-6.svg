@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(15,15,74);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(39,39,108);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#grad)"/>
+
+  <!-- Fairy's body (gold) -->
+  <rect x="-25" y="-30" width="50" height="40" fill="gold"/>
+
+  <!-- Fairy's dress (blue and purple layers) -->
+  <g>
+    <rect x="-18.75" y="-10" width="37.5" height="60" fill="darkslateblue"/>
+    <rect x="-12.5" y="-15" width="25" height="75" fill="mediumpurple"/>
+  </g>
+
+  <!-- Fairy's hair (blue and purple layers) -->
+  <g transform="rotate(90, -30, -40)">
+    <rect x="-18.75" y="-10" width="60" height="37.5" fill="darkslateblue"/>
+    <rect x="-12.5" y="-15" width="75" height="25" fill="mediumpurple"/>
+  </g>
+
+</svg>

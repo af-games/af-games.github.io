@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Balloon background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#FFF8E1"/>
+
+  <!-- Balloon main body (ellipse) -->
+  <ellipse cx="250" cy="300" rx="150" ry="250"
+           fill="#FFC766" stroke="#FFA500" stroke-width="4"/>
+  <circle cx="250" cy="350" r="10" fill="#FFF8E1"/>
+
+  <!-- Balloon string (polyline) -->
+  <polyline points="250,35 260,70 240,70"
+            stroke="#FFA500" stroke-width="4" fill="transparent"/>
+
+  <!-- Balloon shape at the bottom (path) -->
+  <path d="M 220,80 Q 190,30 160,80 Q 220,130 280,80"
+        stroke="#FFA500" stroke-width="4" fill="transparent"/>
+
+  <!-- Balloon shadow (ellipse) -->
+  <ellipse cx="250" cy="375" rx="150" ry="60"
+           fill="#8B7D6C" opacity="0.5"/>
+</svg>

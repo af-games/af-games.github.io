@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#ADD8E6"/>
+
+  <!-- Rock -->
+  <ellipse cx="400" cy="350" rx="200" ry="150" fill="#4F7944"/>
+  <path d="M300,350 Q350,250 400,300 Q450,250 500,350" stroke="#4F7944" fill="transparent"/>
+
+  <!-- Mermaid tail -->
+  <path d="M370,550 C380,580 420,610 470,580 Q520,520 570,550" stroke="#FFDAB9" fill="transparent"/>
+
+  <!-- Mermaid body -->
+  <path d="M380,270 C400,260 420,270 440,260 Q460,270 480,260 Z" stroke="#FFDAB9" fill="#FFDAB9"/>
+
+  <!-- Mermaid hair -->
+  <path d="M370,150 C400,180 430,150 460,180 Q490,210 520,150" stroke="#00008B" fill="transparent"/>
+
+  <!-- Mermaid face -->
+  <circle cx="400" cy="210" r="60" stroke="#FFDAB9" fill="#FFDAB9"/>
+  <ellipse cx="380" cy="180" rx="30" ry="50" stroke="#FFDAB9" fill="transparent"/>
+
+  <!-- Seashell -->
+  <polygon points="370,210 400,230 430,210 410,190" stroke="#FFFDD0" fill="#FFFDD0"/>
+
+</svg>

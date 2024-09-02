@@ -1,0 +1,22 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Prepare the coordinate system -->
+  <rect x="0" y="0" width="500" height="500" fill="lightblue"/>
+
+  <!-- Plant roses (circles) -->
+  <circle cx="100" cy="75" r="20" fill="red"/>
+  <circle cx="200" cy="150" r="30" fill="pink"/>
+  <circle cx="350" cy="125" r="25" fill="#ff69b4"/>
+
+  <!-- Plant daisies (ellipses) -->
+  <ellipse cx="75" cy="250" rx="35" ry="20" fill="#ffff99"/>
+  <ellipse cx="175" cy="325" rx="50" ry="40" fill="#ffd700"/>
+
+  <!-- Plant tulips (paths) -->
+  <path d="M400,400 Q300,450 200,400 T100,300 Q150,250 200,300 Z" fill="#ff69b4"/>
+
+  <!-- Assign colors wisely for sunlight and shade -->
+  <rect x="0" y="300" width="500" height="200" fill="#e0e0e0"/>
+  <rect x="150" y="150" width="200" height="350" fill="#ffffff"/>
+
+</svg>

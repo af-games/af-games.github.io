@@ -1,0 +1,39 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect id="ocean" x="0" y="50%" width="100%" height="50%" fill="#E0F7FF"/>
+
+  <!-- Horizon -->
+  <ellipse cx="50%" cy="98.5%" rx="50%" ry="2%" fill="#A2CCEC"/>
+
+  <!-- Sky -->
+  <rect id="sky" x="0" y="0" width="100%" height="49%" fill="#FFFFFF">
+    <defs>
+      <radialGradient id="cloudGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+        <stop offset="0%" style="stop-color:#FFFFFF; stop-opacity:1"/>
+        <stop offset="100%" style="stop-color:#E7F6FF; stop-opacity:1"/>
+      </radialGradient>
+    </defs>
+    <circle cx="5%" cy="20%" r="3%" fill="#FFFFFF" opacity=".8"/>
+    <circle cx="40%" cy="15%" r="2.5%" fill="#FFFFFF" opacity=".7"/>
+    <circle cx="65%" cy="25%" r="3.5%" fill="#FFFFFF" opacity=".9"/>
+  </rect>
+
+  <!-- Dolphins -->
+  <path id="dolphinMain" d="M10,80 Q30,60 50,80 Q70,100 90,80 Q110,60 130,80" stroke="#6393D4" stroke-width="2"/>
+  <path id="dolphinMainAlt" d="M10,75 Q30,55 50,75 Q70,95 90,75 Q110,55 130,75" stroke="#C5D7E1" stroke-width="2"/>
+  <path id="dolphinSecondary" d="M60,80 Q80,60 100,80 Q120,100 140,80 Q160,60 180,80" stroke="#A2CCEC" stroke-width="1.5"/>
+
+  <!-- Coral Reef -->
+  <rect id="coralBase" x="30%" y="70%" width="40%" height="20%" fill="#FF7F00"/>
+  <polygon points="60%,80% 90%,70% 120%,80%" fill="#8B4513"/>
+  <circle cx="40%" cy="75%" r="2.5%" fill="#D1E7EA"/>
+
+  <!-- Text -->
+  <text id="title" x="50%" y="90%" text-anchor="middle" font-size="2em" font-family="Verdana, sans-serif">Dolphin's Dance in the Coral Sea</text>
+
+  <!-- Stars -->
+  <circle cx="3%" cy="15%" r="1.5" fill="#FFFFFF"/>
+  <circle cx="47%" cy="30%" r="2" fill="#FFFFFF"/>
+  <circle cx="94%" cy="8%" r="1.5" fill="#FFFFFF"/>
+
+</svg>

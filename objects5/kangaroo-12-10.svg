@@ -1,0 +1,27 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M80 60 Q140 40, 190 90 Q120 170, 80 200 Q50 170, 20 90 Q80 40, 80 60" fill="#D3D3D3"/>
+
+  <!-- Head -->
+  <path d="M80 60 Q120 40, 150 70 Q120 100, 80 90 Q60 100, 80 60" fill="#D3D3D3"/>
+
+  <!-- Ears -->
+  <polygon points="160 40, 180 20, 200 40" fill="#592F0B"/>
+  <polygon points="70 40, 50 20, 30 40" fill="#592F0B"/>
+
+  <!-- Pouch -->
+  <path d="M80 210 Q110 260, 150 230 Q120 200, 80 170" fill="#FFFDD0"/>
+
+  <!-- Feet -->
+  <rect x="10" y="210" width="40" height="50" rx="10" fill="#592F0B"/>
+  <rect x="160" y="210" width="40" height="50" rx="10" fill="#592F0B"/>
+  <rect x="30" y="270" width="40" height="50" rx="10" fill="#592F0B"/>
+  <rect x="150" y="270" width="40" height="50" rx="10" fill="#592F0B"/>
+
+  <!-- Details -->
+  <circle cx="85" cy="85" r="3" fill="#000"/>
+  <circle cx="115" cy="85" r="3" fill="#000"/>
+  <path d="M160 270 Q170 290, 180 270" stroke="#000" fill="transparent"/>
+
+</svg>

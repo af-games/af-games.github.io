@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Color palette -->
+  <defs>
+    <linearGradient id=" gradients" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,239,213);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(248,167,114);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Fairy's head -->
+  <circle cx="200" cy="150" r="90" fill="url(#gradients)" stroke-width="3" stroke="#000"/>
+
+  <!-- Fairy's hair -->
+  <polygon points="140,60 180,70 220,60 180,50" fill="#FFC0CB" stroke="#000" stroke-width="2"/>
+  <polygon points="260,60 220,70 180,60 220,50" fill="#FFC0CB" stroke="#000" stroke-width="2"/>
+
+  <!-- Fairy's body -->
+  <rect x="130" y="210" width="140" height="200" rx="50" ry="50" fill="#FFA500" stroke="#000" stroke-width="3"/>
+  <circle cx="200" cy="410" r="80" fill="#FFFACD" stroke="#000" stroke-width="3"/>
+
+  <!-- Fairy's wings -->
+  <polygon points="150,290 200,320 250,290" fill="#FFB6C1" stroke="#000" stroke-width="2"/>
+  <polygon points="170,340 200,380 230,340" fill="#FFB6C1" stroke="#000" stroke-width="2"/>
+
+  <!-- Fairy's eyes -->
+  <circle cx="190" cy="135" r="15" fill="#FFF" stroke="#000" stroke-width="2"/>
+  <circle cx="190" cy="145" r="5" fill="#000"/>
+
+  <!-- Fairy's mouth -->
+  <path d="M180,165 Q190,175 200,165 T190,155" stroke="#000" fill="transparent" stroke-width="3"/>
+</svg>

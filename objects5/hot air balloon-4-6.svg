@@ -1,0 +1,11 @@
+<svg width="200" height="300" viewBox="-100 -150 200 300">
+  <circle cx="0" cy="0" r="80" fill="#fff"/>
+  <radialGradient id="sleeveGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" style="stop-color:rgb(255,165,0);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(255,99,71);stop-opacity:1"/>
+  </radialGradient>
+  <mask id="sleeveMask" x="0" y="0" width="200" height="300">
+    <circle cx="0" cy="0" r="80"/>
+  </mask>
+  <rect x="-100" y="-150" width="200" height="300" fill="url(#sleeveGradient)" mask="url(#sleeveMask)"/>
+</svg>

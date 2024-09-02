@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Icy Peaks -->
+<path id="icyPeaks" d="M50,100 Q150,75 300,100 Q450,125 600,100 Q750,75 800,100 V600 H0 Z"/>
+<fill id="icyPeaksFill" color="#b3d9eb"/>
+<animate repeatCount="indefinite" dur="4s" attributeName="stop-color" values="#b3d9eb;#c3e2df;#b3d9eb"/>
+
+<!-- Frost Forest -->
+<path id="frostForest" d="M100,250 Q150,275 250,250 Q350,225 450,250 Q550,275 650,250 V600 H100 Z"/>
+<fill id="frostForestFill" color="#d1e8c2"/>
+<animate repeatCount="indefinite" dur="4s" attributeName="stop-color" values="#d1e8c2;#d9e3cd;#d1e8c2"/>
+
+<!-- Crystal River -->
+<path id="crystalRiver" d="M50,300 Q100,350 200,300 Q300,350 400,300 Q500,350 600,300"/>
+<fill id="crystalRiverFill" color="#bddfff"/>
+<animate repeatCount="indefinite" dur="4s" attributeName="stop-color" values="#bddfff;#c6e2ff;#bddfff"/>
+
+<!-- Glacier Fields -->
+<path id="glacierFields" d="M50,350 Q150,375 300,350 Q450,375 600,350 Q750,375 800,350 V600 H0 Z"/>
+<fill id="glacierFieldsFill" color="#f1e1ff"/>
+<animate repeatCount="indefinite" dur="4s" attributeName="stop-color" values="#f1e1ff;#ecddfa;#f1e1ff"/>
+
+<!-- Aurora City -->
+<path id="auroraCity" d="M50,400 Q250,375 500,400 Q750,425 800,400 V600 H0 Z"/>
+<fill id="auroraCityFill" color="#ffd9b3"/>
+<animate repeatCount="indefinite" dur="4s" attributeName="stop-color" values="#ffd9b3;#ffe5ba;#ffd9b3"/>
+
+<!-- Icy Peaks Igloos -->
+<circle cx="100" cy="80" r="20"/>
+<circle cx="250" cy="70" r="20"/>
+<circle cx="400" cy="60" r="20"/>
+
+<!-- Text Labels -->
+<text x="5%" y="15%" text-anchor="start" font-size="30">Icy Peaks</text>
+<text x="25%" y="40%" text-anchor="start" font-size="30">Frost Forest</text>
+<text x="45%" y="65%" text-anchor="start" font-size="30">Crystal River</text>
+<text x="60%" y="90%" text-anchor="start" font-size="30">Glacier Fields</text>
+<text x="70%" y="115%" text-anchor="start" font-size="30">Aurora City</text>
+
+</svg>

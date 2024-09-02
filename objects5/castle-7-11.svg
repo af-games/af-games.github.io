@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Castle Wall -->
+  <rect id="wall" width="300" height="200"/>
+
+  <!-- Tower Masks -->
+  <mask id="towerMask1" x="0" y="0" width="150" height="150">
+    <circle cx="75" cy="75" r="75"/>
+  </mask>
+  <mask id="towerMask2" x="150" y="0" width="150" height="150">
+    <circle cx="225" cy="75" r="75"/>
+  </mask>
+
+  <!-- Towers -->
+  <circle cx="75" cy="75" r="75" mask="url(#towerMask1)"/>
+  <circle cx="225" cy="75" r="75" mask="url(#towerMask2)"/>
+
+  <!-- Gate Mask -->
+  <mask id="gateMask" x="90" y="0" width="120" height="200">
+    <rect width="120"/>
+  </mask>
+
+  <!-- Gate -->
+  <rect cx="250" cy="75" rx="40" ry="40" width="160" height="300" mask="url(#gateMask)"/>
+
+  <!-- Windows and Doors (lines and curves will be added here) -->
+
+</svg>

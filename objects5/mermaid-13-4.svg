@@ -1,0 +1,26 @@
+<svg width="800px" height="500px" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mermaid Tail Fin -->
+  <polygon points="500,200 650,400 350,400" fill="#8DC6B1"/>
+
+  <!-- Left Castle Tower -->
+  <rect x="300" y="150" width="150" height="300" fill="#7093db"/>
+  <polygon points="300,450 450,450 375,600" fill="#7093db"/>
+
+  <!-- Right Castle Tower -->
+  <rect x="650" y="150" width="150" height="300" fill="#7093db"/>
+  <polygon points="650,450 800,450 725,600" fill="#7093db"/>
+
+  <!-- Castle Walls -->
+  <rect x="0" y="300" width="800" height="200" fill="#7093db"/>
+
+  <!-- Windows -->
+  <!-- Left Wall Windows -->
+  <rect x="80" y="350" width="60" height="120" fill="white"/>
+  <rect x="240" y="350" width="60" height="120" fill="white"/>
+
+  <!-- Right Wall Windows -->
+  <rect x="760" y="350" width="60" height="120" fill="white"/>
+  <rect x="600" y="350" width="60" height="120" fill="white"/>
+
+</svg>

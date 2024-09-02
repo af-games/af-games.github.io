@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <!-- Bell (body) -->
+    <circle cx="50" cy="50" r="40" fill="#FFC300"/>
+
+    <!-- Tentacles -->
+    <g id="tentacles">
+        <ellipse cx="60" cy="20" rx="10" ry="20" fill="#F5DEB3"/>
+        <ellipse cx="70" cy="40" rx="15" ry="15" fill="#F5DEB3"/>
+        <ellipse cx="80" cy="60" rx="20" ry="20" fill="#8B4513"/>
+
+        <!-- Tentacle tips -->
+        <circle cx="60" cy="20" r="5" fill="#FFFACD"/>
+        <circle cx="70" cy="40" r="7" fill="#FFFACD"/>
+        <circle cx="80" cy="60" r="10" fill="#FFFACD"/>
+    </g>
+</svg>

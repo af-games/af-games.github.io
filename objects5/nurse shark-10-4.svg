@@ -1,0 +1,26 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ocean boundary -->
+  <path d="M0 600 H600 V0 Z" fill="#87CEEB" stroke="black"/>
+
+  <!-- Waterfall -->
+  <polygon points="400,500 550,300 250,300" fill="#FFFFFF" stroke="black"/>
+  <text x="400" y="480" font-family="Verdana" font-size="16" text-anchor="middle">Waterfall</text>
+
+  <!-- River -->
+  <path d="M70,400 Q200,350 400,500" stroke="#006400" fill="transparent"/>
+
+  <!-- Forest -->
+  <ellipse cx="150" cy="250" rx="80" ry="60" fill="#009900"/>
+  <text x="150" y="370" font-family="Verdana" font-size="16" text-anchor="middle">Forest</text>
+
+  <!-- Mountain Range -->
+  <polygon points="300,50 450,200 300,350" fill="#8B4513" stroke="black"/>
+  <text x="350" y="170" font-family="Verdana" font-size="16" text-anchor="middle">Mountain Range</text>
+
+  <!-- Mountain Peak -->
+  <polygon points="50,20 100,40 50,80" fill="#8B4513" stroke="black"/>
+  <circle cx="50" cy="90" r="10" fill="#FFFFFF"/>
+  <text x="50" y="70" font-family="Verdana" font-size="16" text-anchor="middle">Mountain Peak</text>
+
+</svg>

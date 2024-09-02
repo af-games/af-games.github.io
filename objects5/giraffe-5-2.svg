@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" style="background: #fff;">
+
+  <!-- Body -->
+  <rect x="100" y="150" width="300" height="400" fill="#78907c" stroke="black" stroke-width="2"/>
+  <path d="M150,150 Q200,100 250,150" fill="#78907c" stroke="black" stroke-width="2"/>
+
+  <!-- Neck -->
+  <rect x="160" y="150" width="40" height="100" fill="#a2b3ac" stroke="black" stroke-width="2"/>
+  <path d="M200,250 Q230,280 260,250" fill="#a2b3ac" stroke="black" stroke-width="2"/>
+
+  <!-- Head -->
+  <circle cx="230" cy="100" r="70" fill="#f1c492" stroke="black" stroke-width="2"/>
+  <path d="M230,50 Q260,30 280,50" fill="#f1c492" stroke="black" stroke-width="2"/>
+
+  <!-- Legs -->
+  <rect x="120" y="400" width="20" height="150" fill="#78907c" stroke="black" stroke-width="2"/>
+  <rect x="300" y="400" width="20" height="150" fill="#78907c" stroke="black" stroke-width="2"/>
+  <rect x="200" y="550" width="20" height="50" fill="#78907c" stroke="black" stroke-width="2"/>
+
+  <!-- Tail -->
+  <path d="M350,400 Q360,450 370,400" fill="#a2b3ac" stroke="black" stroke-width="2"/>
+
+  <!-- Horns (shading effect) -->
+  <circle cx="230" cy="80" r="15" fill="url(#grad)" stroke="none"/>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(247,231,163);stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:rgb(247,231,163);stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:rgb(247,231,163);stop-opacity:0.5"/>
+    </linearGradient>
+  </defs>
+
+</svg>

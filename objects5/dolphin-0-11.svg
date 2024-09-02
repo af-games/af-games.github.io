@@ -1,0 +1,32 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="300" fill="#87CEEB"/>
+
+  <!-- Dolphin's body -->
+  <path id="dolphinBody" d="M100,250 Q200,50 300,250" stroke="black" fill="none"/>
+
+  <!-- Dolphin's fins -->
+  <path id="fin1" d="M70,250 Q80,200 90,250" stroke="black" fill="none"/>
+  <path id="fin2" d="M320,250 Q310,200 300,250" stroke="black" fill="none"/>
+
+  <!-- Dolphin's eye and blowhole -->
+  <circle cx="90" cy="240" r="5"/>
+  <circle cx="310" cy="240" r="5"/>
+  <circle cx="200" cy="200" r="7"/>
+
+  <!-- Mask to hide parts of the dolphin -->
+  <mask id="dolphinMask">
+    <rect x="0" y="0" width="500" height="300" fill="black"/>
+    <circle cx="150" cy="225" r="75" fill="white"/>
+  </mask>
+
+  <!-- Apply mask to reveal dolphin strategically -->
+  <g mask="url(#dolphinMask)">
+    <use xlink:href="#dolphinBody"/>
+    <use xlink:href="#fin1"/>
+    <use xlink:href="#fin2"/>
+    <circle cx="90" cy="240" r="5"/>
+    <circle cx="310" cy="240" r="5"/>
+    <circle cx="200" cy="200" r="7"/>
+  </g>
+</svg>

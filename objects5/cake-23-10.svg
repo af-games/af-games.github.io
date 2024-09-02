@@ -1,0 +1,20 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mixing colors: light brown (#FDD9B5) for the cake body, pink (#FFC0CB) for the frosting -->
+  <rect x="40" y="10" width="120" height="160" fill="#FDD9B5" stroke="#9A6E3A" stroke-width="2"/>
+
+  <!-- Baking at precise temperatures (coordinates): rounding off the cake top corners with a radius of 20 -->
+  <circle cx="70" cy="80" r="20"/>
+  <circle cx="130" cy="80" r="20"/>
+
+  <!-- Adding elements: adding frosting on top of the cake -->
+  <rect x="45" y="70" width="110" height="30" fill="#FFC0CB"/>
+
+  <!-- Decorating with simplicity and detail: adding chocolate chips -->
+  <circle cx="60" cy="120" r="3"/>
+  <circle cx="90" cy="115" r="3"/>
+  <circle cx="110" cy="120" r="3"/>
+
+  <!-- Adding a cherry on top for the perfect touch -->
+  <circle cx="85" cy="60" r="5" fill="#FF4500"/>
+
+</svg>

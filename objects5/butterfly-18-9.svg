@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="50" cy="70" rx="40" ry="80" fill="#FF69B4"/>
+  <circle cx="50" cy="140" r="40" fill="#FF69B4"/>
+
+  <!-- Wings -->
+  <polygon points="20,30 80,30 120,70 160,30" fill="#DAA520"/>
+  <polygon points="20,170 80,170 120,130 160,170" fill="#DAA520"/>
+
+  <!-- Head -->
+  <circle cx="90" cy="40" r="20" fill="#FF69B4"/>
+  <circle cx="90" cy="30" r="5" fill="#FFFFFF"/>
+
+</svg>

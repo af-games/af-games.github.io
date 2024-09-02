@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Drums (circles) -->
+  <circle cx="40" cy="50" r="15" fill="#FFA500"/>
+  <circle cx="70" cy="50" r="12.5" fill="#FFA500"/>
+  <circle cx="40" cy="80" r="15" fill="#FFA500"/>
+  <circle cx="70" cy="80" r="12.5" fill="#FFA500"/>
+
+  <!-- Bass (rectangles) -->
+  <rect x="130" y="45" width="20" height="30" fill="#4CAF50"/>
+  <rect x="150" y="60" width="20" height="30" fill="#4CAF50"/>
+
+  <!-- Melody (lines) -->
+  <polyline points="210,70 220,90 210,110 200,90" stroke="#FFC300" fill="transparent"/>
+  <polyline points="260,70 250,90 260,110 270,90" stroke="#FFC300" fill="transparent"/>
+
+  <!-- Harmony (curves) -->
+  <path d="M320,70 Q340,90 320,110 Q300,90 320,70" stroke="#6A5ACD" fill="transparent"/>
+
+  <!-- Lion mane (complex path for saxophone solo) -->
+  <path d="M380,60 C400,40 420,100 400,140 Q380,120 360,100 Q380,80 400,60" stroke="#FFD700" fill="transparent"/>
+
+</svg>

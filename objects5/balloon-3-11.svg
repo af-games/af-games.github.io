@@ -1,0 +1,24 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define the canvas background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E8F5E9"/>
+
+  <!-- Plant the seed (Initial balloon shape) -->
+  <circle cx="250" cy="350" r="10" fill="#FFC107">
+    <animate attributeName="r" values="10;20;10" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Nurture the seed with colors and strokes -->
+  <path d="M250,360 Q340,280 250,200 Q160,280 250,360" stroke="#8E44AD" stroke-width="10" fill="none">
+    <animate attributeName="stroke-opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Add some leaves -->
+  <polygon points="250,320 280,360 220,360" fill="#6D4C41">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Create a string to hold the balloon -->
+  <line x1="250" y1="380" x2="250" y2="400" stroke="#3D9970"/>
+
+</svg>

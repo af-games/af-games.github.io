@@ -1,0 +1,71 @@
+<svg width="800" height="600" style="background-color: #f0e39c;">
+```
+
+2. **Plant your seeds (Initial shapes for the dinosaur's features):**
+
+Let's start with a simple T-Rex shape using rectangles and triangles for its body, legs, head, and tail.
+
+```svg
+<rect id="body" x="100" y="450" width="300" height="200"/>
+<rect id="leg-left" x="70" y="600" width="100" height="150"/>
+<rect id="leg-right" x="350" y="600" width="100" height="150"/>
+<polygon points="200,300 400,300 300,200" fill="green" />
+```
+
+3. **Water and nurture your seeds (Transforms to grow the shapes):**
+
+```svg
+<!-- Rotate the head slightly -->
+<g transform="rotate(5, 300, 250)">
+  <use xlink:href="#body"/>
+</g>
+
+<!-- Scale and translate the legs -->
+<g transform="scale(1.5) translate(-50, -75)">
+  <use xlink:href="#leg-left"/>
+</g>
+<g transform="scale(1.5) translate(200, -75)">
+  <use xlink:href="#leg-right"/>
+</g>
+
+<!-- Add a tail -->
+<line x1="300" y1="400" x2="400" y2="500"/>
+
+<!-- Create the landscape -->
+<rect id="ground" x="0" y="550" width="800" height="50"/>
+<polygon points="0,600 800,600 700,400 100,400" style="fill: #8b7d6c;"/>
+```
+
+4. **Prune where necessary (Remove unnecessary elements or attributes):**
+
+Since we've used `use` to replicate shapes and transforms, we can remove the original rectangles.
+
+5. **Write out your SVG code:**
+
+```svg
+<svg width="800" height="600" style="background-color: #f0e39c;">
+  <rect id="body" x="100" y="450" width="300" height="200"/>
+  <rect id="leg-left" x="70" y="600" width="100" height="150"/>
+  <rect id="leg-right" x="350" y="600" width="100" height="150"/>
+  <polygon points="200,300 400,300 300,200" fill="green"/>
+
+  <!-- Rotate the head slightly -->
+  <g transform="rotate(5, 300, 250)">
+    <use xlink:href="#body"/>
+  </g>
+
+  <!-- Scale and translate the legs -->
+  <g transform="scale(1.5) translate(-50, -75)">
+    <use xlink:href="#leg-left"/>
+  </g>
+  <g transform="scale(1.5) translate(200, -75)">
+    <use xlink:href="#leg-right"/>
+  </g>
+
+  <!-- Add a tail -->
+  <line x1="300" y1="400" x2="400" y2="500"/>
+
+  <!-- Create the landscape -->
+  <rect id="ground" x="0" y="550" width="800" height="50"/>
+  <polygon points="0,600 800,600 700,400 100,400" style="fill: #8b7d6c;"/>
+</svg>

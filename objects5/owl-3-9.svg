@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+<!-- Background -->
+<rect x="0" y="0" width="500" height="400" fill="#0D2C67"/>
+
+<!-- Body -->
+<rect x="100" y="100" width="300" height="200">
+  <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#7B4F37; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#59331F; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#3D405A; stop-opacity:1"/>
+  </linearGradient>
+  <mask id="bodyMask">
+    <rect x="0" y="0" width="300" height="200" fill="#fff"/>
+    <path d="M0,200 H300 V0 Q285,75 300,150 Q315,225 300,250 Z"/>
+  </mask>
+</rect>
+
+<!-- Wings -->
+<rect x="40" y="80" width="60" height="200">
+  <linearGradient id="wingGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#C6C8CA; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#3D405A; stop-opacity:1"/>
+  </linearGradient>
+</rect>
+<rect x="360" y="80" width="60" height="200">
+  <use href="#wingGrad"/>
+</rect>
+
+<!-- Face -->
+<rect x="150" y="50" width="200" height="75">
+  <linearGradient id="faceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#D6B787; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#F9E8C2; stop-opacity:1"/>
+  </linearGradient>
+</rect>
+
+<!-- Eyes -->
+<circle cx="200" cy="100" r="30">
+  <radialGradient id="eyeGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" style="stop-color:#FFDF4A; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#000; stop-opacity:1"/>
+  </radialGradient>
+</circle>
+<circle cx="200" cy="100" r="5">
+  <mask id="eyeMask">
+    <rect x="195" y="95" width="10" height="10" fill="#fff"/>
+  </mask>
+  <rect x="195" y="95" width="10" height="10" fill="#000" mask="url(#eyeMask)"/>
+</circle>
+
+<!-- Beak -->
+<path d="M230,120 Q240,80 260,120 Q270,80 280,120">
+  <linearGradient id="beakGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FFDF4A; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#FFA500; stop-opacity:1"/>
+  </linearGradient>
+</path>
+
+</svg>

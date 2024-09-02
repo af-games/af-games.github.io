@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy's Body -->
+  <circle cx="150" cy="300" r="60" fill="#FFCDE8" stroke="#FFAFB4" stroke-width="2"/>
+
+  <!-- Fairy's Head -->
+  <circle cx="150" cy="220" r="50" fill="#FFF2E6" stroke="#FFAFB4" stroke-width="2"/>
+
+  <!-- Fairy's Hair -->
+  <path d="M130,80 Q150,50 170,80 L170,150 Q190,250 210,150 Z" fill="#000" stroke-width="0"/>
+
+  <!-- Fairy's Wings -->
+  <ellipse cx="130" cy="280" rx="60" ry="40" fill="#FFF8DC" stroke="#FFB973" stroke-width="2"/>
+  <ellipse cx="170" cy="280" rx="60" ry="40" fill="#FFF8DC" stroke="#FFB973" stroke-width="2"/>
+
+  <!-- Fairy's Dress -->
+  <path d="M150,360 Q130,450 170,450 Q190,400 150,360 Z" fill="#FFCDE8" stroke="#FFAFB4" stroke-width="2"/>
+
+</svg>

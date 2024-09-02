@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Bell (body) -->
+  <circle cx="150" cy="175" r="150" fill="#98FB98" opacity="0.9"/>
+  <circle cx="150" cy="175" r="125" fill="#66CDAA"/>
+
+  <!-- Tentacles -->
+  <g stroke="#66CDAA" stroke-width="15">
+    <?for ($i = 0; $i < 8; $i++):?>
+      <path d="
+        M 150 275
+        Q 90 <?= 275 + ($i * 35) ?>, 150 <?= 375 + ($i * 35) ?>
+        T <?= 205 + ($i * 10) ?> <?= 400 + ($i * 35) ?>
+      "/>
+    <?endfor;?>
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="165" r="10" fill="#FFFFFF"/>
+  <circle cx="215" cy="165" r="10" fill="#FFFFFF"/>
+
+  <!-- Mouth */
+  <polygon points="135,240,165,270,195,240" fill="#66CDAA"/>
+
+</svg>

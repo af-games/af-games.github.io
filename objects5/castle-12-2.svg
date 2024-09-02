@@ -1,0 +1,19 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Walls -->
+  <rect x="80" y="100" width="340" height="300" fill="#696969"/>
+
+  <!-- Towers -->
+  <polygon points="50,100 350,100 420,200 180,200" fill="#696969"/>
+  <polygon points="50,300 130,300 180,400 50,400" fill="#696969"/>
+  <polygon points="370,300 450,300 420,400 350,400" fill="#696969"/>
+
+  <!-- Gates -->
+  <rect x="160" y="350" width="120" height="150" fill="#8B7D6B"/>
+  <rect x="220" y="380" width="40" height="100" fill="#8B7D6B"/>
+
+  <!-- Windows -->
+  <ellipse cx="120" cy="220" rx="30" ry="50" fill="#FFFFFF"/>
+  <ellipse cx="260" cy="220" rx="30" ry="50" fill="#FFFFFF"/>
+
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 220 220">
+
+  <!-- Rolling Hills -->
+  <path d="M-5,-5 Q15,35 60,45 Q105,70 160,45 Q215,15 225,40 L220,90 Z" fill="#8DC63C"/>
+
+  <!-- Rivers -->
+  <path d="M-5,-5 Q15,5 60,10 Q105,20 160,15 Q215,5 225,10 L220,90 Z" fill="#B3E5FF"/>
+  <path d="M-5,-5 Q15,5 60,10 Q105,20 160,15 Q215,5 225,10 L220,90 Z" fill="#B3E5FF" opacity=".7"/>
+
+  <!-- Igloo -->
+  <circle cx="105" cy="45" r="45" fill="white"/>
+  <path d="M85,60 A15,15 0 1 0 125,60 A15,15 0 1 0 85,75" fill="white"/>
+
+  <!-- Trees -->
+  <circle cx="30" cy="55" r="15" fill="#4C6A2C"/>
+  <circle cx="90" cy="60" r="20" fill="#4C6A2C"/>
+  <circle cx="180" cy="50" r="10" fill="#4C6A2C"/>
+
+</svg>

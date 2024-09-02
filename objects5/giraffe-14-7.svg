@@ -1,0 +1,45 @@
+<svg width="800px" height="600px" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#F5DEB3"/>
+
+  <!-- Giraffe Mountains -->
+  <polygon points="40,80 760,80 760,520 40,520" fill="#A5D6A7" stroke="#6D8C70"/>
+  <text x="30%" y="5%" text-anchor="middle" font-size="16px" fill="#333">Giraffe Mountains</text>
+
+  <!-- Giraffe Plains -->
+  <rect x="40" y="80" width="720" height="440" fill="#D9F0D8"/>
+  <circle cx="200" cy="250" r="150" fill="#FFB6C1">
+    <animate attributeName="r" from="150" to="130" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="45%" y="40%" text-anchor="middle" font-size="16px" fill="#333">Giraffe Plains</text>
+
+  <!-- Elephant Forest -->
+  <polygon points="760,80 760,280 600,280 600,520" fill="#9ACD32" stroke="#6B4226"/>
+  <text x="95%" y="5%" text-anchor="end" font-size="16px" fill="#333">Elephant Forest</text>
+
+  <!-- Lion Savannah -->
+  <rect x="40" y="280" width="200" height="240" fill="#FFC300"/>
+  <text x="5%" y="70%" text-anchor="start" font-size="16px" fill="#333">Lion Savannah</text>
+
+  <!-- Zebra Stripes -->
+  <polygon points="200,520 400,520 400,480 200,480" fill="url(#zebraPattern)" stroke="#696969"/>
+  <text x="30%" y="95%" text-anchor="middle" font-size="16px" fill="#333">Zebra Stripes</text>
+
+  <!-- Giraffe City -->
+  <circle cx="400" cy="350" r="80" fill="#FFFACD"/>
+  <text x="40%" y="75%" text-anchor="middle" font-size="16px" fill="#333">Giraffe City</text>
+
+  <!-- Rivers -->
+  <path d="M40,240 Q140,160 280,240" stroke="#2F4F4F" fill="transparent"/>
+  <path d="M760,360 Q560,440 400,360" stroke="#2F4F4F" fill="transparent"/>
+
+  <!-- Define zebra pattern -->
+  <defs>
+    <pattern id="zebraPattern" patternUnits="userSpaceOnUse" width="10" height="5">
+      <rect x="0" y="0" width="5" height="5" fill="#FFFFFF"/>
+      <rect x="5" y="0" width="5" height="5" fill="#F0E68C"/>
+    </pattern>
+  </defs>
+
+</svg>

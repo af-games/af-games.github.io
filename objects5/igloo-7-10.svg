@@ -1,0 +1,20 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Bar 1 -->
+  <circle cx="50" cy="300" r="40" fill="#90EE90" transform="scale(1.1, 1.1)">
+    <animate attributeName="r" values="40;50;40" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <path d="M150,300 Q200,250 250,300" stroke="#FFFFFF" fill="transparent">
+    <animate attributeName="d" values="M150,300 Q200,250 250,300; M250,300 Q300,250 350,300; M150,300 Q200,250 250,300" dur="4s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Bar 2 -->
+  <circle cx="350" cy="300" r="40" fill="#FFF569">
+    <animate attributeName="r" values="40;50;40" dur="2s" repeatCount="indefinite" begin="1s" />
+  </circle>
+  <path d="M450,300 Q500,250 550,300" stroke="#87CEEB" fill="transparent">
+    <animate attributeName="d" values="M450,300 Q500,250 550,300; M650,300 Q700,250 750,300; M450,300 Q500,250 550,300" dur="4s" repeatCount="indefinite" begin="1s" />
+  </path>
+
+  <!-- Igloo -->
+  <ellipse cx="400" cy="400" rx="200" ry="300" fill="#FFFFFF"/>
+</svg>

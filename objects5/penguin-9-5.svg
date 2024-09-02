@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 120">
+
+<!-- Background -->
+<rect x="0" y="0" width="160" height="120" fill="#ffffff"/>
+
+<!-- Body -->
+<g id="body">
+  <rect x="45" y="30" width="70" height="80" fill="url(#penguin-body)" />
+</g>
+
+<!-- Face -->
+<g id="face">
+  <rect x="60" y="40" width="40" height="40" fill="url(#penguin-face)" />
+  <circle cx="75" cy="70" r="8" fill="#000000"/>
+</g>
+
+<!-- Wings -->
+<g id="wings">
+  <rect x="10" y="60" width="20" height="40" fill="url(#penguin-wing)" />
+  <rect x="95" y="60" width="20" height="40" fill="url(#penguin-wing)" />
+</g>
+
+<!-- Feet -->
+<g id="feet">
+  <rect x="30" y="105" width="10" height="15" fill="#aaaaaa"/>
+  <rect x="80" y="105" width="10" height="15" fill="#aaaaaa"/>
+</g>
+
+<!-- Gradients -->
+<defs>
+  <linearGradient id="penguin-body" gradientTransform="rotate(90)">
+    <stop offset="0%" stop-color="#8B7D6C"/>
+    <stop offset="100%" stop-color="#4F3A25"/>
+  </linearGradient>
+  <linearGradient id="penguin-face">
+    <stop offset="0%" stop-color="#FFFFFF"/>
+    <stop offset="100%" stop-color="#D3D3D3"/>
+  </linearGradient>
+  <linearGradient id="penguin-wing">
+    <stop offset="0%" stop-color="#7F8C8D"/>
+    <stop offset="100%" stop-color="#546E7A"/>
+  </linearGradient>
+</defs>
+
+</svg>

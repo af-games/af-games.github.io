@@ -1,0 +1,7 @@
+<svg width="50" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon string -->
+  <line x1="25" y1="90" x2="25" y2="10" stroke="black"/>
+
+  <!-- Balloon body -->
+  <circle cx="25" cy="40" r="30" fill="red"/>
+</svg>

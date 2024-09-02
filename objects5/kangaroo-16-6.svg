@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <!-- Define linear gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(255,165,0);stop-opacity:1" />
+      <stop offset="50%"  style="stop-color:rgb(147,196,125);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(83,55,139);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Kangaroo body -->
+  <path d="M270,600 Q400,400 450,200 Q220,200 180,350 Q270,500 270,600"
+        fill="url(#grad1)" stroke="black" stroke-width="20"/>
+
+  <!-- Kangaroo limbs and tail -->
+  <path d="M240,350 Q280,400 320,350 Q360,450 400,300 Q440,400 480,350"
+        fill="none" stroke="black" stroke-width="15"/>
+
+  <!-- Kangaroo head -->
+  <path d="M270,200 Q290,160 310,180 Q300,220 270,240 Q240,220 250,200"
+        fill="url(#grad1)" stroke="black" stroke-width="10"/>
+
+</svg>

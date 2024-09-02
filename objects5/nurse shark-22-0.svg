@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500">
+
+  <!-- Shark Body -->
+  <path d="M350,150 Q250,200 350,250 Q450,200 350,150" fill="#4A4A4A"/>
+
+  <!-- Dorsal Fin -->
+  <polygon points="250,70 350,170 250,270" fill="#777777"/>
+
+  <!-- Pectoral Fins -->
+  <path d="M150,300 Q50,400 150,500 Q250,400 150,300" fill="#4A4A4A"/>
+  <path d="M550,300 Q650,400 550,500 Q450,400 550,300" fill="#4A4A4A"/>
+
+  <!-- Tail -->
+  <ellipse cx="470" cy="400" rx="75" ry="125" fill="#4A4A4A"/>
+
+  <!-- Eyes -->
+  <circle cx="280" cy="150" r="10" fill="#000000"/>
+  <circle cx="370" cy="150" r="10" fill="#000000"/>
+  <circle cx="325" cy="140" r="5" fill="#FFFFFF"/>
+
+  <!-- Mouth -->
+  <path d="M320,280 Q330,300 350,280" stroke="#4A4A4A" fill="transparent"/>
+
+</svg>

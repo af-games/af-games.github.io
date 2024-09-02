@@ -1,0 +1,26 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Cake Base -->
+<circle cx="100" cy="150" r="80" fill="#FDD96D"/>
+
+<!-- Top Half of Cake -->
+<path d="M100 70 Q140 30, 170 70 T100 120" fill="#FFC0CB"/>
+<path d="M100 120 Q50 90, 100 60 T100 120"/>
+
+<!-- Bottom Half of Cake -->
+<circle cx="100" cy="150" r="80" fill="#FDD96D"/>
+
+<!-- Inner Frosting Ring -->
+<circle cx="100" cy="70" r="30" fill="#FFFFFF"/>
+
+<!-- Cake Topper (Candles and Topping) -->
+<g transform="translate(100, 25)">
+    <!-- Candles -->
+    <rect width="4" height="15" x="-2" y="0" fill="#FCD116"/>
+    <rect width="8" height="3" x="-4" y="7.5" fill="#FFC0CB"/>
+</g>
+
+<!-- Cake Border -->
+<path d="M90 150 A80 80 0 0 0 110 230 H90 Z" stroke="#6B4D26" fill="transparent"/>
+
+</svg>

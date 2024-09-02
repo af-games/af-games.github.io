@@ -1,0 +1,30 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#F5F5F5"/>
+
+  <!-- Igloo (Star Ingredient) -->
+  <path d="M100,50 Q200,0 300,50 Q200,100 100,50 Z" fill="#FFF" stroke="#A9D6FF"/>
+  <circle cx="200" cy="70" r="30" fill="#A9D6FF"/>
+
+  <!-- Snow-capped Mountains -->
+  <polygon points="400,50 500,100 600,50" fill="#F0F8FF"/>
+  <rect x="400" y="30" width="200" height="20" fill="#FFF"/>
+
+  <!-- Pine Trees -->
+  <polygon points="70,150 90,120 130,150" fill="#8B7D6B"/>
+  <polygon points="150,150 170,120 210,150" fill="#8B7D6B"/>
+
+  <!-- Frozen Lake -->
+  <rect x="300" y="200" width="300" height="200" fill="#A9D6FF"/>
+  <path d="M400,300 Q500,350 600,300" stroke="#8B7D6B" stroke-width="10"/>
+
+  <!-- Utensils (Icicles) -->
+  <polygon points="520,350 540,330 520,310" fill="#FFF"/>
+  <polygon points="560,350 580,330 560,310" fill="#FFF"/>
+
+  <!-- Garnish (Snowflakes) -->
+  <circle cx="400" cy="250" r="10" fill="#FFF"/>
+  <circle cx="450" cy="270" r="8" fill="#FFF"/>
+  <circle cx="350" cy="260" r="10" fill="#FFF"/>
+
+</svg>

@@ -1,0 +1,40 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Stage Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#151515"/>
+
+  <!-- Castle Wall - Main Action Area -->
+  <rect id="castleWall" x="200" y="100" width="400" height="300"
+    style="fill: url(#castleWallGradient); stroke: #8B7D6B; stroke-width: 5"/>
+
+  <!-- Castle Door -->
+  <polygon id="castleDoor" points="290,130 290,340 380,340"
+    style="fill: url(#doorGradient); stroke: #8B7D6B; stroke-width: 5"/>
+
+  <!-- Throne - Interactive Prop -->
+  <rect id="throne" x="270" y="180" width="80" height="120"
+    style="fill: url(#throneGradient); stroke: #CD7F32; stroke-width: 5"/>
+
+  <!-- Interactive Props -->
+  <circle cx="350" cy="250" r="40" fill="#C0C0C0"/>
+  <rect x="420" y="210" width="60" height="90" fill="#C0C0C0"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="castleWallGradient" gradientTransform="rotate(90)">
+      <stop offset="5%" stop-color="#A07E5F"/>
+      <stop offset="95%" stop-color="#3B2816"/>
+    </linearGradient>
+
+    <linearGradient id="doorGradient">
+      <stop offset="0%" stop-color="#C4A484"/>
+      <stop offset="100%" stop-color="#7E5F3D"/>
+    </linearGradient>
+
+    <linearGradient id="throneGradient">
+      <stop offset="0%" stop-color="#CD7F32"/>
+      <stop offset="100%" stop-color="#8B5A2B"/>
+    </linearGradient>
+  </defs>
+
+</svg>

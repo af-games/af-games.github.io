@@ -1,0 +1,21 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Tiered Cake -->
+  <path id="cake" d="M100,20 Q100,80 200,80 Q300,80 300,20 Q300,50 400,50 Q400,20 400,70 Q400,90 300,90 Q200,90 200,60 Z"/>
+  <path id="cake-decoration" d="M100,80 Q150,95 200,95 Q250,95 300,80 Q350,95 400,95 Q450,95 400,70 Q350,65 300,65 Q250,65 200,70 Z"/>
+
+  <!-- Candle Flames -->
+  <path id="flame" d="M180,150 L190,140 200,150 190,160 Z"/>
+  <use xlink:href="#flame" y="30"/>
+  <use xlink:href="#flame" y="60"/>
+
+  <!-- Cake Slices -->
+  <path id="slice" d="M280,120 L350,140 Q400,170 350,200 L280,180 Z"/>
+  <use xlink:href="#slice" transform="translate(0,60) rotate(90 350,140)"/>
+
+  <!-- Confetti -->
+  <circle cx="150" cy="350" r="10" fill="red"/>
+  <circle cx="250" cy="350" r="8" fill="blue"/>
+  <rect x="350" y="340" width="30" height="10" fill="green"/>
+
+</svg>

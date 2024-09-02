@@ -1,0 +1,26 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <circle cx="50" cy="50" r="30" fill="brown" />
+  <circle cx="45" cy="45" r="10" fill="black" /> <!-- Left Eye -->
+  <circle cx="55" cy="45" r="10" fill="black" /> <!-- Right Eye -->
+
+  <!-- Neck -->
+  <path d="M60,50 Q75,30 90,50 Q105,70 120,50" stroke="light brown" fill="transparent" stroke-width="15"/>
+
+  <!-- Body -->
+  <ellipse cx="150" cy="200" rx="80" ry="120" fill="brown"/>
+
+  <!-- Legs -->
+  <rect x="130" y="300" width="40" height="100" fill="brown"/>
+  <rect x="170" y="300" width="40" height="100" fill="brown"/>
+  <rect x="210" y="300" width="40" height="100" fill="brown"/>
+  <rect x="90" y="300" width="40" height="100" fill="brown"/>
+
+  <!-- Spot Pattern -->
+  <circle cx="75" cy="60" r="8" fill="dark brown" />
+  <circle cx="85" cy="70" r="8" fill="dark brown" />
+  <circle cx="120" cy="90" r="8" fill="dark brown" />
+  <!-- Add more spots as desired -->
+
+</svg>

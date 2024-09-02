@@ -1,0 +1,27 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer border -->
+  <rect x="50" y="50" width="500" height="500" fill="#4a1850" stroke="#fff" stroke-width="5"/>
+
+  <!-- Inner quilt area -->
+  <rect x="60" y="60" width="480" height="480" fill="#e3dac9"/>
+
+  <!-- Quilt blocks (patchwork) -->
+  <g transform="translate(70, 70)">
+    <!-- Light blue block -->
+    <rect width="120" height="120" fill="#b3cde3"/>
+    <path d="M120 60 Q180 45 240 60 T300 120 T300 180 T240 240 Q180 255 120 240 T60 180 T60 120" stroke="#7f4d9a" stroke-width="3"/>
+
+    <!-- Dark blue block -->
+    <rect x="120" width="120" height="120" fill="#7b9cb2"/>
+    <path d="M180 60 Q240 45 300 60 T360 120 T360 180 T300 240 Q240 255 180 240 T120 180 T120 120" stroke="#7f4d9a" stroke-width="3"/>
+
+    <!-- Medium blue block -->
+    <rect x="240" width="120" height="120" fill="#b3cde3"/>
+    <path d="M240 60 Q300 45 360 60 T420 120 T420 180 T360 240 Q300 255 240 240 T180 180 T180 120" stroke="#7f4d9a" stroke-width="3"/>
+  </g>
+
+  <!-- Text label -->
+  <text x="30%" y="95%" text-anchor="middle" dominant-baseline="hanging" font-family="Verdana" font-size="48">Quilt</text>
+
+</svg>

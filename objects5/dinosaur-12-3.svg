@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <path id="head" d="M400,150 Q375,125 350,150 L350,200 Q375,225 400,200 Z"/>
+
+  <!-- Neck -->
+  <path id="neck" d="M400,200 V275"/>
+
+  <!-- Body -->
+  <rect id="body" x="325" y="275" width="150" height="150" rx="50"/>
+
+  <!-- Tail -->
+  <path id="tail" d="M475,425 Q500,400 525,425 L525,500 Z"/>
+
+  <!-- Legs -->
+  <path id="left-leg" d="M375,550 V600"/>
+  <path id="right-leg" d="M475,550 V600"/>
+
+  <!-- Arms (Front Limbs) -->
+  <path id="left-arm" d="M350,250 Q325,275 350,300 L350,350 Z"/>
+  <path id="right-arm" d="M450,250 Q475,275 450,300 L450,350 Z"/>
+
+  <!-- Gradient for body fill -->
+  <defs>
+    <linearGradient id="body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(100,100,100);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(50,50,50);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

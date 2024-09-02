@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="groundGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(84,174,69);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(163,205,124);stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="skyGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(73,148,219);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Hills -->
+  <path d="M-100,-50 Q-50,-75 -30,-40 Q-10,-65 20,-30 Q80,-90 120,-60 Q170,-110 200,-50" fill="url(#groundGradient)" />
+
+  <!-- Igloo -->
+  <circle cx="0" cy="40" r="40" fill="white" stroke="lightgrey" stroke-width="3" />
+  <path d="M-40,40 Q0,60 40,40" fill="white" />
+
+  <!-- River -->
+  <path d="M-150,-70 Q-80,-60 -40,-20 Q0,30 60,10 Q120,-20 180,-30 Q240,-40 300,-50" fill="lightblue" stroke="darkblue" stroke-width="5" />
+
+  <!-- Trees -->
+  <g transform="translate(-170, -90)">
+    <circle cx="0" cy="0" r="15" fill="brown" />
+    <polygon points="-10,-30 10,-30 0,60" fill="green" />
+    <rect x="-2" y="40" width="4" height="40" fill="green" />
+  </g>
+  <use href="#tree" transform="translate(70, -80)" />
+  <use href="#tree" transform="translate(150, -60)" />
+
+  <!-- Sky -->
+  <rect x="-200" y="-200" width="400" height="400" fill="url(#skyGradient)" />
+
+</svg>

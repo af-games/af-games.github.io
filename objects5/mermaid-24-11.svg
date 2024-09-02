@@ -1,0 +1,8 @@
+<svg viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="0" cy="0" r="50"/>
+  <ellipse cx="0" cy="25" rx="40" ry="60"/>
+  <ellipse cx="-30" cy="75" rx="20" ry="40"/>
+  <ellipse cx="0" cy="-10" rx="30" ry="5"/>
+  <circle cx="-10" cy="30" r="5"/>
+  <path d="M-20,40 Q-10,50 0,40 Q10,50 20,40"/>
+</svg>

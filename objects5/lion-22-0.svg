@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 140 200 300">
+  <!-- Head -->
+  <circle cx="100" cy="150" r="80" fill="#696969"/>
+  <circle cx="100" cy="150" r="75" fill="#C0C0C0"/>
+
+  <!-- Body -->
+  <rect x="70" y="230" width="60" height="170" fill="#696969"/>
+  <rect x="85" y="245" width="30" height="150" fill="#C0C0C0"/>
+
+  <!-- Legs -->
+  <rect x="60" y="290" width="20" height="110" fill="#696969"/>
+  <rect x="140" y="290" width="20" height="110" fill="#696969"/>
+
+  <!-- Tail -->
+  <path d="M130,400 Q150,375 180,400 Q210,425 200,400 Z" fill="#696969"/>
+</svg>

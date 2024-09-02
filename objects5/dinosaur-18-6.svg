@@ -1,0 +1,23 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="100" y="80" width="150" height="200" style="fill:green;stroke:black;stroke-width:2"/>
+
+  <!-- Head -->
+  <circle cx="175" cy="130" r="50" style="fill:green;stroke:black;stroke-width:2"/>
+
+  <!-- Eyes -->
+  <circle cx="160" cy="110" r="10" style="fill:yellow"/>
+  <circle cx="190" cy="110" r="10" style="fill:yellow"/>
+
+  <!-- Tail spikes -->
+  <path d="M230,150 Q280,160 270,120" stroke="black" fill="transparent"/>
+
+  <!-- Legs -->
+  <rect x="120" y="230" width="20" height="90" style="fill:green;stroke:black;stroke-width:2"/>
+  <rect x="250" y="230" width="20" height="90" style="fill:green;stroke:black;stroke-width:2"/>
+
+  <!-- Name -->
+  <text x="10%" y="320" text-anchor="middle" font-family="Verdana" font-size="24">T-Rex</text>
+
+</svg>

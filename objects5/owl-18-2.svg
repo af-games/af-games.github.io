@@ -1,0 +1,27 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M175,400 Q250,350 325,400 Q350,450 325,500 Q250,550 175,500" fill="brown" stroke="black"/>
+
+  <!-- Head -->
+  <path d="M125,400 Q175,380 225,400 Q175,420 125,400" fill="tan" stroke="black"/>
+
+  <!-- Eyes -->
+  <circle cx="150" cy="360" r="15" fill="black"/>
+  <circle cx="190" cy="360" r="15" fill="black"/>
+
+  <!-- Beak -->
+  <polygon points="175,340 200,330 150,330" fill="yellow"/>
+
+  <!-- Wings -->
+  <path d="M80,430 Q125,380 175,380 Q225,380 275,430" fill="brown" stroke="black"/>
+  <path d="M325,430 Q375,380 425,380 Q475,380 525,430" fill="brown" stroke="black"/>
+
+  <!-- Legs -->
+  <line x1="125" y1="575" x2="125" y2="625" stroke="black"/>
+  <line x1="225" y1="575" x2="225" y2="625" stroke="black"/>
+
+  <!-- Tail -->
+  <polygon points="300,500 350,550 300,600" fill="brown" stroke="black"/>
+
+</svg>

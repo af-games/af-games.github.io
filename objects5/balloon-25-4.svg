@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Balloon envelope -->
+  <path id="envelope" d="M200,10 Q180,60 200,110 Q220,60 200,10 Z"
+        fill="linear-gradient(#FFA500, #FFD700)" />
+
+  <!-- Balloon basket -->
+  <rect id="basket" x="170" y="380" width="60" height="40"
+        fill="linear-gradient(#8B4513, #A0522D)" />
+
+  <!-- Balloon gondola -->
+  <circle cx="190" cy="350" r="15"
+          fill="linear-gradient(#FFFFFF, #CACFD2)"/>
+  <path id="gondola-rope" d="M190,350 L170,420 L210,420 Z"
+        stroke="#8B4513" stroke-width="5"/>
+
+  <!-- Balloon burner -->
+  <rect x="185" y="260" width="30" height="40"
+        fill="linear-gradient(#FF0000, #FF8C00)"/>
+  <path id="burner-flame" d="M190,300 Q185,310 190,320 Q195,310 190,300 Z"
+        fill="url(#flame-gradient)" />
+
+  <!-- Balloon strings -->
+  <line x1="200" y1="460" x2="200" y2="500" stroke="#8B4513" stroke-width="5"/>
+  <line x1="200" y1="460" x2="190" y2="500" stroke="#8B4513" stroke-width="5"/>
+  <line x1="200" y1="460" x2="210" y2="500" stroke="#8B4513" stroke-width="5"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="flame-gradient" gradientTransform="rotate(90)">
+      <stop offset="0%" stop-color="#FF6347"/>
+      <stop offset="100%" stop-color="#FFD700"/>
+    </linearGradient>
+  </defs>
+
+</svg>

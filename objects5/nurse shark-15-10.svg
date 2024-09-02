@@ -1,0 +1,25 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="400" fill="#A3CCE5"/>
+
+  <!-- Sand -->
+  <rect x="0" y="400" width="800" height="200" fill="#FFF6D9"/>
+
+  <!-- Sunlight -->
+  <circle cx="700" cy="150" r="80" fill="#F6C73B"/>
+  <circle cx="650" cy="200" r="40" fill="#F6C73B"/>
+
+  <!-- Shark fins (paths) - tulips -->
+  <path d="M100,475 Q80,500 100,525 Q120,500 100,475" fill="#F1D96A"/>
+  <path d="M300,475 Q280,500 300,525 Q320,500 300,475" fill="#F1D96A"/>
+
+  <!-- Daisies (ellipses) -->
+  <ellipse cx="200" cy="100" rx="40" ry="80" fill="#FFFDD0"/>
+  <ellipse cx="350" cy="150" rx="60" ry="90" fill="#FFFDD0"/>
+
+  <!-- Roses (circles) -->
+  <circle cx="250" cy="400" r="70" fill="#FFD6E5"/>
+  <circle cx="500" cy="350" r="80" fill="#FFD6E5"/>
+
+</svg>

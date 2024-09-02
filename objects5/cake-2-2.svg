@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Cake -->
+  <path id="cake" d="M175,25 A125,125 0 0 1 300,150 Q350,100 300,50 Q250,100 175,50 A125,125 0 0 0 50,150" fill="url(#cakeGradient)" stroke="black"/>
+
+  <!-- Frosting -->
+  <path d="M50,300 Q100,350 175,325 A125,60 0 0 0 300,325 Q450,350 500,300" fill="url(#frostingGradient)" stroke="white"/>
+
+  <!-- Toppings -->
+  <circle cx="275" cy="125" r="25" fill="#FF69B4"/>
+  <circle cx="225" cy="85" r="15" fill="#CDDC39"/>
+  <path d="M175,70 Q225,50 275,70" stroke="#8BC34A" stroke-width="10"/>
+
+</svg>

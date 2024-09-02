@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon Body -->
+  <circle cx="150" cy="150" r="100"
+          fill="linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,153,0,1) 50%, rgba(255,255,0,1) 100%)" />
+
+  <!-- Basket -->
+  <rect x="70" y="380" width="260" height="40"
+        fill="#964B00" rx="10"/>
+
+  <!-- Burner Flame -->
+  <polygon points="150,250 130,280 170,280"
+           fill="linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,0,1) 100%)" />
+
+  <!-- Rope -->
+  <line x1="150" y1="380" x2="150" y2="50"
+        stroke="#4D2600" stroke-width="10"/>
+
+</svg>

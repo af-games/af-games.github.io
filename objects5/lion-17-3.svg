@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Outline the lion using simple shapes -->
+  <rect x="50" y="50" width="700" height="400" fill="none" stroke="black"/>
+  <circle cx="400" cy="300" r="250" fill="none" stroke="black"/>
+
+  <!-- Add complex elements with paths -->
+  <path d="M60,180 Q120,90 200,180 Q270,350 400,180" stroke="black"/>
+  <path d="M740,200 Q620,120 500,200 Q380,280 260,200"/>
+
+  <!-- Add details with paths -->
+  <g stroke="black">
+    <path d="M450,250 Q470,220 490,250"/>
+    <path d="M350,180 Q370,160 390,180"/>
+    <path d="M510,180 Q530,160 550,180"/>
+  </g>
+
+  <!-- Fill in details with colors and gradients -->
+  <defs>
+    <linearGradient id="lionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:orange; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:brown; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path d="M60,180 Q120,90 200,180 Q270,350 400,180" fill="url(#lionGradient)"/>
+
+  <!-- Label points using coordinates -->
+  <text x="40" y="50" font-family="Verdana">(40,50)</text>
+  <text x="600" y="450" font-family="Verdana">(600,450)</text>
+
+</svg>

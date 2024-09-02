@@ -1,0 +1,37 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#F5F5F5"/>
+
+  <!-- Pan -->
+  <rect x="10" y="10" width="480" height="380" fill="#4A4A4A"/>
+
+  <!-- Dolphin Body -->
+  <ellipse cx="250" cy="200" rx="150" ry="100" fill="#ADD8E6">
+    <animateMotion dur="2s" repeatCount="indefinite">
+      <mpath href="#wavePath"/>
+    </animateMotion>
+  </ellipse>
+
+  <!-- Eyes -->
+  <circle cx="170" cy="150" r="15" fill="#000000"/>
+  <circle cx="320" cy="150" r="15" fill="#000000"/>
+
+  <!-- Tail Fin -->
+  <path d="M460,270 Q480,300 460,320" stroke="none" fill="#ADD8E6"/>
+  <circle cx="460" cy="300" r="10" fill="#000000"/>
+
+  <!-- Head Fins -->
+  <path d="M150,90 Q170,70 190,90" stroke="none" fill="#ADD8E6"/>
+  <circle cx="170" cy="70" r="5" fill="#000000"/>
+
+  <!-- Waves -->
+  <defs>
+    <path id="wavePath">
+      M0,250 Q50,270 100,250 Q150,230 200,250 Q250,270 300,250 Q350,230 400,250 Q450,270 500,250
+    </path>
+  </defs>
+  <polyline points="10,380 50,360 100,380 150,360 200,380 250,360 300,380 350,360 400,380 450,360 490,380" stroke="#2196F3" fill="none"/>
+  <rect x="10" y="375" width="480" height="25" fill="#ADD8E6"/>
+
+</svg>

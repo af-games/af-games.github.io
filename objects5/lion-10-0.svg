@@ -1,0 +1,27 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <ellipse cx="150" cy="150" rx="80" ry="100" fill="#8B4513"/>
+  <circle cx="135" cy="140" r="10" fill="#FF7F00"/>
+  <circle cx="165" cy="140" r="10" fill="#FF7F00"/>
+  <circle cx="150" cy="160" r="5" fill="#000"/>
+
+  <!-- Mane -->
+  <polygon points="120,80 130,90 140,80" fill="#DAA520"/>
+  <polygon points="130,100 140,110 150,100" fill="#DAA520"/>
+  <!-- Add more polygons for the mane along the neck and head -->
+
+  <!-- Body -->
+  <rect x="100" y="180" width="200" height="140" fill="#8B4513"/>
+
+  <!-- Tail -->
+  <path d="M370,260 Q390,300 410,260" stroke="#8B4513" fill="transparent"/>
+  <rect x="380" y="250" width="30" height="80" fill="#8B4513"/>
+
+  <!-- Legs -->
+  <rect x="100" y="320" width="40" height="90" rx="20" fill="#8B4513"/>
+  <rect x="160" y="320" width="40" height="90" rx="20" fill="#8B4513"/>
+  <rect x="220" y="320" width="40" height="90" rx="20" fill="#8B4513"/>
+  <rect x="280" y="320" width="40" height="90" rx="20" fill="#8B4513"/>
+
+</svg>

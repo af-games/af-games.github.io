@@ -1,0 +1,43 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(135,206,235);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Oceans and jellyfish -->
+  <circle cx="300" cy="400" r="250" fill="url(#grad1)" stroke="#8B7D6B" stroke-width="2">
+    <animateMotion dur="60s" repeatCount="indefinite">
+      <mpath href="#jellyfishPath"/>
+    </animateMotion>
+  </circle>
+  <path id="jellyfishPath" d="M300,450 A200,200 0 1 0 700,450 200,200 0 1 0 300,450" fill="none"/>
+  <text x="295" y="480" font-family="Verdana" font-size="16">Aelurus Ocean</text>
+
+  <!-- Coastal mountains -->
+  <polygon points="700,300 800,200 900,300" fill="#DCDCDC">
+    <animateTransform attributeName="transform" type="rotate" from="0 750 350" to="360 750 350" dur="10s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="820" y="240" font-family="Verdana" font-size="16">Montes Caelum</text>
+
+  <!-- Forests -->
+  <rect x="500" y="200" width="300" height="300" fill="#8BBA00">
+    <animate attributeName="fill-opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="570" y="240" font-family="Verdana" font-size="16">Veridian Forest</text>
+
+  <!-- Cities -->
+  <circle cx="350" cy="150" r="80" fill="#FFD700">
+    <animate attributeName="r" values="80;90;80" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="340" y="130" font-family="Verdana" font-size="16">Lumenopolis</text>
+
+  <!-- Rivers -->
+  <path d="M70,50 Q200,100 350,50" stroke="#48CAF1" stroke-width="5" fill="transparent">
+    <animate attributeName="stroke" values="#48CAF1;#DCDCDC;#48CAF1" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <text x="200" y="70" font-family="Verdana" font-size="16">AquaFlux River</text>
+
+</svg>

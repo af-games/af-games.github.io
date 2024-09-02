@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Landmark 1 -->
+  <rect x="50" y="50" width="150" height="150" fill="#ff6347"/>
+
+  <!-- Landmark 2 -->
+  <rect x="250" y="50" width="150" height="150" fill="#32cd32"/>
+
+  <!-- Landmark 3 -->
+  <rect x="50" y="250" width="150" height="150" fill="#4b5320"/>
+</svg>

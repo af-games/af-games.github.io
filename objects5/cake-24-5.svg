@@ -1,0 +1,18 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="80" y="160" width="240" height="70" fill="#CD7F52"/>
+
+  <!-- Cake Top -->
+  <path d="M80,40 Q150,0 280,40 Q350,0 400,40" fill="#FFFACD"/>
+
+  <!-- Frosting Border -->
+  <rect x="79" y="160" width="242" height="170" rx="40" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Chocolate Drizzle (for presentation) -->
+  <path d="M150,80 Q200,30 300,80" stroke="#664D2C" stroke-width="8" fill="transparent"/>
+
+  <!-- Cherry on Top -->
+  <circle cx="375" cy="65" r="15" fill="#FF0000"/>
+
+</svg>

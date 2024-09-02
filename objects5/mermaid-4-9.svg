@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Ocean background -->
+  <rect width="50%" height="100%" fill="#0d2c84" />
+  <!-- Light turquoise water closest to shore -->
+  <rect x="37.5%" y="75%" width="25%" height="25%" fill="#b3e5fc" pattern="url(#waves)" />
+  <!-- Greenish-blue medium water -->
+  <rect x="62.5%" y="50%" width="37.5%" height="50%" fill="#7dc8ff" pattern="url(#shells)" />
+  <!-- Dark teal shadows and mermaid's tail -->
+  <rect x="12.5%" y="100%" width="75%" height="50%" fill="#1f618d" pattern="url(#scales)" />
+  <!-- Soft pink mermaid's skin -->
+  <rect x="37.5%" y="25%" width="25%" height="50%" fill="#fdd7e4" pattern="url(#flowers)" />
+  <!-- Mermaid's hair and accessories -->
+  <rect x="12.5%" y="0%" width="87.5%" height="25%" fill="#ffa502" />
+
+  <!-- Patterns -->
+  <defs>
+    <pattern id="waves" patternUnits="userSpaceOnUse" width="100" height="100">
+      <!-- Waves pattern here -->
+    </pattern>
+    <pattern id="shells" patternUnits="userSpaceOnUse" width="50" height="50">
+      <!-- Shells/bubbles pattern here -->
+    </pattern>
+    <pattern id="scales" patternUnits="userSpaceOnUse" width="25" height="25">
+      <!-- Scales pattern here -->
+    </pattern>
+    <pattern id="flowers" patternUnits="userSpaceOnUse" width="25" height="25">
+      <!-- Flowers/geometric pattern here -->
+    </pattern>
+  </defs>
+</svg>

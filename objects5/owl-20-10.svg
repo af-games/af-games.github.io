@@ -1,0 +1,46 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Owl outline -->
+  <path id="owl-outline" d="M400 150 Q450 75, 550 150 Q600 225, 550 300 Q450 375, 400 300 Q350 375, 250 300 Q150 225, 250 150 Z" fill="none" stroke="black"/>
+
+  <!-- Body -->
+  <g id="body">
+    <path d="M400 150 Q450 75, 550 150" fill="url(#body-gradient)"/>
+  </g>
+
+  <!-- Head -->
+  <g id="head">
+    <circle cx="400" cy="250" r="75" fill="url(#head-gradient)"/>
+    <path d="M350 210 Q375 180, 425 180 Q460 210, 425 240 Q375 270, 350 240" fill="url(#feathers-gradient)"/>
+  </g>
+
+  <!-- Wings -->
+  <g id="wing-left">
+    <path d="M250 180 Q275 120, 350 120 Q425 180, 350 240 Q275 300, 250 260" fill="url(#wing-left-gradient)"/>
+  </g>
+
+  <g id="wing-right">
+    <path d="M550 180 Q575 120, 650 120 Q725 180, 650 240 Q575 300, 550 260" fill="url(#wing-right-gradient)"/>
+  </g>
+
+  <!-- Tail feathers -->
+  <g id="tail-feathers">
+    <path d="M400 375 Q425 410, 375 450 Q325 410, 350 375" fill="url(#tail-feathers-gradient)"/>
+  </g>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="body-gradient" x1="400" y1="150" x2="550" y2="150">
+      <stop offset="0%"   stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#EEE"/>
+    </linearGradient>
+
+    <radialGradient id="head-gradient" cx="400" cy="250" r="75" fx="400" fy="250">
+      <stop offset="0%"   stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#DDD"/>
+    </radialGradient>
+
+    <!-- Add more gradients for other sections... -->
+  </defs>
+
+</svg>

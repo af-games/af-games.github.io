@@ -1,0 +1,32 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bodice -->
+  <rect x="75" y="100" width="250" height="300" rx="15">
+    <linearGradient id="bodiceGrad" gradientTransform="rotate(90)">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#FFFACD"/>
+    </linearGradient>
+    <style>fill: url(#bodiceGrad)</style>
+  </rect>
+
+  <!-- Left Sleeve -->
+  <circle cx="50" cy="230" r="100">
+    <radialGradient id="sleeveGrad">
+      <stop offset="0%" stop-color="#FFB6C1"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </radialGradient>
+    <style>fill: url(#sleeveGrad)</style>
+  </circle>
+
+  <!-- Right Sleeve -->
+  <circle cx="450" cy="230" r="100">
+    <use href="#sleeveGrad"/>
+  </circle>
+
+  <!-- Left Balloon String -->
+  <path d="M50,180 Q75,160 90,180" stroke="black"/>
+
+  <!-- Right Balloon String -->
+  <path d="M450,180 Q425,160 410,180" stroke="black"/>
+
+</svg>

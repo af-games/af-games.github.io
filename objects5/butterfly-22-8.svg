@@ -1,0 +1,27 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle id="butterflyBody" cx="100" cy="75" r="40"
+          fill="#FFC300" stroke="#DAA520" stroke-width="5">
+
+    <!-- Animation for body flutter -->
+    <animateMotion repeatCount="indefinite">
+      <mpath href="#flutterPath"/>
+    </animateMotion>
+
+  </circle>
+
+  <!-- Wings -->
+  <path id="leftWing" d="M130,75 Q90,80 120,110"
+        fill="transparent" stroke="#FFC300" stroke-width="5">
+
+    <!-- Animation for left wing flutter -->
+    <animateTransform repeatCount="indefinite"
+                     type="rotate" from="0deg" to="60deg" dur="1s"/>
+  </path>
+
+  <use href="#leftWing" xlink:href="#rightWing" transform="translate(240,0) scale(-1,1)" />
+
+  <!-- Flutter path -->
+  <path id="flutterPath" d="M100,75 Q90,80 100,110 T200,75"/>
+
+</svg>

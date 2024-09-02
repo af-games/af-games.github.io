@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200">
+  <!-- Bell -->
+  <circle cx="75" cy="100" r="50" fill="#80bfff" stroke="#4d90fe" stroke-width="3"/>
+
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <ellipse cx="25" cy="150" rx="12.5" ry="62.5" fill="white"/>
+    <ellipse cx="75" cy="150" rx="12.5" ry="62.5" fill="white"/>
+    <ellipse cx="125" cy="150" rx="12.5" ry="62.5" fill="white"/>
+  </g>
+
+  <!-- Tentacle Tips -->
+  <circle cx="25" cy="287.5" r="10" fill="#fdd" stroke="#fff" stroke-width="3"/>
+  <circle cx="75" cy="287.5" r="10" fill="#fdd" stroke="#fff" stroke-width="3"/>
+  <circle cx="125" cy="287.5" r="10" fill="#fdd" stroke="#fff" stroke-width="3"/>
+
+  <!-- Annotation -->
+  <text x="50%" y="90%" dominant-baseline="middle" text-anchor="middle" font-family="Arial" font-size="14">
+    Ancient Jellyfish Artifact<br>Discovered by Z, the SVG Explorer
+  </text>
+</svg>

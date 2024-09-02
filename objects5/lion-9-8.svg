@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background: Savanna -->
+  <rect x="0" y="0" width="800" height="600" fill="#FFDB7D"/>
+
+  <!-- Sun -->
+  <circle cx="50" cy="100" r="40" fill="#FFF89C"/>
+  <circle cx="50" cy="100" r="30" fill="#FFDF52"/>
+
+  <!-- Lion -->
+  <path d="M350,200 Q370,220 390,200 Q410,220 430,200 Q380,160 350,140 Q320,160 350,180 Z" fill="#FFCD66"/>
+  <path d="M370,180 Q390,160 390,140" stroke="#5B3A2F" fill="transparent"/>
+
+  <!-- Grass -->
+  <rect x="0" y="400" width="800" height="200" fill="#78C05D"/>
+  <path d="M0,600 Q10,580 20,600 Q30,580 40,600" stroke="#78C05D" fill="transparent" repeatCount="inf"/>
+
+</svg>

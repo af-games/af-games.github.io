@@ -1,0 +1,28 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 500'>
+
+  <!-- Body -->
+  <rect x='100' y='150' width='300' height='250' fill='#8B7D6B' stroke='#000' stroke-width='2'/>
+
+  <!-- Head -->
+  <polygon points='100,50 150,150 100,250' fill='#8B7D6B' stroke='#000' stroke-width='2'/>
+
+  <!-- Eye (Left) -->
+  <circle cx='125' cy='100' r='25' fill='#FFFFFF'>
+    <circle cx='125' cy='100' r='10' fill='#000000'/>
+  </circle>
+
+  <!-- Eye (Right) -->
+  <circle cx='375' cy='100' r='25' fill='#FFFFFF'>
+    <circle cx='375' cy='100' r='10' fill='#000000'/>
+  </circle>
+
+  <!-- Tail -->
+  <polygon points='400,300 500,300 450,350' fill='#8B7D6B' stroke='#000' stroke-width='2'/>
+
+  <!-- Fin (Left) -->
+  <path d='M150,250 Q125,300 150,350' fill='none' stroke='#000' stroke-width='2'/>
+
+  <!-- Fin (Right) -->
+  <path d='M400,250 Q425,300 400,350' fill='none' stroke='#000' stroke-width='2'/>
+
+</svg>

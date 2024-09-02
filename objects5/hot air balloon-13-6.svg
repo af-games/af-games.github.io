@@ -1,0 +1,33 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bodice -->
+  <rect id="bodice" x="160" y="80" width="180" height="450"
+    style="fill: url(#gradient); stroke-width: 1px; stroke: black;" />
+
+  <!-- Sleeves (circles) -->
+  <circle cx="230" cy="270" r="80" fill="none" stroke="black" />
+  <circle cx="90" cy="270" r="80" fill="none" stroke="black" />
+
+  <!-- Basket -->
+  <rect x="160" y="530" width="180" height="40"
+    style="fill: #ffb347; stroke-width: 1px; stroke: black;" />
+
+  <!-- Balloon fabric pattern (repeated) -->
+  <defs>
+    <pattern id="balloonFabric" patternUnits="userSpaceOnUse" width="50" height="50">
+      <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Hot_air_balloon_fabric_pattern.svg/1200px-Hot_air_balloon_fabric_pattern.svg.png"
+        x="0" y="0" width="50" height="50" />
+    </pattern>
+  </defs>
+
+  <!-- Apply pattern to bodice -->
+  <use href="#bodice" style="fill: url(#balloonFabric); fill-opacity: 0.8;" />
+
+  <!-- Graduated shadow for movement effect -->
+  <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#fff; stop-opacity:1" />
+    <stop offset="50%" style="stop-color:#fff; stop-opacity:0.8" />
+    <stop offset="100%" style="stop-color:#fff; stop-opacity:0" />
+  </linearGradient>
+
+</svg>

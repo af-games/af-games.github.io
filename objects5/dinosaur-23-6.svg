@@ -1,0 +1,20 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Eyes -->
+  <circle cx="60" cy="50" r="40" fill="black"/>
+  <circle cx="220" cy="50" r="40" fill="black"/>
+
+  <!-- Body -->
+  <rect x="80" y="90" width="130" height="160" fill="#8B7D6B"/>
+
+  <!-- Limbs -->
+  <rect x="120" y="250" width="40" height="80" fill="#8B7D6B"/>
+  <rect x="240" y="250" width="40" height="80" fill="#8B7D6B"/>
+
+  <!-- Tail -->
+  <path d="M310,250 Q340,300 370,250" stroke="black" fill="transparent" stroke-width="2"/>
+
+  <!-- Label -->
+  <text x="150" y="460" font-size="30">DINOSAUR</text>
+
+</svg>

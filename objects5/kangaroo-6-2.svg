@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#D1FFDB"/>
+
+  <!-- Kangaroo body -->
+  <path d="M50,200 Q80,150 160,150 Q240,150 320,200 Q290,270 260,320" fill="#A52A2A"/>
+
+  <!-- Head -->
+  <ellipse cx="280" cy="175" rx="30" ry="40" fill="#A52A2A"/>
+
+  <!-- Ears -->
+  <circle cx="260" cy="130" r="15" fill="#A52A2A"/>
+  <circle cx="295" cy="130" r="15" fill="#A52A2A"/>
+
+  <!-- Tail -->
+  <polygon points="340,320 360,340 340,360" fill="#A52A2A"/>
+
+  <!-- Legs -->
+  <rect x="180" y="270" width="10" height="90" fill="#A52A2A"/>
+  <rect x="240" y="270" width="10" height="90" fill="#A52A2A"/>
+
+</svg>

@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hot Air Balloon -->
+  <g id="balloon">
+    <!-- Basket -->
+    <rect x="150" y="400" width="50" height="70" fill="#8B4513"/>
+    <!-- Balloon -->
+    <ellipse cx="200" cy="150" rx="150" ry="200" fill="#FFC125">
+      <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    </ellipse>
+    <!-- Basket Rope -->
+    <path d="M175,470 Q190,350 205,470" stroke="#8B4513" fill="transparent"/>
+  </g>
+
+  <!-- Hills -->
+  <defs>
+    <linearGradient id="hillGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(83,146,75);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(138,194,94);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path d="M100,500 Q200,450 300,500 Q400,470 500,500 Q600,530 700,500 Z" fill="url(#hillGradient)"/>
+
+  <!-- Rivers -->
+  <defs>
+    <linearGradient id="riverGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(87,134,206);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(153,193,255);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path d="M150,540 Q250,580 350,540 Q450,560 550,540" fill="url(#riverGradient)" stroke="#000" stroke-width="2"/>
+
+  <!-- Trees -->
+  <g id="tree">
+    <path d="M700,580 L710,590 L720,580 Z"/>
+    <circle cx="710" cy="610" r="40" fill="#3D9970"/>
+  </g>
+  <use xlink:href="#tree" y="200" />
+  <use xlink:href="#tree" y="350"/>
+
+</svg>

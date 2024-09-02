@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Basket -->
+  <polygon points="-40,-50 40,-50 40,50 -40,50"
+            fill="#D3B57F"/>
+
+  <!-- Envelope -->
+  <path d="M-60,-20 a10,10 0 0,1 120,0 a10,10 0 0,1 -120,0"
+        fill="url(#gradient)"/>
+  <rect x="-75" y="30" width="150" height="40" fill="#FF0000"/>
+
+  <!-- Rim -->
+  <circle cx="0" cy="30" r="60" stroke="#CD7F32" stroke-width="5"/>
+
+  <!-- Crown -->
+  <polygon points="-50,50 -5,-50 50,50"
+            fill="#003A81"/>
+
+  <!-- Netting -->
+  <path d="M-60,-20 h120 M-75,50 v40 H-45 V50 H-75"
+        stroke="#000000" stroke-width="2"/>
+
+  <!-- Burner -->
+  <rect x="-35" y="0" width="70" height="50" fill="#B5651D"/>
+  <rect x="-45" y="2.5" width="90" height="45" fill="#000000"/>
+
+  <!-- Pilot's hat -->
+  <circle cx="0" cy="70" r="30" stroke="#000000" stroke-width="5"/>
+
+  <!-- Gradient for envelope -->
+  <defs>
+    <linearGradient id="gradient" gradientUnits="objectBoundingBox"
+                    x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#003A81"/>
+      <stop offset="50%"  stop-color="#FFFDD0"/>
+      <stop offset="100%" stop-color="#003A81"/>
+    </linearGradient>
+  </defs>
+
+</svg>

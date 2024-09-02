@@ -1,0 +1,26 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Bodice -->
+<rect x="80" y="40" width="200" height="300" fill="url(#grad1)" stroke="white"/>
+
+<!-- Sleeves (Circles with slits) -->
+<circle cx="50" cy="70" r="75" fill="url(#grad1)" stroke="white"/>
+<path d="M50 70 L30 40 Z" fill="white"/>
+<circle cx="150" cy="70" r="75" fill="url(#grad1)" stroke="white"/>
+<path d="M150 70 L170 40 Z" fill="white"/>
+
+<!-- Tentacles -->
+<g id="tentacles">
+  <!-- Generate tentacle paths dynamically using script or manually add them here -->
+</g>
+
+<!-- Mannequin's skin -->
+<rect x="0" y="0" width="200" height="300" fill="#FFF6E5"/>
+
+<!-- Gradients -->
+<linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+  <stop offset="0%" style="stop-color:rgb(0,0,40); stop-opacity:1"/>
+  <stop offset="100%" style="stop-color:rgb(0,192,255); stop-opacity:1"/>
+</linearGradient>
+
+</svg>

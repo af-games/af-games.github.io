@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base -->
+  <circle cx="250" cy="490" r="250" fill="#FFF" stroke="#A9A9A9" stroke-width="1"/>
+
+  <!-- Walls (Spiral pattern of curved triangles) -->
+  <path d="M250,490 A200,200 0 0 1 370,360 L370,280 A150,150 0 0 1 300,230 Z" fill="#FFF" stroke="#A9A9A9" stroke-width="1"/>
+  <path d="M300,230 A125,125 0 0 1 340,160 L340,120 A90,90 0 0 1 310,85 Z" fill="#FFF" stroke="#A9A9A9" stroke-width="1"/>
+  <path d="M310,85 A70,70 0 0 1 325,60 L325,40 A50,50 0 0 1 320,30 Z" fill="#FFF" stroke="#A9A9A9" stroke-width="1"/>
+
+  <!-- Cap -->
+  <circle cx="250" cy="180" r="175" fill="#FFF" stroke="#A9A9A9" stroke-width="1"/>
+
+  <!-- Smoke Vent (Optional) -->
+  <path d="M250,180 L340,60 L160,60 Z" fill="#FFF" stroke="#A9A9A9" stroke-width="1"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="80" ry="60" fill="brown" />
+  <path d="M90,170 Q80,220 130,220 H140 Z" fill="brown" /> <!-- Belly -->
+
+  <!-- Head -->
+  <ellipse cx="100" cy="100" rx="50" ry="60" fill="saddlebrown"/>
+  <circle cx="95" cy="75" r="5" fill="black"/> <!-- Nose -->
+  <circle cx="105" cy="75" r="5" fill="black"/>
+
+  <!-- Arms -->
+  <rect x="80" y="120" width="40" height="60" rx="5" ry="5" fill="brown"/>
+  <rect x="130" y="120" width="40" height="60" rx="5" ry="5" fill="brown"/>
+
+  <!-- Legs -->
+  <path d="M90,250 Q80,300 130,300 H140 Z" fill="brown"/>
+  <path d="M90,320 Q80,370 130,370 H140 Z" fill="brown"/>
+
+  <!-- Ears -->
+  <circle cx="85" cy="60" r="15" fill="saddlebrown"/>
+  <circle cx="115" cy="60" r="15" fill="saddlebrown"/>
+
+</svg>

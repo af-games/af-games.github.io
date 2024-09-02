@@ -1,0 +1,44 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe -->
+  <image href="https://example.com/giraffe.png" x="350" y="150" width="200"/>
+
+  <!-- Hills -->
+  <path d="M10,400 Q150,380 300,400 Q450,420 600,400 Q750,380 900,400" fill="#A5C9B4" stroke="none"/>
+  <path d="M10,300 Q150,320 300,300 Q450,320 600,300 Q750,320 900,300" fill="#8AA38E" stroke="none"/>
+
+  <!-- River -->
+  <path d="M10,450 Q100,480 200,450 Q300,420 400,450 Q500,480 600,450 Q700,420 800,450" fill="url(#riverGradient)" stroke="none"/>
+
+  <!-- Lake -->
+  <rect x="10" y="550" width="900" height="50" fill="#6EAFD3"/>
+
+  <!-- Trees -->
+  <circle cx="50" cy="200" r="40" fill="#8B7D6B"/>
+  <circle cx="150" cy="150" r="40" fill="#8B7D6B"/>
+  <circle cx="250" cy="220" r="40" fill="#8B7D6B"/>
+  <circle cx="350" cy="180" r="40" fill="#8B7D6B"/>
+
+  <!-- Grass -->
+  <rect x="0" y="450" width="900" height="150" fill="url(#grassPattern)"/>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="900" height="600" fill="url(#skyGradient)"/>
+
+  <!-- Gradients and Patterns -->
+  <linearGradient id="riverGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#B3D7F4; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#5DADE2; stop-opacity:1"/>
+  </linearGradient>
+
+  <pattern id="grassPattern" patternUnits="userSpaceOnUse" width="60" height="60">
+    <rect x="30" y="0" width="30" height="60" fill="#7CB95E"/>
+    <rect x="0" y="30" width="60" height="30" fill="#8DC63C"/>
+  </pattern>
+
+  <linearGradient id="skyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#B3D7F4; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#5DADE2; stop-opacity:1"/>
+  </linearGradient>
+
+</svg>

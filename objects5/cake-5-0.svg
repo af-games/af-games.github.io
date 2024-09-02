@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+
+  <!-- Cake Base -->
+  <rect x="50" y="50" width="300" height="200" rx="10%" fill="#8B4513"/>
+
+  <!-- Cake Top -->
+  <rect x="70" y="30" width="260" height="160" rx="10%" fill="#8B4513"/>
+
+  <!-- Frosting -->
+  <ellipse cx="380" cy="250" rx="120" ry="160" fill="#FFFFFF"/>
+  <ellipse cx="70" cy="280" rx="120" ry="160" fill="#FFFFFF"/>
+
+  <!-- Cake Crust -->
+  <line x1="90" y1="350" x2="410" y2="350" stroke="#8B4513"/>
+
+  <!-- Candles -->
+  <circle cx="150" cy="75" r="5" fill="#FFFF00"/>
+  <circle cx="250" cy="75" r="5" fill="#FFFF00"/>
+  <circle cx="350" cy="75" r="5" fill="#FFFF00"/>
+
+</svg>

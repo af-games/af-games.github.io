@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background rectangle -->
+  <rect x="0" y="0" width="200" height="200" fill="#FFF"/>
+
+  <!-- Quilt top-left corner -->
+  <polygon points="50,10 90,10 50,50" fill="#FF8C00"/>
+  <polygon points="50,40 90,40 50,80" fill="#FFF"/>
+
+  <!-- Quilt top-middle -->
+  <rect x="90" y="10" width="20" height="70" fill="#FF8C00"/>
+  <rect x="110" y="10" width="20" height="70" fill="#FFF"/>
+
+  <!-- Quilt top-right corner -->
+  <polygon points="150,10 90,40 150,50" fill="#FF8C00"/>
+  <polygon points="150,40 90,70 150,80" fill="#FFF"/>
+
+  <!-- Quilt bottom-middle -->
+  <rect x="90" y="80" width="20" height="60" fill="#FF8C00"/>
+  <rect x="110" y="80" width="20" height="60" fill="#FFF"/>
+
+</svg>

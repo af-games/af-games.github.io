@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+<!-- Hot Air Balloon -->
+<circle cx="175" cy="125" r="75" fill="#FF9B4A"/>
+<path d="M175,80 L350,200 L-50,200 Z" fill="#FF6C00"/>
+<rect x="150" y="50" width="15" height="100" rx="4" fill="#FF9B4A"/>
+
+<!-- Fruits -->
+<circle cx="80" cy="325" r="40" fill="#F79F1F"/>
+<circle cx="420" cy="325" r="40" fill="#F79F1F"/>
+<path d="M75,260 Q100,280 125,260 H150 Q135,280 150,260 Z" fill="#FFFFFF"/>
+
+<!-- Utensils -->
+<path d="M425,175 Q450,150 475,175 Q450,200 425,175" stroke="#3D9970" fill="transparent"/>
+<rect x="300" y="350" width="80" height="30" rx="5" fill="#3D9970"/>
+
+<!-- Tableware -->
+<rect x="0" y="425" width="500" height="75" fill="#FFFDE6"/>
+<path d="M0,425 Q25,450 50,425 Q75,450 100,425 Z" stroke="#FFDB58" fill="transparent"/>
+
+<!-- Garnishes -->
+<circle cx="300" cy="200" r="15" fill="#FFFFFF"/>
+<path d="M300,190 L310,170 L290,170 Z" stroke="#FFFFFF" fill="transparent"/>
+
+</svg>

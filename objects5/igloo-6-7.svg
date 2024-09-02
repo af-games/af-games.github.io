@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#F5F5F5"/>
+
+<!-- Mountains -->
+<path d="M100,100 Q175,50 300,100 Q425,200 500,100 Q625,50 700,100" stroke="#4D4D4D" fill="none" stroke-width="2"/>
+<path d="M100,300 Q175,450 300,300 Q425,550 500,300 Q625,450 700,300" stroke="#4D4D4D" fill="none" stroke-width="2"/>
+
+<!-- Rivers -->
+<path d="M80,300 Q150,450 250,350 Q350,400 500,300 Q650,350 750,450" stroke="#BDBDBD" fill="none" stroke-width="2"/>
+<path d="M80,400 Q150,550 250,450 Q350,450 500,400 Q650,450 750,550"/>
+
+<!-- Forests -->
+<rect x="150" y="550" width="200" height="50" fill="#4C9F38"/>
+<rect x="400" y="500" width="200" height="100" fill="#4C9F38"/>
+
+<!-- Cities -->
+<circle cx="300" cy="250" r="75" stroke="#6B6B6B" fill="#FFF" stroke-width="2"/>
+<circle cx="600" cy="250" r="75" stroke="#6B6B6B" fill="#FFF" stroke-width="2"/>
+
+<!-- Igloo -->
+<circle cx="450" cy="350" r="100" stroke="#FFFFFF" fill="#E8E8E8" stroke-width="3"/>
+<path d="M450,250 Q475,225 500,250 Q525,225 550,250" stroke="#6B6B6B" fill="none" stroke-width="2"/>
+
+<!-- Labels -->
+<text x="10" y="80" text-anchor="start" font-family="Verdana" font-size="32">Frozen Peaks</text>
+<text x="750" y="590" text-anchor="end" font-family="Verdana" font-size="32">Whispering Woods</text>
+<text x="180" y="640" text-anchor="start" font-family="Verdana" font-size="32">Frostfall City</text>
+<text x="570" y="290" text-ananchor="end" font-family="Verdana" font-size="32">Icy Heart</text>
+
+</svg>

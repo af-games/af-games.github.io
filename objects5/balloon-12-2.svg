@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Balloon envelope -->
+  <path id="balloon-envelope"
+        d="M150,80 Q175,50 200,100 Q225,50 250,80"
+        fill="url(#gradient-1)"/>
+  <!-- Basket -->
+  <rect x="140" y="390" width="60" height="30" rx="15" fill="#7e57c2"/>
+  <!-- Burner -->
+  <circle cx="180" cy="280" r="15" stroke="#9f79cf" stroke-width="2" fill="url(#gradient-2)"/>
+  <!-- Rigging (lines connecting envelope to basket) -->
+  <line x1="140" y1="390" x2="180" y2="200" stroke="#a67dce"/>
+  <line x1="220" y1="390" x2="180" y2="200" stroke="#a67dce"/>
+
+  <!-- Defining gradients -->
+  <defs>
+    <linearGradient id="gradient-1" gradientTransform="rotate(45)">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(237,228,219);stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="gradient-2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(173,141,96);stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+</svg>

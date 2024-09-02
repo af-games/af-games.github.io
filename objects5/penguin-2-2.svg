@@ -1,0 +1,33 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Ice Cube Base -->
+<rect x="75" y="275" width="50" height="25"
+      style="fill:lightblue; stroke-width:1px; stroke:black"/>
+
+<!-- Penguin Body -->
+<ellipse cx="90" cy="240" rx="30" ry="40"
+         style="fill:dodgerblue; stroke-width:1px; stroke:black"/>
+<circle cx="85" cy="210" r="35"
+        style="fill:white; stroke-width:1px; stroke:black"/>
+
+<!-- Penguin Head -->
+<circle cx="90" cy="180" r="25"
+        style="fill:dodgerblue; stroke-width:1px; stroke:black"/>
+<path d="M90,160 Q95,145 100,160" stroke="black" fill="transparent"/>
+
+<!-- Penguin Legs -->
+<rect x="78" y="230" width="14" height="20"
+      style="fill:dodgerblue; stroke-width:1px; stroke:black"/>
+<rect x="106" y="230" width="14" height="20"
+      style="fill:dodgerblue; stroke-width:1px; stroke:black"/>
+
+<!-- Penguin Eyes -->
+<circle cx="85" cy="175" r="5"
+        style="fill:white; stroke-width:1px; stroke:black"/>
+<circle cx="95" cy="175" r="5"
+        style="fill:white; stroke-width:1px; stroke:black"/>
+
+<!-- Penguin Beak -->
+<path d="M90,160 Q85,145 90,130" stroke="orange" fill="transparent"/>
+
+</svg>

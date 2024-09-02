@@ -1,0 +1,23 @@
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="60" ry="80" fill="#FFCDE9" stroke="#ECC4D7"/>
+  <path d="M100 150 Q90 200, 100 230 H120 Q120 200, 110 150" fill="#FFCDE9"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="85" rx="45" ry="60" fill="#FFF2E3"/>
+  <circle cx="100" cy="70" r="5" fill="#DCDCDC"/>
+
+  <!-- Arms -->
+  <path d="M90 120 L110 140 Z" fill="#FFCDE9"/>
+  <path d="M90 130 L110 150 Z" fill="#FFCDE9"/>
+
+  <!-- Legs -->
+  <path d="M100 230 Q90 260, 80 270 H120 Q130 260, 140 270" fill="#FFCDE9"/>
+  <path d="M100 250 Q90 280, 80 290 H120 Q130 280, 140 290" fill="#FFCDE9"/>
+
+  <!-- Hair -->
+  <path d="M70 60 Q90 40, 110 60 Q130 40, 150 60 Q170 40, 190 60" fill="#FFCDE9"/>
+  <path d="M85 20 Q115 10, 145 20 Q175 10, 195 20"/>
+
+</svg>

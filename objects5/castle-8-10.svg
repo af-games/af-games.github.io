@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -500 1000 1000">
+  <!-- Define reusable filters -->
+  <defs>
+    <filter id="turbulence">
+      <feTurbulence baseFrequency="0.05"></feTurbulence>
+      <feDisplacementMap in2="SourceGraphic" scale="40"></feDisplacementMap>
+    </filter>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="coloredBlur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Path connecting shapes -->
+  <path d="M-400,0 H200 V350 Q300,400 450,450 T650,500" stroke="#333" stroke-width="15" fill="none"/>
+
+  <!-- Landmarks -->
+  <rect x="-450" y="-300" width="200" height="300" rx="50" fill="url(#grad1)" filter="url(#turbulence)"/>
+  <circle cx="450" cy="350" r="150" fill="url(#grad2)" filter="url(#glow)"/>
+
+  <!-- Gradients -->
+  <linearGradient id="grad1" x1="-450" y1="-300" x2="-250" y2="-300">
+    <stop offset="0%" style="stop-color:blue; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:white; stop-opacity:1"/>
+  </linearGradient>
+
+  <radialGradient id="grad2" cx="450" cy="350" r="150">
+    <stop offset="0%" style="stop-color:#ffa502; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#fff; stop-opacity:1"/>
+  </radialGradient>
+</svg>

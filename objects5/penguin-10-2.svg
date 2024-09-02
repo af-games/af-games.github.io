@@ -1,0 +1,32 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define gradients -->
+  <defs>
+    <linearGradient id="feathers" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:blue; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:white; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <circle cx="60" cy="200" r="50" fill="url(#feathers)" />
+
+  <!-- Head -->
+  <circle cx="80" cy="140" r="40" fill="url(#feathers)" />
+
+  <!-- Wings -->
+  <rect x="30" y="160" width="70" height="120" rx="20" fill="url(#feathers)" />
+  <rect x="90" y="160" width="70" height="120" rx="20" fill="url(#feathers)" transform="rotate(-18, 130, 250)"/>
+
+  <!-- Beak -->
+  <path d="M80 120 Q90 100 95 110 Q90 120 80 130" fill="black" />
+
+  <!-- Feet -->
+  <circle cx="40" cy="260" r="20" fill="orange"/>
+  <circle cx="120" cy="260" r="20" fill="orange"/>
+
+  <!-- Flippers -->
+  <path d="M50 270 Q40 280 30 270 Q40 260 50 270" fill="black"/>
+  <path d="M130 270 Q140 280 150 270 Q140 260 130 270" fill="black"/>
+
+</svg>

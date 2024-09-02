@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" preserveAspectRatio="xMidYMid meet">
+
+  <!-- Body -->
+  <ellipse cx="250" cy="175" rx="100" ry="60" fill="black"/>
+  <circle cx="250" cy="175" r="40" fill="white"/>
+
+  <!-- Wings -->
+  <path d="M100,135 Q150,90 250,135 Q350,90 400,135 H500 V265 H400 Q350,210 250,265 Q150,210 100,265 V400 Z" fill="orange"/>
+  <path d="M100,175 Q150,185 250,175 Q350,185 400,175 H500 V290 H400 Q350,280 250,290 Q150,280 100,290 V400 Z" fill="orange"/>
+
+  <!-- Antennae -->
+  <path d="M260,75 L280,50 L300,75 L290,90 Z" fill="black"/>
+  <path d="M240,75 L220,50 L200,75 L190,90 Z" fill="black"/>
+
+</svg>

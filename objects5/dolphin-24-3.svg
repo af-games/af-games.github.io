@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#E5ECF9"/>
+
+  <!-- Buildings -->
+  <rect x="100" y="400" width="100" height="200" fill="#D3D3D3"/>
+  <polygon points="700,200 800,300 600,300" fill="#D3D3D3"/>
+
+  <!-- Dolphin -->
+  <path d="M350,150 Q400,50 450,150 Q400,250 350,200 Q300,250 250,150" stroke="#2A9DF4" fill="transparent"/>
+  <circle cx="375" cy="175" r="25" fill="#fff">
+    <!-- Eye -->
+    <circle cx="370" cy="168" r="3" fill="#000"/>
+  </circle>
+
+  <!-- Roads -->
+  <line x1="150" y1="400" x2="750" y2="400" stroke="#3D3E42" stroke-width="5"/>
+
+  <!-- Parks (Green spaces) -->
+  <rect x="200" y="200" width="100" height="100" fill="#8DC63C"/>
+  <rect x="500" y="250" width="100" height="150" fill="#8DC63C"/>
+
+</svg>

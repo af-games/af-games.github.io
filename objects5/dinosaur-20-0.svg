@@ -1,0 +1,22 @@
+<svg width="250" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="0" y="50" width="200" height="150" fill="#8B7D6B"/>
+
+  <!-- Legs -->
+  <rect x="40" y="150" width="30" height="70" fill="#8B7D6B"/>
+  <rect x="160" y="150" width="30" height="70" fill="#8B7D6B"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="80" r="50" fill="#FCD1C7"/>
+  <circle cx="90" cy="60" r="10" fill="black"/>
+  <circle cx="110" cy="60" r="10" fill="black"/>
+
+  <!-- Spikes -->
+  <path d="M30,65 L40,75 L30,85 Z" fill="#8B7D6B"/>
+  <path d="M70,65 L80,75 L70,85 Z" fill="#8B7D6B"/>
+  <path d="M110,65 L120,75 L110,85 Z" fill="#8B7D6B"/>
+  <path d="M150,65 L160,75 L150,85 Z" fill="#8B7D6B"/>
+  <path d="M190,65 L200,75 L190,85 Z" fill="#8B7D6B"/>
+
+</svg>

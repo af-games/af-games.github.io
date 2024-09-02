@@ -1,0 +1,31 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="60" y="140" width="80" height="150" fill="url(#bodyGradient)"/>
+  <g id="penguin">
+    <!-- Head -->
+    <circle cx="90" cy="230" r="40" fill="black"/>
+    <!-- Belly -->
+    <circle cx="90" cy="280" r="30" fill="#fff"/>
+    <!-- Wings -->
+    <path d="M60,150 Q70,170 90,150 T110,170 Q100,190 90,210 Z" fill="url(#wingGradient)"/>
+    <!-- Beak -->
+    <path d="M90,230 L80,240 L100,240 Z" fill="#ffdead"/>
+  </g>
+  <!-- Eyes -->
+  <circle cx="85" cy="225" r="5" fill="#fff"/>
+  <circle cx="95" cy="225" r="5" fill="#fff"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   stop-color="#7db8be"/>
+      <stop offset="50%"  stop-color="#3e94b9"/>
+      <stop offset="100%" stop-color="#26668d"/>
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#fff"/>
+      <stop offset="50%"  stop-color="#ddd"/>
+      <stop offset="100%" stop-color="#ccc"/>
+    </linearGradient>
+  </defs>
+</svg>

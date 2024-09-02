@@ -1,0 +1,38 @@
+<svg width="500" height="400" viewBox="-250 -150 500 300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Castle Walls -->
+<path fill="#7d6650" stroke="black" stroke-width="2">
+  <moveTo x="-180" y="140"/>
+  <lineTo x="-180" y="30"/>
+  <curveTo x="-90" y="30" x2="-70" y2="50"/>
+  <lineTo x="-70" y="140"/>
+  <closePath/>
+</path>
+
+<!-- Tower -->
+<path fill="#b5a68f" stroke="black" stroke-width="2">
+  <moveTo x="-90" y="30"/>
+  <lineTo x="-70" y="50"/>
+  <curveTo x="-40" y="50" x2="-40" y2="100"/>
+  <lineTo x="-10" y="100"/>
+  <curveTo x="-10" y="80" x2="-90" y="30"/>
+  <closePath/>
+</path>
+
+<!-- Roof -->
+<path fill="#7d6650" stroke="black" stroke-width="2">
+  <moveTo x="-180" y="140"/>
+  <lineTo x="-90" y="170"/>
+  <curveTo x="-40" y="170" x2="0" y2="150"/>
+  <lineTo x="180" y="140"/>
+  <closePath/>
+</path>
+
+<!-- Door -->
+<rect fill="#3f291e" width="60" height="80" transform="translate(-170, 30)"/>
+
+<!-- Windows -->
+<circle fill="white" stroke="black" stroke-width="1" cx="-140" cy="70" r="5"/>
+<circle fill="white" stroke="black" stroke-width="1" cx="-120" cy="90" r="5"/>
+
+</svg>

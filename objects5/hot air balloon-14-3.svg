@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <!-- Basket -->
+  <circle cx="150" cy="150" r="80" fill="#F39C17"/>
+
+  <!-- Basket floor pattern -->
+  <defs>
+    <pattern id="basketPattern" patternUnits="userSpaceOnUse" width="40" height="40">
+      <polygon points="20,2 40,2 40,40 2,40" fill="#F39C17"/>
+    </pattern>
+  </defs>
+  <rect x="50" y="160" width="100" height="80" fill="url(#basketPattern)"/>
+
+  <!-- Envelope -->
+  <ellipse cx="150" cy="300" rx="120" ry="180" fill="#FF4500"/>
+  <line x1="150" y1="260" x2="150" y2="300" stroke="#FF4500" stroke-width="10"/>
+
+  <!-- Burner -->
+  <rect x="100" y="280" width="100" height="20" fill="#FF69B4"/>
+</svg>

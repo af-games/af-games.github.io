@@ -1,0 +1,28 @@
+<svg width="500" height="400" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define linear gradient for lighting effect -->
+  <defs>
+    <linearGradient id="lightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:rgb(192,192,192);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Main walls and towers -->
+  <path d="M10 150 h480 v300 H10 Z" fill="url(#lightGrad)" />
+  <path d="M70 150 L290 30 V450 H360 V300 L490 150 Z" fill="url(#lightGrad)" />
+
+  <!-- Tower tops -->
+  <path d="M80 120 L260 70 L420 120 Z" fill="#999"/>
+  <path d="M360 70 L480 120 Z" fill="#999"/>
+
+  <!-- Gatehouse -->
+  <path d="M170 350 L310 350 L240 400 Z" fill="#666"/>
+  <rect x="240" y="350" width="80" height="50" fill="#999"/>
+
+  <!-- Door -->
+  <path d="M270 380 v20 H240 Z" fill="#333"/>
+
+  <!-- Details (windows, etc.) -->
+  <circle cx="160" cy="220" r="15"/>
+  <circle cx="420" cy="220" r="15"/>
+</svg>

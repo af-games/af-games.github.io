@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Igloo base -->
+  <circle id="igloo-base" cx="250" cy="460" r="180" fill="#fff" stroke="#000" stroke-width="3"/>
+
+  <!-- Igloo dome -->
+  <path id="igloo-dome" d="M250,70 A180,180 0 1 0 250,450" fill="#fff" stroke="#000" stroke-width="3"/>
+
+  <!-- Smoke (optional) -->
+  <circle id="smoke" cx="250" cy="60" r="30" fill="#777"/>
+
+  <!-- Door -->
+  <rect id="door" x="190" y="400" width="70" height="60" rx="10" fill="#fff" stroke="#000" stroke-width="2"/>
+
+  <!-- Transformation group for animations -->
+  <g id="igloo-group">
+    <!-- Igloo base, dome, smoke and door are placed here -->
+
+    <!-- Animate igloo spinning slowly -->
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 250 250"
+      to="360 250 250"
+      dur="10s"
+      repeatCount="indefinite"/>
+
+    <!-- Animate smoke rising -->
+    <animate
+      attributeName="cy"
+      values="60;40;60"
+      dur="2s"
+      repeatCount="indefinite"/>
+  </g>
+</svg>

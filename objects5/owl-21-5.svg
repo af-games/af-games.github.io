@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 60">
+  <!-- Background -->
+  <circle cx="25" cy="30" r="14" fill="#5a5a5a"/>
+
+  <!-- Body -->
+  <circle cx="25" cy="30" r="7" fill="#f2f2f2"/>
+
+  <!-- Eyes -->
+  <circle cx="16" cy="20" r="4" fill="#3c3c3c"/>
+  <circle cx="34" cy="20" r="4" fill="#3c3c3c"/>
+
+  <!-- Wings -->
+  <rect x="7" y="15" width="9" height="18" rx="2" ry="2" fill="#f6ffed"/>
+  <rect x="41" y="15" width="9" height="18" rx="2" ry="2" fill="#f6ffed"/>
+
+  <!-- Feathers -->
+  <polygon points="7,30 20,40 30,30" fill="#0d2a3a"/>
+  <polygon points="9,35 18,43 25,35" fill="#213f5b"/>
+  <polygon points="11,40 17,47 23,40" fill="#546e7a"/>
+  <polygon points="39,30 20,40 10,30" fill="#0d2a3a"/>
+  <polygon points="38,35 29,43 20,35" fill="#213f5b"/>
+  <polygon points="37,40 31,47 26,40" fill="#546e7a"/>
+</svg>

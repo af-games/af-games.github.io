@@ -1,0 +1,31 @@
+<svg width="600" height="450" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo -->
+  <path d="M180,30 A150,150 0 1,1 360,30 A150,150 0 1,1 180,240 Z"
+        fill="#FFA07A" stroke="#CC8855"/>
+
+  <!-- Snow Crabs -->
+  <g transform="translate(300, 90)">
+    <path d="M0,0 A50,50 0 1,0 100,0 L100,-20 Z"
+          fill="#FFB6C1" stroke="#CC7A8F"/>
+    <path d="M-50,30 Q0,40 50,30" stroke="#CC7A8F"/>
+    <circle cx="0" cy="-10" r="25" fill="#CC7A8F"/>
+  </g>
+  <use xlink:href="#crab" transform="translate(360, 90) rotate(-45)"/>
+
+  <!-- Strawberries -->
+  <path d="M300,210 Q330,200 370,210 A50,50 0 1,1 300,260 Z"
+        fill="#FF6B81" stroke="#CC4F62"/>
+  <path d="M315,220 Q330,215 345,220" stroke="#CC4F62"/>
+
+  <!-- Chocolate Sauce Drizzle -->
+  <path d="M270,280 Q290,290 310,280"
+        stroke="#8B4513" stroke-width="10" fill="transparent"/>
+  <path d="M275,285 Q285,295 295,285"
+        stroke="#8B4513" stroke-width="6" fill="transparent"/>
+
+  <!-- Tableware -->
+  <rect x="0" y="390" width="600" height="60" fill="#FFF4E6"/>
+  <rect x="10" y="400" width="580" height="20" fill="#CC7A8F"/>
+
+</svg>

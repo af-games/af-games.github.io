@@ -1,0 +1,38 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#300C17" />
+
+  <g filter="url(#glow)">
+    <!-- Mermaid outline -->
+    <path d="M50 5 C65 25, 80 30, 95 40 Q110 45, 115 60 Q105 75, 95 85 Q80 75, 70 60 Q55 45, 50 40 Q35 30, 20 25 Z" fill="none" stroke="#FFFFFF" stroke-width="1" />
+
+    <!-- Mermaid hair -->
+    <path d="M60 30 Q75 20, 90 30 Q85 40, 75 50" fill="#0D4C91" stroke="none"/>
+    <path d="M50 35 Q65 25, 80 35 Q70 45, 60 55" fill="#1B3A6F" stroke="none"/>
+
+    <!-- Mermaid tail -->
+    <defs>
+      <linearGradient id="tailGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#0D4C91;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#678DCF;stop-opacity:1" />
+      </linearGradient>
+    </defs>
+    <path d="M50 85 Q65 95, 90 105 Q105 95, 120 85 Z" fill="url(#tailGradient)" stroke="none"/>
+
+    <!-- Mermaid body and accessories -->
+    <circle cx="70" cy="65" r="30" fill="#FFFFFF" />
+    <g stroke-width="1">
+      <polygon points="55,55 65,45 85,55 75,65" fill="#FFD700" />
+    </g>
+
+    <!-- Glowing effect -->
+    <defs>
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="2.5" />
+        <feMerge>
+          <feMergeNode in="SourceGraphic" />
+          <feMergeNode in="BackgroundImage" />
+        </feMerge>
+      </filter>
+    </defs>
+  </g>
+</svg>

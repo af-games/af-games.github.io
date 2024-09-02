@@ -1,0 +1,39 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect id="body" x="150" y="100" width="150" height="200"
+        fill="url(#penguin-body-gradient)" rx="40"/>
+
+  <!-- Head -->
+  <circle cx="225" cy="75" r="50"
+          fill="url(#penguin-head-gradient)"/>
+  <circle cx="175" cy="75" r="35"
+          fill="white"/>
+  <path id="beak" d="M190,60 L240,80 L200,90 Z"
+        fill="orange"/>
+
+  <!-- Feet -->
+  <rect id="foot-left" x="175" y="300" width="50" height="50"
+        fill="#A9A9A9"/>
+  <rect id="foot-right" x="240" y="300" width="50" height="50"
+        fill="#A9A9A9"/>
+
+  <!-- Eyes -->
+  <circle cx="185" cy="60" r="7.5" fill="black"/>
+  <circle cx="235" cy="60" r="7.5" fill="black"/>
+
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="penguin-body-gradient"
+                    x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(37,59,86);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(49,81,120);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="penguin-head-gradient"
+                    x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(65,94,138);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(77,107,153);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

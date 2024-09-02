@@ -1,0 +1,43 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="url(#backgroundGradient)"/>
+  <defs>
+    <linearGradient id="backgroundGradient" gradientTransform="rotate(45)">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e6e9fa"/>
+    </linearGradient>
+    <!-- Penguin colors -->
+    <linearGradient id="blackToWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#000"/>
+      <stop offset="50%" stop-color="#ccc"/>
+      <stop offset="100%" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="orangeToBlack" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffa502"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <path d="M150,200 Q130,240 160,280 H240 Q260,240 240,200 V170 A90,90 0 0 0 150,80 Z" fill="url(#blackToWhite)"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="50" r="50" fill="url(#blackToWhite)"/>
+
+  <!-- Beak -->
+  <path d="M160,40 L170,30 L180,40 Z" fill="url(#orangeToBlack)"/>
+
+  <!-- Eyes -->
+  <circle cx="145" cy="35" r="5"/>
+  <circle cx="155" cy="35" r="5"/>
+
+  <!-- Wings -->
+  <polygon points="70,200 60,240 140,240 150,200" fill="url(#blackToWhite)" opacity="0.8"/>
+  <polygon points="290,200 300,240 400,240 390,200" fill="url(#blackToWhite)" opacity="0.8"/>
+
+  <!-- Tail -->
+  <path d="M150,170 Q160,190 150,210 Z" fill="url(#blackToWhite)"/>
+
+  <!-- Feet -->
+  <rect x="130" y="140" width="80" height="40" fill="url(#blackToWhite)" opacity="0.6"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg width="100%" height="100%" viewBox="0 0 800 600" xmlns="http://www.w3.org/2002/svg">
+
+  <!-- Define the color palette -->
+  <defs>
+    <linearGradient id="fairyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: rgb(255,255,255); stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: rgb(238,237,246); stop-opacity: 1" />
+    </linearGradient>
+    <radialGradient id="fairySkin" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color: rgb(248,231,212); stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: rgb(229,196,160); stop-opacity: 1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Broad strokes for the background -->
+  <rect x="0" y="0" width="800" height="600" fill="url(#fairyGradient)" stroke-width="0"/>
+
+  <!-- Fine lines for the fairy's body and details -->
+  <path d="M250,100 Q300,75 350,100 ... " fill="transparent" stroke="url(#fairySkin)" stroke-width="5"/>
+
+</svg>

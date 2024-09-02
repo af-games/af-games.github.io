@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 60">
+  <!-- Body -->
+  <path d="M10 30 Q20 40, 40 30 Q60 20, 40 10 Q20 20, 10 30" fill="brown"/>
+
+  <!-- Head -->
+  <circle cx="25" cy="20" r="15" fill="saddlebrown"/>
+
+  <!-- Ears -->
+  <polygon points="20 10, 30 10, 25 5" fill="saddlebrown"/>
+
+  <!-- Tail -->
+  <path d="M40 50 Q45 55, 50 60 Q55 55, 50 50" stroke="brown" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="22.5" cy="17.5" r="2.5" fill="white"/>
+  <circle cx="27.5" cy="17.5" r="2.5" fill="white"/>
+
+  <!-- Nose -->
+  <polygon points="24 23, 26 23, 25 20" fill="black"/>
+</svg>

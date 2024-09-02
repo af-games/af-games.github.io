@@ -1,0 +1,18 @@
+<svg>` tag along with `<path>` for the wings and `<circle>` for the body and eyes.
+
+```html
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="75" r="40" fill="#FFC300"/>
+
+  <!-- Right Wing -->
+  <path d="M140 50 Q160 30, 180 50 Q200 90, 180 130 Q160 110, 140 90" fill="#FFC300"/>
+
+  <!-- Left Wing -->
+  <path d="M60 50 Q40 30, 20 50 Q0 90, 20 130 Q40 110, 60 90" fill="#FFC300"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="70" r="5" fill="#FFFFFF"/>
+  <circle cx="115" cy="70" r="5" fill="#FFFFFF"/>
+
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Bell (upper body) -->
+  <circle cx="0" cy="-30" r="40" fill="#8BC3C7" opacity="0.9" />
+  <path d="M0,-20 A40,40 0 0 1 0,-60" stroke="#4D5E73" stroke-width="2" fill="none" />
+
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <?php for ($i = 0; $i < 8; $i++): ?>
+      <path d="M0,-60 A10,10 0 0 <?= $i % 2 == 0 ? '1' : '0' ?>,50 <?= $i * 25 % 360 ?>deg" stroke="#4D5E73" stroke-width="2" fill="none" />
+    <?php endfor; ?>
+  </g>
+
+  <!-- Oral arms (shadow) -->
+  <circle cx="0" cy="-10" r="8" fill="#5B6F90" opacity="0.5" />
+
+  <!-- Umbrella shadow -->
+  <path d="M-40,-30 Q0,-40 40,-30" stroke="#5B6F90" stroke-width="2" fill="none" opacity="0.5" />
+
+</svg>

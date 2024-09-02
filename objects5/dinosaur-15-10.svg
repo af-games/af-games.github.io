@@ -1,0 +1,42 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+```
+
+Now, let's start drawing the basic body shape of our dinosaur. We'll use a `<path>` element for this, with a tentative line starting from the top left corner and curving downwards to form the neck:
+
+```svg
+<path d="M10 10 Q50 90, 100 50" stroke="black" fill="transparent"/>
+```
+
+Here, `M` stands for move-to (move the pen to this point without drawing), `Q` is a quadratic Bézier curve command (draw a curve from the current point to the control point and then to the endpoint), and the coordinates are given in pixels.
+
+Next, let's add a circle for the head. We'll use a `<circle>` element with its center at `(150, 30)` and radius `30`:
+
+```svg
+<circle cx="150" cy="30" r="30" stroke="black" fill="transparent"/>
+```
+
+Now, let's draw the body. We'll use a `<rect>` element for this, with its top left corner at `(100, 50)` and width `70` and height `80`:
+
+```svg
+<rect x="100" y="50" width="70" height="80" stroke="black" fill="transparent"/>
+```
+
+As we venture deeper into this new land, we discover more features like limbs. Let's add a tentatively drawn left arm using another `<path>` element:
+
+```svg
+<path d="M120 50 Q90 70, 100 80" stroke="black" fill="transparent"/>
+```
+
+Remember to document your journey with detailed notes (attribute values) for each discovery. Here are some attributes we've used so far:
+
+- `stroke`: The color of the outline of the shape.
+- `fill`: The color inside the shape. We're using "transparent" here because we want to see our canvas through these shapes.
+- `d`: A list of commands and coordinates for `<path>` elements.
+- `cx`, `cy`: The x and y coordinates of the center of a `<circle>`.
+- `r`: The radius of a `<circle>`.
+- `x`, `y`, `width`, `height`: The top left corner's coordinates and dimensions of a `<rect>`.
+
+Finally, let's write out our map's final draft. We'll close the SVG element to signify the end of our journey:
+
+```svg
+</svg>

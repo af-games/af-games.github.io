@@ -1,0 +1,34 @@
+<svg width="1280" height="720" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Under the Sea at Sunset -->
+<rect id="ocean" x="0" y="0" width="1280" height="720" fill="url(#grad)" />
+<circle cx="640" cy="360" r="150" fill="#FFF569" stroke-width="30">
+  <animate attributeName="cx" values="640;720;640" dur="5s" repeatCount="indefinite"/>
+</circle>
+<path d="M0,0 H1280 V720 H0 Z" fill="#FFB300"/>
+
+<!-- Jellyfish's Monotonous Routine -->
+<circle cx="640" cy="360" r="50" fill="url(#jellyfish-dream)" stroke-width="5"/>
+<text x="100" y="50">Jellyfish floats aimlessly among others.</text>
+
+<!-- The Colorful Dream -->
+<circle cx="640" cy="360" r="50" fill="#ffffff" stroke-width="5">
+  <animate attributeName="fill-opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+</circle>
+<path d="M600,400 Q700,300 800,400 T 900,500"/>
+
+<!-- Jellyfish's Isolation -->
+<rect id="ocean-dark" x="0" y="0" width="1280" height="720" fill="#0B2447"/>
+<circle cx="640" cy="360" r="50" fill="url(#jellyfish-dream-faded)" stroke-width="5"/>
+
+<!-- The Moon's Encouragement -->
+<circle cx="1000" cy="200" r="80" fill="#ffffff">
+  <text x="950" y="230">Embrace your dreams, little jellyfish.</text>
+</circle>
+
+<!-- Jellyfish Embracing His Dreams -->
+<circle cx="640" cy="360" r="50" fill="url(#jellyfish-dream)" stroke-width="5"/>
+<circle cx="700" cy="320" r="30" fill="#95A5A6"/>
+<circle cx="800" cy="400" r="30" fill="#95A5A6"/>
+
+</svg>

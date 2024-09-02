@@ -1,0 +1,32 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Grid -->
+  <rect x="50" y="50" width="500" height="300" fill="none" stroke="gray"/>
+  <line x1="50" y1="50" x2="550" y2="50" stroke="gray"/>
+  <line x1="50" y1="50" x2="50" y2="350" stroke="gray"/>
+
+  <!-- Coordinate labels -->
+  <text x="45" y="40" text-anchor="end">Y</text>
+  <text x="590" y="380" text-anchor="middle">X</text>
+
+  <!-- Clues (small shapes) -->
+  <circle cx="120" cy="60" r="8" fill="#ff7f27" stroke="black"/>
+  <circle cx="430" cy="120" r="8" fill="#27ff95" stroke="black"/>
+  <circle cx="280" cy="240" r="8" fill="#ff2764" stroke="black"/>
+
+  <!-- Suspects (medium shapes) -->
+  <rect x="80" y="100" width="30" height="50" fill="#f9b14e" stroke="black"/>
+  <circle cx="300" cy="200" r="25" fill="#7dd6ff" stroke="black"/>
+
+  <!-- Culprits (large shapes) -->
+  <ellipse cx="250" cy="280" rx="40" ry="60" fill="#ff5e93" stroke="black"/>
+  <polygon points="150,250 250,350 350,250" fill="#27bafd" stroke="black"/>
+
+  <!-- Alibis (text) -->
+  <text x="65" y="80" text-anchor="middle">Fin</text>
+  <text x="90" y="150" text-anchor="middle">Gill</text>
+  <text x="305" y="220" text-anchor="middle">Tail</text>
+  <text x="255" y="300" text-anchor="middle">Shark</text>
+  <text x="175" y="310" text-anchor="middle">Fish</text>
+
+</svg>

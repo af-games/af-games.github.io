@@ -1,0 +1,16 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100 10 A80 80 0 0 1 100 170 A80 80 0 0 1 0 170" fill="#FFCC99"/>
+
+  <!-- Left Wing -->
+  <path d="M50 30 Q25 50, 50 70 Q75 50, 50 30" fill="#FFF8DC" stroke="#B38D46"/>
+
+  <!-- Right Wing -->
+  <path transform="translate(150)" d="M50 30 Q25 50, 50 70 Q75 50, 50 30" fill="#FFF8DC" stroke="#B38D46"/>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="145" r="5" fill="#FFFFFF"/>
+  <circle cx="110" cy="145" r="5" fill="#FFFFFF"/>
+
+</svg>

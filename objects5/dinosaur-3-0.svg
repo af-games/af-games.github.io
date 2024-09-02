@@ -1,0 +1,31 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="50" y="100" width="300" height="200" fill="#8B4513"/>
+
+  <!-- Legs -->
+  <rect x="70" y="300" width="100" height="150" fill="#8B4513"/>
+  <rect x="230" y="300" width="100" height="150" fill="#8B4513"/>
+  <rect x="60" y="150" width="80" height="100" fill="#8B4513"/>
+  <rect x="240" y="150" width="80" height="100" fill="#8B4513"/>
+
+  <!-- Tail -->
+  <rect x="310" y="200" width="50" height="150" fill="#8B4513"/>
+
+  <!-- Head -->
+  <ellipse cx="160" cy="70" rx="80" ry="90" fill="#F39C12"/>
+
+  <!-- Eyes -->
+  <circle cx="170" cy="60" r="20" fill="#000"/>
+  <circle cx="240" cy="60" r="20" fill="#000"/>
+
+  <!-- Mouth -->
+  <path d="M150,90 Q180,130 210,90 Q240,130 270,90" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Teeth -->
+  <rect x="160" y="85" width="5" height="15" fill="#FFF"/>
+  <rect x="175" y="85" width="5" height="15" fill="#FFF"/>
+  <rect x="230" y="85" width="5" height="15" fill="#FFF"/>
+  <rect x="245" y="85" width="5" height="15" fill="#FFF"/>
+
+</svg>

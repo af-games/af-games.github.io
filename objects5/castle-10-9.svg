@@ -1,0 +1,37 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define patterns -->
+  <defs>
+    <pattern id="castleWallPattern" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect x="0" y="0" width="5" height="10" fill="#8B4513"/>
+      <rect x="5" y="0" width="5" height="5" fill="white"/>
+    </pattern>
+    <pattern id="pathPattern" patternUnits="userSpaceOnUse" width="20" height="2">
+      <rect x="0" y="0" width="10" height="2" fill="#3D9970"/>
+      <rect x="10" y="0" width="10" height="2" fill="white"/>
+    </pattern>
+  </defs>
+
+  <!-- Castle 1 -->
+  <circle cx="50" cy="100" r="80" fill="#FFD700">
+    <animate attributeName="fill-opacity" values="1;0;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="40" y="65" width="60" height="30" fill="url(#castleWallPattern)"/>
+
+  <!-- Castle 2 -->
+  <circle cx="200" cy="180" r="60" fill="#FFD700">
+    <animate attributeName="fill-opacity" values="1;0;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="140" y="125" width="60" height="30" fill="url(#castleWallPattern)"/>
+
+  <!-- Castle 3 -->
+  <circle cx="370" cy="80" r="50" fill="#FFD700">
+    <animate attributeName="fill-opacity" values="1;0;1" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="320" y="40" width="60" height="30" fill="url(#castleWallPattern)"/>
+
+  <!-- Paths -->
+  <path d="M80,150 Q120,70 160,100 T200,140" stroke="#3D9970" fill="transparent"/>
+  <path d="M240,140 Q280,200 320,160 T370,100" stroke="url(#pathPattern)" fill="transparent"/>
+
+</svg>

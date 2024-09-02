@@ -1,0 +1,32 @@
+<svg width="800" height="600" viewBox="0 0 800 600">
+  <!-- Tempo -->
+  <rect x="0" y="520" width="800" height="80" fill="#3D9970" /> <!-- Ground -->
+
+  <!-- Measure 1: Intro -->
+  <circle cx="400" cy="100" r="50" fill="orange">
+    <animate attributeName="cy" values="100;520;100" dur="3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Measure 2: Build-up -->
+  <g id="balloons">
+    <circle cx="100" cy="200" r="40" fill="#FF8C00"/>
+    <circle cx="600" cy="300" r="40" fill="#FF8C00"/>
+  </g>
+  <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-150" dur="2s" repeatCount="indefinite"/>
+  <set attributeName="opacity" values="1;0" begin="balloons.end"/>
+  <circle cx="400" cy="300" r="60" fill="#FF8C00">
+    <animate attributeName="cy" values="300;520;300" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Measure 3: Climax -->
+  <g id="climax">
+    <line x1="400" y1="100" x2="400" y2="600" stroke="#FF8C00" stroke-width="5"/>
+    <line x1="700" y1="600" x2="100" y2="600" stroke="#FF8C00" stroke-width="5"/>
+  </g>
+  <animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="1" begin="balloons.end+1s"/>
+
+  <!-- Measure 4: Resolution -->
+  <circle cx="400" cy="600" r="80" fill="#FF8C00">
+    <animate attributeName="cy" values="600;720;600" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>

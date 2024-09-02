@@ -1,0 +1,24 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mermaid's Body -->
+  <g fill="#FFD700">
+    <polygon points="100,100 150,150 200,100"/>
+    <polygon points="150,100 200,150 250,100" fill-opacity="0.8"/>
+    <!-- Add more polygons for the mermaid's body -->
+  </g>
+
+  <!-- Scales -->
+  <g>
+    <!-- Add triangles as scales -->
+  </g>
+
+  <!-- Hair -->
+  <g stroke="#3D9970" fill="none">
+    <!-- Add rectangles for hair -->
+  </g>
+
+  <!-- Rock -->
+  <polygon points="300,250 400,150 450,250" fill="#A0522D" fill-opacity="0.7"/>
+  <polygon points="350,200 400,100 450,200" fill="#A0522D" fill-opacity="0.5"/>
+
+</svg>

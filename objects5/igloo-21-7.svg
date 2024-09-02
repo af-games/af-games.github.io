@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#ADD8E6"/>
+
+  <!-- Glacier Keep (Igloo Region) -->
+  <circle cx="400" cy="300" r="250" fill="#D9D9D9">
+    <animate attributeName="r" from="250" to="275" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="380" y="340" font-family="Verdana" fill="black" font-size="24">Glacier Keep</text>
+
+  <!-- Mountains -->
+  <polygon points="50,100 250,0 450,100 700,0 800,300" fill="#A9A9A9"/>
+  <text x="650" y="50" font-family="Verdana" fill="black" font-size="24">Mount Crystalhawk</text>
+
+  <!-- Rivers -->
+  <path d="M100,300 Q200,400 400,300 T800,300" stroke="#00BFFF" fill="transparent"/>
+  <text x="550" y="350" font-family="Verdana" fill="black" font-size="24">Frozenfall River</text>
+
+  <!-- Forests -->
+  <rect x="100" y="400" width="700" height="200" fill="#006400"/>
+  <text x="350" y="600" font-family="Verdana" fill="black" font-size="24">Whisperwood Forest</text>
+
+  <!-- Cities -->
+  <circle cx="150" cy="550" r="75" fill="#FFD700">
+    <animate attributeName="r" from="75" to="85" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="120" y="530" font-family="Verdana" fill="black" font-size="24">Sunshine Springs</text>
+
+  <circle cx="650" cy="550" r="75" fill="#8B4513">
+    <animate attributeName="r" from="75" to="85" dur="1s" repeatCount="indefinite"/>
+  </circle>
+  <text x="620" y="530" font-family="Verdana" fill="black" font-size="24">Moonshadow Haven</text>
+
+</svg>

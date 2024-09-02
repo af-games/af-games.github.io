@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Hot Air Balloon -->
+  <g id="balloon" transform="translate(400,350)">
+    <circle cx="0" cy="-150" r="150" fill="#FF7F27"/>
+    <path d="M-100,-75 Q0,-150 100,-75" stroke="#FF7F27" fill="transparent"/>
+    <rect width="200" height="300" x="-100" y="-300" rx="20" ry="20" fill="#FFCC99"/>
+    <circle cx="0" cy="-450" r="75" fill="#FFF2CC"/>
+  </g>
+
+  <!-- Rolling Hills -->
+  <path id="rolling-hills" d="M10,60 Q80,20 180,60 Q300,100 400,60 Q500,100 600,60 Q720,20 810,60 H820V620H0Z" fill="url(#grass)"/>
+
+  <!-- Winding River -->
+  <path id="river" d="M10,540 Q90,560 180,540 Q300,570 400,540 Q500,570 600,540 Q720,560 810,540H820V580H0Z" stroke="#90C3D4" fill="transparent"/>
+
+  <!-- Towering Trees -->
+  <g id="trees">
+    <rect x="150" y="450" width="20" height="100" rx="5" ry="5" fill="#8B7D6B"/>
+    <path d="M155,350 Q160,280 170,330 Q180,240 190,300 Q200,220 210,290" stroke="#8B7D6B" fill="transparent"/>
+    <circle cx="550" cy="400" r="50" fill="#8B7D6B"/>
+    <path d="M555,300 Q560,250 570,310 Q580,220 590,280 Q600,210 610,290" stroke="#8B7D6B" fill="transparent"/>
+  </g>
+
+  <!-- Defining Patterns and Gradients -->
+  <defs>
+    <linearGradient id="grass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(74,193,69);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(184,233,160);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

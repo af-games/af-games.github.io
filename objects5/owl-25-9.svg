@@ -1,0 +1,20 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="100" y="50" width="50" height="30" fill="#2C4F5A"/>
+  <rect x="150" y="80" width="50" height="30" fill="#4E3B47"/>
+  <!-- Wings -->
+  <polygon points="200,50 250,100 200,150" fill="#BDB56F"/>
+  <polygon points="250,50 300,100 250,150" fill="#6E4C79"/>
+  <!-- Face -->
+  <polygon points="250,200 280,230 250,260" fill="#FDD835"/>
+  <polygon points="250,210 280,240 250,270" fill="#E27D60"/>
+  <polygon points="250,220 280,250 250,280" fill="#C79148"/>
+  <!-- Eyes -->
+  <circle cx="265" cy="235" r="5" fill="#FFFFFF" stroke="#000000"/>
+  <circle cx="265" cy="235" r="3" fill="#FFD700"/>
+  <circle cx="275" cy="235" r="5" fill="#FFFFFF" stroke="#000000"/>
+  <circle cx="275" cy="235" r="3" fill="#FFD700"/>
+  <!-- Background -->
+  <rect x="100" y="400" width="60" height="30" fill="#212F3C"/>
+  <rect x="160" y="430" width="60" height="30" fill="#4A4E59"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="600" height="900" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mannequin outline -->
+  <rect x="150" y="80" width="300" height="740" style="stroke:black;fill:none;" />
+
+  <!-- Front bodice (rectangle) -->
+  <path d="M200,160 h100 v400 a200,200 0 0 1 -200,-200 z" fill="#87CEEB" stroke="#4A708E" stroke-width="3"/>
+
+  <!-- Back bodice (mirror of front bodice) -->
+  <path d="M400,160 h-100 v400 a200,200 0 0 1 200,-200 z" fill="#87CEEB" stroke="#4A708E" stroke-width="3"/>
+
+  <!-- Front sleeve (circle) -->
+  <path d="M250,260 a150,150 0 0 0 150,-150 v-100 h-300 v100 a150,150 0 0 0 150,150 z" fill="#FFFFFF" stroke="#4A708E" stroke-width="3"/>
+
+  <!-- Back sleeve (mirror of front sleeve) -->
+  <path d="M450,260 a150,150 0 0 0 -150,-150 v-100 h300 v100 a150,150 0 0 0 -150,150 z" fill="#FFFFFF" stroke="#4A708E" stroke-width="3"/>
+
+  <!-- Collar (semicircle) -->
+  <path d="M200,60 q100,0 100,100 a100,100 0 0 1 -200,-100 z" fill="#4A708E" stroke="#4A708E" stroke-width="3"/>
+
+  <!-- Hem (semicircle) -->
+  <path d="M200,680 q100,0 100,-100 a100,100 0 0 1 -200,100 z" fill="#4A708E" stroke="#4A708E" stroke-width="3"/>
+
+</svg>

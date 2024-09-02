@@ -1,0 +1,35 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<ellipse cx="180" cy="240" rx="90" ry="70" fill="brown"/>
+<animateTransform attributeName="transform" type="scale" from="1 1" to="1.5 1.5"
+                  begin="0s" dur="3s" repeatCount="indefinite"/>
+
+<!-- Head -->
+<circle cx="200" cy="220" r="40" fill="brown"/>
+<animateTransform attributeName="transform" type="rotate" from="0 200 220"
+                  begin="1.5s" dur="2s" repeatCount="indefinite"
+                  values="30; -30; 30; -30"/>
+
+<!-- Ears -->
+<rect x="160" y="180" width="40" height="70" fill="brown"/>
+<animate attributeName="y" from="200" to="190" begin="3s" dur="1.5s"
+          repeatCount="indefinite"/>
+
+<!-- Front Legs -->
+<line x1="160" y1="270" x2="180" y2="330" stroke="brown"/>
+<animate attributeName="y1" from="270" to="290" begin="4.5s" dur="1.5s"
+          repeatCount="indefinite"/>
+
+<!-- Back Legs -->
+<line x1="220" y1="270" x2="200" y2="330" stroke="brown"/>
+<animate attributeName="y1" from="270" to="290" begin="6s" dur="1.5s"
+          repeatCount="indefinite"/>
+
+<!-- Tail -->
+<path d="M 240 280 Q 260 320, 240 360" stroke="brown"/>
+<animate attributeName="d" from="M 240 280 Q 260 320, 240 360"
+          begin="7.5s" dur="1s" repeatCount="indefinite"
+          values="M 240 280 Q 260 300, 240 340; M 240 280 Q 260 320, 240 360"/>
+
+</svg>

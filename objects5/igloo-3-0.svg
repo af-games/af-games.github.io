@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 350">
+  <!-- Igloo Base -->
+  <ellipse cx="150" cy="200" rx="100" ry="50" fill="#add8e6"/>
+
+  <!-- Igloo Dome -->
+  <circle cx="150" cy="70" r="90" fill="white"/>
+
+  <!-- Doorway -->
+  <rect x="120" y="160" width="40" height="80" fill="#8b4513"/>
+
+  <!-- Smoke Vent -->
+  <circle cx="150" cy="30" r="10" fill="black"/>
+
+  <!-- Detail Lines (Example: one line inside and two outside) -->
+  <path d="M120,200 H180,200 Z" stroke="#add8e6"/>
+  <path d="M125,75 Q145,100 165,75" stroke="#8b4513"/>
+  <path d="M175,75 Q195,100 215,75" stroke="#8b4513"/>
+
+</svg>

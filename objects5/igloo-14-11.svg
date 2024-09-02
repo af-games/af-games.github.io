@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-12.5 -12.5 25 25">
+
+  <!-- Base -->
+  <circle cx="0" cy="0" r="10" fill="#E5E5E5" stroke="#333" stroke-width="2"/>
+
+  <!-- Walls -->
+  <path d="M0,10 a10,10 0 0 1 20,0 a10,10 0 0 1 -20,0" fill="#FFFFFF"/>
+  <!-- Repeat this path eight more times with varying radii -->
+
+  <!-- Roof -->
+  <polygon points="12.5,0 25,25 0,25" fill="#E5E5E5"/>
+
+</svg>

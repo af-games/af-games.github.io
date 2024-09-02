@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Head -->
+  <circle cx="-60" cy=-90 r=80 fill="tan"/>
+
+  <!-- Eyes -->
+  <circle cx="-75" cy="-85" r=5 fill="black"/>
+  <circle cx="-45" cy="-85" r=5 fill="black"/>
+
+  <!-- Nostrils and mouth -->
+  <path d="M-60,-75 Q-65,-70 -60,-65 Q-55,-70 -60,-75" stroke="brown" fill="transparent"/>
+  <path d="M-60,-60 Q-65,-55 -60,-45 Q-55,-55 -60,-60" stroke="brown" fill="transparent"/>
+
+  <!-- Neck -->
+  <path d="M-60,-90 Q-75,-80 -60,-60" stroke="tan" fill="transparent" stroke-width=10/>
+
+  <!-- Body -->
+  <rect x="-80" y=-60 width=160 height=200 rx=20 ry=20 fill="tan"/>
+
+  <!-- Legs -->
+  <rect x="-90" y=40 width=20 height=100 rx=10 ry=10 fill="tan"/>
+  <rect x=-70 y=40 width=20 height=100 rx=10 ry=10 fill="tan"/>
+  <rect x=-90 y=160 width=20 height=80 rx=10 ry=10 fill="tan"/>
+  <rect x=-70 y=160 width=20 height=80 rx=10 ry=10 fill="tan"/>
+
+  <!-- Spots -->
+  <circle cx="-85" cy=-30 r=5 fill="brown"/>
+  <circle cx="-45" cy=20 r=5 fill="brown"/>
+  <circle cx=-60 cy=70 r=5 fill="brown"/>
+  <circle cx="-95" cy=180 r=5 fill="brown"/>
+  <!-- Add more spots as desired -->
+
+</svg>

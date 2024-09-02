@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Body -->
+  <path d="M464,288H47l-80-96V192c0-44.2-35.8-80-80-80s-80,35.8-80,80v96L41,288H464z" fill="#FBB728"/>
+
+  <!-- Eyes -->
+  <circle cx="144" cy="144" r="64" fill="#FFFFFF"/>
+  <circle cx="368" cy="144" r="64" fill="#FFFFFF"/>
+
+  <!-- Beak -->
+  <path d="M256,96V0H352v96c0,44.2-35.8,80-80,80s-80-35.8-80-80z" fill="#FDBE1C"/>
+
+  <!-- Feet -->
+  <polygon points="416,288 464,336 464,224" fill="#FBB728"/>
+  <polygon points="56,288 104,336 104,224" fill="#FBB728"/>
+
+  <!-- Tail -->
+  <path d="M256,384v96c0,44.2-35.8,80-80,80s-80-35.8-80-80V384H176C91,384,32,336,32,256s59,128,144,128z" fill="#FBB728"/>
+</svg>

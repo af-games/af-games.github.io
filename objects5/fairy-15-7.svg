@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500">
+  <!-- Fairy -->
+  <g id="fairy" transform="translate(1050, 400)">
+    <path d="M80 95v-60a70 70 0 0 1 35-65l-25-100h-50z"/>
+    <circle cx="75" cy="200" r="40"/>
+    <!-- Wand -->
+    <path d="M80 270h-30v50a50 50 0 0 0 50 50v-50z"/>
+  </g>
+
+  <!-- Fairy animation -->
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="1050,400"
+    to="-100,250"
+    begin="0s" dur="3s"
+    fill="freeze" id="flyInOut"/>
+
+  <!-- Wand glow animation -->
+  <circle cx="75" cy="275" r="8">
+    <animate attributeName="r" values="8;12;8" begin="flyInOut.begin+2s" dur="0.5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Head tilt animation -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 75 200"
+    to="-15 75 200"
+    begin="flyInOut.begin+1s" dur="0.3s"
+    fill="freeze"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stage floor -->
+  <rect id="floor" width="100%" height="50%" fill="#333"/>
+
+  <!-- Ocean backdrop with gradient -->
+  <defs>
+    <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#78dbff; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#3c91e6; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="100%" height="50%" fill="url(#oceanGrad)"/>
+
+  <!-- Main action area - Circular stage -->
+  <circle id="stageCircle" cx="40%" cy="75%" r="20%" stroke="#fff" stroke-width="3px" fill="none"/>
+
+  <!-- Dolphin props (smaller shapes) interact with the stage -->
+  <g id="dolphinProps">
+    <!-- Jumping dolphin -->
+    <path d="M40% 65% Q50% 70%, 60% 65%" stroke="#fff" stroke-width="3px"/>
+
+    <!-- Water splash (interacts with stage circle) -->
+    <circle cx="55%" cy="72%" r="10%" fill="url(#splashGrad)">
+      <animate attributeName="r" from="5" to="15" dur="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Lighting effects - Spotlights -->
+  <defs>
+    <radialGradient id="spotlightGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#fff; stop-opacity:1"/>
+      <stop offset="70%" style="stop-color:#000; stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+  <circle cx="30%" cy="65%" r="20%" fill="url(#spotlightGrad)" opacity="0.5"/>
+  <circle cx="50%" cy="80%" r="20%" fill="url(#spotlightGrad)" opacity="0.5"/>
+
+</svg>

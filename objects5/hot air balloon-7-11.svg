@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Balloon Envelope -->
+  <circle cx="0" cy="0" r="45" fill="#A3CCE5"/>
+
+  <!-- Basket -->
+  <rect x="-20" y="-25" width="40" height="50" fill="#6C4B29"/>
+
+  <!-- Rope & Grommets -->
+  <g stroke="#000000">
+    <path d="M-18,-30 Q0,-40 18,-30"/>
+    <circle cx="-18" cy="-30" r="3"/>
+    <circle cx="18" cy="-30" r="3"/>
+  </g>
+
+  <!-- Burner -->
+  <rect x="-7.5" y="-25" width="15" height="30" fill="#FFA500"/>
+
+</svg>

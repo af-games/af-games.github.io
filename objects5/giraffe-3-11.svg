@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 180">
+
+  <!-- Body -->
+  <rect id="body" width="140" height="90" rx="45" fill="#704214"/>
+
+  <!-- Head & Backside -->
+  <path d="M75,30 Q100,60 125,30 A75,75 0 0 1 25,30 Z" fill="#704214"/>
+
+  <!-- Legs -->
+  <circle cx="35" cy="95" r="15"/>
+  <circle cx="80" cy="95" r="15"/>
+  <circle cx="35" cy="165" r="15"/>
+  <circle cx="80" cy="165" r="15"/>
+
+  <!-- Neck -->
+  <ellipse cx="75" cy="45" rx="25" ry="40" fill="#704214"/>
+
+  <!-- Gold accents (patterns) -->
+  <pattern id="goldPattern" patternUnits="userSpaceOnUse" width="30" height="30">
+    <rect width="30" height="30" fill="url(#goldGradient)"/>
+    <path d="M5,5 L25,5 M5,15 L25,15" stroke="#CD7F32" stroke-width="2"/>
+  </pattern>
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#C9A65D;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Apply pattern to body -->
+  <use href="#body" xlink:href="#goldPattern"/>
+
+</svg>

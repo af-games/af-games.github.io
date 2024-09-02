@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+
+  <!-- Dinosaur Body -->
+  <path d="M50 200 Q150 75, 300 200 Q150 325, 50 200" fill="#008060" stroke="#D3D3D3"/>
+
+  <!-- Dinosaur Tail -->
+  <path d="M400 200 Q375 275, 300 250 Q225 275, 200 200" fill="#008060" stroke="#D3D3D3"/>
+
+  <!-- Dinosaur Head -->
+  <circle cx="150" cy="100" r="90" fill="#CD7F32"/>
+  <path d="M150 100 Q75 50, 25 150 Q75 250, 150 100"/>
+
+  <!-- Dinosaur Arms -->
+  <path d="M100 175 Q150 250, 200 175 Q150 100, 100 175" fill="#CD7F32"/>
+  <path d="M300 175 Q250 250, 200 175 Q250 100, 300 175"/>
+
+  <!-- Dinosaur Legs -->
+  <path d="M50 400 Q150 500, 300 400 Q150 300, 50 400"/>
+  <path d="M350 400 Q250 500, 200 400 Q250 300, 350 400"/>
+
+  <!-- Dinosaur Scales Pattern -->
+  <defs>
+    <pattern id="scales" patternUnits="userSpaceOnUse" width="10" height="10">
+      <circle cx="5" cy="5" r="3" fill="#D3D3D3"/>
+    </pattern>
+  </defs>
+
+  <!-- Dinosaur Clothing -->
+  <rect x="75" y="225" width="250" height="175" fill="#C45A4D" stroke="#CD7F32"/>
+  <path d="M75 225 Q100 300, 150 325 Q200 300, 225 225" fill="url(#scales)"/>
+
+  <!-- Dinosaur Accessories -->
+  <circle cx="150" cy="175" r="40" fill="#CD7F32"/>
+  <path d="M150 135 Q100 90, 50 150 Q100 210, 150 165"/>
+
+</svg>

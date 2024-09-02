@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 120 160">
+  <!-- Virtual wheel head -->
+  <circle cx="50" cy="50" r="40" fill="lightgray" />
+
+  <!-- Mermaid body -->
+  <ellipse cx="50" cy="60" rx="40" ry="30" fill="pink"/>
+  <ellipse cx="65" cy="120" rx="25" ry="15" fill="pink"/>
+  <ellipse cx="40" cy="120" rx="25" ry="15" fill="pink"/>
+
+  <!-- Head -->
+  <circle cx="40" cy="25" r="15" fill="pink"/>
+
+  <!-- Hair -->
+  <path d="M30 10 C45 5, 60 15, 75 10 S90 5, 105 10" stroke="black" fill="transparent"/>
+  <path d="M70 10 C55 5, 40 15, 25 10 S15 5, 5 10" stroke="black" fill="transparent"/>
+
+  <!-- Arms -->
+  <polygon points="30,20 45,15 30,25" fill="pink"/>
+  <polygon points="60,20 75,15 60,25" fill="pink"/>
+
+  <!-- Legs -->
+  <ellipse cx="40" cy="80" rx="10" ry="5" fill="pink"/>
+  <ellipse cx="60" cy="80" rx="10" ry="5" fill="pink"/>
+</svg>

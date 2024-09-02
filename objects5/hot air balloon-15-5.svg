@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body -->
+  <circle id="balloon" cx="400" cy="150" r="150"
+          stroke="black" fill="transparent" />
+  <animateTransform attributeName="transform"
+                    type="translate"
+                    from="0, 0" to="0, -20"
+                    begin="0s" dur="3s" repeatCount="indefinite" />
+
+  <!-- Basket -->
+  <ellipse id="basket" cx="400" cy="270" rx="60" ry="90"
+           stroke="black" fill="transparent" />
+  <animate attributeName="cy"
+           from="270" to="300" begin="0s" dur="1.5s" repeatCount="indefinite" />
+
+  <!-- Burner -->
+  <circle id="burner" cx="400" cy="225" r="25"
+          stroke="black" fill="transparent" />
+  <animate attributeName="transform"
+           type="rotate"
+           from="0 400 225" to="360 400 225"
+           begin="0s" dur="2s" repeatCount="indefinite" />
+
+  <!-- Flame -->
+  <polygon id="flame" points="380,210 420,210 400,260"
+           stroke="black" fill="transparent" />
+  <animate attributeName="points"
+           from="380,210 420,210 400,260"
+           to="380,200 420,200 400,250"
+           begin="0s" dur="1.5s" repeatCount="indefinite" />
+
+</svg>

@@ -1,0 +1,18 @@
+<svg>` tag. I've created a rectangular shape representing the cake, some circles as landmarks (maybe chocolate chips or cherries), and some paths to represent routes or decoration patterns.
+
+```xml
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake rectangle -->
+  <rect x="50" y="20" width="200" height="160" fill="#FFD700" stroke="#8B4513" stroke-width="2"/>
+
+  <!-- Landmarks (chocolate chips or cherries) -->
+  <circle cx="90" cy="90" r="15" fill="#A93227"/>
+  <circle cx="160" cy="110" r="12" fill="#FF4500"/>
+  <circle cx="80" cy="140" r="10" fill="#CD2E1B"/>
+
+  <!-- Routes or decoration patterns -->
+  <path d="M70,60 Q90,30 130,60 Q150,30 170,60" stroke="#8B4513" stroke-width="3" fill="transparent"/>
+  <polygon points="250,60 280,80 250,100 220,80" fill="#FFD700" stroke="#8B4513" stroke-width="1"/>
+
+</svg>

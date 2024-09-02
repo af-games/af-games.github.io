@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Castle -->
+  <polygon points="150,50 450,50 650,150 450,250 150,250 150,50" fill="#9B7C38"/>
+
+  <!-- Towers -->
+  <circle cx="100" cy="125" r="50" fill="#9B7C38"/>
+  <circle cx="650" cy="125" r="50" fill="#9B7C38"/>
+
+  <!-- Moat and water -->
+  <rect x="450" y="50" width="200" height="300" fill="#AEC6CF"/>
+  <rect x="450" y="100" width="200" height="200" fill="#77BFB3"/>
+
+  <!-- Bridge -->
+  <path d="M500,150 Q550,100 600,150" stroke="#9B7C38" fill="transparent" stroke-width="10"/>
+
+  <!-- Forest -->
+  <rect x="250" y="250" width="250" height="200" fill="#4CAF50"/>
+
+  <!-- Paths (land) -->
+  <path d="M300,50 Q250,100 150,150" stroke="#7C6038" fill="transparent" stroke-width="5"/>
+  <path d="M500,50 Q550,100 650,150" stroke="#7C6038" fill="transparent" stroke-width="5"/>
+
+</svg>

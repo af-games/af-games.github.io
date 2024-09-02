@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 200 200">
+
+  <!-- Body -->
+  <path id="body" fill="url(#grad1)" d="
+    M 0,-40 A 40,40 0 0 0 30,-20
+    L 60,-20 L 70,-30 L 80,-25 L 90,-30 L 100,-20 L 110,-30
+    A 40,40 0 0 0 100,-40 Z" />
+
+  <!-- Fins -->
+  <use xlink:href="#finTemplate1" x="5" y="-20" fill="url(#grad2)" />
+  <use xlink:href="#finTemplate1" x="35" y="-30" fill="url(#grad2)" />
+  <use xlink:href="#finTemplate1" x="65" y="-40" fill="url(#grad2)" />
+  <rect id="pectoralFin" width="70" height="40" fill="url(#grad2)" />
+  <use xlink:href="#pectoralFin" transform="translate(90,0) rotate(180)" />
+  <rect id="pelvicFin" width="60" height="30" fill="url(#grad2)" />
+  <use xlink:href="#pelvicFin" transform="translate(-70,-50)" />
+  <path id="tailFin" fill="url(#grad2)" d="M 80,-40 Q 90,-60 100,-40 Q 90,-20 80,-40 Z"/>
+
+  <!-- Eyes -->
+  <ellipse cx="35" cy="-35" rx="5" ry="7.5" fill="#000"/>
+  <ellipse cx="65" cy="-35" rx="5" ry="7.5" fill="#000"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F5DEB3;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#96712D;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#A0834C;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#5B451C;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

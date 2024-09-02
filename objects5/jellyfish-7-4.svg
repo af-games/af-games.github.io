@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E0F2FF"/>
+
+  <!-- Hills -->
+  <path id="hill-pattern" d="M0,150 Q200,75 400,150 Q600,225 800,150" fill="#8DC63C"/>
+  <use href="#hill-pattern" x="0" y="300"/>
+  <use href="#hill-pattern" transform="scale(-1,1) translate(-800,450)"/>
+
+  <!-- River -->
+  <path d="M200,400 Q300,375 400,425 Q500,450 600,425 Q700,375 800,400" stroke="#7FB3D5" fill="transparent" stroke-width="2"/>
+
+  <!-- Trees -->
+  <g id="tree" transform="translate(100, 10)">
+    <path d="M0,0 L-10,-20 A10,10 45 1,0 -10,-20 Z" fill="#38761D"/>
+    <circle cx="0" cy="-25" r="5" fill="#9A6325"/>
+    <path d="M-10,-40 L0,-50 L10,-40" stroke="#9A6325" fill="transparent" stroke-width="2"/>
+  </g>
+  <use href="#tree" transform="translate(150, 70)" rotate="20"/>
+  <use href="#tree" transform="translate(250, 40)" rotate="-20"/>
+  <use href="#tree" transform="translate(350, 120)"/>
+
+  <!-- Jellyfish -->
+  <defs>
+    <linearGradient id="jellyfish-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6F91; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#FFF3E0; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FF6F91; stop-opacity:.2"/>
+    </linearGradient>
+  </defs>
+  <circle cx="400" cy="350" r="75" fill="url(#jellyfish-gradient)"/>
+  <path d="M400,350 L380,310 L420,310 Z" stroke="#FFFFFF" fill="transparent" stroke-width="2"/>
+
+</svg>

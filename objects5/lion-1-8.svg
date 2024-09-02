@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background Rectangle -->
+  <rect x="0" y="0" width="800" height="600" fill="#F0EAD6" stroke="none"/>
+
+  <!-- Sun in the sky -->
+  <circle cx="75" cy="100" r="50" fill="#FFDF3A">
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Grass at the bottom -->
+  <rect x="0" y="450" width="800" height="150" fill="#69A73C"/>
+
+  <!-- Lion -->
+  <path d="M250,300 Q300,200 400,300 Q350,400 400,500 Q350,600 250,500 Z"
+        fill="#F8D7AA" stroke="#F9A71E" stroke-width="2"/>
+
+  <!-- Acacia tree -->
+  <path d="M600,500 Q650,450 700,500 Q650,550 600,600 Z"
+        fill="#8B7D6B" stroke="#736F62" stroke-width="1"/>
+  <path d="M600,350 Q650,400 700,350 Q650,300 600,250 Z"
+        fill="transparent" stroke="#736F62" stroke-width="1"/>
+
+</svg>

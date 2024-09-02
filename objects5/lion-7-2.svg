@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Head -->
+  <circle cx="250" cy="275" r="150" fill="#E9A64F"/>
+
+  <!-- Mane -->
+  <rect x="100" y="125" width="300" height="150" fill="#FFBF47"/>
+  <path d="M100,275 Q200,150 300,275 H400 Q250,350 150,275 Z" fill="#FFBF47"/>
+
+  <!-- Eyes -->
+  <circle cx="210" cy="160" r="40" fill="#FFFFFF"/>
+  <circle cx="290" cy="160" r="40" fill="#FFFFFF"/>
+  <path d="M230,150 Q250,130 270,150 Q250,170 230,170 Z" stroke="#000000" fill="transparent"/>
+  <circle cx="250" cy="140" r="15" fill="#000000"/>
+
+  <!-- Nose -->
+  <path d="M250,230 Q260,250 270,230 Q280,250 290,230 Z" stroke="#000000" fill="transparent"/>
+
+  <!-- Ears -->
+  <polygon points="140,100 160,50 120,50" fill="#E9A64F"/>
+  <polygon points="340,100 320,50 360,50" fill="#E9A64F"/>
+
+</svg>

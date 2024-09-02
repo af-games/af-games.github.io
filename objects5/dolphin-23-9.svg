@@ -1,0 +1,39 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define pattern for dolphins -->
+  <defs>
+    <pattern id="dolphinPattern" patternUnits="userSpaceOnUse">
+      <image href="https://upload.wikimedia.org/wikipedia/commons/a/a1/Dolphin.svg" x="0" y="0" width="50" height="50"/>
+    </pattern>
+  </defs>
+
+  <!-- Dolphins and paths -->
+  <g stroke="black" fill="url(#dolphinPattern)" stroke-width="2">
+
+    <!-- Dolphin 1 -->
+    <path d="M60,30 Q90,10 120,30 Q90,50 60,30"/>
+
+    <!-- Path to Dolphin 2 -->
+    <path d="M120,30 Q180,45 180,75"/>
+
+    <!-- Dolphin 2 -->
+    <path d="M180,75 Q210,90 240,75 Q210,60 180,75"/>
+
+    <!-- Path to Dolphin 3 -->
+    <path d="M240,75 Q280,60 280,30"/>
+
+    <!-- Dolphin 3 -->
+    <path d="M280,30 Q310,10 340,30 Q310,50 280,30"/>
+
+    <!-- Path to Dolphin 4 -->
+    <path d="M340,30 Q340,90 310,120"/>
+
+    <!-- Dolphin 4 -->
+    <path d="M310,120 Q280,135 250,120 Q280,105 310,120"/>
+
+    <!-- Path to Dolphin 5 and back to Dolphin 1 -->
+    <path d="M250,120 Q180,140 60,120 Q90,105 60,30"/>
+
+  </g>
+
+</svg>

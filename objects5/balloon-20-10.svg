@@ -1,0 +1,25 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Vase -->
+  <path d="M150,40 Q160,60 170,80 Q160,100 150,120 Q140,100 130,80 Q140,60 150,40 Z" fill="#8B7D6B"/>
+
+  <!-- Water (gradient) -->
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(0,0,100);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(0,0,50);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path d="M130,40 Q160,60 170,80" fill="url(#waterGradient)"/>
+
+  <!-- Balloon flowers (height, depth, proximity consideration) -->
+  <circle cx="150" cy="240" r="15" fill="#FF69B4"/>
+  <path d="M140,230 Q150,220 160,230" stroke="#3D9970" fill="transparent"/>
+
+  <circle cx="130" cy="220" r="12" fill="#FFD700"/>
+  <path d="M140,210 Q130,200 120,210" stroke="#3D9970" fill="transparent"/>
+
+  <circle cx="165" cy="225" r="10" fill="#DAA520"/>
+  <path d="M160,235 Q175,245 185,235" stroke="#3D9970" fill="transparent"/>
+
+</svg>

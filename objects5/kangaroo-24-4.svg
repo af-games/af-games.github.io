@@ -1,0 +1,53 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Grass -->
+  <rect x="0" y="0" width="500" height="500" fill="green"/>
+
+  <!-- Trees -->
+  <polygon points="40,10 90,10 65,80" fill="brown"/>
+  <polygon points="240,10 290,10 265,80" fill="brown"/>
+
+  <!-- Kangaroo Body -->
+  <circle cx="250" cy="370" r="40" fill="tan"/>
+
+  <!-- Kangaroo Head -->
+  <circle cx="250" cy="290" r="25" fill="tan"/>
+
+  <!-- Kangaroo Limbs -->
+  <rect x="210" y="370" width="30" height="80" fill="tan"/>
+  <rect x="290" y="370" width="30" height="80" fill="tan"/>
+
+  <!-- Kangaroo Eyes -->
+  <ellipse cx="245" cy="280" rx="10" ry="5" fill="black"/>
+  <ellipse cx="255" cy="280" rx="10" ry="5" fill="black"/>
+
+  <!-- Animation: Move limbs upwards -->
+  <animate
+    attributeName="y"
+    from="370"
+    to="310"
+    begin="0s"
+    dur="1s"
+    repeatCount="indefinite"
+    xlink:href="#limb1"/>
+  <animate
+    attributeName="y"
+    from="370"
+    to="310"
+    begin="0s"
+    dur="1s"
+    repeatCount="indefinite"
+    xlink:href="#limb2"/>
+
+  <!-- Animation: Move head forward -->
+  <animateTransform
+    type="rotate"
+    attributeName="transform"
+    from="0 250 340"
+    to="5 250 340"
+    begin="0s"
+    dur="1s"
+    repeatCount="indefinite"
+    xlink:href="#head"/>
+
+</svg>

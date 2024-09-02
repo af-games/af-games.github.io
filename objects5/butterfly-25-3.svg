@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 100 70">
+    <!-- Body -->
+    <circle cx="0" cy="0" r="20" fill="url(#bodyGradient)" />
+
+    <!-- Left Wing -->
+    <polygon points="-40,-20 0,30 40,-20" fill="url(#wingGradient1)"/>
+    <polygon points="-40,5 0,30 40,5" fill="url(#wingGradient2)" />
+
+    <!-- Right Wing -->
+    <polygon points="-35,5 -5,30 35,-20" fill="url(#wingGradient1)"/>
+    <polygon points="-35,-5 -5,30 35,5" fill="url(#wingGradient2)" />
+
+    <!-- Antennae -->
+    <path d="M-47,10 Q-55,20 -47,30" stroke="#333" fill="transparent"/>
+    <path d="M47,10 Q55,20 47,30" stroke="#333" fill="transparent"/>
+
+    <!-- Gradients -->
+    <defs>
+        <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:rgb(245,245,245);stop-opacity:1"/>
+        </linearGradient>
+        <linearGradient id="wingGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(255,237,218);stop-opacity:1"/>
+            <stop offset="100%" style="stop-color:rgb(255,194,162);stop-opacity:1"/>
+        </linearGradient>
+        <linearGradient id="wingGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:rgb(255,237,218);stop-opacity:.6"/>
+            <stop offset="100%" style="stop-color:rgb(255,194,162);stop-opacity:.6"/>
+        </linearGradient>
+    </defs>
+</svg>

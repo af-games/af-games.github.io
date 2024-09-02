@@ -1,0 +1,18 @@
+<svg width="200" height="300" style="background-color: #FFF;" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body -->
+  <circle cx="100" cy="150" r="90" fill="#FF9966" stroke="black" stroke-width="4"/>
+
+  <!-- Balloon string -->
+  <line x1="100" y1="150" x2="100" y2="30" stroke="black" stroke-width="2"/>
+  <circle cx="100" cy="30" r="10" fill="black"/>
+
+  <!-- Balloon knot -->
+  <rect width="40" height="15" x="80" y="65" fill="lightgray"/>
+  <path d="M80,70 Q95,50 120,70 Q135,90 145,70 Z" stroke="black" stroke-width="2"/>
+
+  <!-- Balloon shading -->
+  <circle cx="100" cy="150" r="80" fill="#FFCC99" opacity="0.5"/>
+  <circle cx="100" cy="160" r="70" fill="#FFB37F" opacity="0.2"/>
+
+</svg>

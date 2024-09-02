@@ -1,0 +1,16 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M175 40 Q200 80, 225 120 C250 180, 275 260, 300 340 Q325 450, 350 550 L300 600 H200 Z" fill="#FFC0CB" stroke="black"/>
+
+  <!-- Balloon sleeves -->
+  <circle cx="175" cy="80" r="30" fill="#FFC0CB"/>
+  <circle cx="325" cy="80" r="30" fill="#FFC0CB"/>
+
+  <!-- Balloon polka dots -->
+  <circle cx="100" cy="200" r="10" fill="#FFC0CB"/>
+  <circle cx="150" cy="250" r="10" fill="#FFC0CB"/>
+  <!-- Add more circles as desired -->
+
+  <!-- Train -->
+  <path d="M350 600 Q400 700, 450 800 L300 800 Z" fill="#FFC0CB" stroke="black"/>
+</svg>

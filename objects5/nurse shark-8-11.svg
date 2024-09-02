@@ -1,0 +1,23 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ancient Era: Rectangles -->
+  <rect id="ancient-ruins" x="50" y="200" width="100" height="100" fill="#8B4513" stroke="#000"/>
+
+  <!-- Medieval Era: Polygons -->
+  <polygon id="medieval-castle" points="250,50 350,50 300,150" fill="#696969" stroke="#000"/>
+  <path id="medieval-walls" d="M400,50 Q450,75 500,50 T550,200" stroke="#696969" fill="transparent"/>
+
+  <!-- Future Era: Paths -->
+  <path id="futuristic-skyscraper" d="M600,50 Q700,150 800,50 T750,250" stroke="#3D9970" fill="transparent"/>
+  <circle id="futuristic-orb" cx="650" cy="150" r="40" fill="#FFC300"/>
+
+  <!-- Timeline Axis -->
+  <line x1="50" y1="380" x2="800" y2="380" stroke="#000"/>
+  <text x="5" y="400" font-size="16">Time (Years)</text>
+
+  <!-- Labels -->
+  <text x="75" y="350" font-size="12">Ancient Era</text>
+  <text x="280" y="350" font-size="12">Medieval Era</text>
+  <text x="630" y="350" font-size="12">Future Era</text>
+
+</svg>

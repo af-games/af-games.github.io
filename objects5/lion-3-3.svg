@@ -1,0 +1,22 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#f5ede8"/>
+
+<!-- Lion's body (main feature) -->
+<path d="M400,150 Q350,100 300,200 Q250,300 200,350 Q150,400 150,500 L350,550 Q450,450 500,500 Z" fill="#e69a8d"/>
+
+<!-- Lion's mane (complex element) -->
+<path d="M250,70 Q300,60 350,100 Q400,50 450,100 Q400,150 350,200 Q300,150 250,100 Z" fill="#e69a8d"/>
+
+<!-- Lion's eyes (simple shapes) -->
+<circle cx="300" cy="275" r="20" fill="#fff"/>
+<circle cx="400" cy="275" r="20" fill="#fff"/>
+
+<!-- Lion's mouth (path) -->
+<path d="M350,325 Q400,375 350,425" stroke="#fff" stroke-width="5"/>
+
+<!-- Coordinates labeling -->
+<text x="380" y="135" font-family="Verdana" font-size="14">(400,150)</text>
+
+</svg>

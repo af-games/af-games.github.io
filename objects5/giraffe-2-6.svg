@@ -1,0 +1,23 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe Print Pattern -->
+  <defs>
+    <pattern id="giraffe-print" patternUnits="userSpaceOnUse" width="150" height="150">
+      <image href="https://i.imgur.com/qWYpZTn.png" x="0" y="0" width="150" height="150"/>
+    </pattern>
+  </defs>
+
+  <!-- Front Bodice -->
+  <path d="M325,60 Q475,60 525,210 Q475,360 325,360 Q175,360 225,210 Q375,60 325,60" fill="url(#giraffe-print)" stroke="#333"/>
+
+  <!-- Front Sleeves -->
+  <circle cx="190" cy="180" r="100" fill="url(#giraffe-print)"/>
+  <circle cx="410" cy="180" r="100" fill="url(#giraffe-print)" stroke="#333"/>
+
+  <!-- Neck -->
+  <path d="M275,60 Q225,90 275,120 Q325,90 375,120 Z" fill="#FFF"/>
+
+  <!-- Waist -->
+  <rect x="175" y="380" width="250" height="60" fill="#FFF"/>
+
+</svg>

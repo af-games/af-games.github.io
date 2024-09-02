@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Butterfly Body -->
+  <path id="butterflyBody" d="M0,-80 A90,90 0 0 0 0,80" fill="yellow"/>
+
+  <!-- Butterfly Wings -->
+  <use xlink:href="#butterflyWingTemplate" x="70" y="-150"/>
+  <use xlink:href="#butterflyWingTemplate" transform="scale(-1, 1) translate(-210, 0)" />
+
+  <!-- Butterfly Wing Template (Used twice above with transformations) -->
+  <defs>
+    <path id="butterflyWingTemplate" d="M0,-80 Q-35,-60 0,-40 Q35,-60 0,80 A120,120 0 0 0 0,-80"/>
+
+    <!-- Tributary Lines -->
+    <path id="tributaryLine" d="M0,-150 Q-75,-120 0,-90 Q75,-120 0,-60"/>
+
+    <!-- Flowing Lines around Butterfly Body -->
+    <use xlink:href="#tributaryLine" transform="rotate(30, 0, -80)"/>
+    <use xlink:href="#tributaryLine" transform="rotate(-30, 0, -80)" />
+    <use xlink:href="#tributaryLine" transform="scale(1.5) rotate(60, 0, -120)" />
+    <use xlink:href="#tributaryLine" transform="scale(1.5) rotate(-60, 0, -120)" />
+  </defs>
+</svg>

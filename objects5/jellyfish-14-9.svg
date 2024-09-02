@@ -1,0 +1,20 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Under the Sea at Sunset -->
+  <rect id="sea" width="800" height="450" fill="#003D66"/>
+  <circle cx="700" cy="150" r="50" fill="#FFDF00" stroke="#FFA500">
+    <animate attributeName="cy" values="150;120;150" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <rect id="coral-reef" x="300" y="300" width="500" height="150" fill="#FFB6C1" rx="20"/>
+
+  <!-- Jellyfish -->
+  <ellipse id="jellyfish" cx="400" cy="400" rx="80" ry="50" fill="url(#gradient)" stroke="none"/>
+  <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFF1E6; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#FFD1DC; stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Text Elements -->
+  <text id="scene-annotation" x="50" y="30" font-family="Verdana" font-size="24px" fill="#FFFFFF">
+    <tspan>Under the sea at sunset...</tspan>
+  </text>
+</svg>

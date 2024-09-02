@@ -1,0 +1,36 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="lightblue"/>
+
+  <!-- Body -->
+  <ellipse cx="250" cy="400" rx="180" ry="200"
+           fill="url(#bodyGradient)"/>
+  <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(50,50,200);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(80,80,160);stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Head -->
+  <circle cx="250" cy="300" r="70"
+          fill="url(#headGradient)"/>
+  <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(90,90,140);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(70,70,120);stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Beak -->
+  <path d="M235 310 Q245 300 255 310 L265 300"
+        fill="orange"/>
+
+  <!-- Eye -->
+  <circle cx="240" cy="280" r="10" fill="black"/>
+  <circle cx="260" cy="280" r="10" fill="black"/>
+
+  <!-- Feet -->
+  <path d="M225 370 Q235 420 245 390 L255 420 Q265 390 275 370"
+        fill="url(#feetGradient)"/>
+  <linearGradient id="feetGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(80,40,20);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(60,30,15);stop-opacity:1" />
+  </linearGradient>
+</svg>

@@ -1,0 +1,29 @@
+<svg viewBox="0 0 350 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Wall -->
+  <rect x="20" y="50" width="300" height="200"
+        style="fill:lightgray;stroke:black;stroke-width:2"/>
+
+  <!-- Towers -->
+  <polygon points="50,170 90,240 160,240 180,170"
+           style="fill:grey;stroke:black;stroke-width:2"/>
+  <polygon points="300,170 290,240 210,240 190,170"
+           style="fill:grey;stroke:black;stroke-width:2"/>
+
+  <!-- Gatehouse -->
+  <rect x="120" y="150" width="60" height="80"
+        style="fill:lightgray;stroke:black;stroke-width:2"/>
+
+  <!-- Windows (Towers) -->
+  <rect x="60" y="180" width="20" height="40"
+        style="fill:white;stroke:black;stroke-width:1"/>
+  <rect x="280" y="180" width="20" height="40"
+        style="fill:white;stroke:black;stroke-width:1"/>
+
+  <!-- Windows (Wall) -->
+  <rect x="90" y="60" width="50" height="30"
+        style="fill:white;stroke:black;stroke-width:1"/>
+  <rect x="210" y="60" width="50" height="30"
+        style="fill:white;stroke:black;stroke-width:1"/>
+
+</svg>

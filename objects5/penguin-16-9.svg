@@ -1,0 +1,26 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define linear gradient -->
+  <defs>
+    <linearGradient id="penguinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:black; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:white; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:black; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Create diagonal threads -->
+  <g stroke="url(#penguinGrad)" stroke-width="2">
+    <line x1="5" y1="5" x2="95" y2="105"/>
+    <line x1="10" y1="15" x2="90" y2="95"/>
+    <line x1="15" y1="25" x2="85" y2="85"/>
+    <!-- Repeat for more threads... -->
+  </g>
+
+  <!-- Create penguin body using thread pattern -->
+  <path d="M10,60 Q50,30 140,60 Q190,90 230,60" fill="none" stroke="url(#penguinGrad)" stroke-width="5"/>
+
+  <!-- Create penguin eyes -->
+  <circle cx="70" cy="50" r="10" fill="black"/>
+  <circle cx="180" cy="50" r="10" fill="black"/>
+
+</svg>

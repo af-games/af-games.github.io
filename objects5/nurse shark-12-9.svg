@@ -1,0 +1,24 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Coordinate Grid -->
+  <rect x="10" y="10" width="580" height="380" fill="none" stroke="#ddd"/>
+  <line x1="60" y1="40" x2="560" y2="40" stroke="#ddd"/>
+  <line x1="60" y1="360" x2="560" y2="360" stroke="#ddd"/>
+  <line x1="60" y1="10" x2="60" y2="380" stroke="#ddd"/>
+  <line x1="560" y1="10" x2="560" y2="380" stroke="#ddd"/>
+
+  <!-- Clues (small circles) -->
+  <circle cx="90" cy="120" r="5" fill="#f00"/>
+  <circle cx="170" cy="240" r="5" fill="#0f0"/>
+  <circle cx="320" cy="80" r="5" fill="#00f"/>
+
+  <!-- Suspects (medium rectangles) -->
+  <rect x="60" y="150" width="120" height="80" fill="#ffa500"/>
+  <rect x="240" y="180" width="90" height="60" fill="#afa5ff"/>
+  <rect x="370" y="120" width="140" height="100" fill="#aaffaa"/>
+
+  <!-- Culprits (large triangles) -->
+  <polygon points="480,20 560,100 560,220" fill="#ff00ff"/>
+  <polygon points="520,300 440,380 360,300" fill="#0fff0f"/>
+
+</svg>

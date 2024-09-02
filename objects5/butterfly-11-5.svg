@@ -1,0 +1,38 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="300" fill="#fff"/>
+
+  <!-- Body and Wings -->
+  <g id="butterfly">
+    <!-- Body -->
+    <path d="M175,20 Q225,60 275,20 Q225,0 175,20"
+          fill="#FFC300" stroke="#fff"/>
+    <!-- Right Wing -->
+    <path d="M280,20 Q240,100 320,60 Q240,15 280,20"
+          fill="#FFE6CC" stroke="#fff"/>
+    <!-- Left Wing -->
+    <path d="M130,20 Q90,100 50,60 Q90,15 130,20"
+          fill="#FFE6CC" stroke="#fff"/>
+
+    <!-- Antennae -->
+    <g transform="translate(270,20)">
+      <line x2="-40" y2="0" stroke="#000"/>
+      <polygon points="-5,-10 -5,10 5,-10 5,10" fill="#000"/>
+    </g>
+    <use href="#butterfly_antennae" transform="translate(70,20) rotate(180)"/>
+
+    <!-- Eyes -->
+    <circle cx="190" cy="35" r="5" fill="#000"/>
+    <circle cx="240" cy="35" r="5" fill="#000"/>
+  </g>
+
+  <!-- Pattern on Wings -->
+  <defs>
+    <pattern id="butterfly-pattern" patternUnits="userSpaceOnUse" width="100%" height="100%">
+      <image href="https://example.com/butterfly-pattern.png" x="0" y="0" width="50" height="50"/>
+    </pattern>
+  </defs>
+  <use href="#butterfly" fill="url(#butterfly-pattern)"/>
+
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Filters -->
+  <defs>
+    <filter id="waviness">...</filter>
+    <filter id="dolphin-fur">...</filter>
+    <filter id="rusty-metal">...</filter>
+    <pattern id="sand" patternUnits="userSpaceOnUse" width="50" height="50">
+      <circle cx="25" cy="25" r="2.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Landmarks -->
+  <rect id="ocean-surface" x="0" y="0" width="800" height="150" fill="#007FFF30" filter="url(#waviness)"/>
+  <!-- More landmarks... -->
+
+  <!-- Path connecting landmarks (expedition route) -->
+  <path d="M... Z" stroke="#3399FF" fill="transparent"/>
+
+</svg>

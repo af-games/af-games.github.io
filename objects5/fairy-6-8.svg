@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 50 60">
+  <!-- Fairy body -->
+  <path id="body" d="M-8,-7h16v14H-8z"
+        fill="none" stroke="#694f8a" stroke-width="2"/>
+
+  <!-- Fairy head -->
+  <circle cx="-2" cy="-7" r="3"
+          fill="#fff" stroke="#694f8a" stroke-width="0.5"/>
+
+  <!-- Fairy wings (irregular curves) -->
+  <path id="left-wing" d="M-12,-6 Q-15,-12 0,-12 Q-5,-8 -10,-6"
+        fill="none" stroke="#694f8a" stroke-width="2"/>
+  <path id="right-wing" d="M12,-6 Q15,-12 0,-12 Q5,-8 10,-6"
+        fill="none" stroke="#694f8a" stroke-width="2"/>
+
+  <!-- Fairy hair (irregular curves) -->
+  <path id="hair" d="M-6,-7 Q-10,-3 -6,4 Q0,8 -6,12 Q-2,15 -6,18"
+        fill="none" stroke="#694f8a" stroke-width="2"/>
+
+  <!-- Fairy eyes -->
+  <circle cx="-4" cy="-7" r="0.5" fill="#000"/>
+  <circle cx="4" cy="-7" r="0.5" fill="#000"/>
+
+</svg>

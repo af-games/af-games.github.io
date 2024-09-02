@@ -1,0 +1,50 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Stage -->
+<rect id="stage" x="50" y="100" width="700" height="400"
+      fill="url(#stageGradient)" rx="20"/>
+
+<!-- Water - Main action area -->
+<rect id="water" x="150" y="200" width="500" height="300"
+      fill="url(#waterGradient)"/>
+<circle id="dolphinSwim" cx="300" cy="350" r="80"
+        fill="transparent">
+  <animate attributeName="cx" values="150;650;150" dur="12s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Ocean floor -->
+<path id="oceanFloor" d="M700,500 Q600,600 300,600 Q100,600 0,500"
+      fill="url(#floorGradient)"/>
+
+<!-- Rocks -->
+<circle cx="200" cy="450" r="30" fill="#696969"/>
+<circle cx="400" cy="400" r="25" fill="#696969"/>
+
+<!-- Coral reefs -->
+<rect x="180" y="470" width="30" height="30" fill="#FFD700"/>
+<path d="M240,490 Q260,520 300,490" stroke="#FFD700" fill="transparent"/>
+
+<!-- Sun rays -->
+<path id="sunRays" d="M780,150 L700,50 L620,150"
+      stroke="url(#sunGradient)" fill="transparent"/>
+<animate attributeName="opacity" values="0;1;0" dur="3s" repeatCount="indefinite"/>
+
+<!-- Gradients -->
+<linearGradient id="stageGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" style="stop-color:rgb(51,25,0);stop-opacity:1"/>
+  <stop offset="100%" style="stop-color:rgb(34,17,0);stop-opacity:1"/>
+</linearGradient>
+<linearGradient id="waterGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" style="stop-color:rgb(86,153,255);stop-opacity:1"/>
+  <stop offset="100%" style="stop-color:rgb(47,94,173);stop-opacity:1"/>
+</linearGradient>
+<linearGradient id="floorGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" style="stop-color:rgb(51,84,118);stop-opacity:1"/>
+  <stop offset="100%" style="stop-color:rgb(37,61,91);stop-opacity:1"/>
+</linearGradient>
+<radialGradient id="sunGradient" cx="50%" cy="50%" r="50%">
+  <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+  <stop offset="50%" style="stop-color:rgb(255,237,97);stop-opacity:1"/>
+</radialGradient>
+
+</svg>

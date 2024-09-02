@@ -1,0 +1,20 @@
+<svg width="300" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dino's Body -->
+  <rect x="50" y="70" width="200" height="300" rx="50" fill="#FFC39E"/>
+
+  <!-- Shirt -->
+  <path d="M70 100 Q90 80, 130 100 Q150 80, 190 100" stroke="#525252" fill="#20B2AA"/>
+
+  <!-- Pants -->
+  <rect x="70" y="350" width="160" height="150" rx="30" stroke="#525252" fill="#FFC39E"/>
+
+  <!-- Belt -->
+  <rect x="90" y="470" width="120" height="30" rx="15" fill="#CD7F32"/>
+
+  <!-- Necklace -->
+  <circle cx="140" cy="210" r="20" stroke="#525252" fill="#8DC63C"/>
+
+  <!-- Feet -->
+  <circle cx="70" cy="490" r="30" stroke="#525252" fill="#FFC39E"/>
+  <circle cx="190" cy="490" r="30" stroke="#525252" fill="#FFC39E"/>
+</svg>

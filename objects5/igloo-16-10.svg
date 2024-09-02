@@ -1,0 +1,37 @@
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1"/>
+      <stop offset="33.3%" style="stop-color:rgb(0,255,0);stop-opacity:1"/>
+      <stop offset="66.6%" style="stop-color:rgb(255,255,0);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Igloo -->
+  <path id="igloo" d="M300 400 A200 200 0 1 1 300 200 A200 200 0 1 1 500 400 Z" fill="white"/>
+
+  <!-- Bar 1 -->
+  <circle cx="400" cy="500" r="20" fill="url(#grad)">
+    <animate attributeName="cy" values="500;300;500" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M400 500 Q600 200 700 500" stroke-width="10" fill="transparent">
+    <animate attributeName="stroke" values="blue;green;yellow;white" dur="8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Bar 2 -->
+  <circle cx="600" cy="500" r="20" fill="url(#grad)">
+    <animate attributeName="cy" values="500;300;500" begin="4s" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M600 500 Q900 200 1000 500" stroke-width="10" fill="transparent">
+    <animate attributeName="stroke" values="blue;green;yellow;white" begin="4s" dur="8s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Bar 3 -->
+  <circle cx="750" cy="500" r="20" fill="url(#grad)">
+    <animate attributeName="cy" values="500;300;500" begin="8s" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M750 500 Q1100 200 1200 500" stroke-width="10" fill="transparent">
+    <animate attributeName="stroke" values="blue;green;yellow;white" begin="8s" dur="8s" repeatCount="indefinite"/>
+  </path>
+
+</svg>

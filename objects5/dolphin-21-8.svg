@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphin -->
+  <path id="dolphin" d="M150 200 Q200 150, 270 200 Q200 250, 150 200 Z"
+        fill="url(#dolphinGradient)"/>
+  <defs>
+    <linearGradient id="dolphinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:darkblue; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Waves -->
+  <path id="waves" d="M350 400 Q450 350, 550 400 Q450 450, 350 400 Z"
+        fill="lightblue" opacity="0.8"/>
+
+  <!-- Seagulls -->
+  <path id="seagull1" d="M600 250 Q675 200, 700 250 Q675 300, 600 250 Z"
+        fill="white"/>
+  <path id="seagull2" d="M700 150 Q775 100, 800 150 Q775 200, 700 150 Z"
+        fill="yellow"/>
+
+  <!-- Lines connecting elements -->
+  <path d="M150 350 Q270 400, 350 400" stroke="black"/>
+  <path d="M600 300 Q675 325, 700 300" stroke="black"/>
+  <path d="M150 150 Q200 100, 600 100" stroke="black"/>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M150 100 Q250 50, 350 100 Q400 175, 350 250 Q250 325, 150 250" fill="#F5DEB3"/>
+
+  <!-- Head -->
+  <path d="M150 100 Q180 60, 230 100 A70 70 0 0 0 150 140 Z" fill="#F5DEB3"/>
+
+  <!-- Tail -->
+  <path d="M350 250 Q400 280, 350 320 Q300 280, 350 250" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Legs -->
+  <path d="M175 260 Q200 350, 275 260" stroke="#8B4513" fill="transparent"/>
+  <path d="M225 260 Q250 350, 200 260" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Arms -->
+  <path d="M175 190 Q200 100, 225 190" stroke="#8B4513" fill="transparent"/>
+  <path d="M225 190 Q250 100, 200 190" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Ears -->
+  <circle cx="175" cy="65" r="20" fill="#8B4513"/>
+  <circle cx="225" cy="65" r="20" fill="#8B4513"/>
+
+  <!-- Eyes -->
+  <circle cx="190" cy="95" r="7" fill="#66BB6A"/>
+  <circle cx="210" cy="95" r="7" fill="#66BB6A"/>
+
+  <!-- Tail Tips & Feet -->
+  <rect x="345" y="315" width="10" height="15" fill="#8B4513"/>
+  <rect x="170" y="255" width="10" height="15" fill="#8B4513"/>
+  <rect x="220" y="255" width="10" height="15" fill="#8B4513"/>
+</svg>

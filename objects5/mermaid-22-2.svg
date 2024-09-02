@@ -1,0 +1,12 @@
+<svg>` container, specifying width and height attributes.
+
+```svg
+<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
+  <path d="M10 90 Q50 20, 180 40 L360 90 Z" fill="none" stroke="black"/>
+  <path d="M180 40 Q250 70, 360 90" fill="none" stroke="black"/>
+  <path d="M180 40 Q120 10, 50 40" fill="none" stroke="black"/>
+  <polygon points="180 40, 200 60, 230 40" fill="black"/>
+  <polygon points="350 90, 370 80, 390 90" fill="black"/>
+  <circle cx="150" cy="60" r="5" fill="white"/>
+  <circle cx="320" cy="70" r="5" fill="white"/>
+</svg>

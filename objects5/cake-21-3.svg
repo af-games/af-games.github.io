@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Tier 1 -->
+  <circle cx="0" cy="0" r="40" fill="#FFF" stroke="#E3D6A9" stroke-width="2"/>
+  <rect x="-45" y="-45" width="90" height="90" fill="#F2EEE2" rx="45"/>
+
+  <!-- Tier 2 -->
+  <circle cx="0" cy="-80" r="35" fill="#FFF" stroke="#E3D6A9" stroke-width="2"/>
+  <rect x="-40" y="-125" width="80" height="80" fill="#F2EEE2" rx="40"/>
+
+  <!-- Tier 3 -->
+  <circle cx="0" cy="-150" r="30" fill="#FFF" stroke="#E3D6A9" stroke-width="2"/>
+  <rect x="-35" y="-195" width="70" height="70" fill="#F2EEE2" rx="35"/>
+
+  <!-- Buttercream frosting on top tier -->
+  <path d="M0, -40 A40, 40 0 0 0 0, -160" stroke="#FFF" stroke-width="10" fill="transparent"/>
+  <path d="M0, -40 A35, 35 0 0 0 0, -170" stroke="#E3D6A9" stroke-width="2" fill="transparent"/>
+
+  <!-- Piped borders -->
+  <path d="M-40, -80 Q-40, -120 0, -150 Q40, -120 40, -80" stroke="#E3D6A9" stroke-width="2" fill="transparent"/>
+  <path d="M-35, -170 Q-35, -210 0, -240 Q35, -210 35, -170" stroke="#E3D6A9" stroke-width="2" fill="transparent"/>
+</svg>

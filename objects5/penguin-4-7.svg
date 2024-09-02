@@ -1,0 +1,44 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<path d="M150 10 Q200 75, 250 10 H150 Z"
+      fill="url(#bodyGradient)" />
+
+<!-- Head -->
+<circle cx="200" cy="30" r="30"
+       fill="black"/>
+
+<!-- Beak -->
+<path d="M200 40 L180 60 H220 Z"
+      fill="orange"/>
+
+<!-- Eye -->
+<circle cx="190" cy="25" r="5"
+       fill="white"/>
+<circle cx="190" cy="25" r="3"
+       fill="black"/>
+
+<!-- Wing (left) -->
+<path d="M70 70 Q80 10, 120 70 Z"
+      fill="url(#wingGradient)" transform="rotate(45, 90, 75)"/>
+<!-- Wing (right) -->
+<path d="M230 70 Q220 10, 260 70 Z"
+      fill="url(#wingGradient)" transform="rotate(-45, 240, 75)"/>
+
+<!-- Legs -->
+<path d="M180 90 L160 130 H200 Z" stroke="black"/>
+<path d="M220 90 L240 130 H260 Z" stroke="black"/>
+
+<!-- Gradients -->
+<defs>
+  <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:blue; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:white; stop-opacity:1" />
+  </linearGradient>
+  <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:blue; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:white; stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+</svg>

@@ -1,0 +1,45 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#FFF5E6"/>
+
+<!-- Plate -->
+<circle cx="300" cy="200" r="180" fill="#FFFFFF"/>
+<path d="M300 40 C370, 190 440, 190 510, 260 S220, 340 300, 340 z" fill="#E3C8AA"/>
+
+<!-- Giraffe -->
+<g transform="translate(100, 50)">
+    <!-- Body -->
+    <path d="M50,50 L200,50 A150,150 0 0 0 300,200 Q400,100 500,50" fill="#F8B195"/>
+    <!-- Neck -->
+    <path d="M300,200 L300,160 Z" stroke="#F8B195" stroke-width="10"/>
+    <!-- Head -->
+    <circle cx="300" cy="160" r="40" fill="#F8B195"/>
+    <!-- Eyes -->
+    <circle cx="270" cy="145" r="5" fill="#FFFFFF"/>
+    <circle cx="330" cy="145" r="5" fill="#FFFFFF"/>
+</g>
+
+<!-- Ingredients -->
+<!-- Carrot -->
+<path d="M400,380 Q420,360 440,380 L460,400 Z" fill="#ED6A0C"/>
+<!-- Lettuce -->
+<circle cx="500" cy="370" r="30" fill="#8DC63C"/>
+<!-- Tomato -->
+<circle cx="550" cy="350" r="25" fill="#FF5733"/>
+
+<!-- Utensils & Garnishes -->
+<!-- Fork -->
+<path d="M400,300 L420,280 460,320 Z" stroke="#8B4513" stroke-width="5"/>
+<!-- Knife -->
+<path d="M400,320 L460,270 Q500,300 540,320 Z" stroke="#8B4513" stroke-width="5"/>
+<!-- Garnish (Parsley) -->
+<path d="M560,300 A30,30 0 0 1 570,330 A30,30 0 0 1 580,300 z" fill="#4CAF50"/>
+
+<!-- Tableware -->
+<!-- Napkin -->
+<rect x="20" y="360" width="100" height="40" rx="20" fill="#FFFFFF"/>
+<!-- Glass -->
+<path d="M20,320 A80,80 0 0 1 100,320 A80,80 0 0 1 20,360 Z" stroke="#8B4513" stroke-width="5" fill="#FFD700"/>
+
+</svg>

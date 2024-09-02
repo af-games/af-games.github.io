@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Tower -->
+  <rect x="250" y="100" width="150" height="300" fill="#777"/>
+
+  <!-- Walls -->
+  <path d="M50,100 H750 V400 H50 Z" fill="#ccc"/>
+  <path d="M250,100 L450,200 L650,100 Z" fill="#ccc"/>
+
+  <!-- Gatehouse -->
+  <rect x="350" y="75" width="200" height="50" fill="#777"/>
+  <line x1="350" y1="75" x2="550" y2="75"/>
+
+  <!-- Roads -->
+  <line x1="50" y1="400" x2="750" y2="400" stroke="#666"/>
+  <line x1="250" y1="500" x2="350" y2="500" stroke="#666"/>
+
+</svg>

@@ -1,0 +1,17 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake base -->
+  <rect x="70" y="180" width="160" height="70" fill="#FFA500"/>
+
+  <!-- Cake top -->
+  <path d="M90,40 Q130,0 170,40" stroke="#FFA500" fill="#FFFACD" stroke-width="2"/>
+
+  <!-- Icing on the cake -->
+  <rect x="85" y="30" width="130" height="30" fill="#FFFFFF"/>
+
+  <!-- Candles -->
+  <circle cx="120" cy="25" r="7" fill="#FDB927"/>
+  <circle cx="140" cy="25" r="5" fill="#FDB927"/>
+  <circle cx="100" cy="25" r="5" fill="#FDB927"/>
+
+</svg>

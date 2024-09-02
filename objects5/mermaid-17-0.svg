@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 0 300 300">
+  <!-- Body -->
+  <ellipse cx="0" cy="0" rx="150" ry="75"
+           fill="lightblue" stroke="darkblue"/>
+
+  <!-- Head -->
+  <ellipse cx="0" cy="-50" rx="60" ry="30"
+           fill="azure" stroke="mediumblue"/>
+
+  <!-- Tail left -->
+  <polygon points="-120,0 -180,-40 -90,-70"
+           fill="lightblue" stroke="darkblue"/>
+
+  <!-- Tail right -->
+  <polygon points="-120,0 60,-40 150,-70"
+           fill="lightblue" stroke="darkblue"/>
+
+  <!-- Hair -->
+  <path d="M -90,-80 Q -30,-100 30,-80 Q 90,-100 90,-80"
+        fill="transparent" stroke="mediumblue"/>
+
+</svg>

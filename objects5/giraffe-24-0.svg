@@ -1,0 +1,29 @@
+<svg width="400" height="700" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="200" cy="350" rx="200" ry="125" fill="#8B7D6B"/>
+
+  <!-- Neck -->
+  <ellipse cx="200" cy="325" rx="75" ry="200" fill="#8B7D6B"/>
+
+  <!-- Head -->
+  <circle cx="175" cy="50" r="60" fill="#CBCBCB"/>
+
+  <!-- Eyes -->
+  <circle cx="120" cy="80" r="15" fill="black"/>
+  <circle cx="230" cy="80" r="15" fill="black"/>
+
+  <!-- Front Legs -->
+  <rect x="75" y="400" width="30" height="150" fill="#8B7D6B"/>
+  <rect x="225" y="400" width="30" height="150" fill="#8B7D6B"/>
+
+  <!-- Back Legs -->
+  <rect x="75" y="550" width="30" height="200" fill="#8B7D6B"/>
+  <rect x="225" y="550" width="30" height="200" fill="#8B7D6B"/>
+
+  <!-- Spot Patterns -->
+  <ellipse cx="150" cy="400" rx="20" ry="10" fill="white"/>
+  <ellipse cx="250" cy="350" rx="15" ry="8" fill="white"/>
+  <!-- Add more spots as desired -->
+
+</svg>

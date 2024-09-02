@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,5 L150,60 A50,50 0 0 0 50,140 Z"
+        fill="#FFD700" stroke="black"/>
+
+  <!-- Wing 1 -->
+  <path d="M80,20 Q90,30 100,20 Q90,10 80,20"
+        fill="transparent" stroke="#FFD700"/>
+
+  <!-- Wing 2 -->
+  <path d="M120,20 Q110,30 100,20 Q110,10 120,20"
+        fill="transparent" stroke="#FFD700"/>
+
+  <!-- Antennae -->
+  <line x1="85" y1="5" x2="95" y2="5"/>
+  <line x1="115" y1="5" x2="105" y2="5"/>
+
+</svg>

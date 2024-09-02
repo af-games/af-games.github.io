@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+
+  <!-- Castle Wall -->
+  <rect id="castleWall" width="80%" height="40%" x="10%" y="35%" rx="5%">
+    <style>
+      .fill-castleWall { fill: url(#gradientCastle); }
+    </style>
+  </rect>
+
+  <!-- Stage Floor -->
+  <rect id="stageFloor" width="70%" height="25%" x="15%" y="60%" rx="5%">
+    <style>
+      .fill-stageFloor { fill: url(#gradientStage); }
+    </style>
+  </rect>
+
+  <!-- Grand Staircase -->
+  <polygon id="staircase" points="780,290 800,310 820,290" transform="rotate(45, 780, 290)">
+    <style>
+      .fill-staircase { fill: url(#gradientStaircase); }
+    </style>
+  </polygon>
+
+  <!-- Throne -->
+  <rect id="throne" width="10%" height="10%" x="35%" y="45%">
+    <style>
+      .fill-throne { fill: url(#gradientThrone); }
+    </style>
+  </rect>
+
+  <!-- Props (Small shapes) -->
+  <!-- Candle Stand -->
+  <circle cx="720" cy="480" r="30">
+    <style>
+      .fill-candleStand { fill: #D9A15F; }
+    </style>
+  </circle>
+
+  <!-- Chandelier -->
+  <circle cx="650" cy="320" r="50">
+    <style>
+      .fill-chandelier { fill: url(#gradientChandelier); }
+    </style>
+  </circle>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradientCastle" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(50,50,50); stop-opacity:.8"/>
+      <stop offset="100%" style="stop-color:rgb(30,30,30); stop-opacity:.6"/>
+    </linearGradient>
+
+    <linearGradient id="gradientStage" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(40,40,40); stop-opacity:.9"/>
+      <stop offset="100%" style="stop-color:rgb(30,30,30); stop-opacity:.7"/>
+    </linearGradient>
+
+    <linearGradient id="gradientStaircase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(60,60,60); stop-opacity:.9"/>
+      <stop offset="100%" style="stop-color:rgb(40,40,40); stop-opacity:.7"/>
+    </linearGradient>
+
+    <linearGradient id="gradientThrone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(80,40,0); stop-opacity:.9"/>
+      <stop offset="100%" style="stop-color:rgb(60,30,0); stop-opacity:.7"/>
+    </linearGradient>
+
+    <radialGradient id="gradientChandelier" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(240,240,240); stop-opacity:.9"/>
+      <stop offset="100%" style="stop-color:rgb(180,180,180); stop-opacity:.5"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Text (Title) -->
+  <text x="50%" y="10%" text-anchor="middle" font-size="4em" fill="#ddd">Cinderella</text>
+
+</svg>

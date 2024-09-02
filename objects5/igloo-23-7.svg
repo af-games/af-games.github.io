@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#eff3ff"/>
+
+  <!-- Mountains -->
+  <polygon points="40,50 80,5 120,90 160,5" fill="#d6e7fa"/>
+  <polygon points="200,10 240,80 280,30 320,100" fill="#d6e7fa"/>
+
+  <!-- Rivers -->
+  <path d="M40,150 Q90,100 180,120 Q350,150 400,120" stroke="#aedbff" fill="transparent"/>
+  <path d="M200,200 Q250,250 300,220 Q450,230 500,210" stroke="#aedbff" fill="transparent"/>
+
+  <!-- Forests -->
+  <polygon points="180,200 240,170 300,220 360,190" fill="#bdd5c5"/>
+  <text x="260" y="205" font-family="Verdana" font-size="12">Forest of Frost Crystals</text>
+
+  <!-- Igloo -->
+  <circle cx="400" cy="300" r="70" fill="#fff"/>
+  <text x="380" y="315" font-family="Verdana" font-size="16">Igloo of the Ice King</text>
+
+  <!-- Cities -->
+  <polygon points="40,400 80,420 120,390" fill="#f7e7ce"/>
+  <text x="50" y="410" font-family="Verdana" font-size="12">Carvedale (Ice Carvers)</text>
+  <polygon points="600,450 640,430 680,470" fill="#f7e7ce"/>
+  <text x="610" y="460" font-family="Verdana" font-size="12">Gletscherburg (Ice Masons)</text>
+
+</svg>

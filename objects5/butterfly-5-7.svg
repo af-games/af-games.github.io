@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Landmass 1 -->
+  <rect x="50" y="50" width="200" height="200"
+        style="fill:lightgreen; stroke:black; stroke-width:1"/>
+
+  <!-- Landmark 1 (Circle) -->
+  <circle cx="150" cy="175" r="30"
+         style="fill:blue; stroke:black; stroke-width:1"/>
+
+  <!-- Landmass 2 -->
+  <rect x="300" y="150" width="250" height="250"
+        style="fill:lightgray; stroke:black; stroke-width:1"/>
+
+  <!-- Landmark 2 (Circle) -->
+  <circle cx="450" cy="325" r="30"
+         style="fill:red; stroke:black; stroke-width:1"/>
+
+  <!-- Butterfly Path -->
+  <path d="M60,50 Q90,20 150,75 Q200,150 250,100 Q300,50 370,125"
+        style="stroke:purple; stroke-width:3"/>
+
+</svg>

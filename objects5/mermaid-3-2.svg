@@ -1,0 +1,5 @@
+<svg>` container with appropriate width and height attributes:
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-600 -300 1200 600">
+  <!-- All the created paths, circles, and ellipses go here -->
+</svg>

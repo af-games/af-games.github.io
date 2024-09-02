@@ -1,0 +1,52 @@
+<svg>` tag.
+
+```svg
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Penguin Body -->
+  <g id="penguin-body">
+    <rect x="50" y="70" width="100" height="130" rx="20" fill="url(#gradient-body)" />
+    <clipPath id="clip-path-body" clip-pathUnits="objectBoundingBox">
+      <path d="M 50,70 H 150 V 200 Q 140,180 130,160 Z"/>
+    </clipPath>
+    <g transform="url(#matrix-rotate)">
+      <rect width="100" height="130" rx="20" fill="#fff" clip-path="url(#clip-path-body)"/>
+    </g>
+  </g>
+
+  <!-- Penguin Head -->
+  <circle cx="100" cy="50" r="40" fill="url(#gradient-head)" />
+  <clipPath id="clip-path-head" clip-rule="nonzero">
+    <path d="M 60,30 A 40,40 0 0 1 140,30 Z"/>
+  </clipPath>
+  <circle cx="100" cy="50" r="40" fill="#fff" clip-path="url(#clip-path-head)"/>
+
+  <!-- Penguin Eyes -->
+  <circle cx="80" cy="30" r="5" fill="#000"/>
+  <circle cx="120" cy="30" r="5" fill="#000"/>
+
+  <!-- Penguin Beak -->
+  <path d="M 90,40 Q 100,60 110,40 Z" fill="#ffa502" />
+
+  <!-- Penguin Feet -->
+  <g transform="translate(70,180) rotate(30)">
+    <rect width="40" height="30" rx="15" fill="#aaa"/>
+  </g>
+  <use xlink:href="#penguin-feet" x="-40"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient-body" gradientTransform="rotate(90)">
+      <stop offset="0%" stop-color="#87cefa"/>
+      <stop offset="100%" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="gradient-head">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="50%" stop-color="#c3c3c3"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Transformation Matrix for Penguin Body Rotation -->
+  <g id="matrix-rotate" transform="matrix(1, 0, 0, 1, 50, 70)"/>
+
+</svg>

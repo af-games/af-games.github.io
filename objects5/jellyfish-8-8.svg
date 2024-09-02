@@ -1,0 +1,35 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Plate -->
+<circle cx="200" cy="180" r="170" fill="#1e3a8a"/>
+
+<!-- Jellyfish -->
+<g transform="translate(150, 100)">
+    <path d="M100 0 A90 90 0 0 1 200 0 A90 90 0 0 1 100 64 Z" fill="#ffffff">
+        <animate attributeName="opacity" values="1;0;1" dur="5s" repeatCount="indefinite"/>
+    </path>
+</g>
+
+<!-- Garnish: Coriander -->
+<g transform="translate(280, 90)">
+    <polygon points="0,-30 5,-70 10,-30 15,-70 20,-30" fill="#008000"/>
+</g>
+
+<!-- Garnish: Lemon wedge -->
+<path d="M160,90 A70,70 0 0 0 190,160 L200,90 Z" fill="#ffff33"/>
+
+<!-- Ingredient: Squid tentacles -->
+<polygon points="240,140 250,120 240,100 230,120" fill="#333366"/>
+
+<!-- Utensil: Fork -->
+<path d="M300,200 L320,220 L340,200 Z" stroke="#cccccc" fill="none"/>
+<line x1="350" y1="200" x2="370" y2="200"/>
+
+<!-- Tableware: Napkin -->
+<rect width="80" height="60" x="350" y="240" fill="#ffffff"/>
+<path d="M350,300 Q375,310 375,320 Z" stroke="#cccccc"/>
+
+<!-- Text: Hunger-inducing color -->
+<text x="30%" y="95%" text-anchor="middle" fill="#ffd700">Sizzling Jellyfish</text>
+
+</svg>

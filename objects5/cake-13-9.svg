@@ -1,0 +1,31 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake base -->
+  <rect x="50" y="150" width="300" height="75"
+        style="fill: brown; stroke: black; stroke-width: 2"/>
+
+  <!-- Top of the cake (white) -->
+  <path d="M180,60 Q250,100 300,60 H400 V150 Z"
+        fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Frosting gradient -->
+  <linearGradient id="frostingGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   stop-color="#ffcc99"/>
+    <stop offset="50%"  stop-color="#fff"/>
+    <stop offset="100%" stop-color="#fdd"/>
+  </linearGradient>
+
+  <!-- Frosting -->
+  <path d="M180,60 Q250,75 300,60"
+        fill="url(#frostingGrad)" stroke="black" stroke-width="2"/>
+
+  <!-- Candles -->
+  <circle cx="150" cy="40" r="10" fill="yellow"/>
+  <circle cx="200" cy="40" r="10" fill="yellow"/>
+  <circle cx="250" cy="40" r="10" fill="yellow"/>
+
+  <!-- Happy Birthday text -->
+  <text x="50%" y="30" font-family="Verdana" font-size="36" text-anchor="middle"
+        fill="black">Happy Birthday</text>
+
+</svg>

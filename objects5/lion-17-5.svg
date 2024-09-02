@@ -1,0 +1,31 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect id="body" x="100" y="150" width="300" height="200"
+        style="fill:orange; stroke:black; stroke-width:2"/>
+
+  <!-- Head -->
+  <circle id="head" cx="200" cy="75" r="75"
+         style="fill:yellow; stroke:black; stroke-width:2"/>
+
+  <!-- Legs -->
+  <circle id="leg1" cx="130" cy="250" r="25"
+          style="fill:orange; stroke:black; stroke-width:2"/>
+  <circle id="leg2" cx="270" cy="250" r="25"
+          style="fill:orange; stroke:black; stroke-width:2"/>
+  <circle id="leg3" cx="130" cy="350" r="25"
+          style="fill:orange; stroke:black; stroke-width:2"/>
+  <circle id="leg4" cx="270" cy="350" r="25"
+          style="fill:orange; stroke:black; stroke-width:2"/>
+
+  <!-- Strings (Paths) -->
+  <path id="string1" d="M180,50 Q160,10 140,50 Q100,300 140,400"
+        style="stroke:black; stroke-width:2"/>
+  <path id="string2" d="M220,50 Q240,10 260,50 Q300,300 260,400"
+        style="stroke:black; stroke-width:2"/>
+  <path id="string3" d="M180,450 Q160,500 140,600"
+        style="stroke:black; stroke-width:2"/>
+  <path id="string4" d="M220,450 Q240,500 260,600"
+        style="stroke:black; stroke-width:2"/>
+
+</svg>

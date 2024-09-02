@@ -1,0 +1,31 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Owl Realm boundary -->
+  <circle cx="125" cy="125" r="100" fill="lightgreen"/>
+
+  <!-- Major landmarks -->
+
+  <!-- Owl Tower -->
+  <polygon points="80,60 90,40 130,70" fill="brown"/>
+  <circle cx="80" cy="40" r="5" fill="yellow"/> <!-- Light for the top of the tower -->
+
+  <!-- Wise Oak Forest -->
+  <polygon points="200,100 240,90 270,130" fill="darkgreen"/>
+
+  <!-- Whispering Waterfalls -->
+  <path d="M250,80 Q260,60 270,80 Q280,100 290,80" stroke="blue" fill="transparent"/>
+  <circle cx="270" cy="60" r="5" fill="blue"/>
+
+  <!-- Mystic Mountain -->
+  <polygon points="300,140 340,150 380,120" fill="grey"/>
+  <circle cx="350" cy="170" r="5" fill="white"/> <!-- Snow on the peak -->
+
+  <!-- Roads -->
+  <path d="M60,90 Q90,120 130,90" stroke="black" fill="transparent"/>
+  <path d="M180,140 Q210,170 250,140" stroke="black" fill="transparent"/>
+
+  <!-- Rivers -->
+  <path d="M60,200 Q90,230 130,200" stroke="blue" fill="transparent"/>
+  <path d="M180,270 Q210,240 250,270" stroke="blue" fill="transparent"/>
+
+</svg>

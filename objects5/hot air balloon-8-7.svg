@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E5ECF9"/>
+
+  <!-- Mountains -->
+  <path d="M100,40 Q150,30 200,60 Q250,70 300,80" stroke="#5B5A6D" fill="none"/>
+  <text x="150" y="90" font-size="16">Mountains of Zephyr</text>
+
+  <!-- Rivers -->
+  <path d="M300,40 Q400,20 500,40 Q600,50 700,80" stroke="#9CBFDB" fill="none"/>
+  <circle cx="450" cy="15" r="5" fill="#9CBFDB"/>
+  <text x="350" y="90" font-size="16">Rivers of Serenity</text>
+
+  <!-- Forests -->
+  <path d="M700,80 Q800,90 900,40 Q1000,20 1100,50" stroke="#3D9970" fill="none"/>
+  <text x="850" y="60" font-size="16">Whispering Woods</text>
+
+  <!-- Hot Air Balloon City -->
+  <circle cx="400" cy="250" r="80" stroke="#FF9F37" fill="#FFD7A6"/>
+  <path d="M400,250 Q300,170 200,230 Q100,270 150,350 Q200,400 350,400 Q500,400 650,350 Q800,270 900,230 Q1000,170 900,250" stroke="#FF9F37" fill="none"/>
+  <text x="400" y="220" font-size="24">City of Aerium</text>
+
+  <!-- Hot Air Balloon -->
+  <circle cx="600" cy="180" r="50" stroke="#FF9F37" fill="#FFD7A6"/>
+  <path d="M550,130 Q500,90 450,120 Q400,150 350,180 Z" stroke="#FF9F37" fill="#FFD7A6"/>
+  <text x="580" y="170" font-size="18">Hot Air Balloon</text>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Envelope -->
+  <ellipse cx="400" cy="150" rx="300" ry="200" fill="#FFCC00"/>
+
+  <!-- Basket -->
+  <rect x="300" y="280" width="200" height="80" fill="#CD7F32"/>
+
+  <!-- Burner -->
+  <circle cx="400" cy="50" r="15" fill="#FF6347"/>
+
+  <!-- Ropes -->
+  <rect x="250" y="280" width="5" height="120" fill="black"/>
+  <rect x="450" y="280" width="5" height="120" fill="black"/>
+  <rect x="350" y="230" width="5" height="50" fill="black"/>
+  <rect x="400" y="230" width="5" height="50" fill="black"/>
+
+  <!-- Ground -->
+  <rect x="0" y="400" width="800" height="200" fill="#696969"/>
+
+</svg>

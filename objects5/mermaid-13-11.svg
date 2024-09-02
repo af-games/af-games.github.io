@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -100 100 200">
+  <!-- Mermaid's body -->
+  <ellipse cx="50" cy="70" rx="35" ry="60" fill="lightblue"/>
+
+  <!-- Mermaid's tail (simplified) -->
+  <path d="M 40,90 Q 50,120 80,90" stroke="black" fill="transparent"/>
+
+  <!-- Mermaid's hair (simplified) -->
+  <path d="M 30,60 Q 70,20 110,60" stroke="black" fill="transparent"/>
+</svg>

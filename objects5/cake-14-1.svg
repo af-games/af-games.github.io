@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Cake body -->
+  <path d="M250,10 A120,120 0 1 0 250,490 A100,100 0 1 1 250,370 Q260,490 280,490 H220 Z" fill="#FFDDCF"/>
+
+  <!-- Cake top -->
+  <polygon points="250,25 280,40 220,40" fill="#FFDDCF"/>
+
+  <!-- Candles (6 candles) -->
+  <circle cx="230" cy="470" r="10"/>
+  <circle cx="245" cy="470" r="10"/>
+  <circle cx="260" cy="470" r="10"/>
+  <circle cx="275" cy="470" r="10"/>
+  <circle cx="230" cy="460" r="8"/>
+  <circle cx="260" cy="460" r="8"/>
+
+  <!-- Cake border -->
+  <path d="M250,10 H220 A120,120 0 0 0 250,240 A100,100 0 0 1 250,370 Q260,490 280,490 H220 Z" stroke="#BBC6A6" fill="transparent"/>
+</svg>

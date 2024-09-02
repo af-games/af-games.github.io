@@ -1,0 +1,36 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mountains -->
+  <polygon points="50,10 450,10 700,150 550,300 100,300" fill="#8B4513" stroke="black"/>
+  <text x="200" y="250" text-anchor="middle" font-family="Verdana" font-size="16">Mountains of Zephyr</text>
+
+  <!-- Rivers -->
+  <path d="M50,250 Q300,400 700,250 Q800,400 950,250" stroke="#3D9970" fill="transparent"/>
+  <text x="150" y="420" text-anchor="middle" font-family="Verdana" font-size="16">River Lyra</text>
+
+  <!-- Forests -->
+  <polygon points="50,350 450,350 700,600 550,600" fill="#006400" stroke="black"/>
+  <text x="200" y="550" text-anchor="middle" font-family="Verdana" font-size="16">Whispering Woods</text>
+
+  <!-- Hot Air Balloon Region -->
+  <circle cx="400" cy="375" r="100" fill="#FFD700"/>
+  <path d="M400,275 Q450,350 500,275" stroke="black" fill="transparent"/>
+  <text x="400" y="390" text-anchor="middle" font-family="Verdana" font-size="16">Hot Air Balloon Fields</text>
+
+  <!-- Cities -->
+  <circle cx="150" cy="175" r="50" fill="#FFB6C1"/>
+  <circle cx="650" cy="425" r="50" fill="#FFB6C1"/>
+  <text x="150" y="130" text-anchor="middle" font-family="Verdana" font-size="16">City of Silken Skies</text>
+  <text x="650" y="470" text-ananchor="middle" font-family="Verdana" font-size="16">Cloudhaven</text>
+
+  <!-- Legend -->
+  <rect width="80" height="20" x="30" y="580" fill="#8B4513"/>
+  <text x="120" y="590" font-family="Verdana" font-size="16">Mountains</text>
+  <rect width="80" height="20" x="30" y="610" fill="#006400"/>
+  <text x="120" y="620" font-family="Verdana" font-size="16">Forests</text>
+  <rect width="80" height="20" x="30" y="640" fill="#FFD700"/>
+  <text x="120" y="650" font-family="Verdana" font-size="16">Hot Air Balloons</text>
+  <rect width="80" height="20" x="30" y="670" fill="#FFB6C1"/>
+  <text x="120" y="680" font-family="Verdana" font-size="16">Cities</text>
+
+</svg>

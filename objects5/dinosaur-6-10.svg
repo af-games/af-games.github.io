@@ -1,0 +1,76 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+```
+
+**Step 2: Begin drawing tentative lines and shapes using <path> elements**
+
+Let's start by drawing a simple outline of the dinosaur. We'll use a `<path>` element with the `d` attribute to define the path.
+
+```xml
+<path d="M100,50 L200,100 H400 V300 Z" stroke="black"/>
+```
+
+*Notes:*
+- `M100,50`: Move to point (100, 50)
+- `L200,100`: Draw a line to point (200, 100)
+- `H400`: Draw a horizontal line to x=400
+- `V300`: Draw a vertical line to y=300
+- `Z`: Close the path
+
+**Step 3: Discover new features**
+
+Now let's add some circles for the head and other features, and rectangles for the body segments.
+
+*Head:*
+```xml
+<circle cx="150" cy="75" r="50" fill="lightgrey"/>
+```
+
+*Notes:*
+- `cx` and `cy`: x and y coordinates of the center
+- `r`: radius
+
+*Body segments:*
+```xml
+<rect x="125" y="150" width="350" height="100" fill="tan"/>
+<rect x="125" y="275" width="350" height="50" fill="tan"/>
+```
+
+*Notes:*
+- `x` and `y`: coordinates of the top-left corner
+- `width` and `height`
+
+**Step 4: Add more details**
+
+Let's add legs using more `<path>` elements.
+
+*Front leg:*
+```xml
+<path d="M175,300 L225,400 L175,500 Z" stroke="black"/>
+```
+
+*Back leg:*
+```xml
+<path d="M275,350 L325,450 L275,550 Z" stroke="black"/>
+```
+
+**Step 5: Document your journey**
+
+So far, we've used the following SVG elements and attributes:
+
+- `<path>` with `d` attribute for lines and shapes
+- `<circle>` with `cx`, `cy`, and `r` attributes for circles
+- `<rect>` with `x`, `y`, `width`, and `height` attributes for rectangles
+
+**Step 6: Write out your map's final draft**
+
+Here's our completed dinosaur SVG map:
+
+```xml
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <path d="M100,50 L200,100 H400 V300 Z" stroke="black"/>
+  <circle cx="150" cy="75" r="50" fill="lightgrey"/>
+  <rect x="125" y="150" width="350" height="100" fill="tan"/>
+  <rect x="125" y="275" width="350" height="50" fill="tan"/>
+  <path d="M175,300 L225,400 L175,500 Z" stroke="black"/>
+  <path d="M275,350 L325,450 L275,550 Z" stroke="black"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Central Keep -->
+  <rect x="150" y="80" width="300" height="240" fill="#A9A9A9" stroke="#000"/>
+  <polygon points="280,60 420,60 420,300 280,300" fill="#5E5E5E"/>
+
+  <!-- Walls -->
+  <rect x="100" y="80" width="50" height="400" fill="#A9A9A9"/>
+  <rect x="550" y="80" width="50" height="400" fill="#A9A9A9"/>
+
+  <!-- Towers -->
+  <polygon points="130,60 270,60 180,160" fill="#5E5E5E"/>
+  <polygon points="470,60 310,60 370,160" fill="#5E5E5E"/>
+
+  <!-- Gates -->
+  <rect x="130" y="280" width="140" height="120" fill="transparent" stroke="#000"/>
+  <polygon points="195,330 225,360 175,360" fill="#000"/>
+
+  <!-- Surrounding Buildings -->
+  <rect x="40" y="180" width="60" height="220" fill="#A9A9A9"/>
+  <rect x="500" y="180" width="60" height="220" fill="#A9A9A9"/>
+
+  <!-- Roads -->
+  <line x1="370" y1="400" x2="230" y2="400" stroke="#000" stroke-width="5"/>
+  <path d="M60,400 Q130,300 200,400 T370,400" stroke="#000" stroke-width="5"/>
+
+</svg>

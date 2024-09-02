@@ -1,0 +1,27 @@
+<svg width="150" height="80" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M10 30 Q15 20, 25 30" stroke="#332D59" fill="transparent" stroke-width="6"/>
+
+  <!-- Head -->
+  <path d="M25 30 Q40 15, 45 30" stroke="#6C4A70" fill="transparent" stroke-width="4"/>
+
+  <!-- Eyes -->
+  <circle cx="35" cy="25" r="4" fill="#FFFFFF"/>
+  <circle cx="35" cy="25" r="1.5" fill="#000000"/>
+  <circle cx="48" cy="25" r="4" fill="#FFFFFF"/>
+  <circle cx="48" cy="25" r="1.5" fill="#000000"/>
+
+  <!-- Wings -->
+  <path d="M10 35 Q20 50, 40 35" stroke="#332D59" fill="transparent" stroke-width="8"/>
+  <path d="M45 35 Q65 50, 75 35" stroke="#332D59" fill="transparent" stroke-width="8"/>
+
+  <!-- Wing outlines -->
+  <path d="M10 35 Q20 50, 40 35" stroke="#6C4A70" fill="transparent" stroke-width="4"/>
+  <path d="M45 35 Q65 50, 75 35" stroke="#6C4A70" fill="transparent" stroke-width="4"/>
+
+  <!-- Feathers -->
+  <path d="M15 38 Q25 45, 35 40" stroke="#6C4A70" fill="transparent" stroke-width="2"/>
+  <path d="M40 38 Q50 45, 45 40" stroke="#6C4A70" fill="transparent" stroke-width="2"/>
+
+</svg>

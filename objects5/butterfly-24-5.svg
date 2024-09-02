@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Body -->
+  <path id="body" fill="#FF69B4" d="M250,100 Q350,50 350,150 Q250,250 150,150 Q250,50 250,100 Z"/>
+
+  <!-- Wings -->
+  <g id="wings">
+    <!-- Left Wing -->
+    <path fill="#FFD700" d="M350,150 Q450,250 350,350 Q250,250 350,150"/>
+    <!-- Right Wing -->
+    <path fill="#FFD700" d="M150,150 Q-50,250 150,350 Q250,250 150,150"/>
+  </g>
+
+  <!-- Head -->
+  <circle cx="250" cy="70" r="40" fill="#FF69B4"/>
+
+  <!-- Antennae -->
+  <g id="antennae">
+    <!-- Left Antenna -->
+    <line x1="230" y1="50" x2="200" y2="30" stroke="#32CD32"/>
+    <!-- Right Antenna -->
+    <line x1="270" y1="50" x2="290" y2="30" stroke="#32CD32"/>
+  </g>
+
+  <!-- Legs -->
+  <g id="legs">
+    <!-- Left Legs -->
+    <line x1="260" y1="280" x2="275" y2="340" stroke="#32CD32"/>
+    <line x1="260" y1="290" x2="255" y2="340" stroke="#32CD32"/>
+    <!-- Right Legs -->
+    <line x1="240" y1="280" x2="225" y2="340" stroke="#32CD32"/>
+    <line x1="240" y1="290" x2="245" y2="340" stroke="#32CD32"/>
+  </g>
+</svg>

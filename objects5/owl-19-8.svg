@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 200">
+  <!-- Outline -->
+  <path stroke="#000" stroke-width="0.5" fill="none"
+        d="M10,30 Q40,10 60,70 Q60,140 40,180 Q10,140 30,70"/>
+
+  <!-- Body -->
+  <path stroke="#422900" stroke-width="1" fill="#422900"
+        d="M35,70 C35,90 45,120 60,120 Q80,120 80,90"/>
+
+  <!-- Wings -->
+  <path stroke="#422900" stroke-width="0.8" fill="none"
+        d="M25,60 Q35,70 45,60 Q55,70 65,60 Q75,70 85,60"/>
+  <path stroke="#422900" stroke-width="0.7" stroke-dasharray="4,2" fill="none"
+        d="M30,55 Q40,65 50,55"/>
+
+  <!-- Head -->
+  <path stroke="#613F21" stroke-width="0.5" fill="#613F21"
+        d="M15,35 a20,20 0 1,0 40,0 a20,20 0 1,0 -40,0"/>
+
+  <!-- Eyes -->
+  <path stroke="#000" stroke-width="0.3" fill="#FFF"
+        d="M25,45 a10,10 0 1,0 20,0 a10,10 0 1,0 -20,0"/>
+  <circle cx="25" cy="45" r="3" fill="#422900"/>
+  <circle cx="75" cy="45" r="3" fill="#422900"/>
+
+  <!-- Beak -->
+  <path stroke="#FFD783" stroke-width="0.5" fill="none"
+        d="M20,45 Q30,55 40,60 Q40,50 50,55 Q55,65 60,60"/>
+
+  <!-- Tail -->
+  <path stroke="#422900" stroke-width="0.5" fill="none"
+        d="M30,120 Q40,130 50,120 Q60,130 70,120"/>
+
+  <!-- Details -->
+  <path stroke="#FFF" stroke-width="0.3" fill="none"
+        d="M25,45 a9,9 0 1,0 -18,0 a9,9 0 1,0 18,0"/>
+  <circle cx="65" cy="45" r="1.5" fill="#422900"/>
+</svg>

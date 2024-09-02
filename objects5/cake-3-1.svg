@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Cake base -->
+  <rect x="100" y="300" width="300" height="100" rx="50" fill="#FDD96C"/>
+
+  <!-- Cake top -->
+  <path d="M250,100 A150,150 0 0 0 75,250 L100,350 Z" fill="#E94F3D"/>
+  <circle cx="250" cy="150" r="50" fill="#FFF56C"/>
+
+  <!-- Candles -->
+  <rect x="150" y="75" width="50" height="25" rx="10" fill="#F39C12"/>
+  <rect x="275" y="75" width="50" height="25" rx="10" fill="#F39C12"/>
+
+  <!-- Frosting -->
+  <path d="M100,300 Q200,400 300,300 T400,300 H100 Z" stroke-width="5" stroke="#FFF" fill="none"/>
+</svg>

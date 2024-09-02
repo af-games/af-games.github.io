@@ -1,0 +1,20 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="150" cy="250" rx="80" ry="120" fill="lightblue"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="120" r="60" fill="pink"/>
+
+  <!-- Arms -->
+  <rect x="90" y="170" width="30" height="80" fill="pink"/>
+  <rect x="210" y="170" width="30" height="80" fill="pink"/>
+
+  <!-- Legs -->
+  <rect x="110" y="350" width="30" height="100" fill="pink"/>
+  <rect x="190" y="350" width="30" height="100" fill="pink"/>
+
+  <!-- Hair -->
+  <polygon points="80,70 220,70 150,40" fill="brown"/>
+
+</svg>

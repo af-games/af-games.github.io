@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphin Shapes -->
+  <g id="dolphin">
+    <!-- Body -->
+    <path d="M100,50 Q150,70 200,50 Q250,80 300,50" fill="lightblue"/>
+
+    <!-- Tail -->
+    <path d="M300,50 Q350,100 400,50" stroke="black" fill="transparent"/>
+    <circle cx="375" cy="60" r="25" fill="lightblue"/>
+
+    <!-- Fin -->
+    <path d="M150,80 Q120,120 150,160 Q180,120 150,80" stroke="black" fill="transparent"/>
+
+    <!-- Head & Eye -->
+    <circle cx="75" cy="50" r="40" fill="lightblue"/>
+    <circle cx="65" cy="45" r="5" fill="black"/>
+  </g>
+
+  <!-- Ocean Wave -->
+  <path id="wave" d="M 0,100 Q 200,50 400,100 Q 600,150 800,100" stroke="blue" fill="transparent"/>
+
+  <!-- Sun Filter for Dolphin -->
+  <defs>
+    <filter id="sun">
+      <feGaussianBlur stdDeviation="2.5" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="BackgroundImage"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Apply Sun Filter to Dolphin -->
+  <use xlink:href="#dolphin" filter="url(#sun)"/>
+
+  <!-- Ocean Wave Repeated -->
+  <use xlink:href="#wave" stroke-width="2"/>
+  <use xlink:href="#wave" transform="translate(800, 0)" stroke-width="1"/>
+
+</svg>

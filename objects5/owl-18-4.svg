@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Owl's Peak -->
+  <circle cx="400" cy="50" r="30" fill="green" />
+
+  <!-- Mystic Forest -->
+  <rect x="150" y="150" width="500" height="300" fill="#3D721F" stroke="black"/>
+
+  <!-- Whispering River -->
+  <path d="M100 450 Q200 350, 400 400 Q600 450, 800 400" stroke="#ADD8E6" fill="transparent"/>
+
+  <!-- The Old Mill -->
+  <rect x="700" y="150" width="50" height="50" fill="red"/>
+
+  <!-- Owl's Realm Boundary -->
+  <rect x="0" y="0" width="800" height="600" fill="transparent" stroke="black"/>
+
+</svg>

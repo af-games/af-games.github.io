@@ -1,0 +1,14 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Walls -->
+  <rect x="100" y="100" width="300" height="200" fill="#A9C6F8" stroke="#5D7DCF" stroke-width="2"/>
+
+  <!-- Roof (Concentric Semicircles) -->
+  <path d="M200,100 a100,100 0 0 1 -100,-100 h200 a100,100 0 0 1 0,200 v-100 z" fill="#A9C6F8" stroke="#5D7DCF" stroke-width="2"/>
+  <path d="M240,130 a80,80 0 0 1 -80,-80 h160 a80,80 0 0 1 0,160 v-80 z" fill="#A9C6F8" stroke="#5D7DCF" stroke-width="2"/>
+  <path d="M280,160 a60,60 0 0 1 -60,-60 h120 a60,60 0 0 1 0,120 v-60 z" fill="#A9C6F8" stroke="#5D7DCF" stroke-width="2"/>
+
+  <!-- Door -->
+  <rect x="160" y="230" width="100" height="50" fill="#EFF2FB" stroke="#5D7DCF" stroke-width="2"/>
+
+</svg>

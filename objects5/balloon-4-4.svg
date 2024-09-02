@@ -1,0 +1,42 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body (circle) -->
+  <circle cx="100" cy="175" r="100"
+          fill="url(#balloonGradient)"
+          stroke="#ffd65b" stroke-width="4" />
+
+  <!-- Balloon string (line) -->
+  <line x1="100" y1="325" x2="100" y2="375"
+        stroke="#58a7cf" stroke-width="4" />
+
+  <!-- Balloon mouth (triangle) -->
+  <polygon points="90,175 100,225 110,175"
+           fill="url(#mouthGradient)"
+           stroke="#ffd65b" stroke-width="4"/>
+
+  <!-- Balloon top knot (circle) -->
+  <circle cx="100" cy="375" r="20"
+          fill="#58a7cf"
+          stroke="#58a7cf" stroke-width="2" />
+
+  <!-- Lighting effect (filter) -->
+  <defs>
+    <filter id="balloonLight">
+      <feGaussianBlur stdDeviation="3" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="BackgroundImage" />
+      </feMerge>
+    </filter>
+    <!-- Gradients -->
+    <linearGradient id="balloonGradient" x1="0%" y1="50%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd65b; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ff9837; stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="mouthGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#ffd65b; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ff9837; stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+
+</svg>

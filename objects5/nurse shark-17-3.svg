@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Body -->
+  <path d="M0,10 Q-30,-10 30,-10 Q0,-40 60,-10 Q90,10 60,50 Q30,10 0,-40"
+        fill="#8B8670" stroke="#3D2C0A"/>
+
+  <!-- Fins -->
+  <path d="M-30,-10 Q-35,-15 -30,-20 L30,-20 Q35,-15 30,-10"
+        fill="#8B8670" stroke="#3D2C0A"/>
+
+  <!-- Tail -->
+  <path d="M90,10 Q85,5 90,0 Q95,5 90,10"
+        fill="#8B8670" stroke="#3D2C0A"/>
+
+  <!-- Eyes -->
+  <circle cx="-10,-10" cy="0,0" r="5" fill="#FFFFFF"/>
+  <circle cx="-10,-10" cy="0,0" r="4" fill="#000000"/>
+
+  <!-- Teeth -->
+  <path d="M-20,-30 Q-25,-35 -20,-40 Q-15,-35 -20,-30"
+        stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M20,-30 Q15,-35 20,-40 Q25,-35 20,-30"
+        stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Texture -->
+  <defs>
+    <pattern id="texture" patternUnits="userSpaceOnUse" width="8" height="8">
+      <rect width="4" height="4" fill="#A99C7E"/>
+      <rect x="4" y="4" width="4" height="4" fill="#8B8670"/>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#texture)"/>
+
+</svg>

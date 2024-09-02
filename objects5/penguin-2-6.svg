@@ -1,0 +1,25 @@
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(230,230,230);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <path d="M80 60 Q150 20, 250 60 L350 140 Q400 200, 480 140 Z"
+        stroke=url(#grad1) stroke-width="5" fill="none" />
+  <path d="M250 60 Q350 20, 450 60 L500 140 Q550 200, 630 140 Z"
+        stroke=url(#grad1) stroke-width="5" fill="none" />
+  <path d="M480 60 Q570 20, 650 60 L700 140 Q730 200, 810 140 Z"
+        stroke=url(#grad1) stroke-width="5" fill="none" />
+  <path d="M630 60 Q720 20, 800 60 L850 140 Q900 200, 980 140 Z"
+        stroke=url(#grad1) stroke-width="5" fill="none" />
+  <path d="M810 60 Q900 20, 970 60 L1020 140 Q1050 200, 1100 140 Z"
+        stroke=url(#grad1) stroke-width="5" fill="none" />
+  <path d="M880 60 Q970 20, 1030 60 L1080 140 Q1110 200, 1170 140 Z"
+        stroke=url(#grad1) stroke-width="5" fill="none" />
+  <path d="M950 60 Q1030 20, 1080 60 L1130 140 Q1150 200, 1200 140 Z"
+        stroke=url(#grad1) stroke-width="5" fill="none" />
+  <path d="M1020 60 Q1090 20, 1130 60 L1180 140 Q1200 200, 1250 140 Z"
+        stroke=url(#grad1) stroke-width="5" fill="none" />
+</svg>

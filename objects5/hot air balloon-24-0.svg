@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Envelope -->
+  <ellipse cx="0" cy="-175" rx="200" ry="350" fill="#FFA500"/>
+
+  <!-- Basket -->
+  <rect x="-75" y="-320" width="150" height="50" fill="#A96C3D"/>
+
+  <!-- Rope -->
+  <polyline points="-75,-370 -25,-370 25,-370 75,-370" stroke="#C0C0C0" fill="transparent"/>
+
+  <!-- Burners -->
+  <rect x="-40" y="-210" width="80" height="40" fill="#FFFF00"/>
+  <rect x="40" y="-210" width="80" height="40" fill="#FFFF00"/>
+
+  <!-- Fin -->
+  <polygon points="-140,-180 -70,-250 70,-250 140,-180" fill="#002BFF"/>
+
+</svg>

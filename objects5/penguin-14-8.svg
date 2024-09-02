@@ -1,0 +1,42 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(64,185,233); stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(97,137,184); stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bgGradient)" />
+
+  <!-- Penguin body -->
+  <g clip-path="url(#bodyClip)">
+    <circle cx="150" cy="220" r="80" fill="rgb(0,0,0)" />
+    <circle cx="135" cy="160" r="70" fill="rgb(255,255,255)" />
+  </g>
+
+  <!-- Body clip path -->
+  <clipPath id="bodyClip">
+    <rect x="80" y="90" width="240" height="300" />
+  </clipPath>
+
+  <!-- Penguin tummy -->
+  <circle cx="150" cy="270" r="60" fill="rgb(255,255,255)" />
+
+  <!-- Penguin eyes -->
+  <g transform="translate(135, 140)">
+    <circle r="10" fill="rgb(0,0,0)" />
+    <circle r="7" fill="rgb(255,255,255)" />
+    <circle cx="-10" r="10" fill="rgb(0,0,0)" />
+    <circle cx="-10" r="7" fill="rgb(255,255,255)" />
+  </g>
+
+  <!-- Penguin beak -->
+  <path d="M140,160 Q130,180 120,160 Q110,180 100,160" fill="rgb(255,217,159)" />
+
+  <!-- Penguin flipper -->
+  <g transform="translate(70, 230)">
+    <path d="M0,-50 Q-40,-20 -80,0 Q-40,80 0,50" fill="rgb(0,0,0)" />
+    <path d="M0,-50 Q40,-20 80,0 Q40,80 0,50" fill="rgb(0,0,0)" />
+  </g>
+
+</svg>

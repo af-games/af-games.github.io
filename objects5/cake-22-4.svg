@@ -1,0 +1,25 @@
+<svg>` tag. I've used circles for the body and top of the cake, rectangles for the base, and some triangles for the decorations. The design is centered on the page and has a repetition of patterns for symmetry.
+
+```xml
+<svg width="200" height="250" viewBox="0 0 200 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Body -->
+  <circle cx="100" cy="140" r="90" fill="#FDD7E4" stroke="#D8BFA5" stroke-width="5"/>
+
+  <!-- Cake Top -->
+  <circle cx="100" cy="60" r="60" fill="#FFDEDA" stroke="#D8BFA5" stroke-width="5"/>
+  <path d="M100,27 A90,90 0 1,0 100,355 A90,90 0 1,0 100,60 z" fill="#FFDEDA"/>
+
+  <!-- Cake Base -->
+  <rect x="30" y="230" width="140" height="20" fill="#D8BFA5"/>
+  <rect x="20" y="250" width="160" height="10" fill="#9C7E75"/>
+
+  <!-- Cake Decorations -->
+  <g stroke="#8B4513" stroke-width="2">
+    <path d="M80,90 L120,90 L100,110 Z"/>
+    <path d="M80,130 L120,130 L100,150 Z"/>
+  </g>
+
+  <!-- Cake Topping -->
+  <circle cx="100" cy="45" r="40" fill="#FFFFFF"/>
+  <text x="96" y="48" font-size="24" text-anchor="middle" fill="#32CD32">Happy Birthday!</text>
+</svg>

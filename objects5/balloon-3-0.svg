@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Balloon -->
+  <ellipse cx="150" cy="200" rx="150" ry="75" stroke="white" fill="orange"/>
+
+  <!-- String -->
+  <line x1="150" y1="375" x2="150" y2="-150" stroke="black" stroke-width="10"/>
+
+  <!-- Knot (optional detail) -->
+  <circle cx="150" cy="375" r="25" fill="orange"/>
+</svg>

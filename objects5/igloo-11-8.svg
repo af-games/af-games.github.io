@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Plate -->
+  <circle cx="400" cy="300" r="300" fill="#FFF4E5" stroke="#FFD700" stroke-width="10"/>
+
+  <!-- Igloo (star ingredient) -->
+  <path d="M400,200 q-80,-60 -160,0 Q240,-60 400,0 q80,60 160,0 Q560,-60 400,-120" fill="#FFD700" stroke="#FFF4E5" stroke-width="1"/>
+
+  <!-- Snow on Igloo -->
+  <path d="M380,120 q-40,-20 -80,0 Q260,-20 240,-60" fill="#FFFFFF"/>
+
+  <!-- Aurora Borealis behind Igloo -->
+  <polygon points="240,60 400,200 560,60" fill="#FFC3A0" opacity=".7"/>
+
+  <!-- Salmon (accompaniment) -->
+  <path d="M320,280 q-40,-10 -80,20 Q160,310 80,290 q40,-10 80,-20" fill="#FF7F50"/>
+
+  <!-- Mashed Potatoes (accompaniment) -->
+  <circle cx="450" cy="280" r="40" fill="#FFFDD0"/>
+  <circle cx="500" cy="280" r="30" fill="#FFFDD0"/>
+  <circle cx="475" cy="310" r="20" fill="#FFFDD0"/>
+
+  <!-- Silverware -->
+  <path d="M600,300 l-40,-80 h-40 l40,-40 z" fill="#C0C0C0"/>
+  <path d="M560,260 l40,-40 h40 l-40,-40 z" fill="#C0C0C0"/>
+
+  <!-- Garnish (Parsley) -->
+  <polygon points="700,380 720,400 710,420 690,400" fill="#3D9970"/>
+  <polygon points="715,405 735,425 720,445 705,425" fill="#3D9970"/>
+
+</svg>

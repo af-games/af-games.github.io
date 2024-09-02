@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Black velvet background -->
+  <rect width="100%" height="100%" fill="#000000"/>
+
+  <!-- Crescent moon base -->
+  <path d="M0,250 Q100,375 200,312.5 Q300,437.5 400,250" stroke="none" fill="#FFFFFF"/>
+
+  <!-- Mermaid's body -->
+  <circle cx="200" cy="312.5" r="80" stroke="none" fill="#FFF5EE"/>
+  <ellipse cx="160" cy="275" rx="40" ry="60" stroke="none" fill="#FFF5EE"/>
+  <path d="M120,337 Q160,387.5 200,337 Q240,387.5 280,337" stroke="black" fill="transparent"/>
+
+  <!-- Mermaid's hair -->
+  <path d="M160,250 C190,220 220,200 200,175 Q140,150 160,125" stroke="#6D48A1" fill="transparent"/>
+  <linearGradient id="hairGradient" x1="190" y1="220" x2="220" y2="200">
+    <stop offset="0%" stop-color="#6D48A1"/>
+    <stop offset="50%" stop-color="#5F3763"/>
+  </linearGradient>
+
+  <!-- Tail fin locks -->
+  <g stroke="none" fill="#7C9EB0">
+    <path d="M200,337 Q240,410 280,337"/>
+    <path d="M205,342 Q245,415 285,342"/>
+    <path d="M210,347 Q250,420 290,347"/>
+  </g>
+
+  <!-- Pearls -->
+  <circle cx="280" cy="360" r="20" stroke="#FFFF99" fill="#FFFFFF"/>
+  <circle cx="285" cy="360" r="15" stroke="none" fill="#FFFFFF"/>
+
+  <!-- Glow effect -->
+  <defs>
+    <radialGradient id="glowGradient" cx="200" cy="312.5" r="120">
+      <stop offset="5%" stop-color="#FF6347"/>
+      <stop offset="30%" stop-color="#8B4513"/>
+      <stop offset="60%" stop-color="#A0E6FF"/>
+    </radialGradient>
+  </defs>
+  <circle cx="200" cy="312.5" r="120" stroke="none" fill="url(#glowGradient)"/>
+
+</svg>

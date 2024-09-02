@@ -1,0 +1,29 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Neck -->
+  <rect x="150" y="70" width="200" height="40" fill="#FFF"/>
+  <path d="M150,90 Q200,80 250,90 H300 Q250,100 200,100 V70 Z" fill="#3C3" stroke-width="2"/>
+
+  <!-- Body -->
+  <rect x="150" y="110" width="200" height="250" rx="15" fill="#FFF"/>
+  <pattern id="giraffe-spots" patternUnits="userSpaceOnUse" width="30" height="30">
+    <circle cx="15" cy="15" r="7.5" fill="#8B4513"/>
+  </pattern>
+  <rect x="165" y="125" width="170" height="220" fill="url(#giraffe-spots)"/>
+
+  <!-- Sleeves -->
+  <circle cx="200" cy="90" r="80" fill="#FFF"/>
+  <path d="M200,170 A80,80 0 0 1 320,170 V450 H450 V650 Z" fill="#FFF"/>
+  <circle cx="320" cy="500" r="70" fill="#FFF"/>
+
+  <!-- Giraffe Face -->
+  <ellipse cx="280" cy="220" rx="120" ry="140" fill="#FFF"/>
+  <path d="M260,190 Q310,150 370,190" stroke="#3C3" stroke-width="2"/>
+  <circle cx="320" cy="220" r="40" fill="#FFF"/>
+  <path d="M320,260 Q340,280 360,260" stroke="#3C3" stroke-width="2"/>
+
+  <!-- Seams -->
+  <path d="M150,70 H300 V300 H450 Z M150,110 V400" stroke="#8B4513" stroke-width="2"/>
+  <circle cx="320" cy="90" r="80" stroke="#8B4513" stroke-width="2"/>
+
+</svg>

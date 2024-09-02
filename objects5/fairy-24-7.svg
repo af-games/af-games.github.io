@@ -1,0 +1,37 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fairy's body -->
+  <circle cx="100" cy="250" r="40" fill="pink"/>
+
+  <!-- Fairy's head -->
+  <circle cx="80" cy="220" r="20" fill="lightpink"/>
+
+  <!-- Fairy's hair -->
+  <path d="M70,190 Q60,170 80,150 Q90,170 100,190" stroke="black"/>
+
+  <!-- Fairy's arms and wand -->
+  <line x1="80" y1="230" x2="140" y2="260"/>
+  <circle cx="140" cy="250" r="10" fill="purple"/>
+
+  <!-- Fairy's dress -->
+  <rect x="70" y="280" width="90" height="30" fill="lightblue"/>
+
+  <!-- Fairy's wings (initial position) -->
+  <path d="M60,240 Q50,210 60,180 Q70,210 80,240" stroke="black"/>
+  <animateMotion dur="2s" repeatCount="indefinite">
+    <mpath href="#wingPath"/>
+  </animateMotion>
+  <path id="wingPath" d="M60,240 Q50,210 60,180 Q70,210 80,240"/>
+
+  <!-- Fairy's wand animation -->
+  <circle cx="140" cy="250" r="10">
+    <animateTransform attributeName="transform"
+                     type="rotate" from="0" to="360"
+                     dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Fairy blowing a kiss -->
+  <circle cx="180" cy="250" r="10">
+    <animate attributeName="cy" values="250;170;250"
+             dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

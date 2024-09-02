@@ -1,0 +1,25 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Walls -->
+  <rect x="50" y="150" width="400" height="250" fill="#8B7D6B"/>
+  <rect x="50" y="150" width="400" height="250" rx="30" fill="#8B7D6B"/>
+
+  <!-- Towers & Turrets -->
+  <circle cx="100" cy="200" r="50" stroke="#8B7D6B" stroke-width="3" fill="#FFFFFF"/>
+  <circle cx="400" cy="200" r="50" stroke="#8B7D6B" stroke-width="3" fill="#FFFFFF"/>
+  <circle cx="100" cy="350" r="75" stroke="#8B7D6B" stroke-width="3" fill="#FFFFFF"/>
+  <circle cx="400" cy="350" r="75" stroke="#8B7D6B" stroke-width="3" fill="#FFFFFF"/>
+  <circle cx="250" cy="400" r="100" stroke="#8B7D6B" stroke-width="3" fill="#FFFFFF"/>
+
+  <!-- Gates & Arrow Slits -->
+  <polygon points="150,300 250,350 350,300" fill="#8B7D6B"/>
+  <!-- Add arrow slits here... -->
+
+  <!-- Roofs & Windows -->
+  <path d="M100,150 Q250,50 400,150" stroke="none" fill="#A0522D"/>
+  <!-- Add windows and more roof paths here... -->
+
+  <!-- Text -->
+  <text x="25%" y="80" font-family="Verdana" font-size="32px" text-anchor="middle" fill="#000000">Castle Feast</text>
+
+</svg>

@@ -1,0 +1,47 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(63,94,139);stop-opacity:1"/>
+    </linearGradient>
+    <circle id="kangarooBody" cx="50" cy="50" r="50"/>
+  </defs>
+```
+
+Now let's plant our kangaroos:
+
+```svg
+<!-- Small kangaroos -->
+<use xlink:href="#kangarooBody" width="10%" height="10%" fill="url(#grad1)" transform="translate(5%,5%) rotate(-30)"/>
+
+<!-- Medium kangaroos -->
+<use xlink:href="#kangarooBody" width="20%" height="20%" fill="url(#grad1)" transform="translate(20%,40%) rotate(45)"/>
+<use xlink:href="#kangarooBody" width="20%" height="20%" fill="url(#grad1)" transform="translate(60%,30%) rotate(-45)"/>
+
+<!-- Large kangaroos -->
+<use xlink:href="#kangarooBody" width="30%" height="30%" fill="url(#grad1)" transform="translate(20%,70%) rotate(0)"/>
+```
+
+To create vibrant patterns and colors, we'll use a linear gradient for the kangaroos' bodies, ranging from white to a deep blue (representing the sky and ocean). Additionally, we'll vary the sizes of the kangaroos and apply rotations to give them different poses, creating an engaging visual composition.
+
+Finally, let's transplant our digital kangaroo garden into an SVG ecosystem:
+
+```svg
+<!-- Background -->
+<rect width="100%" height="100%" fill="#FFB6C1"/>
+
+<!-- Kangaroo bodies -->
+<g transform="translate(5%, 5%)">
+  <!-- Small kangaroos -->
+  <circle cx="50" cy="50" r="50"/>
+  <!-- Medium kangaroos -->
+  <circle cx="120" cy="70" r="60"/>
+  <circle cx="180" cy="60" r="60"/>
+  <!-- Large kangaroos -->
+  <circle cx="90" cy="150" r="90"/>
+</g>
+```
+
+This SVG ecosystem includes a pink background (representing the Australian outback) and an arrangement of circles to represent the shapes of our planted kangaroos. The gradients applied to the kangaroo bodies create a vibrant and engaging digital garden filled with these marsupial inhabitants.
+
+You can copy and paste this code into an HTML file or an online SVG editor to see your digital kangaroo garden in action!</svg>

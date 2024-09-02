@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
+  <!-- Clue 1: Dolphin outline -->
+  <mask id="dolphin-mask">
+    <path d="M50 25 Q75 35, 100 40 Q75 60, 50 70 Q25 60, 50 40 Z"/>
+  </mask>
+
+  <!-- Clue 2: Mysterious message -->
+  <text x="150" y="80">What am I? Find me.</text>
+
+  <!-- Clue 3: Dolphin tail silhouette -->
+  <path d="M200 90 Q175 70, 200 60 Z"/>
+
+  <!-- Revealing the dolphin outline strategically -->
+  <use href="#dolphin-outline" fill="blue" mask="url(#dolphin-mask)"/>
+</svg>

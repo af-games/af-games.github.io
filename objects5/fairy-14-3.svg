@@ -1,0 +1,20 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M175,400 Q225,380 275,400 Q225,420 175,400" stroke="#D9EAF6" fill="transparent" stroke-width="20"/>
+
+  <!-- Head -->
+  <circle cx="225" cy="350" r="20" stroke="#FFEFD5" fill="transparent" stroke-width="10"/>
+
+  <!-- Hair -->
+  <path d="M185,340 Q210,320 260,340 Q230,360 210,370 185,340" stroke="#E1D5FF" fill="transparent" stroke-width="5"/>
+
+  <!-- Wings -->
+  <path d="M200,390 Q170,420 200,450 Q230,420 200,390" stroke="#D9EAF6" fill="transparent" stroke-width="10"/>
+  <path d="M190,410 Q160,440 190,470 Q220,440 190,410" stroke="#C5CAE9" fill="transparent" stroke-width="5"/>
+
+  <!-- Arms -->
+  <path d="M230,400 L260,440" stroke="#FFEFD5" fill="transparent" stroke-width="10"/>
+  <path d="M150,400 L120,440" stroke="#FFEFD5" fill="transparent" stroke-width="10"/>
+
+</svg>

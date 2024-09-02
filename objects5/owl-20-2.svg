@@ -1,0 +1,23 @@
+<svg viewBox="0 0 200 250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,200 Q90,175 80,150 A60,60 0 0 1 120,150 Q110,175 100,200" fill="brown"/>
+
+  <!-- Wings -->
+  <path d="M80,130 Q50,90 40,70 H60 V170 H40 Z" fill="brown"/>
+  <path d="M120,130 Q150,90 160,70 H140 V170 H160 Z" fill="brown"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="80" r="40" fill="white"/>
+  <polygon points="75,80 90,60 105,80" fill="lightgray"/>
+
+  <!-- Eyes -->
+  <circle cx="92.5" cy="70" r="10" fill="black"/>
+  <circle cx="87.5" cy="70" r="3" fill="white"/>
+  <circle cx="92.5" cy="70" r="3" fill="black"/>
+
+  <!-- Beak -->
+  <polygon points="90,60 105,60 100,50" fill="orange"/>
+
+  <!-- Feathers and details -->
+  <path d="M82,140 Q75,130 70,120 Q75,110 82,100 Q90,110 95,120 Q90,130 82,140" stroke="black"/>
+</svg>

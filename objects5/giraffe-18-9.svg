@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Scene 1: Giraffe in the Savannah -->
+<circle cx="40" cy="550" r="30" fill="#FA8072"/>
+<rect x="0" y="500" width="800" height="100" fill="#6B8E23"/>
+<text x="40" y="600" font-family="Arial" font-size="16">Giraffe stands tall in the sun.</text>
+
+<!-- Scene 2: The Well Runs Dry -->
+<circle cx="40" cy="450" r="30" fill="#FA8072"/>
+<rect x="0" y="350" width="800" height="150" fill="#D3D3D3"/>
+<text x="40" y="500" font-family="Arial" font-size="16">The well runs dry. Animals gather, worried.</text>
+
+<!-- Scene 3: Giraffe's Journey -->
+<path d="M40,450 L200,350 L400,250 L600,150 Z" stroke="#FA8072" fill="transparent"/>
+<text x="300" y="200" font-family="Arial" font-size="16">Giraffe embarks on a journey.</text>
+
+<!-- Scene 4: Meeting the Wise Owl -->
+<polygon points="75,50 125,100 75,150" fill="#98FB98"/>
+<circle cx="300" cy="400" r="30" fill="#FA8072"/>
+<path d="M260,370 Q280,390 300,370 Z" stroke="#FFFFFF" fill="#FFC300"/>
+<text x="280" y="350" font-family="Arial" font-size="14">Wise Owl: "Look for water where it falls."</text>
+
+<!-- Scene 5: The Waterfall Discovery -->
+<path d="M750,50 Q600,200 400,300 Z" stroke="#009ACD" fill="transparent"/>
+<circle cx="600" cy="550" r="30" fill="#FA8072"/>
+<text x="550" y="500" font-family="Arial" font-size="16">Giraffe discovers a waterfall!</text>
+
+<!-- Scene 6: News Spreads Across the Savannah -->
+<path d="M40,300 Q90,200 180,100 Z" stroke="#FA8072" fill="transparent"/>
+<rect x="250" y="50" width="150" height="250" fill="#D3D3D3"/>
+<text x="300" y="400" font-family="Arial" font-size="16">News spreads, animals celebrate.</text>
+
+</svg>

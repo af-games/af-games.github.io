@@ -1,0 +1,32 @@
+<svg width="100%" height="100%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Medusa -->
+  <circle cx="50" cy="50" r="30" fill="lightblue"/>
+
+  <!-- Tentacles -->
+  <g stroke="black">
+    <line x1="50" y1="50" x2="50" y2="80"/>
+    <for each="angle in (45, 90, ..., 315)">
+      <line x1="50" y1="50" x2="50 + cos(angle * pi / 180) * 80" y2="50 + sin(angle * pi / 180) * 80"/>
+    </for>
+  </g>
+
+  <!-- Sub-tentacles -->
+  <g stroke="black">
+    <for each="angle in (45, 90, ..., 315)">
+      <for each="offsetAngle in (-22.5, -45, ..., 67.5)">
+        <line x1="50 + cos((angle + offsetAngle) * pi / 180) * 60" y1="50 + sin((angle + offsetAngle) * pi / 180) * 60"
+              x2="50 + cos((angle + offsetAngle) * pi / 180) * 74" y2="50 + sin((angle + offsetAngle) * pi / 180) * 74"/>
+      </for>
+    </for>
+  </g>
+
+  <!-- Oral arms -->
+  <g stroke="black">
+    <path d="M 30,60 Q 50,90 70,60" transform="rotate(0, 50, 50)" fill="transparent"/>
+    <for each="angle in (45, ..., 315)">
+      <use xlink:href="#oral-arm-path" transform="rotate(angle, 50, 50)"/>
+    </for>
+  </g>
+
+</svg>

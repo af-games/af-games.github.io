@@ -1,0 +1,19 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mixing our colors: #f5a987 (beige), #c61a47 (dark red) and #fff (white) -->
+
+  <!-- Baking the cake base -->
+  <rect x="50" y="50" width="100" height="100"
+        style="fill:#f5a987; stroke:#c61a47; stroke-width:3;" />
+
+  <!-- Creating a simple frosting pattern on top -->
+  <pattern id="frosting" patternUnits="userSpaceOnUse" width="20" height="20">
+    <circle cx="10" cy="10" r="5" fill="#fff" />
+  </pattern>
+
+  <!-- Applying the frosting pattern to the cake top -->
+  <rect x="75" y="50" width="50" height="30"
+        style="fill: url(#frosting); stroke:#c61a47; stroke-width:2;" />
+
+  <!-- Adding a sweet little cherry on top -->
+  <circle cx="90" cy="80" r="5" fill="#c61a47" />
+</svg>

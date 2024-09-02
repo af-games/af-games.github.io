@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+    <!-- Balloon -->
+    <ellipse cx="250" cy="150" rx="180" ry="220"
+             fill="url(#balloonGradient)" stroke-width="3" stroke="#4A2E9B"/>
+
+    <!-- Basket -->
+    <rect x="200" y="380" width="100" height="50"
+          fill="#D2691E" stroke-width="3" stroke="#6E3708"/>
+
+    <!-- String -->
+    <line x1="250" y1="380" x2="250" y2="450"
+          stroke-width="8" stroke="#CC8D3F"/>
+    <path d="M240 450 Q260 470, 280 450" stroke-width="8" stroke="#CC8D3F"/>
+
+    <!-- Lighting effects -->
+    <linearGradient id="balloonGradient">
+        <stop offset="0%" stop-color="#FFD700"/>
+        <stop offset="60%" stop-color="#FFFFFF"/>
+        <stop offset="100%" stop-color="#E3A237"/>
+    </linearGradient>
+</svg>

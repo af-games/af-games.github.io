@@ -1,0 +1,20 @@
+<svg width="1000" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ancient Era -->
+  <rect x="50" y="400" width="200" height="200" fill="#8B4513" stroke-width="2" stroke="#fff"/>
+  <text x="75" y="600" text-anchor="middle" font-family="Verdana" font-size="16">Ancient Era</text>
+
+  <!-- Medieval Era -->
+  <polygon points="300,450 350,350 250,350" fill="#8B7D6B" stroke-width="2" stroke="#fff"/>
+  <circle cx="325" cy="400" r="50" fill="#fff"/>
+  <text x="325" y="600" text-anchor="middle" font-family="Verdana" font-size="16">Medieval Era</text>
+
+  <!-- Modern/Futuristic Era -->
+  <path d="M600,450 Q700,350 800,450 T900,350" fill="#ADD8E6" stroke-width="2" stroke="#fff"/>
+  <text x="750" y="600" text-anchor="middle" font-family="Verdana" font-size="16">Modern/Futuristic Era</text>
+
+  <!-- Timeline -->
+  <line x1="0" y1="580" x2="1000" y2="580" stroke="#000" stroke-width="1"/>
+  <text x="0" y="560" text-anchor="middle">Time</text>
+
+</svg>

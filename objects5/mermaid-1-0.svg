@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ocean background gradient -->
+  <defs>
+    <linearGradient id="ocean-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#9DCBE6;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mermaid's head -->
+  <ellipse cx="350" cy="250" rx="70" ry="80" fill="#8DC63C"/>
+
+  <!-- Mermaid's hair -->
+  <path d="M300,190 Q400,100 470,190 Q300,320 50,320" stroke="#000000" fill="transparent"/>
+
+  <!-- Mermaid's tail -->
+  <path d="M350,400 Q300,600 400,600 Q475,550 525,600 Z" fill-opacity="0.8">
+    <animate attributeName="d" values="M350,400 Q300,600 400,600 Q475,550 525,600 Z;M350,400 Q325,600 425,600 Q475,550 525,600 Z;" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="0.8;1;0.8;" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Rock -->
+  <rect x="150" y="450" width="300" height="150" rx="25" fill="#3E474C"/>
+
+</svg>

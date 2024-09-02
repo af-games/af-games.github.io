@@ -1,0 +1,35 @@
+<svg width="100%" height="100%" viewBox="0 0 960 720" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="960" height="720" fill="#051A48"/>
+
+  <!-- Mons Altus (Mountains) -->
+  <polygon points="480,160 320,320 640,320" fill="#8B7D6B"/>
+  <polygon points="320,480 640,480 480,560" fill="#8B7D6B"/>
+
+  <!-- Flumen Luminis (Rivers) -->
+  <path d="M160,400 Q240,300 320,380 Q400,300 480,400" stroke="#CBE5F9" fill="transparent"/>
+  <path d="M560,400 Q640,300 720,380 Q800,300 880,400" stroke="#CBE5F9" fill="transparent"/>
+
+  <!-- Silva Radians (Forests) -->
+  <polygon points="160,560 320,640 320,720" fill="#3D9970"/>
+  <polygon points="640,560 800,640 800,720" fill="#3D9970"/>
+
+  <!-- Urbs Phosphorea (Cities) -->
+  <circle cx="480" cy="640" r="120" fill="#F4D03F"/>
+  <circle cx="480" cy="520" r="80" fill="#F4D03F"/>
+
+  <!-- Medusa Marina (Jellyfish Habitat) -->
+  <ellipse cx="240" cy="400" rx="160" ry="80" fill="#A9E6FF"/>
+  <ellipse cx="720" cy="400" rx="160" ry="80" fill="#A9E6FF"/>
+
+  <!-- Labels -->
+  <text x="5%" y="10%" text-anchor="start" fill="white">Mons Altus</text>
+  <text x="32%" y="40%" text-anchor="middle" fill="white">Flumen Luminis</text>
+  <text x="68%" y="40%" text-anchor="middle" fill="white">Flumen Luminis</text>
+  <text x="5%" y="60%" text-anchor="start" fill="white">Silva Radians</text>
+  <text x="92%" y="60%" text-anchor="end" fill="white">Silva Radians</text>
+  <text x="48%" y="75%" text-anchor="middle" fill="white">Urbs Phosphorea</text>
+  <text x="15%" y="35%" text-anchor="start" fill="white">Medusa Marina</text>
+  <text x="82%" y="35%" text-anchor="end" fill="white">Medusa Marina</text>
+
+</svg>

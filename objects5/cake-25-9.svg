@@ -1,0 +1,19 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake base (rounded rectangle) -->
+  <rect x="60" y="280" width="280" height="70" rx="35" fill="#F4D03F"/>
+
+  <!-- Frosting (path) -->
+  <path d="M60 280 Q140 190, 240 280 H340 Q260 340, 340 340 V350 H60 Z" fill="#FFFFFF"/>
+
+  <!-- Candle circles -->
+  <circle cx="70" cy="320" r="15" fill="#FFD700"/>
+  <circle cx="170" cy="320" r="15" fill="#FFD700"/>
+  <circle cx="270" cy="320" r="15" fill="#FFD700"/>
+
+  <!-- Cake layers (rectangles) -->
+  <rect x="60" y="210" width="280" height="70" rx="35" fill="#F4D03F"/>
+  <rect x="60" y="140" width="280" height="70" rx="35" fill="#F4D03F"/>
+  <rect x="60" y="70" width="280" height="70" rx="35" fill="#F4D03F"/>
+
+</svg>

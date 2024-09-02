@@ -1,0 +1,31 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#90EE90"/>
+
+  <!-- Kangaroo body -->
+  <circle cx="300" cy="250" r="150" fill="#8B4513"/>
+
+  <!-- Head -->
+  <circle cx="260" cy="210" r="60" fill="#8B4513"/>
+
+  <!-- Eyes -->
+  <circle cx="270" cy="190" r="5" fill="black"/>
+  <circle cx="250" cy="190" r="5" fill="black"/>
+
+  <!-- Nose -->
+  <circle cx="260" cy="230" r="3" fill="#8B4513"/>
+
+  <!-- Left ear -->
+  <path d="M240,170 C230,190 220,180 240,170 Z" fill="#8B4513"/>
+
+  <!-- Right ear -->
+  <path d="M320,170 C330,190 340,180 320,170 Z" fill="#8B4513"/>
+
+  <!-- Front legs -->
+  <rect x="260" y="280" width="20" height="80" fill="#8B4513"/>
+  <rect x="290" y="280" width="20" height="80" fill="#8B4513"/>
+
+  <!-- Back legs -->
+  <rect x="270" y="340" width="20" height="100" fill="#8B4513"/>
+  <rect x="310" y="340" width="20" height="100" fill="#8B4513"/>
+</svg>

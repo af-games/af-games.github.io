@@ -1,0 +1,25 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(148,57,62);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(239,195,128);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <g stroke-width="2">
+    <!-- P -->
+    <path d="M10,40 Q10,70 30,70 Q50,70 50,40 Q50,10 30,10 Q10,10 10,40"
+          stroke="url(#gradient)" fill="transparent"/>
+
+    <!-- E -->
+    <path d="M60,40 Q60,80 90,70 Q120,80 120,40 Q120,0 90,10 Q60,0 60,40"
+          stroke="url(#gradient)" fill="transparent"/>
+
+    <!-- N -->
+    <path d="M150,40 H170 V10 H180 V70 H170 V90 H150 Z"
+          stroke-width="3" stroke="url(#gradient)"/>
+  </g>
+
+  <!-- Repeat similar patterns for G, U, I, N -->
+
+</svg>

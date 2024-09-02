@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Gate -->
+  <polygon id="castle-gate" points="40,100 90,70 140,100" fill="#8B7D6B" stroke="black"/>
+
+  <!-- Path to the castle gate -->
+  <path d="M20,20 L40,100" stroke="#32CD32" stroke-width="5"/>
+
+  <!-- Castle Wall -->
+  <rect id="castle-wall" x="90" y="70" width="300" height="120" fill="#6C5B4E" stroke="black"/>
+  <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+  <use href="#castle-wall" style="mix-blend-mode:multiply; filter:url(#blur);"/>
+
+  <!-- Castle Tower -->
+  <polygon id="castle-tower" points="420,70 450,10 420,30" fill="#8B7D6B" stroke="black"/>
+  <feSpecularLighting in="SourceAlpha" surfaceScale="3" specularConstant=".75"
+      specularExponent="20" lighting-color="#bbbbbb" result="specOut">
+    <fePointLight x="-5000" y="-10000" z="20000"/>
+  </feSpecularLighting>
+  <use href="#castle-tower" style="mix-blend-mode:screen; filter:url(#specOut);"/>
+
+  <!-- Path to the castle tower -->
+  <path d="M150,150 L420,70" stroke="#FF69B4" stroke-width="5"/>
+
+</svg>

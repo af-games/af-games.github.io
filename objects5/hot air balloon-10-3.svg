@@ -1,0 +1,19 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ground -->
+  <rect x="50" y="400" width="700" height="200" fill="#8B4513"/>
+
+  <!-- Hot Air Balloon Basket -->
+  <circle cx="400" cy="600" r="80" fill="#D2B48C"/>
+  <path d="M400,600 Q350,650 300,600" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Balloon Envelope -->
+  <ellipse cx="400" cy="200" rx="200" ry="400" fill="#FFD700"/>
+
+  <!-- Basket Rope -->
+  <path d="M400,600 Q350,500 300,600" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Burner Flame -->
+  <polygon points="400,600 375,590 425,590" fill="#FF4500"/>
+
+</svg>

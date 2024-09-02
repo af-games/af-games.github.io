@@ -1,0 +1,21 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Face -->
+  <ellipse cx="100" cy="100" rx="80" ry="70" fill="#FFC300"/>
+  <circle cx="90" cy="60" r="40" fill="#FFB973"/>
+
+  <!-- Eyes -->
+  <circle cx="80" cy="50" r="5" fill="black"/>
+  <circle cx="120" cy="50" r="5" fill="black"/>
+
+  <!-- Nose -->
+  <polygon points="95,65,105,75,105,65" fill="#FF8C00"/>
+
+  <!-- Mane (as simple strokes) -->
+  <path d="M40,30 Q60,20 80,30 Q100,20 120,30 Q100,40 80,50 Q60,40 40,50" stroke="#FFC300" fill="transparent"/>
+
+  <!-- Roar lines (as simple strokes) -->
+  <path d="M70,80 L90,100 L110,80" stroke="#FFB973" fill="transparent"/>
+  <path d="M65,90 L85,110 L105,90" stroke="#FFB973" fill="transparent"/>
+
+</svg>

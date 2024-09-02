@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Venturing forth and encountering mountains (polygons) - let's start with Mount Everest:**
+
+```svg
+  <polygon points="400,10 500,80 600,10" fill="#8B7D6B" stroke="black"/>
+```
+
+3. **Discovering valleys (paths) - the Khumbu Valley:**
+
+```svg
+  <path d="M400,20 Q500,100 600,20" stroke="#696969" fill="transparent"/>
+```
+
+4. **Encountering forests (circles and ellipses) - the Sagarmatha National Park:**
+
+```svg
+  <!-- Circle for a single tree -->
+  <circle cx="150" cy="300" r="20" fill="#008000"/>
+
+  <!-- Ellipse for the overall forest shape -->
+  <ellipse cx="450" cy="350" rx="150" ry="100" fill="#66CDAA"/>
+```
+
+5. **Finally, discovering a hot air balloon (circle with text) - our goal!**
+
+```svg
+  <!-- The balloon itself -->
+  <circle cx="700" cy="200" r="50" fill="#FFD700"/>
+
+  <!-- The text "Balloon" inside the circle -->
+  <text x="680" y="190" font-family="Verdana" font-size="30">Balloon</text>
+```
+
+6. **Closing the map:**
+
+```svg
+</svg>

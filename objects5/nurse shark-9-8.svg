@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+
+  <!-- Body -->
+  <circle cx="300" cy="400" r="250" stroke="black" stroke-width="50" fill="url(#gradient)"/>
+
+  <!-- Dorsal fin -->
+  <rect x="180" y="120" width="140" height="40" fill="darkgray"/>
+
+  <!-- Pectoral fins -->
+  <rect x="50" y="270" width="130" height="30" fill="lightgray"/>
+  <rect x="420" y="270" width="130" height="30" fill="lightgray"/>
+
+  <!-- Caudal fin -->
+  <rect x="260" y="580" width="80" height="60" fill="black"/>
+
+  <!-- Lace-like paths (outerwear and accents) -->
+  <path d="M150,350 Q250,450 350,350 Q450,450 550,350" stroke="lightgray" stroke-width="20"/>
+  <path d="M280,200 Q320,150 360,200 Q400,250 440,200" stroke="white" stroke-width="20"/>
+
+</svg>

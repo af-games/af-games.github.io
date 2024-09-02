@@ -1,0 +1,24 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="125" rx="100" ry="90" fill="#3D3D3D"/>
+
+  <!-- Head -->
+  <ellipse cx="75" cy="30" rx="60" ry="45" fill="#3D3D3D"/>
+
+  <!-- Wings -->
+  <rect x="40" y="60" width="80" height="60" fill="#3D3D3D"/>
+  <rect x="120" y="60" width="80" height="60" fill="#3D3D3D"/>
+
+  <!-- Feet -->
+  <rect x="50" y="170" width="40" height="80" fill="#3D3D3D"/>
+  <rect x="130" y="170" width="40" height="80" fill="#3D3D3D"/>
+
+  <!-- Beak -->
+  <polygon points="65,45 95,45 75,25" fill="#3D3D3D"/>
+
+  <!-- Eyes -->
+  <circle cx="60" cy="25" r="10" fill="#FFFFFF"/>
+  <circle cx="85" cy="25" r="10" fill="#FFFFFF"/>
+
+</svg>

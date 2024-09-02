@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
+
+  <!-- Envelope -->
+  <circle cx="0" cy="50" r="75" stroke="#FF9933" stroke-width="4" fill="transparent"/>
+
+  <!-- Basket -->
+  <rect x="-15" y="-25" width="30" height="50" stroke="#6B4226" stroke-width="4" fill="brown"/>
+
+  <!-- Burner -->
+  <rect x="-40" y="25" width="20" height="30" stroke="#FF9933" stroke-width="4" fill="orange"/>
+
+  <!-- Gondola -->
+  <rect x="-12" y="-75" width="24" height="30" stroke="#6B4226" stroke-width="4" fill="brown"/>
+
+  <!-- Deflated envelope lines -->
+  <path d="M0,50 V-75 M15,50 V-75 M-15,50 V-75 M-30,50 V-75" stroke="#FF9933" stroke-width="4"/>
+
+</svg>

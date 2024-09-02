@@ -1,0 +1,14 @@
+<svg width="200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,20 Q150,50 200,20" fill="#FFCBA7" stroke="#8B4513" stroke-width="5"/>
+
+  <!-- Balloons -->
+  <circle cx="60" cy="80" r="40" fill="#FFCBA7"/>
+  <circle cx="140" cy="120" r="40" fill="#FFCBA7"/>
+  <circle cx="220" cy="90" r="40" fill="#FFCBA7"/>
+
+  <!-- Beads -->
+  <circle cx="80" cy="55" r="3" fill="#FFA500"/>
+  <circle cx="125" cy="85" r="3" fill="#FFA500"/>
+  <circle cx="165" cy="70" r="3" fill="#FFA500"/>
+</svg>

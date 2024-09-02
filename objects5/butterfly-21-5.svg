@@ -1,0 +1,22 @@
+<svg width="200px" height="200px" version="1.1" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path id="body" d="M50,80 Q90,40 150,70 Q90,100 50,80"
+        fill="#FFC1D6" stroke="#FFAEB9" stroke-width="2"/>
+
+  <!-- Wings -->
+  <use xlink:href="#body"/>
+  <use xlink:href="#body" transform="rotate(144,100,70) translate(-150,-70)" fill-opacity=".7"/>
+  <use xlink:href="#body" transform="rotate(216,100,70) translate(-150,-70)" fill-opacity=".7"/>
+
+  <!-- Antennae -->
+  <line x1="130" y1="40" x2="180" y2="20" stroke="#7C6F77" stroke-width="3"/>
+  <line x1="130" y1="40" x2="90" y2="20" stroke="#7C6F77" stroke-width="3"/>
+
+  <!-- Eyes -->
+  <circle cx="115" cy="55" r="8" fill="#FFF"/>
+  <circle cx="145" cy="55" r="8" fill="#FFF"/>
+  <circle cx="115" cy="55" r="3" fill="#000"/>
+  <circle cx="145" cy="55" r="3" fill="#000"/>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Balloon body -->
+  <ellipse cx="150" cy="200" rx="80" ry="120"
+    fill="#ffd700" stroke="none"/>
+
+  <!-- Balloon highlight (for lighting effect) -->
+  <circle cx="135" cy="190" r="60"
+    fill="none" stroke="#fff" stroke-width="10"
+    opacity="0.8"/>
+
+  <!-- Balloon shadow -->
+  <ellipse cx="165" cy="210" rx="70" ry="110"
+    fill="none" stroke="#333" stroke-width="10"
+    opacity="0.4"/>
+
+  <!-- Balloon string -->
+  <rect x="180" y="10" width="40" height="160"
+    rx="20" ry="20"
+    fill="#707070" stroke="none"/>
+
+</svg>

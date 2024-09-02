@@ -1,0 +1,31 @@
+<svg width="24cm" height="36cm" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bodice -->
+  <rect x="10cm" y="7.5cm" width="20cm" height="35cm" style="fill:#ADD8E6; stroke:black;" />
+
+  <!-- Sleeves -->
+  <circle cx="5cm" cy="17.5cm" r="12cm" style="fill:#ADD8E6; stroke:black;">
+    <animateMotion begin="0s" dur="2s" repeatCount="indefinite">
+      <mpath href="#pathSleeveLeft"/>
+    </animateMotion>
+  </circle>
+
+  <circle cx="17.5cm" cy="17.5cm" r="12cm" style="fill:#ADD8E6; stroke:black;">
+    <animateMotion begin="0s" dur="2s" repeatCount="indefinite">
+      <mpath href="#pathSleeveRight"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Tentacles -->
+  <path id="tentacle1" d="M10cm,35c-2,-4 -6,-8 -10,-6s-2,4 -4,8" style="fill:url(#gradient); stroke:black;">
+    <animate attributeName="d" values="M10cm,35c-2,-4 -6,-8 -10,-6s-2,4 -4,8;M10cm,35c-1.5,-3 -4.5,-6 -7.5,-4.5s-1.5,3 -3,6" begin="0s" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <!-- Add more tentacles following the same pattern -->
+
+  <!-- Gradients -->
+  <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%"   style="stop-color:#B3E5FC; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#0D1926; stop-opacity:1"/>
+  </linearGradient>
+
+</svg>

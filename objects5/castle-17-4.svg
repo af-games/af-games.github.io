@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Castle -->
+  <path id="castle" d="M100,300 H400 V200 Z M200,275 Q250,150 350,275 T450,350"/>
+
+  <!-- Gates -->
+  <g id="gates">
+    <path d="M100,300 H150 V400 Z"/>
+    <path transform="translate(100,400) rotate(-90)" d="M0,-50 L-50,-50 0,-100 Z" />
+  </g>
+
+  <!-- Drawbridge -->
+  <path id="drawbridge" d="M200,375 Q250,425 300,375 T350,450"/>
+
+  <!-- Animations -->
+
+  <!-- Gates opening -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 100 400"
+    to="90 100 400"
+    dur="2s"
+    begin="0s"
+    repeatCount="indefinite"
+    fill="freeze" />
+
+  <!-- Drawbridge lowering -->
+  <animateTransform
+    attributeName="d"
+    type="path"
+    from="M200,375 Q250,425 300,375 T350,450"
+    to="M200,375 Q250,325 300,375 T350,250"
+    dur="3s"
+    begin="gates.begin + 1s"
+    repeatCount="indefinite"
+    fill="freeze" />
+
+</svg>

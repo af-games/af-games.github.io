@@ -1,0 +1,22 @@
+<svg>` tag. I've kept it minimalistic while maintaining symmetry and balance:
+
+```xml
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake base -->
+  <rect x="50" y="175" width="100" height="75" fill="#D2691E"/>
+
+  <!-- Cake layers -->
+  <circle cx="100" cy="125" r="50" fill="#FFF"/>
+  <circle cx="100" cy="75" r="45" fill="#FFF"/>
+  <circle cx="100" cy="25" r="40" fill="#FFF"/>
+
+  <!-- Frosting -->
+  <path d="M60,90 Q90,130 140,90 Q90,50 60,90" fill="#FFFFFF"/>
+  <path d="M70,80 Q95,125 145,80 Q105,55 70,80" stroke="#CCCCCC"/>
+
+  <!-- Top decoration -->
+  <circle cx="100" cy="15" r="15" fill="#C39BD3"/>
+  <path d="M85,15 L95,25 Z" stroke="#CCCCCC"/>
+
+</svg>

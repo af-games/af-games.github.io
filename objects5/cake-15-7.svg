@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Landmarks -->
+<circle cx="100" cy="150" r="50" fill="#ffd700" stroke="#000" stroke-width="2"/>
+<text x="90" y="160" text-anchor="middle" font-family="Verdana" font-size="14" fill="#000">Cake's Starting Point</text>
+
+<rect x="350" y="200" width="150" height="100" fill="#add8e6" stroke="#000" stroke-width="2"/>
+<text x="375" y="270" text-anchor="middle" font-family="Verdana" font-size="14" fill="#000">Crystal Falls</text>
+
+<polygon points="400,400 600,400 500,550" fill="#8b7d6b" stroke="#000" stroke-width="2"/>
+<text x="500" y="430" text-anchor="middle" font-family="Verdana" font-size="14" fill="#000">Mysterious Maze</text>
+
+<!-- Routes -->
+<line x1="100" y1="150" x2="350" y2="200" stroke="#ffa500" stroke-width="5"/>
+
+<!-- Uncharted Territory -->
+<rect x="0" y="0" width="800" height="600" fill="#fff" stroke="#000" stroke-width="1"/>
+
+</svg>

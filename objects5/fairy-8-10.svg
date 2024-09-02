@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <!-- Fairy's body (Hexagon) -->
+  <polygon points="200,50 150,150 250,150"
+           style="fill:#FF6347; stroke:#00BFFF; stroke-width:5" />
+
+  <!-- Fairy's left wing (Triangle) -->
+  <polygon points="120,80 200,180 0,180"
+           style="fill:#F9A589; stroke:#00BFFF; stroke-width:5" />
+
+  <!-- Fairy's right wing (Triangle) -->
+  <polygon points="280,80 400,180 200,180"
+           style="fill:#FFD1DC; stroke:#00BFFF; stroke-width:5" />
+
+  <!-- Fairy's face (Circle) -->
+  <circle cx="200" cy="70" r="30"
+          style="fill:#FFFFFF; stroke:#00BFFF; stroke-width:5" />
+
+</svg>

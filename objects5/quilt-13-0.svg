@@ -1,0 +1,16 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Quilt background -->
+  <rect x="50" y="50" width="300" height="300" fill="#f2f2f2"/>
+
+  <!-- Top left corner blocks (pattern) -->
+  <rect x="75" y="75" width="150" height="150" fill="#ff69b4"/>
+  <rect x="165" y="135" width="135" height="165" fill="#32cd32"/>
+
+  <!-- Binding -->
+  <circle cx="75" cy="50" r="25" stroke="#000" stroke-width="5" fill="transparent"/>
+  <circle cx="425" cy="50" r="25" stroke="#000" stroke-width="5" fill="transparent"/>
+  <circle cx="75" cy="425" r="25" stroke="#000" stroke-width="5" fill="transparent"/>
+  <circle cx="425" cy="425" r="25" stroke="#000" stroke-width="5" fill="transparent"/>
+
+</svg>

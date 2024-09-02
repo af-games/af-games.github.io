@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Balloon envelope -->
+<ellipse cx="250" cy="100" rx="200" ry="400"
+         fill="transparent" stroke="black"/>
+
+<!-- Basket -->
+<rect x="170" y="420" width="80" height="60"
+      fill="tan" stroke="black"/>
+
+<!-- Fin-like rudder -->
+<path d="M350 50 L300 100 L350 150 Z"
+      fill="transparent" stroke="black"/>
+
+</svg>

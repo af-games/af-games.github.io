@@ -1,0 +1,27 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="0" cy="50" rx="125" ry="50" fill="#59332e"/>
+
+  <!-- Pectoral fins -->
+  <ellipse cx="-60" cy="-30" rx="40" ry="20" fill="#d3d3d3"/>
+  <ellipse cx="60" cy="-30" rx="40" ry="20" fill="#d3d3d3"/>
+
+  <!-- Pelvic fins -->
+  <ellipse cx="-25" cy="70" rx="20" ry="10" fill="#d3d3d3"/>
+  <ellipse cx="25" cy="70" rx="20" ry="10" fill="#d3d3d3"/>
+
+  <!-- Dorsal fin -->
+  <ellipse cx="0" cy="30" rx="5" ry="30" fill="#d3d3d3"/>
+
+  <!-- Caudal fin -->
+  <ellipse cx="0" cy="80" rx="25" ry="20" fill="#d3d3d3"/>
+
+  <!-- Eyes -->
+  <circle cx="-25" cy="30" r="10" fill="black"/>
+  <circle cx="25" cy="30" r="10" fill="black"/>
+
+  <!-- Mouth -->
+  <path d="M-60,-50 Q0,-70 60,-50" stroke="#ffffff" stroke-width="10" fill="transparent"/>
+
+</svg>

@@ -1,0 +1,24 @@
+<svg width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="0" cy="0" rx="50" ry="30" fill="#000"/>
+
+  <!-- Left Wing Outer -->
+  <polygon points="-18,-4 -27,-9 -26,12 -17,16" fill="#2e8b57"/>
+  <!-- Left Wing Inner -->
+  <polygon points="-18,-4 -27,-9 -26,12 -17,16" fill="#c36435"/>
+
+  <!-- Right Wing Outer (Mirror of Left Wing) -->
+  <polygon points="18,-4 27,-9 26,12 17,16" fill="#2e8b57"/>
+  <!-- Right Wing Inner (Mirror of Left Wing) -->
+  <polygon points="18,-4 27,-9 26,12 17,16" fill="#c36435"/>
+
+  <!-- Left Antenna -->
+  <ellipse cx="-50" cy="10" rx="4" ry="1" fill="#000"/>
+  <!-- Right Antenna (Mirror of Left Antenna) -->
+  <ellipse cx="50" cy="10" rx="4" ry="1" fill="#000"/>
+
+  <!-- Head -->
+  <circle cx="0" cy="10" r="6" fill="#000"/>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Plate -->
+  <rect x="50" y="100" width="400" height="300" fill="#FFFDD0"/>
+
+  <!-- Igloo -->
+  <path d="M200,150 a80,80 0 1,0 160,0 a80,80 0 1,0 -160,0" fill="#C3E6FD"/>
+  <circle cx="200" cy="70" r="40" fill="#FFFFFF"/>
+
+  <!-- Snow-capped Mountains -->
+  <polygon points="50,150 150,50 250,150 350,50 450,150" fill="#87CEEB"/>
+  <rect x="50" y="150" width="400" height="50" fill="#FFFFFF"/>
+
+  <!-- Pine Trees -->
+  <polygon points="120,200 180,130 240,200" fill="#006400"/>
+  <polygon points="280,200 340,130 400,200" fill="#006400"/>
+
+  <!-- Frozen Lake -->
+  <rect x="50" y="250" width="400" height="75" fill="#ADD8E6"/>
+  <path d="M100,300 Q150,350 200,300 T350,300 H450 V375 Z" stroke="#FFFFFF" fill="transparent"/>
+
+  <!-- Utensils (Fork & Knife) -->
+  <path d="M300,350 v-50 l-20,-60 40,-10 z" fill="#C3E6FD"/>
+  <path d="M380,350 v-50 l20,-60 -40,-10 z" fill="#C3E6FD"/>
+
+  <!-- Garnishes (Snowflakes) -->
+  <circle cx="250" cy="275" r="10" fill="#FFFFFF"/>
+  <circle cx="280" cy="290" r="8" fill="#FFFFFF"/>
+  <circle cx="320" cy="265" r="12" fill="#FFFFFF"/>
+
+</svg>

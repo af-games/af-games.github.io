@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+
+  <!-- Body -->
+  <rect x="150" y="250" width="300" height="400" fill="#ffcc99" opacity="0.9"/>
+
+  <!-- Neck -->
+  <path d="M250,250 Q275,300 300,350" stroke="none" fill="#ffb366" opacity="1"/>
+
+  <!-- Head -->
+  <circle cx="300" cy="200" r="80" stroke="none" fill="#fff3e0" opacity="1"/>
+
+  <!-- Legs -->
+  <g transform="translate(150, 650)">
+    <rect x="0" y="0" width="50" height="150" fill="#ffcc99" opacity="0.8"/>
+    <rect x="75" y="0" width="50" height="150" fill="#ffcc99" opacity="0.8"/>
+    <rect x="225" y="0" width="50" height="150" fill="#ffcc99" opacity="0.8"/>
+    <rect x="275" y="0" width="50" height="150" fill="#ffcc99" opacity="0.8"/>
+  </g>
+
+  <!-- Spots -->
+  <circle cx="200" cy="350" r="30" stroke="black" stroke-width="2" fill="white"/>
+  <circle cx="400" cy="350" r="30" stroke="black" stroke-width="2" fill="white"/>
+  <circle cx="200" cy="550" r="30" stroke="black" stroke-width="2" fill="white"/>
+  <circle cx="400" cy="550" r="30" stroke="black" stroke-width="2" fill="white"/>
+
+  <!-- Shadow -->
+  <rect x="150" y="790" width="300" height="10" fill="#663300" opacity="0.4"/>
+
+</svg>

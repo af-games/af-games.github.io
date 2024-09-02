@@ -1,0 +1,25 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Fairy's Body -->
+  <circle cx="75" cy="150" r="60" stroke="#ff99cc" stroke-width="2" fill="#ffe4e1"/>
+
+  <!-- Wings -->
+  <path d="M30,80 Q50,120 120,120 Q150,80 170,120" stroke="#ff99cc" stroke-width="2" fill="transparent"/>
+
+  <!-- Head -->
+  <polygon points="60,40 130,40 95,0" stroke="#ff99cc" stroke-width="2" fill="#ffe4e1"/>
+
+  <!-- Face -->
+  <circle cx="95" cy="70" r="20" stroke="#ff99cc" stroke-width="2" fill="#ffe4e1"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="60" r="3" fill="#000"/>
+  <circle cx="105" cy="60" r="3" fill="#000"/>
+
+  <!-- Dress -->
+  <rect x="40" y="210" width="120" height="70" stroke="#ff99cc" stroke-width="2" fill="#ffe4e1"/>
+
+  <!-- Wand -->
+  <line x1="85" y1="230" x2="160" y2="230" stroke="#ff99cc" stroke-width="2"/>
+  <circle cx="160" cy="230" r="5" fill="#ff99cc"/>
+
+</svg>

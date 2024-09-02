@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Bell (body) -->
+  <circle cx="0" cy="-30" r="30" fill="#87CEEB">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Tentacles -->
+  <g stroke="#87CEEB" stroke-width="5">
+    <path d="M-30,-40 Q-40,-20 -30,0" fill="transparent"/>
+    <animate attributeName="d" values="M-30,-40 Q-40,-20 -30,0;M-30,-40 Q-20,-20 -30,0" dur="1s" repeatCount="indefinite"/>
+
+    <!-- Repeat the above path and animation three more times around the circle for a total of four tentacles -->
+  </g>
+
+  <!-- Oral arms (smaller tentacles) -->
+  <g stroke="#87CEEB" stroke-width="3">
+    <path d="M0,-20 Q-15,-10 -10,-20" fill="transparent"/>
+    <animate attributeName="d" values="M0,-20 Q-15,-10 -10,-20;M0,-20 Q0,-10 -10,-20" dur="1.5s" repeatCount="indefinite"/>
+
+    <!-- Repeat the above path and animation seven more times around the circle for a total of eight oral arms -->
+  </g>
+
+</svg>

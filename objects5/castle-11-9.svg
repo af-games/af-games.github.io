@@ -1,0 +1,18 @@
+<svg width="210" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define castle pattern -->
+  <defs>
+    <pattern id="castlePattern" patternUnits="userSpaceOnUse" width="50" height="80">
+      <rect width="50" height="80" fill="#b9f1ff"/>
+      <polygon points="25,5 50,5 75,30 50,60 25,60" fill="#4c92a6"/>
+    </pattern>
+  </defs>
+
+  <!-- Place castles -->
+  <rect x="10" y="10" width="50" height="80" fill="url(#castlePattern)" />
+  <use href="#castlePattern" transform="translate(90, 40) rotate(-20)" />
+  <use href="#castlePattern" transform="translate(160, 70) scale(0.8)" />
+
+  <!-- Create winding path -->
+  <path d="M30,75 Q50,90 70,75 Q90,100 110,75 Q130,50 160,75" stroke="#4c92a6" fill="transparent" stroke-width="2"/>
+
+</svg>

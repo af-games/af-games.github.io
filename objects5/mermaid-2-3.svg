@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -500 1000 1000">
+  <!-- Sea -->
+  <path d="M-500 0 A500 500 0 1 1 500 0 A500 500 0 1 1 -500 0 z" fill="#003D66" />
+
+  <!-- Islands -->
+  <path d="M-200 0 Q-100 100, 0 0 Q 100 100, 200 0..." stroke="#8DC63C" fill="#8DC63C" />
+  <path d="M-50 0 L 50 0 Z" stroke="#4CAF50" fill="#4CAF50" />
+
+  <!-- Mountain -->
+  <polyline points="-250,-100 -200,-50 -150,-100" stroke="#A9A9A9" fill="none" />
+</svg>

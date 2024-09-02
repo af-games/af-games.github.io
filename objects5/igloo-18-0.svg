@@ -1,0 +1,22 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo Base -->
+  <circle cx="200" cy="250" r="150" fill="#FFFFFF"/>
+
+  <!-- Igloo Dome -->
+  <ellipse cx="200" cy="150" rx="100" ry="75" fill="#F5DEB3"/>
+
+  <!-- Door -->
+  <rect x="160" y="250" width="80" height="120" fill="#6441A5"/>
+  <path d="M160,250 h80 v-120 H160 z" stroke="#3F277D" stroke-width="5"/>
+
+  <!-- Roof Details -->
+  <polygon points="200,75 150,150 250,150" fill="#FFFFFF"/>
+  <polygon points="200,75 250,150 290,75" fill="#FFFFFF"/>
+  <line x1="150" y1="150" x2="250" y2="150" stroke="#A98467"/>
+  <line x1="200" y1="75" x2="290" y2="75" stroke="#A98467"/>
+
+  <!-- Window -->
+  <circle cx="120" cy="230" r="25" fill="#6441A5"/>
+
+</svg>

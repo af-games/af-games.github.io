@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bar 1 -->
+  <circle cx="50" cy="400" r="20" fill="blue"/>
+  <animateMotion begin="0s" dur="2s" repeatCount="indefinite">
+    <mpath href="#bar1Transition"/>
+  </animateMotion>
+  <path id="bar1Transition" d="M50,380 Q75,400 100,380"/>
+
+  <!-- Beat 2 -->
+  <circle cx="200" cy="400" r="20" fill="purple"/>
+  <animateMotion begin="2s" dur="2s" repeatCount="indefinite">
+    <mpath href="#bar1Transition"/>
+  </animateMotion>
+
+  <!-- Beat 3 -->
+  <circle cx="350" cy="400" r="20" fill="pink"/>
+  <animateMotion begin="4s" dur="2s" repeatCount="indefinite">
+    <mpath href="#bar1Transition"/>
+  </animateMotion>
+
+  <!-- Beat 4 -->
+  <circle cx="500" cy="400" r="20" fill="blue"/>
+  <animateMotion begin="6s" dur="2s" repeatCount="indefinite">
+    <mpath href="#bar1Transition"/>
+  </animateMotion>
+
+  <!-- Bar 2 -->
+  <!-- Repeat similar structure as bar 1, but adjust timing and colors -->
+
+</svg>

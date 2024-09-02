@@ -1,0 +1,16 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo -->
+  <circle cx="150" cy="200" r="100" fill="lightblue"/>
+  <path d="M150,300 A100,100 0 0 0 150,70"/>
+
+  <!-- Doorway -->
+  <rect x="90" y="280" width="70" height="40" fill="brown"/>
+
+  <!-- Bed -->
+  <rect x="130" y="160" width="30" height="30" fill="darkkhaki"/>
+
+  <!-- Window -->
+  <circle cx="125" cy="180" r="15" fill="white"/>
+
+</svg>

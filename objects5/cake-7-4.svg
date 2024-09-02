@@ -1,0 +1,20 @@
+<svg>` tag. I've kept it minimalistic but you can expand upon this foundation to create more intricate designs.
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 100">
+
+  <!-- Cake Base -->
+  <rect x="20" y="70" width="110" height="30" fill="#C6804A"/>
+
+  <!-- Cake Top -->
+  <path d="M20,20 Q95,0 130,20 Q95,40 20,20" fill="#FFD700"/>
+
+  <!-- Frosting Border -->
+  <rect x="18" y="68" width="114" height="34" rx="15" fill="white" stroke="#C6804A" stroke-width="2"/>
+
+  <!-- Cake Topping -->
+  <circle cx="75" cy="55" r="35" fill="#FFD700">
+    <text x="75" y="59" font-family="Verdana" font-size="16" text-anchor="middle">Happy Birthday!</text>
+  </circle>
+
+</svg>

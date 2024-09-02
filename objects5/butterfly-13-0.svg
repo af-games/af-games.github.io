@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 180">
+  <!-- Body -->
+  <ellipse cx="75" cy="90" rx="40" ry="60" fill="#0ff" id="body"/>
+
+  <!-- Left Wing -->
+  <path d="M20,120 Q50,130 75,120 T90,130 Z" fill="#a020f0" id="wing-left"/>
+  <path d="M60,140 A40,40 0 0 0 80,180 Z" fill="#a020f0" id="tip-left"/>
+
+  <!-- Right Wing -->
+  <path d="M130,120 Q100,130 75,120 T60,130 Z" fill="#a020f0" id="wing-right"/>
+  <path d="M80,140 A40,40 0 0 1 90,180 Z" fill="#a020f0" id="tip-right"/>
+
+  <!-- Antennae -->
+  <line x1="35" y1="70" x2="60" y2="50" stroke="black" id="antenna-left"/>
+  <line x1="115" y1="70" x2="100" y2="50" stroke="black" id="antenna-right"/>
+
+  <!-- Details -->
+  <path d="M65,90 A30,30 0 1 0 85,90 a30,30 0 1 0 70,80 z M75,80 a5,5 0 1 1 10,0 a5,5 0 1 1 -10,0" fill="black" id="details"/>
+</svg>

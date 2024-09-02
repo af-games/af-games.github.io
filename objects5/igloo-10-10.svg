@@ -1,0 +1,22 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <defs>
+    <!-- Define colors for musical notes -->
+    <linearGradient id="notes" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Bar 1 -->
+  <circle cx="-40" cy="0" r="30" fill="url(#notes)" transform="rotate(-30 -40 0)">
+    <animateMotion dur="5s" repeatCount="indefinite">
+      <mpath href="#bar1"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Bar transitions -->
+  <path id="bar1" d="M-40,0 A30,30 0 0,0 -20,0 A30,30 0 0,0 0,0 A30,30 0 0,0 20,0 A30,30 0 0,0 40,0" fill="none"/>
+
+  <!-- Repeat the pattern for Bar 2, Bar 3, and Bar 4 -->
+
+</svg>

@@ -1,0 +1,10 @@
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="150" cy="400" r="150" fill="#FFC0CB" stroke="#FFFFFF" stroke-width="10"/>
+  <!-- Skirt (Balloon) -->
+  <ellipse cx="300" cy="600" rx="250" ry="125" fill="#FFD700" stroke="#FFA500" stroke-width="10"/>
+  <!-- Beads -->
+  <circle cx="180" cy="480" r="3" fill="#FFF5EE"/>
+  <circle cx="210" cy="490" r="3" fill="#FFF5EE"/>
+  <!-- Repeat beads pattern... -->
+</svg>

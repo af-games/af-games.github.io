@@ -1,0 +1,23 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body -->
+  <ellipse cx="100" cy="75" rx="80" ry="120"
+           fill="#ffb6c1" stroke="#ff9faa" stroke-width="4"/>
+  <path d="M100,75 Q80,30 60,75" fill="transparent"
+        stroke="#ff9faa" stroke-width="4"/>
+
+  <!-- Balloon string -->
+  <line x1="60" y1="75" x2="60" y2="25"
+        stroke="#555" stroke-width="3"/>
+
+  <!-- Balloon knot -->
+  <circle cx="60" cy="55" r="10"
+          fill="#ddd" stroke="#555" stroke-width="2"/>
+
+  <!-- Balloon shading -->
+  <rect x="70" y="90" width="60" height="40"
+        fill="#ffb6c1" opacity="0.3"/>
+  <polygon points="85,90 100,100 85,110"
+           fill="#ffb6c1" opacity="0.2"/>
+
+</svg>

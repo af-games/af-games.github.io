@@ -1,0 +1,26 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Clues -->
+  <rect id="castle_wall" x="50" y="100" width="100" height="100" fill="lightgray"/>
+  <path id="tower_tops" d="M60,50 a50,50 0 0 1 100,0" stroke="black"/>
+  <circle id="door" cx="90" cy="140" r="20" fill="brown"/>
+  <path id="moat" d="M70,160 Q85,180 105,160" stroke="darkblue"/>
+  <rect id="windows" x="70" y="120" width="20" height="40" fill="lightgray"/>
+
+  <!-- Mask -->
+  <mask id="castle_mask">
+    <rect x="50" y="100" width="100" height="100"/>
+    <circle cx="90" cy="130" r="25" fill="white"/>
+    <path d="M70,160 Q85,180 105,160" stroke-width="10" stroke="white"/>
+  </mask>
+
+  <!-- Final Castle -->
+  <g mask="url(#castle_mask)">
+    <rect x="50" y="100" width="100" height="100" fill="gray"/>
+    <path d="M60,50 a50,50 0 0 1 100,0" stroke="black"/>
+    <circle cx="90" cy="140" r="20" fill="brown"/>
+    <path d="M70,160 Q85,180 105,160" stroke="darkblue"/>
+    <rect x="70" y="120" width="20" height="40" fill="gray"/>
+  </g>
+
+</svg>

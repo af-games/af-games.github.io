@@ -1,0 +1,36 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="100%" height="100%" fill="#FFF5E6"/>
+
+<!-- Hot Air Balloon -->
+<g id="hot-air-balloon">
+  <!-- Basket -->
+  <path d="M40 300 Q70 280, 140 290 Q170 260, 200 300 Q230 260, 260 290 Q300 250, 340 290" fill="#D48A4B"/>
+  <!-- Balloon -->
+  <ellipse cx="175" cy="110" rx="100" ry="200" fill="#F3722C"/>
+  <!-- Strings -->
+  <path d="M175 110 L175 140" stroke="#7B4D3A" stroke-width="4"/>
+</g>
+<use xlink:href="#hot-air-balloon" x="80" y="260"/>
+
+<!-- Tableware -->
+<!-- Plate -->
+<ellipse cx="300" cy="250" rx="150" ry="170" fill="#FFFACD"/>
+<!-- Cutlery (Fork) -->
+<path d="M410 280 L460 320 H440 Z" stroke="#C09366" stroke-width="4"/>
+
+<!-- Garnishes -->
+<!-- Bread Roll -->
+<circle cx="500" cy="270" r="30" fill="#FFFACD"/>
+<!-- Cherry Tomatoes -->
+<circle cx="510" cy="265" r="8" fill="#FF6A6A"/>
+<circle cx="505" cy="275" r="8" fill="#FF6A6A"/>
+
+<!-- Main Ingredient (Cheese) -->
+<ellipse cx="430" cy="250" rx="70" ry="90" fill="#FDDF5E"/>
+
+<!-- Text -->
+<text x="15%" y="90%" text-anchor="middle" dominant-baseline="middle" font-size="60">Bon Appétit!</text>
+
+</svg>

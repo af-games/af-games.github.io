@@ -1,0 +1,17 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Vest -->
+  <path d="M150 80 Q175 50, 200 80 L200 180 Q175 210, 150 180 Z" fill="#A56941" stroke="#CD7F32"/>
+  <path d="M150 180 Q175 210, 200 180 L200 280 Q175 310, 150 280 Z" fill="#A56941"/>
+
+  <!-- Belt -->
+  <rect x="160" y="240" width="80" height="20" rx="10" fill="#CD7F32"/>
+
+  <!-- Shorts -->
+  <path d="M120 300 Q150 270, 180 300 L180 400 Q150 430, 120 400 Z" fill="#90EE90"/>
+
+  <!-- Collar -->
+  <path d="M150 460 Q175 490, 200 460 L200 560 Q175 590, 150 560 Z" fill="#228B22"/>
+
+  <!-- Dinosaur form (for reference) -->
+  <circle cx="200" cy="350" r="150" stroke="black"/>
+</svg>

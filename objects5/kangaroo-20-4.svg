@@ -1,0 +1,17 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="350" width="600" height="100" fill="#8B4513"/>
+
+  <!-- Body -->
+  <ellipse cx="50" cy="275" rx="40" ry="60" fill="#8B8378"/>
+
+  <!-- Head -->
+  <circle cx="80" cy="250" r="20" fill="#FFCBA7"/>
+
+  <!-- Limbs -->
+  <rect x="30" y="290" width="50" height="80" fill="#8B8378"/>
+  <rect x="110" y="290" width="50" height="80" fill="#8B8378"/>
+
+  <!-- Pouch -->
+  <path d="M120 335 Q90 360 120 380 T150 380 T120 335" fill="#FFCBA7"/>
+</svg>

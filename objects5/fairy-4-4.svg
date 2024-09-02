@@ -1,0 +1,21 @@
+<svg width="60" height="80" viewBox="0 0 60 80" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<ellipse cx="30" cy="45" rx="20" ry="15" fill="#ffb6c1"/>
+
+<!-- Head -->
+<path d="M30,18 A15,7 0 1,0 30,36 A15,7 0 1,0 30,18" fill="#ffd1dd"/>
+
+<!-- Left Wing -->
+<path d="M20,40 Q15,30 20,20 T20,40" fill="#fffaf0"/>
+
+<!-- Right Wing (mirror of left wing) -->
+<path d="M40,40 Q45,30 40,20 T40,40" fill="#fffaf0"/>
+
+<!-- Left Leg -->
+<line x1="25" y1="70" x2="25" y2="66" stroke="#ffb6c1" stroke-width="2"/>
+
+<!-- Right Leg -->
+<line x1="35" y1="70" x2="35" y2="66" stroke="#ffb6c1" stroke-width="2"/>
+
+</svg>

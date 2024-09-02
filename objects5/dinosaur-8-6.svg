@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+```
+
+2. **Mix your ingredients together (combine SVG elements using transforms like translate to place them correctly.)**
+
+   - Circles for head and body:
+     ```xml
+     <circle cx="150" cy="75" r="75"/>
+     <circle cx="150" cy="225" r="60"/>
+     ```
+
+   - Rectangles for legs:
+     ```xml
+     <rect x="80" y="240" width="30" height="120" ry="15"/>
+     <rect x="220" y="240" width="30" height="120" ry="15"/>
+     ```
+
+   - Long rectangle for the tail:
+     ```xml
+     <rect x="90" y="360" width="180" height="30" rx="15"/>
+     ```
+
+   - Paths for arms and eye:
+     ```xml
+     <!-- Left arm -->
+     <path d="M70 240 Q120 120, 180 240"/>
+
+     <!-- Right arm -->
+     <path d="M230 240 Q280 120, 290 240"/>
+
+     <!-- Eye -->
+     <circle cx="150" cy="60" r="20"/>
+     ```
+
+   - Text for label:
+     ```xml
+     <text x="50%" y="95%" dominant-baseline="middle" text-anchor="middle">T-Rex</text>
+     ```
+
+3. **Bake according to the recipe's instructions (output your SVG code.)**
+```xml
+</svg>

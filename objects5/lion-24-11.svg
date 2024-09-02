@@ -1,0 +1,23 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Zoo -->
+<rect x="10" y="10" width="300" height="200" fill="lightgreen" stroke="black"/>
+
+<!-- Lion enclosure -->
+<rect x="50" y="50" width="200" height="150" fill="tan" stroke="black"/>
+
+<!-- Missing lion -->
+<circle cx="200" cy="125" r="30" fill="orange"/>
+
+<!-- Suspect A: A zookeeper -->
+<path d="M320 80 Q340 60, 370 80" stroke="blue"/>
+<path d="M370 120 Q390 100, 400 120" stroke="blue"/>
+
+<!-- Suspect B: A mysterious figure -->
+<path d="M50 80 Q30 60, 50 40" stroke="red"/>
+<path d="M120 40 Q100 20, 120 20" stroke="red"/>
+
+<!-- Interaction between Suspect A and B -->
+<path d="M370 80 Q400 100, 450 80" stroke="purple"/>
+
+</svg>

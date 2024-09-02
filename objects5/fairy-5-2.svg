@@ -1,0 +1,52 @@
+<svg viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Create the body (a large circle):**
+
+```svg
+<circle cx="250" cy="450" r="100" fill="#FFCDEA"/>
+```
+
+3. **Create the head (a smaller circle on top of the body):**
+
+```svg
+<circle cx="250" cy="300" r="75" fill="#FFF8DC"/>
+```
+
+4. **Add the eyes (two small circles within the head):**
+
+```svg
+<circle cx="210" cy="270" r="15" fill="black"/>
+<circle cx="290" cy="270" r="15" fill="black"/>
+```
+
+5. **Draw the hair (a path for a wavy line):**
+
+```svg
+<path d="M 240, 310 Q 260, 280 275, 310 T 290, 280 Z" fill="#6930C3" stroke-width="0"/>
+```
+
+6. **Create the dress (a rectangle at the bottom of the body):**
+
+```svg
+<rect x="175" y="425" width="150" height="75" fill="#FFB6C1"/>
+```
+
+7. **Add the wings (two ellipses on either side of the head):**
+
+```svg
+<ellipse cx="200" cy="350" rx="50" ry="80" fill="#FFFACD"/>
+<ellipse cx="300" cy="350" rx="50" ry="80" fill="#FFFACD"/>
+```
+
+8. **Create the arms (two small rectangles):**
+
+```svg
+<rect x="210" y="400" width="20" height="75" fill="#FFCDEA"/>
+<rect x="270" y="400" width="20" height="75" fill="#FFCDEA"/>
+```
+
+9. **Close the SVG canvas:**
+
+```svg
+</svg>

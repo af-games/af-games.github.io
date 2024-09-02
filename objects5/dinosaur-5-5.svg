@@ -1,0 +1,36 @@
+<svg width="100%" height="50%" viewBox="0 0 1440 320">
+  <!-- Introduction -->
+  <circle cx="60" cy="190" r="50" fill="yellow" stroke="black">
+    <animate attributeName="cy" values="190;140;190" dur="1200ms" repeatCount="indefinite"/>
+  </circle>
+  <rect x="180" y="160" width="50" height="80" fill="green" stroke="black">
+    <animate attributeName="y" values="160;90;160" dur="1200ms" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Verse -->
+  <path d="M300,210 Q450,280 600,210" stroke="blue" fill="transparent">
+    <animate attributeName="d" dur="600ms" repeatCount="indefinite">
+      <keyTime keySplitePoint="0.5">M300,240 Q450,280 600,210</keyTime>
+      <keyTime>M300,210 Q450,280 600,210</keyTime>
+    </animate>
+  </path>
+  <circle cx="720" cy="190" r="50" fill="yellow">
+    <animate attributeName="cy" values="190;140;190" dur="600ms" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Chorus -->
+  <rect x="840" y="160" width="50" height="80" fill="green">
+    <animate attributeName="y" values="160;90;160" dur="300ms" repeatCount="indefinite"/>
+  </rect>
+  <path d="M960,210 Q1110,280 1260,210" stroke="blue">
+    <animate attributeName="d" dur="300ms" repeatCount="indefinite">
+      <keyTime keySplitePoint="0.5">M960,240 Q1110,280 1260,210</keyTime>
+      <keyTime>M960,210 Q1110,280 1260,210</keyTime>
+    </animate>
+  </path>
+
+  <!-- Outro -->
+  <circle cx="1380" cy="190" r="50" fill="yellow">
+    <animate attributeName="cy" values="190;140;190" dur="600ms" repeatCount="indefinite"/>
+  </circle>
+</svg>

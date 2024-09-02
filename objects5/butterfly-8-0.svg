@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Gradient for wings -->
+  <defs>
+    <linearGradient id="wings-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:blue;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:purple;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="180" rx="20" ry="35" fill="#654321"/>
+
+  <!-- Wings -->
+  <g id="wings">
+    <!-- Upper wing -->
+    <path d="M100,70 Q150,50 200,70 Q250,90 100,110" fill="url(#wings-gradient)" />
+    <!-- Lower wing -->
+    <path d="M300,70 Q250,90 200,70 Q150,50 300,70" fill="url(#wings-gradient)" />
+  </g>
+
+  <!-- Antennae -->
+  <ellipse cx="180" cy="60" rx="10" ry="40" fill="#654321"/>
+  <ellipse cx="220" cy="60" rx="10" ry="40" fill="#654321"/>
+
+</svg>

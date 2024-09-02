@@ -1,0 +1,19 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background rectangle -->
+  <rect x="10" y="10" width="380" height="380" fill="#F5DEB3"/>
+
+  <!-- Border -->
+  <rect x="9" y="9" width="382" height="382" stroke="#3D2B1F" stroke-width="4"/>
+
+  <!-- Patchwork squares (4x4 grid of 16 squares) -->
+  <g id="patchwork-squares">
+    <!-- Top-left square -->
+    <rect x="20" y="20" width="80" height="80" fill="#FFCBA3"/>
+    <!-- ... Repeat for remaining squares with different colors and patterns (e.g., stripes) ... -->
+
+    <!-- Bottom-right square -->
+    <polygon points="360,140 380,160 380,200 360,220" fill="#FFCBA3"/>
+  </g>
+
+</svg>

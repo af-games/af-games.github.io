@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hot Air Balloon -->
+  <circle cx="400" cy="150" r="100" fill="#FF9933"/>
+  <polygon points="375,150 425,150 400,50" fill="#FF6600"/>
+  <rect x="380" y="120" width="40" height="30" fill="#FFFFFF"/>
+
+  <!-- Rolling Hills -->
+  <path d="M100,300 Q200,450 350,300 T700,300" stroke="#D2B48C" fill="url(#grass)"/>
+  <defs>
+    <linearGradient id="grass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8DC63F; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#598A2C; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Winding River -->
+  <path d="M100,400 Q250,350 400,400 T750,400" stroke="#A5724F" fill="url(#river)"/>
+  <pattern id="river" patternUnits="userSpaceOnUse" width="10" height="10">
+    <image href="https://via.placeholder.com/10x10" />
+  </pattern>
+
+  <!-- Towering Trees -->
+  <ellipse cx="50" cy="350" rx="40" ry="60" fill="#3D6A05"/>
+  <rect x="50" y="320" width="10" height="30" fill="#794C21"/>
+
+</svg>

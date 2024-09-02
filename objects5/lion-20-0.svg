@@ -1,0 +1,24 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+
+  <!-- Lion Outline -->
+  <path d="M50,80 Q70,40 120,60 Q170,40 220,80 Q270,120 220,160 Q170,200 120,160 Q70,200 50,160" fill="none" stroke="#333" stroke-width="4"/>
+
+  <!-- Mane -->
+  <g stroke="orange" stroke-width="2">
+    <circle cx="90" cy="60" r="3"/>
+    <circle cx="110" cy="55" r="3"/>
+    ...
+    <!-- Add more circles to create the mane, varying sizes and positions -->
+  </g>
+
+  <!-- Eyes -->
+  <ellipse cx="150" cy="90" rx="20" ry="40" fill="#fff" stroke="#333" stroke-width="2"/>
+  <circle cx="160" cy="95" r="8" fill="#000"/>
+
+  <!-- Nose and Mouth -->
+  <path d="M170,120 Q180,140 170,160" stroke="#333" stroke-width="2"/>
+  <path d="M165,135 Q175,135 180,130" stroke="#333" stroke-width="2"/>
+
+</svg>

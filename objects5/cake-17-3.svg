@@ -1,0 +1,21 @@
+<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake tiers -->
+  <rect x="75" y="180" width="250" height="90" fill="#fdd7aa" stroke="#a46c3e" stroke-width="2"/>
+  <rect x="90" y="260" width="220" height="90" fill="#fde19b" stroke="#a46c3e" stroke-width="2"/>
+  <rect x="105" y="340" width="180" height="70" fill="#fcba7c" stroke="#a46c3e" stroke-width="2"/>
+
+  <!-- Cake topper -->
+  <circle cx="200" cy="90" r="60" fill="#fffafa"/>
+  <path d="M180,85 A50,50 0 1,0 220,85 A50,50 0 1,0 180,85" stroke="#a46c3e" fill="transparent"/>
+
+  <!-- Base -->
+  <circle cx="200" cy="450" r="170" fill="#fffafa"/>
+  <path d="M130,435 A170,170 0 1,0 270,435 A170,170 0 1,0 130,435" stroke="#a46c3e" fill="transparent"/>
+
+  <!-- Piped edges -->
+  <ellipse cx="200" cy="195" rx="85" ry="45" stroke="#a46c3e" stroke-width="2"/>
+  <ellipse cx="200" cy="275" rx="75" ry="45" stroke="#a46c3e" stroke-width="2"/>
+  <ellipse cx="200" cy="355" rx="60" ry="35" stroke="#a46c3e" stroke-width="2"/>
+
+</svg>

@@ -1,0 +1,26 @@
+<svg>` canvas.
+
+**Discovered Resources:**
+
+- `<circle>` for the body and head.
+- `<rect>` for the limbs and pouch.
+- `<polygon>` for the ears.
+- Colors: `#8B4513` (brown) for the kangaroo's fur, `#FFFFFF` (white) for the belly.
+
+**Marked Path:**
+
+```svg
+<svg width="200" height="200">
+  <!-- Kangaroo Body -->
+  <circle cx="100" cy="100" r="80" fill="#8B4513"/>
+
+  <!-- Belly -->
+  <rect x="70" y="95" width="60" height="30" fill="#FFFFFF"/>
+
+  <!-- Limbs -->
+  <rect x="80" y="130" width="40" height="60" fill="#8B4513"/>
+  <rect x="120" y="130" width="40" height="60" fill="#8B4513"/>
+
+  <!-- Ears -->
+  <polygon points="90,70 110,70 100,50" fill="#8B4513"/>
+</svg>

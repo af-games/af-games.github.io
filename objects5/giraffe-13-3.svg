@@ -1,0 +1,18 @@
+<svg width="1000" height="800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Grazing Area -->
+  <rect x="50" y="300" width="900" height="400" fill="lightgreen"/>
+
+  <!-- Tower (Giraffe Living Quarters) -->
+  <circle cx="500" cy="450" r="150" stroke="black" stroke-width="2" fill="papayawhip"/>
+  <path d="M500,450 Q350,600 500,750" stroke="black" stroke-width="2"/>
+
+  <!-- Building (Zookeepers) -->
+  <rect x="200" y="400" width="200" height="150" fill="lightgrey"/>
+  <path d="M200,550 Q300,650 400,550"/>
+
+  <!-- Building (Maintenance Staff) -->
+  <rect x="800" y="400" width="200" height="150" fill="lightgrey"/>
+  <path d="M800,550 Q700,650 600,550"/>
+
+</svg>

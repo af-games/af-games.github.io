@@ -1,0 +1,27 @@
+<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="175" cy="300" r="150" fill="#2f4858"/>
+  <circle cx="250" cy="325" r="125" fill="#1a3340"/>
+
+  <!-- Tail fin -->
+  <path d="M275,360 Q300,340 325,360" stroke="#2f4858" fill="transparent"/>
+  <path d="M275,360 Q315,350 290,360" stroke="#1a3340" fill="transparent"/>
+
+  <!-- Pectoral fins -->
+  <path d="M75,280 Q100,250 150,280" stroke="#2f4858" fill="transparent"/>
+  <path d="M65,290 Q115,310 160,290" stroke="#1a3340" fill="transparent"/>
+
+  <!-- Dorsal fin -->
+  <path d="M175,250 Q200,220 230,250" stroke="#2f4858" fill="transparent"/>
+  <path d="M165,260 Q190,280 220,260" stroke="#1a3340" fill="transparent"/>
+
+  <!-- Eye patches -->
+  <rect x="120" y="200" width="75" height="50" fill="#000"/>
+  <rect x="200" y="200" width="75" height="50" fill="#000"/>
+
+  <!-- Eyes -->
+  <circle cx="145" cy="230" r="8" fill="#fff"/>
+  <circle cx="235" cy="230" r="8" fill="#fff"/>
+
+</svg>

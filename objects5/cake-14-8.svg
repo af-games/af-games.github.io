@@ -1,0 +1,12 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="150" r="40" fill="red">
+    <animate
+      attributeName="cy"
+      from="150"
+      to="250"
+      begin="0s"
+      dur="1s"
+      repeatCount="indefinite"
+    />
+  </circle>
+</svg>

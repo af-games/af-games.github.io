@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Filters -->
+  <defs>
+    <filter id="waterRipple">
+      <feTurbulence type="fractalNoise" baseFrequency="0.1" numOctaves="2"/>
+      <feDisplacementMap in2="SourceGraphic" scale="5"/>
+    </filter>
+
+    <filter id="dolphinGlow">
+      <feGaussianBlur stdDeviation="3" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="BackgroundImage" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Landmarks -->
+  <rect x="50" y="100" width="200" height="300" fill="#4682b4" filter="url(#waterRipple)"/>
+  <circle cx="300" cy="250" r="100" fill="#dac48f" filter="url(#dolphinGlow)" />
+  <polygon points="50,50 250,50 150,300" fill="#ffb6c1"/>
+
+  <!-- Expedition Route -->
+  <polyline points="50,50 250,50 300,250 450,250 600,50" stroke-width="3" stroke="#000000" fill="transparent"/>
+
+</svg>

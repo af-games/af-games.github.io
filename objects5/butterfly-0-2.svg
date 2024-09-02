@@ -1,0 +1,16 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Butterfly Body -->
+  <circle cx="150" cy="175" r="50" fill="#FFC94D"/>
+
+  <!-- Left Wing -->
+  <path d="M80 100 Q100 20, 150 70 T300 120 Z" fill="#FFC94D"/>
+  <!-- Right Wing -->
+  <path d="M370 100 Q350 20, 300 70 T200 120 Z" fill="#FFC94D"/>
+
+  <!-- Left Antenna -->
+  <polyline points="80 60, 70 50, 80 40" fill="#4F2B00"/>
+  <!-- Right Antenna -->
+  <polyline points="370 60, 380 50, 370 40" fill="#4F2B00"/>
+
+</svg>

@@ -1,0 +1,66 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fairy outline -->
+  <path id="fairyOutline" d="M150,200 Q100,100 150,50 Q200,100 250,50 Q200,100 300,50 Z"/>
+
+  <!-- Fairy dress -->
+  <path id="fairyDress" d="M150,50 Q250,100 250,50 L350,100 Q450,50 350,50 L250,0 Z"/>
+
+  <!-- Fairy hair -->
+  <path id="fairyHair" d="M175,50 C160,20 200,20 215,50"/>
+
+  <!-- Fairy face -->
+  <circle cx="200" cy="80" r="40" fill="white"/>
+  <circle cx="200" cy="70" r="3" fill="black"/> <!-- Left eye -->
+  <circle cx="210" cy="70" r="3" fill="black"/> <!-- Right eye -->
+
+  <!-- Fairy wand -->
+  <path id="fairyWand" d="M260,85 L290,5 Z"/>
+
+  <!-- Fairy wings (initial state) -->
+  <polygon points="140,200 170,230 100,230" fill="pink"/>
+  <polygon points="260,200 290,230 320,230" fill="pink"/>
+
+  <!-- Animation -->
+  <animateTransform
+    attributeName="d"
+    type="rotate"
+    from="0 175 80"
+    to="360 175 80"
+    repeatCount="indefinite"
+    dur="2s"
+    id="blink"/>
+  <animateMotion begin="blink.end" repeatCount="1">
+    <mpath href="#fairyOutline"/>
+  </animateMotion>
+  <animate
+    attributeName="d"
+    from="M260,85 L290,5 Z"
+    to="M300,75 L330,-5 Z"
+    begin="blink.end"
+    dur="0.5s"
+    repeatCount="1"
+    id="wave"/>
+  <animate
+    attributeName="points"
+    from="140,200 170,230 100,230"
+    to="130,210 160,240 90,240"
+    begin="wave.end"
+    dur="0.5s"
+    repeatCount="1"/>
+  <animate
+    attributeName="points"
+    from="260,200 290,230 320,230"
+    to="270,210 300,240 330,240"
+    begin="wave.end"
+    dur="0.5s"
+    repeatCount="1"/>
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0 0"
+    to="0 20"
+    begin="blink.end"
+    repeatCount="1"
+    dur="1s"
+    id="hover"/>
+</svg>

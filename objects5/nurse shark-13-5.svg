@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background-color: #f0e79b;">
+
+  <!-- Coral Reef -->
+  <polygon points="10,500 790,400 790,10 10,600"
+            fill="#8B4513" stroke="#6F421D"/>
+
+  <!-- Nurse Shark -->
+  <path d="M200,250 Q250,225 300,250 Q350,275 400,250"
+        fill="#E9A186" stroke="#F4D0C2"/>
+
+  <!-- Schools of Fish -->
+  <g id="fish-school">
+    <circle cx="150" cy="300" r="5" fill="#77B5FE"/>
+    <use href="#fish-school" x="200" y="320"/>
+    <use href="#fish-school" x="180" y="280"/>
+  </g>
+
+  <!-- Sun Rays -->
+  <g id="sun-rays">
+    <line x1="50" y1="50" x2="750" y2="550" style="stroke:#FFB973; stroke-width:3"/>
+    <use href="#sun-rays" x="-100" y="100"/>
+    <use href="#sun-rays" rotation="45" x="200" y="600"/>
+  </g>
+
+  <!-- Bubbles -->
+  <circle cx="280" cy="370" r="3" fill="white"/>
+  <circle cx="140" cy="420" r="2" fill="white"/>
+  <circle cx="500" cy="290" r="4" fill="white"/>
+
+</svg>

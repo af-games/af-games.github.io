@@ -1,0 +1,29 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="200" fill="#DAF414"/>
+
+  <!-- Nurse Shark Body -->
+  <path d="M50,70 Q90,30 150,70 Q110,120 50,70 Z"
+        fill="url(#sharkGradient)"
+        stroke="#6B4C0E" stroke-width="2"/>
+
+  <!-- Fin Gradients -->
+  <linearGradient id="finGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:0.8"/>
+    <stop offset="50%" style="stop-color:rgb(255,255,255);stop-opacity:0"/>
+    <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:0.8"/>
+  </linearGradient>
+
+  <!-- Left Fin -->
+  <polygon points="30,40 20,70 60,70" fill="url(#finGradient)"/>
+
+  <!-- Right Fin -->
+  <polygon points="150,40 160,70 120,70" fill="url(#finGradient)"/>
+
+  <!-- Eye -->
+  <circle cx="80" cy="50" r="10" fill="#FFFFFF">
+    <animate attributeName="r" from="10" to="0" dur="1s" repeatCount="indefinite"/>
+  </circle>
+
+</svg>

@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <ellipse cx="0" cy="50" rx="30" ry="25" fill="#696969"/>
+
+  <!-- Body -->
+  <ellipse cx="0" cy="10" rx="40" ry="30" fill="#696969"/>
+
+  <!-- Dorsal fin -->
+  <polygon points="-5,20 -15,40 15,40 5,20" fill="#A9A9A9"/>
+
+  <!-- Pectoral fins -->
+  <polygon points="-30,60 -25,70 -15,80 -5,90 5,90 15,80 25,70" fill="#A9A9A9"/>
+  <polygon points="30,60 25,70 15,80 5,90 -5,90 -15,80 -25,70" fill="#A9A9A9"/>
+
+  <!-- Caudal fin -->
+  <polygon points="-10,40 -30,60 -50,40 -30,20 -10,0 10,0" fill="#A9A9A9"/>
+
+  <!-- Tail -->
+  <ellipse cx="-70" cy="10" rx="30" ry="20" fill="#696969"/>
+</svg>

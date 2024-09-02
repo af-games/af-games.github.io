@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Gradient for water ripple effect -->
+  <defs>
+    <radialGradient id="waterRipple" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#B0E0E6; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#8DC65A; stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Pond -->
+  <path d="M30,40 Q90,20 150,40 Q210,60 270,40 Q330,20 390,40 Q450,60 510,40 Q570,20 630,40 Q690,60 750,40" fill="url(#waterRipple)"/>
+
+  <!-- Hills -->
+  <path d="M30,40 Q90,80 150,40 Q210,120 270,80 Q330,160 390,80 Q450,120 510,80 Q570,160 630,80 Q690,120 750,80" fill="#8DC65A"/>
+
+  <!-- Rivers -->
+  <path d="M30,400 Q90,380 150,400 Q210,360 270,400 Q330,340 390,400 Q450,320 510,400 Q570,340 630,400 Q690,320 750,400" fill="#212F3D"/>
+
+  <!-- Trees -->
+  <rect x="50" y="280" width="40" height="120" fill="#4CAF50"/>
+  <rect x="150" y="320" width="40" height="80" fill="#4CAF50"/>
+  <!-- Add more trees as needed -->
+
+  <!-- Jellyfish -->
+  <circle cx="400" cy="270" r="60" fill="#FF69B4" opacity="0.8"/>
+  <path d="M380,150 Q420,80 460,150 Q420,220 380,150" stroke="#DA70D6" fill="transparent"/>
+
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600" preserveAspectRatio="xMidYMid meet">
+
+<!-- Envelope -->
+<path d="M100,20 Q150,0 200,75 Q250,0 300,20 L300,400 Q300,500 200,600 Q100,500 100,400 Z" fill="#FFD700" opacity="0.8"/>
+
+<!-- Basket -->
+<rect x="90" y="380" width="40" height="60" rx="10" fill="#7A2C1F"/>
+<path d="M95,410 Q105,420 115,410 H195 Q205,420 195,410 H95 Z" fill="#5E362E"/>
+
+<!-- Burner -->
+<circle cx="170" cy="350" r="30" fill="#FF8C00"/>
+<path d="M170,320 Q150,280 140,240 L180,240 Q190,280 170,320 Z" fill="#FF8C00"/>
+
+<!-- Gondola Shadow -->
+<rect x="95" y="390" width="110" height="80" rx="10" fill="#000" opacity="0.1"/>
+<filter id="shadow">
+  <feGaussianBlur stdDeviation="2" />
+</filter>
+<use href="#basket" filter="url(#shadow)"/>
+
+<!-- Balloon String -->
+<path d="M170,60 L170,400" stroke="#FFFFFF" stroke-width="5" opacity="0.3"/>
+
+<!-- Logo (optional: replace with your own logo or text) -->
+<text x="200" y="580" font-family="Arial" font-size="24" fill="#000">Hot Air Balloon</text>
+
+<!-- Lighting effects -->
+<linearGradient id="grad" gradientTransform="rotate(90)">
+  <stop offset="0%" stop-color="#FFD700"/>
+  <stop offset="100%" stop-color="#FFFFFF"/>
+</linearGradient>
+<rect x="0" y="0" width="500" height="600" fill="url(#grad)"/>
+
+</svg>

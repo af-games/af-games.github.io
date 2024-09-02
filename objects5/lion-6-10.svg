@@ -1,0 +1,17 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lion's Face -->
+  <circle cx="175" cy="200" r="150" fill="#FFCC99"/>
+  <circle cx="225" cy="150" r="60" fill="#FFFFFF"/>
+  <path d="M140,180 Q170,220 200,180 Q130,140 140,180" stroke="#993300" fill="transparent" stroke-width="15"/>
+
+  <!-- Lion's Mane -->
+  <path d="M160,100 Q180,70 200,100 Q180,130 160,100" stroke="#993300" fill="transparent" stroke-width="5"/>
+  <path d="M140,80 Q160,50 180,80 Q160,110 140,80" stroke="#993300" fill="transparent" stroke-width="5"/>
+
+  <!-- Lion's Whiskers -->
+  <path d="M240,170 L250,160 L260,170" stroke="#993300" fill="transparent" stroke-width="5"/>
+  <path d="M220,170 L210,160 L200,170" stroke="#993300" fill="transparent" stroke-width="5"/>
+
+  <!-- Lion's Body -->
+  <polygon points="180,300 220,350 260,300" fill="#FFCC99"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Basket -->
+  <rect x="100" y="450" width="300" height="80"
+        rx="20" ry="20" fill="#8B4513"/>
+
+  <!-- Envelope -->
+  <ellipse cx="250" cy="200" rx="200" ry="400"
+           fill="#FFFDD0"/>
+
+  <!-- Frame (simplified for clarity) -->
+  <polygon points="100,50 300,50 400,200 300,350 100,350"
+            fill="none" stroke="#8B4513"/>
+
+  <!-- Burner (base) -->
+  <circle cx="250" cy="75" r="30" fill="#2F4F4F"/>
+
+  <!-- Burner (mouth) -->
+  <rect x="210" y="40" width="80" height="35"
+        rx="15" ry="15" fill="#CD7F32"/>
+
+</svg>

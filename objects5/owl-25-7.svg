@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 70">
+
+  <!-- Main Owl -->
+  <path d="M40,5 A30,30 0 1,1 90,5 A30,30 0 1,1 40,5 Z"
+        fill="black" stroke="none"/>
+  <path d="M45,20 Q70,30 85,20 Q65,10 45,20"
+        fill="white" stroke="none"/>
+
+  <!-- Vines and Branches -->
+  <polyline points="10,60 30,50 50,60"
+            fill="none" stroke="#006400"/>
+  <polyline points="80,60 110,50 130,60"
+            fill="none" stroke="#006400"/>
+
+  <!-- Smaller Owls -->
+  <path d="M120,30 A15,15 0 1,1 145,30 A15,15 0 1,1 120,30 Z"
+        fill="black" stroke="none"/>
+  <path d="M125,45 Q138,37 145,45 Q132,53 125,45"
+        fill="white" stroke="none"/>
+
+</svg>

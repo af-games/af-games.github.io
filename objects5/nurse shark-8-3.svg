@@ -1,0 +1,24 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 200'>
+
+  <!-- Body -->
+  <path d='M150 40 Q170 60, 180 80 Q210 90, 240 100 Q250 80, 270 70 Q280 40, 210 20 Q140 40, 150 60' fill='lightgray' stroke='none' />
+
+  <!-- Fin outlines -->
+  <path d='M90 40 L100 60 L110 40 Z' fill='darkgray' stroke='none' />
+  <path d='M270 40 L280 60 L290 40 Z' fill='darkgray' stroke='none' />
+
+  <!-- Tail outline -->
+  <path d='M210 100 Q230 110, 250 100 Q270 90, 280 70' fill='lightgray' stroke='none' />
+
+  <!-- Dorsal fin outline -->
+  <path d='M160 80 Q180 90, 200 80 Q210 90, 230 80' fill='darkgray' stroke='none' />
+
+  <!-- Pectoral fin patterns (asymmetry) -->
+  <path d='M70 50 L60 60 L70 70 Z' fill='lightgray' stroke='none' />
+  <path d='M280 50 L290 60 L280 70 Z' fill='darkgray' stroke='none' />
+
+  <!-- Eye -->
+  <circle cx='140' cy='65' r='3' fill='black' />
+  <circle cx='160' cy='65' r='1.5' fill='white' />
+
+</svg>

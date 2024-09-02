@@ -1,0 +1,38 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="150" cy="200" r="90" fill="#8B7D6B" stroke="#333" stroke-width="2"/>
+
+  <!-- Tail Fin -->
+  <ellipse cx="170" cy="240" rx="50" ry="70" fill="#C3B091" stroke="#333" stroke-width="2"/>
+
+  <!-- Left Pectoral Fin -->
+  <rect x="80" y="150" width="60" height="100" fill="#8B7D6B" stroke="#333" stroke-width="2"/>
+
+  <!-- Right Pectoral Fin -->
+  <rect x="190" y="150" width="60" height="100" fill="#8B7D6B" stroke="#333" stroke-width="2"/>
+
+  <!-- Left Pelvic Fin -->
+  <rect x="70" y="270" width="40" height="50" fill="#8B7D6B" stroke="#333" stroke-width="2"/>
+
+  <!-- Right Pelvic Fin -->
+  <rect x="190" y="270" width="40" height="50" fill="#8B7D6B" stroke="#333" stroke-width="2"/>
+
+  <!-- Dorsal Fins (stacked rectangles) -->
+  <g>
+    <rect x="130" y="170" width="30" height="40" fill="#8B7D6B"/>
+    <rect x="150" y="190" width="20" height="30" fill="#8B7D6B"/>
+  </g>
+
+  <!-- Mouth -->
+  <path d="M120,210 Q140,200 160,210" stroke="#333" stroke-width="2"/>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="180" r="5" fill="#333"/>
+  <circle cx="170" cy="180" r="5" fill="#333"/>
+
+  <!-- Gills (slanted lines) -->
+  <line x1="70" y1="210" x2="90" y2="190" stroke="#333" stroke-width="2"/>
+  <line x1="180" y1="210" x2="160" y2="190" stroke="#333" stroke-width="2"/>
+
+</svg>

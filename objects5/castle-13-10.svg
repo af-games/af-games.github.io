@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Gate -->
+  <polygon id="gate" points="150,50 250,50 250,150 150,150" fill="#8B7D6B"/>
+  <text x="180" y="90" font-size="24">Castle Gate</text>
+
+  <!-- Path to Courtyard -->
+  <path d="M250,150 Q350,200 450,150" stroke="#333" fill="transparent"/>
+
+  <!-- Courtyard -->
+  <circle id="courtyard" cx="450" cy="300" r="80" fill="#DCDCDC"/>
+  <text x="420" y="330" font-size="24">Courtyard</text>
+
+  <!-- Draw Bridge -->
+  <line x1="450" y1="400" x2="650" y2="400" stroke="#333"/>
+  <rect id="drawbridge" width="200" height="50" x="500" y="350" fill="#8B7D6B"/>
+
+  <!-- Moat -->
+  <circle cx="575" cy="450" r="50" fill="#77DD77"/>
+  <text x="560" y="490" font-size="24">Moat</text>
+
+  <!-- Keep -->
+  <polygon id="keep" points="600,300 700,300 700,450 600,450" fill="#D3D3D3"/>
+  <text x="650" y="380" font-size="24">Keep</text>
+
+  <!-- Apply SVG filter for glow effect -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Apply glow effect to castle gate and keep -->
+  <use href="#gate" xlink:href="#gate" style="filter:url(#glow)"/>
+  <use href="#keep" xlink:href="#keep" style="filter:url(#glow)"/>
+
+</svg>

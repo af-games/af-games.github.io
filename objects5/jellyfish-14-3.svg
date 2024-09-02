@@ -1,0 +1,22 @@
+<svg width="50cm" height="30cm" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Jellyfish Body -->
+  <ellipse cx="0" cy="15" rx="25" ry="15"
+           style="fill: purple; stroke: black; stroke-width: 1"/>
+
+  <!-- Tentacles (Paths) -->
+  <!-- Each tentacle is defined by a path starting from the jellyfish body's perimeter -->
+
+  <path d="M-25,15 Q-30,-10 -25,-20" style="fill: transparent; stroke: black; stroke-width: 1"/>
+  <path d="M25,15 Q30,-10 25,-20" style="fill: transparent; stroke: black; stroke-width: 1"/>
+  <!-- Repeat similar paths for the remaining six tentacles -->
+
+  <!-- Mouth (Circle) -->
+  <circle cx="0" cy="27.5" r="5"
+          style="fill: black; stroke: transparent"/>
+
+  <!-- Eyes (Two Circles) -->
+  <circle cx="-4" cy="25" r="2" style="fill: white; stroke: black; stroke-width: 1"/>
+  <circle cx="4" cy="25" r="2" style="fill: white; stroke: black; stroke-width: 1"/>
+
+</svg>

@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,5 L150,40 A40,40 0 0 0 100,80 A40,40 0 0 1 50,40 Z" fill="#FFBF00"/>
+
+  <!-- Left Wing -->
+  <path d="M70,20 Q90,30 110,20 Q90,10 70,20" fill="#FFBF00"/>
+
+  <!-- Right Wing -->
+  <path d="M130,20 Q150,30 110,20 Q150,10 130,20" fill="#FFBF00"/>
+
+  <!-- Antennae -->
+  <circle cx="95" cy="15" r="3" fill="black"/>
+  <circle cx="105" cy="15" r="3" fill="black"/>
+
+</svg>

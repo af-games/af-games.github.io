@@ -1,0 +1,22 @@
+<svg>` tag:
+
+```xml
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake base -->
+  <rect x="80" y="170" width="140" height="80" fill="#E5D69B" rx="40"/>
+
+  <!-- Golden cake top -->
+  <path d="M80,30 Q120,0 220,30 T300,250 H0 Z" stroke-width="2" stroke="#CD7F32" fill="#E5D69B"/>
+  <circle cx="150" cy="40" r="30" fill="#C68A29"/>
+
+  <!-- Cake layers -->
+  <rect x="95" y="95" width="110" height="75" fill="#E5D69B"/>
+  <rect x="95" y="40" width="110" height="55" fill="#C68A29"/>
+
+  <!-- Candles -->
+  <circle cx="135" cy="165" r="7" fill="#FFD700"/>
+  <circle cx="165" cy="165" r="7" fill="#FFD700"/>
+  <circle cx="195" cy="165" r="7" fill="#FFD700"/>
+
+</svg>

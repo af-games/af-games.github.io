@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(173,216,228);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(125,192,205);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgGrad)" />
+
+  <!-- Mermaid -->
+  <path d="M400,50 Q450,75 500,125 Q550,175 600,225 Q550,275 500,325 Q450,375 400,425 Q350,375 250,325 Q200,275 150,225 Q200,175 250,125 Q300,75 400,50 Z"
+       fill="url(#merGrad)" />
+  <linearGradient id="merGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(238,197,156);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(194,160,121);stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Tail patterns and details would go here -->
+
+</svg>

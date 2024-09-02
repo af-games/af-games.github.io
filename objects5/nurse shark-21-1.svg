@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+    <path d="
+        M100,100 C150,200 250,150 350,100
+        S400,150 450,200
+        V300 H300 L100,300 Z
+    " fill="lightblue"/>
+</svg>

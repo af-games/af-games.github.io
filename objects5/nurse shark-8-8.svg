@@ -1,0 +1,20 @@
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Shark Head -->
+  <circle cx="150" cy="150" r="100" fill="#3D3E42"/>
+  <polygon points="175,75 300,75 300,175" fill="#3D3E42"/>
+
+  <!-- Body -->
+  <ellipse cx="350" cy="225" rx="100" ry="150" fill="#3D3E42"/>
+
+  <!-- Fins -->
+  <!-- Dorsal Fin -->
+  <polygon points="275,125 325,125 325,225" fill="#BABABA"/>
+  <!-- Tail Fin -->
+  <path d="M450,300 Q550,325 550,275 Q600,350 550,375 Q450,350 450,300" fill="#BABABA"/>
+
+  <!-- Lace-like patterns on Tail Fin -->
+  <path d="M500,375 Q525,400 550,375" stroke="#000000" stroke-width="1" fill="transparent"/>
+  <path d="M525,350 Q550,325 525,300" stroke="#000000" stroke-width="1" fill="transparent"/>
+
+</svg>

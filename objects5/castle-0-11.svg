@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Clues -->
+  <rect id="castle_wall" x="-80" y="-60" width="160" height="120"/>
+  <path id="moat" d="M-140, -140 a140,140 0 1,0 280,0 a140,140 0 1,0 -280,0 z"/>
+  <path id="roof_line" d="M-90,-60 Q-30,-15 90,-60 Q150,-15 70,60 Q-30,-15 -90,-60"/>
+  <polygon id="flags" points="-40,60 40,60 20,80"/>
+  <path id="tower_arches" d="M-90,-60 a70,70 0 1,0 140,0 a70,70 0 1,0 -140,0"/>
+
+  <!-- Mask -->
+  <defs>
+    <mask id="castle_mask">
+      <rect width="100%" height="100%" fill="white"/>
+      <path d="M-90,-60 Q-30,-15 90,-60 Q150,-15 70,60 Q-30,-15 -90,-60" stroke="black" stroke-width="2"/>
+    </mask>
+  </defs>
+
+  <!-- Masks applied to clues -->
+  <use xlink:href="#castle_wall" mask="url(#castle_mask)"/>
+  <use xlink:href="#moat" mask="url(#castle_mask)"/>
+  <use xlink:href="#roof_line" mask="url(#castle_mask)"/>
+  <use xlink:href="#flags" mask="url(#castle_mask)" transform="translate(70,60) rotate(-45)"/>
+  <use xlink:href="#tower_arches" mask="url(#castle_mask)"/>
+
+</svg>

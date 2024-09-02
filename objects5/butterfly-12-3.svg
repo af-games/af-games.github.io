@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -10 60 40">
+  <!-- Body -->
+  <circle cx="10" cy="-7" r="8" fill="#ff99cc"/>
+
+  <!-- Head -->
+  <circle cx="14" cy="-12" r="3" fill="#ff99cc"/>
+
+  <!-- Left Wing (Upper) -->
+  <path d="M-5 -7 Q0 -15 10 -6" stroke="black" fill="#ffe6e6"/>
+  <!-- Left Wing (Lower) -->
+  <path d="M-5 -7 Q0 -12 8 -8" stroke="black" fill="#ffe6e6"/>
+
+  <!-- Right Wing (Upper) -->
+  <path d="M30 -7 Q35 -15 40 -6" stroke="black" fill="#ffe6e6"/>
+  <!-- Right Wing (Lower) -->
+  <path d="M30 -7 Q35 -12 40 -8" stroke="black" fill="#ffe6e6"/>
+
+  <!-- Antennae -->
+  <path d="M-3 -15 L0 -20 Z"/>
+  <path d="M33 -15 L30 -20 Z"/>
+
+</svg>

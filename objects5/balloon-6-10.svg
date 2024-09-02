@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450">
+
+  <!-- Water -->
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="400" width="360" height="50" fill="url(#waterGradient)"/>
+
+  <!-- Vase -->
+  <path d="M 20,400 Q 190,370 380,400 Q 250,430 20,400 z" fill="#FCE6C9"/>
+
+  <!-- Balloons -->
+  <circle cx="80" cy="350" r="30" fill="#FF007F"/>
+  <polygon points="160,280 220,280 200,340" fill="#32CD32"/>
+
+  <!-- Stems and leaves -->
+  <path d="M 80,350 Q 90,370 100,360 l 0,-40 z" stroke="#3D9970" fill="none"/>
+  <polygon points="100,220 110,220 105,230" fill="#3D9970"/>
+
+  <!-- Balloons -->
+  <circle cx="260" cy="320" r="40" fill="#FFB6C1"/>
+  <ellipse cx="330" cy="300" rx="45" ry="30" fill="#DAA520"/>
+
+</svg>

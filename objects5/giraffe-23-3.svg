@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe Neck -->
+  <rect id="neck" x="400" y="150" width="50" height="200" style="fill:brown; stroke-width:2; stroke:black"/>
+
+  <!-- Giraffe Body -->
+  <rect id="body" x="350" y="350" width="100" height="150" style="fill:brown; stroke-width:2; stroke:black"/>
+  <circle cx="400" cy="500" r="50" style="fill:white; stroke-width:2; stroke:black"/>
+
+  <!-- Giraffe Legs -->
+  <rect id="leg1" x="375" y="550" width="25" height="80" style="fill:brown; stroke-width:2; stroke:black"/>
+  <rect id="leg2" x="425" y="550" width="25" height="80" style="fill:brown; stroke-width:2; stroke:black"/>
+  <rect id="leg3" x="375" y="650" width="25" height="80" style="fill:brown; stroke-width:2; stroke:black"/>
+  <rect id="leg4" x="425" y="650" width="25" height="80" style="fill:brown; stroke-width:2; stroke:black"/>
+
+  <!-- Buildings -->
+  <rect id="building1" x="100" y="300" width="50" height="200" style="fill:lightgray; stroke-width:2; stroke:black"/>
+  <rect id="building2" x="650" y="300" width="50" height="200" style="fill:lightgray; stroke-width:2; stroke:black"/>
+
+  <!-- Roads -->
+  <path d="M100,400 h300 v200 h-300 Z" fill="none" stroke="black"/>
+  <path d="M650,400 h-300 v200 h300 Z" fill="none" stroke="black"/>
+
+</svg>

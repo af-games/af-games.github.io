@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="150" cy="300" rx="100" ry="70" fill="brown"/>
+  <rect x="80" y="260" width="30" height="40" fill="brown"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="220" r="50" fill="brown"/>
+
+  <!-- Ears -->
+  <polygon points="90,70 160,10 230,70" fill="brown"/>
+  <polygon points="90,40 180,10 270,40" fill="brown"/>
+
+  <!-- Arms -->
+  <rect x="50" y="330" width="60" height="30" fill="brown"/>
+  <rect x="190" y="330" width="60" height="30" fill="brown"/>
+
+  <!-- Legs -->
+  <polygon points="70,450 80,460 220,460 230,450" fill="brown"/>
+  <polygon points="290,450 300,460 390,460 400,450" fill="brown"/>
+
+  <!-- Tail -->
+  <rect x="170" y="480" width="10" height="50" fill="brown"/>
+
+</svg>

@@ -1,0 +1,51 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#C0E2F4"/>
+
+<!-- Giraffe Plains -->
+<path id="giraffePlains" d="M50 400 Q150 200, 300 300 Q600 400, 750 300" fill="#B5E69C"/>
+<text x="375" y="350" font-size="18px">Giraffe Plains</text>
+
+<!-- Crystal Mountains -->
+<path id="crystalMnts" d="M200 100 Q400 150, 600 100 Q800 150, 900 100" fill="#ECECEC"/>
+<text x="300" y="75" font-size="18px">Crystal Mountains</text>
+
+<!-- Whispering Woods -->
+<path id="whisperingWoods" d="M200 400 Q400 550, 600 400 Q800 550, 900 400" fill="#3D721E"/>
+<text x="300" y="575" font-size="18px">Whispering Woods</text>
+
+<!-- Sapphire Sea -->
+<path id="sapphireSea" d="M50 600 Q400 700, 800 600 Q950 700, 1000 600" fill="#3F81FF"/>
+<text x="200" y="675" font-size="18px">Sapphire Sea</text>
+
+<!-- Luminous City -->
+<circle id="luminousCity" cx="450" cy="250" r="100" fill="#FFD389"/>
+<text x="425" y="275" font-size="18px">Luminous City</text>
+
+<!-- Rivers -->
+<path d="M100 350 Q200 450, 350 350 Q500 450, 650 350" stroke="#3399FF" stroke-width="8"/>
+
+<!-- Giraffes -->
+<circle cx="300" cy="350" r="50" fill="#B07C4E"/>
+<circle cx="600" cy="325" r="50" fill="#B07C4E"/>
+
+<!-- Labels for inhabitants -->
+<text x="100" y="600" font-size="18px">Giraffes</text>
+<text x="900" y="600" font-size="18px">Merfolk</text>
+
+<!-- Legend -->
+<g transform="translate(50, 20)">
+    <rect width="30" height="15" fill="#B5E69C"/>
+    <text x="45" y="12.5">Giraffe Plains</text>
+    <rect width="30" height="15" fill="#ECECEC"/>
+    <text x="45" y="12.5">Crystal Mountains</text>
+    <rect width="30" height="15" fill="#3D721E"/>
+    <text x="45" y="12.5">Whispering Woods</text>
+    <rect width="30" height="15" fill="#FFD389"/>
+    <text x="45" y="12.5">Luminous City</text>
+    <path stroke="#3399FF" stroke-width="8" d="M0 7.5 Q15 15, 30 7.5"/>
+    <text x="45" y="12.5">Rivers</text>
+</g>
+
+</svg>

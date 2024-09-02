@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450">
+
+  <!-- Balloon 1 (Red Heart) -->
+  <path d="M180 70 Q220 10, 260 70 Q290 30, 330 70 Q360 10, 380 70 L400 150 L300 200 Z" fill="red"/>
+  <polygon points="330,70 335,85 325,85" fill="red"/>
+
+  <!-- Balloon 2 (Blue Circle) -->
+  <circle cx="210" cy="90" r="60" fill="blue"/>
+  <path d="M210 150 A70 70 0 0 1 380 220 L400 270 Z" fill="blue"/>
+
+  <!-- Balloon 3 (Green Square) -->
+  <rect x="160" y="130" width="80" height="80" fill="green"/>
+  <path d="M160 210 L400 290 Z" fill="none" stroke="green"/>
+
+  <!-- Stem and Leaves -->
+  <rect x="175" y="300" width="50" height="30" fill="#8B7D6B"/>
+  <polygon points="175,330 225,330 200,400" fill="#8B7D6B"/>
+
+  <!-- Vase -->
+  <rect x="100" y="300" width="200" height="150" rx="30" fill="#FFD700"/>
+  <linearGradient id="vaseGradient" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#FFD700"/>
+    <stop offset="100%" stop-color="#CACFD2"/>
+  </linearGradient>
+
+  <!-- Water -->
+  <rect x="105" y="450" width="180" height="50">
+    <style>
+      fill: url(#waterGradient);
+    </style>
+  </rect>
+  <linearGradient id="waterGradient" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#7EC0D5"/>
+    <stop offset="100%" stop-color="#2E86C1"/>
+  </linearGradient>
+
+</svg>

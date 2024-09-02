@@ -1,0 +1,19 @@
+<svg width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kangaroo Body -->
+  <ellipse cx="125" cy="75" rx="100" ry="75" fill="#D2691E"/>
+
+  <!-- Head -->
+  <ellipse cx="80" cy="30" rx="35" ry="45" fill="#D2691E"/>
+
+  <!-- Ears -->
+  <polygon points="65,20 95,20 75,40" fill="#D2691E"/>
+  <polygon points="85,20 115,20 100,40" fill="#D2691E"/>
+
+  <!-- Arms/Legs -->
+  <rect x="60" y="120" width="25" height="80" fill="#D2691E"/>
+  <rect x="90" y="170" width="30" height="120" fill="#D2691E"/>
+  <rect x="140" y="160" width="20" height="80" fill="#D2691E"/>
+
+  <!-- Pouch -->
+  <roundrect x="70" y="190" width="60" height="40" rx="10" ry="10" fill="#E3B27C"/>
+</svg>

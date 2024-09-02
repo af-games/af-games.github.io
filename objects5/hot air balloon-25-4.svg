@@ -1,0 +1,39 @@
+<svg width="100%" height="100%" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hot Air Balloon -->
+  <g id="hot-air-balloon">
+    <circle cx="400" cy="50" r="150" fill="#FFC107"/>
+    <path d="M350,50 Q375,200 425,50 H400 Z" stroke="#8B4513" fill="none"/>
+    <polygon points="325,50 475,50 400,200" fill="url(#basket-pattern)" />
+    <circle cx="400" cy="25" r="30" fill="#FFC107"/>
+    <path d="M390,25 L410,25" stroke="#8B4513" fill="none"/>
+  </g>
+
+  <!-- Rolling Hills -->
+  <g id="rolling-hills">
+    <path d="M0,400 Q100,350 200,400 Q300,450 400,400 Q500,350 600,400 Q700,450 800,400" stroke="none" fill="#8B8989"/>
+    <path d="M10,400 Q50,370 100,400 Q150,430 200,400" stroke="none" fill="#C6D9FF"/>
+    <path d="M200,400 Q280,370 360,400 Q440,430 520,400" stroke="none" fill="#8B8989"/>
+  </g>
+
+  <!-- Winding River -->
+  <path id="river-path" d="M100,500 Q200,550 300,500 Q400,550 500,500 Q600,550 700,500 Z" stroke="#2A9D8F" fill="none"/>
+
+  <!-- Towering Trees -->
+  <g id="trees">
+    <circle cx="150" cy="450" r="30" fill="#3D9970"/>
+    <path d="M150,420 L160,420" stroke="#3D9970" fill="none"/>
+    <circle cx="280" cy="470" r="40" fill="#3D9970"/>
+    <path d="M280,450 L290,450" stroke="#3D9970" fill="none"/>
+    <circle cx="650" cy="420" r="30" fill="#3D9970"/>
+    <path d="M650,390 L660,390" stroke="#3D9970" fill="none"/>
+  </g>
+
+  <!-- Defining Patterns and Gradients -->
+  <defs>
+    <pattern id="basket-pattern" patternUnits="userSpaceOnUse" width="50" height="50">
+      <image href="https://www.example.com/basket-texture.png" x="0" y="0" width="50" height="50"/>
+    </pattern>
+  </defs>
+
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" preserveAspectRatio="xMidYMid meet">
+
+  <!-- Body -->
+  <path d="M150,60 Q180,70 200,100 Q300,70 350,100 Q330,70 390,60" fill="url(#dolphinGradient)"/>
+
+  <!-- Fins -->
+  <path d="M140,80 L120,120 L160,120 Z"/>
+  <path d="M350,80 L370,120 L330,120 Z"/>
+
+  <!-- Tail -->
+  <path d="M390,60 Q410,100 450,60 Q430,10 410,40"/>
+
+  <!-- Eyes -->
+  <circle cx="210" cy="70" r="5"/>
+  <circle cx="280" cy="70" r="5"/>
+
+  <!-- Gradient for dolphin body -->
+  <defs>
+    <linearGradient id="dolphinGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:blue; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#fff; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

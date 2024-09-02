@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define patterns -->
+  <defs>
+    <pattern id="wallPattern" patternUnits="userSpaceOnUse" width="10" height="10">
+      <rect width="10" height="10" fill="#8B4513"/>
+      <path d="M0,5 h10 v5 H0 Z" stroke="#692500" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Castle shapes -->
+  <rect x="50" y="50" width="80" height="120" fill="url(#wallPattern)"/>
+  <circle cx="180" cy="100" r="60" fill="url(#wallPattern)" stroke="#692500" stroke-width="5"/>
+  <ellipse cx="320" cy="80" rx="60" ry="40" fill="url(#wallPattern)" stroke="#692500" stroke-width="5"/>
+
+  <!-- Paths (winding trails) -->
+  <path d="M50,170 Q100,220 180,170 Q230,240 280,190 Q330,220 380,170" stroke="#692500" fill="transparent"/>
+
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet">
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#FFF5E6"/>
+
+<!-- Mountains -->
+<path d="M100,50 Q200,0 300,50 Q400,150 500,50 Q600,200 700,100" stroke="#8B4513" fill="none" stroke-width="5"/>
+<text x="650" y="90" font-family="Verdana" font-size="14">Mountains</text>
+
+<!-- Rivers -->
+<path d="M120,300 Q200,400 300,300 Q400,450 500,300 Q600,250 700,300" stroke="#ADD8E6" fill="none" stroke-width="3"/>
+<text x="100" y="330" font-family="Verdana" font-size="14">Rivers</text>
+
+<!-- Forests -->
+<rect x="150" y="200" width="200" height="200" fill="#006400"/>
+<text x="175" y="400" font-family="Verdana" font-size="14">Forests</text>
+
+<!-- Hot Air Balloon -->
+<circle cx="350" cy="300" r="80" fill="#FFD700"/>
+<path d="M350,250 L300,150 375,150 Z" fill="#FFD700"/>
+<text x="340" y="220" font-family="Verdana" font-size="14">Hot Air Balloon</text>
+
+<!-- Cities -->
+<circle cx="600" cy="400" r="50" fill="#FFFFFF"/>
+<path d="M550,350 L600,250 650,350 Z" fill="#8B7D6B"/>
+<text x="590" y="370" font-family="Verdana" font-size="14">Cities</text>
+
+<!-- Labels -->
+<text x="10" y="20" font-family="Verdana" font-size="24">Aerium: The Skyward Realm</text>
+<text x="10" y="580" font-family="Verdana" font-size="16">Created using SVG paths and shapes.</text>
+
+</svg>

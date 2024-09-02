@@ -1,0 +1,27 @@
+<svg width="600" height="200">
+  <!-- Scene 1 - Dreaming -->
+  <g id="scene1">
+    <circle cx="50" cy="70" r="30" fill="green"/>
+    <text x="60" y="80" font-size="14">I wish I could reach the moon!</text>
+  </g>
+
+  <!-- Scene 2 - Obstacle -->
+  <use href="#scene1" transform="translate(150,0)"/>
+  <line x1="300" y1="70" x2="600" y2="70" stroke="black"/>
+
+  <!-- Scene 3 - Challenge -->
+  <use href="#scene1" transform="translate(400,0)" />
+  <polygon points="550,10 600,10 600,200" fill="red"/>
+
+  <!-- Scene 4 - Determination -->
+  <use href="#scene1" transform="translate(400,0)">
+    <animateTransform attributeName="cx" from="50" to="550" dur="2s"/>
+  </use>
+  <polygon points="550,10 600,10 600,200" fill="red"/>
+
+  <!-- Scene 5 - Success -->
+  <use href="#scene1" transform="translate(550,0)">
+    <animateTransform attributeName="cx" from="50" to="600" dur="2s"/>
+  </use>
+  <rect x="300" y="50" width="200" height="100" fill="yellow" transform="translate(450,70) rotate(45)" />
+</svg>

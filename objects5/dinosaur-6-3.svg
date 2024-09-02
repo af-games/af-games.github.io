@@ -1,0 +1,24 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dinosaur Silhouette -->
+  <path id="dinosaur-outline"
+        d="M10,80 C40,60 70,40 100,50 C150,90 180,120 230,100 A50,50 0 0 1 280,50 Q260,20 240,50 C220,80 190,90 170,70 Z"
+        fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Head -->
+  <ellipse id="head" cx="100" cy="60" rx="50" ry="40" fill="#ccc"/>
+  <circle id="eye-left" cx="90" cy="55" r="5" fill="#333"/>
+  <circle id="eye-right" cx="110" cy="55" r="5" fill="#333"/>
+
+  <!-- Body -->
+  <rect id="body" x="70" y="80" width="160" height="90" rx="20" fill="#ccc"/>
+
+  <!-- Tail -->
+  <polygon id="tail" points="240,50 260,30 240,10 220,30" fill="#ccc"/>
+
+  <!-- Legs -->
+  <rect id="leg-left-front" x="80" y="170" width="20" height="70" rx="5" fill="#ccc"/>
+  <rect id="leg-right-front" x="140" y="170" width="20" height="70" rx="5" fill="#ccc"/>
+  <rect id="leg-left-back" x="230" y="160" width="20" height="80" rx="5" fill="#ccc"/>
+  <rect id="leg-right-back" x="270" y="160" width="20" height="80" rx="5" fill="#ccc"/>
+
+</svg>

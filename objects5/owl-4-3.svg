@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#F7DC6F"/>
+  <polygon points="400,200 800,500 0,500" fill="#3D9970"/>
+
+  <!-- Marionette Strings -->
+  <path d="M50,20 L50,100 C50,150 70,200 70,250" stroke="#555" fill="transparent"/>
+  <path d="M70,40 L70,100 C70,150 60,200 60,250" stroke="#555" fill="transparent"/>
+  <path d="M60,80 L60,300" stroke="#555" fill="transparent"/>
+  <path d="M30,60 Q50,100 90,60" stroke="#555" fill="transparent"/>
+
+  <!-- Owl Marionette Body -->
+  <ellipse cx="60" cy="80" rx="40" ry="60" fill="#FFD700"/>
+  <path d="M30,60 Q50,100 90,60" stroke="#C0C0C0" fill="transparent"/>
+
+  <!-- Owl Marionette Wings -->
+  <polygon points="20,50 80,50 50,120" fill="#FFD700"/>
+  <polygon points="160,50 240,50 200,120" fill="#FFD700"/>
+
+</svg>

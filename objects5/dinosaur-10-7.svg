@@ -1,0 +1,66 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="800" height="600" fill="#E5FFCC"/>
+```
+
+2. **Plant the seeds (initial shapes):**
+
+Let's start with a simple T-Rex head, body, and legs.
+
+```xml
+<circle cx="150" cy="300" r="100" fill="green" id="head"/>
+
+<rect x="80" y="400" width="240" height="200" fill="brown" id="body"/>
+
+<!-- Legs -->
+<circle cx="50" cy="600" r="30" fill="brown"/>
+<circle cx="210" cy="600" r="30" fill="brown"/>
+<circle cx="170" cy="480" r="30" fill="brown"/>
+```
+
+3. **Water and nurture the seeds (apply transformations):**
+
+```xml
+<!-- Rotate head to give it a more life-like pose -->
+<g transform="rotate(-20 150 300)">
+  <use xlink:href="#head"/>
+</g>
+
+<!-- Move legs into position -->
+<use xlink:href="#body">
+  <!-- Front leg -->
+  <circle transform="translate(80, 60)" cx="50" cy="600"/>
+  <!-- Back left leg -->
+  <circle transform="translate(210, 60) rotate(-30 240 600)" cx="170" cy="480"/>
+  <!-- Back right leg -->
+  <circle transform="translate(250, 60) rotate(10 280 600)" cx="240" cy="540"/>
+</use>
+```
+
+4. **Prune (remove unnecessary elements or attributes):**
+
+In this case, we can remove the original leg circles since we're using `<use>` to clone them.
+
+5. **Write out the SVG code:**
+
+```xml
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="800" height="600" fill="#E5FFCC"/>
+
+  <circle cx="150" cy="300" r="100" fill="green" id="head"/>
+  <rect x="80" y="400" width="240" height="200" fill="brown" id="body"/>
+
+  <!-- Rotate head to give it a more life-like pose -->
+  <g transform="rotate(-20 150 300)">
+    <use xlink:href="#head"/>
+  </g>
+
+  <!-- Move legs into position -->
+  <use xlink:href="#body">
+    <!-- Front leg -->
+    <circle transform="translate(80, 60)" cx="50" cy="600"/>
+    <!-- Back left leg -->
+    <circle transform="translate(210, 60) rotate(-30 240 600)" cx="170" cy="480"/>
+    <!-- Back right leg -->
+    <circle transform="translate(250, 60) rotate(10 280 600)" cx="240" cy="540"/>
+  </use>
+</svg>

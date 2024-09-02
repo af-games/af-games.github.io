@@ -1,0 +1,20 @@
+<svg>` land. Collected resources like circles (`<circle>`), paths (`<path>`), and rectangles (`<rect>`) for the kangaroo's body, head, and limbs. Gathered colors from the vibrant palette around us: `#4D260E` for the body, `#C37B58` for the highlights, and `#FFFFFF` for the eyes.
+
+**Day 2:**
+
+Marked the path with SVG code using the gathered resources:
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Kangaroo's Body -->
+  <rect width="350" height="350" fill="#4D260E"/>
+  <!-- Kangaroo's Head -->
+  <circle cx="175" cy="100" r="80" fill="#C37B58"/>
+  <!-- Kangaroo's Tail -->
+  <path d="M350,200 Q375,275 350,325" stroke="#4D260E" fill="transparent"/>
+  <!-- Kangaroo's Limbs -->
+  <rect x="150" y="200" width="50" height="200" rx="25" ry="25" fill="#C37B58"/>
+  <!-- Kangaroo's Eyes -->
+  <circle cx="160" cy="90" r="10" fill="#FFFFFF"/>
+  <circle cx="190" cy="90" r="10" fill="#FFFFFF"/>
+</svg>

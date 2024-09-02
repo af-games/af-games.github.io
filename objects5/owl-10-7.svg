@@ -1,0 +1,31 @@
+<svg width="500" height="800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Owl on shoulder -->
+  <g transform="translate(10, 70)">
+    <path d="M100 20 Q150 0, 200 20 Q150 40, 100 60" fill="black" stroke="white" stroke-width="2"/>
+    <circle cx="125" cy="30" r="8" fill="yellow"/>
+    <circle cx="75" cy="60" r="5" fill="white"/>
+    <circle cx="175" cy="60" r="5" fill="white"/>
+  </g>
+
+  <!-- Feathers and patterns on upper arm -->
+  <g transform="translate(30, 200)">
+    <!-- Add feathers and interlocking patterns here using path elements and gradients -->
+  </g>
+
+  <!-- Moon phase at elbow -->
+  <circle cx="150" cy="400" r="40" fill="black"/>
+  <path d="M150 360 A40 40, 0, 1, 0, 150 440" fill="lightblue"/>
+
+  <!-- Tree trunk and owlets on forearm -->
+  <g transform="translate(70, 500)">
+    <rect x="0" y="0" width="200" height="30" fill="brown"/>
+    <!-- Add tree branches, roots, and owlets using path elements -->
+  </g>
+
+  <!-- Owl footprints on wrist -->
+  <g transform="translate(150, 750)">
+    <!-- Add owl footprints using ellipse elements with varying sizes -->
+  </g>
+
+</svg>

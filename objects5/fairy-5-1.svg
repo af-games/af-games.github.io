@@ -1,0 +1,18 @@
+<svg width="100" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fairy's body -->
+  <ellipse cx="50" cy="80" rx="40" ry="60" fill="#fff"/>
+  <circle cx="50" cy="110" r="30" fill="#ffa502"/>
+
+  <!-- Fairy's wings -->
+  <path d="M20,70 Q50,30 80,70 Q50,110 20,70" stroke="#fff" fill="transparent"/>
+  <path d="M60,70 Q90,30 110,70 Q90,110 60,70" stroke="#fff" fill="transparent"/>
+
+  <!-- Fairy's dress -->
+  <rect x="25" y="80" width="50" height="40" fill="#ffa502"/>
+  <line x1="50" y1="120" x2="50" y2="160" stroke="#fff"/>
+
+  <!-- Fairy's wand -->
+  <rect x="35" y="90" width="5" height="40" fill="#fff"/>
+  <polygon points="37.5,130 37.5,135 42.5,135" fill="#fff"/>
+
+</svg>

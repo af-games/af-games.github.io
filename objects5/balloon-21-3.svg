@@ -1,0 +1,33 @@
+<svg width="1080" height="607.5" viewBox="0 0 1080 607.5" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#e6e9fa" />
+
+  <!-- Sun animation -->
+  <circle cx="450" cy="50" r="80">
+    <animate attributeName="cy" values="50;27.5;50" dur="4s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Mountains (circles) -->
+  <g id="mountains">
+    <circle cx="135" cy="547.5" r="90" fill="#b2dbfc"/>
+    <circle cx="680" cy="547.5" r="90" fill="#b2dbfc"/>
+
+    <!-- Mountain shadow -->
+    <rect x="135" y="560" width="540" height="27.5" fill="#a2ccf2"/>
+  </g>
+
+  <!-- Rivers (paths) -->
+  <path d="M360,547.5 Q585,607.5 910,547.5" stroke="#bdcbe1" stroke-width="10" fill="transparent">
+    <animate attributeName="stroke-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Trees (polygons) -->
+  <g id="trees" transform="translate(360, 490)">
+    <polygon points="0,0 20,0 5,-10" fill="#82af7b">
+      <animateTransform attributeName="transform" type="rotate" from="0 10 0" to="360 10 0" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="20,0 40,0 5,-10" fill="#82af7b">
+      <animateTransform attributeName="transform" type="rotate" from="0 30 0" to="360 30 0" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+  </g>
+</svg>

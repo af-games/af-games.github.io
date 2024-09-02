@@ -1,0 +1,37 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ocean background -->
+  <linearGradient id="oceanGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" style="stop-color:#0D47A1"/>
+    <stop offset="100%" style="stop-color:#64FFDA"/>
+  </linearGradient>
+  <rect width="800" height="600" fill="url(#oceanGradient)"/>
+
+  <!-- Ocean waves -->
+  <pattern id="waves" patternUnits="userSpaceOnUse" width="100" height="50">
+    <path d="M0,0 Q40,20 80,0 Q120,30 160,0" stroke="#008080" fill="none"/>
+  </pattern>
+  <rect x="0" y="300" width="800" height="300" fill="url(#waves)"/>
+
+  <!-- Mermaid's tail scales -->
+  <defs>
+    <radialGradient id="tailGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#580F41"/>
+      <stop offset="100%" style="stop-color:#C747FF"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="250" cy="350" rx="150" ry="100" fill="url(#tailGrad)"/>
+  <!-- Add more intersecting circles with varying offsets and radii for the tail scales -->
+
+  <!-- Mermaid's skin -->
+  <rect x="100" y="100" width="200" height="300" fill="#F7DEB8"/>
+
+  <!-- Hair and clothing patterns -->
+  <!-- Add your desired floral or swirl pattern here -->
+
+  <!-- Landmass -->
+  <polygon points="550,400 650,350 750,400 800,450" fill="#FFC107"/>
+  <rect x="550" y="250" width="250" height="150" fill="#EC4863"/>
+  <rect x="550" y="100" width="250" height="150" fill="#66BB6A"/>
+
+</svg>

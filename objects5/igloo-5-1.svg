@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Outer dome -->
+  <path d="M50 10 Q95 30, 50 60 Q5 30, 50 10" fill="white"/>
+
+  <!-- Inner dome (shadow) -->
+  <path d="M50 20 Q85 40, 50 50 Q15 40, 50 20" fill="lightgrey"/>
+
+  <!-- Door -->
+  <rect x="35" y="60" width="20" height="20" fill="brown"/>
+
+  <!-- Snow on roof -->
+  <polygon points="50,10 70,20 80,30 70,40 50,30" fill="white"/>
+</svg>

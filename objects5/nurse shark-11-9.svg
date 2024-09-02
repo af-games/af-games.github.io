@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <!-- Grid -->
+  <defs>
+    <pattern id="grid" patternUnits="userSpaceOnUse" width="10" height="10">
+      <line x1="0" y1="0" x2="50" y2="0" stroke="#ddd"/>
+      <line x1="0" y1="0" x2="0" y2="50" stroke="#ddd"/>
+    </pattern>
+  </defs>
+  <rect width="50" height="50" fill="url(#grid)"/>
+
+  <!-- Clues: small shapes (red circles) -->
+  <circle cx="10" cy="30" r="2" fill="red"/>
+  <circle cx="40" cy="15" r="2" fill="red"/>
+
+  <!-- Suspects: medium shapes (blue rectangles) -->
+  <rect x="5" y="10" width="8" height="8" fill="blue"/>
+  <rect x="35" y="35" width="10" height="5" fill="blue"/>
+
+  <!-- Culprits: large shapes (green circles) -->
+  <circle cx="25" cy="25" r="10" fill="green"/>
+
+</svg>

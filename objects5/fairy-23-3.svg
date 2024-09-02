@@ -1,0 +1,25 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define some colors -->
+  <defs>
+    <linearGradient id="fairyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(204,204,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <circle cx="300" cy="400" r="80" fill="none" stroke="url(#fairyGradient)" stroke-width="20"/>
+
+  <!-- Head -->
+  <ellipse cx="300" cy="250" rx="60" ry="80" fill="none" stroke="url(#fairyGradient)" stroke-width="15"/>
+
+  <!-- Hair -->
+  <path d="M270,240 C290,260 310,260 330,240" fill="none" stroke="black" stroke-width="10"/>
+
+  <!-- Arms -->
+  <line x1="250" y1="350" x2="350" y2="350" fill="none" stroke="url(#fairyGradient)" stroke-width="10"/>
+  <line x1="350" y1="350" x2="450" y2="350" fill="none" stroke="url(#fairyGradient)" stroke-width="10"/>
+
+  <!-- Wings -->
+  <polygon points="280,300 360,300 320,240" fill="none" stroke="url(#fairyGradient)" stroke-width="5"/>
+</svg>

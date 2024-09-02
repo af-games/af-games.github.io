@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -100 400 600" preserveAspectRatio="xMidYMid meet">
+
+  <!-- Balloon Envelope -->
+  <path id="balloon-envelope" d="M-50,-70 Q-30,-90 -20,-80 A15,15 0 0 1 20,-80 Q30,-90 50,-70"
+        fill="goldenrod" fill-opacity="0.8"/>
+  <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"></feGaussianBlur>
+  <feMerge>
+    <feMergeNode in="balloon-envelope"></feMergeNode>
+    <feMergeNode in="blur"></feMergeNode>
+  </feMerge>
+
+  <!-- Basket -->
+  <rect id="basket" x="-30,-95" y="-20,-75" width="60" height="40"
+        fill="#8B4513" fill-opacity="0.9"/>
+  <feGaussianBlur in="SourceAlpha" stdDeviation="1" result="basket-blur"></feGaussianBlur>
+  <feMerge>
+    <feMergeNode in="basket"></feMergeNode>
+    <feMergeNode in="basket-blur"></feMergeNode>
+  </feMerge>
+
+  <!-- Rope -->
+  <path id="rope" d="M-20,-75 Q-10,-85 -20,-95"
+        stroke="#4A1F0E" stroke-width="3" fill="transparent"/>
+  <feGaussianBlur in="SourceAlpha" stdDeviation="1" result="rope-blur"></feGaussianBlur>
+  <feMerge>
+    <feMergeNode in="rope"></feMergeNode>
+    <feMergeNode in="rope-blur"></feMergeNode>
+  </feMerge>
+
+  <!-- Flame -->
+  <path id="flame" d="M0,-10 Q-5,-20 -10,-10 A10,10 0 0 0 10,-10 Q5,-20 0,-10"
+        fill="orange" fill-opacity="0.8"/>
+  <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="flame-blur"></feGaussianBlur>
+  <feMerge>
+    <feMergeNode in="flame"></feMergeNode>
+    <feMergeNode in="flame-blur"></feMergeNode>
+  </feMerge>
+
+</svg>

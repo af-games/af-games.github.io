@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Fairy -->
+  <path id="fairy" d="M175,25 A125,125 0 1,0 175,375 A125,125 0 1,0 175,25 Z"
+        fill="#fff" stroke="#694f4f" stroke-width="10"/>
+
+  <!-- Fairy's hair -->
+  <path d="M185,25 L200,50 L215,25" fill="none" stroke="#694f4f" stroke-width="5"/>
+
+  <!-- Fairy's eyes -->
+  <circle cx="170" cy="60" r="10" fill="#000"/>
+  <circle cx="200" cy="60" r="10" fill="#000"/>
+
+  <!-- Fairy's wand -->
+  <line x1="185" y1="350" x2="185" y2="390" stroke="#694f4f" stroke-width="5"/>
+  <path d="M180,390 Q175,395 185,400 H190 Q195,395 200,390" fill="none" stroke="#694f4f" stroke-width="5"/>
+
+  <!-- Flowers -->
+  <circle cx="100" cy="150" r="30" fill="#ffcc00"/>
+  <circle cx="250" cy="175" r="25" fill="#ff99cc"/>
+  <circle cx="400" cy="125" r="20" fill="#ffff00"/>
+
+</svg>

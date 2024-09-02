@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <!-- Balloon envelope -->
+  <path d="M12,2C6.5,2 2,6.5 2,13c0,7 8,14 9,14h2c1,0 2,-1 2,-3v-12H12V2z" fill="#FFCC00"/>
+
+  <!-- Balloon basket -->
+  <rect x="8" y="16" width="8" height="7" rx="2" fill="#8B4513"/>
+
+  <!-- Balloon ropes -->
+  <line x1="12" y1="16" x2="12" y2="19" stroke="black"/>
+  <line x1="10" y1="16" x2="12" y2="16" stroke="black"/>
+  <line x1="14" y1="16" x2="12" y2="16" stroke="black"/>
+
+  <!-- Balloon flame -->
+  <path d="M12,9a7,7 0 0,1 5.8,12h-11.6a7,7 0 0,1 5.8,-12z" fill="#FF4500"/>
+</svg>

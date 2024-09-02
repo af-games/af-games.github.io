@@ -1,0 +1,42 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fairy's body -->
+    <path id="fairyBody" d="M150,100 Q175,75,200,100 T225,150 Q200,175 175,150 Z"
+          fill="#fff" stroke="#333"/>
+
+    <!-- Fairy's head -->
+    <circle id="fairyHead" cx="175" cy="75" r="25" fill="#fff"/>
+    <path id="fairyHair" d="M165,50 Q145,30 185,30 Q205,50 185,70 Z"
+          fill="#333"/>
+
+    <!-- Fairy's hand (right) -->
+    <path id="fairyHandR" d="M200,125 Q210,140 200,155 Q190,140 200,125 Z"
+          fill="#fff"/>
+
+    <!-- Fairy's hand (left) -->
+    <path id="fairyHandL" d="M175,125 Q165,140 175,155 Q185,140 175,125 Z"
+          fill="#fff"/>
+
+    <!-- Fairy's dress -->
+    <rect id="fairyDress" width="50" height="75" x="175" y="150" fill="#333"/>
+
+    <!-- Fairy's wings -->
+    <path id="fairyWingsR" d="M225,80 Q235,60 245,80 Q235,100 225,80 Z"
+          fill="#fff"/>
+    <path id="fairyWingsL" d="M175,80 Q165,60 160,80 Q165,100 175,80 Z"
+          fill="#fff"/>
+
+    <!-- Animation -->
+    <animateMotion begin="0s" dur="2s" repeatCount="indefinite">
+        <mpath href="#fairyWingsRPath"/>
+    </animateMotion>
+
+    <animateTransform attributeName="transform" type="rotate" from="0 175 150"
+                     to="360 175 150" begin="2s" dur="4s" repeatCount="indefinite"/>
+
+    <animate attributeName="cy" values="100;125;100" keyTimes="0;0.5;1"
+             dur="2s" repeatCount="indefinite" />
+
+    <!-- Fairy's dress path for motion path -->
+    <path id="fairyWingsRPath" d="M225,80 Q235,60 245,80"/>
+
+</svg>

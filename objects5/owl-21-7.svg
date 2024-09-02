@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#4A2D22"/>
+
+  <!-- Main Owl -->
+  <path id="owl-main" d="M...Z" fill="url(#feather-pattern)" stroke="#9B7658" stroke-width="5"/>
+  <circle cx="300" cy="150" r="40" fill="#D7A581">
+    <animate attributeName="r" values="40;50;40" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Burrowing Owl -->
+  <use href="#owl-small" x="150" y="300"/>
+
+  <!-- Moon Phases -->
+  <path d="M...Z" fill="#C8B6A7"/>
+  <!-- Repeat path for remaining moon phases -->
+
+  <!-- Tree of Life -->
+  <path id="tree-of-life" d="M...Z" fill="none" stroke="#9B7658" stroke-width="10"/>
+
+  <!-- Feather pattern -->
+  <defs>
+    <pattern id="feather-pattern" x="0%" y="0%" width="100%" height="100%">
+      <image href="feather_pattern.png" width="100%" height="100%"/>
+    </pattern>
+  </defs>
+</svg>

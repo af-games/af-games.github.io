@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Balloon envelope (oval) -->
+  <ellipse id="balloon_envelope" cx="400" cy="250" rx="200" ry="100" fill="#ffa500"/>
+  <animateTransform attributeName="transform" type="scale" from="1" to="1.1" begin="0s" dur="1s" repeatCount="indefinite"/>
+
+  <!-- Basket (rectangle) -->
+  <rect id="basket" x="320" y="400" width="160" height="50" fill="#8b4513"/>
+  <animate attributeName="y" from="400" to="390" begin="0s" dur="2s" repeatCount="indefinite"/>
+
+  <!-- burner (triangle) -->
+  <polygon id="burner" points="360,450 440,450 400,500" fill="#ffa500"/>
+  <animateTransform attributeName="transform" type="rotate" from="0 400 475" to="360 400 475" begin="0s" dur="4s" repeatCount="indefinite"/>
+
+  <!-- Rigging lines (polyline) -->
+  <polyline id="rigging_lines" points="400,100 380,200 420,200" stroke="#ffffff" fill="transparent"/>
+  <animate attributeName="points" from="400,100 380,200 420,200" to="400,50 380,150 420,150" begin="0s" dur="6s" repeatCount="indefinite"/>
+
+</svg>

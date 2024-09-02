@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Balloon envelope -->
+  <polygon points="160,5 280,45 160,85"
+           fill="#FFD700" stroke="#FF9F00" stroke-width="3"/>
+  <path d="M160,5 Q140,40 160,85 Q180,40 160,5" fill="none"
+        stroke="#FF9F00" stroke-width="3"/>
+
+  <!-- Balloon basket -->
+  <rect x="120" y="200" width="80" height="30"
+        fill="#B79500" stroke="#FF9F00" stroke-width="3"/>
+  <path d="M160,200 L240,200 Q220,170 160,170"
+        fill="none" stroke="#FF9F00" stroke-width="3"/>
+
+  <!-- Balloon string -->
+  <line x1="160" y1="85" x2="160" y2="10" stroke="#4A2C0D" stroke-width="5"/>
+  <circle cx="160" cy="10" r="10" fill="#4A2C0D"/>
+
+  <!-- Light interaction -->
+  <ellipse cx="160" cy="70" rx="30" ry="15"
+           fill-opacity="0.5" fill="#FF9F00"/>
+</svg>

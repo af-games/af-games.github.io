@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <!-- Define repeating dolphin pattern -->
+  <defs>
+    <pattern id="dolphins" patternUnits="userSpaceOnUse" width="500" height="400">
+      <g transform="translate(0,40)">
+        <path d="M250,100 Q350,75 450,100 T650,200 Q550,300 450,400 L250,400 Z" fill="#8BC3C6"/>
+        <path d="M250,250 Q300,200 375,250 T475,375 Q400,450 375,500 L250,500 Z" fill="#8BC3C6"/>
+      </g>
+    </pattern>
+  </defs>
+
+  <!-- Garden background -->
+  <rect x="0" y="0" width="1200" height="600" fill="#E9F4FB"/>
+
+  <!-- Dolphins and paths -->
+  <path d="M50,300 Q150,250 250,300 L450,400 Q650,450 750,400 Z" fill="url(#dolphins)"/>
+  <path d="M850,300 Q950,250 1050,300 L1150,400" stroke="#4C6D7A"/>
+
+  <!-- Repeat the dolphin pattern -->
+  <use xlink:href="#dolphins" transform="translate(600,0)"/>
+  <use xlink:href="#dolphins" transform="translate(900,-50)"/>
+
+  <!-- Interaction points and paths -->
+  <circle cx="375" cy="425" r="25" fill="#4C6D7A"/>
+  <path d="M187.5,425 Q287.5,375 375,425 Z" stroke="#4C6D7A"/>
+
+  <!-- Text -->
+  <text x="50%" y="550" text-anchor="middle" fill="#4C6D7A">Welcome to the Dolphin Garden!</text>
+</svg>

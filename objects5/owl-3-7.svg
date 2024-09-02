@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Tree of Life -->
+  <path d="M40,580 Q90,620 170,580 Q250,640 330,580 Q410,600 450,580" fill="#6D4F2A" stroke="#4B3418" stroke-width="5"/>
+
+  <!-- Branches and Leaves -->
+  <path d="M40,580 Q90,620 170,580 Q250,640 330,580 Q410,600 450,580" fill="none" stroke="#6D4F2A" stroke-width="5"/>
+  <polygon points="90,570 90,620 110,620" fill="#6D4F2A"/>
+  <!-- Repeat similar polygons along the branches -->
+
+  <!-- Owl -->
+  <path d="M200,380 Q230,430 250,400 Q270,450 310,400 Q340,350 360,380" fill="#5C4D3E" stroke="#392F20" stroke-width="5"/>
+  <path d="M200,380 Q230,430 250,400 Q270,450 310,400 Q340,350 360,380" fill="none" stroke="#392F20" stroke-width="5"/>
+  <!-- Add eyes, beak, and other details using ellipse, path commands -->
+
+  <!-- Feathers -->
+  <path d="M170,400 Q190,450 210,400" fill="#B3A68C" stroke="#7D7263" stroke-width="3"/>
+  <!-- Repeat similar paths to create feathers around the owl -->
+
+  <!-- Ancient Symbols -->
+  <ellipse cx="230" cy="430" rx="15" ry="15" fill="#9F8C6B"/>
+  <path d="M235,430 Q240,425 245,430 Q240,435 235,430" fill="none" stroke="#7D7263" stroke-width="3"/>
+  <!-- Add more symbols using ellipse, path commands -->
+
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200">
+
+<!-- Background -->
+<rect x="0" y="0" width="150" height="200" fill="lightblue"/>
+
+<!-- Penguin body and face -->
+<defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:white; stop-opacity:1" />
+        <stop offset="50%" style="stop-color:black; stop-opacity:1" />
+        <stop offset="100%" style="stop-color:white; stop-opacity:1" />
+    </linearGradient>
+</defs>
+
+<!-- Body -->
+<rect x="62.5" y="87.5" width="25" height="45" fill="url(#penguinGradient)"/>
+<rect x="37.5" y="105" width="25" height="20" fill="#9D8A6F"/>
+<rect x="87.5" y="105" width="25" height="20" fill="#9D8A6F"/>
+
+<!-- Face -->
+<circle cx="75" cy="75" r="35" fill="url(#penguinGradient)"/>
+<ellipse cx="75" cy="60" rx="15" ry="10" fill="#FFFFFF"/>
+<rect x="62.5" y="90" width="25" height="15" fill="#FFFFFF"/>
+
+<!-- Eyes -->
+<circle cx="65" cy="68" r="3" fill="#000000"/>
+<circle cx="85" cy="68" r="3" fill="#000000"/>
+
+<!-- Wings and feet -->
+<rect x="42.5" y="127.5" width="25" height="35" fill="#A9A9A9"/>
+<rect x="102.5" y="127.5" width="25" height="35" fill="#A9A9A9"/>
+<rect x="62.5" y="150" width="25" height="30" fill="#8E8E8E"/>
+
+</svg>

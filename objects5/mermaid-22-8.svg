@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Rock -->
+  <g fill="#776e5b">
+    <rect x="-40" y="30" width="80" height="20" rx="10"/>
+    <path d="M-40,30 Q-20,40 -40,50"/>
+  </g>
+
+  <!-- Mermaid's tail -->
+  <g transform="translate(0,60)">
+    <!-- Blue to turquoise gradient -->
+    <defs>
+      <linearGradient id="tailGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#3498db"/>
+        <stop offset="100%" style="stop-color:#6dd5fa"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Tail -->
+    <polygon points="-40,0 0,-20 40,0" fill="url(#tailGradient)"/>
+  </g>
+
+  <!-- Mermaid's upper body and details (hair, scales) -->
+  <g transform="translate(-30,20)">
+    <!-- Skin colors gradient -->
+    <defs>
+      <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:#f5c5ba"/>
+        <stop offset="100%" style="stop-color:#d96458"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Body -->
+    <circle cx="30" cy="-20" r="30" fill="url(#skinGradient)"/>
+
+    <!-- Hair (details using smaller shapes) -->
+    <g stroke="#000" stroke-width="1">
+      <!-- Add hair details here as small circles and paths -->
+    </g>
+
+    <!-- Scales (details using tiny squares) -->
+    <g fill="#fff">
+      <!-- Add scales here as tiny squares with varying sizes and positions -->
+    </g>
+  </g>
+
+</svg>

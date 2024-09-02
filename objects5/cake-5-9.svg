@@ -1,0 +1,32 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake outer shape (rounded rectangle) -->
+  <rect x="100" y="50" rx="40" ry="40" width="300" height="300"
+        fill="#f9e7cc" stroke="black" stroke-width="2"/>
+
+  <!-- Top layer of cake (circle for the top) -->
+  <circle cx="200" cy="150" r="60"
+          fill="#f9e7cc" stroke="black" stroke-width="1"/>
+
+  <!-- Middle layer of cake (ellipse) -->
+  <ellipse cx="200" cy="300" rx="120" ry="180"
+           fill="#f9e7cc" stroke="black" stroke-width="1"/>
+
+  <!-- Bottom layer of cake (rectangle) -->
+  <rect x="100" y="400" width="300" height="50"
+        fill="#f9e7cc" stroke="black" stroke-width="1"/>
+
+  <!-- Cake filling (red square in the middle) -->
+  <rect x="150" y="250" width="100" height="100"
+        fill="#ff6347" stroke="none"/>
+
+  <!-- Frosting (light blue rectangle around the cake) -->
+  <rect x="90" y="40" width="320" height="420"
+        fill="#add8e6" stroke="none"/>
+
+  <!-- Chocolate chips decoration (brown circles on top) -->
+  <circle cx="150" cy="75" r="10" fill="#4a2c2a"/>
+  <circle cx="230" cy="90" r="8" fill="#4a2c2a"/>
+  <circle cx="190" cy="60" r="7" fill="#4a2c2a"/>
+
+</svg>

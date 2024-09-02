@@ -1,0 +1,14 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100 10 A80 80 0 1 0 100 180 A80 80 0 1 0 100 10" fill="#F5DEB3"/>
+
+  <!-- Wings (Mirrored for symmetry) -->
+  <path d="M90 20 Q100 0, 110 20 L170 60 Q180 40, 170 20 L90 20 Z" fill="#FFB3E6"/>
+  <path transform="translate(30,-40) scale(-1)" d="M90 20 Q100 0, 110 20 L170 60 Q180 40, 170 20 L90 20 Z" fill="#FFB3E6"/>
+
+  <!-- Antennae -->
+  <polygon points="50,0 60,20 50,40" fill="#000"/>
+  <polygon transform="translate(150,-20)" points="50,0 60,20 50,40" fill="#000"/>
+
+</svg>

@@ -1,0 +1,6 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <g id="dolphin-group" mask="url(#dolphin-mask)">
+    <path d="M10 80 Q20 10, 40 30 Q60 50, 70 70 Q90 90, 100 50 Z"/>
+    <text x="40" y="35">SOLVE THE MYSTERY</text>
+  </g>
+</svg>

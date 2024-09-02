@@ -1,0 +1,24 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="500" height="500" fill="#3366FF"/>
+
+<!-- Mermaid's Tail -->
+<g stroke-width="1">
+  <!-- Dark blue triangles for the tail fin -->
+  <polygon points="240,480 170,430 310,430" fill="#0099CC"/>
+  <polygon points="245,460 175,410 305,410" fill="#3D9970"/>
+
+  <!-- Lighter green triangles for the tail base -->
+  <polygon points="250,440 180,370 320,370" fill="#66BB6A"/>
+</g>
+
+<!-- Mermaid's Body (simplified) -->
+<rect x="220" y="250" width="60" height="90" fill="#8B4513"/>
+
+<!-- Mermaid's Head and Face (simplified) -->
+<circle cx="270" cy="200" r="40" fill="#FFC0CB"/>
+<circle cx="270" cy="160" r="15" fill="white"/>
+<rect x="255" y="180" width="30" height="20" fill="#FF69B4"/>
+
+</svg>

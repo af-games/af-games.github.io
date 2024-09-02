@@ -1,0 +1,27 @@
+<svg viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<rect x="95" y="70" width="210" height="147" rx="70" fill="#8DC6DE"/>
+
+<!-- Tail -->
+<polygon points="95,360 205,360 150,400" fill="#8DC6DE"/>
+<rect x="150" y="360" width="210" height="40" rx="20" fill="#8DC6DE"/>
+
+<!-- Hair -->
+<path d="M95,70 Q140,30 205,70" stroke="black"/>
+<path d="M95,80 Q140,40 205,80" stroke="black"/>
+<path d="M95,90 Q140,50 205,90" stroke="black"/>
+
+<!-- Head -->
+<circle cx="180" cy="63" r="63" fill="#FFFFFF"/>
+<circle cx="170" cy="45" r="5" fill="#000"/>
+<circle cx="190" cy="45" r="5" fill="#000"/>
+
+<!-- Fin (top) -->
+<polygon points="265,38 335,38 295,78" fill="#8DC6DE"/>
+
+<!-- Fins (sides) -->
+<path d="M140,310 L95,360 Z" fill="#8DC6DE"/>
+<path d="M235,310 L290,360 Z" fill="#8DC6DE"/>
+
+</svg>

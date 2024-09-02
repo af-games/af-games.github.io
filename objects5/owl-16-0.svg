@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150">
+
+  <!-- Body -->
+  <rect x="40" y="60" width="50" height="70" fill="#D2B48C"/>
+  <ellipse cx="70" cy="95" rx="25" ry="45" fill="#9C7F5E"/>
+
+  <!-- Tail feathers -->
+  <polygon points="90,130 100,130 95,140" fill="#D2B48C"/>
+
+  <!-- Head -->
+  <circle cx="80" cy="60" r="40" fill="#E1DEDD"/>
+  <circle cx="75" cy="55" r="5" fill="#000"/>
+  <circle cx="85" cy="55" r="5" fill="#000"/>
+
+  <!-- Beak -->
+  <polygon points="75,65 90,65 82.5,45" fill="#F39C12"/>
+
+  <!-- Wings -->
+  <polygon points="25,60 35,50 45,65 55,50 65,60" fill="#D2B48C"/>
+  <polygon points="100,60 90,50 80,65 70,50 60,60" fill="#D2B48C"/>
+
+</svg>

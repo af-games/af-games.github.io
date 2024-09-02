@@ -1,0 +1,21 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <g id="body">
+    <rect x="100" y="200" width="200" height="200" fill="green"/>
+    <circle cx="200" cy="400" r="50" fill="green"/>
+  </g>
+
+  <!-- Head -->
+  <g id="head" transform="translate(170, 130) rotate(-2)">
+    <path d="M 0,-50 a 50,50 0 1,1 -100,0 a 50,50 0 1,1 100,0" fill="green"/>
+    <circle cx="0" cy="-50" r="20" fill="black"/>
+  </g>
+
+  <!-- Tail -->
+  <g id="tail">
+    <rect x="350" y="200" width="70" height="150" fill="green"/>
+    <polygon points="400,200 420,100 380,100" fill="green"/>
+  </g>
+
+</svg>

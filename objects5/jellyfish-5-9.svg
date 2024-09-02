@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#E6E6FA"/>
+
+<!-- Scene 1: Jelly's Lonely Castle -->
+<circle cx="400" cy="300" r="50" fill="#800080"/>
+<path d="M350,275 Q375,250 400,275 T425,275" stroke="#CC99FF" fill="transparent"/>
+<text x="30%" y="15%" font-size="20" text-anchor="middle">The once joyful Coral Castle was now empty, except for Jelly.</text>
+
+<!-- Scene 2: Sea Otter's Discovery -->
+<rect x="650" y="275" width="75" height="50" rx="37.5" fill="#A0522D"/>
+<polygon points="675,250 712.5,225 647.5,225" fill="#F7F7F7"/>
+<text x="85%" y="30%" font-size="20" text-anchor="middle">One day, a curious Sea Otter named Otto discovered Jelly's castle.</text>
+
+<!-- Scenes continue similarly... -->
+
+</svg>

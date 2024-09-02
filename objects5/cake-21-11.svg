@@ -1,0 +1,18 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake background -->
+  <rect x="100" y="0" width="300" height="400" fill="#FFFDD0"/>
+  <path d="M100,50 Q175,60 200,100 Q125,150 100,200" stroke="none" fill="#FFDC5C"/>
+
+  <!-- Cake top -->
+  <circle cx="180" cy="40" r="30" fill="#FFDC5C"/>
+  <circle cx="220" cy="40" r="20" fill="#FFDC5C"/>
+
+  <!-- Icing and decoration -->
+  <path d="M90,360 Q150,450 210,360" stroke="#FFFDD0" stroke-width="10" fill="none"/>
+  <rect x="110" y="380" width="180" height="20" fill="#FFDC5C"/>
+
+  <!-- Golden drips -->
+  <path d="M160,400 Q190,430 220,400" stroke="#D4AF37" stroke-width="5" fill="none"/>
+  <path d="M120,410 Q140,440 180,410" stroke="#D4AF37" stroke-width="5" fill="none"/>
+
+</svg>

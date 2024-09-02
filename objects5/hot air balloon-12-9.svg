@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Meadow -->
+<rect x="0" y="400" width="800" height="200" fill="#90EE90"/>
+
+<!-- Little Mouse -->
+<circle cx="50" cy="470" r="10" fill="#8B4513"/>
+<text x="50" y="460" font-family="Arial" font-size="12">Little Mouse</text>
+
+<!-- Hot Air Balloon -->
+<rect x="30" y="300" width="50" height="100" fill="#FFC300"/> <!-- Basket -->
+<circle cx="70" cy="250" r="80" fill="radialGradient(red, orange, yellow)"/> <!-- Envelope -->
+<path d="M70 300 Q60 280, 50 260 Q40 280, 30 300" stroke="#333" fill="transparent"/> <!-- Ropes -->
+
+<!-- Scene 1: Discovery -->
+<text x="350" y="570" font-family="Arial" font-size="16">The Little Mouse discovers a hot air balloon in the meadow.</text>
+
+<!-- Scene 2: Climbing -->
+<circle cx="50" cy="350" r="10" fill="#8B4513"/>
+<text x="350" y="470" font-family="Arial" font-size="16">The Little Mouse climbs into the basket.</text>
+
+<!-- Scene 3: Floating -->
+<rect x="30" y="250" width="50" height="100" fill="#FFC300"/>
+<circle cx="70" cy="180" r="80" fill="radialGradient(red, orange, yellow)"/>
+<path d="M70 300 Q60 280, 50 260 Q40 280, 30 300" stroke="#333" fill="transparent"/>
+<text x="350" y="380" font-family="Arial" font-size="16">The Little Mouse releases the ropes, and the balloon floats away.</text>
+
+<!-- Scene 4: Storm -->
+<circle cx="720" cy="200" r="50" fill="#A9A9A9"/>
+<text x="650" y="300" font-family="Arial" font-size="16">A storm approaches while they're airborne.</text>
+
+<!-- Scene 5: Landing -->
+<rect width="800" height="200" fill="#0F9D58"/>
+<circle cx="400" cy="350" r="20" fill="#7CFC00"/>
+<path d="M70 180 Q60 200, 50 220 Q40 200, 30 180" stroke="#333" fill="transparent"/>
+<text x="350" y="400" font-family="Arial" font-size="16">The Hot Air Balloon lands safely in a magical forest.</text>
+
+</svg>

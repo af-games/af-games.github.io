@@ -1,0 +1,49 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="sky-ground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="70%" style="stop-color:rgb(139,69,19);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="800" height="250" fill="url(#sky-ground)" />
+
+  <!-- Ground -->
+  <rect x="0" y="250" width="800" height="350" fill="#FDD94D" />
+
+  <!-- Rolling hills -->
+  <path d="M100,270 Q250,220 400,270 Q550,230 700,280" stroke="#8B4513" fill="none" stroke-width="5" />
+
+  <!-- River -->
+  <path d="M60,370 Q200,420 340,370 Q500,410 700,360" stroke="#38768F" fill="none" stroke-width="5">
+    <animate attributeName="stroke" values="#38768F;#6BA9B7;#38768F" dur="5s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Giraffe -->
+  <g transform="translate(400,200)">
+    <circle cx="0" cy="-150" r="150" fill="#FFF3E0">
+      <animate attributeName="cy" values="0;-300;0" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <polygon points="0,-20 100,100 0,200" fill="#8B4513">
+      <animate attributeName="points" values="0,-20 100,100 0,200;0,-20 70,90 0,190;0,-20 100,100 0,200" dur="3s" repeatCount="indefinite" />
+    </polygon>
+    <rect x="-50" y="-80" width="40" height="160" fill="#8B4513">
+      <animate attributeName="y" values="0;-200;0" dur="3s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Trees -->
+  <g transform="translate(120,370)">
+    <circle cx="0" cy="0" r="50" fill="#66CDAA">
+      <animate attributeName="cy" values="0;-80;0" dur="4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  <g transform="translate(250,390)">
+    <circle cx="0" cy="0" r="60" fill="#66CDAA">
+      <animate attributeName="cy" values="0;-80;0" dur="4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+</svg>

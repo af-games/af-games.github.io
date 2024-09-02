@@ -1,0 +1,44 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#8B4513"/>
+  <pattern id="grass" patternUnits="userSpaceOnUse" width="10" height="10">
+    <path d="M 0 0 L 10 10 M 0 10 L 10 0" stroke="#66CDAA" stroke-width="2"/>
+  </pattern>
+  <rect x="0" y="350" width="600" height="50" fill="url(#grass)"/>
+
+  <!-- Trees -->
+  <g stroke="#4A2C09" stroke-width="2">
+    <!-- Tree 1 -->
+    <path d="M50 10 Q70 30, 100 10 Q130 50, 160 10"/>
+    <polygon points="180,10 200,40 180,70" fill="#3D9970"/>
+
+    <!-- Tree 2 -->
+    <path d="M550 10 Q530 30, 490 10 Q460 50, 440 10"/>
+    <polygon points="420,10 400,40 420,70" fill="#3D9970"/>
+  </g>
+
+  <!-- Owl -->
+  <circle cx="300" cy="200" r="80" fill="#A9A9A9"/>
+  <circle cx="265" cy="185" r="15" fill="#FFFFFF">
+    <animate attributeName="r" values="15;12;15" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="335" cy="185" r="15" fill="#FFFFFF">
+    <animate attributeName="r" values="15;12;15" dur="2s" delay="1s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M260 230 Q280 260, 320 230 Q340 260, 360 230" stroke="#4A2C09" fill="#C18658"/>
+
+  <!-- Branches -->
+  <g stroke="#4A2C09" stroke-width="2">
+    <path d="M100 50 Q120 70, 150 50 Q170 30, 200 50"/>
+    <path d="M500 50 Q480 70, 450 50 Q430 30, 400 50"/>
+  </g>
+
+  <!-- Lighting Effect -->
+  <linearGradient id="light" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFFACD; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#FFFFFF; stop-opacity:1"/>
+  </linearGradient>
+  <rect x="450" y="30" width="150" height="70" fill="url(#light)"/>
+
+</svg>

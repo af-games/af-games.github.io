@@ -1,0 +1,18 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <use xlink:href="#body-refined" fill="url(#glass-gradient)"/>
+
+  <!-- Wings and tail feathers -->
+  <use style="stroke:black;fill:transparent;" xlink:href="#left-wing"/>
+  <use style="stroke:black;fill:transparent;" xlink:href="#right-wing"/>
+  <use style="stroke:black;fill:transparent;" xlink:href="#tail-feathers"/>
+
+  <!-- Eyes -->
+  <circle cx="70" cy="60" r="5" fill="black"/>
+  <circle cx="130" cy="60" r="5" fill="black"/>
+
+  <!-- Beak -->
+  <path d="M90 40 Q105 25, 120 40" stroke="orange" fill="transparent"/>
+
+  <!-- Define gradients (already defined above) -->
+</svg>

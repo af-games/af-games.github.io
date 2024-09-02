@@ -1,0 +1,20 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dinosaurs -->
+  <circle id="T" cx="50" cy="100" r="40" fill="orange"/>
+  <polygon id="V" points="70,80 160,10 250,80" fill="red"/>
+  <rect id="S" width="70" height="90" x="300" y="70" rx="20" fill="green"/>
+
+  <!-- Race Track -->
+  <rect x="400" y="150" width="300" height="60" fill="lightgray"/>
+
+  <!-- Finish Line Flag -->
+  <polygon points="780,150 790,20 780,250" fill="yellow" stroke="black"/>
+
+  <!-- Dialogue Bubbles -->
+  <text id="T_bubble" x="40" y="130">Ready, set...</text>
+  <text id="V_bubble_1" x="90" y="85">Go!</text>
+  <text id="V_bubble_2" x="170" y="65">Slow down! Wait for Steggy!</text>
+  <text id="T_bubble_2" x="450" y="160">Let Steggy win, V!</text>
+
+</svg>

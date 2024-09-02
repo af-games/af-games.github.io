@@ -1,0 +1,13 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake base (rectangle) -->
+  <rect x="40" y="180" width="220" height="70" fill="#FDD663" stroke="black"/>
+  <!-- Cake top (rounded rectangle) -->
+  <rect x="50" y="110" rx="20" ry="20" width="200" height="70" fill="#FFF4B9" stroke="black"/>
+  <!-- Icing (ellipse) -->
+  <ellipse cx="150" cy="80" rx="60" ry="40" fill="white"/>
+  <!-- Cherry on top (circle) -->
+  <circle cx="150" cy="50" r="10" fill="red"/>
+
+  <!-- Chocolate decorations (polyline) -->
+  <polyline points="70,80 120,60 190,80 240,100" stroke="brown" fill="transparent"/>
+</svg>

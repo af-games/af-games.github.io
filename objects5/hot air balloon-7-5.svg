@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Balloon body -->
+  <circle id="balloonBody" cx="400" cy="50" r="150" fill="none" stroke="#AAA" stroke-width="5"/>
+
+  <!-- Burner (flame) -->
+  <path id="burner" d="M380,60 Q400,90 420,60" fill="none" stroke="#FF5733" stroke-width="5"/>
+  <animateTransform
+    attributeName="d"
+    type="translate"
+    values="0,0; 10,0; 0,0"
+    dur="0.5s"
+    repeatCount="indefinite"
+    id="burnerAnim"/>
+
+  <!-- Basket -->
+  <rect id="basket" x="370" y="260" width="60" height="80" fill="#AAA"/>
+  <text x="410" y="350" font-family="Verdana" font-size="20">Gondola</text>
+
+  <!-- Gondola -->
+  <rect id="gondola" x="370" y="180" width="60" height="40" fill="#AAA"/>
+
+  <!-- Cable (to keep the balloon tied) -->
+  <line id="cable" x1="400" y1="50" x2="400" y2="370" stroke="#AAA" stroke-width="3"/>
+
+  <!-- Animation for the whole balloon moving up and down -->
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    values="0,-50; 0,50; 0,-50"
+    dur="2s"
+    repeatCount="indefinite"
+    id="balloonAnim"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Scene 1: The Quiet Life -->
+  <rect id="igloo" x="-80" y="-60" width="60" height="90" fill="#FFEFD5" rx="20"/>
+  <circle id="polarBear" cx="-40" cy="-30" r="30" fill="#FFFFFF"/>
+  <text x="-70" y="-80">A quiet life in the Arctic...</text>
+
+  <!-- Scene 2: The Storm Arrives -->
+  <path d="M-150,-10 A50,50 0 0,0 -50,-100 L0,-150 Z" fill="#4B598F"/>
+  <path d="M-70,-60 Q-60,-40 -70,-20 Q-80,-40 -70,-60" stroke="#4B598F" stroke-width="3"/>
+
+  <!-- Scene 3: Igloo Rolls Away -->
+  <use xlink:href="#igloo"/>
+  <path d="M-70,10 Q-80,-20 -70,-50" stroke="#FFFFFF" stroke-width="4"/>
+  <text x="-60" y="10">A sudden storm rolls in...</text>
+
+  <!-- Scene 4: Journey Through the Landscape -->
+  <use xlink:href="#igloo" transform="translate(200, -70) rotate(90)" />
+  <rect x="50" y="-130" width="100" height="80" fill="#A0E6FF"/>
+  <path d="M0,-120 Q50,-90 100,-120" stroke="#C0C0C0" stroke-width="4"/>
+  <rect x="150" y="-70" width="100" height="30" fill="#A0E6FF" rx="15"/>
+  <path id="aurora" d="M0,-80 Q50,20 100,-80" stroke="#FFC94D" stroke-width="5"/>
+
+  <!-- Scene 5: Igloo Meets New Friends -->
+  <use xlink:href="#igloo" transform="translate(300, -70) rotate(180)" />
+  <circle cx="280" cy="-60" r="20" fill="#0099FF"/>
+  <path d="M250,-40 Q260,-20 250,-30 Q270,-20 250,-40 Z" fill="#FFFFFF"/>
+  <rect x="210" y="-80" width="30" height="40" rx="5" fill="#FFD65B"/>
+  <circle cx="290" cy="-70" r="15" fill="#FFA500"/>
+
+  <!-- Scene 6: The Igloo's Destiny -->
+  <use xlink:href="#igloo" transform="translate(400, -70) rotate(-90)" />
+  <rect id="valley" x="300" y="-200" width="150" height="200" fill="#E6FFFB"/>
+  <use xlink:href="#polarBear" transform="translate(430, -70) rotate(-90)" />
+  <text x="380" y="-180">...and finds its destiny.</text>
+</svg>

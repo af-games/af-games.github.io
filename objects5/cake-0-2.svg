@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Center -->
+  <path id="cakeCenter" d="M400,150 Q420,70 500,150 Q480,300 400,450 Q320,300 200,150 Z"
+        fill="#FDD7E4" stroke="black"/>
+
+  <!-- Cake Texture -->
+  <defs>
+    <pattern id="texture" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="2" height="2" fill="#FFB3D0"/>
+      <rect x="2" y="2" width="2" height="2" fill="#FFF5E6"/>
+    </pattern>
+  </defs>
+
+  <!-- Cake Border -->
+  <use href="#cakeCenter" stroke-width="4"/>
+
+  <!-- Fondant Ribbons -->
+  <!-- Left ribbon -->
+  <path d="M100,300 Q150,250 200,300" fill="none" stroke="#FFB3D0"/>
+  <!-- Right ribbon -->
+  <path d="M600,300 Q550,250 600,300" fill="none" stroke="#FFB3D0"/>
+
+  <!-- Flowers (Simple daisies) -->
+  <!-- Left flower -->
+  <circle cx="150" cy="400" r="30" fill="#FFF5E6"/>
+  <circle cx="170" cy="400" r="10" fill="black"/>
+  <!-- Right flower -->
+  <circle cx="550" cy="400" r="30" fill="#FFF5E6"/>
+  <circle cx="570" cy="400" r="10" fill="black"/>
+
+</svg>

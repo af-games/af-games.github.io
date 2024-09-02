@@ -1,0 +1,32 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define patterns -->
+  <defs>
+    <pattern id="dolphinPattern" patternUnits="userSpaceOnUse" width="150" height="100">
+      <path d="M0,50 A50,50 0 0 1 150,50 A50,50 0 0 1 75,0 Z" fill="lightblue"/>
+    </pattern>
+    <linearGradient id="tailGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#3d94ff"/>
+      <stop offset="50%"  stop-color="#3282cc"/>
+      <stop offset="100%" stop-color="#1e60ab"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dolphin bodies -->
+  <circle cx="75" cy="50" r="50" fill="url(#dolphinPattern)" stroke="black"/>
+  <circle cx="225" cy="50" r="50" fill="url(#dolphinPattern)" stroke="black"/>
+  <circle cx="375" cy="50" r="50" fill="url(#dolphinPattern)" stroke="black"/>
+  <circle cx="75" cy="150" r="50" fill="url(#dolphinPattern)" stroke="black"/>
+  <circle cx="225" cy="150" r="50" fill="url(#dolphinPattern)" stroke="black"/>
+  <circle cx="375" cy="150" r="50" fill="url(#dolphinPattern)" stroke="black"/>
+
+  <!-- Dolphin fins -->
+  <ellipse cx="62.5" cy="42.5" rx="25" ry="50" fill="lightblue"/>
+  <ellipse cx="312.5" cy="42.5" rx="25" ry="50" fill="lightblue"/>
+  <ellipse cx="562.5" cy="42.5" rx="25" ry="50" fill="lightblue"/>
+
+  <!-- Dolphin tails -->
+  <path d="M150,0 Q200,50 175,100 Q225,50 300,0" stroke="url(#tailGradient)" fill="transparent"/>
+  <path d="M425,0 Q475,50 450,100 Q500,50 600,0" stroke="url(#tailGradient)" fill="transparent"/>
+
+</svg>

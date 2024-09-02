@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Outer Wall -->
+  <path d="M-49,-49 A49,49 0 0 1 49,-49" fill="#FFFFFF"/>
+
+  <!-- Doorway -->
+  <polygon points="-20,-50 -5,-30 20,-50" fill="#696969"/>
+
+  <!-- Roof (Top Half) -->
+  <path d="M-49,49 A49,49 0 1 0 49,49" fill="#FFFFFF"/>
+  <path d="M0,49 Q35,25 -50,-49" stroke="#696969"/>
+
+  <!-- Roof (Bottom Half) -->
+  <path d="M-49,-49 A49,49 0 1 1 49,-49" fill="#FFFFFF"/>
+  <path d="M0,-49 Q35,-25 -50,49" stroke="#696969"/>
+
+</svg>

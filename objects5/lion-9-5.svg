@@ -1,0 +1,25 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect id="body" x="150" y="150" width="80" height="120" fill="brown"/>
+
+  <!-- Head -->
+  <circle id="head" cx="200" cy="100" r="60" fill="orange"/>
+  <circle id="eyelid-left" cx="195" cy="70" r="30" fill="orange" style="opacity:0.5"/>
+  <circle id="eyelid-right" cx="205" cy="70" r="30" fill="orange" style="opacity:0.5"/>
+
+  <!-- Mane -->
+  <path id="mane" d="M190,40 Q220,60 250,40 T290,80 Q220,120 150,80 Z" fill="yellow"/>
+
+  <!-- Legs and Tail -->
+  <rect id="leg-left" x="130" y="270" width="20" height="60" fill="brown"/>
+  <rect id="leg-right" x="210" y="270" width="20" height="60" fill="brown"/>
+  <path id="tail" d="M250,300 Q280,340 290,300" stroke="brown" fill="transparent"/>
+
+  <!-- Strings (Paths for manipulation) -->
+  <path id="string-head" d="M150,100 L75,50"/>
+  <path id="string-leftleg" d="M130,270 L50,300"/>
+  <path id="string-rightleg" d="M210,270 L280,300"/>
+  <path id="string-tail" d="M290,300 Q320,340 340,300"/>
+
+</svg>

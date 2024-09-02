@@ -1,0 +1,21 @@
+<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dino-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(57,86,140);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(39,57,113);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dinosaur Head -->
+  <path id="dino-head" d="M200,50 Q180,40 160,70 Q180,90 200,100 Q220,90 240,70 Q220,40 200,50" fill="url(#dino-gradient)"/>
+
+  <!-- Dinosaur Neck -->
+  <path id="dino-neck" d="M200,100 L200,150 C230,170 250,180 250,200" fill="url(#dino-gradient)"/>
+
+  <!-- Dinosaur Body -->
+  <path id="dino-body" d="M250,200 Q260,240 280,270 Q300,240 310,200" fill="url(#dino-gradient)"/>
+
+  <!-- Dinosaur Tail -->
+  <path id="dino-tail" d="M310,200 C330,220 350,240 370,260 L400,280 Z" fill="url(#dino-gradient)"/>
+
+</svg>

@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect id="body" x="150" y="400" width="500" height="300" fill="black" />
+
+  <!-- Neck -->
+  <path id="neck" d="M250,400 Q300,300 350,400" stroke-width="10" stroke="black" fill="transparent"/>
+
+  <!-- Head -->
+  <circle id="head" cx="400" cy="250" r="75" stroke-width="10" stroke="black" fill="transparent"/>
+
+  <!-- Legs (front two legs are connected to the body) -->
+  <rect id="front_leg1" x="200" y="500" width="30" height="100" fill="black"/>
+  <rect id="front_leg2" x="270" y="500" width="30" height="100" fill="black"/>
+  <rect id="back_leg1" x="450" y="500" width="30" height="100" fill="black"/>
+  <rect id="back_leg2" x="520" y="500" width="30" height="100" fill="black"/>
+
+  <!-- Spots -->
+  <circle cx="230" cy="480" r="15" fill="white"/>
+  <circle cx="290" cy="480" r="15" fill="white"/>
+  <circle cx="470" cy="480" r="15" fill="white"/>
+  <circle cx="530" cy="480" r="15" fill="white"/>
+
+</svg>

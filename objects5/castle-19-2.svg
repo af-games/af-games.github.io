@@ -1,0 +1,25 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle Base -->
+  <rect x="70" y="180" width="160" height="70" fill="grey" stroke="black"/>
+
+  <!-- Walls -->
+  <polygon points="70,180 230,180 230,90 70,90" fill="tan"/>
+  <polygon points="145,60 205,60 205,25 145,25" fill="tan"/>
+
+  <!-- Towers -->
+  <polygon points="70,90 80,30 145,30 135,90" fill="tan"/>
+  <polygon points="230,90 240,30 205,30 195,90" fill="tan"/>
+
+  <!-- Gatehouse -->
+  <polygon points="70,60 80,20 145,20 155,60" fill="tan"/>
+  <path d="M75,20 Q90,30 105,20" stroke="black"/>
+
+  <!-- Turrets -->
+  <path d="M75,30 A25,25 0 0 0 100,55 L85,60 Z"/>
+  <path d="M225,30 A25,25 0 0 0 210,55 L205,60 Z"/>
+
+  <!-- Windows -->
+  <rect x="75" y="40" width="50" height="15" fill="tan"/>
+  <rect x="180" y="40" width="50" height="15" fill="tan"/>
+
+</svg>

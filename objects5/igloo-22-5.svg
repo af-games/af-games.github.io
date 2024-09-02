@@ -1,0 +1,17 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" style="background-color:white">
+  <!-- Dome -->
+  <path id="dome" d="M250 100 A150 150 0 1 1 250 300 A150 150 0 1 1 250 100 Z"
+        fill="none" stroke-width="3" stroke="#000"/>
+
+  <!-- Entryway -->
+  <rect id="entryway" width="100" height="150" x="225" y="225" rx="50"
+        fill="none" stroke-width="3" stroke="#000"/>
+
+  <!-- Smoke Hole -->
+  <circle id="smoke-hole" cx="250" cy="75" r="40"
+          fill="none" stroke-width="3" stroke="#000"/>
+
+  <!-- Animation: Spin igloo -->
+  <animateTransform attributeName="transform" type="rotate"
+                   from="0 250 250" to="360 250 250" dur="4s" repeatCount="indefinite"/>
+</svg>

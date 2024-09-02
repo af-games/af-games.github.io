@@ -1,0 +1,37 @@
+<svg width="600" height="450" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="10" y="10" width="580" height="430" fill="#FFF3E0"/>
+
+<!-- Plate -->
+<ellipse cx="300" cy="225" rx="270" ry="270" fill="#FFFFFF"/>
+<path d="M60 225 Q100 280, 190 240 Q330 300, 460 240 Q580 280, 620 225" stroke="#FFB380" fill="transparent"/>
+
+<!-- Giraffe -->
+<g transform="translate(270,190) scale(.7)">
+  <path d="M50 -30 L150 -40 A100 100 0 0 1 50 60 Z" fill="#FFA500"/>
+  <path d="M80 -20 Q120 10, 150 -20 Z" fill="#FFD700"/>
+  <circle cx="100" cy="-40" r="30" fill="#FFFFFF"/>
+  <circle cx="160" cy="-40" r="30" fill="#FFFFFF"/>
+</g>
+
+<!-- Fruits -->
+<circle cx="80" cy="270" r="30" fill="#FF6F91"/>
+<path d="M50 260 Q30 280, 50 300 Z" stroke="#FF4D6D" fill="transparent"/>
+
+<circle cx="420" cy="270" r="30" fill="#FF9C6E"/>
+<path d="M410 260 Q390 280, 410 300 Z" stroke="#FFA500" fill="transparent"/>
+
+<!-- Leaves -->
+<path d="M50 350 Q70 370, 120 350 Z" stroke="#6CA641" fill="transparent"/>
+<path d="M480 350 Q460 370, 390 350 Z" stroke="#6CA641" fill="transparent"/>
+
+<!-- Fork and Knife -->
+<path d="M20 410 L20 440 H100 V410 H20" stroke="#A9A9A9"/>
+<path d="M370 410 Q350 420, 360 440 Z M380 410 L400 440 Z" stroke="#A9A9A9"/>
+
+<!-- Garnish -->
+<circle cx="150" cy="420" r="15" fill="#FFB380"/>
+<path d="M140 420 Q160 440, 180 420 Z" stroke="#FF9C6E" fill="transparent"/>
+
+</svg>

@@ -1,0 +1,42 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+    <g id="fairy">
+      <!-- Fairy image (replace with your own) -->
+      <path d="M50,10 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0" fill="#fff"/>
+      <path d="M60,30 v-20 a10,10 0 0,0 -20,0 a10,10 0 0,0 20,0 z" fill="#999"/>
+    </g>
+  </defs>
+
+  <use xlink:href="#fairy" x="50%" y="50%" transform="translate(-50%, -50%)">
+
+    <!-- Animation -->
+    <animate attributeName="transform"
+             attributeType="XML"
+             type="translate"
+             from="0,0"
+             to="0,-200"
+             begin="0s"
+             dur="3s"
+             repeatCount="1" />
+
+    <!-- Wand wave -->
+    <animate attributeName="transform"
+             attributeType="XML"
+             type="rotate"
+             from="0 60 50"
+             to="30 60 50"
+             begin="0.5s"
+             dur="2s"
+             repeatCount="indefinite" />
+
+    <!-- Pause at the top -->
+    <animate attributeName="transform"
+             attributeType="XML"
+             type="translate"
+             from="0,-200"
+             to="0,0"
+             begin="3s"
+             dur="1s"
+             fill="freeze" />
+  </use>
+</svg>

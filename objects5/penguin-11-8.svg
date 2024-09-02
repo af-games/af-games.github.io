@@ -1,0 +1,27 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="300" height="300" fill="#87CEEB"/>
+
+  <!-- Body & Belly -->
+  <g id="penguin-body">
+    <path d="M150,20 Q160,30 190,40 Q210,30 220,20 Q210,10 190,0 Q160,10 150,20 Z" fill="#FFFFFF"/>
+    <path d="M150,70 Q160,80 190,90 Q210,80 220,70 Q210,60 190,50 Q160,60 150,70 Z" fill="#FFFFFF"/>
+    <path d="M140,130 A70,70 0 0 0 160,200 A70,70 0 0 0 140,270 Q150,280 160,290 Z" fill="#FFD700"/>
+
+    <!-- Belly Cut-out -->
+    <clipPath id="belly-clip">
+      <path d="M150,70 Q160,80 190,90 Q210,80 220,70 Q210,60 190,50 Q160,60 150,70 Z"/>
+    </clipPath>
+    <path d="M140,130 A70,70 0 0 0 160,200 A70,70 0 0 0 140,270 Q150,280 160,290 Z" fill="#FFD700" clip-path="url(#belly-clip)"/>
+  </g>
+
+  <!-- Head & Eyes -->
+  <circle cx="150" cy="140" r="30" fill="black"/>
+  <circle cx="135" cy="125" r="5" fill="white"/>
+  <circle cx="165" cy="125" r="5" fill="white"/>
+
+  <!-- Wings & Feet -->
+  <path d="M140,170 Q180,190 220,170 Q200,130 180,90 Z" stroke="#FFD700" fill="transparent"/>
+  <path d="M160,250 Q140,270 160,290 Z" stroke="#FFD700" fill="transparent"/>
+
+</svg>

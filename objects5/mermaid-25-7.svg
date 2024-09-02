@@ -1,0 +1,14 @@
+<svg width="300" height="350" xmlns="http://www.w3.org/2000/svg">
+  <path id="scale" d="M 147.5 260 Q 145 265, 150 270 Q 145 275, 147.5 280 Z"/>
+  <g id="tail-scales">
+    <use href="#scale" xlink:href="#scale"/>
+    <use href="#scale" transform="translate(5,0)" style="fill-opacity:.8"/>
+    <use href="#scale" transform="translate(10,0)" style="fill-opacity:.6"/>
+  </g>
+  <path id="tail-outline" d="M 50 200 Q 100 250, 150 250 A 50 50 0 0 1 200 250" style="stroke-width:3; stroke:rgb(0,0,0); fill:none"/>
+  <path d="M 160 187.5 Q 145 200, 130 212.5 A 25 25 0 0 1 160 247.5" style="fill:rgb(255,220,200); stroke-width:1; stroke:black"/>
+  <path d="M 175 187.5 Q 162.5 200, 150 212.5 A 25 25 0 0 1 175 247.5" style="fill:rgb(255,220,200); stroke-width:1; stroke:black"/>
+  <path d="M 160 212.5 Q 168 225, 175 237.5" style="fill:rgb(255,220,200); stroke-width:1; stroke:black"/>
+  <path id="skin" d="M 130 200 Q 140 220, 150 240" style="fill:rgb(255,220,200);stroke:black;stroke-width:1"/>
+  <path id="hair" d="M 165 190 Q 170 180, 175 170 Z" transform="rotate(30)" repeatCount="10" style="stroke-width:2; stroke:rgb(0,0,255); fill:none"/>
+</svg>

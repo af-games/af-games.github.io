@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- T-Shirt -->
+  <rect x="150" y="70" width="400" height="300" fill="#2C3E50"/>
+  <polygon points="190,70 610,70 400,100" fill="#FFFFFF"/>
+
+  <!-- Buttons -->
+  <circle cx="250" cy="85" r="10" fill="#FFFFFF"/>
+  <circle cx="350" cy="85" r="10" fill="#FFFFFF"/>
+
+  <!-- Pants -->
+  <rect x="150" y="370" width="400" height="200" fill="#2C3E50"/>
+  <polygon points="190,370 610,370 400,570" fill="#FFFFFF"/>
+
+  <!-- Lace-like Trim -->
+  <path d="M190,370 Q280,470 400,570 Q520,470 610,370" stroke="#FFFFFF" fill="transparent" stroke-width="5"/>
+
+  <!-- Cape -->
+  <ellipse cx="400" cy="150" rx="200" ry="120" fill="#2C3E50"/>
+  <polygon points="60,70 80,150 60,230" fill="#2C3E50"/>
+  <polygon points="740,70 780,150 740,230" fill="#2C3E50"/>
+
+  <!-- Shark Fin Embellishment -->
+  <circle cx="650" cy="150" r="40" fill="#FFFFFF"/>
+  <path d="M630,110 Q680,70 730,110 Q780,150 730,190 Q680,230 630,190" stroke="#FFFFFF" fill="transparent" stroke-width="5"/>
+
+</svg>

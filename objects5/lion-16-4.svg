@@ -1,0 +1,31 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 250">
+
+  <!-- Body -->
+  <rect id="body" x="110" y="70" width="80" height="160"
+        fill="#F9A46B" stroke="#996D3C" stroke-width="3"/>
+
+  <!-- Legs -->
+  <rect id="front-leg-left" x="125" y="180" width="20" height="70"
+        fill="none" stroke="#996D3C" stroke-width="3"/>
+  <rect id="front-leg-right" x="165" y="180" width="20" height="70"
+        fill="none" stroke="#996D3C" stroke-width="3"/>
+
+  <!-- Head -->
+  <path id="head" d="M140,40 Q150,50 160,60 Q150,70 140,80"
+        fill="#F29558" stroke="#996D3C" stroke-width="3"/>
+
+  <!-- Mane -->
+  <path id="mane" d="M130,50 C135,35 165,35 170,50 S165,65 135,65 C130,60 125,50 130,50"
+        fill="none" stroke="#996D3C" stroke-width="3"/>
+
+  <!-- Eyes -->
+  <circle id="eye-left" cx="145" cy="55" r="7.5" fill="#FFFFFF"/>
+  <circle id="eye-right" cx="155" cy="55" r="7.5" fill="#FFFFFF"/>
+  <path id="eyes-details" d="M140,50 Q148,53 156,50 Q164,53 152,57"
+        stroke="#000000" stroke-width="1.5"/>
+
+  <!-- Decoration (Crown) -->
+  <path id="crown" d="M150,40 Q145,35 165,35 Q170,40 160,45"
+        fill="#F9A46B" stroke="#996D3C" stroke-width="2"/>
+
+</svg>

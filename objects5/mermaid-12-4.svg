@@ -1,0 +1,24 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect id="body" x="0" y="83.33" width="500" height="333.33"
+        style="fill:lightblue;stroke-width:1;stroke:black" />
+
+  <!-- Tail fins -->
+  <polygon id="tail" points="-250,416.67 250,416.67"
+           style="fill:lightblue;stroke-width:1;stroke:black" />
+
+  <!-- Head -->
+  <ellipse id="head" cx="0" cy="83.33" rx="125" ry="166.67"
+           style="fill:lightblue;stroke-width:1;stroke:black" />
+
+  <!-- Eyes -->
+  <circle id="eye-left" cx="-62.5" cy="83.33" r="25"
+          style="fill:black;stroke-width:0" />
+  <circle id="eye-right" cx="62.5" cy="83.33" r="25"
+          style="fill:black;stroke-width:0" />
+
+  <!-- Mouth -->
+  <path id="mouth" d="M-125,167 Q-62.5,250 0,250 Q62.5,250 125,167"
+        style="fill:transparent;stroke-width:3;stroke:black" />
+
+</svg>

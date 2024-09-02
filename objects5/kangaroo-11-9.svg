@@ -1,0 +1,6 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <path id="joeyBody" d="M100 200 Q150 150, 250 200 Q300 250, 350 200 Q400 150, 450 200" fill="brown" stroke="black"/>
+  <circle cx="250" cy="175" r="25" fill="white"/>
+  <circle cx="235" cy="165" r="5" fill="black"/>
+  <circle cx="265" cy="165" r="5" fill="black"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 200">
+
+  <!-- Body -->
+  <rect x="50" y="50" width="80" height="120" fill="#fff"/>
+
+  <!-- Wings -->
+  <path d="M30,40 A30,30 0 0 1 60,70 A30,30 0 0 1 90,40 Z"/>
+  <path d="M90,40 A30,30 0 0 1 80,70 A30,30 0 0 1 90,40 Z"/>
+
+  <!-- Head -->
+  <ellipse cx="70" cy="60" rx="25" ry="30" fill="#fff"/>
+
+  <!-- Hair -->
+  <path d="M65,80 Q75,100 70,120 Q65,140 75,160 Z" fill="#000"/>
+
+  <!-- Clothing -->
+  <rect x="40" y="90" width="20" height="30" fill="#fff"/>
+  <rect x="80" y="90" width="20" height="30" fill="#fff"/>
+
+  <!-- Legs -->
+  <line x1="65" y1="130" x2="65" y2="170" stroke="#000"/>
+  <line x1="85" y1="130" x2="85" y2="170" stroke="#000"/>
+
+</svg>

@@ -1,0 +1,26 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="150" y="200" width="200" height="150" fill="#FDD7E4"
+        stroke="#E6AEB5" stroke-width="2"/>
+
+  <!-- Cake Top -->
+  <path d="M150,200 Q180,130 200,200 Q180,270 150,200" fill="#FDD7E4"
+        stroke="#E6AEB5" stroke-width="2"/>
+
+  <!-- Cake Texture -->
+  <pattern id="texture" patternUnits="userSpaceOnUse">
+    <rect width="2" height="2" fill="#C89AAC"/>
+  </pattern>
+  <rect x="150" y="200" width="200" height="150" fill="url(#texture)"/>
+
+  <!-- Ribbon -->
+  <path d="M70,350 Q130,400 230,350 Q300,400 360,350"
+        stroke="#E6AEB5" stroke-width="5" fill="transparent"/>
+
+  <!-- Flowers -->
+  <circle cx="80" cy="300" r="30" fill="#FFD700"/>
+  <circle cx="210" cy="300" r="30" fill="#FFD700"/>
+  <circle cx="340" cy="300" r="30" fill="#FFD700"/>
+
+</svg>

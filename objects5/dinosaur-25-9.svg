@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <pattern id="fossilPattern" patternUnits="userSpaceOnUse" width="50" height="50">
+      <!-- Define fossil pattern here -->
+    </pattern>
+    <pattern id="scalesPattern" patternUnits="userSpaceOnUse" width="10" height="10">
+      <!-- Define scales pattern here -->
+    </pattern>
+  </defs>
+
+  <!-- Dino Top -->
+  <rect x="0%" y="0%" width="50%" height="60%" rx="20" fill="#3D9970" fill-opacity="0.8"/>
+  <rect x="0%" y="0%" width="50%" height="60%" rx="20" fill="url(#fossilPattern)"/>
+
+  <!-- Dino Shorts -->
+  <rect x="50%" y="40%" width="50%" height="40%" rx="10" fill="#3D9970"/>
+  <rect x="50%" y="40%" width="50%" height="40%" rx="10" fill="url(#scalesPattern)"/>
+
+  <!-- Dino Tail Wrap -->
+  <path d="M25 80 Q50 100, 75 120 Q100 140, 125 160" stroke="#FDB813" fill="transparent"/>
+  <path d="M25 80 Q50 100, 75 120 Q100 140, 125 160" fill="url(#scalesPattern)"/>
+
+  <!-- Dino Collar -->
+  <circle cx="50%" cy="10%" r="20" fill="#FDB813"/>
+  <circle cx="50%" cy="10%" r="20" fill="url(#fossilPattern)"/>
+
+  <!-- Dino Spike Crown -->
+  <path d="M50 15 Q75 40, 100 15 Q125 40, 150 15" stroke="#FDB813" fill="transparent"/>
+  <path d="M50 15 Q75 40, 100 15 Q125 40, 150 15" fill="url(#scalesPattern)"/>
+
+  <!-- Dino Bracelets -->
+  <rect x="15%" y="70%" width="20%" height="10%" rx="5" fill="#FDB813"/>
+  <rect x="15%" y="70%" width="20%" height="10%" rx="5" fill="url(#fossilPattern)"/>
+
+  <!-- Dino Ankle Bands -->
+  <circle cx="80%" cy="90%" r="15" fill="#FDB813"/>
+  <circle cx="80%" cy="90%" r="15" fill="url(#scalesPattern)"/>
+
+</svg>

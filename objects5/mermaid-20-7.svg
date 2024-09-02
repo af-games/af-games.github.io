@@ -1,0 +1,14 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mermaid outline -->
+  <path d="M150,50 Q175,10 200,50 Q225,80 250,50 Q275,20 300,50 Q325,80 350,50" fill="none" stroke="#000"/>
+
+  <!-- Waves -->
+  <path d="M100,400 Q175,360 250,400 Q325,440 400,400" fill="blue" stroke="#000"/>
+
+  <!-- Anchor -->
+  <rect x="380" y="390" width="20" height="10" fill="#7f6c5e"/>
+  <path d="M380,390 Q370,400 380,410 Q390,400 380,390"/>
+
+  <!-- Text for tattoo info -->
+  <text x="20" y="30" font-size="16">Mermaid emerging from waves</text>
+</svg>

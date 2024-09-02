@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+  <defs>
+    <!-- Fairy outline -->
+    <path id="fairy" d="M10 80 Q90 10, 170 80 Q30 150, 10 220 Q90 290, 170 260 Q300 150, 410 220 Q490 290, 410 360 Q300 430, 170 360 Q90 430, 10 360 Z"/>
+
+    <!-- Wand -->
+    <path id="wand" d="M350 280 L410 360"/>
+  </defs>
+
+  <!-- Fairy starts off-screen (right bottom corner) -->
+  <use xlink:href="#fairy" transform="translate(550, 450)" style="fill: lime"/>
+
+  <!-- Animation begins here -->
+
+  <!-- Fairy flies towards the center -->
+  <animate attributeName="transform" type="translate"
+           values="550 450; 275 300"
+           begin="0s" duration="1s" fill="freeze" id="flyIn"/>
+
+  <!-- Fairy waves her wand -->
+  <animate attributeName="d" from="M350 280 L410 360" to="M350 280 L490 400"
+           begin="flyIn.end" duration="0.5s" fill="freeze"/>
+
+  <!-- Fairy floats upwards and disappears -->
+  <animate attributeName="transform" type="translate"
+           values="275 300; 275 100"
+           begin="flyIn.end + 0.5s" duration="1s" fill="freeze"/>
+</svg>

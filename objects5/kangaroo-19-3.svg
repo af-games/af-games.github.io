@@ -1,0 +1,14 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="150" r="80"/>
+
+  <!-- Head -->
+  <circle cx="120" cy="70" r="30"/>
+
+  <!-- Legs -->
+  <line x1="60" y1="200" x2="40" y2="300"/>
+  <line x1="180" y1="200" x2="160" y2="300"/>
+
+  <!-- Tail -->
+  <line x1="150" y1="270" x2="100" y2="400"/>
+</svg>

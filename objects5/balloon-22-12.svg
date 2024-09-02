@@ -1,0 +1,12 @@
+<svg width="600" height="100">
+  <circle cx="50" cy="50" r="40" fill="orange" />
+  <polygon points="100,10 150,80 200,10" fill="brown" stroke-width="1" stroke="black" />
+  <path d="M250,10 Q300,70 350,10 T400,10" fill="lightgreen" stroke-width="1" stroke="black" />
+  <ellipse cx="450" cy="50" rx="20" ry="30" fill="green" />
+  <ellipse cx="480" cy="60" rx="15" ry="25" fill="green" />
+  <!-- Balloon -->
+  <rect x="500" y="70" width="30" height="40" rx="5" fill="tan" />
+  <circle cx="515" cy="20" r="50" fill="lightblue" stroke-width="2" stroke="black" />
+  <path d="M515,20 L515,70" stroke-width="3" stroke="black" />
+  <path d="M515,20 L480,90" stroke-width="3" stroke="black" />
+</svg>

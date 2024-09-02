@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphin 1 -->
+  <path d="M100,50 Q200,0 300,50 Q200,100 100,50" fill="lightblue"/>
+
+  <!-- Dolphin 2 (Mirrored) -->
+  <path d="M400,50 Q300,0 200,50 Q300,100 400,50" fill="lightblue"/>
+
+  <!-- Wave Line 1 -->
+  <path d="M100,50 Q180,70 260,50 Q180,30 100,50" stroke="purple"/>
+
+  <!-- Wave Line 2 (Mirrored) -->
+  <path d="M400,50 Q320,70 220,50 Q320,30 400,50" stroke="purple"/>
+
+</svg>

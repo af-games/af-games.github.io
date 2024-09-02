@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+
+  <!-- Body -->
+  <polygon points="15,5 45,5 35,35 15,35"
+           fill="#ff6347" stroke="#fff" stroke-width="2" />
+
+  <!-- Left Wing -->
+  <path d="M10,15 Q20,5 30,15 Q20,25 10,15 Z"
+        fill="#ffff00" opacity=".8" stroke="#fff" stroke-width="2"/>
+
+  <!-- Right Wing -->
+  <path d="M40,15 Q30,25 35,15 Q30,5 40,15 Z"
+        fill="#ffa500" opacity=".8" stroke="#fff" stroke-width="2"/>
+
+</svg>

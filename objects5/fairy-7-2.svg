@@ -1,0 +1,65 @@
+<svg>` tag and define a viewBox to set our coordinate system:
+
+```xml
+<svg width="200" height="300" viewBox="0 0 400 600">
+```
+
+Now, let's create each element one by one. We'll use relative coordinates for simplicity.
+
+**Body:**
+- Circle with center at (150, 400) and radius of 80.
+
+```xml
+<circle cx="150" cy="400" r="80" fill="#FFE6EE"/>
+```
+
+**Head:**
+- Ellipse with center at (150, 320), width of 100, and height of 120.
+
+```xml
+<ellipse cx="150" cy="320" rx="50" ry="60" fill="#FFD9EC"/>
+```
+
+**Wings:**
+- Wing 1: Polygon with points at (80, 280), (140, 250), and (100, 210).
+- Wing 2: Same as Wing 1 but mirrored horizontally.
+
+```xml
+<polygon points="80,280 140,250 100,210" fill="#FFC6D9"/>
+<use xlink:href="#wing-template" transform="scale(-1, 1) translate(-300, 0)" />
+```
+
+**Hair:**
+- We'll use a pattern of small circles along the head's outline.
+
+```xml
+<defs>
+  <pattern id="hair-pattern" width="2" height="2">
+    <circle cx="1" cy="1" r="1" fill="#694A53"/>
+  </pattern>
+</defs>
+<ellipse cx="150" cy="320" rx="50" ry="60" fill="url(#hair-pattern)"/>
+```
+
+**Clothing:**
+- Dress: Rectangle with top-left corner at (80, 450), width of 240, and height of 150.
+- Sleeves: Two triangles on either side of the dress.
+
+```xml
+<rect x="80" y="450" width="240" height="150" fill="#FFC6D9"/>
+<polygon points="30,470 80,550 30,630" fill="#FFC6D9"/>
+<use xlink:href="#sleeve-template" transform="translate(240, 0)"/>
+```
+
+**Legs:**
+- Two rectangles for the legs with top-left corners at (120, 550) and (180, 550).
+
+```xml
+<rect x="120" y="550" width="60" height="100" fill="#FFE6EE"/>
+<use xlink:href="#leg-template" transform="translate(90, 0)"/>
+```
+
+Finally, close the `<svg>` tag:
+
+```xml
+</svg>

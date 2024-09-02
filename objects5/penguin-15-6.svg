@@ -1,0 +1,33 @@
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(238,174,209);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- P -->
+  <path d="M 50 50 Q 60 30 90 30 L 90 50 Z" stroke-width="8"
+        fill="url(#grad1)" stroke="none"/>
+  <!-- e -->
+  <path d="M 120 40 C 120 60 140 70 180 70 S 200 50 200 30" stroke-width="6"
+        fill="url(#grad1)" stroke="none"/>
+  <!-- n -->
+  <path d="M 230 30 L 230 70 L 280 70 L 280 50 Z" stroke-width="6"
+        fill="url(#grad1)" stroke="none"/>
+  <!-- g -->
+  <path d="M 310 30 Q 340 30 340 70 T 370 50" stroke-width="6"
+        fill="url(#grad1)" stroke="none"/>
+  <!-- u -->
+  <path d="M 400 30 C 420 30 440 70 480 70 S 500 30 500 30" stroke-width="6"
+        fill="url(#grad1)" stroke="none"/>
+  <!-- i -->
+  <path d="M 530 40 C 530 60 550 70 590 70 L 590 50" stroke-width="6"
+        fill="url(#grad1)" stroke="none"/>
+  <!-- n -->
+  <path d="M 620 30 L 620 70 L 680 70 L 680 50 Z" stroke-width="6"
+        fill="url(#grad1)" stroke="none"/>
+
+</svg>

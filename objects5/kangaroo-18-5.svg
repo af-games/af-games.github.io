@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Define colors -->
+  <defs>
+    <linearGradient id="kangoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513"/>
+      <stop offset="100%" style="stop-color:#CD7F32"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Kangaroo herd -->
+  <g id="kangaroos" transform="translate(20, 20)">
+    <!-- Individual kangaroos generated using loops and random transformations -->
+    <g transform="translate(100, 50) rotate(5)">
+      <rect width="80" height="160" style="fill:url(#kangoGrad); stroke:#000;"/>
+      <ellipse cx="40" cy="80" rx="30" ry="60" fill="#CD7F32"/>
+      <polygon points="50,20 90,20 70,100" style="fill:#CD7F32; stroke:#000;"/>
+    </g>
+    <!-- More kangaroos... -->
+  </g>
+</svg>

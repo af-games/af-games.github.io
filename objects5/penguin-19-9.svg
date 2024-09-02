@@ -1,0 +1,18 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define a linear gradient -->
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Define the penguin thread pattern -->
+  <pattern id="penguinPattern" patternUnits="userSpaceOnUse" width="40" height="40">
+    <line x1="0" y1="20" x2="40" y2="20" style="stroke:url(#penguinGradient); stroke-width:5;" />
+    <line x1="20" y1="0" x2="20" y2="40" style="stroke:url(#penguinGradient); stroke-width:5;" />
+  </pattern>
+
+  <!-- Apply the pattern to a rectangle -->
+  <rect width="100%" height="100%" fill="url(#penguinPattern)" />
+</svg>

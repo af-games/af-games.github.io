@@ -1,0 +1,42 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E5F5E0"/>
+
+  <!-- Mountains -->
+  <polygon points="100,40 200,10 300,40 200,70" fill="#C9DC8B">
+    <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="250" y="35" font-size="14px">Mount Giraffa</text>
+
+  <!-- Rivers -->
+  <path d="M400,80 Q450,40 500,80 T600,80" stroke="#3B71CA" fill="transparent">
+    <animate attributeName="stroke-width" values="2;4;2" dur="5s" repeatCount="indefinite"/>
+  </path>
+  <text x="450" y="90" font-size="14px">Giraffe River</text>
+
+  <!-- Forests -->
+  <rect x="70%" y="20%" width="30%" height="60%" fill="#8E9A7B">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="85%" y="25%" font-size="14px">Whispering Woods</text>
+
+  <!-- Giraffe City -->
+  <circle cx="350" cy="150" r="60" fill="#FFB6C1">
+    <animate attributeName="r" values="60;80;60" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="340" y="120" font-size="14px">Giraffa City</text>
+
+  <!-- Ocean -->
+  <polygon points="0,500 800,500 800,600 0,600" fill="#ADD8E6">
+    <animate attributeName="opacity" values="1;0.7;1" dur="3s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="400" y="550" font-size="14px">Giraffe Sea</text>
+
+  <!-- Legend -->
+  <rect x="680" y="520" width="100" height="60" fill="#FFF"/>
+  <text x="700" y="550" font-size="12px">Legend:</text>
+  <circle cx="690" cy="540" r="5" fill="#C9DC8B"/>
+  <text x="710" y="543" font-size="12px">Mountains</text>
+
+</svg>

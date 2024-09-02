@@ -1,0 +1,19 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body (oval) -->
+  <ellipse cx="100" cy="150" rx="90" ry="120"
+           fill="#FFC300" stroke="black" stroke-width="4"/>
+
+  <!-- Balloon string (line) -->
+  <line x1="100" y1="70" x2="100" y2="50"
+        stroke="black" stroke-width="3"/>
+
+  <!-- Balloon knot (circle) at the end of the string -->
+  <circle cx="100" cy="45" r="8"
+          fill="black"/>
+
+  <!-- Balloon top (circle) -->
+  <circle cx="100" cy="270" r="30"
+          fill="#FFC300" stroke="black" stroke-width="4"/>
+
+</svg>

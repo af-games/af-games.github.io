@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+<!-- Background -->
+<rect x="0" y="0" width="500" height="400" fill="lightblue"/>
+
+<!-- Body -->
+<ellipse cx="250" cy="300" rx="180" ry="150" fill="url(#penguin-body)"/>
+<circle cx="250" cy="275" r="120" fill="#fff"/>
+
+<!-- Head -->
+<ellipse cx="250" cy="230" rx="90" ry="80" fill="#6a6a6a"/>
+<path d="M225,180 A40,40 0 1,0 275,180 A40,40 0 1,0 225,180" fill="#fff"/>
+
+<!-- Beak -->
+<path d="M245,160 Q255,130 265,160 Q275,190 265,220 Q255,190 245,220" fill="#ffd65b"/>
+
+<!-- Eyes -->
+<circle cx="230" cy="160" r="8" fill="#fff"/>
+<circle cx="270" cy="160" r="8" fill="#fff"/>
+<path d="M230,160 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" stroke="#000" fill="transparent"/>
+<path d="M270,160 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" stroke="#000" fill="transparent"/>
+
+<!-- Wings -->
+<path d="M50,150 Q100,200 200,200 Q350,200 400,150 Z" fill="url(#penguin-wings)"/>
+
+<!-- Legs and Feet -->
+<rect x="220" y="320" width="60" height="80" fill="#a9a9a9"/>
+<path d="M220,400 Q250,420 280,400 Q310,420 340,400" stroke="#000" fill="transparent"/>
+
+<!-- Gradients -->
+<linearGradient id="penguin-body" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%"   style="stop-color:rgb(85,149,216);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(234,247,255);stop-opacity:1"/>
+</linearGradient>
+<linearGradient id="penguin-wings" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%"   style="stop-color:rgb(245,237,218);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(161,159,150);stop-opacity:1"/>
+</linearGradient>
+
+</svg>

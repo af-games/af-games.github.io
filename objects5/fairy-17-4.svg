@@ -1,0 +1,27 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="50" y="50" width="80" height="120" fill="pink"/>
+
+  <!-- Head -->
+  <ellipse cx="70" cy="60" rx="40" ry="30" fill="yellow"/>
+
+  <!-- Left Wing -->
+  <path d="M10,15 L90,15 Q80,60 20,60 Z" fill="lightgreen"/>
+
+  <!-- Right Wing -->
+  <path d="M170,15 L90,15 Q80,60 140,60 Z" fill="lightgreen"/>
+
+  <!-- Left Arm -->
+  <line x1="30" y1="70" x2="30" y2="90" stroke="black"/>
+
+  <!-- Right Arm -->
+  <line x1="90" y1="70" x2="90" y2="90" stroke="black"/>
+
+  <!-- Left Leg -->
+  <line x1="60" y1="180" x2="60" y2="200" stroke="black"/>
+
+  <!-- Right Leg -->
+  <line x1="80" y1="180" x2="80" y2="200" stroke="black"/>
+
+</svg>

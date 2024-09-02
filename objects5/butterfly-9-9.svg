@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+
+  <!-- Body -->
+  <circle cx="25" cy="40" r="10" fill="#FF6347" />
+
+  <!-- Left Wing -->
+  <ellipse cx="15" cy="30" rx="15" ry="20" fill="#FFFACD">
+    <animateMotion begin="0s" dur="2s" repeatCount="indefinite">
+      <mpath href="#wingPath"/>
+    </animateMotion>
+  </ellipse>
+
+  <!-- Right Wing -->
+  <ellipse cx="35" cy="30" rx="15" ry="20" fill="#FFFACD">
+    <animateMotion begin="0s" dur="2s" repeatCount="indefinite">
+      <mpath href="#wingPath"/>
+    </animateMotion>
+  </ellipse>
+
+  <!-- Antennae -->
+  <polygon points="15,15 20,5 30,5 35,15" fill="#008B8B" />
+  <polygon points="45,15 40,5 30,5 35,15" fill="#008B8B" />
+
+  <!-- Wing Animation Path -->
+  <path id="wingPath" d="M15,30 Q25,5 35,30 T65,30"/>
+
+</svg>

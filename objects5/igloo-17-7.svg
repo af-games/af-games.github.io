@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Background -->
+  <rect x="-50" y="-50" width="100%" height="100%" fill="#BDEBF2"/>
+
+  <!-- Mountains -->
+  <polygon points="-30,10 0,40 30,10" fill="#A7D9F2"/>
+  <polygon points="70,10 100,40 130,10" fill="#A7D9F2"/>
+  <text x="-35" y="50" font-size="14px" fill="black">Northpeak Mountains</text>
+  <text x="65" y="50" font-size="14px" fill="black">Southpeak Mountains</text>
+
+  <!-- Igloo -->
+  <circle cx="0" cy="0" r="20" fill="#FFFFFF"/>
+  <circle cx="0" cy="-8" r="7" fill="#A6B9D3"/>
+  <text x="-15" y="5" font-size="14px" fill="black">Igloo of the Ice King</text>
+
+  <!-- Rivers -->
+  <path d="M-20,20 Q-10,10 0,-10 T10,10 Q20,20 30,10 Z" stroke="#4C97B8" fill="transparent"/>
+  <text x="-5" y="25" font-size="12px" fill="black">Frost River</text>
+
+  <!-- Forests -->
+  <rect x="-35" y="25" width="60%" height="50%" fill="#8DB674"/>
+  <rect x="35" y="25" width="60%" height="50%" fill="#8DB674"/>
+  <text x="-30" y="50" font-size="14px" fill="black">Whisperwood Forest</text>
+  <text x="40" y="50" font-size="14px" fill="black">Mistbark Forest</text>
+
+  <!-- Cities -->
+  <circle cx="-35" cy="75" r="20" fill="#FFD65B"/>
+  <circle cx="35" cy="75" r="20" fill="#FFD65B"/>
+  <text x="-40" y="85" font-size="14px" fill="black">Glimmerhaven</text>
+  <text x="40" y="85" font-size="14px" fill="black">Snowhaven</text>
+
+</svg>

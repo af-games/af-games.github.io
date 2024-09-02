@@ -1,0 +1,37 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Penguin Body -->
+<defs>
+  <linearGradient id="penguinBodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(53,89,162);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(74,121,189);stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+<!-- Body Tiles -->
+<rect width="5" height="5" x="5" y="30" fill="url(#penguinBodyGradient)" />
+<repeatCount="4">
+  <rect width="5" height="5" fill="url(#penguinBodyGradient)"/>
+</repeatCount>
+<rect width="5" height="5" fill="url(#penguinBodyGradient)" x="20"/>
+
+<!-- Penguin Head -->
+<defs>
+  <linearGradient id="penguinHeadGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(192,192,192);stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+<!-- Head Tiles -->
+<rect width="3.4" height="3.4" fill="url(#penguinHeadGradient)" x="75" y="5"/>
+<repeatCount="4">
+  <rect width="3.4" height="3.4" fill="url(#penguinHeadGradient)"/>
+</repeatCount>
+<rect width="3.4" height="3.4" fill="url(#penguinHeadGradient)" x="87"/>
+
+<!-- Penguin Eyes -->
+<circle cx="90" cy="12" r="1" fill="black"/>
+<circle cx="85" cy="12" r="1" fill="black"/>
+
+</svg>

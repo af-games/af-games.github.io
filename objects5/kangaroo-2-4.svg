@@ -1,0 +1,29 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="100" cy="50" r="80"
+          transform="translate(0, -50)" fill="brown"/>
+
+  <!-- Ears -->
+  <ellipse cx="-80" cy="-70" rx="40" ry="20"
+           transform="rotate(45) translate(-100, -100)" fill="brown"/>
+  <ellipse cx="80" cy="-70" rx="40" ry="20"
+           transform="rotate(-45) translate(100, -100)" fill="brown"/>
+
+  <!-- Pouch -->
+  <polygon points="100,130, 90,150, 110,150"
+           transform="translate(0, 70)" fill="beige"/>
+
+  <!-- Feet -->
+  <circle cx="-40" cy="120" r="10"
+          transform="translate(-50, 120)" fill="brown"/>
+  <circle cx="40" cy="120" r="10"
+          transform="translate(50, 120)" fill="brown"/>
+
+  <!-- Eyes -->
+  <circle cx="-10" cy="-60" r="5"
+          transform="translate(0, -80) translate(-10, 0)" fill="black"/>
+  <circle cx="10" cy="-60" r="5"
+          transform="translate(0, -80) translate(10, 0)" fill="black"/>
+
+</svg>

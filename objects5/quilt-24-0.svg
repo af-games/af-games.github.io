@@ -1,0 +1,20 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="#ADD8E6"/>
+
+  <!-- Main pattern rectangles -->
+  <rect x="10" y="10" width="180" height="90" fill="#FF7F50"/>
+  <rect x="210" y="10" width="180" height="90" fill="#F5DEB3"/>
+
+  <!-- Second row rectangles -->
+  <rect x="10" y="120" width="180" height="90" fill="#F5DEB3"/>
+  <rect x="210" y="120" width="180" height="90" fill="#FF7F50"/>
+
+  <!-- Buttons/fringe -->
+  <circle cx="40" cy="40" r="10" fill="#32CD32"/>
+  <circle cx="360" cy="40" r="10" fill="#32CD32"/>
+  <circle cx="40" cy="280" r="10" fill="#32CD32"/>
+  <circle cx="360" cy="280" r="10" fill="#32CD32"/>
+
+</svg>

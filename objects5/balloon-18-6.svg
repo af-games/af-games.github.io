@@ -1,0 +1,7 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon envelope outline -->
+  <path id="envelope" d="M100,20 Q150,70 200,20 Q150,0 100,20" fill="none"/>
+
+  <!-- Basket -->
+  <rect id="basket" x="90" y="30" width="60" height="40" fill="tan"/>
+</svg>

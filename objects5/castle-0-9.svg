@@ -1,0 +1,28 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define patterns for castle walls and towers -->
+  <defs>
+    <pattern id="castleWallPattern" patternUnits="userSpaceOnUse" width="50" height="50">
+      <rect x="0" y="0" width="50" height="50" fill="#8B7D6B"/>
+      <polygon points="25,0 50,25 25,50 0,25" fill="white"/>
+    </pattern>
+    <pattern id="castleTowerPattern" patternUnits="userSpaceOnUse" width="30" height="60">
+      <rect x="0" y="0" width="30" height="60" fill="#8B7D6B"/>
+      <circle cx="15" cy="30" r="10" fill="white"/>
+    </pattern>
+  </defs>
+
+  <!-- Create castles -->
+  <g id="castle1">
+    <polygon points="25,0 75,0 75,75 25,75" style="fill: url(#castleWallPattern); stroke-width:2; stroke:#333"/>
+    <polygon points="37.5,100 62.5,100 45,125" style="fill:url(#castleTowerPattern); stroke-width:2; stroke:#333"/>
+  </g>
+  <use xlink:href="#castle1" transform="translate(125,0)" />
+  <use xlink:href="#castle1" transform="translate(250,0)" />
+  <use xlink:href="#castle1" transform="translate(375,0)" />
+
+  <!-- Create paths between castles -->
+  <path d="M50,40 Q100,60 150,40" stroke-width="2" stroke="#333"/>
+  <path d="M200,40 Q250,60 300,40" stroke-width="2" stroke="#333"/>
+
+</svg>

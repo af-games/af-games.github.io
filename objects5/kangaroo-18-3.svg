@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 300">
+  <!-- Skin -->
+  <path d="M40 120 A60,70 0 1,0 80 190 Q50 220, 40 260 H-10 V300 H140 V260 Q150 220, 130 190 A60,70 0 1,0 80 120 Z" fill="#D3A97C"/>
+
+  <!-- Fur shading -->
+  <path d="M40 120 Q50 180, 80 190 Q90 180, 130 190 A60,70 0 1,0 80 120" fill="#A58B6E"/>
+
+  <!-- Eyes -->
+  <circle cx="60" cy="90" r="15" fill="#FFFFFF"/>
+  <circle cx="120" cy="90" r="15" fill="#FFFFFF"/>
+
+  <!-- Inner ears -->
+  <rect x="-10" y="70" width="20" height="30" rx="10" fill="#FFFFFF"/>
+  <rect x="110" y="70" width="20" height="30" rx="10" fill="#FFFFFF"/>
+
+  <!-- Tail -->
+  <path d="M140 160 Q155 145, 180 130" stroke="#483D28" fill="transparent"/>
+
+  <!-- Legs -->
+  <rect x="-10" y="190" width="20" height="60" rx="10" fill="#D3A97C"/>
+  <circle cx="70" cy="200" r="20" fill="#D3A97C"/>
+  <circle cx="130" cy="200" r="20" fill="#D3A97C"/>
+
+  <!-- Outer ears -->
+  <path d="M-5 70 Q0 60, 5 70 Z" fill="#483D28"/>
+  <path d="M115 70 Q120 60, 125 70 Z" fill="#483D28"/>
+
+</svg>

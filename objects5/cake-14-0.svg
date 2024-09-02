@@ -1,0 +1,15 @@
+<svg width="300" height="150" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base -->
+  <rect x="0" y="0" width="200" height="50" fill="#D2B48C"/>
+  <rect x="0" y="0" width="200" height="50" stroke="#000000" stroke-width="3"/>
+
+  <!-- First semicircle -->
+  <path d="M150,75 a75,75 0 1,0 150,-75 a75,75 0 1,0 -150,75 z" fill="#9F704A"/>
+  <path d="M150,75 a75,75 0 1,0 150,-75 a75,75 0 1,0 -150,75" stroke="#000000" stroke-width="3"/>
+
+  <!-- Second semicircle -->
+  <path d="M170,65 a65,65 0 1,0 120,-65 a65,65 0 1,0 -120,65 z" fill="#694925"/>
+  <path d="M170,65 a65,65 0 1,0 120,-65 a65,65 0 1,0 -120,65" stroke="#000000" stroke-width="3"/>
+
+</svg>

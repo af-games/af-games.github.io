@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 0 800 100">
+  <!-- Ancient Era -->
+  <rect id="ancient-ruins" x="0" y="60" width="200" height="40" fill="#FFA07A"/>
+  <text x="5" y="80" font-size="10">Ancient Era</text>
+
+  <!-- Medieval Era -->
+  <polygon id="medieval-castle" points="300,60 350,20 450,60" fill="#77BDE3"/>
+  <text x="305" y="80" font-size="10">Medieval Era</text>
+
+  <!-- Renaissance Era -->
+  <path id="renaissance-gateway" d="M500,60 Q550,40 600,60 T700,60" stroke="#FFD700" fill="transparent"/>
+  <text x="510" y="80" font-size="10">Renaissance Era</text>
+
+  <!-- Industrial Era -->
+  <rect id="industrial-buildings" x="650" y="40" width="120" height="60" fill="#A9A9A9"/>
+  <text x="675" y="80" font-size="10">Industrial Era</text>
+
+  <!-- Futuristic Era -->
+  <path id="futuristic-structure" d="M770,60 Q720,20 800,60" stroke="#4B0082" fill="transparent"/>
+  <text x="785" y="80" font-size="10">Futuristic Era</text>
+
+  <!-- Timeline -->
+  <line id="timeline" x1="0" y1="95" x2="800" y2="95" stroke="#ccc"/>
+
+  <!-- Nurse Shark Time Traveler -->
+  <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Nurse_shark.svg/1200px-Nurse_shark.svg.png" x="75" y="35" width="40" height="40"/>
+</svg>

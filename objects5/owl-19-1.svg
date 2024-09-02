@@ -1,0 +1,16 @@
+<svg width="100" height="120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M50,10 Q90,10 90,40 Q90,70 50,70 Q10,70 10,40 Q10,10 50,10" fill="#B86D29"/>
+
+  <!-- Eyes -->
+  <circle cx="30" cy="50" r="5" fill="#FFFFFF"/>
+  <circle cx="70" cy="50" r="5" fill="#FFFFFF"/>
+
+  <!-- Beak -->
+  <path d="M60,40 Q70,30 80,40" stroke="#FFD700" fill="transparent"/>
+
+  <!-- Feet -->
+  <rect x="15" y="90" width="20" height="30" fill="#B86D29"/>
+  <rect x="65" y="90" width="20" height="30" fill="#B86D29"/>
+
+</svg>

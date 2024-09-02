@@ -1,0 +1,14 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bodice -->
+  <path d="M50,75 Q150,50 250,75 L450,75 Q350,50 250,25 Z" fill="#FFD700" stroke="#4A2C2A"/>
+
+  <!-- Skirt -->
+  <path d="M50,150 Q150,125 250,150 L450,150 Q350,175 250,200 Z" fill="#FFD700" stroke="#4A2C2A"/>
+  <path d="M50,225 Q150,200 250,225 L450,225 Q350,250 250,275 Z" fill="#FFD700" stroke="#4A2C2A"/>
+
+  <!-- Beads/Sequins -->
+  <circle cx="125" cy="250" r="2" fill="#1F1F1F"/>
+  <circle cx="375" cy="250" r="2" fill="#1F1F1F"/>
+  <!-- Add more circles for desired bead density -->
+
+</svg>

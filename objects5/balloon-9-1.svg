@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 60">
+  <!-- Balloon string -->
+  <path d="M10,5 L40,5" stroke="black"/>
+
+  <!-- Balloon body -->
+  <ellipse cx="25" cy="35" rx="20" ry="30" fill="red"/>
+
+  <!-- Balloon knot -->
+  <circle cx="25" cy="5" r="5" fill="black"/>
+</svg>

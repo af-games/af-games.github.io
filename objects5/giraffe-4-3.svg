@@ -1,0 +1,32 @@
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Perimeter Fence -->
+<rect x="10" y="10" width="890" height="590" fill="#ddd" stroke="#000"/>
+
+<!-- Giraffe Body -->
+<circle cx="400" cy="300" r="200" fill="#ffb6c1" stroke="#000"/>
+
+<!-- Giraffe Neck -->
+<rect x="380" y="150" width="140" height="500" fill="#ffb6c1" stroke="#000"/>
+
+<!-- Giraffe Head -->
+<circle cx="420" cy="70" r="60" fill="#ffb6c1" stroke="#000"/>
+
+<!-- Giraffe Legs -->
+<rect x="320" y="550" width="160" height="100" fill="#ffb6c1" stroke="#000"/>
+<rect x="480" y="550" width="160" height="100" fill="#ffb6c1" stroke="#000"/>
+<rect x="320" y="450" width="160" height="100" fill="#ffb6c1" stroke="#000"/>
+<rect x="480" y="450" width="160" height="100" fill="#ffb6c1" stroke="#000"/>
+
+<!-- Acacia Trees -->
+<circle cx="200" cy="300" r="40" fill="#3d9970" stroke="#000"/>
+<circle cx="500" cy="200" r="40" fill="#3d9970" stroke="#000"/>
+<circle cx="600" cy="400" r="40" fill="#3d9970" stroke="#000"/>
+<circle cx="100" cy="500" r="40" fill="#3d9970" stroke="#000"/>
+<circle cx="700" cy="500" r="40" fill="#3d9970" stroke="#000"/>
+
+<!-- Roads -->
+<path d="M10,290 C10,300 100,400 200,450 S" stroke="#696969" fill="transparent"/>
+<path d="M790,290 C790,300 600,400 500,450 S" stroke="#696969" fill="transparent"/>
+
+</svg>

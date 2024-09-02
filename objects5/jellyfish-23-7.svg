@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(34,56,174);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(98,192,245);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Mountains -->
+  <circle cx="60" cy="300" r="40" fill="blueviolet" />
+  <circle cx="150" cy="270" r="35" fill="blueviolet" />
+  <circle cx="280" cy="230" r="45" fill="blueviolet" />
+
+  <!-- Rivers and jellyfish habitats -->
+  <path d="M70,560 Q150,520 280,560 Q410,600 540,560" stroke="purple" fill="transparent" />
+  <circle cx="390" cy="570" r="30" fill="purple" />
+
+  <!-- Forests -->
+  <rect x="480" y="150" width="220" height="300" fill="green" stroke="black" />
+  <text x="630" y="370" font-family="Verdana" font-size="14">Jellyfish Forest</text>
+
+  <!-- Cities -->
+  <polygon points="590,20 770,20 770,120 590,120" fill="gold" />
+  <text x="680" y="60" font-family="Verdana" font-size="14">Jellyfish City</text>
+
+  <!-- Label: Aequorea -->
+  <text x="30" y="50" font-family="Verdana" font-size="24">Aequorea</text>
+
+</svg>

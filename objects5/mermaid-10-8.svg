@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <rect width="100%" height="100%" fill="#3D9970"/>
+
+  <!-- Background Hexagons -->
+  <g transform="translate(50,40)">
+    <polygon points="25,0 50,25 0,50 25,75" fill="#ADD8E6"/>
+    <polygon points="125,0 150,25 75,50 125,75" fill="#00FFFF"/>
+    <!-- Repeat patterns for more hexagons -->
+  </g>
+
+  <!-- Mermaid Tail -->
+  <path d="M300,400 Q350,450 350,550 Q300,600 250,550 Q300,400 Z" fill="#FFD700"/>
+  <!-- Add more shapes for tail details -->
+
+</svg>

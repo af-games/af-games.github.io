@@ -1,0 +1,25 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Landmass -->
+  <rect x="100" y="50" width="600" height="400" fill="#FFFAF0"/>
+
+  <!-- Mountains -->
+  <polygon points="250,50 350,50 350,80 400,80 450,150 500,150" style="fill: #A9D6E5; stroke: black"/>
+
+  <!-- Rivers -->
+  <path d="M200,150 Q300,250 400,150 T500,150" stroke="#87CEEB" fill="transparent"/>
+
+  <!-- Forest -->
+  <rect x="150" y="200" width="100" height="150" style="fill: #3D9970; opacity: 0.6"/>
+
+  <!-- Igloo City -->
+  <circle cx="300" cy="250" r="80" fill="#FFFFFF"/>
+  <path d="M240,250 A80,80 0 1,0 360,250 A80,80 0 1,0 240,250 z" stroke="black"/>
+
+  <!-- Labels -->
+  <text x="70%" y="10%" dominant-baseline="middle" text-anchor="middle" font-family="Verdana" font-size="24">Glacier Grove</text>
+  <text x="130" y="350" dominant-baseline="middle" text-anchor="middle" fill="black">Igloo City</text>
+  <text x="470" y="350" dominant-baseline="middle" text-anchor="middle" fill="black">Mount Frostbite</text>
+  <text x="280" y="300" dominant-baseline="middle" text-anchor="middle" fill="black">Whispering Woods</text>
+
+</svg>

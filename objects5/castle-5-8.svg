@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <polygon points="400,10 500,10 500,300 400,300" fill="#2b2e79" stroke="black"/>
+  <rect x="450" y="10" width="50" height="290" fill="none" stroke="black"/>
+
+  <!-- Gatehouse -->
+  <path d="M600,10 Q650,80 700,10" fill="#2b2e79" stroke="black"/>
+  <rect x="625" y="10" width="75" height="290" fill="none" stroke="black"/>
+
+  <!-- Courtyard Wall -->
+  <rect x="350" y="310" width="450" height="290" fill="#cbcac6"/>
+  <rect x="350" y="10" width="100" height="300" fill="#2b2e79"/>
+
+  <!-- Roof Lines -->
+  <polyline points="400,300 500,400 600,300" fill="none" stroke="black"/>
+
+  <!-- Windows and Doorways -->
+  <rect x="410" y="120" width="80" height="30"/>
+  <rect x="410" y="170" width="80" height="30"/>
+  <path d="M590,160 Q610,140 630,160" fill="#2b2e79"/>
+
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" xml:space="preserve">
+  <!-- Fairy's body -->
+  <g id="body">
+    <rect width="5" height="5" fill="#ADD8E6"/>
+    <!-- Repeat the above rectangle for a 20x30 grid to create the light blue body -->
+  </g>
+
+  <!-- Fairy's dress -->
+  <g id="dress" transform="translate(100, 200)">
+    <rect width="5" height="5" fill="#FFF1E6"/>
+    <!-- Repeat the above rectangle for a 10x15 grid to create the light pink dress -->
+  </g>
+
+  <!-- Fairy's wings -->
+  <g id="wings">
+    <rect width="5" height="5" fill="#D1FFBD"/>
+    <!-- Create two sets of rectangles (one for each wing) with a shared base and varying heights for the feathered effect -->
+    <!-- Repeat these rectangles to create two soft green wings -->
+  </g>
+
+  <!-- Fairy's hair (gold accent) -->
+  <g id="hair">
+    <rect width="5" height="5" fill="#FFDF00"/>
+    <!-- Create a wavy pattern of gold rectangles for the fairy's hair -->
+  </g>
+
+  <!-- Fairy's shoes (gold accent) -->
+  <g id="shoes">
+    <rect width="5" height="5" fill="#FFDF00"/>
+    <!-- Create two small rectangles for each shoe at the bottom of the dress -->
+  </g>
+</svg>

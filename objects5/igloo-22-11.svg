@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base -->
+  <circle cx="100" cy="200" r="90" fill="#FFFFFF"/>
+
+  <!-- Walls -->
+  <path d="M100,80 Q150,75 200,80 T350,130 Q300,145 250,160 Q200,175 150,190 Z" fill="#ADD8E6"/>
+
+  <!-- Entrance -->
+  <polygon points="100,80 200,80 150,30" fill="#FFFFFF" stroke="#ADD8E6"/>
+
+  <!-- Roof -->
+  <path d="M100,140 Q150,95 200,70 Z" fill="#ADD8E6"/>
+
+</svg>

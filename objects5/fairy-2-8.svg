@@ -1,0 +1,22 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Fairy hair -->
+  <path d="M100,20 Q150,75 200,20" stroke="#ff69b4" stroke-width="3" fill="transparent"/>
+
+  <!-- Fairy body (upper part) -->
+  <path d="M200,20 Q250,80 300,20" stroke="#ffa500" stroke-width="3" fill="transparent"/>
+  <path d="M300,20 Q350,75 400,20" stroke="#ffa500" stroke-width="3" fill="transparent"/>
+
+  <!-- Fairy body (lower part) -->
+  <path d="M300,20 Q250,60 200,20" stroke="#ffa500" stroke-width="3" fill="transparent"/>
+  <path d="M200,20 Q150,75 100,20" stroke="#ffa500" stroke-width="3" fill="transparent"/>
+
+  <!-- Fairy wings -->
+  <path d="M150,150 Q200,100 250,150" stroke="#87ceeb" stroke-width="3" fill="transparent"/>
+  <path d="M250,150 Q300,100 350,150" stroke="#87ceeb" stroke-width="3" fill="transparent"/>
+
+  <!-- Fairy dress -->
+  <path d="M200,400 Q150,450 100,400" stroke="#ffb6c1" stroke-width="3" fill="transparent"/>
+  <path d="M100,400 Q50,450 0,400" stroke="#ffb6c1" stroke-width="3" fill="transparent"/>
+
+</svg>

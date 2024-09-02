@@ -1,0 +1,42 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Igloo -->
+<path d="M180 60 Q200 75, 220 90 Q240 105, 260 90 Q280 75, 300 60 Z" fill="#8DC63C"/>
+
+<!-- Snow on Igloo -->
+<path d="M180 60 L260 60 Q240 45, 220 60 Q200 45, 180 60" stroke="#FFF" stroke-width="3"/>
+
+<!-- Landscape -->
+<rect x="50" y="150" width="300" height="150" fill="#BFD7E0"/>
+
+<!-- Trees -->
+<g stroke="#2F4F4F">
+  <circle cx="60" cy="200" r="10"/>
+  <rect x="55" y="190" width="10" height="30"/>
+</g>
+<g stroke="#2F4F4F">
+  <circle cx="80" cy="220" r="10"/>
+  <rect x="75" y="210" width="10" height="30"/>
+</g>
+
+<!-- Table -->
+<rect x="50" y="300" width="300" height="20" fill="#D8BFA9"/>
+
+<!-- Plate -->
+<circle cx="150" cy="270" r="60" stroke="#FFF" stroke-width="3" fill="#FFF"/>
+<circle cx="150" cy="270" r="55" fill="#FDD7AA"/>
+
+<!-- Igloo-shaped Cutlery -->
+<path d="M90 280 Q110 270, 130 260 Q150 270, 170 280 Z" stroke="#2F4F4F" stroke-width="3"/>
+<path d="M170 280 Q190 270, 210 260 Q230 270, 250 280 Z" stroke="#2F4F4F" stroke-width="3"/>
+
+<!-- Garnish (Snowflakes) -->
+<g transform="translate(200, 250)">
+  <polygon points="10,-5,-10,-5,0,-10"/>
+  <polygon points="10,-5,-10,-5,0,-10" fill-opacity="0.7"/>
+</g>
+
+<!-- Text -->
+<text x="50%" y="320" font-size="24px" text-anchor="middle" fill="#696969">Iggy's Igloo Feast</text>
+
+</svg>

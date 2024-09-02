@@ -1,0 +1,20 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake -->
+  <path id="cake" d="M100,200 Q140,180 200,200 Q260,220 340,200 Q380,180 420,200 H450 V450 H100 Z" fill="tan"/>
+  <radialGradient id="cakeTexture" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" style="stop-color:rgb(230,230,160);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(255,255,200);stop-opacity:1"/>
+  </radialGradient>
+  <use xlink:href="#cake" fill="url(#cakeTexture)"/>
+
+  <!-- Icing Rivers -->
+  <path d="M140,280 Q360,270 420,390 H450 V450 H100 Z" stroke="white" fill="transparent"/>
+  <path d="M100,390 Q280,440 420,400" stroke="white" fill="transparent"/>
+
+  <!-- Frosting Flowers -->
+  <circle cx="270" cy="350" r="40" fill="lightblue"/>
+  <circle cx="330" cy="380" r="30" fill="lightblue"/>
+  <circle cx="220" cy="410" r="35" fill="lightblue"/>
+
+</svg>

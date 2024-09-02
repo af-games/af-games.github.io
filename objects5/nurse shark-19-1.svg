@@ -1,0 +1,13 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,5 Q140,60 160,90 Q180,60 200,5 L170,15 L100,5 Z" fill="#8B8378"/>
+
+  <!-- Fin -->
+  <path d="M140,90 Q160,70 170,90 Q160,110 140,90" stroke="#8B8378" fill="transparent"/>
+
+  <!-- Tail -->
+  <rect x="205" y="0" width="5" height="30" fill="#8B8378"/>
+
+  <!-- Eye -->
+  <circle cx="110" cy="40" r="5" fill="black"/>
+</svg>

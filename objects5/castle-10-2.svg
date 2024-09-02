@@ -1,0 +1,34 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Castle Walls -->
+<rect x="80" y="160" width="340" height="140" rx="20" fill="#77594d"/>
+
+<!-- Tower 1 -->
+<path d="M90,160 A70,70 0 0 1 160,230 A70,70 0 0 1 90,300" fill="#77594d"/>
+<path d="M130,230 L160,230 L160,300 Z" fill="#c89e92"/>
+
+<!-- Tower 2 -->
+<path d="M280,160 A70,70 0 0 1 350,230 A70,70 0 0 1 280,300" fill="#77594d"/>
+<path d="M320,230 L350,230 L350,300 Z" fill="#c89e92"/>
+
+<!-- Gate -->
+<path d="M160,370 Q190,360 220,370" stroke="#77594d" stroke-width="10"/>
+<path d="M170,370 Q180,380 190,370" fill="#c89e92"/>
+
+<!-- Roof -->
+<path d="M90,300 Q160,350 280,300 Q350,350 420,300" stroke="#77594d" stroke-width="10" fill="transparent"/>
+
+<!-- Shadows -->
+<rect x="85" y="165" width="330" height="140" rx="20" fill="url(#shadow)" />
+<path d="M90,160 A70,70 0 0 1 160,230 A70,70 0 0 1 90,300" fill="url(#shadow)"/>
+<path d="M280,160 A70,70 0 0 1 350,230 A70,70 0 0 1 280,300" fill="url(#shadow)"/>
+
+<!-- Define Shadow Gradient -->
+<defs>
+    <linearGradient id="shadow" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:rgb(50,50,50);stop-opacity:0.3"/>
+        <stop offset="100%" style="stop-color:rgb(50,50,50);stop-opacity:0"/>
+    </linearGradient>
+</defs>
+
+</svg>

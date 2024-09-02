@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Body -->
+  <path d="M80,175 Q90,160 100,150 A80,80 0 0 0 220,150 Q230,160 240,175" fill="url(#tanGradient)" />
+
+  <!-- Head -->
+  <ellipse cx="200" cy="150" rx="60" ry="80" fill="#B28453" />
+  <path d="M190,100 Q210,90 230,100" stroke="black" fill="transparent" />
+
+  <!-- Ears -->
+  <polygon points="170,60 210,60 190,80" fill="#B28453" />
+  <polygon points="230,60 270,60 250,80" fill="#B28453" />
+
+  <!-- Arms -->
+  <rect x="160" y="190" width="40" height="80" rx="20" fill="#7A4F01" />
+  <rect x="260" y="190" width="40" height="80" rx="20" fill="#7A4F01" />
+
+  <!-- Legs -->
+  <polygon points="150,270 170,310 130,310" fill="#7A4F01" />
+  <polygon points="250,270 270,310 230,310" fill="#7A4F01" />
+
+  <!-- Tail -->
+  <path d="M360,270 Q380,290 400,310 A40,40 0 0 1 360,350 Q320,330 300,310" fill="#FDB927" />
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="tanGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(236,215,160); stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(156,102,31); stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

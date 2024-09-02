@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="100%" height="50%" fill="#87CEEB"/>
+
+  <!-- Land -->
+  <rect x="0" y="50%" width="100%" height="50%" fill="#4CAF50"/>
+
+  <!-- Dolphin (main attraction) -->
+  <g transform="translate(350, 200)">
+    <!-- Body -->
+    <path d="M100,80 Q200,0 300,80 Q400,160 500,80" fill="#B0E0E6"/>
+    <!-- Fin -->
+    <polygon points="70,120 230,160 130,220" fill="#B0E0E6"/>
+    <!-- Tail -->
+    <path d="M500,80 Q550,140 600,80" stroke="#000" stroke-width="10" fill="transparent"/>
+  </g>
+
+  <!-- Buildings -->
+  <g transform="translate(200, 300)">
+    <!-- Building 1 -->
+    <rect width="50" height="100" fill="#AAA"/>
+    <line x1="0" y1="100" x2="50" y2="100" stroke="#000"/>
+  </g>
+  <g transform="translate(350, 250)">
+    <!-- Building 2 -->
+    <rect width="75" height="75" fill="#CCC"/>
+    <line x1="0" y1="75" x2="75" y2="75" stroke="#000"/>
+  </g>
+  <g transform="translate(450, 300)">
+    <!-- Building 3 -->
+    <circle cx="50" cy="50" r="50" fill="#EEE"/>
+    <line x1="0" y1="50" x2="100" y2="50" stroke="#000"/>
+  </g>
+
+  <!-- Roads -->
+  <path d="M100,400 Q300,500 600,400" stroke="#333" stroke-width="10"/>
+
+</svg>

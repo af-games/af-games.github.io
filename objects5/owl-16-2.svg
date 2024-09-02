@@ -1,0 +1,27 @@
+<svg>` tag:
+
+```svg
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="150" cy="200" rx="90" ry="120" fill="brown"/>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="80" rx="45" ry="60" fill="light brown"/>
+
+  <!-- Wings -->
+  <path d="M70,130 Q50,90 120,70 Q190,90 200,130" stroke="brown" fill="transparent"/>
+  <path d="M280,130 Q320,90 250,70 Q160,90 140,130" stroke="brown" fill="transparent"/>
+
+  <!-- Legs and feet -->
+  <rect x="120" y="260" width="8" height="80" rx="4" fill="light brown"/>
+  <path d="M125,340 Q130,350 135,340 Q140,350 145,340" stroke="brown" fill="transparent"/>
+  <rect x="220" y="260" width="8" height="80" rx="4" fill="light brown"/>
+  <path d="M225,340 Q230,350 235,340 Q240,350 245,340" stroke="brown" fill="transparent"/>
+
+  <!-- Face -->
+  <circle cx="135" cy="70" r="15" fill="black"/>
+  <ellipse cx="165" cy="80" rx="10" ry="5" fill="white"/>
+  <path d="M140,50 Q125,65 135,75 Q145,65 160,50" stroke="brown" fill="transparent"/>
+
+</svg>

@@ -1,0 +1,20 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Drum (circle beats) -->
+  <circle cx="50" cy="310" r="30" fill="none" stroke="#696969"/>
+  <circle cx="50" cy="370" r="30" fill="none" stroke="#696969"/>
+  <circle cx="50" cy="430" r="30" fill="none" stroke="#696969"/>
+
+  <!-- Main melody: Lion's mane -->
+  <path id="lion-mane" d="M210 100 Q270 80, 330 150 Q390 120, 450 100" stroke="#ffa500" fill="transparent"/>
+
+  <!-- Harmony: Lion's body -->
+  <use xlink:href="#lion-mane" y="270" transform="scale(0.8)"/>
+  <path d="M360 270 Q410 310, 450 270 Q500 310, 540 270" stroke="#ffa500" fill="transparent"/>
+
+  <!-- Harmony: Lion's tail -->
+  <path d="M600 370 Q650 430, 700 370 Q750 430, 800 370" stroke="#ffa500" fill="transparent"/>
+
+  <!-- Instruments interaction: Overlapping mane with tail -->
+  <use xlink:href="#lion-mane" y="370" transform="scale(1.2)"/>
+</svg>

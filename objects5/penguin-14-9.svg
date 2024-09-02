@@ -1,0 +1,25 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients -->
+  <linearGradient id="penguinGradient" gradientTransform="rotate(90)">
+    <stop offset="0%" stop-color="#58CBA4"/>
+    <stop offset="100%" stop-color="#377D6A"/>
+  </linearGradient>
+  <linearGradient id="whiteGradient">
+    <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- Body threads -->
+  <defs>
+    <path id="bodyPath" d="M50,75 Q80,30 120,75 Q160,140 190,90 H200 V200 H0 Z"/>
+  </defs>
+  <use xlink:href="#bodyPath" fill="url(#penguinGradient)" stroke-width="0"/>
+
+  <!-- Black threads for eyes and details -->
+  <path d="M85,60 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" fill="#000"/>
+  <circle cx="95" cy="75" r="2.5" fill="#000"/>
+  <circle cx="115" cy="75" r="2.5" fill="#000"/>
+
+  <!-- White threads for belly -->
+  <path d="M85,120 Q95,135 115,145 Q135,160 160,150 H200 V200 H0 Z" fill="url(#whiteGradient)"/>
+</svg>

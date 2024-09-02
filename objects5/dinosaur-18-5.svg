@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+
+  <!-- Ground -->
+  <path id="ground" d="M10,390 Q50,370 100,390 T200,370 T300,390 T400,370 T500,390 Z"
+        fill="#8B4513" stroke="black"/>
+
+  <!-- Plants -->
+  <rect id="plants" x="250" y="360" width="50" height="30" fill="green"/>
+  <rect id="plants" x="350" y="370" width="50" height="20" fill="green"/>
+
+  <!-- Rocks -->
+  <rect id="rocks" x="480" y="360" width="50" height="30" fill="#8B4513"/>
+  <rect id="rocks" x="550" y="370" width="50" height="20" fill="#8B4513"/>
+
+  <!-- Triceratops -->
+  <circle id="triceratops" cx="60" cy="370" r="40" fill="#3D9970"/>
+  <animateMotion id="triceratopsAnimation"
+                 dur="4s"
+                 repeatCount="indefinite">
+    <mpath href="#ground"/>
+  </animateMotion>
+
+  <!-- T-Rex -->
+  <circle id="t-rex" cx="180" cy="375" r="25" fill="#B22222"/>
+  <animateMotion id="tRexAnimation"
+                 dur="4s"
+                 repeatCount="indefinite">
+    <mpath href="#ground"/>
+  </animateMotion>
+
+  <!-- Raptor -->
+  <circle id="raptor" cx="310" cy="380" r="15" fill="#FF4500"/>
+  <animateMotion id="raptorAnimation"
+                 dur="4s"
+                 repeatCount="indefinite">
+    <mpath href="#ground"/>
+  </animateMotion>
+
+</svg>

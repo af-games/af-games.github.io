@@ -1,0 +1,42 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="175" cy="275" r="80" fill="url(#bodyGradient)">
+    <animate attributeName="cy" dur="2s" values="275;300;275" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Head -->
+  <path d="M160 120 Q180 90, 200 120 L200 140 Z" fill="url(#headGradient)"/>
+
+  <!-- Wings -->
+  <polygon points="50,370 50,330 160,330 120,370" fill="url(#wingGradient)"/>
+  <polygon points="350,370 350,330 460,330 420,370" fill="url(#wingGradient)"/>
+
+  <!-- Eye (left) -->
+  <circle cx="140" cy="145" r="15" fill="black"/>
+  <circle cx="140" cy="145" r="10" fill="white"/>
+
+  <!-- Eye (right) -->
+  <circle cx="230" cy="145" r="15" fill="black"/>
+  <circle cx="230" cy="145" r="10" fill="white"/>
+
+  <!-- Beak -->
+  <path d="M180,160 Q170,170 190,170 T210,160" stroke="orange" fill="transparent"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,128);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,64);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+</svg>

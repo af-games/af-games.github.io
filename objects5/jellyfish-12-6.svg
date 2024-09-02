@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+
+<!-- Bodice -->
+<rect x="150" y="100" width="300" height="400"
+      style="fill: url(#tealGradient);"/>
+
+<!-- Sleeves -->
+<circle cx="200" cy="100" r="125"/>
+<circle cx="600" cy="100" r="125"/>
+<path d="M200,325 L325,450 L575,450 Z"
+      style="fill: url(#tealGradient);"/>
+
+<!-- Jellyfish Bell -->
+<defs>
+  <linearGradient id="pinkPurpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="50%" style="stop-color:lightpink;"/>
+    <stop offset="100%" style="stop-color:lightpurple;"/>
+  </linearGradient>
+</defs>
+
+<path d="M400,600 Q300,750 200,850 C250,950 450,950 650,850 Q500,750 400,600"
+      style="fill: url(#pinkPurpleGradient); fill-opacity: .7;"/>
+
+<!-- Tentacles -->
+<path d="M400,850 Q350,950 300,1050"/>
+<path d="M400,850 Q450,950 500,1050"/>
+
+<!-- Repeated pattern of small pink circles -->
+<pattern id="stingingCells" width="20" height="20">
+  <circle cx="10" cy="10" r="5" style="fill: lightpink;"/>
+</pattern>
+
+<rect x="375" y="625" width="400" height="225"
+      style="fill: url(#stingingCells); fill-opacity: .5;"/>
+
+</svg>

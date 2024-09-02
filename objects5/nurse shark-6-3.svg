@@ -1,0 +1,24 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'>
+
+<!-- Nurse shark body -->
+<rect x='50' y='10' width='300' height='200' fill='#69482d' />
+<rect x='75' y='75' width='250' height='125' fill='#4f3521' />
+
+<!-- Fins -->
+<rect x='100' y='150' width='150' height='50' fill='#4f3521' />
+<rect x='275' y='200' width='100' height='50' fill='#4f3521' />
+
+<!-- Shark mouth -->
+<path d='M50,20 Q90,60 140,60 Q290,60 340,20' stroke='black' stroke-opacity='0.7' fill='transparent' />
+
+<!-- Eyes -->
+<circle cx='80' cy='50' r='15' fill='white' />
+<circle cx='80' cy='50' r='5' fill='black' />
+<circle cx='320' cy='50' r='15' fill='white' />
+<circle cx='320' cy='50' r='5' fill='black' />
+
+<!-- Dorsal fin -->
+<rect x='175' y='80' width='50' height='90' fill='#b3b3b3' />
+<path d='M175,80 Q225,140 275,80' stroke='#b3b3b3' fill='transparent' />
+
+</svg>

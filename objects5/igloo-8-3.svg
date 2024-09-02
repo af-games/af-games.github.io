@@ -1,0 +1,16 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo -->
+  <circle cx="0" cy="300" r="200" stroke="black" fill="white" />
+
+  <!-- Smoke Vent -->
+  <circle cx="0" cy="150" r="60" stroke="black" fill="transparent"/>
+
+  <!-- Entrance Tunnel -->
+  <path d="M150,300 H-150" stroke="black" fill="transparent"/>
+
+  <!-- Lanterns -->
+  <circle cx="-200" cy="300" r="20" stroke="black" fill="yellow"/>
+  <circle cx="200" cy="300" r="20" stroke="black" fill="yellow"/>
+
+</svg>

@@ -1,0 +1,36 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E5F5E0"/>
+
+  <!-- Giraffania -->
+  <g id="Giraffania">
+    <!-- Central plains and giraffe habitat -->
+    <path d="M100,200 Q300,150 600,200" stroke="#8D4A92" fill="#FFEFCC"/>
+    <text x="350" y="230" text-anchor="middle" font-family="Arial" font-size="20">Giraffania</text>
+
+    <!-- Giraffe -->
+    <g transform="translate(400, 180)">
+      <circle cx="15" cy="-75" r="75" fill="#D96F53"/>
+      <polygon points="0,-150 30,-100 0,25 -30,-100" fill="#8D4A92"/>
+    </g>
+  </g>
+
+  <!-- Mountains -->
+  <path d="M700,100 Q600,50 500,100 L500,400 Z" stroke="#333" fill="#CACFD2"/>
+  <text x="600" y="350" text-anchor="middle" font-family="Arial" font-size="18">Mountains of the Moon</text>
+
+  <!-- Forest -->
+  <polygon points="400,400 700,400 700,600 400,600" stroke="#3D9970" fill="#90EE90"/>
+  <text x="550" y="520" text-anchor="middle" font-family="Arial" font-size="18">Whispering Woods</text>
+
+  <!-- River -->
+  <path d="M400,350 Q250,250 400,150 L600,250 Z" stroke="#2C3E50" fill="#BDBDBD"/>
+  <text x="450" y="300" text-anchor="middle" font-family="Arial" font-size="18">Serenity River</text>
+
+  <!-- City -->
+  <circle cx="750" cy="350" r="50" fill="#F39C12"/>
+  <polygon points="700,350 750,400 800,350" fill="#FFFFFF"/>
+  <text x="775" y="390" text-anchor="middle" font-family="Arial" font-size="16">Giraffania City</text>
+
+</svg>

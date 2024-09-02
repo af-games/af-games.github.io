@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 700">
+  <!-- Body -->
+  <rect x="100" y="400" width="300" height="300" fill="#C69847"/>
+
+  <!-- Neck -->
+  <path d="M200,400 Q250,350 300,400" stroke="black" fill="transparent"/>
+
+  <!-- Head -->
+  <circle cx="300" cy="300" r="70" fill="#F1DACA"/>
+  <path d="M300,260 Q350,280 350,240 Z" stroke="black" fill="transparent"/>
+
+  <!-- Legs -->
+  <rect x="120" y="700" width="20" height="100" fill="#C69847"/>
+  <rect x="360" y="700" width="20" height="100" fill="#C69847"/>
+  <rect x="500" y="700" width="20" height="100" fill="#C69847"/>
+
+  <!-- Spots -->
+  <circle cx="150" cy="500" r="30" fill="#F39A8A"/>
+  <circle cx="250" cy="450" r="30" fill="#F39A8A"/>
+  <circle cx="350" cy="550" r="30" fill="#F39A8A"/>
+
+</svg>

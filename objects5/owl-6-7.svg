@@ -1,0 +1,16 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Owl -->
+  <path d="M150,100 Q175,50 225,100 Q250,150 300,100 Q325,50 350,100" fill="#FFC107" stroke="#000"/>
+  <circle cx="200" cy="80" r="20" fill="#FFF" stroke="#000"/>
+  <circle cx="290" cy="80" r="20" fill="#FFF" stroke="#000"/>
+
+  <!-- Moon -->
+  <path d="M175,50 A90,90 0 0 1 325,50 A90,90 0 0 1 175,140 Z" fill="#FFF" stroke="#000"/>
+
+  <!-- Stars -->
+  <circle cx="180" cy="20" r="2" fill="#FFF"/>
+  <circle cx="230" cy="60" r="2" fill="#FFF"/>
+  <circle cx="290" cy="35" r="2" fill="#FFF"/>
+
+</svg>

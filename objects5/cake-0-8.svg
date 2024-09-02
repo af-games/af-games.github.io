@@ -1,0 +1,44 @@
+<svg width="500px" height="500px" viewBox="-250 -250 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Create a circle for the cake base -->
+  <circle id="cakeBase"
+          cx="0" cy="0" r="100"
+          fill="#FDD79A"
+          stroke="#8B4513"
+          stroke-width="15">
+    <animate attributeName="r"
+             values="100;200;100"
+             dur="2s"
+             repeatCount="indefinite" />
+  </circle>
+
+  <!-- Create a rectangle for the cake top -->
+  <rect id="cakeTop"
+        x="-75" y="-150"
+        width="150" height="75"
+        fill="#FFD6EC"
+        stroke="#FF83FA"
+        stroke-width="2">
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="2s"
+             repeatCount="indefinite" />
+  </rect>
+
+  <!-- Create a path for the candle -->
+  <path id="candle"
+        d="M0,-50 L-30,-70 H60 L-60,-70 Z"
+        fill="#FFB973"
+        stroke="#FFD180"
+        stroke-width="2">
+    <animate attributeName="d"
+             values="M0,-50 L-30,-70 H60 L-60,-70 Z;M0,-120 L-30,-140 H60 L-60,-140 Z"
+             dur="2s"
+             repeatCount="indefinite" />
+    <animate attributeName="fill"
+             values="#FFB973;#FFD180;#FFB973"
+             dur="2s"
+             repeatCount="indefinite" />
+  </path>
+
+</svg>

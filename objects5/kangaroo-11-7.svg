@@ -1,0 +1,60 @@
+<svg>` canvas.
+
+*Resource Gathering:*
+- Found a rectangle shape for the body.
+- Discovered circles for the head and paws.
+- Collected colors from the local palette: `#8B4513` (brown) for the body, `#FFFFFF` (white) for highlights, and `#000000` (black) for details.
+
+**Day 2:**
+
+Mapped out the kangaroo's body using a `<rect>` shape at `(20, 20)` with dimensions `160, 240`. Set its fill to `'#8B4513'`.
+
+**Day 3:**
+
+Added the head with a `<circle>` at `(90, 40)` having a radius of `40` and filled it with `'#FFFFFF'`.
+
+**Day 4:**
+
+Mapped out the kangaroo's pouch using another `<circle>` at `(120, 150)` with a radius of `30`, filled with `'#8B4513'`.
+
+**Day 5:**
+
+Detailed the paws with two `<circle>` shapes:
+- Left paw: `(60, 270)`, radius `30`
+- Right paw: `(160, 270)`, radius `30`, both filled with `'#8B4513'`
+
+**Day 6:**
+
+Added final touches – eyes (`<circle>`) and nose (`<polygon>`):
+- Left eye: `(95, 55)`, radius `5`
+- Right eye: `(125, 55)`, radius `5`, both filled with `'#000000'`
+- Nose: `(105, 70)` using a `<polygon>` points string `"105,70 115,70 110,80"` filled with `'#000000'`
+
+**Day 7:**
+
+Packed up camp and marked the path back home with the following SVG code:
+
+```svg
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="20" y="20" width="160" height="240" fill="#8B4513"/>
+
+  <!-- Head -->
+  <circle cx="90" cy="40" r="40" fill="#FFFFFF"/>
+
+  <!-- Pouch -->
+  <circle cx="120" cy="150" r="30" fill="#8B4513"/>
+
+  <!-- Left Paw -->
+  <circle cx="60" cy="270" r="30" fill="#8B4513"/>
+  <!-- Right Paw -->
+  <circle cx="160" cy="270" r="30" fill="#8B4513"/>
+
+  <!-- Left Eye -->
+  <circle cx="95" cy="55" r="5" fill="#000000"/>
+  <!-- Right Eye -->
+  <circle cx="125" cy="55" r="5" fill="#000000"/>
+
+  <!-- Nose -->
+  <polygon points="105,70 115,70 110,80" fill="#000000"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Perimeter -->
+  <rect x="50" y="50" width="700" height="500" stroke="#000" fill="none"/>
+
+  <!-- Suspects (intersection points) -->
+  <circle cx="100" cy="200" r="30" stroke="#f00" fill="none"/>
+  <circle cx="400" cy="250" r="30" stroke="#0f0" fill="none"/>
+  <circle cx="700" cy="150" r="30" stroke="#00f" fill="none"/>
+
+  <!-- Motives (converging paths) -->
+  <path d="M200,150 Q300,50 450,150" stroke="#000" fill="none"/>
+  <path d="M180,200 Q300,270 420,200" stroke="#000" fill="none"/>
+
+  <!-- Clues (diverging paths) -->
+  <path d="M50,250 Q150,100 250,300" stroke="#000" fill="none"/>
+  <path d="M750,250 Q650,400 550,300" stroke="#000" fill="none"/>
+
+  <!-- Lion (crime scene) -->
+  <image xlink:href="lion.png" x="150" y="150" width="500" height="300"/>
+
+</svg>

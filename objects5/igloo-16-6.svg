@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Front piece -->
+  <path id="front" d="M0,-50 A50,50 0 0 1 0,50 L-45,60 Q-50,70 -45,80 V90 H50 Z"
+        fill="url(#iglooGradient)"/>
+  <path id="frontSleeves" d="M-30,-20 a20,20 0 0 0 60,0 a20,20 0 0 0 -60,0 Z"
+        fill="url(#snowPattern)"/>
+
+  <!-- Back piece -->
+  <path id="back" d="M0,-50 A50,50 0 0 1 0,50 L45,60 Q50,70 45,80 V90 H-50 Z"
+        fill="url(#iglooGradient)"/>
+  <path id="backSleeves" d="M30,-20 a20,20 0 0 0 -60,0 a20,20 0 0 0 60,0 Z"
+        fill="url(#snowPattern)"/>
+
+  <!-- Collar -->
+  <path id="collar" d="M0,-45 A45,7.5 0 0 1 0,-37.5 L-22.5,-45 H22.5 Z"
+        fill="url(#iglooGradient)"/>
+
+  <!-- Gradients and patterns -->
+  <defs>
+    <linearGradient id="iglooGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue"/>
+      <stop offset="50%" style="stop-color:white"/>
+      <stop offset="100%" style="stop-color:lightblue"/>
+    </linearGradient>
+    <pattern id="snowPattern" patternUnits="userSpaceOnUse" width="20" height="20">
+      <image href="https://www.transparenttextures.com/patterns/snow.png"
+             x="0" y="0" width="20" height="20"/>
+    </pattern>
+  </defs>
+
+</svg>

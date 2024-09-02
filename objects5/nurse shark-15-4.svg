@@ -1,0 +1,29 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="300" height="200" fill="#ADD8E6"/>
+  <radialGradient id="skyGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" style="stop-color:#ADD8E6; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#003D66; stop-opacity:1"/>
+  </radialGradient>
+  <rect x="0" y="0" width="300" height="200" fill="url(#skyGradient)"/>
+
+  <!-- Water -->
+  <path d="M0,200 H300 V0 H0 Z" stroke="#003D66" fill="#003D66"/>
+  <path d="M50,70 Q100,90 120,70 T280,200" stroke="#003D66" fill="#003D66"/>
+
+  <!-- Land -->
+  <polygon points="70,70 140,50 70,160" fill="#8B4513"/>
+  <ellipse cx="80" cy="30" rx="60" ry="30" fill="#2E7D32"/>
+  <rect x="200" y="120" width="80" height="20" fill="#B48BAF"/>
+
+  <!-- Coral Reef -->
+  <linearGradient id="coralReefGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FF69B4; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#FF9F00; stop-opacity:1"/>
+  </linearGradient>
+  <polygon points="80,75 120,50 80,25" fill="url(#coralReefGradient)"/>
+
+  <!-- Nurse Shark Temple -->
+  <polygon points="40,60 90,30 40,0" fill="#FFD700"/>
+</svg>

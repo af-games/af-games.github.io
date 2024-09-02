@@ -1,0 +1,25 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Gate -->
+  <polygon id="castle-gate" points="50,50 150,50 100,100" fill="brown" stroke="black"/>
+  <text x="80" y="75" text-anchor="middle" font-size="24">Castle Gate</text>
+
+  <!-- Castle Wall -->
+  <rect id="castle-wall" width="300" height="150" x="180" y="60" fill="grey"/>
+  <feGaussianBlur stdDeviation="3" result="blur"/>
+  <use xlink:href="#castle-wall" transform="translate(40,0)" filter="url(#blur)"/>
+
+  <!-- Tower -->
+  <polygon id="tower" points="280,150 380,150 330,250" fill="grey"/>
+  <circle cx="330" cy="300" r="40" stroke="black" fill="white"/>
+
+  <!-- Path to Tower -->
+  <path d="M160,120 Q220,80 280,150" stroke="black" fill="transparent"/>
+  <text x="230" y="100" text-anchor="middle" font-size="24">Path to Tower</text>
+
+  <!-- Moat -->
+  <rect id="moat" width="600" height="80" x="0" y="320" fill="blue"/>
+  <feColorMatrix type="matrix" values="1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 -50" result="colormatrix"/>
+  <use xlink:href="#moat" filter="url(#colormatrix)"/>
+
+</svg>

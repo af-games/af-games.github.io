@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 0 100 100">
+  <!-- Body -->
+  <path id="body" d="M-45,75 Q-20,-5 25,-5 Q80,0 65,65 Q30,90 -45,75"/>
+
+  <!-- Eyes -->
+  <circle cx="-15" cy="35" r="15"/>
+  <circle cx="15" cy="35" r="12"/>
+
+  <!-- Wing -->
+  <path id="wing1" d="M-40,80 Q-60,-5 -40,-30"/>
+
+  <!-- Tail feathers -->
+  <path id="tail" d="M65,75 Q50,90 65,105 Q80,90 65,75"/>
+
+  <!-- Head feathers -->
+  <path id="headFeathers" d="M-45,35 Q-65,-5 -25,-5 Q-5,25 -15,35 Q-25,45 -45,35"/>
+
+  <!-- Beak -->
+  <path id="beak" d="M-20,35 Q-30,25 -20,20 Q-10,30 -5,35"/>
+
+  <!-- Foot details -->
+  <rect x="-25" y="70" width="5" height="10"/>
+  <rect x="-20" y="80" width="5" height="5"/>
+</svg>

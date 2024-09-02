@@ -1,0 +1,33 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#F4D03F"/>
+
+  <!-- Lion's Body -->
+  <circle cx="250" cy="375" r="200" fill="#FFC93C">
+    <animateMotion repeatCount="indefinite" dur="2s" rotate="auto">
+      <mpath href="#manePath"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Lion's Face -->
+  <circle cx="250" cy="175" r="75" fill="#FFC93C"/>
+
+  <!-- Mane Path -->
+  <path id="manePath" stroke-width="1" stroke="#FFCC66">
+    <animate repeatCount="indefinite" dur="4s">
+      <animateTransform attributeName="stroke" type="scale"
+        from="0.5" to="1" begin="startEnd" dur="2s"/>
+      <animate attributeName="d" values="
+        M 30,60 Q 70,80 120,100 T 270,40 Q 230,60 180,80;
+        M 30,100 Q 70,120 120,140 T 270,80 Q 230,100 180,120;
+        M 30,140 Q 70,160 120,180 T 270,120 Q 230,140 180,160"
+      />
+    </animate>
+  </path>
+
+  <!-- Eyes -->
+  <circle cx="200" cy="150" r="20" fill="#FFFFFF"/>
+  <circle cx="300" cy="150" r="20" fill="#FFFFFF"/>
+
+</svg>

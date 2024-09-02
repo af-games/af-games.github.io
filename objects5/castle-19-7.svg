@@ -1,0 +1,51 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle Wall -->
+  <rect id="castleWall" x="150" y="100" width="500" height="400"
+    style="fill: url(#gradientTop); stroke: black; stroke-width: 5px;" />
+
+  <!-- Tower -->
+  <polygon id="tower" points="270,30 330,30 350,180 290,180"
+    style="fill: url(#gradientSide); stroke: black; stroke-width: 3px;" />
+
+  <!-- Stage -->
+  <rect id="stage" x="200" y="370" width="400" height="230"
+    style="fill: url(#gradientStage); stroke: none;" />
+
+  <!-- Throne -->
+  <ellipse cx="450" cy="480" rx="100" ry="150"
+    style="fill: radial-gradient(circle, white, transparent); stroke: gold; stroke-width: 3px;" />
+
+  <!-- Cinderella's Coach -->
+  <rect id="coach" x="270" y="450" width="260" height="100"
+    style="fill: url(#gradientCoach); stroke: black; stroke-width: 3px;" />
+
+  <!-- Props: Trees -->
+  <circle cx="180" cy="550" r="40" fill="green" />
+  <circle cx="620" cy="550" r="40" fill="green" />
+
+  <!-- Props: Lanterns -->
+  <ellipse cx="300" cy="520" rx="20" ry="40"
+    style="fill: yellow; stroke: black; stroke-width: 2px;" />
+  <ellipse cx="480" cy="520" rx="20" ry="40"
+    style="fill: yellow; stroke: black; stroke-width: 2px;" />
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradientTop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(70,59,84); stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(35,30,51); stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradientSide" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(47,39,61); stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(28,23,45); stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="gradientStage" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:rgb(0,0,0); stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="gradientCoach" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,215,0); stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,168,0); stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

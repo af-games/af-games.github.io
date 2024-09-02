@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 50 60">
+  <!-- Body and Head -->
+  <ellipse cx="0" cy="0" rx="20" ry="30" fill="#784b2e"/>
+  <ellipse cx="0" cy="-5" rx="10" ry="15" fill="#784b2e"/>
+
+  <!-- Eyes -->
+  <circle cx="5" cy="-7" r="3" fill="black"/>
+  <circle cx="-5" cy="-7" r="3" fill="black"/>
+
+  <!-- Wings -->
+  <polygon points="-10,-10, -15,20, -5,10" fill="#784b2e"/>
+  <polygon points="10,-10, 15,20, 5,10" fill="#784b2e"/>
+
+  <!-- Tail -->
+  <polygon points="-5,-30, 0,-40, 5,-30" fill="#784b2e"/>
+
+  <!-- Feet -->
+  <circle cx="-10" cy="20" r="3" fill="#784b2e"/>
+  <circle cx="10" cy="20" r="3" fill="#784b2e"/>
+
+  <!-- Beak -->
+  <path d="M0,-20 Q-5,-15 0,-10 Q5,-15 0,-20 Z" fill="#c97d36"/>
+  <path d="M0,-10 Q-5,-8 0,-4 Q5,-8 0,-10" fill="#c97d36"/>
+
+  <!-- Feather patterns -->
+  <!-- Add your feather pattern paths here -->
+
+  <!-- Shading -->
+  <!-- Apply gradients and opacity to give depth -->
+
+</svg>

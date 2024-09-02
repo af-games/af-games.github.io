@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Stage -->
+  <circle id="stage" cx="400" cy="300" r="150" fill="url(#stageGradient)" stroke="#000"/>
+
+  <!-- Dolphin Props -->
+  <g id="dolphins">
+    <path d="M270,280 Q300,260 330,280 T300,240 Z" fill="none" stroke="#fff"/>
+    <path d="M430,250 Q410,290 390,250 T410,270 Z" fill="none" stroke="#fff"/>
+    <!-- Add more dolphins as needed -->
+  </g>
+
+  <!-- Audience Seating -->
+  <rect id="audienceSeats" width="800" height="150" y="450" fill="url(#audienceGradient)" rx="20"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="stageGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(45,87,213);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="audienceGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(34,69,157);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:.8"/>
+    </linearGradient>
+  </defs>
+
+</svg>

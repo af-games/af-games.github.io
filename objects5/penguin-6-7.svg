@@ -1,0 +1,41 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <polygon points="-50,150 50,150 50,-50 -50,-50"
+           style="fill: url(#gradientBody);"/>
+
+  <!-- Head -->
+  <path d="M0,0 Q20,-30 40,-30 A60,60 0 0,0 -40,-30"
+        style="fill: url(#gradientHead);"/>
+
+  <!-- Beak -->
+  <polygon points="-10,0 10,0 5,20"
+           style="fill: orange;"/>
+
+  <!-- Eyes -->
+  <circle cx="-20" cy="-25" r="5" style="fill: black;"/>
+  <circle cx="20" cy="-25" r="5" style="fill: black;"/>
+
+  <!-- Feet -->
+  <polygon points="30,-50 40,0 30,-100"
+           style="fill: url(#gradientFoot);"/>
+  <polygon points="-40,-50 -30,0 -40,-100"
+           style="fill: url(#gradientFoot);"/>
+
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="gradientBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:black;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="gradientHead" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:lightgrey;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="gradientFoot" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:grey;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

@@ -1,0 +1,32 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Foundation Colors: skin tone (light pink), hair (brown), eyes (blue) -->
+  <defs>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,204,203);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(229,161,154);stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(63,39,4);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(105,74,8);stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="eyesGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(145,191,219);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(83,134,155);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Face (Delicate lines for the face outline and eyes) -->
+  <circle cx="200" cy="200" r="150" stroke="#fff" fill="url(#skinGrad)" stroke-width="4"/>
+  <ellipse cx="200" cy="180" rx="30" ry="60" stroke="#000" fill="url(#eyesGrad)" stroke-width="2"/>
+
+  <!-- Hair (Broad strokes for the hair) -->
+  <path d="M50,100 Q150,70 250,100 Q150,130 50,100" fill="none" stroke="#000" stroke-width="10"/>
+
+  <!-- Wings (Delicate lines for the wing veins) -->
+  <path d="M400,200 Q450,170 500,200 Q450,230 400,200" fill="none" stroke="#000" stroke-width="4"/>
+  <path d="M425,185 Q465,155 505,185 Q465,215 425,185" fill="none" stroke="#000" stroke-width="3"/>
+
+</svg>

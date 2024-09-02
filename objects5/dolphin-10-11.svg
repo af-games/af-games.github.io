@@ -1,0 +1,19 @@
+<svg width="150" height="150">
+    <!-- Clue 1: Semi-circle -->
+    <path d="M0 50 a50 50 0 0 0 100 0 a50 50 0 0 0 -100 0" fill="#F39C12"/>
+
+    <!-- Clue 2: Vertical line -->
+    <line x1="50" y1="0" x2="50" y2="100" stroke="#4CAF50" stroke-width="5"/>
+
+    <!-- Clue 3: Horizontal line -->
+    <line x1="0" y1="50" x2="100" y2="50" stroke="#FFC107" stroke-width="5"/>
+
+    <!-- Clue 4: Dolphin mask -->
+    <mask id="dolphinMask">
+        <rect width="100%" height="100%" fill="white"/>
+        <path d="M75 25 Q90 40 80 60 Q70 50 50 60 Q30 40 35 25" fill="black"/>
+    </mask>
+
+    <!-- Clue 5: Dolphin body -->
+    <path d="M75 25 Q90 40 80 60 Q70 50 50 60 Q30 40 35 25" fill="#6CA6CD" mask="url(#dolphinMask)"/>
+</svg>

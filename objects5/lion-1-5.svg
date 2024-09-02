@@ -1,0 +1,22 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion's body -->
+  <rect id="body" x="150" y="100" width="100" height="200" style="fill:orange; stroke:black;" />
+
+  <!-- Lion's head -->
+  <circle id="head" cx="200" cy="130" r="60" style="fill:gold; stroke:black;" />
+
+  <!-- Lion's eye (left) -->
+  <circle id="eye-left" cx="185" cy="115" r="5" style="fill:black;" />
+  <!-- Lion's eye (right) -->
+  <circle id="eye-right" cx="215" cy="115" r="5" style="fill:black;" />
+
+  <!-- Lion's mouth -->
+  <path id="mouth" d="M200,180 Q190,160 200,140 T210,160 Z" style="stroke:black; fill:transparent;" />
+
+  <!-- String (head) -->
+  <path id="string-head" d="M200,70 L200,130" style="stroke:red; fill:transparent; opacity:.5;" />
+  <!-- String (body) -->
+  <path id="string-body" d="M200,280 L200,100" style="stroke:red; fill:transparent; opacity:.5;" />
+
+</svg>

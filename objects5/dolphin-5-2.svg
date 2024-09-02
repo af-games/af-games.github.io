@@ -1,0 +1,20 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100 200 Q200 100, 300 200 Q400 300, 500 200" stroke="black" fill="lightblue" />
+
+  <!-- Tail -->
+  <path d="M470 200 Q500 250, 480 300 Q470 350, 460 300" stroke="black" fill="lightblue" />
+
+  <!-- Fins -->
+  <rect x="120" y="150" width="50" height="50" rx="25" fill="lightblue"/>
+  <rect x="370" y="140" width="40" height="60" rx="20" fill="lightblue"/>
+
+  <!-- Head -->
+  <circle cx="90" cy="180" r="50" stroke="black" fill="lightblue"/>
+  <ellipse cx="70" cy="160" rx="30" ry="40" stroke="black" fill="lightblue"/>
+
+  <!-- Eye -->
+  <circle cx="60" cy="150" r="5" stroke="black" fill="white"/>
+
+</svg>

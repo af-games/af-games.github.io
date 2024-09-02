@@ -1,0 +1,30 @@
+<svg width="600px" height="300px" xmlns="http://www.w3.org/2000/svg">
+  <!-- Neck -->
+  <ellipse id="neck" cx="350" cy="125" rx="50" ry="80"
+    style="fill:brown; stroke:black; stroke-width:2"/>
+
+  <!-- Head -->
+  <circle id="head" cx="400" cy="70" r="60"
+    style="fill:tan; stroke:black; stroke-width:2"/>
+
+  <!-- Body -->
+  <ellipse id="body" cx="375" cy="150" rx="80" ry="90"
+    style="fill:tan; stroke:black; stroke-width:2"/>
+
+  <!-- Legs -->
+  <polygon id="leg1" points="260,180 260,240 320,240"
+    style="fill:brown; stroke:black; stroke-width:2"/>
+  <!-- Repeat for leg2 (x=400), leg3 (x=540), and leg4 (x=680) -->
+
+  <!-- Pattern -->
+  <defs>
+    <pattern id="spots" x="0%" y="0%" width="10%" height="10%">
+      <circle cx="5" cy="5" r="2" fill="brown"/>
+    </pattern>
+  </defs>
+
+  <!-- Apply pattern to neck and body -->
+  <use href="#neck" style="fill:url(#spots)"/>
+  <use href="#body" style="fill:url(#spots)"/>
+
+</svg>

@@ -1,0 +1,37 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#3B5070" />
+
+  <!-- Moon -->
+  <circle cx="150" cy="100" r="50" fill="#FFDFBA">
+    <animate attributeName="cy" values="100;200;100" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="150" cy="100" r="30" fill="#2C3E50">
+    <animate attributeName="cy" values="100;200;100" dur="4s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Tree Trunk -->
+  <rect x="300" y="300" width="50" height="300" fill="#592F0E">
+    <animate attributeName="fill-opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Tree Branches -->
+  <path d="M400,350 Q350,250 450,250 Q550,350 600,350" stroke="#8B4513" fill="transparent">
+    <animate attributeName="stroke-opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Owl Outline -->
+  <path d="M550,200 Q575,175 600,200 Q575,225 550,200" stroke="#575757" fill="transparent">
+    <animate attributeName="stroke-opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite" />
+  </path>
+
+  <!-- Owl Eyes -->
+  <circle cx="600" cy="220" r="5" fill="#FFC10A">
+    <animate attributeName="cy" values="220;230;220" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="600" cy="220" r="2.5" fill="#141414">
+    <animate attributeName="cy" values="220;230;220" dur="4s" repeatCount="indefinite" />
+  </circle>
+
+</svg>

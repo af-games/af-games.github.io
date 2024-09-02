@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Scene 1: The Quiet Life -->
+  <circle cx="50" cy="400" r="40" fill="#FFFFFF"/>
+  <text x="60" y="370" font-family="Arial" font-size="12">Igloo enjoys a peaceful day.</text>
+  <rect x="0" y="0" width="800" height="200" fill="#95DFFC"/>
+
+  <!-- Scene 2: The Storm Arrives -->
+  <circle cx="50" cy="400" r="40" fill="#FFFFFF"/>
+  <path d="M100,300 Q200,200 300,300" stroke="#000000" fill="transparent"/>
+  <text x="60" y="370" font-family="Arial" font-size="12">A sudden storm approaches!</text>
+
+  <!-- Scene 3: The Journey Begins -->
+  <circle cx="50" cy="400" r="40" fill="#FFFFFF"/>
+  <path d="M50,400 L300,600" stroke="#000000" fill="transparent"/>
+  <text x="170" y="590" font-family="Arial" font-size="12">Igloo decides to seek shelter elsewhere.</text>
+
+  <!-- Scene 4: Meeting New Friends -->
+  <circle cx="50" cy="400" r="40" fill="#FFFFFF"/>
+  <rect x="300" y="500" width="80" height="120" fill="#D7FFAA"/> <!-- Polar Bear -->
+  <circle cx="650" cy="450" r="30" fill="#FFFFFF"/> <!-- Penguin -->
+  <path d="M50,400 L300,500" stroke="#000000" fill="transparent"/>
+  <text x="170" y="480" font-family="Arial" font-size="12">Igloo meets Polar Bear and Penguin.</text>
+
+  <!-- Scene 5: The Big Adventure -->
+  <circle cx="50" cy="400" r="40" fill="#FFFFFF"/>
+  <rect x="300" y="500" width="80" height="120" fill="#D7FFAA"/> <!-- Polar Bear -->
+  <circle cx="650" cy="450" r="30" fill="#FFFFFF"/> <!-- Penguin -->
+  <path d="M50,400 L300,500" stroke="#000000" fill="transparent"/>
+  <path d="M50,400 Q200,200 300,400" stroke="#000000" fill="transparent"/> <!-- Frozen River -->
+  <text x="170" y="480" font-family="Arial" font-size="12">They face challenges together.</text>
+
+  <!-- Scene 6: The Discovery -->
+  <circle cx="50" cy="400" r="40" fill="#FFFFFF"/>
+  <rect x="300" y="500" width="80" height="120" fill="#D7FFAA"/> <!-- Polar Bear -->
+  <circle cx="650" cy="450" r="30" fill="#FFFFFF"/> <!-- Penguin -->
+  <circle cx="600" cy="300" r="60" fill="#FFFFFF"/> <!-- Abandoned Igloo -->
+  <path d="M50,400 L300,500" stroke="#000000" fill="transparent"/>
+  <text x="170" y="480" font-family="Arial" font-size="12">They find an abandoned igloo.</text>
+
+</svg>

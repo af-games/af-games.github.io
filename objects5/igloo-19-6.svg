@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" style="fill:url(#gradient);stroke:black;stroke-width:.5">
+  <path id="frontBodice" d="M 20 50 H 180 V 360 Q 180 400, 200 440 T 20 500 L 20 50 Z"/>
+  <path id="backBodice" d="M 20 50 H 180 V 360 Q 180 400, 200 440 T 20 500 L 20 50 Z"/>
+  <path id="sleeve" d="M 190 70 A 120 120 0 0 1 70 290 L 50 360 H 190 Z"/>
+  <path id="hood" d="M 200 80 A 100 100 0 0 1 70 200 L 50 300 A 100 100 0 0 1 200 420 Z"/>
+  <path id="yoke" d="M 20 60 L 180 60 L 130 90 L 20 90 Z"/>
+  <path id="sidePanel" d="M 20 50 L 180 50 L 140 70 Q 180 90, 200 110 Z"/>
+
+  <!-- Stitching lines -->
+  <polyline points="20,60 130,90"/>
+  <polyline points="20,90 130,90"/>
+  <polyline points="180,50 140,70"/>
+
+  <!-- Front and back bodice connection -->
+  <polyline points="20,50 180,50 180,360 20,360"/>
+
+</svg>

@@ -1,0 +1,48 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- The Cozy Home -->
+<g id="scene1">
+  <rect x="50" y="100" width="100" height="150" fill="#FFF" stroke="#000"/>
+  <text x="70" y="280" font-family="Arial">Cozy home with snowflake decorations</text>
+  <circle cx="90" cy="140" r="30" fill="#FFF"/>
+  <circle cx="140" cy="160" r="30" fill="#FFF"/>
+  <circle cx="95" cy="200" r="30" fill="#FFF"/>
+</g>
+
+<!-- The Storm -->
+<g id="scene2">
+  <rect x="200" y="50" width="100" height="200" fill="#000"/>
+  <path d="M250,150 Q350,50 450,150" stroke="#FFF" fill="transparent"/>
+  <use xlink:href="#igloo" x="200" y="100"/>
+</g>
+
+<!-- Igloo in the Open Sea -->
+<g id="scene3">
+  <path d="M200,400 Q300,500 400,400" stroke="#00F" fill="transparent"/>
+  <circle cx="150" cy="380" r="60" fill="#FFF"/>
+  <circle cx="250" cy="370" r="50" fill="#FFF"/>
+  <use xlink:href="#igloo" x="200" y="350"/>
+</g>
+
+<!-- The Island Discovery -->
+<g id="scene4">
+  <path d="M600,500 Q550,600 700,500" stroke="#080" fill="transparent"/>
+  <polygon points="620,300 650,350 620,400" fill="#080"/>
+  <use xlink:href="#igloo" x="650" y="370"/>
+</g>
+
+<!-- New Friends -->
+<g id="scene5">
+  <circle cx="700" cy="150" r="20" fill="#000"/>
+  <polygon points="700,170 690,180 710,180" fill="#F30"/>
+  <use xlink:href="#igloo" x="650" y="120"/>
+</g>
+
+<!-- The Return Journey -->
+<g id="scene6">
+  <rect x="500" y="400" width="50" height="100" fill="#FFF"/>
+  <polygon points="530,500 570,520 530,540" fill="#FFF"/>
+  <use xlink:href="#narwhalFamily" x="520" y="420"/>
+</g>
+
+</svg>

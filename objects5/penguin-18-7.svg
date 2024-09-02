@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 200 200" preserveAspectRatio="xMidYMid meet">
+  <!-- Body -->
+  <path d="M50,70 Q80,40 130,70 Q80,100 50,70"
+        fill="url(#penguinGradient)" />
+
+  <!-- Head -->
+  <path d="M60,40 A40,40 0 0 1 140,40"
+        fill="url(#penguinGradient)" />
+
+  <!-- Beak -->
+  <polygon points="70,20 130,20 100,45"
+            fill="#FFD65B" />
+
+  <!-- Eyes -->
+  <circle cx="85" cy="30" r="5" fill="black" />
+  <circle cx="115" cy="30" r="5" fill="black" />
+
+  <!-- Feet -->
+  <path d="M65,95 Q75,120 85,95"
+        fill="#A9A9A9" />
+  <path d="M135,95 Q125,120 115,95"
+        fill="#A9A9A9" />
+
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(46,93,174);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

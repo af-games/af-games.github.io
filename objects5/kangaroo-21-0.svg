@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
+  <!-- Body -->
+  <circle cx="0" cy="70" r="80" fill="#8B4513"/>
+
+  <!-- Head -->
+  <circle cx="0" cy="40" r="40" fill="#8B4513"/>
+  <path d="M0,20 Q-10,0 0,-40 Q10,0 0,20" stroke="#F7F7F7" fill="transparent"/>
+
+  <!-- Ears -->
+  <path d="M-20,35 Q-30,50 -20,65 Q-10,50 -20,35" stroke="#8B4513" fill="transparent"/>
+  <path d="M20,35 Q30,50 20,65 Q10,50 20,35" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Limbs -->
+  <ellipse cx="-70" cy="120" rx="20" ry="40" fill="#8B4513"/>
+  <ellipse cx="70" cy="120" rx="20" ry="40" fill="#8B4513"/>
+
+  <!-- Tail -->
+  <path d="M-60,130 Q-40,160 -60,190 Q-80,160 -60,130" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Paws and claws -->
+  <circle cx="-70" cy="120" r="10" fill="#8B4513"/>
+  <path d="M-90,120 Q-75,130 -85,135 Q-65,130 -70,120" stroke="#8B4513" fill="transparent"/>
+  <circle cx="70" cy="120" r="10" fill="#8B4513"/>
+  <path d="M90,120 Q85,130 95,135 Q105,130 100,120" stroke="#8B4513" fill="transparent"/>
+</svg>

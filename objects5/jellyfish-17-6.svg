@@ -1,0 +1,34 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bodice -->
+  <rect x="100" y="80" width="300" height="400" fill="url(#bodiceGradient)" stroke="#FDD835"/>
+  <path d="M150,80 Q250,50 350,80"/>
+
+  <!-- Sleeves -->
+  <circle cx="75" cy="260" r="80" fill="url(#sleeveGradient)"/>
+  <circle cx="425" cy="260" r="80" fill="url(#sleeveGradient)"/>
+
+  <!-- Skirt Bell -->
+  <circle cx="250" cy="540" r="150" fill="url(#skirtBellPattern)" stroke="#FDD835"/>
+  <path d="M250,690 Q375,650 500,690"/>
+
+  <!-- Tentacles -->
+  <polyline points="175,690 225,740 275,690" fill="none" stroke="#FDD835"/>
+  <polyline points="325,690 275,740 375,690" fill="none" stroke="#FDD835"/>
+
+  <!-- Gradients and Patterns -->
+  <defs>
+    <linearGradient id="bodiceGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2193B0"/>
+      <stop offset="50%" style="stop-color:#7DC855"/>
+      <stop offset="100%" style="stop-color:#FDD835"/>
+    </linearGradient>
+    <linearGradient id="sleeveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7DC855"/>
+      <stop offset="100%" style="stop-color:#FDD835"/>
+    </linearGradient>
+    <pattern id="skirtBellPattern" patternUnits="userSpaceOnUse" width="100" height="100">
+      <image href="https://i.imgur.com/M97ZHYr.png" x="0" y="0" width="100" height="100"/>
+    </pattern>
+  </defs>
+
+</svg>

@@ -1,0 +1,19 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100 10 Q150 30, 180 70 Q200 90, 180 120 Q140 90, 100 70" stroke="black" fill="none" stroke-width="5"/>
+
+  <!-- Tail -->
+  <path d="M100 120 Q60 110, 40 130" stroke="black" fill="none" stroke-width="5"/>
+
+  <!-- Neck -->
+  <path d="M180 70 Q190 40, 180 30" stroke="black" fill="none" stroke-width="5"/>
+
+  <!-- Head -->
+  <circle cx="180" cy="20" r="20" stroke="black" fill="none" stroke-width="5"/>
+
+  <!-- Legs -->
+  <path d="M140 70 Q130 90, 120 110" stroke="black" fill="none" stroke-width="5"/>
+  <path d="M160 70 Q150 90, 140 110" stroke="black" fill="none" stroke-width="5"/>
+
+</svg>

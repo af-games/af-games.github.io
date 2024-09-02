@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+
+  <!-- Body -->
+  <rect x="150" y="80" width="100" height="400" fill="#4A2C2A"/>
+
+  <!-- Stripes -->
+  <pattern id="stripes" patternUnits="userSpaceOnUse" width="30" height="60">
+    <rect x="0" y="0" width="30" height="60" fill="#C5B098"/>
+    <rect x="15" y="0" width="15" height="60" fill="#4A2C2A"/>
+  </pattern>
+  <rect x="150" y="80" width="100" height="400" fill="url(#stripes)"/>
+
+  <!-- Neck -->
+  <path d="M350,80 Q375,150 350,250 Q250,250 250,350" stroke="#C5B098" fill="none"/>
+
+  <!-- Head -->
+  <circle cx="250" cy="40" r="40" fill="#F6E8D3"/>
+
+  <!-- Legs -->
+  <rect x="170" y="400" width="60" height="80" rx="20" fill="#4A2C2A"/>
+  <rect x="250" y="400" width="60" height="80" rx="20" fill="#4A2C2A"/>
+  <rect x="170" y="530" width="60" height="80" rx="20" fill="#4A2C2A"/>
+  <rect x="250" y="530" width="60" height="80" rx="20" fill="#4A2C2A"/>
+
+</svg>

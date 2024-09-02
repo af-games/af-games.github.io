@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+```
+
+2. **Mix your ingredients together**:
+   - Head: `<circle cx="150" cy="180" r="90" fill="blue"/>` (large, prominent)
+   - Body: `<rect x="70" y="230" width="460" height="170" rx="20" ry="20" fill="green"/>` (large, prominent)
+   - Tail: `<path d="M580 250 Q550 300 500 350 H30 T200 350 z" stroke="brown" fill="orange"/>` (medium-sized)
+   - Legs (4 pieces): `<rect x="120" y="370" width="40" height="80" rx="5" ry="5" fill="green"/>`, `<rect x="200" y="370" width="40" height="80" rx="5" ry="5" fill="green"/>`, `<rect x="460" y="370" width="40" height="80" rx="5" ry="5" fill="green"/>`, `<rect x="540" y="370" width="40" height="80" rx="5" ry="5" fill="green"/>` (small, but numerous)
+   - Eyes: `<circle cx="120" cy="160" r="10" fill="black"/>`, `<circle cx="230" cy="160" r="10" fill="black"/>` (small but noticeable)
+   - Mouth: `<path d="M90 190 Q140 220 190 190 Q240 220 290 190 z" stroke="black" fill="transparent"/>` (medium-sized)
+
+3. **Bake according to the recipe's instructions** (output SVG code):
+```xml
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
+
+  <!-- Dinosaur's body -->
+  <path d="M-50,-80 Q-30,-60 0,-40 Q30,-60 50,-80 Q30,-100 0,-120 Q-30,-100 -50,-80" fill="#008060"/>
+
+  <!-- Tunic -->
+  <path d="M0,-80 Q50,-40 0,-20 Q-50,-40 0,0" stroke="#9ACD32" fill="url(#pattern1)" transform="translate(0,-80) scale(2.5)"/>
+
+  <!-- Sash -->
+  <rect width="100%" height="20" y="-60" rx="10" stroke="#9ACD32" fill="#FFF569" transform="scale(2.5)"/>
+
+  <!-- Pants -->
+  <rect x="-40" y="0" width="80" height="60" rx="20" stroke="#9ACD32" fill="#008060"/>
+  <rect x="-40" y="60" width="80" height="60" rx="20" stroke="#9ACD32" fill="#008060"/>
+
+  <!-- Footwear -->
+  <circle cx="-50" cy="120" r="20" stroke="#9ACD32" fill="#FFF569"/>
+  <circle cx="50" cy="120" r="20" stroke="#9ACD32" fill="#FFF569"/>
+  <path d="M-40,120 Q-70,140 -40,160 Q0,180 40,160 Q70,140 40,120" stroke="#9ACD32" fill="none"/>
+  <path d="M50,120 Q80,140 50,160 Q20,180 -10,160 Q40,140 50,120" stroke="#9ACD32" fill="none"/>
+
+  <!-- Accessories -->
+  <defs>
+    <pattern id="pattern1" patternUnits="userSpaceOnUse" width="50" height="50">
+      <image href="tribal_pattern.png" x="0" y="0" width="50" height="50"/>
+    </pattern>
+  </defs>
+
+  <!-- Necklace -->
+  <path d="M0,-160 Q-30,-180 0,-200 Q30,-180 0,-160" stroke="#9ACD32" fill="#FFF569" transform="scale(4)" />
+  <!-- Add beads here using small <circle> elements -->
+
+  <!-- Armband -->
+  <rect x="-60" y="-70" width="120" height="20" rx="10" stroke="#9ACD32" fill="#FFF569" transform="scale(2.5)"/>
+
+  <!-- Bracelet -->
+  <circle cx="0" cy="-40" r="20" stroke="#9ACD32" fill="#FFF569" transform="scale(2.5)"/>
+
+</svg>

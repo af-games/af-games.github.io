@@ -1,0 +1,20 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10%" y="10%" width="80%" height="80%" fill="#F5DEB3"/>
+
+  <!-- Dark gray blocks -->
+  <g stroke="#7D7D7D" stroke-width="4">
+    <polygon points="20,20 60,20 60,60 100,60 100,100 20,100"/>
+    <!-- Repeat the above polygon for each dark block (every other block) -->
+  </g>
+
+  <!-- Light gray blocks -->
+  <g stroke="none">
+    <rect x="40" y="40" width="80%" height="80%" fill="#FFF"/>
+    <!-- Repeat the above rectangle for every light block -->
+  </g>
+
+  <!-- Stitching lines (visible gaps between blocks) -->
+  <g stroke="#7D7D7D" stroke-width="2">
+    <!-- Define stitching paths here, connecting adjacent blocks -->
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
+
+<!-- Body -->
+<rect x="15" y="40" width="270" height="120" style="fill: darkblue;" />
+
+<!-- Fins -->
+<rect x="20" y="60" width="20" height="80" style="fill: darkblue;" />
+<rect x="50" y="50" width="30" height="90" style="fill: darkblue;" />
+<rect x="140" y="50" width="30" height="90" style="fill: darkblue;" />
+<rect x="260" y="70" width="20" height="80" style="fill: darkblue;" />
+<rect x="280" y="100" width="20" height="50" style="fill: darkblue;" />
+
+<!-- Tail -->
+<path d="M290 170 Q300 150, 290 140" stroke="darkblue" fill="transparent" />
+
+<!-- Head -->
+<polygon points="15,20 15,60 80,40" style="fill: darkblue;" />
+
+<!-- Eyes -->
+<circle cx="35" cy="40" r="5" style="fill: white;" />
+<circle cx="75" cy="40" r="5" style="fill: white;" />
+
+</svg>

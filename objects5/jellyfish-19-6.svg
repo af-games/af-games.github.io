@@ -1,0 +1,27 @@
+<svg width="20cm" height="30cm" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bodice -->
+  <rect x="90" y="0" width="20" height="30" fill="none" stroke-width="1" stroke="#fff"/>
+
+  <!-- Sleeves (Circles) -->
+  <circle cx="50" cy="5" r="10" fill="none" stroke-width="1" stroke="#fff"/>
+  <circle cx="140" cy="5" r="10" fill="none" stroke-width="1" stroke="#fff"/>
+
+  <!-- Jellyfish Mouth -->
+  <path d="M90,30 Q120,25 150,30 Q180,25 190,30" fill="none" stroke-width="1" stroke="#fff"/>
+
+  <!-- Tentacles -->
+  <!-- Define tentacle paths here using the 'path' element and appropriate 'd' attribute values -->
+
+  <!-- Gradients -->
+  <linearGradient id="pinkGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+    <stop offset="0%"   stop-color="#FFD6E5"/>
+    <stop offset="33%"  stop-color="#C27BA0"/>
+    <stop offset="66%"  stop-color="#8F4DB1"/>
+    <stop offset="100%" stop-color="#673AB7"/>
+  </linearGradient>
+
+  <!-- Fill bodice and sleeves with gradient -->
+  <rect x="90" y="0" width="20" height="30" fill="url(#pinkGradient)"/>
+
+</svg>

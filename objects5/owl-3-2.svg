@@ -1,0 +1,13 @@
+<svg viewBox="-50 -50 400 400" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="200" cy="250" rx="150" ry="80"/>
+  <circle cx="200" cy="175" r="60"/>
+  <circle cx="180" cy="145" r="5"/>
+  <circle cx="220" cy="145" r="5"/>
+  <polyline points="230,160 260,180 220,190"/>
+  <path d="M170,230 Q140,260 110,230"/>
+  <path d="M230,230 Q260,260 290,230"/>
+  <path d="M100,280 A75,75 0 0,0 175,355"/>
+  <path d="M250,280 A75,75 0 0,1 325,355"/>
+  <circle cx="200" cy="190" r="3"/>
+  <polyline points="200,360 180,380 220,380"/>
+</svg>

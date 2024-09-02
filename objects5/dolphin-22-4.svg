@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 600 80">
+  <!-- Dolphin body -->
+  <path id="dolphinBody" d="M-5,-5 Q20,40 70,-5 ..." fill="blue"/>
+
+  <!-- Tail fin -->
+  <use href="#tailFin" xlink:href="#tailFin"/>
+
+  <!-- Key poses for dolphin jumping -->
+
+  <!-- Pose 1 - Dolphin submerged -->
+  <g id="pose1">
+    <animateTransform
+      attributeName="transform"
+      type="scale"
+      from="1 1"
+      to="1.2 1.2"
+      begin="0s"
+      dur="1s"
+      repeatCount="indefinite" />
+  </g>
+
+  <!-- Pose 2 - Dolphin starting to jump -->
+  <g id="pose2">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="-5,-5"
+      to="-5,0"
+      begin="pose1.end"
+      dur="0.5s" />
+  </g>
+
+  <!-- Pose 3 - Dolphin mid-air -->
+  <g id="pose3">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="-5,0"
+      to="-5,20"
+      begin="pose2.end"
+      dur="1s" />
+  </g>
+
+  <!-- Pose 4 - Dolphin landing -->
+  <g id="pose4">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="-5,20"
+      to="-5,10"
+      begin="pose3.end"
+      dur="0.5s" />
+    <animateTransform
+      attributeName="transform"
+      type="scale"
+      from="1 1"
+      to="0.8 0.8"
+      begin="pose3.end"
+      dur="0.5s" />
+  </g>
+
+  <!-- Tail fin -->
+  <path id="tailFin" d="M-2,-2 Q2,4 -2,6 ..." fill="blue"/>
+
+</svg>

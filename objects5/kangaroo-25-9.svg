@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#87CEEB"/>
+
+  <!-- Sun -->
+  <circle id="sun" cx="400" cy="50" r="50" fill="yellow"/>
+  <animateMotion begin="0s" dur="6s" repeatCount="indefinite">
+    <mpath href="#pathSun"/>
+  </animateMotion>
+  <path id="pathSun" d="M350,100 Q450,200 500,100"/>
+
+  <!-- Cloud -->
+  <ellipse cx="600" cy="250" rx="200" ry="80" fill="white"/>
+  <animateTransform begin="0s" dur="8s" repeatCount="indefinite"
+                    type="translate" from="0,0" to="400,0" attributeName="transform"/>
+  <ellipse cx="750" cy="230" rx="150" ry="70" fill="white"/>
+  <animateTransform begin="0s" dur="8s" repeatCount="indefinite"
+                    type="translate" from="0,0" to="400,0" attributeName="transform"/>
+
+  <!-- Kangaroo -->
+  <path id="kangaroo" d="M350,500 Q375,425 400,475 Q425,425 450,500 Z"/>
+  <animate begin="0s" dur="1s" repeatCount="indefinite">
+    <set attributeName="d"
+         to="M350,525 Q375,450 400,400 Q425,450 450,525 Z"/>
+    <set attributeName="d" to="M350,500 Q375,425 400,475 Q425,425 450,500 Z"/>
+  </animate>
+
+</svg>

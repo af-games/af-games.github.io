@@ -1,0 +1,33 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Plate -->
+<circle cx="175" cy="260" r="140" fill="#FFFBDD" stroke="#FFD966" stroke-width="8"/>
+
+<!-- Tableware: Napkin -->
+<rect x="380" y="340" width="40" height="40" fill="#FFFFFF"/>
+<circle cx="395" cy="370" r="15" fill="#FFD966"/>
+
+<!-- Hot Air Balloon (Body) -->
+<ellipse cx="180" cy="80" rx="80" ry="40" fill="#FFA07A"/>
+<circle cx="180" cy="20" r="15" fill="#FFFFFF"/>
+<path d="M165,30 Q130,60 105,30" stroke="#FFD966" stroke-width="4"/>
+
+<!-- Hot Air Balloon (Basket) -->
+<rect x="125" y="75" width="40" height="60" fill="#FFA07A"/>
+<path d="M125,75 Q140,90 135,105" stroke="#FFD966" stroke-width="4"/>
+
+<!-- Fruits (Garnish) -->
+<circle cx="80" cy="160" r="20" fill="#FF5733"/>
+<circle cx="260" cy="160" r="20" fill="#33FF99"/>
+<circle cx="220" cy="240" r="20" fill="#FFC300"/>
+
+<!-- Utensils: Fork -->
+<path d="M350,180 L370,220 L350,260 Z" fill="#A9A9A9"/>
+<path d="M345,210 L375,210" stroke="#A9A9A9"/>
+
+<!-- Colors evoke hunger and appetite: earthy tones with vibrant garnish -->
+<style>
+circle { transition: fill 0.5s ease; }
+</style>
+
+</svg>

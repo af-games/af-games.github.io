@@ -1,0 +1,52 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <polygon points="100,5 200,100 100,195"
+           style="fill: url(#penguinGradient);"/>
+
+  <!-- Head -->
+  <path d="M80,75 Q100,60 120,75" fill="#fff"/>
+  <circle cx="100" cy="60" r="30"
+          style="fill: url(#headGradient)"/>
+  <ellipse cx="95" cy="45" rx="5" ry="15" fill="#fff"/>
+
+  <!-- Legs -->
+  <rect x="85" y="170" width="20" height="30"
+        style="fill: url(#legGradient);"/>
+  <rect x="165" y="170" width="20" height="30"
+        style="fill: url(#legGradient);"/>
+
+  <!-- Wings -->
+  <polygon points="10,40 80,90 10,140"
+           style="fill: url(#wingGradient)"/>
+  <polygon points="170,40 150,90 170,140"
+           style="fill: url(#wingGradient)"/>
+
+  <!-- Belly -->
+  <path d="M85,160 Q90,180 105,160" fill="#fff"/>
+  <path d="M155,160 Q145,180 135,160"
+        style="fill: url(#bellyGradient)"/>
+
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a6ea5"/>
+      <stop offset="100%" style="stop-color:#1d4f7c"/>
+    </linearGradient>
+    <linearGradient id="headGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff"/>
+      <stop offset="100%" style="stop-color:#f8e6a7"/>
+    </linearGradient>
+    <linearGradient id="legGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b572a"/>
+      <stop offset="100%" style="stop-color:#4f3116"/>
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff"/>
+      <stop offset="100%" style="stop-color:#d3b78c"/>
+    </linearGradient>
+    <linearGradient id="bellyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fff"/>
+      <stop offset="100%" style="stop-color:#f3a68c"/>
+    </linearGradient>
+  </defs>
+</svg>

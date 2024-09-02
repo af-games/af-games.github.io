@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Plate -->
+  <circle cx="250" cy="250" r="200" fill="#fff"/>
+  <rect x="125" y="375" width="250" height="60" fill="#ddd"/>
+
+  <!-- Igloo -->
+  <polygon points="250,100 350,170 150,170" fill="#FFF" stroke="#CCC"/>
+  <path d="M350,170 Q340,90 250,60 Q160,90 150,170 Z" fill="#EEE"/>
+
+  <!-- Snow-covered trees -->
+  <g stroke="#FFF" stroke-width="5">
+    <path d="M100,250 V300 L140,350 H160 L200,350 H240 L280,350 H320 L360,350 H380 Z"/>
+    <path d="M400,270 V320 L440,370 H460 L500,370"/>
+  </g>
+
+  <!-- Aurora swirls -->
+  <path d="M100,150 Q150,80 200,90 Q250,120 300,150" stroke="#6DD5ED" fill="transparent"/>
+  <path d="M400,150 Q350,80 300,90 Q250,120 200,150" stroke="#6DD5ED" fill="transparent"/>
+
+  <!-- Text -->
+  <text x="50%" y="470" text-anchor="middle" font-family="Verdana" font-size="36">Arctic Igloo Feast</text>
+
+  <!-- Utensils and garnishes (simple fork, knife, and parsley sprig) -->
+  <path d="M280,410 V370 H295 Z" fill="#000"/>
+  <path d="M260,405 L280,415 L300,405" fill="#000"/>
+  <polygon points="320,400 335,390 345,400 355,390 370,400" fill="#008000"/>
+</svg>

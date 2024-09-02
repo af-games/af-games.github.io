@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mixing the colors: Chocolate brown and vanilla cream -->
+  <defs>
+    <linearGradient id="cakeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(64,32,20);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(248,247,241);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Baking the cake at precise coordinates -->
+  <rect x="10" y="10" width="180" height="160" fill="url(#cakeGradient)" rx="20" />
+
+  <!-- Decorating with simple elements: Frosting and a cherry on top -->
+  <circle cx="90" cy="75" r="40" stroke="black" stroke-width="2" fill="white" />
+  <circle cx="160" cy="30" r="10" fill="red" />
+
+</svg>

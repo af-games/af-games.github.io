@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Kangaroo Body -->
+  <circle cx="100" cy="400" r="50" fill="brown" />
+
+  <!-- Kangaroo Head -->
+  <ellipse cx="120" cy="380" rx="30" ry="40" fill="grey" />
+
+  <!-- Kangaroo Ear (Hexagon) -->
+  <polygon points="95,370,105,360,115,370,125,380,135,370" fill="lightgrey" />
+
+  <!-- Kangaroo Tail (Octagon) -->
+  <polygon points="140,390,150,400,160,410,170,400,180,390,190,400" fill="brown" />
+
+  <!-- Kangaroo Paw (Hexagon) -->
+  <polygon points="90,420,100,430,110,420,120,410,130,420,140,430" fill="brown" />
+
+</svg>

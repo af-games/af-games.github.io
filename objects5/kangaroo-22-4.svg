@@ -1,0 +1,9 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="0" cy="0" r="50" fill="tan" />
+  <ellipse cx="-10" cy="-60" rx="30" ry="40" fill="brown" />
+  <ellipse cx="10" cy="-60" rx="30" ry="40" transform="rotate(5,-10,-60)" fill="brown" />
+  <rect x="-20" y="80" width="40" height="20" fill="grey" />
+  <rect x="20" y="80" width="40" height="20" fill="grey" />
+  <polygon points="-50,10 -30,60 30,60 50,10" fill="tan" />
+  <polygon points="50,10 30,60 -30,60 -50,10" transform="rotate(180,50,10)" fill="tan" />
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Scene 1: The Lonesome Depths -->
+  <circle id="jello-normal" cx="400" cy="300" r="50" fill="blue"/>
+  <text x="20" y="50">Scene 1: Jello swims alone in the deep ocean.</text>
+
+  <!-- Scene 2: The Discovery -->
+  <rect id="chest" x="600" y="450" width="50" height="30" fill="gold"/>
+  <circle cx="700" cy="500" r="10" fill="black"/>
+  <text x="20" y="100">Scene 2: Jello finds a golden treasure chest.</text>
+
+  <!-- Scene 3: The Curse -->
+  <use href="#jello-normal" xlink:href="#jello-golden" cx="400" cy="300"/>
+  <text x="20" y="150">Scene 3: Upon touching the chest, Jello turns golden.</text>
+
+  <!-- Scene 4: The Struggle -->
+  <rect id="creature1" x="200" y="250" width="30" height="50" fill="red"/>
+  <use href="#jello-golden" cx="300" cy="300"/>
+  <text x="20" y="200">Scene 4: Other creatures chase Jello.</text>
+
+  <!-- Scene 5: The Hero's Sacrifice -->
+  <path id="whirlpool" d="M650,350 A100,100 0 0 1 700,250 A100,100 0 0 1 650,150 Z" fill="darkblue"/>
+  <use href="#jello-golden" cx="600" cy="300"/>
+  <text x="20" y="250">Scene 5: Jello leads the creatures into a whirlpool.</text>
+
+  <!-- Scene 6: The Transformation -->
+  <circle id="jello-normal-transformed" cx="400" cy="300" r="50" fill="blue"/>
+  <use href="#chest-golden-tentacles" cx="450" cy="275"/>
+  <text x="20" y="300">Scene 6: Jello emerges from the whirlpool, normal but with golden tentacles.</text>
+
+  <!-- Scene 7: The Celebration -->
+  <use href="#jello-normal-transformed" cx="400" cy="300"/>
+  <rect id="creature2" x="150" y="250" width="30" height="50" fill="green"/>
+  <rect id="creature3" x="550" y="250" width="30" height="50" fill="purple"/>
+  <text x="20" y="350">Scene 7: Other creatures celebrate Jello's return.</text>
+
+</svg>

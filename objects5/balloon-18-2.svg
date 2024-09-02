@@ -1,0 +1,24 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="250" fill="#FFF4E6"/>
+
+  <!-- Balloon Body (Main ellipse) -->
+  <ellipse cx="100" cy="175" rx="80" ry="100"
+           style="fill:#FFD93D; stroke: #FFA500; stroke-width:2"/>
+  <linearGradient id="balloonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FFF4E6"/>
+    <stop offset="100%" stop-color="#FFD93D"/>
+  </linearGradient>
+
+  <!-- Balloon Shadow (Darkened bottom of main ellipse) -->
+  <ellipse cx="100" cy="205" rx="80" ry="105"
+           style="fill:url(#balloonGradient); opacity:0.7"/>
+
+  <!-- Balloon String -->
+  <path d="M60,30 Q40,50 60,70" stroke="#9D8B71" stroke-width="5"
+        fill="transparent"/>
+  <circle cx="60" cy="70" r="5" stroke="#9D8B71" fill="#9D8B71"/>
+
+  <!-- Balloon Tie -->
+  <rect x="80" y="30" width="40" height="5" fill="#9D8B71"/>
+</svg>

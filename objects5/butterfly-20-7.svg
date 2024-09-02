@@ -1,0 +1,20 @@
+<svg>` tag. I've created some uncharted territories as unexplored lands (squares), a path for our butterfly to follow (line), and some landmarks (circles of different colors).
+
+```xml
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Uncharted territories -->
+  <rect x="10" y="10" width="80" height="80" fill="#FFF" stroke="black"/>
+  <rect x="100" y="50" width="60" height="60" fill="#FFF" stroke="black"/>
+  <rect x="20" y="150" width="70" height="70" fill="#FFF" stroke="black"/>
+
+  <!-- Butterfly path -->
+  <path d="M30,20 Q60,40 90,20 T150,40 H200 V280 H250 Q220,250 190,280 T140,220 Q110,200 70,230 Z"
+        fill="none" stroke="purple"/>
+
+  <!-- Landmarks -->
+  <circle cx="60" cy="60" r="20" fill="#FFC107"/>
+  <circle cx="140" cy="80" r="15" fill="#DC3545"/>
+  <circle cx="95" cy="210" r="10" fill="#198754"/>
+
+</svg>

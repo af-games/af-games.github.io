@@ -1,0 +1,25 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="150" cy="200" rx="120" ry="90" fill="#6D6875"/>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="140" rx="80" ry="70" fill="#6D6875"/>
+
+  <!-- Neck -->
+  <path d="M150,200 Q150,140 150,120" stroke="black" fill="transparent"/>
+
+  <!-- Wings -->
+  <path d="M150,130 C90,80 170,80 160,140 S240,190 150,160 S90,200 150,160" stroke="black" fill="transparent"/>
+
+  <!-- Tail -->
+  <path d="M150,270 Q130,280 140,290" stroke="black" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="135" cy="135" r="10" fill="#F3DCD1"/>
+  <circle cx="165" cy="135" r="10" fill="#F3DCD1"/>
+
+  <!-- Beak -->
+  <polygon points="145,125 155,125 155,90" fill="#FDD7AA" stroke="black"/>
+
+</svg>

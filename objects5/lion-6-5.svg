@@ -1,0 +1,24 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion's Body -->
+  <circle cx="150" cy="250" r="100" fill="orange"/>
+
+  <!-- Lion's Head -->
+  <circle cx="150" cy="175" r="50" fill="gold"/>
+  <path d="M140,160 Q120,180 130,200" stroke="black" fill="transparent"/>
+
+  <!-- Lion's Eye -->
+  <circle cx="160" cy="170" r="5" fill="white"/>
+  <circle cx="140" cy="170" r="5" fill="white"/>
+
+  <!-- Lion's Mouth -->
+  <path d="M130,220 Q150,260 170,220" stroke="black" fill="transparent"/>
+
+  <!-- Lion's Tail -->
+  <path d="M140,280 C150,290 160,300 170,290" stroke="black" fill="transparent"/>
+
+  <!-- Moon Prop -->
+  <circle cx="350" cy="300" r="50" fill="lightblue"/>
+  <path d="M340,280 Q360,310 380,280" stroke="black" fill="transparent"/>
+
+</svg>

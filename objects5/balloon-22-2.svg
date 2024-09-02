@@ -1,0 +1,17 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon base -->
+  <circle cx="100" cy="200" r="60" fill="#ffa500"/>
+  <path d="M94,200 Q78,220 60,230" stroke="#ffa500" fill="transparent"/>
+
+  <!-- Balloon main body -->
+  <ellipse cx="100" cy="100" rx="80" ry="120" fill="#ffa500"/>
+  <path d="M94,100 Q78,70 60,100" stroke="#ffa500" fill="transparent"/>
+
+  <!-- Balloon string -->
+  <rect x="50" y="5" width="2" height="70" fill="#3d3d3d"/>
+  <circle cx="50" cy="5" r="5" fill="#3d3d3d"/>
+
+  <!-- Shadows (light interaction) -->
+  <path d="M60,230 Q80,240 100,230" stroke="#9a7b5e" fill="transparent"/>
+  <path d="M60,100 Q80,80 100,100" stroke="#9a7b5e" fill="transparent"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="175" cy="450" r="150" fill="#8B7D6B"/>
+  <circle cx="175" cy="350" r="100" fill="#C0B2AC"/>
+
+  <!-- Head -->
+  <rect x="120" y="250" width="260" height="150" rx="80" ry="80" fill="#C9A0DC"/>
+  <path d="M370 300 Q400 250 370 200 L230 200 Z" fill="#C9A0DC"/>
+
+  <!-- Limbs -->
+  <rect x="120" y="500" width="80" height="150" rx="40" ry="40" fill="#6D6D6D"/>
+  <rect x="320" y="500" width="80" height="150" rx="40" ry="40" fill="#6D6D6D"/>
+
+  <!-- Tail -->
+  <path d="M175 550 Q225 600 325 550 Z" stroke="#6D6D6D" fill="transparent"/>
+
+</svg>

@@ -1,0 +1,24 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<path d="M100,400 Q150,350 200,375 Q250,350 300,375 Q350,350 400,375 Q450,350 500,375" fill="lightblue"/>
+
+<!-- Tail -->
+<path d="M400,375 Q450,250 450,175" stroke-width="2" fill="transparent"/>
+
+<!-- Head -->
+<circle cx="200" cy="325" r="50" fill="lightblue"/>
+
+<!-- Fin (left) -->
+<path d="M160,350 Q180,300 200,350" stroke-width="2" fill="transparent"/>
+
+<!-- Fin (right) -->
+<path d="M240,350 Q260,300 290,350" stroke-width="2" fill="transparent"/>
+
+<!-- Eye (left) -->
+<circle cx="185" cy="305" r="5" fill="black"/>
+
+<!-- Eye (right) -->
+<circle cx="215" cy="305" r="5" fill="black"/>
+
+</svg>

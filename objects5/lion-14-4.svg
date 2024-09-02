@@ -1,0 +1,27 @@
+<svg width="500" height="400" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Body -->
+    <rect x="100" y="80" width="300" height="320" fill="#F9A796" stroke="#9D5C3E" stroke-width="5"/>
+
+    <!-- Head -->
+    <ellipse cx="200" cy="150" rx="120" ry="140" fill="#FFDBB1" stroke="#9D5C3E" stroke-width="5"/>
+    <circle cx="200" cy="70" r="60" fill="#FFDBB1"/>
+
+    <!-- Eyes -->
+    <circle cx="130" cy="90" r="20" fill="#FFFFFF"/>
+    <circle cx="270" cy="90" r="20" fill="#FFFFFF"/>
+    <circle cx="135" cy="85" r="10" fill="#000000"/>
+    <circle cx="265" cy="85" r="10" fill="#000000"/>
+
+    <!-- Mane -->
+    <rect x="90" y="30" width="320" height="140" fill="none">
+        <animate attributeName="height" values="140;80;140" dur="2s" repeatCount="indefinite"/>
+        <animateTransform attributeType="xml"
+                         type="skewX" from="0" to="5" dur="2s"
+                         repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Legs -->
+    <rect x="130" y="280" width="40" height="160" fill="#F9A796" stroke="#9D5C3E" stroke-width="5"/>
+    <rect x="240" y="280" width="40" height="160" fill="#F9A796" stroke="#9D5C3E" stroke-width="5"/>
+
+</svg>

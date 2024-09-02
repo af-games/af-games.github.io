@@ -1,0 +1,25 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define gradients -->
+  <defs>
+    <linearGradient id="mermaidGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:pink;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:purple;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Draw the mermaid outline -->
+  <path d="M40,60 Q90,20 150,60 Q210,100 300,80 Q370,100 450,60 Q500,20 570,60 Q620,100 700,80 Q770,100 830,60 Z" fill="url(#mermaidGradient)" stroke="black"/>
+
+  <!-- Create patterns -->
+  <polygon points="40,60 90,20 150,60" fill="#ffcc00"/>
+  <circle cx="75" cy="35" r="25" fill="#ffa500"/>
+  <rect x="180" y="100" width="50" height="50" fill="#ffff00"/>
+
+  <!-- Build up details -->
+  <path d="M150,60 Q190,70 230,60 Q270,70 310,60" stroke-width="5" stroke="black"/>
+  <circle cx="375" cy="85" r="45" fill="#00ffcc"/>
+  <ellipse cx="690" cy="80" rx="20" ry="40" fill="#cc00ff"/>
+
+</svg>

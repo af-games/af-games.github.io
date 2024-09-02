@@ -1,0 +1,37 @@
+<svg width="200" height="200" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<path d="M50,0 L95,60 A70,70 0 0 1 5,60 L50,0 Z"
+      fill="url(#bodyGradient)"/>
+<linearGradient id="bodyGradient" gradientTransform="rotate(45)">
+    <stop offset="0%"   stop-color="#326D78"/>
+    <stop offset="100%" stop-color="#E5F5EF"/>
+</linearGradient>
+
+<!-- Head -->
+<path d="M50,0 A50,50 0 0 1 95,50"
+      fill="url(#headGradient)"/>
+<linearGradient id="headGradient" gradientTransform="rotate(45)">
+    <stop offset="0%"   stop-color="#FFFFFF"/>
+    <stop offset="100%" stop-color="#CBCBCB"/>
+</linearGradient>
+
+<!-- Eyes -->
+<circle cx="60" cy="30" r="2.5" fill="#000"/>
+<circle cx="80" cy="30" r="2.5" fill="#000"/>
+
+<!-- Beak -->
+<path d="M70,15 Q75,5 80,15 L90,15"
+      fill="#FF6F00"/>
+
+<!-- Wings -->
+<path d="M25,30 Q40,5 55,30 L25,30 Z"
+      fill="#E5F5EF"/>
+<path d="M75,30 Q90,5 105,30 L75,30 Z"
+      fill="#E5F5EF"/>
+
+<!-- Legs -->
+<path d="M40,60 H60 V80 H40 Z"/>
+<path d="M60,60 H80 V80 H60 Z"/>
+
+</svg>

@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Define a repeating dolphin pattern -->
+    <pattern id="dolphinsPattern" patternUnits="userSpaceOnUse" width="180" height="160">
+      <image href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwAD//8GIjHMAAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+
+  <!-- Draw waves -->
+  <path id="wave" d="M0,160 Q300,240 600,160 T1200,160" fill="none" stroke="blue"/>
+  <use xlink:href="#wave" y="320"/>
+
+  <!-- Draw dolphins using the pattern -->
+  <g id="dolphins">
+    <circle cx="90" cy="80" r="70" fill="url(#dolphinsPattern)"/>
+    <circle cx="450" cy="160" r="70" fill="url(#dolphinsPattern)"/>
+    <circle cx="810" cy="80" r="70" fill="url(#dolphinsPattern)"/>
+  </g>
+
+  <!-- Repeat dolphins in a hexagonal pattern -->
+  <use xlink:href="#dolphins" x="90" y="240"/>
+  <use xlink:href="#dolphins" x="450" y="320"/>
+  <use xlink:href="#dolphins" x="810" y="240"/>
+
+</svg>

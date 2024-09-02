@@ -1,0 +1,22 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="200" cy="450" rx="100" ry="175" stroke="black" fill="transparent"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="300" rx="80" ry="150" stroke="black" fill="transparent"/>
+
+  <!-- Eyes -->
+  <path d="M160 270 Q180 250 200 250 Q220 250 160 270" stroke="black" fill="yellow"/>
+  <path d="M230 270 Q240 290 250 280 Q260 290 270 270" stroke="black" fill="orange"/>
+
+  <!-- Feathers around the face -->
+  <path d="M140 300 Q160 320 180 300 Q200 320 220 300" stroke="black" fill="transparent"/>
+
+  <!-- Left wing -->
+  <path d="M140 370 Q160 390 180 420 Q200 450 220 420 Q240 390 260 370" stroke="black" fill="transparent"/>
+
+  <!-- Right wing -->
+  <path d="M260 370 Q240 390 220 420 Q200 450 180 420 Q160 390 140 370" stroke="black" fill="transparent"/>
+
+</svg>

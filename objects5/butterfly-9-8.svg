@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+    <style>
+        @keyframes butterfly {
+            0% { transform: translate(0, 0) rotate(45deg); }
+            50% { transform: translate(100px, 20px) rotate(-45deg); }
+            100% { transform: translate(0, 0) rotate(45deg); }
+        }
+
+        .butterfly {
+            animation: butterfly 2s infinite;
+        }
+    </style>
+
+    <g class="butterfly">
+        <!-- Body -->
+        <path d="M25,10 A8,8 0 1,0 37.5,16.5 A8,8 0 1,0 25,9 z" fill="#FFCC66" />
+
+        <!-- Wing Left -->
+        <path d="M14,5 Q5,15 25,25 L15,35 Z" fill="#FF9933" stroke="#FF6600" stroke-width="1"/>
+
+        <!-- Wing Right -->
+        <path d="M36,5 Q45,15 25,25 L35,35 Z" fill="#FF9933" stroke="#FF6600" stroke-width="1"/>
+    </g>
+</svg>

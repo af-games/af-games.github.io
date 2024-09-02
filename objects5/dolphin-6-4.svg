@@ -1,0 +1,18 @@
+<svg width="100%" height="200">
+  <g id="dolphin" transform="translate(50,200)">
+    <!-- Dolphin path goes here -->
+  </g>
+
+  <set begin="dolphin.begin" attributeName="transform" to="translate(50,190) rotate(-10)" />
+  <animateTransform attributeType="xml"
+                    attributeName="transform"
+                    type="rotate"
+                    from="0"
+                    to="-20"
+                    dur="0.5s"
+                    begin="dolphin.begin; +0.25s" />
+
+  <!-- Repeat similar structure for keyframes 50%, 75% and 100% -->
+
+  <animateTransform ... begin="dolphin.begin; last" />
+</svg>

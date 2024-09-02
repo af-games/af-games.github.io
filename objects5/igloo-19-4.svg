@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Igloo -->
+  <ellipse cx="400" cy="500" rx="150" ry="170"
+    fill="url(#iglooGradient)" />
+
+  <defs>
+    <linearGradient id="iglooGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(192,192,192);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Hills -->
+  <path d="M0,580 Q200,630 400,580 Q600,530 800,580 V600 H0 Z"
+    fill="url(#hillGradient)" />
+
+  <defs>
+    <linearGradient id="hillGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(139,69,19);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(184,115,56);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(210,147,97);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Trees -->
+  <circle cx="300" cy="530" r="20" fill="green" />
+  <circle cx="500" cy="550" r="25" fill="green" />
+  <circle cx="700" cy="510" r="20" fill="green" />
+
+  <!-- River -->
+  <path d="M30,580 Q150,600 300,580 Q450,620 600,580 Q750,600 900,580 V600 H0 Z"
+    fill="lightblue" stroke="none" />
+
+</svg>

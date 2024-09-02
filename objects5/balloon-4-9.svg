@@ -1,0 +1,36 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Introduction: Balloons inflating -->
+  <circle cx="100" cy="200" r="50" fill="#FF6F61">
+    <animate attributeName="r" from="50" to="80" dur="3s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle cx="200" cy="150" r="40" fill="#FFD76B">
+    <animate attributeName="r" from="40" to="70" dur="3.5s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle cx="300" cy="250" r="30" fill="#61FFC8">
+    <animate attributeName="r" from="30" to="60" dur="4s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+
+  <!-- Crescendo: Balloons growing faster -->
+  <circle cx="150" cy="320" r="45" fill="#FF7B9C">
+    <animate attributeName="r" from="45" to="90" dur="2.5s" repeatCount="indefinite" begin="6s"/>
+  </circle>
+  <circle cx="250" cy="280" r="35" fill="#FFD76B">
+    <animate attributeName="r" from="35" to="80" dur="2.8s" repeatCount="indefinite" begin="6s"/>
+  </circle>
+  <circle cx="350" cy="190" r="25" fill="#61FFC8">
+    <animate attributeName="r" from="25" to="70" dur="3.1s" repeatCount="indefinite" begin="6s"/>
+  </circle>
+
+  <!-- Climax: Balloons popping -->
+  <circle cx="200" cy="400" r="85" fill="#FF6F61">
+    <animate attributeName="r" from="85" to="0" dur="1s" repeatCount="1" begin="9s"/>
+  </circle>
+
+  <!-- Resolution: Remaining balloons deflating -->
+  <circle cx="100" cy="200" r="70" fill="#FFD76B">
+    <animate attributeName="r" from="70" to="50" dur="2s" repeatCount="indefinite" begin="9.5s"/>
+  </circle>
+  <circle cx="300" cy="250" r="60" fill="#61FFC8">
+    <animate attributeName="r" from="60" to="30" dur="2.2s" repeatCount="indefinite" begin="9.5s"/>
+  </circle>
+</svg>

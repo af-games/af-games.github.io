@@ -1,0 +1,26 @@
+<svg width="800" height="600" viewBox="-400 -300 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.75; }
+      }
+
+      .beat {
+        animation: pulse 2s infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Bar 1-4 -->
+  <circle cx="-300" cy="0" r="80" fill="#FFC9A2" class="beat"/>
+  <ellipse cx="-250" cy="70" rx="60" ry="10" fill="#FFA6A7" class="beat"/>
+  <ellipse cx="-200" cy="70" rx="40" ry="80" fill="#FF8180" class="beat"/>
+  <circle cx="-150" cy="35" r="15" fill="#FF5DA3" class="beat"/>
+
+  <!-- Bar 5-8 -->
+  <ellipse cx="-250" cy="-70" rx="60" ry="10" fill="#FF2EBC" class="beat"/>
+  <ellipse cx="-200" cy="-70" rx="40" ry="80" fill="#C494D1" class="beat"/>
+  <path d="M-300 -100 Q-250,-50 -200,-100 Q-150,-50 -100,-100 Z" fill="#A67CBF" class="beat"/>
+
+</svg>

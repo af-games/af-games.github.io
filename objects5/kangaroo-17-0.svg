@@ -1,0 +1,22 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="200" cy="350" rx="200" ry="200" fill="#8B4513"/>
+
+  <!-- Head -->
+  <ellipse cx="190" cy="250" rx="70" ry="60" fill="#C17D11"/>
+
+  <!-- Ears -->
+  <circle cx="140" cy="200" r="30" fill="#C17D11"/>
+  <circle cx="260" cy="200" r="30" fill="#C17D11"/>
+
+  <!-- Pouch -->
+  <polygon points="210,450 290,450 250,480" fill="#C17D11"/>
+
+  <!-- Legs and Tail -->
+  <rect x="160" y="430" width="30" height="120" fill="#8B4513"/>
+  <rect x="220" y="430" width="30" height="120" fill="#8B4513"/>
+  <rect x="260" y="370" width="30" height="120" fill="#8B4513"/>
+  <ellipse cx="220" cy="520" rx="30" ry="60" fill="#8B4513"/>
+
+</svg>

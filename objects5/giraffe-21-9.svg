@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="400" width="800" height="200" fill="#FFBF00" /> <!-- Grasslands (Sunrise) -->
+<circle cx="50" cy="150" r="30" fill="#66BB6A" /> <!-- Tree -->
+
+<!-- Scene 1: Introduction -->
+<circle id="giraffe1" cx="200" cy="400" r="80" fill="#FFFF99" stroke="black"> <!-- Giraffe -->
+  <path d="M200,350 Q250,300 200,250" fill="transparent" stroke="black" />
+</circle>
+<text x="100" y="470" font-size="20">As the sun rises...</text>
+
+<!-- Scene 2: The Lost Calf -->
+<circle id="giraffe2" cx="300" cy="500" r="80" fill="#FFFF99" stroke="black">
+  <path d="M300,450 Q350,400 300,350" fill="transparent" stroke="black" />
+</circle>
+<circle id="calf" cx="120" cy="580" r="30" fill="#FFFF99">
+  <text x="60" y="600">Where are you?</text>
+</circle>
+
+<!-- More scenes follow the same pattern -->
+
+</svg>

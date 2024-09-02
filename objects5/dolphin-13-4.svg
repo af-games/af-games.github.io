@@ -1,0 +1,8 @@
+<svg width="500" height="300" viewBox="0 0 500 300">
+  <g id="dolphin">
+    <!-- Draw dolphin shape using SVG path -->
+    <path id="body" d="..." fill="blue"/>
+    <!-- Add fin shapes, eye, etc. -->
+    ...
+  </g>
+</svg>

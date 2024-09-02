@@ -1,0 +1,23 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M170,40 Q190,60 230,60 Q280,40 330,40 Q370,80 400,60 Q450,40 490,60 Q430,100 370,120 Q300,100 240,120 Z" fill="brown"/>
+
+  <!-- Left Wing -->
+  <path d="M80,250 Q140,290 200,260 Q260,220 320,250" fill="brown"/>
+  <!-- Right Wing -->
+  <path d="M400,250 Q360,290 460,260 Q520,220 580,250" fill="brown"/>
+
+  <!-- Left Eye -->
+  <circle cx="120" cy="70" r="30" fill="white"/>
+  <!-- Right Eye -->
+  <circle cx="400" cy="70" r="30" fill="white"/>
+
+  <!-- Gold accents (beak, claws, wing accents) -->
+  <path d="M150,90 L180,60 L210,90 Z" fill="gold"/>
+  <path d="M470,90 L500,60 L530,90 Z" fill="gold"/>
+  <!-- Wing accents -->
+  <rect x="210" y="270" width="10" height="40" fill="gold"/>
+  <rect x="480" y="270" width="10" height="40" fill="gold"/>
+
+</svg>

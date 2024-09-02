@@ -1,0 +1,28 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Plate -->
+<circle cx="175" cy="200" r="90" fill="#FFD966"/>
+
+<!-- Jellyfish (star ingredient) -->
+<g id="jellyfish">
+  <path d="M140,130 Q175,80 210,130" stroke="#FFF" fill="#8ECFEA"/>
+  <circle cx="175" cy="90" r="65" fill="#FFF"/>
+</g>
+<use xlink:href="#jellyfish" y="150"/>
+
+<!-- Tentacle-like pasta -->
+<path d="M130,240 Q175,280 220,240" stroke="#FDB927" fill="transparent"/>
+<path d="M165,240 Q200,270 235,240" stroke="#FDB927" fill="transparent"/>
+
+<!-- Lemon wedge garnish -->
+<path d="M380,100 Q390,80 400,100" stroke="#FFF" fill="#FFD65B"/>
+<path d="M380,100 Q370,80 360,100" stroke="#FFF" fill="#FFD65B"/>
+
+<!-- Fork and knife -->
+<path d="M420,220 Q430,240 440,220" stroke="#CCA" fill="transparent"/>
+<path d="M410,270 Q430,290 450,270" stroke="#CCA" fill="transparent"/>
+
+<!-- Background rectangle -->
+<rect x="0" y="0" width="500" height="80" fill="#FFF"/>
+
+</svg>

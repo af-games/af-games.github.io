@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Body -->
+  <path d="M175,400 Q200,350 250,350 Q300,300 325,350 Q350,400 400,375" fill="brown"/>
+
+  <!-- Head -->
+  <circle cx="250" cy="300" r="80" fill="lightgray"/>
+
+  <!-- Ears -->
+  <polygon points="180,220 220,220 200,250" fill="brown"/>
+  <polygon points="290,220 330,220 310,250" fill="brown"/>
+
+  <!-- Arms -->
+  <rect x="150" y="340" width="80" height="60" fill="brown"/>
+  <rect x="370" y="340" width="80" height="60" fill="brown"/>
+
+  <!-- Legs -->
+  <path d="M215,400 Q230,450 290,450 Q305,400 330,400" stroke="black" fill="transparent"/>
+</svg>

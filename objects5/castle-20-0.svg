@@ -1,0 +1,17 @@
+<svg width="600" height="350" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Moat -->
+<rect x="0" y="50" width="600" height="20" fill="#8B7D6B"/>
+
+<!-- Walls -->
+<rect x="0" y="70" width="40" height="180" fill="#8B7D6B"/>
+<rect x="560" y="70" width="40" height="180" fill="#8B7D6B"/>
+
+<!-- Gatehouse -->
+<polygon points="20,90 580,90 600,310 20,310" fill="#C09F8C"/>
+
+<!-- Towers -->
+<circle cx="50" cy="70" r="40" fill="#C09F8C"/>
+<circle cx="550" cy="70" r="40" fill="#C09F8C"/>
+
+</svg>

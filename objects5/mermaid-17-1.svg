@@ -1,0 +1,17 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M50,150 Q75,100 150,150" stroke="black" fill="lightblue"/>
+
+  <!-- Tail -->
+  <polygon points="150,150 180,200 120,200" stroke="black" fill="lightblue"/>
+
+  <!-- Hair -->
+  <path d="M75,100 Q30,50 150,50" stroke="black" fill="transparent"/>
+
+  <!-- Face -->
+  <circle cx="100" cy="80" r="40" stroke="black" fill="white"/>
+  <circle cx="90" cy="70" r="5" stroke="black" fill="black"/> <!-- Left eye -->
+  <circle cx="110" cy="70" r="5" stroke="black" fill="black"/> <!-- Right eye -->
+
+</svg>

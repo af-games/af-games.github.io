@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 60">
+  <!-- Body -->
+  <path d="M25,10 C27,20 28,40 25,50 H17 A10,10 0 0 1 7,50 L3,35 A5,5 0 0 0 5,30 Z" fill="brown"/>
+
+  <!-- Head -->
+  <circle cx="25" cy="15" r="10" fill="tan"/>
+
+  <!-- Ears -->
+  <polygon points="18,5 27,5 25,15" fill="tan"/>
+
+  <!-- Pouch -->
+  <path d="M16,40 Q23,35 25,40 T28,35 Q35,40 39,40 Z" fill="brown"/>
+
+  <!-- Legs -->
+  <rect x="7" y="50" width="10" height="10" fill="tan"/>
+  <rect x="33" y="50" width="10" height="10" fill="tan"/>
+
+  <!-- Tail -->
+  <path d="M25,55 Q28,60 33,55 Z" stroke="black" fill="transparent"/>
+</svg>

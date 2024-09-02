@@ -1,0 +1,16 @@
+<svg width="400px" height="500px" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="500" style="fill:brown;" />
+
+  <!-- Feathers -->
+  <polygon points="10,480 60,490 30,520" style="fill:white;"/>
+  <circle cx="350" cy="475" r="15" style="fill:white;" />
+  <!-- Add more feather shapes as needed -->
+
+  <!-- Eyes -->
+  <circle cx="150" cy="150" r="75" style="fill:black;"/>
+  <circle cx="250" cy="150" r="75" style="fill:black;" />
+
+  <!-- Beak -->
+  <path d="M160,30 Q200,80 240,30 Q280,80 320,30" stroke="none" fill="black"/>
+</svg>

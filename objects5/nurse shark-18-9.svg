@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 80 60">
+
+  <!-- Grid -->
+  <rect x="-5" y="-5" width="75" height="55" fill="none" stroke="#ddd"/>
+
+  <!-- Clues (small circles) -->
+  <circle cx="10" cy="30" r="2" fill="#f00" />
+  <circle cx="40" cy="10" r="2" fill="#0f0"/>
+  <circle cx="65" cy="45" r="2" fill="#00f"/>
+
+  <!-- Suspects (medium rectangles) -->
+  <rect x="15" y="20" width="10" height="15" fill="#ffa500" />
+  <rect x="30" y="5" width="15" height="10" fill="#add8e6"/>
+  <rect x="48" y="27" width="10" height="15" fill="#ffd700"/>
+
+  <!-- Culprits (large triangles) -->
+  <polygon points="55,5 70,20 65,35" fill="#f70"/>
+  <polygon points="20,40 10,55 30,50" fill="#0080ff"/>
+
+  <!-- Labels -->
+  <text x="12" y="35" text-anchor="middle" font-size="8">Clue 1</text>
+  <text x="42" y="15" text-anchor="middle" font-size="8">Clue 2</text>
+  <text x="67" y="49" text-anchor="middle" font-size="8">Clue 3</text>
+
+  <text x="22.5" y="30" text-anchor="middle" font-size="10">Suspect A</text>
+  <text x="40" y="17.5" text-anchor="middle" font-size="10">Suspect B</text>
+  <text x="52" y="40" text-anchor="middle" font-size="10">Suspect C</text>
+
+  <text x="62.5" y="37.5" text-anchor="middle" font-size="12">Culprit A</text>
+  <text x="30" y="55" text-anchor="middle" font-size="12">Culprit B</text>
+
+</svg>

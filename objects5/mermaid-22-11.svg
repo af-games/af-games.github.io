@@ -1,0 +1,26 @@
+<svg viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Centering circle -->
+  <circle cx="50" cy="50" r="40" fill="none" stroke="black"/>
+
+  <!-- Mermaid's body -->
+  <ellipse cx="50" cy="30" rx="40" ry="60" fill="lightblue"/>
+  <ellipse cx="50" cy="70" rx="40" ry="50" fill="lightblue"/>
+
+  <!-- Mermaid's tail -->
+  <path d="M 50 120 Q 60 140 70 130 T 80 120 Z" fill="lightblue"/>
+  <path d="M 50 120 Q 40 140 30 130 T 20 120 Z" fill="lightblue"/>
+
+  <!-- Mermaid's head and hair -->
+  <circle cx="50" cy="40" r="20" fill="lightblue"/>
+  <path d="M 30 20 Q 60 10 90 20 T 70 30 Z" stroke="black" fill="transparent"/>
+  <path d="M 70 20 Q 60 10 80 20 T 90 30 Z" stroke="black" fill="transparent"/>
+
+  <!-- Mermaid's arms -->
+  <ellipse cx="40" cy="50" rx="10" ry="20" fill="lightblue"/>
+  <ellipse cx="60" cy="50" rx="10" ry="20" fill="lightblue"/>
+
+  <!-- Mermaid's face and details -->
+  <circle cx="45" cy="35" r="2" fill="black"/>
+  <circle cx="55" cy="35" r="2" fill="black"/>
+  <path d="M 40 40 Q 60 50 80 40 Z" stroke="black" fill="transparent"/>
+</svg>

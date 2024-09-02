@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 0 160 300">
+
+<!-- Head -->
+<circle cx="80" cy="50" r="40" fill="#FDD7AA"/>
+<path d="M75,45 Q80,50 85,45" stroke="#9C7A51" fill="transparent"/>
+<circle cx="65" cy="35" r="5" fill="black"/>
+<circle cx="95" cy="35" r="5" fill="black"/>
+<circle cx="80" cy="20" r="3" stroke="#9C7A51" fill="transparent"/>
+
+<!-- Neck -->
+<ellipse cx="80" cy="90" rx="40" ry="60" fill="none" stroke="#D2B48C"/>
+<path d="M80,90 Q70,100 80,110" stroke="#D2B48C"/>
+
+<!-- Body -->
+<rect x="50" y="90" width="60" height="180" fill="#FFEFD5"/>
+<rect x="55" y="95" width="50" height="170" fill="#FFF3E0"/>
+
+<!-- Legs -->
+<g transform="translate(20, 180)">
+  <leg x="0" y="0"/>
+  <leg x="40" y="0"/>
+</g>
+<g transform="translate(90, 180)">
+  <leg x="0" y="0"/>
+  <leg x="40" y="0"/>
+</g>
+
+<!-- Pattern -->
+<defs>
+  <pattern id="spots" patternUnits="userSpaceOnUse">
+    <circle cx="5" cy="5" r="2.5" fill="#796D54"/>
+    <rect width="10" height="10" fill="url(#spots)" />
+  </pattern>
+</defs>
+<rect x="50" y="90" width="60" height="180" fill="url(#spots)"/>
+
+</svg>

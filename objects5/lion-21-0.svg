@@ -1,0 +1,29 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <ellipse cx="175" cy="250" rx="60" ry="80" fill="none" stroke="#000"/>
+
+  <!-- Mane (semicircles) -->
+  <path d="M100,250 a30,30 0 0 1 60,0 a30,30 0 0 1 -60,0" fill="#FFD700" stroke="#000"/>
+  <path d="M130,220 a40,40 0 0 1 80,0 a40,40 0 0 1 -80,0" fill="#FFD700" stroke="#000"/>
+
+  <!-- Body -->
+  <rect x="150" y="350" width="100" height="100" fill="#E6B84A" stroke="#000"/>
+
+  <!-- Legs -->
+  <rect x="170" y="400" width="20" height="100" fill="#E6B84A" stroke="#000"/>
+  <rect x="230" y="400" width="20" height="100" fill="#E6B84A" stroke="#000"/>
+  <rect x="170" y="500" width="20" height="100" fill="#E6B84A" stroke="#000"/>
+  <rect x="230" y="500" width="20" height="100" fill="#E6B84A" stroke="#000"/>
+
+  <!-- Tail -->
+  <path d="M250,450 Q300,500 350,450" fill="none" stroke="#000"/>
+
+  <!-- Eyes -->
+  <circle cx="160" cy="220" r="8" fill="#FFF"/>
+  <circle cx="190" cy="220" r="8" fill="#FFF"/>
+
+  <!-- Nose/Muzzle -->
+  <polygon points="175,200 160,230 190,230" fill="#FFD700" stroke="#000"/>
+
+</svg>

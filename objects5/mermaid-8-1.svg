@@ -1,0 +1,17 @@
+<svg width="120" height="150" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(60,75)">
+    <!-- Tail -->
+    <path d="M-40,0 Q-30,-20 0,-40 Q30,-20 40,0" fill="#8B008B"/>
+    <!-- Body -->
+    <rect x="-10" y="-60" width="20" height="70" rx="5" fill="#FF69B4"/>
+    <!-- Head -->
+    <circle cx="0" cy="-80" r="20" fill="#FFC0CB"/>
+    <!-- Hair -->
+    <path d="M-10,-90 Q0,-85 10,-90" stroke="#000" fill="transparent"/>
+    <!-- Eyes -->
+    <circle cx="-4" cy="-75" r="2"/>
+    <circle cx="4" cy="-75" r="2"/>
+    <!-- Mouth -->
+    <path d="M-6,-85 Q-1,90 6,-85" stroke="#000" fill="transparent"/>
+  </g>
+</svg>

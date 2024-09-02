@@ -1,0 +1,25 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dolphin Body -->
+  <path d="M100 75 Q150 50, 200 75 Q250 90, 280 75 A140 140 0 0 0 360 120" fill="lightsteelblue" stroke="black"/>
+
+  <!-- Tail -->
+  <path d="M360 120 Q400 140, 430 95 Q450 75, 480 105 A70 70 0 0 0 450 140"/>
+
+  <!-- Left Fluke -->
+  <path d="M430 95 Q420 60, 410 80 Q400 60, 390 80 Z" fill="lightsteelblue"/>
+
+  <!-- Right Fluke -->
+  <path d="M480 105 Q490 130, 480 150 Q470 120, 460 150 Z" fill="lightsteelblue"/>
+
+  <!-- Left Pectoral Fin -->
+  <path d="M180 100 Q170 80, 150 90 Q130 80, 120 90 Z" fill="lightsteelblue"/>
+
+  <!-- Right Pectoral Fin -->
+  <path d="M260 105 Q270 125, 240 115 Q220 125, 230 115 Z" fill="lightsteelblue"/>
+
+  <!-- Head -->
+  <path d="M80 75 Q90 60, 130 75 Q140 85, 150 75 A50 50 0 0 0 200 100"/>
+
+  <!-- Eye -->
+  <circle cx="170" cy="90" r="5" fill="black"/>
+</svg>

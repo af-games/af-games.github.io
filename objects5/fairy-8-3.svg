@@ -1,0 +1,39 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2008/svg">
+  <!-- Define the color palette -->
+  <defs>
+    <linearGradient id="skinGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,235,205);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,218,185);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(63,94,118);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(35,47,62);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <path d="M50,50 Q90,10 150,50 Q90,90 50,50 Q10,90 50,50 Z"
+        stroke="url(#skinGradient)"
+        stroke-width="2" fill="transparent"/>
+
+  <!-- Arms -->
+  <path d="M60,70 Q40,90 80,90 Q120,90 100,70"
+        stroke="url(#skinGradient)"
+        stroke-width="1.5" fill="transparent"/>
+
+  <!-- Legs -->
+  <path d="M50,90 Q30,110 70,110 Q110,110 90,90"
+        stroke="url(#skinGradient)"
+        stroke-width="1.5" fill="transparent"/>
+
+  <!-- Hair -->
+  <path d="M50,20 Q40,0 60,0 Q80,0 100,20"
+        stroke="url(#hairGradient)"
+        stroke-width="3" fill="transparent"/>
+
+  <!-- Face -->
+  <circle cx="70" cy="30" r="20"
+          stroke="black"
+          stroke-width="1.5"
+          fill="url(#skinGradient)"/>
+</svg>

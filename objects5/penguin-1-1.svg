@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -100 100 200">
+  <!-- Body -->
+  <ellipse cx="0" cy="80" rx="50" ry="60" fill="#A9D6E5"/>
+  <rect x="-30" y="40" width="60" height="40" fill="#212F3C"/>
+
+  <!-- Head -->
+  <circle cx="0" cy="70" r="20" fill="#FFFFFF"/>
+
+  <!-- Eyes -->
+  <circle cx="-5" cy="65" r="2.5"/>
+  <circle cx="5" cy="65" r="2.5"/>
+
+  <!-- Beak -->
+  <path d="M0,70 Q-10,85 10,85 Q0,90 0,70" stroke="#FF6F00" fill="transparent"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#F5E6D4" />
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="200" fill="#C3EDFF" />
+
+  <!-- Lands -->
+  <rect x="150" y="200" width="200" height="400" fill="#A7C957" />
+  <rect x="450" y="350" width="150" height="250" fill="#8FBC6B" />
+
+  <!-- Mountains -->
+  <polygon points="100,400 200,500 300,400" fill="#7B9C5D" />
+  <polygon points="600,500 700,600 800,500" fill="#7B9C5D" />
+
+  <!-- Rivers -->
+  <path d="M350,450 Q400,500 450,450" stroke="#2A6073" stroke-width="10" fill="transparent" />
+  <path d="M650,550 Q700,600 750,550" stroke="#2A6073" stroke-width="10" fill="transparent" />
+
+  <!-- Forests -->
+  <polygon points="400,450 450,500 500,450" fill="#698B22" />
+  <polygon points="750,550 800,600 850,550" fill="#698B22" />
+
+  <!-- Cities -->
+  <circle cx="175" cy="300" r="40" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="5" />
+  <circle cx="525" cy="400" r="30" fill="#FFFFFF" stroke="#D9D9D9" stroke-width="5" />
+
+  <!-- Hot Air Balloons -->
+  <circle cx="175" cy="280" r="20" fill="#FF6F00" />
+  <circle cx="525" cy="380" r="20" fill="#FF6F00" />
+
+  <!-- Labels -->
+  <text x="40%" y="90%" dominant-baseline="middle" text-anchor="middle" font-family="Verdana" font-size="18">Aerium</text>
+  <text x="25%" y="75%" dominant-baseline="bottom" text-anchor="middle" font-family="Verdana" font-size="14">The Floating Isles</text>
+  <text x="75%" y="60%" dominant-baseline="bottom" text-ananchor="middle" font-family="Verdana" font-size="14">Sky Harbor</text>
+
+</svg>

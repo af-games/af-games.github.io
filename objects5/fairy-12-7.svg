@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 200">
+  <g id="fairy" transform="translate(50, 100)">
+    <!-- Fairy's body -->
+    <circle id="body" cx="0" cy="0" r="30" fill="#ffcc99"/>
+    <ellipse id="dress" cx="0" cy="-20" rx="40" ry="60" fill="#ffffff"/>
+
+    <!-- Fairy's wings -->
+    <polygon id="wing1" points="5, -40, 30, -20, 5, 0"/>
+    <polygon id="wing2" transform="scale(-1, 1) translate(-55, 0)" points="5, -40, 30, -20, 5, 0"/>
+
+    <!-- Fairy's wand -->
+    <line id="wand" x1="35" y1="-10" x2="60" y2="-10"/>
+    <rect id="orb" width="10" height="10" rx="5" transform="translate(55, -10)"/>
+
+    <!-- Fairy's face -->
+    <circle id="head" cx="0" cy="-40" r="20" fill="#ffcc99"/>
+    <circle id="eye1" cx="-8" cy="-37" r="2"/>
+    <circle id="eye2" cx="8" cy="-37" r="2"/>
+  </g>
+
+  <!-- Fairy's movements -->
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0,0"
+    to="5,-10"
+    begin="0s"
+    dur="0.5s"
+    repeatCount="indefinite"
+    id="walk">
+  </animateTransform>
+
+  <animateMotion
+    begin="walk.end"
+    dur="2s"
+    repeatCount="indefinite">
+    <mpath href="#path"/>
+  </animateMotion>
+</svg>

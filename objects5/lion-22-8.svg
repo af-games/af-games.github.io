@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#F2E6D8" />
+
+  <!-- Sun -->
+  <circle cx="75" cy="100" r="50" fill="#FFDC43" stroke="orange" stroke-width="5" />
+  <circle cx="75" cy="100" r="35" fill="#FDD86C" />
+
+  <!-- Lion -->
+  <path d="M200,350 Q250,325 300,350 Q350,400 400,350 T475,325 Z"
+        fill="#F38181" stroke="#C65959" stroke-width="5" />
+  <path d="M350,300 a50,50 0 1,0 100,0 a50,50 0 1,0 -100,0"
+        fill="#F38181" stroke="#C65959" stroke-width="5" />
+
+  <!-- Acacia Trees -->
+  <path d="M550,400 Q600,350 650,400 T700,375 Z"
+        fill="#8B7D6B" stroke="#594F42" stroke-width="5" />
+  <path d="M550,250 Q600,200 650,250 T700,225 Z"
+        fill="#8B7D6B" stroke="#594F42" stroke-width="5" />
+
+</svg>

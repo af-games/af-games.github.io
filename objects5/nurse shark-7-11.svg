@@ -1,0 +1,22 @@
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Timeline -->
+<line x1="-50" y1="50" x2="850" y2="50" stroke="#ccc"/>
+
+<!-- Ancient Era: Rectangles (600 BCE) -->
+<rect x="0" y="0" width="300" height="50" fill="#FFB973" rx="10"/>
+<text x="5" y="30" font-family="Verdana" font-size="20">Nurse Shark era begins</text>
+
+<!-- Medieval Era: Polygons (1200 CE) -->
+<polygon points="400,0 500,75 600,0" fill="#A9A9A9"/>
+<text x="450" y="30" font-family="Verdana" font-size="20">Medieval structures appear</text>
+
+<!-- Future Era: Paths (3000 CE) -->
+<path d="M650,0 Q700,100 800,0" stroke="#4CAF50" fill="transparent"/>
+<text x="725" y="30" font-family="Verdana" font-size="20">Futuristic structures emerge</text>
+
+<!-- Present Era: Current location (2022 CE) -->
+<circle cx="820" cy="50" r="10" fill="#FF6D00"/>
+<text x="835" y="50" font-family="Verdana" font-size="20">Nurse Shark SVG time traveler</text>
+
+</svg>

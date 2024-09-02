@@ -1,0 +1,21 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Circles -->
+<circle cx="200" cy="300" r="150" fill="green"/>
+<circle cx="200" cy="180" r="60" fill="green"/>
+
+<!-- Rectangles -->
+<rect x="140" y="220" width="80" height="140" fill="green"/>
+<rect x="260" y="220" width="80" height="140" fill="green"/>
+<rect x="195" y="180" width="70" height="40" fill="green"/>
+<rect x="180" y="320" width="160" height="40" fill="green"/>
+
+<!-- Paths -->
+<path d="M200 150 Q210 140, 220 150" stroke="black"/>
+<path d="M200 170 Q190 180, 210 180" stroke="black"/>
+<path d="M160 300 Q180 280, 240 300 Q260 320, 240 340 Q180 360, 160 340" stroke="black"/>
+
+<!-- Text -->
+<text x="50%" y="400" dominant-baseline="middle" text-anchor="middle" font-size="48px">T-Rex</text>
+
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+
+  <!-- Head -->
+  <ellipse cx="150" cy="75" rx="50" ry="75" fill="#444"/>
+
+  <!-- Body -->
+  <polygon points="150,50 200,100 250,125 300,100 350,75" fill="#444"/>
+
+  <!-- Left pectoral fin -->
+  <rect x="50" y="100" width="40" height="30" fill="#888"/>
+
+  <!-- Right pectoral fin -->
+  <rect x="250" y="100" width="40" height="30" fill="#888"/>
+
+  <!-- Caudal fin -->
+  <rect x="375" y="100" width="75" height="25" fill="#888"/>
+
+  <!-- Dorsal fins -->
+  <polygon points="180,60 190,70" fill="#444"/>
+  <polygon points="240,60 250,70" fill="#444"/>
+
+  <!-- Eyes -->
+  <circle cx="75" cy="60" r="5" fill="#000"/>
+  <circle cx="225" cy="60" r="5" fill="#000"/>
+
+</svg>

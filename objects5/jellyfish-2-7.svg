@@ -1,0 +1,46 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Luminescent Lagoon -->
+  <path id="lagoon" d="M150 450 Q250 375, 350 450 Q450 525, 550 450 Q650 375, 750 450"
+        fill="#ADD8E6" stroke="#FFF"/>
+  <text x="10%" y="90%" dominant-baseline="middle" text-anchor="middle" font-family="Verdana" font-size="24">
+    Luminescent Lagoon</text>
+
+  <!-- Crystal Caverns -->
+  <path id="caverns" d="M350 300 Q450 275, 550 300 Q650 325, 750 300"
+        fill="#FFF" stroke="#CCC"/>
+  <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle" font-family="Verdana" font-size="24">
+    Crystal Caverns</text>
+
+  <!-- Whispering Woods -->
+  <path id="woods" d="M150 350 Q250 275, 350 350 Q450 425, 550 350"
+        fill="#3D9970" stroke="#FFF"/>
+  <text x="10%" y="80%" dominant-baseline="middle" text-anchor="middle" font-family="Verdana" font-size="24">
+    Whispering Woods</text>
+
+  <!-- Stormy Seas -->
+  <path id="seas" d="M550 350 Q650 375, 750 350"
+        fill="#00BFFF" stroke="#FFF"/>
+  <text x="85%" y="90%" dominant-baseline="middle" text-anchor="middle" font-family="Verdana" font-size="24">
+    Stormy Seas</text>
+
+  <!-- Iridescent City -->
+  <circle id="city" cx="600" cy="375" r="80" fill="#FFF"/>
+  <path id="city-walls" d="M520 300 Q550 275, 600 300 Q650 325, 700 300"
+        fill="none" stroke="#CCC"/>
+  <text x="70%" y="90%" dominant-baseline="middle" text-anchor="middle" font-family="Verdana" font-size="24">
+    Iridescent City</text>
+
+  <!-- Mountains -->
+  <polygon id="mountains" points="150,300 250,275 350,300"
+           fill="#696969" stroke="#FFF"/>
+  <polygon id="mountains2" points="450,425 550,400 650,425"
+           fill="#696969" stroke="#FFF"/>
+
+  <!-- Rivers -->
+  <path id="river1" d="M350 450 Q400 475, 450 500 Q500 525, 550 500"
+        fill="none" stroke="#FFF"/>
+  <path id="river2" d="M650 350 Q700 325, 750 350"
+        fill="none" stroke="#FFF"/>
+
+</svg>

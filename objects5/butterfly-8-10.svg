@@ -1,0 +1,19 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="50" rx="80" ry="40"
+           style="fill:lightblue; stroke:black; stroke-width:2" />
+
+  <!-- Wings -->
+  <polygon points="70,5 130,5 100,60"
+            style="fill:lightgreen; stroke:black; stroke-width:2" />
+  <polygon points="70,40 130,40 100,90"
+            style="fill:lightgreen; stroke:black; stroke-width:2" />
+
+  <!-- Antennae -->
+  <line x1="85" y1="20" x2="60" y2="30" style="stroke:black; stroke-width:2" />
+  <line x1="95" y1="20" x2="120" y2="30" style="stroke:black; stroke-width:2" />
+
+  <!-- Face -->
+  <circle cx="80" cy="40" r="10"
+           style="fill:pink; stroke:black; stroke-width:1" />
+</svg>

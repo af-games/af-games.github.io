@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hot Air Balloon -->
+  <circle cx="400" cy="150" r="70" fill="#FFCC00"/>
+  <polygon points="380,150 420,150 400,250" fill="#FF9900"/>
+  <path d="M380,150 Q360,120 380,100 H420 Q400,120 420,150 Z" fill="#FF7F00"/>
+
+  <!-- Rolling Hills -->
+  <path id="hillPattern" d="M0 0 C100 100, 200 0, 300 100 S400 0, 500 100 T600 0 Z"/>
+  <use href="#hillPattern" x="0" y="300" fill="#9ACD32" stroke="#7B9C2F" stroke-width="2"/>
+  <use href="#hillPattern" x="400" y="250" fill="#A8BF51" stroke="#7E9246" stroke-width="2"/>
+
+  <!-- Winding River -->
+  <path d="M30,500 Q100,550 200,500 Q350,450 500,500 Q650,550 800,500" stroke="#007FFF" fill="none" stroke-width="5"/>
+
+  <!-- Towering Trees -->
+  <defs>
+    <pattern id="treePattern" patternUnits="userSpaceOnUse" width="30" height="60">
+      <rect x="0" y="0" width="30" height="60" fill="#8B4513"/>
+      <polygon points="15,0 30,0 15,20" fill="#006400"/>
+    </pattern>
+  </defs>
+  <use href="#treePattern" x="100" y="200" width="30" height="60"/>
+  <use href="#treePattern" x="350" y="150" width="30" height="60"/>
+  <use href="#treePattern" x="600" y="250" width="30" height="60"/>
+
+</svg>

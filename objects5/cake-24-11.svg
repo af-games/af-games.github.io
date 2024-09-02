@@ -1,0 +1,25 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Background -->
+  <rect x="10" y="10" width="180" height="180" fill="#F7DC6F"/>
+
+  <!-- Top Layer -->
+  <circle cx="100" cy="50" r="45" fill="#FFD700"/>
+  <path d="M90,30 Q80,20 70,30 H110 Q120,20 110,30 Z" fill="#E6C63C"/>
+
+  <!-- Middle Layer -->
+  <circle cx="100" cy="150" r="45" fill="#FFD700"/>
+  <path d="M90,130 Q80,120 70,130 H110 Q120,120 110,130 Z" fill="#E6C63C"/>
+
+  <!-- Bottom Layer -->
+  <rect x="20" y="200" width="160" height="40" rx="5%" ry="5%" fill="#F7DC6F"/>
+  <path d="M30,220 Q50,240 80,220 H130 Q150,240 120,220 Z" fill="#E6C63C"/>
+
+  <!-- Candles -->
+  <circle cx="75" cy="95" r="5" fill="#FCD116"/>
+  <circle cx="125" cy="95" r="5" fill="#FCD116"/>
+
+  <!-- Frosting Swirls -->
+  <path d="M80,80 Q70,70 80,60 Q90,70 100,80 Z" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+  <path d="M120,80 Q130,70 120,60 Q110,70 100,80 Z" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+
+</svg>

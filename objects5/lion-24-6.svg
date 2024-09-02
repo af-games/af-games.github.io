@@ -1,0 +1,25 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion Head -->
+  <path d="M100,5 Q90,40 120,60 Q150,40 100,80 Q70,40 100,20 Z"
+        fill="#F3D2A7" stroke="#8B4513" stroke-width="2"/>
+
+  <!-- Gemstone - Eye Left -->
+  <circle cx="90" cy="60" r="5" fill="#FFD700"/>
+  <circle cx="90" cy="65" r="2.5" fill="#FFFFFF"/>
+
+  <!-- Gemstone - Eye Right -->
+  <circle cx="110" cy="60" r="5" fill="#FFD700"/>
+  <circle cx="110" cy="65" r="2.5" fill="#FFFFFF"/>
+
+  <!-- Mane - Top -->
+  <path d="M100,30 Q90,20 100,10"
+        stroke="#FFD700" stroke-width="3" opacity="0.8"/>
+  <!-- Mane - Bottom Left -->
+  <path d="M95,85 Q85,95 95,105"
+        stroke="#FFD700" stroke-width="3" opacity="0.8"/>
+  <!-- Mane - Bottom Right -->
+  <path d="M105,85 Q115,95 105,105"
+        stroke="#FFD700" stroke-width="3" opacity="0.8"/>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#D9E0EE"/>
+
+  <!-- Body -->
+  <ellipse cx="150" cy="250" rx="80" ry="100" fill="url(#bodyGradient)"/>
+  <path d="M170,260 Q130,270 140,290 H190 Q180,270 170,260" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="180" r="40" fill="#fff"/>
+  <path d="M130,170 Q150,190 170,170 Q160,190 170,200 H130" stroke="black"/>
+
+  <!-- Eyes -->
+  <circle cx="140" cy="165" r="5" fill="#000"/>
+  <circle cx="160" cy="165" r="5" fill="#000"/>
+
+  <!-- Beak -->
+  <path d="M150,200 Q135,210 145,220 Q155,210 160,200" stroke="#ff6a00" fill="#ff6a00"/>
+
+  <!-- Legs -->
+  <path d="M130,290 H170 M130,300 V340 M170,300 V340" stroke="black" fill="transparent"/>
+
+  <!-- Gradient for body -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(49,83,105);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(76,113,138);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

@@ -1,0 +1,28 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="penguinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:black; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:white; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:black; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <rect x="20" y="40" width="5" height="70" fill="url(#penguinGrad)" />
+  <repeatTiles x="25" y="40" width="3" height="70" countX="16" countY="8"/>
+
+  <!-- Head -->
+  <ellipse cx="45" cy="90" rx="20" ry="25" fill="url(#penguinGrad)" />
+  <repeatTiles x="40" y="90" width="5" height="30" countX="7" countY="6"/>
+
+  <!-- Eyes -->
+  <circle cx="40" cy="85" r="2.5" fill="white"/>
+  <circle cx="50" cy="85" r="2.5" fill="white"/>
+  <circle cx="40" cy="83" r="1.5" fill="black"/>
+  <circle cx="50" cy="83" r="1.5" fill="black"/>
+
+  <!-- Feet -->
+  <polygon points="27,160 47,160 37,190" fill="url(#penguinGrad)" />
+  <repeatTiles x="30" y="160" width="5" height="30" countX="5" countY="2"/>
+
+</svg>

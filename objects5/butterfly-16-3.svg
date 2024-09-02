@@ -1,0 +1,30 @@
+<svg>` tag and breaking down its structure into various SVG elements like `<circle>`, `<polygon>`, and `<path>` to create the wings, body, head, and antennae. I've used scale, proportion, and harmony principles to ensure the final SVG is elegant and functional.
+
+```xml
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="100" cy="80" r="65" fill="#FFD700"/>
+
+  <!-- Upper wing (left) -->
+  <path d="M70,40 Q90,10 130,40" stroke="#FF69B4" fill="transparent"/>
+  <path d="M120,50 Q100,80 80,50" stroke="#FF69B4" fill="transparent"/>
+
+  <!-- Lower wing (left) -->
+  <path d="M70,80 Q90,120 130,80" stroke="#FF69B4" fill="transparent"/>
+  <path d="M120,70 Q100,50 80,70" stroke="#FF69B4" fill="transparent"/>
+
+  <!-- Upper wing (right) -->
+  <path d="M130,40 Q110,10 90,40" stroke="#FF69B4" fill="transparent"/>
+  <path d="M80,50 Q100,80 120,50" stroke="#FF69B4" fill="transparent"/>
+
+  <!-- Lower wing (right) -->
+  <path d="M130,80 Q110,120 90,80" stroke="#FF69B4" fill="transparent"/>
+  <path d="M80,70 Q100,50 120,70" stroke="#FF69B4" fill="transparent"/>
+
+  <!-- Head and antennae -->
+  <circle cx="100" cy="30" r="15" fill="#FFFFFF"/>
+  <polygon points="85,20 115,20 100,40" fill="#FF69B4"/>
+  <line x1="90" y1="25" x2="90" y2="5" stroke="#FF69B4"/>
+
+</svg>

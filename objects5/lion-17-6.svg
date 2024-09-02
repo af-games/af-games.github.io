@@ -1,0 +1,32 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion's face (circle) -->
+  <circle cx="100" cy="80" r="70"
+          fill="#FDD794" stroke="#65351C" stroke-width="2"/>
+
+  <!-- Nose and eye details (paths) -->
+  <path d="M90,75 Q100,65 110,75"
+        fill="none" stroke="#65351C" stroke-width="2"/>
+  <circle cx="85" cy="65" r="5" fill="#000"/>
+  <circle cx="115" cy="65" r="5" fill="#000"/>
+
+  <!-- Mane (rectangles with radial gradient) -->
+  <defs>
+    <radialGradient id="maneGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFD700; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFF; stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+  <rect x="65" y="40" width="70" height="20"
+        fill="url(#maneGrad)" rx="10"/>
+
+  <!-- Setting (rectangle with black outline) -->
+  <rect x="30" y="20" width="140" height="160"
+        fill="#FFF" stroke="#000" stroke-width="2"/>
+
+  <!-- Gemstones (circles with different colors and opacities) -->
+  <circle cx="50" cy="140" r="8" fill="#FF7F00" opacity="0.6"/>
+  <circle cx="150" cy="140" r="8" fill="#32CD32" opacity="0.6"/>
+  <circle cx="100" cy="160" r="5" fill="#ADD8E6" opacity="0.7"/>
+
+</svg>

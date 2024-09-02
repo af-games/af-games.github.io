@@ -1,0 +1,33 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon envelope -->
+  <path id="balloon" d="M150,50 Q175,75 200,50 Q225,75 250,50"
+        fill="url(#gradient)" stroke="black"/>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,215,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Basket -->
+  <rect x="175" y="120" width="50" height="30" fill="#483D8B"
+        stroke="black"/>
+
+  <!-- Burner flame -->
+  <polygon points="200,150 210,180 190,180" fill="orange">
+    <animate attributeName="opacity" values="1;0.7;1" dur="1s"
+             repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Rope -->
+  <line x1="200" y1="30" x2="200" y2="45" stroke="#8B4513"
+        stroke-width="5">
+    <animate attributeName="stroke-width" values="5;3;5" dur="1s"
+             repeatCount="indefinite"/>
+  </line>
+
+  <!-- Strings -->
+  <line x1="200" y1="45" x2="185" y2="60" stroke="#8B4513"/>
+  <line x1="200" y1="45" x2="215" y2="60" stroke="#8B4513"/>
+
+</svg>

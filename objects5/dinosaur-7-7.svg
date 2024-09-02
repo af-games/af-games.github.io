@@ -1,0 +1,78 @@
+<svg width="800" height="600" style="background-color: #f0f0f0;">
+```
+
+2. **Plant the seeds (initial shapes):**
+
+   - Ground:
+     ```svg
+     <rect id="ground" x="50" y="450" width="700" height="150"/>
+     ```
+   - T-Rex body:
+     ```svg
+     <path id="t-rex-body" d="M300 200 Q350 150 400 200"/>
+     ```
+   - T-Rex head:
+     ```svg
+     <circle cx="350" cy="150" r="50"/>
+     ```
+   - T-Rex tail (initial small size):
+     ```svg
+     <path id="t-rex-tail" d="M450 200 Q500 150 550 200"/>
+     ```
+
+3. **Water and nurture the seeds (apply transforms):**
+
+   - Ground color:
+     ```svg
+     <style>
+       #ground {
+         fill: green;
+       }
+     </style>
+     ```
+   - T-Rex body scale:
+     ```svg
+     <g transform="scale(1.5)">
+       <use href="#t-rex-body"/>
+     </g>
+     ```
+   - T-Rex head translate:
+     ```svg
+     <circle cx="350" cy="150" r="50" transform="translate(-50, 25)"/>
+     ```
+   - Grow the T-Rex tail by scaling and translating it:
+     ```svg
+     <g transform="scale(2.5) translate(100, 0)">
+       <use href="#t-rex-tail"/>
+     </g>
+     ```
+
+4. **Prune unnecessary elements or attributes:**
+
+   Since we've used `id` attributes to reference shapes and transformed them using `use`, we can remove the original paths after maturity:
+   ```svg
+   <!-- Remove these after transforming -->
+   <path id="t-rex-body" d="M300 200 Q350 150 400 200"/>
+   <path id="t-rex-tail" d="M450 200 Q500 150 550 200"/>
+   ```
+
+5. **Write out the SVG code:**
+
+Combining all the above steps, here's your final SVG code:
+
+```svg
+<svg width="800" height="600" style="background-color: #f0f0f0;">
+  <rect id="ground" x="50" y="450" width="700" height="150"/>
+  <style>
+    #ground {
+      fill: green;
+    }
+  </style>
+  <g transform="scale(1.5)">
+    <use href="#t-rex-body"/>
+  </g>
+  <circle cx="300" cy="125" r="50"/>
+  <g transform="scale(2.5) translate(100, 0)">
+    <use href="#t-rex-tail"/>
+  </g>
+</svg>

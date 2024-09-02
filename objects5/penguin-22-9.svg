@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Define the gradient -->
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:black; stop-opacity:1" />
+      <stop offset="50%" style="stop-color:white; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:black; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Create the diagonal threads -->
+  <?php for ($i = 0; $i <= 500; $i += 10) { ?>
+    <line x1="<?php echo $i ?>" y1="0" x2="<?php echo $i ?>" y2="500" style="stroke: url(#penguinGradient); stroke-width:2;" />
+    <line x1="0" y1="<?php echo $i ?>" x2="500" y2="<?php echo $i ?>" style="stroke: url(#penguinGradient); stroke-width:2;" />
+  <?php } ?>
+
+  <!-- Draw the penguin body -->
+  <ellipse cx="250" cy="300" rx="150" ry="200" fill="url(#penguinGradient)" />
+
+  <!-- Draw the penguin head -->
+  <circle cx="250" cy="150" r="100" fill="black" />
+
+</svg>

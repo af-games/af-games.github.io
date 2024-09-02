@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Body -->
+  <circle id="body" cx="0" cy="0" r="20"
+          fill="#FF69B4" stroke="#FFFFFF" stroke-width="3">
+    <animateTransform attributeName="transform" type="rotate"
+                     from="0" to="360" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Wings -->
+  <path id="wing1" d="M -25,-25 Q -40,0 -25,25"
+        fill="#FF69B4" stroke="#FFFFFF" stroke-width="3">
+    <animate attributeName="d" dur="2s"
+             repeatCount="indefinite"
+             values="
+               M -25,-25 Q -40,0 -25,25;
+               M -25,25 Q -40,0 -25,-25"/>
+  </path>
+  <path id="wing2" d="M 25,-25 Q 40,0 25,25"
+        fill="#FF69B4" stroke="#FFFFFF" stroke-width="3">
+    <animate attributeName="d" dur="2s"
+             repeatCount="indefinite"
+             values="
+               M 25,-25 Q 40,0 25,25;
+               M 25,25 Q 40,0 25,-25"/>
+  </path>
+
+</svg>

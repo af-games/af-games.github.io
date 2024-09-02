@@ -1,0 +1,28 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="200" cy="230" rx="80" ry="40"/>
+
+  <!-- Head -->
+  <circle cx="180" cy="160" r="35"/>
+
+  <!-- Left Eye -->
+  <circle cx="170" cy="150" r="10"/>
+
+  <!-- Right Eye -->
+  <circle cx="190" cy="150" r="10"/>
+
+  <!-- Left Wing -->
+  <path d="M160 230 Q130 270 160 320"/>
+
+  <!-- Right Wing -->
+  <path d="M220 230 Q250 270 220 320"/>
+
+  <!-- Beak -->
+  <polygon points="185,165 170,140 200,140"/>
+
+  <!-- Left Wing Feathers -->
+  <path d="M160 300 L150 310 L160 320 Z"/>
+
+  <!-- Right Wing Feathers -->
+  <path d="M220 300 L230 310 L220 320 Z"/>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -15 30 30">
+
+  <!-- Body -->
+  <path d="M0,-8h6v14h-6z"
+        fill="url(#bodyGradient)" />
+
+  <!-- Wings -->
+  <g transform="rotate(45)">
+    <path d="M7,0a9,9 0 1,0 -18,0 a9,9 0 1,0 18,0" stroke="none"
+          fill="url(#wingGradient)" />
+  </g>
+
+  <!-- Repeat wings with flipped orientation -->
+  <g transform="rotate(-45)">
+    <path d="M7,0a9,9 0 1,0 -18,0 a9,9 0 1,0 18,0" stroke="none"
+          fill="url(#wingGradient)" />
+  </g>
+
+  <!-- Head and Antennae -->
+  <path d="M0,-14a14,14 0 1,0 -28,0 a14,14 0 1,0 28,0"
+        fill="url(#headGradient)" />
+  <g transform="translate(3,5)">
+    <path d="M-6,-4h12v8h-12z" stroke="none"
+          fill="black" />
+  </g>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(255,217,93);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,146,28);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(255,236,184);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,207,92);stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="headGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%"   style="stop-color:rgb(236,218,179);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,146,28);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+</svg>

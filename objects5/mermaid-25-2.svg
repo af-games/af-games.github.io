@@ -1,0 +1,27 @@
+<svg width="500" height="300" viewBox="200 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* Define gradients, styles etc. */
+  </style>
+
+  <!-- Outline -->
+  <use xlink:href="#mermaidOutline"/>
+
+  <!-- Tail -->
+  <g transform="translate(50, 175)">
+    <use xlink:href="#tail"/>
+  </g>
+
+  <!-- Hair -->
+  <use xlink:href="#hairClip" fill="#4d3f2c"/>
+
+  <!-- Eyes and mouth -->
+  <circle cx="300" cy="125" r="10" fill="#fff"/>
+  <path d="M 280 140 Q 320 140 300 130 Q 280 130 280 140" stroke="#000"/>
+
+  <!-- Scales -->
+  <g id="scales">
+    <path d="M 260 200 Q 275 215 290 200"/>
+    <!-- More scale paths here -->
+  </g>
+
+</svg>

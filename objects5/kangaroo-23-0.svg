@@ -1,0 +1,33 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <ellipse cx="100" cy="80" rx="50" ry="60" fill="#bdb76b" stroke="#696969" stroke-width="4"/>
+
+  <!-- Body -->
+  <rect x="80" y="120" width="140" height="130" fill="#d7cf6d" stroke="#696969" stroke-width="4"/>
+
+  <!-- Left Arm -->
+  <polygon points="85,90 60,110 85,130" fill="#d7cf6d" stroke="#696969" stroke-width="4"/>
+
+  <!-- Right Arm -->
+  <polygon points="115,90 140,110 115,130" fill="#d7cf6d" stroke="#696969" stroke-width="4"/>
+
+  <!-- Left Leg -->
+  <rect x="80" y="240" width="20" height="80" fill="#d7cf6d" stroke="#696969" stroke-width="4"/>
+
+  <!-- Right Leg -->
+  <rect x="150" y="240" width="20" height="80" fill="#d7cf6d" stroke="#696969" stroke-width="4"/>
+
+  <!-- Pouch -->
+  <path d="M80,220 Q90,240 105,220" fill="#bdb76b" stroke="#696969" stroke-width="4"/>
+
+  <!-- Tail -->
+  <polygon points="125,230 135,240 125,250" fill="#d7cf6d" stroke="#696969" stroke-width="4"/>
+
+  <!-- Left Ear -->
+  <circle cx="85" cy="60" r="15" fill="#bdb76b" stroke="#696969" stroke-width="4"/>
+
+  <!-- Right Ear -->
+  <circle cx="115" cy="60" r="15" fill="#bdb76b" stroke="#696969" stroke-width="4"/>
+
+</svg>

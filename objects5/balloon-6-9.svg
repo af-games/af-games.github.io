@@ -1,0 +1,53 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .balloon {
+      fill: #ffa500;
+    }
+    .string {
+      stroke: #000;
+      stroke-width: 3;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-20px); }
+    }
+  </style>
+
+  <!-- Introduction -->
+  <circle class="balloon" cx="400" cy="550" r="50"/>
+  <line class="string" x1="400" y1="600" x2="400" y2="570"/>
+
+  <!-- Measure 1 -->
+  <circle id="b1" class="balloon" cx="300" cy="550" r="50">
+    <animate attributeName="cy" values="550;650;550" dur="2s" begin="0s"/>
+  </circle>
+  <line id="s1" class="string" x1="300" y1="600" x2="300" y2="570">
+    <animate attributeName="y2" values="570;450;570" dur="2s" begin="0s"/>
+  </line>
+
+  <!-- Measure 2 -->
+  <circle id="b2" class="balloon" cx="600" cy="550" r="50">
+    <animate attributeName="cy" values="550;450;550" dur="2s" begin="2s"/>
+  </circle>
+  <line id="s2" class="string" x1="600" y1="600" x2="600" y2="570">
+    <animate attributeName="y2" values="570;450;570" dur="2s" begin="2s"/>
+  </line>
+
+  <!-- Climax -->
+  <circle id="b3" class="balloon" cx="400" cy="350" r="100">
+    <animate attributeName="cy" values="350;650;350" dur="2s" begin="4s"/>
+  </circle>
+  <line id="s3" class="string" x1="400" y1="700" x2="400" y2="620">
+    <animate attributeName="y2" values="620;500;620" dur="2s" begin="4s"/>
+  </line>
+
+  <!-- Resolution -->
+  <circle id="b4" class="balloon" cx="300" cy="550" r="75">
+    <animate attributeName="cy" values="550;675;550" dur="2s" begin="6s"/>
+    <animateTransform attributeName="transform" type="scale" from="1" to="0.5" dur="2s" begin="8s"/>
+  </circle>
+  <line id="s4" class="string" x1="300" y1="700" x2="300" y2="620">
+    <animate attributeName="y2" values="620;550;620" dur="2s" begin="6s"/>
+  </line>
+
+</svg>

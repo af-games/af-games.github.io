@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+<!-- Giraffe -->
+<path d="M100 150 Q150 100, 200 150 Q250 100, 300 150 Q350 100, 400 150 A10 10 0 0 0 100 150" fill="saddlebrown" stroke="black"/>
+<circle cx="200" cy="80" r="60" fill="khaki"/>
+<path d="M200 100 Q220 70, 240 100" stroke="black"/>
+
+<!-- Salad Greens -->
+<polygon points="50,300 100,350 150,300" fill="#8DC63C"/>
+<path d="M50,375 Q80,420, 150,375" stroke="#8DC63C"/>
+
+<!-- Cherry Tomatoes -->
+<circle cx="75" cy="325" r="15" fill="tomato"/>
+<circle cx="125" cy="350" r="10" fill="tomato"/>
+
+<!-- Pasta -->
+<path d="M400,350 Q450,300, 500,350 Q450,400, 400,350" stroke="#F9E26D" fill="none"/>
+<path d="M410,370 Q430,380, 450,370 Q430,360, 410,370" stroke="#F9E26D"/>
+
+<!-- Utensils -->
+<rect x="420" y="280" width="20" height="80" fill="#CBCBCB"/>
+<path d="M450,280 Q460,310, 470,280" stroke="#CBCBCB"/>
+
+<!-- Garnish - Lemon Wheel -->
+<circle cx="440" cy="330" r="30" fill="yellow"/>
+<path d="M440,300 Q450,310, 460,300" stroke="#F5DEB3"/>
+
+<!-- Tableware - Plate -->
+<circle cx="250" cy="375" r="80" fill="white"/>
+<path d="M250,310 A80,80 0 0 1 330,310 A80,80 0 0 1 250,390 z" stroke="#F2A964"/>
+
+<!-- Tableware - Cutlery -->
+<path d="M470,340 Q480,360, 500,340" stroke="#CBCBCB"/>
+<path d="M470,350 Q480,370, 500,350" stroke="#CBCBCB"/>
+
+</svg>

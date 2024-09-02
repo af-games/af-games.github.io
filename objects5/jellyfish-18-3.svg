@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-250 -250 500 500">
+  <!-- Central Bell-shaped Body -->
+  <ellipse cx="0" cy="75" rx="100" ry="75" fill="pink"/>
+
+  <!-- Oral Arms -->
+  <?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+  <svg xmlns="http://www.w3.org/2000/svg" width="50%" height="50%">
+    <path d="M-100,75 Q-50,-50 0,-75 L100,-50 Z"/>
+    <!-- Repeat the path eight times for all arms -->
+  </svg>

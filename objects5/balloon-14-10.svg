@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450">
+  <!-- Vase -->
+  <path d="M200,10 Q180,60 170,90 L230,90 Q250,60 200,10 Z" fill="#FDD75D"/>
+
+  <!-- Water gradient -->
+  <defs>
+    <linearGradient id="waterGrad" x1="0%" y1="80%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,191,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(67,236,252);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path d="M10,400 Q80,390 170,380 L230,380 Q320,390 390,400 Z" fill="url(#waterGrad)"/>
+
+  <!-- Balloons -->
+  <circle cx="50" cy="120" r="40" fill="#FF6F91"/>
+  <circle cx="300" cy="120" r="40" fill="#8FD400"/>
+  <circle cx="175" cy="160" r="30" fill="#4B77BE"/>
+
+  <!-- Leaves -->
+  <polygon points="10,50 50,90 20,90" fill="#8FD400"/>
+  <polygon points="370,50 320,90 350,90" fill="#FF6F91"/>
+
+  <!-- Stems -->
+  <rect x="20" y="90" width="10" height="40" fill="#8FD400"/>
+  <rect x="360" y="90" width="10" height="40" fill="#FF6F91"/>
+</svg>

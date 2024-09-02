@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+
+  <!-- Balloon Envelope -->
+  <circle cx="150" cy="120" r="120" fill="#FFCC00">
+    <animate attributeName="r" values="120;130;120" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <linearGradient id="envelopeGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+    <stop offset="0%" stop-color="#FFCC00"/>
+    <stop offset="100%" stop-color="#FFF496"/>
+  </linearGradient>
+
+  <!-- Balloon Basket -->
+  <rect width="80" height="40" x="135" y="270" fill="#8B4513">
+    <animateTransform attributeName="transform" type="scale" values="1;1.1;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Balloon Burner -->
+  <circle cx="150" cy="320" r="40" fill="#8B4513">
+    <filter id="burnerFilter" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+      <feSpecularLighting in="SourceAlpha" surfaceScale="3" specularConstant=".75"
+        specularExponent="20" lighting-color="#bbbbbb" result="specOut">
+        <fePointLight x="-5000" y="-10000" z="20000"/>
+      </feSpecularLighting>
+      <feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut"/>
+      <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic"
+        k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+  </circle>
+
+  <!-- Balloon Rope -->
+  <path d="M150,60 Q180,120 180,170 H150 Z" stroke="#4D2C0A" fill="transparent"/>
+
+</svg>

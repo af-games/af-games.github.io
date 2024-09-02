@@ -1,0 +1,43 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dome -->
+  <path id="dome" fill="#fff" d="M100,50 Q150,75 200,50 Q150,25 100,50 Z"/>
+
+  <!-- Entrance -->
+  <rect id="entrance" fill="#fff" x="90" y="85" width="20" height="60"/>
+
+  <!-- Base -->
+  <rect id="base" fill="#fff" x="70" y="145" width="30" height="55"/>
+
+  <!-- Animation triggers (hidden) -->
+  <text style="display: none;" xml:id="domeRotate">rotate(18)</text>
+  <text style="display: none;" xml:id="entranceMove">translate(20,0)</text>
+  <text style="display: none;" xml:id="baseWobble">scale(1.1) translate(-35,0) scale(0.9)</text>
+
+  <!-- Script for animation -->
+  <script type="application/ecmascript">
+    <![CDATA[
+      var domeRotate = document.getElementById('domeRotate');
+      var entranceMove = document.getElementById('entranceMove');
+      var baseWobble = document.getElementById('baseWobble');
+
+      function animate() {
+        // Rotate igloo dome
+        var dome = document.getElementById('dome');
+        dome.setAttributeNS(null, 'transform', dome.getAttribute('transform') + domeRotate.textContent);
+
+        // Move entrance curtain
+        var entrance = document.getElementById('entrance');
+        entrance.setAttributeNS(null, 'transform', entranceMove.textContent);
+
+        // Wobble igloo base
+        var base = document.getElementById('base');
+        base.setAttributeNS(null, 'transform', baseWobble.textContent);
+
+        // Loop animation
+        setTimeout(animate, 50);
+      }
+
+      animate();
+    ]]>
+  </script>
+</svg>

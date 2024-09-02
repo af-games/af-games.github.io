@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Owl's Realm Boundary -->
+  <path d="M10 10 H790 V590 H10 Z" stroke="black" fill="none"/>
+
+  <!-- Major Landmarks: Mountains -->
+  <polygon points="150,10 300,200 450,10" style="fill:green;stroke:black"/>
+  <polygon points="600,10 750,200 900,10" style="fill:green;stroke:black"/>
+
+  <!-- Major Landmarks: Lakes -->
+  <circle cx="300" cy="400" r="80" fill="blue"/>
+  <circle cx="600" cy="400" r="60" fill="blue"/>
+
+  <!-- Roads -->
+  <path d="M150,300 H750 V590 H150 Z" stroke="#7f7f7f" fill="none"/>
+  <path d="M250,200 Q450,100 650,200" stroke="#7f7f7f" fill="none"/>
+
+  <!-- Rivers -->
+  <path d="M300,480 Q400,550 500,480" stroke="blue" fill="none"/>
+  <path d="M600,480 Q700,550 800,480" stroke="blue" fill="none"/>
+
+  <!-- Points of Interest: Castles -->
+  <polygon points="200,350 250,400 200,450" style="fill:red;stroke:black"/>
+  <polygon points="700,350 750,400 700,450" style="fill:red;stroke:black"/>
+
+</svg>

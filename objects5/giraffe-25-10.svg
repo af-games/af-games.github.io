@@ -1,0 +1,33 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="beatGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:darkblue; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:paleturquoise; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:lightyellow; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Bar 1 -->
+  <circle cx="50" cy="300" r="20" fill="url(#beatGradient)" transform="rotate(45 50 300)">
+    <animate attributeName="r" values="20;40;20" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M70,300 Q140,250 210,300" stroke="black" fill="transparent">
+    <animate attributeName="d" values="M70,300 Q140,250 210,300; M210,300 Q280,250 350,300" dur="6s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Bar 2 -->
+  <circle cx="400" cy="300" r="20" fill="url(#beatGradient)" transform="rotate(45 400 300)">
+    <animate attributeName="r" values="20;40;20" dur="6s" begin="7s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M330,300 Q400,250 470,300" stroke="black" fill="transparent">
+    <animate attributeName="d" values="M330,300 Q400,250 470,300; M470,300 Q540,250 610,300" dur="6s" begin="7s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Giraffe -->
+  <g id="giraffe">
+    <path d="M700,100 Q750,200 800,100" stroke="black" fill="transparent"/>
+    <circle cx="750" cy="300" r="200" fill="#FFC0CB">
+      <animate attributeName="r" values="200;250;200" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

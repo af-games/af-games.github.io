@@ -1,0 +1,31 @@
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main Body -->
+  <g id="IglooCoat" transform="translate(150, 200)">
+    <!-- Front & Back Bodice -->
+    <path id="Bodice" d="M0,-40 Q20,60 -30,180 Q-20,60 0,-40 Z" fill="url(#Gradient)" stroke="#D3D3D3" stroke-width="5"/>
+    <use href="#Bodice" transform="translate(30, 0)"/>
+
+    <!-- Left Sleeve -->
+    <circle id="LeftSleeve" cx="-100" cy="40" r="60" fill="url(#Gradient)" stroke="#D3D3D3" stroke-width="5"/>
+    <path d="M-100,40 Q-20,-80 0,-140 L0,-40 Z" fill="none"/>
+
+    <!-- Right Sleeve -->
+    <use href="#LeftSleeve" transform="translate(200, 0)"/>
+    <path d="M100,40 Q20,-80 0,-140 L0,-40 Z" fill="none"/>
+
+    <!-- Hood -->
+    <path id="Hood" d="M0,-160 Q-30,-220 -50,-160 Q-30,-90 0,-160 Z" fill="url(#Gradient)" stroke="#D3D3D3" stroke-width="5"/>
+    <use href="#Hood" transform="translate(40, 0)"/>
+
+    <!-- Inner Lining -->
+    <rect x="-200" y="-280" width="400" height="480" fill="#FFFFFF" opacity="0.7"/>
+  </g>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="Gradient" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#5DADEC"/>
+      <stop offset="100%" stop-color="#B3E5FC"/>
+    </linearGradient>
+  </defs>
+</svg>

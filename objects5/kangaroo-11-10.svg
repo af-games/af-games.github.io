@@ -1,0 +1,22 @@
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .kangaroo { fill: #8B4513; }
+    .grass { fill: #3D9970; }
+  </style>
+
+  <!-- Body -->
+  <rect class="kangaroo" x="50" y="70" width="150" height="200"/>
+
+  <!-- Head & Ears -->
+  <circle cx="100" cy="50" r="30"/>
+  <polygon class="kangaroo" points="80,20 90,40 80,50"/>
+  <polygon class="kangaroo" points="120,20 110,40 120,50"/>
+
+  <!-- Legs & Tail -->
+  <rect class="kangaroo" x="60" y="270" width="30" height="80"/>
+  <rect class="kangaroo" x="130" y="270" width="30" height="80"/>
+  <rect class="kangaroo" x="95" y="240" width="20" height="30"/>
+
+  <!-- Grass (for a touch of environment) -->
+  <rect class="grass" x="0" y="200" width="200" height="100"/>
+</svg>

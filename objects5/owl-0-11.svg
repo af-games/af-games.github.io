@@ -1,0 +1,17 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Night Sky -->
+  <rect x="0" y="0" width="800" height="600" fill="#0D253C" />
+
+  <!-- Mountain Range -->
+  <polygon points="400,570 100,400 700,400" fill="#8DC63F" />
+  <polygon points="400,500 100,350 700,350" fill="#945F7B" />
+
+  <!-- Branches -->
+  <rect x="200" y="400" width="400" height="200" fill="#3C2109" rx="50" ry="50" />
+
+  <!-- Owl (simplified) -->
+  <circle cx="400" cy="350" r="150" fill="#8B4513" />
+  <circle cx="400" cy="250" r="75" fill="#CACACA" />
+
+</svg>

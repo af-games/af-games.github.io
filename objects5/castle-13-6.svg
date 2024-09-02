@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base Pan -->
+  <rect x="0" y="0" width="800" height="600" fill="#8B4513"/>
+
+  <!-- Castle Walls -->
+  <rect x="150" y="200" width="200" height="400" fill="#FFD700"/>
+  <rect x="350" y="200" width="200" height="400" fill="#FFD700"/>
+
+  <!-- Castle Towers -->
+  <polygon points="150,100 250,100 200,200" fill="#FFD700"/>
+  <polygon points="350,100 450,100 400,200" fill="#FFD700"/>
+
+  <!-- Turret -->
+  <polygon points="600,150 680,150 640,250" fill="#FFD700"/>
+
+  <!-- Windows -->
+  <!-- Left Tower Windows -->
+  <circle cx="175" cy="130" r="20" fill="#FFFFFF"/>
+  <circle cx="225" cy="180" r="20" fill="#FFFFFF"/>
+
+  <!-- Right Tower Windows -->
+  <circle cx="375" cy="130" r="20" fill="#FFFFFF"/>
+  <circle cx="425" cy="180" r="20" fill="#FFFFFF"/>
+
+  <!-- Turret Window -->
+  <circle cx="640" cy="190" r="20" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="50%" y="550" font-family="Verdana" font-size="48" text-anchor="middle" fill="#000000">Castle Feast</text>
+</svg>

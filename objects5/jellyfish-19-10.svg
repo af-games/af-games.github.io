@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Intro -->
+  <g id="intro">
+    <!-- Bars and beats go here, using circles for beats (r=5) and paths for transitions -->
+  </g>
+
+  <!-- Main Theme -->
+  <g id="main-theme">
+    <!-- Repeat intro pattern with different colors and animations -->
+  </g>
+
+  <!-- Interlude -->
+  <g id="interlude">
+    <!-- Same as intro but with syncopated rhythm, calming colors, and intricate patterns -->
+  </g>
+
+  <!-- Crescendo -->
+  <g id="crescendo">
+    <!-- Building up pattern with brighter colors and faster animations -->
+  </g>
+
+  <!-- Outro -->
+  <g id="outro">
+    <!-- Slowing down pattern with soft colors and calming animations -->
+  </g>
+</svg>

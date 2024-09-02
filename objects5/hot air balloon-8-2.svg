@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+
+  <!-- Basket -->
+  <rect x="150" y="520" width="100" height="80" fill="#70553B" stroke="black" stroke-width="2"/>
+
+  <!-- Balloon Envelope -->
+  <ellipse cx="200" cy="250" rx="160" ry="320" fill="#FFD700" stroke="black" stroke-width="2"/>
+
+  <!-- Rope & Tethers -->
+  <path d="M150,520 Q180,450 200,520" stroke="black" stroke-width="6"/>
+  <path d="M250,520 Q220,450 200,520" stroke="black" stroke-width="6"/>
+  <path d="M175,380 Q200,320 200,380" stroke="black" stroke-width="6"/>
+
+  <!-- Burner -->
+  <circle cx="200" cy="380" r="40" fill="#FFC107" stroke="black" stroke-width="2"/>
+
+  <!-- Shadows -->
+  <rect x="175" y="550" width="50" height="70" fill="url(#shadow)" opacity="0.3"/>
+  <rect x="185" y="400" rx="50" ry="50" width="200" height="200" fill="url(#shadow)" opacity="0.2"/>
+
+  <!-- Defining linear gradient for shadow -->
+  <defs>
+    <linearGradient id="shadow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+</svg>

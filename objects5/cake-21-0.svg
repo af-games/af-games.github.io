@@ -1,0 +1,25 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Base -->
+  <path d="M150,300 A150,40 0 0 1 150,260 Z"
+        fill="#FDD79D" stroke="#CCA76E" stroke-width="3"/>
+
+  <!-- Cake Body -->
+  <ellipse cx="150" cy="285" rx="120" ry="80"
+           fill="#FDE4B6" stroke="#CCA76E" stroke-width="3"/>
+
+  <!-- Topping -->
+  <ellipse cx="150" cy="200" rx="90" ry="60"
+           fill="#EFDAC1" stroke="#CCA76E" stroke-width="3"/>
+
+  <!-- Icing -->
+  <rect x="85" y="240" width="230" height="40"
+        fill="#FFFFFF" stroke="#CCA76E" stroke-width="3"/>
+
+  <!-- Candles -->
+  <circle cx="135" cy="190" r="5" fill="#FBB03B"/>
+  <circle cx="125" cy="180" r="4" fill="#FBB03B"/>
+  <circle cx="145" cy="180" r="4" fill="#FBB03B"/>
+  <circle cx="115" cy="170" r="3.5" fill="#FBB03B"/>
+  <circle cx="155" cy="170" r="3.5" fill="#FBB03B"/>
+
+</svg>

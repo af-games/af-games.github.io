@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -100 1000 600">
+
+  <!-- Ground -->
+  <rect id="ground" width="1000" height="400" fill="#8B7D6B"/>
+
+  <!-- Giraffe Tower (Body) -->
+  <ellipse cx="-250" cy="300" rx="300" ry="500" fill="brown"/>
+  <circle cx="-250" cy="400" r="250" fill="#CD7F32"/>
+
+  <!-- Giraffe Tower (Neck) -->
+  <rect x="-270" y="100" width="60" height="500" fill="brown"/>
+  <circle cx="-240" cy="600" r="100" fill="#CD7F32"/>
+
+  <!-- Giraffe Tower (Head) -->
+  <ellipse cx="-180" cy="480" rx="150" ry="120" fill="brown"/>
+  <circle cx="-180" cy="560" r="80" fill="#CD7F32"/>
+
+  <!-- Buildings -->
+  <rect x="200" y="300" width="100" height="200" fill="#A9A9A9"/>
+  <rect x="400" y="250" width="80" height="250" fill="#A9A9A9"/>
+
+  <!-- Giraffe Tower Spots -->
+  <circle cx="-310" cy="650" r="40" fill="black"/>
+  <circle cx="-200" cy="650" r="40" fill="black"/>
+
+  <!-- River -->
+  <path d="M-500,300 Q-200,-100 200,-100 T700,-100" stroke="#38768F" fill="transparent"/>
+
+  <!-- Paths (Roads) -->
+  <path d="M-500,400 Q-200,300 200,300 T700,300" stroke="#707070" fill="transparent"/>
+  <path d="M-100,350 Q100,300 300,300 T600,300" stroke="#707070" fill="transparent"/>
+
+</svg>

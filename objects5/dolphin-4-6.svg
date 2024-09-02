@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#FFF4E0"/>
+
+  <!-- Coral Reef -->
+  <circle cx="400" cy="550" r="150" fill="#FF6F69"/>
+
+  <!-- Dolphin Body -->
+  <ellipse cx="200" cy="300" rx="150" ry="100" fill="#5C8BCB"/>
+  <ellipse cx="200" cy="300" rx="140" ry="90" fill="#27539A"/>
+
+  <!-- Dolphin Fins -->
+  <polygon points="180,260 220,320 180,380" fill="#5C8BCB"/>
+  <polygon points="70,240 120,200 70,160" fill="#5C8BCB"/>
+  <polygon points="330,240 380,200 330,160" fill="#5C8BCB"/>
+
+  <!-- Bubbles -->
+  <circle cx="350" cy="400" r="20" fill="#FFFFFF"/>
+  <circle cx="280" cy="360" r="10" fill="#FFFFFF"/>
+  <circle cx="320" cy="370" r="10" fill="#FFFFFF"/>
+  <circle cx="295" cy="340" r="5" fill="#FFFFFF"/>
+
+  <!-- Seaweed -->
+  <polygon points="70,500 120,480 170,500" fill="#228B22"/>
+  <polygon points="350,500 400,480 450,500" fill="#228B22"/>
+
+  <!-- Starfish -->
+  <polygon points="370,520 390,510 420,520 410,530 370,540" fill="#FF69B4"/>
+
+  <!-- Waves -->
+  <path d="M0,580 Q200,550 400,580 Q600,610 800,580" stroke="#00BFFF"/>
+  <path d="M0,590 Q200,570 400,590 Q600,620 800,590" stroke="#00BFFF" stroke-width="1.5"/>
+</svg>

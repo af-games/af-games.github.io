@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Mask -->
+  <defs>
+    <mask id="moat-mask">
+      <rect width="100%" height="100%" fill="black"/>
+      <path d="M20,380 Q40,360 75,380 Q110,400 145,380 Q180,420 215,380 Q250,400 285,380 Q320,420 355,380 Q390,400 425,380 Q460,420 495,380" fill="white"/>
+    </mask>
+  </defs>
+
+  <!-- Castle wall -->
+  <rect id="castle_wall" x="175" y="300" width="150" height="100" fill="#8B4513"/>
+
+  <!-- Tower tops -->
+  <circle cx="225" cy="160" r="40" fill="#8B4513"/>
+  <circle cx="375" cy="160" r="40" fill="#8B4513"/>
+
+  <!-- Keep -->
+  <polygon id="keep" points="250,50 300,50 350,100 300,150 250,150" fill="#8B4513"/>
+
+  <!-- Moat and drawbridge -->
+  <ellipse id="moat" cx="275" cy="365" rx="90" ry="40" stroke="black" stroke-width="2" fill="url(#moat-mask)"/>
+  <path id="drawbridge" d="M175,380 Q210,400 250,380 Q290,420 330,380 Q370,400 410,380" stroke="black" stroke-width="2" fill="transparent"/>
+
+</svg>

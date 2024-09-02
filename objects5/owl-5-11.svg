@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="600" fill="#2C3E50" />
+
+  <!-- Owl's Body -->
+  <path d="M175,450 Q190,380 215,420 Q240,460 265,420 Q290,380 305,450" fill="#8B4513" />
+
+  <!-- Owl's Face -->
+  <path d="M225,400 Q240,375 255,390 Q270,365 285,390 Q300,375 315,400" fill="#FFFDD0" />
+
+  <!-- Owl's Eyes -->
+  <circle cx="255" cy="360" r="25" fill="#FFD700" />
+  <circle cx="255" cy="360" r="10" fill="#000000" />
+
+  <!-- Owl's Wings & Feet -->
+  <path d="M180,450 Q190,420 210,470 Q230,440 250,490 Q270,460 290,450" fill="#3A3B3C" />
+  <path d="M310,450 Q320,420 340,470 Q360,440 380,490 Q400,460 410,450" fill="#908F91" />
+
+  <!-- Branches -->
+  <path d="M50,250 Q70,150 120,200 Q170,250 220,300 Q270,350 320,400" stroke="#7D5238" fill="transparent" />
+
+</svg>

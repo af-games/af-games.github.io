@@ -1,0 +1,32 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect id="body" x="70" y="100" width="80" height="160"
+        fill="#FFCC00" stroke="#996600" stroke-width="4"/>
+
+  <!-- Head -->
+  <polygon id="head" points="25,20 150,70 350,20"
+           fill="#FFCC00" stroke="#996600" stroke-width="4"/>
+  <circle cx="200" cy="60" r="40" fill="#FFCC00"/>
+
+  <!-- Mane -->
+  <polygon id="mane" points="50,30 180,70 310,30"
+           fill="#FF9900" stroke="#996600" stroke-width="4"/>
+  <polygon id="mane2" points="60,40 170,90 300,40"
+           fill="#FF9900"/>
+
+  <!-- Legs -->
+  <rect id="leg1" x="80" y="260" width="20" height="80"
+        fill="#FFCC00" stroke="#996600" stroke-width="4"/>
+  <rect id="leg2" x="270" y="260" width="20" height="80"
+        fill="#FFCC00" stroke="#996600" stroke-width="4"/>
+
+  <!-- Tail -->
+  <polyline points="380,180 450,220 400,270"
+            fill="none" stroke="#996600" stroke-width="4"/>
+
+  <!-- Eyes -->
+  <circle cx="120" cy="50" r="10" fill="black"/>
+  <circle cx="280" cy="50" r="10" fill="black"/>
+
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <style>
+    .owl {
+      fill: #000;
+    }
+  </style>
+  <!-- Body -->
+  <path class="owl" d="M496,256c-8.3-67-69-120-149-141V384H217v-32c0-73-61-127-127-127H288C435,155,504,189,496,256z"/>
+  <!-- Eyes -->
+  <circle class="owl" cx="304" cy="216" r="32"/>
+  <circle class="owl" cx="224" cy="216" r="32"/>
+  <!-- Beak -->
+  <path class="owl" d="M288,192h-64c0,17-14,31-31,31s-31-14-31-31H256V192z"/>
+</svg>

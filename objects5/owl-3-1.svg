@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- Body -->
+  <path fill="#FFCC66" d="M40.5 7H7.5A6.5 6.5 0 1 0 7.5 13.5h33a6.5 6.5 0 1 0-7-6.5z"/>
+
+  <!-- Head -->
+  <circle cx="24" cy="12" r="8" fill="#FFD700"/>
+
+  <!-- Eyes -->
+  <circle cx="18" cy="9" r="3" fill="#000"/>
+  <circle cx="30" cy="9" r="3" fill="#000"/>
+
+  <!-- Beak -->
+  <path d="M24.5 18v6a2.5 2.5 0 1 0 5 0v-6h-5z" fill="#FF7F50"/>
+
+  <!-- Wings -->
+  <polygon points="7,29 35,29 40,35 28,35" style="fill: #FFCC66; stroke: none"/>
+
+  <!-- Feet -->
+  <path d="M14.5 40h-2a3.5 3.5 0 1 0 7 0h-2z" fill="#FFCC66"/>
+  <path d="M33.5 40h-2a3.5 3.5 0 1 0 7 0h-2z" fill="#FFCC66"/>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 400 100">
+  <!-- Dolphin Melody -->
+  <g id="dolphins" stroke-width="2">
+    <path d="M-30,0 Q-20,-10 Q0,-20 Q20,-10 Q30,0 Q20,10 Q0,20 Q-20,10 Q-30,0"
+          stroke="#4CAF50" fill="url(#dolphinGradient)"/>
+    <path d="M30,0 Q40,-10 Q60,-20 Q80,-10 Q90,0 Q80,10 Q60,20 Q40,10 Q30,0"
+          stroke="#4CAF50" fill="url(#dolphinGradient)"/>
+    <!-- Add more dolphins as desired -->
+  </g>
+
+  <!-- Wave Rhythm -->
+  <g id="waves">
+    <path d="M-50,-20 C-20,-10 0,20 30,-10 S60,40 90,0"
+          stroke="#FFFFFF" fill="url(#waveGradient)"/>
+    <!-- Add more waves as desired -->
+  </g>
+
+  <!-- Gradients -->
+  <linearGradient id="dolphinGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:lightblue; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:darkblue; stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:white; stop-opacity:0.8"/>
+    <stop offset="50%" style="stop-color:lightblue; stop-opacity:0.7"/>
+    <stop offset="100%" style="stop-color:darkblue; stop-opacity:0.3"/>
+  </linearGradient>
+</svg>

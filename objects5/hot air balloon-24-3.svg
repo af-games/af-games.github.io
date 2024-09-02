@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Ground -->
+<rect x="0" y="400" width="800" height="200" fill="#8B4513"/>
+
+<!-- Basket -->
+<rect x="300" y="500" width="150" height="40" fill="#CD7F32"/>
+
+<!-- Envelope (Balloon) -->
+<ellipse cx="375" cy="250" rx="200" ry="400" fill="#FFBF00"/>
+
+<!-- Tether Rope -->
+<polyline points="300,540 310,520 320,500 ... 375,250" stroke="#CD7F32" fill="transparent"/>
+
+<!-- Burner Flame -->
+<polygon points="350,560 360,580 340,580" fill="#FFBF00" stroke="black"/>
+
+</svg>

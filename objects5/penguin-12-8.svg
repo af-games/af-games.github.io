@@ -1,0 +1,31 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black body -->
+  <circle cx="100" cy="80" r="60" fill="url(#blackGradient)"/>
+  <!-- White belly -->
+  <clipPath id="bellyClip" clipPathUnits="objectBoundingBox">
+    <path d="M95,75 Q95,40 120,40 V85 H95 Z"/>
+  </clipPath>
+  <rect width="30" height="15" x="95" y="60" fill="white" clip-path="url(#bellyClip)"/>
+
+  <!-- Orange flipper outlines -->
+  <rect width="25" height="75" x="80" y="40" fill="orange"/>
+  <rect width="25" height="75" x="130" y="40" fill="orange"/>
+
+  <!-- Black head and eyes -->
+  <circle cx="100" cy="40" r="30" fill="black"/>
+  <circle cx="90" cy="38" r="5" fill="white"/>
+  <circle cx="110" cy="38" r="5" fill="white"/>
+
+  <!-- Yellow beak -->
+  <path d="M75,45 Q95,60 125,45 T145,55 H75 Z" fill="yellow"/>
+
+  <!-- Blue belly gradient -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(63,94,251); stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(187,255,255); stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="30" height="15" x="95" y="60" fill="url(#blueGradient)" clip-path="url(#bellyClip)"/>
+
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400">
+
+  <!-- Bell -->
+  <circle cx="0" cy="0" r="50" fill="lightblue"/>
+
+  <!-- Umbrella -->
+  <ellipse cx="0" cy="-30" rx="40" ry="60" fill="white"/>
+
+  <!-- Tentacles -->
+  <path d="M18,-70 a25,25 0 1,0 36,0 a25,25 0 1,0 -36,0" fill="lightblue"/>
+  <path d="M-18,-70 a25,25 0 1,0 -36,0 a25,25 0 1,0 36,0" fill="lightblue"/>
+  <path d="M18,70 a25,25 0 1,0 36,0 a25,25 0 1,0 -36,0" fill="lightblue"/>
+  <path d="M-18,70 a25,25 0 1,0 -36,0 a25,25 0 1,0 36,0" fill="lightblue"/>
+
+</svg>

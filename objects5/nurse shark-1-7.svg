@@ -1,0 +1,28 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path id="sharkBody" d="M150 50 Q170 60, 190 50 Q210 40, 230 50 Q250 60, 270 50 Q280 70, 290 50 Z" fill="url(#sharkGradient)" />
+
+  <!-- Fin 1 -->
+  <path d="M100 40 Q130 5, 160 40 Q190 -5, 220 40 Q250 5, 280 40" fill="url(#finGradient)"/>
+
+  <!-- Fin 2 -->
+  <path d="M170 120 Q140 100, 110 120 Q80 100, 50 120 Q20 100, 30 120" fill="url(#finGradient)"/>
+
+  <!-- Tail -->
+  <path d="M270 60 Q290 40, 310 60 Q320 50, 330 40 Z" fill="url(#sharkGradient)" />
+
+  <!-- Gradient for shark body and tail -->
+  <linearGradient id="sharkGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:darkblue; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:lightgray; stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Gradient for fins -->
+  <linearGradient id="finGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:darkblue; stop-opacity:1" />
+    <stop offset="50%" style="stop-color:lightgray; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:white; stop-opacity:1" />
+  </linearGradient>
+
+</svg>

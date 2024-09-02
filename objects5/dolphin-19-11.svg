@@ -1,0 +1,15 @@
+<svg viewBox="-10 0 170 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clue 1: Dolphin outline -->
+  <path id="dolphin-outline" d="M10 80 Q50 20, 90 80 Q50 140, 10 80 Z"/>
+
+  <!-- Clue 2: Dolphin body region (hidden) -->
+  <rect id="dolphin-body" width="80" height="60" x="10" y="70"/>
+  <mask id="dolphin-mask">
+    <path d="M10 80 Q50 20, 90 80 Q50 140, 10 80 Z"/>
+  </mask>
+
+  <!-- Clue 3: Dolphin tail and fins (revealed strategically) -->
+  <g mask="url(#dolphin-mask)">
+    <path id="dolphin-tail-fins" d="M90,80 Q120,140 160,80 L160,50 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="100" cy="75" r="50" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+
+  <!-- Left Wing -->
+  <path d="M80 30 Q60 10, 50 40 Q60 70, 80 60 T90 70" fill="#FFC0CB" stroke="#FF69B4" stroke-width="2"/>
+
+  <!-- Right Wing -->
+  <path d="M120 30 Q140 10, 150 40 Q140 70, 120 60 T110 70" fill="#FFC0CB" stroke="#FF69B4" stroke-width="2"/>
+
+  <!-- Antennae -->
+  <path d="M85 25 L95 35 M95 25 L85 35" stroke="#FF69B4" stroke-width="2"/>
+
+</svg>

@@ -1,0 +1,25 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#FFF"/>
+  <text x="50%" y="90%" text-anchor="middle" font-family="Arial" font-size="48">Lion Map</text>
+
+  <!-- Lion's body outline -->
+  <path d="M200,200 Q300,150 400,200 Q300,250 200,300 Z" fill="#FFB6C1" stroke="#FFA500"/>
+
+  <!-- Lion's mane -->
+  <path d="M180,170 Q150,90 220,90 Q250,140 220,230 Q150,280 180,250 Z" fill="#FFB6C1"/>
+
+  <!-- Lion's eyes -->
+  <circle cx="270" cy="150" r="30" fill="#FFF"/>
+  <path d="M270,140 Q280,130 290,140 Z" fill="#000"/>
+
+  <!-- Lion's nose -->
+  <polygon points="260,170,250,180,240,170" fill="#FFB6C1"/>
+
+  <!-- Labeling coordinates for main features -->
+  <text x="200" y="370" text-anchor="middle" font-family="Arial" font-size="18">(Body: 200,200)</text>
+  <text x="250" y="95" text-anchor="middle" font-family="Arial" font-size="18">(Mane: 220,160)</text>
+  <text x="270" y="145" text-anchor="middle" font-family="Arial" font-size="18">(Eye: 270,150)</text>
+
+</svg>

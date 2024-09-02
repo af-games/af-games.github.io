@@ -1,0 +1,23 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <g transform="translate(150, 200) scale(1.5)">
+    <rect x="-80" y="-70" width="160" height="140" fill="brown"/>
+    <path d="M-30 -70 Q0,-90 30,-70 Q0,-50 -30,-70" stroke="black" fill="brown"/>
+    <circle cx="0" cy="-70" r="20" fill="brown"/>
+  </g>
+
+  <!-- Head -->
+  <g transform="translate(160, 100) rotate(-5)">
+    <ellipse cx="40" cy="40" rx="80" ry="100" fill="orange"/>
+    <path d="M20 30 Q50 10 90 30 Q70 60 50 50 Q20 60 0 30" stroke="black" fill="orange"/>
+    <circle cx="40" cy="80" r="15" fill="black"/>
+  </g>
+
+  <!-- Legs -->
+  <g transform="translate(170, 300)">
+    <rect x="-20" y="-60" width="40" height="120" fill="brown"/>
+    <path d="M-20 -60 Q0,-90 20,-60 Q10,-80 0,-70 Q-10,-80 -20,-60" stroke="black" fill="brown"/>
+  </g>
+
+</svg>

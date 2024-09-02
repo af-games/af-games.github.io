@@ -1,0 +1,69 @@
+<svg width="800" height="600" style="background-color: #f2e6d8;">
+```
+
+2. **Plant seeds - initial shapes**
+
+For simplicity, let's use rectangles for the body and circles for the head and limbs.
+
+```svg
+  <rect id="body" x="150" y="400" width="300" height="200"/>
+  <circle id="head" cx="275" cy="325" r="80"/>
+  <circle id="arm1" cx="175" cy="400" r="40"/>
+  <circle id="arm2" cx="325" cy="400" r="40"/>
+  <circle id="leg1" cx="100" cy="500" r="40"/>
+  <circle id="leg2" cx="400" cy="500" r="40"/>
+```
+
+3. **Water and nurture seeds - apply transformations**
+
+Rotate, scale, translate the shapes to create the dinosaur's form.
+
+```svg
+  <!-- Body -->
+  <use xlink:href="#body" transform="rotate(20, 275, 460)"/>
+
+  <!-- Head -->
+  <use xlink:href="#head" transform="rotate(-10, 275, 325)"/>
+
+  <!-- Arms -->
+  <use xlink:href="#arm1" transform="scale(0.8), rotate(-90, 175, 400)"/>
+  <use xlink:href="#arm2" transform="scale(0.8), rotate(30, 325, 400)"/>
+
+  <!-- Legs -->
+  <use xlink:href="#leg1" transform="rotate(-60, 100, 500)"/>
+  <use xlink:href="#leg2" transform="rotate(20, 400, 500)"/>
+```
+
+4. **Prune unnecessary elements/attributes**
+
+Since we're using `use` to replicate shapes and applying transformations directly to them, there's no need for the original shapes or their attributes. We can remove those.
+
+```svg
+<!-- Removed: <rect id="body"... /> -->
+<!-- Removed: <circle id="head"... /> -->
+<!-- Removed: <circle id="arm1"... /> -->
+<!-- Removed: <circle id="leg1"... /> -->
+<!-- Removed: <circle id="arm2"... /> -->
+<!-- Removed: <circle id="leg2"... /> -->
+```
+
+5. **Write out SVG code**
+
+Here's the final SVG code:
+
+```svg
+<svg width="800" height="600" style="background-color: #f2e6d8;">
+  <!-- Body -->
+  <use xlink:href="#body" transform="rotate(20, 275, 460)"/>
+
+  <!-- Head -->
+  <use xlink:href="#head" transform="rotate(-10, 275, 325)"/>
+
+  <!-- Arms -->
+  <use xlink:href="#arm1" transform="scale(0.8), rotate(-90, 175, 400)"/>
+  <use xlink:href="#arm2" transform="scale(0.8), rotate(30, 325, 400)"/>
+
+  <!-- Legs -->
+  <use xlink:href="#leg1" transform="rotate(-60, 100, 500)"/>
+  <use xlink:href="#leg2" transform="rotate(20, 400, 500)"/>
+</svg>

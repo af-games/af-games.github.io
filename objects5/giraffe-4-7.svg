@@ -1,0 +1,42 @@
+<svg width="800px" height="600px" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E5F5E0"/>
+
+  <!-- Giraffe Plains -->
+  <path id="giraffePlains" d="M50,200 Q350,100 750,200 A400,400 0 1 0 50,200 Z"
+        fill="#FFD966"/>
+
+  <!-- Giraffe Forest -->
+  <path id="giraffeForest" d="M150,300 Q350,370 550,300 A400,400 0 1 0 150,300 Z"
+        fill="#9BC5C3"/>
+
+  <!-- Acacia Mountains -->
+  <polygon id="acaciaMts" points="250,370 650,370 450,550" fill="#D9E1DB"/>
+  <text x="450" y="580" text-anchor="middle" font-size="24px">Acacia Mountains</text>
+
+  <!-- River -->
+  <path id="river" d="M70,450 Q300,600 550,450 Q800,250 950,450" stroke="#7EC1D6" stroke-width="20"
+        fill="transparent"/>
+
+  <!-- Savannah -->
+  <path id="savannah" d="M50,400 Q350,500 750,400 A400,400 0 1 0 50,400 Z"
+        fill="#FFD966"/>
+
+  <!-- Dense Forest -->
+  <path id="denseForest" d="M250,550 Q350,650 450,550 A400,400 0 1 0 250,550 Z"
+        fill="#6C7A89"/>
+
+  <!-- Giraffe City -->
+  <circle id="giraffeCity" cx="350" cy="250" r="150" stroke="#FFD966" stroke-width="20"
+          fill="transparent"/>
+  <text x="350" y="230" text-anchor="middle" font-size="24px">Giraffe City</text>
+
+  <!-- Labels -->
+  <text x="180" y="270" text-anchor="start" font-size="24px">Giraffe Plains</text>
+  <text x="650" y="370" text-anchor="end" font-size="24px">Savannah</text>
+  <text x="280" y="520" text-anchor="start" font-size="24px">Dense Forest</text>
+
+  <!-- Legend -->
+  <rect x="680" y="10" width="100" height="30" fill="#FFD966"/>
+  <text x="750" y="30" text-anchor="start" font-size="24px">Giraffe Regions</text>
+</svg>

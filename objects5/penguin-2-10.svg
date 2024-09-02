@@ -1,0 +1,41 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="url(#Gradient1)"/>
+
+  <!-- Body -->
+  <polygon points="250,50 350,150 400,150 450,50"
+           fill="url(#Gradient2)" />
+
+  <!-- Head -->
+  <circle cx="350" cy="75" r="75" fill="url(#Gradient3)"/>
+
+  <!-- Feet -->
+  <rect x="280" y="175" width="40" height="100" rx="20"
+        fill="url(#Gradient4)"/>
+  <rect x="360" y="175" width="40" height="100" rx="20"
+        fill="url(#Gradient4)"/>
+
+  <!-- Wings -->
+  <polygon points="250,150 150,250 250,350"
+           fill="url(#Gradient5)" />
+  <polygon points="350,150 450,250 350,350"
+           fill="url(#Gradient5)"/>
+
+  <!-- Beak -->
+  <path d="M300,75 L320,90 L340,75 Z" fill="url(#Gradient6)"/>
+
+  <!-- Eyes -->
+  <circle cx="310" cy="60" r="15" fill="black"/>
+  <circle cx="380" cy="60" r="15" fill="black"/>
+
+  <!-- Defining gradients -->
+  <defs>
+    <linearGradient id="Gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(204,204,255);stop-opacity:1"/>
+    </linearGradient>
+    <!-- Add more gradients here for other shapes -->
+  </defs>
+
+</svg>

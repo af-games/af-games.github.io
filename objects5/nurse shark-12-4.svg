@@ -1,0 +1,79 @@
+<svg width="800" height="600">
+  <defs>
+    <!-- Defining patterns and gradients here -->
+  </defs>
+```
+
+Now let's draw the sea with a light blue color. We'll use this as the background for our map.
+
+```xml
+  <rect x="0" y="0" width="800" height="600" fill="lightblue"/>
+```
+
+Next, we'll create three islands using polygons for variety and to represent land masses. Each island will have different sizes and positions:
+
+```xml
+<g id="islands">
+  <!-- Island 1 -->
+  <polygon points="40,80 90,30 150,70" fill="green"/>
+  <text x="65" y="60" font-size="12px" text-anchor="middle">Island 1</text>
+
+  <!-- Island 2 -->
+  <polygon points="280,40 330,90 220,150" fill="green"/>
+  <text x="275" y="110" font-size="12px" text-anchor="middle">Island 2</text>
+
+  <!-- Island 3 -->
+  <polygon points="480,260 550,220 520,300" fill="green"/>
+  <text x="515" y="270" font-size="12px" text-anchor="middle">Island 3</text>
+</g>
+```
+
+Now let's add some mountains on Island 1 using triangles:
+
+```xml
+<g id="mountains">
+  <!-- Mountain on Island 1 -->
+  <polygon points="50,60 90,20 40,80" fill="brown"/>
+</g>
+```
+
+Forests will be represented by ellipses:
+
+```xml
+<g id="forests">
+  <!-- Forest on Island 1 -->
+  <ellipse cx="70" cy="50" rx="30" ry="20" fill="green"/>
+  <!-- Forest on Island 2 -->
+  <ellipse cx="290" cy="80" rx="40" ry="25" fill="green"/>
+</g>
+```
+
+Rivers will be paths:
+
+```xml
+<g id="rivers">
+  <!-- River on Island 1 -->
+  <path d="M60,120 Q90,150 130,120" stroke="blue" fill="transparent"/>
+  <!-- River on Island 2 -->
+  <path d="M270,180 Q310,210 340,180" stroke="blue" fill="transparent"/>
+</g>
+```
+
+Let's add a treasure chest (a simple rectangle) on Island 3:
+
+```xml
+<rect x="500" y="280" width="30" height="20" fill="gold" />
+<text x="510" y="300" font-size="12px" text-anchor="middle">Treasure!</text>
+```
+
+Finally, let's add Nurse Shark's starting position (a circle) on Island 1:
+
+```xml
+<circle cx="60" cy="140" r="5" fill="black"/>
+<text x="55" y="130" font-size="12px">Nurse Shark</text>
+```
+
+Close the SVG:
+
+```xml
+</svg>

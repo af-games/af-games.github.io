@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Mermaid's face -->
+  <circle cx="256" cy="256" r="200" fill="#F1E7D2"/>
+  <circle cx="256" cy="256" r="180" stroke="#A38566" stroke-width="20"/>
+
+  <!-- Mermaid's hair -->
+  <path d="M240,200 C220,160 290,120 370,180 H452 V260 Z" fill="#4C2906" opacity="0.8"/>
+  <path d="M230,220 Q280,260 320,220 T370,260" stroke="#4C2906" fill="transparent"/>
+
+  <!-- Mermaid's upper body scales -->
+  <defs>
+    <pattern id="scales" patternUnits="userSpaceOnUse" width="50" height="50">
+      <path d="M0,0 L50,0 Q40,25 50,50 L0,50 Z" fill="#0D76A8"/>
+    </pattern>
+  </defs>
+  <rect x="120" y="280" width="300" height="240" fill="url(#scales)"/>
+
+  <!-- Mermaid's eyes -->
+  <circle cx="210" cy="220" r="20" fill="#2E2725"/>
+  <circle cx="300" cy="220" r="20" fill="#2E2725"/>
+
+</svg>

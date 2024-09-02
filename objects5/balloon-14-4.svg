@@ -1,0 +1,25 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Body -->
+  <circle cx="100" cy="50" r="70">
+    <style>
+      fill: url(#balloonGradient);
+      stroke: none;
+    </style>
+  </circle>
+
+  <!-- Balloon Tail -->
+  <polygon points="90,230 110,230 100,260" fill="#ffff00">
+    <animate attributeName="points" dur="2s" repeatCount="indefinite"
+             from="90,230 110,230 100,260" to="95,235 105,235 100,270"/>
+  </polygon>
+
+  <!-- Defining Gradients -->
+  <defs>
+    <linearGradient id="balloonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff0033; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ff5a6e; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

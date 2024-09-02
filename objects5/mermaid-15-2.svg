@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <g id="mermaid">
+    <!-- All the previously defined elements go here -->
+    <use xlink:href="#mermaid-body"/>
+    <use xlink:href="#mermaid-hair"/>
+    <use xlink:href="#mermaid-eyes"/>
+    <use xlink:href="#mermaid-mouth"/>
+    <use xlink:href="#mermaid-arm-left"/>
+    <use xlink:href="#mermaid-arm-right"/>
+    <!-- Legs and tail fins are not defined as reusable elements -->
+  </g>
+</svg>

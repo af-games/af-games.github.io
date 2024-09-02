@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#FFFFFF"/>
+
+  <!-- Mountains -->
+  <path id="mountains" d="M50,400 Q150,350 300,375 Q450,425 600,350 Q750,400 800,375 V600 H0 Z" fill="#9D8C7B"/>
+
+  <!-- Rivers -->
+  <path id="river1" d="M100,450 Q200,400 350,450" stroke="#5FBAE0" stroke-width="50" fill="transparent"/>
+  <path id="river2" d="M600,450 Q500,400 350,450" stroke="#5FBAE0" stroke-width="50" fill="transparent"/>
+
+  <!-- Forests -->
+  <polygon id="forest1" points="200,500 350,550 150,550" fill="#0B6736"/>
+  <polygon id="forest2" points="450,500 600,550 350,550" fill="#0B6736"/>
+
+  <!-- Cities -->
+  <circle id="city1" cx="350" cy="300" r="80" fill="#F2C24D"/>
+  <circle id="city2" cx="550" cy="300" r="80" fill="#F2C24D"/>
+
+  <!-- Hot Air Balloons -->
+  <circle id="balloon1" cx="650" cy="250" r="40" fill="#FFCC99"/>
+  <circle id="balloon2" cx="700" cy="200" r="40" fill="#FFCC99"/>
+  <path id="basket1" d="M630,250 Q660,230 680,250 Q660,270 630,250" stroke="#FFCC99" stroke-width="10" fill="transparent"/>
+  <path id="basket2" d="M680,200 Q710,180 740,200 Q710,220 680,200" stroke="#FFCC99" stroke-width="10" fill="transparent"/>
+  <path id="balloon-string1" d="M650,250 L650,350" stroke="#FFCC99" stroke-width="5"/>
+  <path id="balloon-string2" d="M700,200 L700,280" stroke="#FFCC99" stroke-width="5"/>
+
+  <!-- Labels -->
+  <text x="10" y="480" font-family="Verdana" font-size="16">Aerium: The Skyward Realm</text>
+  <text x="325" y="375" font-family="Verdana" font-size="14">Mountains of Aether</text>
+  <text x="50" y="490" font-family="Verdana" font-size="14">Luminary River</text>
+  <text x="620" y="490" font-family="Verdana" font-size="14">Stellar River</text>
+  <text x="350" y="575" font-family="Verdana" font-size="14">Veridian Forest</text>
+  <text x="500" y="575" font-family="Verdana" font-size="14">Crimson Forest</text>
+  <text x="350" y="280" font-family="Verdana" font-size="14">Skyward City</text>
+  <text x="550" y="280" font-family="Verdana" font-size="14">Cloudhaven City</text>
+
+</svg>

@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="100" y="370" width="300" height="60" fill="#9B511F"/>
+
+  <!-- Bottom Layer -->
+  <circle cx="200" cy="340" r="80" fill="#FFF2CC"/>
+  <circle cx="200" cy="340" r="70" stroke="#C4A484" stroke-width="1"/>
+
+  <!-- Middle Layer -->
+  <circle cx="200" cy="295" r="60" fill="#FFF2CC"/>
+  <circle cx="200" cy="295" r="50" stroke="#C4A484" stroke-width="1"/>
+
+  <!-- Top Layer -->
+  <circle cx="200" cy="250" r="50" fill="#FFF2CC"/>
+  <circle cx="200" cy="250" r="40" stroke="#C4A484" stroke-width="1"/>
+
+  <!-- Icing -->
+  <path d="M170,230 Q190,250 230,230 T250,250 T270,230 T310,250 T330,230" fill="#FFFFFF"/>
+
+  <!-- Candles -->
+  <polygon points="180,220,220,220,200,260" fill="#FCD116"/>
+  <polygon points="240,220,280,220,260,260" fill="#FCD116"/>
+
+</svg>

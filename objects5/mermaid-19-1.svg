@@ -1,0 +1,16 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mermaid body -->
+  <path d="M10,90 Q50,60 140,90 Q180,140 100,200 L10,200" stroke="black" fill="lightblue"/>
+
+  <!-- Mermaid hair -->
+  <polygon points="50,30 90,10 140,30" stroke="black" fill="purple"/>
+
+  <!-- Mermaid tail -->
+  <path d="M10,270 Q50,280 140,270 Q180,260 100,290 L10,290" stroke="black" fill="lightgreen"/>
+
+  <!-- Mermaid eyes -->
+  <circle cx="60" cy="80" r="5" stroke="black" fill="white"/>
+  <circle cx="130" cy="80" r="5" stroke="black" fill="white"/>
+
+</svg>

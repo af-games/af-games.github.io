@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Sky -->
+  <rect width="100%" height="40%" fill="#87CEEB"/>
+
+  <!-- Grass -->
+  <rect x="0" y="60%" width="100%" height="40%" fill="#3D9970"/>
+
+  <!-- Sun -->
+  <circle cx="250" cy="50" r="50" fill="#FBBB1A"/>
+  <circle cx="250" cy="50" r="30" fill="#FFF8DC"/>
+
+  <!-- Roses (Circles) - Sunlight -->
+  <circle cx="70" cy="200" r="40" fill="#FF69B4"/>
+  <circle cx="130" cy="170" r="45" fill="#FF69B4"/>
+
+  <!-- Daisies (Ellipses) - Shade -->
+  <ellipse cx="300" cy="250" rx="40" ry="60" fill="#FFFACD"/>
+  <ellipse cx="370" cy="280" rx="45" ry="55" fill="#FFFACD"/>
+
+  <!-- Tulips (Paths) - alternating sunlight and shade -->
+  <path d="M190,120 Q200,150 210,120" stroke="#DA70D6" fill="transparent"/>
+  <path d="M240,180 Q250,210 260,180" stroke="#FFFACD" fill="transparent"/>
+
+</svg>

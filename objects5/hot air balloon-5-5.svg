@@ -1,0 +1,33 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon envelope -->
+  <path id="balloonEnvelope" d="M150,50 Q175,0 200,50 Q175,100 150,50" fill="#FFCC00"/>
+  <animateTransform attributeName="d"
+                    type="scale"
+                    values="M150,50 Q175,0 200,50 Q175,100 150,50; M160,40 Q185,0 210,40 Q185,90 160,40"
+                    dur="3s"
+                    repeatCount="indefinite"/>
+
+  <!-- Basket -->
+  <rect id="basket" x="130" y="90" width="40" height="20" fill="#66BBFF"/>
+  <animate attributeName="y"
+           values="90;85;90"
+           dur="1s"
+           repeatCount="indefinite"/>
+
+  <!-- Burner -->
+  <circle id="burner" cx="170" cy="70" r="10" fill="#FF3300"/>
+  <animateTransform attributeName="cy"
+                    type="translate"
+                    values="70;65;70"
+                    dur="2s"
+                    repeatCount="indefinite"/>
+
+  <!-- Rope -->
+  <path id="rope" d="M145,50 Q150,30 170,50" stroke="#FFFFFF" stroke-width="3"/>
+  <animate attributeName="opacity"
+           values="1;0.5;1"
+           dur="2s"
+           repeatCount="indefinite"/>
+
+</svg>

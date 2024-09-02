@@ -1,0 +1,21 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Pathways -->
+  <rect x="100" y="100" width="300" height="300" fill="lightgreen"/>
+
+  <!-- Lion statues (circular structures) -->
+  <circle cx="150" cy="150" r="80" fill="gold"/>
+  <circle cx="250" cy="200" r="60" fill="gold"/>
+  <circle cx="350" cy="150" r="70" fill="gold"/>
+
+  <!-- Lions (basic shapes and lines) -->
+  <path d="M190,140 A80,80 0 0 0 200,60 80,80 0 0 1 190,100 Z" fill="brown"/>
+  <path d="M230,175 A40,40 0 0 0 240,135 40,40 0 0 1 230,145 Z" fill="brown"/>
+  <path d="M310,130 A60,60 0 0 0 320,70 60,60 0 0 1 310,90 Z" fill="brown"/>
+
+  <!-- Plants and details (organic forms) -->
+  <path d="M120,180 Q140,150 160,180 T180,200 T200,180 T180,160 T160,180 Z" fill="green"/>
+  <path d="M220,230 Q240,210 260,230 T280,250 T300,230 T280,210 T260,230 Z" fill="green"/>
+  <path d="M170,270 Q190,290 210,270 T230,290 T250,270 T230,250 T210,270 Z" fill="green"/>
+
+</svg>

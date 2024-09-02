@@ -1,0 +1,27 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle wall -->
+  <rect id="castle_wall" x="100" y="100" width="300" height="200"
+        fill="gray" stroke="black"/>
+
+  <!-- Tower tops (semicircles) -->
+  <mask id="tower_mask">
+    <circle cx="150" cy="75" r="75" fill="white"/>
+    <circle cx="350" cy="75" r="75" fill="white"/>
+  </mask>
+  <rect x="100" y="50" width="400" height="200"
+        fill="gray" mask="url(#tower_mask)" stroke="black"/>
+
+  <!-- Gate arch -->
+  <path id="gate_arch" d="M175,300 Q225,250 325,300 t-50,-50"
+        fill="transparent" stroke="black"/>
+
+  <!-- Window slots -->
+  <mask id="window_mask">
+    <rect x="160" y="80" width="20" height="40"/>
+    <rect x="320" y="80" width="20" height="40"/>
+  </mask>
+  <rect x="100" y="50" width="400" height="200"
+        fill="gray" mask="url(#window_mask)" stroke="black"/>
+
+</svg>

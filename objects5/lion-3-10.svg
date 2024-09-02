@@ -1,0 +1,28 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion's Body -->
+  <circle cx="150" cy="250" r="100" fill="#C9867B">
+    <animate attributeName="r" values="100;120;100" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Lion's Face -->
+  <circle cx="150" cy="210" r="30" fill="#FFF">
+    <animate attributeName="r" values="30;40;30" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Lion's Eyes -->
+  <circle cx="135" cy="205" r="5" fill="#000">
+    <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="165" cy="205" r="5" fill="#000">
+    <animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Lion's Mane -->
+  <g stroke="none">
+    <path d="M120,180 Q135,140 160,180 Q175,140 190,180" fill="#FFD700" />
+    <path d="M120,200 Q135,230 160,200 Q175,230 190,200" fill="#FFD700" />
+    <path d="M120,220 Q135,240 160,220 Q175,240 190,220" fill="#FFD700" />
+  </g>
+
+</svg>

@@ -1,0 +1,18 @@
+<svg width="200" height="300" viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black velvet background -->
+  <rect x="0" y="0" width="200" height="300" fill="#1a1a1a"/>
+
+  <!-- Mermaid body and tail -->
+  <path d="M75 50 Q90 40, 110 60 Q130 80, 150 90 Q170 110, 190 130 Q200 150, 180 170 Q160 190, 140 210 Q120 230, 100 250 Q80 270, 60 290 Q40 310, 20 330 Q0 350, 20 370 Q40 390, 60 410 Q80 430, 100 450 Q120 470, 140 490 Q160 510, 180 530 Q200 550, 190 570 Q200 590, 180 610 Q160 630, 140 650 Q120 670, 100 690 Q80 710, 60 730 Q40 750, 20 770 Q0 790, 20 810 Q40 830, 60 850 Q80 870, 100 890 Q120 910, 140 930 Q160 950, 180 970 Q200 990, 190 1010 Z" fill="#40a9ff" stroke="#0d5f8c" stroke-width="2"/>
+
+  <!-- Mermaid hair -->
+  <path d="M20 810 Q40 760, 70 730 Q100 700, 140 670 Q180 640, 220 610 Q260 580, 300 550" stroke="#ffb6c1" stroke-width="3"/>
+
+  <!-- Mermaid accessories (crown and shell) -->
+  <circle cx="100" cy="470" r="20" fill="#fff"/>
+  <polygon points="120,490 150,490 135,520" fill="#fff"/>
+
+  <!-- Mermaid eyes -->
+  <circle cx="120" cy="440" r="8" fill="#000"/>
+  <circle cx="160" cy="440" r="8" fill="#000"/>
+</svg>

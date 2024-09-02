@@ -1,0 +1,26 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#F5DEB3"/>
+
+  <!-- Castle Outline and Moat -->
+  <rect x="100" y="50" width="300" height="250" rx="50" stroke="#000" stroke-width="5"/>
+  <rect x="98" y="48" width="304" height="256" fill="#A3C7FF" stroke="#000" stroke-width="1"/>
+
+  <!-- Tower -->
+  <rect x="150" y="50" width="200" height="200" rx="50" fill="#A9A9A9"/>
+
+  <!-- Drawbridge -->
+  <rect x="150" y="250" width="200" height="30" fill="#8B4513"/>
+
+  <!-- Gatehouse -->
+  <rect x="175" y="280" width="150" height="70" fill="#A9A9A9"/>
+
+  <!-- Turrets -->
+  <circle cx="200" cy="120" r="40" fill="#A9A9A9"/>
+  <circle cx="300" cy="120" r="40" fill="#A9A9A9"/>
+
+  <!-- Roof Line -->
+  <polyline points="250,70 350,70 350,100 250,100" stroke="#000" fill="transparent"/>
+
+</svg>

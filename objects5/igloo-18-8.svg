@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Igloo -->
+  <path id="igloo" fill="#87CEEB" d="M100 50 Q150 60, 200 50 Q250 60, 300 50 Q350 60, 400 50 Z"/>
+  <path fill="#F0FFFF" d="M175 50 L225 70 H275 L325 70 H375 L425 50 Z"/>
+
+  <!-- Snowman (Garnish) -->
+  <circle cx="225" cy="150" r="50" fill="#FFFFFF"/>
+  <circle cx="225" cy="110" r="30" fill="#FFFFFF"/>
+  <circle cx="225" cy="80" r="20" fill="#FFFFFF"/>
+  <path d="M210 70 Q225 60, 240 70 Z" stroke="#000000" fill="transparent"/>
+
+  <!-- Tableware -->
+  <rect x="380" y="300" width="100" height="50" rx="10" fill="#FFA500"/>
+  <path d="M420 370 Q460 390, 500 370 Z" stroke="#000000" fill="transparent"/>
+
+  <!-- Utensils -->
+  <path id="fork" d="M480 350 L510 420 L510 300 Z" stroke="#CC7722" fill="transparent"/>
+  <path transform="rotate(90, 550, 375)" d="M550 375 L580 350 L550 325 Z" stroke="#CC7722" fill="transparent"/>
+
+  <!-- Text -->
+  <text x="10" y="450" font-family="Verdana" font-size="36">Igloo Delight</text>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFFACD"/>
+</svg>

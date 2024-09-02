@@ -1,0 +1,16 @@
+<svg width="10" height="15" viewBox="0 0 10 15" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="0" y="2" width="3" height="8" style="fill:blue"/>
+
+  <!-- Head (ellipse) -->
+  <ellipse cx="1.5" cy="6" rx="1.5" ry="4" style="fill:lightblue"/>
+
+  <!-- Eyes (circles) -->
+  <circle cx="0.75" cy="5.8" r="0.5" style="fill:black"/>
+  <circle cx="2.25" cy="5.8" r="0.5" style="fill:black"/>
+
+  <!-- Tail Fin (polygon) -->
+  <polygon points="0,4 1,-6 -1,-6" style="fill:blue"/>
+
+</svg>

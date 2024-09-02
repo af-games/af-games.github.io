@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Plate -->
+  <circle cx="250" cy="260" r="180" fill="#FFFBD9"/>
+
+  <!-- Jellyfish -->
+  <g transform="translate(150, 150)">
+    <path d="M230,40 a70,70 0 1,1 -140,0 a70,70 0 1,1 140,0" fill="#C6E9FF"/>
+    <path d="M200,80 q50,-30 100,50 a100,100 0 0,0 -100,-50 z" fill="#007BFF"/>
+    <circle cx="220" cy="20" r="10" fill="#0064C8"/>
+  </g>
+
+  <!-- Squid Ink Pasta -->
+  <path d="M130,290 Q150,320 170,290 Q190,320 210,290" stroke="#4F5D6C" fill="transparent"/>
+
+  <!-- Cherry Tomatoes -->
+  <circle cx="80" cy="260" r="20" fill="#FF6347"/>
+  <circle cx="220" cy="260" r="20" fill="#FF6347"/>
+
+  <!-- Fresh Basil Leaves (Garnish) -->
+  <path d="M120,220 Q140,200 180,220 Q200,200 240,220" stroke="#3D9970" fill="transparent"/>
+  <path d="M150,210 q5,-5 10,-5 a5,5 0 0,1 -5,5 z" fill="#3D9970"/>
+
+  <!-- Fork -->
+  <g transform="translate(400, 280)">
+    <path d="M0,-40 l-20,-60 h40 l-20,-60" stroke="#CFCFCF" fill="transparent"/>
+    <rect x="-10" y="-80" width="20" height="40" rx="5" fill="#CFCFCF"/>
+  </g>
+
+  <!-- Knife -->
+  <path transform="translate(370, 260)" d="M-20,-20 h40 l-10,20 z" stroke="#CFCFCF" fill="transparent"/>
+
+</svg>

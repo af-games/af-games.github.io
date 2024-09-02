@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Main body outline -->
+  <path id="lion-body" d="M70,-30 Q80,-10 90,10 Q70,30 60,40 Q50,30 40,10 Q30,-10 20,-30 Z"
+        fill="gold" stroke="black"/>
+
+  <!-- Head -->
+  <path d="M50,-20 A30,30 0 0 1 90,-20 A30,30 0 0 1 50,40 A30,30 0 0 1 10,-20" fill="gold"/>
+
+  <!-- Eyes -->
+  <circle cx="60" cy="-22" r="5" fill="black"/>
+  <circle cx="80" cy="-22" r="5" fill="black"/>
+
+  <!-- Mane -->
+  <path d="M30,-40 Q40,-30 50,-20 Q60,-10 70,0 Q80,10 90,20 Q100,30 110,40 Z" fill="gold"/>
+
+  <!-- Legs -->
+  <path d="M40,-30 Q50,-20 60,-10 L70,-10 Q80,-20 90,-30 Z"/>
+  <path d="M60,-40 Q50,-30 40,-20 L30,-20 Q20,-30 10,-40 Z"/>
+
+  <!-- Tail -->
+  <path d="M70,40 Q80,50 90,40 Q100,30 110,20 Q120,10 110,0" fill="gold"/>
+
+  <!-- Labels -->
+  <text x="-60" y="50">(0,0)</text>
+</svg>

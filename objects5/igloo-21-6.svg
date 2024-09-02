@@ -1,0 +1,34 @@
+<svg width="100%" height="100%" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mannequin outline for reference -->
+  <rect x="50" y="100" width="400" height="600" rx="20" style="fill: none; stroke: black"/>
+
+  <!-- Coat Bodice Front -->
+  <rect x="70" y="100" width="360" height="560" rx="20" style="fill: url(#gradient);"/>
+  <path d="M70,100 Q40,90 70,80 H430 Q440,90 430,100 V660 H70 Z" style="fill: none; stroke: black"/>
+
+  <!-- Coat Bodice Back -->
+  <rect x="120" y="100" width="360" height="700" rx="20" style="fill: url(#gradient);"/>
+  <path d="M120,100 Q100,90 120,80 H480 Q500,90 480,100 V770 H120 Z" style="fill: none; stroke: black"/>
+
+  <!-- Sleeves -->
+  <circle cx="230" cy="180" r="120" style="fill: url(#gradient);"/>
+  <rect x="140" y="300" width="60" height="400" rx="10" style="fill: url(#pattern);"/>
+  <circle cx="370" cy="180" r="120" style="fill: url(#gradient);"/>
+  <rect x="380" y="300" width="60" height="400" rx="10" style="fill: url(#pattern);"/>
+
+  <!-- Hood & Collar -->
+  <ellipse cx="295" cy="70" rx="210" ry="140" style="fill: url(#gradient);"/>
+  <rect x="180" y="30" width="60" height="60" rx="10" style="fill: url(#pattern);"/>
+  <rect x="350" y="30" width="60" height="60" rx="10" style="fill: url(#pattern);"/>
+
+  <!-- Gradients & Patterns -->
+  <defs>
+    <linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="800">
+      <stop offset="0%"   stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#2F4F4F"/>
+    </linearGradient>
+    <pattern id="pattern" patternUnits="userSpaceOnUse" width="50" height="50">
+      <!-- Igloo-like shape pattern goes here -->
+    </pattern>
+  </defs>
+</svg>

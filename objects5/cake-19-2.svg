@@ -1,0 +1,35 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake -->
+  <path id="cake" d="M150,20 A70,70 0 1,0 280,20 A70,70 0 1,0 150,140 Q200,90 280,140 Q350,90 310,140" fill="url(#cakeGradient)" stroke-width="0"/>
+  <defs>
+    <!-- Cake Gradient -->
+    <linearGradient id="cakeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightgoldenrodyellow; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:bisque; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:wheat; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Frosting -->
+  <path id="frosting" d="M80,25 Q140,60 220,60 Q280,30 340,75 Q400,30 460,90" fill="url(#frostingGradient)" stroke-width="0"/>
+  <defs>
+    <!-- Frosting Gradient -->
+    <linearGradient id="frostingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:whitesmoke; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:snow; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:ghostwhite; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Flowers -->
+  <circle cx="240" cy="80" r="35" fill="url(#flowerGradient)" stroke-width="2" stroke="black"/>
+  <circle cx="280" cy="120" r="25" fill="url(#flowerGradient)" stroke-width="2" stroke="black"/>
+  <defs>
+    <!-- Flower Gradient -->
+    <radialGradient id="flowerGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:orchid; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:violet; stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+
+</svg>

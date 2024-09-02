@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 500 500">
+
+  <!-- Kangaroo -->
+  <path id="kangaroo" d="M50 400 Q75 325, 125 400 Q100 475, 50 400" fill="brown">
+    <animate attributeName="y" values="400;200;400" dur="1s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Bird -->
+  <path id="bird" d="M250 100 Q275 75, 300 100 Q285 125, 250 100" fill="blue">
+    <animate attributeName="x" values="250;350;250" dur="1s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Sun -->
+  <circle id="sun" cx="400" cy="20" r="30" fill="yellow">
+    <animate attributeName="y" values="20;80;20" dur="1s" repeatCount="indefinite"/>
+  </circle>
+
+</svg>

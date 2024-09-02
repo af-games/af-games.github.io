@@ -1,0 +1,21 @@
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Course Line -->
+  <path d="M50 50 L200 150 Q350 50 500 150" stroke="black" fill="transparent"/>
+
+  <!-- Mountain -->
+  <polygon points="90,80 120,70 130,120" fill="brown" stroke="black"/>
+
+  <!-- Valley -->
+  <path d="M240 160 Q270 130 300 160" stroke="green" fill="transparent"/>
+
+  <!-- Large Tree -->
+  <circle cx="350" cy="100" r="20" fill="green"/>
+
+  <!-- Small Trees -->
+  <ellipse cx="370" cy="90" rx="8" ry="5" fill="green"/>
+  <ellipse cx="400" cy="110" rx="6" ry="4" fill="green"/>
+  <ellipse cx="420" cy="105" rx="7" ry="3" fill="green"/>
+
+  <!-- River -->
+  <path d="M400 180 Q450 160 500 180" stroke="blue" fill="transparent" stroke-width="2"/>
+</svg>

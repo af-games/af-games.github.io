@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Background -->
+  <rect width="600" height="600" fill="#000"/>
+
+  <!-- Igloo -->
+  <g id="igloo">
+
+    <!-- Dome -->
+    <path d="M0,-100 A100,100 0 0 1 0,100" fill="#333" stroke="none"/>
+    <animateTransform attributeName="d"
+                     type="rotate"
+                     from="0"
+                     to="360"
+                     dur="5s"
+                     repeatCount="indefinite"/>
+
+    <!-- Door -->
+    <rect x="-20" y="-40" width="40" height="80" fill="#333"/>
+    <animate attributeName="width"
+             from="40"
+             to="0"
+             dur="1s"
+             begin="doorOpen; doorClose=doorOpen+0.5s"
+             repeatCount="indefinite"/>
+    <animate id="doorOpen" attributeName="y"
+             from="-40"
+             to="-80"
+             dur="0.5s"
+             fill="freeze"/>
+    <animate id="doorClose" attributeName="y"
+             from="-80"
+             to="-40"
+             dur="0.5s"
+             fill="freeze"/>
+
+  </g>
+
+</svg>

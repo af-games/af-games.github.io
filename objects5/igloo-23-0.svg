@@ -1,0 +1,26 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#ADD8E6"/>
+
+  <!-- Igloo Outer Wall -->
+  <circle cx="175" cy="250" r="125" fill="white"/>
+
+  <!-- Igloo Roof -->
+  <path d="M175,50 Q300,75 325,175 A125,125 0 0 1 50,175 Q75,75 175,50 Z" fill="white"/>
+
+  <!-- Igloo Inner Wall -->
+  <circle cx="175" cy="250" r="90" fill="#A9A9A9"/>
+
+  <!-- Door -->
+  <rect x="140" y="320" width="60" height="80" fill="black"/>
+
+  <!-- Window -->
+  <rect x="160" y="350" width="20" height="30" fill="#ADD8E6"/>
+
+  <!-- Snow -->
+  <circle cx="90" cy="240" r="5" fill="white"/>
+  <circle cx="210" cy="270" r="5" fill="white"/>
+  <circle cx="130" cy="180" r="5" fill="white"/>
+
+</svg>

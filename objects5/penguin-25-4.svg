@@ -1,0 +1,37 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E4F0FF"/>
+
+  <!-- Body -->
+  <ellipse cx="250" cy="350" rx="150" ry="180"
+           fill="url(#penguin-body-grad)"/>
+  <linearGradient id="penguin-body-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:black; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:white; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Head -->
+  <ellipse cx="250" cy="280" rx="90" ry="120"
+           fill="url(#penguin-head-grad)"/>
+  <linearGradient id="penguin-head-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:black; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#4D6E8C; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Eye -->
+  <circle cx="230" cy="270" r="15"
+          fill="url(#penguin-eye-grad)"/>
+  <linearGradient id="penguin-eye-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:white; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#333; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Beak -->
+  <path d="M260,275 Q290,280 300,240 Q270,220 260,210"
+        fill="#FFD700"/>
+
+  <!-- Wing -->
+  <path d="M190,320 Q210,350 240,320 Q270,350 290,320"
+        fill="#3366CC"/>
+
+</svg>

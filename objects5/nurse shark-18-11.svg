@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ancient Era (Rectangles) -->
+  <rect x="50" y="400" width="150" height="70" fill="#8B4513" stroke="#FFD700" stroke-width="2"/>
+  <text x="90" y="440" font-family="Verdana" font-size="16">Ancient Ruins</text>
+
+  <!-- Medieval Era (Polygons) -->
+  <polygon points="300,450 370,450 335,400 265,400" fill="#696969" stroke="#C0C0C0" stroke-width="2"/>
+  <text x="310" y="420" font-family="Verdana" font-size="16">Medieval Castles</text>
+
+  <!-- Futuristic Era (Paths) -->
+  <path d="M550,350 Q600,200 700,350 T800,450" fill="#ADD8E6" stroke="#0000FF" stroke-width="2"/>
+  <text x="620" y="390" font-family="Verdana" font-size="16">Futuristic Structures</text>
+
+  <!-- Timeline -->
+  <line x1="50" y1="550" x2="800" y2="550" stroke="#000" stroke-width="2"/>
+
+  <!-- Nurse Shark Icon -->
+  <path d="M400,500 Q370,470 400,440 Q430,470 400,500 Z" fill="#FF69B4" stroke="#FF1493" stroke-width="2"/>
+
+</svg>

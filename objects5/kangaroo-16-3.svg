@@ -1,0 +1,20 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ear -->
+  <path d="M150 50 h-40 v70 h40 z" fill="#B8947E"/>
+
+  <!-- Body -->
+  <path d="M50 100 h150 v120 H50 Z" fill="#F3DCDA"/>
+
+  <!-- Tail -->
+  <path d="M180 160 v-70" stroke="#B8947E" stroke-width="10"/>
+
+  <!-- Face -->
+  <circle cx="100" cy="125" r="30" fill="#F3DCDA"/>
+  <circle cx="90" cy="115" r="5" fill="#000000"/> <!-- Left eye -->
+  <circle cx="110" cy="115" r="5" fill="#000000"/> <!-- Right eye -->
+  <path d="M80 130 q90 0, 90 -60" stroke="#B8947E" stroke-width="5" fill="transparent"/>
+
+  <!-- Legs -->
+  <path d="M75 240 h-25 v50 h25 z" fill="#B8947E"/>
+  <path d="M160 240 h30 v50 h-30 z" fill="#B8947E"/>
+</svg>

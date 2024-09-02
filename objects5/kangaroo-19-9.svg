@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Kangaroo Mother -->
+  <g id="kangarooMother">
+    <circle cx="100" cy="200" r="80" fill="#FFA500" />
+    <ellipse cx="90" cy="140" rx="30" ry="60" fill="#FFC107"/>
+  </g>
+
+  <!-- Kangaroo Baby -->
+  <g id="kangarooBaby">
+    <circle cx="120" cy="220" r="40" fill="#FFA500"/>
+    <ellipse cx="110" cy="160" rx="15" ry="30" fill="#FFC107"/>
+  </g>
+
+  <!-- Animation -->
+  <animate
+    id="jump"
+    attributeName="cy"
+    from="200"
+    to="140"
+    begin="0s"
+    dur="1s"
+    repeatCount="indefinite"
+    fill="freeze" />
+</svg>

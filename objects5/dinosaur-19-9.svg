@@ -1,0 +1,25 @@
+<svg width="600" height="450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="450" fill="#F5DEB3"/>
+
+  <!-- Dinosaur's body -->
+  <path d="M100,200 Q150,150 200,200 Q250,250 300,200 Q350,150 400,200" fill="#2F4F4F"/>
+  <circle cx="350" cy="250" r="70" fill="#2F4F4F"/>
+
+  <!-- Dinosaur's clothing -->
+  <!-- Shirt -->
+  <rect x="100" y="180" width="200" height="120" fill="#DAA520" stroke-width="3"/>
+  <!-- Vest -->
+  <path d="M100,180 Q150,160 200,180 L400,180 Q350,160 300,180 fill="#DAA520" stroke-width="3"/>
+  <!-- Pants -->
+  <rect x="150" y="350" width="250" height="70" fill="#DAA520" stroke-width="3"/>
+
+  <!-- Dinosaur's accessories -->
+  <!-- Hat -->
+  <path d="M200,80 Q250,60 300,80 Q250,100 200,80 fill="#DAA520" stroke-width="3"/>
+  <!-- Leaf pattern on hat -->
+  <path d="M205,75 Q215,65 225,75 Q215,85 205,75 fill="#228B22"/>
+  <!-- Spikes on tail -->
+  <polygon points="400,230 420,210 440,230" fill="#DAA520"/>
+
+</svg>

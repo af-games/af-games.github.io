@@ -1,0 +1,22 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy Body -->
+  <path d="M180,240 Q170,260 190,280 Q210,260 200,240" fill="#008000" stroke="none"/>
+
+  <!-- Wings (Emerald Green) -->
+  <polygon points="150,100 230,70 270,140 190,170 150,100" fill="#008000"/>
+  <polygon points="160,90 240,60 280,130 200,160 160,90" fill="#008000"/>
+
+  <!-- Hair (Amethyst Purple) -->
+  <path d="M270,120 Q250,140 270,160 Q290,140 310,120" fill="#9C27B0"/>
+  <path d="M280,130 Q260,150 280,170 Q300,150 320,130" fill="#9C27B0"/>
+
+  <!-- Face (Simple Oval) -->
+  <ellipse cx="200" cy="140" rx="40" ry="60" fill="white"/>
+  <circle cx="200" cy="165" r="15" fill="black"/>
+
+  <!-- Dress (Amethyst Purple with Gold Lace) -->
+  <rect x="170" y="240" width="80" height="90" fill="#9C27B0"/>
+  <line x1="160" y1="320" x2="220" y2="320" stroke="gold" stroke-width="5"/>
+
+</svg>

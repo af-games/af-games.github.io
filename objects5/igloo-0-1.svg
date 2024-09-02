@@ -1,0 +1,14 @@
+<svg width="100" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer dome -->
+  <path d="M50,10 A40,40 0 0 1 97.5,60 Q87.5,10 50,10" fill="none" stroke="black"/>
+
+  <!-- Inner wall -->
+  <path d="M50,10 Q32.5,50 50,90" fill="#fff" stroke="lightgrey"/>
+
+  <!-- Door opening -->
+  <rect x="40" y="80" width="20" height="10" fill="#fff"/>
+
+  <!-- Window openings -->
+  <circle cx="35" cy="70" r="5" fill="#fff"/>
+  <circle cx="65" cy="70" r="5" fill="#fff"/>
+</svg>

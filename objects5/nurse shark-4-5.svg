@@ -1,0 +1,18 @@
+<svg width="1200" height="675" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="675" fill="lightblue"/>
+
+  <!-- Coral Reef (Middle Ground) -->
+  <polygon points="400,500 800,300 800,700 400,900" fill="darkgreen"/>
+
+  <!-- Fish Schools (Supporting Roles) -->
+  <circle cx="200" cy="400" r="15" fill="orange"/>
+  <circle cx="600" cy="500" r="10" fill="yellow"/>
+  <circle cx="1000" cy="350" r="12" fill="pink"/>
+
+  <!-- Nurse Sharks (Main Characters) -->
+  <path d="M750,450 Q850,500 900,600" stroke="orange" fill="transparent" stroke-width="20"/>
+  <path d="M650,500 Q750,550 800,600" stroke="yellow" fill="transparent" stroke-width="15"/>
+
+</svg>

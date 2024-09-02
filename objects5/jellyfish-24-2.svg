@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Bell (body) -->
+  <ellipse cx="0" cy="-30" rx="40" ry="60"
+           fill="#ffb97e" fill-opacity="0.8"/>
+  <linearGradient id="bellGrad" x1="50%" y1="0%" x2="50%" y2="100%">
+    <stop offset="0%" style="stop-color:#ffb97e; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#ffe5cc; stop-opacity:1" />
+  </linearGradient>
+  <ellipse cx="0" cy="-30" rx="40" ry="60"
+           fill="url(#bellGrad)" fill-opacity="0.2"/>
+
+  <!-- Umbrella (top) -->
+  <circle cx="0" cy="-55" r="10"
+          fill="#ffffff" fill-opacity="0.8"/>
+  <circle cx="0" cy="-55" r="10"
+          stroke="#ffb97e" stroke-width="2"/>
+
+  <!-- Tentacles -->
+  <path d="M-35 -40 Q-50 -20, -35 0 T0,-60 T35,0 Q50 -20, 35 -40"
+        fill="#ffb97e" fill-opacity="0.6"/>
+  <path d="M-35 -40 Q-50 -10, -35 10 T0,-60 T35,10 Q50 -10, 35 -40"
+        fill="#ffb97e" fill-opacity="0.6"/>
+
+  <!-- Oral arms (underneath) -->
+  <path d="M0 -60 Q-20 -80, 20 -80 Q40 -60, 0 -40"
+        stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+</svg>

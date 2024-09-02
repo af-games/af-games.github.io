@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Body -->
+  <rect x="50" y="50" width="80" height="120" fill="#FFCDE6"/>
+
+  <!-- Head -->
+  <ellipse cx="70" cy="60" rx="40" ry="30" fill="#FFF8DC"/>
+
+  <!-- Left Wing -->
+  <polygon points="20,90 50,50 100,90" fill="#FFFACD"/>
+  <!-- Right Wing (mirrored) -->
+  <polygon points="140,90 150,50 200,90" fill="#FFFACD"/>
+
+  <!-- Hair -->
+  <path d="M60,30 Q70,20 80,35 Q90,20 100,35 Q90,45 80,50 Z" fill="black"/>
+
+  <!-- Dress -->
+  <rect x="40" y="120" width="80" height="60" fill="#FFCDE6"/>
+  <rect x="60" y="140" width="60" height="30" fill="#FFB6C1"/>
+
+</svg>

@@ -1,0 +1,36 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Measure 1: Introduction -->
+  <circle cx="100" cy="400" r="50" fill="#FFD700">
+    <animate attributeName="cy" from="400" to="50" begin="0s" dur="5s"/>
+  </circle>
+  <circle cx="200" cy="300" r="40" fill="#FFF569">
+    <animate attributeName="cy" from="300" to="50" begin="1.5s" dur="5s"/>
+  </circle>
+  <circle cx="300" cy="200" r="30" fill="#FFFF00">
+    <animate attributeName="cy" from="200" to="50" begin="3s" dur="5s"/>
+  </circle>
+
+  <!-- Measure 2: Building up -->
+  <circle cx="400" cy="100" r="25" fill="#9ACD32">
+    <animate attributeName="cy" from="100" to="50" begin="4.5s" dur="5s"/>
+  </circle>
+  <circle cx="450" cy="150" r="20" fill="#7CB9EC">
+    <animate attributeName="cy" from="150" to="50" begin="6s" dur="5s"/>
+  </circle>
+
+  <!-- Measure 3: Climax -->
+  <circle cx="480" cy="200" r="15" fill="#6A5ACD">
+    <animate attributeName="cy" from="200" to="50" begin="7.5s" dur="5s"/>
+    <animate attributeName="r" from="15" to="50" begin="7.5s" dur="5s"/>
+  </circle>
+
+  <!-- Measure 4: Resolution -->
+  <circle cx="380" cy="250" r="10" fill="#FF69B4">
+    <animate attributeName="cy" from="250" to="50" begin="9s" dur="5s"/>
+  </circle>
+  <circle cx="320" cy="300" r="8" fill="#C71585">
+    <animate attributeName="cy" from="300" to="50" begin="10.5s" dur="5s"/>
+  </circle>
+
+</svg>

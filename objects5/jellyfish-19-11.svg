@@ -1,0 +1,19 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main Body -->
+  <ellipse cx="150" cy="120" rx="140" ry="90" fill="url(#goldenGlass)" />
+  <!-- Mouth Ring -->
+  <circle cx="150" cy="70" r="30" stroke="gold" stroke-width="2"/>
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <line x1="150" y1="210" x2="120" y2="240" style="stroke: gold; stroke-width: 3; stroke-dasharray: 5, 3;" />
+    <!-- Repeat above line seven more times, rotating each by 45 degrees -->
+  </g>
+  <!-- Pattern -->
+  <defs>
+    <radialGradient id="oceanPattern" cx="150" cy="120" r="140">
+      <stop offset="0%" stop-color="#003366"/>
+      <stop offset="100%" stop-color="#00081a"/>
+    </radialGradient>
+  </defs>
+  <circle cx="150" cy="120" r="140" fill="url(#oceanPattern)" />
+</svg>

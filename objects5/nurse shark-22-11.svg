@@ -1,0 +1,44 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Timeline -->
+<rect x="50" y="100" width="700" height="10" fill="#ddd"/>
+
+<!-- Ancient Era (Pale blue) -->
+<g stroke-width="2">
+  <!-- Ancient Ruins (Rectangles) -->
+  <rect x="60" y="140" width="50" height="80" fill="#aedde7"/>
+  <rect x="140" y="160" width="30" height="60" fill="#aedde7"/>
+
+  <!-- Layer ancient era over timeline -->
+  <use xlink:href="#timeline" x="50" y="100" />
+</g>
+
+<!-- Medieval Era (Brown) -->
+<g stroke-width="2">
+  <!-- Medieval Castles (Polygons) -->
+  <polygon points="230,140 270,80 320,140" fill="#b9a17e"/>
+  <polygon points="350,160 400,80 450,160" fill="#b9a17e"/>
+
+  <!-- Layer medieval era over timeline -->
+  <use xlink:href="#timeline" x="220" y="100" />
+</g>
+
+<!-- Future Era (Purple) -->
+<g stroke-width="2">
+  <!-- Futuristic Structures (Paths) -->
+  <path d="M530,140 Q580,60 630,140" fill="#c47de9"/>
+  <path d="M650,160 Q700,200 750,160" fill="#c47de9"/>
+
+  <!-- Layer future era over timeline -->
+  <use xlink:href="#timeline" x="500" y="100" />
+</g>
+
+<!-- Timeline definition -->
+<defs>
+  <linearGradient id="timeline" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#ddd"/>
+    <stop offset="100%" stop-color="#fff"/>
+  </linearGradient>
+</defs>
+
+</svg>

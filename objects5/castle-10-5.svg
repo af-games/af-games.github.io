@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#f0e68c"/>
+
+<!-- Moat -->
+<path d="M10 590 Q90 570, 180 590 H320 Q450 570, 540 590 H790 V0 Z" fill="#88d8ce"/>
+
+<!-- Castle Walls -->
+<path d="M60 60 H740 V150 H60 Z M60 150 V300 L120 300 H60 Z" stroke="#9b7653" fill="#f8d9a5"/>
+
+<!-- Towers -->
+<path d="M90 150 L90 300 A10 10 0 0 0 100 290 L140 300 Z M710 150 L710 300 A10 10 0 0 1 720 290 L760 300 Z" fill="#c8b598"/>
+
+<!-- Gate -->
+<path d="M180 300 Q240 270, 300 300 H480 Q540 270, 600 300 V450 Z" fill="#f8d9a5"/>
+
+<!-- Forest -->
+<rect x="10" y="360" width="780" height="240" fill="#43b38e"/>
+
+<!-- Paths -->
+<path d="M30 450 Q90 480, 180 450 H320 Q450 480, 540 450 H670 Q780 480, 810 450 V590 Z" stroke="#4f4b4a" fill="transparent"/>
+
+<!-- Label: Castle -->
+<text x="370" y="200" text-anchor="middle" font-family="Verdana" font-size="40">Castle</text>
+
+<!-- Label: Forest -->
+<text x="395" y="600" text-anchor="middle" font-family="Verdana" font-size="40">Forest</text>
+
+<!-- Label: Moat -->
+<text x="190" y="620" text-anchor="end" font-family="Verdana" font-size="35">Moat</text>
+
+</svg>

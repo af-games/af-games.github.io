@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Landmass -->
+  <path id="land"
+        d="M-40,-40 H40 V40 Q0,50 -40,40 Z"
+        fill="#D3E6CD" stroke="#9DA782" stroke-width="1"/>
+
+  <!-- Mountain -->
+  <polygon id="mountain"
+           points="-25,-25 0,25 25,-25"
+           fill="#A0B6A8"/>
+
+  <!-- River -->
+  <path id="river"
+        d="M-40,0 Q-20,10 -40,20"
+        stroke="#7CA9AE" stroke-width="3" fill="transparent"/>
+
+  <!-- Lake -->
+  <circle id="lake"
+          cx="0" cy="0" r="15"
+          fill="#AED8F6"/>
+</svg>

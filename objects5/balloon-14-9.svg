@@ -1,0 +1,88 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Introduction: Balloons are being filled -->
+  <circle cx="400" cy="300" r="50" fill="#ffa500" id="balloon1"/>
+  <circle cx="600" cy="300" r="40" fill="#ffd700" id="balloon2"/>
+  <circle cx="200" cy="300" r="35" fill="#ffff00" id="balloon3"/>
+
+  <!-- Measure 1: Balloons start to rise -->
+  <animate
+    attributeName="cy"
+    values="300;150"
+    dur="4s"
+    repeatCount="indefinite"
+    id="rise1"
+    begin="0s"/>
+  <animate
+    attributeName="cy"
+    values="300;200"
+    dur="4s"
+    repeatCount="indefinite"
+    id="rise2"
+    begin="0.5s"/>
+  <animate
+    attributeName="cy"
+    values="300;175"
+    dur="4s"
+    repeatCount="indefinite"
+    id="rise3"
+    begin="1s"/>
+
+  <!-- Measure 2: Balloons start to grow -->
+  <animate
+    attributeName="r"
+    values="50;80"
+    dur="6s"
+    repeatCount="indefinite"
+    id="grow1"
+    begin="4s"/>
+  <animate
+    attributeName="r"
+    values="40;70"
+    dur="6s"
+    repeatCount="indefinite"
+    id="grow2"
+    begin="4.5s"/>
+  <animate
+    attributeName="r"
+    values="35;60"
+    dur="6s"
+    repeatCount="indefinite"
+    id="grow3"
+    begin="5s"/>
+
+  <!-- Climax: Balloons pop -->
+  <animate
+    attributeName="opacity"
+    values="1;0"
+    dur="2s"
+    repeatCount="1"
+    id="pop"
+    begin="16s" fill="freeze"/>
+  <rect width="800" height="600" fill="#ffffff" id="background"/>
+
+  <!-- Resolution: Confetti falls -->
+  <circle cx="400" cy="200" r="5" fill="#ff0000" id="confetti1">
+    <animate
+      attributeName="cy"
+      values="200;600"
+      dur="3s"
+      repeatCount="indefinite"
+      begin="18s"/>
+  </circle>
+  <circle cx="650" cy="250" r="4" fill="#00ff00" id="confetti2">
+    <animate
+      attributeName="cy"
+      values="250;600"
+      dur="3s"
+      repeatCount="indefinite"
+      begin="18.5s"/>
+  </circle>
+  <circle cx="150" cy="275" r="3.5" fill="#0000ff" id="confetti3">
+    <animate
+      attributeName="cy"
+      values="275;600"
+      dur="3s"
+      repeatCount="indefinite"
+      begin="19s"/>
+  </circle>
+</svg>

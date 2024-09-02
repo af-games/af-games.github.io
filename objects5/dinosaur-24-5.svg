@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <!-- Circles: Dinosaur footsteps -->
+  <circle cx="50" cy="450" r="30" fill="#8B7D6D"/>
+  <animateMotion dur="0.25s" repeatCount="indefinite">
+    <mpath href="#footpath1"/>
+  </animateMotion>
+
+  <!-- Paths: Obstacles -->
+  <path id="obstacle1" d="M450,300 Q550,400 650,300" stroke="#8B7D6D" fill="transparent"/>
+  <path id="obstacle2" d="M300,450 Q400,550 500,450" stroke="#8B7D6D" fill="transparent"/>
+
+  <!-- Rectangles: Percussion -->
+  <rect x="900" y="500" width="100" height="100" fill="#C3B091"/>
+  <animate attributeName="x" dur="0.25s" repeatCount="indefinite" values="100;900;700;900"/>
+
+  <!-- Path: Harmony -->
+  <path id="harmony" d="M0,600 Q300,400 600,600" stroke="#8B7D6D" fill="transparent"/>
+  <animate attributeName="d" dur="5s" repeatCount="1">
+    <keyframes>
+      <keyframe href="#harmonyStart"/>
+      <keyframe href="#harmonyEnd"/>
+    </keyframes>
+  </animate>
+
+  <!-- Paths for circles' motion -->
+  <path id="footpath1" d="M0,450 Q250,350 500,450 T750,450"/>
+</svg>

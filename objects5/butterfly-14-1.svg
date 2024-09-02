@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+  <!-- Body -->
+  <path d="M25,10 a15,7 0 1,0 30,0 a15,7 0 1,0 -30,0" fill="#ff69b4"/>
+
+  <!-- Wings -->
+  <path d="M0,10 Q10,0 20,10 Q10,20 0,20" fill="#fff"/>
+  <path d="M50,10 Q40,0 30,10 Q40,20 50,20" fill="#fff"/>
+
+  <!-- Antennae -->
+  <path d="M2,5 L10,15 L2,25" stroke="#000" fill="transparent"/>
+  <path d="M48,5 L40,15 L48,25" stroke="#000" fill="transparent"/>
+
+</svg>

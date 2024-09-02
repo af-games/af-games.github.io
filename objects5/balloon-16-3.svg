@@ -1,0 +1,39 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#C6E2FF"/>
+
+  <!-- Golden ratio based layout -->
+  <line x1="0" y1="540" x2="1920" y2="540" stroke="black"/>
+  <line x1="960" y1="0" x2="960" y2="1080" stroke="black"/>
+
+  <!-- Mountains -->
+  <circle cx="300" cy="700" r="200" fill="#D68A59">
+    <animate attributeName="cy" dur="5s" repeatCount="indefinite"
+             from="700" to="600" begin="svgStart"/>
+  </circle>
+  <circle cx="1620" cy="450" r="150" fill="#D68A59">
+    <animate attributeName="cy" dur="5s" repeatCount="indefinite"
+             from="450" to="350" begin="svgStart"/>
+  </circle>
+
+  <!-- Rivers -->
+  <path d="M100,750 Q400,900 800,600 Q1200,950 1900,650" stroke="#3B5AAE"
+        fill="transparent">
+    <animate attributeName="d" dur="7s" repeatCount="indefinite"
+             from="M100,750 Q400,900 800,600 Q1200,950 1900,650"
+             to="M100,700 Q400,850 800,550 Q1200,900 1900,600" begin="svgStart"/>
+  </path>
+
+  <!-- Trees -->
+  <polygon points="1350,600 1450,550 1450,650" fill="#087E2D">
+    <animate attributeName="points" dur="3s" repeatCount="indefinite"
+             from="1350,600 1450,550 1450,650"
+             to="1350,650 1450,500 1450,700" begin="svgStart"/>
+  </polygon>
+  <polygon points="1650,400 1750,350 1750,450" fill="#087E2D">
+    <animate attributeName="points" dur="3s" repeatCount="indefinite"
+             from="1650,400 1750,350 1750,450"
+             to="1650,450 1750,300 1750,500" begin="svgStart"/>
+  </polygon>
+
+</svg>

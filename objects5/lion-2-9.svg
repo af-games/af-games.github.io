@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main Melody: Lion's Roar -->
+  <circle cx="400" cy="250" r="75" fill="orange">
+    <animateMotion repeatCount="indefinite">
+      <mpath href="#roarPath"/>
+    </animateMotion>
+  </circle>
+  <path id="roarPath" stroke="black" stroke-width="10"
+        d="M400,275 Q375,250 400,225 Q425,250 400,275"/>
+
+  <!-- Harmony: Lion's Mane -->
+  <g id="mane">
+    <path fill="brown" d="M280,175 A100,100 0 0 1 520,175"/>
+    <path fill="tan" d="M300,195 A80,80 0 0 1 500,195"/>
+    <animateTransform attributeName="transform" type="rotate"
+                     from="0 400 250" to="360 400 250" repeatCount="indefinite"
+                     dur="5s"/>
+  </g>
+
+  <!-- Harmony: Lion's Tail -->
+  <path id="tail" stroke="black" stroke-width="10" fill="tan"
+        d="M700,375 C650,425 550,425 500,375"/>
+  <animate attributeName="d" repeatCount="indefinite">
+    <keyframes>
+      <begin keyTime="0"/>
+      <to keyTime="1s">M700,375 C650,475 550,475 500,375</to>
+      <begin keyTime="2s"/>
+    </keyframes>
+  </animate>
+
+  <!-- Rhythm: Lion's Beat -->
+  <rect x="100" y="525" width="600" height="50" fill="gold">
+    <animate attributeName="fill-opacity" repeatCount="indefinite"
+             values="1;0.5;1" dur="2s"/>
+  </rect>
+
+</svg>

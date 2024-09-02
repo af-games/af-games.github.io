@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" style="background-color: #fff;">
+
+  <!-- Neck -->
+  <path id="neck" d="M150,70 l-150,-350 a50,50 0 0 0 300,0 l-150,350" fill="#000"/>
+  <animateTransform attributeName="transform" type="rotate"
+    from="0 300 450" to="90 300 450" dur="2s" repeatCount="indefinite"/>
+
+  <!-- Body -->
+  <rect id="body" width="60" height="180" x="170" y="280" fill="#000"/>
+  <animateTransform attributeName="transform" type="translate"
+    from="0 0" to="30,0" dur="1s" repeatCount="indefinite"/>
+
+  <!-- Head -->
+  <ellipse id="head" cx="300" cy="70" rx="50" ry="80" fill="#000"/>
+  <animateTransform attributeName="transform" type="scale"
+    from="1 1" to="1.2 1.2" dur="1s" repeatCount="indefinite"/>
+
+  <!-- Legs -->
+  <g id="legs">
+    <path d="M150,460 l-75,-350 a25,25 0 0 0 -50,0 l75,350" fill="#000"/>
+    <path d="M450,460 l75,-350 a25,25 0 0 0 50,0 l-75,350" fill="#000"/>
+
+    <!-- Leg animation -->
+    <animate attributeName="d" from="M150,460 l-75,-350 a25,25 0 0 0 -50,0 l75,350"
+      to="M150,460 l75,-350 a25,25 0 0 0 50,0 l-75,350" dur="1s" repeatCount="indefinite"/>
+    <animate attributeName="d" from="M450,460 l75,-350 a25,25 0 0 0 50,0 l-75,350"
+      to="M450,460 l-75,-350 a25,25 0 0 0 -50,0 l75,350" dur="1s" repeatCount="indefinite"/>
+  </g>
+
+</svg>

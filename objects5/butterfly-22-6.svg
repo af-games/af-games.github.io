@@ -1,0 +1,12 @@
+<svg>` tag and set up some initial parameters such as width, height, and viewBox.
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg"
+     version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     width="800" height="600"
+     viewBox="0 0 800 600">
+```</svg>

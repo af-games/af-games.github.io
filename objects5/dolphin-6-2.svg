@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -100 600 400">
+  <!-- Body -->
+  <path fill="#8DC7F9" stroke="#333" stroke-width="2" d="
+    M-50,-70 C-50,0 50,0 50,-70
+    C100,-70 150,-40 175,-10
+    C160,-20 90,40 70,80
+    L70,120
+    Z"/>
+
+  <!-- Fin (left) -->
+  <path fill="#8DC7F9" stroke="#333" stroke-width="2" d="
+    M-120,-70 Q-150,-40 -120,-10
+    H-100 Z"/>
+
+  <!-- Fin (right) -->
+  <path fill="#8DC7F9" stroke="#333" stroke-width="2" d="
+    M120,-70 Q150,-40 120,-10
+    H100 Z"/>
+
+  <!-- Tail -->
+  <path fill="#8DC7F9" stroke="#333" stroke-width="2" d="
+    M-50,80 C0,60 0,140 50,120
+    L50,160 Z"/>
+
+  <!-- Head -->
+  <path fill="#8DC7F9" stroke="#333" stroke-width="2" d="
+    M-100,-10 Q-120,20 -100,40
+    C-80,50 -60,50 -40,40"/>
+
+  <!-- Eye (left) -->
+  <circle cx="-90" cy="30" r="10" fill="#FFF">
+    <animate attributeName="r" from="5" to="10" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Eye (right) -->
+  <circle cx="-70" cy="30" r="10" fill="#FFF">
+    <animate attributeName="r" from="5" to="10" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

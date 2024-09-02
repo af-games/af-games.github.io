@@ -1,0 +1,29 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle Base -->
+  <rect x="100" y="260" width="300" height="40" fill="#8B4513"/>
+
+  <!-- Left Tower -->
+  <polygon points="70,100 100,50 130,100" fill="#CAB98D"/>
+  <path d="M60,120 Q70,135 100,145" stroke="#6B432A" fill="transparent"/>
+
+  <!-- Right Tower -->
+  <polygon points="390,100 420,50 450,100" fill="#CAB98D"/>
+  <path d="M470,120 Q460,135 440,145" stroke="#6B432A" fill="transparent"/>
+
+  <!-- Middle Tower -->
+  <polygon points="230,70 280,30 330,70" fill="#CAB98D"/>
+  <path d="M220,100 Q235,115 260,125" stroke="#6B432A" fill="transparent"/>
+
+  <!-- Walls -->
+  <polygon points="100,170 280,170 280,220 100,220" fill="#CAB98D"/>
+  <polygon points="350,170 430,170 430,220 350,220" fill="#CAB98D"/>
+
+  <!-- Gatehouse -->
+  <rect x="260" y="170" width="70" height="50" fill="#A0522D"/>
+  <polygon points="240,130 260,90 280,130" fill="#CAB98D"/>
+
+  <!-- Turrets -->
+  <path d="M75,200 A50,50 0 0 1 125,250 A50,50 0 0 1 75,300" fill="#CAB98D"/>
+  <path d="M475,200 A50,50 0 0 1 425,250 A50,50 0 0 1 475,300" fill="#CAB98D"/>
+
+</svg>

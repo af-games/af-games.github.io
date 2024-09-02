@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Quilt Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#FFF5F5"/>
+
+  <!-- Main Quilt Patches -->
+  <g id="quilt-patches">
+    <g transform="translate(100,100)">
+      <pattern id="patch-pattern" patternUnits="userSpaceOnUse" width="50" height="50">
+        <rect x="0" y="0" width="50" height="50" fill="#F3E5AB"/>
+        <path d="M25,0 L50,50 H0 Z" stroke="#9D4F37" fill="none"/>
+      </pattern>
+      <rect x="0" y="0" width="50" height="50" fill="url(#patch-pattern)"/>
+    </g>
+  </g>
+
+  <!-- Buttons -->
+  <circle cx="150" cy="200" r="30" fill="#B89467"/>
+  <circle cx="350" cy="150" r="20" fill="#D1B28C"/>
+  <circle cx="600" cy="300" r="35" fill="#F3E5AB"/>
+
+  <!-- Stitches -->
+  <g id="stitches">
+    <path d="M150,200 A30,30 0 1,0 180,200 A30,30 0 1,0 150,230 Z" stroke="#9D4F37" fill="none"/>
+    <path d="M350,150 A20,20 0 1,0 380,150 A20,20 0 1,0 350,170 Z" stroke="#9D4F37" fill="none"/>
+    <path d="M600,300 A35,35 0 1,0 635,300 A35,35 0 1,0 600,335 Z" stroke="#9D4F37" fill="none"/>
+  </g>
+</svg>

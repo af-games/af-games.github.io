@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion's body -->
+  <path d="M150,150 Q250,75 350,150 Q400,250 350,350 Q250,450 150,350" fill="brown" stroke="black"/>
+
+  <!-- Lion's head -->
+  <circle cx="200" cy="120" r="60" fill="tan"/>
+  <rect x="170" y="80" width="40" height="60" fill="tan" stroke="black"/> <!-- Ear -->
+  <rect x="230" y="80" width="40" height="60" fill="tan" stroke="black"/> <!-- Ear -->
+
+  <!-- Lion's mane -->
+  <path d="M175,90 Q185,60 210,50 Q235,60 245,90 Q235,120 210,130 Q185,120 175,90" fill="goldenrod"/>
+
+  <!-- Vegetables -->
+  <rect x="400" y="200" width="60" height="80" fill="green" stroke="black"/>
+  <circle cx="480" cy="300" r="40" fill="darkgreen" stroke="black"/>
+
+  <!-- Fruits -->
+  <circle cx="550" cy="250" r="30" fill="orange" stroke="black"/>
+  <polygon points="600,180 650,250 600,320" fill="red" stroke="black"/>
+
+</svg>

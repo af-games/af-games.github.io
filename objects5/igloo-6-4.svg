@@ -1,0 +1,47 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo -->
+  <circle cx="150" cy="150" r="70" fill="url(#iglooGradient)" />
+  <text x="140" y="160" font-size="30" text-anchor="middle" fill="white">Igloo</text>
+
+  <!-- Rolling hills and terrain -->
+  <path id="terrain" d="M10,250 Q70,350 180,300 Q390,250 600,300 Q700,250 800,300" fill="url(#terrainGradient)" />
+
+  <!-- River -->
+  <path id="river" d="M10,400 Q70,450 180,400 Q390,400 600,450 Q700,400 800,400" stroke="#blue" fill="url(#riverGradient)" stroke-width="2"/>
+
+  <!-- Trees -->
+  <g id="trees">
+    <!-- Tree 1 -->
+    <circle cx="350" cy="200" r="20" fill="#brown"/>
+    <path d="M340,80 L360,80 L350,20 z" stroke="#brown" fill="url(#treeLeavesGradient)" />
+  </g>
+
+  <!-- Mountains -->
+  <polygon points="700,10 750,50 800,10" fill="url(#mountainsGradient)" />
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="iglooGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(245,237,216);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="terrainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(148,226,93);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(54,167,55);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="riverGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,200);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="treeLeavesGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(34,196,8);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(56,170,7);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="mountainsGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(147,186,239);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+</svg>

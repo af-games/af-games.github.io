@@ -1,0 +1,36 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Jellyfish 1 -->
+  <g id="jellyfish1">
+    <circle cx="50" cy="70" r="40" fill="#fff" stroke="#000" stroke-width="2"/>
+    <ellipse cx="30" cy="90" rx="20" ry="5" fill="none" stroke="#000" stroke-width="2">
+      <animate attributeName="cx" from="30" to="70" dur="1s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="90" cy="90" rx="20" ry="5" fill="none" stroke="#000" stroke-width="2">
+      <animate attributeName="cx" from="90" to="130" dur="1s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- Jellyfish 2 -->
+  <g id="jellyfish2" transform="translate(250, 150)">
+    <circle cx="50" cy="70" r="40" fill="#fff" stroke="#000" stroke-width="2"/>
+    <ellipse cx="30" cy="90" rx="20" ry="5" fill="none" stroke="#000" stroke-width="2">
+      <animate attributeName="cx" from="30" to="70" dur="1s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="90" cy="90" rx="20" ry="5" fill="none" stroke="#000" stroke-width="2">
+      <animate attributeName="cx" from="90" to="130" dur="1s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- Jellyfish 3 -->
+  <g id="jellyfish3">
+    <circle cx="250" cy="70" r="40" fill="#fff" stroke="#000" stroke-width="2"/>
+    <ellipse cx="230" cy="90" rx="20" ry="5" fill="none" stroke="#000" stroke-width="2">
+      <animate attributeName="cx" from="230" to="270" dur="1s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="290" cy="90" rx="20" ry="5" fill="none" stroke="#000" stroke-width="2">
+      <animate attributeName="cx" from="290" to="330" dur="1s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+</svg>

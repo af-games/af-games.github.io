@@ -1,0 +1,13 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body of the butterfly -->
+  <circle cx="250" cy="150" r="50" fill="black"/>
+
+  <!-- Left wing -->
+  <path d="M170,75 Q220,25 250,75 Q300,25 350,75" fill="brown"/>
+  <path d="M350,75 Q400,25 425,75 Q460,100 500,75" stroke="black"/>
+
+  <!-- Right wing -->
+  <path d="M250,200 Q300,250 350,200 Q400,250 450,200" fill="brown"/>
+  <path d="M175,200 Q125,250 75,200 Q25,250 50,200" stroke="black"/>
+
+</svg>

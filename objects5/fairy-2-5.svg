@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background Grass -->
+  <rect x="0" y="350" width="500" height="150" fill="green"/>
+
+  <!-- Tree Trunks -->
+  <circle cx="75" cy="450" r="20" fill="brown"/>
+  <circle cx="250" cy="400" r="30" fill="brown"/>
+  <circle cx="425" cy="480" r="25" fill="brown"/>
+
+  <!-- Tree Crowns -->
+  <polygon points="50,100 75,0 100,100" fill="green" transform="translate(75,350) rotate(-45)"/>
+  <polygon points="225,50 250,0 275,50" fill="green" transform="translate(250,350) rotate(-15)"/>
+  <polygon points="400,120 425,60 450,120" fill="green" transform="translate(425,370) rotate(-30)"/>
+
+  <!-- Fairy -->
+  <circle cx="200" cy="150" r="20" fill="pink"/>
+  <polygon points="185,130 215,130 200,60" fill="yellow" transform="rotate(-45)"/>
+
+  <!-- Toadstool -->
+  <circle cx="375" cy="250" r="50" fill="red"/>
+  <circle cx="375" cy="180" r="30" fill="white"/>
+  <polygon points="360,140 390,140 375,70" fill="black"/>
+
+</svg>

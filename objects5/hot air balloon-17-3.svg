@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 200 200">
+  <!-- Ground -->
+  <rect id="ground" width="500%" height="20%" fill="#7f5b46"/>
+
+  <!-- Balloon Basket -->
+  <circle cx="0" cy="80%" r="15%" fill="#9e8d7a"/>
+
+  <!-- Balloon Envelope -->
+  <ellipse cx="0" cy="-30%" rx="60%" ry="20%" fill="#ffc400"/>
+  <path d="M0,-30A60,20 0 1 0 0,50A60,20 0 1 0 0,-30" stroke="#ff8f00"/>
+
+  <!-- Balloon Tethers -->
+  <path d="M-15%,80% C-25%,70% -40%,60% 0,40%" stroke="#a96e3b"/>
+  <path d="M15%,80% C25%,70% 40%,60% 0,40%" stroke="#a96e3b"/>
+
+  <!-- Propane Tank -->
+  <rect x="-12%" y="78%" width="24%" height="14%" fill="#ffffff"/>
+</svg>

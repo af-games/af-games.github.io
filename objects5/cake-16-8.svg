@@ -1,0 +1,11 @@
+<svg width="500" height="500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="250" cy="250" r="100">
+    <animate attributeName="r"
+             from="100" to="200" dur="2s"
+             repeatCount="indefinite"/>
+    <animate attributeName="fill"
+             values="red;blue;green;red"
+             dur="4s"
+             repeatCount="indefinite"/>
+  </circle>
+</svg>

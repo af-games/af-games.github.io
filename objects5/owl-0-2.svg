@@ -1,0 +1,26 @@
+<svg>` tag:
+
+```xml
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="250" cy="300" rx="150" ry="120" fill="#A9876B"/>
+
+  <!-- Head -->
+  <ellipse cx="250" cy="150" rx="100" ry="80" fill="#D4C3A3"/>
+
+  <!-- Eye (Left) -->
+  <circle cx="225" cy="140" r="15" fill="#FFFFFF"/>
+  <circle cx="220" cy="140" r="5" fill="#000000"/>
+
+  <!-- Eye (Right) -->
+  <circle cx="275" cy="140" r="15" fill="#FFFFFF"/>
+  <circle cx="280" cy="140" r="5" fill="#000000"/>
+
+  <!-- Beak -->
+  <path d="M260,130 Q270,90 290,130 H260 Z" fill="#FDD87D"/>
+
+  <!-- Wings (Simple outline) -->
+  <polygon points="150,300 250,200 350,300" fill="#A9876B"/>
+  <polygon points="150,350 250,450 350,350" fill="#A9876B"/>
+
+</svg>

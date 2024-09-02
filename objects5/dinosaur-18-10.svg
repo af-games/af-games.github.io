@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Our dinosaur will be named "Dino" -->
+  <g id="Dino">
+
+    <!-- Tentative lines and shapes using path elements -->
+
+    <!-- Body -->
+    <path id="Body"
+          d="M100,50 Q150,75 200,50 Q150,25 100,50"
+          stroke="black" fill="none" />
+    <!-- Attribute notes: d (the path data), stroke (line color), fill (area color) -->
+
+    <!-- Tail -->
+    <path id="Tail"
+          d="M200,50 Q225,75 250,50 Q225,25 200,50"
+          stroke="black" fill="none" />
+    <!-- Attribute notes: d (the path data), stroke (line color), fill (area color) -->
+
+    <!-- Neck -->
+    <path id="Neck"
+          d="M100,75 Q150,125 200,75"
+          stroke="black" fill="none" />
+    <!-- Attribute notes: d (the path data), stroke (line color), fill (area color) -->
+
+    <!-- Head -->
+    <circle id="Head"
+            cx="80" cy="75" r="30"
+            stroke="black" fill="yellow" />
+    <!-- Attribute notes: cx, cy (center coordinates), r (radius), stroke (line color), fill (area color) -->
+
+  </g>
+</svg>

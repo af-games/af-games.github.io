@@ -1,0 +1,24 @@
+<svg>` tag:
+
+```xml
+<svg width="250" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M125,75 Q140,65 150,85 Q140,105 125,120 Q95,105 70,85 Q85,65 125,75 Z" fill="brown"/>
+
+  <!-- Head -->
+  <path d="M125,60 Q145,50 150,70 Q130,90 125,110 Q110,90 105,70 Q125,50 125,60 Z" fill="brown"/>
+
+  <!-- Beak -->
+  <path d="M140,70 L150,80 L140,90 Z" fill="orange"/>
+
+  <!-- Eyes -->
+  <circle cx="130" cy="90" r="5" fill="black"/>
+  <circle cx="115" cy="90" r="5" fill="black"/>
+
+  <!-- Ear tufts -->
+  <polygon points="120,85 140,85 130,75" fill="brown"/>
+
+  <!-- Wings and tail feathers (simplified for brevity) -->
+  <path d="M50,160 Q90,170 130,160 L180,210 Q140,220 100,210 Z" fill="brown"/>
+
+</svg>

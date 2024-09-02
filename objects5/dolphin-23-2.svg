@@ -1,0 +1,30 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="125" rx="80" ry="60"
+           fill="url(#dolphinGradient)" />
+  <linearGradient id="dolphinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%"   style="stop-color:rgb(5,38,67); stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(94,169,218); stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Fin -->
+  <path d="M150 150 Q130 70 150 20"
+        fill="url(#dolphinFinGradient)" />
+  <linearGradient id="dolphinFinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%"   style="stop-color:rgb(5,38,67); stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(149,214,225); stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Tail -->
+  <path d="M150 20 Q160 0 170 20"
+        fill="url(#dolphinTailGradient)" />
+  <linearGradient id="dolphinTailGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%"   style="stop-color:rgb(5,38,67); stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(149,214,225); stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Eye -->
+  <circle cx="90" cy="80" r="10"
+          fill="black" />
+
+</svg>

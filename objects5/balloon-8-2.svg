@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Balloon String -->
+  <rect x="-6" y="-40" width="12" height="80" fill="#ffdb9a"/>
+  <line x1="-6" y1="30" x2="-6" y2="-40" stroke="#7f5e23" stroke-width="2"/>
+
+  <!-- Balloon -->
+  <path d="M0,-40 Q-20,-20 0,0 Q20,-20 0,-40" fill="#ffdb9a">
+    <animate attributeName="d"
+             values="
+              M0,-40 Q-20,-20 0,0 Q20,-20 0,-40;
+              M0,-40 Q-15,-25 0,0 Q25,-25 0,-40;
+              M0,-40 Q-20,-20 0,0 Q20,-20 0,-40
+             "
+             dur="2s"
+             repeatCount="indefinite"/>
+  </path>
+
+  <!-- Balloon Shadow -->
+  <path d="M0,-40 Q-25,-15 0,0 Q25,-15 0,-40" fill="#8b7d59" opacity="0.5"/>
+</svg>

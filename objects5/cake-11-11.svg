@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Base -->
+  <rect x="50" y="120" width="100" height="80" fill="#FBB917" rx="40"/>
+
+  <!-- Top Cake (rounded rectangle) -->
+  <path d="M50,60 Q50,30 80,30 Q110,30 110,60" fill="#E8B248" stroke="black" stroke-width="2"/>
+
+  <!-- Golden Glow (large circle) -->
+  <circle cx="100" cy="150" r="75" fill="none" stroke="#FBB917" stroke-width="20"/>
+
+  <!-- Cake Topper -->
+  <polygon points="60,40 100,20 140,40" fill="#E8B248" stroke="black" stroke-width="2"/>
+
+  <!-- Candles (five small circles) -->
+  <g transform="translate(50, 30)">
+    <circle cx="20" cy="0" r="5" fill="orange"/>
+    <circle cx="40" cy="0" r="5" fill="orange"/>
+    <circle cx="60" cy="0" r="5" fill="orange"/>
+    <circle cx="80" cy="0" r="5" fill="orange"/>
+    <circle cx="100" cy="0" r="5" fill="orange"/>
+  </g>
+</svg>

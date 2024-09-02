@@ -1,0 +1,22 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+
+<!-- Snow Paths -->
+<path d="M300,50 a10,10 0 0 1 141.42,0 a10,10 0 0 1 -141.42,0" stroke="#D7DAFF" fill="transparent"/>
+<path d="M300,560 a10,10 0 0 1 -141.42,0 a10,10 0 0 1 141.42,0" stroke="#D7DAFF" fill="transparent"/>
+<path d="M300,300 a10,10 0 0 1 -282.84,0 a10,10 0 0 1 282.84,0" stroke="#D7DAFF" fill="transparent"/>
+
+<!-- Igloos -->
+<circle cx="350" cy="200" r="80" fill="#BDECFB"/>
+<circle cx="250" cy="300" r="80" fill="#BDECFB"/>
+<circle cx="450" cy="300" r="80" fill="#BDECFB"/>
+<circle cx="175" cy="400" r="80" fill="#BDECFB"/>
+<circle cx="525" cy="400" r="80" fill="#BDECFB"/>
+
+<!-- Tower Igloo -->
+<circle cx="300" cy="300" r="120" stroke="#A9CCFF" stroke-width="10" fill="#E7F2FF"/>
+<path d="M300,180 Q350,100 400,180" stroke="#A9CCFF" fill="transparent"/>
+
+</svg>

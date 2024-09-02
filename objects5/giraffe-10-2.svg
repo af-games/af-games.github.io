@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+
+  <!-- Body -->
+  <rect x="150" y="300" width="300" height="400" fill="#F7D9AA" stroke="black"/>
+  <linearGradient id="bodyGradient" gradientTransform="rotate(90)">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(247,217,170);stop-opacity:1" />
+  </linearGradient>
+  <rect x="150" y="300" width="300" height="400" fill="url(#bodyGradient)" />
+
+  <!-- Head -->
+  <circle cx="300" cy="250" r="150" fill="#FFDFBA" stroke="black"/>
+  <linearGradient id="headGradient" gradientTransform="rotate(90)">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(255,223,186);stop-opacity:1" />
+  </linearGradient>
+  <circle cx="300" cy="250" r="150" fill="url(#headGradient)" />
+
+  <!-- Neck -->
+  <path d="M270,225 Q290,250 310,225 Q330,250 350,225" stroke="black" fill="transparent"/>
+
+  <!-- Legs (Front) -->
+  <rect x="220" y="550" width="60" height="200" fill="#A58764" stroke="black"/>
+  <linearGradient id="leg1Gradient">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(165,135,100);stop-opacity:1" />
+  </linearGradient>
+  <rect x="220" y="550" width="60" height="200" fill="url(#leg1Gradient)" />
+
+  <!-- Legs (Back) -->
+  <rect x="340" y="550" width="60" height="200" fill="#A58764" stroke="black"/>
+  <linearGradient id="leg2Gradient">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(165,135,100);stop-opacity:1" />
+  </linearGradient>
+  <rect x="340" y="550" width="60" height="200" fill="url(#leg2Gradient)" />
+
+  <!-- Hooves -->
+  <circle cx="270" cy="750" r="40" fill="#A58764"/>
+  <circle cx="390" cy="750" r="40" fill="#A58764"/>
+
+</svg>

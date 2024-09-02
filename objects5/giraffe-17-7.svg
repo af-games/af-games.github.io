@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="100%" height="100%" fill="#E5F5E0"/>
+
+<!-- Mountains -->
+<path d="M10 170 Q40 70, 180 120 T360 200 Q500 280, 700 250" stroke="#D9DBDC" fill="none" stroke-width="2"/>
+
+<!-- River -->
+<path d="M700 400 Q550 480, 300 450 T100 420" stroke="#38BDF8" fill="none" stroke-width="2"/>
+
+<!-- Forest -->
+<rect x="200" y="290" width="300" height="260" fill="#4CAF50" rx="20"/>
+
+<!-- Giraffe Plains (Central) -->
+<rect x="150" y="130" width="400" height="270" fill="#FFC107"/>
+<text x="250" y="160" font-family="Verdana" font-size="24">Giraffe Plains</text>
+
+<!-- City -->
+<circle cx="700" cy="350" r="80" stroke="#FFF" fill="#FF9800"/>
+<path d="M640 350 L720 310 L720 390 Z" fill="#FF9800"/>
+<text x="670" y="370" font-family="Verdana" font-size="24">Giraffia City</text>
+
+<!-- Ocean -->
+<rect x="0" y="510" width="800" height="90" fill="#2196F3"/>
+
+<!-- Labels -->
+<text x="75" y="100" font-family="Verdana" font-size="24">Mountains</text>
+<text x="550" y="550" font-family="Verdana" font-size="24">Ocean</text>
+
+<!-- Inhabitants -->
+<circle cx="250" cy="350" r="40" fill="#FFF"/>
+<path d="M210 330 Q260 390, 290 380 T330 370" stroke="#FFF" fill="none" stroke-width="2"/>
+
+</svg>

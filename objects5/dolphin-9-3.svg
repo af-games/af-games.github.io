@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Dolphin body -->
+  <rect x="100" y="100" width="300" height="400" fill="#87CEEB"
+    style="fill: url(#dolphinGradient);" />
+
+  <!-- Tail fin -->
+  <polygon points="400,500,500,600,300,600" fill="#87CEEB" />
+  <path d="M400,500 Q320,550 300,600" stroke="#006494" fill="transparent" />
+
+  <!-- Buildings (dolphin eyes) -->
+  <rect x="180" y="140" width="40" height="100" fill="#A0C2E0" />
+  <rect x="260" y="140" width="40" height="100" fill="#A0C2E0" />
+
+  <!-- Buildings (dolphin mouth) -->
+  <polygon points="180,350,240,390,300,350" fill="#A0C2E0" />
+  <polygon points="320,350,380,390,440,350" fill="#A0C2E0" />
+
+  <!-- Roads (dolphin fins) -->
+  <path d="M160,200 Q200,250 240,200" stroke="#006494" fill="transparent" />
+  <path d="M360,200 Q300,250 280,200" stroke="#006494" fill="transparent" />
+
+  <!-- Defining gradient for dolphin body -->
+  <defs>
+    <linearGradient id="dolphinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: #87CEEB; stop-opacity: 1" />
+      <stop offset="50%" style="stop-color: #6494D2; stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: #3C69A5; stop-opacity: 1" />
+    </linearGradient>
+  </defs>
+
+</svg>

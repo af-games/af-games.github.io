@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 100 100">
+  <!-- Owl's Body -->
+  <ellipse cx="50" cy="50" rx="45" ry="35" fill="url(#obsidian)" />
+  <defs>
+    <linearGradient id="obsidian" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(46,46,46);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(30,30,30);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(20,20,20);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Owl's Eyes -->
+  <circle cx="45" cy="35" r="8" fill="url(#sapphire)" />
+  <circle cx="55" cy="35" r="8" fill="url(#sapphire)" />
+  <defs>
+    <linearGradient id="sapphire" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(60,15,195);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(30,8,97);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,60);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Owl's Feathers -->
+  <polygon points="35,25 40,10 55,10 60,25" fill="url(#citrine)" />
+  <polygon points="70,25 75,10 85,10 90,25" fill="url(#citrine)" />
+  <defs>
+    <linearGradient id="citrine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,243,96);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(237,218,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(199,174,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Owl's Beak -->
+  <path d="M50,20 C60,30 70,25 75,20 z" fill="url(#moonstone)" />
+  <defs>
+    <radialGradient id="moonstone" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(147,169,183);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Pendant Bail -->
+  <rect x="-5" y="-5" width="10" height="20" fill="url(#silver)" stroke="black" stroke-width="1" />
+  <defs>
+    <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(192,192,192);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(160,160,160);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(130,130,130);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

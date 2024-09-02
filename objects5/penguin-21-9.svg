@@ -1,0 +1,37 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define linear gradient -->
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(0,0,0);stop-opacity:1" />
+      <stop offset="50%"  style="stop-color:rgb(64,64,64);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Penguin body -->
+  <rect x="60" y="70" width="80" height="90" fill="url(#penguinGradient)" stroke="black"/>
+
+  <!-- Penguin head (oval) -->
+  <ellipse cx="100" cy="120" rx="30" ry="45" fill="#696969" />
+
+  <!-- Penguin eye (left) -->
+  <circle cx="70" cy="105" r="5" fill="white"/>
+
+  <!-- Penguin eye (right) -->
+  <circle cx="130" cy="105" r="5" fill="white"/>
+
+  <!-- Penguin beak -->
+  <polygon points="85,90 115,90 95,60" fill="#FFD700"/>
+
+  <!-- Penguin feet (left) -->
+  <path d="M120,170 Q130,180 140,170" stroke="black" fill="transparent"/>
+
+  <!-- Penguin feet (right) -->
+  <path d="M80,170 Q70,180 60,170" stroke="black" fill="transparent"/>
+
+  <!-- Vector threads -->
+  <line x1="0" y1="250" x2="200" y2="250" style="stroke:gray; stroke-width:1"/>
+  <line x1="0" y1="240" x2="200" y2="240" style="stroke:gray; stroke-width:1"/>
+  <!-- Add more lines as needed for desired pattern -->
+
+</svg>

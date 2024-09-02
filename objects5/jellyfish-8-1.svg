@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <!-- Body -->
+  <circle cx="25" cy="25" r="20" fill="#FF6477"/>
+
+  <!-- Tentacles (8 of them) -->
+  <g stroke="#FF6477" stroke-width="3">
+    <path d="M19,25 Q25,35 31,25"/>
+    <path d="M19,25 Q25,15 31,25"/>
+    <path d="M10,25 Q16,35 22,25"/>
+    <path d="M10,25 Q16,15 22,25"/>
+    <path d="M41,25 Q35,35 29,25"/>
+    <path d="M41,25 Q35,15 29,25"/>
+    <path d="M46,25 Q40,35 34,25"/>
+    <path d="M46,25 Q40,15 34,25"/>
+  </g>
+</svg>

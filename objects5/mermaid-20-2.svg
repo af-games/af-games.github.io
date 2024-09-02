@@ -1,0 +1,8 @@
+<svg>` element encapsulating everything.
+   ```svg
+   <svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+     <!-- All path elements from steps 1-3 -->
+     <style>
+       <!-- Style rules from step 4 -->
+     </style>
+   </svg>

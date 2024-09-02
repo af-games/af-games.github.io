@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" style="isolation: isolate;">
+
+<!-- Neck -->
+<rect x="150" y="150" width="300" height="400" fill="#CD7F32" opacity="0.9"/>
+<linearGradient id="neckGrad" gradientTransform="rotate(90)">
+  <stop offset="0%" stop-color="#CD7F32"/>
+  <stop offset="100%" stop-color="#A56E35"/>
+</linearGradient>
+<path d="M150,450 Q200,550 300,450" fill="url(#neckGrad)" opacity="0.7"/>
+
+<!-- Body -->
+<rect x="100" y="200" width="400" height="600" fill="#D8CAB9" opacity="0.8"/>
+<linearGradient id="bodyGrad">
+  <stop offset="0%" stop-color="#D8CAB9"/>
+  <stop offset="100%" stop-color="#C5B396"/>
+</linearGradient>
+<rect x="100" y="200" width="400" height="600" fill="url(#bodyGrad)" opacity="0.7"/>
+
+<!-- Head -->
+<circle cx="300" cy="250" r="150" fill="#F9EBB6"/>
+<linearGradient id="headGrad">
+  <stop offset="0%" stop-color="#F9EBB6"/>
+  <stop offset="100%" stop-color="#E7D8A4"/>
+</linearGradient>
+<circle cx="300" cy="250" r="150" fill="url(#headGrad)" opacity="0.7"/>
+
+<!-- Legs -->
+<path d="M150,600 Q200,700 250,600" stroke="#4A3C2D" stroke-width="20"/>
+<path d="M450,600 Q400,700 350,600" stroke="#4A3C2D" stroke-width="20"/>
+
+<!-- Horns -->
+<circle cx="280" cy="150" r="30" fill="#B98F48"/>
+<circle cx="320" cy="150" r="30" fill="#B98F48"/>
+
+<!-- Eyes -->
+<circle cx="260" cy="200" r="20" fill="#FFFFFF"/>
+<circle cx="340" cy="200" r="20" fill="#FFFFFF"/>
+<path d="M260,200 Q280,190 300,200 Q280,210 260,200" stroke="#000000" stroke-width="5"/>
+<path d="M340,200 Q320,190 300,200 Q320,210 340,200" stroke="#000000" stroke-width="5"/>
+
+<!-- Mane -->
+<path d="M300,170 Q280,130 320,170 Q340,190 300,210 Q260,190 300,170" stroke="#FFD700" stroke-width="5"/>
+
+</svg>

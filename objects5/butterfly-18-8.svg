@@ -1,0 +1,16 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path id="body" d="M150,75 Q100,150 150,200 Q200,150 250,75" fill="#FF6347" stroke="#FFFFFF"/>
+  <animateTransform attributeName="d" type="scale" from="1" to="1.2" begin="0s" dur="1s" repeatCount="indefinite"/>
+
+  <!-- Wing Left -->
+  <path id="wing-left" d="M130,75 Q100,100 100,40 Z" fill="#FF69B4" stroke="#FFFFFF"/>
+  <animateTransform attributeName="d" type="rotate" from="0deg" to="360deg" begin="0s" dur="2s" repeatCount="indefinite"/>
+
+  <!-- Wing Right -->
+  <path id="wing-right" d="M170,75 Q200,100 200,40 Z" fill="#FF69B4" stroke="#FFFFFF"/>
+  <animateTransform attributeName="d" type="rotate" from="0deg" to="-360deg" begin="0s" dur="2s" repeatCount="indefinite"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="50" r="40" fill="#FFD700"/>
+</svg>

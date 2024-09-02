@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Bell -->
+  <path d="M0,-50 A50,50 0 1,0 0,50 A50,50 0 1,0 0,-50" fill="#003049"/>
+  <!-- Triangles (Exumbrella) -->
+  <g stroke="#1C2833" stroke-width="2">
+    <?php for ($i = 0; $i < 12; $i++): ?>
+      <path d="M0,-50 L<?= cos(deg2rad($i * 30)) * 40 ?>,0 L<?= sin(deg2rad($i * 30)) * 40 ?>,0 Z" fill="white"/>
+    <?php endfor; ?>
+  </g>
+  <!-- Tentacles -->
+  <g stroke="#1C2833" stroke-width="2">
+    <?php for ($j = 0; $j < 24; $j++): ?>
+      <path d="M<?= cos(deg2rad($j * 15)) * 40 ?>,-60 Q<?= rand(-30,30) ?>,-<?= rand(-40,-20) ?> <?= sin(deg2rad($j * 15)) * 30 ?>,-30" fill="none"/>
+    <?php endfor; ?>
+  </g>
+</svg>

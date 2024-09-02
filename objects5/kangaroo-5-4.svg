@@ -1,0 +1,60 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Kangaroo Body -->
+<ellipse cx="250" cy="400" rx="180" ry="150" fill="tan">
+  <animateMotion begin="0s" dur="2s"
+    repeatCount="indefinite"
+    rotate="auto-reverse" />
+</ellipse>
+
+<!-- Kangaroo Head -->
+<circle cx="240" cy="360" r="60" fill="tan">
+  <animateMotion begin="1s" dur="1.5s"
+    repeatCount="indefinite"
+    rotate="auto-reverse" />
+</circle>
+
+<!-- Kangaroo Ears -->
+<rect x="220" y="340" width="60" height="40" rx="20%" fill="tan">
+  <animateMotion begin="1.5s" dur="1s"
+    repeatCount="indefinite"
+    rotate="auto-reverse" />
+</rect>
+<rect x="270" y="340" width="60" height="40" rx="20%" fill="tan">
+  <animateMotion begin="1.5s" dur="1s"
+    repeatCount="indefinite"
+    rotate="auto-reverse" />
+</rect>
+
+<!-- Kangaroo Front Legs -->
+<line x1="230" y1="470" x2="230" y2="600" stroke-width="30" fill="tan">
+  <animateMotion begin="2s" dur="1s"
+    repeatCount="indefinite"
+    rotate="auto-reverse" />
+</line>
+<line x1="270" y1="470" x2="270" y2="600" stroke-width="30" fill="tan">
+  <animateMotion begin="2s" dur="1s"
+    repeatCount="indefinite"
+    rotate="auto-reverse" />
+</line>
+
+<!-- Kangaroo Back Legs -->
+<line x1="250" y1="670" x2="230" y2="800" stroke-width="30" fill="tan">
+  <animateMotion begin="2.5s" dur="1s"
+    repeatCount="indefinite"
+    rotate="auto-reverse" />
+</line>
+<line x1="250" y1="670" x2="270" y2="800" stroke-width="30" fill="tan">
+  <animateMotion begin="2.5s" dur="1s"
+    repeatCount="indefinite"
+    rotate="auto-reverse" />
+</line>
+
+<!-- Kangaroo Tail -->
+<path d="M250,670 Q280,840 300,670" stroke-width="30" fill="tan">
+  <animateMotion begin="3s" dur="1.5s"
+    repeatCount="indefinite"
+    rotate="auto-reverse" />
+</path>
+
+</svg>

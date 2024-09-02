@@ -1,0 +1,23 @@
+<svg>` tag and create some basic landmarks using circles (for islands) and rectangles (for land masses). I'll also add some colors to make it more interesting.
+
+```xml
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Landmass 1 -->
+  <rect x="50" y="50" width="200" height="150" fill="#8B4513" stroke="black"/>
+
+  <!-- Island 1 -->
+  <circle cx="120" cy="120" r="50" fill="#D2691E" stroke="black"/>
+  <text x="100" y="125" text-anchor="middle" font-family="Verdana" font-size="10" fill="white">Island of Spices</text>
+
+  <!-- Landmass 2 -->
+  <rect x="300" y="150" width="150" height="200" fill="#90EE90" stroke="black"/>
+
+  <!-- Island 2 -->
+  <circle cx="400" cy="280" r="60" fill="#DAA520" stroke="black"/>
+  <text x="395" y="275" text-anchor="middle" font-family="Verdana" font-size="10" fill="white">Chocolate Atoll</text>
+
+  <!-- Cake River -->
+  <path d="M180,200 Q240,150 360,200" stroke="#FFD700" stroke-width="15"/>
+
+</svg>

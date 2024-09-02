@@ -1,0 +1,49 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <polygon points="100,5 190,5 190,170 10,170 10,5"
+           style="fill: url(#penguinGradient);"/>
+
+  <!-- Head -->
+  <circle cx="145" cy="60" r="30"
+          style="fill: url(#headGradient);"/>
+  <path d="M125,70 A80,80 0 0 1 165,70"
+        style="fill:none; stroke:#000; stroke-width:2"/>
+
+  <!-- Eyes -->
+  <circle cx="135" cy="45" r="5"
+          style="fill:black"/>
+  <circle cx="155" cy="45" r="5"
+          style="fill:black"/>
+
+  <!-- Beak -->
+  <path d="M140,60 Q130,80 140,90"
+        style="fill:orange; stroke:none"/>
+
+  <!-- Wings -->
+  <polygon points="70,25 50,50 130,50 110,25"
+           style="fill: url(#wingGradient);"/>
+
+  <!-- Legs -->
+  <path d="M90,180 Q100,200 90,220"
+        style="fill:none; stroke:#000; stroke-width:2"/>
+  <path d="M110,180 Q100,200 110,220"
+        style="fill:none; stroke:#000; stroke-width:2"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB"/>
+      <stop offset="100%" style="stop-color:#00BFFF"/>
+    </linearGradient>
+    <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#E0E0E0"/>
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF"/>
+      <stop offset="100%" style="stop-color:#C0C0C0"/>
+    </linearGradient>
+  </defs>
+
+</svg>

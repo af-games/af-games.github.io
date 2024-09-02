@@ -1,0 +1,22 @@
+<svg width="1200" height="1200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe Head Tower -->
+  <circle cx="0" cy="-125" r="125" fill="#FFD700" stroke="#FFA500"/>
+
+  <!-- Neck Building -->
+  <rect x="-150" y="-200" width="300" height="200" fill="#FFFFFF"/>
+
+  <!-- Body Building -->
+  <rect x="-300" y="0" width="400" height="800" fill="#D4AF37"/>
+
+  <!-- Leg Buildings -->
+  <rect x="-375" y="100" width="300" height="600" fill="#D4AF37"/>
+  <rect x="-75" y="100" width="300" height="600" fill="#D4AF37"/>
+  <rect x="-450" y="-600" width="300" height="600" fill="#D4AF37"/>
+  <rect x="75" y="-600" width="300" height="600" fill="#D4AF37"/>
+
+  <!-- Road Paths -->
+  <path d="M-150 -200 L0 -125 L-75 -600" stroke="#32CD32"/>
+  <path d="M0 -125 L150 -200 L75 -600" stroke="#32CD32"/>
+
+</svg>

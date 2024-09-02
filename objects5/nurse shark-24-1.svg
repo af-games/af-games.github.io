@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Body -->
+  <path d="M0,-40 Q-20,0 0,30 Q20,0 0,-40 Z" fill="#8B7D6C"/>
+
+  <!-- Tail -->
+  <polygon points="-25,-40 -10,-60 0,-40" fill="#8B7D6C"/>
+
+  <!-- Fins -->
+  <circle cx="30" cy="-25" r="25" fill="none" stroke="#8B7D6C"/>
+  <circle cx="-30" cy="-25" r="15" fill="none" stroke="#8B7D6C"/>
+
+  <!-- Head -->
+  <circle cx="0" cy="-40" r="40" fill="#EED5AA"/>
+
+  <!-- Eyes -->
+  <circle cx="-15" cy="-45" r="3" fill="#FFFFFF"/>
+  <circle cx="15" cy="-45" r="3" fill="#FFFFFF"/>
+</svg>

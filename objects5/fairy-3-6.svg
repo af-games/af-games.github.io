@@ -1,0 +1,26 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <g id="body">
+    <!-- Top row -->
+    <rect x="10" y="50" width="10" height="10" fill="#ADD8E6"/>
+    ...
+    <!-- Remaining rows for the body -->
+
+    <!-- Hair -->
+    <g id="hair">
+      <!-- Black hair tiles go here -->
+
+      <!-- Eyes -->
+      <g id="eyes">
+        <!-- White eye circles and black pupils go here -->
+
+        <!-- Clothes -->
+        <g id="clothes">
+          <!-- Lighter blue clothes tiles go here -->
+        </g>
+      </g>
+    </g>
+  </g>
+
+</svg>

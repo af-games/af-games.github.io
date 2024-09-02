@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 768">
+  <!-- Owl's head -->
+  <ellipse cx="256" cy="480" rx="192" ry="224" fill="#4B2E23"/>
+  <ellipse cx="256" cy="400" rx="128" ry="160" fill="#D7A98C"/>
+
+  <!-- Eyes -->
+  <circle cx="224" cy="384" r="32" fill="#FFFFFF"/>
+  <circle cx="288" cy="384" r="32" fill="#FFFFFF"/>
+  <circle cx="224" cy="384" r="16" fill="#000000"/>
+  <circle cx="288" cy="384" r="16" fill="#000000"/>
+
+  <!-- Beak -->
+  <polygon points="256,400 304,320 208,320" fill="#C97F5E"/>
+
+  <!-- Wings (outline) -->
+  <polyline points="128,512 256,640 384,512" stroke="#C97F5E" stroke-width="16"/>
+  <polyline points="128,640 256,768 384,640" stroke="#C97F5E" stroke-width="16"/>
+
+  <!-- Moon phases -->
+  <circle cx="320" cy="768" r="64" fill="#FFFFFF" opacity="0.2"/>
+  <circle cx="320" cy="768" r="32" fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- Branches -->
+  <polyline points="192,608 256,544 320,608" stroke="#C97F5E" stroke-width="8"/>
+  <polyline points="288,608 352,544 416,608" stroke="#C97F5E" stroke-width="8"/>
+
+  <!-- Stars -->
+  <circle cx="48" cy="128" r="8" fill="#FFFFFF"/>
+  <circle cx="224" cy="672" r="8" fill="#FFFFFF"/>
+  <circle cx="384" cy="512" r="8" fill="#FFFFFF"/>
+
+  <!-- Owl's body, feathers, and other details can be added using similar SVG elements -->
+</svg>

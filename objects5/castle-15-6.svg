@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="50" width="700" height="500" style="fill:#F5DEB3"/>
+```
+
+**Step 2: Draw the castle walls**
+```svg
+<rect x="100" y="100" width="600" height="400" style="fill:#8B4513"/>
+```
+
+**Step 3: Create tower bases**
+```svg
+<polygon points="200,100 400,100 400,300 200,300" style="fill:#703642"/>
+<polygon points="500,100 700,100 700,300 500,300" style="fill:#703642"/>
+```
+
+**Step 4: Add roof shapes**
+```svg
+<path d="M150,50 Q250,50 350,200 Q450,50 550,200" style="fill:#703642"/>
+```
+
+**Step 5: Create turrets**
+```svg
+<polygon points="180,200 220,200 200,300" style="fill:#703642"/>
+<polygon points="580,200 620,200 600,300" style="fill:#703642"/>
+```
+
+**Step 6: Add windows and doors**
+```svg
+<circle cx="150" cy="200" r="30" style="fill:#FFFFFF"/>
+<circle cx="650" cy="200" r="30" style="fill:#FFFFFF"/>
+<rect x="250" y="250" width="100" height="100" style="fill:#FFFFFF"/>
+```
+
+**Step 7: Add decorative text**
+```svg
+<text x="40%" y="90%" dominant-baseline="middle" text-anchor="middle" font-family="Verdana" font-size="50">Castle Feast</text>
+```
+
+**Step 8: Close the SVG**
+```svg
+</svg>

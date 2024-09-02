@@ -1,0 +1,13 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Base -->
+  <path d="M100,5 A90,90 0 1,0 190,95 Q160,80 100,50 Q40,80 10,95 A90,90 0 1,0 90,5 Z" fill="brown"/>
+
+  <!-- Cake Top -->
+  <path d="M100,25 A70,70 0 1,0 170,35 Q140,28 100,18 Q60,28 30,35 A70,70 0 1,0 90,25 Z" fill="pink"/>
+
+  <!-- Cake Frosting -->
+  <path d="M95,30 Q105,40 95,50 Z" fill="white" stroke="black" stroke-width="2"/>
+
+  <!-- Cake Candle -->
+  <rect x="80" y="10" width="40" height="10" rx="5" fill="yellow"/>
+</svg>

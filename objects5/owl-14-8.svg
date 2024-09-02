@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Head -->
+  <path d="M0,-40 Q10,0 30,-40 A60,60 0 0,0 -30,-40 Q-10,0 0,-40" stroke="#333" stroke-width="8"/>
+  <path d="M0,-35 Q10,5 30,-35 A40,40 0 0,0 -30,-35 Q-10,5 0,-35" stroke="#333" stroke-width="6"/>
+
+  <!-- Eye -->
+  <circle cx="-5" cy="-20" r="10" fill="#fff" stroke="#333"/>
+  <path d="M-5,-25 Q-20,-40 -5,-25" stroke="#333" stroke-width="2"/>
+
+  <!-- Beak -->
+  <path d="M0,-40 Q15,-5 30,-40 L30,-20 L0,-20 Z" stroke="#333" stroke-width="6"/>
+
+  <!-- Body -->
+  <path d="M30,-40 Q50,-70 70,-40 Q90,10 80,-10 Q60,-30 30,-40" stroke="#333" stroke-width="8"/>
+
+  <!-- Wings -->
+  <path d="M30,-40 Q50,-80 70,-50 Q70,-20 60,-10 Q50,0 40,10 Q30,20 20,10 Z" stroke="#333" stroke-width="8"/>
+  <path d="M70,-50 Q90,-80 90,-20 Q80,-10 70,0 Q60,10 50,20 Q40,20 30,10 Z" stroke="#333" stroke-width="6"/>
+
+  <!-- Feet -->
+  <path d="M30,-80 Q50,-100 70,-80 Q90,-100 110,-80" stroke="#333" stroke-width="4"/>
+  <ellipse cx="30" cy="-80" rx="5" ry="2.5" fill="#fff"/>
+  <ellipse cx="70" cy="-80" rx="5" ry="2.5" fill="#fff"/>
+
+  <!-- Ears -->
+  <path d="M-10,0 Q-30,20 -40,0 Q-30,-20 -10,0" stroke="#333" stroke-width="4"/>
+  <path d="M10,0 Q30,20 40,0 Q30,-20 10,0" stroke="#333" stroke-width="4"/>
+
+</svg>

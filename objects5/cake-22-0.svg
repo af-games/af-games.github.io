@@ -1,0 +1,30 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="20" y="80" width="360" height="60" rx="15" fill="#D2B48C"/>
+
+  <!-- Cake Body -->
+  <ellipse cx="200" cy="270" rx="180" ry="150" fill="#A97D59"/>
+  <ellipse cx="200" cy="320" rx="140" ry="110" fill="#A97D59"/>
+
+  <!-- Frosting -->
+  <ellipse cx="200" cy="380" rx="220" ry="180" fill="#FFC0CB"/>
+  <ellipse cx="200" cy="430" rx="260" ry="210" fill="#FFC0CB"/>
+
+  <!-- Cake Layers -->
+  <circle cx="150" cy="270" r="30" fill="#A97D59"/>
+  <circle cx="250" cy="270" r="30" fill="#A97D59"/>
+
+  <!-- Icing Details -->
+  <rect x="80" y="410" width="60" height="20" fill="white"/>
+  <rect x="150" y="430" width="60" height="20" fill="white"/>
+  <circle cx="270" cy="400" r="10" fill="white"/>
+
+  <!-- Candles -->
+  <rect x="180" y="395" width="10" height="30" fill="#F39C11"/>
+  <rect x="205" y="395" width="10" height="30" fill="#F39C11"/>
+  <rect x="230" y="395" width="10" height="30" fill="#F39C11"/>
+  <rect x="255" y="395" width="10" height="30" fill="#F39C11"/>
+  <rect x="280" y="395" width="10" height="30" fill="#F39C11"/>
+
+</svg>

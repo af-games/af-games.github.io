@@ -1,0 +1,20 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,70 C140,80 190,60 240,70 C290,80 340,50 390,60 C440,70 490,80 540,70 L590,90 Z" fill="blue"/>
+
+  <!-- Fin on the left -->
+  <path d="M120,100 Q140,60 170,100 Q130,130 120,100 Z" fill="lightsteelblue"/>
+
+  <!-- Fin on the right -->
+  <path d="M380,100 Q400,60 430,100 Q410,130 380,100 Z" fill="lightsteelblue"/>
+
+  <!-- Tail fin -->
+  <path d="M570,240 C590,210 610,230 630,240 L640,250 Q650,280 660,240 Z" fill="lightsteelblue"/>
+
+  <!-- Head -->
+  <path d="M70,40 C90,10 110,30 130,40 L150,60 Q170,80 190,60 Z" fill="blue"/>
+
+  <!-- Eye -->
+  <circle cx="140" cy="50" r="5" fill="black"/>
+
+</svg>

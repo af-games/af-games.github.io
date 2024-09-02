@@ -1,0 +1,23 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Rock -->
+<rect x="150" y="400" width="200" height="100" fill="#777777"/>
+
+<!-- Tail -->
+<linearGradient id="tailGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+  <stop offset="0%" style="stop-color:#9DC8D6; stop-opacity:1" />
+  <stop offset="100%" style="stop-color:#0A9396; stop-opacity:1" />
+</linearGradient>
+<polygon points="250,400 350,400 300,200" fill="url(#tailGrad)"/>
+
+<!-- Skin -->
+<rect x="200" y="100" width="100" height="300" fill="#F5DEB3"/>
+<rect x="270" y="130" width="60" height="240" fill="#F9E5B0"/>
+
+<!-- Hair -->
+<polygon points="280,180 320,100 360,180" fill="#4A2C0B"/>
+
+<!-- Water -->
+<rect x="0" y="400" width="500" height="100" fill="#03A9F4"/>
+
+</svg>

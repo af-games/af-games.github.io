@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    .igloo { fill: #FFFFFF; stroke: #6D9EA3; }
+    .cloud { fill: #A5CBE1; }
+    .sea { fill: #4F7D9B; }
+    .whale { fill: none; stroke: #2E586F; stroke-width: 50; }
+    .text { font-family: Arial, sans-serif; fill: #333; }
+  </style>
+
+  <!-- Scene 1 -->
+  <circle class="igloo" cx="100" cy="200" r="80"/>
+  <text class="text" x="50" y="40">In the frozen north, Igloo lived a quiet life among friends.</text>
+
+  <!-- Scene 2 -->
+  <rect class="cloud" width="300" height="100" x="400" y="150"/>
+  <text class="text" x="600" y="270">One day, a great storm swept through...</text>
+
+  <!-- Scene 3 -->
+  <path class="wind" d="M100,150 Q200,50 400,100"/>
+  <circle class="igloo" cx="400" cy="100" r="80"/>
+
+  <!-- ... Continue with the rest of the scenes following this pattern -->
+
+</svg>

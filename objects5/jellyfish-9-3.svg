@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10% -10% 120% 120%" preserveAspectRatio="xMidYMid meet">
+  <!-- Central Bell -->
+  <ellipse cx="0%" cy="0%" rx="5%" ry="7%" fill="#ff6f61"/>
+
+  <!-- Four Bells -->
+  <g id="bells">
+    <use xlink:href="#bell" transform="rotate(90, 0%, 0%)"/>
+    <use xlink:href="#bell" transform="rotate(-90, 0%, 0%)"/>
+    <use xlink:href="#bell" transform="rotate(180, 0%, 0%)"/>
+    <use xlink:href="#bell" transform="rotate(-180, 0%, 0%)"/>
+  </g>
+
+  <!-- Eight Tentacles -->
+  <g id="tentacles">
+    <path d="M0,-7% a5%,5% 0 1,0 -10%,0 a5%,5% 0 1,0 10%,0"/>
+    <path d="M0,-7% a5%,5% 0 1,0 -10%,0 a5%,5% 0 1,0 0%,-7%" transform="rotate(45)"/>
+    <!-- Repeat paths for remaining six tentacles with appropriate rotations -->
+
+  </g>
+
+  <!-- Define Bell shape -->
+  <defs>
+    <ellipse id="bell" cx="0%" cy="0%" rx="5%" ry="7%"/>
+  </defs>
+</svg>

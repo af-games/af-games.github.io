@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Body -->
+  <rect x="140" y="180" width="220" height="320" fill="#FCD1C7" stroke="black"/>
+  <linearGradient id="bodyGrad" gradientTransform="rotate(90)">
+    <stop offset="0%" stop-color="#FCD1C7"/>
+    <stop offset="100%" stop-color="#D8A584"/>
+  </linearGradient>
+  <rect x="140" y="180" width="220" height="320" fill="url(#bodyGrad)" stroke-width="0"/>
+
+  <!-- Neck -->
+  <path d="M160,270 Q245,180 390,270 H430 V220 H390 Z" fill="#D8A584" stroke="black"/>
+  <linearGradient id="neckGrad" x1="160" y1="270" x2="390" y2="270">
+    <stop offset="0%" stop-color="#D8A584"/>
+    <stop offset="100%" stop-color="#B27C5E"/>
+  </linearGradient>
+  <path d="M160,270 Q245,180 390,270 H430 V220 H390 Z" fill="url(#neckGrad)" stroke-width="0"/>
+
+  <!-- Head -->
+  <circle cx="275" cy="150" r="100" fill="#FCD1C7"/>
+  <linearGradient id="headGrad" x1="275" y1="50" x2="275" y2="250">
+    <stop offset="0%" stop-color="#FCD1C7"/>
+    <stop offset="100%" stop-color="#D8A584"/>
+  </linearGradient>
+  <circle cx="275" cy="150" r="100" fill="url(#headGrad)"/>
+
+  <!-- Legs -->
+  <rect x="130" y="490" width="40" height="110" fill="#D8A584"/>
+  <rect x="270" y="490" width="40" height="110" fill="#D8A584"/>
+  <rect x="370" y="490" width="40" height="110" fill="#D8A584"/>
+  <rect x="460" y="490" width="40" height="110" fill="#D8A584"/>
+
+  <!-- Eyes -->
+  <circle cx="230" cy="120" r="20" fill="black"/>
+  <circle cx="320" cy="120" r="20" fill="black"/>
+
+</svg>

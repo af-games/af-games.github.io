@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Cake tiers -->
+  <circle cx="200" cy="180" r="160" fill="#fff" stroke="#ddd" stroke-width="2"/>
+  <circle cx="200" cy="320" r="130" fill="#fff" stroke="#ddd" stroke-width="2"/>
+  <circle cx="200" cy="450" r="90" fill="#fff" stroke="#ddd" stroke-width="2"/>
+
+  <!-- Fondant wrap -->
+  <rect x="80" y="165" width="240" height="270" fill="url(#fondantGrad)"/>
+  <defs>
+    <linearGradient id="fondantGrad" gradientUnits="objectBoundingBox">
+      <stop offset="0%"   stop-color="#f9e3ce"/>
+      <stop offset="100%" stop-color="#e8d4b2"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cake top -->
+  <circle cx="200" cy="50" r="30" fill="#fff" stroke="#ddd" stroke-width="2"/>
+
+  <!-- Flowers -->
+  <g id="flower">
+    <circle cx="180" cy="70" r="20" fill="url(#petalGrad)"/>
+    <circle cx="220" cy="70" r="20" fill="url(#petalGrad)"/>
+    <path d="M195 40 a20 20 0 0 1 0 40 a20 20 0 0 1 0 -40 z" fill="#ffc107"/>
+  </g>
+  <use href="#flower" x="180" y="230"/>
+  <use href="#flower" x="220" y="260"/>
+  <use href="#flower" x="195" y="310"/>
+  <use href="#flower" x="205" y="340"/>
+
+</svg>

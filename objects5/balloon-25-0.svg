@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="150">
+
+  <!-- Balloon -->
+  <ellipse cx="50" cy="75" rx="40" ry="20"
+    fill="url(#balloonGradient)">
+    <animate attributeName="cy" values="75;85;75" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- String -->
+  <line x1="50" y1="40" x2="50" y2="35"
+    stroke="#000000"/>
+
+  <!-- Balloon Gradient -->
+  <defs>
+    <linearGradient id="balloonGradient">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="100%" stop-color="#ADD8E6"/>
+    </linearGradient>
+  </defs>
+
+</svg>

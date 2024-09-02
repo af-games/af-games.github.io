@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hot Air Balloon -->
+  <g id="balloon" transform="translate(400, 500)">
+    <circle cx="0" cy="0" r="80" fill="#FFDEAD"/>
+    <path d="M-160 -120 Q0 -180 160 -120 Q0 60 0 120" stroke="#F39C12" fill="transparent"/>
+    <rect x="-40" y="-140" width="80" height="160" fill="#FFDEAD"/>
+    <circle cx="-35" cy="-145" r="5" fill="#000"/>
+    <circle cx="35" cy="-145" r="5" fill="#000"/>
+  </g>
+
+  <!-- Rolling Hills -->
+  <path id="hills" d="M0,200 Q200,300 400,200 Q600,100 800,200" stroke="none" fill="#9ACD32">
+    <animate attributeName="d"
+             values="M0,200 Q200,300 400,200 Q600,100 800,200; M0,205 Q200,305 400,205 Q600,95 800,205"
+             dur="5s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Winding River -->
+  <path id="river" d="M100,400 Q300,350 500,400 Q700,450 900,400" stroke="#6495ED" fill="transparent" stroke-width="2"/>
+
+  <!-- Towering Trees -->
+  <g id="trees">
+    <rect x="180" y="380" width="20" height="70" rx="5" ry="5" fill="#8B4513"/>
+    <path d="M190,450 Q200,350 210,450" stroke="#66CDAA" fill="transparent"/>
+    <circle cx="190" cy="470" r="5" fill="#008000"/>
+
+    <rect x="580" y="380" width="20" height="70" rx="5" ry="5" fill="#8B4513"/>
+    <path d="M590,450 Q600,350 610,450" stroke="#66CDAA" fill="transparent"/>
+    <circle cx="590" cy="470" r="5" fill="#008000"/>
+  </g>
+</svg>

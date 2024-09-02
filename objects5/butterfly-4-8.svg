@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Body -->
+  <circle id="body" cx="250" cy="250" r="80" fill="#FF69B4">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 250 250"
+      to="360 250 250"
+      repeatCount="indefinite"
+      dur="5s" />
+  </circle>
+
+  <!-- Wings -->
+  <path id="wing1" d="M200,170 Q250,70 300,170 L350,250 Z" fill="#FF69B4">
+    <animate
+      attributeName="d"
+      repeatCount="indefinite"
+      dur="5s"
+      values="M200,170 Q250,70 300,170 L350,250 Z; M200,250 Q250,330 300,250 L350,180 Z;" />
+  </path>
+  <use xlink:href="#wing1" transform="translate(50, 0) rotate(72)" />
+
+  <!-- Antennae -->
+  <line id="antenna" x1="240" y1="230" x2="260" y2="230" stroke="#FF69B4">
+    <animate
+      attributeName="x2"
+      repeatCount="indefinite"
+      dur="5s"
+      values="260; 280; 260" />
+  </line>
+  <use xlink:href="#antenna" transform="translate(0, -40) rotate(-72)" />
+
+</svg>

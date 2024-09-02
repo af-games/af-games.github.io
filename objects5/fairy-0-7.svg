@@ -1,0 +1,64 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Fairy outline -->
+    <path id="fairyOutline" d="M100 100 L150 75 Q200 100, 250 75 T300 100 V200 H350 V100 H400 V150 Z"></path>
+
+    <!-- Fairy wings -->
+    <path id="wingLeft" d="M50 80 Q60 60, 90 80"></path>
+    <path id="wingRight" d="M200 80 Q190 60, 160 80"></path>
+
+    <!-- Fairy hair -->
+    <polygon id="hair" points="50,70 70,30 130,30 150,70"></polygon>
+  </defs>
+
+  <!-- Fairy body -->
+  <use xlink:href="#fairyOutline" transform="translate(100,100) scale(1.5)" />
+
+  <!-- Fairy wings (initial position) -->
+  <use xlink:href="#wingLeft" transform="translate(70,80) rotate(-30)" />
+  <use xlink:href="#wingRight" transform="translate(160,80) rotate(30)" />
+
+  <!-- Fairy hair -->
+  <use xlink:href="#hair" transform="translate(90,90) scale(1.5)" />
+
+  <animateTransform
+    attributeName="transform"
+    type="scale"
+    from="1"
+    to="1.5"
+    begin="0s"
+    dur="2s"
+    repeatCount="indefinite" />
+
+  <!-- Flapping wings animation -->
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="30"
+    to="-30"
+    begin="0s"
+    dur="1s"
+    repeatCount="indefinite"
+    xlink:href="#wingLeft" />
+
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="-30"
+    to="30"
+    begin="0.5s"
+    dur="1s"
+    repeatCount="indefinite"
+    xlink:href="#wingRight" />
+
+  <!-- Fairy floating upwards -->
+  <animate
+    attributeName="transform"
+    type="translate"
+    from="100,100"
+    to="100,50"
+    begin="2s"
+    dur="3s"
+    repeatCount="indefinite" />
+
+</svg>

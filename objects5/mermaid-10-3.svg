@@ -1,0 +1,13 @@
+<svg width="500" height="500" viewBox="-250 -250 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ocean -->
+  <rect x="-250" y="-250" width="500" height="500" fill="#1F456B"/>
+
+  <!-- Island (example) -->
+  <circle cx="120" cy="0" r="80" fill="#3D9970"/>
+  <path d="M-120,0 A120,120 0 1,0 120,0 A120,120 0 1,0 -120,0" stroke="#A9A9A9" fill="transparent"/>
+
+  <!-- Mermaid Tail (example) -->
+  <path d="M-80,-160 Q0,-240 80,-160 Q0,-40 -80,-160" stroke="#A040FF" fill="transparent" stroke-width="10"/>
+
+</svg>

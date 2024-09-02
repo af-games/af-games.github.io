@@ -1,0 +1,31 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Boundary -->
+  <path d="M10,10 H790 Q750,0 710,10 V590 Q750,600 710,590 H10 Z"
+        fill="#A9A9A9" stroke="#4D4D4D"/>
+
+  <!-- Major Landmarks -->
+
+  <!-- Owl's Tower -->
+  <circle cx="350" cy="200" r="80" fill="#FFC300"/>
+  <text x="310" y="250" font-size="20px" text-anchor="middle">Owl's Tower</text>
+
+  <!-- Whispering Woods -->
+  <path d="M480,370 Q560,320 620,370 Q560,420 480,370" fill="#8DC63C"/>
+  <text x="550" y="390" font-size="16px" text-anchor="middle">Whispering Woods</text>
+
+  <!-- Moonlit Lake -->
+  <path d="M220,420 Q300,480 370,420 Q300,360 220,420" fill="#ADD8E6"/>
+  <text x="295" y="450" font-size="16px" text-anchor="middle">Moonlit Lake</text>
+
+  <!-- Points of Interest -->
+
+  <!-- Ancient Ruins -->
+  <circle cx="70" cy="200" r="30" fill="#FFD700"/>
+  <text x="45" y="230" font-size="12px">Ancient Ruins</text>
+
+  <!-- Crystal Caverns -->
+  <path d="M680,200 Q750,150 790,200" stroke="#FFFFFF" fill="#D4A5BD"/>
+  <text x="735" y="190" font-size="12px">Crystal Caverns</text>
+
+</svg>

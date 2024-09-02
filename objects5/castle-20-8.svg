@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Castle Walls -->
+  <rect x="-50" y="-40" width="100" height="80" rx="10" fill="#D3D3D3"/>
+  <polygon points="-40,20 -20,-20 20,-20 40,20" fill="#D3D3D3"/>
+
+  <!-- Turrets -->
+  <polygon points="-30,5 -10,-30 10,-30 30,5" fill="#696969"/>
+  <polygon points="30,5 50,-30 70,-30 90,5" fill="#696969"/>
+
+  <!-- Gatehouse Arch -->
+  <ellipse cx="0" cy="-20" rx="40" ry="20" fill="#8B4513"/>
+
+  <!-- Roof Lines -->
+  <line x1="-40" y1="70" x2="40" y2="70" stroke="#696969"/>
+  <line x1="-10" y1="50" x2="10" y2="50" stroke="#696969"/>
+  <line x1="30" y1="50" x2="70" y2="50" stroke="#696969"/>
+
+  <!-- Moat -->
+  <path d="M -50,-40 H 50 V -80 H -50 Z" fill="#212F3C"/>
+
+  <!-- Drawbridge -->
+  <line x1="-20" y1="-20" x2="20" y2="-20" stroke="#8B4513" stroke-width="5"/>
+
+</svg>

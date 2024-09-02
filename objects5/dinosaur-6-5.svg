@@ -1,0 +1,31 @@
+<svg width="100%" height="50%" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Introduction: Slow, steady beats with circles -->
+  <circle cx="50" cy="200" r="30" fill="green" stroke="black" stroke-width="2">
+    <animate attributeName="cx" values="50;650;50" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Building tension: Rectangles grow in size -->
+  <rect x="100" y="150" width="30" height="100" fill="orange">
+    <animate attributeName="height" values="100;200;100" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Crescendo: Paths dance around each other -->
+  <path d="M300,200 Q450,50 600,200" fill="transparent" stroke="red" stroke-width="5">
+    <animate attributeName="d" dur="1.5s" repeatCount="indefinite"
+      values="M300,200 Q450,50 600,200; M300,250 Q450,100 600,250"/>
+    <animate attributeName="stroke-width" dur="1.5s" repeatCount="indefinite"
+      values="5;8;5" />
+  </path>
+
+  <!-- Harmony: Circles and rectangles synchronize -->
+  <circle cx="700" cy="300" r="40" fill="purple">
+    <animate attributeName="cy" values="300;150;300" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="40;60;40" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Finale: All shapes harmonize -->
+  <rect x="500" y="100" width="70" height="300" fill="blue">
+    <animate attributeName="width" values="70;140;70" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>

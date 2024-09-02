@@ -1,0 +1,40 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2001/svg">
+  <!-- Castle Gate -->
+  <rect id="gate" x="50" y="450" width="100" height="150" fill="#8B7D6B"/>
+  <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blurred"/>
+  <feMerge>
+    <feMergeNode in="blurred"/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+  <use xlink:href="#gate" fill="none" stroke="black" stroke-width="5" x="70" y="480"/>
+
+  <!-- Path to Courtyard -->
+  <path id="path1" d="M160,530 Q250,400 340,530" fill="none" stroke="black" stroke-width="5"/>
+  <feSpecularLighting in="SourceAlpha" surfaceScale="5" specularConstant=".75" specularExponent="20">
+    <fePointLight x="-100" y="-100" z="200"/>
+  </feSpecularLighting>
+  <use xlink:href="#path1"/>
+
+  <!-- Courtyard -->
+  <rect id="courtyard" x="300" y="450" width="200" height="150" fill="#C7C7C7"/>
+  <feColorMatrix in="SourceGraphic" type="matrix"
+    values="0.33 0.33 0.33 0 0
+            0.33 0.33 0.33 0 0
+            0.33 0.33 0.33 0 0
+            0    0    0   1 0"/>
+  <use xlink:href="#courtyard"/>
+
+  <!-- Keep -->
+  <circle id="keep" cx="500" cy="400" r="80" fill="#B22222"/>
+  <feTurbulence baseFrequency="0.01" numOctaves="1" result="turbulence"/>
+  <feDisplacementMap in="SourceGraphic" in2="turbulence" scale="10"/>
+  <use xlink:href="#keep"/>
+
+  <!-- Path to Keep -->
+  <path id="path2" d="M470,530 Q560,400 650,530" fill="none" stroke="black" stroke-width="5"/>
+  <feComponentTransfer>
+    <feFuncA type="linear" slope="0.5"/>
+  </feComponentTransfer>
+  <use xlink:href="#path2"/>
+
+</svg>

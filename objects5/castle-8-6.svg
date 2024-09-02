@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Base -->
+  <rect width="100%" height="80%" fill="#E6D8AF"/>
+
+  <!-- Castle Walls -->
+  <rect x="70" y="30" width="360" height="300" stroke="#000" stroke-width="2" fill="#B3A27F"/>
+  <rect x="150" y="50" width="200" height="280" stroke="#000" stroke-width="2" fill="#B3A27F"/>
+
+  <!-- Towers and Turrets -->
+  <circle cx="150" cy="350" r="40" fill="#A68C6B"/>
+  <circle cx="300" cy="350" r="40" fill="#947D5F"/>
+  <circle cx="225" cy="320" r="30" fill="#947D5F"/>
+  <circle cx="100" cy="320" r="30" fill="#A68C6B"/>
+  <circle cx="275" cy="370" r="60" fill="#947D5F"/>
+
+  <!-- Gates and Flags -->
+  <polygon points="180,200 220,200 220,300 180,300" fill="#6E532C"/>
+  <rect x="165" y="170" width="40" height="30" fill="#FFDEAD"/>
+  <rect x="215" y="170" width="40" height="30" fill="#FFDEAD"/>
+
+  <!-- Roofs -->
+  <path d="M80,60 Q200,40 320,60 Q360,90 420,60" stroke="#000" stroke-width="1.5" fill="#8B714F"/>
+  <path d="M150,90 Q250,120 350,90" stroke="#000" stroke-width="1.5" fill="#8B714F"/>
+
+  <!-- Details -->
+  <path d="M90,90 Q150,120 210,90 Q270,120 330,90" stroke="#000" stroke-width="1.5"/>
+  <circle cx="85" cy="45" r="5" fill="#FFFFFF"/>
+  <circle cx="425" cy="45" r="5" fill="#FFFFFF"/>
+
+  <!-- Text -->
+  <text x="17%" y="90%" font-family="fantasy" font-size="3em" fill="#CD7F32">Welcome to the Castle Feast!</text>
+
+</svg>

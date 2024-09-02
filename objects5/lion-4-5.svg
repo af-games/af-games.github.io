@@ -1,0 +1,51 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Stage Background -->
+  <rect x="50" y="100" width="500" height="300" fill="#ffffcc"/>
+
+  <!-- Lion Silhouette -->
+  <g id="lion">
+    <!-- Body -->
+    <path d="M200,150 Q250,120 300,150 Q350,180 400,150" fill="#ffa500"/>
+
+    <!-- Head -->
+    <circle cx="250" cy="120" r="50" fill="#ffa500"/>
+
+    <!-- Tail -->
+    <path d="M370,180 Q420,220 460,180" fill="#ffa500"/>
+
+    <!-- Legs and strings (paths) -->
+    <g id="leg1">
+      <path d="M150,250 Q100,300 50,250"/>
+      <circle cx="50" cy="250" r="10"/>
+    </g>
+    <g id="leg2">
+      <path d="M200,270 Q250,320 300,270"/>
+      <circle cx="300" cy="270" r="10"/>
+    </g>
+    <g id="leg3">
+      <path d="M450,250 Q500,300 550,250"/>
+      <circle cx="550" cy="250" r="10"/>
+    </g>
+    <g id="leg4">
+      <path d="M400,270 Q450,320 500,270"/>
+      <circle cx="500" cy="270" r="10"/>
+    </g>
+
+    <!-- Strings for limb manipulation -->
+    <path id="string1" d="M150,250 Q180,280 230,250"/>
+    <path id="string2" d="M200,270 Q230,300 280,270"/>
+    <path id="string3" d="M450,250 Q480,280 530,250"/>
+    <path id="string4" d="M400,270 Q430,300 480,270"/>
+  </g>
+
+  <!-- Monkey Silhouette -->
+  <g id="monkey">
+    <!-- Body -->
+    <path d="M150,200 Q100,250 50,200" fill="#ffa500"/>
+
+    <!-- Head -->
+    <circle cx="100" cy="170" r="30" fill="#ffa500"/>
+  </g>
+
+</svg>

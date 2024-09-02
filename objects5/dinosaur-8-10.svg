@@ -1,0 +1,16 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- The body of the dinosaur -->
+  <path id="body"
+        d="M100,200 Q150,100 200,200 Q250,300 300,200"
+        stroke="black" fill="transparent"/>
+
+  <!-- The head of the dinosaur -->
+  <circle id="head"
+          cx="80" cy="70" r="40"
+          stroke="black" fill="lightgreen"/>
+
+  <!-- The tail of the dinosaur -->
+  <path id="tail"
+        d="M350,200 Q300,250 350,300"
+        stroke="black" fill="transparent"/>
+</svg>

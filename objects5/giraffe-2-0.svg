@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300">
+  <!-- Body -->
+  <path d="M50,200 Q150,150 200,200 Q150,250 50,250 Z" fill="#F2E2D4"/>
+
+  <!-- Body Spots -->
+  <circle cx="75" cy="225" r="8" fill="#A0522D"/>
+  <circle cx="125" cy="230" r="6" fill="#A0522D"/>
+  <circle cx="175" cy="240" r="8" fill="#A0522D"/>
+
+  <!-- Neck Spots -->
+  <polygon points="100,190 130,180 160,190" fill="#A0522D"/>
+
+  <!-- Head -->
+  <path d="M100,75 Q140,70 180,75 Q140,80 100,75 Z" fill="#F2E2D4"/>
+  <circle cx="80" cy="60" r="5" fill="#333"/> <!-- Left Eye -->
+  <circle cx="120" cy="60" r="5" fill="#333"/> <!-- Right Eye -->
+  <rect x="95" y="70" width="10" height="5" fill="#333"/> <!-- Nostrils -->
+
+  <!-- Mouth -->
+  <polygon points="85,75 115,75 100,65" fill="#333"/>
+
+  <!-- Legs -->
+  <path d="M25,250 Q40,300 80,270 Q40,240 25,210"/>
+  <path d="M200,250 Q180,300 130,270 Q180,240 200,210"/>
+
+</svg>

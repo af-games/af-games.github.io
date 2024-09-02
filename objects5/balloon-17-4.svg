@@ -1,0 +1,40 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body -->
+  <circle cx="100" cy="75" r="75">
+    <style>
+      fill: url(#balloonGradient);
+    </style>
+    <filter id="balloonShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+      <feOffset dx="2" dy="2" result="offsetblur" />
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="BackgroundImage" />
+      </feMerge>
+    </filter>
+  </circle>
+
+  <!-- Balloon tail -->
+  <polygon points="100,75 80,95 120,95"
+           style="fill: orange; stroke: black; stroke-width: 1px;">
+    <animate attributeName="points" dur="2s" repeatCount="indefinite">
+      <animateFrom>100,75 80,95 120,95</animateFrom>
+      <animateTo>100,75 60,115 140,115</animateTo>
+    </animate>
+  </polygon>
+
+  <!-- Balloon string -->
+  <line x1="100" y1="25" x2="100" y2="30"
+        style="stroke: black; stroke-width: 2px;" />
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="balloonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:red; stop-opacity:1" />
+      <stop offset="50%" style="stop-color:yellow; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:orange; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+</svg>

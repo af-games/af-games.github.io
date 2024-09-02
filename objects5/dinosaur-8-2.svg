@@ -1,0 +1,32 @@
+<svg viewBox="-50 0 400 800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="0" y="150" width="300" height="400" fill="#8B7D6B"/>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="100" rx="150" ry="120" fill="#8B7D6B"/>
+
+  <!-- Neck -->
+  <rect x="150" y="300" width="30" height="120" transform="rotate(90, 150, 420)" fill="#8B7D6B"/>
+
+  <!-- Legs -->
+  <rect x="50" y="520" width="60" height="180" fill="#8B7D6B"/>
+  <rect x="250" y="520" width="60" height="180" fill="#8B7D6B"/>
+  <rect x="50" y="700" width="40" height="120" fill="#8B7D6B"/>
+  <rect x="250" y="700" width="40" height="120" fill="#8B7D6B"/>
+
+  <!-- Tail -->
+  <path d="M300,700 Q350,650 400,700 Q450,750 500,700" stroke="black" fill="#8B7D6B"/>
+
+  <!-- Arms -->
+  <rect x="120" y="350" width="40" height="80" fill="#8B7D6B"/>
+  <rect x="180" y="350" width="40" height="80" fill="#8B7D6B"/>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="90" r="30" fill="#FFFFFF"/>
+  <circle cx="210" cy="90" r="30" fill="#FFFFFF"/>
+
+  <!-- Teeth -->
+  <path d="M120,60 Q140,75 160,60 Q180,75 200,60" stroke="black" fill="#FFFFFF"/>
+
+</svg>

@@ -1,0 +1,45 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2001/svg">
+```
+
+**Landmarks:**
+
+1. **Nurse Shark Mountain (Polygon)** - Far away, in the center.
+   - Coordinates: `x="200", y="250"`
+   - Size: Width=400, Height=300
+   - Color: `#8B4513` (Saddle Brown)
+
+```xml
+<polygon points="200,250 300,150 400,250" style="fill:#8B4513"/>
+```
+
+2. **Shark's Forest (Ellipses)** - Closer to the viewer, surrounding the mountain.
+   - Coordinates: `cx="250", cy="200"`
+   - Size: Radius x=100, Radius y=75
+   - Color: `#006400` (Dark Green)
+
+```xml
+<ellipse cx="250" cy="200" rx="100" ry="75" style="fill:#006400"/>
+```
+
+3. **Shark's River (Path)** - Closest to the viewer, flowing from the mountain.
+   - Coordinates: Start at `x="250", y="350"` to end at `x="150", y="200"`
+   - Width: 50
+   - Color: `#0000CD` (Medium Blue)
+
+```xml
+<path d="M250,350 Q275,325 150,200" stroke="#0000CD" fill="transparent" stroke-width="50"/>
+```
+
+4. **Nurse Shark (Path)** - The closest landmark, swimming in the river.
+   - Coordinates: Start at `x="175", y="225"` to end at `x="185", y="235"`
+   - Size: Height=50
+   - Color: `#FFFFFF` (White)
+
+```xml
+<path d="M175,225 Q190,230 185,235" stroke="#FFFFFF" fill="transparent" stroke-width="50"/>
+```
+
+**Closing tag:**
+
+```xml
+</svg>

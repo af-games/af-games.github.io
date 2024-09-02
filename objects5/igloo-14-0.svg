@@ -1,0 +1,13 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo Base -->
+  <circle cx="200" cy="350" r="200" fill="#FFFFFF"/>
+  <path d="M100,350 Q50,400 100,450 T300,450 Q350,400 300,350" stroke="#AAA" fill="#F9E99C"/>
+
+  <!-- Windows -->
+  <rect x="80" y="270" width="10" height="60" fill="#FFFFFF"/>
+  <rect x="140" y="270" width="10" height="60" fill="#FFFFFF"/>
+  <rect x="290" y="270" width="10" height="60" fill="#FFFFFF"/>
+  <rect x="350" y="270" width="10" height="60" fill="#FFFFFF"/>
+
+</svg>

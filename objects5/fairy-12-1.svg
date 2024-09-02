@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 70">
+  <!-- Body -->
+  <path d="M25,60 Q40,40 35,20 Q10,40 25,60 Z" fill="lightblue"/>
+
+  <!-- Hair -->
+  <polygon points="25,10 35,5 15,5" fill="brown"/>
+
+  <!-- Wings -->
+  <path d="M5,65 Q15,75 35,65 Q45,75 25,65 Z" stroke="black" fill="lightgreen"/>
+  <path d="M5,60 Q15,68 35,60 Q45,68 25,60 Z" stroke="black" fill="lightgreen"/>
+
+  <!-- Face -->
+  <circle cx="25" cy="45" r="5" fill="white"/>
+  <path d="M25,40 Q30,45 25,50 Q30,55 25,50 Z" stroke="black" fill="transparent"/>
+
+  <!-- Clothes -->
+  <rect x="18" y="60" width="14" height="10" fill="pink"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle background -->
+  <rect x="50" y="0" width="700" height="600"
+        style="fill: url(#castleGradient); stroke:none;" />
+
+  <!-- Stage floor -->
+  <rect id="floor" x="100" y="300" width="600" height="300"
+        style="fill: url(#stageFloorGradient); stroke:none;" />
+
+  <!-- Throne (main action) -->
+  <g id="throne">
+    <path d="M250,450 Q175,425 250,380 Q325,425 250,450"
+          style="fill: url(#throneGradient); stroke-width:5; stroke:#880000;" />
+    <circle cx="250" cy="360" r="75"
+            style="fill: url(#throneSeatGradient); stroke:none;" />
+  </g>
+
+  <!-- Stage curtains -->
+  <polygon id="curtainsLeft" points="10,300,10,40,20,40"
+           style="fill: url(#curtainsGradient); stroke:none;" />
+  <polygon id="curtainsRight" points="790,300,790,40,780,40"
+           style="fill: url(#curtainsGradient); stroke:none;" />
+
+  <!-- Spotlight on throne -->
+  <circle cx="250" cy="400" r="150"
+          style="fill: none; stroke: #ffd700; stroke-width:3; opacity:.8;" />
+
+  <!-- Props (smaller shapes) -->
+  <g id="props">
+    <!-- Example props: candles, flags, banners -->
+    <rect x="120" y="450" width="30" height="50"
+          style="fill: #ffbf2e; stroke:none;" />
+    <polygon points="170,460 180,420 190,460"
+             style="fill: #fff; stroke:#ffbf2e; stroke-width:3;" />
+  </g>
+
+</svg>

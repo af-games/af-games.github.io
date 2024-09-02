@@ -1,0 +1,32 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fairy Outline -->
+  <path d="M50,75 Q80,150 160,75 Q240,75 190,150 Q260,225 190,275 Q220,325 160,300 Q100,325 50,300 Z" fill="none"/>
+
+  <!-- Body -->
+  <ellipse cx="100" cy="130" rx="80" ry="40" fill="#87cefa"/>
+
+  <!-- Wings -->
+  <path d="M75,120 A90,60 0 0 1 175,120" fill="url(#wingsGradient)"/>
+  <path d="M75,135 A90,45 0 0 1 175,135" fill="url(#wingsGradient)"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="90" rx="25" ry="25" fill="#f5e6d1"/>
+
+  <!-- Hair -->
+  <path d="M95,75 Q105,65 115,75 Q105,85 95,75 Z" stroke="#321400" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="95" r="5" stroke="black" fill="white"/>
+  <circle cx="115" cy="95" r="5" stroke="black" fill="white"/>
+
+  <!-- Mouth -->
+  <path d="M80,110 Q120,130 80,150" stroke="#ff69b4" fill="transparent"/>
+
+  <!-- Wing Gradients -->
+  <defs>
+    <linearGradient id="wingsGradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#87cefa"/>
+    </linearGradient>
+  </defs>
+</svg>

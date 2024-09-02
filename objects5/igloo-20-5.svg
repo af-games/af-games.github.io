@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 0 100 100">
+  <!-- Igloo Dome -->
+  <path id="igloo_dome" d="M0,-40 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0 z"
+        fill="#333"/>
+
+  <!-- Igloo Door -->
+  <rect id="igloo_door" x="-5" y="-7" width="10" height="14" fill="#333"/>
+  <path id="door_arch" d="M-5,-7 Q0,-20 5,-7 Q0,-5 -5,-7"/>
+
+  <!-- Igloo Entrance -->
+  <polygon id="igloo_entrance" points="-20,-40 20,-40 15,-35"
+           fill="#333"/>
+
+  <!-- Snowman (optional) -->
+  <circle id="snowman_head" cx="25" cy="-20" r="10" fill="#333"/>
+  <rect id="snowman_body" x="20" y="-30" width="10" height="10" fill="#333"/>
+
+</svg>

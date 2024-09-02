@@ -1,0 +1,12 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <polygon points="100,5 140,75 100,140 60,75" fill="#F1C40F"/>
+
+  <!-- Left Wing -->
+  <path d="M80,20 Q90,30 100,40 Q90,50 80,60 Q70,50 60,40 Q70,30 80,20" stroke="#F1C40F" fill="transparent"/>
+
+  <!-- Right Wing -->
+  <path d="M120,20 Q110,30 100,40 Q110,50 120,60 Q130,50 140,40 Q130,30 120,20" stroke="#F1C40F" fill="transparent"/>
+
+</svg>

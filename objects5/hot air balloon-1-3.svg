@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Basket -->
+  <rect x="175" y="380" width="200" height="80" fill="#FBB96E"/>
+
+  <!-- Envelope (Balloon) -->
+  <ellipse cx="250" cy="200" rx="300" ry="150" fill="#FFC20A"/>
+
+  <!-- Burner System -->
+  <line x1="220" y1="380" x2="280" y2="380" stroke="#000"/>
+  <line x1="250" y1="340" x2="250" y2="400" stroke="#000"/>
+
+</svg>

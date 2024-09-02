@@ -1,0 +1,25 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="150" cy="180" r="90" fill="#7FBA6D"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="140" r="45" fill="#7FBA6D"/>
+  <path d="M120 130 Q140 80, 170 130" stroke="black" fill="transparent"/>
+
+  <!-- Legs -->
+  <rect x="90" y="240" width="40" height="80" rx="5%" fill="#7FBA6D"/>
+  <rect x="210" y="240" width="40" height="80" rx="5%" fill="#7FBA6D"/>
+
+  <!-- Tail -->
+  <rect x="200" y="320" width="40" height="80" rx="5%" fill="#7FBA6D"/>
+  <path d="M210 320 Q230 360, 220 390" stroke="black" fill="transparent"/>
+
+  <!-- Spikes -->
+  <polygon points="140,150 150,170 160,150" fill="#CBCBCB"/>
+  <polygon points="150,130 160,150 170,130" fill="#CBCBCB"/>
+
+  <!-- Text -->
+  <text x="50%" y="400" dominant-baseline="middle" text-anchor="middle" font-family="Verdana" font-size="20">T-Rex</text>
+
+</svg>

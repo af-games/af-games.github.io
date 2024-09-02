@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 100 80">
+  <!-- Body -->
+  <path fill="#8B7D6B"
+        d="M-40,-10 A40,40 0 0 0 40,-10
+             A40,30 0 0 1 -40,25
+             Z"/>
+
+  <!-- Tail -->
+  <path fill="#8B7D6B"
+        d="M-40,25 Q-35,40 -40,55
+             H-20 V25 H-40 Z"/>
+
+  <!-- Fins -->
+  <g fill="#F7941E">
+    <!-- Dorsal fins -->
+    <rect x="-25" y="10" width="5" height="30"/>
+    <rect x="20" y="10" width="5" height="30"/>
+
+    <!-- Pelvic fin -->
+    <rect x="-40" y="25" width="80" height="5"/>
+
+    <!-- Caudal fin -->
+    <path d="M-40,55 Q-35,65 -40,75"/>
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="-10" cy="15" r="5" fill="black"/>
+  <circle cx="10" cy="15" r="5" fill="black"/>
+
+</svg>

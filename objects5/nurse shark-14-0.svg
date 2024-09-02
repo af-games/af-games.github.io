@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main Body -->
+  <ellipse cx="200" cy="350" rx="200" ry="150" fill="#D3D3D3"/>
+
+  <!-- Fins -->
+  <rect x="180" y="70" width="60" height="40" fill="#A9A9A9"/>
+  <rect x="150" y="320" width="30" height="40" fill="#A9A9A9"/>
+  <rect x="250" y="320" width="30" height="40" fill="#A9A9A9"/>
+  <rect x="220" y="370" width="60" height="40" fill="#A9A9A9"/>
+
+  <!-- Tail tip -->
+  <circle cx="190" cy="250" r="5" fill="#000"/>
+
+  <!-- Mouth -->
+  <path d="M170,400 Q180,390 190,400 Q200,410 190,420 Q180,410 170,400" stroke="#000" fill="transparent"/>
+
+</svg>

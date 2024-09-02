@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080">
+
+  <!-- Background -->
+  <defs>
+    <linearGradient id="skyGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:navy; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1920" height="1080" fill="url(#skyGradient)"/>
+
+  <!-- Ocean Waves -->
+  <path d="M0,750 Q480,600 960,750 Q1440,900 1920,750 V1080 H0 Z" fill="url(#oceanGradient)" />
+  <defs>
+    <linearGradient id="oceanGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:deepskyblue; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:navy; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dolphin -->
+  <path d="M960,350 Q840,250 750,350 Q720,450 700,550 Q700,650 750,700 Q850,650 960,750 Q1080,600 1140,700 Q1200,650 1250,550 Q1300,450 1350,350 Q1250,250 960,350" fill="url(#dolphinGradient)" />
+  <defs>
+    <linearGradient id="dolphinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:navy; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:lightgrey; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dolphin Highlights -->
+  <circle cx="960" cy="420" r="30" fill="white"/>
+  <circle cx="880" cy="520" r="15" fill="white"/>
+  <polygon points="970,570 1030,570 1000,630" fill="yellow" opacity="0.5"/>
+
+  <!-- Seaweed -->
+  <path d="M840,820 Q880,860 920,820" stroke="darkgreen" fill="transparent"/>
+  <path d="M1080,780 Q1120,820 1160,780" stroke="darkgreen" fill="transparent"/>
+
+</svg>

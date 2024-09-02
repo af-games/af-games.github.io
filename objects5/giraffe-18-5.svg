@@ -1,0 +1,42 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Neck -->
+  <path id="neck" d="M100 50 L150 50 L150 150 Z" fill="black"/>
+
+  <!-- Body -->
+  <rect id="body" x="80" y="120" width="200" height="300" rx="40" ry="40" fill="black"/>
+
+  <!-- Head -->
+  <ellipse id="head" cx="150" cy="75" rx="60" ry="80" fill="black"/>
+  <circle id="eye-left" cx="130" cy="90" r="10" fill="white"/>
+  <circle id="eye-right" cx="170" cy="90" r="10" fill="white"/>
+
+  <!-- Legs -->
+  <path id="leg-1" d="M50 320 L100 450 L150 320 Z" fill="black"/>
+  <path id="leg-2" d="M250 320 L300 450 L350 320 Z" fill="black"/>
+
+  <!-- Horns -->
+  <polygon id="horn-left" points="120,60 90,80 120,100" fill="black"/>
+  <polygon id="horn-right" points="180,60 150,80 180,100" fill="black"/>
+
+  <!-- Animation -->
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0 0"
+    to="100 0"
+    begin="0s"
+    dur="2s"
+    repeatCount="indefinite"
+    id="walk-animation"/>
+  <set attributeName="transform" type="rotate" from="0 150 300" to="45 150 300" begin="walk-animation.begin+1s" dur="2s"/>
+  <animateTransform
+    attributeName="transform"
+    type="scale"
+    from="1 1"
+    to="1.1 1.1"
+    begin="walk-animation.end"
+    dur="1s"
+    repeatCount="indefinite"/>
+
+</svg>

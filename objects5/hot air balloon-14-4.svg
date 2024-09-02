@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hot Air Balloon -->
+  <g id="balloon">
+    <circle cx="150" cy="70" r="70" fill="#FFD94A"/>
+    <path d="M150,70 Q80,30 150,20 Q220,30 150,70" stroke="#FFC20E" fill="transparent" />
+    <rect x="120" y="20" width="160" height="140" rx="20" ry="20" fill="#FFB249"/>
+  </g>
+
+  <!-- Hills -->
+  <path id="hills" d="M350,450 Q375,350 400,350 Q425,350 450,450 Q475,500 500,450 Z" fill="#8DAB6E"/>
+  <use xlink:href="#hills" transform="translate(150, 0) scale(1.2)" fill="#93C572"/>
+
+  <!-- Trees -->
+  <g id="tree">
+    <circle cx="400" cy="400" r="40" fill="#8B6F5E"/>
+    <path d="M380,360 L360,290 L400,290 Z" stroke="#7A5E51" fill="#5C402D"/>
+  </g>
+  <use xlink:href="#tree" transform="translate(500, 380) scale(0.8)" />
+  <use xlink:href="#tree" transform="translate(600, 420) scale(1.2)" />
+
+  <!-- River -->
+  <path id="river" d="M70,500 Q100,450 130,450 Q160,450 200,500 Z" stroke="#AAB7C1" fill="#D1ECF1"/>
+  <use xlink:href="#river" transform="translate(100, 0) scale(1.1)" fill-opacity="0.8"/>
+
+</svg>

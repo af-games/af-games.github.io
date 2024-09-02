@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 15">
+
+<!-- Body -->
+<rect x="0" y="5" width="40" height="7.5" fill="#8B8989"/>
+
+<!-- Dorsal fins (symmetrical) -->
+<path d="M2,5 Q5,2.5 10,5 T20,5 T35,5 Q30,7.5 28,5 H40 Z" fill="#A9A9A9"/>
+<path d="M0,5 Q5,7.5 10,5 T0,5"/>
+
+<!-- Pectoral fins (asymmetrical) -->
+<rect x="3" y="10" width="2" height="3" fill="#8B8989"/>
+<rect x="36" y="10" width="2" height="3" fill="#8B8989"/>
+
+<!-- Caudal fin (asymmetrical) -->
+<path d="M40,5 Q37.5,7.5 35,5 Z" fill="#A9A9A9"/>
+
+<!-- Eye patterns -->
+<defs>
+    <pattern id="eye-pattern" patternUnits="userSpaceOnUse" width="2" height="2">
+        <circle cx="1" cy="1" r="1" fill="white"/>
+        <circle cx="0.5" cy="0.5" r="0.5" fill="black"/>
+    </pattern>
+</defs>
+<rect x="3" y="3" width="2" height="2" fill="url(#eye-pattern)"/>
+<rect x="36" y="3" width="2" height="2" fill="url(#eye-pattern)"/>
+
+<!-- Mouth -->
+<path d="M10,5 Q15,7.5 20,5 Z" fill="#8B8989"/>
+
+</svg>

@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="seaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(75,193,238); stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(148,213,245); stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Jellyfish Expanse -->
+  <rect x="0" y="0" width="400" height="600" style="fill:url(#seaGrad)" />
+  <circle cx="200" cy="300" r="150" fill="#ffcccc" stroke="#fff"/>
+  <text x="10%" y="90%" dominant-baseline="middle" text-anchor="start">Jellyfish Expanse</text>
+
+  <!-- Crystal Peaks -->
+  <polygon points="400,200,550,100,650,200" fill="#a8d7ff">
+    <animate attributeName="fill-opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/>
+  </polygon>
+  <text x="40%" y="90%" dominant-baseline="middle" text-anchor="start">Crystal Peaks</text>
+
+  <!-- Whisperwood Forest -->
+  <rect x="400" y="250" width="300" height="350" fill="#87a96b"/>
+  <path d="M450,275 Q550,150 650,275" stroke="#fff" fill="transparent"/>
+  <text x="55%" y="70%" dominant-baseline="middle" text-anchor="start">Whisperwood Forest</text>
+
+  <!-- Lumina City -->
+  <circle cx="700" cy="400" r="120" fill="#fff">
+    <animateTransform attributeName="transform" type="rotate" from="0 350 400" to="360 350 400" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="70%" y="90%" dominant-baseline="middle" text-anchor="start">Lumina City</text>
+
+</svg>

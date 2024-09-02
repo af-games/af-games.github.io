@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Scene 1: The Ocean Depths at Dawn -->
+<rect x="0" y="0" width="800" height="600" fill="#0D2C89"/>
+<circle cx="400" cy="300" r="50" fill="transparent" stroke="white"/>
+<text x="10" y="50" font-size="24" fill="white">As the sun began to rise, Jellyfish Jim woke up...</text>
+
+<!-- Scene 2: Jim Discovers the Sunken Ship -->
+<path d="M300 400 Q400 50 500 400" stroke="white" fill="transparent"/>
+<circle cx="500" cy="400" r="50" fill="#FFD700"/>
+<text x="10" y="320" font-size="24" fill="white">...he found a mysterious shipwreck glowing in the distance.</text>
+
+<!-- Scene 3: The Ship's Hidden Treasure -->
+<rect x="350" y="200" width="100" height="50" fill="#FFD700"/>
+<circle cx="425" cy="275" r="25" fill="#ADD8E6" stroke="white"/>
+<text x="10" y="270" font-size="24" fill="white">Inside, he discovered a chest filled with golden treasures!</text>
+
+<!-- Scene 4: Jim's Dilemma -->
+<rect x="350" y="200" width="100" height="50" fill="#FFD700"/>
+<circle cx="425" cy="275" r="25" fill="#ADD8E6" stroke="white"/>
+<path d="M450 300 Q500 250 550 300" stroke="white" fill="transparent"/>
+<text x="10" y="240" font-size="24" fill="white">But how would he move it all by himself?</text>
+
+<!-- Scenes 5-9 will follow the same pattern with appropriate paths, shapes, and text elements -->
+
+</svg>

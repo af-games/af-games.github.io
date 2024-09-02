@@ -1,0 +1,27 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" style="fill:black;stroke:white;stroke-width:5px">
+
+<!-- Giraffe -->
+<g transform="translate(100, 70)">
+    <path d="M200 20 Q180 60, 160 130 Q140 200, 160 270 Q180 340, 200 400" stroke="#c95a2f" fill="white"/>
+    <circle cx="180" cy="80" r="40" stroke="#c95a2f" fill="white"/>
+</g>
+
+<!-- Salad ingredients -->
+<rect x="300" y="150" width="60" height="70" rx="30" style="fill:#8dc63b;stroke:white"/>
+<circle cx="340" cy="200" r="30" style="fill:#ffd700;stroke:white"/>
+
+<!-- Fruit garnish -->
+<g transform="translate(450, 120)">
+    <circle cx="20" cy="20" r="20" style="fill:#ff6a39;stroke:white"/>
+    <path d="M0 40 Q-10 60, -20 80 Q-30 60, -40 40" stroke="#ff6a39" fill="transparent"/>
+</g>
+
+<!-- Tableware -->
+<rect x="50" y="350" width="200" height="40" rx="20" style="fill:#e8d1bc;stroke:white"/>
+<path d="M270 360 Q290 380, 310 400 Q330 380, 350 360" stroke="#c95a2f" fill="transparent"/>
+
+<!-- Text -->
+<text x="50%" y="420" font-family="Verdana" font-size="24" text-anchor="middle" style="fill:white;stroke:none">Giraffe Salad with Passion Fruit</text>
+
+</svg>

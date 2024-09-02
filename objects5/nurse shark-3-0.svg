@@ -1,0 +1,22 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#0D2C56"/>
+
+  <!-- Shark Body -->
+  <path d="M300 50 Q250 100, 200 150 A150 150 0 0 0 400 150 Q450 100, 300 50" fill="#8B7168" stroke="#000000"/>
+
+  <!-- Shark Head -->
+  <circle cx="200" cy="50" r="40" fill="#8B7168" stroke="#000000"/>
+
+  <!-- Shark Tail -->
+  <polyline points="350 25, 400 100, 300 25" fill="#8B7168"/>
+  <polyline points="350 75, 400 150, 300 75" fill="#8B7168"/>
+
+  <!-- Shark Eyes -->
+  <circle cx="220" cy="40" r="5" fill="#FFFFFF" stroke="#000000"/>
+  <circle cx="180" cy="40" r="5" fill="#FFFFFF" stroke="#000000"/>
+
+  <!-- Shark Gills -->
+  <polyline points="230 60, 210 75, 230 90" fill="#8B7168"/>
+  <polyline points="170 60, 190 75, 170 90" fill="#8B7168"/>
+</svg>

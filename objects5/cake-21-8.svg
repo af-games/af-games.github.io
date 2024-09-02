@@ -1,0 +1,19 @@
+<svg width="300px" height="200px" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="150" cy="100" r="50" fill="blue" stroke="black" stroke-width="2">
+
+        <!-- Animation begins here -->
+        <animate
+            attributeName="r"
+            from="50" to="100"
+            dur="3s"
+            repeatCount="indefinite"
+        />
+
+        <animate
+            attributeName="fill"
+            values="blue; red; yellow; blue"
+            dur="4s"
+            repeatCount="indefinite"
+        />
+    </circle>
+</svg>

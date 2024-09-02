@@ -1,0 +1,30 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy body (circle) -->
+  <circle cx="100" cy="150" r="60"
+          stroke="deeppink" stroke-width="8"
+          fill="transparent"/>
+
+  <!-- Fairy hair (curves) -->
+  <path d="M70,70 Q90,30 130,70 Q90,110 70,70"
+        stroke="darkviolet" stroke-width="6"
+        fill="transparent"/>
+
+  <!-- Fairy wings (polygon) -->
+  <polygon points="20,50 80,10 140,50"
+           stroke="goldenrod" stroke-width="4"
+           fill="TransparentGoldenRod"/>
+
+  <!-- Fairy dress (rectangles with rounded corners) -->
+  <rect x="70" y="180" width="60" height="90"
+        rx="20" ry="20"
+        stroke="indigo" stroke-width="6"
+        fill="TransparentIndigo"/>
+
+  <!-- Fairy legs (lines) -->
+  <line x1="90" y1="270" x2="110" y2="310"
+        stroke="chocolate" stroke-width="4"/>
+  <line x1="90" y1="310" x2="110" y2="270"
+        stroke="chocolate" stroke-width="4"/>
+
+</svg>

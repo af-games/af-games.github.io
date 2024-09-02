@@ -1,0 +1,46 @@
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Fairy Outline -->
+<path d="M300 350 Q350 375, ... " fill="#FFF8DC"/>
+
+<!-- Wings -->
+<path d="M310 420 Q...Z" fill="url(#fairyWingsGradient)"/>
+<defs>
+  <linearGradient id="fairyWingsGradient" gradientTransform="rotate(90)">
+    <stop offset="0%"   stop-color="#FFD700"/>
+    <stop offset="100%" stop-color="#FFF8DC"/>
+  </linearGradient>
+</defs>
+
+<!-- Hair -->
+<path d="M280 300 Q...Z" stroke="#4B0082" fill="transparent"/>
+
+<!-- Eyes -->
+<circle cx="250" cy="325" r="10" fill="#FFFFFF"/>
+<circle cx="350" cy="325" r="10" fill="#FFFFFF"/>
+<circle cx="250" cy="325" r="5" fill="#000000"/>
+<circle cx="350" cy="325" r="5" fill="#000000"/>
+
+<!-- Mouth -->
+<path d="M300 350 Q...Z" stroke="#FFD700" fill="transparent"/>
+
+<!-- Clothing -->
+<path d="M290 480 Q...Z" fill="url(#fairyClothingGradient)"/>
+<defs>
+  <linearGradient id="fairyClothingGradient">
+    <stop offset="0%"   stop-color="#FFB973"/>
+    <stop offset="100%" stop-color="#FFA500"/>
+  </linearGradient>
+</defs>
+
+<!-- Mushroom -->
+<circle cx="300" cy="625" r="150" fill="url(#mushroomGradient)"/>
+<path d="M280 775 Q...Z" stroke="#FFA07A" fill="transparent"/>
+<defs>
+  <linearGradient id="mushroomGradient">
+    <stop offset="0%"   stop-color="#FFC0CB"/>
+    <stop offset="100%" stop-color="#FFA07A"/>
+  </linearGradient>
+</defs>
+
+</svg>

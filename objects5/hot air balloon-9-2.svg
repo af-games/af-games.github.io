@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Balloon Body -->
+  <circle cx="175" cy="75" r="150"
+          fill="#FFD700" stroke="#FFF" stroke-width="3" />
+
+  <!-- Balloon Opening -->
+  <path d="M125,60 Q145,90 175,60 T300,60 Q280,90 250,60"
+        fill="#FFD700" stroke="#FFF" stroke-width="3" />
+
+  <!-- Balloon Envelope Lines -->
+  <path d="M175,60 Q175,90 175,150 Q150,240 175,300 Q200,240 175,360"
+        stroke="#FFD700" stroke-width="3" />
+
+  <!-- Basket -->
+  <rect x="130" y="360" width="80" height="40"
+        fill="#8B4513" stroke="#FFF" stroke-width="2" />
+
+  <!-- Shadows and Highlights -->
+  <circle cx="175" cy="75" r="150"
+          fill="url(#Gradient)" />
+  <linearGradient id="Gradient" gradientTransform="rotate(90)">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:0.4"/>
+    <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:0.3"/>
+  </linearGradient>
+
+</svg>

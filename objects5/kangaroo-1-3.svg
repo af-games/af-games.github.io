@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B4513; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#CD7F32; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="headEarsGradient" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" style="stop-color:#694429; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#B38352; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <g id="kangaroo">
+    <!-- All the shapes go here -->
+  </g>
+</svg>

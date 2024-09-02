@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+
+  <!-- Background -->
+  <circle cx="75" cy="75" r="65" fill="#F8D7DA" stroke="#C35V94" stroke-width="3"/>
+
+  <!-- Lion Face -->
+  <circle cx="75" cy="60" r="40" fill="#FFFFFF"/>
+  <circle cx="75" cy="60" r="35" fill="#000000"/>
+
+  <!-- Eyes -->
+  <circle cx="60" cy="50" r="8" fill="#FFFFFF"/>
+  <circle cx="90" cy="50" r="8" fill="#FFFFFF"/>
+  <circle cx="60" cy="50" r="5" fill="#000000"/>
+  <circle cx="90" cy="50" r="5" fill="#000000"/>
+
+  <!-- Nose -->
+  <polygon points="73,45 81,45 77,52" fill="#000000"/>
+
+  <!-- Mane (using paths for intricate patterns) -->
+  <path d="M65,35 A10,10 0 0 0 75,25 A10,10 0 0 0 85,35" fill="#FFC107"/>
+  <path d="M65,40 A10,10 0 0 0 75,30 A10,10 0 0 0 85,40" fill="#FFD700"/>
+
+  <!-- Pendant (separate material) -->
+  <circle cx="75" cy="90" r="20" fill="#C0C0C0"/>
+  <text x="60" y="93" font-family="Verdana" font-size="12"> Lion </text>
+
+</svg>

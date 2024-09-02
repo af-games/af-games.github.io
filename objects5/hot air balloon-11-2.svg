@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Balloon body -->
+  <circle cx="0" cy="0" r="40"
+          fill="#FFB6C1" stroke="black" stroke-width="2"
+          opacity="0.9"/>
+
+  <!-- Basket -->
+  <rect x="-8" y="35" width="16" height="15"
+        fill="#FFA07A" stroke="black" stroke-width="2"/>
+  <circle cx="-4" cy="45" r="3" fill="black"/>
+
+  <!-- Envelope opening -->
+  <path d="M -40 10 A 40 40 0 0 0 40 10"
+        stroke="#FFA07A" stroke-width="2"/>
+
+  <!-- Burner -->
+  <rect x="-35" y="-15" width="70" height="10"
+        fill="#FF69B4" opacity="0.8"/>
+  <path d="M -35,-15 L 35,-15 L 0,25 Z"
+        stroke="black" stroke-width="2"/>
+
+  <!-- Gondola -->
+  <rect x="-5" y="30" width="10" height="10"
+        fill="#FF69B4"/>
+  <circle cx="-5" cy="37.5" r="2.5" fill="black"/>
+
+  <!-- Ropes -->
+  <path d="M -8,35 L -40,5 L -8,65"
+        stroke="brown" stroke-width="2"/>
+  <path d="M 8,35 L 40,5 L 8,65"
+        stroke="brown" stroke-width="2"/>
+
+</svg>

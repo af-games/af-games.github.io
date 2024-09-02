@@ -1,0 +1,23 @@
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#3D9970"/>
+
+<!-- Dinosaur's body dress -->
+<path d="M150,300 Q180,250 240,300 Q160,350 100,300" stroke="#581845" fill="#FFB6C1"/>
+
+<!-- Dinosaur's sleeves -->
+<path d="M90,250 Q70,200 90,150 A20,20 0 0 1 150,130 L180,150 A20,20 0 0 1 160,180 Q180,230 150,250" stroke="#581845" fill="#FFB6C1"/>
+<path d="M210,250 Q230,200 210,150 A20,20 0 0 1 190,130 L170,150 A20,20 0 0 1 160,180 Q160,230 150,250" stroke="#581845" fill="#FFB6C1"/>
+
+<!-- Dinosaur's collar/neckline -->
+<path d="M90,200 A110,110 0 0 1 210,200 Q230,250 210,300 Q90,350 70,200" stroke="#581845" fill="#FFB6C1"/>
+
+<!-- Dinosaur's buttons -->
+<circle cx="120" cy="250" r="10" fill="#581845"/>
+<circle cx="180" cy="250" r="10" fill="#581845"/>
+
+<!-- Dinosaur's belt -->
+<rect x="90" y="320" width="120" height="30" stroke="#581845" fill="#FFB6C1"/>
+
+</svg>

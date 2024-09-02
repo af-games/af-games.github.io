@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Background -->
+  <rect x="-50" y="-50" width="100" height="100" fill="#000" />
+
+  <!-- Jellyfish 1 (large) -->
+  <g id="jellyfish1">
+    <!-- Umbrella -->
+    <circle cx="0" cy="-20" r="30" fill="#FF6347" />
+    <!-- Tentacles -->
+    <g transform="rotate(45)">
+      <polyline points="-20,-20 20,-20" stroke-width="4" stroke="#FFF" fill="none" />
+    </g>
+    <g transform="rotate(-45)">
+      <polyline points="-20,-20 20,-20" stroke-width="4" stroke="#FFF" fill="none" />
+    </g>
+  </g>
+
+  <!-- Jellyfish 2 (medium) -->
+  <g id="jellyfish2" transform="translate(30,0)">
+    <!-- Umbrella -->
+    <circle cx="0" cy="-15" r="20" fill="#ADD8E6" />
+    <!-- Tentacles -->
+    <g transform="rotate(45)">
+      <polyline points="-15,-15 15,-15" stroke-width="3" stroke="#FFF" fill="none" />
+    </g>
+    <g transform="rotate(-45)">
+      <polyline points="-15,-15 15,-15" stroke-width="3" stroke="#FFF" fill="none" />
+    </g>
+  </g>
+
+  <!-- Jellyfish 3 (small) -->
+  <g id="jellyfish3" transform="translate(-30,-20)">
+    <!-- Umbrella -->
+    <circle cx="0" cy="-10" r="15" fill="#98FB98" />
+    <!-- Tentacles -->
+    <g transform="rotate(45)">
+      <polyline points="-10,-10 10,-10" stroke-width="2" stroke="#FFF" fill="none" />
+    </g>
+    <g transform="rotate(-45)">
+      <polyline points="-10,-10 10,-10" stroke-width="2" stroke="#FFF" fill="none" />
+    </g>
+  </g>
+
+  <!-- Animations -->
+  <animateTransform
+    xlink:href="#jellyfish1"
+    attributeName="transform"
+    type="rotate"
+    from="0 0 0"
+    to="360 0 0"
+    dur="5s"
+    repeatCount="indefinite" />
+  <animateTransform
+    xlink:href="#jellyfish2"
+    attributeName="transform"
+    type="rotate"
+    from="0 0 0"
+    to="360 0 0"
+    dur="4s"
+    repeatCount="indefinite" />
+  <animateTransform
+    xlink:href="#jellyfish3"
+    attributeName="transform"
+    type="rotate"
+    from="0 0 0"
+    to="360 0 0"
+    dur="3s"
+    repeatCount="indefinite" />
+</svg>

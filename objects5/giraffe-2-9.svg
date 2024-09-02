@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 2000">
+
+<!-- Scene 1: Giraffe in the Savannah -->
+<g id="scene1">
+  <circle cx="300" cy="200" r="80" fill="#FFF59D" stroke="#B79400"/>
+  <!-- Giraffe's long neck -->
+  <path d="M300,100 Q350,150 300,200 Q250,150 300,100" stroke="#8B4513" fill="transparent"/>
+  <!-- Other animals and savannah elements... -->
+</g>
+
+<!-- Scene 2: The Drought -->
+<g id="scene2">
+  <text x="10" y="30">Scene 2:</text>
+  <!-- Wilted trees, grass, sad animals... -->
+</g>
+
+<!-- Scene 3: Giraffe's Discovery -->
+<g id="scene3">
+  <text x="10" y="650">Scene 3:</text>
+  <!-- Hidden water source, giraffe finding it... -->
+</g>
+
+<!-- Scene 4: The Celebration -->
+<g id="scene4">
+  <text x="10" y="1200">Scene 4:</text>
+  <!-- Animals celebrating around the water source... -->
+</g>
+
+</svg>

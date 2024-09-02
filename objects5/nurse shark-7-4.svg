@@ -1,0 +1,30 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1200" height="800" fill="#bfe5ec"/>
+
+  <!-- Grid for reference -->
+  <!--<rect x="0" y="0" width="6000" height="4000" stroke="black"/>-->
+
+  <!-- Mountains -->
+  <polygon points="100,200 300,150 500,200" fill="#694f41" />
+  <polygon points="800,150 1000,200 1200,150" fill="#694f41" />
+  <polygon points="300,550 500,450 700,550" fill="#694f41" />
+
+  <!-- Forests -->
+  <ellipse cx="250" cy="350" rx="150" ry="200" fill="#228b22"/>
+  <ellipse cx="750" cy="550" rx="100" ry="150" fill="#228b22"/>
+
+  <!-- Rivers -->
+  <path d="M200,600 Q400,700 600,600 Q800,700 1000,600" stroke="#00bfff" fill="transparent"/>
+  <path d="M500,300 Q700,200 900,300" stroke="#00bfff" fill="transparent"/>
+
+  <!-- Islands -->
+  <circle cx="400" cy="650" r="150" fill="#b5e7a1"/>
+  <circle cx="850" cy="250" r="100" fill="#b5e7a1"/>
+
+  <!-- Caves -->
+  <path d="M350,400 Q550,500 750,400" stroke="#5c4033" fill="#5c4033"/>
+  <path d="M950,600 Q1150,500 1350,600 S1200,700 1050,800" stroke="#5c4033" fill="#5c4033"/>
+
+</svg>

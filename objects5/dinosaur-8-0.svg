@@ -1,0 +1,32 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <ellipse cx="200" cy="50" rx="150" ry="150" fill="#1D7A46"/>
+  <ellipse cx="160" cy="70" rx="15" ry="15" fill="#FFDF00"/>
+  <ellipse cx="240" cy="70" rx="15" ry="15" fill="#FFDF00"/>
+  <path d="M200,80 Q210,60 220,80 H190 Q180,60 170,80 Z" stroke="#9DC389" fill="transparent"/>
+
+  <!-- Neck -->
+  <rect x="195" y="80" width="40" height="200" fill="#1D7A46"/>
+  <line x1="200" y1="110" x2="200" y2="130" stroke="#9DC389"/>
+  <line x1="200" y1="160" x2="200" y2="180" stroke="#9DC389"/>
+
+  <!-- Body -->
+  <rect x="170" y="200" width="80" height="400" fill="#1D7A46"/>
+  <line x1="160" y1="400" x2="160" y2="500" stroke="#9DC389"/>
+  <line x1="240" y1="400" x2="240" y2="500" stroke="#9DC389"/>
+
+  <!-- Legs -->
+  <rect x="170" y="500" width="60" height="100" fill="#1D7A46"/>
+  <circle cx="190" cy="600" r="20" stroke="#9DC389" fill="transparent"/>
+  <rect x="230" y="500" width="60" height="100" fill="#1D7A46"/>
+  <circle cx="250" cy="600" r="20" stroke="#9DC389" fill="transparent"/>
+  <rect x="185" y="600" width="40" height="100" fill="#1D7A46"/>
+  <circle cx="205" cy="700" r="20" stroke="#9DC389" fill="transparent"/>
+
+  <!-- Tail -->
+  <rect x="230" y="400" width="50" height="100" fill="#1D7A46"/>
+  <rect x="220" y="500" width="40" height="80" fill="#1D7A46"/>
+  <rect x="210" y="550" width="30" height="60" fill="#1D7A46"/>
+
+</svg>

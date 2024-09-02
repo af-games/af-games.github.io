@@ -1,0 +1,37 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Scene 1 -->
+<rect id="balloon" x="350" y="400" width="50" height="100" fill="orange" stroke="black"/>
+<circle id="littleBird" cx="375" cy="425" r="15" fill="blue"/>
+<text x="350" y="550" font-size="20">The Little Bird finds a hot air balloon.</text>
+
+<!-- Scene 2 -->
+<use href="#balloon"/>
+<circle cx="375" cy="425" r="15" fill="blue"/>
+<path d="M375,425 Q400,450 400,480" stroke-width="2" stroke="black"/>
+<text x="350" y="570">The bird tries to lift off but struggles alone.</text>
+
+<!-- Scene 3 -->
+<use href="#balloon"/>
+<circle cx="375" cy="425" r="15" fill="blue"/>
+<circle id="wiseOwl" cx="300" cy="450" r="20" fill="gray"/>
+<text x="300" y="570">A wise old owl suggests teamwork.</text>
+
+<!-- Scene 4 -->
+<use href="#balloon"/>
+<circle id="littleBird" cx="375" cy="425" r="15" fill="blue"/>
+<circle cx="325" cy="425" r="10" fill="red"/>
+<circle cx="350" cy="450" r="12" fill="green"/>
+<circle cx="375" cy="450" r="8" fill="purple"/>
+<text x="360" y="590">Animals gather to help launch the balloon.</text>
+
+<!-- Scene 5 -->
+<use href="#balloon"/>
+<path d="M375,425 Q410,470 420,510" stroke-width="2" stroke="black"/>
+<use href="#littleBird"/>
+<circle cx="400" cy="460" r="10" fill="red"/>
+<circle cx="385" cy="490" r="12" fill="green"/>
+<circle cx="410" cy="490" r="8" fill="purple"/>
+<text x="360" y="610">The balloon takes flight with a menagerie of creatures.</text>
+
+</svg>

@@ -1,0 +1,28 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base -->
+  <polygon points="-60,60 60,60 90,0 60,-60 -60,-60 -90,0"
+            fill="#ffffff"/>
+
+  <!-- Walls (Semicircles) -->
+  <path d="M-75,10 A50,50 0 0 1 -25,70" fill="#ffffff"/>
+  <path d="M25,70 A50,50 0 0 1 75,10" fill="#ffffff"/>
+  <!-- Repeat for other semicircles -->
+
+  <!-- Roof (Icosahedron-like polygon) -->
+  <polygon points="-45,-30 -90,45 0,80 90,45 45,-30"
+            fill="url(#roofGradient)" transform="translate(0,10) scale(1.2)"/>
+
+  <!-- Door -->
+  <rect x="-55" y="40" width="40" height="60" fill="#8b7d6c"/>
+
+  <!-- Roof Gradient (for a more realistic appearance) -->
+  <defs>
+    <linearGradient id="roofGradient" gradientUnits="objectBoundingBox"
+                    x1="0%" y1="0%" x2="0%" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c8c6a9"/>
+    </linearGradient>
+  </defs>
+
+</svg>

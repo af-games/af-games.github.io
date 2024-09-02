@@ -1,0 +1,41 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Castle Wall -->
+<rect id="castleWall" x="15%" y="10%" width="70%" height="40%" fill="url(#wallGradient)" rx="5%"/>
+
+<!-- Stage Floor -->
+<rect id="stageFloor" x="25%" y="60%" width="50%" height="30%" fill="url(#floorGradient)"/>
+
+<!-- Throne -->
+<rect id="throne" x="40%" y="15%" width="20%" height="15%" fill="#7A594C"/>
+<circle cx="48%" cy="35%" r="8%" fill="#FFD700"/>
+<path d="M 46% 25%, L 44% 20%, 48% 15%, 50% 20%, Z" stroke="#7A594C"/>
+
+<!-- Curtains -->
+<rect id="curtainLeft" x="30%" y="5%" width="5%" height="95%" fill="#702631"/>
+<rect id="curtainRight" x="68%" y="5%" width="5%" height="95%" fill="#702631"/>
+
+<!-- Props: Statues -->
+<circle cx="35%" cy="45%" r="5%" fill="#D0C8B8"/>
+<circle cx="65%" cy="45%" r="5%" fill="#D0C8B8"/>
+
+<!-- Dynamic Lighting: Wall Gradient -->
+<defs>
+  <linearGradient id="wallGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#3A3739; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#6C483F; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#3A3739; stop-opacity:1"/>
+  </linearGradient>
+
+<!-- Dynamic Lighting: Floor Gradient -->
+<linearGradient id="floorGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#2A3956; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#484C7B; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#2A3956; stop-opacity:1"/>
+  </linearGradient>
+</defs>
+
+<!-- Stage Outline -->
+<rect x="0" y="0" width="100%" height="100%" stroke="#4C2E37" fill="none"/>
+
+</svg>

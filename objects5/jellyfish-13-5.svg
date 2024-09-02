@@ -1,0 +1,36 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Jellyfish 1 -->
+  <g id="jellyfish1">
+    <circle cx="50" cy="50" r="40" fill="black"/>
+    <ellipse cx="70" cy="60" rx="30" ry="10" fill="black"/>
+    <!-- Tentacles -->
+    <g transform="rotate(90, 70, 60)">
+      <polyline points="50,20 80,40 50,60" fill="black" stroke-width="0"/>
+      <polyline points="30,20 60,40 30,60" fill="black" stroke-width="0"/>
+    </g>
+  </g>
+
+  <!-- Jellyfish 2 -->
+  <g id="jellyfish2" transform="translate(250,100) scale(1.2)">
+    <circle cx="50" cy="50" r="48" fill="black"/>
+    <ellipse cx="72" cy="63" rx="36" ry="12" fill="black"/>
+    <!-- Tentacles -->
+    <g transform="rotate(90, 72, 63)">
+      <polyline points="50,24 84,48 50,72" fill="black" stroke-width="0"/>
+      <polyline points="30,24 66,48 30,72" fill="black" stroke-width="0"/>
+    </g>
+  </g>
+
+  <!-- Jellyfish 3 -->
+  <g id="jellyfish3" transform="translate(450,250) rotate(-15)">
+    <circle cx="50" cy="50" r="40" fill="black"/>
+    <ellipse cx="70" cy="60" rx="30" ry="10" fill="black"/>
+    <!-- Tentacles -->
+    <g transform="rotate(90, 70, 60)">
+      <polyline points="50,20 80,40 50,60" fill="black" stroke-width="0"/>
+      <polyline points="30,20 60,40 30,60" fill="black" stroke-width="0"/>
+    </g>
+  </g>
+
+</svg>

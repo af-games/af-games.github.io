@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Instruments -->
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,99,71);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Measure 1 -->
+  <circle cx="400" cy="300" r="100" fill="url(#grad1)">
+    <animate attributeName="cy" from="300" to="200" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Measure 2 -->
+  <circle cx="600" cy="300" r="80">
+    <set attributeName="fill-opacity" from="1" to="0" begin="startOfSecondMeasure"/>
+    <animate attributeName="cx" from="600" to="750" dur="4s" begin="startOfSecondMeasure"/>
+  </circle>
+
+  <!-- Measure 3 -->
+  <circle cx="200" cy="300" r="120">
+    <set attributeName="fill-opacity" from="0" to="1" begin="startOfThirdMeasure"/>
+    <animate attributeName="cy" from="600" to="450" dur="4s" begin="startOfThirdMeasure"/>
+  </circle>
+
+  <!-- Climax -->
+  <circle cx="400" cy="300" r="200">
+    <set attributeName="fill-opacity" from="0" to="1" begin="climax"/>
+    <animate attributeName="r" from="200" to="300" dur="2s" begin="climax"/>
+  </circle>
+
+  <!-- Resolution -->
+  <circle cx="400" cy="300" r="150">
+    <set attributeName="fill-opacity" from="1" to="0" begin="resolution"/>
+    <animate attributeName="r" from="150" to="100" dur="2s" begin="resolution"/>
+  </circle>
+
+</svg>

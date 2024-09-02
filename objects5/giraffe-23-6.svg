@@ -1,0 +1,31 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect id="body" x="100" y="70" width="300" height="430" fill="#fff"
+    style="stroke: #000; stroke-width: 2"/>
+
+  <!-- Giraffe Print -->
+  <defs>
+    <pattern id="giraffe-print" patternUnits="userSpaceOnUse" width="50" height="50">
+      <image href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Giraffes_tongas_ national_park.jpg/286px-Giraffes_tongas_national_park.jpg"
+             x="0" y="0" width="50" height="50"/>
+    </pattern>
+  </defs>
+
+  <!-- Front Body -->
+  <use xlink:href="#body" transform="translate(100,70)"/>
+
+  <!-- Back Body -->
+  <use xlink:href="#body" fill="url(#giraffe-print)" transform="translate(250,70) rotate(180)"/>
+
+  <!-- Neckline -->
+  <path id="neckline" d="M130,70 Q160,40 200,70" fill="none"
+    style="stroke: #000; stroke-width: 2"/>
+  <use xlink:href="#neckline"/>
+
+  <!-- Sleeves -->
+  <circle id="sleeve" cx="150" cy="200" r="80" fill="url(#giraffe-print)"
+    style="stroke: #000; stroke-width: 2"/>
+  <use xlink:href="#sleeve" transform="translate(350,200) rotate(-90)" />
+  <use xlink:href="#sleeve" transform="translate(100,400) rotate(90)"/>
+
+</svg>

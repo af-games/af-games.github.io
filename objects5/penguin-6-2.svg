@@ -1,0 +1,36 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(67,67,134);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <circle cx="100" cy="200" r="50" fill="url(#gradient1)" />
+
+  <!-- Belly -->
+  <rect x="70" y="180" width="60" height="30" fill="#FFF" rx="15"/>
+
+  <!-- Wings -->
+  <path d="M70,90 Q50,120 40,150 H160 Q150,120 170,90" stroke="black" fill="url(#gradient1)" />
+
+  <!-- Head -->
+  <circle cx="100" cy="80" r="30" fill="#FFF">
+    <animate attributeName="r" from="30" to="45" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Beak -->
+  <path d="M90,60 Q105,40 120,60" stroke="#FFD700" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="55" r="5" fill="black"/>
+  <circle cx="115" cy="55" r="5" fill="black"/>
+
+  <!-- Feet -->
+  <path d="M90,220 Q70,240 90,260" stroke="#AAA" fill="transparent"/>
+  <path d="M130,220 Q140,240 130,260" stroke="#AAA" fill="transparent"/>
+
+</svg>

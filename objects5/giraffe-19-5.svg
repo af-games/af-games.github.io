@@ -1,0 +1,34 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background-color:white;">
+  <!-- Body -->
+  <rect id="body" x="150" y="400" width="150" height="200" fill="#000" rx="50"/>
+
+  <!-- Neck -->
+  <path id="neck" d="M237.5,400 Q287.5,350 337.5,400" fill="none" stroke="#000" stroke-width="10"/>
+
+  <!-- Head -->
+  <ellipse id="head" cx="337.5" cy="300" rx="75" ry="75" fill="#000"/>
+  <circle id="eye1" cx="325" cy="280" r="5" fill="#fff"/>
+  <circle id="eye2" cx="350" cy="280" r="5" fill="#fff"/>
+
+  <!-- Legs -->
+  <rect id="front-leg1" x="160" y="475" width="20" height="150" fill="#000" rx="10"/>
+  <rect id="front-leg2" x="380" y="475" width="20" height="150" fill="#000" rx="10"/>
+  <rect id="back-leg1" x="260" y="475" width="20" height="250" fill="#000" rx="10"/>
+  <rect id="back-leg2" x="390" y="475" width="20" height="250" fill="#000" rx="10"/>
+
+  <!-- Spots -->
+  <circle id="spot1" cx="210" cy="425" r="20" fill="#000"/>
+  <circle id="spot2" cx="300" cy="425" r="20" fill="#000"/>
+  <circle id="spot3" cx="390" cy="425" r="20" fill="#000"/>
+
+  <!-- Animation: Move the giraffe -->
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0,0"
+    to="100,0"
+    begin="0s"
+    dur="3s"
+    repeatCount="indefinite"
+    id="moveGiraffe"/>
+</svg>

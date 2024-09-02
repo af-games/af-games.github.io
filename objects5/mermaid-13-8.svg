@@ -1,0 +1,27 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="100" y="150" width="300" height="250" fill="#08306B"/>
+  <rect x="120" y="170" width="260" height="210" fill="#21759F"/>
+
+  <!-- Face -->
+  <circle cx="200" cy="200" r="80" fill="#4CAF50"/>
+  <path d="M200,120 Q160,140 130,170" stroke="#FFD700" fill="transparent"/>
+
+  <!-- Tail Fin -->
+  <polygon points="300,350 370,350 335,400" fill="#9C27B0"/>
+  <path d="M300,350 Q260,410 300,470 Q340,410 370,350" stroke="#FFD700" fill="transparent"/>
+
+  <!-- Scales (Body) -->
+  <pattern id="scales" patternUnits="userSpaceOnUse" width="20" height="20">
+    <path d="M0,0 L20,0 L20,20 L0,20 Z" stroke="#9C27B0"/>
+  </pattern>
+  <rect x="100" y="150" width="300" height="250" fill="url(#scales)"/>
+
+  <!-- Scales (Tail Fin) -->
+  <pattern id="finScales" patternUnits="userSpaceOnUse" width="10" height="10">
+    <path d="M0,0 L10,0 L10,10 L0,10 Z" stroke="#9C27B0"/>
+  </pattern>
+  <polygon points="300,350 370,350 335,400" fill="url(#finScales)"/>
+
+</svg>

@@ -1,0 +1,22 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle Wall -->
+  <rect id="castle_wall" width="400" height="300" fill="#776e65"/>
+
+  <!-- Tower Tops (Masks) -->
+  <mask id="tower_mask_1">
+    <circle cx="200" cy="180" r="80"/>
+  </mask>
+  <mask id="tower_mask_2">
+    <circle cx="350" cy="180" r="80"/>
+  </mask>
+
+  <!-- Tower Tops -->
+  <circle id="tower_top_1" cx="200" cy="180" r="80" fill="#b9a78c" mask="url(#tower_mask_1)"/>
+  <circle id="tower_top_2" cx="350" cy="180" r="80" fill="#b9a78c" mask="url(#tower_mask_2)"/>
+
+  <!-- Moat -->
+  <path d="M10,360 Q50,400 150,360 A150,150 0 0,1 400,360 Q450,400 500,360" stroke="#3f48cc" fill="transparent"/>
+
+  <!-- Drawbridge -->
+  <path d="M270,300 Q350,250 400,300" stroke="#8b4513" fill="transparent"/>
+</svg>

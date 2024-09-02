@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Outline -->
+  <path d="M256 8C141.3 8 8 141.3 8 256s133.3 248 256 248c79.2 0 151-61.8 151-137S335.2 8 256 8zM256 412c-48.8 0-88-40.2-88-92s39.2-92 88-92c48.8 0 88 40.2 88 92S304.8 412 256 412z"/>
+
+  <!-- Skin shading -->
+  <path fill="gold" d="M..."/>
+
+  <!-- Hair and tail shading/gradients/highlights -->
+  <linearGradient id="hairGradient" gradientTransform="rotate(90)">
+    <stop offset="0%" style="stop-color:darkblue"/>
+    <stop offset="100%" style="stop-color:lightblue"/>
+  </linearGradient>
+  <path fill="url(#hairGradient)" d="M..."/>
+
+  <!-- Shell accessories -->
+  <circle cx="320" cy="460" r="30" fill="gold"/>
+  <polygon points="285,475 310,490 335,475" fill="white"/>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Drums (circles) -->
+  <circle cx="-100" cy="100" r="20" fill="#ffa500" />
+  <circle cx="-60" cy="80" r="15" fill="#ffd700" />
+  <circle cx="-130" cy="80" r="15" fill="#ffff00" />
+
+  <!-- Violins (rectangles) -->
+  <rect x="-40" y="60" width="20" height="60" fill="#ff69b4" />
+  <rect x="-70" y="30" width="20" height="120" fill="#ffb6c1" />
+  <rect x="-20" y="150" width="20" height="80" fill="#ffdab9" />
+
+  <!-- Guitars (paths) -->
+  <path d="M-40,130 Q-70,160 -40,190" stroke="#8b4513" fill="transparent"/>
+  <path d="M-20,160 Q-50,190 -20,220" stroke="#8b4513" fill="transparent"/>
+
+  <!-- Color dynamics (crescendo) -->
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Apply gradient to violins for dynamics -->
+  <rect x="-70" y="30" width="20" height="120" fill="url(#grad1)" />
+
+</svg>

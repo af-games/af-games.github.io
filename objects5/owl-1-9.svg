@@ -1,0 +1,19 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#4A4A4A"/>
+
+  <!-- Body -->
+  <ellipse cx="150" cy="200" rx="130" ry="80" fill="#211F34"/>
+  <ellipse cx="150" cy="200" rx="120" ry="70" fill="#D8D8D8"/>
+
+  <!-- Wings -->
+  <polygon points="60,50 240,50 150,300" fill="#A9A9A9"/>
+  <polygon points="40,70 220,70 150,280" fill="#E5E5E5"/>
+
+  <!-- Face -->
+  <circle cx="150" cy="160" r="60" fill="#FFFDD0"/>
+  <circle cx="145" cy="155" r="5" fill="#FFC300"/>
+  <circle cx="145" cy="155" r="2.5" fill="#000000"/>
+
+</svg>

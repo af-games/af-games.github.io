@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .beat { fill: white; stroke: black; }
+    .transition { stroke: black; }
+    .animation { animation-duration: 4s; animation-iteration-count: infinite; }
+    @keyframes grow {
+      from { transform: scale(1); }
+      to { transform: scale(1.2); }
+    }
+  </style>
+
+  <!-- Igloo -->
+  <circle cx="400" cy="350" r="150" fill="#FFD700" stroke="black"/>
+
+  <!-- Bar 1 -->
+  <circle class="beat" cx="100" cy="250" r="20"/>
+  <circle class="beat" cx="200" cy="250" r="20"/>
+  <circle class="beat" cx="300" cy="250" r="20">
+    <animate class="animation" attributeName="r" values="20;40;20" keyTimes="0;0.5;1" />
+  </circle>
+  <circle class="beat" cx="400" cy="250" r="20"/>
+  <path class="transition" d="M100,250 Q250,375 400,250"/>
+
+  <!-- Bar 2 -->
+  ...
+</svg>

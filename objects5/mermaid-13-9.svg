@@ -1,0 +1,21 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="700" fill="#FFFDD0"/>
+
+  <!-- Mermaid's body -->
+  <path d="M100,100 Q150,50 250,150 Q350,200 450,150" stroke="none" fill="#4267B2"/>
+
+  <!-- Mermaid's tail -->
+  <path d="M250,150 Q280,280 310,400" stroke="none" fill="#3F58CD"/>
+  <linearGradient id="tail-gradient" x1="310" y1="400" x2="310" y2="600">
+    <stop offset="0%" stop-color="#3F58CD"/>
+    <stop offset="100%" stop-color="#212F3C"/>
+  </linearGradient>
+  <path d="M250,150 Q280,280 310,400" fill="url(#tail-gradient)"/>
+
+  <!-- Accents (patterns) -->
+  <circle cx="150" cy="200" r="10" fill="#F39C12"/>
+  <circle cx="250" cy="300" r="10" fill="#F39C12"/>
+  <!-- Add more dots, stripes, and waves as desired -->
+
+</svg>

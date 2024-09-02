@@ -1,0 +1,18 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="50" cy="70" r="40" fill="#F8DE7E"/>
+
+  <!-- Face -->
+  <circle cx="40" cy="35" r="15" fill="#FFFFFF"/>
+  <circle cx="60" cy="35" r="15" fill="#FFFFFF"/>
+
+  <!-- Eyes -->
+  <circle cx="35" cy="28" r="5" fill="#000000"/>
+  <circle cx="65" cy="28" r="5" fill="#000000"/>
+
+  <!-- Beak -->
+  <path d="M40,40 Q45,35 50,40 Q55,35 60,40 Z" fill="#FFC107"/>
+
+  <!-- Wings -->
+  <polygon points="20,90 80,90 50,110" fill="#F8DE7E"/>
+</svg>

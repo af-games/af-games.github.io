@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <!-- Fairy Body -->
+  <g id="fairy-body" transform="translate(150, 250)">
+    <!-- Hair (Light blue tiles) -->
+    <rect width="10" height="10" fill="#ADD8E6"/>
+    <!-- Repeat the above rectangle for hair pattern -->
+    <rect x="10" y="0" width="10" height="10" fill="#ADD8E6"/>
+    ...
+    <!-- Body (Dark blue tiles) -->
+    <rect width="10" height="10" fill="#003F5C"/>
+    <!-- Repeat the above rectangle for body pattern -->
+  </g>
+
+  <!-- Fairy Wings (Gold tiles) -->
+  <g id="fairy-wings">
+    <rect x="80" y="240" width="10" height="10" fill="#CD7F32"/>
+    ...
+  </g>
+
+  <!-- Fairy Accent Details (Gold tiles) -->
+  <g id="fairy-details">
+    <circle cx="165" cy="280" r="5" fill="#CD7F32"/>
+    <!-- Repeat the above circle for accent details pattern -->
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Envelope -->
+  <ellipse cx="100" cy="75" rx="80" ry="40"
+           fill="#87CEEB"/>
+
+  <!-- Basket -->
+  <rect x="90" y="260" width="20" height="30" fill="#8B4513"/>
+
+  <!-- Rope -->
+  <line x1="100" y1="290" x2="100" y2="75"
+        stroke-width="2" stroke="#4A4A4A"/>
+
+  <!-- Flame -->
+  <polygon points="105,300,115,285,95,285"
+           fill="url(#flameGradient)"/>
+  <defs>
+    <linearGradient id="flameGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:orange;"/>
+      <stop offset="100%" style="stop-color:red;"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Burner -->
+  <rect x="95" y="65" width="10" height="20" fill="#C0C0C0"/>
+
+</svg>

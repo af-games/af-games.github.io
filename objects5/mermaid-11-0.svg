@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#030749"/>
+
+  <!-- Mermaid's body -->
+  <path d="M150,450 Q200,400 175,100 Q200,300 150,100 Z" fill="#86B3D9"/>
+
+  <!-- Mermaid's hair -->
+  <path d="M175,75 C150,125 200,150 175,175 Q150,200 175,250" fill="#3D9970"/>
+
+  <!-- Oyster shell -->
+  <ellipse cx="150" cy="150" rx="60" ry="40" fill="#FFDF6C" stroke="#CD7F32" stroke-width="2"/>
+
+</svg>

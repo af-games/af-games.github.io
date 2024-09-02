@@ -1,0 +1,19 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100 100 Q200 80, 300 100 Q200 120, 100 100" fill="#4A4A4A"/>
+
+  <!-- Head -->
+  <path d="M50 70 Q100 50, 150 70" fill="#B3B3B3"/>
+  <path d="M50 70 L150 70" stroke="#000000"/>
+
+  <!-- Tail -->
+  <path d="M400 120 Q300 160, 200 120 Q300 80, 400 120" fill="#B3B3B3"/>
+  <path d="M400 120 L200 120" stroke="#000000"/>
+
+  <!-- Fins -->
+  <path d="M150 80 Q170 60, 200 80 Q170 100, 150 80" fill="#4A4A4A"/>
+  <path d="M350 80 Q330 60, 300 80 Q330 100, 350 80" fill="#4A4A4A"/>
+  <path d="M250 160 Q270 180, 300 160 Q270 140, 250 160" fill="#4A4A4A"/>
+
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Body -->
+  <g clip-path="url(#bodyClip)">
+    <rect width="300" height="280" fill="steelblue"/>
+    <circle cx="175" cy="260" r="140" fill="lightslategray"/>
+  </g>
+
+  <!-- Head -->
+  <clipPath id="headClip">
+    <path d="M200,180 Q250,80 300,180 H200 Z"/>
+  </clipPath>
+  <rect width="40" height="100" x="160" y="80" fill="white" clip-path="url(#headClip)"/>
+
+  <!-- Eyes -->
+  <circle cx="175" cy="120" r="35" fill="black"/>
+  <circle cx="225" cy="120" r="35" fill="black"/>
+
+  <!-- Beak -->
+  <path d="M190,140 Q210,180 230,140" stroke="orange" fill="transparent" stroke-width="10"/>
+
+  <!-- Wings -->
+  <g transform="rotate(-45 275 220)">
+    <polygon points="260,200 300,260 220,260" fill="steelblue"/>
+  </g>
+  <g transform="rotate(45 225 220)">
+    <polygon points="230,200 190,260 270,260" fill="steelblue"/>
+  </g>
+
+  <!-- Feet -->
+  <rect width="50" height="40" x="200" y="320" fill="lightslategray"/>
+  <rect width="50" height="40" x="250" y="320" fill="lightslategray"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:steelblue; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:lightslategray; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

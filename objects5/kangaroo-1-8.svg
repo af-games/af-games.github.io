@@ -1,0 +1,31 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="200" rx="80" ry="50" fill="brown"/>
+
+  <!-- Head -->
+  <ellipse cx="90" cy="160" rx="40" ry="30" fill="tan"/>
+
+  <!-- Ears -->
+  <polygon points="80,50 120,50 95,70" fill="brown"/>
+  <polygon points="160,50 200,50 175,70" fill="brown"/>
+
+  <!-- Arms -->
+  <rect x="80" y="220" width="40" height="90" fill="tan"/>
+  <rect x="150" y="220" width="40" height="90" fill="tan"/>
+
+  <!-- Legs -->
+  <rect x="60" y="320" width="50" height="70" fill="tan"/>
+  <rect x="140" y="320" width="50" height="70" fill="tan"/>
+
+  <!-- Pouch -->
+  <circle cx="100" cy="280" r="30" fill="tan"/>
+
+  <!-- Tail -->
+  <line x1="90" y1="340" x2="70" y2="360" stroke="brown"/>
+  <line x1="110" y1="340" x2="130" y2="360" stroke="brown"/>
+  <rect x="85" y="350" width="50" height="20" fill="tan"/>
+
+  <!-- Eyes -->
+  <circle cx="95" cy="155" r="5" fill="black"/>
+  <circle cx="145" cy="155" r="5" fill="black"/>
+</svg>

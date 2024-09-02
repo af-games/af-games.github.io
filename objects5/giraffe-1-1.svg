@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 28">
+  <!-- Body -->
+  <path d="M12,2 C6.75,2.9 4,6.75 4,12h2l2,4V8H4z"
+        fill="#FCD1C7"/>
+
+  <!-- Neck -->
+  <path d="M12,12 v10 a8,8 0 0 0 -6,12 3,3 0 0 0 0,-5"
+        stroke="#9D4F3E" stroke-width="2" fill="transparent"/>
+
+  <!-- Head -->
+  <circle cx="12" cy="22" r="8" fill="#FFDBB6"/>
+  <path d="M12,24 v-2 a3,3 0 0 0 -3,-3 3,3 0 0 0 3,-3 3,3 0 0 0 -3,3z"
+        fill="#FFC78E"/>
+
+  <!-- Horns -->
+  <polygon points="10,25 14,25 12,29" fill="#FCD1C7"/>
+  <polygon points="10,26 14,26 12,30" fill="#FCD1C7"/>
+
+  <!-- Legs -->
+  <rect x="8" y="18" width="2" height="9" rx="1" ry="1"
+        stroke="#9D4F3E" stroke-width="2" fill="transparent"/>
+  <rect x="10" y="18" width="2" height="7" rx="1" ry="1"
+        stroke="#9D4F3E" stroke-width="2" fill="transparent"/>
+  <rect x="12" y="16" width="2" height="11" rx="1" ry="1"
+        stroke="#9D4F3E" stroke-width="2" fill="transparent"/>
+  <rect x="14" y="18" width="2" height="7" rx="1" ry="1"
+        stroke="#9D4F3E" stroke-width="2" fill="transparent"/>
+</svg>

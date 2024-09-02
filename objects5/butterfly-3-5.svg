@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Body -->
+  <path id="butterfly-body"
+        d="M250,10 Q270,80 360,100 L390,150 L360,200 Q270,180 250,150 Z"
+        fill="#FFCBA4" stroke="#FFA500"/>
+  <path id="butterfly-body-outline" d="M250,10 Q270,80 360,100 L390,150 L360,200 Q270,180 250,150 Z"
+        fill="none" stroke="#FFA500"/>
+
+  <!-- Wings -->
+  <g transform="rotate(45,250,200)">
+    <path id="wing-left"
+          d="M230,90 Q180,50 200,120 L250,170 Z"
+          fill="#FFCBA4"/>
+    <path id="wing-right"
+          d="M270,90 Q320,50 350,120 L300,170 Z"
+          fill="#FFCBA4"/>
+  </g>
+
+  <!-- Antennae -->
+  <line x1="260" y1="80" x2="280" y2="50" stroke="#FFA500" fill="transparent"/>
+  <line x1="230" y1="80" x2="210" y2="50" stroke="#FFA500" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle cx="260" cy="70" r="10" fill="#FFFFFF"/>
+  <circle cx="240" cy="70" r="5" fill="#000000"/>
+  <circle cx="280" cy="70" r="5" fill="#000000"/>
+
+</svg>

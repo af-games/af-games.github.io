@@ -1,0 +1,29 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphins -->
+  <path id="dolphin1" d="M50,200 Q70,150 150,180 Q200,230 280,190" fill="url(#dolphinGradient)" />
+  <path id="dolphin2" d="M400,220 Q450,170 550,200 Q650,250 730,210" fill="url(#dolphinGradient)" />
+  <path id="dolphin3" d="M600,200 Q670,140 750,190 Q850,240 930,200" fill="url(#dolphinGradient)" />
+
+  <!-- Waves -->
+  <path id="wave1" d="M0,300 Q50,260 120,300 Q200,340 280,300" fill="url(#waveGradient)" />
+  <path id="wave2" d="M300,320 Q370,280 450,320 Q530,360 610,320" fill="url(#waveGradient)" />
+  <path id="wave3" d="M630,340 Q700,290 780,340 Q860,380 940,340" fill="url(#waveGradient)" />
+
+  <!-- Dolphin-Wave Connections -->
+  <path d="M150,180 Q200,230 280,270 Q450,280 550,230" stroke="#fff" stroke-width="3" />
+  <path d="M550,200 Q650,250 730,290 Q850,290 930,240" stroke="#fff" stroke-width="3" />
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="dolphinGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   style="stop-color:rgb(179,224,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,123,154);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(0,76,109);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(179,224,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+</svg>

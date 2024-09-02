@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Outer border -->
+<polygon points="5,5 395,5 395,295 5,295" fill="#8B7D6B" stroke="#4A4136" stroke-width="2"/>
+
+<!-- Quilt patches -->
+<g id="patches">
+  <rect x="10" y="10" width="80" height="80" fill="url(#pattern1)" />
+  <rect x="110" y="50" width="70" height="70" fill="url(#pattern2)" />
+  <rect x="200" y="30" width="60" height="60" fill="url(#pattern3)" />
+  <rect x="300" y="150" width="80" height="80" fill="url(#pattern4)" />
+</g>
+
+<!-- Buttons/circles -->
+<circle cx="70" cy="70" r="20" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="2"/>
+<circle cx="190" cy="65" r="15" fill="#FFFFFF" stroke="#D3D3D3" stroke-width="2"/>
+
+<!-- Patterns for patches -->
+<defs>
+  <pattern id="pattern1" patternUnits="userSpaceOnUse" width="40" height="40">
+    <rect width="40" height="40" fill="#F7E6CE"/>
+    <circle cx="20" cy="20" r="15" fill="#D9D0C8"/>
+  </pattern>
+  <!-- Add more patterns here... -->
+</defs>
+
+</svg>

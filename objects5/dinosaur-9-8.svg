@@ -1,0 +1,25 @@
+<svg width="500" height="300">
+  <!-- Body -->
+  <rect x="100" y="200" width="200" height="250"
+    style="fill: brown; stroke: black; stroke-width: 2;" />
+
+  <!-- Tail -->
+  <polygon points="300,200 400,250 350,150"
+    style="fill: darkgreen; stroke: black; stroke-width: 2;" />
+
+  <!-- Head -->
+  <circle cx="150" cy="150" r="70"
+    style="fill: olive; stroke: black; stroke-width: 2;" />
+
+  <!-- Legs -->
+  <path d="M80,300 Q90,250 140,250 Q150,300 200,300"
+    style="fill: transparent; stroke: black; stroke-width: 2;" />
+  <path d="M350,300 Q360,250 410,250 Q420,300 470,300"
+    style="fill: transparent; stroke: black; stroke-width: 2;" />
+
+  <!-- Spikes -->
+  <path d="M80,220 L90,200 Z M160,220 L170,200 Z
+           M350,220 L360,200 Z M430,220 L440,200 Z"
+    style="fill: darkgreen; stroke: black; stroke-width: 2;" />
+
+</svg>

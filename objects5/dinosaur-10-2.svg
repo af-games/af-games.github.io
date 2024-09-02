@@ -1,0 +1,29 @@
+<svg viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<circle cx="175" cy="450" r="150" fill="#8B7D6B"/>
+<circle cx="250" cy="450" r="120" fill="#A5937F"/>
+
+<!-- Head -->
+<rect x="150" y="350" width="200" height="200" rx="100" ry="100" fill="#8B7D6B"/>
+<circle cx="225" cy="375" r="40" fill="white"/>
+
+<!-- Limbs -->
+<rect x="75" y="450" width="50" height="150" fill="#8B7D6B"/>
+<rect x="275" y="450" width="50" height="150" fill="#8B7D6B"/>
+
+<!-- Tail -->
+<path d="M325,450 Q400,550 325,650 Q250,550 325,450" stroke="#A5937F" fill="transparent"/>
+
+<!-- Legs -->
+<rect x="100" y="550" width="50" height="100" rx="25" ry="25" fill="#8B7D6B"/>
+<rect x="200" y="550" width="50" height="100" rx="25" ry="25" fill="#8B7D6B"/>
+
+<!-- Eyes -->
+<circle cx="200" cy="350" r="15" fill="black"/>
+<circle cx="245" cy="350" r="15" fill="black"/>
+
+<!-- Mouth -->
+<path d="M180,390 Q200,420 220,390" stroke="#8B7D6B" fill="transparent"/>
+
+</svg>

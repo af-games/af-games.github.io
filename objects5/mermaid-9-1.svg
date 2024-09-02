@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 100 60">
+  <path d="M0,-10 A10,10 0 1,0 0,10 A10,10 0 1,0 0,-10" stroke="black" fill="lightblue"/>
+  <polygon points="-5,-20 -30,-30 30,-30 5,-20" style="fill: black;"/>
+  <circle cx="0" cy="-40" r="5" fill="black"/>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 1000 600">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+
+  <!-- Jellyforest -->
+  <polygon points="-50,250 50,400 300,250" fill="#9bc2c7">
+    <title>Jellyforest</title>
+  </polygon>
+
+  <!-- Medusoid Mountains -->
+  <path d="M500,-100 Q600,-50 700,-100 A300,300 0 0 0 400,-300" stroke="#4e5968" fill="#d1b2a2">
+    <title>Medusoid Mountains</title>
+  </path>
+
+  <!-- Gelatinous Gulf -->
+  <rect x="700" y="-100" width="300" height="400" fill="#c3e6ea">
+    <title>Gelatinous Gulf</title>
+  </rect>
+
+  <!-- Pellucid Plains -->
+  <polygon points="250,500 700,500 900,300 800,100" fill="#d4f3e5">
+    <title>Pellucid Plains</title>
+  </polygon>
+
+  <!-- Umbellaria City -->
+  <circle cx="650" cy="150" r="120" stroke="#3a90b5" fill="#edf2ec"/>
+  <text x="640" y="170" font-family="Verdana" font-size="24">Umbellaria City</text>
+
+  <!-- Rivers -->
+  <path d="M-50,250 Q50,350 200,250" stroke="#3a90b5" fill="transparent"/>
+  <path d="M700,100 Q800,200 900,100" stroke="#3a90b5" fill="transparent"/>
+
+  <!-- Labels -->
+  <text x="-60" y="280" font-family="Verdana" font-size="24">Jellyforest</text>
+  <text x="720" y="130" font-family="Verdana" font-size="24">Gelatinous Gulf</text>
+  <text x="920" y="280" font-family="Verdana" font-size="24">Pellucid Plains</text>
+
+</svg>

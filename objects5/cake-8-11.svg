@@ -1,0 +1,18 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Base -->
+  <rect x="50" y="120" width="100" height="80" fill="#FBB917"/>
+
+  <!-- Cake Top -->
+  <path d="M50,40 Q95,20 150,40 Q95,60 50,60" fill="#FDD835"/>
+
+  <!-- Icing Layers -->
+  <rect x="55" y="45" width="90" height="75" fill="#FFF" rx="20"/>
+  <rect x="60" y="50" width="80" height="70" fill="#FDD835" rx="15"/>
+
+  <!-- Golden Candles -->
+  <circle cx="120" cy="70" r="10" fill="#FFD700"/>
+  <path d="M115,60 L125,60 L120,40" stroke="#FFD700"/>
+
+  <!-- Cake Stand -->
+  <rect x="35" y="195" width="130" height="5" fill="#7E57C2"/>
+</svg>

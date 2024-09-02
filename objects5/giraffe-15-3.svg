@@ -1,0 +1,17 @@
+<svg width="500" height="500" viewBox="-250 -250 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Head -->
+  <circle cx="0" cy="400" r="50" stroke="black" fill="tan"/>
+
+  <!-- Body -->
+  <rect x="-200" y="300" width="400" height="100" stroke="black" fill="tan"/>
+
+  <!-- Neck -->
+  <path d="M0,400 Q-50,250 -200,300" stroke="black" fill="transparent"/>
+
+  <!-- Legs -->
+  <rect x="-200" y="0" width="100" height="300" stroke="black" fill="tan"/>
+  <rect x="100" y="0" width="100" height="300" stroke="black" fill="tan"/>
+
+  <!-- Tail -->
+  <rect x="-250" y="200" width="50" height="300" stroke="black" fill="tan"/>
+</svg>

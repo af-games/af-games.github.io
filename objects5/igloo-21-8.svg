@@ -1,0 +1,26 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Igloo -->
+  <path d="M70,50 Q90,40 130,50 Q150,60 170,50 Q210,40 230,50 Q250,60 270,50 Q290,40 310,50" fill="#A0E6FF" stroke="#FFFFFF"/>
+  <path d="M130,30 L150,30 A20,20 0 0 1 170,10 A20,20 0 0 1 190,30 Z" fill="#6AACEC"/>
+
+  <!-- Snowman -->
+  <circle cx="400" cy="80" r="50" fill="#FFFFFF"/>
+  <circle cx="400" cy="130" r="30" fill="#FFFFFF"/>
+  <circle cx="400" cy="160" r="20" fill="#FFFFFF"/>
+  <path d="M400,80 Q420,70 440,80" stroke="#AAA" fill="transparent"/>
+
+  <!-- Pine tree -->
+  <polygon points="350,200 360,190 370,200" fill="#6DAC5C"/>
+  <polygon points="340,180 370,180" fill="#6DAC5C"/>
+  <polygon points="330,160 380,160" fill="#6DAC5C"/>
+
+  <!-- Tableware & Garnishes -->
+  <rect x="20" y="280" width="40" height="40" rx="5" fill="#FFFFFF"/>
+  <circle cx="35" cy="310" r="5" fill="#000000"/>
+
+  <!-- Plate -->
+  <ellipse cx="250" cy="300" rx="160" ry="170" fill="#FFF5E6"/>
+  <path d="M250,300 A160,170 0 0 1 410,300 A160,170 0 0 1 250,470 A160,170 0 0 1 80,300 Z" fill="#FFFFFF"/>
+
+</svg>

@@ -1,0 +1,22 @@
+<svg width="400px" height="300px" xmlns="http://www.w3.org/2000/svg">
+  <!-- Measure 1: Introduction -->
+  <circle cx="50" cy="150" r="50" fill="orange" stroke-width="5" stroke="black">
+    <animate attributeName="cy" values="150;75;150" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Measure 2: Building up -->
+  <circle cx="100" cy="180" r="40" fill="yellow" stroke-width="3" stroke="black">
+    <animate attributeName="cy" values="180;90;180" begin="1s" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Measure 3: Climax -->
+  <circle cx="250" cy="120" r="60" fill="red" stroke-width="5" stroke="black">
+    <animate attributeName="cy" values="120;45;120" begin="3s" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Measure 4: Resolution -->
+  <circle cx="350" cy="180" r="70" fill="green" stroke-width="3" stroke="black">
+    <animate attributeName="cy" values="180;210;180" begin="5s" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+</svg>

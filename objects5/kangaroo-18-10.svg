@@ -1,0 +1,15 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="fur" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#654321; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#f0e6c1; stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+  <path d="M100 250 Q140 175, 180 250 Q220 325, 260 250" fill="url(#fur)"/>
+  <path d="M90 120 Q120 80, 150 120" fill="#654321"/>
+  <path d="M150 120 Q180 80, 210 120" fill="#654321"/>
+  <circle cx="170" cy="100" r="60" fill="#9d876a"/>
+  <polygon points="270,50 340,100 380,50" fill="#654321"/>
+  <circle cx="290" cy="75" r="15" fill="#f0e6c1"/>
+  <circle cx="320" cy="75" r="15" fill="#f0e6c1"/>
+</svg>

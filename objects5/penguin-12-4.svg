@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="url(#bgGradient)"/>
+
+  <!-- Body -->
+  <ellipse cx="250" cy="300" rx="150" ry="180" fill="url(#bodyGradient)">
+    <animateMotion dur="5s" repeatIndefinite>
+      <mpath href="#bodyPath"/>
+    </animateMotion>
+  </ellipse>
+
+  <!-- Head -->
+  <circle cx="230" cy="240" r="60" fill="url(#headGradient)"/>
+
+  <!-- Flippers -->
+  <path d="M180 320 Q200 280, 250 320 Z" stroke="#333" fill="#fff"/>
+  <path d="M270 320 Q310 280, 340 320 Z" stroke="#333" fill="#fff"/>
+
+  <!-- Beak -->
+  <path d="M250 220 L260 200 L240 200 Z" stroke="#000" fill="#fff"/>
+
+  <!-- Eyes -->
+  <circle cx="235" cy="190" r="8" fill="#000"/>
+  <circle cx="265" cy="190" r="8" fill="#000"/>
+
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(135,206,250);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(74,90,134);stop-opacity:1"/>
+    </linearGradient>
+    <radialGradient id="bodyGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(87,142,193);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(61,90,124);stop-opacity:1"/>
+    </radialGradient>
+    <radialGradient id="headGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(63,81,107);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(42,56,77);stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+
+</svg>

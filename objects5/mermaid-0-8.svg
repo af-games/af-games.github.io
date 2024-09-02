@@ -1,0 +1,26 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <polygon points="150,75 200,150 100,150" fill="mediumblue" />
+  <rect x="125" y="90" width="50" height="30" fill="darkblue" />
+  <polygon points="140,110 160,130 145,170" fill="lightblue" />
+  <polygon points="160,80 180,95 170,120" fill="gold" />
+
+  <!-- Body (Upper) -->
+  <rect x="125" y="150" width="150" height="30" fill="mediumblue" />
+  <rect x="130" y="180" width="140" height="30" fill="darkblue" />
+
+  <!-- Body (Lower) -->
+  <polygon points="125,210 175,240 125,270" fill="mediumblue" />
+  <polygon points="135,220 165,250 135,280" fill="darkblue" />
+
+  <!-- Tail -->
+  <polygon points="125,300 175,390 125,480" fill="lightblue" />
+  <polygon points="135,310 165,380 135,450" fill="mediumblue" />
+  <polygon points="135,370 165,420 135,490" fill="darkblue" />
+
+  <!-- Hair -->
+  <rect x="100" y="75" width="200" height="80" fill="gold" />
+  <polygon points="100,155 200,155 150,235" fill="gold" />
+
+</svg>

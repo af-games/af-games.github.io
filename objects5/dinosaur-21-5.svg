@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Trandactylasaurus (Trumpet) -->
+  <circle cx="150" cy="300" r="50" fill="gold" stroke="black" id="trandactylasaurus"/>
+  <animateMotion begin="0s" dur="4s" repeatCount="indefinite">
+    <mpath href="#trandactylasaurusPath"/>
+  </animateMotion>
+  <path d="M150,300 Q250,250 350,300" stroke="black" fill="transparent" id="trandactylasaurusPath"/>
+
+  <!-- Tyrannosaurus (Bass) -->
+  <rect x="400" y="250" width="100" height="200" fill="darkred" stroke="black" id="tyrannosaurus"/>
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="50 0" begin="0s" dur="4s" repeatCount="indefinite"/>
+
+  <!-- Velociraptor (Horn) -->
+  <path d="M600,200 Q500,300 400,200" stroke="green" fill="transparent" id="velociraptor">
+    <animate attributeName="d" begin="0s" dur="4s" repeatCount="indefinite"
+      values="M600,200 Q500,300 400,200; M600,100 Q500,200 400,100"/>
+  </path>
+</svg>

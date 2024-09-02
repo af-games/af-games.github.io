@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base/Ground -->
+  <rect x="100" y="400" width="300" height="100" fill="#C0D9DF"/>
+
+  <!-- Roof Bricks -->
+  <path d="M250,100 Q300,75 350,100 T300,200 Q250,225 200,200 T150,200 Q100,225 50,200" stroke="#F3FAFF" fill="transparent"/>
+
+  <!-- Entrance Tunnel -->
+  <path d="M40,400 L80,350 L120,400 Z" stroke="#A6CCF4" fill="#A6CCF4"/>
+
+  <!-- Smoke Hole -->
+  <circle cx="275" cy="50" r="20" stroke="#E8ECED" fill="transparent"/>
+
+</svg>

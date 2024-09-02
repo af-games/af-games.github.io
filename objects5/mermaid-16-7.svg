@@ -1,0 +1,22 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outline and Basic Shapes -->
+  <path d="M100,50 Q150,75 200,50 C180,25 140,0 100,0 Q60,25 20,50" stroke="black"/>
+
+  <!-- Skin Tone Gradient -->
+  <path d="M100,50 Q150,75 200,50 C180,25 140,0 100,0 Q60,25 20,50" fill="url(#skinGradient)"/>
+  <defs>
+    <linearGradient id="skinGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,235,205);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(248,167,76);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hair and Details -->
+  <path d="M... hair path ... " stroke="black" fill="url(#hairGradient)"/>
+
+  <!-- Tail Fin Scales (simplified for brevity) -->
+  <circle cx="..." cy="..." r="5" fill="url(#scaleGradient)"/>
+  ...
+
+  <!-- Eyes, facial features and other details -->
+</svg>

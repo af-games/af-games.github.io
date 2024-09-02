@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 70">
+  <!-- Body -->
+  <path d="M10 20 Q30 0, 40 20 H60 V80 H20 Z" fill="#A9E2F3"/>
+
+  <!-- Head -->
+  <circle cx="30" cy="25" r="20" fill="#FFFFFF"/>
+
+  <!-- Eye -->
+  <circle cx="25" cy="18" r="2" fill="#000000"/>
+  <circle cx="35" cy="18" r="2" fill="#000000"/>
+
+  <!-- Beak -->
+  <path d="M30 25 L40 35 L20 35 Z" fill="#FFD65B"/>
+
+  <!-- Flipper Left -->
+  <rect x="15" y="40" width="5" height="30" fill="#A9E2F3"/>
+
+  <!-- Flipper Right -->
+  <rect x="45" y="40" width="5" height="30" fill="#A9E2F3"/>
+
+  <!-- Feet -->
+  <path d="M10 80 Q20 100, 40 80 H60 Z" fill="#A9E2F3"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg width="400" height="400" viewBox="-200 -200 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="quiltPattern" patternUnits="userSpaceOnUse" width="50" height="50">
+      <rect width="50" height="50" fill="#FFF"/>
+      <rect x="25" y="25" width="25" height="25" fill="#FFA500"/>
+    </pattern>
+  </defs>
+
+  <!-- Grid of patches -->
+  <rect x="-200" y="-200" width="400" height="400"
+       style="fill: url(#quiltPattern); stroke: black; stroke-width: 2;" />
+
+  <!-- Individual patches with different colors -->
+  <g transform="translate(-150,-150)">
+    <rect x="0" y="0" width="50" height="50" fill="#FFC300"/>
+    <rect x="50" y="0" width="50" height="50" fill="#DAF7A6"/>
+    <!-- Repeat this pattern for the remaining 62 patches -->
+  </g>
+</svg>

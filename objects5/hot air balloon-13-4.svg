@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:lightgreen;"/>
+      <stop offset="100%" style="stop-color:darkgreen;"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Hills -->
+  <path d="M-50,-30 Q-25,40 0,70 Q25,40 50,-30" fill="url(#greenGradient)" stroke="none"/>
+
+  <!-- Rivers -->
+  <path d="M-40,-20 Q-10,-10 10,-10 Q40,-20 60,-10" fill="blue" stroke="none">
+    <animate attributeName="d" values="M-40,-20 Q-10,-10 10,-10 Q40,-20 60,-10;M-40,-25 Q-10,-15 10,-15 Q40,-25 60,-15;M-40,-20 Q-10,-10 10,-10 Q40,-20 60,-10" dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Trees -->
+  <g stroke="brown" stroke-width="2">
+    <circle cx="-35" cy="-35" r="8" fill="green"/>
+    <rect x="-40" y="-45" width="10" height="20" fill="brown"/>
+    <circle cx="35" cy="-35" r="8" fill="green"/>
+    <rect x="30" y="-45" width="10" height="20" fill="brown"/>
+  </g>
+
+  <!-- Hot Air Balloon -->
+  <g transform="translate(0,-70)">
+    <!-- Basket -->
+    <rect x="-5" y="5" width="10" height="15" rx="3" fill="orange"/>
+
+    <!-- Balloon -->
+    <ellipse cx="0" cy="0" rx="25" ry="50" fill="red"/>
+    <circle cx="0" cy="-55" r="7" fill="white"/>
+  </g>
+</svg>

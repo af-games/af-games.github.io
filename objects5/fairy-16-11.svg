@@ -1,0 +1,20 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="100" cy="200" r="80" fill="lightgreen"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="150" rx="40" ry="60" fill="lightgreen"/>
+
+  <!-- Arms -->
+  <line x1="70" y1="230" x2="50" y2="180" stroke="black"/>
+  <line x1="130" y1="230" x2="150" y2="180" stroke="black"/>
+
+  <!-- Legs -->
+  <line x1="70" y1="290" x2="50" y2="340" stroke="black"/>
+  <line x1="130" y1="290" x2="150" y2="340" stroke="black"/>
+
+  <!-- Hair -->
+  <polygon points="70,130 130,130 100,80" fill="brown"/>
+
+</svg>

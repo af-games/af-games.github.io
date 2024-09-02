@@ -1,0 +1,39 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <polygon id="tower" points="400,10 550,100 450,200 350,100"
+           fill="url(#castleGradient)" stroke="#000" stroke-width="5"/>
+
+  <!-- Castle Gate -->
+  <rect id="gate" x="370" y="210" width="160" height="180"
+        fill="none" stroke="#000" stroke-width="5"/>
+  <text id="gateText" x="420" y="400" font-size="40" font-family="serif">Entrance</text>
+
+  <!-- Stage Floor -->
+  <rect id="floor" x="150" y="390" width="500" height="210"
+        fill="#8B7D6B"/>
+
+  <!-- Throne -->
+  <g id="throne">
+    <rect x="300" y="400" width="200" height="100" fill="#C0C0C0"/>
+    <polygon points="350,500 450,500 400,600" fill="#8B7D6B"/>
+  </g>
+
+  <!-- Audience Seats -->
+  <g id="seats">
+    <circle cx="200" cy="550" r="30" fill="#C0C0C0"/>
+    <circle cx="300" cy="550" r="30" fill="#C0C0C0"/>
+    <circle cx="400" cy="550" r="30" fill="#C0C0C0"/>
+    <circle cx="500" cy="550" r="30" fill="#C0C0C0"/>
+  </g>
+
+  <!-- Stage Lighting -->
+  <defs>
+    <linearGradient id="castleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#FF8C00; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FF4500; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

@@ -1,0 +1,16 @@
+<svg width="100" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake body -->
+  <rect x="40" y="60" width="20" height="70" fill="#FFD86F"/>
+  <circle cx="70" cy="105" r="20" fill="#FFD86F"/>
+
+  <!-- Cake top */
+  <polygon points="90,30 40,30 65,5" fill="#FFD86F"/>
+
+  <!-- Candles -->
+  <circle cx="50" cy="110" r="5" fill="#FDD73C"/>
+  <circle cx="60" cy="110" r="5" fill="#FDD73C"/>
+  <circle cx="70" cy="110" r="5" fill="#FDD73C"/>
+
+  <!-- Cake stand -->
+  <rect x="25" y="140" width="50" height="10" fill="#8B4513"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#f2e6d8"/>
+
+  <!-- Dinosaur & Human as Circles -->
+  <circle cx="50" cy="300" r="40" fill="#77dd77"/>
+  <circle cx="400" cy="300" r="40" fill="#ffcc66"/>
+
+  <!-- Barrier/Fence -->
+  <rect x="200" y="150" width="10" height="150" stroke="#333" stroke-width="2"/>
+
+  <!-- Path for Movement -->
+  <path id="movementPath" d="M50,300 Q150,400 400,300" fill="transparent"/>
+
+  <!-- Dinosaur's Dialogue Bubble -->
+  <text x="70" y="280" font-family="Verdana" font-size="16">Hello!</text>
+
+  <!-- Human's Dialogue Bubble -->
+  <text x="390" y="280" font-family="Verdana" font-size="16">Nice to meet you!</text>
+
+  <!-- Friendship Circle (Final Position) -->
+  <circle cx="275" cy="300" r="45" stroke="#ffa502" stroke-width="3"/>
+
+</svg>

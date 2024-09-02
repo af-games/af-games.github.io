@@ -1,0 +1,15 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Landforms -->
+  <rect x="100" y="150" width="200" height="150" fill="#90EE90"/>
+  <rect x="400" y="200" width="300" height="200" fill="#7FFFD4"/>
+
+  <!-- Rivers -->
+  <path d="M250,300 Q350,250 450,300" stroke="#0066CC" fill="transparent"/>
+  <path d="M150,400 Q250,300 350,400" stroke="#0066CC" fill="transparent"/>
+
+  <!-- Butterfly Landmark -->
+  <polygon points="600,150 650,170 700,150 700,200 650,230 600,200"
+           style="fill:yellow;stroke:black;stroke-width:1" />
+
+</svg>

@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Scene 1: Giraffe in the Savannah -->
+  <circle cx="400" cy="200" r="50" fill="#b97a4d"/>
+  <text x="400" y="250">Giraffe stands tall</text>
+  <path d="M100,50 Q300,100 600,50" stroke="#ffcc00" fill="transparent"/>
+
+  <!-- Scene 2: Giraffe Spots a Hidden Oasis -->
+  <circle cx="400" cy="200" r="50" fill="#b97a4d"/>
+  <rect x="300" y="150" width="200" height="100" fill="#00cc00"/>
+  <text x="400" y="250">Giraffe spots an oasis</text>
+
+  <!-- Scene 3: The Journey Begins -->
+  <circle cx="400" cy="200" r="50" fill="#b97a4d"/>
+  <path d="M400,150 Q400,250 600,150" stroke="#ffcc00" fill="transparent"/>
+  <text x="400" y="250">Giraffe starts its journey</text>
+
+  <!-- Scenes 4 to 7: Similar pattern for crossing obstacles and returning home -->
+
+  <!-- Scene Ends -->
+  <text x="600" y="580">The end!</text>
+
+</svg>

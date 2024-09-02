@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mixing the colors: vanilla (white), chocolate (brown) and strawberry (red) -->
+  <defs>
+    <linearGradient id="cakeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="60%" style="stop-color:rgb(139,69,19);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Baking the cake base at (50, 150) -->
+  <rect width="200" height="50" fill="url(#cakeGradient)" rx="10" ry="10" x="50" y="150"/>
+
+  <!-- Crafting the frosting around the cake base -->
+  <path d="M50,150 Q70,140 130,160 Q190,150 210,140" stroke="black" fill="none"/>
+
+  <!-- Adding cherries on top at coordinates (180, 100) -->
+  <circle cx="180" cy="100" r="5" fill="red"/>
+  <circle cx="160" cy="90" r="3" fill="yellow"/>
+
+</svg>

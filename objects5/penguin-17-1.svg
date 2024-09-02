@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="80" ry="60" fill="black"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="75" r="40" fill="white"/>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="65" r="3" fill="black"/>
+  <circle cx="110" cy="65" r="3" fill="black"/>
+
+  <!-- Beak -->
+  <path d="M105,70 Q110,80 105,90" stroke="orange" fill="transparent"/>
+
+  <!-- Flipper (left) -->
+  <polygon points="40,120 30,160 80,160" fill="black"/>
+
+  <!-- Flipper (right) -->
+  <polygon points="160,120 170,160 120,160" fill="black"/>
+</svg>

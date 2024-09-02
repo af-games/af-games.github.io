@@ -1,0 +1,43 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="url(#gradient)" />
+
+  <!-- Body -->
+  <ellipse cx="150" cy="280" rx="70" ry="90" fill="#4C6EA5">
+    <animateTransform attributeName="d" type="rotate" from="0 150 280" to="360 150 280" dur="2s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Head -->
+  <circle cx="150" cy="220" r="40" fill="#A7C9DC">
+    <animateTransform attributeName="d" type="rotate" from="0 150 220" to="360 150 220" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Beak -->
+  <path d="M145 210 Q130 195, 150 180 Q170 195, 160 210" fill="#FFCBA4">
+    <animateTransform attributeName="d" type="rotate" from="0 150 210" to="360 150 210" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Eyes -->
+  <circle cx="140" cy="205" r="5" fill="black">
+    <animateTransform attributeName="d" type="rotate" from="0 140 205" to="360 140 205" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="160" cy="205" r="5" fill="black">
+    <animateTransform attributeName="d" type="rotate" from="0 160 205" to="360 160 205" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Legs -->
+  <path d="M140 280 Q120 320, 140 360 Q160 320, 140 280" stroke="#4C6EA5" fill="transparent">
+    <animateTransform attributeName="d" type="rotate" from="0 140 280" to="360 140 280" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M160 280 Q180 320, 160 360 Q200 320, 160 280" stroke="#4C6EA5" fill="transparent">
+    <animateTransform attributeName="d" type="rotate" from="0 160 280" to="360 160 280" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(194,163,128);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet">
+
+<!-- Colors representing musical notes/emotions -->
+<defs>
+    <linearGradient id="giraffeGradient" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#FFD700" /> <!-- C note (bright yellow) -->
+        <stop offset="50%" stop-color="#FFA500" /> <!-- G note (orange) -->
+        <stop offset="100%" stop-color="#FF4500" /> <!-- C# note (red) -->
+    </linearGradient>
+</defs>
+
+<!-- Background giraffe shapes -->
+<path d="M10,200 Q300,50 600,200 Q300,350 10,200" stroke="none" fill="#8B4513" />
+
+<!-- Composition bars and beats -->
+<g id="composition">
+    <!-- Bar 1 -->
+    <circle cx="100" cy="300" r="40" fill="url(#giraffeGradient)" />
+    <path d="M100,260 L140,260" stroke="black" fill="transparent"/>
+    <!-- Bar 2 -->
+    <circle cx="200" cy="300" r="40" fill="url(#giraffeGradient)" />
+    <path d="M200,260 L240,260" stroke="black" fill="transparent"/>
+    <!-- Bar 3 -->
+    <circle cx="300" cy="300" r="40" fill="url(#giraffeGradient)" />
+    <path d="M300,260 L340,260" stroke="black" fill="transparent"/>
+    <!-- Bar 4 -->
+    <circle cx="400" cy="300" r="40" fill="url(#giraffeGradient)" />
+    <path d="M400,260 L440,260" stroke="black" fill="transparent"/>
+    <!-- Bar 5 -->
+    <circle cx="500" cy="300" r="40" fill="url(#giraffeGradient)" />
+    <path d="M500,260 L540,260" stroke="black" fill="transparent"/>
+    <!-- Bar 6 -->
+    <circle cx="600" cy="300" r="40" fill="url(#giraffeGradient)" />
+    <path d="M600,260 L640,260" stroke="black" fill="transparent"/>
+    <!-- Bar 7 -->
+    <circle cx="700" cy="300" r="40" fill="url(#giraffeGradient)" />
+    <path d="M700,260 L740,260" stroke="black" fill="transparent"/>
+</g>
+
+<!-- Animations -->
+<animateTransform
+   attributeName="transform"
+   type="rotate"
+   from="0 300 300"
+   to="360 300 300"
+   begin="0s"
+   dur="8s"
+   repeatCount="indefinite"
+/>
+<animateMotion
+   path="M100,260 L740,260"
+   begin="0s"
+   dur="8s"
+   repeatCount="indefinite">
+    <mpath href="#composition" />
+</animateMotion>
+
+</svg>

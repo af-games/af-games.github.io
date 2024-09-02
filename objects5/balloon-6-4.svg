@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+
+  <!-- Basket -->
+  <rect id="basket" x="120" y="540" width="160" height="60" fill="#8B4513"/>
+  <linearGradient id="basketGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#9D7C63"/>
+    <stop offset="100%" stop-color="#5E4834"/>
+  </linearGradient>
+
+  <!-- Envelope (Balloon body) -->
+  <path id="envelope" d="M200,50 Q250,100 300,50 T600,50 Q550,100 400,50 Z"/>
+  <linearGradient id="fabricGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" stop-color="#FFF"/>
+    <stop offset="100%" stop-color="#F3E5AB"/>
+  </linearGradient>
+  <path d="M@envelope" fill="url(#fabricGrad)"/>
+
+  <!-- Top of Envelope -->
+  <circle id="top" cx="250" cy="50" r="50" fill="#FFD700"/>
+  <radialGradient id="topGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" stop-color="#FFD700"/>
+    <stop offset="100%" stop-color="#FFF"/>
+  </radialGradient>
+  <circle d="M@top" fill="url(#topGrad)"/>
+
+  <!-- Gondola (Basket + Envelope connection) -->
+  <path id="gondola" d="M200,540 L300,540 Z M200,100 L300,100 Z"/>
+  <linearGradient id="ropeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#8B4513"/>
+    <stop offset="100%" stop-color="#696969"/>
+  </linearGradient>
+  <path d="M@gondola" fill="url(#ropeGrad)"/>
+
+  <!-- Burner -->
+  <rect id="burner" x="200" y="350" width="100" height="40" fill="#CD853F"/>
+  <linearGradient id="burnerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#FF7F27"/>
+    <stop offset="100%" stop-color="#CD853F"/>
+  </linearGradient>
+  <rect d="M@burner" fill="url(#burnerGrad)"/>
+
+  <!-- Shadows -->
+  <filter id="drop-shadow" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+    <feOffset dx="5" dy="5" result="offsetblur"/>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <use xlink:href="#basket" y="545" filter="url(#drop-shadow)"/>
+  <use xlink:href="#envelope" y="0" filter="url(#drop-shadow)" stroke="#3D2B1F" stroke-width="5"/>
+
+</svg>

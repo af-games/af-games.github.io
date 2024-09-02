@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main Melody: Lion's Mane -->
+  <path id="lionMane" d="M150,40 Q200,70 250,40 T350,40 Q300,70 350,40 T450,40 Q400,70 450,40 Z"
+    stroke="orange" fill="transparent" stroke-width="10"/>
+
+  <!-- Rhythm: Circles -->
+  <circle cx="50" cy="200" r="30" stroke="black" fill="none" stroke-width="5"/>
+  <circle cx="150" cy="200" r="30" stroke="black" fill="none" stroke-width="5"/>
+  <circle cx="250" cy="200" r="30" stroke="black" fill="none" stroke-width="5"/>
+
+  <!-- Beat: Rectangles -->
+  <rect x="40" y="480" width="70" height="10" stroke="black" fill="none" stroke-width="5"/>
+  <rect x="130" y="480" width="70" height="10" stroke="black" fill="none" stroke-width="5"/>
+
+  <!-- Harmony: Lion's Body -->
+  <path d="M50,200 Q100,250 150,200 L350,200 Q400,250 450,200" stroke="brown" fill="transparent" stroke-width="8"/>
+
+  <!-- Harmony: Instruments (paths for strings, horns, percussion) -->
+  <path d="M600,100 L700,300 Q650,250 600,400 Z" stroke="darkgreen" fill="transparent" stroke-width="8"/>
+  <path d="M600,450 L700,550 Q650,500 600,600 Z" stroke="darkgreen" fill="transparent" stroke-width="8"/>
+  <path d="M500,350 A150,150 0 1,0 700,350 A150,150 0 1,0 500,350" stroke="darkred" fill="transparent" stroke-width="8"/>
+
+</svg>

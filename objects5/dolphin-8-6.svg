@@ -1,0 +1,29 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ocean Base -->
+  <rect id="ocean" x="0" y="0" width="500" height="300">
+    <linearGradient id="gradient" gradientUnits="userSpaceOnUse" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:navy;stop-opacity:1"/>
+    </linearGradient>
+  </rect>
+
+  <!-- Dolphin -->
+  <path id="dolphin" d="M250,30 Q270,50 300,80 A50,60 0 0 1 450,80 Q430,50 250,30 Z"
+    fill="lightblue"/>
+
+  <!-- Coral Reefs -->
+  <rect x="350" y="200" width="150" height="100" rx="20" ry="20" fill="#FF7F50"/>
+  <circle cx="400" cy="250" r="50" fill="#FF69B4"/>
+  <rect x="380" y="180" width="50" height="100" rx="10" ry="10" fill="#FF4500"/>
+
+  <!-- Bubbles -->
+  <circle cx="270" cy="60" r="5" fill="white" opacity="0.7"/>
+  <circle cx="320" cy="80" r="3" fill="white" opacity="0.6"/>
+  <circle cx="350" cy="40" r="4" fill="white" opacity="0.8"/>
+
+  <!-- Fish -->
+  <polygon points="180,70 220,90 180,110" fill="#FFD700"/>
+  <polygon points="330,50 370,70 330,90" fill="#ADD8E6"/>
+
+</svg>

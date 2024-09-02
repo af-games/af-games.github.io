@@ -1,0 +1,46 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- First Jellyfish -->
+  <g id="jellyfish1">
+    <circle cx="150" cy="250" r="50" fill="#000"/>
+    <ellipse cx="160" cy="275" rx="30" ry="10" fill="#000"/>
+    <ellipse cx="140" cy="275" rx="30" ry="10" fill="#000"/>
+
+    <!-- Animate Tentacles -->
+    <animateTransform
+      attributeName="ry"
+      type="scale"
+      from="10"
+      to="5"
+      repeatCount="indefinite"
+      dur="1s"/>
+  </g>
+
+  <!-- Second Jellyfish -->
+  <g id="jellyfish2">
+    <circle cx="350" cy="250" r="60" fill="#000"/>
+    <ellipse cx="360" cy="275" rx="40" ry="10" fill="#000"/>
+    <ellipse cx="340" cy="275" rx="40" ry="10" fill="#000"/>
+
+    <!-- Animate Tentacles -->
+    <animateTransform
+      attributeName="ry"
+      type="scale"
+      from="10"
+      to="5"
+      repeatCount="indefinite"
+      dur="1s"/>
+  </g>
+
+  <!-- Animate Interaction -->
+  <animate
+    id="interaction"
+    attributeName="transform"
+    type="translate"
+    from="300,0"
+    to="-200,0"
+    repeatCount="1"
+    dur="5s"
+    begin="click"
+    fill="freeze"/>
+</svg>

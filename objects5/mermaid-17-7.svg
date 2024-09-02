@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mermaid torso -->
+  <path d="M100 50 Q150 25, 200 50 Q250 75, 300 50" fill="none" stroke="black"/>
+
+  <!-- Mermaid tail -->
+  <path d="M300 50 Q350 100, 400 50 Q450 0, 500 50" fill="none" stroke="black"/>
+
+  <!-- Mermaid hair/waves -->
+  <path d="M100 250 C150 200, 250 300, 350 250 Q450 200, 500 250" fill="none" stroke="black"/>
+
+  <!-- Tail scales -->
+  <pattern id="scales" patternUnits="userSpaceOnUse" width="10" height="5">
+    <rect x="0" y="0" width="10" height="5" fill="#ddd"/>
+  </pattern>
+  <rect x="300" y="50" width="200" height="50" fill="url(#scales)"/>
+
+  <!-- Shading -->
+  <path d="M100 75 Q150 50, 200 75 Q250 100, 300 75" stroke-width="2" stroke="#aaa"/>
+</svg>

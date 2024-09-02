@@ -1,0 +1,21 @@
+<svg width="1000" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Starting point -->
+  <circle cx="50" cy="50" r="40" stroke="black" fill="transparent"/>
+
+  <!-- Mountain range -->
+  <polygon points="200,100 150,200 250,200" fill="brown"/>
+  <polygon points="350,150 310,280 390,280" fill="brown"/>
+
+  <!-- Valley -->
+  <path d="M450,300 Q550,200 600,450 L700,300" stroke="black" fill="green"/>
+
+  <!-- Forest -->
+  <g stroke="black">
+    <circle cx="760" cy="360" r="15"/>
+    <circle cx="810" cy="375" r="15"/>
+    <circle cx="860" cy="390" r="15"/>
+  </g>
+
+  <!-- Hot air balloon -->
+  <ellipse cx="950" cy="400" rx="40" ry="60" stroke="black" fill="orange"/>
+</svg>

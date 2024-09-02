@@ -1,0 +1,10 @@
+<svg width="800" height="600">
+  <!-- Body -->
+  <path id="body" d="M350,100 Q450,75 550,100 Q450,125 350,100 Q250,75 50,100 Z"/>
+
+  <!-- Cape (left fin) -->
+  <path id="cape-left" d="M600,50 C700,200 800,50 900,200"/>
+
+  <!-- Cape (right fin) -->
+  <path id="cape-right" d="M100,50 C0,200 -100,50 -200,200"/>
+</svg>

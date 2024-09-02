@@ -1,0 +1,26 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<ellipse cx="100" cy="150" rx="60" ry="80" fill="#A9CBD3"/>
+
+<!-- Head -->
+<ellipse cx="100" cy="80" rx="40" ry="20" fill="#FFFFFF"/>
+<path d="M100 60 L120 60 L110 40 Z" fill="#FFD700"/>
+
+<!-- Wings -->
+<rect x="40" y="110" width="80" height="40" rx="20" fill="#A9CBD3"/>
+<rect x="120" y="110" width="80" height="40" rx="20" fill="#A9CBD3"/>
+
+<!-- Legs -->
+<line x1="90" y1="200" x2="90" y2="250" stroke="#000000"/>
+<line x1="130" y1="200" x2="130" y2="250" stroke="#000000"/>
+
+<!-- Feet -->
+<circle cx="85" cy="250" r="10" fill="#A9CBD3"/>
+<circle cx="145" cy="250" r="10" fill="#A9CBD3"/>
+
+<!-- Eyes -->
+<circle cx="90" cy="75" r="5" fill="#000000"/>
+<circle cx="120" cy="75" r="5" fill="#000000"/>
+
+</svg>

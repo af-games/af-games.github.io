@@ -1,0 +1,27 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Vase -->
+  <path d="M50,10 A40,40 0 0 1 190,10 Q190,60 140,120 Q50,60 50,10" fill="#F8D7DA" stroke="#C3BABB"/>
+
+  <!-- Water Gradient -->
+  <linearGradient id="waterGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" style="stop-color:rgb(59,134,181); stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(77,196,232); stop-opacity:1"/>
+  </linearGradient>
+  <path d="M0,250 Q50,240 190,250" fill="url(#waterGradient)"/>
+
+  <!-- Balloon Flowers -->
+
+  <!-- Pink Balloon -->
+  <circle cx="70" cy="180" r="30" fill="#FFD6E5"/>
+  <path d="M70,140 Q90,120 110,140" stroke="#C3BABB"/>
+
+  <!-- Yellow Balloon -->
+  <circle cx="130" cy="180" r="30" fill="#FFF399"/>
+  <path d="M130,140 Q150,120 170,140" stroke="#C3BABB"/>
+
+  <!-- Green Leaf -->
+  <path d="M60,160 Q80,140 90,160" fill="#3D9970" stroke="#C3BABB"/>
+  <path d="M120,160 Q140,140 150,160" fill="#3D9970" stroke="#C3BABB"/>
+
+</svg>

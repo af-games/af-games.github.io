@@ -1,0 +1,23 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,215,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(183,147,0);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <path d="M100 20 Q150 30, 180 60 A60,60 0 0 1 100 90 A60,60 0 0 1 20 60 Z"
+        fill="url(#goldGrad)"/>
+
+  <!-- Left Wing -->
+  <path d="M70 30 Q50 10, 30 40 L70 50 Z" fill="url(#goldGrad)"/>
+
+  <!-- Right Wing -->
+  <path d="M130 30 Q150 10, 160 40 L130 50 Z" fill="url(#goldGrad)"/>
+
+  <!-- Antennae -->
+  <circle cx="80" cy="20" r="3" fill="black"/>
+  <circle cx="120" cy="20" r="3" fill="black"/>
+
+</svg>

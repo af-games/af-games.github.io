@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600">
+  <!-- Body -->
+  <circle cx="150" cy="300" r="75" fill="#FDD89A"/>
+  <!-- Head -->
+  <circle cx="160" cy="240" r="40" fill="#FFCBA8"/>
+  <!-- Neck -->
+  <ellipse cx="150" cy="270" rx="30" ry="45" fill="none" stroke="#FDD89A"/>
+  <!-- Legs -->
+  <g stroke="#FDD89A">
+    <!-- Left legs -->
+    <ellipse cx="90" cy="315" rx="15" ry="75"/>
+    <ellipse cx="90" cy="425" rx="15" ry="75"/>
+    <!-- Right legs -->
+    <ellipse cx="210" cy="315" rx="15" ry="75"/>
+    <ellipse cx="210" cy="425" rx="15" ry="75"/>
+  </g>
+  <!-- Spots -->
+  <g fill="#8B4513">
+    <!-- Random spots on the body (you can add more as desired) -->
+    <polygon points="160,290 180,270 180,310"/>
+    <polygon points="140,330 160,350 180,330"/>
+    <!-- Add more spots as needed -->
+  </g>
+</svg>

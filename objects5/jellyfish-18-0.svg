@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+
+  <!-- Body (Bell) -->
+  <circle cx="150" cy="150" r="50" fill="#00FFFF"/>
+
+  <!-- Tentacles -->
+  <g stroke="#00FFFF" stroke-width="8">
+    <line x1="150" y1="75" x2="165" y2="0"/>
+    <line x1="150" y1="75" x2="135" y2="0"/>
+    <!-- Repeat for other tentacles -->
+  </g>
+
+  <!-- Oral Arms -->
+  <g stroke="#000">
+    <path d="M150,125 Q140,135 150,145"/>
+    <path d="M150,125 Q160,135 150,145"/>
+    <!-- Repeat for other oral arms -->
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="140" cy="90" r="5" fill="#000"/>
+  <circle cx="160" cy="90" r="5" fill="#000"/>
+
+</svg>

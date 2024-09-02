@@ -1,0 +1,18 @@
+<svg viewBox="0 0 1000 750" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="400" y="250" width="200" height="300" fill="brown"/>
+
+  <!-- Head -->
+  <ellipse cx="450" cy="75" rx="60" ry="100" fill="tan"/>
+
+  <!-- Neck -->
+  <path d="M75,250 Q400,400 450,75" stroke="black" fill="transparent"/>
+
+  <!-- Legs & Hooves -->
+  <circle cx="-50" cy="400" r="20" fill="tan"/>
+  <line x1="-50" y1="400" x2="400" y2="275" stroke="black"/>
+
+  <!-- Repeat for other three legs -->
+
+</svg>

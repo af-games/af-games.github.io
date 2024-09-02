@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Outer dome -->
+  <path id="outerDome" fill="#FFFFFF" opacity="0.8"
+        d="M250,10 A240,240 0 1 1 250,490 A240,240 0 1 1 250,10"/>
+  <path id="outerDomeShadow" fill="#AAA6A6" opacity="0.3"
+        d="M250,10 A240,240 0 1 1 250,490 A240,240 0 1 1 250,10"/>
+
+  <!-- Inner dome -->
+  <path id="innerDome" fill="#F8F8FF" opacity="0.6"
+        d="M230,30 A210,210 0 1 1 270,470 A210,210 0 1 1 230,30"/>
+
+  <!-- Door -->
+  <rect id="door" width="60" height="80" x="235" y="410"
+        style="fill:#BDBDBD; stroke-width:2; stroke:#000000; opacity:1"/>
+  <path id="doorHandle" fill="#000000"
+        d="M265,420 a10,10 0 1 0 -20,0 a10,10 0 1 0 20,0"/>
+
+</svg>

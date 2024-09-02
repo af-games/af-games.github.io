@@ -1,0 +1,25 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#ADD8E6"/>
+
+  <!-- Body (shark) -->
+  <path d="M100 150 Q150 75, 200 150 Q250 225, 300 150 Q350 75, 400 150"
+        fill="#8B7D6B" stroke="black"/>
+
+  <!-- Fin (left) -->
+  <polygon points="50,75,100,25,50,25" fill="#8B7D6B"/>
+
+  <!-- Fin (right) -->
+  <polygon points="450,75,400,25,450,25" fill="#8B7D6B"/>
+
+  <!-- Tail -->
+  <path d="M390 150 Q410 125, 430 150" fill="#8B7D6B" stroke="black"/>
+
+  <!-- Dorsal fin -->
+  <rect x="225" y="75" width="35" height="25" fill="#8B7D6B"/>
+
+  <!-- Saddle mark (black spot) -->
+  <circle cx="300" cy="125" r="25" fill="black"/>
+
+</svg>

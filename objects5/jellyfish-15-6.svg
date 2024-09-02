@@ -1,0 +1,28 @@
+<svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 120">
+
+  <!-- Bodice -->
+  <rect x="10" y="20" width="20" height="35" style="fill:url(#grad1); stroke:#000; stroke-width:2"/>
+
+  <!-- Sleeves -->
+  <circle cx="8" cy="47" r="8" style="fill:url(#grad1); stroke:#000; stroke-width:2"/>
+  <circle cx="65" cy="47" r="8" style="fill:url(#grad1); stroke:#000; stroke-width:2"/>
+
+  <!-- Tentacles -->
+  <path d="M30,90 Q35,80 40,90 T45,100 Z" fill="url(#grad2)" stroke="#000"/>
+  <path d="M60,90 Q55,80 50,90 T45,105 Z" fill="url(#grad2)" stroke="#000"/>
+  <!-- Add more tentacle paths as needed -->
+
+  <!-- Gradients -->
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#87CEEB"/>
+    <stop offset="100%" style="stop-color:#3D0C4B"/>
+  </linearGradient>
+
+  <radialGradient id="grad2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" style="stop-color:white; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#3D0C4B; stop-opacity:.7">
+      <animate attributeName="stop-color" values="#E6E6FA; #3D0C4B" dur="2s" repeatCount="indefinite"/>
+    </stop>
+  </radialGradient>
+
+</svg>

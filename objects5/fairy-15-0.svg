@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 180 200 420">
+
+  <!-- Mushroom -->
+  <ellipse cx="50" cy="150" rx="40" ry="60" fill="#ffd700"/>
+  <circle cx="50" cy="230" r="15" fill="brown"/>
+  <line x1="50" y1="245" x2="50" y2="290" stroke="brown"/>
+
+  <!-- Fairy -->
+  <g id="fairy">
+    <!-- Body -->
+    <circle cx="80" cy="230" r="20" fill="#fff" stroke="#ddd"/>
+    <rect x="70" y="210" width="20" height="40" rx="5" fill="#fff" stroke="#ddd"/>
+
+    <!-- Dress -->
+    <path d="M80,250 Q90,260 100,250 V300 H70 Z" fill="green"/>
+    <defs>
+      <linearGradient id="grad" x1="80%" y1="0%" x2="20%" y2="100%">
+        <stop offset="0%" style="stop-color:lightgreen; stop-opacity:1"/>
+        <stop offset="100%" style="stop-color:darkgreen; stop-opacity:1"/>
+      </linearGradient>
+    </defs>
+
+    <!-- Hair -->
+    <path d="M80,200 Q70,190 80,180 Q90,190 100,200 Z" fill="#333" stroke-width="1" stroke="#666"/>
+
+    <!-- Wings -->
+    <polygon points="80,150 120,150 100,170" fill="#fff" stroke="#ddd"/>
+    <polygon points="85,145 115,145 97.5,162.5" fill="#fff" opacity="0.7"/>
+
+    <!-- Wand -->
+    <rect x="75" y="180" width="10" height="40" rx="5" fill="#ccc"/>
+    <circle cx="70" cy="160" r="10" fill="#ffcc00"/>
+
+  </g>
+
+</svg>

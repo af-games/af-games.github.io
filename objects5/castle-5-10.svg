@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Castle Gate -->
+  <polygon id="castle-gate" points="100,50 400,50 400,200" fill="brown"/>
+  <text x="250" y="70" font-size="36">Castle Gate</text>
+
+  <!-- Draw a path to the courtyard -->
+  <path d="M400,200 H600 V400 Q650,450 700,400 T750,450" stroke="black" fill="transparent"/>
+
+  <!-- Courtyard -->
+  <rect id="courtyard" x="600" y="200" width="300" height="300" fill="lightgrey"/>
+  <text x="750" y="400" font-size="36">Courtyard</text>
+
+  <!-- Apply a feGaussianBlur filter for a dreamy effect -->
+  <defs>
+    <filter id="blur-me">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+
+  <!-- Courtyard with filter applied -->
+  <rect x="600" y="200" width="300" height="300" fill="lightgrey" filter="url(#blur-me)"/>
+
+  <!-- Draw a path to the keep -->
+  <path d="M750,450 Q850,550 900,500 T950,550" stroke="black" fill="transparent"/>
+
+  <!-- Keep -->
+  <circle id="keep" cx="925" cy="525" r="75" fill="grey"/>
+  <text x="880" y="600" font-size="36">Keep</text>
+
+  <!-- Apply a feSpecularLighting filter for a shiny effect -->
+  <filter id="shiny">
+    <feSpecularLighting in="SourceGraphic" surfaceScale="5" specularConstant=".75"
+      specularExponent="20" lighting-color="#bbbbbb" result="specOut">
+      <fePointLight x="-5000" y="-10000" z="20000"/>
+    </feSpecularLighting>
+  </filter>
+
+  <!-- Keep with filter applied -->
+  <circle cx="925" cy="525" r="75" fill="grey" filter="url(#shiny)"/>
+
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <defs>
+    <linearGradient id="forestGradient" gradientTransform="rotate(45)">
+      <stop offset="0%"   stop-color="#8BBA8B"/>
+      <stop offset="100%" stop-color="#3D9970"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Story moments -->
+  <g id="moment-1">
+    <!-- ... moment 1 elements ... -->
+  </g>
+  <use xlink:href="#moment-1" transform="translate(0, 200)"/>
+
+  <g id="moment-2">
+    <!-- ... moment 2 elements ... -->
+  </g>
+  <use xlink:href="#moment-2" transform="translate(0, 400)"/>
+
+  <g id="moment-3">
+    <!-- ... moment 3 elements ... -->
+  </g>
+  <use xlink:href="#moment-3" transform="translate(0, 600)"/>
+
+  <!-- Dialogue bubbles -->
+  <text x="25%" y="85%" font-size="1.5em">Mommy: Oh no, where's Junior?</text>
+  <text x="70%" y="95%" font-size="1.5em">Junior: Oops...</text>
+
+</svg>

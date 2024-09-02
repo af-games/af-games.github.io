@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+<!-- Stage -->
+<rect x="-50" y="-50" width="100" height="100" fill="#592F00"/>
+
+<!-- Filter for lighting effect -->
+<defs>
+    <filter id="glow">
+        <feGaussianBlur stdDeviation="2.5"/>
+        <feMerge>
+            <feMergeNode in="SourceGraphic"/>
+            <feMergeNode in="BackgroundImage"/>
+        </feMerge>
+    </filter>
+</defs>
+
+<!-- Marionette Strings (dashed lines) -->
+<path d="M0,-40 L0,40" stroke="#FFFFFF" stroke-dasharray="5,2" filter="url(#glow)"/>
+<!-- Add more string paths as needed -->
+
+<!-- Owl Marionette -->
+<g id="owl">
+    <!-- Head -->
+    <path id="h" d="M-10,-30 A40 40 0 0 0 10,-30 A40 40 0 0 1 -10,30 z"
+          fill="#FFE69D" stroke="#5F4B2A"/>
+
+    <!-- Body -->
+    <polygon id="b" points="-15,-15 15,-15 15,-30 -15,-30" fill="#7C5819"
+             stroke="#5F4B2A"/>
+
+    <!-- Wings (simplified) -->
+    <path id="lW" d="M-20,-15 Q-30,-30 -20,-45 L-10,-30 Z" fill="#7C5819"/>
+    <path id="rW" d="M20,-15 Q30,-30 20,-45 L10,-30 Z" fill="#7C5819"/>
+
+    <!-- Legs -->
+    <polygon id="lL" points="-10,-45 -20,-60 -10,-75" fill="#7C5819"/>
+    <polygon id="rL" points="10,-45 20,-60 10,-75" fill="#7C5819"/>
+
+</g>
+
+<!-- Attachment Points (for clarity, use small circles) -->
+<circle cx="hC" cy="-30" r="2" fill="#FFFFFF"/>
+<circle cx="hCh" cy="-10" r="2" fill="#FFFFFF"/>
+<!-- Add more attachment points as needed -->
+
+</svg>

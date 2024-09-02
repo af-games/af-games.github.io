@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Scene 1: Igloo at Home -->
+  <rect id="igloo" x="200" y="250" width="200" height="300" fill="white"/>
+  <circle id="sun" cx="400" cy="100" r="50" fill="yellow"/>
+  <text x="250" y="500" font-size="24">Igloo lives happily under the sun.</text>
+
+  <!-- Scene 2: The Invitation -->
+  <path id="letter" d="M700 350 Q650 400, 600 450 H650 V350 H700 Z" fill="red"/>
+  <circle id="fox" cx="720" cy="375" r="25" fill="orange" stroke="black" stroke-width="5"/>
+  <text x="250" y="550" font-size="24">One day, a letter arrives...</text>
+
+  <!-- Scene 3: The Journey Begins -->
+  <path id="iglooPath" d="M200 550 Q300 600, 400 650 Q500 700, 600 750" stroke="white" fill="transparent"/>
+  <circle cx="375" cy="400" r="10" fill="white"/>
+  <text x="250" y="620" font-size="24">Igloo sets off on an adventure!</text>
+
+  <!-- Scene 4: Encounter with Snow Cloud -->
+  <circle id="cloud" cx="550" cy="300" r="100" fill="lightblue"/>
+  <path d="M375 400 Q450 400, 525 350" stroke="white" fill="transparent"/>
+  <text x="250" y="680" font-size="24">Igloo meets Snow Cloud...</text>
+
+  <!-- Scene 5: The Biggest Snowball Fight Ever -->
+  <circle cx="700" cy="450" r="150" fill="white"/>
+  <circle cx="750" cy="350" r="80" fill="white"/>
+  <circle cx="650" cy="550" r="50" fill="white"/>
+  <path id="snowballPath1" d="M650 450 Q725 525, 700 550 Q675 575, 650 600" stroke="white" fill="transparent"/>
+  <path id="snowballPath2" d="M750 350 Q725 425, 700 450 Q725 475, 750 500" stroke="white" fill="transparent"/>
+  <text x="250" y="750" font-size="24">...and joins the biggest snowball fight ever!</text>
+
+  <!-- Scene 6: Return Home -->
+  <path id="iglooPathBack" d="M600 750 Q500 700, 400 650 Q300 600, 200 550" stroke="white" fill="transparent"/>
+  <circle cx="180" cy="530" r="30" fill="blue"/>
+  <path id="sunSet" d="M400 150 Q375 125, 350 100" stroke="yellow" fill="transparent" opacity="0.5"/>
+  <circle cx="600" cy="50" r="5" fill="white" opacity="0.8"/>
+  <text x="250" y="820" font-size="24">Igloo returns home with a big trophy...</text>
+
+</svg>

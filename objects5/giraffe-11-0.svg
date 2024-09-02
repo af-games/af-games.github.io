@@ -1,0 +1,32 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="200" cy="400" rx="180" ry="360"
+    stroke="#331e0d" stroke-width="5" fill="#f9d7b3"/>
+
+  <!-- Neck -->
+  <polygon points="200,50 170,140 230,150 200,50"
+    stroke="#331e0d" stroke-width="5" fill="#f9d7b3"/>
+
+  <!-- Head -->
+  <ellipse cx="280" cy="160" rx="90" ry="90"
+    stroke="#331e0d" stroke-width="5" fill="#f9d7b3"/>
+
+  <!-- Legs -->
+  <rect x="150" y="450" width="80" height="250"/>
+  <rect x="230" y="450" width="80" height="250"/>
+  <rect x="70" y="600" width="80" height="150"/>
+  <rect x="310" y="600" width="80" height="150"
+    stroke="#331e0d" stroke-width="5" fill="none"/>
+
+  <!-- Tail -->
+  <polygon points="170,390 120,480 170,530"
+    stroke="#331e0d" stroke-width="5" fill="#f9d7b3"/>
+
+  <!-- Horns -->
+  <polygon points="265,120 275,110 270,125"
+    stroke="#331e0d" stroke-width="5" fill="#f9d7b3"/>
+  <polygon points="285,120 295,110 290,125"
+    stroke="#331e0d" stroke-width="5" fill="#f9d7b3"/>
+
+</svg>

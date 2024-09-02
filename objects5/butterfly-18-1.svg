@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
+  <!-- Body -->
+  <path d="M10,30 Q15,40 25,30 Q35,40 40,30 Q35,20 25,30 Q15,20 10,30" fill="#FFA500"/>
+
+  <!-- Wings -->
+  <path d="M5,5 L95,5 L45,60 L5,60 Z" fill="#FFC300"/>
+
+  <!-- Antennae -->
+  <line x1="25" y1="20" x2="30" y2="15" stroke="#000"/>
+  <line x1="25" y1="20" x2="30" y2="25" stroke="#000"/>
+
+</svg>

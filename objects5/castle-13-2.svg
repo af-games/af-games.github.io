@@ -1,0 +1,32 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#DDD"/>
+
+  <!-- Castle Walls (left and right) -->
+  <polygon points="10,280 90,350 190,280"
+            style="fill: #666; stroke: black; stroke-width: 2" />
+  <polygon points="410,280 310,350 210,280"
+            style="fill: #666; stroke: black; stroke-width: 2" />
+
+  <!-- Castle Walls (front) -->
+  <rect x="90" y="280" width="170" height="140" fill="#666"/>
+  <line x1="365" y1="280" x2="475" y2="420" stroke="black" stroke-width="2"/>
+
+  <!-- Castle Towers -->
+  <polygon points="50,200 150,120 250,200"
+            style="fill: #999; stroke: black; stroke-width: 2"/>
+  <polygon points="430,200 330,120 230,200"
+            style="fill: #999; stroke: black; stroke-width: 2"/>
+
+  <!-- Castle Gate -->
+  <rect x="75" y="350" width="140" height="60" fill="#666"/>
+  <line x1="115" y1="350" x2="115" y2="410" stroke="black" stroke-width="2"/>
+
+  <!-- Roofs -->
+  <polygon points="50,120 150,60 250,120"
+            style="fill: #CCC; stroke: black; stroke-width: 2"/>
+  <polygon points="430,120 330,60 230,120"
+            style="fill: #CCC; stroke: black; stroke-width: 2"/>
+
+</svg>

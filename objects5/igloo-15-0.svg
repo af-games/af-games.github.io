@@ -1,0 +1,14 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+  <!-- Igloo Base -->
+  <ellipse cx="150" cy="200" rx="150" ry="75" fill="#A0E6FF"/>
+
+  <!-- Igloo Dome -->
+  <path d="M75,150 Q375,150 262.5,90 Q75,150 150,250 Z" fill="#FFFFFF"/>
+
+  <!-- Igloo Entrance -->
+  <rect x="187.5" y="250" width="65" height="50" fill="#A0E6FF"/>
+
+  <!-- Igloo Details (Circles and Polygons) -->
+  <!-- Add more circles and polygons as needed for details -->
+
+</svg>

@@ -1,0 +1,33 @@
+<svg width="400px" height="300px" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="300" fill="#f8f9fa"/>
+
+  <!-- Measure 1: Introduction -->
+  <circle cx="150" cy="200" r="50" fill="url(#gradient1)">
+    <animate attributeName="cy" from="200" to="100" dur="4s"/>
+  </circle>
+
+  <!-- Measure 2: Growth -->
+  <circle cx="250" cy="200" r="30" fill="url(#gradient1)">
+    <animate attributeName="r" from="30" to="80" begin="1s" dur="3s"/>
+  </circle>
+
+  <!-- Measure 3: Climax -->
+  <rect x="50" y="250" width="300" height="50" fill="#f1c40f">
+    <animate attributeName="height" from="50" to="0" begin="6s" dur="1s"/>
+  </rect>
+
+  <!-- Measure 4: Resolution -->
+  <circle cx="350" cy="200" r="60" fill="#87ceeb">
+    <animate attributeName="cy" from="200" to="100" begin="7s" dur="4s"/>
+    <animate attributeName="r" from="60" to="0" begin="9s" dur="1s"/>
+  </circle>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6f61; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#fff; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+</svg>

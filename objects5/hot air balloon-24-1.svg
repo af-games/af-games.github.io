@@ -1,0 +1,27 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon envelope -->
+  <ellipse cx="100" cy="50" rx="80" ry="40"
+           fill="#ffd700"/>
+  <path d="M60,50 Q90,10 140,50 Q90,20 60,50"
+        stroke="black" fill="transparent"/>
+
+  <!-- Basket -->
+  <rect x="85" y="180" width="30" height="20"
+        fill="#7d5a3f"/>
+  <path d="M90,200 Q95,190 100,200 Q105,190 110,200"
+        stroke="black" fill="transparent"/>
+
+  <!-- Burner -->
+  <circle cx="100" cy="80" r="20"
+          fill="#ff4500"/>
+  <path d="M100,60 L90,75 L110,75 Z"
+        stroke="black" fill="transparent"/>
+
+  <!-- Rigging -->
+  <line x1="85" y1="200" x2="100" y2="50"
+        stroke="black"/>
+  <line x1="115" y1="200" x2="100" y2="50"
+        stroke="black"/>
+
+</svg>

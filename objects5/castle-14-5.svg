@@ -1,0 +1,29 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Castle -->
+<rect x="150" y="100" width="150" height="250" style="fill: grey;" />
+<polygon points="175,50 225,50 250,100 225,150" style="fill: grey;" />
+<circle cx="200" cy="200" r="30" style="fill: grey;" />
+
+<!-- Moat -->
+<rect x="75" y="100" width="400" height="300" style="fill: lightblue;" />
+
+<!-- Forest -->
+<rect x="280" y="50" width="250" height="200" style="fill: green;" />
+<path d="M350,100 Q400,75 450,100 T500,150 Z" stroke="brown" fill="transparent" />
+
+<!-- River -->
+<rect x="50" y="250" width="600" height="350" style="fill: lightblue;" />
+<path d="M50,300 Q100,350 150,300 T400,350 Z" stroke="brown" fill="transparent" />
+
+<!-- Village -->
+<rect x="200" y="400" width="150" height="150" style="fill: lightgrey;" />
+
+<!-- Bridge -->
+<path d="M175,300 Q200,350 225,300 Z" stroke="brown" fill="transparent" />
+
+<!-- Road -->
+<line x1="175" y1="400" x2="175" y2="300" stroke="brown" />
+<path d="M175,300 Q200,275 225,300 Z" stroke="brown" fill="transparent" />
+
+</svg>

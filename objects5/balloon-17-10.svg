@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450">
+
+  <!-- Water -->
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(153,217,234);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="150" fill="url(#waterGradient)" y="300"/>
+
+  <!-- Vase -->
+  <path d="M200 300 Q180 250, 220 250 Q260 250, 240 300" stroke="brown" fill="none" stroke-width="2"/>
+  <circle cx="200" cy="350" r="100" stroke="brown" fill="none" stroke-width="2"/>
+
+  <!-- Balloons -->
+  <!-- Pink Heart -->
+  <path d="M160 280 Q170 290, 180 300 Q170 310, 160 320 Q150 310, 140 300 Q150 290, 160 280" fill="pink"/>
+  <circle cx="160" cy="340" r="10"/>
+
+  <!-- Blue Circle -->
+  <circle cx="240" cy="290" r="40" fill="blue"/>
+  <circle cx="240" cy="250" r="20" fill="lightblue"/>
+
+  <!-- Yellow Star -->
+  <polygon points="210,300 230,300 220,320 240,300 220,280" fill="yellow"/>
+  <circle cx="220" cy="300" r="5"/>
+
+  <!-- Leaves -->
+  <!-- Pink Heart Leaf -->
+  <path d="M165 270 Q175 280, 185 290 Q175 300, 165 310" stroke="green" fill="none" stroke-width="2"/>
+  <!-- Blue Circle Leaf -->
+  <path d="M245 280 Q255 290, 265 300 Q255 310, 245 320" stroke="green" fill="none" stroke-width="2"/>
+  <!-- Yellow Star Leaf -->
+  <path d="M215 290 Q225 300, 235 310 Q225 320, 215 330" stroke="green" fill="none" stroke-width="2"/>
+
+</svg>

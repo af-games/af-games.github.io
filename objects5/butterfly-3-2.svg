@@ -1,0 +1,16 @@
+<svg viewBox="0 0 150 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Butterfly Body -->
+  <ellipse cx="75" cy="100" rx="50" ry="60" fill="orange" stroke="black"/>
+
+  <!-- Left Wing -->
+  <path d="M75,100 Q20,180 75,160" fill="transparent" stroke="black"/>
+
+  <!-- Right Wing -->
+  <path d="M75,100 Q130,180 75,160" fill="transparent" stroke="black"/>
+
+  <!-- Antenna Left -->
+  <line x1="75" y1="80" x2="60" y2="60" stroke="black"/>
+
+  <!-- Antenna Right -->
+  <line x1="75" y1="80" x2="90" y2="60" stroke="black"/>
+</svg>

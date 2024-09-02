@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 -5 100 100">
+
+  <!-- Main melody: Lion's roar -->
+  <rect id="roar" x="5" y="60" width="90" height="5" fill="#ffcc00"/>
+  <path id="roar-harmony" d="M25,67 Q45,80 65,67 T85,87"/>
+
+  <!-- Harmony: Lion's mane -->
+  <circle id="mane" cx="50" cy="35" r="35" fill="#ffcc00"/>
+  <path id="mane-harmony1" d="M42.5,35 A17.5,17.5 0 1 0 60,50 A17.5,17.5 0 1 0 42.5,35"/>
+  <path id="mane-harmony2" d="M57.5,35 A17.5,17.5 0 1 0 40,50 A17.5,17.5 0 1 0 57.5,35"/>
+
+  <!-- Harmony: Lion's tail -->
+  <rect id="tail" x="65" y="80" width="20" height="5" fill="#ffcc00"/>
+  <path id="tail-harmony" d="M90,87 Q100,97 110,87"/>
+
+  <!-- Rhythm: Lion's footsteps -->
+  <circle id="footstep1" cx="25" cy="95" r="3" fill="#ffcc00"/>
+  <circle id="footstep2" cx="45" cy="95" r="3" fill="#ffcc00"/>
+
+</svg>

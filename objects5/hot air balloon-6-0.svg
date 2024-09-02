@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80">
+
+  <!-- Basket -->
+  <rect x="5" y="10" width="40" height="20" rx="5" fill="#8B4513"/>
+
+  <!-- Balloon -->
+  <ellipse cx="30" cy="40" rx="60" ry="80" fill="#FFFF00"/>
+  <rect x="27.5" y="32" width="5" height="8" rx="2.5" fill="#A9A9A9"/>
+
+  <!-- Rope connecting basket to balloon -->
+  <line x1="20" y1="30" x2="30" y2="40" stroke="#C0C0C0" stroke-width="3"/>
+  <line x1="50" y1="30" x2="30" y2="40" stroke="#C0C0C0" stroke-width="3"/>
+
+</svg>

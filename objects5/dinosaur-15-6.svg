@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Preheat your oven (set up canvas) -->
+  <rect width="500" height="500" fill="white"/>
+
+  <!-- Mix ingredients together -->
+
+  <!-- Body -->
+  <rect id="rect-body" x="120" y="200" width="300" height="180" rx="40" fill="#777"/>
+  <path id="path-spikes" d="M150,200 Q160,190 170,200 T290,200 Q300,190 310,200 Z" fill="#777"/>
+
+  <!-- Limbs -->
+  <g id="rect-limbs">
+    <rect x="80" y="350" width="40" height="150"/>
+    <rect x="260" y="350" width="40" height="150"/>
+  </g>
+
+  <!-- Head -->
+  <circle id="circle-head" cx="200" cy="170" r="70" fill="#777"/>
+
+  <!-- Tail -->
+  <path id="path-tail" d="M380,270 Q400,290 420,270"/>
+
+  <!-- Arms -->
+  <g id="path-arms">
+    <path d="M150,250 Q100,300 50,250"/>
+    <path d="M350,250 Q400,300 450,250"/>
+  </g>
+
+  <!-- Legs -->
+  <g id="path-legs">
+    <path d="M80,390 Q100,450 120,390"/>
+    <path d="M420,390 Q400,450 380,390"/>
+  </g>
+
+  <!-- Add decorations -->
+  <circle cx="200" cy="170" r="10" fill="#fff"/>
+  <text id="text-dino-name" x="220" y="160" text-anchor="middle" font-family="Verdana, sans-serif" font-size="35">T-Rex</text>
+
+  <!-- Bake according to the recipe's instructions -->
+</svg>

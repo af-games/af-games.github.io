@@ -1,0 +1,46 @@
+<svg width="800" height="600" style="background-color: #f0f0f0;">
+```
+
+2. **Plant the seeds (Initial shapes)**
+
+- Ground:
+```svg
+  <rect id="ground" x="50" y="400" width="700" height="100" fill="#8b4513"/>
+```
+- T-Rex body:
+```svg
+  <ellipse cx="250" cy="350" rx="150" ry="200" fill="#8B7D6B"/>
+```
+- T-Rex head (initial position):
+```svg
+  <circle cx="240" cy="300" r="50" fill="#8B7D6B"/>
+```
+
+3. **Water and nurture the seeds (Transformations)**
+
+- Ground:
+```svg
+  <path d="M50,500 Q150,550 250,500 Q350,550 450,500 Q550,550 650,500" stroke="#8b4513" fill="transparent"/>
+```
+- T-Rex body (scale):
+```svg
+  <ellipse cx="250" cy="350" rx="150" ry="200" fill="#8B7D6B" transform="scale(1.2)"/>
+```
+- T-Rex head (translate and rotate):
+```svg
+  <circle cx="240" cy="300" r="50" fill="#8B7D6B" transform="rotate(20 240 300) translate(-10,-20)"/>
+```
+
+4. **Prune (Remove unnecessary elements/attributes)**
+
+- Since we've used `id` for the ground and transformed elements directly, there's no need to remove any attributes/elements.
+
+5. **Write out the SVG code**
+
+```svg
+<svg width="800" height="600" style="background-color: #f0f0f0;">
+  <rect id="ground" x="50" y="400" width="700" height="100" fill="#8b4513"/>
+  <path d="M50,500 Q150,550 250,500 Q350,550 450,500 Q550,550 650,500" stroke="#8b4513" fill="transparent"/>
+  <ellipse cx="250" cy="350" rx="150" ry="200" fill="#8B7D6B" transform="scale(1.2)"/>
+  <circle cx="240" cy="300" r="50" fill="#8B7D6B" transform="rotate(20 240 300) translate(-10,-20)"/>
+</svg>

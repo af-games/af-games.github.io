@@ -1,0 +1,22 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ground -->
+  <rect x="0" y="300" width="800" height="300" fill="#579b4d"/>
+
+  <!-- Giraffe Tower -->
+  <circle cx="400" cy="150" r="200" stroke="black" fill="tan"/>
+  <path d="M400 150 Q600 300, 650 75" stroke="black" fill="transparent"/>
+
+  <!-- Head -->
+  <circle cx="650" cy="75" r="75" stroke="black" fill="tan"/>
+
+  <!-- Legs -->
+  <rect x="200" y="400" width="100" height="200" fill="tan"/>
+  <rect x="600" y="400" width="100" height="200" fill="tan"/>
+  <rect x="200" y="75" width="100" height="300" fill="tan"/>
+  <rect x="600" y="75" width="100" height="300" fill="tan"/>
+
+  <!-- Spot Patterns -->
+  <!-- Add spot circles here using random coordinates and a loop for multiple spots -->
+
+</svg>

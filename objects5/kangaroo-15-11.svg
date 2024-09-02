@@ -1,0 +1,20 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .kangaroo { fill: #F1C40F; stroke: #8B4513; }
+    .background { fill: #3D2B1F; }
+  </style>
+
+  <!-- Background -->
+  <rect class="background" width="500" height="500"/>
+
+  <!-- Kangaroo Body -->
+  <path class="kangaroo"
+        d="M50,250 Q75,300 150,280 Q225,360 300,340 Q475,290 500,250"/>
+
+  <!-- Tail -->
+  <path class="kangaroo"
+        d="M450,250 Q400,310 350,280 Q300,360 275,340 Q225,290 200,250"/>
+
+  <!-- Head -->
+  <circle class="kangaroo" cx="100" cy="220" r="40"/>
+</svg>

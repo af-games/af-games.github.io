@@ -1,0 +1,40 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dinosaur Silhouette -->
+  <path id="dinosaur-outline"
+        d="M10,60 C40,80 90,70 150,110 A100,100 0 0 0 250,60 Q350,80 400,120 V280 H450 Q500,250 550,220 Z"
+        fill="none" stroke="#000" stroke-width="2"/>
+
+  <!-- Body -->
+  <rect id="dinosaur-body-fill" x="90" y="60" width="310" height="150" rx="40" ry="40"
+        fill="url(#body-gradient)"/>
+
+  <!-- Tail -->
+  <polygon id="dinosaur-tail" points="280,210 320,270 360,210" fill="url(#tail-pattern)"/>
+
+  <!-- Legs -->
+  <rect id="dinosaur-leg-left" x="95" y="260" width="40" height="80" rx="20"
+        fill="#666"/>
+  <rect id="dinosaur-leg-right" x="375" y="260" width="40" height="80" rx="20"
+        fill="#666"/>
+
+  <!-- Head -->
+  <ellipse id="dinosaur-head-fill" cx="190" cy="90" rx="60" ry="40"
+           fill="url(#head-gradient)"/>
+  <circle id="dinosaur-eye-left" cx="150" cy="80" r="20" fill="#fff"/>
+  <circle id="dinosaur-eye-right" cx="230" cy="80" r="20" fill="#fff"/>
+
+  <!-- Gradients and Patterns -->
+  <defs>
+    <linearGradient id="body-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(153,153,153);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(96,96,96);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="head-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(153,153,153);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(96,96,96);stop-opacity:1"/>
+    </linearGradient>
+    <pattern id="tail-pattern" patternUnits="userSpaceOnUse" width="40" height="80">
+      <image href="https://example.com/tail-texture.png" x="0" y="0" width="40" height="80"/>
+    </pattern>
+  </defs>
+</svg>

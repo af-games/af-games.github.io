@@ -1,0 +1,27 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#fff"/>
+
+  <!-- Giraffe Body -->
+  <path id="giraffeBody" d="M100 100 Q175 50, 250 100 Q325 150, 400 100" stroke="none" fill="#000"/>
+
+  <!-- Giraffe Neck -->
+  <path id="giraffeNeck" d="M250 75 Q225 25, 200 75" stroke="none" fill="#000"/>
+
+  <!-- Giraffe Head -->
+  <circle id="giraffeHead" cx="175" cy="25" r="25" stroke="none" fill="#000"/>
+
+  <!-- Giraffe Legs -->
+  <g transform="translate(230, 200)">
+    <rect x="-25" y="-75" width="50" height="150" rx="25" stroke="none" fill="#000"/>
+    <rect x="25" y="-75" width="50" height="150" rx="25" stroke="none" fill="#000"/>
+    <rect x="65" y="-75" width="50" height="150" rx="25" stroke="none" fill="#000"/>
+    <rect x="105" y="-75" width="50" height="150" rx="25" stroke="none" fill="#000"/>
+  </g>
+
+  <!-- Giraffe Spots -->
+  <circle cx="300" cy="150" r="10" stroke="none" fill="#fff"/>
+  <circle cx="350" cy="175" r="10" stroke="none" fill="#fff"/>
+  <circle cx="280" cy="200" r="10" stroke="none" fill="#fff"/>
+
+</svg>

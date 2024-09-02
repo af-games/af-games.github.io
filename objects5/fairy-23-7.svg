@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <defs>
+    <g id="fairy">
+      <circle cx="50" cy="50" r="50" fill="#FFF"/>
+      <polygon points="30,150 70,150 45,200" fill="#FFF"/>
+      <path d="M80,150 Q90,200 70,200 Q60,150 50,150" stroke="#FFF" fill="transparent"/>
+    </g>
+  </defs>
+
+  <use xlink:href="#fairy" transform="translate(800, 600)">
+    <animateMotion repeatCount="indefinite">
+      <mpath d="M800,600 Q500,400 100,300 Q200,400 50,600"/>
+      <animate attributeName="opacity" values="1;0;1" dur="5s" begin="0s" repeatCount="indefinite"/>
+    </animateMotion>
+  </use>
+
+</svg>

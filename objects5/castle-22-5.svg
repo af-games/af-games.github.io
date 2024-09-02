@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150">
+  <!-- Keep -->
+  <rect width="90%" height="60%" x="5%" y="20%" style="fill:#8B4513;stroke-width:2px;stroke:#D2691E"/>
+
+  <!-- Moat -->
+  <rect width="90%" height="10%" x="5%" y="80%" style="fill:#87CEEB;stroke-width:2px;stroke:none"/>
+</svg>

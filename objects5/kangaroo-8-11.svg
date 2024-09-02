@@ -1,0 +1,26 @@
+<svg width="300" height="200">
+  <!-- Ancient Egypt -->
+  <rect width="50" height="80" style="fill:black;"/>
+  <circle cx="40" cy="60" r="15" style="fill:white;"/>
+
+  <!-- Renaissance -->
+  <path d="M50 30 Q80 10, 120 40 Q160 70, 200 40 Q240 10, 270 30"/>
+
+  <!-- Art Nouveau -->
+  <path d="M50 80 Q120 40, 200 80 Q270 120, 340 80" style="fill:gold;"/>
+
+  <!-- Pop Art -->
+  <pattern id="p1" patternUnits="userSpaceOnUse" width="20" height="20">
+    <rect width="10" height="10" style="fill:red;"/>
+  </pattern>
+  <rect width="300" height="200" style="fill:url(#p1);"/>
+
+  <!-- Future -->
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="150" cy="75" r="75" style="fill:url(#grad);"/>
+</svg>

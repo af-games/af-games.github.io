@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Scene 1: In the Savannah -->
+  <circle id="gilbert" cx="400" cy="50" r="50" fill="#8B4513"/>
+  <text x="390" y="65" font-family="Arial" text-anchor="middle">Gilbert</text>
+  <path d="M400,70 Q420,150 400,200 L380,200 Z" stroke="#388E3C" fill="transparent"/>
+  <g transform="translate(0,100)">
+    <circle cx="100" cy="50" r="30" fill="#FFBF47"/> <!-- Lion -->
+    <circle cx="200" cy="50" r="30" fill="#D98C6E"/> <!-- Zebra -->
+  </g>
+  <text x="150" y="120" font-family="Arial">In the Savannah, Gilbert stretches tall...</text>
+
+  <!-- Scene 2: The Thunderstorm -->
+  <rect width="800" height="300" fill="#4A4A4A"/>
+  <path d="M600,75 Q650,100 700,75" stroke="#FFFFFF" fill="transparent"/> <!-- Lightning -->
+  <circle id="gilbert-scared" cx="200" cy="250" r="50" fill="#8B4513"/>
+  <text x="195" y="265" font-family="Arial">Gilbert gets scared during a thunderstorm...</text>
+
+  <!-- Scene 3: Under Ella's Umbrella -->
+  <rect id="ella" width="200" height="300" fill="#6C7A89"/>
+  <path d="M100,250 Q150,200 200,250 Z" stroke="#422B0F" fill="transparent"/> <!-- Ella's trunk -->
+  <circle id="gilbert-comforted" cx="350" cy="275" r="50" fill="#8B4513"/>
+  <text x="345" y="300" font-family="Arial">Gilbert finds comfort under Ella's umbrella...</text>
+
+  <!-- Scene 4: Gilbert's Dream -->
+  <circle id="gilbert-dreaming" cx="600" cy="250" r="50" fill="#8B4513"/>
+  <ellipse cx="675" cy="175" rx="75" ry="50" fill="#ADD8E6"/> <!-- Dream bubble -->
+  <path d="M600,125 Q650,50 700,125 Z" stroke="#4A3B29" fill="transparent"/>
+  <text x="595" y="300" font-family="Arial">Gilbert dreams of being tall enough to calm the storm...</text>
+
+  <!-- Scene 5: The Calm After the Storm -->
+  <path d="M600,450 Q675,525 750,450 Z" stroke="#FFC107" fill="transparent"/> <!-- Rainbow -->
+  <circle id="gilbert-happy" cx="400" cy="475" r="50" fill="#8B4513"/>
+  <path d="M400,525 Q350,575 400,625 Z" stroke="#FFC107" fill="transparent"/>
+  <text x="395" y="650" font-family="Arial">When the storm passes, Gilbert touches a rainbow...</text>
+</svg>

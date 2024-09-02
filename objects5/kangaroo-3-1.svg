@@ -1,0 +1,21 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,50 Q90,75 80,90 Q60,75 50,50 Q40,25 30,50 Z" fill="#FDBD94"/>
+
+  <!-- Head -->
+  <circle cx="70" cy="100" r="30" fill="#FDBD94"/>
+  <ellipse cx="65" cy="85" rx="10" ry="20" fill="#FFF" stroke="#000"/>
+
+  <!-- Ears -->
+  <polygon points="70,90 85,105 65,105" fill="#FDBD94"/>
+  <path d="M95,110 Q105,120 95,130 Z" fill="#FDBD94"/>
+
+  <!-- Arms -->
+  <rect x="85" y="120" width="30" height="20" rx="10" fill="#FDBD94"/>
+  <rect x="60" y="120" width="30" height="20" rx="10" fill="#FDBD94"/>
+
+  <!-- Legs -->
+  <path d="M85,170 Q100,190 115,170 Z" fill="#FDBD94"/>
+  <path d="M65,170 Q50,190 35,170 Z" fill="#FDBD94"/>
+
+</svg>

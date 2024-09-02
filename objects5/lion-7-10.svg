@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background rectangle -->
+  <rect x="0" y="0" width="800" height="600" fill="#FFF" stroke="#CCC"/>
+
+  <!-- Grass (green rectangle with opacity) -->
+  <rect x="0" y="350" width="800" height="250" fill="#90EE90" opacity="0.5"/>
+
+  <!-- Sun -->
+  <circle cx="750" cy="100" r="80" fill="#FFDE33"/>
+  <path d="M690,80 Q730,20 750,40 Q770,20 710,80" stroke="#FFC125" fill="transparent"/>
+
+  <!-- Lion -->
+  <a href="#" target="_blank">
+    <path d="M400,50 L360,120 A90,90 0 0 1 450,180 Q470,150 480,100 Q430,130 400,50 Z" fill="#FFA500"/>
+    <path d="M360,200 Q390,250 400,300 Q370,320 380,350 A10,10 0 0 1 380,380 Q380,330 360,300" fill="#FFC125"/>
+    <circle cx="400" cy="370" r="30" fill="#FFF"/>
+    <path d="M390,360 L410,360 Q400,380 390,390" stroke="#FFC125" fill="transparent"/>
+    <path d="M370,360 L350,360 Q360,380 370,390" stroke="#FFC125" fill="transparent"/>
+  </a>
+
+  <!-- Tree -->
+  <g transform="translate(100, 450)">
+    <circle cx="50" cy="-50" r="50" fill="#6B482A"/>
+    <path d="M-5,-75 L5,-125 Q35,-90 50,-75 H0 Z" stroke="#6B482A" fill="transparent"/>
+    <circle cx="0" cy="-150" r="20" fill="#FFF"/>
+    <circle cx="0" cy="-120" r="15" fill="#FFF"/>
+  </g>
+
+  <!-- Lion's roar text -->
+  <text x="30%" y="90%" font-family="Verdana" font-size="48" fill="#6B482A">ROAR!</text>
+</svg>

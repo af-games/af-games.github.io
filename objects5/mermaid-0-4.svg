@@ -1,0 +1,22 @@
+<svg width="350" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<rect x="50" y="0" width="200" height="300" fill="lightblue"/>
+
+<!-- Head -->
+<ellipse cx="125" cy="70" rx="100" ry="80" fill="lightblue" stroke="black" stroke-width="3"/>
+
+<!-- Tail Fin -->
+<polygon points="200,280 250,320 200,360 150,320" fill="lightblue" stroke="black" stroke-width="3"/>
+
+<!-- Upper Fin -->
+<polygon points="70,140 90,180 40,180 50,140" fill="lightblue" stroke="black" stroke-width="3"/>
+
+<!-- Lower Fin -->
+<polygon points="70,260 90,220 40,220 50,260" fill="lightblue" stroke="black" stroke-width="3"/>
+
+<!-- Eye -->
+<circle cx="105" cy="40" r="15" fill="white" stroke="black" stroke-width="2"/>
+<circle cx="105" cy="38" r="5" fill="black"/>
+
+</svg>

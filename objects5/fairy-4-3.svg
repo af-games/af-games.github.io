@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Basic Shapes -->
+  <circle cx="200" cy="450" r="150" fill="#F5C6CB" stroke="#F5C6CB" stroke-width="4"/>
+  <path d="M170,380 Q220,350 270,380 Q320,350 370,380" fill="none" stroke="#F5C6CB" stroke-width="4"/>
+
+  <!-- Hair -->
+  <path d="M190,330 Q210,290 250,310 Q290,290 310,330" fill="none" stroke="#1D4350" stroke-width="1"/>
+  <path d="M210,320 Q230,280 270,300 Q310,280 330,320" fill="none" stroke="#1D4350" stroke-width="1"/>
+
+  <!-- Clothing -->
+  <rect x="160" y="400" width="140" height="170" fill="#C8E6C9" stroke="#C8E6C9" stroke-width="1"/>
+  <path d="M205,430 Q230,460 255,430 Q280,460 310,430" fill="none" stroke="#522B81" stroke-width="1"/>
+
+  <!-- Accessories -->
+  <circle cx="250" cy="370" r="20" fill="#FFDF7D" stroke="#FFDF7D" stroke-width="1"/>
+  <path d="M240,360 L260,380 Z" fill="none" stroke="#FFDF7D" stroke-width="1"/>
+
+</svg>

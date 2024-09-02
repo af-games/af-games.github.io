@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Balloon Envelope -->
+  <path d="M150 20 Q250 80, 350 20 Q250 40, 150 20" fill="#FFA500" stroke="black"/>
+  <linearGradient id="balloonGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color: #FFC372; stop-opacity: 1" />
+    <stop offset="100%" style="stop-color: #FFA500; stop-opacity: 1" />
+  </linearGradient>
+  <path d="M150 20 Q250 80, 350 20 Q250 40, 150 20" fill="url(#balloonGrad)"/>
+
+  <!-- Basket -->
+  <rect x="120" y="450" width="260" height="70" rx="15" fill="#8B4513" stroke="black"/>
+  <path d="M120 520 L400 520 Z" stroke="black"/>
+
+  <!-- Burning Flame -->
+  <polygon points="290,520 310,550 340,520" fill="#FF6F00">
+    <animate attributeName="points"
+             values="290,520;310,570;340,520;290,520;
+                     290,525;310,575;340,525;290,525"
+             dur="2s" repeatCount="indefinite"/>
+  </polygon>
+
+  <!-- Rope -->
+  <path d="M180 450 Q200 350, 250 300 Q300 350, 320 450" stroke="#776E65" stroke-width="5"/>
+
+  <!-- Shadow -->
+  <rect x="180" y="550" width="260" height="70" fill-opacity="0.2" fill="#000"/>
+
+</svg>

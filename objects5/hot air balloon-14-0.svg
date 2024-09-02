@@ -1,0 +1,26 @@
+<svg width="300" height="350" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Envelope -->
+<ellipse cx="150" cy="75" rx="80" ry="40" fill="url(#envelopeGradient)" />
+<ellipse cx="150" cy="35" rx="60" ry="30" fill="url(#envelopeGradient)" />
+
+<!-- Basket -->
+<rect x="120" y="175" width="60" height="40" rx="10" fill="#C89443" />
+<circle cx="100" cy="190" r="10" fill="#C89443" />
+<circle cx="180" cy="190" r="10" fill="#C89443" />
+
+<!-- Burner -->
+<line x1="125" y1="220" x2="175" y2="220" stroke="#333" />
+<rect x="135" y="215" width="10" height="20" fill="#FFA500" />
+<rect x="148" y="215" width="10" height="20" fill="#FFA500" />
+<rect x="161" y="215" width="10" height="20" fill="#FFA500" />
+
+<!-- Gradients -->
+<defs>
+  <linearGradient id="envelopeGradient" gradientTransform="rotate(90)">
+    <stop offset="0%"   stop-color="#FFF"/>
+    <stop offset="100%" stop-color="#FFB347"/>
+  </linearGradient>
+</defs>
+
+</svg>

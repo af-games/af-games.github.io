@@ -1,0 +1,30 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dolphin 1 -->
+  <path d="M50,50 Q90,20 160,50 Q200,100 270,50 A80,40 0 0 1 320,100" fill="#ADD8E6"/>
+  <circle cx="120" cy="90" r="30" fill="#FFF">
+    <circle cx="10" cy="10" r="5" fill="#000"/>
+    <circle cx="20" cy="15" r="5" fill="#000"/>
+  </circle>
+
+  <!-- Wave connecting Dolphin 1 and 2 -->
+  <path d="M320,100 Q400,70 480,100" fill="#0095B9"/>
+
+  <!-- Dolphin 2 -->
+  <path d="M480,100 Q560,70 630,100 Q710,130 780,100" fill="#ADD8E6"/>
+  <circle cx="550" cy="90" r="30" fill="#FFF">
+    <circle cx="10" cy="10" r="5" fill="#000"/>
+    <circle cx="20" cy="15" r="5" fill="#000"/>
+  </circle>
+
+  <!-- Wave connecting Dolphin 2 and 3 -->
+  <path d="M780,100 Q860,80 940,100" fill="#0095B9"/>
+
+  <!-- Dolphin 3 -->
+  <path d="M940,100 Q1020,110 1100,100 Q1180,90 1260,100" fill="#ADD8E6"/>
+  <circle cx="1030" cy="90" r="30" fill="#FFF">
+    <circle cx="10" cy="10" r="5" fill="#000"/>
+    <circle cx="20" cy="15" r="5" fill="#000"/>
+  </circle>
+
+</svg>

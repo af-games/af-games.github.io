@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -10 600 80">
+
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="waterGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%"   style="stop-color:darkblue;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:lightblue;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Water Waves -->
+  <path fill="url(#waterGradient)" d="
+    M -50,30 Q 200,70 400,-30 Q 600,70 800,-30
+    L 900,0 H 1000 V 60 H -50 Z"/>
+
+  <!-- Dolphins -->
+  <g stroke="none" fill="deepskyblue">
+    <path d="M 200,40 Q 280,70 360,40 Q 440,70 520,40"/>
+    <path d="M 600,40 Q 680,70 760,40 Q 840,70 920,40"/>
+
+    <!-- Connecting Lines -->
+    <line x1="200" y1="40" x2="360" y2="40" stroke="black"/>
+    <line x1="360" y1="40" x2="520" y2="40" stroke="black"/>
+    <line x1="600" y1="40" x2="760" y2="40" stroke="black"/>
+    <line x1="760" y1="40" x2="920" y2="40" stroke="black"/>
+  </g>
+
+</svg>

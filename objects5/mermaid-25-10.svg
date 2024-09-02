@@ -1,0 +1,30 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Reef background -->
+  <rect x="0" y="0" width="500" height="600" fill="#6B4862"/>
+
+  <!-- Coral reef -->
+  <path d="M..." fill="#FF7F50"/>
+  ...
+
+  <!-- Mermaid's face and upper body -->
+  <path d="M..." fill="#FFDDCF"/>
+
+  <!-- Hair -->
+  <path d="M..." fill="#2986C5"/>
+  ...
+
+  <!-- Tail (upper) -->
+  <pattern id="scales" patternUnits="userSpaceOnUse">
+    <rect width="10" height="5" fill="#00A3C7"/>
+  </pattern>
+  <rect x="..." y="..." width="..." height="..." fill="url(#scales)"/>
+
+  <!-- Tail (lower) -->
+  <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#00A3C7; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#014B5E; stop-opacity:1"/>
+  </linearGradient>
+  <rect x="..." y="..." width="..." height="..." fill="url(#gradient)"/>
+
+</svg>

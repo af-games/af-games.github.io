@@ -1,0 +1,42 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Basket -->
+  <rect x="150" y="300" width="80" height="40" fill="#7C6F4A" rx="5"/>
+
+  <!-- Envelope (Balloon fabric) -->
+  <path d="M200,50 Q250,75 300,50 Q250,25 200,50" stroke-width="2" stroke="#FFC107" fill="url(#balloonGradient)" />
+
+  <!-- Top circle -->
+  <circle cx="250" cy="50" r="40" stroke="#D8A56D" stroke-width="2" fill="url(#topCircleGradient)"/>
+
+  <!-- Burner ( Flames ) -->
+  <path d="M230,110 Q240,90 250,110 Q240,130 230,110" stroke-width="0" fill="#FF7F00"/>
+
+  <!-- Gondola (Basket to envelope connection) -->
+  <rect x="180" y="260" width="10" height="40" fill="#D8A56D" rx="5"/>
+
+  <!-- Rigging (Lines) -->
+  <line x1="190" y1="300" x2="270" y2="300" stroke="#9E7C49" stroke-width="5"/>
+  <line x1="200" y1="280" x2="260" y2="320" stroke="#9E7C49" stroke-width="5"/>
+
+  <!-- Shadow -->
+  <rect x="160" y="290" width="120" height="60" fill="url(#shadowGradient)" opacity="0.5"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="balloonGradient" gradientTransform="rotate(45)">
+      <stop offset="0%"   stop-color="#FFC107"/>
+      <stop offset="50%"  stop-color="#FFB32E"/>
+      <stop offset="100%" stop-color="#FFA500"/>
+    </linearGradient>
+    <linearGradient id="topCircleGradient">
+      <stop offset="0%"   stop-color="#D8A56D"/>
+      <stop offset="100%" stop-color="#FFC107"/>
+    </linearGradient>
+    <linearGradient id="shadowGradient" gradientTransform="rotate(90)">
+      <stop offset="0%"  stop-color="#000" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+</svg>

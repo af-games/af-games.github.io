@@ -1,0 +1,24 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="100" y="150" width="300" height="200" fill="#8B7D6B"/>
+  <path d="M100,250 Q200,200 300,250" stroke="#8B7D6B" fill="transparent"/>
+
+  <!-- Neck -->
+  <rect x="140" y="150" width="40" height="100" fill="#8B7D6B"/>
+  <path d="M140,250 Q240,220 300,250" stroke="#8B7D6B" fill="transparent"/>
+
+  <!-- Head -->
+  <circle cx="300" cy="190" r="40" fill="#8B7D6B"/>
+  <ellipse cx="300" cy="170" rx="20" ry="30" fill="transparent"/>
+
+  <!-- Arms -->
+  <rect x="120" y="250" width="20" height="80" fill="#8B7D6B"/>
+  <path d="M140,330 Q200,380 260,330" stroke="#8B7D6B" fill="transparent"/>
+
+  <!-- Legs -->
+  <rect x="90" y="350" width="40" height="100" fill="#8B7D6B"/>
+  <path d="M130,450 Q230,500 330,450" stroke="#8B7D6B" fill="transparent"/>
+
+  <!-- Tail -->
+  <polygon points="330,450 370,450 410,400" fill="#8B7D6B"/>
+</svg>

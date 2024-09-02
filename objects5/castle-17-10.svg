@@ -1,0 +1,34 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define reusable filters -->
+  <defs>
+    <filter id="turbulence" x="-50%" y="-50%" width="200%" height="200%">
+      <feTurbulence baseFrequency="0.1" numOctaves="2" result="turbulence"/>
+      <feDisplacementMap in2="turbulence" in="SourceGraphic" scale="30"/>
+    </filter>
+
+    <filter id="color-shift">
+      <feColorMatrix mode="matrix"
+        values="1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                0 0 0 1 0"/>
+    </filter>
+  </defs>
+
+  <!-- Starting point -->
+  <circle cx="50" cy="50" r="40" fill="#ff6347" filter="url(#turbulence)" />
+
+  <!-- Path to the tower -->
+  <path d="M100,200 L150,100 L200,200" stroke="#000" stroke-width="10" fill="none"/>
+  <rect x="190" y="70" width="40" height="80" fill="#ffa500" filter="url(#color-shift)"/>
+
+  <!-- Path to the gate -->
+  <path d="M260,300 L310,350 L360,300" stroke="#000" stroke-width="10" fill="none"/>
+  <rect x="340" y="280" width="60" height="70" fill="#8b4513"/>
+
+  <!-- Path to the courtyard -->
+  <path d="M420,200 L470,150 L520,200" stroke="#000" stroke-width="10" fill="none"/>
+  <rect x="490" y="130" width="80" height="60" fill="#add8e6"/>
+
+</svg>

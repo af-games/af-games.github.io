@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle -->
+  <rect id="castle" x="200" y="150" width="400" height="400"
+        style="fill:skyblue; stroke:black; stroke-width:3"/>
+
+  <!-- Drawbridge -->
+  <path id="drawbridge" d="M280,250 Q320,150 360,250 T400,350"
+        style="fill:brown; stroke:black; stroke-width:3"/>
+
+  <!-- Animation begin -->
+  <animate id="drawbridgeAnimation" attributeName="d" values="
+    M280,250 Q320,150 360,250 T400,350;
+    M280,350 Q320,250 360,350 T400,450;
+    M280,450 Q320,350 360,450 T400,550
+  " dur="2s" repeatCount="indefinite" begin="drawbridgeAnimation.begin() + 0.5s"/>
+
+</svg>

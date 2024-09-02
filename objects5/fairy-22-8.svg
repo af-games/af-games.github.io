@@ -1,0 +1,12 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy body -->
+  <path d="M100 20 Q140 20, 140 60 Q100 100, 60 100 Q100 140, 140 140 Q180 140, 180 100 Q140 60, 140 20" stroke="#9370db" stroke-width="3" fill="none"/>
+
+  <!-- Fairy hair -->
+  <path d="M120 20 C150 10, 180 20, 160 50 S140 30, 120 20" stroke="#9370db" stroke-width="3" fill="#add8e6"/>
+
+  <!-- Fairy wings -->
+  <path d="M80 60 Q100 80, 120 60 Q140 80, 160 60 Q140 40, 120 60" stroke="#9370db" stroke-width="3" fill="#add8e6"/>
+
+</svg>

@@ -1,0 +1,44 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Envelope (main body of the balloon) -->
+  <polygon id="envelope" points="150,50 100,200 200,200"
+           fill="#FFC107" stroke="#D98E31" stroke-width="2"/>
+  <linearGradient id="envelopeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(255,177,7); stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(249,143,49); stop-opacity:1"/>
+  </linearGradient>
+  <animate attributeName="opacity" from="1" to="0.5" dur="2s" repeatCount="indefinite"/>
+
+  <!-- Basket -->
+  <rect id="basket" x="80" y="350" width="80" height="50"
+        fill="#5D4037" stroke="#3E2723" stroke-width="2"/>
+  <linearGradient id="basketGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(93,64,55); stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(78,49,43); stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Burner -->
+  <circle id="burner" cx="125" cy="60" r="20"
+          fill="#FF5733" stroke="#C33F26" stroke-width="2"/>
+  <radialGradient id="burnerGradient" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" style="stop-color:rgb(255,87,51); stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(195,63,38); stop-opacity:1"/>
+  </radialGradient>
+  <animate attributeName="opacity" from="1" to="0.7" dur="2s" repeatCount="indefinite"/>
+
+  <!-- Strings -->
+  <line id="string1" x1="150" y1="50" x2="150" y2="380"
+        stroke="#4A4A4A" stroke-width="4"/>
+  <line id="string2" x1="75" y1="50" x2="75" y2="380"
+        stroke="#4A4A4A" stroke-width="4"/>
+  <line id="string3" x1="225" y1="50" x2="225" y2="380"
+        stroke="#4A4A4A" stroke-width="4"/>
+
+  <!-- Shadow -->
+  <rect width="300" height="400" fill="url(#shadowGradient)"/>
+  <linearGradient id="shadowGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+    <stop offset="0%" style="stop-color:rgb(0,0,0); stop-opacity:0.5"/>
+    <stop offset="100%" style="stop-color:transparent; stop-opacity:0"/>
+  </linearGradient>
+
+</svg>

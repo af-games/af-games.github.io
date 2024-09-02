@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-200 -200 400 600">
+
+<!-- Grouping elements -->
+<g id="t-rex">
+  <!-- Body -->
+  <rect x="0" y="150" width="200" height="300" fill="#8B7D6B"/>
+
+  <!-- Head -->
+  <g transform="translate(0, -150) rotate(-5)">
+    <path d="M-50,-50 Q0,-100 50,-50 Q0,100 -50,50" fill="#8B7D6B"/>
+    <circle cx="0" cy="-100" r="30" fill="#FFF"/>
+  </g>
+
+  <!-- Arms -->
+  <rect x="-150" y="0" width="20" height="300" fill="#8B7D6B"/>
+  <rect x="130" y="0" width="20" height="300" fill="#8B7D6B"/>
+
+  <!-- Legs -->
+  <g transform="translate(-75, 300) rotate(20)">
+    <rect x="0" y="0" width="150" height="200" fill="#8B7D6B"/>
+  </g>
+</g>
+
+</svg>

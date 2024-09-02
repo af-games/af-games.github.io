@@ -1,0 +1,31 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Penguin Body -->
+  <defs>
+    <radialGradient id="penguinBodyGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <ellipse cx="100" cy="100" rx="90" ry="80" fill="url(#penguinBodyGradient)" />
+
+  <!-- Penguin Eyes -->
+  <circle cx="85" cy="70" r="10" fill="black" />
+  <circle cx="115" cy="70" r="10" fill="black" />
+
+  <!-- Diagonal Threads (Feathers) -->
+  <defs>
+    <linearGradient id="threadGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(65,43,97);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(182,159,211);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Top Feathers -->
+  <line x1="70" y1="30" x2="160" y2="140" stroke="url(#threadGradient)" stroke-width="5" />
+  <line x1="80" y1="40" x2="150" y2="150" stroke="url(#threadGradient)" stroke-width="3" />
+
+  <!-- Bottom Feathers -->
+  <line x1="70" y1="160" x2="160" y2="30" stroke="url(#threadGradient)" stroke-width="5" />
+  <line x1="80" y1="150" x2="150" y2="40" stroke="url(#threadGradient)" stroke-width="3" />
+
+</svg>

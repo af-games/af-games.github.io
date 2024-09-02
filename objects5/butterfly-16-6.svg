@@ -1,0 +1,32 @@
+<svg>` tag and set up some initial properties:
+
+```xml
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+     viewBox="-50 -50 100 100"
+     preserveAspectRatio="xMidYMid meet">
+```
+
+In this opening stanza, we've defined:
+- The namespace for SVG (which is required)
+- The version of SVG to use
+- A viewBox that sets up a coordinate system suitable for our butterfly masterpiece
+- PreserveAspectRatio to maintain the aspect ratio of the elements within the viewBox
+
+Next, let's create an empty `<g>` tag to group our elements together. We'll give this group a transformation so we can position it in the center:
+
+```xml
+<g transform="translate(50, 50)">
+```
+
+Now, we're ready to start composing individual lines (shapes) of SVG code for our butterfly. Let's begin with the body using an ellipse:
+
+```xml
+<ellipse cx="0" cy="0" rx="30" ry="15"
+         fill="gold" stroke="black"/>
+```
+
+In this line, we've created:
+- An ellipse centered at (0, 0) with a radius of 30 along the x-axis and 15 along the y-axis
+- Set the fill color to gold and the stroke color to black
+
+We'll continue building our SVG symphony one note (line of code) at a time until we've created a beautiful butterfly masterpiece. Stay tuned for more notes!</svg>

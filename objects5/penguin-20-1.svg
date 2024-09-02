@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 80">
+  <!-- Body -->
+  <path d="M50,10 A40,40 0 1,0 50,90 A40,40 0 1,0 50,10" fill="black" />
+
+  <!-- Head -->
+  <circle cx="50" cy="30" r="20" fill="white" />
+
+  <!-- Eyes -->
+  <circle cx="40" cy="20" r="5" fill="black" />
+  <circle cx="60" cy="20" r="5" fill="black" />
+
+  <!-- Beak -->
+  <path d="M50,30 Q45,35 50,40 Q55,35 50,30" stroke="orange" fill="transparent" />
+</svg>

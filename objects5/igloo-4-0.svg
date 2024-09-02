@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base -->
+  <circle cx="125" cy="375" r="125" fill="#FFFFFF"/>
+  <path d="M125,250 Q95,275 60,310 T125,400 Q185,275 270,310 T335,400" stroke="#666666" fill="transparent"/>
+
+  <!-- Dome -->
+  <circle cx="250" cy="250" r="125" fill="#D9E1F2"/>
+  <path d="M250,75 Q135,125 250,200 Q365,125 250,75" stroke="#666666" fill="transparent"/>
+
+  <!-- Entrance -->
+  <rect x="185" y="375" width="70" height="50" fill="#FFFFFF"/>
+  <path d="M190,425 Q230,425 215,475" stroke="#666666" fill="transparent"/>
+
+</svg>

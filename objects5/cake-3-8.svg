@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <circle cx="25" cy="25" r="20"
+          fill="#ffcc66" stroke="#fff" stroke-width="1">
+
+    <animateMotion repeatCount="indefinite">
+      <mpath href="#path"/>
+    </animateMotion>
+
+    <animate attributeName="fill-opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/>
+
+  </circle>
+
+  <path id="path" d="M 25,25 A 20,20 0 0 1 25,35 A 20,20 0 0 1 25,15 Z"/>
+</svg>

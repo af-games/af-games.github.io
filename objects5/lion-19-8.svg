@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background: Savanna -->
+  <rect x="0" y="0" width="800" height="600" fill="#FFB973"/>
+
+  <!-- Sun -->
+  <circle cx="50" cy="100" r="40" fill="#FFFF00"/>
+  <path d="M50 100 L20 150 H80 Z" stroke="#FFFF00" fill="#FFBF00"/>
+
+  <!-- Lion -->
+  <circle cx="350" cy="300" r="70" fill="#F69D4F"/>
+  <path d="M350 250 Q400 180, 450 250 Q400 320, 350 370" stroke="black" fill="none"/>
+
+  <!-- Acacia Tree -->
+  <rect x="600" y="350" width="50" height="100" fill="#8B7D6B"/>
+  <circle cx="625" cy="425" r="25" fill="#8B7D6B"/>
+
+</svg>

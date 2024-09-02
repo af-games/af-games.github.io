@@ -1,0 +1,23 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(75,169,230);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,248,220);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- PENGUIN -->
+  <g stroke-width="3" stroke="black" fill="url(#penguinGradient)">
+    <path d="
+      M60 50
+      L90 70 A80 80 0 0 1 120 50 Q140 10 160 50
+      L180 90 Z
+
+      M130 80
+      C120 100, 100 120, 70 120 S50 100, 40 80 Z
+
+      M60 150 A40 40 0 1 1 90 150 A40 40 0 1 1 60 150
+    "/>
+  </g>
+
+</svg>

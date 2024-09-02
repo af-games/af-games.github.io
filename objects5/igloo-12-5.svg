@@ -1,0 +1,31 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Igloo Base -->
+  <rect id="base" x="150" y="400" width="200" height="50" fill="#4A4A4A"/>
+  <!-- Igloo Dome -->
+  <path id="dome" d="M175,350 Q225,300 275,350 Q225,400 175,350" fill="#9B9B9B"/>
+  <!-- Igloo Door -->
+  <rect id="door" x="185" y="400" width="25" height="50" fill="#4A4A4A"/>
+
+  <!-- Igloo Entrance Animation (Translate) -->
+  <animateTransform
+    attributeName="x"
+    from="175"
+    to="200"
+    begin="0s"
+    dur="2s"
+    repeatCount="indefinite"
+    id="entranceAnimation"
+    type="translate"/>
+
+  <!-- Igloo Dome Rotation Animation -->
+  <animateTransform
+    attributeName="d"
+    from="M175,350 Q225,300 275,350 Q225,400 175,350"
+    to="M175,360 Q225,310 275,360 Q225,410 175,360"
+    begin="entranceAnimation.begin"
+    dur="4s"
+    repeatCount="indefinite"
+    type="rotate"
+    centerX="225" centerY="350"/>
+
+</svg>

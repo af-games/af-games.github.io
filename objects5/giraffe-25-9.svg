@@ -1,0 +1,21 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Savannah -->
+  <rect x="0" y="0" width="600" height="400" style="fill: #FCD116;" />
+
+  <!-- Sun -->
+  <circle cx="550" cy="30" r="20" stroke="black" fill="#FFFF00"/>
+
+  <!-- Giraffe -->
+  <circle cx="100" cy="50" r="40" stroke="black" fill="#FFFACD"/>
+  <path d="M100 90 Q120 70, 140 90" stroke="brown" fill="transparent"/>
+
+  <!-- Other animals -->
+  <!-- Add more circles here with varying sizes and positions -->
+
+  <!-- Text annotations (use &lt;text&gt; for HTML entities in SVG) -->
+  <text x="5%" y="95%" dominant-baseline="middle" text-anchor="start" stroke="#000" fill="#000">The Giraffe's Long-Necked Adventure</text>
+
+  <!-- Add scenes and elements following the above format -->
+
+</svg>

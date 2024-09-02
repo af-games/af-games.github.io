@@ -1,0 +1,17 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Face -->
+  <circle cx="100" cy="75" r="50" fill="#FDD9B5"/>
+  <circle cx="85" cy="65" r="5" fill="#C6875E"/>
+  <circle cx="115" cy="65" r="5" fill="#C6875E"/>
+
+  <!-- Left eye -->
+  <path d="M90,55 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0 fill="#000000"/>
+  <circle cx="92" cy="60" r="3" fill="#FFFFFF"/>
+
+  <!-- Right eye -->
+  <path d="M110,55 a5,5 0 1,0 -10,0 a5,5 0 1,0 10,0 fill="#000000"/>
+  <circle cx="108" cy="60" r="3" fill="#FFFFFF"/>
+
+  <!-- Hair -->
+  <path d="M75,40 Q90,20 105,40 Q120,20 135,40 Q150,20 165,40 A15,15 0 0,1 180,55 Z fill="#0F4A63"/>
+</svg>

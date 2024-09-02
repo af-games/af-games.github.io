@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="150" fill="#87CEEB"/>
+
+  <!-- City buildings -->
+  <rect x="50" y="150" width="70" height="300" fill="#FFB6C1"/>
+  <polygon points="200,150 350,150 300,450" fill="#DDA0DD"/>
+  <rect x="400" y="150" width="70" height="300" fill="#FFB6C1"/>
+  <polygon points="550,150 700,150 600,450" fill="#DDA0DD"/>
+
+  <!-- Dolphin structure -->
+  <path d="M280,50 C350,75 420,100 490,50 A100,100 0 0 0 670,230" stroke="#000" fill="#B0E0E6"/>
+  <circle cx="490" cy="50" r="10" fill="#000"/>
+  <circle cx="670" cy="230" r="10" fill="#000"/>
+
+  <!-- Roads -->
+  <line x1="50" y1="450" x2="750" y2="450" stroke="#000" stroke-width="5"/>
+  <line x1="300" y1="500" x2="300" y2="600" stroke="#000" stroke-width="5"/>
+
+  <!-- Heart-shaped dolphin structure fill -->
+  <path d="M490,50 Q570,100 670,50 T490,230 Z" fill="#FF69B4" fill-opacity="0.8"/>
+
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-15 -15 30 30">
+
+  <!-- Cake Base -->
+  <circle cx="0" cy="0" r="15" fill="#f4a460"/>
+
+  <!-- Cake Top -->
+  <circle cx="0" cy="-7.5" r="8" fill="#fff4d9"/>
+
+  <!-- Frosting -->
+  <rect x="-20" y="-7.5" width="40" height="15" fill="#f4a460"/>
+  <path d="M-20,-7.5 Q-20,3 -20,8 q0,-1 -1,-2 Q-19,7 -18,8 q0,-1 -1,-2 Q-17,7 -16,8 z" fill="#f4a460"/>
+
+  <!-- Frosting Swirls -->
+  <path d="M-20,-5 a5,5 0 0 1 20,0 a5,5 0 0 1 -20,0" fill="#f4a460"/>
+  <path d="M0,-5 a5,5 0 0 1 0,10 a5,5 0 0 1 0,-10" fill="#f4a460"/>
+
+  <!-- Candle -->
+  <circle cx="-7.5" cy="-20" r="3" fill="#ffcc00"/>
+  <path d="M-7.5,-20 l0,-5 l5,0 l-5,-10 z" stroke="#ff9900" fill="#ff9900"/>
+
+</svg>

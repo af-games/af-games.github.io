@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -100 400 300">
+  <!-- Balloon envelope -->
+  <path id="envelope" fill="#FFB6C1" stroke="#8B7D6D" stroke-width="4" d="
+    M-20,-90 C-20,-75 20,-75 20,-90
+    S 20,-105 -20,-105 Z
+  "/>
+
+  <!-- Basket -->
+  <rect id="basket" width="40" height="30" fill="#D8BFA4" stroke="#696969" stroke-width="2"
+    transform="translate(-20,-80) rotate(45)"
+  />
+
+  <!-- Wicker's bottom edge -->
+  <path id="wicker-edge" fill="none" stroke="#696969" stroke-width="2" d="
+    M-30,-75 Q-10,-85 10,-75 Q30,-85 40,-75
+  "/>
+
+  <!-- Shadows -->
+  <rect id="shadow-basket" width="40" height="6" fill="#00000033" transform="translate(-20,-90) rotate(45)" />
+  <path id="shadow-envelope" fill="#0000001F" d="
+    M-20,-97 C-20,-82 20,-82 20,-97 Z
+  "/>
+
+  <!-- Basket's bottom line -->
+  <line id="basket-bottom-line" x1="-35" y1="-75" x2="35" y2="-75" stroke="#696969" stroke-width="2"/>
+
+</svg>

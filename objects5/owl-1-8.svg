@@ -1,0 +1,23 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer Outline -->
+  <path d="M100,10 A90,90 0 1 0 100,190 A90,90 0 1 0 100,10" stroke="#333" fill="transparent" stroke-width="8"/>
+
+  <!-- Inner Outline -->
+  <path d="M107,17 A75,75 0 1 0 107,24 A75,75 0 1 0 107,17" stroke="#666" fill="transparent" stroke-width="5"/>
+
+  <!-- Top & Bottom Stroke -->
+  <path d="M80,20 H120 M80,180 H120" stroke="#333" fill="transparent" stroke-width="8"/>
+
+  <!-- Left & Right Stroke -->
+  <path d="M40,90 V150 M160,90 V150" stroke="#666" fill="transparent" stroke-width="5"/>
+
+  <!-- Eyes -->
+  <circle cx="75" cy="65" r="8" fill="white"/>
+  <circle cx="125" cy="65" r="8" fill="white"/>
+
+  <!-- Feet -->
+  <path d="M90,190 Q80,200 70,190 M110,190 Q120,200 130,190" stroke="#999" fill="transparent" stroke-width="3"/>
+
+  <!-- Wings -->
+  <path d="M50,80 Q60,60 70,80 M140,80 Q130,60 120,80" stroke="#666" fill="transparent" stroke-width="3"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer Walls and Towers -->
+  <polygon points="150,50 350,50 375,120 280,220 120,220 30,120" fill="#C18D6E"/>
+
+  <!-- Gatehouse -->
+  <rect x="190" y="40" width="60" height="80" rx="15" fill="#C18D6E"/>
+  <polygon points="190,120 250,120 220,170" fill="#C18D6E"/>
+
+  <!-- Windows -->
+  <circle cx="225" cy="100" r="5" fill="black" fill-opacity="0.5"/>
+  <circle cx="275" cy="140" r="5" fill="black" fill-opacity="0.5"/>
+
+  <!-- Roof -->
+  <polygon points="30,80 90,20 200,20 260,80" fill="#7F5200"/>
+  <polygon points="150,80 200,40 260,80" fill="#7F5200"/>
+
+</svg>

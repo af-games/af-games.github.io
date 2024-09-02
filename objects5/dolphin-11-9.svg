@@ -1,0 +1,28 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define wave pattern -->
+  <defs>
+    <pattern id="wave" x="0" y="0" width="10" height="60"
+             patternUnits="userSpaceOnUse">
+      <path d="M0,40 Q5,50 10,40 T20,30 T30,40 T40,30 T50,40 Z"
+            fill="none" stroke="lightblue"/>
+    </pattern>
+  </defs>
+
+  <!-- Ground -->
+  <rect x="0" y="200" width="500" height="100" fill="url(#wave)"/>
+
+  <!-- Dolphins -->
+  <g stroke-width="2">
+    <circle cx="50" cy="120" r="30" fill="lightblue"/>
+    <circle cx="150" cy="90" r="30" fill="lightblue"/>
+    <circle cx="270" cy="140" r="30" fill="lightblue"/>
+    <circle cx="380" cy="110" r="30" fill="lightblue"/>
+  </g>
+
+  <!-- Trails -->
+  <path d="M50,120 Q70,90 100,120" stroke="darkblue"/>
+  <path d="M150,90 Q180,140 210,90" stroke="darkblue"/>
+  <path d="M270,140 Q300,120 330,140" stroke="darkblue"/>
+  <path d="M380,110 Q410,150 440,110" stroke="darkblue"/>
+
+</svg>

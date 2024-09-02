@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+
+  <!-- Bell (body) -->
+  <circle cx="250" cy="100" r="80" fill="#CC79FF" stroke="#FFFFFF" stroke-width="4"/>
+  <linearGradient id="bellGrad" x1="250" y1="300" x2="250" y2="100">
+    <stop offset="0%" stop-color="#CC79FF"/>
+    <stop offset="100%" stop-color="#FFFFFF"/>
+  </linearGradient>
+  <circle cx="250" cy="100" r="80" fill="url(#bellGrad)"/>
+
+  <!-- Tentacles -->
+  <path d="M250,100 Q275,130 240,160 Q285,190 225,160 Q270,130 250,100" fill="#FFFFFF" stroke="#CC79FF" stroke-width="4"/>
+  <path d="M250,100 Q225,130 240,160 Q215,190 225,160 Q235,130 250,100" fill="#FFFFFF" stroke="#CC79FF" stroke-width="4"/>
+
+  <!-- Eyes -->
+  <circle cx="230" cy="80" r="8" fill="#FFFFFF"/>
+  <circle cx="270" cy="80" r="8" fill="#FFFFFF"/>
+
+  <!-- Mouth -->
+  <path d="M250,140 Q260,150 240,150" stroke="#CC79FF" stroke-width="4"/>
+
+</svg>

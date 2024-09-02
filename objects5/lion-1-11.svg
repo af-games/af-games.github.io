@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Perimeter boundary -->
+  <rect x="100" y="50" width="600" height="500" stroke="black" fill="transparent"/>
+
+  <!-- Lion's location (clue 1) -->
+  <circle cx="350" cy="250" r="100" stroke="blue" fill="transparent"/>
+  <text x="370" y="280" font-family="Verdana" font-size="14">Lion's location</text>
+
+  <!-- Suspect paths (clues 2 & 3) -->
+  <path d="M150,150 Q250,50 350,150 T50,300" stroke="red" fill="transparent"/>
+  <text x="70" y="80" font-family="Verdana" font-size="14">Suspect A's path</text>
+  <path d="M650,450 Q550,350 350,250 T400,100" stroke="green" fill="transparent"/>
+  <text x="670" y="480" font-family="Verdana" font-size="14">Suspect B's path</text>
+
+  <!-- Motive paths (clues 4 & 5) -->
+  <path d="M200,300 Q300,400 400,300 T500,200" stroke="purple" fill="transparent"/>
+  <text x="220" y="320" font-family="Verdana" font-size="14">Motive A's path</text>
+  <path d="M600,200 Q500,100 400,200 T300,300" stroke="orange" fill="transparent"/>
+  <text x="620" y="220" font-family="Verdana" font-size="14">Motive B's path</text>
+
+</svg>

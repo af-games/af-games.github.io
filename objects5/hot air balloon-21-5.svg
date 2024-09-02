@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Balloon body -->
+  <circle id="balloonBody" cx="400" cy="200" r="150" fill="black">
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-30" dur="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Balloon burner -->
+  <rect id="balloonBurner" x="350" y="170" width="60" height="30" fill="black">
+    <animate attributeName="opacity" values="1;0.2;1" dur="0.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Balloon basket -->
+  <ellipse id="balloonBasket" cx="400" cy="380" rx="60" ry="90" fill="black">
+    <animateTransform attributeName="transform" type="rotate" from="0 400 380" to="360 400 380" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Propellers (2 identical circles) -->
+  <circle id="propeller1" cx="370" cy="230" r="20" fill="black">
+    <animateTransform attributeName="transform" type="rotate" from="0 370 230" to="360 370 230" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <use xlink:href="#propeller1" x="430"/>
+
+</svg>

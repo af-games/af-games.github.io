@@ -1,0 +1,14 @@
+<svg width="300" height="300" viewBox="0 0 300 300">
+  <!-- Body -->
+  <rect x="50" y="50" width="200" height="150" fill="#8B4513"/>
+
+  <!-- Head -->
+  <ellipse cx="175" cy="125" rx="70" ry="60" fill="#8B4513"/>
+
+  <!-- Ears -->
+  <polygon points="5,0 12,0 8,5" fill="#FFFFFF"/>
+  <polygon points="295,0 290,0 292,5" fill="#FFFFFF"/>
+
+  <!-- Tail -->
+  <path d="M170,150 Q210,150 210,190" stroke="#8B4513" fill="transparent"/>
+</svg>

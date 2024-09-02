@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Foundation -->
+  <rect x="100" y="400" width="300" height="100" fill="#696969"/>
+  <text x="250" y="475" font-size="20px" fill="#000000">Foundation</text>
+
+  <!-- Igloo structure -->
+  <g id="igloo">
+    <path d="M250,10 A150,150 0 1,1 250,450 A150,150 0 1,1 250,10" fill="white"/>
+    <!-- Spiral pattern -->
+    <path d="M250,10 L260,30 A140,140 45 1,0 270,100 L280,70 Z" stroke="#000000"/>
+    <!-- Repeat pattern for each course -->
+    <use href="#igloo-pattern" xlink:href="#igloo-pattern" width="60" height="30"></use>
+    <text x="450" y="25" font-size="18px" fill="#000000">Spiral pattern for easy<br>construction and stability</text>
+  </g>
+
+  <!-- Igloo entrance -->
+  <rect x="230" y="40" width="40" height="70" fill="white"/>
+  <text x="265" y="110" font-size="18px" fill="#000000">Entrance</text>
+
+  <!-- Annotation: Heat reflection -->
+  <text x="30" y="490" font-size="20px" fill="#000000">Traps body heat inside,<br>reflects cold winds outside</text>
+</svg>

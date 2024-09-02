@@ -1,0 +1,26 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Perimeter -->
+  <rect x="10" y="10" width="480" height="480" fill="none" stroke="black"/>
+
+  <!-- Lion shape (our crime scene) -->
+  <path d="M50,75 Q150,25 250,75 Q350,125 450,75 Q400,175 350,250 Q250,325 150,250 Q50,175 100,75" fill="none" stroke="brown"/>
+
+  <!-- Suspect 1: Mouse -->
+  <circle cx="80" cy="400" r="20" fill="white"/>
+  <text x="80" y="430">Mouse</text>
+
+  <!-- Suspect 2: Hyena -->
+  <circle cx="300" cy="150" r="25" fill="yellow"/>
+  <text x="300" y="170">Hyena</text>
+
+  <!-- Clue 1: Paw print leading to Mouse -->
+  <path d="M180,410 Q220,430 260,450" stroke="red"/>
+
+  <!-- Clue 2: Laughing path leading to Hyena -->
+  <path d="M280,70 Q320,90 360,110" stroke="green"/>
+
+  <!-- Clue 3: Roar mark at the crime scene -->
+  <circle cx="250" cy="75" r="30" fill="none" stroke="red"/>
+
+</svg>

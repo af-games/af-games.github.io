@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 400">
+
+  <!-- Body -->
+  <ellipse cx="175" cy="260" rx="150" ry="125" fill="url(#dolphinGradient)" stroke-width="2"/>
+
+  <!-- Head -->
+  <ellipse cx="120" cy="150" rx="40" ry="35" fill="#8C92AC" stroke-width="2"/>
+
+  <!-- Tail -->
+  <polygon points="160,270 200,320 120,320" fill="#8C92AC" stroke-width="2"/>
+
+  <!-- Dorsal Fin -->
+  <rect x="195" y="200" width="40" height="60" fill="#8C92AC" stroke-width="2"/>
+
+  <!-- Pectoral Fins -->
+  <rect x="70" y="250" width="60" height="30" fill="#8C92AC" stroke-width="2"/>
+  <rect x="230" y="250" width="60" height="30" fill="#8C92AC" stroke-width="2"/>
+
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="dolphinGradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(140,146,172);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(90,98,130);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

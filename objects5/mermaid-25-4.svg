@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -2 4 6">
+  <!-- Mermaid Castle -->
+  <rect x="-1.5" y="-1.5" width="3" height="2" fill="#98765F"/>
+  <polygon points="-1.5,-1.5 0,1 1.5,-1.5" fill="#98765F"/>
+  <polygon points="-1.5,-1.5 -0.5,1 0,-2 0.5,1 1.5,-1.5" fill="#98765F"/>
+  <path d="M-1.5,0 Q0,-0.5 1.5,0" stroke="#CCA384" stroke-width="0.1"/>
+
+  <!-- Waves -->
+  <path d="M-2,0 Q-1,-0.714 Q0,0 Q1,-0.714 Q2,0 Q3,-0.714 Q4,0 Q5,-0.714" stroke="#007FFF" stroke-width="0.1"/>
+
+  <!-- Mermaid -->
+  <ellipse cx="0" cy="0" rx="1.24" ry="2" fill="#FFD6E3"/>
+  <path d="M0,0 C-0.5,-0.75 -1,-1.5 -1.5,-0.75 A0.5,0.5 0 0 1 -1.5,-2 A0.5,0.5 0 0 1 -1,-0.75 Z" fill="#FFD6E3"/>
+  <circle cx="0" cy="-0.875" r="0.3" fill="black"/>
+  <circle cx="0" cy="-0.425" r="0.3" fill="black"/>
+
+  <!-- Hair -->
+  <path d="M-1,-1 Q-0.5,-1.5 -1,-2 Q0,-1.75 1,-2 Z" stroke="#FFD6E3" stroke-width="0.1"/>
+</svg>

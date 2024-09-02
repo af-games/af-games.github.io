@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -80 1200 800">
+  <!-- Giraffe Print Pattern -->
+  <defs>
+    <pattern id="giraffe-print" patternUnits="userSpaceOnUse" width="50" height="50">
+      <circle cx="25" cy="25" r="12.5" fill="#7A6140"/>
+      <rect x="12.5" y="12.5" width="25" height="25" fill="#FFF"/>
+    </pattern>
+  </defs>
+
+  <!-- Pattern Pieces -->
+  <g stroke="#000" stroke-width="2">
+    <!-- Bodice -->
+    <rect x="300" y="50" width="400" height="600" fill="url(#giraffe-print)"/>
+    <path d="M700,50 Q800,150 900,250 L700,350 Z"/>
+
+    <!-- Sleeves -->
+    <circle cx="400" cy="300" r="150" fill="url(#giraffe-print)"/>
+    <circle cx="800" cy="300" r="150" fill="url(#giraffe-print)"/>
+
+    <!-- Skirt -->
+    <rect x="300" y="450" width="600" height="350" fill="#D9CDB5"/>
+  </g>
+
+  <!-- Embellishments (Giraffe Head and Neck) -->
+  <path d="M700,250 Q800,150 900,250 C950,350 1000,450 1050,550 Z" fill="#7A6140"/>
+  <path d="M900,250 Q950,180 1000,250 L1050,320 Z" fill="#FFF"/>
+
+</svg>

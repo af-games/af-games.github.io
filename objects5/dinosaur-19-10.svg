@@ -1,0 +1,41 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Start drawing tentative lines and shapes using <path> elements for the dinosaur's body structure:**
+
+```svg
+<!-- Tentative lines for the dinosaur's body -->
+<path stroke="black" fill="transparent" d="M100 50 L300 150 L500 50 Z"/>
+```
+
+3. **Discover new features - circles, rectangles, etc., for details:**
+
+```svg
+<!-- Head as a circle -->
+<circle cx="200" cy="100" r="50"/>
+
+<!-- Tail as a series of connected small rectangles -->
+<rect x="600" y="30" width="40" height="20"/>
+<rect x="640" y="30" width="40" height="20"/>
+```
+
+4. **Document your journey with detailed notes (attribute values) for each discovery:**
+
+- For the dinosaur's body (`<path>`): stroke color is black, fill is transparent.
+- For the head (`<circle>`): center at (200, 100), radius 50.
+- For the tail (`<rect>`): first rectangle position at (600, 30), width 40, height 20. Second rectangle position at (640, 30), width 40, height 20.
+
+5. **Write out your map's final draft using SVG tags:**
+
+```svg
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dinosaur's body -->
+  <path stroke="black" fill="transparent" d="M100 50 L300 150 L500 50 Z"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="100" r="50"/>
+
+  <!-- Tail -->
+  <rect x="600" y="30" width="40" height="20"/>
+  <rect x="640" y="30" width="40" height="20"/>
+</svg>

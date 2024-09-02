@@ -1,0 +1,30 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="160" y="140" width="200" height="180" fill="#7F9A7E" stroke="black"/>
+  <ellipse cx="250" cy="300" rx="100" ry="50" fill="#7F9A7E" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="250" cy="240" r="60" fill="#FFF08C" stroke="black"/>
+  <path d="M230,180 Q250,140 270,180 T300,240 Z" fill="#FFF08C"/>
+
+  <!-- Legs -->
+  <rect x="190" y="360" width="40" height="120" fill="#7F9A7E"/>
+  <rect x="310" y="360" width="40" height="120" fill="#7F9A7E"/>
+
+  <!-- Arms -->
+  <ellipse cx="180" cy="260" rx="50" ry="20" fill="#7F9A7E"/>
+  <ellipse cx="320" cy="260" rx="50" ry="20" fill="#7F9A7E"/>
+
+  <!-- Tail -->
+  <path d="M140,380 Q180,420 220,380 T260,320 Z" fill="#7F9A7E"/>
+
+  <!-- Eyes -->
+  <circle cx="220" cy="220" r="15" fill="black"/>
+  <circle cx="280" cy="220" r="15" fill="black"/>
+
+  <!-- Nostrils -->
+  <path d="M240,230 Q235,225 245,225 Q250,230 Z" fill="black"/>
+  <path d="M260,230 Q255,225 265,225 Q270,230 Z" fill="black"/>
+
+</svg>

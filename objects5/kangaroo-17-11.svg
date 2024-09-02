@@ -1,0 +1,13 @@
+<svg viewBox="0 0 150 200">
+  <!-- Ancient Egypt -->
+  <path fill="gold" d="M10 30 Q20 5, 40 30"/>
+
+  <!-- Renaissance -->
+  <path fill="saddlebrown" d="M50 20 Q60 10, 70 20 Q80 40, 90 30 Q90 20, 100 10"/>
+
+  <!-- Art Nouveau -->
+  <path stroke="black" fill="none" d="M10 70 Q20 60, 30 70 Q40 80, 50 70"/>
+
+  <!-- Pop Art -->
+  <rect fill="hotpink" width="50" height="80"/>
+</svg>

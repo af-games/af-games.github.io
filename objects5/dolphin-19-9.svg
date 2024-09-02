@@ -1,0 +1,28 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define patterns -->
+  <defs>
+    <pattern id="waterPattern" patternUnits="userSpaceOnUse" width="60" height="10">
+      <path d="M0,0 Q30,5 60,0 H60 V10 H0 Z" fill="lightblue"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="url(#waterPattern)" />
+
+  <!-- Dolphins -->
+  <g id="dolphins">
+    <circle cx="75" cy="100" r="50" fill="#3399FF"/>
+    <ellipse cx="75" cy="60" rx="25" ry="40" fill="#3399FF"/>
+    <path d="M75,150 Q85,120 95,150 H95 V160 H75 Z" fill="#3399FF"/>
+
+    <!-- Repeat dolphins -->
+    <use xlink:href="#dolphins" transform="translate(140,0)"/>
+    <use xlink:href="#dolphins" transform="translate(280,0)"/>
+  </g>
+
+  <!-- Connecting paths (waves) -->
+  <path d="M75,160 Q100,180 140,160" stroke="#3399FF" fill="transparent"/>
+  <path d="M215,160 Q240,180 280,160" stroke="#3399FF" fill="transparent"/>
+
+</svg>

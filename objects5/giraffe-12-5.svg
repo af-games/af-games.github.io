@@ -1,0 +1,21 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect id="body" x="150" y="100" width="200" height="400" fill="#A9A9A9"/>
+
+  <!-- Head and Neck -->
+  <circle id="head" cx="225" cy="175" r="75" fill="#636363"/>
+  <rect id="neck" x="180" y="250" width="60" height="150" fill="#A9A9A9"/>
+
+  <!-- Legs -->
+  <g id="legs">
+    <!-- Front Legs -->
+    <rect id="front_leg1" x="170" y="400" width="20" height="80" fill="#636363"/>
+    <rect id="front_leg2" x="290" y="400" width="20" height="80" fill="#636363"/>
+
+    <!-- Back Legs -->
+    <rect id="back_leg1" x="170" y="550" width="20" height="80" fill="#636363"/>
+    <rect id="back_leg2" x="290" y="550" width="20" height="80" fill="#636363"/>
+  </g>
+
+</svg>

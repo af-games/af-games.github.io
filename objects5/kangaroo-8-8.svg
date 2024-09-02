@@ -1,0 +1,22 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="250" cy="300" rx="180" ry="160" fill="brown"/>
+  <circle cx="250" cy="340" r="70" fill="saddlebrown"/>
+
+  <!-- Head -->
+  <ellipse cx="220" cy="240" rx="80" ry="90" fill="saddlebrown"/>
+  <path d="M215,215 Q230,200 245,215 H260 Q275,200 290,215 V240 Z" fill="brown"/>
+
+  <!-- Arms -->
+  <rect x="180" y="250" width="30" height="100" rx="15" fill="brown"/>
+  <rect x="270" y="250" width="30" height="100" rx="15" fill="brown"/>
+
+  <!-- Legs -->
+  <path d="M180,410 Q190,460 210,490 H300 Q290,460 270,410 Z" fill="brown"/>
+  <path d="M350,410 Q340,460 330,490 H400 Q390,460 370,410 Z" fill="brown"/>
+
+  <!-- Tail -->
+  <rect x="220" y="480" width="60" height="50" rx="25" fill="brown"/>
+
+</svg>

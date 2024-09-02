@@ -1,0 +1,44 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="400" height="300" fill="#E8D5B1"/>
+
+<!-- Left Wall -->
+<rect x="60" y="90" width="120" height="170" fill="#8B7D6C"/>
+<!-- Right Wall -->
+<rect x="240" y="90" width="120" height="170" fill="#8B7D6C"/>
+
+<!-- Left Tower -->
+<polygon points="65,30 170,30 120,100" fill="#8B7D6C"/>
+<!-- Right Tower -->
+<polygon points="255,30 360,30 300,100" fill="#8B7D6C"/>
+
+<!-- Gatehouse -->
+<rect x="120" y="250" width="160" height="100" fill="#8B7D6C"/>
+<!-- Left Door -->
+<rect x="130" y="300" width="40" height="70" fill="#8B7D6C"/>
+<!-- Right Door -->
+<rect x="250" y="300" width="40" height="70" fill="#8B7D6C"/>
+
+<!-- Windows -->
+
+<!-- Left Tower Windows -->
+<rect x="65" y="65" width="10" height="30" fill="#FFFFFF"/>
+<rect x="130" y="65" width="10" height="30" fill="#FFFFFF"/>
+<rect x="200" y="65" width="10" height="30" fill="#FFFFFF"/>
+<rect x="65" y="90" width="10" height="30" fill="#FFFFFF"/>
+<rect x="130" y="90" width="10" height="30" fill="#FFFFFF"/>
+<rect x="200" y="90" width="10" height="30" fill="#FFFFFF"/>
+
+<!-- Right Tower Windows -->
+<rect x="255" y="65" width="10" height="30" fill="#FFFFFF"/>
+<rect x="320" y="65" width="10" height="30" fill="#FFFFFF"/>
+<rect x="400" y="65" width="10" height="30" fill="#FFFFFF"/>
+<rect x="255" y="90" width="10" height="30" fill="#FFFFFF"/>
+<rect x="320" y="90" width="10" height="30" fill="#FFFFFF"/>
+<rect x="400" y="90" width="10" height="30" fill="#FFFFFF"/>
+
+<!-- Wall Windows -->
+<!-- ... Add wall windows here with a step of 10 units -->
+
+</svg>

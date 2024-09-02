@@ -1,0 +1,30 @@
+<svg width="800" height="1200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sleeves (Circles) -->
+  <circle id="sleeve-left" cx="50" cy="700" r="120" fill="url(#hot-air)" />
+  <circle id="sleeve-right" cx="750" cy="700" r="120" fill="url(#hot-air)" />
+
+  <!-- Bodice (Rectangle) -->
+  <rect id="bodice" x="80" y="450" width="640" height="500"
+    style="fill: url(#balloon-basket); stroke: black; stroke-width: 2;" />
+
+  <!-- Balloon Basket (Triangle) -->
+  <polygon id="basket" points="380,150 820,150 600,400"
+    style="fill: url(#balloon-basket); stroke: black; stroke-width: 2;" />
+
+  <!-- Straps (Lines) -->
+  <line id="strap-left" x1="50" y1="700" x2="80" y2="450" stroke="black" stroke-width="2"/>
+  <line id="strap-right" x1="750" y1="700" x2="640" y2="450" stroke="black" stroke-width="2"/>
+
+  <!-- Gradients and Patterns -->
+  <defs>
+    <radialGradient id="hot-air" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(241,196,15);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(238,172,10);stop-opacity:1" />
+    </radialGradient>
+    <pattern id="balloon-basket" patternUnits="userSpaceOnUse" width="40" height="40">
+      <image href="https://i.imgur.com/NdVQYxT.png" x="0" y="0" width="40" height="40"/>
+    </pattern>
+  </defs>
+
+</svg>

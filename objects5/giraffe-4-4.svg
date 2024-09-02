@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E5F2E7"/>
+
+  <!-- Rolling Hills -->
+  <path d="M0,40 Q80,60 160,40 Q320,100 400,80 Q480,120 640,100 Q800,70 960,50 H1000 V600 H0 Z" fill="#CBD8B2" stroke-width="0"/>
+
+  <!-- River -->
+  <path d="M300,160 C400,140 500,180 600,170 700,190 800,150 900,160 H1000 V280 Q950,320 900,340 C850,360 800,320 700,340 Z" fill="#AEC6C8" stroke-width="0"/>
+
+  <!-- Trees -->
+  <g transform="translate(150,30)">
+    <circle cx="50" cy="50" r="50" fill="#3D9970"/>
+    <path d="M25,50 Q50,100 75,50 L100,0 Z" stroke="#8B4513" fill="#8B4513" stroke-width="2"/>
+  </g>
+  <use xlink:href="#tree" transform="translate(250,50) rotate(30)" />
+  <use xlink:href="#tree" transform="translate(400,70) rotate(-30)" />
+
+  <!-- Giraffe -->
+  <g transform="translate(600,180)">
+    <path d="M200,50 L200,250 C250,300 300,350 350,400 Q400,450 450,500 Z" fill="#FFCDB2"/>
+    <path d="M150,250 L250,350 Z" stroke="#6D4C41" fill="transparent" stroke-width="2"/>
+    <!-- Add more giraffe details (legs, head, spots) here -->
+  </g>
+
+</svg>

@@ -1,0 +1,48 @@
+<svg width="100%" height="100%" viewBox="0 0 800 600">
+```
+
+**Day 2:**
+
+Gathered resources:
+- A `<circle>` for the head.
+- Two `<ellipse>` shapes for the ears.
+- An `<ellipse>` for the body.
+- Two `<rect>` shapes for the arms and legs.
+- An `<ellipse>` for the pouch.
+
+```svg
+<circle cx="300" cy="150" r="80" fill="#F9A75D"/>
+<ellipse cx="240" cy="130" rx="40" ry="60" fill="#F9A75D"/>
+<ellipse cx="360" cy="130" rx="40" ry="60" fill="#F9A75D"/>
+<ellipse cx="300" cy="280" rx="180" ry="240" fill="#F9A75D"/>
+<rect x="250" y="200" width="50" height="200" fill="#F9A75D"/>
+<rect x="350" y="200" width="50" height="200" fill="#F9A75D"/>
+<ellipse cx="300" cy="450" rx="80" ry="120" fill="#9AC6C9"/>
+```
+
+**Day 3:**
+
+Marked our path with `<path>` elements for the legs and tail.
+
+```svg
+<path d="M250,200 Q270,300 290,200 L290,400" stroke="#8B4513" fill="transparent"/>
+<path d="M350,200 Q330,300 310,200 L310,400" stroke="#8B4513" fill="transparent"/>
+<path d="M300,450 Q290,550 310,550 Q330,550 320,450" stroke="#8B4513" fill="transparent"/>
+```
+
+**Day 4:**
+
+Added final touches with eyes and highlights.
+
+```svg
+<circle cx="290" cy="140" r="20" fill="black"/>
+<circle cx="310" cy="140" r="20" fill="black"/>
+<path d="M250,180 Q270,220 290,180 L290,250" stroke="#F39C12" fill="transparent"/>
+```
+
+**Day 5:**
+
+Closed the SVG map.
+
+```svg
+</svg>

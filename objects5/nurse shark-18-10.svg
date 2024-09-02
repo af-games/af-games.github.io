@@ -1,0 +1,22 @@
+<svg width="600px" height="400px" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background grass -->
+  <rect x="0" y="300" width="600" height="100" fill="#8DC63A"/>
+
+  <!-- Sunlight (yellow) circles - Roses -->
+  <circle cx="50" cy="200" r="40" fill="#FFF700"/>
+  <circle cx="150" cy="250" r="30" fill="#FFF700"/>
+  <circle cx="280" cy="180" r="45" fill="#FFF700"/>
+
+  <!-- Shade (blue) ellipses - Daisies -->
+  <ellipse cx="90" cy="220" rx="35" ry="45" fill="#6A5ACD"/>
+  <ellipse cx="180" cy="140" rx="40" ry="30" fill="#6A5ACD"/>
+
+  <!-- Paths - Tulips -->
+  <path d="M320,280 Q340,320 370,280" stroke="#FF4500" fill="transparent"/>
+  <path d="M410,220 Q430,260 460,220" stroke="#FF4500" fill="transparent"/>
+
+  <!-- Shade for depth (dark green) -->
+  <rect x="0" y="350" width="600" height="50" fill="#1F7A19"/>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+
+  <!-- Cake Body -->
+  <ellipse cx="200" cy="250" rx="180" ry="160"
+           fill="#FDD79A">
+    <animate attributeName="fill-opacity"
+             values="1;0.8;1" dur="1s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Frosting -->
+  <rect x="50" y="230" width="300" height="70"
+        fill="#FFF5EE">
+    <animate attributeName="fill-opacity"
+             values="1;0.8;1" dur="1s"
+             repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Candles -->
+  <circle cx="130" cy="90" r="40" fill="#F5DEB3">
+    <animate attributeName="cy"
+             values="90;70;90" dur="2s"
+             repeatCount="indefinite"/>
+  </circle>
+  <circle cx="260" cy="90" r="40" fill="#F5DEB3">
+    <animate attributeName="cy"
+             values="90;70;90" dur="2s"
+             repeatCount="indefinite"/>
+  </circle>
+
+</svg>

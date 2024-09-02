@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" style="background-color: #000;">
+
+  <!-- Igloo Dome -->
+  <path id="iglooDome" d="M200,100 a100,100 0 1,0 -200,0 a100,100 0 1,0 200,0 z"
+        fill="#fff" stroke="none"/>
+
+  <!-- Igloo Entrance -->
+  <path id="iglooEntrance" d="M180,240 h40 v60 h-40 z"
+        fill="#000" stroke="none"/>
+
+  <!-- Snowman (Optional addition) -->
+  <g id="snowman">
+    <circle cx="300" cy="250" r="50" fill="#fff"/>
+    <circle cx="300" cy="180" r="40" fill="#fff"/>
+    <circle cx="300" cy="110" r="30" fill="#fff"/>
+    <rect x="290" y="75" width="20" height="60" rx="5" ry="5" fill="#000"/>
+  </g>
+
+</svg>

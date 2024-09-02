@@ -1,0 +1,61 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define jellyfish styles -->
+  <style>
+    .jellyfish {
+      fill: black;
+      stroke: none;
+    }
+    .bell {
+      rx: 50%;
+    }
+    .tentacle {
+      stroke-width: 10;
+    }
+  </style>
+
+  <!-- First jellyfish -->
+  <g id="jellyfish1" transform="translate(200,300)">
+    <ellipse class="bell jellyfish" cx="50" cy="50" rx="40" ry="80"/>
+    <path class="tentacle jellyfish" d="M50,70 Q60,10 90,70" transform="rotate(-45)" />
+    <!-- Add more tentacles here if desired -->
+
+    <!-- Animation: move and rotate -->
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="0,0"
+      to="200,300"
+      dur="5s"
+      repeatCount="indefinite" />
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 50 50"
+      to="360 50 50"
+      dur="10s"
+      repeatCount="indefinite" />
+  </g>
+
+  <!-- Second jellyfish -->
+  <g id="jellyfish2" transform="translate(400,400)">
+    <ellipse class="bell jellyfish" cx="50" cy="50" rx="30" ry="70"/>
+    <path class="tentacle jellyfish" d="M50,70 Q60,120 90,70" transform="rotate(45)" />
+    <!-- Add more tentacles here if desired -->
+
+    <!-- Animation: move and scale -->
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="0,0"
+      to="400,400"
+      dur="6s"
+      repeatCount="indefinite" />
+    <animateTransform
+      attributeName="transform"
+      type="scale"
+      from="1 1"
+      to="0.8 0.8"
+      dur="8s"
+      repeatCount="indefinite" />
+  </g>
+</svg>

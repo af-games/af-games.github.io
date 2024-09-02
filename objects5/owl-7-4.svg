@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#EAE7DC"/>
+
+  <!-- Landmarks and Boundaries -->
+
+  <!-- Owl's Peak -->
+  <polygon points="150,20 450,20 450,300 150,300" fill="#C6996D" stroke="black"/>
+  <circle cx="300" cy="150" r="50" fill="#C6996D"/>
+
+  <!-- Whispering Woods -->
+  <path d="M550,20 Q700,100 800,200 Q550,350 400,300" fill="#5CAB5C"/>
+  <circle cx="650" cy="165" r="30" fill="#5CAB5C"/>
+
+  <!-- Serpent's River -->
+  <path d="M150,300 Q250,400 400,500 Q550,400 700,300" stroke="#6D8DC6" stroke-width="5"/>
+
+  <!-- Roads -->
+
+  <!-- Main Road -->
+  <path d="M150,500 Q250,450 400,500 Q550,550 700,500" stroke="#B86DAB" stroke-width="3"/>
+
+  <!-- Points of Interest -->
+
+  <!-- Ancient Owl Statue -->
+  <circle cx="350" cy="250" r="40" fill="#A9A9A9"/>
+  <text x="340" y="275" font-family="Verdana" font-size="12">Ancient Owl Statue</text>
+
+</svg>

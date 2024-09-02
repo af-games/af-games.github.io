@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(135,206,250);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Skyward Rivers -->
+  <path d="M80 40 Q320 20, 600 40 Q780 60, 580 90 Q400 120, 220 90 Q100 60, 80 40" stroke="blue" fill="transparent"/>
+
+  <!-- Floating Islands -->
+  <circle cx="120" cy="300" r="70" fill="#FFFDD0"/>
+  <circle cx="500" cy="450" r="60" fill="#FFFDD0"/>
+  <circle cx="720" cy="280" r="50" fill="#FFFDD0"/>
+
+  <!-- Mountains -->
+  <polygon points="100,300 250,150 400,300" stroke="black" fill="#DCDCDC"/>
+  <polygon points="600,150 750,300 800,150" stroke="black" fill="#DCDCDC"/>
+
+  <!-- Forests -->
+  <rect x="200" y="350" width="200" height="200" style="fill:green"/>
+  <rect x="450" y="280" width="150" height="180" style="fill:green"/>
+
+  <!-- Novum Aetheria -->
+  <circle cx="350" cy="350" r="100" fill="#FFD700"/>
+  <text x="340" y="360" font-family="Verdana" font-size="20">Novum<br>Aetheria</text>
+
+  <!-- Hot Air Balloons -->
+  <circle cx="350" cy="150" r="30" fill="#FF7F27"/>
+  <path d="M350,180 Q340,230 360,230 Q370,280 350,330" stroke="#FF7F27" fill="transparent"/>
+
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Mermaid body -->
+  <path d="M250 100 Q270 50, 290 100 Q310 50, 330 100" fill="#B3E5FC"/>
+  <path d="M330 100 Q350 150, 370 100 Q390 150, 410 100" fill="#1F456C"/>
+
+  <!-- Hair-tail -->
+  <polyline points="290,480 310,500 330,480 350,500 370,480 390,500" fill="none" stroke="#1F456C"/>
+  <path d="M290,480 Q310,520, 330,480 Q350,520, 370,480 Q390,520, 410,480" fill="#1F456C"/>
+
+  <!-- Rock -->
+  <rect x="100" y="400" width="300" height="100" rx="50" fill="#8DC63C"/>
+  <circle cx="200" cy="475" r="30" fill="#8DC63C"/>
+  <circle cx="300" cy="475" r="30" fill="#8DC63C"/>
+
+  <!-- Eyes -->
+  <circle cx="230" cy="150" r="15" fill="#FFF">
+    <circle cx="230" cy="150" r="5" fill="#000"/>
+  </circle>
+  <circle cx="370" cy="150" r="15" fill="#FFF">
+    <circle cx="370" cy="150" r="5" fill="#000"/>
+  </circle>
+</svg>

@@ -1,0 +1,30 @@
+<svg width="180" height="240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Onyx background -->
+  <rect x="0" y="0" width="180" height="240" fill="#3A3B3C"/>
+  <path d="M90,60 Q150,10 170,80 Q150,150 90,220 Q30,150 10,80 Q30,10 90,60" fill="#E3DAC9"/>
+  <path d="M45,105 L75,125 Z" stroke="#707070" fill="#707070"/>
+
+  <!-- Eyes -->
+  <circle cx="120" cy="90" r="8" fill="#E9A63B"/>
+  <circle cx="140" cy="105" r="8" fill="#E9A63B"/>
+  <path d="M120,70 Q140,60 140,80 Q120,100 120,120" stroke="#4A3C32" fill="transparent"/>
+
+  <!-- Body outline -->
+  <polyline points="90,60 150,10 170,80 150,150 90,220 30,150 10,80 30,10" stroke="#B4F7DF" fill="transparent"/>
+
+  <!-- Wings & tail feathers -->
+  <pattern id="feathers" patternUnits="userSpaceOnUse" width="6" height="1">
+    <rect width="3" height="1" fill="#5D8AA8"/>
+    <rect x="3" width="3" height="1" fill="#4F9BC2"/>
+  </pattern>
+  <path d="M70,50 Q100,80 140,80 Q160,50 170,20 Z" fill="url(#feathers)"/>
+
+  <!-- Breast feathers -->
+  <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#E8D573"/>
+    <stop offset="50%" style="stop-color:#9DC1B4"/>
+    <stop offset="100%" style="stop-color:#6A5ACD"/>
+  </linearGradient>
+  <polygon points="75,120 95,135 115,135 135,120" fill="url(#gradient)"/>
+
+</svg>

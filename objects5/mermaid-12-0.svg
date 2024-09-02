@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Tail -->
+  <path d="M-80,-70 Q-60,-40 0,-90 Q60,-120 80,-70 Z" fill="#80CBC4"/>
+
+  <!-- Torso & Arms -->
+  <ellipse cx="50" cy="-30" rx="50" ry="80" fill="#80CBC4"/>
+  <circle cx="-60" cy="-90" r="30" fill="#80CBC4"/>
+  <circle cx="120" cy="-30" r="30" fill="#80CBC4"/>
+
+  <!-- Head & Hair -->
+  <ellipse cx="50" cy="-130" rx="60" ry="80" fill="#80CBC4"/>
+  <path d="M-20,-170 Q40,-190 110,-170 Q160,-190 190,-170 Z" stroke="#257F69" fill="transparent"/>
+
+  <!-- Face -->
+  <ellipse cx="-30" cy="-150" rx="10" ry="8" fill="black"/>
+  <ellipse cx="70" cy="-150" rx="10" ry="8" fill="black"/>
+  <polygon points="-40,-160, -20,-140, -40,-120" fill="black"/>
+  <path d="M-30,-170 Q0,-155 30,-170 Z" stroke="black" fill="transparent"/>
+
+  <!-- Fin -->
+  <polygon points="-80,-190, -40,-210, 0,-190" fill="#A51D57"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <!-- Body -->
+    <circle cx="100" cy="140" r="25" fill="#FFF0E6"/>
+
+    <!-- Head -->
+    <circle cx="100" cy="95" r="20" fill="#FFF0E6"/>
+
+    <!-- Hair -->
+    <path d="M80 70 Q90 50, 100 40 Q110 50, 90 70" stroke="#8B4513" fill="transparent" stroke-width="2"/>
+
+    <!-- Wings -->
+    <circle cx="80" cy="70" r="35" stroke="#E7C9F5" fill="transparent" stroke-width="2"/>
+    <circle cx="120" cy="70" r="35" stroke="#E7C9F5" fill="transparent" stroke-width="2"/>
+
+    <!-- Dress -->
+    <rect x="70" y="120" width="60" height="40" rx="5" ry="5" fill="#E7C9F5"/>
+
+    <!-- Mushroom stalk -->
+    <circle cx="100" cy="180" r="15" fill="#9ACD32"/>
+
+    <!-- Mushroom cap -->
+    <ellipse cx="100" cy="160" rx="40" ry="60" fill="#E7C9F5"/>
+</svg>

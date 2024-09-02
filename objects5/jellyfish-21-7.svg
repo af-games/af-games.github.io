@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#0D47A1"/>
+
+  <!-- Mountains -->
+  <polygon points="50,200 150,100 350,200" style="fill:#9C27B0"/>
+  <text x="90" y="220" fill="white">Mount Gelatinia</text>
+
+  <!-- Rivers -->
+  <path d="M400,200 Q550,100 700,200" stroke="#4CAF50" fill="transparent"/>
+  <text x="600" y="180" fill="white">Jellyfish Rivers</text>
+
+  <!-- Jellyfish Lagoon -->
+  <circle cx="350" cy="400" r="120" style="fill:radial-gradient(circle at 50% 50%, #FF6F00, #FFF1E6)"/>
+  <text x="350" y="370" fill="#FF6F00">Jellyfish Lagoon</text>
+
+  <!-- Forest -->
+  <rect width="200" height="200" x="400" y="300" style="fill:#1B9C85"/>
+  <text x="550" y="370" fill="white">Glowwood Forest</text>
+
+  <!-- City -->
+  <polygon points="600,200 700,100 700,400" style="fill:#FFC107"/>
+  <text x="650" y="300" fill="#212F3D">Lumen City</text>
+
+  <!-- Jellyfish -->
+  <circle cx="370" cy="380" r="40" style="fill:radial-gradient(circle at 50% 50%, #FF6F00, #FFF1E6)"/>
+  <circle cx="390" cy="350" r="30" style="fill:#2196F3"/>
+
+</svg>

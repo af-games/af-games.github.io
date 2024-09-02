@@ -1,0 +1,46 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background gradient -->
+<defs>
+  <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(135,206,250);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+  </linearGradient>
+</defs>
+
+<rect width="800" height="600" fill="url(#bgGradient)" />
+
+<!-- Rolling hills -->
+<path d="M100 400 Q200 350 350 400 Q500 450 700 400 Q800 300 900 400" fill="green" stroke="none"/>
+<path d="M100 420 Q200 370 350 420 Q500 470 700 420 Q800 320 900 420" fill="lightgreen" stroke="none"/>
+
+<!-- Winding river -->
+<path d="M100 550 C200 600, 400 550, 600 600 S800 500, 900 550" fill="blue" stroke="none"/>
+
+<!-- Towering trees -->
+<circle cx="150" cy="250" r="30" fill="#4F7D2B"/>
+<circle cx="250" cy="280" r="35" fill="#4F7D2B"/>
+<circle cx="650" cy="220" r="40" fill="#4F7D2B"/>
+<circle cx="750" cy="240" r="35" fill="#4F7D2B"/>
+
+<!-- Giraffe -->
+<g transform="translate(450, 150) scale(0.8)">
+  <rect width="100%" height="60%" fill="#D9A742"/>
+  <path d="M0 0 Q50 50, 100 0" stroke="#D9A742" fill="none"/>
+
+  <!-- Giraffe's head -->
+  <circle cx="50" cy="-80" r="30" fill="#FCD116"/>
+  <path d="M0 -80 Q50 -10, 100 -80" stroke="#FCD116" fill="none"/>
+
+  <!-- Giraffe's spots -->
+  <circle cx="20" cy="-40" r="10" fill="#796E3D"/>
+  <circle cx="80" cy="-50" r="10" fill="#796E3D"/>
+</g>
+
+<!-- Textures -->
+<pattern id="grassTexture" patternUnits="userSpaceOnUse">
+  <image href="https://via.placeholder.com/10x10" x="0" y="0" width="2" height="2" />
+</pattern>
+<path d="M0 570 Q800 630, 900 570" fill="url(#grassTexture)" stroke="none"/>
+
+</svg>

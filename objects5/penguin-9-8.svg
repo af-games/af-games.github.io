@@ -1,0 +1,45 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E6F7FF"/>
+
+  <!-- Body -->
+  <g transform="translate(50, 70)">
+    <clipPath id="bodyClip">
+      <path d="M20 40 Q50 80, 80 40"/>
+    </clipPath>
+    <g clip-path="url(#bodyClip)">
+      <rect width="160" height="80" fill="#191970"/>
+      <linearGradient id="bodyGradient" gradientUnits="objectBoundingBox">
+        <stop offset="0%" stop-color="#2F4F4F"/>
+        <stop offset="100%" stop-color="#191970"/>
+      </linearGradient>
+      <rect width="160" height="80" fill="url(#bodyGradient)"/>
+    </g>
+  </g>
+
+  <!-- Head -->
+  <circle cx="100" cy="35" r="25">
+    <linearGradient id="headGradient" gradientUnits="objectBoundingBox">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#696969"/>
+    </linearGradient>
+    <radialGradient id="headRadial" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFF"/>
+      <stop offset="100%" stop-color="#696969"/>
+    </radialGradient>
+    <mask id="headMask">
+      <circle cx="100" cy="35" r="25" fill="#FFF"/>
+      <circle cx="100" cy="35" r="7.5" fill="#000"/>
+    </mask>
+    <g mask="url(#headMask)">
+      <circle cx="100" cy="35" r="25" fill="url(#headGradient)"/>
+      <circle cx="100" cy="35" r="7.5" fill="url(#headRadial)"/>
+    </g>
+  </circle>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="20" r="5" fill="#FFF"/>
+  <circle cx="115" cy="20" r="5" fill="#FFF"/>
+
+</svg>

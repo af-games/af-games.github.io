@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 150">
+  <!-- Head -->
+  <circle cx="50" cy="75" r="40"/>
+
+  <!-- Body -->
+  <ellipse cx="50" cy="110" rx="35" ry="60"/>
+
+  <!-- Ears -->
+  <path d="M20,60 l20,-30 z"/>
+  <path d="M80,60 l-20,-30 z"/>
+
+  <!-- Arms and Legs -->
+  <rect x="10" y="95" width="20" height="40"/> <!-- Front left arm -->
+  <rect x="70" y="95" width="20" height="40"/> <!-- Front right arm -->
+  <rect x="25" y="130" width="15" height="60"/> <!-- Back left leg -->
+  <rect x="65" y="130" width="15" height="60"/> <!-- Back right leg -->
+
+  <!-- Tail -->
+  <rect x="45" y="150" width="10" height="70"/>
+</svg>

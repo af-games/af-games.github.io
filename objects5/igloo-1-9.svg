@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+
+  <!-- Scene 1: The Quiet Life -->
+  <circle id="igloo" cx="0" cy="0" r="50" fill="#E5F5E0"/>
+  <text x="-20" y="80">Igloo lived a quiet life, nestled in the snow.</text>
+  <rect width="300" height="300" fill="#FFFFFF"/>
+  <path d="M-100,-50 Q-50,-100 -100,-150" stroke="#AEEEEE" fill="transparent"/>
+
+  <!-- Scene 2: Decision Time -->
+  <circle cx="0" cy="0" r="30" fill="#FFAAAA"/>
+  <text x="-40" y="60">One day, Igloo saw a beautiful sunset.</text>
+  <text x="15" y="80">He decided to venture out and explore the world.</text>
+
+  <!-- Scene 3: Journey Begins -->
+  <path d="M0,-100 Q-50,-50 -100,0" stroke="#FFBBBB" fill="transparent"/>
+  <text x="-80" y="-20">Igloo slid down the hill, leaving home behind.</text>
+
+  <!-- Scene 4: Meeting New Friends -->
+  <rect id="snowman" x="50" y="-150" width="30" height="70" fill="#F5DEB3"/>
+  <polygon id="penguin" points="60,-180,90,-150,60,-120" fill="#000000"/>
+  <text x="45" y="-130">Igloo met Snowman and Penguin along the way.</text>
+
+  <!-- Scene 5: Challenges Ahead -->
+  <path id="river" d="M-100,-80 Q-50,20 -100,70" stroke="#0000FF" fill="transparent"/>
+  <text x="-80" y="-60">Soon, they faced a raging river.</text>
+
+  <!-- Scene 6: Teamwork -->
+  <use href="#igloo" x="-50" y="-120" fill="#CCCCCC"/>
+  <use href="#snowman" x="30" y="-140"/>
+  <use href="#penguin" x="70" y="-160"/>
+  <path d="M-50,-120 Q-20,10 -50,40" stroke="#FFBBBB" fill="transparent"/>
+  <text x="-30" y="-80">Together, they crossed the river.</text>
+
+  <!-- Scene 7: Homecoming -->
+  <use href="#igloo" x="0" y="-20"/>
+  <path d="M100,-50 Q50,-100 100,-150" stroke="#AEEEEE" fill="transparent"/>
+  <text x="80" y="-60">Igloo returned home, filled with memories of his adventure.</text>
+
+</svg>

@@ -1,0 +1,47 @@
+<svg width="600" height="450" xmlns="http://www.w3.org/2000/svg" style="font-family:Arial;">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="450" fill="#FFF1E6"/>
+
+  <!-- Igloo (star ingredient) -->
+  <path d="M270,50 A180,180 0 1,0 390,50 A180,180 0 1,0 270,230 Z" fill="#FBB45C"/>
+  <circle cx="330" cy="160" r="60" fill="#ECE1D8"/>
+
+  <!-- Snow on igloo -->
+  <path d="M290,100 Q310,70 330,100 Q350,70 370,100 Z" fill="url(#snowGradient)" stroke-width="0"/>
+
+  <!-- Tableware: Plate -->
+  <circle cx="450" cy="210" r="180" fill="#FFFACD"/>
+  <circle cx="450" cy="210" r="160" stroke="#FFC93C" stroke-width="2"/>
+
+  <!-- Ingredients: Snowman -->
+  <circle cx="400" cy="180" r="50" fill="#FFFACD"/>
+  <path d="M370,130 L350,160 L390,160 Z" fill="black"/>
+  <circle cx="380" cy="145" r="5" fill="black"/>
+
+  <!-- Ingredients: Hot chocolate -->
+  <path d="M350,270 Q375,290 400,270 Q425,290 450,270 Z" stroke="#8B4513" stroke-width="10"/>
+  <path d="M350,270 Q375,290 400,270 Q425,290 450,270 Z" fill="url(#chocolateGradient)" stroke-width="0"/>
+
+  <!-- Utensils: Spoon -->
+  <path d="M480,190 Q490,160 500,190 Q510,160 520,190 Z" fill="#CACFD2"/>
+  <path d="M520,210 L470,280 Z" stroke="#CACFD2" stroke-width="5"/>
+
+  <!-- Garnish: Sprinkles -->
+  <circle cx="430" cy="240" r="5" fill="#FFC93C"/>
+  <circle cx="460" cy="240" r="5" fill="#FFC93C"/>
+  <circle cx="410" cy="225" r="5" fill="#FFC93C"/>
+
+  <!-- Defining gradients -->
+  <defs>
+    <linearGradient id="snowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(238,238,238);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="chocolateGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(147,69,21);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(138,55,18);stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+</svg>

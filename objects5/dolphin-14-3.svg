@@ -1,0 +1,35 @@
+<svg width="100%" height="100%" viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="960" height="600" fill="#E8F5E9"/>
+
+  <!-- Dolphin-shaped Buildings -->
+
+  <!-- Building 1 -->
+  <path d="M100 200 Q300 100, 400 200 Q100 300, 100 200" fill="#8DC63C"/>
+  <polygon points="90 270, 150 320, 220 360, 270 410, 320 360, 370 320, 430 270" fill="#8DC63C"/>
+  <circle cx="400" cy="250" r="30" fill="#8DC63C"/>
+
+  <!-- Building 2 -->
+  <path d="M150 400 Q350 500, 550 400 Q150 300, 150 400" fill="#4CAF50"/>
+  <polygon points="140 470, 200 520, 260 570, 320 620, 380 570, 440 520, 500 470" fill="#4CAF50"/>
+  <circle cx="525" cy="450" r="30" fill="#4CAF50"/>
+
+  <!-- Building 3 -->
+  <path d="M600 200 Q800 100, 900 200 Q600 300, 600 200" fill="#2196F3"/>
+  <polygon points="590 270, 650 320, 710 360, 770 410, 820 360, 880 320, 940 270" fill="#2196F3"/>
+  <circle cx="900" cy="250" r="30" fill="#2196F3"/>
+
+  <!-- Roads (Ocean Currents) -->
+  <path d="M100 400 Q200 500, 300 400 Q100 300, 100 400" stroke="#282C34" fill="transparent"/>
+  <path d="M150 600 Q350 700, 550 600 Q150 500, 150 600" stroke="#282C34" fill="transparent"/>
+  <path d="M600 400 Q800 500, 900 400 Q600 300, 600 400" stroke="#282C34" fill="transparent"/>
+
+  <!-- Dolphin Icon -->
+  <g transform="translate(480,570) scale(0.5)">
+    <path d="M190 150 A100 100 0 1 0 190 250 A100 100 0 1 0 190 150 Z" fill="#8DC63C"/>
+    <path d="M170 170 Q140 200, 150 230 Q160 260, 170 290 Q180 260, 190 230 Q200 200, 190 170" stroke="#282C34" fill="transparent"/>
+    <circle cx="190" cy="105" r="25" fill="#FFFFFF"/>
+  </g>
+
+</svg>

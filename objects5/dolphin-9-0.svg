@@ -1,0 +1,27 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="250" cy="200" rx="180" ry="90" fill="#A9A9A9"/>
+
+  <!-- Tail fin -->
+  <polygon points="250,400 350,300 150,300" fill="#A9A9A9"/>
+
+  <!-- Belly -->
+  <ellipse cx="250" cy="280" rx="160" ry="80" fill="#FFF" opacity="0.7"/>
+
+  <!-- Head -->
+  <circle cx="230" cy="140" r="30" fill="#A9A9A9"/>
+
+  <!-- Eye details (left eye) -->
+  <circle cx="225" cy="135" r="5" fill="#FFF"/>
+  <circle cx="225" cy="135" r="2.5" fill="#000"/>
+
+  <!-- Eye details (right eye) -->
+  <circle cx="235" cy="135" r="5" fill="#FFF"/>
+  <circle cx="235" cy="135" r="2.5" fill="#000"/>
+
+  <!-- Fins -->
+  <circle cx="180" cy="170" r="15" fill="#A9A9A9"/>
+  <circle cx="320" cy="170" r="15" fill="#A9A9A9"/>
+
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+<!-- Define patterns -->
+<defs>
+  <pattern id="castleRoof" patternUnits="userSpaceOnUse" width="100" height="50">
+    <polygon points="0,0 100,0 50,50" fill="#8B7D6B"/>
+  </pattern>
+  <pattern id="pathFill" patternUnits="userSpaceOnUse" width="20" height="20">
+    <rect x="0" y="0" width="10" height="10" fill="#5C4338"/>
+    <rect x="10" y="10" width="10" height="10" fill="#5C4338"/>
+  </pattern>
+</defs>
+
+<!-- Castles -->
+<g transform="translate(75, 10)">
+  <polygon points="-25,-50 25,-50 0,0" style="fill: url(#castleRoof); stroke: #FFFFFF; stroke-width: 2;" />
+  <circle cx="0" cy="40" r="30" fill="#8B7D6B"/>
+</g>
+
+<use xlink:href="#castle" x="150"/>
+
+<!-- Paths -->
+<path d="M75,50 Q150,25 225,50" stroke="#5C4338" fill="url(#pathFill)" stroke-width="2"/>
+<path d="M150,190 Q225,210 300,190" stroke="#5C4338" fill="url(#pathFill)" stroke-width="2"/>
+
+<!-- Repeat castles and paths -->
+<g transform="translate(375, 10)">
+  <use xlink:href="#castle"/>
+</g>
+<path d="M375,50 Q450,25 525,50" stroke="#5C4338" fill="url(#pathFill)" stroke-width="2"/>
+
+</svg>

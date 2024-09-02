@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Plate -->
+  <circle cx="400" cy="550" r="350" fill="#FFF5E6" stroke="#FFC97F" stroke-width="10"/>
+
+  <!-- Hot Air Balloon -->
+  <g id="balloon-group" transform="translate(280, 150)">
+    <path d="M40,20 Q10,-30 40,-60 A50,50 0 0 0 -40,-60 Q-10,-30 0,-20 z" fill="#F9A73B"/>
+    <rect width="80" height="120" x="-40" y="-120" rx="20" ry="20" fill="#FFF5E6"/>
+    <circle cx="0" cy="-180" r="20" fill="#FFC97F"/>
+  </g>
+
+  <!-- Accompanying Ingredients -->
+  <rect x="300" y="400" width="200" height="50" fill="#FFF5E6">
+    <text x="150" y="50" font-family="Verdana" font-size="30">Berries</text>
+  </rect>
+  <polygon points="100,400 200,500 300,400" fill="#FFC97F">
+    <text x="150" y="480" font-family="Verdana" font-size="30">Whipped Cream</text>
+  </polygon>
+
+  <!-- Utensils -->
+  <path d="M650,200 Q675,150 700,200 Q675,250 650,300 z" fill="#FFC97F"/>
+  <rect x="640" y="280" width="60" height="80" fill="#FFF5E6"/>
+
+  <!-- Garnishes -->
+  <circle cx="150" cy="400" r="30" fill="#FFC97F"/>
+  <path d="M100,370 Q125,400 150,370 z" fill="#8DC63C"/>
+
+  <!-- Tableware -->
+  <rect x="0" y="580" width="800" height="120" fill="#FFC97F"/>
+  <text x="200" y="640" font-family="Verdana" font-size="36">Bon appétit!</text>
+</svg>

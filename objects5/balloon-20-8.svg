@@ -1,0 +1,21 @@
+<svg width="200px" height="150px" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="150" fill="#FFF" stroke="#CCC" stroke-width="1"/>
+
+  <!-- Balloon body (yellow) -->
+  <path d="M30,40 Q60,10 90,40 Q60,70 30,40" fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+
+  <!-- Balloon string (dark brown) -->
+  <line x1="30" y1="40" x2="30" y2="10" stroke="#3D2B1F" stroke-width="3"/>
+
+  <!-- Balloon knot (brown) -->
+  <circle cx="30" cy="50" r="10" fill="#694E3A"/>
+
+  <!-- Balloon mouth opening (black outline, no fill) -->
+  <path d="M70,42 Q80,45 90,42" stroke="#000" stroke-width="2"/>
+
+  <!-- Balloon lettering (red) -->
+  <text x="65%" y="130" dominant-baseline="middle" text-anchor="middle" font-size="24px" fill="#FF0000">🎈</text>
+
+</svg>

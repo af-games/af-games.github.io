@@ -1,0 +1,15 @@
+<svg width="100%" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Drums (Circles) -->
+  <circle cx="50" cy="40" r="20" fill="#FF6F61" stroke-width="2" stroke="#FFFFFF"/>
+  <circle cx="50" cy="180" r="15" fill="#FF6F61" stroke-width="2" stroke="#FFFFFF"/>
+  <circle cx="50" cy="320" r="10" fill="#FF6F61" stroke-width="2" stroke="#FFFFFF"/>
+
+  <!-- Violins (Rectangles) -->
+  <rect x="150" y="80" width="50" height="80" rx="5" ry="5" fill="#A9CCE3" stroke-width="2" stroke="#FFFFFF"/>
+  <rect x="200" y="140" width="50" height="60" rx="5" ry="5" fill="#A9CCE3" stroke-width="2" stroke="#FFFFFF"/>
+  <rect x="250" y="210" width="50" height="50" rx="5" ry="5" fill="#A9CCE3" stroke-width="2" stroke="#FFFFFF"/>
+
+  <!-- Guitar (Path) -->
+  <path d="M300,40 Q350,80 400,120 Q250,160 300,200 Q350,240 400,280" stroke="#FFD700" fill="transparent" stroke-width="5"/>
+
+</svg>

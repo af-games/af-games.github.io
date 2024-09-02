@@ -1,0 +1,38 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <polygon id="body" points="100,5 180,70 100,140" fill="url(#penguinGradient)" />
+  <use xlink:href="#body" y="60" transform="rotate(180, 100, 75)" fill="white" />
+
+  <!-- Head -->
+  <circle id="head" cx="100" cy="75" r="40" fill="url(#penguinGradient)" />
+  <use xlink:href="#head" y="-35" transform="rotate(180, 100, 60) scale(0.8)" fill="white" />
+
+  <!-- Beak -->
+  <path id="beak" d="M95,70 Q100,65 105,70" stroke="orange" fill="transparent" />
+  <use xlink:href="#beak" y="-35" transform="rotate(180, 100, 60) scale(0.8)" />
+
+  <!-- Eyes -->
+  <circle cx="90" cy="60" r="5" fill="black" />
+  <circle cx="110" cy="60" r="5" fill="black" />
+  <use xlink:href="#body" y="60" transform="rotate(180, 100, 75)" fill="white">
+    <!-- Legs -->
+    <rect width="20" height="60" x="90" y="140" rx="10" ry="10" fill="black" />
+    <use xlink:href="#body" y="60" transform="rotate(180, 100, 75)" fill="white">
+      <!-- Feet -->
+      <path d="M95,200 Q90,210 95,220" stroke="black" fill="transparent" />
+      <use xlink:href="#body" y="60" transform="rotate(180, 100, 75)" fill="white">
+        <path d="M105,200 Q110,210 105,220" stroke="black" fill="transparent" />
+      </use>
+    </use>
+  </use>
+
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:black; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:white; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+</svg>

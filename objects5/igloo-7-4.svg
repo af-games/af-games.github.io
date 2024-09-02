@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Background -->
+<rect x="0" y="0" width="100%" height="50%" fill="#87CEEB"/>
+<rect x="0" y="50%" width="100%" height="50%" fill="#C0C0C0"/>
+
+<!-- Hills -->
+<rect x="20%" y="35%" width="60%" height="40%" fill="url(#hillGradient)" rx="20"/>
+<rect x="40%" y="40%" width="40%" height="30%" fill="url(#hillGradient)" rx="20"/>
+
+<!-- Igloo -->
+<circle cx="50%" cy="65%" r="50" fill="#FFFFFF" stroke="#CCCCCC"/>
+<polygon points="47.5,70 147.5,70 97.5,80 142.5,120 47.5,120" fill="#CCCCCC"/>
+
+<!-- River -->
+<path d="M20%,60% Q40%,50% 60%,60%" stroke="#03A9F4" stroke-width="20" fill="transparent"/>
+<path d="M80%,60% Q100%,50% 120%,60%" stroke="#03A9F4" stroke-width="20" fill="transparent"/>
+
+<!-- Trees -->
+<circle cx="15%" cy="20%" r="30" fill="url(#treeGradient)"/>
+<circle cx="70%" cy="20%" r="30" fill="url(#treeGradient)"/>
+
+<!-- Defining gradients -->
+<defs>
+  <linearGradient id="hillGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(76,187,23);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(215,215,215);stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="treeGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(0,94,38);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(56,81,37);stop-opacity:1"/>
+  </linearGradient>
+</defs>
+
+</svg>

@@ -1,0 +1,8 @@
+<svg width="300" height="300" viewBox="0 0 300 300">
+  <circle cx="150" cy="150" r="50" fill="#ff7f27"/>
+  <circle cx="150" cy="100" r="50" fill="#fff"/>
+  <ellipse cx="150" cy="220" rx="30" ry="40" fill="#ff7f27"/>
+  <rect x="90" y="170" width="60" height="120" fill="#696969"/>
+  <rect x="210" y="170" width="60" height="120" fill="#696969"/>
+  <polygon points="5,10 15,0 25,10" fill="#ff7f27" transform="translate(130, 80) rotate(45)" />
+</svg>

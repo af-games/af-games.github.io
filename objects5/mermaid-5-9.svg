@@ -1,0 +1,38 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <defs>
+    <linearGradient id="ocean-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:darkblue; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#ocean-gradient)" />
+
+  <!-- Seaweed -->
+  <g id="seaweed-pattern">
+    <pattern patternUnits="userSpaceOnUse" width="50" height="50" patternTransform="rotate(45)">
+      <path d="M0,0 L50,50 M0,50 L50,0" stroke="#3d9970" fill="none"/>
+    </pattern>
+    <rect x="100" y="200" width="400" height="200" fill="url(#seaweed-pattern)" />
+  </g>
+
+  <!-- Mermaid's tail -->
+  <g id="tail-pattern">
+    <pattern patternUnits="userSpaceOnUse" width="30" height="30">
+      <image href="scale_pattern.svg" x="0" y="0" width="30" height="30"/>
+    </pattern>
+    <polygon points="250,100 400,150 250,200" fill="url(#tail-pattern)" stroke="#a248ff"/>
+  </g>
+
+  <!-- Mermaid's body -->
+  <circle cx="325" cy="175" r="60" fill="#fff">
+    <animateMotion repeatCount="indefinite">
+      <mpath href="#wave-path"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Accents (textures) -->
+  <image href="texture_pattern.svg" x="280" y="130" width="50" height="50"/>
+
+</svg>

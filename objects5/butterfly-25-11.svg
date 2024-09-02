@@ -1,0 +1,14 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,5 L140,90 Q160,80 170,30 Z"
+        fill="#FFDF00" stroke="#CD7F32"/>
+  <!-- Wings -->
+  <path d="M90,20 Q10,70 90,120 L140,70 Q150,20 100,5"
+        fill="#FFDF00" stroke="#CD7F32"/>
+  <!-- Antennae -->
+  <path d="M105,20 L85,35 L105,50 Z"
+        fill="#FFDF00" stroke="#CD7F32"/>
+  <!-- Facet eyes -->
+  <circle cx="95" cy="40" r="5" fill="#000"/>
+  <circle cx="105" cy="40" r="5" fill="#000"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="200" height="300" viewBox="0 0 100 150" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M50 15 Q75 40, 50 65 Q25 40, 50 15 Z"
+        fill="#fff" stroke="#000" stroke-width="3"/>
+
+  <!-- Head -->
+  <circle cx="50" cy="85" r="25" fill="#fff"/>
+  <path d="M50 70 Q60 90, 40 90 Z"
+        fill="#000" />
+
+  <!-- Arms -->
+  <path d="M30 100 L50 75 L30 50" fill="none" stroke="#000"/>
+  <path d="M70 100 L50 75 L70 50" fill="none" stroke="#000"/>
+
+  <!-- Legs -->
+  <path d="M40 130 Q50 140, 60 130 Z"
+        fill="#fff"/>
+  <path d="M60 130 Q50 140, 40 130 Z"
+        fill="#fff"/>
+
+  <!-- Hair -->
+  <circle cx="45" cy="70" r="20" stroke="#000" stroke-width="3"/>
+  <circle cx="55" cy="70" r="20" stroke="#000" stroke-width="3"/>
+
+</svg>

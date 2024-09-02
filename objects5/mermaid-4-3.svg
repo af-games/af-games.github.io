@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Define coordinate system: -50 to 50 units along both axes -->
+
+  <!-- Ocean -->
+  <path id="ocean" d="M-50,-50 A50,50 0 0 1 50,-50 A50,50 0 0 1 -50,50 Z"
+        fill="lightblue"/>
+
+  <!-- Landmass (mermaid's home) -->
+  <path id="land" d="M-20,-30 Q0,-40 20,-30 Q0,-20 -20,-30 Q-40,-10 -20,-30"
+        fill="green"/>
+
+  <!-- Mountains (represented as triangles) -->
+  <path id="mountain1" d="M-10,-5 L0,5 L-20,-5 Z" fill="grey"/>
+  <path id="mountain2" d="M20,-5 L30,20 L20,-20 Z" fill="grey"/>
+
+  <!-- Waterfalls (represented as curved paths) -->
+  <path id="waterfall1" d="M-40,-10 Q-30,-20 -40,-10" stroke="blue"/>
+  <path id="waterfall2" d="M20,-20 Q10,-15 20,-20" stroke="blue"/>
+
+  <!-- Mermaid's castle -->
+  <polygon id="castle" points="-30,-35 -10,-40 10,-35 30,-40"
+           fill="purple" stroke="black"/>
+</svg>

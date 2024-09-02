@@ -1,0 +1,20 @@
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion Head (Circle) -->
+  <circle cx="150" cy="70" r="60" fill="#FFD700" stroke="#000" stroke-width="2"/>
+
+  <!-- Lion Mane (Path) -->
+  <path d="M140 30 Q170 10, 190 30 Q180 50, 160 70 Q140 50, 130 30" fill="none" stroke="#FFC125" stroke-width="2"/>
+
+  <!-- Meat (Rectangle) -->
+  <rect x="120" y="120" width="80" height="60" fill="#B22222" stroke="#000" stroke-width="2"/>
+
+  <!-- Vegetables (Circles) -->
+  <circle cx="70" cy="170" r="30" fill="#2E8B57" stroke="#000" stroke-width="2"/>
+  <circle cx="240" cy="170" r="30" fill="#2E8B57" stroke="#000" stroke-width="2"/>
+
+  <!-- Spices (Paths) -->
+  <path d="M90 160 Q80 150, 90 140 Q100 150, 90 160" fill="none" stroke="#C36412" stroke-width="1"/>
+  <path d="M220 160 Q230 150, 220 140 Q210 150, 220 160" fill="none" stroke="#C36412" stroke-width="1"/>
+
+</svg>

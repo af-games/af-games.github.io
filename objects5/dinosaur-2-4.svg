@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -100 600 400">
+  <!-- Body -->
+  <g transform="translate(0, -80)">
+    <rect x="100" y="0" width="400" height="200" fill="#7799AA"/>
+    <path d="M100 0 Q300 50, 500 0" stroke-width="5" stroke="#224466" fill="transparent"/>
+  </g>
+
+  <!-- Head -->
+  <g transform="translate(170, -180) rotate(-1)">
+    <circle cx="80" cy="90" r="80" fill="#B3CCD2"/>
+    <path d="M0 170 Q40 50, 80 0 H160 V170 Z" stroke-width="5" stroke="#224466" fill="transparent"/>
+  </g>
+
+  <!-- Tail -->
+  <g transform="translate(550, -30) rotate(-5)">
+    <rect x="0" y="-80" width="200" height="160" fill="#7799AA"/>
+    <path d="M0 80 Q200 150, 400 80" stroke-width="5" stroke="#224466" fill="transparent"/>
+  </g>
+
+  <!-- Leg (left) -->
+  <g transform="translate(130, -200)">
+    <rect x="-50" y="0" width="100" height="200" fill="#7799AA"/>
+    <circle cx="-50" cy="200" r="50" stroke-width="5" stroke="#224466" fill="transparent"/>
+  </g>
+
+  <!-- Leg (right) -->
+  <g transform="translate(330, -200)">
+    <rect x="0" y="0" width="100" height="200" fill="#7799AA"/>
+    <circle cx="50" cy="200" r="50" stroke-width="5" stroke="#224466" fill="transparent"/>
+  </g>
+</svg>

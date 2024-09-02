@@ -1,0 +1,49 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+```
+
+**Step 2: Begin drawing tentative lines and shapes using <path> elements**
+
+Let's start by drawing a simple, tentative outline of our dinosaur. We'll use `<path>` elements for this.
+
+```xml
+<path id="dinosaur-outline" stroke="#000000" fill="transparent" d="M10 200 L40 300 Q60 450 120 450 Q180 300 220 200" />
+```
+
+*Note:*
+- We've used a `Q` command to create quadratic Bézier curves for the belly and neck areas.
+- The outline starts at `(10, 200)`, goes up to `(40, 300)`, then uses two control points `(60, 450)` and `(180, 300)` to create smooth curves before ending at `(220, 200)`.
+
+**Step 3: Discover new features**
+
+As we venture deeper into this new land, we discover new features that demand our attention. Let's add a circle for the head and rectangles for the legs.
+
+*Head:*
+```xml
+<circle id="head" cx="150" cy="220" r="40" stroke="#000000" fill="#ffcc66" />
+```
+
+*Note:* The head is a circle with center `(150, 220)`, radius `40`, stroked black (`#000000`), and filled with a light yellow color (`#ffcc66`).
+
+*Legs:*
+```xml
+<rect id="leg-front-left" x="80" y="350" width="30" height="150" stroke="#000000" fill="#ffcc66" />
+<rect id="leg-back-left" x="200" y="350" width="30" height="150" stroke="#000000" fill="#ffcc66" />
+<rect id="leg-front-right" x="280" y="350" width="30" height="150" stroke="#000000" fill="#ffcc66" />
+<rect id="leg-back-right" x="400" y="350" width="30" height="150" stroke="#000000" fill="#ffcc66" />
+```
+
+*Note:* Each leg is a rectangle with dimensions `30x150`, stroked black (`#000000`), and filled with the same light yellow color as the head (`#ffcc66`).
+
+**Step 4: Write out your map's final draft using SVG tags**
+
+Here's our dinosaur map so far:
+
+```xml
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <path id="dinosaur-outline" stroke="#000000" fill="transparent" d="M10 200 L40 300 Q60 450 120 450 Q180 300 220 200" />
+  <circle id="head" cx="150" cy="220" r="40" stroke="#000000" fill="#ffcc66" />
+  <rect id="leg-front-left" x="80" y="350" width="30" height="150" stroke="#000000" fill="#ffcc66" />
+  <rect id="leg-back-left" x="200" y="350" width="30" height="150" stroke="#000000" fill="#ffcc66" />
+  <rect id="leg-front-right" x="280" y="350" width="30" height="150" stroke="#000000" fill="#ffcc66" />
+  <rect id="leg-back-right" x="400" y="350" width="30" height="150" stroke="#000000" fill="#ffcc66" />
+</svg>

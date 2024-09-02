@@ -1,0 +1,20 @@
+<svg width="100" height="150" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="50" cy="75" rx="40" ry="60" fill="black"/>
+
+  <!-- Head -->
+  <circle cx="50" cy="35" r="25" fill="orange"/>
+
+  <!-- Eyes -->
+  <circle cx="40" cy="25" r="5" fill="white"/>
+  <circle cx="60" cy="25" r="5" fill="white"/>
+
+  <!-- Beak -->
+  <polygon points="45,35 55,35 50,25" fill="orange"/>
+
+  <!-- Feet -->
+  <rect x="35" y="-10" width="30" height="20" fill="brown"/>
+  <rect x="65" y="-10" width="30" height="20" fill="brown"/>
+
+</svg>

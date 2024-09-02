@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+
+  <!-- Head Tower -->
+  <circle cx="250" cy="50" r="50" fill="lightgrey"/>
+
+  <!-- Neck Building -->
+  <rect x="240" y="100" width="20" height="200" fill="lightblue"/>
+  <line x1="240" y1="300" x2="260" y2="300" stroke="black"/>
+
+  <!-- Body Building -->
+  <rect x="180" y="300" width="180" height="200" fill="lightblue"/>
+
+  <!-- Leg Buildings -->
+  <rect x="100" y="400" width="80" height="150" fill="lightblue"/>
+  <rect x="280" y="400" width="80" height="150" fill="lightblue"/>
+  <rect x="360" y="500" width="80" height="150" fill="lightblue"/>
+  <rect x="100" y="500" width="80" height="150" fill="lightblue"/>
+
+  <!-- Roads -->
+  <path d="M200,600 H380 V700 H-50 Z" stroke="black"/>
+  <path d="M100,400 V700 M280,400 V700 M360,500 V700 M100,500 V700" stroke="black"/>
+
+</svg>

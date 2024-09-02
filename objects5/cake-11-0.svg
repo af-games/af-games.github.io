@@ -1,0 +1,35 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base -->
+  <rect x="0" y="40" width="300" height="50" fill="#F5DEB3"/>
+
+  <!-- Cake Body -->
+  <ellipse cx="150" cy="70" rx="80" ry="60" fill="url(#frosting)"/>
+
+  <!-- Cake Topping -->
+  <polygon points="140,40 160,30 220,50 260,40 240,60" fill="url(#frosting)" stroke="#FFF" stroke-width="2"/>
+
+  <!-- Cake Crust -->
+  <path d="M50,90 H250 V170 H50 Z" fill="#8B5A38"/>
+
+  <!-- Cherries -->
+  <circle cx="60" cy="65" r="5" fill="#FF0000"/>
+  <circle cx="140" cy="60" r="5" fill="#FF0000"/>
+  <circle cx="230" cy="70" r="5" fill="#FF0000"/>
+  <circle cx="80" cy="90" r="5" fill="#FF0000"/>
+  <circle cx="260" cy="85" r="5" fill="#FF0000"/>
+
+  <!-- Sprinkles -->
+  <rect x="130" y="75" width="40" height="5" fill="#0095DD"/>
+  <rect x="80" y="85" width="20" height="3" fill="#0095DD"/>
+  <rect x="220" y="90" width="15" height="4" fill="#0095DD"/>
+
+  <!-- Frosting Gradient -->
+  <defs>
+    <radialGradient id="frosting" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%"   stop-color="#FFD6E5"/>
+      <stop offset="100%" stop-color="#FFF8DC"/>
+    </radialGradient>
+  </defs>
+
+</svg>

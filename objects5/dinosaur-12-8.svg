@@ -1,0 +1,14 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="100" y="75" width="300" height="150" fill="#8B7D6B"/>
+  <!-- Head -->
+  <polygon points="400,50 450,25 500,50" fill="#8B7D6B"/>
+  <!-- Legs -->
+  <rect x="130" y="250" width="10" height="100" fill="#8B7D6B"/>
+  <rect x="470" y="250" width="10" height="100" fill="#8B7D6B"/>
+  <!-- Arms -->
+  <rect x="320" y="120" width="10" height="80" fill="#8B7D6B"/>
+  <rect x="420" y="120" width="10" height="80" fill="#8B7D6B"/>
+  <!-- Tail -->
+  <polyline points="350,75 280,110 230,75" stroke="#8B7D6B" fill="transparent"/>
+</svg>

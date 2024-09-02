@@ -1,0 +1,24 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Pathway -->
+<rect x="50" y="400" width="700" height="100" fill="#ffe09b"/>
+
+<!-- Structures (Lion Statues) -->
+<circle cx="150" cy="250" r="60" fill="#d3d3d3"/>
+<circle cx="400" cy="250" r="60" fill="#d3d3d3"/>
+
+<!-- Lion Plants -->
+
+<!-- Left Lion Plant -->
+<path d="M180 490 q15 -7.5, 30 0 t30 7.5 q-15 7.5, -20 0" fill="#8dc63f"/>
+<path d="M190 480 q10 -5, 20 0 t20 5 q-10 5, -15 0" stroke="#696969" fill="transparent"/>
+
+<!-- Middle Lion Plant -->
+<path d="M330 470 q15 -7.5, 30 0 t30 7.5 q-15 7.5, -20 0" fill="#7dc65c"/>
+<path d="M340 460 q10 -5, 20 0 t20 5 q-10 5, -15 0" stroke="#696969" fill="transparent"/>
+
+<!-- Right Lion Plant -->
+<path d="M580 470 q15 -7.5, 30 0 t30 7.5 q-15 7.5, -20 0" fill="#6dc67f"/>
+<path d="M590 460 q10 -5, 20 0 t20 5 q-10 5, -15 0" stroke="#696969" fill="transparent"/>
+
+</svg>

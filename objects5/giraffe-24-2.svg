@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 0 400 600">
+
+<!-- Body -->
+<rect x="100" y="200" width="200" height="300"
+      fill="#A9C187" stroke="black" stroke-width="5"/>
+
+<!-- Neck -->
+<path d="M150,140 Q170,160 200,180 A30,30 0 0 1 200,240"
+      fill="#C9B2AD" stroke="black" stroke-width="5"/>
+
+<!-- Head -->
+<circle cx="200" cy="70" r="70"
+         fill="#F8E6D0" stroke="black" stroke-width="5"/>
+<ellipse cx="180" cy="90" rx="30" ry="40"
+         fill="#C9B2AD" stroke="black" stroke-width="5"/>
+
+<!-- Legs -->
+<rect x="80" y="450" width="20" height="150" transform="rotate(45 100 500)"
+      fill="#A9C187" stroke="black" stroke-width="5"/>
+<rect x="320" y="450" width="20" height="150" transform="rotate(-45 340 500)"
+      fill="#A9C187" stroke="black" stroke-width="5"/>
+
+<!-- Horns -->
+<path d="M160,60 Q130,40 160,20 Q190,40 210,60"
+      fill="#F8E6D0" stroke="black" stroke-width="5"/>
+<path d="M240,60 Q270,40 240,20 Q210,40 190,60"
+      fill="#F8E6D0" stroke="black" stroke-width="5"/>
+
+<!-- Eyes -->
+<circle cx="170" cy="60" r="10" fill="#fff"/>
+<circle cx="230" cy="60" r="10" fill="#fff"/>
+
+<!-- Shadows and highlights -->
+<defs>
+  <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:0.5"/>
+    <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:0"/>
+  </linearGradient>
+</defs>
+<rect x="90" y="480" width="260" height="120"
+      fill="url(#grad)"/>
+
+</svg>

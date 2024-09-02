@@ -1,0 +1,25 @@
+<svg viewBox="0 0 200 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="50" y="150" width="100" height="75" fill="#F4D03F"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="100" rx="50" ry="60" fill="#FFCC80"/>
+  <circle cx="120" cy="90" r="5" fill="#FFFFFF"/> <!-- Face dot -->
+
+  <!-- Wings -->
+  <polygon points="30,75 170,75 120,30" fill="#FFCC80"/>
+  <polygon points="40,65 160,65 100,20" fill="#FFCC80"/>
+
+  <!-- Hair -->
+  <path d="M70,50 Q90,20 130,50 Q150,20 70,50" stroke="#333333" fill="transparent"/>
+  <path d="M80,40 Q100,10 140,40 Q160,10 80,40" stroke="#333333" fill="transparent"/>
+
+  <!-- Clothing -->
+  <rect x="50" y="225" width="100" height="75" fill="#90E0EF"/>
+
+  <!-- Legs -->
+  <rect x="65" y="275" width="30" height="25" fill="#F4D03F"/>
+  <rect x="125" y="275" width="30" height="25" fill="#F4D03F"/>
+
+</svg>

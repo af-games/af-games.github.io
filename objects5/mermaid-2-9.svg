@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Background -->
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:#E6F7FF"/>
+    <stop offset="50%" style="stop-color:#E6F7FF"/>
+    <stop offset="50%" style="stop-color:#8DC63F"/>
+    <stop offset="100%" style="stop-color:#8DC63F"/>
+  </linearGradient>
+  <rect width="800" height="600" fill="url(#grad1)"/>
+
+  <!-- Mermaid head -->
+  <ellipse cx="400" cy="550" rx="200" ry="250" fill="#FFF4E6"/>
+
+  <!-- Mermaid tail fin (outer layer) -->
+  <path d="M380,550 Q420,600 470,550 Q410,480 380,550" fill="url(#pattern1)" stroke="#8DC63F"/>
+
+  <!-- Mermaid tail fin (inner layer) -->
+  <path d="M390,560 Q420,590 460,560 Q410,490 390,560" fill="#3B9D97"/>
+
+  <!-- Mermaid tail scales (light blue dots) -->
+  <pattern id="pattern2" patternUnits="userSpaceOnUse" width="8" height="8">
+    <circle cx="4" cy="4" r="4" fill="#5CBDFF"/>
+  </pattern>
+  <path d="M380,550 Q420,600 470,550 Q410,480 380,550" fill="url(#pattern2)" stroke="#8DC63F"/>
+
+  <!-- Bubbles -->
+  <circle cx="100" cy="200" r="10" fill="#FFFFFF"/>
+  <circle cx="250" cy="350" r="15" fill="#FFFFFF"/>
+  <!-- Add more bubbles as needed -->
+
+</svg>

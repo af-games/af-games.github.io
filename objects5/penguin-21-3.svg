@@ -1,0 +1,34 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <g id="body">
+    <rect x="100" y="70" width="300" height="330" fill="#A9D6E5" stroke="#88A4B5"/>
+  </g>
+
+  <!-- Head -->
+  <g id="head">
+    <path d="M200,70 Q150,50 200,20 Q250,50 200,70" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Eyes -->
+  <g id="eyes">
+    <circle cx="180" cy="60" r="5" fill="#000000"/>
+    <circle cx="220" cy="60" r="5" fill="#000000"/>
+  </g>
+
+  <!-- Beak -->
+  <path id="beak" d="M190,70 Q180,80 200,80 Q210,80 190,70" fill="#FFC536"/>
+
+  <!-- Wings -->
+  <g id="wings">
+    <polygon points="140,150 100,200 140,250" fill="#A9D6E5"/>
+    <polygon points="260,150 300,200 260,250" fill="#A9D6E5"/>
+  </g>
+
+  <!-- Feet -->
+  <g id="feet">
+    <rect x="140" y="350" width="120" height="50" rx="25" fill="#A9D6E5"/>
+    <path d="M140,380 Q170,420 260,380 Q210,420 260,380" stroke="#000000" fill="transparent"/>
+  </g>
+
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -100 600 400">
+  <!-- Sun -->
+  <circle cx="50" cy="50" r="40" fill="#FFDF5E" stroke="#FFB973" stroke-width="2"/>
+
+  <!-- Waves -->
+  <path d="M-100,80 Q0,-60 100,80 T200,80 Z"
+        fill="url(#waveGradient)" stroke="none"/>
+
+  <!-- Dolphins (Melody) -->
+  <g id="dolphin" transform="rotate(30)">
+    <path d="M0,75 Q40,-60 100,75 T120,80 A90,45 0 0 0 0,80 Z"
+          fill="#ADD8E6" stroke="none"/>
+    <path d="M100,75 Q130,-50 150,75 Z" fill="#40E0D0" stroke="none"/>
+  </g>
+  <use href="#dolphin" transform="translate(200,0) scale(0.8)" />
+  <use href="#dolphin" transform="translate(-300,-100) rotate(60) scale(0.7)" />
+
+  <!-- Water Lines -->
+  <path d="M-50,90 Q0,-50 50,90 T100,80 Z"
+        stroke="#ADD8E6" stroke-width="2" fill="none"/>
+
+  <!-- Leap Trajectories -->
+  <path d="M30,70 L30,-40" stroke="#40E0D0" stroke-width="2" fill="none"/>
+  <path d="M150,80 Q200,120 250,80 Z" stroke="#40E0D0" stroke-width="2" fill="none"/>
+
+  <!-- Sunrays -->
+  <defs>
+    <radialGradient id="sunRays" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:#FFB973; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFDF5E; stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="50" cy="50" r="45" fill="url(#sunRays)"/>
+
+</svg>

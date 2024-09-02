@@ -1,0 +1,15 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outlining the perimeter with rectangles -->
+  <rect x="10" y="10" width="480" height="380" stroke="black" fill="none"/>
+
+  <!-- Clues (paths) leading to different suspects -->
+  <path d="M50,50 Q150,20 250,50 Q350,80 450,50" stroke="blue" fill="none"/>
+  <path d="M50,150 Q150,180 250,150 Q350,120 450,150" stroke="red" fill="none"/>
+  <path d="M50,250 Q150,220 250,250 Q350,280 450,250" stroke="green" fill="none"/>
+
+  <!-- Suspects -->
+  <image href="lion.png" x="150" y="50" width="100" height="100"/>
+  <image href="fox.png" x="300" y="150" width="80" height="80"/>
+  <image href="mouse.png" x="420" y="250" width="60" height="60"/>
+
+</svg>

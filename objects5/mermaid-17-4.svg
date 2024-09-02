@@ -1,0 +1,11 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+   <rect id="body" width="95%" height="80%" y="10%" rx="20" ry="20"/>
+   <circle id="head" cx="47.5%" cy="15%" r="30%" />
+   <polygon id="tail" points="..."/>
+   <g id="hair">
+      <!-- Hair circles -->
+   </g>
+   <circle id="eye-left" cx="35%" cy="17%" r="2"/>
+   <circle id="eye-right" cx="60%" cy="17%" r="2"/>
+   <path id="mouth" d="M 40%,95% Q 47.5%,98% 55%,95%"/>
+</svg>

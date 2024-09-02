@@ -1,0 +1,31 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#D1E8FF"/>
+
+  <!-- Lion's body -->
+  <path d="M200,50 Q275,100 350,50 Q400,100 300,150 Q250,100 150,50" fill="#FFC0CB"/>
+
+  <!-- Lion's head -->
+  <circle cx="200" cy="80" r="70" fill="#FFC0CB"/>
+
+  <!-- Lion's mane -->
+  <path d="M140,60 Q190,30 250,60 Q220,120 180,150 Q150,120 100,60" stroke="#FF7F50" fill="transparent"/>
+
+  <!-- Lion's eyes -->
+  <circle cx="190" cy="70" r="10" fill="#FFFFFF"/>
+  <circle cx="230" cy="70" r="10" fill="#FFFFFF"/>
+  <circle cx="190" cy="70" r="5" fill="#000000"/>
+  <circle cx="230" cy="70" r="5" fill="#000000"/>
+
+  <!-- Lion's mouth -->
+  <path d="M180,120 Q195,140 210,120" stroke="#FF7F50" fill="transparent"/>
+
+  <!-- Grass -->
+  <polygon points="350,400 450,400 450,350 350,350" fill="#69853D"/>
+  <path d="M350,400 Q400,420 450,400 Q500,420 550,400" stroke="#69853D" fill="transparent"/>
+
+  <!-- Text garnish -->
+  <text x="10" y="450" font-size="30" fill="#000000">Lion's Feast</text>
+
+</svg>

@@ -1,0 +1,12 @@
+<svg height="256" width="256" style="fill:blue;" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake base -->
+  <path d="M128,192 Q147,170 160,192 Q147,214 128,236 Q111,214 94,192 Q111,170 128,192 Z"/>
+
+  <!-- Cake top -->
+  <path d="M128,64 A56,56 0 1,0 184,120 A56,56 0 1,0 128,64"/>
+
+  <!-- Frosting -->
+  <path d="M128,96 Q173,75 160,64 Z"/>
+
+</svg>

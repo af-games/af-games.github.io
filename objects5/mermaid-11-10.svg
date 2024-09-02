@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#182845"/>
+
+  <!-- Mermaid Body -->
+  <path d="M256 32C179.6 32 96 121.6 96 217.6c0 99.6 80 183.6 183.6 183.6s183.6-84 183.6-183.6C416 121.6 336.4 32 256 32z"
+        fill="#FFF1E6" stroke="#000"/>
+
+  <!-- Mermaid Tail Fin -->
+  <path d="M256,416c-87.9-45.6-128-144-128-240h32s-16,192,32,240H256Z"
+        fill="#3F7D9A" stroke="#000"/>
+
+  <!-- Mermaid Hair -->
+  <path d="M320 144c-8.8 22.8-16 43.6-28.8 63.2C358.4 270.4 384 233.6 384 192V160H320z"
+        fill="#3F7D9A" stroke="#000"/>
+
+  <!-- Coral Reefs (Simplified) -->
+  <rect x="128" y="384" width="256" height="128" fill="#FF8C00"/>
+  <rect x="192" y="320" width="128" height="128" fill="#B5E61E"/>
+
+  <!-- Border -->
+  <rect width="100%" height="16" fill="#FFF1E6" stroke="#000"/>
+  <rect x="0" y="0" width="16" height="100%" fill="#FFF1E6" stroke="#000"/>
+</svg>

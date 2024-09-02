@@ -1,0 +1,29 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <polygon points="100,5 190,60 10,60"
+           fill="url(#penguinGradient)" />
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(47,95,134);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Head -->
+  <circle cx="100" cy="50" r="30"
+          fill="url(#headGradient)" />
+  <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+    <stop offset="100%" style="stop-color:rgb(47,95,134);stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Beak -->
+  <polygon points="80,20 120,20 100,40"
+           fill="orange" />
+
+  <!-- Eyes -->
+  <circle cx="90" cy="35" r="5"
+          fill="white" />
+  <circle cx="110" cy="35" r="5"
+          fill="white" />
+</svg>

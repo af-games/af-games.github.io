@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Hot air balloon -->
+  <path id="balloon" d="M-80,-70 A90,90 0 0,1 80,-70 A90,90 0 0,1 -80,70 Z"/>
+  <circle id="basket" cx="-5" cy="-65" r="20"/>
+
+  <!-- Bars and beats -->
+  <g id="bar1">
+    <animateMotion dur="6s" repeatCount="indefinite">
+      <mpath href="#path1"/>
+    </animateMotion>
+    <circle cx="0" cy="0" r="10" fill="#191970"/>
+  </g>
+  <!-- ... Repeat for bars 2 to 5 with appropriate colors and durations ... -->
+
+  <!-- Paths for transitions -->
+  <path id="path1" d="M-80,-70 Q0,30 80,-70"/>
+  <!-- ... Repeat for paths 2 to 5 with appropriate colors and durations ... -->
+
+  <!-- Animation for hot air balloon inflating and floating -->
+  <animate attributeName="opacity" from="0" to="1" dur="6s"/>
+  <animate attributeName="d" to="M-80,-70 A90,90 0 0,1 80,-70 A90,90 0 0,1 -80,70 Z" begin="1s" dur="5s"/>
+  <animate attributeName="cy" from="-65" to="-30" begin="1s" dur="5s"/>
+</svg>

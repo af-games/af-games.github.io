@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+```
+
+**Step 2: Start drawing tentative lines and shapes with `<path>` elements**
+
+Let's start by drawing a simple outline of a dinosaur. We'll use tentatively drawn lines for the body, head, tail, and legs.
+
+```svg
+<path d="M100 150 Q200 100, 300 150" stroke="black" fill="transparent"/>
+<path d="M100 100 Q75 50, 150 100" stroke="black" fill="transparent"/>
+<path d="M300 150 Q400 200, 350 100" stroke="black" fill="transparent"/>
+```
+
+**Step 3: Discover new features**
+
+As we venture deeper, let's add some basic shapes for the legs and hips.
+
+```svg
+<rect x="80" y="200" width="40" height="60" fill="lightgrey"/>
+<rect x="220" y="200" width="40" height="60" fill="lightgrey"/>
+<circle cx="150" cy="300" r="30" fill="lightgrey"/>
+```
+
+**Step 4: Document your journey with detailed notes**
+
+For each feature, let's add comments to document our discoveries.
+
+```svg
+<!-- Body -->
+<path d="M100 150 Q200 100, 300 150" stroke="black" fill="transparent"/>
+<!-- Head -->
+<path d="M100 100 Q75 50, 150 100" stroke="black" fill="transparent"/>
+<!-- Tail -->
+<path d="M300 150 Q400 200, 350 100" stroke="black" fill="transparent"/>
+
+<!-- Left leg -->
+<rect x="80" y="200" width="40" height="60" fill="lightgrey"/>
+<!-- Right leg -->
+<rect x="220" y="200" width="40" height="60" fill="lightgrey"/>
+<!-- Hips -->
+<circle cx="150" cy="300" r="30" fill="lightgrey"/>
+```
+
+**Step 5: Write out the final draft**
+
+Now, let's combine all our discoveries into a single SVG file.
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Body -->
+  <path d="M100 150 Q200 100, 300 150" stroke="black" fill="transparent"/>
+  <!-- Head -->
+  <path d="M100 100 Q75 50, 150 100" stroke="black" fill="transparent"/>
+  <!-- Tail -->
+  <path d="M300 150 Q400 200, 350 100" stroke="black" fill="transparent"/>
+
+  <!-- Left leg -->
+  <rect x="80" y="200" width="40" height="60" fill="lightgrey"/>
+  <!-- Right leg -->
+  <rect x="220" y="200" width="40" height="60" fill="lightgrey"/>
+  <!-- Hips -->
+  <circle cx="150" cy="300" r="30" fill="lightgrey"/>
+</svg>

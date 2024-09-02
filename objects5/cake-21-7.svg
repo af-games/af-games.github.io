@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Landmass 1 -->
+  <rect x="50" y="50" width="200" height="150" fill="#8B4513" stroke="#000"/>
+
+  <!-- Landmark 1 (Cake Topping) -->
+  <circle cx="175" cy="75" r="25" fill="#FFD700" stroke="#000"/>
+
+  <!-- Landmass 2 -->
+  <rect x="250" y="200" width="150" height="100" fill="#C39945" stroke="#000"/>
+
+  <!-- Landmark 2 (Frosting) -->
+  <circle cx="375" cy="250" r="30" fill="#FFFAF0" stroke="#000"/>
+
+</svg>

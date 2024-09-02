@@ -1,0 +1,43 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Glacieria Map Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#F5F5F5"/>
+
+  <!-- Igloo Kingdom -->
+  <g id="iglooKingdom">
+    <path d="M150,200 Q200,300 300,200 Q400,400 500,200" fill="#FFD65B"/>
+    <circle cx="250" cy="170" r="30" fill="#FFFFFF">
+      <path d="M250,170 A30,30 0 1,0 250,200" stroke="#000000" stroke-width="2"/>
+    </circle>
+    <text x="250" y="220" text-anchor="middle" font-family="Arial" font-size="14">Igloo Kingdom</text>
+  </g>
+
+  <!-- Snowy Mountains -->
+  <g id="snowyMountains">
+    <path d="M600,150 Q700,200 800,150" fill="#FFFFFF"/>
+    <linearGradient id="mountainGradient" x1="600" y1="150" x2="800" y2="300">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#D3D3D3"/>
+    </linearGradient>
+    <text x="700" y="350" text-anchor="middle" font-family="Arial" font-size="14">Snowy Mountains</text>
+  </g>
+
+  <!-- Frozen River -->
+  <path id="frozenRiver" d="M150,350 Q250,450 350,350" stroke="#A9D6E5" stroke-width="10"/>
+
+  <!-- Frost Forest -->
+  <g id="frostForest">
+    <rect x="50" y="400" width="800" height="200" fill="#A3E4D7"/>
+    <text x="400" y="600" text-anchor="middle" font-family="Arial" font-size="14">Frost Forest</text>
+  </g>
+
+  <!-- Crystal City -->
+  <g id="crystalCity">
+    <polygon points="350,250 450,250 400,350" fill="#BDB76B"/>
+    <circle cx="400" cy="280" r="15" fill="#FFFFFF">
+      <path d="M400,280 A15,15 0 1,0 400,300" stroke="#000000" stroke-width="2"/>
+    </circle>
+    <text x="400" y="320" text-anchor="middle" font-family="Arial" font-size="14">Crystal City</text>
+  </g>
+
+</svg>

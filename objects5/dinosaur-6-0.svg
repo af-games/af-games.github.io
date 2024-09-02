@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="40" y="60" width="120" height="80" rx="15" fill="#8DC63C"/>
+
+  <!-- Legs -->
+  <rect x="40" y="170" width="30" height="40" rx="5" fill="#4D7E09"/>
+  <rect x="120" y="170" width="30" height="40" rx="5" fill="#4D7E09"/>
+  <rect x="60" y="180" width="30" height="40" rx="5" fill="#4D7E09"/>
+  <rect x="140" y="180" width="30" height="40" rx="5" fill="#4D7E09"/>
+
+  <!-- Head -->
+  <ellipse cx="100" cy="25" rx="30" ry="40" fill="#8DC63C"/>
+
+  <!-- Neck -->
+  <rect x="60" y="25" width="80" height="20" fill="#8DC63C"/>
+
+  <!-- Tail -->
+  <rect x="170" y="90" width="20" height="40" fill="#4D7E09"/>
+  <rect x="160" y="100" width="20" height="40" fill="#4D7E09"/>
+  <rect x="150" y="110" width="20" height="40" fill="#4D7E09"/>
+
+</svg>

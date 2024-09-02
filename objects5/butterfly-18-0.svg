@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 50">
+
+  <!-- Body -->
+  <ellipse cx="30" cy="25" rx="15" ry="7" fill="#FFC1C1">
+    <animate attributeName="opacity" dur="1s" repeatCount="indefinite"
+      values="0;1;0" />
+  </ellipse>
+
+  <!-- Wings -->
+  <g transform="translate(2, 3)">
+    <ellipse cx="25" cy="15" rx="12.5" ry="7" fill="#FFD689">
+      <animate attributeName="opacity" dur="1s" repeatCount="indefinite"
+        values="0;1;0" />
+    </ellipse>
+    <g transform="translate(30, 0)">
+      <ellipse cx="25" cy="15" rx="12.5" ry="7" fill="#FFD689">
+        <animate attributeName="opacity" dur="1s" repeatCount="indefinite"
+          values="0;1;0" />
+      </ellipse>
+    </g>
+  </g>
+
+  <!-- Antennae -->
+  <rect width="2" height="5" x="4" y="7" fill="#383838">
+    <animate attributeName="opacity" dur="1s" repeatCount="indefinite"
+      values="0;1;0" />
+  </rect>
+  <circle cx="6" cy="9.5" r="2.5" fill="#383838">
+    <animate attributeName="opacity" dur="1s" repeatCount="indefinite"
+      values="0;1;0" />
+  </circle>
+  <use xlink:href="#antenna-template" transform="translate(46, 7) rotate(180)" />
+
+  <!-- Eyes -->
+  <circle cx="25" cy="13.5" r="3" fill="#FFFFFF">
+    <animate attributeName="opacity" dur="1s" repeatCount="indefinite"
+      values="0;1;0" />
+  </circle>
+  <circle cx="35" cy="13.5" r="3" fill="#FFFFFF">
+    <animate attributeName="opacity" dur="1s" repeatCount="indefinite"
+      values="0;1;0" />
+  </circle>
+
+  <!-- Spots -->
+  <g transform="translate(20, 14)">
+    <circle cx="5" cy="0" r="3.5">
+      <animate attributeName="opacity" dur="1s" repeatCount="indefinite"
+        values="0;1;0" />
+    </circle>
+    <use xlink:href="#spot-template" transform="translate(20, 0)" />
+    <use xlink:href="#spot-template" transform="translate(-5, -7) scale(.8)" />
+  </g>
+
+</svg>

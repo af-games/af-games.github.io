@@ -1,0 +1,26 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion's Head -->
+  <circle cx="100" cy="80" r="70" fill="#F8DE74"/>
+
+  <!-- Mane -->
+  <rect x="60" y="50" width="140" height="30" rx="15%" fill="#FFBF00"/>
+  <path d="M90,20 Q100,0 110,20" stroke="#FFBF00" fill="transparent"/>
+
+  <!-- Ears -->
+  <polygon points="80,20 90,35 70,35" fill="#F8DE74"/>
+  <polygon points="120,20 130,35 110,35" fill="#F8DE74"/>
+
+  <!-- Eyes -->
+  <circle cx="75" cy="60" r="10" fill="black"/>
+  <circle cx="125" cy="60" r="10" fill="black"/>
+  <circle cx="75" cy="60" r="3" fill="white"/>
+  <circle cx="125" cy="60" r="3" fill="white"/>
+
+  <!-- Nose -->
+  <path d="M95,80 Q105,90 95,100 Q85,90" stroke="#3B270D" fill="transparent"/>
+
+  <!-- Mouth -->
+  <path d="M90,100 Q100,110 90,120" stroke="#3B270D" fill="transparent"/>
+
+</svg>

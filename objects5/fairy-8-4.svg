@@ -1,0 +1,26 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fairy Body -->
+  <circle cx="100" cy="150" r="50" fill="#ffa6e9"/>
+
+  <!-- Fairy Head -->
+  <circle cx="100" cy="75" r="25" fill="#ffd8ea"/>
+
+  <!-- Fairy Wings (Right) -->
+  <polygon points="85,30 115,30 100,60" fill="#ffa6e9"/>
+  <!-- Fairy Wings (Left) -->
+  <polygon points="85,70 115,70 100,40" fill="#ffa6e9"/>
+
+  <!-- Wand -->
+  <rect x="90" y="120" width="20" height="30" rx="5" fill="#fff"/>
+  <path d="M95,150 Q105,140 115,150" stroke="#fff" fill="transparent"/>
+
+  <!-- Stars -->
+  <circle cx="60" cy="20" r="5" fill="#fff"/>
+  <circle cx="80" cy="40" r="3" fill="#fff"/>
+  <circle cx="130" cy="20" r="4" fill="#fff"/>
+  <circle cx="160" cy="40" r="3" fill="#fff"/>
+  <circle cx="120" cy="75" r="4" fill="#fff"/>
+
+  <!-- Magical Glow -->
+  <circle cx="100" cy="150" r="80" stroke="#ffa6e9" stroke-width="3" fill="transparent"/>
+</svg>

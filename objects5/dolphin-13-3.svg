@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#FFF"/>
+
+  <!-- Buildings -->
+  <rect x="50" y="100" width="70" height="400" fill="#93C5FD"/>
+  <rect x="200" y="150" width="70" height="350" fill="#93C5FD"/>
+  <rect x="350" y="200" width="70" height="300" fill="#93C5FD"/>
+  <rect x="500" y="250" width="70" height="250" fill="#93C5FD"/>
+
+  <!-- Dolphin -->
+  <path d="M400,100 Q450,50 500,100 Q450,150 400,200 Q350,150 300,100" fill="#0086CC"/>
+  <circle cx="400" cy="75" r="25" fill="#FFF"/>
+  <circle cx="400" cy="225" r="25" fill="#FFF"/>
+
+  <!-- Roads -->
+  <line x1="50" y1="500" x2="750" y2="500" stroke="#000" stroke-width="5"/>
+  <line x1="50" y1="400" x2="750" y2="400" stroke="#000" stroke-width="3"/>
+
+  <!-- Trees -->
+  <circle cx="60" cy="550" r="20" fill="#008000"/>
+  <circle cx="150" cy="550" r="20" fill="#008000"/>
+  <circle cx="270" cy="550" r="20" fill="#008000"/>
+  <circle cx="380" cy="550" r="20" fill="#008000"/>
+
+</svg>

@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="150" fill="#B0E0E6"/>
+
+  <!-- Igloo -->
+  <path d="M400,75 Q430,60 450,90 Q420,120 400,130 Q380,120 350,90 Q320,60 300,75" fill="white"/>
+
+  <!-- Snow around Igloo -->
+  <path d="M320,75 Q350,90 400,110 Q450,90 400,75" fill="#FFFFFF"/>
+
+  <!-- River -->
+  <path d="M100,400 Q200,380 300,420 Q400,460 500,440 Q600,420 700,400" fill="#90CAF9" stroke="black"/>
+
+  <!-- Hills -->
+  <path d="M100,350 Q200,380 300,420 Q400,460 500,420 Q600,380 700,350" fill="#C9D6D6"/>
+
+  <!-- Trees -->
+  <circle cx="150" cy="250" r="50" fill="#8B4513"/>
+  <circle cx="250" cy="220" r="50" fill="#8B4513"/>
+  <circle cx="650" cy="280" r="50" fill="#8B4513"/>
+
+</svg>

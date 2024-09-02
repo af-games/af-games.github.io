@@ -1,0 +1,69 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#E6F7FF"/>
+
+  <!-- Head -->
+  <g id="head">
+    <defs>
+      <linearGradient id="gradHead" gradientUnits="objectBoundingBox">
+        <stop offset="0%" stop-color="#32393C"/>
+        <stop offset="100%" stop-color="#242A2D"/>
+      </linearGradient>
+    </defs>
+    <?php for($i = 5; $i < 70; $i+=5){ ?>
+      <?php for($j = 60; $j < 90; $j+=5){ ?>
+        <circle cx="<?php echo $i; ?>" cy="<?php echo $j; ?>" r="2" fill="url(#gradHead)" />
+      <?php } ?>
+    <?php } ?>
+  </g>
+
+  <!-- Body -->
+  <g id="body">
+    <defs>
+      <linearGradient id="gradBody" gradientUnits="objectBoundingBox">
+        <stop offset="0%" stop-color="#32393C"/>
+        <stop offset="100%" stop-color="#242A2D"/>
+      </linearGradient>
+    </defs>
+    <?php for($i = 65; $i < 170; $i+=5){ ?>
+      <?php for($j = 90; $j < 130; $j+=5){ ?>
+        <circle cx="<?php echo $i; ?>" cy="<?php echo $j; ?>" r="2" fill="url(#gradBody)" />
+      <?php } ?>
+    <?php } ?>
+  </g>
+
+  <!-- Belly -->
+  <g id="belly">
+    <defs>
+      <linearGradient id="gradBelly" gradientUnits="objectBoundingBox">
+        <stop offset="0%" stop-color="#FFFFFF"/>
+        <stop offset="100%" stop-color="#D3D3D3"/>
+      </linearGradient>
+    </defs>
+    <?php for($i = 70; $i < 165; $i+=5){ ?>
+      <?php for($j = 125; $j < 170; $j+=5){ ?>
+        <circle cx="<?php echo $i; ?>" cy="<?php echo $j; ?>" r="2" fill="url(#gradBelly)" />
+      <?php } ?>
+    <?php } ?>
+  </g>
+
+  <!-- Wings -->
+  <g id="wings">
+    <?php for($i = 80; $i < 145; $i+=5){ ?>
+      <?php for($j = 95; $j < 120; $j+=5){ ?>
+        <circle cx="<?php echo $i; ?>" cy="<?php echo $j; ?>" r="2" fill="#32393C"/>
+      <?php } ?>
+    <?php } ?>
+  </g>
+
+  <!-- Legs -->
+  <g id="legs">
+    <?php for($i = 100; $i < 150; $i+=10){ ?>
+      <?php for($j = 160; $j < 200; $j+=10){ ?>
+        <circle cx="<?php echo $i; ?>" cy="<?php echo $j; ?>" r="3" fill="#32393C"/>
+      <?php } ?>
+    <?php } ?>
+  </g>
+
+</svg>

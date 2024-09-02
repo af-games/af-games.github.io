@@ -1,0 +1,20 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="90" ry="120" fill="#8B4513"/>
+  <!-- Neck -->
+  <rect x="65" y="70" width="70" height="80" rx="20" fill="#8B4513"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="70" rx="45" ry="55" fill="#8B4513"/>
+  <!-- Face inlays (Turquoise) -->
+  <circle cx="90" cy="60" r="20" fill="#40E0D0"/>
+  <circle cx="110" cy="60" r="20" fill="#40E0D0"/>
+  <!-- Snout -->
+  <path d="M85 50 Q95 35, 105 50" stroke="#B33416" fill="transparent"/>
+
+  <!-- Legs (Bronze) -->
+  <polygon points="20,200 40,220 60,200" fill="#8B4513"/>
+  <polygon points="180,200 200,220 220,200" fill="#8B4513"/>
+  <polygon points="20,260 40,280 60,260" fill="#8B4513"/>
+  <polygon points="180,260 200,280 220,260" fill="#8B4513"/>
+
+</svg>

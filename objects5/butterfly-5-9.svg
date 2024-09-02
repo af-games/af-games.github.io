@@ -1,0 +1,27 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="100" cy="75" r="45" fill="#FF69B4">
+    <title>Butterfly Body (Circle)</title>
+  </circle>
+
+  <!-- Left Wing -->
+  <path d="M85,30 Q70,20 50,35 Q75,50 85,40" fill="#FFD700">
+    <title>Left Butterfly Wing (Path)</title>
+  </path>
+
+  <!-- Right Wing -->
+  <path d="M115,30 Q130,20 150,35 Q125,50 115,40" fill="#FFD700">
+    <title>Right Butterfly Wing (Path)</title>
+  </path>
+
+  <!-- Head -->
+  <circle cx="100" cy="50" r="15" fill="#FF69B4">
+    <title>Butterfly Head (Circle)</title>
+  </circle>
+
+  <!-- Antennae -->
+  <line x1="90" y1="50" x2="80" y2="35" stroke="#000"/>
+  <line x1="110" y1="50" x2="120" y2="35" stroke="#000"/>
+
+</svg>

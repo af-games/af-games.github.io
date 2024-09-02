@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fairy Body -->
+  <path d="M256 8C137.93 8 48 111.93 48 224s90.93 216 208 216c119.07 0 208-99.93 208-216S395.07 8 256 8z" fill="#FFE4B5"/>
+
+  <!-- Fairy Face -->
+  <circle cx="256" cy="192" r="64" fill="#FFF9C8"/>
+  <path d="M256 160a32 32 0 1 1-64 0 32 32 0 0 1 64 0z" stroke="#FFB64D" fill="transparent"/>
+
+  <!-- Fairy Hair -->
+  <path d="M256 128c-32 32-96 64-160 64S80 192 112 224s160-64 160-160z" fill="#FFB64D"/>
+
+  <!-- Fairy Wings -->
+  <path d="M384 128c53.37 0 96-42.63 96-96s-42.63-96-96-96H128C71.63 32 16 85.63 16 184h368z" fill="#E8D0A2"/>
+
+  <!-- Fairy Wand -->
+  <path d="M192 352c-32.18 0-64 27.82-64 64s31.82 64 64 64h128c32.18 0 64-27.82 64-64s-31.82-64-64-64z" fill="#FFB64D"/>
+</svg>

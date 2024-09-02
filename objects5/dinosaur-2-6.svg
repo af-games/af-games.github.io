@@ -1,0 +1,32 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body (Rectangle) -->
+  <rect id="body" x="100" y="120" width="300" height="200" fill="#8B7D6B"/>
+
+  <!-- Head (Circle) -->
+  <circle cx="250" cy="90" r="80" fill="#8B7D6B"/>
+
+  <!-- Tail (Path) -->
+  <path id="tail" d="M430,160 Q450,210 470,160 H430 Z" fill="#8B7D6B"/>
+
+  <!-- Legs (Rectangle and Path combinations) -->
+  <g transform="translate(120, 320)">
+    <rect width="30" height="100" rx="5" ry="5"/>
+    <path d="M-4,-4 Q0,20 10,-4 Z" fill="#8B7D6B"/>
+  </g>
+  <use xlink:href="#leg-group" transform="translate(140, 0) rotate(-90)" />
+  <use xlink:href="#leg-group" transform="translate(260, 0) rotate(90)" />
+
+  <!-- Arms (Path) -->
+  <path id="arm" d="M150,180 Q130,200 150,220 Z" fill="#8B7D6B"/>
+  <use xlink:href="#arm" transform="translate(280, 0)"/>
+
+  <!-- Eyes (Circle) -->
+  <circle cx="235" cy="75" r="10" fill="white"/>
+  <circle cx="265" cy="75" r="10" fill="white"/>
+
+  <!-- Text (Text element) -->
+  <text x="50%" y="480" dominant-baseline="middle" text-anchor="middle"
+        font-family="Verdana, sans-serif" font-size="24">DINOSAUR</text>
+
+</svg>

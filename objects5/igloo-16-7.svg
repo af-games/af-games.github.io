@@ -1,0 +1,34 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#E6F5FF"/>
+
+  <!-- Mountains (Glacier Peak) -->
+  <polygon points="100,200 400,100 700,200" fill="#D3D3D3"/>
+  <rect x="250" y="50" width="300" height="80" fill="#FFFFFF"/>
+
+  <!-- Igloo -->
+  <circle cx="450" cy="125" r="75" fill="#FFFFFF"/>
+  <path d="M450,90 Q460,70 450,50 Q440,70 450,90 Z" stroke="#C8C8C8"/>
+
+  <!-- River (Frostflow) -->
+  <path d="M100,350 Q200,400 350,350 Q500,450 650,350" stroke="#AEDFFD" fill="transparent"/>
+
+  <!-- Forest (Elderwood) -->
+  <polygon points="100,450 250,550 400,450 550,550 700,450" fill="#38761D"/>
+  <text x="150" y="520" font-family="Verdana" font-size="12">Elderwood</text>
+
+  <!-- City (Aurora) -->
+  <circle cx="550" cy="400" r="80" fill="#FFFFFF"/>
+  <path d="M550,320 Q620,370 550,420 Q480,370 550,320 Z" stroke="#C8C8C8"/>
+  <text x="510" y="450" font-family="Verdana" font-size="12">Aurora</text>
+
+  <!-- Label: Glacier Peak -->
+  <text x="300" y="170" font-family="Verdana" font-size="16">Glacier Peak</text>
+  <line x1="350" y1="180" x2="350" y2="200"/>
+
+  <!-- Label: Frostflow -->
+  <text x="475" y="390" font-family="Verdana" font-size="16">Frostflow</text>
+  <line x1="500" y1="380" x2="500" y2="400"/>
+
+</svg>

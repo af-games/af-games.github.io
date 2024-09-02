@@ -1,0 +1,21 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Main melody (rhythm) -->
+  <circle cx="100" cy="50" r="40" fill="gold"/>
+  <circle cx="250" cy="50" r="40" fill="gold"/>
+  <circle cx="400" cy="50" r="40" fill="gold"/>
+  <circle cx="550" cy="50" r="40" fill="gold"/>
+
+  <!-- Beat -->
+  <rect x="75" y="100" width="200" height="30" fill="#8B4513"/>
+  <rect x="350" y="100" width="200" height="30" fill="#8B4513"/>
+
+  <!-- Harmony (mane) -->
+  <path d="M600,50 Q670,20 700,50 Q670,80 600,50 Z" stroke="brown" fill="transparent"/>
+  <path d="M600,100 Q640,80 670,100 Q640,120 600,100 Z" stroke="brown" fill="transparent"/>
+
+  <!-- Harmony (crown) -->
+  <polygon points="550,30 650,30 600,80" fill="#FFD700"/>
+  <path d="M550,40 Q580,60 600,40 Q580,20 550,40 Z" stroke="brown" fill="transparent"/>
+
+</svg>

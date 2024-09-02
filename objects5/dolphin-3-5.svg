@@ -1,0 +1,21 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <ellipse cx="100" cy="50" rx="70" ry="90" fill="#808080"/>
+  <path d="M90,40 L110,40 A70,70 0 0 0 100,120 Z" fill="#808080"/>
+
+  <!-- Eye -->
+  <circle cx="85" cy="60" r="10" stroke="#000000" fill="#FFFFFF"/>
+  <circle cx="85" cy="60" r="7" stroke="#000000"/>
+
+  <!-- Blowhole -->
+  <ellipse cx="115" cy="40" rx="8" ry="12" stroke="#000000" fill="#FFFFFF"/>
+  <ellipse cx="115" cy="40" rx="6" ry="10" stroke="#000000"/>
+
+  <!-- Body -->
+  <path d="M90,130 L110,130 A70,70 0 0 1 100,200 Z" fill="#808080"/>
+
+  <!-- Fin -->
+  <polygon points="160,250 170,240 150,240" fill="#808080"/>
+
+</svg>

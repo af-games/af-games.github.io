@@ -1,0 +1,35 @@
+<svg width="400" height="300" style="background-color:black;" version="1.1" xmlns="http://www.w3.org/2000/svg">
+```
+
+3. **Drawing the Mermaid:**
+   - Break down the mermaid design into simpler shapes like circles, ovals, and paths for the tail fins.
+   - Use `fill` and `stroke` attributes to define colors and outlines of each shape.
+
+Here's an example of how you might draw a simple mermaid using SVG paths:
+
+```xml
+<path d="M10 50 Q20 75, 35 50 T70 50" stroke="pink" fill="lightblue" />
+```
+
+4. **Adding Glowing Effect:**
+   - To create a glowing effect, use `filter` elements with `<feGaussianBlur>` and `<feMerge>`. Apply this filter to the mermaid shapes using the `filter` attribute.
+
+```xml
+<defs>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+    <feMerge>
+      <feMergeNode in="coloredBlur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+
+<path d="M10 50 Q20 75, 35 50 T70 50" stroke="pink" fill="lightblue" filter="url(#glow)" />
+```
+
+5. **Finalizing:**
+   - Close the SVG tag to complete your masterpiece.
+
+```xml
+</svg>

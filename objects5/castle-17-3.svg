@@ -1,0 +1,30 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Walls -->
+  <rect x="150" y="200" width="500" height="200" fill="#774f38" stroke="#fff" stroke-width="5"/>
+
+  <!-- Keep Tower -->
+  <polygon points="160,120 190,120 200,170 160,220" fill="#774f38" stroke="#fff" stroke-width="5"/>
+  <circle cx="180" cy="180" r="40" fill="#774f38" stroke="#fff" stroke-width="5"/>
+
+  <!-- Gate House -->
+  <rect x="290" y="200" width="120" height="200" fill="#774f38" stroke="#fff" stroke-width="5"/>
+  <path d="M360,200 Q370,230 380,200" stroke="#fff" stroke-width="5"/>
+
+  <!-- Main Building -->
+  <rect x="390" y="140" width="280" height="240" fill="#774f38" stroke="#fff" stroke-width="5"/>
+  <polygon points="660,140 670,190 620,190" fill="#774f38" stroke="#fff" stroke-width="5"/>
+
+  <!-- Towers -->
+  <circle cx="490" cy="280" r="60" fill="#774f38" stroke="#fff" stroke-width="5"/>
+  <circle cx="610" cy="280" r="60" fill="#774f38" stroke="#fff" stroke-width="5"/>
+
+  <!-- Roofs -->
+  <polygon points="190,240 240,320 290,240" fill="#774f38" stroke="#fff" stroke-width="5"/>
+  <polygon points="620,240 670,320 720,240" fill="#774f38" stroke="#fff" stroke-width="5"/>
+
+  <!-- Roads -->
+  <path d="M150,400 Q250,450 350,400" stroke="#fff" stroke-width="10"/>
+  <path d="M750,400 Q650,450 550,400" stroke="#fff" stroke-width="10"/>
+
+</svg>

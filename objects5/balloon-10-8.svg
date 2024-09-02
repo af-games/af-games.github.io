@@ -1,0 +1,18 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Outline -->
+  <circle cx="100" cy="70" r="60" stroke="black" stroke-width="2" fill="none"/>
+
+  <!-- Balloon Body Color -->
+  <circle cx="100" cy="70" r="58" fill="#ffd34e"/>
+
+  <!-- Balloon String -->
+  <line x1="100" y1="65" x2="100" y2="15" stroke="black" stroke-width="2"/>
+
+  <!-- Balloon Tie -->
+  <rect x="90" y="10" width="20" height="10" fill="#333"/>
+
+  <!-- Balloon Top Shadow -->
+  <circle cx="100" cy="25" r="8" fill="#8b7d6e" opacity="0.5"/>
+
+</svg>

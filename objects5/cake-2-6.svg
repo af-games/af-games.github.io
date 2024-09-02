@@ -1,0 +1,14 @@
+<svg>` tag and give it some basic dimensions and colors for now. We'll use a 300x200 pixel canvas and set the background color to light grey (`#f8f9fa`).
+
+Here's your first line of code:
+
+```xml
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg" style="background-color:#f8f9fa;">
+```
+
+Now, let the composition begin! Next, we might add a circle to represent the first note. Let's make it red (`#dc3545`) and place it in the middle of the canvas.
+
+```xml
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg" style="background-color:#f8f9fa;">
+  <circle cx="150" cy="100" r="40" fill="#dc3545"/>
+</svg>

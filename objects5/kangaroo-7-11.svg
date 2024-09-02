@@ -1,0 +1,15 @@
+<svg width="350" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M60,25 Q90,80 140,25 T280,25" style="fill:tan; stroke:black;" />
+  <!-- Head -->
+  <circle cx="170" cy="70" r="50" style="fill:white; stroke:black;" />
+  <!-- Ears -->
+  <polygon points="140,30 200,30 170,60" style="fill:tan; stroke:black;" />
+  <!-- Tail -->
+  <path d="M280,50 Q310,10 C350,60 400,100 380,50" style="fill:grey;" />
+  <!-- Patterns (inspired by Byzantine art) -->
+  <pattern id="p" patternUnits="userSpaceOnUse">
+    <circle cx="0" cy="0" r="10" style="fill:black;" />
+  </pattern>
+  <rect x="60" y="80" width="270" height="300" style="fill:url(#p);" />
+</svg>

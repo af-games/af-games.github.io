@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -40 40 80">
+  <!-- Background -->
+  <rect width="40" height="120" fill="#f5f5f5"/>
+
+  <!-- Igloo Coat Body -->
+  <path d="M0,-30 Q-10,-15 -10,5 T10,5 T10,-15 T0,-30"
+        fill="url(#iglooGradient)" stroke="#2c3e50"/>
+
+  <!-- Igloo Coat Sleeves -->
+  <circle cx="-15" cy="-25" r="15" fill="url(#iglooPattern)" stroke="#2c3e50"/>
+  <circle cx="15" cy="-25" r="15" fill="url(#iglooPattern)" stroke="#2c3e50"/>
+
+  <!-- Igloo Coat Hood -->
+  <path d="M-10,-40 Q0,-25 10,-25 Q10,-40 -10,-40"
+        fill="url(#iglooGradient)" stroke="#2c3e50"/>
+
+  <!-- Igloo Coat Hem Details -->
+  <rect x="-10" y="30" width="20" height="20" fill="#fff"/>
+  <path d="M-10,30 Q0,45 10,45 Q10,30 -10,30"
+        stroke="#9b59b6" fill="transparent"/>
+
+  <!-- Gradients and Patterns -->
+  <defs>
+    <linearGradient id="iglooGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1"/>
+    </linearGradient>
+    <pattern id="iglooPattern" patternUnits="userSpaceOnUse" width="6" height="6">
+      <image href="https://i.imgur.com/87ZYjWm.png" x="0" y="0" width="6" height="6"/>
+    </pattern>
+  </defs>
+</svg>

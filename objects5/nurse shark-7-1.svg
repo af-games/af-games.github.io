@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" preserveAspectRatio="xMidYMid meet">
+  <!-- Body -->
+  <path d="M300,100 Q375,50 450,100 Q375,150 300,200 Q225,150 150,100" fill="#8B7D6B"/>
+
+  <!-- Dorsal fin -->
+  <polygon points="450,100 525,50 500,100" fill="#8B7D6B"/>
+
+  <!-- Pectoral fins (left & right) -->
+  <path d="M225,250 Q150,300 100,250 L100,100 H225 Z" fill="#8B7D6B"/>
+  <path d="M375,250 Q450,300 500,250 L500,100 H375 Z" fill="#8B7D6B"/>
+
+  <!-- Caudal fin -->
+  <rect x="500" y="200" width="100" height="200" rx="50" fill="#8B7D6B"/>
+</svg>

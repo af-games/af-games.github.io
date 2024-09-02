@@ -1,0 +1,68 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#87CEEB"/>
+
+  <!-- Sun -->
+  <circle cx="150" cy="50" r="40" fill="#FF9C3D"/>
+```
+
+Next, let's add the rock where the lion will stand. We'll use a polygon for this.
+
+```xml
+  <!-- Rock -->
+  <polygon points="270,600 380,580 450,600 450,480 310,460" fill="#7F6A59"/>
+```
+
+Now, let's add the lion. We'll use paths for this to create his outline and details.
+
+```xml
+  <!-- Lion -->
+  <path d="M320,380 Q350,340 380,380 Q410,340 440,380 Q470,340 500,380 Q530,340 560,380 Q590,340 620,380 Q650,340 680,380" fill="#FFB973"/>
+  <path d="M380,320 Q410,300 440,320 Q470,300 500,320 Q530,300 560,320" fill="#FFB973"/>
+```
+
+To give the scene depth and mood, let's add shadows using darker shades of the rock color.
+
+```xml
+  <!-- Rock shadow -->
+  <rect x="280" y="460" width="170" height="120" fill="#5C4F43" opacity="0.5"/>
+
+  <!-- Lion shadow -->
+  <path d="M380,390 Q410,370 440,390 Q470,370 500,390 Q530,370 560,390" fill="#5C4F43" opacity="0.5"/>
+```
+
+Finally, let's add some trees to complete the scene.
+
+```xml
+  <!-- Trees -->
+  <path d="M120,480 Q150,420 180,480 Q210,420 240,480" fill="#3D6C59"/>
+  <path d="M270,450 Q300,410 330,450 Q360,410 390,450" fill="#3D6C59"/>
+```
+
+Here's the complete SVG code for our scene:
+
+```xml
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#87CEEB"/>
+
+  <!-- Sun -->
+  <circle cx="150" cy="50" r="40" fill="#FF9C3D"/>
+
+  <!-- Rock -->
+  <polygon points="270,600 380,580 450,600 450,480 310,460" fill="#7F6A59"/>
+
+  <!-- Lion -->
+  <path d="M320,380 Q350,340 380,380 Q410,340 440,380 Q470,340 500,380 Q530,340 560,380 Q590,340 620,380 Q650,340 680,380" fill="#FFB973"/>
+  <path d="M380,320 Q410,300 440,320 Q470,300 500,320 Q530,300 560,320" fill="#FFB973"/>
+
+  <!-- Rock shadow -->
+  <rect x="280" y="460" width="170" height="120" fill="#5C4F43" opacity="0.5"/>
+
+  <!-- Lion shadow -->
+  <path d="M380,390 Q410,370 440,390 Q470,370 500,390 Q530,370 560,390" fill="#5C4F43" opacity="0.5"/>
+
+  <!-- Trees -->
+  <path d="M120,480 Q150,420 180,480 Q210,420 240,480" fill="#3D6C59"/>
+  <path d="M270,450 Q300,410 330,450 Q360,410 390,450" fill="#3D6C59"/>
+</svg>

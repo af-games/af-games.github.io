@@ -1,0 +1,88 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="250" fill="#87CEEB"/>
+
+  <!-- Ground -->
+  <rect x="0" y="250" width="800" height="350" fill="#FFDEAD"/>
+```
+
+Next, we'll add the lion. We'll use a circle for the body and paths for the face and mane.
+
+```svg
+  <!-- Lion Body -->
+  <circle cx="400" cy="450" r="100" fill="#F39C12"/>
+
+  <!-- Lion Face Outline -->
+  <path d="M380 400 Q400 370, 420 400 Q400 430, 380 450 Z" stroke="#FFF" fill="transparent"/>
+
+  <!-- Lion Mane -->
+  <path d="M360 390 C380 360, 420 360, 440 390 C420 420, 380 420, 360 390 Z" stroke="#FFF" fill="transparent"/>
+```
+
+Now, let's add some lighting effects to create mood and depth. We'll use a linear gradient for the sky to give it a sunrise effect.
+
+```svg
+  <!-- Sky Gradient -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFF; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ground Gradient -->
+  <rect x="0" y="250" width="800" height="350" fill="url(#groundGrad)"/>
+```
+
+For the ground, we'll use another linear gradient to create some depth.
+
+```svg
+  <!-- Ground Gradient -->
+  <defs>
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFDEAD; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#FFB679; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFA03D; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+```
+
+Finally, let's add some grass to bring the scene to life. We'll use a series of small rectangles.
+
+```svg
+  <!-- Grass -->
+  <g stroke="transparent">
+    <rect x="5" y="500" width="10" height="20" fill="#8B4513"/>
+    <rect x="20" y="490" width="10" height="20" fill="#8B4513"/>
+    <rect x="35" y="510" width="10" height="20" fill="#8B4513"/>
+    <!-- Repeat this pattern for as many grass tufts as desired -->
+  </g>
+```
+
+Here's the complete SVG code:
+
+```svg
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFF; stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFDEAD; stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#FFB679; stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#FFA03D; stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="250" fill="#87CEEB"/>
+  <rect x="0" y="250" width="800" height="350" fill="url(#groundGrad)"/>
+  <circle cx="400" cy="450" r="100" fill="#F39C12"/>
+  <path d="M380 400 Q400 370, 420 400 Q400 430, 380 450 Z" stroke="#FFF" fill="transparent"/>
+  <path d="M360 390 C380 360, 420 360, 440 390 C420 420, 380 420, 360 390 Z" stroke="#FFF" fill="transparent"/>
+  <g stroke="transparent">
+    <rect x="5" y="500" width="10" height="20" fill="#8B4513"/>
+    <rect x="20" y="490" width="10" height="20" fill="#8B4513"/>
+    <rect x="35" y="510" width="10" height="20" fill="#8B4513"/>
+  </g>
+</svg>

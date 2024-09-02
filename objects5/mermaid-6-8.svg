@@ -1,0 +1,23 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background rectangle -->
+  <rect x="0" y="0" width="500" height="500" fill="#ADD8E6"/>
+
+  <!-- Mermaid outline -->
+  <path d="M100,50 Q150,20 200,50 ... Q350,200 400,250" stroke="black" fill="transparent"/>
+
+  <!-- Body hexagons (simplified) -->
+  <polygon points="90,80 150,60 200,80 ... 400,300 350,350" fill="#007BFF"/>
+  <polygon points="85,75 145,55 195,75 ... 395,295 345,345" fill="#ADD8E6"/>
+
+  <!-- Scales (simplified) -->
+  <rect x="100" y="100" width="50" height="30" fill="#0056b3"/>
+  <rect x="150" y="90" width="50" height="30" fill="#28a745"/>
+  <!-- Add more scale rectangles to cover the mermaid's body -->
+
+  <!-- Eyes (simplified) -->
+  <circle cx="180" cy="160" r="20" fill="#000"/>
+  <circle cx="220" cy="160" r="20" fill="#000"/>
+  <circle cx="190" cy="157" r="8" fill="#FFF"/>
+
+</svg>

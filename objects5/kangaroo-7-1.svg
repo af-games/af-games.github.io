@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 60">
+  <!-- Body -->
+  <path d="M10 20 Q40 20, 40 50 Q10 80, 10 50 Z"/>
+
+  <!-- Head -->
+  <circle cx="25" cy="35" r="15"/>
+
+  <!-- Ears -->
+  <polygon points="20,10 35,10 27.5,30"/>
+
+  <!-- Arms -->
+  <path d="M8,40 Q20,60, 32,40"/>
+
+  <!-- Legs -->
+  <path d="M9,50 Q20,70, 31,50"/>
+
+  <!-- Tail -->
+  <polygon points="40,50 45,60 35,60"/>
+</svg>

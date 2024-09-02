@@ -1,0 +1,25 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Giraffe Body -->
+  <ellipse cx="150" cy="200" rx="150" ry="200"
+           fill="#C68642"/>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="70" rx="70" ry="90"
+           fill="#C68642"/>
+
+  <!-- Neck (3 ellipses) -->
+  <ellipse cx="150" cy="140" rx="40" ry="60" fill="#C68642"/>
+  <ellipse cx="150" cy="90" rx="40" ry="70" fill="#C68642"/>
+  <ellipse cx="150" cy="180" rx="40" ry="80" fill="#C68642"/>
+
+  <!-- Legs -->
+  <rect x="90" y="300" width="40" height="150" fill="#C68642"/>
+  <rect x="210" y="300" width="40" height="150" fill="#C68642"/>
+
+  <!-- Spot Pattern (10 small circles) -->
+  <circle cx="70" cy="160" r="5" fill="#3B2306"/>
+  <circle cx="190" cy="130" r="5" fill="#3B2306"/>
+  <!-- Add more circles here... -->
+
+</svg>

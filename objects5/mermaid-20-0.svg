@@ -1,0 +1,26 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Mermaid's Body -->
+  <path d="M150,400 Q100,350 75,300 Q125,250 150,200 Q175,250 200,300 Q250,350 300,400" fill="#B3E0FF" stroke="black"/>
+
+  <!-- Legs -->
+  <path d="M175,300 Q200,350 225,300 Q175,250 150,300 Z" fill="#B3E0FF" stroke="black"/>
+
+  <!-- Arms -->
+  <path d="M150,200 Q100,150 50,200 Q75,250 150,300 Q175,250 200,200" fill="#B3E0FF" stroke="black"/>
+  <circle cx="45" cy="230" r="15" fill="#FFFFFF">
+    <animate attributeName="fill" values="#FFFFFF;#FFD700;#FFFFFF" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="175" rx="50" ry="75" fill="#B3E0FF"/>
+  <circle cx="160" cy="140" r="10" fill="#000000"/>
+  <circle cx="140" cy="140" r="5" fill="#000000"/>
+
+  <!-- Hair -->
+  <path d="M125,175 Q100,225 75,200 Q50,250 25,225 Q75,300 125,275 Q175,300 225,275 Q250,250 225,225" fill="#2196F3"/>
+
+  <!-- Rock -->
+  <rect x="125" y="425" width="75" height="75" rx="25" fill="#C0C0C0"/>
+
+</svg>

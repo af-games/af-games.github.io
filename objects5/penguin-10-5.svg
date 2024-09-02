@@ -1,0 +1,38 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Define gradients -->
+<defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:rgb(59,89,173);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(114,146,214);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color:rgb(235,240,249);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(187,196,209);stop-opacity:1" />
+    </linearGradient>
+</defs>
+
+<!-- Penguin body -->
+<g fill="url(#bodyGradient)">
+    <rect width="4" height="4" x="5" y="5" rx="2"/>
+    <repeatCount="10">
+        <rect width="4" height="4" ry="2" />
+    </repeatCount>
+</g>
+
+<!-- Penguin head -->
+<g fill="url(#headGradient)" transform="translate(75, 30) scale(0.5)">
+    <rect width="2" height="2" x="1" y="1" rx="1"/>
+    <repeatCount="9">
+        <rect width="2" height="2" ry="1" />
+    </repeatCount>
+</g>
+
+<!-- Penguin eyes -->
+<circle cx="35" cy="60" r="2.5" fill="black"/>
+<circle cx="45" cy="60" r="2.5" fill="black"/>
+
+<!-- Penguin beak -->
+<polygon points="37,65 43,65 40,70" fill="orange"/>
+
+</svg>

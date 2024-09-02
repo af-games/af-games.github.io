@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Balloon body -->
+  <circle id="balloonBody" cx="0" cy="40" r="40" fill="#FFB6C1"/>
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 0"
+    to="360 0"
+    dur="5s"
+    repeatCount="indefinite"/>
+
+  <!-- Balloon outer shape -->
+  <path id="balloonOuter" d="M-42.7 -17 A42.7 42.7 0 0 0 42.7 -17 38.9 38.9 0 0 0 -42.7 17 Z"
+        fill="transparent" stroke="#FFB6C1" stroke-width="5"/>
+
+  <!-- Balloon burner -->
+  <rect id="burner" x="-10" y="20" width="20" height="20" fill="#FF8C00"/>
+  <animate
+    attributeName="y"
+    from="20"
+    to="40"
+    dur="1s"
+    repeatCount="indefinite"/>
+
+  <!-- Basket -->
+  <rect id="basket" x="-35" y="35" width="70" height="20" fill="#696969"/>
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0, 0"
+    to="0, -10"
+    dur="1s"
+    repeatCount="indefinite"/>
+
+</svg>

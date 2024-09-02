@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 2100">
+
+  <!-- The Colorful Savannah -->
+  <circle cx="450" cy="200" r="100" fill="green"/>
+  <circle cx="600" cy="350" r="80" fill="yellow"/>
+  <rect x="150" y="500" width="600" height="300" fill="blue"/>
+  <!-- ... Add more animals and colors ... -->
+
+  <!-- Gil Discovers the Fading Colors -->
+  <circle cx="450" cy="700" r="100" fill="brown"/>
+  <path d="M450,800 Q420,650 380,600 Q480,550 450,500 Q520,550 580,600 Q550,650 450,700" stroke="black" fill="transparent"/>
+  <text x="60" y="750">Gil discovers the fading colors...</text>
+
+  <!-- Gil Meets Terrence -->
+  <rect x="300" y="1200" width="100" height="80" fill="brown"/>
+  <circle cx="350" cy="1240" r="20" fill="black"/>
+  <text x="60" y="1300">Gil meets Terrence...</text>
+
+  <!-- The Chase Begins -->
+  <path d="M450,1700 Q480,1600 520,1500 Q420,1400 380,1300" stroke="black" fill="transparent"/>
+  <text x="60" y="1800">The chase begins!</text>
+
+  <!-- Gil and Impy's Confrontation -->
+  <path d="M50,2000 Q70,1900 130,1800 Q200,1900 240,2000" stroke="black" fill="transparent"/>
+  <text x="60" y="2100">Gil confronts Impy...</text>
+
+</svg>

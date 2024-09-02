@@ -1,0 +1,42 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#1a1a1a"/>
+
+  <!-- OWl's Body -->
+  <path d="M100,150 Q120,100 200,100 L400,150 Q380,200 400,250 L100,250 Z" fill="#f7f7f7">
+    <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="d" values="M100,150 Q120,100 200,100 L400,150 Q380,200 400,250 L100,250 Z;M90,140 Q110,90 190,90 L390,140 Q370,190 390,240 L90,240 Z;" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="stroke-opacity" values="0.5;0;0.5" dur="2s" repeatCount="indefinite" begin="1s"/>
+  </path>
+
+  <!-- OWl's Head -->
+  <circle cx="400" cy="175" r="75" fill="#f7f7f7">
+    <animate attributeName="fill-opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="75;80;75" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- OWl's Eyes -->
+  <circle cx="360" cy="145" r="20" fill="#000">
+    <animate attributeName="r" values="20;18;20" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="440" cy="145" r="20" fill="#000">
+    <animate attributeName="r" values="20;18;20" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- OWl's Beak -->
+  <path d="M375,240 Q390,260 405,240 L405,210 Z" fill="#f7f7f7">
+    <animate attributeName="fill-opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- OWl's Wings -->
+  <path d="M100,150 Q120,100 200,100 L400,150 Q380,200 400,250 L100,250 Z" fill="#f7f7f7">
+    <animate attributeName="fill-opacity" values="0.7;0.6;0.7" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="d" values="M100,150 Q130,90 210,90 L400,150 Q390,210 410,260 L100,260 Z;M100,150 Q120,100 200,100 L400,150 Q380,200 400,250 L100,250 Z;" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Shadows -->
+  <rect x="0" y="600" width="800" height="30" fill="#000">
+    <animate attributeName="y" values="600;590;600" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>

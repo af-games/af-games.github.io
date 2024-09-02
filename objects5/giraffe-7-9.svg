@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Colors and Styles -->
+  <style>
+    .sun { fill: yellow; }
+    .savannah { fill: #d4a57c; }
+    .animals, .treasure { stroke-width: 2; stroke: #333; }
+    .giraffe { fill: #bda980; }
+    .tortoise { fill: #615e51; }
+    .text { font-family: Arial; font-size: 24px; text-anchor: middle; dominant-baseline: hanging; }
+  </style>
+
+  <!-- Scene 1: In the Savannah -->
+  <circle class="giraffe" cx="400" cy="300" r="150"/>
+  <circle cx="300" cy="400" r="30"/> <!-- Other animal -->
+  <rect x="200" y="200" width="600" height="200" class="savannah"/>
+  <circle cx="80" cy="150" r="120" class="sun"/>
+
+  <!-- Scene 2: The Strange Discovery -->
+  <use href="#giraffe" x="350" y="270"/>
+  <line x1="460" y1="330" x2="560" y2="330" class="animals"/> <!-- Distance marker -->
+  <text x="500" y="350">Giraffe notices something...</text>
+
+  <!-- Scene 3: The Hidden Treasure -->
+  <use href="#giraffe" x="400" y="270"/>
+  <rect x="480" y="180" width="80" height="60" fill="#c59e6a" stroke="#333"/> <!-- Treasure chest -->
+  <path d="M460,240 L500,180 L540,240 Z" class="treasure"/>
+  <text x="470" y="200">A hidden treasure!</text>
+
+  <!-- Scenes continue similarly with additional SVG elements and text annotations -->
+
+</svg>

@@ -1,0 +1,20 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Kangaroo Body -->
+  <path d="M100,400 Q150,375 200,350 Q250,375 300,400 Q250,425 200,450 Q150,425 100,400 Z"
+        fill="none" stroke="#F39C12" stroke-width="10"/>
+
+  <!-- Kangaroo Head -->
+  <circle cx="200" cy="325" r="75" fill="none" stroke="#66BB6A" stroke-width="10"/>
+
+  <!-- Kangaroo Limbs -->
+  <path d="M150,450 Q175,500 200,550 Q225,500 250,450"
+        fill="none" stroke="#C3E6CB" stroke-width="8"/>
+
+  <!-- Kangaroo Ears -->
+  <path d="M180,370 Q200,330 180,300 Q200,345 180,370"
+        fill="none" stroke="#285947" stroke-width="6"/>
+
+  <!-- Kangaroo Tail -->
+  <path d="M220,450 Q250,480 280,450 Q250,420 220,450"
+        fill="none" stroke="#285947" stroke-width="6"/>
+</svg>

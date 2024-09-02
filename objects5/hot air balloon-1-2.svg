@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!--Basket-->
+  <rect x="-15" y="-30" width="30" height="40"
+        fill="#8B7D6C" stroke="black" stroke-width="2"/>
+
+  <!--Balloon Envelope-->
+  <path d="M0,-50 A50,50 0 0 0 0,50"
+        fill="#FFDEAD" stroke="black" stroke-width="2"/>
+  <path d="M0,-50 A49,49 0 0 1 0,49"
+        fill="#FFF3E0" stroke="none"/>
+
+  <!--Rim-->
+  <circle cx="0" cy="-45" r="45"
+          stroke="black" stroke-width="2" fill="none"/>
+
+  <!--Netting-->
+  <mask id="netting">
+    <path d="M-49,-30 A50,50 0 0 1 49,-30"/>
+    <image href="https://i.imgur.com/7E8qWmJ.png" width="100%" height="100%"
+           x="-50%" y="-50%" mask="url(#netting)"/>
+  </mask>
+  <path d="M-49,-30 A50,50 0 0 1 49,-30"
+        fill="none" stroke="#8B7D6C" stroke-width="2" mask="url(#netting)"/>
+
+  <!--Shadow-->
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="5"/>
+      <feOffset dx="5" dy="5"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="-15" y="-40" width="30" height="80"
+        fill="#FFDEAD" stroke="none" opacity="0.2" filter="url(#shadow)"/>
+
+</svg>

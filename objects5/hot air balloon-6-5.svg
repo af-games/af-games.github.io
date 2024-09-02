@@ -1,0 +1,37 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body -->
+  <circle id="balloonBody" cx="150" cy="70" r="120"
+          fill="#FFC107" stroke="#FFF" stroke-width="4">
+    <animateTransform attributeName="transform"
+                      type="translate"
+                      from="-50,-50"
+                      to="50,50"
+                      begin="0s"
+                      dur="3s"
+                      repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Balloon burner -->
+  <ellipse id="burner" cx="170" cy="140" rx="60" ry="20"
+           fill="#FF9800" stroke="#FFF" stroke-width="4">
+    <animate attributeName="opacity"
+             values="1;0.5;1"
+             begin="balloonBody.end"
+             dur="2s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Balloon basket -->
+  <rect id="basket" x="130" y="180" width="40" height="60"
+        fill="#C5E1A5" stroke="#FFF" stroke-width="4">
+    <animateTransform attributeName="transform"
+                      type="scale"
+                      from="1,1"
+                      to="1.2,1.2"
+                      begin="balloonBody.end"
+                      dur="2s"
+                      repeatCount="indefinite"/>
+  </rect>
+
+</svg>

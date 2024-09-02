@@ -1,0 +1,22 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Landmass -->
+  <rect x="100" y="50" width="300" height="300"
+        fill="#8B7D6B" stroke="black"/>
+
+  <!-- Ocean (surrounding the land) -->
+  <rect x="0" y="0" width="500" height="500"
+        fill="#87CEEB" stroke="none"/>
+
+  <!-- Landmarks: Islands -->
+  <circle cx="150" cy="200" r="40" fill="#D6EAF5"/>
+  <circle cx="300" cy="120" r="30" fill="#D6EAF5"/>
+  <circle cx="220" cy="300" r="45" fill="#D6EAF5"/>
+
+  <!-- Legends -->
+  <text x="410" y="50" font-family="Verdana" font-size="18">CakeLand</text>
+  <text x="410" y="90" font-family="Verdana" font-size="12">Lands: Light Brown (#8B7D6B)</text>
+  <text x="410" y="120" font-family="Verdana" font-size="12">Oceans: Light Blue (#87CEEB)</text>
+  <text x="410" y="150" font-family="Verdana" font-size="12">Islands: Light Green (#D6EAF5)</text>
+
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <defs>
+    <!-- Animations -->
+    <animateTransform
+      attributeName="transform"
+      type="scale"
+      from="1"
+      to="1.1"
+      begin="0s"
+      dur="4s"
+      repeatCount="indefinite" />
+    <animateMotion path="M 0,-50 A 25,25 0 0 0 50,-50 A 25,25 0 0 1 0,0 Z" begin="0s" dur="8s" repeatCount="indefinite">
+      <mpath href="#jellyfishPath"/>
+    </animateMotion>
+  </defs>
+
+  <!-- Bars -->
+  <circle cx="-40" cy="25" r="3" fill="#BBDEFB">Bar 1</circle>
+  <path d="M -40,25 Q -20,-20 0,25" stroke="#BBDEFB"/>
+  <circle cx="0" cy="25" r="3" fill="#FFB6C1">Bar 2</circle>
+  <path d="M 0,25 Q 20,-20 40,25" stroke="#FFB6C1"/>
+
+  <!-- Jellyfish Path -->
+  <path id="jellyfishPath" d="M -40,25 C -30,-35 10,-35 40,25" stroke="#2196F3" fill="transparent"/>
+</svg>

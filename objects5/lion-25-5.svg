@@ -1,0 +1,41 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Lion's Body -->
+  <circle id="lion-body" cx="150" cy="300" r="80" fill="#FDD83A">
+    <animateTransform
+      attributeName="cx"
+      type="translate"
+      values="140;160;140"
+      dur="2s"
+      repeatCount="indefinite" />
+  </circle>
+
+  <!-- Lion's Face -->
+  <rect id="lion-face" x="90" y="250" width="200" height="150" fill="#FFFFFF">
+    <animate
+      attributeName="x"
+      values="80;130;80"
+      dur="2s"
+      repeatCount="indefinite" />
+  </rect>
+
+  <!-- Lion's Mane -->
+  <path id="lion-mane" d="M90,70 Q90,50 140,50 Q190,50 190,70" stroke="#FFD700" fill="transparent">
+    <animateTransform
+      attributeName="d"
+      type="rotate"
+      from="M90,70 Q90,50 140,50 Q190,50 190,70"
+      to="M90,200 Q90,250 140,250 Q190,250 190,200"
+      dur="3s"
+      repeatCount="indefinite" />
+  </path>
+
+  <!-- Lion's Strings -->
+  <path d="M150,380 L150,420" stroke="#CD7F32" fill="transparent"/>
+  <path d="M150,290 L160,330 L140,330 Z" stroke="#CD7F32" fill="transparent"/>
+
+  <!-- Tree -->
+  <rect id="tree-trunk" x="380" y="350" width="50" height="150" fill="#6B4925"/>
+  <circle id="tree-top" cx="390" cy="200" r="50" fill="#008000"/>
+
+</svg>

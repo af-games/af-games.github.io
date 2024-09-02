@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Background pattern -->
+  <defs>
+    <pattern id="bgPattern" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 10,0 L 40,20 Z" fill="lightblue"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" style="fill:url(#bgPattern);"/>
+
+  <!-- Mermaid's head -->
+  <ellipse cx="400" cy="150" rx="120" ry="150" fill="lightpink"/>
+  <path d="M 380,150 Q 400,100 420,150" stroke="black" fill="transparent"/>
+
+  <!-- Mermaid's torso and arms -->
+  <path d="M 400,150 Q 350,250 400,350" stroke="black" fill="transparent"/>
+  <polyline points="370,280 390,310 410,280" stroke="black" fill="transparent"/>
+
+  <!-- Mermaid's tail -->
+  <path d="M 400,350 Q 350,450 400,550 Q 450,450 400,600" stroke="black" fill="transparent"/>
+  <polygon points="390,480 410,480 400,520" fill="lightblue"/>
+
+</svg>

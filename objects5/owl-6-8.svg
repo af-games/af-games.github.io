@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 300">
+  <style>
+    .calligraphy {
+      stroke: #4A2C0B;
+      stroke-width: 5;
+      fill: transparent;
+    }
+  </style>
+
+  <!-- Main loop -->
+  <path class="calligraphy" d="M50,200 C60,150 90,120 110,200"/>
+
+  <!-- Top of the loop -->
+  <path class="calligraphy" d="M110,200 C70,50 90,50 110,60"/>
+
+  <!-- Bottom loop -->
+  <path class="calligraphy" d="M110,240 C70,250 90,250 80,230"/>
+
+  <!-- Overlap stroke -->
+  <path class="calligraphy" d="M60,180 Q70,170 80,180"/>
+
+  <!-- Counterstroke -->
+  <path class="calligraphy" d="M90,180 Q80,190 90,240"/>
+</svg>

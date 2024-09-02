@@ -1,0 +1,29 @@
+<svg width="640" height="480" viewBox="0 0 640 480" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Measure 1: Balloon appears as a small dot -->
+  <circle cx="320" cy="240" r="5" fill="#ffb6c1">
+    <animate attributeName="r" from="5" to="80" dur="4s" begin="0s" />
+  </circle>
+
+  <!-- Measure 2: Balloon starts floating upwards -->
+  <circle cx="320" cy="240" r="80" fill="#ffb6c1">
+    <animate attributeName="cy" from="240" to="50" dur="8s" begin="4s" />
+  </circle>
+
+  <!-- Measure 3: Balloon reaches its peak -->
+  <circle cx="320" cy="50" r="80" fill="#ffb6c1">
+    <animate attributeName="r" from="80" to="100" dur="2s" begin="12s" />
+  </circle>
+
+  <!-- Measure 4: Balloon starts deflating -->
+  <circle cx="320" cy="50" r="100" fill="#ffb6c1">
+    <animate attributeName="r" from="100" to="80" dur="4s" begin="14s" />
+  </circle>
+
+  <!-- Measure 5: Balloon pops and disappears -->
+  <circle cx="320" cy="50" r="80" fill="#ffb6c1">
+    <animate attributeName="opacity" from="1" to="0" dur="2s" begin="18s" />
+    <animate attributeName="cy" from="50" to="480" dur="2s" begin="18s" />
+  </circle>
+
+</svg>

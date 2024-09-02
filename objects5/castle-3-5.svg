@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <rect x="100" y="50" width="50" height="150" fill="#8b4513"/>
+
+  <!-- Keep -->
+  <rect x="170" y="100" width="50" height="100" fill="#8b4513"/>
+
+  <!-- Great Hall (Polygonal shape) -->
+  <polygon points="260,50 340,50 340,150 260,150" fill="#8b4513"/>
+
+  <!-- Chapel -->
+  <circle cx="370" cy="125" r="25" fill="#8b4513"/>
+
+  <!-- Drawbridge -->
+  <line x1="100" y1="200" x2="170" y2="200" stroke="#704214" stroke-width="5"/>
+
+  <!-- Moat (Path) -->
+  <path d="M100,200 Q130,250 170,200 T340,200 T260,250 Z" fill="#80bfff" stroke="#704214" stroke-width="5"/>
+
+  <!-- Surrounding Forest -->
+  <polygon points="40,300 80,400 220,400 260,350 340,300 400,350 440,400 580,400 620,350 700,400" fill="#2e863a"/>
+
+  <!-- Lake -->
+  <ellipse cx="400" cy="350" rx="150" ry="100" fill="#80bfff"/>
+
+</svg>

@@ -1,0 +1,24 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Wall -->
+  <rect id="wall" x="100" y="50" width="300" height="300" fill="#696969"/>
+
+  <!-- Towers -->
+  <mask id="towers">
+    <path d="M100,80 A20,20 0 0 1 300,80 A20,20 0 0 1 100,400" fill="#fff"/>
+  </mask>
+  <use href="#wall" mask="url(#towers)"/>
+
+  <!-- Gatehouse -->
+  <rect id="gatehouse" x="175" y="50" width="50" height="300" fill="#9E9E9E"/>
+  <use href="#wall" x="175" y="50" mask="url(#towers)"/>
+
+  <!-- Windows & Doors -->
+  <g id="details">
+    <polygon points="250,100 300,100 275,150"/>
+    <rect x="180" y="150" width="40" height="50"/>
+    <polygon points="160,250 200,250 180,300"/>
+  </g>
+  <use href="#details" x="175"/>
+
+</svg>

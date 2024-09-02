@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Scene 1: Morning Departure -->
+<circle cx="400" cy="500" r="250" fill="#FFFF00" stroke="#FF4500">
+  <animate attributeName="cy" values="300;500" dur="3s" repeatCount="1" />
+</circle>
+<rect x="300" y="300" width="200" height="150" fill="#C78819">
+  <animate attributeName="y" values="300;400" dur="3s" repeatCount="1" />
+</rect>
+<circle cx="360" cy="400" r="20" fill="#FFD700"> <!-- Sun -->
+  <text x="50" y="50" font-family="Arial" font-size="24">Morning Departure</text>
+
+<!-- Scene 2: Ascending Through Clouds -->
+<path d="M400,500 Q380,450 400,400 Q420,450 400,500" stroke="#FFD6E5" fill="none">
+  <animate attributeName="d" values="M400,500 Q380,450 400,400 Q420,450 400,500;M400,400 Q380,350 400,300 Q420,350 400,400" dur="6s" repeatCount="1" />
+</path>
+<text x="50" y="300" font-family="Arial" font-size="24">Ascending Through Clouds</text>
+
+<!-- Scene 3: Mid-Air Obstacle -->
+<path d="M380,350 Q420,300 460,350" stroke="#40E0D0" fill="none">
+  <animate attributeName="d" values="M380,350 Q420,300 460,350;M380,350 Q380,250 460,350" dur="3s" repeatCount="1" />
+</path>
+<text x="50" y="200" font-family="Arial" font-size="24">Mid-Air Obstacle</text>
+
+<!-- Scene 4: Landing in Enchanted Forest -->
+<circle cx="400" cy="300" r="150" fill="#FFFF00" stroke="#FF4500">
+  <animate attributeName="cy" values="200;300" dur="3s" repeatCount="1" />
+</path>
+<rect x="300" y="200" width="200" height="150" fill="#C78819">
+  <animate attributeName="y" values="200;300" dur="3s" repeatCount="1" />
+</rect>
+<text x="50" y="150" font-family="Arial" font-size="24">Landing in Enchanted Forest</text>
+
+<!-- Scene 5: Nighttime Glow & Return Home -->
+<circle cx="400" cy="400" r="250" fill="#FFFF00" stroke="#FF4500">
+  <animate attributeName="cy" values="300;400" dur="3s" repeatCount="1" />
+</path>
+<circle cx="360" cy="500" r="20" fill="#C0C0C0"> <!-- Moon -->
+<text x="50" y="450" font-family="Arial" font-size="24">Nighttime Glow & Return Home</text>
+
+<!-- Background Elements -->
+<rect width="800" height="600" fill="#ADD8E6">
+<path d="M0,100 Q200,300 400,100 Q600,300 800,100" stroke="#A52A2A" fill="none">
+
+</svg>

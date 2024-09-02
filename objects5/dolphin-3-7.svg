@@ -1,0 +1,43 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0047AB"/>
+
+  <!-- Ocean Floor -->
+  <rect x="0" y="400" width="800" height="200" fill="#003C75"/>
+  <defs>
+    <linearGradient id="floorGradient" gradientUnits="userSpaceOnUse" gradientTransform="rotate(-90)">
+      <stop offset="0%" style="stop-color:#003C75; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#02366D; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="400" width="800" height="200" fill="url(#floorGradient)"/>
+
+  <!-- Arena -->
+  <circle cx="400" cy="300" r="150" stroke="#fff" stroke-width="3" fill="url(#arenaGradient)">
+    <animate attributeName="r" from="150" to="160" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <defs>
+    <linearGradient id="arenaGradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" style="stop-color:#FFFFFF; stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#3D9BF7; stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rocks -->
+  <polygon points="50,100 200,150 80,250 50,200" fill="#696969"/>
+  <polygon points="700,150 600,200 750,250 700,300" fill="#696969"/>
+
+  <!-- Corals -->
+  <circle cx="200" cy="350" r="40" fill="#FFB13D"/>
+  <circle cx="600" cy="350" r="40" fill="#FFB13D"/>
+
+  <!-- Bubbles -->
+  <circle cx="350" cy="280" r="20" fill="#FFFFFF">
+    <animate attributeName="cy" from="280" to="180" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="280" r="15" fill="#FFFFFF">
+    <animate attributeName="cy" from="280" to="180" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+
+</svg>

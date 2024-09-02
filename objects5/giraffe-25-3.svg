@@ -1,0 +1,25 @@
+<svg width="2000" height="1500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Ground -->
+<rect x="0" y="0" width="2000" height="1500" fill="#8DC63C"/>
+
+<!-- Giraffe's body -->
+<rect x="50" y="200" width="400" height="700" fill="#FFD700"/>
+
+<!-- Left eye -->
+<circle cx="200" cy="300" r="100" fill="#000000"/>
+<!-- Right eye -->
+<circle cx="600" cy="300" r="100" fill="#000000"/>
+
+<!-- Neck road -->
+<rect x="300" y="100" width="150" height="1000" fill="#A9A9A9"/>
+
+<!-- Left ear -->
+<circle cx="250" cy="150" r="50" fill="#FFC0CB"/>
+<!-- Right ear -->
+<circle cx="550" cy="150" r="50" fill="#FFC0CB"/>
+
+<!-- Mouth -->
+<path d="M400,800 A300 300 0 0 0 700,800 A300 300 0 0 1 400,500 Z" fill="#FF0000"/>
+
+</svg>

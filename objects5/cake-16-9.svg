@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Body -->
+  <rect x="100" y="150" width="300" height="250" fill="#FFD700"/>
+
+  <!-- Cake Top: Brown Color for Chocolate Cake -->
+  <rect x="100" y="50" width="300" height="100" fill="#8B4513"/>
+
+  <!-- Cake Base: Dark Brown for the Bottom Part of the Cake -->
+  <rect x="100" y="375" width="300" height="25" fill="#46220D"/>
+
+  <!-- Icing: White Color on Top and Sides of the Cake -->
+  <path d="M100,50 Q100,80 140,110 Q290,80 340,50 Q340,70 340,90 Q340,130 290,160 Q140,130 100,160 Z" fill="#FFFFFF"/>
+
+</svg>

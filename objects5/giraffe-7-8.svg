@@ -1,0 +1,55 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" style="background-color:#FFF5E6;" viewBox="0 0 800 600">
+
+<!-- Plate -->
+<ellipse cx="400" cy="300" rx="350" ry="300" fill="#FFF1DF">
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+</ellipse>
+
+<!-- Giraffe -->
+<g id="giraffe" transform="translate(200, 150) scale(0.8)">
+    <!-- Body -->
+    <path d="M40,90 Q60,30 100,70 T300,70 Q240,110 280,70 Q320,150 360,70" fill="#FFD700">
+        <animate attributeName="d" values="M40,90 Q60,30 100,70 T300,70 Q240,110 280,70 Q320,150 360,70;M40,80 Q60,20 100,60 T300,60 Q240,100 280,60 Q320,140 360,60" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <!-- Neck -->
+    <rect x="70" y="90" width="50" height="120" fill="#FFD700">
+        <animate attributeName="height" values="120;130;120" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Head -->
+    <circle cx="90" cy="210" r="40" fill="#FFD700">
+        <animate attributeName="r" values="40;45;40" dur="1s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Legs -->
+    <path d="M360,70 Q320,150 320,90 Q280,50 280,70 T40,70 Q80,50 80,70" fill="#FFD700">
+        <animate attributeName="d" values="M360,70 Q320,150 320,90 Q280,50 280,70 T40,70 Q80,50 80,70;M360,60 Q320,140 320,80 Q280,40 280,60 T40,60 Q80,40 80,60" dur="1s" repeatCount="indefinite"/>
+    </path>
+</g>
+
+<!-- Vegetables -->
+<circle cx="300" cy="450" r="30" fill="#7FFF00">
+    <animate attributeName="r" values="30;35;30" dur="1s" repeatCount="indefinite"/>
+</circle>
+<rect x="250" y="500" width="50" height="40" fill="#8BC34A">
+    <animate attributeName="height" values="40;45;40" dur="1s" repeatCount="indefinite"/>
+</rect>
+
+<!-- Fruits -->
+<circle cx="500" cy="200" r="20" fill="#FF6347">
+    <animate attributeName="r" values="20;25;20" dur="1s" repeatCount="indefinite"/>
+</circle>
+<path d="M520,180 Q550,220 580,180" fill="#FF6347">
+    <animate attributeName="d" values="M520,180 Q550,220 580,180;M520,170 Q550,210 580,170" dur="1s" repeatCount="indefinite"/>
+</path>
+
+<!-- Utensils & Tableware -->
+<rect x="650" y="350" width="40" height="120" fill="#CBCBCB"/>
+<polygon points="750,350 790,350 750,470" fill="#CBCBCB"/>
+
+<!-- Garnishes -->
+<circle cx="600" cy="500" r="10" fill="#FFD700"/>
+<path d="M620,500 Q650,530 680,500" stroke="#FFD700" stroke-width="4"/>
+
+<!-- Tablecloth -->
+<rect x="-50" y="550" width="900" height="50" fill="#FFF5E6"/>
+
+</svg>

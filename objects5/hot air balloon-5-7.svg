@@ -1,0 +1,57 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Define colors -->
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(135,206,250);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(74,134,232);stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="landGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(164,197,131);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(92,135,86);stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="cityGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(213,213,213);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(145,145,145);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background sky -->
+  <rect width="800" height="600" fill="url(#skyGrad)" />
+
+  <!-- Floating islands -->
+  <circle cx="200" cy="300" r="100" fill="url(#landGrad)" />
+  <circle cx="450" cy="200" r="80" fill="url(#landGrad)" />
+  <circle cx="650" cy="400" r="120" fill="url(#landGrad)" />
+
+  <!-- Hot air balloons -->
+  <path d="M350,150 Q370,120 420,150" stroke="black" fill="transparent">
+    <animate attributeName="d" dur="5s" repeatCount="indefinite" values="
+      M350,150 Q370,120 420,150;
+      M380,160 Q400,190 430,160;
+      M350,150 Q370,120 420,150" />
+  </path>
+  <ellipse cx="270" cy="280" rx="40" ry="80" stroke="black" fill="transparent">
+    <animate attributeName="cy" dur="3s" repeatCount="indefinite" values="260;290;260" />
+  </ellipse>
+
+  <!-- Rivers -->
+  <path d="M150,400 Q200,450 250,400" stroke="blue" fill="transparent" />
+  <path d="M500,300 Q550,350 600,300" stroke="blue" fill="transparent" />
+
+  <!-- Forests -->
+  <polygon points="180,250 220,290 140,290" fill="green" />
+  <polygon points="520,230 560,270 460,270" fill="green" />
+
+  <!-- Cities -->
+  <rect x="350" y="180" width="100" height="100" fill="url(#cityGrad)" />
+  <text x="375" y="250" font-family="Verdana" font-size="20">Aerium City</text>
+
+  <!-- Labels -->
+  <text x="180" y="480" font-family="Verdana" font-size="16">Island of Zephyr</text>
+  <text x="430" y="480" font-family="Verdana" font-size="16">Island of Ventus</text>
+  <text x="270" y="580" font-family="Verdana" font-size="16">Serenity River</text>
+
+</svg>

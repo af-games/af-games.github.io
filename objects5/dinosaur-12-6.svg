@@ -1,0 +1,60 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+```
+
+**Mixing ingredients together:**
+
+1. **Body (circle) and Tail (path):**
+```html
+<circle cx="100" cy="400" r="80" fill="#8B7D6B"/>
+<path d="M50 320 Q90 250, 100 210 Z" stroke="#8B7D6B" fill="transparent"/>
+```
+
+2. **Head (circle):**
+```html
+<circle cx="140" cy="200" r="60" fill="#8B7D6B"/>
+```
+*Translate head to the correct position:*
+```html
+<g transform="translate(15, 35)">
+```
+
+3. **Eye (circle) and Mouth (path):**
+```html
+<circle cx="20" cy="-20" r="10" fill="#FFFFFF"/>
+<path d="M-40 -20 Q0 -60, 40 -20 Z" stroke="#8B7D6B" fill="transparent"/>
+```
+*Translate eye and mouth to the correct position:*
+```html
+</g>
+```
+
+4. **Neck (path) and Arms (paths):**
+```html
+<path d="M150 30 Q200 20, 220 50 Z" stroke="#8B7D6B" fill="transparent"/>
+<path d="M190 40 L220 100 L250 40 Z" stroke="#8B7D6B" fill="transparent"/>
+```
+*Translate arms to the correct position:*
+```html
+<g transform="translate(30, -30)">
+```
+
+5. **Legs (rectangles):**
+```html
+<rect x="-15" y="240" width="30" height="80" fill="#8B7D6B"/>
+<rect x="195" y="240" width="30" height="80" fill="#8B7D6B"/>
+```
+
+6. **Label (text):**
+```html
+<text x="15" y="450" font-size="36px" fill="#FFFFFF">T-Rex</text>
+```
+*Translate label to the correct position:*
+
+```html
+</g>
+```
+
+**Baking according to the recipe's instructions:**
+
+```html
+</svg>

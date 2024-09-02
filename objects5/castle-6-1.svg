@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="-50 -50 100 100"
+     preserveAspectRatio="xMidYMid meet">
+```
+
+Next, draw the castle outline using rectangles for the towers and walls:
+```xml
+<rect x="-40" y="-30" width="80" height="60" fill="lightgrey"/>
+<rect x="-25" y="-15" width="50" height="30" fill="lightgrey"/>
+<rect x="-15" y="10" width="30" height="20" fill="lightgrey"/>
+```
+
+Draw the gate using a polygon:
+```xml
+<polygon points="-40,-15  -40,0  -30,0  -30,-15" fill="lightgrey"/>
+```
+
+Add details like windows and doors using circles and rectangles:
+```xml
+<circle cx="-25" cy="0" r="5" fill="black"/>
+<rect x="-35" y="-5" width="10" height="10" fill="black"/>
+<circle cx="-15" cy="5" r="3" fill="black"/>
+```
+
+Finally, close the `svg` element:
+```xml
+</svg>

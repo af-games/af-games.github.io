@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Plate -->
+  <circle cx="400" cy="300" r="250" fill="#FEF9E7" stroke="#FFC107" stroke-width="5"/>
+
+  <!-- Giraffe -->
+  <g transform="translate(260, 220)">
+    <path d="M0,-80 Q-40,-30 -100,-30 Q-120,60 -90,120 A70,70 0 0 0 -30,190 Z" fill="#FDD835"/>
+    <path d="M0,0 L100,0 Q150,40 100,60 L0,60 Z" fill="#FDD835"/>
+    <path d="M-100,-30 Q-20,-90 -70,-110 A60,60 0 0 0 -100,-50 Z" fill="#FDD835"/>
+    <circle cx="-40" cy="-80" r="10" fill="#FFFFFF"/>
+    <circle cx="20" cy="-80" r="10" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Vegetables (Carrots) -->
+  <g transform="translate(530, 270)">
+    <rect x="-60" y="-10" width="120" height="20" rx="10" ry="10" fill="#FF4500"/>
+    <path d="M-60,-10 Q-30,10 -60,30 L60,30 Q90,10 60,-10 Z" stroke="#FF4500" stroke-width="2"/>
+  </g>
+
+  <!-- Fruits (Grapes) -->
+  <circle cx="180" cy="180" r="30" fill="#8B4513">
+    <circle cx="0" cy="-10" r="5" fill="#FFFFFF"/>
+  </circle>
+  <circle cx="250" cy="210" r="25" fill="#8B4513">
+    <circle cx="0" cy="-5" r="3.5" fill="#FFFFFF"/>
+  </circle>
+
+  <!-- Fork and Knife -->
+  <path d="M600,370 L650,320 L690,370 Z" fill="#CFCFCF"/>
+  <polyline points="640,320 680,320 680,370" stroke="#CFCFCF" stroke-width="5"/>
+
+</svg>

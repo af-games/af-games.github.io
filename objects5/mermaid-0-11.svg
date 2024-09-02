@@ -1,0 +1,6 @@
+<svg>` tag with appropriate viewBox, width, and height attributes.
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-60 -60 120 120" width="400" height="400">
+  <!-- All the shape elements created above go here -->
+</svg>

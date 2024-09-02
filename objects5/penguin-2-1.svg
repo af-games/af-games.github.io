@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,5 Q90,40 70,80 Q50,40 30,5 L100,60 L170,5 Z" fill="#A9F5FF"/>
+
+  <!-- Head -->
+  <circle cx="100" cy="20" r="20" fill="#FFFFFF"/>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="18" r="2" fill="#000"/>
+  <circle cx="110" cy="18" r="2" fill="#000"/>
+
+  <!-- Beak -->
+  <path d="M100,35 Q95,40 105,40" stroke="#FF6F61" fill="transparent"/>
+
+  <!-- Flippers -->
+  <polygon points="70,80,60,90,110,90,120,80" fill="#A9F5FF"/>
+
+  <!-- Feet -->
+  <rect x="35" y="80" width="10" height="40" rx="5" fill="#A9F5FF"/>
+  <rect x="165" y="80" width="10" height="40" rx="5" fill="#A9F5FF"/>
+
+</svg>

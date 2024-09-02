@@ -1,0 +1,33 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Ground -->
+  <rect x="0" y="200" width="600" height="200" fill="#8B7D6B"/>
+
+  <!-- Fence -->
+  <rect x="100" y="50" width="40" height="150" fill="#CD8C3F"/>
+  <rect x="140" y="50" width="40" height="150" fill="#CD8C3F"/>
+  <rect x="180" y="50" width="40" height="150" fill="#CD8C3F"/>
+
+  <!-- Kangaroo body -->
+  <ellipse cx="300" cy="200" rx="60" ry="70" fill="#D9B08C">
+    <animate attributeName="cy"
+             values="200;150;200"
+             dur="1s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Left leg -->
+  <circle cx="280" cy="350" r="15" fill="#D9B08C">
+    <animate attributeName="cy"
+             values="350;400;350"
+             dur="1s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Right leg -->
+  <circle cx="320" cy="350" r="15" fill="#D9B08C">
+    <animate attributeName="cy"
+             values="350;400;350"
+             dur="1s"
+             repeatCount="indefinite"/>
+  </circle>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Background -->
+  <rect x="-150" y="-150" width="300" height="300" fill="#0D47A1"/>
+
+  <!-- Bars and Beats -->
+  <circle cx="-125" cy="0" r="15">
+    <animateMotion begin="0s" dur="6s" repeatCount="indefinite">
+      <mpath href="#bar1"/>
+    </animateMotion>
+    <style><![CDATA[
+      stroke: #fff;
+      stroke-width: 2;
+      fill: none;
+    ]]></style>
+  </circle>
+
+  <!-- Path for Bar 1 -->
+  <path id="bar1" d="M-125,0 a15,15 0 0,0 30,0" fill="none"/>
+
+  <!-- Jellyfish -->
+  <g id="jellyfish">
+    <circle cx="0" cy="0" r="50">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6s" repeatCount="indefinite"/>
+      <style><![CDATA[
+        fill: url(#gradient);
+      ]]></style>
+    </circle>
+    <polygon points="-5,-20 10,-40 10,40 -5,20" transform="rotate(-90)">
+      <animate attributeName="points" begin="0s" dur="6s" repeatCount="indefinite">
+        <mpath href="#tentaclePath"/>
+      </animate>
+    </polygon>
+  </g>
+
+  <!-- Gradient -->
+  <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+    <stop offset="0%" style="stop-color:#FFD700; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#FFFFFF; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#FFD700; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Tentacle Path -->
+  <path id="tentaclePath" d="M-5,-20 Q-30,-60 -5,-80" fill="none"/>
+
+</svg>

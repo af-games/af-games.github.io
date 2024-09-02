@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="-50 0 800 600">
+  <!-- Mermaid's face -->
+  <ellipse cx="200" cy="100" rx="80" ry="120" fill="#F8E5CE"/>
+  <circle cx="225" cy="75" r="35" fill="#2E0854"/>
+  <path d="M225,65 Q235,90 245,65 H225 Z" stroke="#7A1C47" fill="transparent"/>
+
+  <!-- Mermaid's hair -->
+  <path d="M200,175 Q200,200 250,225 Q300,200 300,175 A50,50 0 0 1 400,225" stroke="#003D66" fill="transparent"/>
+
+  <!-- Mermaid's body -->
+  <ellipse cx="200" cy="250" rx="80" ry="180" fill="#F8E5CE"/>
+  <ellipse cx="200" cy="450" rx="60" ry="120" fill="#F8E5CE"/>
+
+  <!-- Pearl -->
+  <circle cx="375" cy="200" r="25" fill="#FFFFFF">
+    <animate attributeName="fill-opacity" values=".9; .4; .9" dur="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Seaweed -->
+  <polyline points="700,300 680,280 650,310 620,290" stroke="#42B092" fill="transparent"/>
+
+  <!-- Water -->
+  <path d="M-50,300 Q0,250 50,300 Q100,350 150,300 Q200,350 250,300 Q300,350 350,300 Q400,350 450,300 Q500,350 550,300 Q600,350 650,300" stroke="#0F5F7C" fill="transparent"/>
+</svg>

@@ -1,0 +1,49 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="100" cy="150" r="70"
+         fill="url(#penguinBodyGradient)" />
+
+  <!-- Head -->
+  <rect x="80" y="60" width="40" height="90"
+        fill="url(#penguinHeadGradient)"
+        transform="rotate(30,120,75)"/>
+
+  <!-- Left Flippers -->
+  <rect x="50" y="180" width="40" height="60"
+        fill="#AAA" />
+  <rect x="90" y="180" width="40" height="60"
+        fill="#AAA"
+        transform="rotate(20,150,210)"/>
+
+  <!-- Right Flippers -->
+  <rect x="130" y="180" width="40" height="60"
+        fill="#AAA"/>
+  <rect x="170" y="180" width="40" height="60"
+        fill="#AAA"
+        transform="rotate(-20,230,210)"/>
+
+  <!-- Beak -->
+  <path d="M90 90 Q95 105, 100 90"
+         stroke="#FFD700" stroke-width="5"
+         fill="transparent" />
+
+  <!-- Eyes -->
+  <circle cx="85" cy="80" r="10"
+          fill="#FFF"/>
+  <circle cx="115" cy="80" r="10"
+          fill="#FFF"/>
+
+  <!-- Gradients -->
+  <linearGradient id="penguinBodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:black; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:white; stop-opacity:1"/>
+  </linearGradient>
+
+  <linearGradient id="penguinHeadGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#8B7D6B; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#696969; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#4A3D26; stop-opacity:1"/>
+  </linearGradient>
+
+</svg>

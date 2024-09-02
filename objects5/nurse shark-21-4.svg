@@ -1,0 +1,18 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Landmarks -->
+<circle cx="150" cy="150" r="75" fill="#90EAEA" stroke="#006400" /> <!-- Shark Fin Rock -->
+<rect x="350" y="200" width="150" height="150" rx="20" fill="#8B7D6B" stroke="#006400"/> <!-- Stone Mountain -->
+<ellipse cx="600" cy="300" rx="100" ry="50" fill="#6B905F" stroke="#006400" /> <!-- Whispering Woods -->
+
+<!-- Rivers -->
+<path d="M20,300 Q100,200 200,200 Q350,300 500,300" fill="transparent" stroke="#0095DA" /> <!-- Crystal River -->
+<path d="M600,450 Q700,350 800,300" fill="transparent" stroke="#0095DA" /> <!-- Sapphire Creek -->
+
+<!-- Coastline -->
+<path d="M20,500 Q100,450 200,400 Q350,450 500,500 Q650,550 800,500" fill="#90EAEA" stroke="#006400"/> <!-- Coastline -->
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#E3F7FA" /> <!-- Sky -->
+
+</svg>

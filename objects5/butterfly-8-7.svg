@@ -1,0 +1,14 @@
+<svg width="100%" height="100%" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Uncharted Lands -->
+  <rect x="50" y="50" width="400" height="400" fill="#FFFFFF" stroke="#696969"/>
+
+  <!-- Known Territories (Marked Landmarks) -->
+  <circle cx="100" cy="100" r="50" fill="#FFC300"/>
+  <polygon points="200,100 300,150 250,250" fill="#FF69B4"/>
+
+  <!-- Paths to Discover (routes) -->
+  <path d="M50,50 L100,100 Z" stroke="#000000" fill="transparent"/>
+  <path d="M300,250 L400,350 L450,200 Z" stroke="#000000" fill="transparent"/>
+
+</svg>

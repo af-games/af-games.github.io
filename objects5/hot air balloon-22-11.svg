@@ -1,0 +1,17 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Basket -->
+  <rect x="100" y="400" width="300" height="80" rx="40" fill="#462A1D"/>
+
+  <!-- Envelope -->
+  <ellipse cx="250" cy="150" rx="200" ry="400" fill="#800080"/>
+  <rect x="230" y="70" width="40" height="600" fill="#CD7F32"/>
+
+  <!-- Gondola -->
+  <circle cx="250" cy="410" r="30" fill="#000000"/>
+  <line x1="220" y1="410" x2="280" y2="410" stroke="#000000" stroke-width="5"/>
+
+  <!-- Ripple Pattern -->
+  <polyline points="260,90 310,170 260,250 210,170 160,90 210,10 260,80 310,150" stroke="#D3D3D3" stroke-width="5"/>
+
+</svg>

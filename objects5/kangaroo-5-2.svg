@@ -1,0 +1,29 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="80" rx="70" ry="50"
+           fill="#C69A62"/>
+  <path d="M90,40 Q95,30 100,40 T110,40"
+        fill="#C69A62"/>
+
+  <!-- Head -->
+  <path d="M80,20 A20,20 0 0 1 120,20 L100,50 Z"
+        fill="#C69A62"/>
+
+  <!-- Ears -->
+  <polygon points="70,20 80,30 75,40"
+           fill="#C69A62"/>
+  <polygon points="115,20 125,30 120,40"
+           fill="#C69A62"/>
+
+  <!-- Legs -->
+  <line x1="80" y1="80" x2="70" y2="120"
+        stroke="#8B4D1A" fill="transparent"/>
+  <line x1="120" y1="80" x2="130" y2="120"
+        stroke="#8B4D1A" fill="transparent"/>
+
+  <!-- Tail -->
+  <path d="M90,80 Q110,70 130,80"
+        stroke="#8B4D1A" fill="transparent"/>
+
+</svg>

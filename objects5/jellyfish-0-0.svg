@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bell (Body) -->
+  <ellipse cx="100" cy="100" rx="100" ry="75" fill="#87CEEB"/>
+
+  <!-- Oral Arms -->
+  <path d="M100,35 A50,50 0 0 0 150,85 Z"/>
+  <path d="M100,65 A50,50 0 0 0 150,115 Z"/>
+  <path d="M100,95 A50,50 0 0 0 150,145 Z"/>
+  <path d="M100,125 A50,50 0 0 0 150,175 Z"/>
+
+  <!-- Mans (Tentacles) -->
+  <line x1="100" y1="180" x2="95" y2="300" stroke="#003D66"/>
+  <!-- Repeat the above line element 23 more times with different coordinates -->
+
+  <!-- Eye Spots -->
+  <circle cx="70" cy="140" r="5" fill="#000"/>
+  <!-- Repeat the above circle element 7 more times with different coordinates -->
+
+</svg>

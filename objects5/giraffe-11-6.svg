@@ -1,0 +1,26 @@
+<svg width="800" height="1200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Giraffe Dress Body -->
+  <rect id="giraffe-body" x="50" y="100" width="700" height="900" fill="url(#giraffe-gradient)" stroke="#333" stroke-width="3"/>
+
+  <!-- Giraffe Neckline -->
+  <ellipse cx="400" cy="200" rx="350" ry="150" fill="none" stroke="#333" stroke-width="3"/>
+
+  <!-- Giraffe Sleeves -->
+  <circle id="giraffe-sleeve-left" cx="250" cy="450" r="180" fill="url(#giraffe-gradient)" stroke="#333" stroke-width="3"/>
+  <circle id="giraffe-sleeve-right" cx="550" cy="450" r="180" fill="url(#giraffe-gradient)" stroke="#333" stroke-width="3"/>
+
+  <!-- Giraffe Spots -->
+  <path id="giraffe-spots" d="M270,550 Q350,600 430,550 Q310,400 270,450 Q230,400 190,450 Z" fill="none" stroke="#333" stroke-width="3"/>
+
+  <!-- Giraffe Tail -->
+  <path id="giraffe-tail" d="M600,850 Q670,950 720,850 Q750,750 720,650 Z" fill="none" stroke="#333" stroke-width="3"/>
+
+  <!-- Giraffe Gradient -->
+  <defs>
+    <linearGradient id="giraffe-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: #F5D76E; stop-opacity: 1"/>
+      <stop offset="50%" style="stop-color: #C4953B; stop-opacity: 1"/>
+      <stop offset="100%" style="stop-color: #8A622F; stop-opacity: 1"/>
+    </linearGradient>
+  </defs>
+</svg>

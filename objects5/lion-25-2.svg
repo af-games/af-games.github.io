@@ -1,0 +1,24 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Face Outline -->
+  <path d="M100 50 Q140 35, 160 70 Q140 105, 100 80 Q60 105, 40 70 Q60 35, 100 50" fill="none" stroke="black"/>
+
+  <!-- Eyes -->
+  <circle cx="90" cy="60" r="10"/>
+  <circle cx="110" cy="60" r="10"/>
+
+  <!-- Nose -->
+  <polygon points="100,70 105,80 95,80" fill="black"/>
+
+  <!-- Mouth -->
+  <rect x="90" y="90" width="20" height="10" fill="black"/>
+  <path d="M100,90 Q110,100 100,110 Q90,100 100,90" stroke="black" fill="none"/>
+
+  <!-- Ears -->
+  <ellipse cx="80" cy="40" rx="20" ry="30"/>
+  <ellipse cx="120" cy="40" rx="20" ry="30"/>
+
+  <!-- Mane (simple representation) -->
+  <path d="M50,20 Q90,10 130,20 Q90,30 50,30 Q50,20 Z" fill="orange"/>
+
+</svg>

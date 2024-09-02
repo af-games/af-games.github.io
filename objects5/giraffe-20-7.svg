@@ -1,0 +1,45 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#C0E5FF"/>
+
+  <!-- Mountains -->
+  <polygon points="100,20 400,100 700,20"
+            style="fill:#A9D6EF; stroke:#333; stroke-width:2" />
+  <text x="50%" y="180" text-anchor="middle">Mount Giraffa</text>
+
+  <!-- Rivers -->
+  <path d="M450,40 Q475,120 500,40"
+        style="fill:transparent; stroke:#38A3D6; stroke-width:4" />
+  <text x="50%" y="90" text-anchor="middle">Giraffe River</text>
+
+  <!-- Forests -->
+  <rect x="120" y="220" width="150" height="200"
+        style="fill:#6CA64A; stroke:#333; stroke-width:2" />
+  <text x="170" y="400">Whispering Woods</text>
+
+  <!-- Giraffe Plain -->
+  <rect x="350" y="280" width="250" height="200"
+        style="fill:#D9FFB6; stroke:#333; stroke-width:2" />
+  <circle cx="450" cy="370" r="40" fill="#FDB927"/>
+  <text x="450" y="420" text-anchor="middle">Giraffa Plains</text>
+
+  <!-- City -->
+  <polygon points="600,180 750,180 700,300"
+            style="fill:#FFC94D; stroke:#333; stroke-width:2" />
+  <text x="700" y="240">Giraffa City</text>
+
+  <!-- Label for Giraffe Plains -->
+  <image href="https://via.placeholder.com/50" x="410" y="320"/>
+  <text x="460" y="370">Giraffes</text>
+
+  <!-- Labels -->
+  <text x="10" y="50">Legend:</text>
+  <circle cx="40" cy="80" r="8" fill="#A9D6EF"/>
+  <text x="70" y="80">Mountains</text>
+  <circle cx="40" cy="120" r="8" fill="#38A3D6"/>
+  <text x="70" y="120">Rivers</text>
+  <circle cx="40" cy="160" r="8" fill="#6CA64A"/>
+  <text x="70" y="160">Forests</text>
+
+</svg>

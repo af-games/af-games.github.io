@@ -1,0 +1,26 @@
+<svg width="500" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Base -->
+  <circle cx="150" cy="325" r="150" fill="#94C6F8"/>
+  <path d="M150,325 a150,150 0 1,1 300,0 a150,150 0 1,1 -300,0"
+        stroke="#004C99" fill="transparent"/>
+
+  <!-- Walls -->
+  <path d="M150,275 a130,60 0 0,1 260,0 a60,130 0 0,1 -260,0"
+        stroke="#004C99" fill="transparent"/>
+
+  <!-- Door opening -->
+  <polygon points="75,250 150,275 225,250" stroke="#004C99"
+           fill="#D6EAF5" fill-opacity="0.8"/>
+
+  <!-- Archways -->
+  <g id="archways">
+    <path d="M150,225 a30,30 0 0,1 60,0"/>
+    <use href="#archways" x="75"/>
+    <use href="#archways" x="45"/>
+    <use href="#archways" x="-75"/>
+    <use href="#archways" x="-45"/>
+  </g>
+  <use href="#archways" transform="rotate(180, 150,225)"/>
+
+</svg>

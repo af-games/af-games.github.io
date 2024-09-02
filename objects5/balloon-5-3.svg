@@ -1,0 +1,27 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#CDE6F5"/>
+
+  <!-- Mountains (circles) -->
+  <circle cx="47.5%" cy="90%" r="8%" stroke="#A3C4DC" stroke-width="2" fill="#FFFFFF"/>
+  <circle cx="52.5%" cy="85%" r="6%" stroke="#A3C4DC" stroke-width="2" fill="#FFFFFF"/>
+
+  <!-- Rivers (paths) -->
+  <path id="river" d="M10% 90% Q30% 70%, 50% 70% T70% 70%" stroke="#4D8A9B" stroke-width="6" fill="transparent">
+    <animate attributeName="d"
+             dur="4s"
+             repeatCount="indefinite"
+             values="M10% 90% Q30% 70%, 50% 70% T70% 70%; M20% 85% Q40% 65%, 60% 65% T80% 65%; M10% 90% Q30% 70%, 50% 70% T70% 70%" />
+  </path>
+
+  <!-- Trees (polygons) -->
+  <polygon points="20% 90%, 25% 85%, 15% 85%" stroke="#4D8A9B" stroke-width="1" fill="#8EBF46">
+    <animateTransform attributeName="points"
+                      type="scale"
+                      begin="0s"
+                      dur="2s"
+                      repeatCount="indefinite"
+                      values="20% 90%, 25% 85%, 15% 85%; 20% 93%, 25% 82%, 15% 82%; 20% 90%, 25% 85%, 15% 85%" />
+  </polygon>
+
+</svg>

@@ -1,0 +1,26 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Perimeter -->
+  <rect x="50" y="50" width="700" height="400" style="fill:lightgrey; stroke-width:1px;" />
+
+  <!-- Main Areas -->
+  <rect x="100" y="100" width="300" height="200" style="fill:yellowgreen; stroke-width:1px;" />
+    <text x="150" y="170" font-size="16" fill="black">Primal Scene</text>
+  <rect x="450" y="100" width="300" height="200" style="fill:lightcoral; stroke-width:1px;" />
+    <text x="500" y="170" font-size="16" fill="black">Elephant Graveyard</text>
+
+  <!-- Circles for Points of Interest -->
+  <circle cx="200" cy="300" r="40" style="fill:gold; stroke-width:1px;" />
+    <text x="175" y="320" font-size="16" fill="black">Simba's Rock</text>
+  <circle cx="600" cy="300" r="40" style="fill:darkkhaki; stroke-width:1px;" />
+    <text x="575" y="320" font-size="16" fill="black">Hyenas' Lair</text>
+
+  <!-- Paths for Clues -->
+  <path d="M250,250 Q400,200 550,250" stroke="darkblue" stroke-width="3" fill="transparent"/>
+    <text x="475" y="260" font-size="16" fill="black">Lion's Roar Heard Here</text>
+  <path d="M200,300 Q300,400 400,300" stroke="red" stroke-width="3" fill="transparent"/>
+    <text x="350" y="310" font-size="16" fill="black">Blood Trail from Injury</text>
+  <path d="M600,300 Q450,400 300,300" stroke="green" stroke-width="3" fill="transparent"/>
+    <text x="450" y="290" font-size="16" fill="black">Footprints Lead Back to Pride Land</text>
+
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#add8e6"/>
+
+  <!-- Walls & Towers -->
+  <polygon points="50,350 200,350 350,350 400,400 50,400" fill="#a9a9a9" stroke="#4d4d4d"/>
+  <polygon points="150,180 260,180 210,350" fill="#a9a9a9" stroke="#4d4d4d"/>
+  <polygon points="210,180 260,180 350,350" fill="#a9a9a9" stroke="#4d4d4d"/>
+
+  <!-- Gatehouse -->
+  <rect x="170" y="300" width="60" height="150" fill="#a9a9a9" stroke="#4d4d4d"/>
+
+  <!-- Gates -->
+  <path d="M180,350 H230 L205,325 Z" stroke="#000000"/>
+
+  <!-- Roofs -->
+  <polygon points="160,170 250,170 210,220" fill="#8b4513" stroke="#422a0f"/>
+  <polygon points="210,20 260,20 235,70" fill="#8b4513" stroke="#422a0f"/>
+
+  <!-- Windows & Door -->
+  <rect x="180" y="200" width="40" height="70" fill="#ffffff"/>
+  <rect x="205" y="270" width="30" height="60" fill="#000000"/>
+
+  <!-- Greenery -->
+  <ellipse cx="100" cy="380" rx="30" ry="20" fill="#009933"/>
+  <ellipse cx="300" cy="380" rx="30" ry="20" fill="#009933"/>
+</svg>

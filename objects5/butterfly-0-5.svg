@@ -1,0 +1,22 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#FFF0F5"/>
+
+  <!-- Body -->
+  <path d="M170,180 Q260,90 350,180" stroke="#FF69B4" stroke-width="15" fill="none"/>
+  <circle cx="260" cy="180" r="60" fill="#FFC0CB"/>
+
+  <!-- Wings -->
+  <path d="M150,70 Q200,30 250,70" stroke="#FF69B4" stroke-width="10" fill="none"/>
+  <path d="M280,70 Q330,30 380,70" stroke="#FF69B4" stroke-width="10" fill="none"/>
+
+  <!-- Antennae -->
+  <line x1="250" y1="70" x2="250" y2="30" stroke="#000"/>
+  <path d="M260,30 Q280,10 290,30" stroke="#000"/>
+
+  <!-- Eyes -->
+  <circle cx="245" cy="170" r="10" fill="#000"/>
+  <circle cx="275" cy="170" r="10" fill="#000"/>
+
+</svg>

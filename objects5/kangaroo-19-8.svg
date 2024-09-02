@@ -1,0 +1,12 @@
+<svg width="300px" height="400px" xmlns="http://www.w3.org/2000/svg">
+    <rect id="body" x="50" y="70" width="120" height="130" fill="tan"/>
+    <ellipse id="head" cx="95" cy="70" rx="40" ry="60" fill="tan"/>
+    <rect id="pouch" x="80" y="180" width="60" height="70" fill="tan" rx="5" ry="5"/>
+    <circle id="ear-left" cx="70" cy="120" r="20" fill="tan"/>
+    <use href="#ear-left" x="60" y="0" transform="translate(95, 120) rotate(180)"/>
+    <rect id="leg-front-left" x="30" y="220" width="40" height="70" fill="tan"/>
+    <use href="#leg-front-left" x="55" y="0" transform="translate(160, 220) rotate(180)"/>
+    <use href="#leg-front-left" x="0" y="0" transform="translate(30, 290) rotate(-45)"/>
+    <use href="#leg-front-left" x="70" y="0" transform="translate(160, 290) rotate(45)"/>
+    <polyline id="tail" points="180,270 195,300 210,270 225,300" fill="tan"/>
+</svg>

@@ -1,0 +1,23 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Fairy Body -->
+<rect x="50" y="50" width="100" height="100" fill="#ADD8E6"/>
+<circle cx="75" cy="90" r="45" fill="#ADD8E6"/>
+
+<!-- Fairy Hair (Dark Blue) -->
+<rect x="62.5" y="30" width="25" height="40" fill="#007B9A"/>
+<rect x="92.5" y="30" width="25" height="40" fill="#007B9A"/>
+
+<!-- Fairy Dress (Darker Blue) -->
+<rect x="62.5" y="110" width="75" height="50" fill="#214F5D"/>
+<circle cx="87.5" cy="160" r="25" fill="#214F5D"/>
+
+<!-- Fairy Wings (Light Blue) -->
+<rect x="35" y="110" width="25" height="90" fill="#ADD8E6"/>
+<rect x="117.5" y="110" width="25" height="90" fill="#ADD8E6"/>
+
+<!-- Fairy Accessories (Dark Blue) -->
+<circle cx="75" cy="75" r="10" fill="#007B9A"/>
+<rect x="67.5" y="85" width="25" height="15" fill="#007B9A"/>
+
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Outer dome -->
+  <path id="outerDome" fill="#FFFFFF" opacity="0.8"
+        d="M250,100 A150,150 0 1 1 250,400 A150,150 0 1 1 250,100 Z"/>
+
+  <!-- Inner dome (for shadow effect) -->
+  <path id="innerDome" fill="#FFFFFF" opacity="0.6"
+        d="M275,125 A130,130 0 1 1 225,400 A130,130 0 1 1 275,125 Z"/>
+
+  <!-- Door -->
+  <rect id="door" fill="#8B4513" width="60" height="90"
+        x="230" y="360" rx="10" ry="10"/>
+
+  <!-- Door frame shadow -->
+  <rect id="doorFrameShadow" fill="#776E65" width="64" height="94"
+        x="228" y="356" rx="8" ry="8"/>
+
+</svg>

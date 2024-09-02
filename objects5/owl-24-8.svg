@@ -1,0 +1,29 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path stroke="#000" fill="transparent"
+        d="M100 120 m60 0 a60 60 0 1 0 0 -120 L100 120"/>
+
+  <!-- Eyes -->
+  <circle stroke="#000" fill="transparent"
+         cx="85" cy="95" r="10"/>
+  <circle stroke="#000" fill="transparent"
+         cx="115" cy="95" r="10"/>
+
+  <!-- Beak -->
+  <path stroke="#FF0" fill="transparent"
+        d="M95 140 L105 160 L85 160 Z"/>
+
+  <!-- Wings (Feathers) -->
+  <path stroke="#000" fill="transparent"
+        d="M70 120 m30 0 a30 30 0 1 0 1 0"/>
+  <path stroke="#000" fill="transparent"
+        d="M130 120 m30 0 a30 30 0 1 0 -1 0"/>
+
+  <!-- Feet -->
+  <ellipse stroke="#000" fill="transparent"
+           cx="85" cy="200" rx="20" ry="15"/>
+  <ellipse stroke="#000" fill="transparent"
+           cx="115" cy="200" rx="20" ry="15"/>
+
+</svg>

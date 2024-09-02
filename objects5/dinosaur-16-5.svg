@@ -1,0 +1,32 @@
+<svg width="100%" height="50" viewBox="-250 0 500 50" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ground -->
+  <rect id="ground" x="-250" y="25" width="500" height="25" fill="#8B4513"/>
+
+  <!-- Dinosaur circles (initial positions) -->
+  <circle cx="-200" cy="25" r="20" fill="#FF69B4"/>
+  <circle cx="-150" cy="25" r="20" fill="#FF69B4"/>
+  <circle cx="-100" cy="25" r="20" fill="#FF69B4"/>
+
+  <!-- Movement paths -->
+  <path id="path1" d="M-200,25 Q-175,0 -150,25" stroke="#8B4513" fill="transparent"/>
+  <path id="path2" d="M-150,25 Q-125,0 -100,25" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Animation -->
+  <animateMotion dur="4s" repeatCount="indefinite">
+    <mpath href="#ground"/>
+    <set attributeName="d" to="M-200,25 Q-175,0 -150,25"/>
+    <set attributeType="xml" attributeName="cy" from="25" to="35" begin="end+1s"/>
+  </animateMotion>
+  <animateMotion dur="4s" repeatCount="indefinite">
+    <mpath href="#ground"/>
+    <set attributeName="d" to="M-150,25 Q-125,0 -100,25"/>
+    <set attributeType="xml" attributeName="cy" from="25" to="35" begin="end+2s"/>
+  </animateMotion>
+  <animateMotion dur="4s" repeatCount="indefinite">
+    <mpath href="#ground"/>
+    <set attributeName="d" to="M-100,25 Q-75,0 -50,25"/>
+    <set attributeType="xml" attributeName="cy" from="25" to="35" begin="end+3s"/>
+  </animateMotion>
+
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Background -->
+<rect x="0" y="0" width="800" height="600" fill="#0D2A3F"/>
+
+<!-- Mountains -->
+<polygon points="400,150 700,200 100,200 0,150" fill="#A9A9A9"/>
+<polyline points="600,200 700,300 100,300" fill="#D3D3D3"/>
+<rect x="400" y="0" width="400" height="150" fill="#FFFFFF"/>
+
+<!-- Tree Trunk -->
+<rect x="200" y="300" width="40" height="300" fill="#4A2C18"/>
+
+<!-- Owl Body -->
+<path d="M350,200 Q300,150 350,250 T400,250 Q450,150 400,200" fill="#F5F5DC"/>
+<path d="M350,275 Q300,325 350,400 T400,400 Q450,325 350,275" fill="#E9D8A6"/>
+<path d="M300,200 Q250,150 300,250 T350,250 Q400,150 350,200" fill="#707070"/>
+
+<!-- Owl Eyes -->
+<circle cx="300" cy="175" r="20" fill="#000000"/>
+<circle cx="350" cy="175" r="20" fill="#FFFF00"/>
+
+<!-- Moon -->
+<circle cx="750" cy="50" r="50" fill="#F2F2E6"/>
+
+</svg>

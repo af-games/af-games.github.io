@@ -1,0 +1,22 @@
+<svg width="500" height="400" viewBox="-25 -10 300 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M10,60 Q90,80 170,60 Q250,40 330,60 Q300,80 200,60" fill="gray" stroke="black"/>
+
+  <!-- Fins -->
+  <path d="M80,40 L90,50 Z" fill="black"/>
+  <path d="M180,70 L190,80 Z" fill="black"/>
+  <path d="M260,30 L270,20 Z" fill="black"/>
+
+  <!-- Tail -->
+  <path d="M340,50 Q350,60 360,50" fill="black" stroke="black"/>
+
+  <!-- Head and markings -->
+  <circle cx="50" cy="30" r="10" fill="white"/>
+  <circle cx="200" cy="30" r="10" fill="white"/>
+  <path d="M70,20 Q80,30 90,20" stroke="black"/>
+
+  <!-- Belly -->
+  <path d="M10,60 Q90,100 170,60" fill="lightgray"/>
+
+</svg>

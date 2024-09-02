@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hot Air Balloon -->
+  <circle cx="400" cy="150" r="100" fill="#FFB973"/>
+  <path d="M350,80 Q375,60 400,80 Q425,60 450,80" stroke="#E67E22" fill="transparent"/>
+  <polygon points="325,10 475,10 425,250" style="fill:#E67E22;stroke:none"/>
+
+  <!-- Fruits -->
+  <circle cx="250" cy="220" r="20" fill="#FF6347"/>
+  <circle cx="280" cy="230" r="15" fill="#FFFFFF">
+    <animateMotion repeatCount="indefinite" dur="2s">
+      <mpath href="#path-apple"/></animateMotion>
+  </circle>
+  <path id="path-apple" d="M260,230 A10,10 0 1,0 280,230 A10,10 0 1,0 260,230"/>
+
+  <!-- Cheese -->
+  <polygon points="50,400 250,400 200,500" style="fill:#FFD700;stroke:none"/>
+  <circle cx="175" cy="450" r="30" fill="#FFFFFF"/>
+
+  <!-- Crackers -->
+  <rect x="60" y="520" width="180" height="30" style="fill:#B9F2FF;stroke:none"/>
+  <rect x="70" y="540" width="160" height="10" style="fill:#FFFFFF;stroke:none"/>
+
+  <!-- Utensils -->
+  <circle cx="700" cy="300" r="20" fill="#C0C0C0"/>
+  <path d="M680,300 Q700,250 720,300" stroke="#C0C0C0" fill="transparent"/>
+
+  <!-- Garnishes -->
+  <circle cx="350" cy="400" r="10" fill="#FF69B4"/>
+  <circle cx="380" cy="400" r="5" fill="#FFFFFF"/>
+
+</svg>

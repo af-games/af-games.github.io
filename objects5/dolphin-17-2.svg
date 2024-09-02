@@ -1,0 +1,15 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dolphin Body -->
+  <path d="M150 20 Q180 40, 200 60 C210 80, 220 90, 230 100 H270 V120 H230 L180 140 H150 Z" fill="lightblue" stroke="black"/>
+
+  <!-- Fin -->
+  <path d="M210 60 Q190 80, 210 100 Q230 80, 210 60" fill="none" stroke="black"/>
+
+  <!-- Tail -->
+  <path d="M270 100 C280 110, 290 120, 300 110 Z" fill="lightblue" stroke="black"/>
+
+  <!-- Eye -->
+  <circle cx="165" cy="45" r="10" fill="white"/>
+  <path d="M160 40 Q170 35, 180 40" stroke="black" fill="none"/>
+
+</svg>

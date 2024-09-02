@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 20 20">
+
+  <!-- Circles (main theme) -->
+  <circle id="circle-1" cx="0" cy="0" r="5"/>
+  <animateMotion xlink:href="#circle-1" repeatCount="indefinite">
+    <mpath href="#circle-path"/>
+  </animateMotion>
+
+  <!-- Rectangles (rhythmic backbone) -->
+  <rect id="rectangle-1" width="2" height="10" x="-5" y="-5"/>
+  <animate attributeName="x" from="-5" to="5" dur="2s" repeatCount="indefinite"/>
+  <rect id="rectangle-2" width="2" height="10" x="5" y="-5"/>
+  <animate attributeName="x" from="5" to="-5" dur="2s" delay="1s" repeatCount="indefinite"/>
+
+  <!-- Paths (secondary melody) -->
+  <path id="footprint-path-1" d="M -5,-3 A 3,3 0 0,0 5,-3 A 3,3 0 0,0 -5,-3"/>
+  <animate attributeName="d" dur="2s" repeatCount="indefinite">
+    <set from="M -5,-3 A 3,3 0 0,0 5,-3 A 3,3 0 0,0 -5,-3"
+         to="M 5,-3 A 3,3 0 0,0 -5,-3 A 3,3 0 0,0 5,-3"/>
+  </animate>
+
+</svg>

@@ -1,0 +1,55 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+<!-- Our dinosaur map starts here -->
+```
+
+**Step 2: Begin drawing tentative lines and shapes using <path> elements**
+
+Let's start with the basic body structure of our dinosaur. We'll use a `<path>` element for the main body.
+
+```svg
+<path id="body" d="M100 150 Q150 75, 250 150 Q350 225, 400 150" stroke="black" fill="none"/>
+```
+
+In this path:
+- `M100 150` moves the pen to (100, 150)
+- `Q150 75, 250 150` draws a quadratic curve from the current point to (250, 150) with a control point at (150, 75)
+- `Q350 225, 400 150` draws another quadratic curve from the previous endpoint to (400, 150) with a control point at (350, 225)
+
+**Step 3: Discover new features - add circles, rectangles, etc.**
+
+Let's add some legs using `<rect>` elements for now. We'll use `transform` attribute to position them correctly.
+
+```svg
+<!-- Front leg -->
+<g transform="translate(120, 250)">
+    <rect id="frontLeg" width="30" height="80" stroke="black" fill="none"/>
+</g>
+
+<!-- Back leg -->
+<g transform="translate(360, 250)">
+    <rect id="backLeg" width="30" height="80" stroke="black" fill="none"/>
+</g>
+```
+
+**Step 4: Document your journey with detailed notes (attribute values)**
+
+We've used `id` for easy reference and manipulation later. We've also used `stroke` to outline the shapes and `fill="none"` to make them transparent.
+
+**Step 5: Write out your map's final draft using SVG tags**
+
+Here's our dinosaur map so far:
+
+```svg
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <path id="body" d="M100 150 Q150 75, 250 150 Q350 225, 400 150" stroke="black" fill="none"/>
+
+    <!-- Front leg -->
+    <g transform="translate(120, 250)">
+        <rect id="frontLeg" width="30" height="80" stroke="black" fill="none"/>
+    </g>
+
+    <!-- Back leg -->
+    <g transform="translate(360, 250)">
+        <rect id="backLeg" width="30" height="80" stroke="black" fill="none"/>
+    </g>
+</svg>

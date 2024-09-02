@@ -1,0 +1,21 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Fairy's Body -->
+  <circle cx="250" cy="250" r="75" fill="#FFC3A0" stroke="#FF6F4F" stroke-width="10"/>
+
+  <!-- Fairy's Wings -->
+  <path d="M100,150 Q150,50 250,150 Q350,50 400,150" fill="#9FF8A7" stroke="#6FB37F" stroke-width="10"/>
+
+  <!-- Fairy's Hair -->
+  <circle cx="250" cy="75" r="75" fill="transparent">
+    <animateMotion repeatCount="indefinite" dur="2s">
+      <mpath href="#hairPath"/>
+    </animateMotion>
+  </circle>
+  <path id="hairPath" d="M250,75 Q150,0 350,0" fill="transparent"/>
+
+  <!-- Fairy's Face -->
+  <circle cx="250" cy="225" r="25" fill="#FFC3A0" stroke="#FF6F4F" stroke-width="5"/>
+  <circle cx="250" cy="215" r="10" fill="#000"/>
+
+</svg>

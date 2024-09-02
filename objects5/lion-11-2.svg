@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Main body -->
+  <polygon points="150,100 350,100 400,170 100,170"
+           fill="#E96F2C" stroke="black"/>
+
+  <!-- Mane -->
+  <polygon points="200,50 280,50 320,100 240,130 180,100"
+           fill="#FFB347" stroke="black"/>
+  <polygon points="220,60 260,60 300,90 220,95"
+           fill="#FFD166" stroke="black"/>
+
+  <!-- Eyes -->
+  <circle cx="200" cy="140" r="20" fill="#FFFFFF"/>
+  <circle cx="300" cy="140" r="20" fill="#FFFFFF"/>
+  <circle cx="200" cy="140" r="15" fill="#000000"/>
+  <circle cx="300" cy="140" r="15" fill="#000000"/>
+
+  <!-- Nose -->
+  <polygon points="250,180 270,190 260,210"
+           fill="#FFB347" stroke="black"/>
+
+  <!-- Ears -->
+  <polygon points="160,80 180,60 150,80"
+           fill="#E96F2C" stroke="black"/>
+  <polygon points="340,80 320,60 340,80"
+           fill="#E96F2C" stroke="black"/>
+
+  <!-- Mouth -->
+  <ellipse cx="275" cy="190" rx="20" ry="10"
+           fill="#FFB347"/>
+</svg>

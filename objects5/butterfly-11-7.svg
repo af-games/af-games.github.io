@@ -1,0 +1,13 @@
+<svg>` tag:
+
+```xml
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Landmarks (Shapes) -->
+  <rect id="land1" x="50" y="50" width="150" height="150" fill="#90EE90"/>
+  <circle id="land2" cx="350" cy="150" r="75" fill="#FFFF99"/>
+
+  <!-- Butterfly Path -->
+  <path d="M600,50 Q450,100 300,150 T150,250 Q50,350 150,450 Z" stroke-width="2" stroke="#FFC125" fill="transparent"/>
+
+</svg>

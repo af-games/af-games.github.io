@@ -1,0 +1,18 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100 25 Q150 0, 200 25"/>
+  <path d="M175 25 Q200 0, 225 25"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="25" rx="40" ry="60"/>
+  <!-- Wings and tail feathers -->
+  <path d="M175 25 Q150 50, 150 100"/>
+  <path d="M225 25 Q250 50, 250 100"/>
+  <path d="M225 75 Q250 125, 250 175"/>
+  <!-- Wing details -->
+  <polyline points="150 100, 130 120, 160 120, 150 140"/>
+  <polyline points="250 100, 270 120, 240 120, 250 140"/>
+  <!-- Face -->
+  <circle cx="180" cy="35" r="10" fill="black"/>
+  <circle cx="220" cy="35" r="10" fill="black"/>
+  <path d="M200 45 Q190 60, 210 60" stroke="black" fill="yellow"/>
+</svg>

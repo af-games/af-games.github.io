@@ -1,0 +1,40 @@
+<svg width="200" height="250" viewBox="0 0 200 250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .glow {
+      fill: #00FFFF;
+      stroke-width: 1px;
+      stroke: #000;
+      filter: url(#glow);
+    }
+  </style>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="250" fill="#000"/>
+
+  <!-- Mermaid's tail and body -->
+  <path class="glow" d="M100,225 Q90,200 80,175 A60,60 0 0 1 140,175 Q150,200 100,225"/>
+
+  <!-- Mermaid's hair -->
+  <path class="glow" d="M90,160 Q85,150 90,140 Q95,150 90,160"/>
+
+  <!-- Mermaid's face and features -->
+  <circle cx="100" cy="135" r="20" class="glow"/>
+  <circle cx="85" cy="130" r="5" class="glow"/>
+  <circle cx="115" cy="130" r="5" class="glow"/>
+  <path d="M95,125 Q105,125 100,115" stroke-width="1.5" stroke="#fff"/>
+
+  <!-- Mermaid's fin details -->
+  <path class="glow" d="M85,230 L115,230 L95,240 Z"/>
+  <path class="glow" d="M87.5,235 L112.5,235 L95,245"/>
+
+  <!-- Glowing effect filter -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>

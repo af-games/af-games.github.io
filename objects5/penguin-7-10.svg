@@ -1,0 +1,48 @@
+<svg width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="400" height="600" fill="url(# gradient1)" />
+
+  <!-- Body -->
+  <g id="body">
+    <polygon points="200,50 350,150 50,150"
+            fill="url(#gradient2)"
+            stroke="black"/>
+    <circle cx="275" cy="180" r="60"
+            fill="url(#gradient3)"
+            stroke="black"/>
+    <polygon points="140,120 200,180 70,180"
+            fill="black"/>
+  </g>
+
+  <!-- Head -->
+  <circle cx="250" cy="70" r="60"
+          fill="url(#gradient4)"
+          stroke="black"/>
+
+  <!-- Flipper -->
+  <polygon points="300,200 350,260 250,260"
+           fill="url(#gradient5)"
+           stroke="black"/>
+  <polygon points="100,200 50,260 150,260"
+           fill="url(#gradient5)"
+           stroke="black"/>
+
+  <!-- Eye -->
+  <circle cx="230" cy="40" r="10"
+          fill="white"/>
+  <circle cx="270" cy="40" r="10"
+          fill="white"/>
+
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightblue;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:blue;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:lightgrey;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:darkgrey;stop-opacity:1"/>
+    </linearGradient>
+    <!-- Add more gradients as needed -->
+  </defs>
+</svg>

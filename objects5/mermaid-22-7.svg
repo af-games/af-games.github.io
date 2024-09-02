@@ -1,0 +1,41 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outline -->
+  <path id="mermaidOutline" d="M100,100 Q175,50 250,100 Q325,150 400,100 Q475,50 550,100"/>
+
+  <!-- Hair -->
+  <path d="M275,50 Q325,25 375,50" fill="none" stroke="black"/>
+  <path d="M275,50 Q325,25 375,50" fill="url(#hairGradient)" opacity=".8"/>
+
+  <!-- Body & Tail -->
+  <g fill="url(#bodyGradient)">
+    <path d="M100,100 a90,90 0 0 1 180,0"/>
+    <path d="M400,100 Q525,175 625,300" stroke="black"/>
+  </g>
+
+  <!-- Eyes -->
+  <circle cx="275" cy="90" r="10" fill="url(#eyeGradient)"/>
+  <circle cx="325" cy="90" r="10" fill="url(#eyeGradient)"/>
+
+  <!-- Scales (texture on tail) -->
+  <defs>
+    <pattern id="scales" patternUnits="userSpaceOnUse">
+      <image href="scale.svg" x="0" y="0" width="20" height="20"/>
+    </pattern>
+  </defs>
+  <rect x="400" y="100" width="225" height="200" fill="url(#scales)"/>
+
+  <!-- Gradients -->
+  <linearGradient id="hairGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:black; stop-opacity:.5"/>
+    <stop offset="100%" style="stop-color:white; stop-opacity:.5"/>
+  </linearGradient>
+  <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:lightblue; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:darkblue; stop-opacity:.7"/>
+    <stop offset="100%" style="stop-color:black; stop-opacity:.3"/>
+  </linearGradient>
+  <radialGradient id="eyeGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" style="stop-color:white; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:black; stop-opacity:.8"/>
+  </radialGradient>
+</svg>

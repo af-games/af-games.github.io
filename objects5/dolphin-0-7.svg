@@ -1,0 +1,38 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Ocean Background -->
+  <rect id="ocean" x="0" y="0" width="100%" height="50%" fill="url(#oceanGradient)"/>
+  <defs>
+    <linearGradient id="oceanGradient" gradientTransform="rotate(90)">
+      <stop offset="0%"   stop-color="#03689F"/>
+      <stop offset="100%" stop-color="#023A74"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Stage Floor -->
+  <rect id="floor" x="50" y="50%" width="70%" height="50%" fill="#3D3D3D"/>
+
+  <!-- Main Action - Dolphin Tank -->
+  <circle id="tank" cx="40%" cy="65%" r="200" stroke="#FFF" stroke-width="10" fill="url(#dolphinTankGradient)">
+    <animate attributeName="r" values="200;210;200" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <defs>
+    <linearGradient id="dolphinTankGradient" gradientTransform="rotate(90)">
+      <stop offset="0%"   stop-color="#06477D"/>
+      <stop offset="100%" stop-color="#032F5C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Props - Underwater Plants -->
+  <g id="plants">
+    <circle cx="10%" cy="80%" r="40" fill="#7DC855"/>
+    <circle cx="60%" cy="75%" r="30" fill="#7DC855"/>
+    <circle cx="90%" cy="85%" r="35" fill="#7DC855"/>
+  </g>
+
+  <!-- Props - Submarine Light -->
+  <path id="submarineLight" d="M20% 60% q10 20, 40 60 Q20 80, 20% 90%" fill="#FFD700">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+</svg>

@@ -1,0 +1,37 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect id="background" width="100%" height="100%" fill="#FFF"/>
+
+  <!-- Bodice (Front) -->
+  <path id="bodice_front" d="M50,75 Q80,60 130,75 V400 H250 V300 Q320,340 400,300 V100 Z" fill="#FDD"/>
+  <linearGradient id="bodice_gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FDD; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#FFC; stop-opacity:1" />
+  </linearGradient>
+  <use xlink:href="#bodice_front" y="75" fill="url(#bodice_gradient)"/>
+
+  <!-- Bodice (Back) -->
+  <path id="bodice_back" d="M50,400 H400 V300 Q320,360 400,300 V100 Z" fill="#FDD"/>
+  <use xlink:href="#bodice_back"/>
+
+  <!-- Sleeves -->
+  <circle id="sleeve" cx="75" cy="200" r="80" fill="#FFF"/>
+  <use xlink:href="#sleeve" transform="translate(350, 200) rotate(-90)" />
+  <linearGradient id="sleeve_gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFF; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#E9D; stop-opacity:1" />
+  </linearGradient>
+  <use xlink:href="#sleeve" fill="url(#sleeve_gradient)"/>
+  <use xlink:href="#sleeve" transform="translate(350, 200) rotate(-90)" fill="url(#sleeve_gradient)"/>
+
+  <!-- Giraffe Spots Appliqués -->
+  <circle id="spot" cx="150" cy="150" r="40" fill="#784628"/>
+  <use xlink:href="#spot" transform="translate(300, 120)" />
+  <use xlink:href="#spot" transform="translate(200, 250) scale(.8)" />
+  <use xlink:href="#spot" transform="translate(350, 270) scale(.6)" />
+
+  <!-- Neckline -->
+  <path id="neckline" d="M150,75 Q200,50 250,75 Z" fill="#FDD"/>
+  <use xlink:href="#neckline"/>
+
+</svg>

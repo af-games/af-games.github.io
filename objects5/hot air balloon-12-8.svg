@@ -1,0 +1,29 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg" style="fill:currentColor; stroke:none">
+
+  <!-- Hot Air Balloon -->
+  <g id="hotAirBalloon">
+    <circle cx="150" cy="80" r="70" fill="#FFC107"/>
+    <path d="M130,60 L170,60 L150,20 Z" stroke="#FFA500" fill="#FFF59D"/>
+    <circle cx="150" cy="80" r="40" fill="#FF8B00">
+      <path d="M135,70 L165,70 M150,65 L150,75" stroke="#FFC107"/>
+    </circle>
+    <path d="M150,20 Q180,40 150,90 Q120,40 150,20" stroke="#FFA500" fill="transparent"/>
+  </g>
+
+  <!-- Accompanying Ingredients -->
+  <circle cx="300" cy="200" r="50" fill="#FF8B07"/>
+  <path d="M240,160 Q290,180 300,200 Q350,180 300,220" stroke="#FFA500"/>
+
+  <!-- Utensils -->
+  <polygon points="400,30 430,30 430,60 400,60" fill="#FFC107"/>
+  <rect x="420" y="90" width="50" height="80" fill="#FFF59D"/>
+
+  <!-- Garnishes -->
+  <circle cx="450" cy="150" r="30" fill="#FF6F00"/>
+  <path d="M420,170 Q450,210 480,170" stroke="#FFA500"/>
+
+  <!-- Tableware -->
+  <rect x="10" y="320" width="500" height="80" fill="#FFC107"/>
+  <circle cx="25" cy="360" r="20" fill="#FFF59D"/>
+
+</svg>

@@ -1,0 +1,29 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Base -->
+<rect x="0" y="0" width="600" height="400" fill="#C09A71"/>
+
+<!-- Walls -->
+<rect x="0" y="50" width="200" height="350" fill="#C09A71"/>
+<rect x="400" y="50" width="200" height="350" fill="#C09A71"/>
+<polygon points="100,350 400,350 300,450" fill="#C09A71"/>
+
+<!-- Towers -->
+<rect x="50" y="50" width="150" height="250" fill="#8B725F"/>
+<polygon points="75,250 175,250 125,325" fill="#8B725F"/>
+<rect x="450" y="50" width="200" height="300" fill="#8B725F"/>
+<polygon points="475,300 625,300 550,375" fill="#8B725F"/>
+
+<!-- Windows -->
+<circle cx="100" cy="150" r="30" fill="#FFFFFF"/>
+<circle cx="550" cy="175" r="40" fill="#FFFFFF"/>
+<circle cx="300" cy="300" r="15" fill="#FFFFFF"/>
+
+<!-- Roof -->
+<path d="M75,250 Q325,400 575,350" stroke="#8B725F" fill="transparent"/>
+
+<!-- Details -->
+<rect x="150" y="50" width="150" height="200" fill="#432310"/>
+<path d="M200,100 Q250,50 300,100 Q250,150 200,200" stroke="#432310" fill="transparent"/>
+
+</svg>

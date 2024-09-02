@@ -1,0 +1,23 @@
+<svg width="80px" height="120px" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="0" y="0" width="50" height="80" style="fill:brown;" />
+
+  <!-- Head -->
+  <ellipse cx="35" cy="40" rx="30" ry="20" style="fill:brown;" />
+
+  <!-- Ears -->
+  <polyline points="40,10 60,10 50,40" style="fill:brown; stroke-width:0;" />
+
+  <!-- Legs and Tail -->
+  <rect x="0" y="80" width="50" height="30" style="fill:brown;" />
+
+  <!-- Feet -->
+  <circle cx="10" cy="110" r="10" style="fill:brown;" />
+  <circle cx="40" cy="110" r="10" style="fill:brown;" />
+
+  <!-- Pouch -->
+  <rect x="25" y="80" width="25" height="30" style="fill:tan;" />
+
+  <!-- Fur Details -->
+  <ellipse cx="10" cy="60" rx="5" ry="3" style="fill:brown; opacity:0.5;" />
+</svg>

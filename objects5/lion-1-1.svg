@@ -1,0 +1,14 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lion body -->
+  <path d="M100 50 Q140 60, 180 90 Q140 130, 100 140 Q60 130, 20 90 Q60 60, 100 50" fill="goldenrod"/>
+
+  <!-- Lion mane -->
+  <path d="M80 70 Q90 50, 120 50 Q140 70, 130 90 Q120 110, 90 100 Q60 110, 70 90" fill="yellow"/>
+
+  <!-- Lion eyes -->
+  <circle cx="110" cy="85" r="5" fill="black"/>
+  <circle cx="140" cy="85" r="5" fill="black"/>
+
+  <!-- Lion nose -->
+  <polygon points="125,90,135,100,125,110" fill="black"/>
+</svg>

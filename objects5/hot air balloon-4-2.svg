@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800">
+
+<!-- Balloon envelope (oval) -->
+<ellipse cx="300" cy="150" rx="250" ry="400"
+         fill="#FFDEAD" fill-opacity="0.9" stroke="black" stroke-width="4"/>
+
+<!-- Basket -->
+<rect x="225" y="675" width="150" height="100"
+      fill="#8B4513" fill-opacity="0.8" stroke="black" stroke-width="4"/>
+
+<!-- Burner (circle with flame) -->
+<g transform="translate(275, 725)">
+  <circle cx="0" cy="0" r="25"
+          fill="#FFC125" fill-opacity="0.8"/>
+  <path d="M0,-30 Q-15,-60 -30,-40 L-30,-20 L0,0 Z"
+        fill="#FF6F00" fill-opacity="0.7"/>
+</g>
+
+<!-- Rope (path) -->
+<path d="M300,80 L300,550 C300,650 400,700 500,700"
+      stroke="#4A235A" stroke-width="10" stroke-opacity="0.6"/>
+
+<!-- Shadow (rectangle) -->
+<rect x="0" y="800" width="600" height="50"
+      fill="black" fill-opacity="0.1"/>
+
+</svg>

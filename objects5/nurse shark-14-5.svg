@@ -1,0 +1,71 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+```
+
+Now, let's add some depth by creating a background layer for the ocean floor. We'll use a linear gradient for the color to give it some variation.
+
+```xml
+<defs>
+  <linearGradient id="oceanFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="0%" style="stop-color:rgb(5,93,146);"/>
+    <stop offset="100%" style="stop-color:rgb(0,47,86)"/>
+  </linearGradient>
+</defs>
+<rect x="0" y="0" width="800" height="200" fill="url(#oceanFloor)" />
+```
+
+Next, we'll add our main character, the nurse shark. We'll use a semi-transparent black ellipse for its body and some paths for the fins.
+
+```xml
+<ellipse cx="400" cy="150" rx="200" ry="70" fill="rgba(0,0,0,0.3)" />
+<path d="M360 90 Q380 70 400 90 T520 90 Q480 70 400 110 Z" stroke="black" fill="transparent"/>
+<!-- Repeat the path above for the other fins -->
+```
+
+Now, let's add some supporting roles. We'll use circles for the smaller fish and some random paths for coral formations.
+
+```xml
+<circle cx="300" cy="120" r="10" fill="blue" />
+<circle cx="500" cy="140" r="8" fill="red" />
+<!-- Add more circles as needed -->
+
+<path d="M60 170 Q120 190 180 170 T240 150 Z" stroke="brown" fill="transparent"/>
+<!-- Repeat the path above for other coral formations -->
+```
+
+Finally, let's add some lighting effects. We'll use a radial gradient to create a light source coming from the top left corner.
+
+```xml
+<defs>
+  <radialGradient id="lightingEffect" cx="0%" cy="0%" r="50%">
+    <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:0"/>
+    <stop offset="100%" style="stop-color:rgb(255,255,255); stop-opacity:1"/>
+  </radialGradient>
+</defs>
+<rect x="0" y="0" width="800" height="600" fill="url(#lightingEffect)" />
+```
+
+And there you have it! Here's the complete SVG scene:
+
+```xml
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="oceanFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(5,93,146);"/>
+      <stop offset="100%" style="stop-color:rgb(0,47,86)"/>
+    </linearGradient>
+    <radialGradient id="lightingEffect" cx="0%" cy="0%" r="50%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255); stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:rgb(255,255,255); stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="600" fill="url(#lightingEffect)" />
+  <rect x="0" y="0" width="800" height="200" fill="url(#oceanFloor)" />
+  <ellipse cx="400" cy="150" rx="200" ry="70" fill="rgba(0,0,0,0.3)" />
+  <path d="M360 90 Q380 70 400 90 T520 90 Q480 70 400 110 Z" stroke="black" fill="transparent"/>
+  <!-- Repeat the path above for the other fins -->
+  <circle cx="300" cy="120" r="10" fill="blue" />
+  <circle cx="500" cy="140" r="8" fill="red" />
+  <!-- Add more circles as needed -->
+  <path d="M60 170 Q120 190 180 170 T240 150 Z" stroke="brown" fill="transparent"/>
+  <!-- Repeat the path above for other coral formations -->
+</svg>

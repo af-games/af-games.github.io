@@ -1,0 +1,29 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:black;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Create penguin shape -->
+  <path id="penguin" d="M100 20 Q90 35, 80 70 A40 40 0 0 0 160 70 Q150 35, 100 20"/>
+
+  <!-- Create diagonal threads -->
+  <g stroke="url(#gradient)">
+    <!-- Horizontal threads -->
+    <line x1="0" y1="20" x2="200" y2="20"/>
+    <line x1="0" y1="40" x2="200" y2="40"/>
+    <!-- Vertical threads -->
+    <line x1="20" y1="0" x2="20" y2="80"/>
+    <line x1="60" y1="0" x2="60" y2="80"/>
+    <!-- Diagonal threads -->
+    <line x1="0" y1="0" x2="80" y2="80"/>
+    <line x1="40" y1="20" x2="120" y2="60"/>
+    <line x1="80" y1="40" x2="160" y2="80"/>
+  </g>
+
+  <!-- Fill penguin shape -->
+  <path d="M100 20 Q90 35, 80 70 A40 40 0 0 0 160 70 Q150 35, 100 20" fill="url(#gradient)"/>
+</svg>

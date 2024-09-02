@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-80 -10 80 90">
+  <!-- Head -->
+  <circle cx="0" cy="15" r="3" fill="#FFCC66"/>
+
+  <!-- Neck -->
+  <path d="M0,18 Q-3,24 3,24 T0,27" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Body -->
+  <rect x="-6" y="27" width="12" height="18" fill="#FFCC66"/>
+
+  <!-- Front Legs -->
+  <rect x="-8" y="45" width="4" height="10" fill="#8B4513"/>
+  <rect x="8" y="45" width="4" height="10" fill="#8B4513"/>
+
+  <!-- Back Legs -->
+  <rect x="-10" y="39" width="4" height="10" fill="#8B4513"/>
+  <rect x="10" y="39" width="4" height="10" fill="#8B4513"/>
+
+  <!-- Tail -->
+  <path d="M-6,42 Q0,570 6,570 T0,600" stroke="#8B4513" fill="transparent"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <polygon points="100,200 200,150 300,200 250,270"
+           style="fill:rgb(128,64,0);stroke-width:2;stroke:rgb(0,0,0)" />
+
+  <!-- Eyes -->
+  <circle cx="150" cy="180" r="20" fill="rgb(255,235,205)"/>
+  <circle cx="250" cy="180" r="20" fill="rgb(255,235,205)"/>
+
+  <!-- Beak -->
+  <path d="M340,170 Q360,150 380,170"
+        style="fill:rgb(128,64,0);stroke-width:2;stroke:rgb(0,0,0)"/>
+
+  <!-- Feathers and Wings (simplified representation) -->
+  <polygon points="120,150 100,170 130,190"
+           style="fill:rgb(80,40,0);stroke-width:1;stroke:rgb(0,0,0)" />
+  <!-- Add more feathers and wings here -->
+
+</svg>

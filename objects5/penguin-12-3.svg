@@ -1,0 +1,30 @@
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="200" height="250" fill="#FFFFFF"/>
+
+  <!-- Penguin Body -->
+  <g id="penguin-body">
+    <rect x="75" y="100" width="50" height="80" fill="#A9D6E5"/>
+    <linearGradient id="grad-body" gradientUnits="objectBoundingBox" gradientTransform="rotate(45)">
+      <stop offset="0%" stop-color="#A9D6E5"/>
+      <stop offset="100%" stop-color="#F2FFFF"/>
+    </linearGradient>
+  </g>
+
+  <!-- Penguin Head -->
+  <circle cx="125" cy="75" r="40" fill="black"/>
+  <path d="M125,65 l-30,-15 A40,40 0 1,1 125,40 a40,40 0 1,1 -30,15 z" fill="#F8DE74"/>
+  <circle cx="125" cy="65" r="15" fill="#FFFFFF"/>
+
+  <!-- Penguin Wings -->
+  <path d="M90,85 Q100,100 120,85 Q130,100 140,85" stroke="#A9D6E5" stroke-width="10" fill="transparent"/>
+
+  <!-- Penguin Feet -->
+  <circle cx="110" cy="200" r="15" fill="#A9D6E5"/>
+  <circle cx="130" cy="200" r="15" fill="#A9D6E5"/>
+
+  <!-- Penguin Eye Highlights -->
+  <polygon points="118,70 122,74 114,74" fill="#FFFFFF"/>
+  <polygon points="138,70 132,74 126,74" fill="#FFFFFF"/>
+
+</svg>

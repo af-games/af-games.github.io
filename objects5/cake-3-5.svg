@@ -1,0 +1,19 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake Base -->
+  <rect x="60" y="175" width="280" height="150" fill="#f9d7a7" rx="50"/>
+  <path d="M60,175 Q30,250 60,300 H340 Q410,250 340,175 Z" fill="#e2b87d"/>
+
+  <!-- Cake Top -->
+  <path d="M90,75 Q120,0 210,0 L280,75 Q310,40 340,75 H390 V165 A50,50 0 0 1 390,225 Z" fill="#f9d7a7"/>
+  <path d="M90,75 Q120,40 210,40 L280,75 Q310,100 340,75 H390 V165 A50,50 0 0 1 390,225 Z" fill="#e2b87d"/>
+
+  <!-- Cake Frosting -->
+  <path d="M90,75 Q120,50 210,50 L280,75 Q310,60 340,75 H390 V105 A50,50 0 0 1 390,155 Z" fill="#ffffff"/>
+  <path d="M90,75 Q120,80 210,80 L280,75 Q310,70 340,75 H390 V105 A50,50 0 0 1 390,155 Z" fill="#c6e2ff"/>
+
+  <!-- Cake Topping -->
+  <circle cx="215" cy="50" r="40" fill="#ffd8ce"/>
+  <path d="M215,50 A40,40 0 0 0 215,90 L265,130 A40,40 0 0 0 215,170 Z" fill="#ffa896"/>
+
+</svg>

@@ -1,0 +1,34 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+```
+
+1. **Body (Circle)**: The body will be a circle at the center of the canvas.
+
+```svg
+  <circle cx="250" cy="250" r="100" fill="lightgray"/>
+```
+
+2. **Ears (Ellipses)**: The ears will move into place from above and below the body, interacting briefly with it before settling down.
+
+```svg
+  <ellipse cx="230" cy="175" rx="30" ry="60" fill="gray"/>
+  <ellipse cx="270" cy="175" rx="30" ry="60" fill="gray"/>
+```
+
+3. **Arms (Rectangles)**: The arms will move in from the sides, interacting with the body briefly before settling into place.
+
+```svg
+  <rect x="200" y="200" width="50" height="100" fill="lightgray"/>
+  <rect x="300" y="200" width="50" height="100" fill="lightgray"/>
+```
+
+4. **Legs (Trapezoids)**: The legs will move up from the bottom of the canvas, interacting with the body briefly before settling into place.
+
+```svg
+  <polygon points="230,350 270,350 250,400" fill="lightgray"/>
+  <polygon points="280,350 320,350 300,400" fill="lightgray"/>
+```
+
+Now, let's close the SVG tag to finalize our performance:
+
+```svg
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  <!-- Head -->
+  <path d="M25,5a20,20 0 1,0 40,0a20,20 0 1,0 -40,0" stroke="#333333" stroke-width="3"/>
+
+  <!-- Eyes (Highlights) -->
+  <path d="M45,15a7,7 0 1,0 14,0a7,7 0 1,0 -14,0" stroke="#FFFFFF" stroke-width="1"/>
+  <path d="M65,15a7,7 0 1,0 14,0a7,7 0 1,0 -14,0" stroke="#FFFFFF" stroke-width="1"/>
+
+  <!-- Eyes (Pupils) -->
+  <path d="M45,15a7,7 0 1,0 14,0a7,7 0 1,0 -14,0" stroke="#333333" fill="transparent" stroke-opacity="0.5" stroke-width="1"/>
+  <path d="M65,15a7,7 0 1,0 14,0a7,7 0 1,0 -14,0" stroke="#333333" fill="transparent" stroke-opacity="0.5" stroke-width="1"/>
+
+  <!-- Body -->
+  <path d="M50,40 Q80,70 100,40 Q130,70 150,40" stroke="#666666" stroke-width="2"/>
+
+  <!-- Left Wing -->
+  <path d="M50,40 Q70,10 90,40 L80,60 Z" fill="url(#grad1)" stroke="#666666" stroke-width="2"/>
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#333333"/>
+      <stop offset="100%" style="stop-color:#FFFFFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Right Wing -->
+  <path d="M150,40 Q130,10 110,40 L120,60 Z" fill="url(#grad2)" stroke="#666666" stroke-width="2"/>
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#333333"/>
+      <stop offset="100%" style="stop-color:#FFFFFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Foot -->
+  <path d="M80,65 Q90,75 100,65" stroke="#999999" stroke-width="1"/>
+
+  <!-- Right Foot -->
+  <path d="M140,65 Q130,75 120,65" stroke="#999999" stroke-width="1"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Castle -->
+  <polygon points="0,0 80,0 80,-40 20,-40" fill="#8B4513"/>
+
+  <!-- Castle walls -->
+  <rect x="70" y="-40" width="10" height="60" fill="#8B4513"/>
+  <rect x="-10" y="-40" width="10" height="60" fill="#8B4513"/>
+
+  <!-- Moat -->
+  <rect x="-20" y="-50" width="40" height="10" fill="#ADD8E6"/>
+  <rect x="70" y="-50" width="10" height="10" fill="#ADD8E6"/>
+
+  <!-- River -->
+  <polygon points="-20,-30 -40,-30 -40,10 -20,10" fill="#ADD8E6"/>
+  <polyline points="-50,-10 -20,-10 20,10 50,10" stroke="#A9A9A9"/>
+
+  <!-- Forest -->
+  <rect x="-40" y="10" width="30" height="40" fill="#006400"/>
+
+</svg>

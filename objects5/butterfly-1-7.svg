@@ -1,0 +1,17 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Landmark 1: The Crystal Peak -->
+  <rect x="50" y="50" width="100" height="100"
+        style="fill:blue;stroke:black;stroke-width:1" />
+
+  <!-- Landmark 2: Whispering Woods -->
+  <rect x="200" y="100" width="150" height="150"
+        style="fill:green;stroke:black;stroke-width:1" />
+
+  <!-- Landmark 3: The Serene Lagoon -->
+  <circle cx="400" cy="200" r="80"
+          style="fill:lightblue;stroke:black;stroke-width:1" />
+
+  <!-- Landmark 4: The Mysterious Cave -->
+  <polygon points="350,350 450,350 400,450"
+           style="fill:darkgray;stroke:black;stroke-width:1" />
+</svg>

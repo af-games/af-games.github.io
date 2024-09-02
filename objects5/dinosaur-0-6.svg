@@ -1,0 +1,30 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="100" y="70" width="300" height="400" fill="#8B4513"/>
+
+  <!-- Head -->
+  <circle cx="200" cy="150" r="90" fill="#FFDAB9"/>
+  <path d="M200 150 Q220 120, 260 150" stroke="#8B4513" stroke-width="20"/>
+
+  <!-- Eyes -->
+  <circle cx="170" cy="120" r="20" fill="#FFFFFF"/>
+  <circle cx="230" cy="120" r="20" fill="#FFFFFF"/>
+  <circle cx="175" cy="115" r="5" fill="#000000"/>
+  <circle cx="225" cy="115" r="5" fill="#000000"/>
+
+  <!-- Arms -->
+  <path d="M80 200 Q120 300, 160 200" stroke="#8B4513" stroke-width="20"/>
+  <path d="M370 200 Q330 300, 310 200" stroke="#8B4513" stroke-width="20"/>
+
+  <!-- Legs -->
+  <path d="M160 300 Q220 400, 280 300" stroke="#8B4513" stroke-width="20"/>
+  <path d="M270 300 Q230 400, 190 300" stroke="#8B4513" stroke-width="20"/>
+
+  <!-- Tail -->
+  <path d="M320 300 Q260 400, 200 300" stroke="#8B4513" stroke-width="20"/>
+
+  <!-- Text (Decorations) -->
+  <text x="50%" y="470" dominant-baseline="middle" text-anchor="middle" fill="#FFDAB9">T-Rex</text>
+
+</svg>

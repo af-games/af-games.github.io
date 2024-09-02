@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Balloon Envelope -->
+  <path id="balloonEnvelope" d="M-75,-90 Q-60,-80 0,-65 Q60,-80 75,-90" fill="yellow"/>
+
+  <!-- Basket -->
+  <rect id="basket" x="-20" y="-130" width="40" height="50" rx="10" fill="#d2b48c"/>
+
+  <!-- Burner Flame -->
+  <polygon id="flame" points="-5,-70, 5,-70, 0,-60" fill="orange"/>
+
+  <!-- Mooring Tower -->
+  <circle cx="50" cy="-130" r="20" stroke="black" fill="#c0c0c0"/>
+  <line x1="50" y1="-130" x2="50" y2="-160" stroke="black"/>
+
+  <!-- Launch Site - Building -->
+  <rect id="building" x="-80" y="-140" width="60" height="60" fill="#bdbdbd"/>
+  <path d="M-70,-90 Q-50,-120 0,-130 Q50,-120 60,-90" stroke="black"/>
+
+  <!-- Launch Site - Path -->
+  <path id="launchPath" d="M-80,-140 Q-30,-160 0,-170 Q30,-160 50,-140" fill="none" stroke="#696969"/>
+
+  <!-- Scale Indicator -->
+  <text x="-280" y="-20" font-size="14">Scale: 1 unit = 5 meters</text>
+
+  <!-- Connect elements -->
+  <use href="#flame" transform="translate(7, -70) rotate(-30)"/>
+  <use href="#balloonEnvelope" fill-opacity="0.2"/>
+  <use href="#launchPath"/>
+
+  <!-- Hot Air Balloon Assembly -->
+  <g id="hotAirBalloon">
+    <use href="#basket"/>
+    <use href="#balloonEnvelope"/>
+    <use href="#flame"/>
+  </g>
+
+  <!-- Position hot air balloon at launch site -->
+  <use href="#hotAirBalloon" transform="translate(100, 30) rotate(-5)" />
+
+</svg>

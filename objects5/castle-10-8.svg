@@ -1,0 +1,20 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <rect x="50" y="10" width="150" height="300" rx="20" fill="#F39C12"/>
+
+  <!-- Curtain Wall -->
+  <rect x="200" y="10" width="200" height="300" fill="#E0E0E0"/>
+
+  <!-- Gatehouse Arch -->
+  <path d="M50,40 Q80,60 200,40 T400,40" stroke="#1D428A" fill="transparent"/>
+
+  <!-- Turrets -->
+  <circle cx="75" cy="210" r="30" fill="#F39C12"/>
+  <circle cx="375" cy="210" r="30" fill="#F39C12"/>
+
+  <!-- Outline and Roof Line -->
+  <rect x="45" y="5" width="400" height="305" rx="20" stroke="#000000" fill="transparent"/>
+  <line x1="200" y1="310" x2="400" y2="310" stroke="#000000"/>
+
+</svg>

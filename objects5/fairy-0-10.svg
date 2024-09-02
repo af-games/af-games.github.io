@@ -1,0 +1,23 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Fairy body -->
+  <polygon id="fairyBody" points="250,10 400,180 100,180"
+           style="fill:rgb(FF69B4); stroke:rgb(CD7F32); stroke-width:2;" />
+
+  <!-- Fairy wings -->
+  <polygon id="fairyWingLeft" points="50,50 200,50 150,150"
+           style="fill:rgb(A020F0); stroke:rgb(CD7F32); stroke-width:2;" />
+  <polygon id="fairyWingRight" points="300,50 450,50 400,150"
+           style="fill:rgb(A020F0); stroke:rgb(CD7F32); stroke-width:2;" />
+
+  <!-- Fairy hair -->
+  <polygon id="fairyHair" points="225,80 260,40 295,80"
+           style="fill:rgb(A020F0); stroke:rgb(CD7F32); stroke-width:2;" />
+
+  <!-- Fairy face -->
+  <circle cx="250" cy="120" r="50" fill="white" />
+  <circle cx="265" cy="140" r="5" style="fill:black;" /> <!-- Left eye -->
+  <circle cx="235" cy="140" r="5" style="fill:black;" /> <!-- Right eye -->
+  <path d="M245,160 Q255,180 265,160" stroke="black" fill="transparent" /> <!-- Smile -->
+
+</svg>

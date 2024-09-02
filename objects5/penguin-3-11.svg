@@ -1,0 +1,43 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="175" rx="80" ry="100"
+           fill="url(#penguin-body-gradient)" />
+
+  <!-- Head -->
+  <circle cx="100" cy="90" r="30"
+          fill="url(#penguin-head-gradient)" />
+
+  <!-- Beak -->
+  <path d="M95 70 Q105 60, 115 70 Q125 60, 135 70"
+        fill="orange" stroke="black" stroke-width="2"/>
+
+  <!-- Eye -->
+  <circle cx="110" cy="65" r="5"
+          fill="white"/>
+  <circle cx="110" cy="65" r="3"
+          fill="black"/>
+
+  <!-- Legs -->
+  <path d="M80 200 Q90 220, 100 240 Q110 220, 120 200" stroke="black" stroke-width="5"
+        fill="transparent"/>
+  <path d="M120 200 Q130 220, 140 240 Q150 220, 160 200" stroke="black" stroke-width="5"
+        fill="transparent"/>
+
+  <!-- Feet -->
+  <path d="M80 240 Q90 250, 100 260 Q110 250, 120 240" stroke="black" stroke-width="3"
+        fill="transparent"/>
+  <path d="M120 240 Q130 250, 140 260 Q150 250, 160 240" stroke="black" stroke-width="3"
+        fill="transparent"/>
+
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="penguin-body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(187,134,58);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(96,71,43);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="penguin-head-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(187,134,58);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

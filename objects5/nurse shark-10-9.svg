@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+
+  <!-- Clues -->
+  <circle cx="-40" cy="0" r="5" fill="#FF7F50" stroke="#FFF" stroke-width="2" />
+  <circle cx="0" cy="30" r="5" fill="#FF69B4" stroke="#FFF" stroke-width="2" />
+  <circle cx="40" cy="-10" r="5" fill="#8B7D6B" stroke="#FFF" stroke-width="2" />
+
+  <!-- Suspects -->
+  <rect x="-30" y="-20" width="20" height="30" fill="#FFD700" stroke="#FFF" stroke-width="2" />
+  <rect x="10" y="20" width="20" height="20" fill="#DAA520" stroke="#FFF" stroke-width="2" />
+
+  <!-- Culprits -->
+  <polygon points="-30,-40, -30,20, 40,-10" fill="#FF6347" stroke="#FFF" stroke-width="2" />
+  <polygon points="20,-10, 50,-20, 50,40" fill="#CD853F" stroke="#FFF" stroke-width="2" />
+
+  <!-- Labels -->
+  <text x="-45" y="5" text-anchor="end" font-family="Verdana" font-size="10">Clue 1</text>
+  <text x="5" y="35" text-anchor="middle" font-family="Verdana" font-size="10">Clue 2</text>
+  <text x="45" y="-15" text-anchor="end" font-family="Verdana" font-size="10">Clue 3</text>
+
+  <text x="-35" y="-25" text-anchor="end" font-family="Verdana" font-size="10">Suspect 1</text>
+  <text x="15" y="35" text-anchor="middle" font-family="Verdana" font-size="10">Suspect 2</text>
+
+  <text x="-35" y="-45" text-anchor="end" font-family="Verdana" font-size="10">Culprit 1</text>
+  <text x="35" y="-15" text-anchor="middle" font-family="Verdana" font-size="10">Culprit 2</text>
+
+</svg>

@@ -1,0 +1,19 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dome -->
+  <path id="dome" d="M150,75 Q200,0 300,75" fill="#fff" stroke="#000"/>
+  <animateTransform attributeName="transform" type="rotate" from="0 400 90" to="360 400 90" dur="10s" repeatCount="indefinite"/>
+
+  <!-- Door -->
+  <rect id="door" x="275" y="175" width="25" height="100" fill="#fff" stroke="#000"/>
+  <animate attributeName="x" from="275" to="300" dur="2s" repeatCount="indefinite" fill="freeze"/>
+
+  <!-- Window -->
+  <rect id="window" x="300" y="185" width="20" height="40" fill="#fff" stroke="#000"/>
+  <animate attributeName="y" from="185" to="165" dur="1.5s" repeatCount="indefinite" fill="freeze"/>
+
+  <!-- Smaller Dome (for smoke effect) -->
+  <path id="smoke-dome" d="M320,75 Q370,0 420,75" fill="#fff" stroke="#000"/>
+  <animate attributeName="opacity" from="1" to=".5" dur="3s" repeatCount="indefinite"/>
+
+</svg>

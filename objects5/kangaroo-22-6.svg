@@ -1,0 +1,21 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100 400 Q175 350, 250 375 Q325 425, 400 400" fill="yellow" stroke="black"/>
+
+  <!-- Head and pouch -->
+  <path d="M250 300 A150 150 0 0 1 250 150 Q275 175, 250 200 Z" fill="orange" stroke="black"/>
+
+  <!-- Left arm -->
+  <path d="M200 350 L150 400 L100 350" fill="red" stroke="black"/>
+
+  <!-- Right arm -->
+  <path d="M250 350 L300 400 L350 350" fill="green" stroke="black"/>
+
+  <!-- Left leg -->
+  <path d="M175 500 Q150 550, 125 500" fill="red" stroke="black"/>
+
+  <!-- Right leg -->
+  <path d="M275 500 Q300 550, 325 500" fill="green" stroke="black"/>
+
+</svg>

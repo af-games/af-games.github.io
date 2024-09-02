@@ -1,0 +1,34 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#ADD8E6"/>
+
+  <!-- Fairy's body -->
+  <path d="M100 450 Q150 350, 250 375 Q350 425, 400 375 Q450 425, 500 375 Q550 425, 600 375" stroke="#FFF1E6" fill="transparent" stroke-width="20"/>
+
+  <!-- Fairy's head -->
+  <circle cx="250" cy="275" r="75" stroke="#FFF1E6" fill="transparent" stroke-width="20"/>
+
+  <!-- Fairy's hair (broad strokes) -->
+  <path d="M200 200 Q300 150, 400 200 Q300 250, 200 200" stroke="#8B4513" fill="transparent" stroke-width="15"/>
+
+  <!-- Fairy's hair (fine lines) -->
+  <path d="M210 190 Q310 140, 410 190 Q310 240, 210 210" stroke="#8B4513" fill="transparent" stroke-width="5"/>
+
+  <!-- Fairy's dress (broad strokes) -->
+  <path d="M175 375 Q225 425, 275 475 Q325 425, 375 375" stroke="#8B4513" fill="transparent" stroke-width="15"/>
+
+  <!-- Fairy's dress (fine lines) -->
+  <path d="M185 365 Q235 415, 285 465 Q335 415, 385 365" stroke="#8B4513" fill="transparent" stroke-width="5"/>
+
+  <!-- Fairy's wings (broad strokes) -->
+  <path d="M400 325 Q450 375, 500 325 Q450 275, 400 325" stroke="#90EE90" fill="transparent" stroke-width="15"/>
+
+  <!-- Fairy's wings (fine lines) -->
+  <path d="M410 315 Q460 365, 510 315 Q460 285, 410 315" stroke="#90EE90" fill="transparent" stroke-width="5"/>
+
+  <!-- Fairy's wand -->
+  <rect x="375" y="225" width="50" height="100" rx="25" stroke="#CD7F32" fill="transparent" stroke-width="5"/>
+
+  <!-- Fairy's crown (fine lines) -->
+  <circle cx="250" cy="200" r="40" stroke="#CD7F32" fill="transparent" stroke-width="5"/>
+</svg>

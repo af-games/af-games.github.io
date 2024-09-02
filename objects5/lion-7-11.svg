@@ -1,0 +1,20 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Perimeter and important locations -->
+  <rect x="50" y="100" width="80" height="200" style="fill:lightgray;stroke:black;" />
+  <circle cx="150" cy="200" r="40" style="fill:lightgray;stroke:black;" /> <!-- Watering Hole (W) -->
+  <circle cx="350" cy="175" r="25" style="fill:red;stroke:black;" /> <!-- Lion's Corpse (L) -->
+
+  <!-- Suspects' territories -->
+  <rect x="180" y="100" width="100" height="200" style="fill:lightgray;stroke:black;" />
+  <rect x="320" y="100" width="150" height="200" style="fill:lightgray;stroke:black;" />
+  <rect x="480" y="100" width="100" height="200" style="fill:lightgray;stroke:black;" />
+
+  <!-- Clues (paths) -->
+  <path d="M50,175 Q100,150 150,200" stroke="blue" fill="transparent"/> <!-- Hyena's paw prints leading to the watering hole -->
+
+  <path d="M320,150 Q350,160 380,175" stroke="green" fill="transparent"/> <!-- Elephant's footprints converging towards the lion's corpse -->
+
+  <path d="M480,175 L400,200 Q350,225 300,200 Z" stroke="purple" fill="transparent"/> <!-- Poacher's tire tracks diverging from the crime scene -->
+
+</svg>

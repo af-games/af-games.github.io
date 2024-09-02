@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 -150 300 300">
+  <!-- Hills -->
+  <ellipse cx="0" cy="60" rx="80" ry="40" fill="#78b56c"/>
+  <ellipse cx="70" cy="90" rx="60" ry="30" fill="#6eac5a"/>
+  <ellipse cx="-70" cy="90" rx="60" ry="30" fill="#6eac5a"/>
+
+  <!-- River -->
+  <path d="M-120,40 Q-80,-20 0,0 Q80,-20 120,40" stroke="#2f497d" fill="transparent" stroke-width="10"/>
+
+  <!-- Trees -->
+  <circle cx="-60" cy="30" r="25" fill="#8b4c21">
+    <circle cx="0" cy="-20" r="15" fill="#297e21"/>
+  </circle>
+  <circle cx="60" cy="30" r="25" fill="#8b4c21">
+    <circle cx="0" cy="-20" r="15" fill="#297e21"/>
+  </circle>
+
+  <!-- Giraffe -->
+  <g transform="translate(0, -60)">
+    <!-- Neck -->
+    <path d="M0,-30 Q40,-80 80,-30" stroke="#ffc20a" fill="transparent" stroke-width="15"/>
+
+    <!-- Body -->
+    <circle cx="80" cy="0" r="60" fill="#ffc20a">
+      <pattern id="spots" width="20" height="20" patternUnits="userSpaceOnUse">
+        <circle cx="10" cy="10" r="5" fill="#794d26"/>
+      </pattern>
+      <mask id="giraffe-mask">
+        <circle cx="80" cy="0" r="60"/>
+      </mask>
+      <circle cx="80" cy="0" r="60" fill="url(#spots)" mask="url(#giraffe-mask)"/>
+    </circle>
+
+    <!-- Legs -->
+    <rect x="-5" y="30" width="10" height="90" fill="#ffc20a"/>
+    <rect x="75" y="30" width="10" height="90" fill="#ffc20a"/>
+    <rect x="-5" y="120" width="80" height="10" fill="#ffc20a"/>
+  </g>
+</svg>

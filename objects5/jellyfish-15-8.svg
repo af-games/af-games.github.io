@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450">
+
+  <!-- Plate -->
+  <ellipse cx="300" cy="225" rx="275" ry="180" fill="#F9E5B4"/>
+
+  <!-- Jellyfish -->
+  <g transform="translate(150, 200)">
+    <circle r="60" fill="#0099FF"/>
+    <path d="M60,-60 a60,60 0 0 0 -120,0 a60,60 0 0 1 120,0" stroke="#0099FF" fill="transparent"/>
+    <circle cx="-30" cy="30" r="20" fill="#FF7F50"/>
+    <circle cx="30" cy="30" r="20" fill="#FF7F50"/>
+  </g>
+
+  <!-- Garnishes -->
+  <path d="M480,60 l-10,-10 h-60 v-30 h60 z" fill="#FFC300"/>
+  <circle cx="420" cy="90" r="10" fill="#5FBA7D"/>
+
+  <!-- Utensils -->
+  <rect x="480" y="200" width="100" height="20" rx="5" fill="#C3B091"/>
+  <path d="M500,200 l-60,-30 h120 v60 h-120 z" stroke="#C3B091" fill="transparent"/>
+
+  <!-- Tableware -->
+  <rect x="480" y="380" width="100" height="20" rx="5" fill="#FFFFFF"/>
+  <path d="M500,380 l-60,-30 h120 v60 h-120 z" stroke="#C3B091" fill="transparent"/>
+
+</svg>

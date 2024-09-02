@@ -1,0 +1,27 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 50 50'>
+  <!-- Body -->
+  <path fill='#8B897C' d="M10,0 L40,0 C45,5 40,15 35,20 C30,15 25,5 20,0 Z"/>
+
+  <!-- Fins -->
+  <polygon fill='#8B897C' points="10,0 0,10 5,0"/>
+  <polygon fill='#8B897C' points="40,0 50,10 45,0"/>
+
+  <!-- Tail -->
+  <path fill='#8B897C' d="M35,20 Q30,25 25,20 Q20,25 15,20"/>
+
+  <!-- Eyes -->
+  <circle cx='15' cy='15' r='2' fill='#FFFFFF'>
+    <animateMotion repeatCount="indefinite" dur="2s">
+      <mpath href="#eyesPath"/>
+    </animateMotion>
+  </circle>
+  <circle cx='35' cy='15' r='2' fill='#FFFFFF'>
+    <animateMotion repeatCount="indefinite" dur="2s">
+      <mpath href="#eyesPath"/>
+    </animateMotion>
+  </circle>
+  <path id="eyesPath" d="M15,15 A5,5 0 0,0 35,15"/>
+
+  <!-- Teeth (simplified, use filters or gradients for details) -->
+  <polygon fill='#FFFFFF' points="20,5 25,5 22.5,0"/>
+</svg>

@@ -1,0 +1,36 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="500" fill="#FFF"/>
+
+  <!-- Igloo base (large circle) -->
+  <circle id="igloo-base" cx="175" cy="325" r="150" fill="#000"/>
+  <animate
+    attributeName="cx"
+    from="175" to="225"
+    begin="0s" dur="2s"
+    repeatCount="indefinite"
+    calcMode="linear"
+    id="base-move-x"/>
+
+  <!-- Igloo dome (large arc) -->
+  <path id="igloo-dome" d="M175,75 A148,148 0 0 1 323,163 L175,325 Z" fill="#000"/>
+  <animate
+    attributeName="d"
+    from="M175,75 A148,148 0 0 1 323,163 L175,325 Z"
+    to="M225,75 A148,148 0 0 1 373,163 L225,325 Z"
+    begin="base-move-x;0s" dur="2s"
+    repeatCount="indefinite"
+    calcMode="linear"/>
+
+  <!-- Smoke (random circles) -->
+  <circle cx="250" cy="175" r="8" fill="#000"/>
+  <circle cx="300" cy="150" r="6" fill="#000"/>
+  <animate
+    attributeName="cy"
+    from="175" to="125"
+    begin="base-move-x;0s" dur="1.5s"
+    repeatCount="indefinite"
+    calcMode="linear"
+    id="smoke-move"/>
+
+</svg>

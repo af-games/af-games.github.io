@@ -1,0 +1,23 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Plate -->
+  <circle cx="300" cy="300" r="250" fill="#FFEFD5"/>
+
+  <!-- Giraffe meat (star ingredient) -->
+  <path d="M180,240 Q220,160 340,240 Q380,340 300,400 H180 Z" fill="#F7A25D"/>
+
+  <!-- Vegetables -->
+  <circle cx="150" cy="290" r="40" fill="#6CA63C"/> <!-- Carrot -->
+  <polygon points="110,250 150,200 190,250" fill="#6CA63C"/> <!-- Broccoli -->
+  <circle cx="450" cy="290" r="40" fill="#D7FF8E"/> <!-- Bell pepper -->
+
+  <!-- Fruits (garnish) -->
+  <circle cx="180" cy="150" r="30" fill="#FF6B00"/> <!-- Orange slice -->
+  <circle cx="270" cy="150" r="30" fill="#FFCA4E"/> <!-- Pineapple slice -->
+  <circle cx="360" cy="150" r="30" fill="#8ACB3E"/> <!-- Apple slice -->
+
+  <!-- Utensils -->
+  <path d="M420,280 Q470,330 520,280 L520,360 H420 Z" stroke="#333" fill="transparent"/> <!-- Fork -->
+  <path d="M420,360 V410 H470 V360 H520 Z" stroke="#333" fill="transparent"/> <!-- Knife -->
+
+</svg>

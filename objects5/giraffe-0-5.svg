@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect id="body" x="150" y="150" width="400" height="300" fill="#000"/>
+
+  <!-- Neck -->
+  <path id="neck" d="M270,180 Q290,150 310,180 H310 V240 Z" fill="#fff"/>
+
+  <!-- Head -->
+  <circle id="head" cx="360" cy="160" r="80" fill="#000"/>
+  <path id="face" d="M330,140 Q350,120 370,140 Q350,160 330,160 Z" fill="#fff"/>
+
+  <!-- Eyes -->
+  <circle id="eye-left" cx="335" cy="135" r="5" fill="#000"/>
+  <circle id="eye-right" cx="365" cy="135" r="5" fill="#000"/>
+
+  <!-- Ears -->
+  <polygon id="ear-left" points="290,80,300,70,310,80" fill="#fff"/>
+  <polygon id="ear-right" points="360,80,350,70,340,80" fill="#fff"/>
+
+  <!-- Legs -->
+  <g id="legs">
+    <rect x="190" y="280" width="20" height="120" fill="#000"/>
+    <rect x="250" y="280" width="20" height="120" fill="#000"/>
+    <rect x="370" y="280" width="20" height="120" fill="#000"/>
+    <rect x="430" y="280" width="20" height="120" fill="#000"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100,40 Q120,80 150,60 Q170,90 180,50 Q170,10 150,30 Z"
+        fill="brown" stroke="none"/>
+
+  <!-- Belly -->
+  <ellipse cx="140" cy="70" rx="20" ry="40" fill="cream"/>
+  <path d="M160,90 Q180,95 180,75" fill="brown"/>
+
+  <!-- Tail -->
+  <path d="M160,70 Q175,90 165,110" fill="gray"/>
+  <linearGradient id="tailGrad" x1="160" y1="70" x2="165" y2="110">
+    <stop offset="0%" stop-color="#8B4513"/>
+    <stop offset="100%" stop-color="#693D1A"/>
+  </linearGradient>
+  <path d="M160,70 Q175,90 165,110" fill="url(#tailGrad)"/>
+
+  <!-- Head -->
+  <circle cx="120" cy="45" r="30" fill="brown"/>
+  <circle cx="115" cy="40" r="5" fill="white"/>
+  <path d="M120,35 Q125,30 130,35" fill="black"/>
+
+  <!-- Limbs -->
+  <rect x="90" y="80" width="20" height="60" rx="5" fill="brown"/>
+  <rect x="140" y="75" width="20" height="60" rx="5" fill="brown"/>
+
+  <!-- Face details -->
+  <path d="M123,48 Q125,50 127,48" fill="black"/>
+  <circle cx="118" cy="53" r="3" fill="white"/>
+</svg>

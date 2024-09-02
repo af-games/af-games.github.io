@@ -1,0 +1,21 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="400" fill="#f1f1f1"/>
+
+  <!-- Shark body (main rectangle) -->
+  <rect x="100" y="70" width="300" height="200" rx="50" fill="#8b93a1"/>
+  <path d="M100 270 Q150 240, 200 270" stroke="#8b93a1" fill="transparent"/>
+
+  <!-- Shark fins -->
+  <polygon points="60,50 100,120 40,120" fill="#8b93a1"/>
+  <polygon points="340,50 380,120 280,120" fill="#8b93a1"/>
+
+  <!-- Shark tail -->
+  <path d="M460 300 Q420 270, 400 240" stroke="#8b93a1" fill="transparent"/>
+
+  <!-- Shark eyes -->
+  <circle cx="150" cy="180" r="20" fill="#fff"/>
+  <circle cx="250" cy="180" r="20" fill="#fff"/>
+
+</svg>

@@ -1,0 +1,52 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dino Friends -->
+  <circle id="trike" cx="50" cy="150" r="40" fill="green" stroke="black">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 50 150"
+      to="360 50 150"
+      dur="2s"
+      repeatCount="indefinite"/>
+    <text x="40" y="170" font-size="8">Trike</text>
+  </circle>
+
+  <rect id="raptor" x="90" y="130" width="60" height="50" rx="5" ry="5" fill="blue">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="0,0"
+      to="20,0"
+      dur="2s"
+      repeatCount="indefinite"/>
+    <text x="100" y="160" font-size="8">Raptor</text>
+  </rect>
+
+  <!-- Jungle Path -->
+  <path id="path" d="M50,170 Q150,200 250,170 Q350,200 450,170" stroke="brown"/>
+
+  <!-- River Crossing -->
+  <path id="river" d="M250,190 Q300,210 350,190" stroke="blue"/>
+
+  <!-- Barrier -->
+  <rect id="barrier" x="370" y="160" width="80" height="40" fill="grey"/>
+
+  <!-- Flying Pterodactyl -->
+  <polygon id="ptera" points="390,50 390,20 410,100" fill="red">
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="0,0"
+      to="0,-20"
+      dur="1s"
+      repeatCount="indefinite"/>
+    <text x="395" y="70" font-size="8">Ptera</text>
+  </polygon>
+
+  <!-- Speech Bubbles -->
+  <text id="trike-speech" x="60" y="200" text-anchor="middle">Don't worry, we can handle it!</text>
+  <text id="raptor-speech" x="140" y="170" text-anchor="middle">Uh-oh! What's that?</text>
+  <text id="both-speech" x="300" y="190" text-anchor="middle">Watch out!</text>
+
+</svg>

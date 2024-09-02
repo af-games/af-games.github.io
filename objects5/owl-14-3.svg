@@ -1,0 +1,74 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Stage -->
+<rect x="100" y="150" width="600" height="400" fill="#c97f35" stroke="black"/>
+
+<!-- Ollie's body -->
+<ellipse cx="400" cy="350" rx="200" ry="150" fill="#F8DE7E" stroke="brown"/>
+<path d="M360 250 L440 250" stroke="brown"/>
+
+<!-- Ollie's head -->
+<circle cx="400" cy="200" r="80" fill="#FDD75C" stroke="brown"/>
+<line x1="400" y1="200" x2="400" y2="250" stroke="black"/>
+
+<!-- Ollie's wings -->
+<!-- Left wing -->
+<path d="M360 300 L320 250 L380 250 Z" fill="#FDD75C" stroke="brown"/>
+<line x1="340" y1="290" x2="360" y2="300" stroke="black"/>
+<line x1="360" y1="300" x2="380" y2="300" stroke="black"/>
+
+<!-- Right wing -->
+<path d="M440 300 L480 250 L420 250 Z" fill="#FDD75C" stroke="brown"/>
+<line x1="460" y1="290" x2="440" y2="300" stroke="black"/>
+<line x1="440" y1="300" x2="420" y2="300" stroke="black"/>
+
+<!-- Ollie's tail -->
+<polygon points="400,400 360,450 440,450" fill="#FDD75C" stroke="brown"/>
+<line x1="400" y1="400" x2="400" y2="380" stroke="black"/>
+
+<!-- Ollie's legs -->
+<!-- Left leg -->
+<line x1="360" y1="450" x2="370" y2="500" stroke="brown"/>
+<line x1="370" y1="500" x2="390" y2="500" stroke="black"/>
+
+<!-- Right leg -->
+<line x1="440" y1="450" x2="430" y2="500" stroke="brown"/>
+<line x1="430" y1="500" x2="410" y2="500" stroke="black"/>
+
+<!-- Strings -->
+<!-- Head strings -->
+<line x1="400" y1="200" x2="400" y2="250" stroke="#333"/>
+<line x1="400" y1="250" x2="400" y2="270" stroke="#333"/>
+
+<!-- Wing strings -->
+<line x1="360" y1="290" x2="340" y2="290" stroke="#333"/>
+<line x1="360" y1="300" x2="380" y2="300" stroke="#333"/>
+<line x1="440" y1="290" x2="460" y2="290" stroke="#333"/>
+<line x1="440" y1="300" x2="420" y2="300" stroke="#333"/>
+
+<!-- Tail string -->
+<line x1="400" y1="400" x2="400" y2="380" stroke="#333"/>
+
+<!-- Leg strings -->
+<line x1="360" y1="450" x2="370" y2="450" stroke="#333"/>
+<line x1="440" y1="450" x2="430" y2="450" stroke="#333"/>
+
+<!-- Lighting effects (shadows) -->
+<defs>
+  <filter id="softLight" width="150%" height="150%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+    <feOffset dx="2" dy="2" result="offsetblur"/>
+    <feFlood flood-color="#AAA" result="color"/>
+    <feComposite in2="offsetblur" operator="in" result="shadow"/>
+    <feMerge>
+      <feMergeNode/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+</defs>
+
+<g filter="url(#softLight)">
+  <!-- Ollie's body, head, wings, tail, and legs -->
+</g>
+
+</svg>

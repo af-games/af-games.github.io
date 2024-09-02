@@ -1,0 +1,25 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="65" y="80" width="70" height="90" fill="#8B4513"/>
+
+  <!-- Head -->
+  <circle cx="110" cy="60" r="30" fill="#FFFDD0"/>
+  <circle cx="110" cy="60" r="25" fill="#8B4513"/>
+
+  <!-- Ears -->
+  <polygon points="95,20 105,20 100,40" fill="#8B4513"/>
+  <polygon points="125,20 135,20 130,40" fill="#8B4513"/>
+
+  <!-- Tail -->
+  <path d="M65,170 Q90,200 125,170" stroke="#8B4513" fill="transparent"/>
+
+  <!-- Pouch -->
+  <polygon points="70,140 90,170 110,140" fill="#FFFDD0"/>
+  <rect x="70" y="140" width="40" height="30" fill="#8B4513"/>
+
+  <!-- Limbs -->
+  <path d="M65,120 Q90,140 125,120" stroke="#8B4513" fill="transparent"/>
+  <path d="M65,170 Q90,190 125,170" stroke="#8B4513" fill="transparent"/>
+
+</svg>

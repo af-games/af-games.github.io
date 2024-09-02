@@ -1,0 +1,30 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo -->
+  <path d="M150 10 A80 80 0 0 1 230 170 A80 80 0 0 1 150 240 Z" fill="#F9D746"/>
+
+  <!-- Snow -->
+  <rect x="100" y="50" width="200" height="50" rx="10" fill="#FFFFFF"/>
+
+  <!-- Salmon -->
+  <path d="M380 120 Q400 90, 420 110 Q460 70, 480 90 Q490 120, 510 100 Q520 140, 530 120" fill="#FF7F50"/>
+
+  <!-- Pineapple -->
+  <path d="M380 260 A50 50 0 0 1 430 260 L430 280 Q410 300, 380 320 Q350 300, 320 280 Z" fill="#FFC300"/>
+
+  <!-- Asparagus -->
+  <polygon points="300,370 320,410 280,410" fill="#69E578"/>
+
+  <!-- Utensils (Fork and Knife) -->
+  <path d="M520 350 L550 320 Q560 310, 570 320 L580 350" stroke="#A9A9A9" fill="transparent"/>
+  <path d="M540 380 L570 350 Q580 340, 590 350 Z" stroke="#A9A9A9" fill="transparent"/>
+
+  <!-- Garnishes (Herbs) -->
+  <circle cx="200" cy="150" r="10" fill="#66BB6A"/>
+  <circle cx="230" cy="150" r="8" fill="#66BB6A"/>
+
+  <!-- Tableware (Plate Rim and Background) -->
+  <rect x="70" y="70" width="500" height="300" rx="40" stroke="#FFCC66" fill="transparent"/>
+  <path d="M120 120 Q90 80, 60 120 Q30 160, 60 200 Q90 240, 120 200 Z" stroke="#FFCC66" fill="transparent"/>
+
+</svg>

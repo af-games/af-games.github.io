@@ -1,0 +1,20 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Bell -->
+  <circle cx="200" cy="200" r="150" fill="pink"/>
+
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <path d="M200,60 A150,75 0 0 0 350,200" stroke="black" fill="transparent"/>
+    <path d="M200,80 A150,75 0 0 1 350,220" stroke="black" fill="transparent"/>
+    <!-- Add more tentacles as needed -->
+  </g>
+
+  <!-- Oral Arms -->
+  <g id="oral-arms">
+    <path d="M200,340 A150,75 0 0 1 350,280" stroke="black" fill="transparent"/>
+    <path d="M200,360 A150,75 0 0 0 350,260" stroke="black" fill="transparent"/>
+    <!-- Add more oral arms as needed -->
+  </g>
+
+</svg>

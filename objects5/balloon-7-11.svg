@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Define some basic balloon shapes -->
+  <circle cx="75" cy="75" r="50" fill="yellow" stroke="black" stroke-width="2"/>
+  <circle cx="150" cy="150" r="40" fill="red" stroke="black" stroke-width="2"/>
+  <circle cx="250" cy="75" r="60" fill="green" stroke="black" stroke-width="2"/>
+
+  <!-- Add some simple animations -->
+  <animateMotion begin="0s" dur="4s" repeatCount="indefinite">
+    <mpath>
+      <path d="M75,75 Q150,10 A30,-30,1,1,0,75,200 Q150,250 75,275"/>
+    </mpath>
+  </animateMotion>
+
+  <!-- Nurture with colors and strokes -->
+  <path d="M325,50 Q400,100 475,50" fill="blue" stroke="black" stroke-width="2">
+    <animate attributeName="stroke" values="black;red;blue;black;" dur="2s" repeatCount="indefinite"/>
+  </path>
+
+</svg>

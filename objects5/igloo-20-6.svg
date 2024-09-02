@@ -1,0 +1,35 @@
+<svg width="1400" height="1800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="1400" height="1800" fill="#B3E0FF"/>
+
+  <!-- Body -->
+  <rect id="body" x="50" y="100" width="700" height="800" fill="#FFFFFF"/>
+  <linearGradient id="body-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#B3E0FF; stop-opacity:1" />
+    <stop offset="100%" style="stop-color:#6D9DB5; stop-opacity:1" />
+  </linearGradient>
+  <rect x="50" y="100" width="700" height="800" fill="url(#body-gradient)"/>
+
+  <!-- Sleeves -->
+  <circle cx="400" cy="250" r="150" fill="#FFFFFF">
+    <linearGradient id="sleeve-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#B3E0FF; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6D9DB5; stop-opacity:1" />
+    </linearGradient>
+    <animate attributeName="r" from="150" to="200" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="900" cy="250" r="150" fill="#FFFFFF"/>
+
+  <!-- Igloo Pattern -->
+  <defs>
+    <pattern id="igloo-pattern" patternUnits="userSpaceOnUse" width="60" height="60">
+      <rect x="0" y="0" width="60" height="60" fill="#FFFFFF"/>
+      <polygon points="30,5 45,20 30,35 5,20" fill="#6D9DB5"/>
+    </pattern>
+  </defs>
+
+  <!-- Igloo instances -->
+  <rect width="1350" height="700" x="5" y="5" fill="url(#igloo-pattern)"/>
+
+</svg>

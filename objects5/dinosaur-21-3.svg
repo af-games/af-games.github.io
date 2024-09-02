@@ -1,0 +1,25 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <path id="head" d="M100,40 C130,20 180,20 200,40 Q260,70 300,70 L350,40 Z"/>
+  <rect id="eye-left" x="220" y="35" width="10" height="10"/>
+  <circle id="eye-right" cx="290" cy="35" r="5"/>
+
+  <!-- Neck -->
+  <path id="neck" d="M300,70 Q280,100 240,160 Z"/>
+
+  <!-- Body -->
+  <path id="body-front" d="M240,160 L220,220 C200,250 160,300 120,300 Q80,270 50,220 Z"/>
+  <path id="body-back" d="M120,300 L140,340 C180,390 240,450 260,420 Q280,370 300,330 Z"/>
+
+  <!-- Tail -->
+  <path id="tail" d="M300,330 Q320,410 350,390 L380,360 Z"/>
+  <rect id="tail-fin" x="375" y="355" width="20" height="10"/>
+
+  <!-- Legs -->
+  <path id="leg-left-front" d="M140,250 Q120,280 120,320 L160,370 Z"/>
+  <path id="leg-right-front" d="M220,250 Q240,280 240,320 L260,370 Z"/>
+  <path id="leg-left-back" d="M160,390 Q180,430 180,470 L200,520 Z"/>
+  <path id="leg-right-back" d="M260,390 Q280,430 280,470 L300,520 Z"/>
+
+</svg>

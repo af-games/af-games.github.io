@@ -1,0 +1,40 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <!-- Dolphin Body -->
+  <rect x="80" y="60" width="340" height="320"
+    style="fill:linear-gradient(to bottom, #aec6cf, #5d91c7); stroke:#fff; stroke-width:3;"/>
+
+  <!-- Dolphin Tail -->
+  <polygon points="420,60 480,260 420,460"
+    style="fill:linear-gradient(to bottom, #aec6cf, #5d91c7); stroke:#fff; stroke-width:3;" />
+
+  <!-- Buildings -->
+  <rect x="100" y="200" width="80" height="160"
+    style="fill:linear-gradient(to bottom, #fdd835, #ffa502); stroke:#fff; stroke-width:3;" />
+  <rect x="240" y="140" width="80" height="200"
+    style="fill:linear-gradient(to bottom, #fdd835, #ffa502); stroke:#fff; stroke-width:3;" />
+  <rect x="360" y="100" width="80" height="240"
+    style="fill:linear-gradient(to bottom, #fdd835, #ffa502); stroke:#fff; stroke-width:3;" />
+
+  <!-- Roads -->
+  <path d="M170,200 H390 Q410,260 410,320"
+    style="fill:none; stroke:#fff; stroke-width:5;"/>
+  <path d="M250,140 V360"
+    style="fill:none; stroke:#fff; stroke-width:5;" />
+  <path d="M330,100 H450"
+    style="fill:none; stroke:#fff; stroke-width:5;" />
+
+  <!-- Glow Effect -->
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+    <feMerge>
+      <feMergeNode in="coloredBlur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <!-- Apply Glow to Buildings -->
+  <use href="#building1" filter="url(#glow)" />
+  <use href="#building2" filter="url(#glow)" />
+  <use href="#building3" filter="url(#glow)" />
+
+</svg>

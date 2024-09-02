@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Filter definitions -->
+  <defs>
+    <filter id="turbulence">
+      <feTurbulence baseFrequency="0.1" numOctaves="2"/>
+      <feDisplacementMap in="SourceGraphic" scale="50" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- Starting point -->
+  <circle cx="100" cy="200" r="50" fill="#ff6347"/>
+
+  <!-- Wall and Gate -->
+  <rect x="50" y="100" width="200" height="300" fill="#8B7D6B"/>
+  <line x1="50" y1="250" x2="250" y2="250" stroke="#fff" stroke-width="10"/>
+
+  <!-- Tower -->
+  <polygon points="300,100 400,100 400,300 350,400 300,300" fill="#8B7D6B"/>
+  <circle cx="350" cy="200" r="50" fill="#ff6347"/>
+
+  <!-- Path to the castle -->
+  <path d="M100,200 Q200,50 300,200 Q400,400 500,200" stroke="#fff" stroke-width="10"/>
+
+  <!-- Applying filters -->
+  <use xlink:href="#turbulence" filter="url(#turbulence)"/>
+  <use xlink:href="#blur" filter="url(#blur)"/>
+
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Bell (body) -->
+  <circle cx="250" cy="175" r="150" fill="#8DC6FF" opacity="0.9"/>
+  <circle cx="250" cy="175" r="130" fill="#4AABF2"/>
+
+  <!-- Tentacles -->
+  <g stroke="#4AABF2" stroke-width="20">
+    <path d="M250,20 a120,60 0 0 1 0,360 a120,60 0 0 1 0,-360"/>
+    <path d="M250,80 a140,70 0 0 0 0,390 a140,70 0 0 0 0,-390"/>
+    <path d="M250,140 a160,80 0 0 1 0,450 a160,80 0 0 1 0,-450"/>
+    <!-- Repeat the above paths with varying radii and angles for more tentacles -->
+  </g>
+
+  <!-- Eyes (pseudo-medusa) -->
+  <circle cx="235" cy="175" r="15" fill="#FFF"/>
+  <circle cx="265" cy="175" r="15" fill="#FFF"/>
+
+  <!-- Oral arms (pseudo-manubrium) -->
+  <g stroke="#4AABF2" stroke-width="10">
+    <path d="M250,350 a10,5 90 0 0 1 -8,-6"/>
+    <path d="M250,350 a10,5 90 0 0 1 8,-6"/>
+    <!-- Repeat the above paths with varying angles for more oral arms -->
+  </g>
+
+</svg>

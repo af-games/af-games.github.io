@@ -1,0 +1,22 @@
+<svg width="100" height="150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M50 10 Q90 30, 80 70 Q60 90, 50 110 Q40 90, 30 70 Q20 30, 50 10" fill="#FFCBA4"/>
+
+  <!-- Head -->
+  <circle cx="50" cy="60" r="30" fill="#FFD8A1"/>
+
+  <!-- Ears -->
+  <polygon points="60 20, 90 20, 75 40" fill="#FFCBA4"/>
+  <polygon points="40 20, 10 20, 35 40" fill="#FFCBA4"/>
+
+  <!-- Arms -->
+  <path d="M65 80 Q75 90, 85 90 L95 100 L85 110 Q75 100, 65 90" stroke="black"/>
+  <path d="M35 80 Q25 90, 20 90 L10 100 L20 110 Q25 100, 35 90" stroke="black"/>
+
+  <!-- Legs -->
+  <rect x="40" y="110" width="20" height="40" fill="#FFCBA4"/>
+  <rect x="60" y="110" width="20" height="40" fill="#FFCBA4"/>
+
+  <!-- Tail -->
+  <polygon points="50 130, 60 140, 40 140" fill="#FFCBA4"/>
+</svg>

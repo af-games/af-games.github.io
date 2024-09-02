@@ -1,0 +1,12 @@
+<svg width="500" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Balloon -->
+  <ellipse cx="150" cy="150" rx="150" ry="75" fill="#FFC1E1" stroke="#000" stroke-width="2"/>
+  <!-- Fabric -->
+  <path d="M150,300 Q90,450 150,600 Q210,450 150,300" fill="#FFC1E1"/>
+  <!-- Seams -->
+  <path d="M150,300 Q90,450 150,600 Q210,450 150,300" stroke="#000" stroke-width="2"/>
+  <!-- Beads (small circles) -->
+  <circle cx="105" cy="475" r="5" fill="#FFF"/>
+  <circle cx="165" cy="475" r="5" fill="#FFF"/>
+  <!-- Repeat beads pattern along the fabric -->
+</svg>

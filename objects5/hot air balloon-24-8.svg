@@ -1,0 +1,31 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#FFF3E0"/>
+
+  <!-- Hot Air Balloon -->
+  <path d="M50,100 Q60,80 120,100 Q140,120 170,100" stroke="#FFD700" fill="#FFDF00"/>
+  <circle cx="190" cy="70" r="30" stroke="#FFD700" fill="#FFA500"/>
+
+  <!-- Baguette Slice -->
+  <rect x="280" y="160" width="40" height="30" rx="15" fill="#FFF5E6"/>
+  <path d="M280,210 Q310,220 340,210 H280 Z" stroke="#FFD700" fill="#FFF5E6"/>
+
+  <!-- Grapes -->
+  <circle cx="390" cy="180" r="15" fill="#4C1" />
+  <circle cx="375" cy="190" r="12" fill="#4C1"/>
+  <circle cx="405" cy="190" r="12" fill="#4C1"/>
+
+  <!-- Knife -->
+  <path d="M460,180 Q470,170 480,180 Q490,190 500,180" stroke="#3D3D3D" fill="transparent"/>
+  <rect x="475" y="170" width="25" height="10" fill="#FFF5E6"/>
+
+  <!-- Fork -->
+  <path d="M490,220 Q500,230 510,220 Q520,210 530,220" stroke="#3D3D3D" fill="transparent"/>
+  <circle cx="505" cy="240" r="5" fill="#3D3D3D"/>
+
+  <!-- Napkin -->
+  <rect x="450" y="260" width="80" height="40" rx="20" fill="#FFF1E6"/>
+  <path d="M450,290 Q460,300 470,290 Q480,280 490,290" stroke="#3D3D3D" fill="transparent"/>
+
+</svg>

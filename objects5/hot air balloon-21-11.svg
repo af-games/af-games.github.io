@@ -1,0 +1,20 @@
+<svg width="100%" height="100%" viewBox="0 0 250 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Basket -->
+  <polygon points="15,80 65,15 190,15 240,70 240,130 190,185 65,185" fill="#C69C6D"/>
+
+  <!-- Rim -->
+  <rect x="10" y="75" width="230" height="1" fill="#773B0A"/>
+  <rect x="10" y="184" width="230" height="1" fill="#773B0A"/>
+
+  <!-- Lattice Pattern -->
+  <polygon points="25,90 65,90 65,130 25,130" fill="#C69C6D"/>
+  <polygon points="45,105 85,105 85,125 45,125" fill="#C69C6D"/>
+
+  <!-- Envelope -->
+  <ellipse cx="125" cy="30" rx="70" ry="20" fill="#FFF1E6"/>
+  <circle cx="125" cy="85" r="12.5" fill="#FFF1E6"/>
+
+  <!-- Mouth -->
+  <circle cx="125" cy="145" r="12.5" fill="#FFF1E6"/>
+
+</svg>

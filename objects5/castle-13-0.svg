@@ -1,0 +1,19 @@
+<svg width="400" height="350" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Keep -->
+  <rect x="50" y="30" width="200" height="210" fill="#8B7D6B" stroke="#5E503F"/>
+  <polygon points="250,30 400,70 250,110" fill="#8B7D6B"/>
+
+  <!-- Towers -->
+  <circle cx="100" cy="80" r="50" fill="#8B7D6B"/>
+  <sector cx="100" cy="30" r="50" startAngle="90" endAngle="270" fill="#8B7D6B"/>
+
+  <!-- Left Tower -->
+  <circle cx="220" cy="80" r="50" fill="#8B7D6B"/>
+  <sector cx="220" cy="30" r="50" startAngle="90" endAngle="270" fill="#8B7D6B"/>
+
+  <!-- Wall & Battlements -->
+  <rect x="50" y="240" width="200" height="100" fill="#8B7D6B"/>
+  <polygon points="60,250 90,230 120,250 150,230 180,250" fill="#FFFFFF"/>
+
+</svg>

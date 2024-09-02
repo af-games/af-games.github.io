@@ -1,0 +1,9 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect x="50" y="100" width="200" height="300" style="fill: saddlebrown;" />
+  <rect x="100" y="200" width="80" height="150" style="fill: darkgreen;" />
+  <rect x="250" y="200" width="80" height="150" style="fill: darkgreen;" />
+  <circle cx="150" cy="75" r="75" style="fill: gray;" />
+  <polygon points="150,50 180,90 120,90" style="fill: saddlebrown;" />
+  <path d="M150,50 Q200,75 150,100 Q100,75 150,50" stroke="black" fill="saddlebrown" />
+  <image xlink:href="dinosaur-scale-texture.png" x="100" y="200" width="300" height="300" />
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='-100 -100 400 400'>
+
+<!-- Body -->
+<path d="M0,-80 A80,70 0 0 0 80,-50 Q90,-60 90,-20 Q80,-30 0,-40 A80,70 0 0 1 -80,-50 Q-90,-60 -90,-20 Q-80,-30 0,-40 Z"
+fill="#7FCFB2" stroke="#3C8F6E"/>
+
+<!-- Fin Structures -->
+<path d="M0,-10 A15,15 0 0 0 30,-15 V-80 H-30 V-15 A15,15 0 0 0 0,-10"
+fill="#7FCFB2" stroke="#3C8F6E"/>
+
+<!-- Dorsal Fin -->
+<path d="M0,-5 A20,20 0 0 1 40,-20 Q30,-10 0,-5 Z"
+fill="#7FCFB2" stroke="#3C8F6E"/>
+
+<!-- Pectoral Fins -->
+<path d="M-90,-60 A90,10 0 0 0 90,-60"
+fill="#7FCFB2" stroke="#3C8F6E"/>
+<path d="M90,-60 A90,10 0 0 1 -90,-60"
+fill="#7FCFB2" stroke="#3C8F6E"/>
+
+<!-- Caudal Fin -->
+<path d="M0,-120 A40,40 0 0 0 80,-120 Q85,-110 90,-100 Q85,-90 0,-120"
+fill="#7FCFB2" stroke="#3C8F6E"/>
+
+<!-- Eye -->
+<circle cx="-40" cy="-50" r="10" fill="#fff"/>
+<circle cx="-40" cy="-50" r="5" fill="#000"/>
+
+</svg>

@@ -1,0 +1,15 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer border -->
+  <rect x="10" y="10" width="780" height="580" stroke="black" fill="none"/>
+
+  <!-- Mermaid's tail -->
+  <path d="M20,600 Q40,640 100,600 Q160,640 220,600 ..." stroke="blue" fill="none"/>
+
+  <!-- Mermaid's body -->
+  <path d="M280,540 Q320,480 380,540 Q420,480 480,540 ..." stroke="blue" fill="none"/>
+
+  <!-- Patterns around the mermaid's body -->
+  <path d="M280,520 Q320,460 380,520 Q420,460 480,520 ..." stroke="green" fill="none"/>
+
+</svg>

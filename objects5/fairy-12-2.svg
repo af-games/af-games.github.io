@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Fairy's Body -->
+  <circle cx="250" cy="400" r="100" fill="#f8d7da" stroke="#fff" stroke-width="3"/>
+
+  <!-- Left Wing -->
+  <path d="M200,350 Q150,200 200,50 Q250,200 200,350" fill="#bde0fe" stroke="#fff" stroke-width="3"/>
+
+  <!-- Right Wing -->
+  <path d="M300,350 Q350,200 300,50 Q250,200 300,350" fill="#bde0fe" stroke="#fff" stroke-width="3"/>
+
+  <!-- Dress -->
+  <rect x="170" y="430" width="200" height="80" fill="#f8d7da" stroke="#fff" stroke-width="3"/>
+
+  <!-- Hair -->
+  <rect x="190" y="360" width="120" height="70" fill="#000" stroke="#fff" stroke-width="3"/>
+</svg>

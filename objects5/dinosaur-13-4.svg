@@ -1,0 +1,35 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <g id="body">
+    <rect x="100" y="60" width="200" height="180" fill="green" rx="5"/>
+  </g>
+
+  <!-- Hips -->
+  <g id="hips" transform="translate(150, 240)">
+    <ellipse cx="50" cy="50" rx="50" ry="30" fill="green" />
+  </g>
+
+  <!-- Tail -->
+  <g id="tail">
+    <path d="M250,270 Q280,300 310,270 H340 V290 L340,250 Z" fill="green"/>
+  </g>
+
+  <!-- Head -->
+  <g id="head">
+    <path d="M360,60 Q400,80 420,100 Q400,140 360,170 L320,170 Z" fill="green"/>
+    <circle cx="450" cy="90" r="20" fill="black"/>
+
+    <!-- Eye -->
+    <g id="eye">
+      <circle cx="440" cy="80" r="10" fill="white"/>
+      <circle cx="440" cy="80" r="5" fill="black"/>
+    </g>
+
+    <!-- Tooth -->
+    <g id="tooth" transform="translate(360, 120) rotate(-45)">
+      <polygon points="0,-10 10,-10 5,-20" fill="white"/>
+    </g>
+  </g>
+
+</svg>

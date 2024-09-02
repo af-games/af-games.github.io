@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(70,130,180);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(150,200,250);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rolling hills -->
+  <path d="M10,40 Q90,70 200,60 Q300,80 400,50 Q500,70 600,60 Q700,70 800,50 V600H0 Z" fill="url(#grad1)" stroke="black" stroke-width="2"/>
+
+  <!-- Winding river -->
+  <path d="M30,420 C90,440 170,390 260,420 C350,450 430,400 520,420 C600,450 680,420 770,390" stroke="blue" fill="transparent" stroke-width="5"/>
+
+  <!-- Towering trees -->
+  <g transform="translate(150,40)">
+    <circle cx="0" cy="0" r="50" fill="brown"/>
+    <polygon points="-20,-80 -10,-60 30,-60 20,-80" fill="green"/>
+  </g>
+  <use xlink:href="#tree" y="100"/>
+  <use xlink:href="#tree" y="250"/>
+
+  <!-- Jellyfish -->
+  <circle cx="400" cy="300" r="70" fill="pink">
+    <animateMotion dur="5s" repeatCount="indefinite">
+      <mpath href="#jellyfish-path"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Jellyfish path -->
+  <path id="jellyfish-path" d="M380,270 Q410,260 420,290 Q450,280 480,270 Z"/>
+
+</svg>

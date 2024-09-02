@@ -1,0 +1,30 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <rect x="60" y="150" width="80" height="150" fill="#F99" stroke="black"/>
+
+  <!-- Head -->
+  <circle cx="75" cy="50" r="40" fill="#FFE6CC" stroke="black"/>
+
+  <!-- Neck -->
+  <polyline points="75,50 75,130 75,180" fill="transparent" stroke="black"/>
+
+  <!-- Legs -->
+  <g transform="translate(60,280)">
+    <rect width="40" height="90" rx="20"/>
+    <rect x="20" y="0" width="40" height="90" rx="20"/>
+    <rect x="40" y="0" width="40" height="90" rx="20"/>
+  </g>
+
+  <!-- Spots -->
+  <g transform="translate(65,160)">
+    <circle cx="30" cy="20" r="5"/>
+    <circle cx="30" cy="80" r="5"/>
+    <circle cx="30" cy="140" r="5"/>
+  </g>
+
+  <!-- Face -->
+  <ellipse cx="75" cy="60" rx="20" ry="30" fill="#FFFFFF"/>
+  <rect x="65" y="80" width="10" height="10" fill="#000000"/>
+  <circle cx="75" cy="90" r="5" fill="#000000"/>
+
+</svg>

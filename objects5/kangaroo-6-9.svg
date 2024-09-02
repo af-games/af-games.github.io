@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Kangaroo Body -->
+  <path id="kangarooBody" d="M100,200 Q150,50 250,200 Q300,350 350,200 Q400,50 450,200 Z">
+    <animateTransform
+      attributeName="d"
+      type="translate"
+      from="100,200"
+      to="100,300"
+      repeatCount="indefinite"
+      dur="1s"
+      begin="0s"/>
+  </path>
+
+  <!-- Kangaroo Tail -->
+  <path id="kangarooTail" d="M450,200 L370,260">
+    <animateTransform
+      attributeName="d"
+      type="translate"
+      from="450,200"
+      to="410,260"
+      repeatCount="indefinite"
+      dur="1s"
+      begin="0s"/>
+  </path>
+
+  <!-- Kangaroo Pouch -->
+  <circle id="kangarooPouch" cx="350" cy="270" r="40">
+    <animateTransform
+      attributeName="cy"
+      type="translate"
+      from="270"
+      to="310"
+      repeatCount="indefinite"
+      dur="1s"
+      begin="0s"/>
+  </path>
+</svg>

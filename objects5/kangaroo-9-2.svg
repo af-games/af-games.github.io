@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 600" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="200" cy="350" rx="150" ry="180" fill="#8B4513"/>
+  <circle cx="160" cy="320" r="80" fill="#8B4513"/>
+  <polygon points="170,280 230,280 200,260" fill="#8B4513"/>
+  <polygon points="190,260 210,260 150,280" fill="#8B4513"/>
+  <rect x="170" y="450" width="90" height="60" rx="20" fill="#8B4513"/>
+  <rect x="170" y="420" width="40" height="60" rx="10" fill="#8B4513"/>
+  <rect x="190" y="420" width="40" height="60" rx="10" fill="#8B4513"/>
+  <rect x="220" y="400" width="40" height="60" rx="10" fill="#8B4513"/>
+  <rect x="240" y="400" width="40" height="60" rx="10" fill="#8B4513"/>
+  <path d="M170 320 Q220 290, 260 320 T220 380 Q150 420, 170 400" stroke="#F0EAD6" fill="transparent"/>
+  <circle cx="190" cy="330" r="15" fill="#000"/>
+  <rect x="0" y="520" width="400" height="80" fill="#696969"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon body -->
+  <ellipse id="balloon" cx="150" cy="100" rx="100" ry="40" fill="black"/>
+
+  <!-- Basket -->
+  <path id="basket" d="M80,200 h30 v-60 h30 v60 Z" fill="black"/>
+
+  <!-- Burner flames -->
+  <rect id="flame1" x="70" y="45" width="5" height="30" fill="black"/>
+  <rect id="flame2" x="110" y="45" width="5" height="30" fill="black"/>
+
+  <!-- Animation -->
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="0,0"
+    to="0,80"
+    begin="click"
+    dur="2s"
+    repeatCount="indefinite"
+    id="riseFall"
+    fill="freeze"
+  />
+
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100" preserveAspectRatio="xMidYMid meet">
+  <!-- Body -->
+  <path id="sharkBody" d="M-40,-30 Q-30,-45 0,-25 Q30,-45 40,-30" fill="#8B8989" stroke="#000" stroke-width="1">
+    <animate attributeName="d" dur="2s" repeatCount="indefinite"
+             values="
+              M-40,-30 Q-30,-45 0,-25 Q30,-45 40,-30;
+              M-40,-25 Q-30,-30 0,-10 Q30,-30 40,-25;
+              M-40,-30 Q-30,-45 0,-25 Q30,-45 40,-30
+            "/>
+  </path>
+
+  <!-- Fin -->
+  <path id="fin" d="M0,-10 Q20,-20 0,-30 Q-20,-20 0,-10" fill="#8B8989" stroke="#000" stroke-width="1">
+    <animate attributeName="d" dur="2s" repeatCount="indefinite"
+             values="
+              M0,-10 Q20,-20 0,-30 Q-20,-20 0,-10;
+              M0,-5 Q20,-15 0,-25 Q-20,-15 0,-5
+            "/>
+  </path>
+
+  <!-- Tail -->
+  <path id="tail" d="M0,-30 Q-20,-45 20,-45" fill="#8B8989" stroke="#000" stroke-width="1">
+    <animate attributeName="d" dur="2s" repeatCount="indefinite"
+             values="
+              M0,-30 Q-20,-45 20,-45;
+              M0,-35 Q-20,-50 20,-50
+            "/>
+  </path>
+
+  <!-- Eye -->
+  <circle cx="-10" cy="-20" r="5" fill="#FFF">
+    <animate attributeName="cy" dur="1s" repeatCount="indefinite"
+             values="-20;-15;-20"/>
+  </circle>
+
+  <!-- Gradient for grilling -->
+  <linearGradient id="sharkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" style="stop-color:#FFA500; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#FF4500; stop-opacity:1"/>
+  </linearGradient>
+
+  <!-- Applying gradient to body -->
+  <path id="sharkBodyGrad" d="M-40,-30 Q-30,-45 0,-25 Q30,-45 40,-30" fill="url(#sharkGrad)" stroke="#000" stroke-width="1"/>
+</svg>

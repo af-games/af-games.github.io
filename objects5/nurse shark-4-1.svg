@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+    <!-- Body -->
+    <path d="M125,175 Q200,100 300,150 Q375,225 250,300 Q125,225 60,150 Z" fill="#A9A9A9"/>
+
+    <!-- Fin -->
+    <path d="M180,150 Q200,125 240,175 Q260,125 300,150" stroke="#3B4863" fill="transparent"/>
+
+    <!-- Tail -->
+    <polygon points="350,175 400,225 350,275" fill="#A9A9A9"/>
+
+    <!-- Eye -->
+    <circle cx="220" cy="120" r="15" fill="#FFFFFF"/>
+    <circle cx="220" cy="120" r="10" fill="#000000"/>
+
+</svg>

@@ -1,0 +1,66 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+```
+
+**Step 2: Introduce a square for the balloon's body**
+
+We'll use a rectangle to form the main body of the balloon.
+
+```svg
+<rect x="180" y="60" width="140" height="250" fill="#ffffff"/>
+```
+
+**Step 3: Add a circle for the balloon's base**
+
+Let's add a large circle at the bottom to give it a rounded shape.
+
+```svg
+<circle cx="260" cy="310" r="70" fill="#ffffff"/>
+```
+
+**Step 4: Create the balloon's string**
+
+We'll use a line element with some markers for this.
+
+```svg
+<line x1="260" y1="380" x2="260" y2="450">
+    <marker id="circle" viewBox="-5 -5 10 10" refX="0" refY="0" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10">
+        <circle cx="0" cy="0" r="3"/>
+    </marker>
+    <marker id="circle-end" viewBox="-5 -5 10 10" refX="5" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10">
+        <circle cx="0" cy="0" r="3"/>
+    </marker>
+    stroke="#black"
+    stroke-width="2"
+    marker-start="url(#circle)"
+    marker-end="url(#circle-end)"/>
+```
+
+**Step 5: Add a dash of red for the balloon's color**
+
+Let's add a large ellipse to cover the body and base, giving it a nice red color.
+
+```svg
+<ellipse cx="260" cy="275" rx="70" ry="140" fill="#ff0000"/>
+```
+
+**Step 6: Create the balloon's tie**
+
+We'll use a path element to create this.
+
+```svg
+<path d="M230,290 Q250,270 270,290" stroke="#black" fill="transparent" />
+```
+
+**Step 7: Final touches - add lines for the balloon's wrinkles**
+
+Let's add some random lines to give it a more realistic look.
+
+```svg
+<path d="M190,130 Q210,80 240,120 Q260,50 290,110" stroke="#black" fill="transparent"/>
+<path d="M270,130 Q290,80 240,120 Q210,50 190,110" stroke="#black" fill="transparent"/>
+```
+
+**Step 8: Close the SVG**
+
+```svg
+</svg>

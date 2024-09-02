@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -30 100 60">
+  <!-- Head -->
+  <circle cx="0" cy="0" r="10" fill="gray"/>
+
+  <!-- Body -->
+  <path d="M-10,0 a10,10 0 0 0,20 0 a10,10 0 0 0,-20 0" stroke="none" fill="gray"/>
+  <path d="M-5,0 h10" stroke="none" fill="gray"/>
+
+  <!-- Fins -->
+  <rect x="20" y="10" width="30" height="5" fill="#4B0082"/> <!-- Dorsal fin -->
+  <rect x="-20" y="-15" width="10" height="3" fill="#4B0082"/> <!-- Left pectoral fin -->
+  <rect x="20" y="-15" width="10" height="3" fill="#4B0082"/> <!-- Right pectoral fin -->
+  <rect x="35" y="0" width="15" height="5" fill="#4B0082"/> <!-- Tail -->
+
+  <!-- Decorative patterns (Lace-like paths) -->
+  <path d="M-10,-10 Q-5,-5 0,0 Q5,-5 10,-10" stroke="white" fill="none"/>
+  <path d="M-5,-5 Q0,0 5,-5" stroke="lightblue" fill="none"/>
+</svg>

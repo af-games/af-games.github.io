@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#FFF5E6"/>
+
+<!-- Hot Air Balloon -->
+<circle cx="400" cy="200" r="150" stroke="#FFD700" stroke-width="3">
+  <animateMotion begin="0s" dur="18s" repeatCount="indefinite">
+    <mpath href="#balloonPath"/>
+  </animateMotion>
+</circle>
+
+<!-- Balloon Basket -->
+<rect x="350" y="270" width="100" height="60" fill="#DAA520"/>
+
+<!-- Beats & Transitions -->
+<path id="beatPattern" d="M20,480 Q20,500 60,500 Q100,500 100,480" fill="none"/>
+<path id="balloonPath" d="M390,270 Q410,250 430,270 Q410,290 390,270"/>
+
+<!-- Notes -->
+<circle cx="60" cy="500" r="10" fill="#FFD700">
+  <animate attributeName="r" begin="0s" dur="2s" values="10;20;10"/>
+</circle>
+<!-- Add more circles for additional notes, spaced evenly along the beatPattern -->
+
+<!-- Score -->
+<text x="60%" y="95%" text-anchor="middle" font-size="32px">C F G A | C D E F</text>
+
+</svg>

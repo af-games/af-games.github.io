@@ -1,0 +1,28 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Fairy body -->
+  <path id="fairyBody" d="M150,10 A80,80 0 1,0 350,10 A80,80 0 1,0 150,210 Z"
+        fill="lightgoldenrodyellow" stroke="black" stroke-width="2"/>
+
+  <!-- Fairy head -->
+  <circle cx="150" cy="60" r="40" fill="lightpink">
+    <animate attributeName="r" dur="3s" repeatCount="indefinite"
+             values="40;50;40"/>
+  </circle>
+
+  <!-- Fairy hair -->
+  <path id="fairyHair" d="M170,20 Q190,40 210,60 Q190,80 170,100"
+        fill="transparent" stroke="black"/>
+
+  <!-- Fairy arms and legs -->
+  <path id="fairyLimbs" d="M150,130 Q180,180 210,130 Q180,80 150,130"
+        fill="transparent" stroke="black"/>
+
+  <!-- Mushroom cap -->
+  <ellipse cx="200" cy="350" rx="90" ry="70" fill="sandybrown"/>
+  <circle cx="200" cy="310" r="40" fill="white"/>
+
+  <!-- Fairy dress -->
+  <path id="fairyDress" d="M150,210 Q200,280 150,350"
+        fill="lightgoldenrodyellow"/>
+</svg>

@@ -1,0 +1,61 @@
+<svg>` canvas.
+
+*Gathered resources:*
+- Shapes: `<rect>`, `<circle>`, `<polygon>`
+- Colors: `#8B4513` (brown for fur), `#FFFFFF` (white for underside and highlights), `#006D77` (blue-green for pouch)
+
+**Day 2:**
+Discovered the outline of our kangaroo. Marked it using `<path>` with a dark brown color.
+
+```svg
+<path d="M15,30 Q20,35 40,35 Q50,30 60,30" fill="none" stroke="#69482B"/>
+```
+
+**Day 3:**
+Added the body using `<rect>` and the head using an ellipsis with `<circle>`.
+
+```svg
+<rect x="15" y="30" width="70" height="20" fill="#8B4513"/>
+<circle cx="65" cy="25" r="15" fill="#8B4513"/>
+```
+
+**Day 4:**
+Created the pouch using `<polygon>` and added details with more `<path>` elements.
+
+```svg
+<polygon points="70,40 90,40 80,60" fill="#006D77"/>
+
+<path d="M15,50 Q20,55 30,55 Q40,50 50,50" fill="none" stroke="#FFFFFF"/>
+```
+
+**Day 5:**
+Added legs and tail with more `<path>` elements.
+
+```svg
+<path d="M15,60 Q20,70 30,70 Q40,60 50,60" fill="none" stroke="#8B4513"/>
+<path d="M65,35 Q70,40 80,35" fill="none" stroke="#8B4513"/>
+```
+
+**Day 6:**
+Added final touches with highlights using `<circle>` and `<ellipse>`.
+
+```svg
+<circle cx="25" cy="45" r="2" fill="#FFFFFF"/>
+<ellipse cx="70" cy="30" rx="3" ry="1.5" fill="#FFFFFF"/>
+```
+
+**Back Home:**
+Here's the complete SVG representation of our kangaroo adventure:
+
+```svg
+<svg viewBox="0 0 100 80">
+  <path d="M15,30 Q20,35 40,35 Q50,30 60,30" fill="none" stroke="#69482B"/>
+  <rect x="15" y="30" width="70" height="20" fill="#8B4513"/>
+  <circle cx="65" cy="25" r="15" fill="#8B4513"/>
+  <polygon points="70,40 90,40 80,60" fill="#006D77"/>
+  <path d="M15,50 Q20,55 30,55 Q40,50 50,50" fill="none" stroke="#FFFFFF"/>
+  <path d="M15,60 Q20,70 30,70 Q40,60 50,60" fill="none" stroke="#8B4513"/>
+  <path d="M65,35 Q70,40 80,35" fill="none" stroke="#8B4513"/>
+  <circle cx="25" cy="45" r="2" fill="#FFFFFF"/>
+  <ellipse cx="70" cy="30" rx="3" ry="1.5" fill="#FFFFFF"/>
+</svg>

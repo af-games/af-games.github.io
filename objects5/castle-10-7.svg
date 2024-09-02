@@ -1,0 +1,58 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Wall -->
+  <rect id="castle-wall" x="150" y="50" width="500" height="400"
+    style="fill: url(#castle-gradient); stroke: black; stroke-width: 5;" />
+
+  <!-- Castle Tower -->
+  <polygon id="castle-tower" points="270,30 330,30 330,180 270,180"
+    style="fill: url(#tower-gradient); stroke: black; stroke-width: 5;" />
+
+  <!-- Keep (Central Courtyard) -->
+  <rect id="keep" x="200" y="200" width="400" height="200"
+    style="fill: rgba(255, 255, 255, 0.8); stroke: none;" />
+
+  <!-- Gate -->
+  <path id="gate" d="M270,400 Q310,360 350,400"
+    style="fill: transparent; stroke: black; stroke-width: 5;" />
+
+  <!-- Window Props -->
+  <use xlink:href="#window" x="180" y="120" />
+  <use xlink:href="#window" x="350" y="120" />
+  <use xlink:href="#window" x="420" y="160" />
+
+  <!-- Door Props -->
+  <use xlink:href="#door" x="290" y="380" />
+
+  <!-- Banner Props -->
+  <use xlink:href="#banner" x="250" y="180" />
+  <use xlink:href="#banner" x="420" y="180" />
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="castle-gradient" gradientTransform="rotate(90)">
+      <stop offset="0%"   stop-color="#633c1e"/>
+      <stop offset="50%"  stop-color="#422d17"/>
+      <stop offset="100%" stop-color="#2b1a0f"/>
+    </linearGradient>
+
+    <linearGradient id="tower-gradient" gradientTransform="rotate(90)">
+      <stop offset="0%"   stop-color="#8b572a"/>
+      <stop offset="50%"  stop-color="#633c1e"/>
+      <stop offset="100%" stop-color="#422d17"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Window Prop Template -->
+  <path id="window" d="M10,10 h80 v50 h-80 z"
+    style="fill: transparent; stroke: black; stroke-width: 3;" />
+
+  <!-- Door Prop Template -->
+  <rect id="door" x="10" y="10" width="60" height="80"
+    style="fill: transparent; stroke: black; stroke-width: 5;" />
+
+  <!-- Banner Prop Template -->
+  <path id="banner" d="M10,10 h70 v30 q20,-15 40,0 t20,15 q-20,15 -40,0 z"
+    style="fill: transparent; stroke: black; stroke-width: 5;" />
+
+</svg>

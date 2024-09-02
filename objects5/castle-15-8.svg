@@ -1,0 +1,24 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle Tower -->
+  <polygon points="150,10 350,10 350,200 150,200" fill="#8B4513"/>
+
+  <!-- Roof Line -->
+  <line x1="150" y1="200" x2="350" y2="200" stroke="#C76110"/>
+
+  <!-- Wall Lines -->
+  <line x1="100" y1="10" x2="100" y2="200" stroke="#8B4513"/>
+  <line x1="400" y1="10" x2="400" y2="200" stroke="#8B4513"/>
+
+  <!-- Flagpole Line -->
+  <line x1="250" y1="10" x2="250" y2="70" stroke="#C76110"/>
+
+  <!-- Flag -->
+  <polygon points="230,70 270,70 250,40" fill="#FFFFFF"/>
+  <rect width="40" height="30" x="245" y="35" fill="#C76110"/>
+
+  <!-- Diagonal Lines (Windows and Doors) -->
+  <line x1="180" y1="150" x2="220" y2="190" stroke="#FFD700"/>
+  <line x1="220" y1="150" x2="260" y2="190" stroke="#FFD700"/>
+
+</svg>

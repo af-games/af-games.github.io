@@ -1,0 +1,17 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M100 50 Q80 70, 60 90 Q40 110, 60 130 Q80 150, 100 170 Q120 150, 140 130 Q160 110, 140 90 Q160 70, 140 50 Z"
+        fill="black" />
+
+  <!-- Left Wing -->
+  <path d="M80 20 Q50 40, 30 70 Q10 100, 30 130 Q50 160, 80 190 Q110 160, 130 130 Q150 100, 140 70 Q120 40, 100 20 Z"
+        fill="red" />
+
+  <!-- Right Wing (Mirrored Left Wing) -->
+  <path d="M120 20 Q150 40, 160 70 Q190 100, 160 130 Q150 160, 120 190 Q110 160, 80 130 Q60 100, 80 70 Q100 40, 120 20 Z"
+        fill="red" />
+
+  <!-- Antennae (Two polygons for symmetry) -->
+  <polygon points="50 30, 30 40, 50 50" fill="black" />
+  <polygon points="150 30, 170 40, 150 50" fill="black" />
+</svg>

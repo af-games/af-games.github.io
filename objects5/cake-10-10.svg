@@ -1,0 +1,13 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mixing the colors: cream (#FFFDD0) and brown (#9B765C) for the cake layers -->
+  <rect x="80" y="40" width="40" height="100" fill="#FFFDD0"/>
+  <rect x="80" y="40" width="40" height="50" fill="#9B765C"/>
+
+  <!-- Shaping the elements: circles for the candles and a path for the frosting -->
+  <circle cx="120" cy="60" r="5" fill="#FFD700"/>
+  <circle cx="140" cy="60" r="5" fill="#FFD700"/>
+
+  <!-- Baking at precise temperatures: coordinates -->
+  <path d="M80,20 Q130,50 190,20 T390,100 Q340,170 260,170 Q170,170 100,120 Z" fill="#FFFDD0"/>
+
+</svg>

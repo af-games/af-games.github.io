@@ -1,0 +1,19 @@
+<svg width="0" height="0">
+  <!-- Fairy's Body -->
+  <path d="" fill="none" stroke="#A9D6E5" stroke-width="3"/>
+
+  <!-- Fairy's Hair -->
+  <path d="" fill="none" stroke="#70433C" stroke-width="5"/>
+
+  <!-- Fairy's Dress Accent -->
+  <path d="" fill="none" stroke="#FFB3E6" stroke-width="1"/>
+
+  <!-- Fairy's Skin Tone Highlights -->
+  <path d="" fill="none" stroke="#FFFFFF" stroke-width="1"/>
+
+  <!-- Fairy's Eyes -->
+  <circle cx="" cy="" r="" fill="black"/>
+
+  <!-- Fairy's Wings -->
+  <path d="" fill="none" stroke="#A9D6E5" stroke-width="1"/>
+</svg>

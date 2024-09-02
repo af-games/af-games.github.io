@@ -1,0 +1,34 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <circle cx="180" cy="200" r="90" fill="#3d7f6b">
+    <animateMotion repeatCount="indefinite" dur="4s" begin="0s">
+      <mpath href="#bodyPath"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Tail Fin -->
+  <path d="M270,210 Q300,150 330,210" stroke="#3d7f6b" fill="transparent">
+    <animate repeatCount="indefinite" dur="4s" begin="0s"
+             attributeName="stroke" values="#3d7f6b;#69a584;#3d7f6b" />
+  </path>
+
+  <!-- Dorsal Fins -->
+  <circle cx="120" cy="140" r="10" fill="#3d7f6b"/>
+  <circle cx="140" cy="150" r="12" fill="#3d7f6b"/>
+
+  <!-- Pectoral Fins -->
+  <path d="M80,190 Q120,220 80,250" stroke="#3d7f6b" fill="transparent"/>
+  <path d="M220,190 Q180,220 220,250" stroke="#3d7f6b" fill="transparent"/>
+
+  <!-- Eye -->
+  <rect x="140" y="150" width="20" height="30" rx="5" fill="#fff"/>
+  <circle cx="155" cy="170" r="5" fill="#000"/>
+
+  <!-- Mouth -->
+  <path d="M160,190 Q180,210 200,190" stroke="#3d7f6b" fill="transparent"/>
+
+  <!-- Body motion path for animation -->
+  <path id="bodyPath" d="M150,190 Q200,150 250,190 T400,240 Z"/>
+
+</svg>

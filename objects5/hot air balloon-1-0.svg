@@ -1,0 +1,25 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Basket -->
+<rect x="50" y="200" width="80" height="40" style="fill:brown;"/>
+
+<!-- Balloon Envelope -->
+<ellipse cx="160" cy="100" rx="120" ry="60" style="fill:lightblue;"/>
+<circle cx="160" cy="50" r="40" style="fill:lightblue;"/>
+
+<!-- Wicker -->
+<rect x="90" y="230" width="8" height="20" style="fill:tan;"/>
+<rect x="230" y="230" width="8" height="20" style="fill:tan;"/>
+<rect x="150" y="240" width="80" height="6" style="fill:tan;"/>
+
+<!-- Burner -->
+<rect x="130" y="240" width="60" height="20" style="fill:red;"/>
+
+<!-- Flames -->
+<polygon points="130,270 150,290 110,290" style="fill:orange;"/>
+
+<!-- Lines and Strings (Paths) -->
+<path d="M160,50 V200 M160,200 H50 V230 H160 Z" stroke="black"/>
+<path d="M160,50 L160,270" stroke="black"/>
+
+</svg>

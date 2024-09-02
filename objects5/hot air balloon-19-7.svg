@@ -1,0 +1,27 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Hot Air Balloon Region -->
+  <g id="balloonRegion">
+    <rect x="150" y="100" width="500" height="400" fill="#FFF6E6"/>
+    <circle cx="300" cy="250" r="75" fill="#FFDAB9"/>
+  </g>
+
+  <!-- Mountains -->
+  <polygon id="mountains" points="10,10 50,80 400,400 600,350" fill="#B2C9DB"/>
+
+  <!-- Rivers -->
+  <path d="M700,150 Q750,300 650,400" stroke="#6F8FAF" fill="transparent"/>
+  <text x="710" y="430" font-family="Verdana" font-size="20">Crystal River</text>
+
+  <!-- Forests -->
+  <rect id="forest" x="50" y="400" width="400" height="200" fill="#619F5E"/>
+
+  <!-- Cities -->
+  <circle cx="750" cy="250" r="50" fill="#FFD38C"/>
+  <text x="740" y="230" font-family="Verdana" font-size="20">Aerium</text>
+
+  <!-- Labels -->
+  <text x="10" y="30" font-family="Verdana" font-size="20">Ascensionia</text>
+  <text x="650" y="470" font-family="Verdana" font-size="20">Hot Air Balloon Region</text>
+
+</svg>

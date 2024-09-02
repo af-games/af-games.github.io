@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Head -->
+  <circle cx="200" cy="150" r="80" fill="#CD7F32"/>
+  <path d="M190,140 Q200,120 210,140" stroke="black" fill="transparent"/>
+
+  <!-- Body -->
+  <rect x="160" y="150" width="80" height="150" rx="30" fill="#CD7F32"/>
+  <path d="M160,300 Q190,400 220,300" stroke="black" fill="transparent"/>
+
+  <!-- Legs -->
+  <circle cx="180" cy="300" r="20" fill="#CD7F32"/>
+  <circle cx="220" cy="300" r="20" fill="#CD7F32"/>
+
+  <!-- Tail -->
+  <path d="M240,300 Q260,280 280,300" stroke="black" fill="transparent"/>
+
+  <!-- Mane -->
+  <path d="M190,120 C210,100 220,70 240,50 Q260,30 280,50 Z" stroke="black" fill="transparent"/>
+  <path d="M240,120 C260,90 280,70 290,50 Z" stroke="black" fill="transparent"/>
+
+  <!-- Face Details -->
+  <circle cx="200" cy="135" r="10" fill="white"/>
+  <rect x="190" y="145" width="20" height="10" fill="white"/>
+
+</svg>

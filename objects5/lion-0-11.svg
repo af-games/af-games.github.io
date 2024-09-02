@@ -1,0 +1,9 @@
+<svg width="320" height="220" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="300" height="200" style="fill:lightgray;stroke:black"/>
+  <!-- Peacock's feathers -->
+  <path d="M 200 50 Q 250 30 280 70" style="stroke:blue;fill:transparent"/>
+  <!-- Elephant's footprints -->
+  <path d="M 150 150 Q 160 140 170 130" style="stroke:gray;fill:transparent"/>
+  <!-- Giraffe's neck -->
+  <path d="M 220 80 L 250 60 L 280 80" style="stroke:brown;fill:transparent"/>
+</svg>

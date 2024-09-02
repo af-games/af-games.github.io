@@ -1,0 +1,40 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<g transform="translate(150, 160) rotate(-45)">
+    <polygon points="0,-70 80,-30 0,70 -80,-30" fill="url(#bodyGradient)" />
+</g>
+
+<!-- Head -->
+<g transform="translate(120, 100) rotate(-45)">
+    <ellipse cx="50" cy="50" rx="50" ry="60" fill="black" />
+</g>
+
+<!-- Beak -->
+<path d="M85,-35 Q95,-10 105,-35" stroke="orange" fill="transparent" />
+
+<!-- Eyes -->
+<circle cx="70,-20" cy="-45" r="5" fill="white"/>
+<circle cx="90,-20" cy="-45" r="5" fill="white"/>
+
+<!-- Legs -->
+<g transform="translate(130, 60) rotate(-45)">
+    <polygon points="0,0 20,50 0,100" stroke="black" fill="url(#legGradient)" />
+</g>
+<g transform="translate(80, 60) rotate(45)">
+    <polygon points="0,0 20,50 0,100" stroke="black" fill="url(#legGradient)" />
+</g>
+
+<!-- Gradient definitions -->
+<defs>
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%"   style="stop-color:rgb(0,0,255);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(67,149,238);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="legGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%"   style="stop-color:rgb(165,42,42);stop-opacity:1" />
+        <stop offset="100%" style="stop-color:rgb(93,26,26);stop-opacity:1" />
+    </linearGradient>
+</defs>
+
+</svg>

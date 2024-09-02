@@ -1,0 +1,13 @@
+<svg height="210" width="500"
+xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<ellipse cx="250" cy="100" rx="40" ry="60" fill="purple"/>
+
+<!-- Left Wing -->
+<polygon points="180,70 200,15 250,90 230,70"
+fill="blue"/>
+<!-- Right Wing -->
+<path d="M280,70 Q300,15 330,70 T360,100" fill="blue"/>
+
+</svg>

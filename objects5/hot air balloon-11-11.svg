@@ -1,0 +1,25 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Basket -->
+  <polygon points="-50,-50 50,-50 100,50 75,150 -25,150 -50,50"
+            fill="#C09D62" stroke="black"/>
+
+  <!-- Envelope -->
+  <ellipse cx="0" cy="100" rx="150" ry="80"
+           fill="#F5DEB3" stroke="black"/>
+
+  <!-- Ribs -->
+  <path d="M-140,70 Q-90,120 0,160 Q90,120 140,70"
+        stroke="black" fill="transparent"/>
+
+  <!-- Burner Mechanism -->
+  <circle cx="0" cy="-50" r="30"
+          fill="#4A3827" stroke="black"/>
+  <line x1="0" y1="-50" x2="0" y2="-90"
+        stroke="black"/>
+
+  <!-- Gondola -->
+  <rect x="-30" y="200" width="60" height="30"
+        fill="#4A3827" stroke="black"/>
+
+</svg>

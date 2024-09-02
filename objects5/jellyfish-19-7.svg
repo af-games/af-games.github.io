@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid meet">
+
+<!-- Background -->
+<rect width="100%" height="100%" fill="#004a7c"/>
+
+<!-- Jellyfish Lagoon -->
+<circle cx="250" cy="350" r="200" fill="#8dc6ff"/>
+<path d="M250,350 a100 100 0 0 1 100,-100" stroke="#63a4ce" stroke-width="5"/>
+
+<!-- Crystal Peaks -->
+<g transform="translate(100,50)">
+  <polygon points="250,100 375,200 125,200" fill="#ffffff"/>
+  <path d="M250,100 L375,200 H125 Z" stroke="#cccccc" stroke-width="5"/>
+</g>
+
+<!-- Luminescent Forests -->
+<rect x="400" y="250" width="300" height="300" fill="url(#forestGradient)"/>
+
+<defs>
+  <linearGradient id="forestGradient" gradientTransform="rotate(45)">
+    <stop offset="0%"   stop-color="#187a3b"/>
+    <stop offset="100%" stop-color="#239d68"/>
+  </linearGradient>
+</defs>
+
+<!-- Whispering Rivers -->
+<path d="M350,250 Q450,300 550,250" stroke="#3b78c3" stroke-width="10" fill="none"/>
+
+<!-- City of Nautilus -->
+<circle cx="600" cy="400" r="100" fill="#ffd700"/>
+<path d="M600,300 A100 100 0 0 1 700,400 Z" stroke="#ffb900" stroke-width="5"/>
+
+<!-- Labels -->
+<text x="275" y="400" text-anchor="middle" fill="white" font-size="36">Jellyfish Lagoon</text>
+<text x="275" y="150" text-anchor="middle" fill="black" font-size="36">Crystal Peaks</text>
+<text x="450" y="550" text-anchor="middle" fill="white" font-size="36">Luminescent Forests</text>
+<text x="500" y="275" text-anchor="start" fill="#3b78c3" font-size="48">Whispering Rivers</text>
+<text x="650" y="450" text-anchor="middle" fill="black" font-size="36">City of Nautilus</text>
+
+<!-- Jellyfish -->
+<g transform="translate(250, 350)">
+  <circle cx="0" cy="-75" r="50" fill="#ff00ff"/>
+  <path d="M-10,-75 A60 60 0 0 1 10,-75" stroke="#ff00ff" stroke-width="2" fill="none"/>
+</g>
+
+<!-- Nautili -->
+<g transform="translate(600, 400)">
+  <path d="M-30,-30 A30 30 0 1 1 30,-30 Z M0,-75 A25 25 0 1 0 0,75" fill="#ffb900"/>
+</g>
+
+</svg>

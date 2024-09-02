@@ -1,0 +1,30 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" style="background-color: #FFF5F5;">
+
+  <!-- Giraffe -->
+  <g id="giraffe">
+    <path d="M100 100 Q150 50, 200 100 Q250 150, 300 100" stroke="#6495ED" fill="none" stroke-width="10"/>
+    <path d="M200 75 Q225 100, 200 125 Q175 100, 200 75" stroke="#6495ED" fill="none" stroke-width="8"/>
+    <circle cx="200" cy="200" r="50" stroke="#6495ED" fill="#FFF5F5" stroke-width="10"/>
+    <path d="M200 275 Q180 300, 200 325 Q220 300, 200 275" stroke="#6495ED" fill="none" stroke-width="8"/>
+    <path d="M200 225 Q175 250, 200 275 Q225 250, 200 225" stroke="#6495ED" fill="none" stroke-width="8"/>
+    <path d="M175 300 Q150 325, 125 300 Q100 325, 175 300" stroke="#6495ED" fill="none" stroke-width="8"/>
+    <path d="M225 300 Q250 325, 275 300 Q300 325, 225 300" stroke="#6495ED" fill="none" stroke-width="8"/>
+  </g>
+
+  <!-- Plate -->
+  <circle cx="400" cy="250" r="150" stroke="#FFD700" fill="#FFF5F5" stroke-width="15"/>
+
+  <!-- Utensils (fork and knife) -->
+  <path d="M500 300 L520 280 L540 300 Z" fill="#C0C0C0"/>
+  <path d="M500 270 Q510 260, 520 270 Q510 280, 500 270" stroke="#C0C0C0" fill="none" stroke-width="5"/>
+
+  <!-- Garnishes (leaves) -->
+  <path d="M430 220 Q440 210, 450 220 Q440 230, 430 220" fill="#006400"/>
+  <path d="M470 220 Q480 210, 490 220 Q480 230, 470 220" fill="#006400"/>
+
+  <!-- Fruits and vegetables (accompaniments) -->
+  <circle cx="350" cy="225" r="25" stroke="#FF0000" fill="#FF0000"/>
+  <circle cx="375" cy="250" r="15" stroke="#FFFF00" fill="#FFFF00"/>
+  <rect x="400" y="200" width="50" height="50" fill="#00FF00"/>
+
+</svg>

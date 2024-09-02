@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+
+<!-- Background -->
+<rect width="600" height="400" fill="#F5DEB3"/>
+
+<!-- Castle Walls -->
+<polygon points="50,50 400,50 400,300 100,300 100,70" fill="#804000"/>
+
+<!-- Left Tower -->
+<circle cx="75" cy="200" r="60" fill="#804000"/>
+
+<!-- Right Tower -->
+<circle cx="425" cy="200" r="60" fill="#804000"/>
+
+<!-- Left Roof -->
+<path d="M100,70 L350,20 L100,140" fill="#FF6F00"/>
+
+<!-- Right Roof -->
+<path d="M300,70 L450,20 L300,140" fill="#FF6F00"/>
+
+<!-- Left Door -->
+<rect x="70" y="300" width="80" height="140" fill="#FFFFFF"/>
+
+<!-- Right Door -->
+<rect x="320" y="300" width="80" height="140" fill="#FFFFFF"/>
+
+<!-- Windows (Left side) -->
+<rect x="150" y="250" width="60" height="70" fill="#FFFFFF"/>
+<rect x="210" y="250" width="60" height="70" fill="#FFFFFF"/>
+<rect x="150" y="320" width="60" height="70" fill="#FFFFFF"/>
+<rect x="210" y="320" width="60" height="70" fill="#FFFFFF"/>
+
+<!-- Windows (Right side) -->
+<rect x="350" y="250" width="60" height="70" fill="#FFFFFF"/>
+<rect x="410" y="250" width="60" height="70" fill="#FFFFFF"/>
+<rect x="350" y="320" width="60" height="70" fill="#FFFFFF"/>
+<rect x="410" y="320" width="60" height="70" fill="#FFFFFF"/>
+
+<!-- Castle Outline -->
+<rect x="50" y="50" width="500" height="350" stroke="#212F3C" stroke-width="5"/>
+
+</svg>

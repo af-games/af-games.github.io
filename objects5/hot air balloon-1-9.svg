@@ -1,0 +1,19 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="600" height="400" fill="#ADD8E6"/>
+
+  <!-- House -->
+  <polygon points="100,50 200,50 200,300 100,300" fill="#8B4513"/>
+  <rect x="125" y="75" width="50" height="50" fill="#FFA500"/>
+  <circle cx="150" cy="100" r="20" fill="white"/>
+
+  <!-- Balloon Maker -->
+  <ellipse cx="300" cy="200" rx="75" ry="100" fill="#FFFACD"/>
+  <text x="330" y="240">Balloon Maker</text>
+
+  <!-- Balloons in progress -->
+  <circle cx="400" cy="150" r="25" fill="#FFFF00"/>
+  <circle cx="450" cy="175" r="30" fill="#FFA500"/>
+  <circle cx="500" cy="200" r="35" fill="#FF0000"/>
+
+</svg>

@@ -1,0 +1,32 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="10" y="10" width="780" height="580" fill="#FFFBE9"/>
+
+<!-- Plate -->
+<ellipse cx="400" cy="300" rx="350" ry="300" fill="#FFFFFF"/>
+<path d="M260 210 Q100 270, 50 300 H780 Q550 270, 460 210 Z" stroke="#9B6545" stroke-width="15"/>
+
+<!-- Giraffe -->
+<g transform="translate(300,250) scale(0.7)">
+  <path d="M160 80 L100 180 A100 100 0 0 0 400 180 L340 80 Z" fill="#FAF9E6"/>
+  <polygon points="250,180 300,220 250,270" fill="#D4A770"/>
+  <path d="M260 270 Q300 320, 300 360 H260 Z" stroke="#9B6545" stroke-width="10"/>
+</g>
+
+<!-- Ingredients & Garnishes -->
+<circle cx="150" cy="180" r="40" fill="#FFC107"/>
+<path d="M130 220 Q160 260, 210 300 H190 Z" stroke="#9B6545" stroke-width="10"/>
+
+<circle cx="650" cy="180" r="40" fill="#FF7F50"/>
+<path d="M630 220 Q580 260, 550 300 H590 Z" stroke="#9B6545" stroke-width="10"/>
+
+<!-- Utensils -->
+<rect x="150" y="480" width="200" height="40" fill="#9B6545"/>
+<path d="M350 500 Q450 450, 500 500 L350 550 Z" stroke="#FFFFFF" stroke-width="15"/>
+
+<!-- Forks -->
+<path d="M600 520 L630 570 H680 Z"/>
+<path d="M640 570 L670 520 Z" fill="#9B6545"/>
+
+</svg>

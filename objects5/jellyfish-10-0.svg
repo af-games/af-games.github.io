@@ -1,0 +1,24 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bell -->
+  <circle cx="150" cy="150" r="75" fill="#ADD8E6"/>
+
+  <!-- Tentacles -->
+  <g stroke="#000000AA" stroke-width="10">
+    <line x1="150" y1="15" x2="150" y2="-75"/>
+    <line x1="135" y1="15" x2="165" y2="-75"/>
+    <!-- Repeat for all eight tentacles -->
+  </g>
+
+  <!-- Pulsating lines -->
+  <g id="pulsate">
+    <path d="M140,80 C145,90 155,90 160,80" fill="none" stroke="#007FFF"/>
+    <!-- Repeat for all ten paths with different start angles -->
+    <animateTransform
+      attributeName="d"
+      type="rotate"
+      from="0 150 150"
+      to="360 150 150"
+      repeatCount="indefinite"
+      dur="2s"/>
+  </g>
+</svg>

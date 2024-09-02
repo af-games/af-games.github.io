@@ -1,0 +1,35 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+```
+
+2. **Mix your ingredients together:**
+```xml
+  <!-- Eyes -->
+  <circle cx="150" cy="70" r="15"/>
+  <circle cx="180" cy="70" r="15"/>
+
+  <!-- Head -->
+  <circle cx="165" cy="90" r="40"/>
+
+  <!-- Legs -->
+  <rect x="130" y="120" width="20" height="60"/>
+  <rect x="170" y="120" width="20" height="60"/>
+  <rect x="195" y="80" width="20" height="40"/>
+  <rect x="135" y="80" width="20" height="40"/>
+
+  <!-- Body -->
+  <path d="M165,90 Q170,130 175,160"/>
+
+  <!-- Tail -->
+  <path d="M175,160 Q200,200 180,240"/>
+
+  <!-- Arms -->
+  <path d="M140,90 L165,130"/>
+  <path d="M190,90 L165,130"/>
+
+  <!-- Text -->
+  <text x="50%" y="280" text-anchor="middle" font-size="40">T-Rex</text>
+```
+
+3. **Bake according to the recipe's instructions:**
+```xml
+</svg>

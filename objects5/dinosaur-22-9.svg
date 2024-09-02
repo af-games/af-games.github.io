@@ -1,0 +1,39 @@
+<svg width="600" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Dinosaur's Body Outline -->
+  <rect x="10%" y="10%" width="80%" height="70%" rx="5%" ry="5%" fill="transparent" stroke="#4A210F" stroke-width="3"/>
+
+  <!-- Dinosaur's Head Outline -->
+  <circle cx="50%" cy="20%" r="30%" fill="transparent" stroke="#4A210F" stroke-width="3"/>
+
+  <!-- Shirt Body -->
+  <rect width="80%" height="50%" rx="4%" ry="4%" fill="#8DC63C" transform="translate(10%, 10%)"/>
+
+  <!-- Shirt Trim -->
+  <path d="M80% 0 H100% V50% H80%" stroke="#CD7F32" stroke-width="3" transform="translate(10%, 10%)"/>
+
+  <!-- Pants Body -->
+  <rect x="20%" y="40%" width="60%" height="60%" rx="4%" ry="4%" fill="#8DC63C" transform="translate(10%, 50%)"/>
+
+  <!-- Pants Leg Trim -->
+  <path d="M20% 100% H80% V70%" stroke="#CD7F32" stroke-width="3" transform="translate(10%, 50%)"/>
+
+  <!-- Collar Body -->
+  <rect x="50%" y="0%" width="50%" height="20%" rx="4%" ry="4%" fill="#FFFDD0" transform="translate(10%, 10%)"/>
+
+  <!-- Collar Trim -->
+  <path d="M50% 0 H100% V20%" stroke="#CD7F32" stroke-width="3" transform="translate(10%, 10%)"/>
+
+  <!-- Belt Body -->
+  <rect x="60%" y="80%" width="40%" height="10%" rx="4%" ry="4%" fill="#CD7F32" transform="translate(10%, 90%)"/>
+
+  <!-- Belt Buckle -->
+  <circle cx="75%" cy="90%" r="5%" fill="#CD7F32" stroke="#FFFDD0" stroke-width="2" transform="translate(10%, 90%)"/>
+
+  <!-- Cuffs Body -->
+  <rect x="15%" y="85%" width="20%" height="15%" rx="4%" ry="4%" fill="#CD7F32" transform="translate(10%, 85%)"/>
+
+  <!-- Cuffs Trim -->
+  <path d="M15% 100% H35% V95%" stroke="#FFFDD0" stroke-width="2" transform="translate(10%, 85%)"/>
+
+</svg>

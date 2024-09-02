@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+
+  <!-- Landmarks -->
+  <rect x="100" y="100" width="100" height="100" fill="#ff7f50"/>
+  <rect x="250" y="250" width="100" height="100" fill="#87ceeb"/>
+  <rect x="350" y="150" width="100" height="100" fill="#9acd32"/>
+
+  <!-- Paths to explore -->
+  <path d="M50,50 Q100,200 200,50 T400,450" stroke="#000" stroke-width="1"/>
+  <path d="M300,300 Q200,400 400,300" stroke="#000" stroke-width="1"/>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradient -->
+  <defs>
+    <linearGradient id="penguinGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+      <stop offset="50%" style="stop-color:rgb(0,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <g id="body" transform="translate(30,70)">
+    <rect width="4" height="8" fill="url(#penguinGradient)" x="0" y="0"/>
+    <repeat count="12">
+      <use xlink:href="#body" x="{0*5}" />
+    </repeat>
+  </g>
+
+  <!-- Head -->
+  <g id="head" transform="translate(90,40)">
+    <rect width="3" height="3" fill="url(#penguinGradient)" x="0" y="0"/>
+    <repeat count="8">
+      <use xlink:href="#head" x="{0*3}" />
+    </repeat>
+  </g>
+
+  <!-- Eye -->
+  <circle cx="125" cy="65" r="1.5" fill="white"/>
+  <circle cx="145" cy="65" r="1.5" fill="white"/>
+
+</svg>

@@ -1,0 +1,45 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="url(#bg-gradient)"/>
+  <defs>
+    <linearGradient id="bg-gradient" gradientTransform="rotate(90)">
+      <stop offset="5%" stop-color="#FFD700"/>
+      <stop offset="95%" stop-color="#FFA500"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Body -->
+  <rect x="120" y="80" width="360" height="240" fill="url(#body-gradient)" rx="40"/>
+  <defs>
+    <linearGradient id="body-gradient">
+      <stop offset="5%" stop-color="#FFA500"/>
+      <stop offset="95%" stop-color="#FFD700"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Head -->
+  <circle cx="240" cy="160" r="80" fill="url(#head-gradient)"/>
+  <defs>
+    <linearGradient id="head-gradient">
+      <stop offset="5%" stop-color="#FFFF99"/>
+      <stop offset="95%" stop-color="#FFFFFF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Eye -->
+  <circle cx="210" cy="140" r="10" fill="black"/>
+  <circle cx="270" cy="140" r="10" fill="black"/>
+
+  <!-- Beak -->
+  <polygon points="235,120 265,120 250,90" fill="orange"/>
+
+  <!-- Flipper -->
+  <path d="M80,240 Q120,280 160,240" stroke-width="10" stroke="#FFA500" fill="transparent"/>
+  <path d="M420,240 Q360,280 320,240" stroke-width="10" stroke="#FFA500" fill="transparent"/>
+
+  <!-- Feet -->
+  <rect x="70" y="300" width="10" height="40" fill="#FFA500"/>
+  <rect x="420" y="300" width="10" height="40" fill="#FFA500"/>
+
+</svg>

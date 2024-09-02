@@ -1,0 +1,28 @@
+<svg width="500" height="400" viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect x="0" y="0" width="500" height="400" fill="#E6F7FF"/>
+
+<!-- Body -->
+<circle cx="150" cy="200" r="90" fill="#3D9483"/>
+<path d="M150,200 Q120,170 110,180" stroke="#F5DEB3" stroke-width="20"/>
+
+<!-- Eyes -->
+<circle cx="125" cy="165" r="10" fill="#FFFFFF"/>
+<circle cx="175" cy="165" r="10" fill="#FFFFFF"/>
+<circle cx="125" cy="165" r="5" fill="#000000"/>
+<circle cx="175" cy="165" r="5" fill="#000000"/>
+
+<!-- Fins -->
+<!-- Dorsal fin -->
+<path d="M200,80 Q230,110 240,90 Z" fill="#3D9483"/>
+<!-- Pectoral fins -->
+<rect x="70" y="160" width="50" height="70" rx="20%" fill="#3D9483"/>
+<rect x="270" y="160" width="50" height="70" rx="20%" fill="#3D9483"/>
+<!-- Pelvic fins -->
+<path d="M140,280 Q100,250 100,280 Z" fill="#3D9483"/>
+<path d="M260,280 Q300,250 300,280 Z" fill="#3D9483"/>
+<!-- Caudal fin -->
+<path d="M150,330 Q170,360 180,330 Z" fill="#3D9483"/>
+
+</svg>

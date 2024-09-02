@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Definitions -->
+  <defs>
+    ...
+  </defs>
+
+  <!-- Tank Top -->
+  <use xlink:href="#tankTop"/>
+
+  <!-- Shorts -->
+  <use xlink:href="#shorts"/>
+
+  <!-- Ankle Bracelets -->
+  <use xlink:href="#ankleBracelet" transform="translate(45%, 60%)"/>
+  <use xlink:href="#ankleBracelet" transform="translate(65%, 60%)"/>
+
+  <!-- Puzzle-shaped Fossil Necklace -->
+  <use xlink:href="#necklace" transform="translate(25%, 17.5%) scale(3)"/>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#E5F2FF"/>
+
+  <!-- Landmass -->
+  <path d="M400,300 Q250,150 50,300 Q60,500 250,600 Q450,500 650,300 Q750,150 400,300" fill="#A9E8D9"/>
+
+  <!-- Mountains -->
+  <polygon points="50,500 250,600 450,500" fill="#6C757D"/>
+  <text x="150" y="570" font-family="Arial" font-size="18">Mount Medusa</text>
+
+  <!-- Rivers -->
+  <path d="M200,350 Q150,400 200,450" stroke="#4CAF50" fill="transparent"/>
+  <path d="M600,350 Q550,400 600,450" stroke="#4CAF50" fill="transparent"/>
+
+  <!-- Forests -->
+  <polygon points="120,370 180,370 150,450" fill="#009688"/>
+  <text x="150" y="420" font-family="Arial" font-size="18">Venus Forest</text>
+  <polygon points="680,370 740,370 700,450" fill="#009688"/>
+  <text x="700" y="420" font-family="Arial" font-size="18">Cassiopea Woods</text>
+
+  <!-- Lagoons & Jellyfish Habitats -->
+  <circle cx="300" cy="350" r="100" fill="#ADD8E6"/>
+  <circle cx="450" cy="270" r="70" fill="#ADD8E6"/>
+  <text x="300" y="320" font-family="Arial" font-size="18">Moon Jelly Lagoon</text>
+  <text x="450" y="240" font-family="Arial" font-size="18">Sea Nettle Cove</text>
+
+  <!-- Coastal Cities -->
+  <polygon points="350,550 450,550 400,620" fill="#FFFACD"/>
+  <text x="400" y="590" font-family="Arial" font-size="18">Port Auroria</text>
+
+  <!-- Paths connecting regions -->
+  <path d="M300,350 Q250,400 350,450" stroke="#6C7DFA" fill="transparent"/>
+  <path d="M450,300 Q500,350 550,300" stroke="#6C7DFA" fill="transparent"/>
+
+</svg>

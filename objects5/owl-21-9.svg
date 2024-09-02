@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#add8e6"/>
+  <rect x="50" y="520" width="30" height="40" fill="#006400"/>
+  <rect x="150" y="550" width="30" height="30" fill="#8b4513"/>
+
+  <!-- Body -->
+  <rect x="200" y="200" width="40" height="40" fill="#654321"/>
+  <rect x="210" y="210" width="30" height="30" fill="#7d5c3b"/>
+  <rect x="220" y="220" width="20" height="20" fill="#9a7049"/>
+
+  <!-- Wings -->
+  <rect x="180" y="150" width="40" height="40" fill="#a9a9a9"/>
+  <rect x="200" y="160" width="30" height="30" fill="#8c8c8c"/>
+  <rect x="210" y="170" width="20" height="20" fill="#000000"/>
+
+  <!-- Face -->
+  <rect x="250" y="100" width="30" height="30" fill="#f5ede4"/>
+  <rect x="260" y="110" width="20" height="20" fill="#fff5ee"/>
+  <rect x="270" y="120" width="10" height="10" fill="#d3b897"/>
+
+  <!-- Eyes -->
+  <rect x="260" y="140" width="10" height="10" fill="#000000"/>
+  <rect x="265" y="145" width="5" height="5" fill="#ffffff"/>
+  <rect x="270" y="150" width="5" height="3" fill="#4a2c19"/>
+
+  <!-- Beak -->
+  <polygon points="280,160 300,180 290,200" fill="#ffa500"/>
+  <polygon points="290,170 295,185 292,195" fill="#ffff00"/>
+
+</svg>

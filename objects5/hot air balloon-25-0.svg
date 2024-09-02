@@ -1,0 +1,15 @@
+<svg width="300" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Balloon Envelope -->
+  <ellipse cx="150" cy="80" rx="120" ry="60" fill="#ADD8E6"/>
+
+  <!-- Basket -->
+  <rect x="90" y="240" width="120" height="40" rx="20" fill="#8B4513"/>
+
+  <!-- Rope -->
+  <polyline points="150,280 160,290 170,280 180,290" stroke="#654321" fill="transparent"/>
+
+  <!-- Flame -->
+  <polygon points="130,300 150,320 170,300" fill="#FFA500" style="stroke: #FFF569; stroke-width: 5"/>
+
+</svg>

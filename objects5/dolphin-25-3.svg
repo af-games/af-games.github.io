@@ -1,0 +1,44 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E5F5E0"/>
+
+  <!-- Buildings (Dolphins) -->
+  <g stroke="#696969" stroke-width="2">
+    <!-- Head -->
+    <circle cx="300" cy="200" r="80" fill="#4CAF50"/>
+    <!-- Tail -->
+    <polygon points="450,200 550,100 600,200" fill="#4CAF50"/>
+    <!-- Body -->
+    <rect x="300" y="180" width="150" height="170" fill="#4CAF50"/>
+  </g>
+
+  <!-- Buildings (Dolphin fins) -->
+  <g stroke="#696969" stroke-width="2">
+    <!-- Left fin -->
+    <polygon points="300,280 250,350 350,350" fill="#4CAF50"/>
+    <!-- Right fin -->
+    <polygon points="450,280 400,350 500,350" fill="#4CAF50"/>
+  </g>
+
+  <!-- Buildings (Dolphin eye) -->
+  <circle cx="350" cy="170" r="20" fill="#fff" stroke="#696969"/>
+
+  <!-- Buildings (Supporting structures) -->
+  <g stroke="#696969" stroke-width="2">
+    <!-- Left support -->
+    <rect x="250" y="380" width="50" height="120" fill="#4CAF50"/>
+    <!-- Right support -->
+    <rect x="500" y="380" width="50" height="120" fill="#4CAF50"/>
+  </g>
+
+  <!-- Roads -->
+  <g stroke="#696969" stroke-width="4">
+    <!-- Horizontal road -->
+    <line x1="270" y1="380" x2="530" y2="380"/>
+    <!-- Vertical roads -->
+    <line x1="300" y1="380" x2="300" y2="450"/>
+    <line x1="450" y1="380" x2="450" y2="450"/>
+  </g>
+
+</svg>

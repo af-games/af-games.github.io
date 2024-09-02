@@ -1,0 +1,36 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <ellipse cx="150" cy="200" rx="120" ry="80" fill="#694f43"/>
+
+  <!-- Head -->
+  <circle cx="150" cy="150" r="70" fill="#694f43"/>
+
+  <!-- Ears -->
+  <ellipse transform="rotate(30 220 180)" cx="220" cy="180" rx="20" ry="10" fill="#694f43"/>
+  <ellipse transform="rotate(-30 180 180)" cx="180" cy="180" rx="20" ry="10" fill="#694f43"/>
+
+  <!-- Tail -->
+  <ellipse transform="rotate(75 250 270)" cx="250" cy="270" rx="30" ry="15" fill="#694f43"/>
+
+  <!-- Legs & Feet -->
+  <polygon points="180,300 220,350 280,350 220,400" fill="#694f43"/>
+  <polygon points="120,300 60,350 120,400 60,450" fill="#694f43"/>
+  <rect x="170" y="400" width="80" height="40" fill="#694f43"/>
+  <rect x="100" y="400" width="80" height="40" fill="#694f43"/>
+
+  <!-- Pouch -->
+  <ellipse cx="250" cy="350" rx="50" ry="30" fill="#fff"/>
+  <circle cx="250" cy="375" r="10" fill="#694f43"/>
+
+  <!-- Eyes & Nostrils -->
+  <circle cx="130" cy="140" r="8" fill="#000"/>
+  <circle cx="170" cy="140" r="8" fill="#000"/>
+  <circle cx="150" cy="120" r="3" fill="#fff"/>
+
+  <!-- Mouth & Claws -->
+  <path d="M160,190 Q170,200 160,210" stroke="#000" fill="transparent"/>
+  <circle cx="185" cy="450" r="5" fill="#694f43"/>
+  <circle cx="145" cy="450" r="5" fill="#694f43"/>
+
+</svg>

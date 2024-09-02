@@ -1,0 +1,21 @@
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="0" cy="70" rx="60" ry="140" fill="#FFB973"/>
+
+  <!-- Head -->
+  <circle cx="0" cy="80" r="50" fill="#FFB973"/>
+
+  <!-- Eyes -->
+  <circle cx="-25" cy="70" r="10" fill="#FFF"/>
+  <circle cx="25" cy="70" r="10" fill="#FFF"/>
+
+  <!-- Nose -->
+  <polygon points="-10,85 10,85 0,95" fill="#000"/>
+
+  <!-- Mane (simplified for this example) -->
+  <path d="M-60,30 Q-40,20 -20,50 Q20,80 60,50 Q40,20 60,30" fill="#FFB973"/>
+
+  <!-- Legs and Tail (simplified for this example) -->
+  <rect x="-15" y="140" width="30" height="60" rx="15" fill="#FFB973"/>
+  <ellipse cx="0" cy="200" rx="20" ry="40" fill="#FFB973"/>
+</svg>

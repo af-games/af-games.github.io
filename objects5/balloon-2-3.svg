@@ -1,0 +1,30 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Background -->
+<rect width="1920" height="1080" fill="#fff"/>
+
+<!-- Balloon layout based on golden ratio (16:9) -->
+
+<!-- Mountains (circles) -->
+<circle cx="400" cy="750" r="300" stroke="#008000" fill="transparent"/>
+<circle cx="1200" cy="500" r="250" stroke="#008000" fill="transparent"/>
+
+<!-- Rivers (paths with animations) -->
+<path id="river1" d="M40,750 Q900,600 1840,750" stroke="#008B8B" fill="transparent" stroke-width="30">
+  <animate attributeName="d" dur="5s" repeatCount="indefinite"
+    values="M40,750 Q900,600 1840,750; M40,720 Q900,570 1840,720; M40,750 Q900,600 1840,750" />
+</path>
+<path id="river2" d="M300,550 Q900,450 1500,550" stroke="#008B8B" fill="transparent" stroke-width="30">
+  <animate attributeName="d" dur="6s" repeatCount="indefinite"
+    values="M300,550 Q900,450 1500,550; M300,520 Q900,420 1500,520; M300,550 Q900,450 1500,550" />
+</path>
+
+<!-- Trees (polygons with animations) -->
+<polyline id="tree1" points="800,700 900,600 1000,700" stroke="#3D9970" fill="#3D9970" stroke-width="5">
+  <animateTransform attributeName="transform" type="rotate" from="0 900 650" to="360 900 650" dur="4s" repeatCount="indefinite"/>
+</polyline>
+<polyline id="tree2" points="1200,400 1100,300 1300,400" stroke="#3D9970" fill="#3D9970" stroke-width="5">
+  <animateTransform attributeName="transform" type="rotate" from="0 1200 350" to="360 1200 350" dur="4s" repeatCount="indefinite"/>
+</polyline>
+
+</svg>

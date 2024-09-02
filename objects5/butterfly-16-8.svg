@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+    <style>
+        @keyframes flap {
+            0%, 100% { transform: rotate(0deg); }
+            50% { transform: rotate(180deg); }
+        }
+
+        .wing {
+            fill: skyblue;
+            stroke: black;
+            stroke-width: 2;
+            animation: flap 2s infinite linear;
+        }
+    </style>
+
+    <path class="wing" d="M10,5 L30,5 Q40,15 60,5 L80,50 L60,95 L40,75 Q10,55 10,5"/>
+    <path class="wing" transform="rotate(180deg)" d="M10,5 L30,5 Q40,15 60,5 L80,50 L60,95 L40,75 Q10,55 10,5"/>
+
+</svg>

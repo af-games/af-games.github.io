@@ -1,0 +1,18 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Cake -->
+  <rect x="150" y="75" width="100" height="200" rx="50" ry="50" fill="#ffd6ba"/>
+  <circle cx="190" cy="180" r="30" fill="#f4a460"/>
+  <path d="M150 75 Q180 25, 190 75 T185 125" stroke="#8b4513" fill="transparent"/>
+
+  <!-- Candies (Tributaries) -->
+  <circle cx="60" cy="150" r="15" fill="#ffcc00"/>
+  <circle cx="90" cy="120" r="10" fill="#ffcc00"/>
+  <circle cx="300" cy="180" r="15" fill="#ffcc00"/>
+
+  <!-- Flowers (Tributaries) -->
+  <circle cx="70" cy="240" r="5" fill="#ff007f"/>
+  <circle cx="80" cy="260" r="3" fill="#ff007f"/>
+  <circle cx="120" cy="280" r="5" fill="#ff007f"/>
+
+</svg>

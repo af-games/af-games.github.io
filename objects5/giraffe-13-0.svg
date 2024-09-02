@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 40 60">
+
+  <!-- Face -->
+  <circle cx="0" cy="10" r="8" fill="tan"/>
+  <circle cx="-3" cy="7" r="0.5" fill="black"/> <!-- Left Eye -->
+  <circle cx="3" cy="7" r="0.5" fill="black"/> <!-- Right Eye -->
+  <path d="M-4,9 Q1,12 4,9" stroke="brown" fill="transparent"/>
+
+  <!-- Neck -->
+  <rect x="-2" y="8" width="4" height="20" fill="tan"/>
+
+  <!-- Body -->
+  <ellipse cx="0" cy="30" rx="15" ry="20" fill="brown"/>
+
+  <!-- Legs -->
+  <rect x="-6" y="30" width="2" height="30" fill="tan"/> <!-- Front Left Leg -->
+  <rect x="4" y="30" width="2" height="30" fill="tan"/> <!-- Front Right Leg -->
+  <rect x="-6" y="50" width="2" height="10" fill="brown"/> <!-- Front Left Hoof -->
+  <rect x="4" y="50" width="2" height="10" fill="brown"/> <!-- Front Right Hoof -->
+
+</svg>

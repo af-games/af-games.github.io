@@ -1,0 +1,20 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+  <!-- Body -->
+  <ellipse cx="100" cy="75" rx="60" ry="40"
+           style="fill:rgb(239,229,110); stroke:black; stroke-width:2"/>
+
+  <!-- Wings -->
+  <path d="M80,50 Q90,30 100,50 T120,50 Q110,30 100,50"
+        style="fill:rgb(244,165,130); stroke:black; stroke-width:2"/>
+
+  <!-- Antennae -->
+  <path d="M90,20 L90,5 L100,5 L100,20 Z"
+        style="fill:rgb(244,165,130); stroke:black; stroke-width:2"/>
+
+  <!-- Eyes -->
+  <circle cx="85" cy="60" r="5" style="fill:white"/>
+  <circle cx="115" cy="60" r="5" style="fill:white"/>
+  <circle cx="90" cy="60" r="3" style="fill:black"/>
+
+</svg>

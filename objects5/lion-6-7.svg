@@ -1,0 +1,25 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Pathways -->
+  <path d="M100 50 h600 v400 H100 Z" fill="lightgreen" stroke="black"/>
+  <path d="M300 200 h200 v200 H300 Z" fill="lightgreen" stroke="black"/>
+
+  <!-- Lion statues (structures) -->
+  <circle cx="150" cy="150" r="80" fill="sandybrown"/>
+  <circle cx="650" cy="450" r="60" fill="sandybrown"/>
+
+  <!-- Plants and organic forms (lions in the garden) -->
+  <path d="M200 300 C250 250, 350 200, 450 300 S550 350, 600 300" stroke="darkgreen" fill="transparent"/>
+  <path d="M180 270 C220 220, 290 250, 340 270 S410 290, 460 270" stroke="darkgreen" fill="transparent"/>
+  <path d="M350 400 C300 450, 250 400, 200 450 S150 400, 100 450" stroke="darkgreen" fill="transparent"/>
+
+  <!-- Light interaction -->
+  <rect x="0" y="0" width="800" height="600" fill="url(#grad)" />
+  <defs>
+    <radialGradient id="grad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(255,255,255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(204,204,204);stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+
+</svg>

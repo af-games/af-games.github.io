@@ -1,0 +1,17 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100,20 Q150,70 200,20 Q150,0 100,0" stroke="black" fill="none"/>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="30" rx="30" ry="40" stroke="black" fill="none"/>
+
+  <!-- Tail -->
+  <path d="M200,20 Q250,70 300,20 Q250,30 200,30" stroke="black" fill="none"/>
+
+  <!-- Legs -->
+  <rect x="90" y="80" width="10" height="40" stroke="black" fill="none"/>
+  <rect x="170" y="80" width="10" height="40" stroke="black" fill="none"/>
+  <rect x="250" y="80" width="10" height="40" stroke="black" fill="none"/>
+
+</svg>

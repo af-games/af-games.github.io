@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 30">
+  <!-- Body -->
+  <path fill="#8B7D6B"
+        d="M10,10 Q15,5 25,10 Q35,15 40,10"/>
+
+  <!-- Fin -->
+  <polygon fill="#C9AF8F" points="15,5 25,5 20,10"/>
+
+  <!-- Tail -->
+  <path fill="#8B7D6B"
+        d="M40,10 Q45,20 50,10"/>
+
+  <!-- Head -->
+  <circle cx="10" cy="10" r="5" fill="#C9AF8F"/>
+</svg>

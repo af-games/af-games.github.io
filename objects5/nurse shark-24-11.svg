@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 0 900 600">
+
+  <!-- Ancient Era -->
+  <rect id="ancient-era" x="0" y="450" width="150" height="70" fill="#E8D0A8" rx="20"/>
+  <text x="30" y="490" font-family="Arial" font-size="16">Ancient Era (200 million years ago)</text>
+
+  <!-- Medieval Era -->
+  <polygon id="medieval-era" points="300,500 370,550 440,500" fill="#8B4513"/>
+  <text x="325" y="520" font-family="Arial" font-size="16">Medieval Era (66 million years ago)</text>
+
+  <!-- Modern Era -->
+  <path id="modern-era" d="M550,450 Q600,350 700,450 T800,550" stroke="#2E86C1" fill="transparent"/>
+  <text x="590" y="490" font-family="Arial" font-size="16">Modern Era (Present)</text>
+
+  <!-- Future Era -->
+  <path id="future-era" d="M750,350 Q850,250 950,350 T1050,450" stroke="#FFD700" fill="transparent"/>
+  <text x="830" y="390" font-family="Arial" font-size="16">Future Era (Unknown)</text>
+
+</svg>

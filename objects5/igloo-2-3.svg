@@ -1,0 +1,24 @@
+<svg width="800" height="600" viewBox="-400 -300 800 600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Central Igloo -->
+  <ellipse cx="0" cy="0" rx="50" ry="25" fill="white"/>
+  <circle cx="0" cy="-10" r="40" stroke="black"/>
+
+  <!-- Surrounding Igloos -->
+  <ellipse cx="40" cy="30" rx="50" ry="25" fill="white"/>
+  <circle cx="40" cy="10" r="40" stroke="black"/>
+  <ellipse cx="-40" cy="30" rx="50" ry="25" fill="white"/>
+  <circle cx="-40" cy="10" r="40" stroke="black"/>
+  <ellipse cx="60" cy="15" rx="50" ry="25" fill="white"/>
+  <circle cx="60" cy="5" r="40" stroke="black"/>
+  <ellipse cx="-60" cy="15" rx="50" ry="25" fill="white"/>
+  <circle cx="-60" cy="5" r="40" stroke="black"/>
+
+  <!-- Watchtower -->
+  <circle cx="80" cy="75" r="15" fill="gray"/>
+  <line x1="80" y1="90" x2="80" y2="300" stroke="black" stroke-width="5"/>
+
+  <!-- Path -->
+  <path d="M-60,30 Q-40,20 -20,30 Q0,40 20,30 Q40,20 60,30 Q80,75 100,50" stroke="black"/>
+
+</svg>

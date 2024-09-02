@@ -1,0 +1,43 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Body -->
+<rect id="bodice" x="100" y="50" width="300" height="400"
+style="fill: url(#balloonGradient); stroke-width: 2; stroke: black;" />
+
+<!-- Sleeves -->
+<circle cx="85" cy="200" r="70" id="leftSleeve"/>
+<circle cx="315" cy="200" r="70" id="rightSleeve"/>
+
+<!-- Collar -->
+<path d="M100,50 Q200,60 300,50" id="collar"
+style="fill: url(#basketGradient); stroke-width: 2; stroke: black;" />
+
+<!-- Basket (pocket) -->
+<rect x="140" y="580" width="120" height="60"
+style="fill: url(#basketGradient); stroke-width: 2; stroke: black;" />
+<path d="M140,580 Q190,630 260,580 H140 Z" id="basketHandle"
+style="fill: none; stroke-width: 2; stroke: black;" />
+
+<!-- Balloon (back) -->
+<circle cx="200" cy="270" r="100"
+style="fill: url(#balloonGradient); stroke-width: 2; stroke: black;" />
+
+<!-- Seams -->
+<line x1="150" y1="200" x2="450" y2="200" style="stroke-width: 2; stroke: black;" />
+<line x1="300" y1="70" x2="300" y2="90" style="stroke-width: 2; stroke: black;" />
+
+<!-- Gradients -->
+<defs>
+  <linearGradient id="balloonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#FFD700; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#FFA500; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#FF4500; stop-opacity:1"/>
+  </linearGradient>
+  <linearGradient id="basketGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#F39C12; stop-opacity:1"/>
+    <stop offset="50%" style="stop-color:#D47306; stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#B75E04; stop-opacity:1"/>
+  </linearGradient>
+</defs>
+
+</svg>

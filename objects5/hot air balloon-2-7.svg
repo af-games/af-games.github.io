@@ -1,0 +1,35 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background gradient -->
+  <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:lightblue;stop-opacity:1" />
+    <stop offset="50%" style="stop-color:pink;stop-opacity:1" />
+    <stop offset="100%" style="stop-color:lightblue;stop-opacity:1" />
+  </linearGradient>
+
+  <!-- Mystic Mountains -->
+  <polygon points="280,5 460,90 370,160" fill="steelblue" stroke="black"/>
+  <text x="370" y="170" font-family="Verdana" font-size="14">Mystic Mountains</text>
+
+  <!-- Hot Air Balloon Region -->
+  <circle cx="425" cy="180" r="60" fill="gold"/>
+  <path d="M390,160 Q430,200 470,160" stroke="black" fill="transparent"/>
+  <text x="410" y="200" font-family="Verdana" font-size="14">Hot Air Balloon Region</text>
+
+  <!-- Skyward City -->
+  <polygon points="580,5 760,90 670,5" fill="lightgrey"/>
+  <text x="670" y="30" font-family="Verdana" font-size="14">Skyward City</text>
+
+  <!-- Crystal Forest -->
+  <polygon points="80,230 200,320 50,400" fill="green"/>
+  <text x="130" y="420" font-family="Verdana" font-size="14">Crystal Forest</text>
+
+  <!-- Whispering River -->
+  <path d="M80,50 Q280,150 80,270" stroke="blue" fill="transparent"/>
+  <text x="30" y="300" font-family="Verdana" font-size="14">Whispering River</text>
+
+  <!-- Rivers and Lakes -->
+  <path d="M80,50 Q280,150 460,90" stroke="blue" fill="transparent"/>
+  <circle cx="750" cy="300" r="50" fill="lightblue"/>
+
+</svg>

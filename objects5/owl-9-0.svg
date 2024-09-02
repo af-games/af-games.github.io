@@ -1,0 +1,27 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="150" cy="140" rx="150" ry="100" fill="#964F02"/>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="115" rx="100" ry="75" fill="#E6C783"/>
+
+  <!-- Left Eye -->
+  <circle cx="90" cy="70" r="15" fill="white" stroke="black"/>
+  <!-- Right Eye -->
+  <circle cx="150" cy="70" r="15" fill="white" stroke="black"/>
+
+  <!-- Beak -->
+  <polygon points="120,85 90,65 150,65" fill="yellow"/>
+
+  <!-- Feathers -->
+  <circle cx="70" cy="130" r="5" fill="url(#featherGradient)"/>
+  <circle cx="140" cy="125" r="5" fill="url(#featherGradient)" />
+  <!-- Add more feathers as desired -->
+
+  <defs>
+    <linearGradient id="featherGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#964F02"/>
+      <stop offset="100%" style="stop-color:#6B4108"/>
+    </linearGradient>
+  </defs>
+</svg>

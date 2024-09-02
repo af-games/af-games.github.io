@@ -1,0 +1,33 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Igloo -->
+  <path d="M150,75 A95,95 0 1,0 400,75 A95,95 0 1,0 150,275" fill="#FFFFFF"/>
+  <circle cx="300" cy="85" r="15" fill="#6CBBBF"/>
+
+  <!-- Rolling Hills -->
+  <path id="hill-pattern" d="M0,0 Q90,40 180,0 T360,0 Z"/>
+  <use href="#hill-pattern" x="75" y="200" width="300" height="200" fill="#69CD5A"/>
+  <use href="#hill-pattern" x="450" y="180" width="300" height="200" fill="#69CD5A"/>
+
+  <!-- Winding River -->
+  <path id="river-path" d="M75,475 Q200,500 350,475 Q500,525 650,475"/>
+  <use href="#river-path" fill="url(#river-gradient)"/>
+
+  <!-- Towering Trees -->
+  <defs>
+    <linearGradient id="tree-trunk" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5E3B1D"/>
+      <stop offset="100%" stop-color="#2F1908"/>
+    </linearGradient>
+    <radialGradient id="tree-leaves" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7DC855"/>
+      <stop offset="100%" stop-color="#2D943C"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="100" cy="300" rx="60" ry="120" fill="url(#tree-leaves)" stroke="url(#tree-trunk)" stroke-width="15"/>
+  <ellipse cx="700" cy="450" rx="60" ry="120" fill="url(#tree-leaves)" stroke="url(#tree-trunk)" stroke-width="15"/>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="600" fill="#B3E5FC"/>
+
+</svg>

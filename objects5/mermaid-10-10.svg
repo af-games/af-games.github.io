@@ -1,0 +1,18 @@
+<svg viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0D2C53"/>
+
+  <!-- Mermaid Tail & Body -->
+  <path d="M250,400 Q170,480 100,560 Q450,560 350,480 Q250,400 Z" fill="#ADD8E6"/>
+
+  <!-- Mermaid Skin -->
+  <path d="M250,480 Q170,560 250,640 Q330,560 250,480" fill="#FDD83A"/>
+
+  <!-- Mermaid Hair & Details -->
+  <path d="M220,460 Q200,440 180,460 Q200,480 220,500 Z" fill="#2196F3"/>
+  <path d="M270,460 Q290,440 310,460 Q290,480 270,500 Z" fill="#4CAF50"/>
+
+  <!-- Ocean Waves -->
+  <rect x="0" y="560" width="500" height="140" fill="#00BFFF"/>
+  <rect x="30" y="580" width="250" height="90" fill="#ADD8E6"/>
+</svg>

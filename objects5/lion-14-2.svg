@@ -1,0 +1,23 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect id="body" x="60" y="50" width="80" height="100" fill="#F9A54C" stroke="black"/>
+
+  <!-- Head -->
+  <circle id="head" cx="120" cy="70" r="40" fill="orange" stroke="black"/>
+  <path id="mane" d="M80,30 Q60,10 120,30 T180,30 Q140,50 120,70" stroke="orange" fill="transparent"/>
+
+  <!-- Eyes -->
+  <circle id="eye-left" cx="90" cy="60" r="5" fill="black"/>
+  <circle id="eye-right" cx="130" cy="60" r="5" fill="black"/>
+
+  <!-- Mouth -->
+  <path id="mouth" d="M90,90 Q110,110 120,90 T140,110 Q120,130 110,90" stroke="black" fill="transparent"/>
+
+  <!-- Legs -->
+  <path id="leg-front-left" d="M65,150 Q75,180 85,150" stroke="#F9A54C" fill="transparent"/>
+  <path id="leg-front-right" d="M135,150 Q125,180 115,150" stroke="#F9A54C" fill="transparent"/>
+  <path id="leg-back-left" d="M65,170 Q75,200 85,170" stroke="#F9A54C" fill="transparent"/>
+  <path id="leg-back-right" d="M135,170 Q125,200 115,170" stroke="#F9A54C" fill="transparent"/>
+
+</svg>

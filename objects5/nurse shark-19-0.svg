@@ -1,0 +1,25 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Shark Body -->
+  <ellipse cx="300" cy="350" rx="280" ry="170" fill="#BDBDBD"/>
+  <path d="M300,350 Q460,380 520,350 Q300,320 180,350" fill="#4A4A4A"/>
+
+  <!-- Shark Fins -->
+  <rect x="250" y="270" width="140" height="70" rx="35" fill="#4A4A4A"/>
+  <ellipse cx="180" cy="320" rx="40" ry="60" fill="#4A4A4A"/>
+  <ellipse cx="420" cy="320" rx="40" ry="60" fill="#4A4A4A"/>
+  <polygon points="520,350 570,380 520,410" fill="#4A4A4A"/>
+
+  <!-- Shark Eyes -->
+  <circle cx="200" cy="290" r="10"/>
+  <circle cx="400" cy="290" r="10"/>
+
+  <!-- Shark Snout -->
+  <polygon points="180,270 200,250 180,230" fill="#4A4A4A"/>
+
+  <!-- Shark Teeth -->
+  <path d="M190,350 L200,370 L210,350 Z" fill="#4A4A4A"/>
+  <path d="M220,350 L230,370 L240,350 Z" fill="#4A4A4A"/>
+  <path d="M250,350 L260,370 L270,350 Z" fill="#4A4A4A"/>
+
+</svg>

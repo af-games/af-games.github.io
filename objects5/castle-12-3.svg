@@ -1,0 +1,31 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Tower -->
+<rect x="150" y="100" width="100" height="200"
+      style="fill:blue; stroke-width:2; stroke:black"/>
+
+<!-- Walls -->
+<rect x="75" y="300" width="350" height="100"
+      style="fill:none; stroke-width:4; stroke:black"/>
+<polyline points="75,300 100,250 450,250"
+          style="fill:none; stroke-width:4; stroke:black"/>
+
+<!-- Gatehouse -->
+<rect x="275" y="275" width="150" height="50"
+      style="fill:blue; stroke-width:2; stroke:black"/>
+<polygon points="325,275 325,325 400,325"
+          style="fill:blue; stroke-width:2; stroke:black"/>
+
+<!-- Roads -->
+<line x1="75" y1="300" x2="375" y2="300"
+      style="stroke-width:8; stroke:black"/>
+<path d="M 400,325 C 450,375 500,325 500,275" fill="none"
+      stroke-width="8" stroke="black"/>
+
+<!-- Connecting roads -->
+<line x1="100" y1="250" x2="75" y2="300"
+      style="stroke-width:4; stroke:black"/>
+<line x1="450" y1="250" x2="400" y2="325"
+      style="stroke-width:4; stroke:black"/>
+
+</svg>

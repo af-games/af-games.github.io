@@ -1,0 +1,19 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Shark Outline (Path) -->
+  <path d="M100,100 Q200,75 300,100 Q250,150 300,200 Q200,250 100,200" fill="lightblue" stroke="black"/>
+
+  <!-- Roses (Circles) -->
+  <circle cx="150" cy="150" r="20" fill="red"/>
+  <circle cx="280" cy="120" r="20" fill="red"/>
+  <circle cx="350" cy="200" r="20" fill="red"/>
+
+  <!-- Daisies (Ellipses) -->
+  <ellipse cx="170" cy="190" rx="25" ry="15" fill="yellow"/>
+  <ellipse cx="300" cy="160" rx="25" ry="15" fill="yellow"/>
+
+  <!-- Tulips (Paths) -->
+  <path d="M240,70 L240,90 Q250,85 260,90 Z" fill="purple"/>
+  <path d="M320,110 L320,130 Q310,125 300,130 Z" fill="purple"/>
+
+</svg>

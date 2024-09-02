@@ -1,0 +1,20 @@
+<svg>` tag:
+
+```xml
+<svg width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake Stand -->
+  <rect x="40" y="190" width="120" height="60" fill="#8B4513" stroke="#5A3317"/>
+
+  <!-- Cake Body -->
+  <path d="M100,20 Q140,30 160,60 Q120,90 100,70 Q60,90 40,60 Q80,30 100,20" fill="#FCD116"/>
+
+  <!-- Cake Top -->
+  <path d="M100,65 L120,80 H80 Z" fill="#FCD116"/>
+
+  <!-- Cake Decoration (Piping) -->
+  <path d="M70,45 Q90,30 110,45 Q90,60 70,45" stroke="#C2A583" fill="transparent"/>
+  <path d="M80,55 Q100,65 120,55 Q100,45 80,55"/>
+
+  <!-- Cake Decoration (Frosting) -->
+  <circle cx="100" cy="75" r="30" fill="#FCD116"/>
+</svg>

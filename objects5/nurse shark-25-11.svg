@@ -1,0 +1,34 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Timeline -->
+<line x1="50" y1="570" x2="750" y2="570" stroke-width="2" stroke="#ccc"/>
+
+<!-- Ancient Era (Rectangles) -->
+<rect x="80" y="530" width="40" height="40" fill="#654321"/>
+<text x="120" y="570" text-anchor="start">Ancient Times</text>
+
+<!-- Medieval Era (Polygons) -->
+<polygon points="220,530 260,570 220,610 180,570" fill="#4CAF50"/>
+<text x="240" y="570" text-anchor="middle">Medieval</text>
+
+<!-- Renaissance Era (Paths) -->
+<path d="M350,530 Q400,610 450,530 Q500,610 550,530" fill="#2196F3"/>
+<text x="450" y="570" text-anchor="middle">Renaissance</text>
+
+<!-- Baroque Era (Polygons) -->
+<polygon points="600,530 640,570 680,530 620,590" fill="#9C27B0"/>
+<text x="640" y="570" text-anchor="middle">Baroque</text>
+
+<!-- Industrial Revolution (Rectangles) -->
+<rect x="690" y="530" width="40" height="80" fill="#A9A9A9"/>
+<text x="720" y="600" text-anchor="start">Industrial Revolution</text>
+
+<!-- Modern Era (Paths) -->
+<path d="M770,530 Q820,610 870,530 Q920,610 970,530" fill="#00BCD4"/>
+<text x="870" y="570" text-anchor="middle">Modern</text>
+
+<!-- Future Era (Paths) -->
+<path d="M980,530 Q1030,610 1080,530 Q1130,610 1180,530" fill="#FFC0CB"/>
+<text x="1080" y="570" text-anchor="middle">Future</text>
+
+</svg>

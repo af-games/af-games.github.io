@@ -1,0 +1,37 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="600" fill="#F5DEB3"/>
+
+  <!-- Wall shadows (left) -->
+  <path d="M10,20 Q70,10 140,20 H140 V600 H10 L10,580 Z" fill="#D7C081"/>
+
+  <!-- Wall shadows (right) -->
+  <path d="M690,20 Q730,10 760,20 H760 V600 H690 L690,580 Z" fill="#D7C081"/>
+
+  <!-- Wall (center) -->
+  <rect x="140" y="0" width="550" height="600" fill="#FDF5E6"/>
+
+  <!-- Owl outline and body -->
+  <path id="owl-body-path" d="M300,120 Q380,90 460,120 Q420,170 380,220 Q340,170 260,120 Z" fill="#7A5F3D"/>
+
+  <!-- Owl feathers (body) -->
+  <pattern id="feathers-body" patternUnits="userSpaceOnUse">
+    <path d="M0,0 L8,0 Q4,4 -2,0 Q-6,4 0,0 Z"/>
+    <animateTransform attributeName="transform" type="translate" from="0,-20" to="0,20" dur="1s" repeatCount="indefinite"/>
+  </pattern>
+  <use xlink:href="#owl-body-path" fill="url(#feathers-body)"/>
+
+  <!-- Owl eyes -->
+  <circle cx="350" cy="140" r="30" fill="#FFFFFF"/>
+  <circle cx="350" cy="140" r="20" fill="#3D2B1F"/>
+  <circle cx="410" cy="140" r="30" fill="#FFFFFF"/>
+  <circle cx="410" cy="140" r="20" fill="#3D2B1F"/>
+
+  <!-- Owl beak -->
+  <path d="M370,160 Q400,180 430,160 L450,200 L430,220 Z" fill="#FFDB58"/>
+
+  <!-- Owl branch -->
+  <path d="M300,260 Q200,300 150,260 L70,320 L30,360 H40 Q50,420 100,400 Z" stroke="#8B6C49" fill="transparent"/>
+
+</svg>

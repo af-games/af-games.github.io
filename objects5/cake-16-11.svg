@@ -1,0 +1,28 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cake base -->
+  <rect x="40" y="120" width="120" height="80" rx="20" fill="#FDD79A"/>
+
+  <!-- Cake top -->
+  <path d="M80,60 Q130,50 160,60 H80 Z" fill="#FDC17C"/>
+  <rect x="40" y="60" width="120" height="60" rx="20" fill="#FDD79A"/>
+
+  <!-- Icing -->
+  <path d="M50,30 Q80,20 110,30 H50 Z" stroke="black" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#F6EAD7; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFB347; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Candles -->
+  <circle cx="50" cy="20" r="5" fill="orange"/>
+  <circle cx="90" cy="20" r="5" fill="orange"/>
+  <circle cx="130" cy="20" r="5" fill="orange"/>
+
+  <!-- Candles' flames -->
+  <polygon points="45,20 55,10 65,20" fill="yellow"/>
+  <polygon points="85,20 95,10 105,20" fill="yellow"/>
+  <polygon points="125,20 135,10 145,20" fill="yellow"/>
+
+</svg>

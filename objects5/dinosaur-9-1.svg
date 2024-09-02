@@ -1,0 +1,19 @@
+<svg width="200" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <path d="M50,150 Q90,70 180,150" stroke="black" fill="orange" />
+
+  <!-- Tail -->
+  <polygon points="180,150 220,200 160,200" stroke="black" fill="orange"/>
+
+  <!-- Head -->
+  <circle cx="90" cy="70" r="40" stroke="black" fill="orange"/>
+
+  <!-- Arms -->
+  <rect x="30" y="80" width="20" height="100" stroke="black" fill="orange"/>
+  <rect x="60" y="90" width="20" height="80" stroke="black" fill="orange"/>
+
+  <!-- Legs -->
+  <rect x="40" y="180" width="30" height="50" stroke="black" fill="orange"/>
+  <rect x="100" y="180" width="30" height="50" stroke="black" fill="orange"/>
+
+</svg>

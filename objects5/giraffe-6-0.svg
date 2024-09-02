@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 600 450">
+  <!-- Body -->
+  <rect x="70" y="200" width="280" height="300" fill="#96693e"/>
+
+  <!-- Neck -->
+  <path d="M70,100 Q140,50 210,100" stroke="#96693e" fill="transparent"/>
+
+  <!-- Head -->
+  <circle cx="210" cy="80" r="50" stroke="#96693e" fill="#fff"/>
+  <circle cx="210" cy="70" r="40" stroke="#96693e" fill="#96693e"/>
+
+  <!-- Legs -->
+  <rect x="100" y="350" width="80" height="150" fill="#d2b48c"/>
+  <rect x="270" y="350" width="80" height="150" fill="#d2b48c"/>
+
+  <!-- Spots -->
+  <circle cx="150" cy="270" r="30" fill="#e9ad6f"/>
+  <circle cx="220" cy="240" r="30" fill="#e9ad6f"/>
+  <circle cx="280" cy="270" r="30" fill="#e9ad6f"/>
+
+  <!-- Face details -->
+  <path d="M180,50 Q200,40 220,50" stroke="#96693e" fill="transparent"/>
+  <circle cx="170" cy="60" r="5" fill="#96693e"/>
+</svg>

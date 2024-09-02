@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Main body (bell) -->
+  <circle cx="175" cy="175" r="160" fill="#8DC6DE"/>
+
+  <!-- Dome -->
+  <circle cx="175" cy="90" r="30" fill="#FFC30F"/>
+
+  <!-- Tentacles -->
+  <g id="tentacles">
+    <?php for ($i = 0; $i < 8; $i++): ?>
+      <ellipse cx="<?php echo sin($i * PI / 4) * 150 + 175; ?>" cy="<?php echo cos($i * PI / 4) * 150 + 90; ?>"
+               rx="60" ry="30" fill="#4AA1A7"/>
+    <?php endfor; ?>
+  </g>
+
+  <!-- Radial indentations -->
+  <defs>
+    <mask id="radial-indent">
+      <circle cx="175" cy="175" r="160"/>
+      <circle cx="175" cy="90" r="35" fill="white"/>
+    </mask>
+  </defs>
+  <use href="#tentacles" mask="url(#radial-indent)"/>
+
+</svg>

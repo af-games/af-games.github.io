@@ -1,0 +1,23 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+<!-- Main Melody (Lion's Roar) -->
+<rect x="50" y="150" width="50" height="50" fill="orange" rx="10"/>
+<path d="M100 200 Q150 250, 200 200 T300 200 Z" stroke="orange" fill="transparent"/>
+
+<!-- Harmony (Lion's Mane) -->
+<circle cx="400" cy="75" r="75" fill="brown"/>
+<path d="M400 150 A50,50 0 0 0 325 125 Z" stroke="brown" fill="transparent"/>
+
+<!-- Rhythm (Pride's Beat) -->
+<rect x="650" y="300" width="50" height="50" fill="yellow" rx="10"/>
+<circle cx="700" cy="400" r="25" fill="yellow"/>
+
+<!-- Overlapping Instruments (Lionesses' Harmony) -->
+<path d="M600 250 Q650 300, 700 250 T750 250 Z" stroke="pink" fill="transparent"/>
+<path d="M550 280 Q600 330, 650 280 T700 280 Z" stroke="pink" fill="transparent"/>
+
+<!-- Contrasting Instrument (Hyena's Laugh) -->
+<path d="M450 350 Q400 400, 350 350 Z" stroke="purple" fill="transparent"/>
+<path d="M500 400 Q450 450, 550 400 Z" stroke="purple" fill="transparent"/>
+
+</svg>

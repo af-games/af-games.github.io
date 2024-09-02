@@ -1,0 +1,34 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect x="0" y="0" width="100%" height="100%" fill="#E6F7FF"/>
+
+  <!-- Mons Aeris (Mountains) -->
+  <polygon points="200,50 300,50 400,200 200,250" fill="#98A5B0"/>
+  <polygon points="500,100 600,100 700,250 550,220" fill="#98A5B0"/>
+
+  <!-- Flumen Aetherius (Rivers) -->
+  <path d="M300,400 Q400,350 500,400 T600,400" stroke="#1E283D" fill="transparent"/>
+  <path d="M700,400 Q800,350 900,400 T1000,400" stroke="#1E283D" fill="transparent"/>
+
+  <!-- Silva Ventorum (Forests) -->
+  <polygon points="200,300 300,300 350,400 250,400" fill="#7DC855"/>
+  <polygon points="600,350 700,350 750,450 650,450" fill="#7DC855"/>
+
+  <!-- Urbs Caelum (Cities) -->
+  <circle cx="150" cy="200" r="40" fill="#FBB03B"/>
+  <circle cx="900" cy="250" r="40" fill="#FBB03B"/>
+
+  <!-- Nubes Portus (Hot Air Balloon Launch Site) -->
+  <circle cx="450" cy="300" r="80" fill="#FFC300"/>
+  <path d="M420,270 Q450,240 480,270" stroke="#FFC300" fill="transparent"/>
+
+  <!-- Labels -->
+  <text x="175" y="550" text-anchor="middle">Mons Aeris</text>
+  <text x="625" y="550" text-anchor="middle">Flumen Aetherius</text>
+  <text x="375" y="450" text-anchor="middle">Silva Ventorum</text>
+  <text x="125" y="250" text-anchor="middle">Urbs Caelum</text>
+  <text x="925" y="300" text-anchor="middle">Urbs Caelum</text>
+  <text x="450" y="375" text-anchor="middle" font-size="24">Nubes Portus</text>
+
+</svg>

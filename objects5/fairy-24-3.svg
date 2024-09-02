@@ -1,0 +1,24 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Skin -->
+  <circle cx="150" cy="200" r="80" fill="#FFD9CC" stroke="none"/>
+
+  <!-- Hair (fine lines) -->
+  <path d="M140,160 Q130,130 150,140 Q170,130 160,160" stroke="#32CD32" stroke-width="2"/>
+
+  <!-- Eyes (fine lines) -->
+  <circle cx="140" cy="180" r="10" fill="#2E8B57" stroke="none"/>
+  <circle cx="160" cy="180" r="10" fill="#2E8B57" stroke="none"/>
+
+  <!-- Wings (broad strokes) -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF5E6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#F8C477;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <path d="M130,220 Q150,260 170,220 Q150,180 130,220" fill="url(#grad1)" stroke="#F8C477" stroke-width="5"/>
+
+  <!-- Clothing (broad strokes) -->
+  <rect x="120" y="240" width="160" height="80" fill="#FF69B4" stroke="none"/>
+</svg>

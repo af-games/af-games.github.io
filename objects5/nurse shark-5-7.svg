@@ -1,0 +1,17 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <path d="M100,50 Q90,10 80,40 Q70,70 60,90 Q50,70 40,40 Q30,10 20,50" fill="#FFA07A"/>
+
+  <!-- Fins -->
+  <path d="M100,50 L120,70 L100,90 Z" fill="#FFA07A"/>
+  <path d="M60,80 Q40,90 30,80" fill="#FFA07A"/>
+
+  <!-- Tail -->
+  <path d="M20,50 Q30,30 20,10" fill="#FFA07A"/>
+
+  <!-- Eyes -->
+  <rect x="85" y="45" width="10" height="10" fill="#FFFFFF"/>
+  <rect x="95" y="45" width="10" height="10" fill="#FFFFFF"/>
+
+</svg>

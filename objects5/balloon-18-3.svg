@@ -1,0 +1,38 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#ADD8E6"/>
+
+  <!-- Mountains (Circles) -->
+  <circle cx="495" cy="720" r="180" fill="#FFFFFF"/>
+  <circle cx="1320" cy="540" r="120" fill="#FFFFFF"/>
+
+  <!-- Rivers (Paths with wave animation) -->
+  <path d="M100,900 C250,750 650,850 1200,900 S1750,750 1900,900" stroke="#38B4F3" fill="transparent">
+    <animate attributeName="d"
+             dur="5s"
+             repeatCount="indefinite"
+             values="
+               M100,900 C250,750 650,850 1200,900 S1750,750 1900,900;
+               M100,930 C250,780 650,880 1200,930 S1750,780 1900,930;
+               M100,900 C250,750 650,850 1200,900 S1750,750 1900,900"/>
+  </path>
+
+  <!-- Trees (Polygons with sway animation) -->
+  <polygon points="1450,810 1480,860 1420,860" fill="#3D9970">
+    <animateTransform attributeName="points"
+                      type="rotate"
+                      from="0 1450 810"
+                      to="360 1450 810"
+                      dur="2s"
+                      repeatCount="indefinite"/>
+  </polygon>
+  <polygon points="950,720 980,770 920,770" fill="#3D9970">
+    <animateTransform attributeName="points"
+                      type="rotate"
+                      from="0 950 720"
+                      to="360 950 720"
+                      dur="2s"
+                      repeatCount="indefinite"/>
+  </polygon>
+
+</svg>

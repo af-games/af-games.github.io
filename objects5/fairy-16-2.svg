@@ -1,0 +1,19 @@
+<svg width="120" height="100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <circle cx="0" cy="50" r="30" fill="#fff"/>
+
+  <!-- Head -->
+  <circle cx="0" cy="20" r="20" fill="#fff"/>
+  <circle cx="-10" cy="10" r="5" fill="#000"/>
+  <circle cx="10" cy="10" r="5" fill="#000"/>
+
+  <!-- Wings -->
+  <ellipse cx="-30" cy="25" rx="30" ry="15" fill="#f4cccc"/>
+  <ellipse cx="30" cy="25" rx="30" ry="15" fill="#f4cccc"/>
+
+  <!-- Hair -->
+  <path d="M0,20 Q-10,15 0,10 Q10,15 0,20" stroke="#000" fill="transparent"/>
+
+  <!-- Dress -->
+  <path d="M0,70 Q-15,80 0,90 Q15,80 0,70" stroke="#000" fill="transparent"/>
+</svg>

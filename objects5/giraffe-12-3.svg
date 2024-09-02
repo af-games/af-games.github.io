@@ -1,0 +1,20 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Body -->
+  <rect x="200" y="500" width="400" height="100" style="fill:chocolate;" />
+
+  <!-- Neck -->
+  <path d="M200,600 Q350,550 450,600" stroke="black" fill="transparent"/>
+
+  <!-- Head -->
+  <circle cx="450" cy="600" r="80" style="fill:tan;" />
+
+  <!-- Legs (Front) -->
+  <rect x="220" y="700" width="100" height="300" style="fill:chocolate;" />
+  <circle cx="250" cy="1000" r="40" style="fill:black;" />
+
+  <!-- Legs (Back) -->
+  <rect x="380" y="700" width="100" height="300" style="fill:chocolate;" />
+  <circle cx="410" cy="1000" r="40" style="fill:black;" />
+
+</svg>

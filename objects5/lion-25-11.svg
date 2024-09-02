@@ -1,0 +1,22 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Perimeter -->
+  <rect x="50" y="50" width="700" height="400" stroke="black" fill="none" />
+
+  <!-- Suspects' locations -->
+  <circle cx="150" cy="150" r="20" fill="red" />
+  <circle cx="350" cy="250" r="20" fill="blue" />
+  <circle cx="600" cy="120" r="20" fill="green" />
+
+  <!-- Clues: paths -->
+  <!-- Clue 1: Intersecting paths -->
+  <path d="M100 80 L250 120 Z" stroke="black" fill="none"/>
+  <path d="M300 100 L450 150" stroke="black" fill="none"/>
+
+  <!-- Clue 2: Converging paths -->
+  <path d="M50 200 Q200 80, 350 200 T600 200" stroke="black" fill="none"/>
+
+  <!-- Clue 3: Diverging paths -->
+  <path d="M400 300 L550 350 L650 300" stroke="black" fill="none"/>
+
+</svg>

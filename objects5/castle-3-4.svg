@@ -1,0 +1,21 @@
+<svg width="100" height="100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <g id="castle">
+    <path id="gates" d="M20,40 H80 V60 Z"/>
+    <path id="drawbridge" transform="translate(50,40) rotate(90)" d="M-10,-10 H70 V30 Z"/>
+  </g>
+  <animateTransform
+    attributeName="transform"
+    type="rotate"
+    from="0 40 80"
+    to="-90 40 80"
+    dur="5s"
+    begin="0s"
+    id="openGates"/>
+  <animateTransform
+    attributeName="transform"
+    type="translate"
+    from="50,40"
+    to="50,80"
+    dur="5s"
+    begin="openGates.end"/>
+</svg>

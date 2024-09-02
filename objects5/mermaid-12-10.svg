@@ -1,0 +1,15 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="250" cy="250" r="200" fill="#8dc63c" opacity="0.2"/>
+
+  <!-- Mermaid outline and patterns -->
+  <path d="M175,250 A75,75 0 1,0 325,250 ... " fill="#0d47a1"/>
+  <!-- Add more paths for intricate patterns -->
+
+  <!-- Sea creatures, waves, foliage -->
+  <!-- Repeat similar path elements with different colors and positions -->
+
+  <!-- Gold accents -->
+  <path d="..." stroke="#cd7f32" stroke-width="5"/>
+
+</svg>

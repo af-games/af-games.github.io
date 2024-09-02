@@ -1,0 +1,16 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="70" ry="90" fill="brown"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="80" rx="30" ry="40" fill="saddleBrown"/>
+  <!-- Neck -->
+  <rect x="90" y="125" width="20" height="50" fill="brown"/>
+  <!-- Ears -->
+  <polygon points="70,60 130,60 100,80" fill="saddleBrown"/>
+  <!-- Arms -->
+  <ellipse cx="70" cy="120" rx="15" ry="25" fill="brown"/>
+  <ellipse cx="130" cy="120" rx="15" ry="25" fill="brown"/>
+  <!-- Legs -->
+  <ellipse cx="70" cy="180" rx="20" ry="40" fill="brown"/>
+  <ellipse cx="130" cy="180" rx="20" ry="40" fill="brown"/>
+</svg>

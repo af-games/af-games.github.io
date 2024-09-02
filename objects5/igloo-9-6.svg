@@ -1,0 +1,38 @@
+<svg width="500px" height="700px" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+
+<!-- Background -->
+<rect x="0" y="0" width="500" height="700" fill="#ffffff"/>
+
+<!-- Mannequin -->
+<path d="M250,40 Q270,60 300,80 A20,15 0 0 1 250,95 Q200,100 150,80 A20,15 0 0 1 250,40 Z" fill="#f8f8f8"/>
+
+<!-- Igloo Jacket -->
+
+<!-- Front Panel -->
+<path id="frontPanel" d="M270,90 Q300,110 330,130 V600 H300 Z" stroke="none"
+fill="url(#iglooGradient)"/>
+
+<!-- Back Panel -->
+<path d="M230,90 Q200,110 170,130 V540 H200 Z" fill="url(#iglooGradient)" clip-path="url(#backClip)"/>
+<clipPath id="backClip">
+    <path d="M170,130 V540 H200 Z"/>
+</clipPath>
+
+<!-- Sleeves -->
+<circle cx="360" cy="190" r="70" fill="#ffffff"/>
+<circle cx="140" cy="190" r="70" fill="#ffffff"/>
+
+<!-- Hood (Half-circles) -->
+<path d="M250,130 A80,60 0 0 1 330,190 A80,60 0 0 1 250,250 Z" fill="#ffffff"/>
+<path d="M250,130 A80,60 0 0 0 170,190 A80,60 0 0 0 250,250 Z" fill="#ffffff"/>
+
+<!-- Igloo Gradient -->
+<defs>
+    <linearGradient id="iglooGradient">
+        <stop offset="0%" style="stop-color:rgb(47,159,238); stop-opacity:1"/>
+        <stop offset="100%" style="stop-color:rgb(73,216,234); stop-opacity:1"/>
+    </linearGradient>
+</defs>
+
+</svg>

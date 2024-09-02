@@ -1,0 +1,28 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Hot Air Balloon -->
+  <circle cx="400" cy="150" r="70" fill="#FF7F27"/>
+  <polygon points="380,150 420,150 400,250" fill="#FFB976"/>
+  <path d="M380,250 Q400,300 420,250" stroke="#FF7F27" fill="transparent"/>
+
+  <!-- Rolling Hills -->
+  <path id="hill-pattern" d="M100,400 Q200,350 300,400 Q400,450 500,400 Q600,350 700,400" stroke="none" fill="#8B7D6D"/>
+  <use href="#hill-pattern" x="100" y="200" fill="url(#hill-gradient)"/>
+
+  <!-- Winding River -->
+  <path d="M350,550 Q450,500 550,550 Q650,600 750,550" stroke="#708090" fill="transparent" stroke-width="10"/>
+  <rect width="800" height="50" x="0" y="550" fill="#708090"/>
+
+  <!-- Towering Trees -->
+  <g id="tree-template">
+    <circle cx="50" cy="300" r="20" fill="#66CDAA"/>
+    <polygon points="-50,-100 -50,100 50,-100 50,100" fill="#66CDAA" transform="rotate(45)"/>
+  </g>
+  <use href="#tree-template" x="200" y="300"/>
+  <use href="#tree-template" x="600" y="300"/>
+
+  <!-- Gradient for hills -->
+  <linearGradient id="hill-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#8B7D6D"/>
+    <stop offset="50%" style="stop-color:#A9A9A9"/>
+  </linearGradient>
+</svg>

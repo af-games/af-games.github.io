@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-25 -25 150 150">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffb6c1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#98fb98;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#add8e6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Bars -->
+  <g id="bars">
+    <g id="bar1path" d="M25%,100% q25,-50 t50,0">
+      <!-- Repeat for other bars with appropriate IDs and transformations -->
+    </g>
+    <!-- ... -->
+  </g>
+
+  <!-- Hot Air Balloon -->
+  <g id="balloon">
+    <!-- Balloon elements as defined above -->
+  </g>
+
+  <!-- Animations -->
+  <!-- Balloon ascending animation -->
+  <!-- Beats transition animations -->
+
+</svg>

@@ -1,0 +1,27 @@
+<svg width="500" height="700" xmlns="http://www.w3.org/2000/svg">
+  <!-- Giraffe Brown -->
+  <defs>
+    <linearGradient id="giraffeBrownGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   style="stop-color:rgb(178,134,91);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(156,112,76);stop-opacity:1"/>
+    </linearGradient>
+
+    <!-- Giraffe Spot -->
+    <pattern id="giraffeSpot" patternUnits="userSpaceOnUse" width="8" height="8">
+      <circle cx="4" cy="4" r="3.5" fill="black" stroke="white" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+
+  <!-- Neck & Shoulders -->
+  <rect x="10%" y="5%" width="80%" height="20%" fill="url(#giraffeBrownGrad)" stroke="black"/>
+
+  <!-- Sleeves -->
+  <circle cx="15%" cy="30%" r="15%" fill="url(#giraffeSpot)"/>
+  <circle cx="85%" cy="30%" r="15%" fill="url(#giraffeSpot)"/>
+
+  <!-- Bodice -->
+  <rect x="10%" y="25%" width="80%" height="65%" fill="url(#giraffeBrownGrad)" stroke="black"/>
+
+  <!-- Hems & Neckline -->
+  <path d="M10% 95%, Q30% 100%, 50% 95%, Q70% 100%, 90% 95%" fill="url(#giraffeBrownGrad)" stroke="black"/>
+</svg>

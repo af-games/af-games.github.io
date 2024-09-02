@@ -1,0 +1,36 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Castle pattern -->
+  <defs>
+    <pattern id="castlePattern" patternUnits="userSpaceOnUse" width="150" height="150">
+      <rect width="150" height="150" fill="#8B4513"/>
+      <polygon points="75,0 150,75 75,150 0,75" style="fill: #FFFFFF; stroke: #696969; stroke-width: 2"/>
+    </pattern>
+    <!-- Path pattern -->
+    <pattern id="pathPattern" patternUnits="userSpaceOnUse" width="30" height="30">
+      <image href="https://via.placeholder.com/30x30?text=Grass" width="30" height="30"/>
+    </pattern>
+  </defs>
+
+  <!-- Castle 1 -->
+  <polygon points="50,50 200,50 175,100 50,100"
+           fill="#C9664A" stroke="#696969" stroke-width="2"/>
+  <rect x="38" y="38" width="225" height="225" fill="url(#castlePattern)"/>
+
+  <!-- Castle 2 -->
+  <polygon points="275,100 425,100 400,175 275,175"
+           fill="#C9664A" stroke="#696969" stroke-width="2"/>
+  <rect x="302" y="88" width="225" height="225" fill="url(#castlePattern)"/>
+
+  <!-- Castle 3 -->
+  <polygon points="475,50 625,50 600,125 475,125"
+           fill="#C9664A" stroke="#696969" stroke-width="2"/>
+  <rect x="502" y="38" width="225" height="225" fill="url(#castlePattern)"/>
+
+  <!-- Paths -->
+  <path d="M175,100 C225,75 275,125 325,125 S425,75 475,100"
+        fill="url(#pathPattern)" stroke="#696969" stroke-width="2"/>
+  <path d="M300,175 Q350,200 400,175 S450,200 500,175"
+        fill="url(#pathPattern)" stroke="#696969" stroke-width="2"/>
+
+</svg>

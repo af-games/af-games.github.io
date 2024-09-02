@@ -1,0 +1,37 @@
+<svg>` tag:
+
+```xml
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Basic shapes -->
+  <rect x="100" y="75" width="300" height="300" fill="none" stroke="black"/>
+
+  <!-- Silhouette -->
+  <path d="M100,75 Q200,25 350,75 Q400,150 450,75 Q400,125 350,75 Q200,150 100,75" fill="none" stroke="black"/>
+
+  <!-- Details -->
+  <polygon points="150,75 200,125 150,175" fill="black"/>
+  <path d="M350,75 Q400,100 450,75" stroke="black"/>
+
+  <!-- Clipping -->
+  <clipPath id="wingClip">
+    <path d="M200,75 Q300,50 400,75"/>
+  </clipPath>
+  <g clip-path="url(#wingClip)">
+    <polygon points="200,125 300,225 400,125" fill="none" stroke="black"/>
+  </g>
+
+  <!-- Gradients and masks -->
+  <linearGradient id="featherGradient">
+    <stop offset="0%"   style="stop-color:rgb(180,130,90);stop-opacity:1"/>
+    <stop offset="50%"  style="stop-color:rgb(220,170,120);stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:rgb(240,200,150);stop-opacity:1"/>
+  </linearGradient>
+  <mask id="shadowMask">
+    <circle cx="350" cy="75" r="50" fill="black"/>
+    <circle cx="350" cy="75" r="40" fill="white"/>
+  </mask>
+  <g mask="url(#shadowMask)">
+    <rect x="100" y="75" width="300" height="300" fill="url(#featherGradient)"/>
+  </g>
+
+</svg>

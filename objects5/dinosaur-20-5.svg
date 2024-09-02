@@ -1,0 +1,25 @@
+<svg width="500px" height="300px" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dinosaur Head -->
+  <circle cx="100" cy="150" r="70" fill="green" />
+  <animateMotion id="head-animation" repeatCount="indefinite">
+    <mpath href="#head-path"/>
+  </animateMotion>
+
+  <!-- Dinosaur Body -->
+  <rect x="80" y="200" width="140" height="50" fill="green" />
+  <animateTransform attributeName="width" values="140;300;140" dur="2s" repeatCount="indefinite"/>
+  <!-- Repeat every second for a rhythm of approximately 60 bpm -->
+
+  <!-- Dinosaur Tail -->
+  <path id="tail-path" d="M350,250 Q450,350 500,250" stroke="green" fill="transparent"/>
+  <animateMotion repeatCount="indefinite">
+    <mpath href="#tail-path"/>
+  </animateMotion>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="300" fill="white"/>
+
+  <!-- Head Path for Animation -->
+  <path id="head-path" d="M100,150 A70,70 0 1,0 400,150 A70,70 0 1,0 100,230"/>
+
+</svg>

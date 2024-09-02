@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Lion's perimeter -->
+  <rect x="150" y="75" width="400" height="350" fill="none" stroke="black"/>
+```
+
+Now, let's add some clues as paths:
+
+1. **Claw Marks**: These could indicate a struggle or an attempt to escape.
+
+```svg
+  <!-- Claw marks -->
+  <path d="M275,180 Q350,140 425,180" stroke="black"/>
+  <path d="M275,230 Q350,280 425,230" stroke="black"/>
+```
+
+2. **Broken Whip**: A broken whip could suggest an attempt to control or restrain the lion.
+
+```svg
+  <!-- Broken whip -->
+  <path d="M175,200 Q200,260 250,200" stroke="black"/>
+  <path d="M250,200 L300,200" stroke-dasharray="4,2" stroke="black"/>
+```
+
+3. **Footprints**: These could lead us to other suspects or witnesses.
+
+```svg
+  <!-- Footprints -->
+  <circle cx="100" cy="300" r="30" fill="none" stroke="black"/>
+  <circle cx="50" cy="400" r="30" fill="none" stroke="black"/>
+```
+
+4. **Bloodstain**: This could indicate an injury, either to the lion or another suspect.
+
+```svg
+  <!-- Bloodstain -->
+  <ellipse cx="350" cy="275" rx="50" ry="60" fill="red"/>
+```
+
+Now, let's consider some interactions:
+
+- The claw marks and broken whip suggest a struggle between the lion and another suspect.
+- The footprints converge with the lion's perimeter, suggesting that another suspect might have approached or fled from the scene.
+- The bloodstain could intersect with either the lion's perimeter or the footprints, indicating an injury to either party.
+
+Finally, let's add some text for labels:
+
+```svg
+  <!-- Labels -->
+  <text x="5" y="30" font-family="Verdana" font-size="18">Crime Scene Investigation</text>
+  <text x="260" y="470" font-family="Verdana" font-size="14">Lion's perimeter</text>
+  <text x="50" y="320" font-family="Verdana" font-size="14">Footprints</text>
+  <text x="280" y="290" font-family="Verdana" font-size="14">Bloodstain</text>
+  <text x="60" y="250" font-family="Verdana" font-size="14">Claw marks</text>
+  <text x="370" y="250" font-family="Verdana" font-size="14">Broken whip</text>
+</svg>

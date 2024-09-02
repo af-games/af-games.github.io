@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -100 400 600">
+  <!-- Body -->
+  <rect id="body" x="-75" y="-150" width="150" height="200" fill="#8DC63C"/>
+
+  <!-- Head -->
+  <path id="head" d="M-75 -150 Q-50 -120, -75 -90 Q-100 -120, -75 -150" fill="#98FB98"/>
+
+  <!-- Legs -->
+  <rect id="leg-front-left" x="-100" y="-130" width="40" height="130" transform="rotate(30,-100,-65)" fill="#8DC63C"/>
+  <rect id="leg-front-right" x="30" y="-130" width="40" height="130" transform="rotate(-30,30,-65)" fill="#8DC63C"/>
+  <rect id="leg-back-left" x="-100" y="-70" width="40" height="120" transform="rotate(30,-100,-15)" fill="#8DC63C"/>
+  <rect id="leg-back-right" x="30" y="-70" width="40" height="120" transform="rotate(-30,30,-15)" fill="#8DC63C"/>
+
+  <!-- Arms -->
+  <rect id="arm-left" x="-120" y="-100" width="40" height="70" transform="rotate(45,-120,-50)" fill="#8DC63C"/>
+  <rect id="arm-right" x="80" y="-100" width="40" height="70" transform="rotate(-45,80,-50)" fill="#8DC63C"/>
+
+  <!-- Tail -->
+  <path id="tail" d="M-75 -50 Q-125 -75, -150 -25 Q-125 50, -75 90 Q-25 50, 0 -25 Z" fill="#8DC63C"/>
+
+  <!-- Eyes -->
+  <circle id="eye-left" cx="-60" cy="-140" r="15" fill="black"/>
+  <circle id="eye-right" cx="60" cy="-140" r="15" fill="black"/>
+
+</svg>

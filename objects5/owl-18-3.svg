@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 -10 140 160" style="background-color: #f5deb3;">
+
+<!-- Stage -->
+<rect x="-10" y="70" width="160" height="90" fill="#3d2b1f"/>
+
+<!-- Owl Body -->
+<ellipse cx="60" cy="90" rx="40" ry="80" fill="#e5e5e4"/>
+<circle cx="60" cy="70" r="10" fill="#ffcc33"/>
+
+<!-- Head -->
+<path d="M50,20 Q30,30 50,40 Q70,30 50,20 Z" fill="#e5e5e4"/>
+<circle cx="50" cy="15" r="5" fill="#ffcc33"/>
+
+<!-- Wings -->
+<path d="M20,80 Q40,60 60,70 Q80,60 100,80 Z" fill="#e5e5e4"/>
+<path d="M90,80 Q110,60 130,70 Q110,80 90,90 Z" fill="#e5e5e4"/>
+
+<!-- Legs -->
+<rect x="35" y="120" width="10" height="30" fill="#e5e5e4"/>
+<rect x="85" y="120" width="10" height="30" fill="#e5e5e4"/>
+
+<!-- Strings -->
+<line x1="50" y1="30" x2="60" y2="90" stroke="#7f7f7f"/>
+<!-- Add more lines for other strings, e.g., wings and legs -->
+
+</svg>

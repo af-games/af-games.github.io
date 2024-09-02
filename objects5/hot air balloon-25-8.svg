@@ -1,0 +1,29 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" style="background-color: #fff;">
+
+  <!-- Hot Air Balloon -->
+  <g id="hot-air-balloon">
+    <path d="M150 50 Q175 25, 200 50 L200 250 Q225 300, 250 300 L300 200 Z" fill="#ffa500" stroke="black"/>
+    <circle cx="275" cy="150" r="50" fill="#fff"/>
+    <path d="M325 150 Q350 175, 325 200 Z" fill="#ffa500" stroke="black"/>
+    <rect x="250" y="275" width="100" height="25" fill="#ffa500"/>
+  </g>
+
+  <!-- Fork -->
+  <path d="M380 400 L400 450 Z" stroke="black"/>
+
+  <!-- Knife -->
+  <path d="M420 410 Q440 460, 460 410 Z" fill="none" stroke="black"/>
+
+  <!-- Napkin -->
+  <rect x="375" y="475" width="50" height="50" fill="#fff"/>
+  <path d="M380 525 Q390 550, 400 525 Z" stroke="black"/>
+
+  <!-- Garnish (parsley) -->
+  <polygon points="460,410 470,400 480,410" fill="green"/>
+  <path d="M470 410 Q475 395, 480 410 Z" fill="green"/>
+
+  <!-- Tableware (plate) -->
+  <circle cx="250" cy="450" r="150" stroke="black"/>
+  <path d="M200 600 Q275 550, 350 600 Z" fill="#fff"/>
+
+</svg>

@@ -1,0 +1,31 @@
+<svg width="100%" height="100%" viewBox="-50 -50 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define dolphin pattern -->
+  <defs>
+    <pattern id="dolphinPattern" patternUnits="userSpaceOnUse" width="100" height="80">
+      <image href="https://upload.wikimedia.org/wikipedia/commons/a/ae/Dolphin_icon.svg" x="0" y="0" width="100" height="80"/>
+    </pattern>
+  </defs>
+
+  <!-- Winding trails -->
+  <path id="trail1" d="M0,0 C25,-30 Q50,-10 H100" stroke="black" fill="none"/>
+  <path id="trail2" d="M0,-80 C-25,-60 Q-50,-40 H-100" stroke="black" fill="none"/>
+
+  <!-- Interactive dolphins along trails -->
+  <text>
+    <textPath xlink:href="#trail1">
+      <textLength adjustment="utf">300</textLength>
+      <tspan textLength="50" style="font-size:80px;fill:url(#dolphinPattern)"></tspan>
+    </textPath>
+  </text>
+
+  <!-- Interactive dolphins along trails -->
+  <text>
+    <textPath xlink:href="#trail2">
+      <textLength adjustment="utf">300</textLength>
+      <tspan textLength="50" style="font-size:80px;fill:url(#dolphinPattern)"></tspan>
+    </textPath>
+  </text>
+
+  <!-- Garden border -->
+  <rect x="-100" y="-100" width="200" height="200" stroke="black" fill="lightgreen"/>
+</svg>

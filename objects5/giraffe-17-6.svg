@@ -1,0 +1,36 @@
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Front Bodice -->
+  <rect id="front-bodice" x="150" y="100" width="300" height="400"
+    style="fill:lightgrey; stroke:black; stroke-width:3" />
+
+  <!-- Back Bodice -->
+  <rect id="back-bodice" x="150" y="100" width="300" height="400"
+    style="fill:lightgrey; stroke:black; stroke-width:3" />
+
+  <!-- Sleeves -->
+  <path id="sleeve-path" d="M280,70 Q350,70 350,140 A140,140 0 0 0 280,210"
+    style="fill:lightgrey; stroke:black; stroke-width:3" />
+  <use xlink:href="#sleeve-path" transform="translate(-600,0)"/>
+
+  <!-- Giraffe Pattern (Front) -->
+  <image href="https://i.imgur.com/7XN8VYj.png" x="150" y="100"
+    width="300" height="400" clip-path="url(#giraffe-clip)" />
+
+  <!-- Abstract Spots (Back) -->
+  <defs>
+    <linearGradient id="spot-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color: darkgrey; stop-opacity: 1"/>
+      <stop offset="50%" style="stop-color: lightgrey; stop-opacity: 1"/>
+      <stop offset="100%" style="stop-color: darkgrey; stop-opacity: 1"/>
+    </linearGradient>
+  </defs>
+  <circle cx="200" cy="350" r="40" fill="url(#spot-gradient)" />
+  <!-- Repeat spots here... -->
+
+  <!-- Clipping mask for Giraffe Pattern -->
+  <clipPath id="giraffe-clip">
+    <rect x="150" y="100" width="300" height="400"/>
+  </clipPath>
+
+</svg>

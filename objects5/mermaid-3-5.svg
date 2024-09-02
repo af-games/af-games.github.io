@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 600">
+  <!-- Black velvet background -->
+  <rect x="0" y="0" width="500" height="600" fill="#000"/>
+
+  <!-- Mermaid's body -->
+  <g id="mermaid">
+    <ellipse cx="250" cy="350" rx="150" ry="200" fill="url(#grad-body)" />
+    <clipPath id="clip-mermaid-face">
+      <ellipse cx="250" cy="280" rx="70" ry="90"/>
+    </clipPath>
+    <g clip-path="url(#clip-mermaid-face)">
+      <!-- Face details (eyes, mouth) -->
+    </g>
+  </g>
+
+  <!-- Mermaid's hair -->
+  <path d="M250,160 Q300,120 350,180" stroke="#00ffff" fill="transparent"/>
+
+  <!-- Mermaid's tail -->
+  <path d="M250,400 C200,450 300,500 250,550 S200,650 100,700 Z" fill="#800080"/>
+
+  <!-- Pendant setting -->
+  <ellipse cx="250" cy="350" rx="180" ry="240" stroke="#fff" stroke-width="5"/>
+
+  <!-- Glow effect -->
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="15"/>
+    <feMerge>
+      <feMergeNode in="SourceGraphic"/>
+      <feMergeNode in="BackgroundImage"/>
+    </feMerge>
+  </filter>
+
+  <use xlink:href="#mermaid" filter="url(#glow)" />
+
+</svg>

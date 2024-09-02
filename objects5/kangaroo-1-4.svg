@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <defs>
+    <circle id="head" cx="0" cy="0" r="20"/>
+    <rect id="body" width="40" height="30"/>
+    <path id="left-leg" d="M -20,-30 Q -15,-25 0,-20 Z"/>
+    <path id="right-leg" d="M 20,-30 Q 15,-25 0,-20 Z"/>
+    <circle id="tail" cx="10" cy="-15" r="5"/>
+  </defs>
+```
+
+Now, let's animate each component into place:
+
+```svg
+<!-- Head moves from (-30, -40) to (0, 0), rotating 90 degrees -->
+<use xlink:href="#head" x="-30" y="-40" transform="rotate(90)" style="animation: moveHead 2s linear;">
+  <animateTransform attributeName="transform" type="rotate" from="90" to="0" dur="2s"/>
+</use>
+
+<!-- Body moves from (-15, -35) to (0, 0), rotating 90 degrees -->
+<use xlink:href="#body" x="-15" y="-35" transform="rotate(90)" style="animation: moveBody 2s linear;">
+  <animateTransform attributeName="transform" type="rotate" from="90" to="0" dur="2s"/>
+</use>
+
+<!-- Left leg moves from (-30, -45) to (0, -30), rotating 90 degrees -->
+<use xlink:href="#left-leg" x="-30" y="-45" transform="rotate(90)" style="animation: moveLeftLeg 2s linear;">
+  <animateTransform attributeName="transform" type="rotate" from="90" to="0" dur="2s"/>
+</use>
+
+<!-- Right leg moves from (30, -45) to (0, -30), rotating 90 degrees -->
+<use xlink:href="#right-leg" x="30" y="-45" transform="rotate(90)" style="animation: moveRightLeg 2s linear;">
+  <animateTransform attributeName="transform" type="rotate" from="90" to="0" dur="2s"/>
+</use>
+
+<!-- Tail moves from (15, -60) to (10, -15), rotating 90 degrees -->
+<use xlink:href="#tail" x="15" y="-60" transform="rotate(90)" style="animation: moveTail 2s linear;">
+  <animateTransform attributeName="transform" type="rotate" from="90" to="0" dur="2s"/>
+</use>
+```
+
+Each component moves into place with a rotation animation, and they all start at different positions and rotate different amounts so that they end up in their final positions. Here's the combined performance as an SVG file:
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <defs>
+    <circle id="head" cx="0" cy="0" r="20"/>
+    <rect id="body" width="40" height="30"/>
+    <path id="left-leg" d="M -20,-30 Q -15,-25 0,-20 Z"/>
+    <path id="right-leg" d="M 20,-30 Q 15,-25 0,-20 Z"/>
+    <circle id="tail" cx="10" cy="-15" r="5"/>
+  </defs>
+
+  <!-- Head moves from (-30, -40) to (0, 0), rotating 90 degrees -->
+  <use xlink:href="#head" x="-30" y="-40" transform="rotate(90)" style="animation: moveHead 2s linear;">
+    <animateTransform attributeName="transform" type="rotate" from="90" to="0" dur="2s"/>
+  </use>
+
+  <!-- Body moves from (-15, -35) to (0, 0), rotating 90 degrees -->
+  <use xlink:href="#body" x="-15" y="-35" transform="rotate(90)" style="animation: moveBody 2s linear;">
+    <animateTransform attributeName="transform" type="rotate" from="90" to="0" dur="2s"/>
+  </use>
+
+  <!-- Left leg moves from (-30, -45) to (0, -30), rotating 90 degrees -->
+  <use xlink:href="#left-leg" x="-30" y="-45" transform="rotate(90)" style="animation: moveLeftLeg 2s linear;">
+    <animateTransform attributeName="transform" type="rotate" from="90" to="0" dur="2s"/>
+  </use>
+
+  <!-- Right leg moves from (30, -45) to (0, -30), rotating 90 degrees -->
+  <use xlink:href="#right-leg" x="30" y="-45" transform="rotate(90)" style="animation: moveRightLeg 2s linear;">
+    <animateTransform attributeName="transform" type="rotate" from="90" to="0" dur="2s"/>
+  </use>
+
+  <!-- Tail moves from (15, -60) to (10, -15), rotating 90 degrees -->
+  <use xlink:href="#tail" x="15" y="-60" transform="rotate(90)" style="animation: moveTail 2s linear;">
+    <animateTransform attributeName="transform" type="rotate" from="90" to="0" dur="2s"/>
+  </use>
+</svg>

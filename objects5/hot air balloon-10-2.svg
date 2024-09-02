@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100">
+  <!-- Balloon body -->
+  <circle cx="0" cy="0" r="40" fill="#FFD700" opacity="0.8"/>
+  <circle cx="0" cy="0" r="35" fill="white"/>
+
+  <!-- Basket -->
+  <rect x="-12" y="15" width="24" height="30" rx="6" fill="#CD7F32"/>
+  <rect x="-9" y="21" width="18" height="8" fill="#696969"/>
+
+  <!-- Burner -->
+  <rect x="8" y="5" width="4" height="10" fill="#FF0000">
+    <animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M7,9 H13 v8 H7 Z" fill="#FF0000"/>
+
+  <!-- Ropes -->
+  <path d="M-12,15 Q-6,-10 0,-20" stroke="#696969"/>
+  <path d="M12,15 Q6,-10 0,-20" stroke="#696969"/>
+
+  <!-- Shadows -->
+  <circle cx="0" cy="0" r="45" fill="none" stroke="#333" stroke-width="2" opacity="0.2"/>
+</svg>
