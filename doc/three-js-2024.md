@@ -229,7 +229,7 @@ Also, this code is executed very early! Code at the root level `<script setup la
 Using the usual `const myElement = ref()` results in an untyped ref for the canvas, so provide some explicit typing information:
 
 ```vue
-const container: Ref<HTMLCanvasElement | undefined> = ref()
+const container: Ref<HTMLElement | undefined> = ref()
 ```
 
 At root level, `container.value` will be undefined. in `onMounted`, `container.value` will (if the corresponding element exists in the template) contain a full `HTMLElement`, aka a `<div>`.
