@@ -10,7 +10,7 @@ Install the following:
 
 Node version manager - helps you make sure you're running a recent version of Node. Installing Node via other means (eg. apt or dpkg) is not recommended.
 
-Visit: https://github.com/nvm-sh/nvm/blob/master/README.md
+Visit: [NVM](https://github.com/nvm-sh/nvm/blob/master/README.md)
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
@@ -42,7 +42,7 @@ v20.17.0
 
 ### PNPM
 
-Pnpm is a drop-in replacement for npm which is faster and more secure. We install it using the global flag on npm.
+(Pnpm)[https://pnpm.io/] is a drop-in replacement for npm which is faster and more secure. We install it using the global flag on npm.
 
 ```bash
 npm --global install pnpm
@@ -58,7 +58,7 @@ for short.
 
 ### Vite
 
-Vite is a high quality tool that makes browser dev more pleasant. In any sane ecosystem it would be an added extra. For JS, it's mandatory! https://vitejs.dev/guide/
+[Vite](https://vitejs.dev/guide) is a high quality tool that makes browser dev more pleasant. In any sane ecosystem it would be an added extra. For JS, it's mandatory!
 
 In your development directory, which we will assume exists...
 
@@ -84,7 +84,7 @@ Done. Now run:
   pnpm run dev
 ```
 
-Visiting localhost, we find the 'Vite + Vue' starter page.
+Visiting (http://localhost:5173/)[http://localhost:5173/], we find the 'Vite + Vue' starter page.
 
 ### Installing packages
 
@@ -104,15 +104,13 @@ Open the project in VSCode:
 code .
 ```
 
-Go to `http://localhost:5173/` in your browser (preferably Chrome, it's faster than Firefox for WebGL)
-
 ### First Steps with Vite / Vue
 
 Ignore `index.html` for now, the heart of your app is `src/App.vue`
 
-It demonstrates how to encapsulate functionality in custom components. Inspect `App.vue` and `HelloWorld.vue` taking note of how HelloWorld is referenced from App.
+It demonstrates how to encapsulate functionality in custom components. Inspect `App.vue` and `HelloWorld.vue` taking note of how `HelloWorld` is referenced from `App`.
 
-We will hijack HelloWorld.vue to be a game. Strip out almost everything from `App.vue` so it looks like this:
+We will hijack `HelloWorld.vue` to be a game. Strip out almost everything from `App.vue` so it looks like this:
 
 ```vue
 <script setup lang="ts">
@@ -129,7 +127,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 Going back to the browser, no need to refresh, the page will have the branding removed.
 
-Rename `HelloWorld.vue` to `Game.vue` and update all three references to it in `App.vue`:
+Rename `HelloWorld.vue` to `Game.vue` and update all three references to it in `App.vue`, removing the passed prop:
 
 ```vue
 <script setup lang="ts">
@@ -138,20 +136,6 @@ import Game from './components/Game.vue'
 
 <template>
   <Game/>
-</template>
-
-<style scoped>
-</style>
-```
-
-Game will complain that we are not passing it a prop. Rather than satisfying the requirement, remove it by similarly gutting `Game.vue`:
-
-```vue
-<script setup lang="ts">
-</script>
-
-<template>
-    Hello this is Game.vue
 </template>
 
 <style scoped>
@@ -273,5 +257,7 @@ const container: Ref<HTMLElement | undefined> = ref()
 
 <style scoped></style>
 ```
+
+Now, go and plunder the (Three JS examples library)[https://threejs.org/examples/].
 
 Have fun!
